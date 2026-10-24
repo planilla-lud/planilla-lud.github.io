@@ -79,8 +79,9 @@ async function workersAI(env, sistema, mensajes) {
 }
 async function gemini(env, sistema, mensajes) {
   const modelo = env.GEMINI_MODELO || 'gemini-flash-lite-latest';
-  const r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${modelo}:generateContent?key=${env.GEMINI_KEY}`, {
-    method: 'POST', headers: { 'Content-Type': 'application/json' },
+  // La clave va en el encabezado (sirve para las viejas "AIza…" y las nuevas "AQ.…").
+  const r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${modelo}:generateContent`, {
+    method: 'POST', headers: { 'Content-Type': 'application/json', 'x-goog-api-key': env.GEMINI_KEY },
     body: JSON.stringify({ systemInstruction: { parts: [{ text: sistema }] }, generationConfig: { maxOutputTokens: 600, temperature: 0.3 },
       contents: mensajes.map(m => ({ role: m.role === 'assistant' ? 'model' : 'user', parts: [{ text: m.content }] })) }),
   });
