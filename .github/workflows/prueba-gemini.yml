@@ -1,0 +1,26 @@
+name: Probar Gemini (temporal)
+on:
+  push:
+    branches: [prueba-gemini]
+permissions:
+  contents: write
+jobs:
+  g:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v5
+      - env:
+          GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          echo "largo de la clave: ${#GEMINI_KEY}" > tmp/gemini-resultado.txt
+          for m in gemini-flash-lite-latest gemini-flash-latest; do
+            code=$(curl -s -o r.json -w '%{http_code}' -X POST "https://generativelanguage.googleapis.com/v1beta/models/$m:generateContent" \
+              -H "Content-Type: application/json" -H "x-goog-api-key: $GEMINI_KEY" \
+              -d '{"contents":[{"role":"user","parts":[{"text":"Decí en una frase en español rioplatense quién ganó el Mundial 1950."}]}]}')
+            echo "$m -> HTTP $code: $(jq -c '.candidates[0].content.parts[0].text // .error.message' r.json)" >> tmp/gemini-resultado.txt
+          done
+          (cd worker && npx -y wrangler@3 secret list 2>&1 | grep -o '"name": *"[A-Z_]*"' >> ../tmp/gemini-resultado.txt) || echo "no se pudo listar" >> tmp/gemini-resultado.txt
+          git config user.name github-actions; git config user.email github-actions@users.noreply.github.com
+          git add -f tmp/gemini-resultado.txt && git commit -qm resultado && git push
