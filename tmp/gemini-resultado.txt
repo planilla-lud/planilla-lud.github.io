@@ -1,0 +1,4 @@
+largo de la clave: 53
+gemini-flash-lite-latest -> HTTP 200: "¡El Mundial de 1950 lo ganó Uruguay, papá, cuando metió el famoso Maracanazo y le ganó a Brasil en su propia casa!"
+gemini-flash-latest -> HTTP 200: "El Mundial de 1950 lo ganó Uruguay, metiendo el histórico Maracanazo contra Brasil en su propia cancha."
+"name": "GEMINI_KEY"
