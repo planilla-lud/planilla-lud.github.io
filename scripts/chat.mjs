@@ -108,5 +108,8 @@ for (const cat of indice.categorias) for (const dv of cat.divisionales) {
 }
 
 const salida = { actualizado: new Date().toISOString(), ultimoResultado, equipos, jugadores, tablas, tablasRaw };
+// Códigos de la Liga de cada divisional, para que el servidor consulte resultados y tablas en vivo (/vivo).
+writeFileSync(new URL('ligas.json', DATA), JSON.stringify(Object.fromEntries(VISTAS.map(v => [v.id,
+  { torneo: v.torneo, categoria: v.categoria, series: v.copa ? { [v.copa]: v.series[v.copa] } : v.series }]))));
 writeFileSync(new URL('chat.json', DATA), JSON.stringify(salida));
 console.log(`Chat: ${equipos.length} equipos, ${jugadores.length} jugadores, ${Math.round(JSON.stringify(salida).length / 1024)} KB.`);

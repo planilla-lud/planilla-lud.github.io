@@ -4,6 +4,7 @@
 // acabó la cuota y hay claves configuradas, Gemini o Groq (también con plan gratis). Nada de esto cobra:
 // si se acaban todas las cuotas del día, el chat avisa que vuelvan mañana.
 import { buscar, contexto } from './buscar.js';
+import { corto, TEMPORADA } from '../../scripts/comun.mjs';
 
 const ORIGENES = ['https://planilla-lud.github.io', 'http://localhost:8774', 'http://127.0.0.1:8774'];
 const MAX_PREGUNTA = 400, MAX_HISTORIAL = 6;
@@ -37,6 +38,44 @@ async function cambiarProvisorio(env, c) {
   lista = lista.slice(-200);
   await env.PROV.put('lista', JSON.stringify(lista));
   return [200, { ok: true, lista }];
+}
+
+// ---- en vivo: resultados y tabla oficial directo de la Liga ----
+// La página pide /vivo?div=mayores-a y recibe lo que la Liga tiene AHORA (guardado 5 minutos), por si el
+// robot todavía no pasó. Solo resultados y posiciones: las planillas las sigue bajando el robot.
+let ligas = null, ligasHasta = 0;
+async function cargarLigas(env) {
+  if (ligas && Date.now() < ligasHasta) return ligas;
+  const base = (env.DATOS_URL || 'https://planilla-lud.github.io/data/chat.json').replace(/chat\.json$/, 'ligas.json');
+  const r = await fetch(base, { cf: { cacheTtl: 600 } });
+  if (!r.ok) throw new Error('sin ligas.json');
+  ligas = await r.json(); ligasHasta = Date.now() + 30 * 60e3;
+  return ligas;
+}
+const LIGA = 'https://ligauniversitaria.org.uy';
+async function deLaLiga(ruta, params) {
+  const q = new URLSearchParams({ temporada: TEMPORADA, deporte: 'F', ...params }).toString();
+  const r = await fetch(`${LIGA}/${ruta}?${q}`, { headers: { 'User-Agent': 'planilla-lud (github.com/planilla-lud/planilla-lud.github.io)' }, cf: { cacheTtl: 300, cacheEverything: true } });
+  if (!r.ok) throw new Error(`Liga ${r.status}`);
+  const t = (await r.text()).trim();
+  try { const j = JSON.parse(t || '[]'); return Array.isArray(j) ? j : []; } catch { return []; }
+}
+async function enVivo(env, div) {
+  const L = (await cargarLigas(env))[div];
+  if (!L) return null;
+  const partidos = [], tablas = {};
+  await Promise.all(Object.entries(L.series).map(async ([serie, etapa]) => {
+    const base = { action: 'cargarPartidos', torneo: L.torneo, categoria: L.categoria, serie };
+    const [jug, pos] = await Promise.all([
+      deLaLiga('resultados/api.php', base).catch(() => []),
+      deLaLiga('posiciones/api.php', { ...base, action: 'cargarPosiciones' }).catch(() => []),
+    ]);
+    for (const p of jug) if (p.GL !== '' && p.GL != null && /^\d+$/.test(String(p.GL)))
+      partidos.push({ id: String(p.ID), serie, etapa, fecha: Number(p.Fecha), dia: String(p.Fecha_Hora).slice(0, 10), hora: String(p.Fecha_Hora).slice(11, 16),
+        local: corto(p.Locatario), visitante: corto(p.Visitante), gl: Number(p.GL), gv: Number(p.GV) });
+    if (pos.length) tablas[etapa] = pos.map(x => [corto(x.Institucion), +x.PJ, +x.PG, +x.PE, +x.PP, +x.GF, +x.GC, +x.Puntos]);
+  }));
+  return { div, consultado: new Date().toISOString(), partidos, tablas };
 }
 
 async function cargarDatos(env) {
@@ -164,6 +203,21 @@ export default {
     const url = new URL(req.url);
     if (req.method === 'OPTIONS') return new Response(null, { status: 204, headers: cors(origen) });
     if (url.pathname === '/' && req.method === 'GET') return json({ ok: true, servicio: 'chat de Planilla LUD' }, 200, origen);
+    if (url.pathname === '/vivo' && req.method === 'GET') {
+      const div = url.searchParams.get('div') || '';
+      if (!/^[a-z0-9-]{3,40}$/.test(div)) return json({ error: 'divisional inválida' }, 400, origen);
+      // Guardado 5 minutos en Cloudflare: muchos visitantes, una sola consulta a la Liga.
+      const clave = new Request(`https://cache.planilla-lud/vivo/${div}`);
+      const guardado = await caches.default.match(clave);
+      if (guardado) { const r = new Response(guardado.body, guardado); for (const [k, v] of Object.entries(cors(origen))) r.headers.set(k, v); return r; }
+      try {
+        const v = await enVivo(env, div);
+        if (!v) return json({ error: 'divisional desconocida' }, 404, origen);
+        const r = json(v, 200, origen); r.headers.set('Cache-Control', 'public, max-age=300');
+        await caches.default.put(clave, r.clone());
+        return r;
+      } catch (e) { return json({ error: 'La Liga no respondió', detalle: e.message }, 502, origen); }
+    }
     if (url.pathname === '/provisorios' && req.method === 'GET') return json({ lista: await provisorios(env) }, 200, origen);
     if (url.pathname === '/provisorios' && req.method === 'POST') {
       if (origen && !ORIGENES.includes(origen)) return json({ error: 'Origen no permitido' }, 403, origen);

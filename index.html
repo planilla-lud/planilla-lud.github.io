@@ -755,11 +755,45 @@ function rol(j) {
   return t.join(' · ');
 }
 
+// ---------- en vivo: lo que la Liga cargó después de la última pasada del robot ----------
+// El servidor (worker/, /vivo) consulta a la Liga resultados y tabla oficial (guardado 5 minutos). Si hay
+// resultados nuevos se suman (sin planilla todavía) y la tabla oficial reemplaza a la del robot.
+async function aplicarVivo(d) {
+  try {
+    await Promise.race([CONFIG, new Promise(r => setTimeout(r, 1500))]);
+    if (!CHAT_URL) return;
+    const v = await (await fetch(`${CHAT_URL}/vivo?div=${encodeURIComponent(d.id)}`, { signal: AbortSignal.timeout(4000) })).json();
+    if (!v?.partidos) return;
+    const mios = new Set(d.equipos), porId = new Map(d.partidos.map(p => [String(p.id), p]));
+    let nuevos = 0;
+    for (const x of v.partidos) {
+      if (!mios.has(x.local) && !mios.has(x.visitante)) continue;
+      const p = porId.get(x.id);
+      if (p) { if (p.gl == null || p.gl !== x.gl || p.gv !== x.gv) { p.gl = x.gl; p.gv = x.gv; } continue; }
+      d.partidos.push({ id: x.id, nro: null, serie: x.serie, etapa: x.etapa, fecha: x.fecha, dia: x.dia, hora: x.hora, cancha: '', local: x.local, visitante: x.visitante,
+        gl: x.gl, gv: x.gv, wo: false, obs: '', planilla: false, vivo: 1 });
+      nuevos++;
+    }
+    d.partidos.sort((a, b) => (a.dia + a.hora).localeCompare(b.dia + b.hora));
+    d.sinResultado = (d.sinResultado || []).filter(f => !d.partidos.some(p => p.local === f.l && p.visitante === f.v && p.dia === f.dia && p.gl != null));
+    // Tablas oficiales al momento (con los que todavía no jugaron en la etapa, en cero).
+    const P = (POSICIONES ??= { divisionales: {} }).divisionales[d.id] ??= {};
+    for (const [et, filas] of Object.entries(v.tablas || {})) {
+      const antes = P[et], todos = new Set([...filas.map(f => f[0]), ...Object.keys(antes?.pos || {})]);
+      const f2 = [...filas, ...[...todos].filter(e => !filas.some(f => f[0] === e)).map(e => [e, 0, 0, 0, 0, 0, 0, 0])];
+      const jugados = t => (t || []).reduce((s, f) => s + f[1], 0);
+      if (antes?.filas && jugados(f2) < jugados(antes.filas)) continue; // nunca para atrás
+      P[et] = { fuente: 'oficial', filas: f2, pos: Object.fromEntries(f2.map((f, i) => [f[0], i + 1])) };
+    }
+    d.vivo = { consultado: v.consultado, nuevos };
+  } catch {}
+}
 async function datos(cat) {
   if (!cache[cat]) {
     const r = await fetch(`data/${cat}.json?v=${Math.floor(Date.now() / 6e5)}`);
     if (!r.ok) throw new Error('Todavía no hay datos de esta divisional.');
     const d = await r.json();
+    await aplicarVivo(d);
     // Índices útiles.
     d.porId = Object.fromEntries(d.partidos.map(p => [p.id, p]));
     d.porEquipo = {};
@@ -813,7 +847,7 @@ function armarDivisionales(cat, seccion) {
 // ---------- chat (worker/ en Cloudflare; su dirección la escribe el workflow en chat-config.json) ----------
 let CHAT_URL = null, CHAT = [];
 try { CHAT = JSON.parse(sessionStorage.getItem('chat') || '[]'); } catch { CHAT = []; }
-fetch(`chat-config.json?v=${Math.floor(Date.now() / 6e5)}`).then(r => r.ok ? r.json() : null).then(c => {
+const CONFIG = fetch(`chat-config.json?v=${Math.floor(Date.now() / 6e5)}`).then(r => r.ok ? r.json() : null).then(c => {
   if (c?.url) { CHAT_URL = c.url.replace(/\/$/, ''); $('#fab-chat').hidden = false;
     cargarProvisorios().then(() => { if (PROV.length || /^#\/cargar/.test(location.hash)) render(); }); }
 }).catch(() => {});
@@ -1025,7 +1059,7 @@ function vPartidos(d, cat) {
       <span class="mid">${picanteHtml(d, f)}<b>${fDia(f.dia)}</b>${f.hora !== '00:00' ? f.hora : 'hora a confirmar'}${f.etapa ? '<br>' + esc(f.etapa) : ''}${puestosHtml(d, f)}</span>
       <span class="t">${crest(f.v)}<span>${esc(f.v)}</span>${formaHtml(d, f.v)}</span></a>`).join('')}</div></section>` : '';
   return `<div class="stack"><h2>Partidos</h2></div>${proxima}
-  <section class="stack"><div><p class="eyebrow">Temporada</p><h3>Resultados</h3></div>
+  <section class="stack"><div><p class="eyebrow">Temporada</p><h3>Resultados</h3>${notaVivo(d)}</div>
   ${vSinCargar(d)}
   ${[...grupos].map(([k, ps]) => `<div class="stack"><h3 class="small muted" style="font-size:.95rem">${esc(k)} · ${fDia(ps[0].dia)}</h3><div class="card" style="padding:0">${filaPartidos(cat, ps)}</div></div>`).join('')}</section>`;
 }
@@ -1345,6 +1379,7 @@ function corte(etapa, i, n) {
   return false;
 }
 // Partidos ya jugados que la Liga todavía no cargó (con el provisorio, si alguien lo cargó a mano).
+const notaVivo = d => d.vivo ? `<p class="small muted" style="margin:4px 0 0">Conectado con la Liga: resultados y tabla al ${new Date(d.vivo.consultado).toLocaleTimeString('es-UY', { hour: '2-digit', minute: '2-digit' })}${d.vivo.nuevos ? ` · ${d.vivo.nuevos} resultado${d.vivo.nuevos > 1 ? 's' : ''} recién cargado${d.vivo.nuevos > 1 ? 's' : ''} (la planilla llega después)` : ''}.</p>` : '';
 function vSinCargar(d) {
   const L = d.sinResultado || [];
   if (!L.length) return '';
@@ -1361,7 +1396,7 @@ function vTabla(d, cat, arg) {
   const T = tablaDe(d, et), b = base(d, et), n = T.filas.length, M = movimientos(d, et, T.filas);
   const notas = { 0: 'Debajo de la línea punteada: los cuatro que pelean el título.', 2: 'Arriba de la línea punteada: los cuatro que pelean por no descender.' };
   const nota = primeraFase(et) ? (n === 16 ? 'Los 8 de arriba pasan al título; los otros 8, a la permanencia.' : '') : notas[pesoEtapa(et)] || '';
-  return `<div class="stack"><h2>Tabla</h2><p class="lede">Abajo de cada equipo: los últimos 5, la racha, las bajas de nivel alto de la próxima fecha y contra quién juega.</p></div>
+  return `<div class="stack"><h2>Tabla</h2><p class="lede">Abajo de cada equipo: los últimos 5, la racha, las bajas de nivel alto de la próxima fecha y contra quién juega.</p>${notaVivo(d)}</div>
   ${etapas.length > 1 ? `<div class="chips" role="group" aria-label="Grupo">${etapas.map(x => `<a class="chip" href="${link(cat, 'tabla', x)}" aria-pressed="${x === et}">${esc(x)}</a>`).join('')}</div>` : ''}
   <div class="tb" id="tabla">${cabezaTabla()}${T.filas.map((f, i) => filaTabla(d, cat, f, i + 1 + b, { cut: corte(et, i, n), mov: M?.mov[f[0]], prov: T.prov?.has(f[0]) })).join('')}</div>
   <p class="small muted" style="margin:0">${esc(et)}${nota ? ' · ' + nota : ''}${M ? ` Las flechas: puestos que ganó o perdió con la fecha ${M.fecha}.` : ''}${T.fuente === 'oficial' ? ' Tabla oficial de la Liga (incluye los partidos que da el Tribunal).' : ' Calculada con los resultados: la Liga todavía no publicó esta tabla.'}</p>`;
