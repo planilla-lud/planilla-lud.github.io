@@ -1,0 +1,5 @@
+403 https://api.sofascore.com/api/v1/search/unique-tournaments?q=Liga%20Universitaria&page=0
+{"error": {"code": 403, "reason": "Forbidden" }}
+
+403 https://api.sofascore.com/api/v1/unique-tournament/31827/seasons
+{"error": {"code": 403, "reason": "Forbidden" }}
