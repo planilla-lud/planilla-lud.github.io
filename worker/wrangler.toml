@@ -7,6 +7,11 @@ workers_dev = true
 [ai]
 binding = "AI"
 
+# Resultados provisorios (cargados a mano). El workflow crea el espacio si no existe y pone su id acá.
+[[kv_namespaces]]
+binding = "PROV"
+id = "__KV_ID__"
+
 [vars]
 DATOS_URL = "https://planilla-lud.github.io/data/chat.json"
 # Gemini y Groq son opcionales (respaldo si se acaba la cuota de Cloudflare): se cargan como secretos

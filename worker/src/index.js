@@ -10,12 +10,35 @@ const MAX_PREGUNTA = 400, MAX_HISTORIAL = 6;
 
 const cors = origen => ({
   'Access-Control-Allow-Origin': ORIGENES.includes(origen) ? origen : ORIGENES[0],
-  'Access-Control-Allow-Methods': 'POST, OPTIONS', 'Access-Control-Allow-Headers': 'Content-Type', 'Vary': 'Origin',
+  'Access-Control-Allow-Methods': 'GET, POST, OPTIONS', 'Access-Control-Allow-Headers': 'Content-Type', 'Vary': 'Origin',
 });
 const json = (obj, status, origen) => new Response(JSON.stringify(obj), { status, headers: { 'Content-Type': 'application/json; charset=utf-8', ...cors(origen) } });
 
 // Datos de la página, guardados un rato en memoria.
 let datos = null, datosHasta = 0;
+// ---- resultados provisorios (cargados a mano mientras la Liga no sube el oficial) ----
+// Se guardan en Cloudflare KV (binding PROV), en una sola clave "lista". Solo se cargan con ADMIN_CLAVE.
+async function provisorios(env) {
+  if (!env.PROV) return [];
+  try { return JSON.parse(await env.PROV.get('lista') || '[]'); } catch { return []; }
+}
+const texto = (x, n = 60) => typeof x === 'string' && x.trim() && x.length <= n ? x.trim() : null;
+async function cambiarProvisorio(env, c) {
+  if (!env.PROV || !env.ADMIN_CLAVE) return [503, { error: 'Falta configurar la carga de provisorios.' }];
+  if (c.clave !== env.ADMIN_CLAVE) return [403, { error: 'Clave incorrecta.' }];
+  const div = texto(c.div, 40), l = texto(c.l), v = texto(c.v);
+  if (!div || !/^[a-z0-9-]+$/.test(div) || !l || !v) return [400, { error: 'Faltan datos del partido.' }];
+  let lista = (await provisorios(env)).filter(x => !(x.div === div && x.l === l && x.v === v));
+  if (c.accion === 'poner') {
+    const gl = Number(c.gl), gv = Number(c.gv);
+    if (![gl, gv].every(n => Number.isInteger(n) && n >= 0 && n <= 30)) return [400, { error: 'Goles inválidos.' }];
+    lista.push({ div, l, v, gl, gv, dia: texto(c.dia, 10), etapa: texto(c.etapa), cargado: new Date().toISOString() });
+  }
+  lista = lista.slice(-200);
+  await env.PROV.put('lista', JSON.stringify(lista));
+  return [200, { ok: true, lista }];
+}
+
 async function cargarDatos(env) {
   if (datos && Date.now() < datosHasta) return datos;
   const r = await fetch(env.DATOS_URL || 'https://planilla-lud.github.io/data/chat.json', { cf: { cacheTtl: 600, cacheEverything: true } });
@@ -126,7 +149,7 @@ export async function responder(env, cuerpo) {
   const d = await cargarDatos(env);
   const anteriores = historial.slice(0, -1).filter(m => m.role === 'user').map(m => m.content).join(' ');
   const hallado = buscar(d, ultima.content, { div: cuerpo.div || null, club: cuerpo.club || null, anteriores });
-  const sistema = instrucciones(contexto(d, hallado), d.ultimoResultado ? d.ultimoResultado.split('-').reverse().join('/') : null);
+  const sistema = instrucciones(contexto(d, hallado, await provisorios(env)), d.ultimoResultado ? d.ultimoResultado.split('-').reverse().join('/') : null);
   const proveedores = [['cloudflare', workersAI], env.GEMINI_KEY && ['gemini', gemini], env.GROQ_KEY && ['groq', groq]].filter(Boolean);
   for (const [nombre, fn] of proveedores) {
     try { return { texto: pulir(await fn(env, sistema, historial)), fuente: nombre }; }
@@ -141,6 +164,14 @@ export default {
     const url = new URL(req.url);
     if (req.method === 'OPTIONS') return new Response(null, { status: 204, headers: cors(origen) });
     if (url.pathname === '/' && req.method === 'GET') return json({ ok: true, servicio: 'chat de Planilla LUD' }, 200, origen);
+    if (url.pathname === '/provisorios' && req.method === 'GET') return json({ lista: await provisorios(env) }, 200, origen);
+    if (url.pathname === '/provisorios' && req.method === 'POST') {
+      if (origen && !ORIGENES.includes(origen)) return json({ error: 'Origen no permitido' }, 403, origen);
+      if (frenar('prov:' + (req.headers.get('CF-Connecting-IP') || 'x'))) return json({ error: 'Demasiados intentos, esperá un minuto.' }, 429, origen);
+      let c; try { c = await req.json(); } catch { return json({ error: 'Pedido inválido' }, 400, origen); }
+      const [st, r] = await cambiarProvisorio(env, c);
+      return json(r, st, origen);
+    }
     if (url.pathname !== '/chat' || req.method !== 'POST') return json({ error: 'No encontrado' }, 404, origen);
     if (origen && !ORIGENES.includes(origen)) return json({ error: 'Origen no permitido' }, 403, origen);
     if (frenar(req.headers.get('CF-Connecting-IP') || 'x')) return json({ texto: 'Pará un poquito, son muchas preguntas seguidas 😄 Probá en un minuto.' }, 429, origen);

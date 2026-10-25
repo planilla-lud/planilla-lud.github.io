@@ -112,8 +112,36 @@ export function textoEquipo(e) {
 }
 
 // Contexto final para la IA. Si no se encontró nada, una tabla corta de la divisional que mira.
-export function contexto(datos, hallado) {
-  const partes = hallado.equipos.map(i => textoEquipo(datos.equipos[i]));
+// Resultados provisorios que todavía valen: los del equipo que siguen "sin resultado cargado" en la Liga.
+function provisoriosDe(datos, e, prov) {
+  return (prov || []).filter(p => p.div === e.div && (p.l === e.eq || p.v === e.eq)
+    && (e.sinCargar || []).some(s => s.endsWith('vs ' + (p.l === e.eq ? p.v : p.l))));
+}
+// Tabla en texto, sumando los provisorios que correspondan (si hay).
+function tablaTexto(datos, k, prov) {
+  const raw = datos.tablasRaw?.[k];
+  const [div, etapa] = k.split('|');
+  const vale = (prov || []).filter(p => p.div === div && (!p.etapa || p.etapa === etapa)
+    && raw?.some(r => r[0] === p.l && r[9] > 0) && raw?.some(r => r[0] === p.v && r[9] > 0));
+  if (!raw || !vale.length) return datos.tablas[k].join('\n');
+  const t = raw.map(r => ({ eq: r[0], pj: r[1], g: r[2], e: r[3], p: r[4], gf: r[5], gc: r[6], pts: r[7], q: r[8], sc: r[9], prov: 0 }));
+  for (const p of vale) for (const [eq, gf, gc] of [[p.l, p.gl, p.gv], [p.v, p.gv, p.gl]]) {
+    const x = t.find(y => y.eq === eq); if (!x) continue;
+    x.pj++; x.gf += gf; x.gc += gc; x.q--; x.sc--; x.prov++;
+    if (gf > gc) { x.g++; x.pts += 3; } else if (gf === gc) { x.e++; x.pts++; } else x.p++;
+  }
+  t.sort((a, b) => b.pts - a.pts || (b.gf - b.gc) - (a.gf - a.gc) || b.gf - a.gf);
+  const max = t.map(x => x.pts + 3 * x.q), punta = t[0].pts;
+  const filas = t.map((x, i) => `${i + 1}° ${x.eq} ${x.pts} pts (${x.pj} PJ, ${x.g}G ${x.e}E ${x.p}P, ${x.gf}-${x.gc})${x.prov ? ' [incluye resultado provisorio]' : ''}; le quedan ${x.q}${x.sc > 0 ? ` (${x.sc} ya jugado sin resultado cargado)` : ''}, puede llegar a ${max[i]}; ${max[i] >= punta ? 'todavía puede terminar 1°' : 'ya no puede terminar 1°'}`);
+  filas.push(t[0].pts > Math.max(...max.slice(1)) ? `${t[0].eq} ya tiene asegurado el 1° puesto.` : 'Nadie tiene asegurado el 1° puesto todavía.');
+  return `(Con resultados PROVISORIOS cargados a mano: ${vale.map(p => `${p.l} ${p.gl}-${p.gv} ${p.v}`).join('; ')}. Todavía no son oficiales.)\n` + filas.join('\n');
+}
+
+export function contexto(datos, hallado, prov = []) {
+  const partes = hallado.equipos.map(i => {
+    const e = datos.equipos[i], pv = provisoriosDe(datos, e, prov);
+    return textoEquipo(e) + (pv.length ? `\nResultado PROVISORIO (cargado a mano porque la Liga todavía no lo subió): ${pv.map(p => `${p.l} ${p.gl}-${p.gv} ${p.v}`).join('; ')}` : '');
+  });
   // Cara a cara: todos los partidos de la temporada entre los equipos mencionados de la misma divisional.
   const ddmm = d => `${d.slice(8, 10)}/${d.slice(5, 7)}`;
   const mencionados = hallado.equipos.slice(0, 4).map(i => datos.equipos[i]);
@@ -137,7 +165,7 @@ export function contexto(datos, hallado) {
     const k = datos.equipos[i].tabla;
     if (!k || vistas.has(k) || !datos.tablas?.[k]) continue;
     vistas.add(k);
-    partes.push(`TABLA ${datos.equipos[i].divNombre} – ${k.split('|')[1]} (oficial de la Liga, puntos de toda la temporada; "puede llegar a" = puntos si gana todo lo que le queda):\n${datos.tablas[k].join('\n')}`);
+    partes.push(`TABLA ${datos.equipos[i].divNombre} – ${k.split('|')[1]} (oficial de la Liga, puntos de toda la temporada; "puede llegar a" = puntos si gana todo lo que le queda):\n${tablaTexto(datos, k, prov)}`);
   }
   if (hallado.jugadores.length) partes.push('JUGADORES MENCIONADOS:\n' + hallado.jugadores.map(([n, i, pj, tit, min, gol]) =>
     { const e = datos.equipos[i], gf = (e.resultados || []).reduce((s, r) => s + r[2], 0);

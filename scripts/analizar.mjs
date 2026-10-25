@@ -698,10 +698,18 @@ function terminar(st, G) {
     previas[`${l}~${v}`] ??= { l, v, dia: b.proximo.dia, hora: b.proximo.hora, cancha: b.proximo.cancha, etapa: b.proximo.etapa, caraACara: caraACara(G, l, v) };
   }
 
+  // Partidos que ya se jugaron (empezaron hace más de 2 horas, en los últimos 10 días) y la Liga todavía no
+  // cargó: siguen en el fixture sin resultado. La tabla los muestra como "sin cargar" y se les puede poner un
+  // resultado provisorio a mano (worker/, /provisorios).
+  const limite = Date.now() - 2 * 3600e3, hace10 = Date.now() - 10 * 864e5;
+  const sinResultado = st.proximosCrudos
+    .filter(f => { const t = new Date(f.fechaHora.replace(' ', 'T') + '-03:00').getTime(); return t < limite && t > hace10; })
+    .map(f => ({ l: corto(f.local), v: corto(f.visitante), dia: f.fechaHora.slice(0, 10), hora: f.fechaHora.slice(11, 16), etapa: cat.series[f.serie] || null }));
+
   const salida = {
     id: cat.id, nombre: cat.nombre, actualizado: new Date().toISOString(),
     equipos: Object.keys(porEquipo).sort((a, b) => a.localeCompare(b)),
-    jugadores, partidos, bajas, calidad,
+    jugadores, partidos, bajas, calidad, sinResultado,
     cruces: crucesDeDivisional(cat, porEquipo, jugadores, G),
     previas,
     sanciones: sancionesDeDivisional(cat, jugadores, G),
@@ -758,6 +766,7 @@ function partirEnCopas(st, salida) {
       bajas: solo(salida.bajas), cruces: solo(salida.cruces),
       previas: Object.fromEntries(Object.entries(salida.previas).filter(([, f]) => es(f.l) || es(f.v))),
       sanciones: salida.sanciones.filter(x => es(x.equipo)), calidad,
+      sinResultado: (salida.sinResultado || []).filter(f => es(f.l) || es(f.v)),
       resumen: { partidos: partidos.length, conPlanilla: partidos.filter(p => p.planilla).length, conProblemas: calidad.length },
     };
     delete out.copas;

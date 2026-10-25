@@ -416,7 +416,7 @@ details.more summary{cursor:pointer;font-weight:600;padding:12px 16px}
 
 /* tabla de posiciones */
 .tb{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
-.tb-r{display:grid;grid-template-columns:26px minmax(0,1fr) 40px 40px;gap:2px 10px;align-items:center;padding:11px 14px;border-top:1px solid var(--line);transition:background-color .25s var(--ease-out)}
+.tb-r{display:grid;grid-template-columns:26px minmax(0,1fr) 26px 36px 40px;gap:2px 10px;align-items:center;padding:11px 14px;border-top:1px solid var(--line);transition:background-color .25s var(--ease-out)}
 .tb-r:first-child{border-top:0}
 .tb-r.tb-h{padding-top:9px;padding-bottom:9px;background:var(--surface-2);font-family:var(--font-mono);font-size:.62rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
 .tb-r.tb-h .tb-pts,.tb-r.tb-h .tb-dg,.tb-r.tb-h .tb-x{font:inherit;color:inherit}
@@ -429,6 +429,19 @@ details.more summary{cursor:pointer;font-weight:600;padding:12px 16px}
 .tb-n{display:flex;align-items:center;gap:9px;min-width:0;color:var(--fg);text-decoration:none;font-weight:600}
 .tb-n span:last-child{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .tb-n:hover span:last-child{text-decoration:underline}
+.tb-pj{display:block !important}
+.tag.prov{background:var(--primary-soft);color:var(--primary)}
+.tag.sc{background:none;border:1px solid var(--line-strong);color:var(--muted)}
+.sc-r{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:10px;align-items:center;padding:12px 14px;border-top:1px solid var(--line)}
+.sc-r:first-child{border-top:0}
+.sc-r .t{display:flex;align-items:center;gap:8px;min-width:0;font-weight:600}.sc-r .t span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sc-r .t.v{flex-direction:row-reverse;text-align:right}
+.sc-r .m{text-align:center;font-family:var(--font-heading);font-weight:900;font-size:1.3rem;min-width:56px}
+.sc-r .nota{grid-column:1/-1;font-size:.78rem;color:var(--muted);text-align:center}
+.cargar-r{display:grid;grid-template-columns:minmax(0,1fr) 52px 12px 52px minmax(0,1fr);gap:8px;align-items:center;padding:12px 14px;border-top:1px solid var(--line)}
+.cargar-r:first-child{border-top:0}
+.cargar-r input{width:52px;height:44px;text-align:center;font:inherit;font-size:1.2rem;font-weight:700;border-radius:10px;border:1px solid var(--line-strong);background:var(--bg);color:var(--fg)}
+.cargar-r .acc{grid-column:1/-1;display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
 .tb-x{display:none;text-align:right;font-variant-numeric:tabular-nums;color:var(--muted);font-size:.9rem}
 .tb-dg{text-align:right;font-variant-numeric:tabular-nums;color:var(--muted);font-size:.9rem}
 .tb-pts{text-align:right;font-family:var(--font-heading);font-weight:900;font-size:1.55rem;line-height:1;font-variant-numeric:tabular-nums}
@@ -801,7 +814,8 @@ function armarDivisionales(cat, seccion) {
 let CHAT_URL = null, CHAT = [];
 try { CHAT = JSON.parse(sessionStorage.getItem('chat') || '[]'); } catch { CHAT = []; }
 fetch(`chat-config.json?v=${Math.floor(Date.now() / 6e5)}`).then(r => r.ok ? r.json() : null).then(c => {
-  if (c?.url) { CHAT_URL = c.url.replace(/\/$/, ''); $('#fab-chat').hidden = false; }
+  if (c?.url) { CHAT_URL = c.url.replace(/\/$/, ''); $('#fab-chat').hidden = false;
+    cargarProvisorios().then(() => { if (PROV.length || /^#\/cargar/.test(location.hash)) render(); }); }
 }).catch(() => {});
 function sugerenciasChat() {
   const k = leer('club'), club = k && CLUBES?.[k]?.nombre || (k ? k.replace(/-/g, ' ').replace(/\b\w/g, m => m.toUpperCase()) : null);
@@ -1012,6 +1026,7 @@ function vPartidos(d, cat) {
       <span class="t">${crest(f.v)}<span>${esc(f.v)}</span>${formaHtml(d, f.v)}</span></a>`).join('')}</div></section>` : '';
   return `<div class="stack"><h2>Partidos</h2></div>${proxima}
   <section class="stack"><div><p class="eyebrow">Temporada</p><h3>Resultados</h3></div>
+  ${vSinCargar(d)}
   ${[...grupos].map(([k, ps]) => `<div class="stack"><h3 class="small muted" style="font-size:.95rem">${esc(k)} · ${fDia(ps[0].dia)}</h3><div class="card" style="padding:0">${filaPartidos(cat, ps)}</div></div>`).join('')}</section>`;
 }
 
@@ -1181,9 +1196,29 @@ function gruposDe(d) {
 // La tabla de una etapa: { fuente: 'oficial' | 'calculada', filas: [[equipo, PJ, G, E, P, GF, GC, Pts], ...] }.
 function tablaDe(d, etapa) {
   const t = POSICIONES?.divisionales?.[d.id]?.[etapa];
-  if (t?.filas) return { fuente: t.fuente, filas: t.filas };
-  const g = gruposDe(d)[etapa];
-  return g ? { fuente: 'calculada', filas: filasCalculadas(d, etapa, g) } : null;
+  const g = !t?.filas && gruposDe(d)[etapa];
+  const T = t?.filas ? { fuente: t.fuente, filas: t.filas } : g ? { fuente: 'calculada', filas: filasCalculadas(d, etapa, g) } : null;
+  return T && conProvisorios(d, etapa, T);
+}
+// ---------- resultados provisorios (cargados a mano en #/cargar mientras la Liga no sube el oficial) ----------
+let PROV = [];
+async function cargarProvisorios() {
+  if (!CHAT_URL) return;
+  try { PROV = (await (await fetch(CHAT_URL + '/provisorios', { cache: 'no-store' })).json()).lista || []; } catch {}
+}
+// Los que todavía valen: el partido sigue sin resultado oficial en la Liga.
+const provisoriosDe = (d, etapa) => PROV.filter(p => p.div === d.id && (!etapa || !p.etapa || p.etapa === etapa) && (d.sinResultado || []).some(f => f.l === p.l && f.v === p.v));
+const sinCargarDe = (d, eq) => (d.sinResultado || []).filter(f => (f.l === eq || f.v === eq) && !PROV.some(p => p.div === d.id && p.l === f.l && p.v === f.v)).length;
+function conProvisorios(d, etapa, T) {
+  const L = provisoriosDe(d, etapa).filter(p => T.filas.some(f => f[0] === p.l) && T.filas.some(f => f[0] === p.v));
+  if (!L.length) return T;
+  const filas = T.filas.map(f => [...f]), prov = new Set();
+  for (const p of L) for (const [eq, gf, gc] of [[p.l, p.gl, p.gv], [p.v, p.gv, p.gl]]) {
+    const f = filas.find(x => x[0] === eq); prov.add(eq);
+    f[1]++; f[5] += gf; f[6] += gc; if (gf > gc) { f[2]++; f[7] += 3; } else if (gf === gc) { f[3]++; f[7]++; } else f[4]++;
+  }
+  filas.sort((a, b) => b[7] - a[7] || (b[5] - b[6]) - (a[5] - a[6]) || b[5] - a[5]);
+  return { ...T, filas, prov };
 }
 const tablas = new WeakMap();
 function posiciones(d) {
@@ -1273,12 +1308,12 @@ function filaTabla(d, cat, f, puesto, op = {}) {
   const [eq, pj, g, e, p, gf, gc, pts] = f, dg = gf - gc;
   const r = rachaTexto(d, eq), nAl = d.bajas[eq]?.alertas.filter(a => a.nivel === 'alta').length || 0, px = op.prox !== false && proximoDe(d, eq);
   const sub = op.sub === false ? '' : `<div class="tb-s"><span class="tb-dots" aria-label="Últimos 5">${racha(d, eq).map(({ r, x }) => `<i class="${r}" title="${x.gf}-${x.gc} vs ${esc(x.rival)} (${fDia(x.p.dia)})"></i>`).join('')}</span>
-    ${r ? `<span class="tag ${r[1]}">${r[0]}</span>` : ''}${nAl ? `<span class="tb-al">${nAl} baja${nAl > 1 ? 's' : ''}</span>` : ''}
+    ${r ? `<span class="tag ${r[1]}">${r[0]}</span>` : ''}${op.prov ? '<span class="tag prov" title="Incluye un resultado cargado a mano: la Liga todavía no lo subió">provisorio</span>' : ''}${(n => n ? `<span class="tag sc" title="Ya se jugó, pero la Liga todavía no cargó el resultado">${n} sin cargar</span>` : '')(sinCargarDe(d, eq))}${nAl ? `<span class="tb-al">${nAl} baja${nAl > 1 ? 's' : ''}</span>` : ''}
     ${px && libre(px.rival) ? '<span class="tb-px">Libre esta fecha</span>' : px ? `<span class="tb-px">${px.k ? `<a href="${link(cat, 'previa', px.k)}">vs ${esc(px.rival)}${px.pos ? ` (${px.pos}°)` : ''}</a>` : `vs ${esc(px.rival)}`}</span>` : ''}</div>`;
   const mv = op.mov ? `<span class="tb-mv ${op.mov > 0 ? 'up' : 'dn'}" title="${op.mov > 0 ? 'Subió' : 'Bajó'} ${Math.abs(op.mov)} con la última fecha">${op.mov > 0 ? '▲' : '▼'}${Math.abs(op.mov)}</span>` : '';
   return `<div class="tb-r${op.cut ? ' cut' : ''}${op.hl ? ' hl' : ''}" data-eq="${esc(eq)}"><span class="tb-p">${puesto}${mv}</span>
     <a class="tb-n" href="${link(cat, 'equipo', eq)}">${crest(eq)}<span>${esc(eq)}</span></a>
-    <span class="tb-x">${pj}</span><span class="tb-x">${g}</span><span class="tb-x">${e}</span><span class="tb-x">${p}</span><span class="tb-x">${gf}:${gc}</span>
+    <span class="tb-x tb-pj">${pj}</span><span class="tb-x">${g}</span><span class="tb-x">${e}</span><span class="tb-x">${p}</span><span class="tb-x">${gf}:${gc}</span>
     <span class="tb-dg">${dg > 0 ? '+' : ''}${dg}</span><span class="tb-pts">${pts}</span>${sub}</div>`;
 }
 // Cuántos puestos ganó o perdió cada equipo con la última fecha jugada del grupo: a la tabla de hoy (la
@@ -1299,7 +1334,7 @@ function movimientos(d, etapa, filas) {
   const era = Object.fromEntries(orden.map((eq, i) => [eq, i]));
   return { fecha: ult, mov: Object.fromEntries(filas.map((f, i) => [f[0], era[f[0]] - i])) };
 }
-const cabezaTabla = () => `<div class="tb-r tb-h" aria-hidden="true"><span class="tb-p">#</span><span>Equipo</span><span class="tb-x">PJ</span><span class="tb-x">G</span><span class="tb-x">E</span><span class="tb-x">P</span><span class="tb-x">Goles</span><span class="tb-dg">DG</span><span class="tb-pts">Pts</span></div>`;
+const cabezaTabla = () => `<div class="tb-r tb-h" aria-hidden="true"><span class="tb-p">#</span><span>Equipo</span><span class="tb-x tb-pj">PJ</span><span class="tb-x">G</span><span class="tb-x">E</span><span class="tb-x">P</span><span class="tb-x">Goles</span><span class="tb-dg">DG</span><span class="tb-pts">Pts</span></div>`;
 // Líneas de la tabla: en el grupo de arriba, debajo del 4° (los que pelean el título); en la primera rueda
 // de 16, debajo del 8° (pasan al título); en la permanencia, arriba de los 4 últimos (el descenso).
 function corte(etapa, i, n) {
@@ -1308,6 +1343,16 @@ function corte(etapa, i, n) {
   if (peso === 0) return i === 4 && n > 5;
   if (peso === 2) return n >= 6 && i === n - 4;
   return false;
+}
+// Partidos ya jugados que la Liga todavía no cargó (con el provisorio, si alguien lo cargó a mano).
+function vSinCargar(d) {
+  const L = d.sinResultado || [];
+  if (!L.length) return '';
+  return `<div class="stack"><h3 class="small muted" style="font-size:.95rem">Jugados, sin resultado de la Liga todavía</h3><div class="card" style="padding:0">${L.map(f => {
+    const p = PROV.find(x => x.div === d.id && x.l === f.l && x.v === f.v);
+    return `<div class="sc-r"><span class="t">${crest(f.l)}<span>${esc(f.l)}</span></span><span class="m">${p ? `${p.gl}-${p.gv}` : '–'}</span><span class="t v">${crest(f.v)}<span>${esc(f.v)}</span></span>
+      <span class="nota">${f.etapa ? esc(f.etapa) + ' · ' : ''}${fDia(f.dia)}${f.hora && f.hora !== '00:00' ? ' ' + f.hora : ''} · ${p ? '<span class="tag prov">provisorio</span> cargado a mano, la Liga todavía no lo subió' : 'la Liga todavía no cargó el resultado'}</span></div>`;
+  }).join('')}</div></div>`;
 }
 function vTabla(d, cat, arg) {
   const etapas = etapasTabla(d, DIVS[cat].letra);
@@ -1318,7 +1363,7 @@ function vTabla(d, cat, arg) {
   const nota = primeraFase(et) ? (n === 16 ? 'Los 8 de arriba pasan al título; los otros 8, a la permanencia.' : '') : notas[pesoEtapa(et)] || '';
   return `<div class="stack"><h2>Tabla</h2><p class="lede">Abajo de cada equipo: los últimos 5, la racha, las bajas de nivel alto de la próxima fecha y contra quién juega.</p></div>
   ${etapas.length > 1 ? `<div class="chips" role="group" aria-label="Grupo">${etapas.map(x => `<a class="chip" href="${link(cat, 'tabla', x)}" aria-pressed="${x === et}">${esc(x)}</a>`).join('')}</div>` : ''}
-  <div class="tb" id="tabla">${cabezaTabla()}${T.filas.map((f, i) => filaTabla(d, cat, f, i + 1 + b, { cut: corte(et, i, n), mov: M?.mov[f[0]] })).join('')}</div>
+  <div class="tb" id="tabla">${cabezaTabla()}${T.filas.map((f, i) => filaTabla(d, cat, f, i + 1 + b, { cut: corte(et, i, n), mov: M?.mov[f[0]], prov: T.prov?.has(f[0]) })).join('')}</div>
   <p class="small muted" style="margin:0">${esc(et)}${nota ? ' · ' + nota : ''}${M ? ` Las flechas: puestos que ganó o perdió con la fecha ${M.fecha}.` : ''}${T.fuente === 'oficial' ? ' Tabla oficial de la Liga (incluye los partidos que da el Tribunal).' : ' Calculada con los resultados: la Liga todavía no publicó esta tabla.'}</p>`;
 }
 // En la tabla, el equipo de "Mi equipo" queda marcado.
@@ -1347,7 +1392,7 @@ function vQueSeJuegan(d, cat, f) {
   };
   const sep = Math.abs(pts(il) - pts(iv));
   return `<div class="stack"><h3>Qué se juegan</h3><p class="lede small">${esc(f.etapa)}${T.fuente === 'oficial' ? ', tabla oficial de la Liga' : ''}. <a href="${link(cat, 'tabla', f.etapa)}">Ver la tabla completa</a></p></div>
-  <div class="tb">${cabezaTabla()}${filas.slice(desde, hasta).map((x, j) => filaTabla(d, cat, x, desde + j + 1 + b, { hl: x[0] === f.l || x[0] === f.v, prox: false, cut: corte(f.etapa, desde + j, n) && j > 0, mov: M?.mov[x[0]] })).join('')}</div>
+  <div class="tb">${cabezaTabla()}${filas.slice(desde, hasta).map((x, j) => filaTabla(d, cat, x, desde + j + 1 + b, { hl: x[0] === f.l || x[0] === f.v, prox: false, cut: corte(f.etapa, desde + j, n) && j > 0, mov: M?.mov[x[0]], prov: T.prov?.has(x[0]) })).join('')}</div>
   <div class="card small" style="display:grid;gap:4px"><span>${linea(Math.min(il, iv))}</span><span>${linea(Math.max(il, iv))}</span><span class="muted">${sep ? `Los separan ${dif(sep)}.` : 'Están igualados en puntos.'}</span></div>`;
 }
 // Posición del equipo en el grupo de su próximo partido (o del último jugado), para su página.
@@ -1649,6 +1694,44 @@ function encabezar(cat) {
 const SKELETON = '<div class="sk" style="height:110px"></div><div class="sk" style="height:240px"></div><div class="sk" style="height:180px"></div>';
 
 // ---------- router ----------
+// Carga a mano de resultados provisorios (#/cargar/<divisional>). Pide la clave de administrador.
+async function renderCargar(div) {
+  const main = $('#main'); $('#hero').innerHTML = '';
+  if (!DIVS[div] || DIVS[div].oculta) div = DIVS[leer('div')] && !DIVS[leer('div')].oculta ? leer('div') : Object.keys(DIVS).find(k => !DIVS[k].oculta);
+  if (!CHAT_URL) { main.innerHTML = '<div class="empty">El servidor todavía no está disponible. Probá en un momento.</div>'; return; }
+  let d; try { d = await datos(div); } catch (e) { main.innerHTML = `<div class="empty">${esc(e.message)}</div>`; return; }
+  await cargarProvisorios();
+  const opciones = INDICE.categorias.map(c => `<optgroup label="${esc(c.nombre)}">${c.divisionales.filter(x => !x.oculta).map(x => `<option value="${x.id}"${x.id === div ? ' selected' : ''}>${esc(x.nombre)}</option>`).join('')}</optgroup>`).join('');
+  const pend = d.sinResultado || [];
+  // Provisorios de esta divisional cuyo partido ya tiene el resultado oficial: para comparar y borrar.
+  const viejos = PROV.filter(p => p.div === div && !pend.some(f => f.l === p.l && f.v === p.v)).map(p => ({ p, of: [...d.partidos].reverse().find(x => x.local === p.l && x.visitante === p.v && x.gl != null) }));
+  const fila = f => { const p = PROV.find(x => x.div === div && x.l === f.l && x.v === f.v);
+    return `<div class="cargar-r" data-l="${esc(f.l)}" data-v="${esc(f.v)}" data-dia="${f.dia}" data-etapa="${esc(f.etapa || '')}">
+      <span class="t" style="text-align:right;font-weight:600">${esc(f.l)}</span><input type="number" min="0" max="30" inputmode="numeric" value="${p ? p.gl : ''}" aria-label="Goles de ${esc(f.l)}"><span style="text-align:center">-</span><input type="number" min="0" max="30" inputmode="numeric" value="${p ? p.gv : ''}" aria-label="Goles de ${esc(f.v)}"><span class="t" style="font-weight:600">${esc(f.v)}</span>
+      <span class="acc"><span class="small muted">${f.etapa ? esc(f.etapa) + ' · ' : ''}${fDia(f.dia)}${p ? ' · <span class="tag prov">provisorio cargado</span>' : ''}</span><button class="chip" data-acc="poner">Guardar</button>${p ? '<button class="chip" data-acc="borrar">Borrar</button>' : ''}</span></div>`; };
+  main.innerHTML = `<div class="stack"><h2>Cargar resultados</h2><p class="lede">Para los partidos que ya se jugaron y la Liga todavía no cargó. Se ven en la página y en el chat como <b>provisorios</b>; cuando la Liga sube el oficial, lo reemplaza solo.</p></div>
+    <div class="card stack"><label class="small muted" for="cg-div">Divisional</label><select id="cg-div" class="search" style="height:46px">${opciones}</select>
+      <label class="small muted" for="cg-clave">Clave</label><input id="cg-clave" class="search" type="password" autocomplete="current-password" value="${esc(leer('admin-clave') || '')}" placeholder="Clave de administrador"></div>
+    ${pend.length ? `<div class="card" style="padding:0" id="cg-lista">${pend.map(fila).join('')}</div>` : '<div class="empty">En esta divisional no hay partidos jugados sin resultado.</div>'}
+    ${viejos.length ? `<div class="stack"><h3>Ya cargados por la Liga</h3><div class="card" style="padding:0">${viejos.map(({ p, of }) => `<div class="cargar-r" data-l="${esc(p.l)}" data-v="${esc(p.v)}"><span class="t" style="grid-column:1/-1;text-align:center">${esc(p.l)} – ${esc(p.v)}: vos pusiste <b>${p.gl}-${p.gv}</b>${of ? `, la Liga cargó <b>${of.gl}-${of.gv}</b>${of.gl !== p.gl || of.gv !== p.gv ? ' <span class="tag dn">no coincide</span>' : ' ✓'}` : ''}</span><span class="acc"><button class="chip" data-acc="borrar">Borrar</button></span></div>`).join('')}</div></div>` : ''}`;
+  $('#cg-div').onchange = e => { location.hash = '#/cargar/' + e.target.value; };
+  main.querySelectorAll('[data-acc]').forEach(b => b.onclick = async () => {
+    const r = b.closest('.cargar-r'), [gl, gv] = [...r.querySelectorAll('input[type=number]')].map(i => i.value);
+    const clave = $('#cg-clave').value.trim();
+    if (!clave) { aviso('Poné la clave.'); return; }
+    if (b.dataset.acc === 'poner' && (gl === '' || gv === '')) { aviso('Completá los dos resultados.'); return; }
+    b.disabled = true;
+    try {
+      const res = await fetch(CHAT_URL + '/provisorios', { method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ clave, accion: b.dataset.acc, div, l: r.dataset.l, v: r.dataset.v, gl: Number(gl), gv: Number(gv), dia: r.dataset.dia, etapa: r.dataset.etapa || null }) });
+      const j = await res.json();
+      if (!res.ok) { aviso(j.error || 'No se pudo guardar.'); b.disabled = false; return; }
+      guardar('admin-clave', clave); PROV = j.lista || PROV;
+      aviso(b.dataset.acc === 'poner' ? 'Guardado: ya se ve en la tabla y en el chat.' : 'Borrado.'); renderCargar(div);
+    } catch { aviso('No me pude conectar.'); b.disabled = false; }
+  });
+}
+
 async function render() {
   let [cat0, tab0, ...rest] = location.hash.replace(/^#\/?/, '').split('/').map(decodeURIComponent);
   try { await indice(); }
@@ -1659,6 +1742,7 @@ async function render() {
   // Sin dirección: si tiene equipo elegido, va directo a lo suyo.
   if (!cat0 && leer('club')) { location.replace('#/mi-equipo'); return; }
   if (cat0 === 'mi-equipo') { chrome('mi-equipo'); pintarAvisoApp(false); return renderMiEquipo(tab0); }
+  if (cat0 === 'cargar') { chrome(DIVS[tab0] ? tab0 : (DIVS[leer('div')] ? leer('div') : Object.keys(DIVS)[0]), 'inicio'); pintarAvisoApp(false); return renderCargar(tab0); }
   const cat = DIVS[cat0] ? cat0 : (DIVS[leer('div')] ? leer('div') : Object.keys(DIVS)[0]);
   const tab = tab0 || 'inicio';
   pintarAvisoApp(tab === 'inicio');

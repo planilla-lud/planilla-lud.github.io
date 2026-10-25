@@ -12,7 +12,7 @@ const fDia = d => `${DIAS[new Date(d + 'T12:00:00Z').getUTCDay()]} ${d.slice(8, 
 
 const indice = leer('indice.json');
 const posiciones = existsSync(new URL('posiciones.json', DATA)) ? leer('posiciones.json').divisionales || {} : {};
-const equipos = [], jugadores = [], tablas = {};
+const equipos = [], jugadores = [], tablas = {}, tablasRaw = {};
 let ultimoResultado = '';
 const hoy = new Date(Date.now() - 3 * 3600e3).toISOString().slice(0, 10); // fecha de Montevideo
 
@@ -47,6 +47,9 @@ for (const cat of indice.categorias) for (const dv of cat.divisionales) {
     const filas = t.filas?.length ? t.filas.map(([eq, pj, g, e, p2, gf, gc, ps]) => ({ eq, pj, g, e, p: p2, gf, gc, pts: ps }))
       : Object.entries(t.pos).sort((a, b) => a[1] - b[1]).map(([eq]) => ({ eq, ...(pts[eq] || { pts: 0, pj: 0, g: 0, e: 0, p: 0, gf: 0, gc: 0 }) }));
     const max = filas.map(x => x.pts + 3 * quedanEn(x.eq, et)), punta = filas[0]?.pts ?? 0;
+    // La misma tabla en números, para que el chat le pueda sumar los resultados provisorios.
+    tablasRaw[`${dv.id}|${et}`] = filas.map(x => [x.eq, x.pj, x.g, x.e, x.p, x.gf, x.gc, x.pts, quedanEn(x.eq, et),
+      sinCargar.filter(f => series[f.serie] === et && (corto(f.local) === x.eq || corto(f.visitante) === x.eq)).length]);
     tablas[`${dv.id}|${et}`] = filas.map((x, i) => { const q = quedanEn(x.eq, et); puntos[`${et}|${x.eq}`] = x.pts;
       const sc = sinCargar.filter(f => series[f.serie] === et && (corto(f.local) === x.eq || corto(f.visitante) === x.eq)).length;
       return `${i + 1}° ${x.eq} ${x.pts} pts (${x.pj} PJ, ${x.g}G ${x.e}E ${x.p}P, ${x.gf}-${x.gc}); le quedan ${q}${sc ? ` (${sc} ya jugado sin resultado cargado)` : ''}, puede llegar a ${max[i]}; ${max[i] >= punta ? 'todavía puede terminar 1°' : 'ya no puede terminar 1°'}`; });
@@ -104,6 +107,6 @@ for (const cat of indice.categorias) for (const dv of cat.divisionales) {
   }
 }
 
-const salida = { actualizado: new Date().toISOString(), ultimoResultado, equipos, jugadores, tablas };
+const salida = { actualizado: new Date().toISOString(), ultimoResultado, equipos, jugadores, tablas, tablasRaw };
 writeFileSync(new URL('chat.json', DATA), JSON.stringify(salida));
 console.log(`Chat: ${equipos.length} equipos, ${jugadores.length} jugadores, ${Math.round(JSON.stringify(salida).length / 1024)} KB.`);
