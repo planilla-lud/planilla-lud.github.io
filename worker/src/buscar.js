@@ -14,8 +14,15 @@ const CATEGORIAS = [
 ];
 
 // Apodos que se usan en la Liga.
-const APODOS = { occ: 'Old Christians', owc: 'Old Woodlands', obc: 'Old Boys', clt: 'Carrasco Lawn Tennis', cpc: 'Carrasco Polo', tep: 'Tenis El Pinar',
+const APODOS = { sel: 'Santa Elena', occ: 'Old Christians', owc: 'Old Woodlands', obc: 'Old Boys', clt: 'Carrasco Lawn Tennis', cpc: 'Carrasco Polo', tep: 'Tenis El Pinar',
   pinar: 'Tenis El Pinar', hebraica: 'Hebraica y Macabi', macabi: 'Hebraica y Macabi', nacional: 'Nacional U.', ivy: 'Old Ivy', obs: 'Old Brendans' };
+
+// Apodos de nombres: "Juanma Rodríguez" es Juan Manuel Rodríguez en la planilla.
+const NOMBRES = { juanma: 'juan manuel', juampi: 'juan pablo', juanpi: 'juan pablo', juanfra: 'juan francisco', juanse: 'juan sebastian', juanchi: 'juan',
+  nacho: 'ignacio', fede: 'federico', santi: 'santiago', nico: 'nicolas', rodri: 'rodrigo', facu: 'facundo', tomi: 'tomas', agus: 'agustin',
+  joaco: 'joaquin', gonza: 'gonzalo', maxi: 'maximiliano', mati: 'matias', seba: 'sebastian', fran: 'francisco', pancho: 'francisco',
+  pepe: 'jose', lucho: 'luis', manu: 'manuel', guille: 'guillermo', alejo: 'alejandro', ale: 'alejandro', gaby: 'gabriel', rafa: 'rafael',
+  pato: 'patricio', fefo: 'federico', beto: 'alberto', santino: 'santino', bauti: 'bautista', benja: 'benjamin', valen: 'valentin', martu: 'martin', tincho: 'martin' };
 
 let indiceCache = null;
 function indexar(datos) {
@@ -65,14 +72,18 @@ export function buscar(datos, texto, { div = null, club = null, anteriores = '' 
 
   // Jugadores: dos palabras del nombre, o una sola si es un apellido poco común.
   const palabrasEquipo = new Set(elegidos.flatMap(i => [...norm(eq(i).eq).split(' '), norm(eq(i).eq).replace(/ /g, '')]));
-  const sueltas = [...palabras].filter(x => x.length > 2 && !STOP.has(x) && !palabrasEquipo.has(x));
+  const sueltas = [...palabras].flatMap(x => NOMBRES[x] ? NOMBRES[x].split(' ') : [x]).filter(x => x.length > 2 && !STOP.has(x) && !palabrasEquipo.has(x));
   const jug = [];
   if (sueltas.length) ix.jugadores.forEach((t, k) => {
     const n = sueltas.filter(x => t.includes(x)).length;
     if (n >= 2 || (n === 1 && sueltas.length === 1 && (ix.frecuencia[sueltas[0]] || 0) <= 4)) jug.push([n, k, t.length]);
   });
   jug.sort((a, b) => b[0] - a[0] || a[2] - b[2]); // el nombre más justo primero
-  const jugadores = jug.slice(0, 6).map(([, k]) => datos.jugadores[k]);
+  let jugadores = jug.map(([, k]) => datos.jugadores[k]);
+  // Si la pregunta nombra un equipo, quedan los jugadores de ese club (hay muchos "Juan Manuel Rodríguez").
+  const clubes = new Set(porNombreDirecto.map(i => eq(i).eq));
+  if (clubes.size) { const f = jugadores.filter(j => clubes.has(eq(j[1]).eq)); if (f.length) jugadores = f; }
+  jugadores = jugadores.slice(0, 6);
   for (const j of jugadores.slice(0, 3)) if (!elegidos.includes(j[1]) && elegidos.length < 5) elegidos.push(j[1]);
 
   // Si pregunta por el rival o la previa, va también el rival del próximo partido.
@@ -129,7 +140,9 @@ export function contexto(datos, hallado) {
     partes.push(`TABLA ${datos.equipos[i].divNombre} – ${k.split('|')[1]} (oficial de la Liga, puntos de toda la temporada; "puede llegar a" = puntos si gana todo lo que le queda):\n${datos.tablas[k].join('\n')}`);
   }
   if (hallado.jugadores.length) partes.push('JUGADORES MENCIONADOS:\n' + hallado.jugadores.map(([n, i, pj, tit, min, gol]) =>
-    `${n}: juega en ${datos.equipos[i].eq} (${datos.equipos[i].divNombre}), ${pj} partidos (${tit} de titular), ${min} minutos, ${gol} goles`).join('\n'));
+    { const e = datos.equipos[i], gf = (e.resultados || []).reduce((s, r) => s + r[2], 0);
+      return `${n}: juega en ${e.eq} (${e.divNombre}), ${pj} partidos (${tit} de titular), ${min} minutos, ${gol} goles`
+        + (gf ? ` de los ${gf} que hizo su equipo en la temporada (${Math.round(gol / gf * 100)}%)` : ''); }).join('\n'));
   if (!partes.length) {
     const delDiv = datos.equipos.filter(e => e.div === hallado.div || (!hallado.div && e.div === 'mayores-a'));
     if (delDiv.length) partes.push(`DIVISIONAL ${delDiv[0].divNombre}:\n` + delDiv.map(e => `${e.eq}: ${e.pos || 'sin posición'}; ${e.campana}${e.prox ? '; próximo ' + e.prox : ''}; ${e.bajas.length} posibles bajas, ${e.suspendidos.length} suspendidos`).join('\n'));
