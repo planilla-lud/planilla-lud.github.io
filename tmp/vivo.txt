@@ -1,0 +1,6 @@
+### sub20-a
+{"consultado":"2026-10-25T21:09:41.852Z","n":156,"ultimos":["2026-10-24 San Pablo 2-2 Carrasco Lawn Tennis","2026-10-24 Maturana 4-2 San Juan Bautista","2026-10-24 Old Woodlands 1-2 Old Christians"],"tablas":["Permanencia","Primera rueda","Título"],"error":null,"detalle":null}
+### mayores-a
+{"consultado":"2026-10-25T21:09:42.990Z","n":160,"ultimos":["2026-10-25 ELF 5-3 TAPE","2026-10-25 Urunday 2-2 Old Boys","2026-10-25 Carrasco Polo 0-3 Tenis El Pinar"],"tablas":["Permanencia","Primera rueda","Título"],"error":null,"detalle":null}
+### reserva-c
+{"consultado":"2026-10-25T21:09:46.910Z","n":151,"ultimos":["2026-12-30 Wanderers 2-0 San Isidro Lomas Universitario","2026-12-30 San Isidro Lomas Universitario 0-2 Colegio Y Liceo Ingles","2026-12-30 Peñarol Universitario 2-0 San Isidro Lomas Universitario"],"tablas":["Permanencia","Primera rueda","Título y ascenso"],"error":null,"detalle":null}
