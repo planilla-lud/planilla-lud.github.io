@@ -18,7 +18,7 @@
      "id": "mayores-b",
      "letra": "B",
      "nombre": "Mayores B",
-     "actualizado": "2026-10-25T21:08:15.560Z",
+     "actualizado": "2026-10-25T23:32:52.085Z",
      "partidos": 160,
      "conPlanilla": 152,
      "conProblemas": 34,
@@ -84,7 +84,7 @@
      "id": "sub20-a",
      "letra": "A",
      "nombre": "Sub 20 A",
-     "actualizado": "2026-10-25T22:30:10.821Z",
+     "actualizado": "2026-10-25T23:32:52.285Z",
      "partidos": 156,
      "conPlanilla": 151,
      "conProblemas": 38,
@@ -130,7 +130,7 @@
      "id": "reserva-b",
      "letra": "B",
      "nombre": "Reserva B",
-     "actualizado": "2026-10-25T21:08:15.874Z",
+     "actualizado": "2026-10-25T23:32:52.430Z",
      "partidos": 150,
      "conPlanilla": 144,
      "conProblemas": 36,
@@ -140,7 +140,7 @@
      "id": "reserva-c",
      "letra": "C",
      "nombre": "Reserva C",
-     "actualizado": "2026-10-25T22:48:59.773Z",
+     "actualizado": "2026-10-25T23:32:52.467Z",
      "partidos": 151,
      "conPlanilla": 142,
      "conProblemas": 28,
@@ -206,10 +206,10 @@
      "id": "presenior-e",
      "letra": "E",
      "nombre": "Pre Senior E",
-     "actualizado": "2026-10-25T19:34:43.979Z",
-     "partidos": 169,
+     "actualizado": "2026-10-25T23:32:52.672Z",
+     "partidos": 170,
      "conPlanilla": 159,
-     "conProblemas": 67,
+     "conProblemas": 68,
      "equipos": 19
     }
    ]
@@ -259,10 +259,10 @@
      "letra": "Oro",
      "nombre": "Sub 18 Oro",
      "copa": "18O",
-     "actualizado": "2026-10-25T22:48:59.974Z",
-     "partidos": 112,
+     "actualizado": "2026-10-25T23:32:52.835Z",
+     "partidos": 113,
      "conPlanilla": 106,
-     "conProblemas": 44,
+     "conProblemas": 45,
      "equipos": 8
     },
     {
@@ -325,10 +325,10 @@
      "letra": "Todas",
      "nombre": "Sub 18",
      "oculta": 1,
-     "actualizado": "2026-10-25T22:48:59.974Z",
-     "partidos": 375,
+     "actualizado": "2026-10-25T23:32:52.835Z",
+     "partidos": 376,
      "conPlanilla": 350,
-     "conProblemas": 163,
+     "conProblemas": 164,
      "equipos": 50
     }
    ]
