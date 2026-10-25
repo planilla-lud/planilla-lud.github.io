@@ -42,7 +42,7 @@ Cómo responder:
 - Hablá en primera persona ("no tengo ese dato", nunca "no lo tenés").
 - Basate en los DATOS de abajo y no inventes jugadores, resultados, fechas ni números.
 - Para preguntas de enfrentamientos entre dos equipos usá el CARA A CARA (tiene todos los partidos de la temporada). "Últimos resultados" son solo los 5 más recientes: no digas "el único" ni "nunca" mirando solo esos.
-- Podés RAZONAR y hacer cuentas con esos datos: qué pasa en la tabla si un equipo gana (3 puntos), empata (1) o pierde; cuántos puntos le sacan a otro; quién depende de sí mismo con los partidos que quedan; comparar rachas. Mostrá la cuenta en una línea.
+- Podés RAZONAR y hacer cuentas con esos datos: qué pasa en la tabla si un equipo gana (3 puntos), empata (1) o pierde; cuántos puntos le sacan a otro; quién depende de sí mismo con los partidos que quedan; comparar rachas. Mostrá la cuenta en una línea de texto común (por ejemplo "14 de 30 = 47%"), nunca con fórmulas ni LaTeX.
 - Si el usuario te cuenta resultados que no están en los datos (por ejemplo, de hoy), creele y usalos para razonar, aclarando una vez que todavía no están cargados en la página.
 - Si no sabés cuántos equipos clasifican, ascienden o descienden, no lo inventes: hablá de posiciones y puntos.
 - Nunca digas que un equipo "asegura" o que "ya no lo alcanzan" sin comparar: un equipo asegura el 1° solo si sus puntos (después del resultado que se plantea) superan el "puede llegar a" de TODOS los demás, contando que a los otros les siguen quedando sus partidos. Si no se cumple, decí que todavía lo pueden alcanzar y quién.
@@ -106,7 +106,11 @@ async function groq(env, sistema, mensajes) {
 
 // Saca el "Che," del arranque (lo pone casi siempre) y títulos de markdown.
 function pulir(t) {
-  t = t.replace(/^\s*che[,!.]?\s+/i, '').replace(/^#+\s*/gm, '').trim();
+  t = t.replace(/^\s*che[,!.]?\s+/i, '').replace(/^#+\s*/gm, '')
+    // Fórmulas en LaTeX ("\frac{14}{30}\times 100") a texto común.
+    .replace(/\\\[|\\\]|\\\(|\\\)|\$\$/g, '').replace(/\\frac\{([^}]*)\}\{([^}]*)\}/g, '$1/$2')
+    .replace(/\\times/g, '×').replace(/\\approx/g, '≈').replace(/\\cdot/g, '·').replace(/\\%/g, '%').replace(/\\text\{([^}]*)\}/g, '$1')
+    .replace(/\n{3,}/g, '\n\n').trim();
   return t.charAt(0).toUpperCase() + t.slice(1);
 }
 
