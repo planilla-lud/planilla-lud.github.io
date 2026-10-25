@@ -42,25 +42,11 @@
   "visitante": "SAGRADA FAMILIA UNIVERSITARIO"
  },
  {
-  "serie": "18P",
-  "fechaHora": "2026-10-25 15:30:00",
-  "cancha": "CIUDAD DEPORTIVA LS",
-  "local": "DEPORTIVO LS UNIVERSITARIO",
-  "visitante": "URUNDAY UNIVERSITARIO"
- },
- {
   "serie": "18B",
   "fechaHora": "2026-10-25 15:30:00",
   "cancha": "COMPLEJO JUAN XXIII",
   "local": "CIRCULO DE TENIS MONTEVIDEO",
   "visitante": "JUAN XXIII"
- },
- {
-  "serie": "18B",
-  "fechaHora": "2026-10-25 15:30:00",
-  "cancha": "LA MENNAIS",
-  "local": "J.M.L.M",
-  "visitante": "LA ESCALINATA"
  },
  {
   "serie": "18B",
@@ -117,13 +103,6 @@
   "cancha": "SAGRADA FAMILIA",
   "local": "CLUB SOCIAL PIEDRAS BLANCAS",
   "visitante": "A.E.B.U"
- },
- {
-  "serie": "18F",
-  "fechaHora": "2026-10-25 15:30:00",
-  "cancha": "COLEGIO ARETEIA",
-  "local": "DEP.de la C. ARETEIA BIMBULLY",
-  "visitante": "ISASA UNIVERSITARIO"
  },
  {
   "serie": "18F",
