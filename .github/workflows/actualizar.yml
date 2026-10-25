@@ -37,19 +37,20 @@ jobs:
         id: faltan
         if: github.event_name == 'schedule' && startsWith(github.event.schedule, '5 ')
         run: node scripts/faltan.mjs
+      # Ojo: en GitHub '' == '0' da verdadero (compara como números), por eso se mira 'outcome' y se compara con '1'.
       - run: node scripts/detalle.mjs
-        if: steps.faltan.outputs.seguir != '0'
+        if: steps.faltan.outcome == 'skipped' || steps.faltan.outputs.seguir == '1'
         env:
           MAX_MIN: '120'
           SOLO_FALTANTES: ${{ steps.faltan.outputs.seguir == '1' && '1' || '' }}
       - run: node scripts/sanciones.mjs
-        if: steps.faltan.outputs.seguir != '0'
+        if: steps.faltan.outcome == 'skipped' || steps.faltan.outputs.seguir == '1'
       - run: node scripts/analizar.mjs
-        if: steps.faltan.outputs.seguir != '0'
+        if: steps.faltan.outcome == 'skipped' || steps.faltan.outputs.seguir == '1'
       - run: node scripts/chat.mjs
-        if: steps.faltan.outputs.seguir != '0'
+        if: steps.faltan.outcome == 'skipped' || steps.faltan.outputs.seguir == '1'
       - name: Guardar datos
-        if: always() && steps.faltan.outputs.seguir != '0'
+        if: always() && (steps.faltan.outcome == 'skipped' || steps.faltan.outputs.seguir == '1')
         run: |
           git config user.name github-actions; git config user.email github-actions@users.noreply.github.com
           git add planillas data
