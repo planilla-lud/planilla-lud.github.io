@@ -1,0 +1,15 @@
+== resultados 20AT: 1
+{"Fecha":"5","Fecha_Hora":"2026-10-24 15:30:00","Cancha":"COMPLEJO WOODLANDS SCHOOL","Locatario":"OLD WOODLANDS CLUB","GL":"1","Visitante":"OLD CHRISTIANS CLUB","GV":"2","ID":"103233"}
+== partidos 20AT: 3
+{"Fecha":"2026-10-24 15:30:00","Cancha":"MONTE VI \"LOS CEIBOS\"","Locatario":"CEIBOS CLUB","Visitante":"E.L.F."}
+{"Fecha":"2026-10-24 15:30:00","Cancha":"ST. BRENDANS","Locatario":"OLD BRENDANS CLUB","Visitante":"CLUB SEMINARIO"}
+{"Fecha":"2026-10-24 15:30:00","Cancha":"LA MENNAIS","Locatario":"J.M.L.M","Visitante":"NACIONAL UNIVERSITARIO"}
+== resultados 20APD: 3
+{"Fecha":"5","Fecha_Hora":"2026-10-24 13:30:00","Cancha":"PARQUE CUPRA - CLUB SEMINARIO","Locatario":"PLAYA HONDA UNIVERSITARIO","GL":"1","Visitante":"OLD BOYS CLUB","GV":"3","ID":"103216"}
+{"Fecha":"5","Fecha_Hora":"2026-10-24 15:30:00","Cancha":"COM. CLUB UNIVERSIDAD CATOLICA","Locatario":"SAN PABLO UNIVERSITARIO","GL":"2","Visitante":"CARRASCO LAWN TENNIS","GV":"2","ID":"103226"}
+{"Fecha":"5","Fecha_Hora":"2026-10-24 15:30:00","Cancha":"COMPLEJO JUAN XXIII","Locatario":"MATURANA UNIVERSITARIO","GL":"4","Visitante":"SAN JUAN BAUTISTA","GV":"2","ID":"103224"}
+== partidos 20APD: 1
+{"Fecha":"2026-10-24 13:30:00","Cancha":"TENIS EL PINAR","Locatario":"TENIS EL PINAR","Visitante":"NAUTICO CARRASCO Y PUNTA GORDA"}
+== resultados 20A: 0
+== partidos 20A: 0
+== posiciones 20AT: [{"Institucion":"OLD WOODLANDS CLUB","PJ":"20","PG":"14","PE":"4","PP":"2","GF":"42","GC":"13","Puntos":"46"},{"Institucion":"OLD CHRISTIANS CLUB","PJ":"20","PG":"14","PE":"3","PP":"3","GF":"42","GC":"21","Puntos":"45"},{"Institucion":"E.L.F.","PJ":"19","PG":"12","PE":"5","PP":"2","GF":"35","GC":"16","Puntos":"41"},{"Institucion":"J.M.L.M","PJ":"19","PG":"10","PE":"6","PP":"3","GF":"38","GC":"24","Puntos":"36"},{"Institucion":"OLD BRENDANS CLUB","PJ":"19","PG":"9","PE":"5","PP":"5","GF":"33","GC":"20","Puntos":"32"},{"Institucion":"CEIBOS CLUB","PJ":"19","PG":"8","PE":"5","PP":"6","GF":"41","GC":"32","Puntos":"29"},{"Institucion":"CLUB SEMINARIO","PJ":"19","PG":"5","PE":"6","PP":"8","GF":"20","GC":"24","Puntos":"21"},{"Institucion":"NACIONAL UNIVERSITARIO","PJ":"19","PG":"4","PE":"7","PP":"8","GF":"30","GC":"35","Puntos":"19"}]
