@@ -1,7 +1,7 @@
-name: Probar el chat (temporal)
+name: Probar en vivo (temporal)
 on:
   push:
-    branches: [prueba-chat9]
+    branches: [prueba-vivo]
 permissions:
   contents: write
 jobs:
@@ -11,10 +11,9 @@ jobs:
       - uses: actions/checkout@v5
       - run: |
           U=$(jq -r .url chat-config.json)
-          while IFS= read -r b; do
-            echo "### $(echo "$b" | jq -r '.mensajes[-1].texto')" >> tmp/respuestas.md
-            curl -s -X POST "$U/chat" -H "Origin: https://planilla-lud.github.io" -H "Content-Type: application/json" --data "$b" >> tmp/respuestas.md
-            printf "\n\n" >> tmp/respuestas.md
-          done < tmp/cuerpos.jsonl
+          for d in sub20-a mayores-a reserva-c; do
+            echo "### $d" >> tmp/vivo.txt
+            curl -s "$U/vivo?div=$d" -H "Origin: https://planilla-lud.github.io" | jq -c '{consultado, n: (.partidos|length), ultimos: (.partidos|sort_by(.dia)|.[-3:]|map("\(.dia) \(.local) \(.gl)-\(.gv) \(.visitante)")), tablas: (.tablas|keys), error, detalle}' >> tmp/vivo.txt
+          done
           git config user.name github-actions; git config user.email github-actions@users.noreply.github.com
-          git add -f tmp/respuestas.md && git commit -qm respuestas && git push
+          git add -f tmp/vivo.txt && git commit -qm vivo && git push
