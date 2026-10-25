@@ -414,6 +414,30 @@ details.more summary{cursor:pointer;font-weight:600;padding:12px 16px}
 .forma b{width:21px;height:21px;border-radius:50%;display:grid;place-items:center;font-family:var(--font-mono);font-size:.64rem;font-weight:500;color:var(--ink)}
 .forma .G{background:var(--win)}.forma .E{background:var(--draw)}.forma .P{background:var(--loss)}
 
+/* Mi equipo: cómo le fue al club el último finde */
+.fd-r{display:grid;grid-template-columns:30px minmax(0,1fr) auto;gap:12px;align-items:center;padding:12px 16px;border-top:1px solid var(--line);color:inherit;text-decoration:none;transition:background-color .2s var(--ease-out)}
+.fd-r:first-child{border-top:0}
+.fd-r:hover{background:rgba(236,232,220,.035)}
+.fd-res{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;font-family:var(--font-mono);font-weight:500;font-size:.78rem;color:var(--ink)}
+.fd-res.G{background:var(--win)}.fd-res.E{background:var(--draw)}.fd-res.P{background:var(--loss)}
+.fd-t{display:grid;gap:2px;min-width:0}
+.fd-t > span{font-weight:600;overflow-wrap:anywhere}
+.fd-t > span b{font-family:var(--font-heading);font-weight:900;font-size:1.2rem;margin:0 3px}
+.fd-t small{color:var(--muted);font-size:.8rem}
+.fd-t small:first-child{font-family:var(--font-mono);font-size:.64rem;letter-spacing:.08em;text-transform:uppercase;color:var(--primary)}
+.fd-pos{display:flex;flex-direction:column;align-items:flex-end;gap:3px}
+.fd-pos b{font-family:var(--font-heading);font-weight:900;font-size:1.4rem;line-height:1}
+/* previa: números para pronosticar */
+.np{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr) minmax(0,1fr);gap:0 10px;align-items:baseline;padding:6px 16px 14px}
+.np > *{padding:9px 0;border-bottom:1px solid var(--line)}
+.np > b{font-family:var(--font-heading);font-weight:800;font-size:1.05rem;line-height:1.1;text-align:right;overflow-wrap:anywhere}
+.np > span:not(.np-t){text-align:right;font-family:var(--font-heading);font-weight:900;font-size:1.25rem;font-variant-numeric:tabular-nums}
+.np > span small{font-family:var(--font-sans);font-weight:500;font-size:.72rem;color:var(--muted)}
+.np-t{font-size:.86rem;color:var(--muted);line-height:1.3}
+.np-cuenta{grid-column:1/-1;margin:4px 0 0;border-bottom:0!important;font-size:.9rem;color:var(--muted)}
+.np-cuenta b{color:var(--fg)}
+.fd-pie{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;padding:12px 16px;border-top:1px solid var(--line);background:var(--surface-2);font-size:.9rem;color:var(--muted)}
+
 /* tabla de posiciones */
 .tb{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
 .tb-r{display:grid;grid-template-columns:26px minmax(0,1fr) 26px 36px 40px;gap:2px 10px;align-items:center;padding:11px 14px;border-top:1px solid var(--line);transition:background-color .25s var(--ease-out)}
@@ -476,6 +500,9 @@ a.chip{text-decoration:none;display:inline-block}
 a.ct-i:hover{text-decoration:underline}
 /* "Cómo descargar la app": tarjeta en Inicio y panel con los pasos */
 .app-aviso{padding-top:14px}
+/* aviso de sin conexión (sw.js muestra lo último que se cargó) */
+.sin-red{background:var(--warning-soft);border-bottom:1px solid rgba(233,170,95,.35);color:var(--fg);font-size:.88rem}
+.sin-red .wrap{padding-top:10px;padding-bottom:10px}
 .app-card{display:flex;align-items:center;gap:6px;padding:4px 8px 4px 4px;border-radius:var(--r);background:linear-gradient(180deg,var(--surface-2),var(--surface));border:1px solid var(--line);animation:subir .5s var(--ease-out)}
 .app-abrir{flex:1;min-width:0;display:flex;align-items:center;gap:12px;padding:10px;background:none;border:0;color:var(--fg);text-align:left;cursor:pointer}
 .app-abrir svg{width:30px;height:30px;flex:none;fill:none;stroke:var(--primary);stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
@@ -624,6 +651,7 @@ a.ct-i:hover{text-decoration:underline}
 <div class="subnav" id="subnav"><nav class="wrap dnav" id="dnav2" aria-label="Más secciones"></nav></div>
 <aside class="contador" id="contador" aria-label="Entradas, partidos más vistos y clubes favoritos" hidden><div class="wrap"></div></aside>
 <div class="wrap app-aviso" id="app-aviso" hidden></div>
+<div class="sin-red" id="sin-red" role="status" hidden></div>
 <div id="hero"></div>
 <main class="wrap" id="main" aria-live="polite">
   <div class="sk" style="height:120px"></div><div class="sk" style="height:260px"></div><div class="sk" style="height:180px"></div>
@@ -1380,7 +1408,7 @@ function corte(etapa, i, n) {
   return false;
 }
 // Partidos ya jugados que la Liga todavía no cargó (con el provisorio, si alguien lo cargó a mano).
-const notaVivo = d => d.vivo ? `<p class="small muted" style="margin:4px 0 0">Conectado con la Liga: resultados y tabla al ${new Date(d.vivo.consultado).toLocaleTimeString('es-UY', { hour: '2-digit', minute: '2-digit' })}${d.vivo.nuevos ? ` · ${d.vivo.nuevos} resultado${d.vivo.nuevos > 1 ? 's' : ''} recién cargado${d.vivo.nuevos > 1 ? 's' : ''} (la planilla llega después)` : ''}.</p>` : '';
+const notaVivo = d => d.vivo ? `<p class="small muted" style="margin:4px 0 0">Conectado con la Liga: resultados y tabla al ${new Date(d.vivo.consultado).toLocaleTimeString('es-UY', { hour: '2-digit', minute: '2-digit' }).replace(/\.$/, '')}${d.vivo.nuevos ? ` · ${d.vivo.nuevos} resultado${d.vivo.nuevos > 1 ? 's' : ''} recién cargado${d.vivo.nuevos > 1 ? 's' : ''} (la planilla llega después)` : ''}.</p>` : '';
 function vSinCargar(d) {
   const L = d.sinResultado || [];
   if (!L.length) return '';
@@ -1510,6 +1538,7 @@ function vPrevia(d, cat, k) {
     <div class="bigscore" style="font-size:.78rem;color:var(--muted)"><span>${formaHtml(d, f.l)}<br>${resumen(f.l)}</span><span></span><span>${formaHtml(d, f.v)}<br>${resumen(f.v)}</span></div>
     <div class="row" style="justify-content:center"><button class="share" onclick="compartirPrevia()">${ICONO_COMPARTIR}<span>Compartir la previa</span></button></div></div>
   ${vQueSeJuegan(d, cat, f)}
+  ${vNumeros(d, cat, f)}
   <section class="fixture"><div class="fixture-h"><b>Bajas</b><a href="${link(cat, 'bajas')}">todas las de la fecha</a></div>${bajasDe(f.l)}${bajasDe(f.v)}</section>
   <div class="stack"><h3>Once probable</h3><p class="lede small">Armado con los titulares de los últimos 5 partidos (el último pesa mucho más). El % es cuántas veces fue titular en ese tramo; los suspendidos quedan afuera y las dudas aparecen marcadas.${ACIERTOS?.divisionales?.[cat] ? ` En ${esc(DIVS[cat].nombre)} acierta ${coma(ACIERTOS.divisionales[cat].promedio)} de 11 titulares por partido (<a href="${link(cat, 'bajas', 'aciertos')}">cómo se mide</a>).` : ''}</p></div>
   <div class="two">${vOnce(d, cat, f.l)}${vOnce(d, cat, f.v)}</div>
@@ -1518,6 +1547,45 @@ function vPrevia(d, cat, k) {
   <div class="stack"><h3>Cuándo hacen y reciben goles</h3><p class="lede small">Goles en ${esc(DIVS[cat].nombre)} esta temporada, por tramo de 15 minutos.</p></div>
   <div class="two"><div class="card"><h3 style="margin-bottom:8px">${esc(f.l)}</h3>${vTramos(d, f.l)}</div><div class="card"><h3 style="margin-bottom:8px">${esc(f.v)}</h3>${vTramos(d, f.v)}</div></div>
   <div class="card stack"><h3>Goleadores en racha</h3><p class="small" style="margin:0"><b>${esc(f.l)}:</b> ${gf(f.l)}</p><p class="small" style="margin:0"><b>${esc(f.v)}:</b> ${gf(f.v)}</p><p class="small muted" style="margin:0">Goles en los últimos 5 partidos.</p></div>`;
+}
+// Números para pronosticar: cómo le va a cada uno de local o de visitante, cuántos goles hace y recibe,
+// cada cuánto marcan los dos, y lo que da la cuenta de los promedios. Todo con los partidos de la
+// temporada en esta divisional (sin los W.O.).
+function numerosDe(d, eq, local) {
+  const ps = (d.porEquipo[eq] || []).filter(x => x.gf != null && x.gc != null && !x.p.wo);
+  const ahi = ps.filter(x => x.lado === (local ? 'L' : 'V'));
+  const rec = l => { const g = l.filter(x => x.gf > x.gc).length, e = l.filter(x => x.gf === x.gc).length; return { g, e, p: l.length - g - e, n: l.length }; };
+  const prom = (l, k) => l.length ? l.reduce((s, x) => s + x[k], 0) / l.length : null;
+  const pct = (l, f) => l.length ? Math.round(l.filter(f).length / l.length * 100) : null;
+  const veces = {};
+  for (const x of ps) veces[`${x.gf}-${x.gc}`] = (veces[`${x.gf}-${x.gc}`] || 0) + 1;
+  const masRep = Object.entries(veces).sort((a, b) => b[1] - a[1])[0];
+  // Para la cuenta: si jugó al menos 3 de local (o de visitante), se usan esos partidos; si no, todos.
+  const base = ahi.length >= 3 ? ahi : ps;
+  return { n: ps.length, ahi: rec(ahi), gf: prom(ps, 'gf'), gc: prom(ps, 'gc'), bgf: prom(base, 'gf'), bgc: prom(base, 'gc'),
+    ambos: pct(ps, x => x.gf > 0 && x.gc > 0), mas25: pct(ps, x => x.gf + x.gc >= 3), invicta: pct(ps, x => x.gc === 0),
+    masRep: masRep && { r: masRep[0], veces: masRep[1] } };
+}
+function vNumeros(d, cat, f) {
+  const L = numerosDe(d, f.l, true), V = numerosDe(d, f.v, false);
+  if (L.n < 3 || V.n < 3) return '';
+  const uno = x => x == null ? '–' : coma(x.toFixed(1)), pc = x => x == null ? '–' : `${x}%`;
+  const rec = r => r.n ? `${r.g}G ${r.e}E ${r.p}P` : '–';
+  const fila = (t, a, b) => `<span class="np-t">${t}</span><span>${a}</span><span>${b}</span>`;
+  // La cuenta de los promedios: lo que hace uno con lo que recibe el otro.
+  const gl = (L.bgf + V.bgc) / 2, gv = (V.bgf + L.bgc) / 2;
+  return `<div class="stack"><h3>Números para pronosticar</h3><p class="lede small">De la temporada en ${esc(DIVS[cat]?.nombre || '')}, sin los W.O. La primera columna es el local; la segunda, el visitante.</p></div>
+  <div class="card np">
+    <span></span><b>${esc(f.l)}</b><b>${esc(f.v)}</b>
+    ${fila('De local / de visitante', rec(L.ahi), rec(V.ahi))}
+    ${fila('Goles a favor por partido', uno(L.gf), uno(V.gf))}
+    ${fila('Goles en contra por partido', uno(L.gc), uno(V.gc))}
+    ${fila('Marcaron los dos', pc(L.ambos), pc(V.ambos))}
+    ${fila('Más de 2,5 goles', pc(L.mas25), pc(V.mas25))}
+    ${fila('Valla invicta', pc(L.invicta), pc(V.invicta))}
+    ${fila('Resultado más repetido', L.masRep ? `${L.masRep.r} <small>(${L.masRep.veces})</small>` : '–', V.masRep ? `${V.masRep.r} <small>(${V.masRep.veces})</small>` : '–')}
+    <p class="np-cuenta">La cuenta de los promedios da <b>${esc(f.l)} ${uno(gl)} – ${uno(gv)} ${esc(f.v)}</b>. No es un pronóstico: es lo que hace cada uno contra lo que recibe el otro.</p>
+  </div>`;
 }
 let PREVIA = null;
 async function compartirPrevia() {
@@ -1641,8 +1709,58 @@ async function renderMiEquipo(sub) {
   const sinProx = c.equipos.filter(e => !e.proximo);
   const susp = c.equipos.flatMap(e => e.alertas.filter(a => a.tipo === 'suspendido').map(a => a.carne)).filter((x, i, l) => l.indexOf(x) === i).length;
   main.innerHTML = `<div class="club-h">${crest(c.equipos[0].equipo, true)}<div style="flex:1;min-width:0"><h2>${esc(c.nombre)}</h2><div class="small muted">${c.equipos.length} equipo${c.equipos.length > 1 ? 's' : ''} · ${susp ? `${susp} suspendido${susp > 1 ? 's' : ''}` : 'sin suspendidos'}</div></div><a class="share" href="#/mi-equipo/elegir" style="text-decoration:none">Cambiar</a></div>
+    <section class="stack" id="finde"><div class="sk" style="height:160px"></div></section>
     ${prox.length ? `<h3>Próximos partidos</h3>${prox.map(card).join('')}` : ''}
     ${sinProx.length ? `<h3>Sin partido programado</h3>${sinProx.map(card).join('')}` : ''}`;
+  pintarFinde(c);
+}
+
+// Cómo le fue al club el último fin de semana, con todas sus categorías juntas: el resultado, quién hizo
+// los goles y cómo quedó en la tabla. Abajo, el texto listo para mandar al grupo del club.
+let FINDE = null;
+async function pintarFinde(c) {
+  const el = $('#finde');
+  if (!el) return;
+  const conDatos = (await Promise.all(c.equipos.map(async e => { try { return { e, d: await datos(e.div) }; } catch { return null; } }))).filter(Boolean);
+  const ultimos = conDatos.map(({ e, d }) => {
+    const x = (d.porEquipo[e.equipo] || []).filter(x => x.gf != null && x.gc != null).sort((a, b) => (a.p.dia + a.p.hora).localeCompare(b.p.dia + b.p.hora)).at(-1);
+    return x && { e, d, x };
+  }).filter(Boolean);
+  if (!$('#finde')) return; // ya se fue de Mi equipo
+  if (!ultimos.length) { el.remove(); return; }
+  // La semana: los partidos de los 7 días que terminan con el último que jugó el club.
+  const fin = ultimos.map(u => u.x.p.dia).sort().at(-1);
+  const desde = new Date(new Date(fin + 'T12:00:00-03:00') - 6 * 864e5).toISOString().slice(0, 10);
+  const L = ultimos.filter(u => u.x.p.dia >= desde).map(({ e, d, x }) => {
+    const r = x.gf > x.gc ? 'G' : x.gf < x.gc ? 'P' : 'E';
+    const goles = x.p.planilla ? x.p[x.lado].filter(j => j.g.length).map(j => (d.jugadores[j.c]?.nombre || '').split(' ').slice(-1)[0] + (j.g.length > 1 ? ` (${j.g.length})` : '')).filter(Boolean) : null;
+    const pu = puestoEquipo(d, e.equipo), T = pu && tablaDe(d, pu.etapa), M = T && movimientos(d, pu.etapa, T.filas);
+    return { e, x, r, goles, pu, mov: M?.mov[e.equipo] || 0, nombre: DIVS[e.div]?.nombre || e.div };
+  });
+  const n = t => L.filter(u => u.r === t).length;
+  const dias = [...new Set(L.map(u => u.x.p.dia))].sort(), rango = dias.length > 1 ? `${fDia(dias[0])} al ${fDia(dias.at(-1))}` : fDia(dias[0]);
+  const flecha = m => m > 0 ? ` ▲${m}` : m < 0 ? ` ▼${-m}` : '';
+  FINDE = { club: c.nombre, rango, L, tot: [n('G'), n('E'), n('P')] };
+  el.innerHTML = `<div class="sec-h"><div><p class="eyebrow">La última semana · ${esc(rango)}</p><h2>Cómo le fue a ${esc(c.nombre)}</h2></div></div>
+    <div class="fixture">${L.map(u => `<a class="fd-r" href="${link(u.e.div, 'partido', u.x.p.id)}">
+      <b class="fd-res ${u.r}">${u.r}</b>
+      <span class="fd-t"><small>${esc(u.nombre)}${u.e.equipo !== c.nombre ? ` · ${esc(u.e.equipo)}` : ''}</small>
+        <span>${esc(u.x.p.local)} <b>${u.x.p.gl}-${u.x.p.gv}</b> ${esc(u.x.p.visitante)}</span>
+        <small>${u.goles ? (u.goles.length ? 'Goles: ' + esc(u.goles.join(', ')) : 'Sin goles') : 'Sin planilla todavía'}</small></span>
+      ${u.pu ? `<span class="fd-pos"><b>${u.pu.puesto}°</b>${u.mov ? `<span class="tb-mv ${u.mov > 0 ? 'up' : 'dn'}">${flecha(u.mov).trim()}</span>` : ''}</span>` : ''}</a>`).join('')}
+      <div class="fd-pie"><span>${n('G')} ganado${n('G') === 1 ? '' : 's'} · ${n('E')} empate${n('E') === 1 ? '' : 's'} · ${n('P')} perdido${n('P') === 1 ? '' : 's'}</span>
+        <button class="share" onclick="compartirFinde()">${ICONO_COMPARTIR}<span>Mandar al grupo</span></button></div></div>`;
+}
+async function compartirFinde() {
+  if (!FINDE) return;
+  const { club, rango, L, tot } = FINDE, ico = { G: '✅', E: '➖', P: '❌' };
+  const flecha = m => m > 0 ? ` ▲${m}` : m < 0 ? ` ▼${-m}` : '';
+  const texto = `⚽ *${club}* esta semana (${rango})\n\n` + L.map(u => `${ico[u.r]} ${u.nombre}${u.e.equipo !== club ? ` (${u.e.equipo})` : ''}: ${u.x.p.local} ${u.x.p.gl}-${u.x.p.gv} ${u.x.p.visitante}${u.goles?.length ? ` · ${u.goles.join(', ')}` : ''}${u.pu ? ` · ${u.pu.puesto}°${flecha(u.mov)}` : ''}`).join('\n')
+    + `\n\n${tot[0]} ganado${tot[0] === 1 ? '' : 's'} · ${tot[1]} empate${tot[1] === 1 ? '' : 's'} · ${tot[2]} perdido${tot[2] === 1 ? '' : 's'}\n👉 ${location.origin}${location.pathname}`;
+  if (navigator.share) { try { await navigator.share({ text: texto }); return; } catch (e) { if (e.name === 'AbortError') return; } }
+  try { await navigator.clipboard.writeText(texto); } catch {}
+  window.open('https://wa.me/?text=' + encodeURIComponent(texto), '_blank', 'noopener');
+  aviso('Texto copiado. Se abre WhatsApp para mandarlo.');
 }
 
 // ---------- portada ----------
@@ -1680,10 +1798,7 @@ function vInicio(d, cat) {
     ${L.length ? `<section class="stack"><div class="sec-h"><div><p class="eyebrow">La fecha</p><h2>Partidos</h2></div><a href="${link(cat, 'partidos')}">Todos los partidos →</a></div>
       <div class="card pv-list" style="padding:0">${L.map(tarjeta).join('')}</div></section>` : ''}
     ${destacadas.length ? `<section class="stack"><div class="sec-h"><div><p class="eyebrow">Ojo con estos</p><h2>Bajas más importantes</h2></div><a href="${link(cat, 'bajas')}">Ver todas →</a></div>
-      <section class="fixture"><div class="side">${destacadas.map(a => `<div class="alert"><b class="lvl ${a.nivel}">${a.nivel}</b>${a.carne ? `<a href="${link(cat, 'jugador', a.carne)}">${esc(a.nombre)} <span class="muted" style="font-weight:500">· ${esc(a.eq)}</span></a>` : `<b>${esc(a.nombre)} · ${esc(a.eq)}</b>`}<span>${esc(a.texto)}</span></div>`).join('')}</div></section></section>` : ''}
-    <section class="stack"><div><p class="eyebrow">Todo lo que hay</p><h2>Secciones</h2></div>
-      <div class="feat">${SECCIONES.filter(s => s[0] !== 'inicio').map(([id, n, i, desc]) => `<a href="${link(cat, id)}"><span class="ic">${ic(i)}</span><span><b>${n}</b><small>${desc}</small></span></a>`).join('')}
-      <a href="#/mi-equipo"><span class="ic">${ic('i-equipos')}</span><span><b>Mi equipo</b><small>Tu club en todas las categorías</small></span></a></div></section>`;
+      <section class="fixture"><div class="side">${destacadas.map(a => `<div class="alert"><b class="lvl ${a.nivel}">${a.nivel}</b>${a.carne ? `<a href="${link(cat, 'jugador', a.carne)}">${esc(a.nombre)} <span class="muted" style="font-weight:500">· ${esc(a.eq)}</span></a>` : `<b>${esc(a.nombre)} · ${esc(a.eq)}</b>`}<span>${esc(a.texto)}</span></div>`).join('')}</div></section></section>` : ''}`;
 }
 
 // Lo más picante de todas las divisionales (data/picantes.json lo arma el robot con scripts/picantes.mjs,
@@ -1802,7 +1917,9 @@ async function render() {
   if (tab !== 'inicio' || !d.previas) { if (!['inicio'].includes(tab)) $('#hero').innerHTML = ''; }
   encabezar(cat);
   const act = new Date(d.actualizado);
-  $('#actualizado').textContent = `Datos actualizados el ${act.toLocaleDateString('es-UY', { day: 'numeric', month: 'long' })} a las ${act.toLocaleTimeString('es-UY', { hour: '2-digit', minute: '2-digit' })}.`;
+  DATOS_AL = `${act.toLocaleDateString('es-UY', { day: 'numeric', month: 'long' })} a las ${act.toLocaleTimeString('es-UY', { hour: '2-digit', minute: '2-digit' }).replace(/\.$/, '')}`;
+  $('#actualizado').textContent = `Datos actualizados el ${DATOS_AL}.`;
+  pintarSinRed();
   const q = $('#q');
   if (q) {
     q.addEventListener('input', () => { history.replaceState(null, '', link(cat, 'jugadores', q.value)); main.innerHTML = vJugadores(d, cat, q.value); bindSearch(cat, d); });
@@ -1875,6 +1992,18 @@ async function instalarApp() {
   await PROMPT_INSTALAR.userChoice;
   PROMPT_INSTALAR = null;
 }
+
+// ---------- sin señal ----------
+// sw.js guarda la página y lo último que se vio; sin conexión, un aviso dice de cuándo son esos datos.
+let DATOS_AL = '';
+function pintarSinRed() {
+  const el = $('#sin-red');
+  el.hidden = navigator.onLine;
+  if (!el.hidden) el.innerHTML = `<div class="wrap">Sin conexión. Estás viendo lo último que se cargó en este celular${DATOS_AL ? `: datos del ${esc(DATOS_AL)}` : ''}.</div>`;
+}
+addEventListener('online', pintarSinRed);
+addEventListener('offline', pintarSinRed);
+if ('serviceWorker' in navigator && window.isSecureContext) addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));
 
 document.addEventListener('visibilitychange', () => document.body.classList.toggle('paused', document.hidden));
 addEventListener('hashchange', render);

@@ -7,7 +7,7 @@
 //  - No hay acumulación de amarillas (y la Liga tampoco carga las amonestaciones).
 //  - Los expulsados vienen con nombre pero sin minuto: sus minutos pueden quedar de más.
 import { readdirSync, readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
-import { corto } from './comun.mjs';
+import { corto, enie } from './comun.mjs';
 import { CATEGORIAS, DIVISIONALES, VISTAS } from './categorias.mjs';
 import { armarPicantes } from './picantes.mjs';
 
@@ -15,7 +15,7 @@ const RAIZ = new URL('../', import.meta.url);
 const OUT = new URL('data/', RAIZ);
 mkdirSync(OUT, { recursive: true });
 
-const norm = s => (s || '').normalize('NFC').trim().toUpperCase().replace(/\s+/g, ' ');
+const norm = s => enie((s || '').normalize('NFC')).trim().toUpperCase().replace(/\s+/g, ' ');
 const lindo = s => norm(s).toLowerCase().replace(/(^|[\s'-])(\S)/g, (m, a, b) => a + b.toUpperCase());
 const num = v => (v === '' || v == null || isNaN(Number(v)) ? null : Number(v));
 

@@ -43,9 +43,14 @@ imagen que aparece al compartir el link por WhatsApp.
   La previa de cada partido trae el once probable de cada equipo (titulares de los
   últimos 5 partidos, el último pesa mucho más, sin suspendidos, con las dudas marcadas y un solo arquero), las bajas, cómo vienen (últimos 5),
   el cara a cara de la temporada entre esos clubes en todas las categorías, en qué minutos hacen y
-  reciben goles, y los goleadores en racha. Se puede compartir por WhatsApp.
+  reciben goles, y los goleadores en racha. Se puede compartir por WhatsApp. También trae "Números para
+  pronosticar": cómo le va al local de local y al visitante de visitante, goles a favor y en contra por
+  partido, cada cuánto marcan los dos, más de 2,5 goles, valla invicta, el resultado más repetido y la
+  cuenta de los promedios (lo que hace uno contra lo que recibe el otro). Sin los W.O.
 - **Mi equipo:** elegís tu club una vez (queda guardado en el navegador) y la web abre directo en lo
   tuyo: próximo partido, bajas y suspendidos de todos los equipos del club, en todas las categorías.
+  Arriba, "Cómo le fue" en la última semana: el resultado de cada categoría, quién hizo los goles y cómo
+  quedó en la tabla, con un botón para mandarlo al grupo del club por WhatsApp.
 - **Tabla:** la tabla de posiciones de cada grupo (título, permanencia o copa, y la primera rueda o las series),
   con PJ, G, E, P, goles, diferencia y puntos. Abajo de cada equipo: los últimos 5, la racha (3 o más
   iguales seguidos, o 4 o más sin perder / sin ganar), las bajas de nivel alto de la próxima fecha y el
@@ -77,6 +82,10 @@ lesionado, de viaje o de exámenes. Las suspensiones se confirman en Fallos y Pe
 La página se instala como app ("Agregar a pantalla de inicio" en el iPhone desde Safari, o "Instalar app"
 en Chrome de Android): `manifest.webmanifest` y los íconos y pantallas de arranque de `app/`. Los genera
 `herramientas/portada.py` con el mismo diseño de la página.
+
+Anda sin señal (en la cancha): `sw.js` guarda la página y lo último que se vio de cada divisional. Con
+señal va primero a buscar lo nuevo; si en 4 segundos no llegó, muestra lo guardado. Sin conexión, un aviso
+arriba dice de cuándo son esos datos. No toca Supabase ni el servidor en vivo, que van directo.
 
 ## Cómo funciona
 

@@ -5,7 +5,8 @@ name: Publicar el chat
 on:
   push:
     branches: [main]
-    paths: ['worker/**', '.github/workflows/chat.yml']
+    # scripts/comun.mjs también: el servidor usa corto() para los nombres de los equipos en vivo.
+    paths: ['worker/**', 'scripts/comun.mjs', '.github/workflows/chat.yml']
   workflow_dispatch:
 permissions:
   contents: write
