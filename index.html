@@ -1012,7 +1012,7 @@ function vPartidos(d, cat) {
       <span class="t">${crest(f.v)}<span>${esc(f.v)}</span>${formaHtml(d, f.v)}</span></a>`).join('')}</div></section>` : '';
   return `<div class="stack"><h2>Partidos</h2></div>${proxima}
   <section class="stack"><div><p class="eyebrow">Temporada</p><h3>Resultados</h3></div>
-  ${[...grupos].map(([k, ps]) => `<div class="stack"><h3 class="small muted" style="font-size:.95rem">${esc(k)} · ${fDia(ps[ps.length - 1].dia)}</h3><div class="card" style="padding:0">${filaPartidos(cat, ps)}</div></div>`).join('')}</section>`;
+  ${[...grupos].map(([k, ps]) => `<div class="stack"><h3 class="small muted" style="font-size:.95rem">${esc(k)} · ${fDia(ps[0].dia)}</h3><div class="card" style="padding:0">${filaPartidos(cat, ps)}</div></div>`).join('')}</section>`;
 }
 
 function vPartido(d, cat, id) {
