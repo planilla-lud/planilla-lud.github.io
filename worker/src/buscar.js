@@ -88,7 +88,8 @@ export function buscar(datos, texto, { div = null, club = null, anteriores = '' 
     const uno = delClub.find(([e]) => e.div === div) || delClub.find(([e]) => (cat ? e.cat === cat : e.cat === 'Mayores')) || delClub[0];
     if (uno) elegidos.push(uno[1]);
   }
-  return { equipos: elegidos, jugadores, cat, div };
+  const campana = /\b(resultados|campana|temporada|todos los partidos|racha|historial|enfrentamientos|veces)\b/.test(q);
+  return { equipos: elegidos, jugadores, cat, div, campana };
 }
 
 const lista = (t, l) => l?.length ? `${t}: ${l.join('; ')}` : null;
@@ -102,6 +103,23 @@ export function textoEquipo(e) {
 // Contexto final para la IA. Si no se encontró nada, una tabla corta de la divisional que mira.
 export function contexto(datos, hallado) {
   const partes = hallado.equipos.map(i => textoEquipo(datos.equipos[i]));
+  // Cara a cara: todos los partidos de la temporada entre los equipos mencionados de la misma divisional.
+  const ddmm = d => `${d.slice(8, 10)}/${d.slice(5, 7)}`;
+  const mencionados = hallado.equipos.slice(0, 4).map(i => datos.equipos[i]);
+  for (let a = 0; a < mencionados.length; a++) for (let b = a + 1; b < mencionados.length; b++) {
+    const x = mencionados[a], y = mencionados[b];
+    if (x.div !== y.div || !x.resultados) continue;
+    const entre = x.resultados.filter(r => r[1] === y.eq);
+    partes.push(`CARA A CARA ${x.eq} vs ${y.eq} en ${x.divNombre} (todos los de la temporada, goles de ${x.eq} primero): `
+      + (entre.length ? entre.map(([d, , gf, gc, et]) => `${ddmm(d)} ${et}: ${x.eq} ${gf}-${gc} ${y.eq}`).join('; ')
+        + `. En total: ${entre.length} partidos, ${x.eq} hizo ${entre.reduce((s, r) => s + r[2], 0)} goles y recibió ${entre.reduce((s, r) => s + r[3], 0)}.`
+        : 'no se enfrentaron todavía esta temporada.'));
+  }
+  // Si pregunta por la campaña o los resultados, va la lista completa del primer equipo.
+  if (hallado.campana && mencionados[0]?.resultados) {
+    const e = mencionados[0];
+    partes.push(`TODOS LOS RESULTADOS DE ${e.eq} (${e.divNombre}): ` + e.resultados.map(([d, r, gf, gc]) => `${ddmm(d)} ${gf > gc ? 'G' : gf === gc ? 'E' : 'P'} ${gf}-${gc} vs ${r}`).join('; '));
+  }
   // La tabla del grupo de cada equipo (una vez por grupo), para poder razonar con los puntos.
   const vistas = new Set();
   for (const i of hallado.equipos.slice(0, 3)) {

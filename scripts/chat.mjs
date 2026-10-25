@@ -77,6 +77,8 @@ for (const cat of indice.categorias) for (const dv of cat.divisionales) {
       pos: tabla && tabla[eq] ? `${tabla[eq]}° de ${Object.keys(tabla).length} en ${etapa}` : null,
       campana: `${jugados.length} PJ, ${g}G ${e}E ${jugados.length - g - e}P, goles ${jugados.reduce((s, x) => s + x.gf, 0)}-${jugados.reduce((s, x) => s + x.gc, 0)}`,
       ultimos: jugados.slice(-5).reverse().map(x => `${x.r} ${x.gf}-${x.gc} vs ${x.rival} (${x.dia.slice(8, 10)}/${x.dia.slice(5, 7)})`),
+      // Todos los resultados de la temporada (para el cara a cara y preguntas de campaña): [día, rival, gf, gc, etapa].
+      resultados: jugados.map(x => [x.dia, x.rival, x.gf, x.gc, x.etapa]),
       bajas: (b.alertas || []).filter(a => a.nivel !== 'baja').map(a => `${a.nombre} (${a.nivel}): ${a.texto}`),
       suspendidos: susp,
       once: (b.probable?.once || []).map(x => `${nom(x.c)}${x.arq ? ' (arquero)' : ''}${x.duda ? ' (duda)' : ''}`),
