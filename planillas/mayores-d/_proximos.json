@@ -1,55 +1,6 @@
 [
  {
   "serie": "DTA",
-  "fechaHora": "2026-10-25 09:00:00",
-  "cancha": "COMPLEJO DEPORTIVO H3O",
-  "local": "LA 12 UNIVERSITARIA",
-  "visitante": "DEPORTIVO LS UNIVERSITARIO"
- },
- {
-  "serie": "DPD",
-  "fechaHora": "2026-10-25 09:00:00",
-  "cancha": "COMPLEJO LOS ROJOS",
-  "local": "LATINO FUTBOL CLUB",
-  "visitante": "TROUVILLE UNIVERSITARIO"
- },
- {
-  "serie": "DPD",
-  "fechaHora": "2026-10-25 09:00:00",
-  "cancha": "ESTADIO MARTÍNEZ MONEGAL",
-  "local": "SALESIANOS DE LAS PIEDRAS",
-  "visitante": "DEPORTIVO MORON"
- },
- {
-  "serie": "DTA",
-  "fechaHora": "2026-10-25 11:15:00",
-  "cancha": "ESCUELA NAVAL",
-  "local": "YAGUARI",
-  "visitante": "MOSSENS"
- },
- {
-  "serie": "DTA",
-  "fechaHora": "2026-10-25 11:15:00",
-  "cancha": "SCUOLA ITALIANA",
-  "local": "SCUOLA PALERMO",
-  "visitante": "YOUNG UNIVERSITARIO"
- },
- {
-  "serie": "DTA",
-  "fechaHora": "2026-10-25 11:15:00",
-  "cancha": "COM. DEP. CLUB TROUVILLE",
-  "local": "NUMA TURCATTI",
-  "visitante": "CLUB ATLETICO LIMBURGO"
- },
- {
-  "serie": "DPD",
-  "fechaHora": "2026-10-25 11:15:00",
-  "cancha": "COMPLEJO DEPORTIVO H3O",
-  "local": "PERRY SEXTA UNIVERSITARIO",
-  "visitante": "UNIVERSITARIO VERONES"
- },
- {
-  "serie": "DTA",
   "fechaHora": "2026-11-01 00:00:00",
   "cancha": "CANCHA A FIJAR",
   "local": "CLUB ATLETICO LIMBURGO",

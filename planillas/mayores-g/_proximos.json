@@ -1,48 +1,6 @@
 [
  {
   "serie": "GTA",
-  "fechaHora": "2026-10-25 09:00:00",
-  "cancha": "ESCUELA NAVAL",
-  "local": "NUESTRA SEÑORA DE LOURDES",
-  "visitante": "DEPORTIVO NAVAL"
- },
- {
-  "serie": "GPD",
-  "fechaHora": "2026-10-25 09:00:00",
-  "cancha": "COMPLEJO LAS CASUARINAS",
-  "local": "CENTRO GALLEGO",
-  "visitante": "COLEGIO SALESIANO DE LA COSTA"
- },
- {
-  "serie": "GTA",
-  "fechaHora": "2026-10-25 11:15:00",
-  "cancha": "COMPLEJO INDEPENDIENTE UNIV.",
-  "local": "VARELA UNIVERSITARIO",
-  "visitante": "COLEGIO SAN ISIDRO"
- },
- {
-  "serie": "GTA",
-  "fechaHora": "2026-10-25 11:15:00",
-  "cancha": "CAMPO MARISTAS DEPORTIVO",
-  "local": "MARISTAS DEPORTIVO",
-  "visitante": "APENAS UNIVERSITARIO"
- },
- {
-  "serie": "GPD",
-  "fechaHora": "2026-10-25 11:15:00",
-  "cancha": "COMPLEJO DEPORTIVO H3O",
-  "local": "COLEGIO Y LICEO SANTO DOMINGO",
-  "visitante": "PAMPERO"
- },
- {
-  "serie": "GPD",
-  "fechaHora": "2026-10-25 11:15:00",
-  "cancha": "COMPLEJO JUAN XXIII",
-  "local": "MARISCAL NASAZZI",
-  "visitante": "CLUB ATLETICO BELLA VISTA"
- },
- {
-  "serie": "GTA",
   "fechaHora": "2026-10-28 00:00:00",
   "cancha": "CANCHA A FIJAR",
   "local": "APENAS UNIVERSITARIO",

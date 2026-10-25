@@ -1,62 +1,6 @@
 [
  {
   "serie": "CTA",
-  "fechaHora": "2026-10-25 09:00:00",
-  "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
-  "local": "ISASA UNIVERSITARIO",
-  "visitante": "CRANDON UNIVERSITARIO"
- },
- {
-  "serie": "CTA",
-  "fechaHora": "2026-10-25 09:00:00",
-  "cancha": "COMPLEJO JUAN XXIII",
-  "local": "LA BLANQUEADA",
-  "visitante": "DANUBIO FUTBOL CLUB"
- },
- {
-  "serie": "CPD",
-  "fechaHora": "2026-10-25 09:00:00",
-  "cancha": "COMPLEJO DEVOTO",
-  "local": "WANDERERS",
-  "visitante": "CLUB SOCIAL PIEDRAS BLANCAS"
- },
- {
-  "serie": "CPD",
-  "fechaHora": "2026-10-25 09:00:00",
-  "cancha": "COM. CLUB UNIVERSIDAD CATOLICA",
-  "local": "POCO SITIO PLAYA VERDE",
-  "visitante": "C.A.L.I."
- },
- {
-  "serie": "CTA",
-  "fechaHora": "2026-10-25 11:15:00",
-  "cancha": "COLEGIO PIO",
-  "local": "WOLFRAMIO",
-  "visitante": "MATURANA UNIVERSITARIO"
- },
- {
-  "serie": "CTA",
-  "fechaHora": "2026-10-25 11:15:00",
-  "cancha": "CAMPO DEP. COLEGIO INGLES",
-  "local": "COLEGIO Y LICEO INGLES",
-  "visitante": "COLEGIO SANTA ELENA"
- },
- {
-  "serie": "CPD",
-  "fechaHora": "2026-10-25 11:15:00",
-  "cancha": "COM. CLUB UNIVERSIDAD CATOLICA",
-  "local": "SAN PABLO UNIVERSITARIO",
-  "visitante": "DEFENSOR SPORTING"
- },
- {
-  "serie": "CPD",
-  "fechaHora": "2026-10-25 11:15:00",
-  "cancha": "ACADEMIA",
-  "local": "A.E.B.U",
-  "visitante": "ARQUITECTURA JRS."
- },
- {
-  "serie": "CTA",
   "fechaHora": "2026-11-01 00:00:00",
   "cancha": "CANCHA A FIJAR",
   "local": "COLEGIO SANTA ELENA",

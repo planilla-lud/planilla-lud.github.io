@@ -1,54 +1,5 @@
 [
  {
-  "serie": "ETA",
-  "fechaHora": "2026-10-25 09:00:00",
-  "cancha": "ESCUELA NAVAL",
-  "local": "DEPORTIVO MITRE",
-  "visitante": "ESTUDIANTES ESPAÑOLES"
- },
- {
-  "serie": "ETA",
-  "fechaHora": "2026-10-25 09:00:00",
-  "cancha": "COMPLEJO 1GOL",
-  "local": "CERVANTES UNIVERSITARIO",
-  "visitante": "BODY FACTORY"
- },
- {
-  "serie": "ETA",
-  "fechaHora": "2026-10-25 09:00:00",
-  "cancha": "CAMPO DEP. COLEGIO INGLES",
-  "local": "CAFU",
-  "visitante": "SAN AGUSTIN"
- },
- {
-  "serie": "ETA",
-  "fechaHora": "2026-10-25 09:00:00",
-  "cancha": "COMPLEJO LAS CASUARINAS",
-  "local": "CLUB ESTUDIANTES INGENIERIA",
-  "visitante": "SAN CONO"
- },
- {
-  "serie": "EPD",
-  "fechaHora": "2026-10-25 09:00:00",
-  "cancha": "COMPLEJO NORTHFIELD",
-  "local": "JEAN PIAGET",
-  "visitante": "EL CHORRO FUTBOL CLUB"
- },
- {
-  "serie": "EPD",
-  "fechaHora": "2026-10-25 09:00:00",
-  "cancha": "COMPLEJO DEPORTIVO H3O",
-  "local": "CLARA JACKSON UNIVERSITARIO",
-  "visitante": "CLUB RICHARD ANDERSON UNIV."
- },
- {
-  "serie": "EPD",
-  "fechaHora": "2026-10-25 11:15:00",
-  "cancha": "ST PATRICKS",
-  "local": "OLD SAMPA CLUB",
-  "visitante": "DEPORTIVO SALTO"
- },
- {
   "serie": "EPD",
   "fechaHora": "2026-10-28 21:00:00",
   "cancha": "COMPLEJO LAS CASUARINAS",

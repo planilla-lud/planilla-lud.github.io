@@ -1,62 +1,6 @@
 [
  {
   "serie": "AT",
-  "fechaHora": "2026-10-25 09:00:00",
-  "cancha": "COMPLEJO URUNDAY UNIVERSITARIO",
-  "local": "URUNDAY UNIVERSITARIO",
-  "visitante": "OLD BOYS CLUB"
- },
- {
-  "serie": "AT",
-  "fechaHora": "2026-10-25 09:00:00",
-  "cancha": "ELF (LICEO FRANCES)",
-  "local": "E.L.F.",
-  "visitante": "TAPE"
- },
- {
-  "serie": "AT",
-  "fechaHora": "2026-10-25 09:00:00",
-  "cancha": "COM. DEP. CLUB TROUVILLE",
-  "local": "NACIONAL UNIVERSITARIO",
-  "visitante": "OLD WOODLANDS CLUB"
- },
- {
-  "serie": "AT",
-  "fechaHora": "2026-10-25 11:15:00",
-  "cancha": "CARRASCO POLO",
-  "local": "CARRASCO POLO CLUB",
-  "visitante": "TENIS EL PINAR"
- },
- {
-  "serie": "APD",
-  "fechaHora": "2026-10-25 11:15:00",
-  "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
-  "local": "PLAYA HONDA UNIVERSITARIO",
-  "visitante": "OLD CHRISTIANS CLUB"
- },
- {
-  "serie": "APD",
-  "fechaHora": "2026-10-25 11:15:00",
-  "cancha": "COMPLEJO DEPORTIVO ARRAYANES",
-  "local": "SANTA ELENA LAGOMAR",
-  "visitante": "HEBRAICA UNIVERSITARIO"
- },
- {
-  "serie": "APD",
-  "fechaHora": "2026-10-25 11:15:00",
-  "cancha": "CARRASCO LAWN TENIS (KM 23)",
-  "local": "CARRASCO LAWN TENNIS",
-  "visitante": "OLD IVY"
- },
- {
-  "serie": "APD",
-  "fechaHora": "2026-10-25 11:15:00",
-  "cancha": "COMPLEJO JUAN XXIII",
-  "local": "JUAN XXIII",
-  "visitante": "CLUB SEMINARIO"
- },
- {
-  "serie": "AT",
   "fechaHora": "2026-11-01 00:00:00",
   "cancha": "CANCHA A FIJAR",
   "local": "TENIS EL PINAR",

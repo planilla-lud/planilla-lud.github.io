@@ -14,13 +14,6 @@
   "visitante": "OLD BRENDANS CLUB"
  },
  {
-  "serie": "16O",
-  "fechaHora": "2026-10-25 13:30:00",
-  "cancha": "COMPLEJO WOODLANDS SCHOOL",
-  "local": "OLD WOODLANDS CLUB",
-  "visitante": "OLD CHRISTIANS CLUB"
- },
- {
   "serie": "16P",
   "fechaHora": "2026-10-25 13:30:00",
   "cancha": "COMPLEJO JUAN XXIII",
@@ -30,23 +23,9 @@
  {
   "serie": "16P",
   "fechaHora": "2026-10-25 13:30:00",
-  "cancha": "CARRASCO LAWN TENIS (KM 23)",
-  "local": "CARRASCO LAWN TENNIS",
-  "visitante": "LA ESCALINATA"
- },
- {
-  "serie": "16P",
-  "fechaHora": "2026-10-25 13:30:00",
   "cancha": "ELF (LICEO FRANCES)",
   "local": "E.L.F.",
   "visitante": "TACUAREMBO UNIVERSITARIO"
- },
- {
-  "serie": "16P",
-  "fechaHora": "2026-10-25 13:30:00",
-  "cancha": "CIUDAD DEPORTIVA LS",
-  "local": "DEPORTIVO LS UNIVERSITARIO",
-  "visitante": "URUNDAY UNIVERSITARIO"
  },
  {
   "serie": "16B",
@@ -65,23 +44,9 @@
  {
   "serie": "16B",
   "fechaHora": "2026-10-25 13:30:00",
-  "cancha": "COLEGIO ARETEIA",
-  "local": "DEP.de la C. ARETEIA BIMBULLY",
-  "visitante": "YAGUARI"
- },
- {
-  "serie": "16B",
-  "fechaHora": "2026-10-25 13:30:00",
   "cancha": "COM. CLUB UNIVERSIDAD CATOLICA",
   "local": "POCO SITIO PLAYA VERDE",
   "visitante": "ALEMAN UNIVERSITARIO"
- },
- {
-  "serie": "16C",
-  "fechaHora": "2026-10-25 13:30:00",
-  "cancha": "COMPLEJO SCHIAFFINO (LAVALLEJA",
-  "local": "NAUTICO CARRASCO Y PUNTA GORDA",
-  "visitante": "ESCUELA L.P."
  },
  {
   "serie": "16C",
