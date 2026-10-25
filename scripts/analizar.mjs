@@ -374,8 +374,28 @@ function cargar(cat) {
   const dir = new URL(`planillas/${cat.id}/`, RAIZ);
   if (!existsSync(dir)) { console.log(`${cat.nombre}: sin datos todavía.`); return; }
   const archivos = readdirSync(dir).filter(f => /^\d+\.json$/.test(f));
-  const crudos = archivos.map(f => JSON.parse(readFileSync(new URL(f, dir))))
-    .sort((a, b) => a.fechaHora.localeCompare(b.fechaHora) || a.id.localeCompare(b.id));
+  const crudos = archivos.map(f => JSON.parse(readFileSync(new URL(f, dir))));
+  // Los partidos ganados por fallo (equipo retirado, etc.) la Liga los carga con una fecha falsa a futuro
+  // (30/12): quedaban primeros en "lo último". Se les pone el día de su ronda (la misma fecha de la serie).
+  const manana = new Date(Date.now() + 21 * 3600e3).toISOString().slice(0, 10); // mañana en Montevideo
+  const diaDeRonda = {};
+  for (const p of crudos) if (p.fechaHora.slice(0, 10) <= manana) {
+    const k = `${p.serie}|${p.fecha}`; (diaDeRonda[k] ??= {})[p.fechaHora.slice(0, 10)] = (diaDeRonda[k]?.[p.fechaHora.slice(0, 10)] || 0) + 1;
+  }
+  for (const p of crudos) if (p.fechaHora.slice(0, 10) > manana && p.gl !== '' && p.gl != null && !Number.isNaN(Number(p.gl))) {
+    const dias = Object.entries(diaDeRonda[`${p.serie}|${p.fecha}`] || {}).sort((a, b) => b[1] - a[1]);
+    p.porFallo = true;
+    let dia = dias[0]?.[0];
+    if (!dia) { // toda la ronda fue por fallo: la ronda anterior más una semana (sin pasar de hoy)
+      const antes = Object.keys(diaDeRonda).filter(k => k.startsWith(p.serie + '|') && Number(k.split('|')[1]) < Number(p.fecha))
+        .sort((x, y) => Number(y.split('|')[1]) - Number(x.split('|')[1]))[0];
+      const base = antes ? Object.keys(diaDeRonda[antes]).sort().at(-1) : null;
+      if (base) { const d = new Date(base + 'T12:00:00Z'); d.setUTCDate(d.getUTCDate() + 7 * (Number(p.fecha) - Number(antes.split('|')[1])));
+        dia = d.toISOString().slice(0, 10); if (dia > manana) dia = manana; }
+    }
+    if (dia) p.fechaHora = `${dia} 00:00:00`;
+  }
+  crudos.sort((a, b) => a.fechaHora.localeCompare(b.fechaHora) || a.id.localeCompare(b.id));
   const proximosArch = new URL('_proximos.json', dir);
   const proximos = existsSync(proximosArch) ? JSON.parse(readFileSync(proximosArch)) : [];
 
@@ -389,7 +409,8 @@ function cargar(cat) {
     const local = corto(p.local), visitante = corto(p.visitante);
     const wo = p.detalle?.walk_over === '1';
     const base = { id: p.id, nro: p.detalle?.nro_partido || null, serie: p.serie, etapa: cat.series[p.serie], fecha: p.fecha, dia: p.fechaHora.slice(0, 10), hora: p.fechaHora.slice(11, 16),
-      cancha: lindo(p.cancha || p.detalle?.Cancha || ''), local, visitante, gl: p.gl, gv: p.gv, wo, obs: p.detalle?.observaciones || '' };
+      cancha: lindo(p.cancha || p.detalle?.Cancha || ''), local, visitante, gl: p.gl, gv: p.gv, wo, obs: p.detalle?.observaciones || (p.porFallo ? 'Resultado por fallo (la Liga no le puso fecha).' : ''),
+      ...(p.porFallo ? { fallo: 1 } : {}) };
     const conPlanilla = (p.titularesL?.length || 0) > 0 && (p.titularesV?.length || 0) > 0;
     if (!conPlanilla) {
       for (const [yo, rival] of [[local, visitante], [visitante, local]]) (sinPlanilla[yo] ??= []).push({ id: p.id, fecha: p.fecha, etapa: base.etapa, dia: base.dia, rival, wo });
