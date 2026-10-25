@@ -1,0 +1,17 @@
+name: Probar Sofascore (temporal)
+on:
+  push:
+    branches: [prueba-sofa]
+permissions:
+  contents: write
+jobs:
+  s:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with: { node-version: 22 }
+      - run: node tmp/sofa.mjs
+      - run: |
+          git config user.name github-actions; git config user.email github-actions@users.noreply.github.com
+          git add -f tmp/sofa.txt && git commit -qm sofa && git push
