@@ -770,6 +770,7 @@ async function aplicarVivo(d) {
       if (!mios.has(x.local) && !mios.has(x.visitante)) continue;
       const p = porId.get(x.id);
       if (p) { if (p.gl == null || p.gl !== x.gl || p.gv !== x.gv) { p.gl = x.gl; p.gv = x.gv; } continue; }
+      if (x.dia > new Date(Date.now() + 21 * 3600e3).toISOString().slice(0, 10)) continue; // fallos con fecha falsa (30/12): los acomoda el robot
       d.partidos.push({ id: x.id, nro: null, serie: x.serie, etapa: x.etapa, fecha: x.fecha, dia: x.dia, hora: x.hora, cancha: '', local: x.local, visitante: x.visitante,
         gl: x.gl, gv: x.gv, wo: false, obs: '', planilla: false, vivo: 1 });
       nuevos++;
