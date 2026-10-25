@@ -1,2 +1,2 @@
-{"mensajes":[{"rol":"yo","texto":"que pasa si gana elf con san eugenio en la reserva?"}],"div":"reserva-c"}
-{"mensajes":[{"rol":"yo","texto":"si elf gana los 3 que le quedan en la reserva sale campeon?"}],"div":"reserva-c"}
+{"mensajes":[{"rol":"yo","texto":"Cuantos goles recibió colon en la reserva?"},{"rol":"bot","texto":"Colon ha recibido 14 goles en la campaña de la Reserva C (19 partidos jugados)."},{"rol":"yo","texto":"Y del elf cuántos fueron?"},{"rol":"bot","texto":"ELF ha recibido 21 goles en sus 19 partidos de la Reserva C."},{"rol":"yo","texto":"El elf cuántos goles le metio a colon?"}],"div":"reserva-c"}
+{"mensajes":[{"rol":"yo","texto":"cuantas veces jugaron elf y old boys en la mayor y como salieron?"}],"div":"mayores-a"}
