@@ -9,13 +9,6 @@
  {
   "serie": "18O",
   "fechaHora": "2026-10-25 15:30:00",
-  "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
-  "local": "CLUB SEMINARIO",
-  "visitante": "MARISTAS DEPORTIVO"
- },
- {
-  "serie": "18O",
-  "fechaHora": "2026-10-25 15:30:00",
   "cancha": "MONTE VI \"LOS CEIBOS\"",
   "local": "CEIBOS CLUB",
   "visitante": "OLD CHRISTIANS CLUB"
@@ -72,13 +65,6 @@
  {
   "serie": "18C",
   "fechaHora": "2026-10-25 15:30:00",
-  "cancha": "COMPLEJO DEP. y SAL, EL RINCON",
-  "local": "UNIVERSITARIO VERONES",
-  "visitante": "ELBIO FERNANDEZ"
- },
- {
-  "serie": "18C",
-  "fechaHora": "2026-10-25 15:30:00",
   "cancha": "MICROSULES",
   "local": "PERRY SEXTA UNIVERSITARIO",
   "visitante": "SEMINARIO UNIVERSITARIO"
@@ -131,13 +117,6 @@
   "cancha": "COMPLEJO JUAN XXIII",
   "local": "LA BLANQUEADA",
   "visitante": "NUMA TURCATTI"
- },
- {
-  "serie": "18O",
-  "fechaHora": "2026-10-25 16:00:00",
-  "cancha": "CARRASCO LAWN TENIS (KM 23)",
-  "local": "CARRASCO LAWN TENNIS",
-  "visitante": "OLD BRENDANS CLUB"
  },
  {
   "serie": "18C",

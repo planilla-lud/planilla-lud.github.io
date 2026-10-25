@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-25T19:35:13.879Z",
+ "actualizado": "2026-10-25T22:30:39.361Z",
  "partidos": [
   {
    "div": "sub20-a",
@@ -327,19 +327,19 @@
   {
    "div": "sub16-oro",
    "divNombre": "Sub 16 Oro",
-   "k": "Seminario~Dls Club",
-   "l": "Seminario",
-   "v": "Dls Club",
-   "dia": "2026-10-27",
-   "hora": "20:00",
+   "k": "Dls Club~Universitario Verones",
+   "l": "Dls Club",
+   "v": "Universitario Verones",
+   "dia": "2026-11-01",
+   "hora": "13:30",
    "etapa": "Copa de Oro",
    "pl": 2,
    "pv": 1,
    "n": 8,
    "base": 0,
    "tipo": "titulo",
-   "altasL": 5,
-   "altasV": 0
+   "altasL": 0,
+   "altasV": 2
   },
   {
    "div": "presenior-a",
@@ -427,23 +427,6 @@
    "altasV": 1
   },
   {
-   "div": "sub16-oro",
-   "divNombre": "Sub 16 Oro",
-   "k": "Dls Club~Universitario Verones",
-   "l": "Dls Club",
-   "v": "Universitario Verones",
-   "dia": "2026-11-01",
-   "hora": "13:30",
-   "etapa": "Copa de Oro",
-   "pl": 1,
-   "pv": 3,
-   "n": 8,
-   "base": 0,
-   "tipo": "titulo",
-   "altasL": 0,
-   "altasV": 2
-  },
-  {
    "div": "mas40-b",
    "divNombre": "Más 40 B",
    "k": "Carrasco Lawn Tennis~Tenis El Pinar",
@@ -475,6 +458,23 @@
    "base": 0,
    "tipo": "titulo",
    "altasL": 0,
+   "altasV": 0
+  },
+  {
+   "div": "sub16-oro",
+   "divNombre": "Sub 16 Oro",
+   "k": "Seminario~Dls Club",
+   "l": "Seminario",
+   "v": "Dls Club",
+   "dia": "2026-10-27",
+   "hora": "20:00",
+   "etapa": "Copa de Oro",
+   "pl": 3,
+   "pv": 2,
+   "n": 8,
+   "base": 0,
+   "tipo": "titulo",
+   "altasL": 5,
    "altasV": 0
   },
   {
