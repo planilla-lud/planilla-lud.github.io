@@ -9,13 +9,6 @@
  {
   "serie": "PSET2",
   "fechaHora": "2026-10-24 09:00:00",
-  "cancha": "CAMPO DEP. COLEGIO INGLES",
-  "local": "COLEGIO Y LICEO INGLES",
-  "visitante": "WANDERERS"
- },
- {
-  "serie": "PSET2",
-  "fechaHora": "2026-10-24 09:00:00",
   "cancha": "COMPLEJO AZULGRANA",
   "local": "OBC AZULGRANA",
   "visitante": "BELLA UNION UNIVERSITARIO"
@@ -33,13 +26,6 @@
   "cancha": "COMPLEJO ARACHAN",
   "local": "SUDAMERICA UNIVERSITARIO",
   "visitante": "SANTA ELENA LAGOMAR"
- },
- {
-  "serie": "PSEB2",
-  "fechaHora": "2026-10-24 11:15:00",
-  "cancha": "HARAS CUC",
-  "local": "RIVER PLATE UNIVERSITARIO",
-  "visitante": "OLD CHRISTIANS AZUL"
  },
  {
   "serie": "PSET2",

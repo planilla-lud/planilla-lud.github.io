@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-24T21:32:37.347Z",
+ "actualizado": "2026-10-25T00:38:25.876Z",
  "partidos": [
   {
    "div": "sub20-a",
@@ -478,23 +478,6 @@
    "altasV": 0
   },
   {
-   "div": "presenior-c",
-   "divNombre": "Pre Senior C",
-   "k": "Arquitectura Jrs.~Deportivo Mitre",
-   "l": "Arquitectura Jrs.",
-   "v": "Deportivo Mitre",
-   "dia": "2026-10-31",
-   "hora": "09:00",
-   "etapa": "Permanencia",
-   "pl": 5,
-   "pv": 8,
-   "n": 8,
-   "base": 8,
-   "tipo": "descenso",
-   "altasL": 0,
-   "altasV": 0
-  },
-  {
    "div": "presenior-d",
    "divNombre": "Pre Senior D",
    "k": "Trouville Universitario~Maturana",
@@ -510,6 +493,23 @@
    "tipo": "descenso",
    "altasL": 0,
    "altasV": 2
+  },
+  {
+   "div": "mas40-b",
+   "divNombre": "Más 40 B",
+   "k": "Carrasco Lawn Tennis~Tenis El Pinar",
+   "l": "Carrasco Lawn Tennis",
+   "v": "Tenis El Pinar",
+   "dia": "2026-10-31",
+   "hora": "11:15",
+   "etapa": "Título y ascenso",
+   "pl": 4,
+   "pv": 3,
+   "n": 8,
+   "base": 0,
+   "tipo": "titulo",
+   "altasL": 2,
+   "altasV": 0
   }
  ]
 }
