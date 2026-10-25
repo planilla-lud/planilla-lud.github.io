@@ -106,8 +106,11 @@ en Chrome de Android): `manifest.webmanifest` y los íconos y pantallas de arran
 - Variables útiles al correr a mano: `SOLO=mayores-b,reserva-a` (solo esas divisionales),
   `REBAJAR=1` (bajar todo de nuevo), `MAX_MIN=60` (cortar la bajada a los 60 minutos y seguir en la próxima).
 - GitHub Actions (`.github/workflows/actualizar.yml`) corre todo solo el domingo a las 18:35, de lunes
-  a jueves a las 20:35 y el jueves a las 22:35, después de que salen los fallos (hora de Montevideo). También se puede correr a mano: Actions > "Actualizar
-  planillas y bajas" > Run workflow.
+  a jueves a las 20:35 y el jueves a las 22:35, después de que salen los fallos (hora de Montevideo). Además,
+  sábados y domingos se fija cada una hora, de 14:05 a 03:05, si hay partidos jugados sin cargar
+  (`scripts/faltan.mjs`): si hay, baja solo esos; si no, termina enseguida. Así lo del sábado (Reserva,
+  Sub 20...) entra el mismo sábado de noche, apenas la Liga lo publica. También se puede correr a mano:
+  Actions > "Actualizar planillas y bajas" > Run workflow.
 
 ## Cuánto acierta
 

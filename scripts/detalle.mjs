@@ -78,7 +78,9 @@ for (const cat of DIVISIONALES.filter(d => !SOLO.length || SOLO.includes(d.id)))
       if (p.GL === '' || p.GL == null) { sinJugar++; continue; } // todavía no se jugó
       const archivo = new URL(`${p.ID}.json`, DIR);
       const jugado = new Date(p.Fecha_Hora.replace(' ', 'T') + '-03:00');
-      const reciente = Date.now() - jugado.getTime() < 4 * 864e5;
+      // Los de los últimos 4 días se vuelven a bajar (la Liga corrige planillas), salvo en las corridas de cada
+      // hora del fin de semana (SOLO_FALTANTES): ahí solo lo que todavía no tiene planilla.
+      const reciente = !process.env.SOLO_FALTANTES && Date.now() - jugado.getTime() < 4 * 864e5;
       if (!REBAJAR && existsSync(archivo) && !reciente) {
         const viejo = JSON.parse(readFileSync(archivo));
         if (viejo.titularesL?.length && viejo.titularesV?.length) { salteados++; continue; }
