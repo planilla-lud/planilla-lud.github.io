@@ -30,11 +30,16 @@ for (const cat of indice.categorias) for (const dv of cat.divisionales) {
   }
   // Partidos que le quedan a cada equipo (fixture de la Liga).
   const dirFix = new URL(`../planillas/${dv.bloque || (dv.copa ? dv.id.split('-')[0] : dv.id)}/_proximos.json`, import.meta.url);
-  const fixture = existsSync(dirFix) ? JSON.parse(readFileSync(dirFix)).filter(f => f.fechaHora.slice(0, 10) >= hoy) : [];
+  // Lo que figura en el fixture: lo de hoy en adelante, y lo que ya se jugó pero la Liga todavía no cargó
+  // (de los últimos 10 días): eso también puede sumar puntos, así que cuenta como pendiente.
+  const hace10 = new Date(Date.now() - 10 * 864e5).toISOString().slice(0, 10);
+  const fixtureTodo = existsSync(dirFix) ? JSON.parse(readFileSync(dirFix)).filter(f => f.fechaHora.slice(0, 10) >= hace10) : [];
+  const fixture = fixtureTodo.filter(f => f.fechaHora.slice(0, 10) >= hoy);
+  const sinCargar = fixtureTodo.filter(f => f.fechaHora.slice(0, 10) < hoy);
   // Tablas de las etapas que se están jugando, con los partidos que le quedan a cada uno y el máximo de
   // puntos al que puede llegar (las cuentas van hechas: la IA gratis suma mal).
   const series = VISTAS.find(v => v.id === dv.id)?.series || {};
-  const quedanEn = (eq, et) => fixture.filter(f => series[f.serie] === et && (corto(f.local) === eq || corto(f.visitante) === eq)).length;
+  const quedanEn = (eq, et) => fixtureTodo.filter(f => series[f.serie] === et && (corto(f.local) === eq || corto(f.visitante) === eq)).length;
   const puntos = {}; // "etapa|equipo" -> puntos oficiales
   for (const [et, t] of Object.entries(posiciones[dv.id] || {})) {
     if (!t?.pos) continue;
@@ -43,7 +48,8 @@ for (const cat of indice.categorias) for (const dv of cat.divisionales) {
       : Object.entries(t.pos).sort((a, b) => a[1] - b[1]).map(([eq]) => ({ eq, ...(pts[eq] || { pts: 0, pj: 0, g: 0, e: 0, p: 0, gf: 0, gc: 0 }) }));
     const max = filas.map(x => x.pts + 3 * quedanEn(x.eq, et)), punta = filas[0]?.pts ?? 0;
     tablas[`${dv.id}|${et}`] = filas.map((x, i) => { const q = quedanEn(x.eq, et); puntos[`${et}|${x.eq}`] = x.pts;
-      return `${i + 1}° ${x.eq} ${x.pts} pts (${x.pj} PJ, ${x.g}G ${x.e}E ${x.p}P, ${x.gf}-${x.gc}); le quedan ${q}, puede llegar a ${max[i]}; ${max[i] >= punta ? 'todavía puede terminar 1°' : 'ya no puede terminar 1°'}`; });
+      const sc = sinCargar.filter(f => series[f.serie] === et && (corto(f.local) === x.eq || corto(f.visitante) === x.eq)).length;
+      return `${i + 1}° ${x.eq} ${x.pts} pts (${x.pj} PJ, ${x.g}G ${x.e}E ${x.p}P, ${x.gf}-${x.gc}); le quedan ${q}${sc ? ` (${sc} ya jugado sin resultado cargado)` : ''}, puede llegar a ${max[i]}; ${max[i] >= punta ? 'todavía puede terminar 1°' : 'ya no puede terminar 1°'}`; });
     // ¿Alguien ya tiene asegurado el primer puesto?
     if (filas.length > 1) tablas[`${dv.id}|${et}`].push(filas[0].pts > Math.max(...max.slice(1))
       ? `${filas[0].eq} ya tiene asegurado el 1° puesto.` : `Nadie tiene asegurado el 1° puesto todavía.`);
@@ -83,6 +89,8 @@ for (const cat of indice.categorias) for (const dv of cat.divisionales) {
       suspendidos: susp,
       once: (b.probable?.once || []).map(x => `${nom(x.c)}${x.arq ? ' (arquero)' : ''}${x.duda ? ' (duda)' : ''}`),
       goleadores,
+      sinCargar: sinCargar.filter(f => corto(f.local) === eq || corto(f.visitante) === eq)
+        .map(f => `${fDia(f.fechaHora.slice(0, 10))} vs ${corto(f.local) === eq ? corto(f.visitante) : corto(f.local)}`),
       quedan: fixture.filter(f => corto(f.local) === eq || corto(f.visitante) === eq).slice(0, 6)
         .map(f => `${fDia(f.fechaHora.slice(0, 10))} vs ${corto(f.local) === eq ? corto(f.visitante) : corto(f.local)} (${corto(f.local) === eq ? 'local' : 'visitante'})`),
       tabla: etapa && tablas[`${dv.id}|${etapa}`] ? `${dv.id}|${etapa}` : null,

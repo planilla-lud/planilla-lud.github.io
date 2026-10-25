@@ -108,7 +108,7 @@ export function textoEquipo(e) {
   return [`EQUIPO ${e.eq} (${e.divNombre})`, e.prox && `Próximo partido: ${e.prox}`, e.pos && `Posición: ${e.pos}`, `Campaña en la temporada: ${e.campana}`,
     lista('Últimos resultados', e.ultimos), lista('Posibles bajas para el próximo partido', e.bajas) || 'Posibles bajas: ninguna detectada',
     lista('Suspendidos', e.suspendidos) || 'Suspendidos: ninguno', lista('Once probable', e.once), lista('Goleadores', e.goleadores),
-    lista('Partidos que le quedan', e.quedan), e.escenario && `Cuentas del próximo partido (ya hechas): ${e.escenario}`].filter(Boolean).join('\n');
+    lista('Ya jugados pero SIN RESULTADO CARGADO todavía (no están en la tabla)', e.sinCargar), lista('Partidos que le quedan', e.quedan), e.escenario && `Cuentas del próximo partido (ya hechas): ${e.escenario}`].filter(Boolean).join('\n');
 }
 
 // Contexto final para la IA. Si no se encontró nada, una tabla corta de la divisional que mira.
