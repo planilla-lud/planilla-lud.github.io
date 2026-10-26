@@ -206,10 +206,10 @@
      "id": "presenior-e",
      "letra": "E",
      "nombre": "Pre Senior E",
-     "actualizado": "2026-10-25T23:32:52.672Z",
-     "partidos": 170,
+     "actualizado": "2026-10-26T09:56:14.425Z",
+     "partidos": 171,
      "conPlanilla": 159,
-     "conProblemas": 68,
+     "conProblemas": 69,
      "equipos": 19
     }
    ]
@@ -303,7 +303,7 @@
      "letra": "Confrat.",
      "nombre": "Sub 18 Confraternidad",
      "copa": "18F",
-     "actualizado": "2026-10-25T22:48:59.974Z",
+     "actualizado": "2026-10-26T09:56:14.542Z",
      "partidos": 110,
      "conPlanilla": 106,
      "conProblemas": 42,
@@ -325,7 +325,7 @@
      "letra": "Todas",
      "nombre": "Sub 18",
      "oculta": 1,
-     "actualizado": "2026-10-26T03:49:19.013Z",
+     "actualizado": "2026-10-26T09:56:14.542Z",
      "partidos": 378,
      "conPlanilla": 350,
      "conProblemas": 166,
@@ -386,10 +386,10 @@
      "letra": "Confrat.",
      "nombre": "Sub 16 Confraternidad",
      "copa": "16F",
-     "actualizado": "2026-10-25T21:08:16.376Z",
-     "partidos": 96,
+     "actualizado": "2026-10-26T09:56:14.721Z",
+     "partidos": 97,
      "conPlanilla": 92,
-     "conProblemas": 49,
+     "conProblemas": 50,
      "equipos": 7
     },
     {
@@ -397,10 +397,10 @@
      "letra": "Todas",
      "nombre": "Sub 16",
      "oculta": 1,
-     "actualizado": "2026-10-26T03:49:19.192Z",
-     "partidos": 293,
+     "actualizado": "2026-10-26T09:56:14.721Z",
+     "partidos": 294,
      "conPlanilla": 276,
-     "conProblemas": 145,
+     "conProblemas": 146,
      "equipos": 39
     }
    ]
