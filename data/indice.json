@@ -84,7 +84,7 @@
      "id": "sub20-a",
      "letra": "A",
      "nombre": "Sub 20 A",
-     "actualizado": "2026-10-25T23:32:52.285Z",
+     "actualizado": "2026-10-26T03:49:18.550Z",
      "partidos": 156,
      "conPlanilla": 151,
      "conProblemas": 38,
@@ -259,10 +259,10 @@
      "letra": "Oro",
      "nombre": "Sub 18 Oro",
      "copa": "18O",
-     "actualizado": "2026-10-25T23:32:52.835Z",
-     "partidos": 113,
+     "actualizado": "2026-10-26T03:49:19.013Z",
+     "partidos": 114,
      "conPlanilla": 106,
-     "conProblemas": 45,
+     "conProblemas": 46,
      "equipos": 8
     },
     {
@@ -325,10 +325,10 @@
      "letra": "Todas",
      "nombre": "Sub 18",
      "oculta": 1,
-     "actualizado": "2026-10-26T01:09:55.542Z",
-     "partidos": 377,
+     "actualizado": "2026-10-26T03:49:19.013Z",
+     "partidos": 378,
      "conPlanilla": 350,
-     "conProblemas": 165,
+     "conProblemas": 166,
      "equipos": 50
     }
    ]
@@ -364,10 +364,10 @@
      "letra": "Bronce",
      "nombre": "Sub 16 Bronce",
      "copa": "16B",
-     "actualizado": "2026-10-25T21:08:16.376Z",
-     "partidos": 105,
+     "actualizado": "2026-10-26T03:49:19.192Z",
+     "partidos": 106,
      "conPlanilla": 103,
-     "conProblemas": 51,
+     "conProblemas": 52,
      "equipos": 8
     },
     {
@@ -397,10 +397,10 @@
      "letra": "Todas",
      "nombre": "Sub 16",
      "oculta": 1,
-     "actualizado": "2026-10-26T01:09:55.716Z",
-     "partidos": 292,
+     "actualizado": "2026-10-26T03:49:19.192Z",
+     "partidos": 293,
      "conPlanilla": 276,
-     "conProblemas": 144,
+     "conProblemas": 145,
      "equipos": 39
     }
    ]
