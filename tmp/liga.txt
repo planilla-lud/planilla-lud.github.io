@@ -1,0 +1,9 @@
+103277 Titulares Locatario: HTTP 200 {"error":"No se encontraron titulares para el equipo locatario del partido con ID: 103277"}
+103277 Titulares Visitante: HTTP 200 {"error":"No se encontraron titulares para el equipo locatario del partido con ID: 103277"}
+103277 GolesLocatario: HTTP 200 {"error":"No se encontraron goles para el equipo locatario del partido con ID: 103277"}
+103276 Titulares Locatario: HTTP 200 {"error":"No se encontraron titulares para el equipo locatario del partido con ID: 103276"}
+103276 Titulares Visitante: HTTP 200 {"error":"No se encontraron titulares para el equipo locatario del partido con ID: 103276"}
+103276 GolesLocatario: HTTP 200 {"error":"No se encontraron goles para el equipo locatario del partido con ID: 103276"}
+103250 Titulares Locatario: HTTP 200 {"error":"No se encontraron titulares para el equipo locatario del partido con ID: 103250"}
+103250 Titulares Visitante: HTTP 200 {"error":"No se encontraron titulares para el equipo locatario del partido con ID: 103250"}
+103250 GolesLocatario: HTTP 200 {"error":"No se encontraron goles para el equipo locatario del partido con ID: 103250"}
