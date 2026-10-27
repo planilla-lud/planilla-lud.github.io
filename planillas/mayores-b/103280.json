@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"B\" PERM. y DESC.",
   "Cancha": "COM. DEP. CLUB TROUVILLE",
-  "Fecha_Inicio": "2026-10-25 12:45:00",
-  "Fecha_fin": "2026-10-25 12:45:00",
+  "Fecha_Inicio": "2026-10-25 13:15:00",
+  "Fecha_fin": "2026-10-25 13:15:00",
   "Locatario": "CIRCULO DE TENIS MONTEVIDEO",
   "goles_locatario": "3",
   "puntos_locatario": "3",
@@ -29,11 +29,254 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "56810",
+   "Nombre": "JUAN IGNACIO ABATE",
+   "camiseta": "66",
+   "Capitan": ""
+  },
+  {
+   "carne": "56731",
+   "Nombre": "JOAQUIN MAYER",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "45391",
+   "Nombre": "FELIPE MOROSOFF",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "51840",
+   "Nombre": "AGUSTIN CABALLERO",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "42648",
+   "Nombre": "AGUSTIN JOSE PODESTA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "56653",
+   "Nombre": "JOAQUIN CUBON",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "59849",
+   "Nombre": "SANTIAGO JOAQUIN MUÑOA",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "42509",
+   "Nombre": "JUAN PABLO MUÑOZ",
+   "camiseta": "8",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "54010",
+   "Nombre": "TOMAS NAHUEL MANCINI",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "55130",
+   "Nombre": "RENZO ECHAGUE",
+   "camiseta": "86",
+   "Capitan": ""
+  },
+  {
+   "carne": "50934",
+   "Nombre": "JUAN IGNACIO MOLFINO",
+   "camiseta": "15",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "65017",
+   "Nombre": "DIEGO GUSTAVO VERA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "61871",
+   "Nombre": "FRANCO DI GIOVANNI",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "41550",
+   "Nombre": "SEBASTIAN EIRALDI",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "51058",
+   "Nombre": "TADEO SOBA",
+   "camiseta": "81",
+   "Capitan": ""
+  },
+  {
+   "carne": "52859",
+   "Nombre": "ALEN DOMINGUEZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "47801",
+   "Nombre": "FACUNDO GAMBETTA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "35178",
+   "Nombre": "ANDRES GARCIA",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "50993",
+   "Nombre": "SANTIAGO DURAN",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "57840",
+   "Nombre": "DIEGO BIDEGAIN",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "50625",
+   "Nombre": "IGNACIO GARCIA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "53726",
+   "Nombre": "IVAN ANDRES GARCIA",
+   "camiseta": "18",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "54010",
+   "Jug_Sale": "TOMAS NAHUEL MANCINI",
+   "CarneEntra": "43095",
+   "Jug_Entra": "FACUNDO SEBASTIAN LÒPEZ",
+   "camiseta": "45",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "42509",
+   "Jug_Sale": "JUAN PABLO MUÑOZ",
+   "CarneEntra": "62732",
+   "Jug_Entra": "JOAQUIN AFONSO",
+   "camiseta": "25",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "56810",
+   "Jug_Sale": "JUAN IGNACIO ABATE",
+   "CarneEntra": "69112",
+   "Jug_Entra": "ELIAS JOSE MEDINA",
+   "camiseta": "30",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "51840",
+   "Jug_Sale": "AGUSTIN CABALLERO",
+   "CarneEntra": "55671",
+   "Jug_Entra": "JOAQUIN GUSTAVO MIGUES",
+   "camiseta": "46",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "55130",
+   "Jug_Sale": "RENZO ECHAGUE",
+   "CarneEntra": "51200",
+   "Jug_Entra": "LUCAS EXEQUIEL GUERRERO",
+   "camiseta": "18",
+   "minutos": "74"
+  },
+  {
+   "CarneSale": "42648",
+   "Jug_Sale": "AGUSTIN JOSE PODESTA",
+   "CarneEntra": "21536",
+   "Jug_Entra": "FRANCISCO SEBASTIAN FRONTINI",
+   "camiseta": "7",
+   "minutos": "82"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "57840",
+   "Jug_Sale": "DIEGO BIDEGAIN",
+   "CarneEntra": "37683",
+   "Jug_Entra": "PABLO GASTON OLIVERA",
+   "camiseta": "30",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "52859",
+   "Jug_Sale": "ALEN DOMINGUEZ",
+   "CarneEntra": "62670",
+   "Jug_Entra": "LORENZO MONTERO",
+   "camiseta": "41",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "41550",
+   "Jug_Sale": "SEBASTIAN EIRALDI",
+   "CarneEntra": "26404",
+   "Jug_Entra": "FEDERICO DE LEON",
+   "camiseta": "13",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "35178",
+   "Jug_Sale": "ANDRES GARCIA",
+   "CarneEntra": "62298",
+   "Jug_Entra": "FRANCO RUSSOMANO",
+   "camiseta": "71",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "47801",
+   "Jug_Sale": "FACUNDO GAMBETTA",
+   "CarneEntra": "50725",
+   "Jug_Entra": "JUAN IGNACIO ROSSI",
+   "camiseta": "20",
+   "minutos": "82"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "45391",
+   "Nombre": "FELIPE MOROSOFF",
+   "minutos": "38",
+   "EnContra": "0"
+  },
+  {
+   "carne": "50934",
+   "Nombre": "JUAN IGNACIO MOLFINO",
+   "minutos": "34",
+   "EnContra": "0"
+  },
+  {
+   "carne": "69112",
+   "Nombre": "ELIAS JOSE MEDINA",
+   "minutos": "77",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

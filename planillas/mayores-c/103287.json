@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"C\" TIT. y ASC.",
   "Cancha": "COLEGIO PIO",
-  "Fecha_Inicio": "2026-10-25 12:45:00",
-  "Fecha_fin": "2026-10-25 12:45:00",
+  "Fecha_Inicio": "2026-10-25 13:15:00",
+  "Fecha_fin": "2026-10-25 13:15:00",
   "Locatario": "WOLFRAMIO",
   "goles_locatario": "4",
   "puntos_locatario": "3",
@@ -29,12 +29,268 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "54125",
+   "Nombre": "MATIAS FEDERICO AREVALO",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "64859",
+   "Nombre": "GONZALO FERREIRA",
+   "camiseta": "43",
+   "Capitan": ""
+  },
+  {
+   "carne": "43813",
+   "Nombre": "MARTIN JACCOTTET",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "67002",
+   "Nombre": "VICENTE RICAGNI",
+   "camiseta": "47",
+   "Capitan": ""
+  },
+  {
+   "carne": "66379",
+   "Nombre": "MARTIN FALCON",
+   "camiseta": "69",
+   "Capitan": ""
+  },
+  {
+   "carne": "64457",
+   "Nombre": "EMILIANO TORT",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "38351",
+   "Nombre": "FACUNDO SORRIBAS",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "46882",
+   "Nombre": "AGUSTIN BURIAN",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "45611",
+   "Nombre": "FRANCISCO FERREIRA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "46445",
+   "Nombre": "GERMAN ODONNELL MORALES",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "54707",
+   "Nombre": "JUAN MARTIN VANOLI",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "44518",
+   "Nombre": "MATIAS DA ROSA",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "54633",
+   "Nombre": "MATEO GARCIA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "48968",
+   "Nombre": "LUCAS ALONSO",
+   "camiseta": "57",
+   "Capitan": ""
+  },
+  {
+   "carne": "41765",
+   "Nombre": "NICOLAS LABAT",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "63603",
+   "Nombre": "JOAQUIN VIDEGAIN",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "54634",
+   "Nombre": "SANTIAGO PORLEY",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "55870",
+   "Nombre": "MAURO ORONA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "56633",
+   "Nombre": "GONZALO PINTADO",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "59289",
+   "Nombre": "VALENTIN HARETCHE",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "50431",
+   "Nombre": "RODRIGO PELETEIRO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "52597",
+   "Nombre": "JOAQUIN ZABALETA",
+   "camiseta": "80",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "67002",
+   "Jug_Sale": "VICENTE RICAGNI",
+   "CarneEntra": "43818",
+   "Jug_Entra": "JOSE NICOLAS BESSON",
+   "camiseta": "19",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "45611",
+   "Jug_Sale": "FRANCISCO FERREIRA",
+   "CarneEntra": "58707",
+   "Jug_Entra": "GUZMAN MAZZEI",
+   "camiseta": "11",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "43813",
+   "Jug_Sale": "MARTIN JACCOTTET",
+   "CarneEntra": "51268",
+   "Jug_Entra": "SANTIAGO RODRIGUEZ",
+   "camiseta": "7",
+   "minutos": "0"
+  },
+  {
+   "CarneSale": "54707",
+   "Jug_Sale": "JUAN MARTIN VANOLI",
+   "CarneEntra": "52078",
+   "Jug_Entra": "JUAN IGNACIO MENDEZ",
+   "camiseta": "99",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "38351",
+   "Jug_Sale": "FACUNDO SORRIBAS",
+   "CarneEntra": "56034",
+   "Jug_Entra": "AGUSTIN MENDES",
+   "camiseta": "15",
+   "minutos": "87"
+  },
+  {
+   "CarneSale": "66379",
+   "Jug_Sale": "MARTIN FALCON",
+   "CarneEntra": "63364",
+   "Jug_Entra": "MATEO MADRUGA",
+   "camiseta": "26",
+   "minutos": "87"
+  },
+  {
+   "CarneSale": "64457",
+   "Jug_Sale": "EMILIANO TORT",
+   "CarneEntra": "62391",
+   "Jug_Entra": "JOAQUIN TECHERA SAMPAYO",
+   "camiseta": "24",
+   "minutos": "90"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "55870",
+   "Jug_Sale": "MAURO ORONA",
+   "CarneEntra": "54807",
+   "Jug_Entra": "BRUNO ZARZAY",
+   "camiseta": "28",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "52597",
+   "Jug_Sale": "JOAQUIN ZABALETA",
+   "CarneEntra": "52971",
+   "Jug_Entra": "JUAN PABLO FERRARI",
+   "camiseta": "32",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "59289",
+   "Jug_Sale": "VALENTIN HARETCHE",
+   "CarneEntra": "56778",
+   "Jug_Entra": "FRANCISCO GOMEZ",
+   "camiseta": "30",
+   "minutos": "83"
+  },
+  {
+   "CarneSale": "50431",
+   "Jug_Sale": "RODRIGO PELETEIRO",
+   "CarneEntra": "52985",
+   "Jug_Entra": "FACUNDO AGUSTIN MARTINEZ",
+   "camiseta": "30",
+   "minutos": "85"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "38351",
+   "Nombre": "FACUNDO SORRIBAS",
+   "minutos": "81",
+   "EnContra": "0"
+  },
+  {
+   "carne": "45611",
+   "Nombre": "FRANCISCO FERREIRA",
+   "minutos": "17",
+   "EnContra": "0"
+  },
+  {
+   "carne": "54125",
+   "Nombre": "MATIAS FEDERICO AREVALO",
+   "minutos": "5",
+   "EnContra": "0"
+  },
+  {
+   "carne": "54707",
+   "Nombre": "JUAN MARTIN VANOLI",
+   "minutos": "66",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "56633",
+   "Nombre": "GONZALO PINTADO",
+   "minutos": "29",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

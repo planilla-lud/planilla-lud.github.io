@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"A\" TITULO",
   "Cancha": "CARRASCO POLO",
-  "Fecha_Inicio": "2026-10-25 12:45:00",
-  "Fecha_fin": "2026-10-25 12:45:00",
+  "Fecha_Inicio": "2026-10-25 13:05:00",
+  "Fecha_fin": "2026-10-25 13:05:00",
   "Locatario": "CARRASCO POLO CLUB",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,244 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "40866",
+   "Nombre": "FACUNDO ROMANELLI",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "35870",
+   "Nombre": "LUCAS MACAGNO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "37465",
+   "Nombre": "RODRIGO FERNANDEZ",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "44449",
+   "Nombre": "MARTIN PIANGELUA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "29697",
+   "Nombre": "DIEGO LACURCIA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "44181",
+   "Nombre": "FRANCISCO LABAT",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "48017",
+   "Nombre": "JUAN MARTIN IRAOLA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "37473",
+   "Nombre": "SANTIAGO MATO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "35206",
+   "Nombre": "FEDERICO LACURCIA",
+   "camiseta": "17",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "39434",
+   "Nombre": "SANTIAGO QUIÑONES",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "46817",
+   "Nombre": "FEDERICO HEBER VAZ",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "46449",
+   "Nombre": "AGUSTIN LOMBARDO",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "36994",
+   "Nombre": "AGUSTIN BAROFFIO",
+   "camiseta": "2",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "46828",
+   "Nombre": "CIPRIANO BAROFFIO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "23904",
+   "Nombre": "GASTON ANDRES SUAREZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "38349",
+   "Nombre": "JUAN PABLO ECHEVERRIARZA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "40761",
+   "Nombre": "MAXIMILIANO SIENRA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "39703",
+   "Nombre": "GUILLERMO DANIEL TENCA",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "34528",
+   "Nombre": "JOAQUIN ANDRES AMOEDO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "54830",
+   "Nombre": "GUILLERMO NIETO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "45225",
+   "Nombre": "LAUTARO PEREZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "26339",
+   "Nombre": "JUAN MARTIN OYENARD",
+   "camiseta": "15",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "37465",
+   "Jug_Sale": "RODRIGO FERNANDEZ",
+   "CarneEntra": "50873",
+   "Jug_Entra": "LUCIO FLANGINI",
+   "camiseta": "14",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "37473",
+   "Jug_Sale": "SANTIAGO MATO",
+   "CarneEntra": "59748",
+   "Jug_Entra": "SANTIAGO MENDEZ",
+   "camiseta": "25",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "48017",
+   "Jug_Sale": "JUAN MARTIN IRAOLA",
+   "CarneEntra": "42582",
+   "Jug_Entra": "IGNACIO LACURCIA",
+   "camiseta": "16",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "46817",
+   "Jug_Sale": "FEDERICO HEBER VAZ",
+   "CarneEntra": "57347",
+   "Jug_Entra": "FACUNDO COSTA",
+   "camiseta": "11",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "44181",
+   "Jug_Sale": "FRANCISCO LABAT",
+   "CarneEntra": "53865",
+   "Jug_Entra": "JOAQUIN RETHEMIAS",
+   "camiseta": "20",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "35206",
+   "Jug_Sale": "FEDERICO LACURCIA",
+   "CarneEntra": "47029",
+   "Jug_Entra": "GUZMAN PIANGELUA",
+   "camiseta": "5",
+   "minutos": "88"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "39703",
+   "Jug_Sale": "GUILLERMO DANIEL TENCA",
+   "CarneEntra": "58083",
+   "Jug_Entra": "IGNACIO FACUNDO RICOBALDI",
+   "camiseta": "29",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "45225",
+   "Jug_Sale": "LAUTARO PEREZ",
+   "CarneEntra": "48870",
+   "Jug_Entra": "RENZO FORTI",
+   "camiseta": "30",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "54830",
+   "Jug_Sale": "GUILLERMO NIETO",
+   "CarneEntra": "39169",
+   "Jug_Entra": "GONZALO FEDERICO PRADA",
+   "camiseta": "80",
+   "minutos": "76"
+  }
+ ],
  "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "golesV": [
+  {
+   "carne": "26339",
+   "Nombre": "JUAN MARTIN OYENARD",
+   "minutos": "58",
+   "EnContra": "1"
+  },
+  {
+   "carne": "38349",
+   "Nombre": "JUAN PABLO ECHEVERRIARZA",
+   "minutos": "73",
+   "EnContra": "1"
+  },
+  {
+   "carne": "58083",
+   "Nombre": "IGNACIO FACUNDO RICOBALDI",
+   "minutos": "70",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "MARTIN PIANGELUA",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

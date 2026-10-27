@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"D\" TIT. y ASC.",
   "Cancha": "COMPLEJO DEPORTIVO H3O",
-  "Fecha_Inicio": "2026-10-24 12:45:00",
-  "Fecha_fin": "2026-10-24 12:45:00",
+  "Fecha_Inicio": "2026-10-24 13:15:00",
+  "Fecha_fin": "2026-10-24 13:15:00",
   "Locatario": "MATURANA UNIVERSITARIO",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,217 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "40068",
+   "Nombre": "SANTIAGO BOUSO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "34857",
+   "Nombre": "NICOLAS MELO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "55560",
+   "Nombre": "JUAN MATEO PELUFO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "52971",
+   "Nombre": "JUAN PABLO FERRARI",
+   "camiseta": "17",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "47098",
+   "Nombre": "JUAN IGNACIO COITO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "41716",
+   "Nombre": "MATEO CASTAGNA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "52618",
+   "Nombre": "ALEX FERREIRA",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "48268",
+   "Nombre": "ERNESTO MATIAS PEREYRA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "49541",
+   "Nombre": "PABLO FERNANDO MOREIRA",
+   "camiseta": "69",
+   "Capitan": ""
+  },
+  {
+   "carne": "54653",
+   "Nombre": "FACUNDO MARTIN CAMACHO",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "57542",
+   "Nombre": "DIEGO SEBASTIAN DUSIO",
+   "camiseta": "24",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "66386",
+   "Nombre": "FRANCISCO CONSTANTIN",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "60311",
+   "Nombre": "ROMAN JOSE SCREMINI",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "66136",
+   "Nombre": "ALFONSO MEDINA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "59693",
+   "Nombre": "TOMAS CONSTANTIN",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "62225",
+   "Nombre": "FELIPE GONZALEZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "69191",
+   "Nombre": "VALENTINO DORADOR",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "66169",
+   "Nombre": "ALEJO ANDRES AIZPUN",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "62237",
+   "Nombre": "SANTINO ACOSTA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "67431",
+   "Nombre": "EMILIANO ACOSTA",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "56157",
+   "Nombre": "JEREMIAS SILVEIRA",
+   "camiseta": "17",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "64742",
+   "Nombre": "GASPAR HERMOSO",
+   "camiseta": "27",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "52618",
+   "Jug_Sale": "ALEX FERREIRA",
+   "CarneEntra": "55202",
+   "Jug_Entra": "SANTIAGO OLIVERA",
+   "camiseta": "29",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "49541",
+   "Jug_Sale": "PABLO FERNANDO MOREIRA",
+   "CarneEntra": "52619",
+   "Jug_Entra": "LUCAS GUERRI",
+   "camiseta": "26",
+   "minutos": "58"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "62225",
+   "Jug_Sale": "FELIPE GONZALEZ",
+   "CarneEntra": "64245",
+   "Jug_Entra": "THIAGO RUPPEL",
+   "camiseta": "14",
+   "minutos": "15"
+  },
+  {
+   "CarneSale": "56157",
+   "Jug_Sale": "JEREMIAS SILVEIRA",
+   "CarneEntra": "52893",
+   "Jug_Entra": "EZEQUIEL FRANCO",
+   "camiseta": "9",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "64742",
+   "Jug_Sale": "GASPAR HERMOSO",
+   "CarneEntra": "67786",
+   "Jug_Entra": "IGNACIO BALLEJO",
+   "camiseta": "11",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "66169",
+   "Jug_Sale": "ALEJO ANDRES AIZPUN",
+   "CarneEntra": "69117",
+   "Jug_Entra": "FRANCISCO MENENDEZ",
+   "camiseta": "8",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "62237",
+   "Jug_Sale": "SANTINO ACOSTA",
+   "CarneEntra": "64742",
+   "Jug_Entra": "GASPAR HERMOSO",
+   "camiseta": "27",
+   "minutos": "85"
+  }
+ ],
  "golesL": [],
- "golesV": [],
+ "golesV": [
+  {
+   "carne": "56157",
+   "Nombre": "JEREMIAS SILVEIRA",
+   "minutos": "66",
+   "EnContra": "1"
+  },
+  {
+   "carne": "62237",
+   "Nombre": "SANTINO ACOSTA",
+   "minutos": "41",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

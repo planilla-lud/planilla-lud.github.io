@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"A\" PERM. y DESC.",
   "Cancha": "CARRASCO LAWN TENIS (KM 23)",
-  "Fecha_Inicio": "2026-10-25 12:45:00",
-  "Fecha_fin": "2026-10-25 12:45:00",
+  "Fecha_Inicio": "2026-10-25 13:15:00",
+  "Fecha_fin": "2026-10-25 13:15:00",
   "Locatario": "CARRASCO LAWN TENNIS",
   "goles_locatario": "4",
   "puntos_locatario": "3",
@@ -29,12 +29,274 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "41005",
+   "Nombre": "NICOLAS RAFFO",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "48826",
+   "Nombre": "JOAQUIN PODESTA",
+   "camiseta": "45",
+   "Capitan": ""
+  },
+  {
+   "carne": "31952",
+   "Nombre": "JOAQUIN REBELLATO",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "44899",
+   "Nombre": "JUAN MARTIN DEFFEMINIS",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "44809",
+   "Nombre": "TOMAS JOSE SANZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "66422",
+   "Nombre": "RODRIGO ARIAS",
+   "camiseta": "51",
+   "Capitan": ""
+  },
+  {
+   "carne": "39086",
+   "Nombre": "MATHIAS GASTON CASTIÑEIRA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "40246",
+   "Nombre": "LUCAS NERY CALCAGNO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "67649",
+   "Nombre": "FEDERICO TELLECHEA",
+   "camiseta": "38",
+   "Capitan": ""
+  },
+  {
+   "carne": "58916",
+   "Nombre": "FELIPE BORDOLI",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "29653",
+   "Nombre": "MARTIN MUSETTI",
+   "camiseta": "21",
+   "Capitan": "(C)"
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "53709",
+   "Nombre": "VARTAN TCHEKMEDYIAN",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "61341",
+   "Nombre": "MATEO SUBIRAN",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "45594",
+   "Nombre": "SANTIAGO GUTIERREZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "45591",
+   "Nombre": "FEDERICO DEAKIN",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "69107",
+   "Nombre": "MATIAS PEREIRA",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "54564",
+   "Nombre": "GUILLERMO CAMPOS",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "52848",
+   "Nombre": "CAMILO ROSSO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "66871",
+   "Nombre": "JUAN MANUEL COLMAN",
+   "camiseta": "75",
+   "Capitan": ""
+  },
+  {
+   "carne": "47834",
+   "Nombre": "THOMAS DEAKIN",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "61383",
+   "Nombre": "MATIAS BENECH",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "61290",
+   "Nombre": "FERNANDO BENITEZ",
+   "camiseta": "99",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "40246",
+   "Jug_Sale": "LUCAS NERY CALCAGNO",
+   "CarneEntra": "23708",
+   "Jug_Entra": "LEANDRO JOSE FERNANDEZ",
+   "camiseta": "46",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66422",
+   "Jug_Sale": "RODRIGO ARIAS",
+   "CarneEntra": "44291",
+   "Jug_Entra": "IGNACIO GEISINGER",
+   "camiseta": "19",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "67649",
+   "Jug_Sale": "FEDERICO TELLECHEA",
+   "CarneEntra": "28144",
+   "Jug_Entra": "ANDRES ANTONIO BESIO",
+   "camiseta": "16",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "58916",
+   "Jug_Sale": "FELIPE BORDOLI",
+   "CarneEntra": "47761",
+   "Jug_Entra": "JUAN IGNACIO POTRIE",
+   "camiseta": "13",
+   "minutos": "85"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "45594",
+   "Jug_Sale": "SANTIAGO GUTIERREZ",
+   "CarneEntra": "18671",
+   "Jug_Entra": "SANTIAGO COTELO",
+   "camiseta": "18",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "69107",
+   "Jug_Sale": "MATIAS PEREIRA",
+   "CarneEntra": "49105",
+   "Jug_Entra": "NICOLAS CASAMAYOU",
+   "camiseta": "81",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "66871",
+   "Jug_Sale": "JUAN MANUEL COLMAN",
+   "CarneEntra": "54763",
+   "Jug_Entra": "JUAN BAUTISTA CROSA",
+   "camiseta": "24",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "54564",
+   "Jug_Sale": "GUILLERMO CAMPOS",
+   "CarneEntra": "45594",
+   "Jug_Entra": "SANTIAGO GUTIERREZ",
+   "camiseta": "3",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "52848",
+   "Jug_Sale": "CAMILO ROSSO",
+   "CarneEntra": "56372",
+   "Jug_Entra": "ALFONSO CARDELINO",
+   "camiseta": "44",
+   "minutos": "81"
+  },
+  {
+   "CarneSale": "61383",
+   "Jug_Sale": "MATIAS BENECH",
+   "CarneEntra": "45601",
+   "Jug_Entra": "JUAN BAUTISTA VILLARONGA",
+   "camiseta": "12",
+   "minutos": "81"
+  },
+  {
+   "CarneSale": "47834",
+   "Jug_Sale": "THOMAS DEAKIN",
+   "CarneEntra": "47831",
+   "Jug_Entra": "SANTIAGO ARIASI",
+   "camiseta": "6",
+   "minutos": "81"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "23708",
+   "Nombre": "LEANDRO JOSE FERNANDEZ",
+   "minutos": "49",
+   "EnContra": "0"
+  },
+  {
+   "carne": "29653",
+   "Nombre": "MARTIN MUSETTI",
+   "minutos": "25",
+   "EnContra": "0"
+  },
+  {
+   "carne": "58916",
+   "Nombre": "FELIPE BORDOLI",
+   "minutos": "32",
+   "EnContra": "0"
+  },
+  {
+   "carne": "58916",
+   "Nombre": "FELIPE BORDOLI",
+   "minutos": "63",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "61383",
+   "Nombre": "MATIAS BENECH",
+   "minutos": "1",
+   "EnContra": "1"
+  },
+  {
+   "carne": "61383",
+   "Nombre": "MATIAS BENECH",
+   "minutos": "36",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

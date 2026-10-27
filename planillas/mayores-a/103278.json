@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"A\" PERM. y DESC.",
   "Cancha": "PARQUE CUPRA - CLUB SEMINARIO",
-  "Fecha_Inicio": "2026-10-25 12:45:00",
-  "Fecha_fin": "2026-10-25 12:45:00",
+  "Fecha_Inicio": "2026-10-25 13:30:00",
+  "Fecha_fin": "2026-10-25 13:30:00",
   "Locatario": "PLAYA HONDA UNIVERSITARIO",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,232 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "54947",
+   "Nombre": "SANTIAGO HERNAN RAMIREZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "56818",
+   "Nombre": "FACUNDO MARCEL RODRIGUEZ",
+   "camiseta": "37",
+   "Capitan": ""
+  },
+  {
+   "carne": "58714",
+   "Nombre": "LUCIANO LAUDICIO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "40183",
+   "Nombre": "FERNANDO MICHEL CHACON",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "57182",
+   "Nombre": "JOAQUIN PABLO BAUTISTA",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "68936",
+   "Nombre": "EZEQUIEL ACOSTA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "58637",
+   "Nombre": "SANTIAGO WEIGEL",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "55198",
+   "Nombre": "CAMILO JOAQUIN CABRERA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "68646",
+   "Nombre": "MARTIN GUADALUPE",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "58944",
+   "Nombre": "IGNACIO ALGORTA",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "53111",
+   "Nombre": "JUAN PEDRO TAFERNABERRY",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "51657",
+   "Nombre": "FELIPE PEREYRA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "52602",
+   "Nombre": "JUAN DIEGO DE CASTRO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "42070",
+   "Nombre": "FRANCISCO GUADALUPE",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "35115",
+   "Nombre": "JUAN PEDRO BELO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "51886",
+   "Nombre": "LUCAS ALONSO",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "53249",
+   "Nombre": "JUAN FRANCISCO FERREIRA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "52355",
+   "Nombre": "SANTIAGO PAZ RODRIGUEZ",
+   "camiseta": "47",
+   "Capitan": ""
+  },
+  {
+   "carne": "37187",
+   "Nombre": "GUILLERMO DEAL",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "52249",
+   "Nombre": "JUAN GERVASIO ETCHEVERRY",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "37735",
+   "Nombre": "FRANCO MASCIA",
+   "camiseta": "7",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "43345",
+   "Nombre": "SANTIAGO PALLARES",
+   "camiseta": "38",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "68936",
+   "Jug_Sale": "EZEQUIEL ACOSTA",
+   "CarneEntra": "46832",
+   "Jug_Entra": "EMILIANO DANTAZ",
+   "camiseta": "10",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "53111",
+   "Jug_Sale": "JUAN PEDRO TAFERNABERRY",
+   "CarneEntra": "31696",
+   "Jug_Entra": "JAVIER TAIS",
+   "camiseta": "19",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "58944",
+   "Jug_Sale": "IGNACIO ALGORTA",
+   "CarneEntra": "67539",
+   "Jug_Entra": "MATIAS NICOLAS RODRIGUEZ",
+   "camiseta": "46",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "56818",
+   "Jug_Sale": "FACUNDO MARCEL RODRIGUEZ",
+   "CarneEntra": "39946",
+   "Jug_Entra": "MAURO OSORIO",
+   "camiseta": "14",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "55198",
+   "Jug_Sale": "CAMILO JOAQUIN CABRERA",
+   "CarneEntra": "41179",
+   "Jug_Entra": "EUGENIO SUPPARO",
+   "camiseta": "3",
+   "minutos": "88"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "52249",
+   "Jug_Sale": "JUAN GERVASIO ETCHEVERRY",
+   "CarneEntra": "66722",
+   "Jug_Entra": "JOAQUIN RODRIGUEZ",
+   "camiseta": "13",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "37187",
+   "Jug_Sale": "GUILLERMO DEAL",
+   "CarneEntra": "42069",
+   "Jug_Entra": "MATEO GIOIA",
+   "camiseta": "30",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "37735",
+   "Jug_Sale": "FRANCO MASCIA",
+   "CarneEntra": "39599",
+   "Jug_Entra": "MATIAS HAM",
+   "camiseta": "21",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "35115",
+   "Jug_Sale": "JUAN PEDRO BELO",
+   "CarneEntra": "67291",
+   "Jug_Entra": "AUGUSTO PAULLIER",
+   "camiseta": "5",
+   "minutos": "85"
+  }
+ ],
  "golesL": [],
- "golesV": [],
+ "golesV": [
+  {
+   "carne": "51886",
+   "Nombre": "LUCAS ALONSO",
+   "minutos": "33",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
- "expulsadosV": []
+ "expulsadosV": [
+  {
+   "Nombre": "SANTIAGO PALLARES",
+   "observaciones": ""
+  }
+ ]
 }

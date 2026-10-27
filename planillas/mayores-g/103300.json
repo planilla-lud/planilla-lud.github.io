@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "DIVISIONAL \"G\" COPA PLATA",
   "Cancha": "COMPLEJO DEPORTIVO H3O",
-  "Fecha_Inicio": "2026-10-25 12:45:00",
-  "Fecha_fin": "2026-10-25 12:45:00",
+  "Fecha_Inicio": "2026-10-25 13:25:00",
+  "Fecha_fin": "2026-10-25 13:25:00",
   "Locatario": "COLEGIO Y LICEO SANTO DOMINGO",
   "goles_locatario": "3",
   "puntos_locatario": "3",
@@ -29,11 +29,254 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "54102",
+   "Nombre": "THIAGO ENRIQUE ROMERO",
+   "camiseta": "36",
+   "Capitan": ""
+  },
+  {
+   "carne": "44090",
+   "Nombre": "PABLO KALEMKERIAN",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "51462",
+   "Nombre": "NAHUEL PICO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "56459",
+   "Nombre": "JORGE PABLO SZOLLOSSY",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "46847",
+   "Nombre": "SANTIAGO MARIO CAYAFA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "63190",
+   "Nombre": "MAURO CELIBERTI",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "41345",
+   "Nombre": "LUCAS ENRIQUE ALEIZON",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "58921",
+   "Nombre": "LEANDRO ANDRES GRIGNETTI",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "61987",
+   "Nombre": "AGUSTIN NOVO",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "45143",
+   "Nombre": "NICOLAS GALEANO",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "46846",
+   "Nombre": "SEBASTIAN MATTA",
+   "camiseta": "33",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "51064",
+   "Nombre": "LAUTARO DANIEL VILCHES",
+   "camiseta": "29",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56659",
+   "Nombre": "GIOVANNI VALENTIN MARTINEZ",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "64407",
+   "Nombre": "AGUSTIN RAUL RODRIGUEZ",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "62080",
+   "Nombre": "GABRIEL ANTONIO PEREIRA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "45520",
+   "Nombre": "JOSE AGUSTIN MONZA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "57402",
+   "Nombre": "DIEGO EDUARDO PISA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "50772",
+   "Nombre": "PATRICIO GINZO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "56652",
+   "Nombre": "AGUSTIN JAVIER ARTEAGA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "69044",
+   "Nombre": "DEMERIO NAWEL MARTINEZ",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "64595",
+   "Nombre": "FACUNDO EZEQUIEL SANJURJO",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "46979",
+   "Nombre": "JOAQUIN DANIEL PISA",
+   "camiseta": "13",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "46847",
+   "Jug_Sale": "SANTIAGO MARIO CAYAFA",
+   "CarneEntra": "65695",
+   "Jug_Entra": "GONZALO FACELLO",
+   "camiseta": "17",
+   "minutos": "69"
+  },
+  {
+   "CarneSale": "61987",
+   "Jug_Sale": "AGUSTIN NOVO",
+   "CarneEntra": "53206",
+   "Jug_Entra": "GASTON GALEANO",
+   "camiseta": "10",
+   "minutos": "53"
+  },
+  {
+   "CarneSale": "41345",
+   "Jug_Sale": "LUCAS ENRIQUE ALEIZON",
+   "CarneEntra": "64941",
+   "Jug_Entra": "TOMAS VAZQUEZ",
+   "camiseta": "15",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "63190",
+   "Jug_Sale": "MAURO CELIBERTI",
+   "CarneEntra": "68053",
+   "Jug_Entra": "NAHUEL MODERNELL",
+   "camiseta": "7",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "44090",
+   "Jug_Sale": "PABLO KALEMKERIAN",
+   "CarneEntra": "62613",
+   "Jug_Entra": "IGNACIO GODIÑO",
+   "camiseta": "16",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "46846",
+   "Jug_Sale": "SEBASTIAN MATTA",
+   "CarneEntra": "66554",
+   "Jug_Entra": "JOAQUIN APARICIO",
+   "camiseta": "41",
+   "minutos": "78"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "46979",
+   "Jug_Sale": "JOAQUIN DANIEL PISA",
+   "CarneEntra": "63650",
+   "Jug_Entra": "FRANCO JOSUE FILGUEIRA",
+   "camiseta": "27",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56659",
+   "Jug_Sale": "GIOVANNI VALENTIN MARTINEZ",
+   "CarneEntra": "49107",
+   "Jug_Entra": "NICOLAS MARTINEZ",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64595",
+   "Jug_Sale": "FACUNDO EZEQUIEL SANJURJO",
+   "CarneEntra": "45242",
+   "Jug_Entra": "LUCAS ALEJO FERNANDEZ",
+   "camiseta": "4",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "57402",
+   "Jug_Sale": "DIEGO EDUARDO PISA",
+   "CarneEntra": "56659",
+   "Jug_Entra": "GIOVANNI VALENTIN MARTINEZ",
+   "camiseta": "31",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "45520",
+   "Jug_Sale": "JOSE AGUSTIN MONZA",
+   "CarneEntra": "46979",
+   "Jug_Entra": "JOAQUIN DANIEL PISA",
+   "camiseta": "13",
+   "minutos": "78"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "45143",
+   "Nombre": "NICOLAS GALEANO",
+   "minutos": "37",
+   "EnContra": "0"
+  },
+  {
+   "carne": "46846",
+   "Nombre": "SEBASTIAN MATTA",
+   "minutos": "31",
+   "EnContra": "0"
+  },
+  {
+   "carne": "51462",
+   "Nombre": "NAHUEL PICO",
+   "minutos": "10",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

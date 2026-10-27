@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"D\" TIT. y ASC.",
   "Cancha": "COMPLEJO NORTHFIELD",
-  "Fecha_Inicio": "2026-10-24 12:45:00",
-  "Fecha_fin": "2026-10-24 12:45:00",
+  "Fecha_Inicio": "2026-10-24 13:20:00",
+  "Fecha_fin": "2026-10-24 13:20:00",
   "Locatario": "CLUB SOCIAL PIEDRAS BLANCAS",
   "goles_locatario": "1",
   "puntos_locatario": "0",
@@ -29,12 +29,261 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "titularesL": [
+  {
+   "carne": "59338",
+   "Nombre": "LEANDRO SOZZO",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "56086",
+   "Nombre": "DYLAN FELIX",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "66571",
+   "Nombre": "ALEXANDER SHEIDA PATRON",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "66572",
+   "Nombre": "SANTIAGO AGUSTIN GONZALEZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "66573",
+   "Nombre": "EZEQUIEL MICHAEL TOURNE",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "61423",
+   "Nombre": "ALAN EZEQUIEL DE LOS SANTOS",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "35047",
+   "Nombre": "LUIS MARCELO PEREIRA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "64061",
+   "Nombre": "NESTOR RAEL VIDELA",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "66989",
+   "Nombre": "LAUTARO AGUSTIN CUADRO",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "69089",
+   "Nombre": "SEBASTIAN ACOSTA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "45754",
+   "Nombre": "MATIAS ALEXANDER ACOSTA",
+   "camiseta": "3",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "56171",
+   "Nombre": "MARIANO DANIEL OTTONELLI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "51804",
+   "Nombre": "JUAN IGNACIO LEIVA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "52625",
+   "Nombre": "MATEO GONZALEZ",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "52628",
+   "Nombre": "JOAQUIN NUÑEZ",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "57966",
+   "Nombre": "FRANCISCO LOURTET",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "53658",
+   "Nombre": "JOAQUIN VAZQUEZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "52634",
+   "Nombre": "JUAN IGNACIO QUINTANA",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "52640",
+   "Nombre": "VALENTIN COLOMINAS",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "58083",
+   "Nombre": "IGNACIO FACUNDO RICOBALDI",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "52633",
+   "Nombre": "BENICIO BERTIN",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "53357",
+   "Nombre": "JUAN MANUEL TRUJILLO",
+   "camiseta": "21",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "64061",
+   "Jug_Sale": "NESTOR RAEL VIDELA",
+   "CarneEntra": "61392",
+   "Jug_Entra": "FRANCO CANTO",
+   "camiseta": "9",
+   "minutos": "38"
+  },
+  {
+   "CarneSale": "35047",
+   "Jug_Sale": "LUIS MARCELO PEREIRA",
+   "CarneEntra": "59341",
+   "Jug_Entra": "LUCA CORREA PAIVA",
+   "camiseta": "13",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66573",
+   "Jug_Sale": "EZEQUIEL MICHAEL TOURNE",
+   "CarneEntra": "59330",
+   "Jug_Entra": "JUAN PABLO CUÑA",
+   "camiseta": "21",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "66989",
+   "Jug_Sale": "LAUTARO AGUSTIN CUADRO",
+   "CarneEntra": "60906",
+   "Jug_Entra": "FACUNDO MANUEL VILLALBA",
+   "camiseta": "14",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "56086",
+   "Jug_Sale": "DYLAN FELIX",
+   "CarneEntra": "58509",
+   "Jug_Entra": "WILSON DANIEL CORREA",
+   "camiseta": "5",
+   "minutos": "74"
+  },
+  {
+   "CarneSale": "66571",
+   "Jug_Sale": "ALEXANDER SHEIDA PATRON",
+   "CarneEntra": "64061",
+   "Jug_Entra": "NESTOR RAEL VIDELA",
+   "camiseta": "10",
+   "minutos": "82"
+  },
+  {
+   "CarneSale": "45754",
+   "Jug_Sale": "MATIAS ALEXANDER ACOSTA",
+   "CarneEntra": "56086",
+   "Jug_Entra": "DYLAN FELIX",
+   "camiseta": "6",
+   "minutos": "84"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "53357",
+   "Jug_Sale": "JUAN MANUEL TRUJILLO",
+   "CarneEntra": "61528",
+   "Jug_Entra": "SANTIAGO DAMIAN PEREIRA",
+   "camiseta": "6",
+   "minutos": "20"
+  },
+  {
+   "CarneSale": "53658",
+   "Jug_Sale": "JOAQUIN VAZQUEZ",
+   "CarneEntra": "52444",
+   "Jug_Entra": "SEBASTIAN CARBAJAL",
+   "camiseta": "2",
+   "minutos": "20"
+  },
+  {
+   "CarneSale": "52633",
+   "Jug_Sale": "BENICIO BERTIN",
+   "CarneEntra": "66514",
+   "Jug_Entra": "MARTIN DIAZ",
+   "camiseta": "17",
+   "minutos": "34"
+  },
+  {
+   "CarneSale": "52625",
+   "Jug_Sale": "MATEO GONZALEZ",
+   "CarneEntra": "53641",
+   "Jug_Entra": "FACUNDO ROCHA",
+   "camiseta": "10",
+   "minutos": "39"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "66989",
+   "Nombre": "LAUTARO AGUSTIN CUADRO",
+   "minutos": "55",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "52633",
+   "Nombre": "BENICIO BERTIN",
+   "minutos": "65",
+   "EnContra": "1"
+  },
+  {
+   "carne": "58083",
+   "Nombre": "IGNACIO FACUNDO RICOBALDI",
+   "minutos": "31",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "DYLAN FELIX",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"B\" PERM. y DESC.",
   "Cancha": "COMPLEJO INDEPENDIENTE UNIV.",
-  "Fecha_Inicio": "2026-10-25 10:30:00",
-  "Fecha_fin": "2026-10-25 10:30:00",
+  "Fecha_Inicio": "2026-10-25 11:10:00",
+  "Fecha_fin": "2026-10-25 11:10:00",
   "Locatario": "INDEPENDIENTE",
   "goles_locatario": "3",
   "puntos_locatario": "1",
@@ -29,12 +29,274 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "58494",
+   "Nombre": "LEANDRO XAVIER",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "39168",
+   "Nombre": "PIETRO BENITEZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "43439",
+   "Nombre": "FACUNDO GARCIA",
+   "camiseta": "79",
+   "Capitan": ""
+  },
+  {
+   "carne": "40073",
+   "Nombre": "JOAQUIN AVEDISIAN",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "44034",
+   "Nombre": "HORACIO RODRIGUEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "60709",
+   "Nombre": "LAUTARO DIAZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "42394",
+   "Nombre": "MARTINHO GABRIEL DA COSTA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "43774",
+   "Nombre": "FELIPE HEIN",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "62684",
+   "Nombre": "JOAQUIN VARELA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "68177",
+   "Nombre": "ENZO FACUNDO SOUZA",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "51150",
+   "Nombre": "IGNACIO ARTIGAS FERREIRA",
+   "camiseta": "68",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "58893",
+   "Nombre": "LUCAS AGUSTIN RODRIGUEZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "32373",
+   "Nombre": "AGUSTIN OLIVERI",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "34600",
+   "Nombre": "STEFANO VITTORIO CAMAROTE",
+   "camiseta": "2",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "61896",
+   "Nombre": "MARTIN ARZAGUET",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "62288",
+   "Nombre": "JOSE PEDRO ALCOBA",
+   "camiseta": "95",
+   "Capitan": ""
+  },
+  {
+   "carne": "58413",
+   "Nombre": "GONZALO DUVOS",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "34231",
+   "Nombre": "SEBASTIAN NICOLAS RODRIGUEZ",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "38087",
+   "Nombre": "MARIANO CORTIZAS",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "54369",
+   "Nombre": "JONATHAN AGUSTÌN REY",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "33252",
+   "Nombre": "GASTON SANCHEZ",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "62289",
+   "Nombre": "JEREMIAS RUIZ DIAZ",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "40073",
+   "Jug_Sale": "JOAQUIN AVEDISIAN",
+   "CarneEntra": "46217",
+   "Jug_Entra": "SIMON RODRIGUEZ",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "39168",
+   "Jug_Sale": "PIETRO BENITEZ",
+   "CarneEntra": "45742",
+   "Jug_Entra": "NEHUEN EZEQUIEL BONIFAZI",
+   "camiseta": "33",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "62684",
+   "Jug_Sale": "JOAQUIN VARELA",
+   "CarneEntra": "61036",
+   "Jug_Entra": "JUAN MANUEL IGLESIAS",
+   "camiseta": "88",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "43774",
+   "Jug_Sale": "FELIPE HEIN",
+   "CarneEntra": "66145",
+   "Jug_Entra": "IGNACIO BERTHEL",
+   "camiseta": "25",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "60709",
+   "Jug_Sale": "LAUTARO DIAZ",
+   "CarneEntra": "45360",
+   "Jug_Entra": "IVO THIAGO PEREZ",
+   "camiseta": "29",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "43439",
+   "Jug_Sale": "FACUNDO GARCIA",
+   "CarneEntra": "42358",
+   "Jug_Entra": "FABIO ENRIQUED DA COSTA",
+   "camiseta": "20",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "68177",
+   "Jug_Sale": "ENZO FACUNDO SOUZA",
+   "CarneEntra": "39168",
+   "Jug_Entra": "PIETRO BENITEZ",
+   "camiseta": "2",
+   "minutos": "85"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "62288",
+   "Jug_Sale": "JOSE PEDRO ALCOBA",
+   "CarneEntra": "53606",
+   "Jug_Entra": "GUILLERMO ANDRES REBOLLO",
+   "camiseta": "21",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "32373",
+   "Jug_Sale": "AGUSTIN OLIVERI",
+   "CarneEntra": "46926",
+   "Jug_Entra": "MATIAS ANDRES MUNIZ",
+   "camiseta": "7",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "34600",
+   "Jug_Sale": "STEFANO VITTORIO CAMAROTE",
+   "CarneEntra": "54349",
+   "Jug_Entra": "DIEGO FERNANDEZ",
+   "camiseta": "55",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "58413",
+   "Jug_Sale": "GONZALO DUVOS",
+   "CarneEntra": "66696",
+   "Jug_Entra": "RODRIGO CABRERA",
+   "camiseta": "24",
+   "minutos": "85"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "43439",
+   "Nombre": "FACUNDO GARCIA",
+   "minutos": "8",
+   "EnContra": "0"
+  },
+  {
+   "carne": "44034",
+   "Nombre": "HORACIO RODRIGUEZ",
+   "minutos": "61",
+   "EnContra": "0"
+  },
+  {
+   "carne": "44034",
+   "Nombre": "HORACIO RODRIGUEZ",
+   "minutos": "81",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "33252",
+   "Nombre": "GASTON SANCHEZ",
+   "minutos": "18",
+   "EnContra": "1"
+  },
+  {
+   "carne": "33252",
+   "Nombre": "GASTON SANCHEZ",
+   "minutos": "65",
+   "EnContra": "1"
+  },
+  {
+   "carne": "62289",
+   "Nombre": "JEREMIAS RUIZ DIAZ",
+   "minutos": "85",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

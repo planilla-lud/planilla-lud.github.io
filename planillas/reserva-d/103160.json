@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"D\" TIT. y ASC.",
   "Cancha": "COLEGIO ARETEIA",
-  "Fecha_Inicio": "2026-10-24 10:30:00",
-  "Fecha_fin": "2026-10-24 10:30:00",
+  "Fecha_Inicio": "2026-10-24 10:50:00",
+  "Fecha_fin": "2026-10-24 10:50:00",
   "Locatario": "DEP.de la C. ARETEIA BIMBULLY",
   "goles_locatario": "4",
   "puntos_locatario": "3",
@@ -29,11 +29,268 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "66499",
+   "Nombre": "LEANDRO HORACIO SELVES",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "48947",
+   "Nombre": "ALEXIS QUINTAN",
+   "camiseta": "37",
+   "Capitan": ""
+  },
+  {
+   "carne": "69087",
+   "Nombre": "MATEO APOLITO",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "69167",
+   "Nombre": "NICOLAS MATIAS SALVO",
+   "camiseta": "90",
+   "Capitan": ""
+  },
+  {
+   "carne": "62868",
+   "Nombre": "TOMAS LICIO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "58366",
+   "Nombre": "MARCO MARCELO BORDON",
+   "camiseta": "18",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "58013",
+   "Nombre": "IÑAKI GUDE",
+   "camiseta": "69",
+   "Capitan": ""
+  },
+  {
+   "carne": "57086",
+   "Nombre": "VALENTIN GONZALEZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "56017",
+   "Nombre": "TIAGO PERDOMO",
+   "camiseta": "38",
+   "Capitan": ""
+  },
+  {
+   "carne": "59875",
+   "Nombre": "FACUNDO RODRIGO BARITUSSIO",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "69168",
+   "Nombre": "VICTOR MANUEL BATALLA",
+   "camiseta": "26",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "59350",
+   "Nombre": "GASTON NUÑEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "56508",
+   "Nombre": "MATEO GARCIA",
+   "camiseta": "26",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56682",
+   "Nombre": "DIEGO RAHI",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "50844",
+   "Nombre": "BRUNO MARTIN PALACIO",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "55121",
+   "Nombre": "AGUSTIN FRAGA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "66624",
+   "Nombre": "VALENTIN HUGO MENDIZABAL",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "60732",
+   "Nombre": "SEBASTIAN LAPORTE",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "66232",
+   "Nombre": "LUCAS MAURICIO CARTAGENA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "66164",
+   "Nombre": "NICOLAS AYESTARAN",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "68986",
+   "Nombre": "BRUNO EDUARDO MELGAREJO",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "53961",
+   "Nombre": "FRANCISCO SCARRONE",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "48947",
+   "Jug_Sale": "ALEXIS QUINTAN",
+   "CarneEntra": "59893",
+   "Jug_Entra": "GERONIMO MANUEL ACOSTA",
+   "camiseta": "66",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "69168",
+   "Jug_Sale": "VICTOR MANUEL BATALLA",
+   "CarneEntra": "66551",
+   "Jug_Entra": "EMANUEL CORREA",
+   "camiseta": "9",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "59875",
+   "Jug_Sale": "FACUNDO RODRIGO BARITUSSIO",
+   "CarneEntra": "64271",
+   "Jug_Entra": "THIAGO OTERO",
+   "camiseta": "5",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "56017",
+   "Jug_Sale": "TIAGO PERDOMO",
+   "CarneEntra": "54073",
+   "Jug_Entra": "JUAN MANUEL FERNANDEZ",
+   "camiseta": "23",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "57086",
+   "Jug_Sale": "VALENTIN GONZALEZ",
+   "CarneEntra": "57107",
+   "Jug_Entra": "ALARIC IAN ROJAS",
+   "camiseta": "29",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "58013",
+   "Jug_Sale": "IÑAKI GUDE",
+   "CarneEntra": "57103",
+   "Jug_Entra": "NICOLAS ACOSTA",
+   "camiseta": "8",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "69087",
+   "Jug_Sale": "MATEO APOLITO",
+   "CarneEntra": "67161",
+   "Jug_Entra": "RODRIGO DURAN",
+   "camiseta": "22",
+   "minutos": "77"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "59350",
+   "Jug_Sale": "GASTON NUÑEZ",
+   "CarneEntra": "56224",
+   "Jug_Entra": "SANTIAGO DANIEL CASCO",
+   "camiseta": "11",
+   "minutos": "50"
+  },
+  {
+   "CarneSale": "55121",
+   "Jug_Sale": "AGUSTIN FRAGA",
+   "CarneEntra": "55117",
+   "Jug_Entra": "GUILLERMO VALLE LISBOA",
+   "camiseta": "15",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "66232",
+   "Jug_Sale": "LUCAS MAURICIO CARTAGENA",
+   "CarneEntra": "57338",
+   "Jug_Entra": "AKEEM JORGE",
+   "camiseta": "18",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "60732",
+   "Jug_Sale": "SEBASTIAN LAPORTE",
+   "CarneEntra": "55077",
+   "Jug_Entra": "EMANUEL DA LUZ",
+   "camiseta": "7",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "68986",
+   "Jug_Sale": "BRUNO EDUARDO MELGAREJO",
+   "CarneEntra": "61756",
+   "Jug_Entra": "LUCAS DANIEL PEREZ",
+   "camiseta": "10",
+   "minutos": "87"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "54073",
+   "Nombre": "JUAN MANUEL FERNANDEZ",
+   "minutos": "84",
+   "EnContra": "0"
+  },
+  {
+   "carne": "58013",
+   "Nombre": "IÑAKI GUDE",
+   "minutos": "49",
+   "EnContra": "0"
+  },
+  {
+   "carne": "59893",
+   "Nombre": "GERONIMO MANUEL ACOSTA",
+   "minutos": "81",
+   "EnContra": "0"
+  },
+  {
+   "carne": "69168",
+   "Nombre": "VICTOR MANUEL BATALLA",
+   "minutos": "15",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

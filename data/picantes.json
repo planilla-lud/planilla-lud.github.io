@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-27T02:28:57.136Z",
+ "actualizado": "2026-10-27T16:30:36.927Z",
  "partidos": [
   {
    "div": "sub20-a",
@@ -32,7 +32,7 @@
    "n": 8,
    "base": 0,
    "tipo": "titulo",
-   "altasL": 0,
+   "altasL": 2,
    "altasV": 0
   },
   {
@@ -83,8 +83,8 @@
    "n": 8,
    "base": 8,
    "tipo": "descenso",
-   "altasL": 2,
-   "altasV": 1
+   "altasL": 0,
+   "altasV": 2
   },
   {
    "div": "mas40-a",
@@ -253,8 +253,8 @@
    "n": 8,
    "base": 8,
    "tipo": "descenso",
-   "altasL": 3,
-   "altasV": 3
+   "altasL": 1,
+   "altasV": 2
   },
   {
    "div": "mayores-c",
@@ -271,7 +271,7 @@
    "base": 8,
    "tipo": "descenso",
    "altasL": 3,
-   "altasV": 0
+   "altasV": 2
   },
   {
    "div": "mayores-d",
@@ -491,7 +491,7 @@
    "n": 8,
    "base": 0,
    "tipo": "titulo",
-   "altasL": 1,
+   "altasL": 0,
    "altasV": 0
   },
   {

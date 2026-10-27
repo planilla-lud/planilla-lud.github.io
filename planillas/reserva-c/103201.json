@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"C\" PER. y DESC.",
   "Cancha": "SANDY FUTBOL",
-  "Fecha_Inicio": "2026-10-24 12:45:00",
-  "Fecha_fin": "2026-10-24 12:45:00",
+  "Fecha_Inicio": "2026-10-24 13:00:00",
+  "Fecha_fin": "2026-10-24 13:00:00",
   "Locatario": "COLEGIO Y LICEO INGLES",
   "goles_locatario": "2",
   "puntos_locatario": "3",
@@ -29,12 +29,245 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "64433",
+   "Nombre": "SANTIAGO LUCAS RODRIGUEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "45633",
+   "Nombre": "PABLO AGUIAR",
+   "camiseta": "55",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "45310",
+   "Nombre": "TOMAS ANTONIO MILAT",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "59413",
+   "Nombre": "TIAGO MAIORANO",
+   "camiseta": "73",
+   "Capitan": ""
+  },
+  {
+   "carne": "47716",
+   "Nombre": "SANTIAGO RODRIGUEZ",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "39406",
+   "Nombre": "AGUSTIN FELIPEZ",
+   "camiseta": "50",
+   "Capitan": ""
+  },
+  {
+   "carne": "39479",
+   "Nombre": "GASTON MUIÑO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "49342",
+   "Nombre": "MATEO JOAQUIN FERNANDEZ",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "47463",
+   "Nombre": "AGUSTIN ONETTO",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "48882",
+   "Nombre": "JUAN IGNACIO APOLO",
+   "camiseta": "90",
+   "Capitan": ""
+  },
+  {
+   "carne": "39287",
+   "Nombre": "NICOLAS MONTERO",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "46770",
+   "Nombre": "TOMAS LOPEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "62604",
+   "Nombre": "JUAN CRUZ DE AZPITARTE",
+   "camiseta": "3",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "52817",
+   "Nombre": "FEDERICO GARCIA",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "43890",
+   "Nombre": "EMILIANO ROSS",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "53218",
+   "Nombre": "JUAN HINSCH",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "55122",
+   "Nombre": "NICOLAS POL",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "66781",
+   "Nombre": "FELIPE FERNANDEZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "39526",
+   "Nombre": "JUAN MARTIN BASIGALUZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "52822",
+   "Nombre": "LUCAS RUVIRA",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "65819",
+   "Nombre": "ALEJANDRO GAMMELLA",
+   "camiseta": "79",
+   "Capitan": ""
+  },
+  {
+   "carne": "46003",
+   "Nombre": "MARTIN VIGORITO",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "48882",
+   "Jug_Sale": "JUAN IGNACIO APOLO",
+   "CarneEntra": "59393",
+   "Jug_Entra": "SEBASTIAN MACHADO",
+   "camiseta": "7",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "47716",
+   "Jug_Sale": "SANTIAGO RODRIGUEZ",
+   "CarneEntra": "59416",
+   "Jug_Entra": "PEDRO BAUTISTA RODRIGUEZ",
+   "camiseta": "16",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "45310",
+   "Jug_Sale": "TOMAS ANTONIO MILAT",
+   "CarneEntra": "48798",
+   "Jug_Entra": "MATIAS ONANDI",
+   "camiseta": "15",
+   "minutos": "82"
+  },
+  {
+   "CarneSale": "39287",
+   "Jug_Sale": "NICOLAS MONTERO",
+   "CarneEntra": "59406",
+   "Jug_Entra": "FEDERICO CANDAU",
+   "camiseta": "38",
+   "minutos": "93"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "39526",
+   "Jug_Sale": "JUAN MARTIN BASIGALUZ",
+   "CarneEntra": "62365",
+   "Jug_Entra": "JOSE AGUSTIN BÖCKING",
+   "camiseta": "80",
+   "minutos": "12"
+  },
+  {
+   "CarneSale": "55122",
+   "Jug_Sale": "NICOLAS POL",
+   "CarneEntra": "56981",
+   "Jug_Entra": "JUAN CRUZ GIANOLI",
+   "camiseta": "14",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "66781",
+   "Jug_Sale": "FELIPE FERNANDEZ",
+   "CarneEntra": "47289",
+   "Jug_Entra": "LUIS PEDRO PONCE DE LEON",
+   "camiseta": "7",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "65819",
+   "Jug_Sale": "ALEJANDRO GAMMELLA",
+   "CarneEntra": "58578",
+   "Jug_Entra": "AGUSTIN GOSSWEILLER",
+   "camiseta": "66",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "52822",
+   "Jug_Sale": "LUCAS RUVIRA",
+   "CarneEntra": "53967",
+   "Jug_Entra": "ALFONSO VIGORITO",
+   "camiseta": "15",
+   "minutos": "89"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "47463",
+   "Nombre": "AGUSTIN ONETTO",
+   "minutos": "5",
+   "EnContra": "0"
+  },
+  {
+   "carne": "47463",
+   "Nombre": "AGUSTIN ONETTO",
+   "minutos": "72",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "66781",
+   "Nombre": "FELIPE FERNANDEZ",
+   "minutos": "16",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
- "expulsadosV": []
+ "expulsadosV": [
+  {
+   "Nombre": "EMILIANO ROSS",
+   "observaciones": ""
+  }
+ ]
 }

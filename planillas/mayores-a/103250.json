@@ -4,7 +4,7 @@
  "serie": "AT",
  "fecha": 5,
  "fechaHora": "2026-10-25 09:00:00",
- "cancha": "COMPLEJO URUNDAY UNIVERSITARIO",
+ "cancha": "()",
  "local": "URUNDAY UNIVERSITARIO",
  "visitante": "OLD BOYS CLUB",
  "gl": 2,
@@ -17,9 +17,9 @@
   "categoria": "MAYORES MASCULINO",
   "rueda": "2",
   "Divisional": "MAYORES \"A\" TITULO",
-  "Cancha": "COMPLEJO URUNDAY UNIVERSITARIO",
-  "Fecha_Inicio": "2026-10-25 10:30:00",
-  "Fecha_fin": "2026-10-25 10:30:00",
+  "Cancha": "()",
+  "Fecha_Inicio": "2026-10-25 11:00:00",
+  "Fecha_fin": "2026-10-25 11:00:00",
   "Locatario": "URUNDAY UNIVERSITARIO",
   "goles_locatario": "2",
   "puntos_locatario": "1",
@@ -29,12 +29,243 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "titularesL": [
+  {
+   "carne": "52399",
+   "Nombre": "FEDERICO JOAQUIN GARCIA",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "36910",
+   "Nombre": "GERMAN CAYON",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "66692",
+   "Nombre": "FACUNDO MOLINA",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "62165",
+   "Nombre": "JUAN IGNACIO AFFONSO",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "66693",
+   "Nombre": "AGUSTIN LEMA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "62723",
+   "Nombre": "TOMAS GABRIEL ERRECARTT",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "41285",
+   "Nombre": "RODRIGO FERNANDEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "46496",
+   "Nombre": "RODRIGO AGUSTIN VEGA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "56470",
+   "Nombre": "BRUNO AGUSTIN FANTONI",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "36942",
+   "Nombre": "NICOLAS LOPEZ",
+   "camiseta": "9",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "52533",
+   "Nombre": "GUZMAN FERNANDEZ",
+   "camiseta": "77",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "59008",
+   "Nombre": "GERONIMO FEDERICO ALONSO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "54579",
+   "Nombre": "JAVIER CIVETTA",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "47513",
+   "Nombre": "MAXIMO VARGAS",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "29671",
+   "Nombre": "MARTIN GUSTAVO GUERRA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "54974",
+   "Nombre": "SANTIAGO BOCAGE",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "56273",
+   "Nombre": "ALEXIS BRUCE",
+   "camiseta": "87",
+   "Capitan": ""
+  },
+  {
+   "carne": "45980",
+   "Nombre": "ZENON CAPELLI",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "49786",
+   "Nombre": "JUAN IGNACIO HARDOY",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "58231",
+   "Nombre": "FACUNDO VALENTTI",
+   "camiseta": "91",
+   "Capitan": ""
+  },
+  {
+   "carne": "45241",
+   "Nombre": "JUAN FERMIN REMEDI",
+   "camiseta": "7",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "29955",
+   "Nombre": "NICOLAS CASAROTTI",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "56470",
+   "Jug_Sale": "BRUNO AGUSTIN FANTONI",
+   "CarneEntra": "55417",
+   "Jug_Entra": "DIEGO HERNAN TABORDA",
+   "camiseta": "21",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "62165",
+   "Jug_Sale": "JUAN IGNACIO AFFONSO",
+   "CarneEntra": "41114",
+   "Jug_Entra": "FACUNDO MEDEIROS",
+   "camiseta": "5",
+   "minutos": "74"
+  },
+  {
+   "CarneSale": "36910",
+   "Jug_Sale": "GERMAN CAYON",
+   "CarneEntra": "50071",
+   "Jug_Entra": "AGUSTIN SANTURIO",
+   "camiseta": "29",
+   "minutos": "74"
+  },
+  {
+   "CarneSale": "52533",
+   "Jug_Sale": "GUZMAN FERNANDEZ",
+   "CarneEntra": "59646",
+   "Jug_Entra": "FABRICIO NICOLAS RAMOS",
+   "camiseta": "80",
+   "minutos": "87"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "56273",
+   "Jug_Sale": "ALEXIS BRUCE",
+   "CarneEntra": "47515",
+   "Jug_Entra": "JUAN MARIA SEIZER",
+   "camiseta": "10",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "29955",
+   "Jug_Sale": "NICOLAS CASAROTTI",
+   "CarneEntra": "54580",
+   "Jug_Entra": "JUAN CARLOS VIDIELLA",
+   "camiseta": "49",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "49786",
+   "Jug_Sale": "JUAN IGNACIO HARDOY",
+   "CarneEntra": "48369",
+   "Jug_Entra": "LUCA BERTINI",
+   "camiseta": "14",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "45980",
+   "Jug_Sale": "ZENON CAPELLI",
+   "CarneEntra": "54585",
+   "Jug_Entra": "TOMAS CABRAL",
+   "camiseta": "20",
+   "minutos": "87"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "36942",
+   "Nombre": "NICOLAS LOPEZ",
+   "minutos": "30",
+   "EnContra": "0"
+  },
+  {
+   "carne": "41285",
+   "Nombre": "RODRIGO FERNANDEZ",
+   "minutos": "81",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "58231",
+   "Nombre": "FACUNDO VALENTTI",
+   "minutos": "45",
+   "EnContra": "1"
+  },
+  {
+   "carne": "58231",
+   "Nombre": "FACUNDO VALENTTI",
+   "minutos": "59",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "AGUSTIN LEMA",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

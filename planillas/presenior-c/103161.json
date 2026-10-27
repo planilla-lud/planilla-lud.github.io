@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"C\" PER. y DESC",
   "Cancha": "COMPLEJO DEPORTIVO H3O",
-  "Fecha_Inicio": "2026-10-24 10:30:00",
-  "Fecha_fin": "2026-10-24 10:30:00",
+  "Fecha_Inicio": "2026-10-24 10:45:00",
+  "Fecha_fin": "2026-10-24 10:45:00",
   "Locatario": "CLARA JACKSON UNIVERSITARIO",
   "goles_locatario": "2",
   "puntos_locatario": "1",
@@ -29,12 +29,222 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "40111",
+   "Nombre": "DIEGO ROJAS",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "35443",
+   "Nombre": "RAFAEL LANZETTA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "30276",
+   "Nombre": "KLAVDIO AGUSTIN MARTINEZ",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "35096",
+   "Nombre": "AGUSTIN OSVALDO MIRO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "34406",
+   "Nombre": "FRANCO ANTONIO RICARDI",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "42789",
+   "Nombre": "DIEGO GABRIEL DEL PO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "28183",
+   "Nombre": "LEONARDO BANCHERO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "48326",
+   "Nombre": "FEDERICO RODRIGUEZ",
+   "camiseta": "19",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "35291",
+   "Nombre": "ADRIAN MONTOLI",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "31967",
+   "Nombre": "HUGO ROUSSERIE",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "61414",
+   "Nombre": "BRUNO TRIGO",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "55641",
+   "Nombre": "ISAIAS ARIEL SOSA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "66822",
+   "Nombre": "DEYVIS ANDRES OROFINO",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "34745",
+   "Nombre": "LUIS ALFREDO LEON",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "66821",
+   "Nombre": "BRAIAN EDUARDO GODOY",
+   "camiseta": "41",
+   "Capitan": ""
+  },
+  {
+   "carne": "56654",
+   "Nombre": "NICOLAS ADRIAN PEREZ",
+   "camiseta": "90",
+   "Capitan": ""
+  },
+  {
+   "carne": "38905",
+   "Nombre": "GABRIEL MARCELO ARCE",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "23106",
+   "Nombre": "GASTON ZABALZA",
+   "camiseta": "6",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "33501",
+   "Nombre": "GERMAN CAL",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "27294",
+   "Nombre": "LUCAS BROVETTO",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "36718",
+   "Nombre": "HECTOR NICOLAS CASTRO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "34719",
+   "Nombre": "RICARDO NICOLAS RIBERO",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "31967",
+   "Jug_Sale": "HUGO ROUSSERIE",
+   "CarneEntra": "35830",
+   "Jug_Entra": "MARTIN MARIO VILAR",
+   "camiseta": "27",
+   "minutos": "38"
+  },
+  {
+   "CarneSale": "61414",
+   "Jug_Sale": "BRUNO TRIGO",
+   "CarneEntra": "30788",
+   "Jug_Entra": "DIEGO MARIA ROUSSERIE",
+   "camiseta": "23",
+   "minutos": "56"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "34719",
+   "Jug_Sale": "RICARDO NICOLAS RIBERO",
+   "CarneEntra": "44166",
+   "Jug_Entra": "BRUNO GONZALEZ",
+   "camiseta": "22",
+   "minutos": "38"
+  },
+  {
+   "CarneSale": "56654",
+   "Jug_Sale": "NICOLAS ADRIAN PEREZ",
+   "CarneEntra": "52690",
+   "Jug_Entra": "MATHIAS VILLAVERDE",
+   "camiseta": "80",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "38905",
+   "Jug_Sale": "GABRIEL MARCELO ARCE",
+   "CarneEntra": "54440",
+   "Jug_Entra": "RODRIGO SEBASTIAN CASTRO",
+   "camiseta": "27",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "66822",
+   "Jug_Sale": "DEYVIS ANDRES OROFINO",
+   "CarneEntra": "56654",
+   "Jug_Entra": "NICOLAS ADRIAN PEREZ",
+   "camiseta": "90",
+   "minutos": "91"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "48326",
+   "Nombre": "FEDERICO RODRIGUEZ",
+   "minutos": "40",
+   "EnContra": "0"
+  },
+  {
+   "carne": "48326",
+   "Nombre": "FEDERICO RODRIGUEZ",
+   "minutos": "50",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "34719",
+   "Nombre": "RICARDO NICOLAS RIBERO",
+   "minutos": "12",
+   "EnContra": "1"
+  },
+  {
+   "carne": "34745",
+   "Nombre": "LUIS ALFREDO LEON",
+   "minutos": "22",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

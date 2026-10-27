@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "M40 DIV. C COPA PLATA R2",
   "Cancha": "SPORT 11",
-  "Fecha_Inicio": "2026-10-24 10:30:00",
-  "Fecha_fin": "2026-10-24 10:30:00",
+  "Fecha_Inicio": "2026-10-24 11:00:00",
+  "Fecha_fin": "2026-10-24 11:00:00",
   "Locatario": "ARQUITECTURA JRS.",
   "goles_locatario": "5",
   "puntos_locatario": "3",
@@ -29,12 +29,292 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
- "expulsadosV": []
+ "titularesL": [
+  {
+   "carne": "24630",
+   "Nombre": "DANIEL IGNACIO DIAZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "30818",
+   "Nombre": "PABLO FRADILETTI",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "65224",
+   "Nombre": "LUIS SEBASTIAN VILLALBA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "16364",
+   "Nombre": "JUAN PABLO GESUELE",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "22244",
+   "Nombre": "BRUNO CONTI",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "18044",
+   "Nombre": "FEDERICO PEREZ",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "23298",
+   "Nombre": "PABLO ERNESTO AIRALDI",
+   "camiseta": "93",
+   "Capitan": ""
+  },
+  {
+   "carne": "16685",
+   "Nombre": "SEBASTIAN TURELL",
+   "camiseta": "44",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "21051",
+   "Nombre": "WALTER FEDERICO PEREZ",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "20909",
+   "Nombre": "JUAN MANUEL BLANCO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "22180",
+   "Nombre": "GONZALO JAVIER MEDINA",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "15611",
+   "Nombre": "JUAN PABLO BIANCHI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "28680",
+   "Nombre": "RAUL ALFREDO FRAGA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "18876",
+   "Nombre": "CONRADO MANUEL FRAU",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "64348",
+   "Nombre": "RAMIRO DANIEL COSTA",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "52344",
+   "Nombre": "MARCELO ALEJANDRO PEÑA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "16962",
+   "Nombre": "PAOLO PASCUAL VIOLA",
+   "camiseta": "3",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "17436",
+   "Nombre": "ALFREDO MARTIN JUBIN",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "61736",
+   "Nombre": "PABLO SEBASTIAN MIRANDA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "21523",
+   "Nombre": "GASTON LEWI",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "57703",
+   "Nombre": "JORGE ANDRES VONDER",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "47213",
+   "Nombre": "MIGUEL ANGEL MOREIRA",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "20909",
+   "Jug_Sale": "JUAN MANUEL BLANCO",
+   "CarneEntra": "27004",
+   "Jug_Entra": "WILSON ANDRES CORIA",
+   "camiseta": "19",
+   "minutos": "10"
+  },
+  {
+   "CarneSale": "23298",
+   "Jug_Sale": "PABLO ERNESTO AIRALDI",
+   "CarneEntra": "26469",
+   "Jug_Entra": "OSCAR MARTIN BADALA",
+   "camiseta": "27",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "16364",
+   "Jug_Sale": "JUAN PABLO GESUELE",
+   "CarneEntra": "26116",
+   "Jug_Entra": "LEONARDO FACUNDO SORIA",
+   "camiseta": "5",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "30818",
+   "Jug_Sale": "PABLO FRADILETTI",
+   "CarneEntra": "51375",
+   "Jug_Entra": "DORON URWICZ",
+   "camiseta": "16",
+   "minutos": "25"
+  },
+  {
+   "CarneSale": "65224",
+   "Jug_Sale": "LUIS SEBASTIAN VILLALBA",
+   "CarneEntra": "16364",
+   "Jug_Entra": "JUAN PABLO GESUELE",
+   "camiseta": "24",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "21051",
+   "Jug_Sale": "WALTER FEDERICO PEREZ",
+   "CarneEntra": "23298",
+   "Jug_Entra": "PABLO ERNESTO AIRALDI",
+   "camiseta": "93",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "22244",
+   "Jug_Sale": "BRUNO CONTI",
+   "CarneEntra": "21051",
+   "Jug_Entra": "WALTER FEDERICO PEREZ",
+   "camiseta": "22",
+   "minutos": "88"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "17436",
+   "Jug_Sale": "ALFREDO MARTIN JUBIN",
+   "CarneEntra": "43530",
+   "Jug_Entra": "LUIS EDUARDO GIMENEZ",
+   "camiseta": "14",
+   "minutos": "33"
+  },
+  {
+   "CarneSale": "18876",
+   "Jug_Sale": "CONRADO MANUEL FRAU",
+   "CarneEntra": "33571",
+   "Jug_Entra": "OSCAR DANIEL FERNANDEZ",
+   "camiseta": "23",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "52344",
+   "Jug_Sale": "MARCELO ALEJANDRO PEÑA",
+   "CarneEntra": "23817",
+   "Jug_Entra": "ALEJANDRO JOSE NEVES",
+   "camiseta": "13",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64348",
+   "Jug_Sale": "RAMIRO DANIEL COSTA",
+   "CarneEntra": "19853",
+   "Jug_Entra": "GERARDO SEBASTIAN FANJUL",
+   "camiseta": "17",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "15611",
+   "Jug_Sale": "JUAN PABLO BIANCHI",
+   "CarneEntra": "22132",
+   "Jug_Entra": "HEBER ANDRES CASTILLO",
+   "camiseta": "21",
+   "minutos": "73"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "20909",
+   "Nombre": "JUAN MANUEL BLANCO",
+   "minutos": "65",
+   "EnContra": "0"
+  },
+  {
+   "carne": "20909",
+   "Nombre": "JUAN MANUEL BLANCO",
+   "minutos": "75",
+   "EnContra": "0"
+  },
+  {
+   "carne": "21051",
+   "Nombre": "WALTER FEDERICO PEREZ",
+   "minutos": "42",
+   "EnContra": "0"
+  },
+  {
+   "carne": "21051",
+   "Nombre": "WALTER FEDERICO PEREZ",
+   "minutos": "46",
+   "EnContra": "0"
+  },
+  {
+   "carne": "22180",
+   "Nombre": "GONZALO JAVIER MEDINA",
+   "minutos": "52",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "57703",
+   "Nombre": "JORGE ANDRES VONDER",
+   "minutos": "44",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "GONZALO JAVIER MEDINA",
+   "observaciones": ""
+  }
+ ],
+ "expulsadosV": [
+  {
+   "Nombre": "RAUL ALFREDO FRAGA",
+   "observaciones": ""
+  }
+ ]
 }

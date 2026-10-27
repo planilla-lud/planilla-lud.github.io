@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"C\" PER. y DESC",
   "Cancha": "COMPLEJO LOS ROJOS",
-  "Fecha_Inicio": "2026-10-24 10:30:00",
-  "Fecha_fin": "2026-10-24 10:30:00",
+  "Fecha_Inicio": "2026-10-24 10:55:00",
+  "Fecha_fin": "2026-10-24 10:55:00",
   "Locatario": "TACUAREMBO UNIVERSITARIO",
   "goles_locatario": "2",
   "puntos_locatario": "0",
@@ -29,12 +29,273 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "titularesL": [
+  {
+   "carne": "25753",
+   "Nombre": "JHON MICHAEL MANZZI",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "61634",
+   "Nombre": "EDILBEN GERMAN FABRA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "31675",
+   "Nombre": "DANIEL ALMEDO SILVA",
+   "camiseta": "48",
+   "Capitan": ""
+  },
+  {
+   "carne": "20272",
+   "Nombre": "JOAQUIN NAZARENO OLASO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "61633",
+   "Nombre": "JORGE DANIEL PRESA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "54050",
+   "Nombre": "DAMIAN IRAZABAL",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "54499",
+   "Nombre": "GUILLERMO LEDESMA",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "67425",
+   "Nombre": "ALAN GABRIEL PINTOS",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "29736",
+   "Nombre": "ALEJANDRO BIANCO",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "60519",
+   "Nombre": "MATIAS GAMBOA",
+   "camiseta": "92",
+   "Capitan": ""
+  },
+  {
+   "carne": "42678",
+   "Nombre": "WILKER NOEL ARAUJO",
+   "camiseta": "8",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "10253",
+   "Nombre": "ANDRES MAURICIO ALVES",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "49989",
+   "Nombre": "JOAQUIN NICOLAS JORAJURIA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "35454",
+   "Nombre": "GUILLERMO MATTOS",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "48986",
+   "Nombre": "GUILLERMO GERARDO MELGAREJO",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "40466",
+   "Nombre": "CARLOS ANDRES FERNANDEZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "40582",
+   "Nombre": "NESTOR EDUARDO MELO",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "29550",
+   "Nombre": "PABLO SERGIO FERREIRA",
+   "camiseta": "20",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "47052",
+   "Nombre": "MANUEL SAVIOZ",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "19451",
+   "Nombre": "DIEGO MARTIN GIGENA",
+   "camiseta": "66",
+   "Capitan": ""
+  },
+  {
+   "carne": "58564",
+   "Nombre": "MAURO ARTURO GANDIN",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "68726",
+   "Nombre": "ERNESTO FIDEL SARLI",
+   "camiseta": "22",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "31675",
+   "Jug_Sale": "DANIEL ALMEDO SILVA",
+   "CarneEntra": "61866",
+   "Jug_Entra": "MAICOL ALEXANDER MARTINEZ",
+   "camiseta": "19",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61633",
+   "Jug_Sale": "JORGE DANIEL PRESA",
+   "CarneEntra": "33731",
+   "Jug_Entra": "GREGORY SANTIAGO OLIVERA",
+   "camiseta": "20",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "67425",
+   "Jug_Sale": "ALAN GABRIEL PINTOS",
+   "CarneEntra": "31602",
+   "Jug_Entra": "DIEGO ENRIQUE SITYA",
+   "camiseta": "4",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "54050",
+   "Jug_Sale": "DAMIAN IRAZABAL",
+   "CarneEntra": "67425",
+   "Jug_Entra": "ALAN GABRIEL PINTOS",
+   "camiseta": "99",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "42678",
+   "Jug_Sale": "WILKER NOEL ARAUJO",
+   "CarneEntra": "35387",
+   "Jug_Entra": "MAURICIO ANDRES RODRIGUEZ",
+   "camiseta": "37",
+   "minutos": "79"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "68726",
+   "Jug_Sale": "ERNESTO FIDEL SARLI",
+   "CarneEntra": "42751",
+   "Jug_Entra": "MATIAS QUIROGA",
+   "camiseta": "24",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58564",
+   "Jug_Sale": "MAURO ARTURO GANDIN",
+   "CarneEntra": "36406",
+   "Jug_Entra": "MATHIAS FEDERICO GONZALEZ",
+   "camiseta": "21",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "49989",
+   "Jug_Sale": "JOAQUIN NICOLAS JORAJURIA",
+   "CarneEntra": "41010",
+   "Jug_Entra": "DAMIAN PEREZ",
+   "camiseta": "16",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "48986",
+   "Jug_Sale": "GUILLERMO GERARDO MELGAREJO",
+   "CarneEntra": "44380",
+   "Jug_Entra": "MATHIAS ALEJANDRO LABITOLA",
+   "camiseta": "28",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "44380",
+   "Jug_Sale": "MATHIAS ALEJANDRO LABITOLA",
+   "CarneEntra": "58564",
+   "Jug_Entra": "MAURO ARTURO GANDIN",
+   "camiseta": "99",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "40582",
+   "Jug_Sale": "NESTOR EDUARDO MELO",
+   "CarneEntra": "68726",
+   "Jug_Entra": "ERNESTO FIDEL SARLI",
+   "camiseta": "22",
+   "minutos": "90"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "29736",
+   "Nombre": "ALEJANDRO BIANCO",
+   "minutos": "22",
+   "EnContra": "0"
+  },
+  {
+   "carne": "61634",
+   "Nombre": "EDILBEN GERMAN FABRA",
+   "minutos": "38",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "42751",
+   "Nombre": "MATIAS QUIROGA",
+   "minutos": "47",
+   "EnContra": "1"
+  },
+  {
+   "carne": "42751",
+   "Nombre": "MATIAS QUIROGA",
+   "minutos": "77",
+   "EnContra": "1"
+  },
+  {
+   "carne": "42751",
+   "Nombre": "MATIAS QUIROGA",
+   "minutos": "88",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "ALAN GABRIEL PINTOS",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

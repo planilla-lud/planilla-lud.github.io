@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"D\" COPA DE PLATA",
   "Cancha": "COMPLEJO LOS ROJOS",
-  "Fecha_Inicio": "2026-10-24 12:45:00",
-  "Fecha_fin": "2026-10-24 12:45:00",
+  "Fecha_Inicio": "2026-10-24 13:30:00",
+  "Fecha_fin": "2026-10-24 13:30:00",
   "Locatario": "LATINO FUTBOL CLUB",
   "goles_locatario": "3",
   "puntos_locatario": "0",
@@ -29,12 +29,272 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "59728",
+   "Nombre": "ALEJANDRO BOTTO",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "57069",
+   "Nombre": "FRANCO TERPOLILLI",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "54728",
+   "Nombre": "GUILLERMO VIÑAS",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "49193",
+   "Nombre": "JUAN PEREZ",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "59765",
+   "Nombre": "SANTIAGO TRIAS",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "62075",
+   "Nombre": "SANTIAGO SOSA",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "52879",
+   "Nombre": "IGNACIO QUINTANS",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "43741",
+   "Nombre": "SANTIAGO ALVES",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "52794",
+   "Nombre": "MAURO LARRROSA",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "61189",
+   "Nombre": "RODOLFO CABRERA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "46887",
+   "Nombre": "TOMAS MACHADO",
+   "camiseta": "45",
+   "Capitan": "(C)"
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "65853",
+   "Nombre": "JUAN PEREIRA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "53386",
+   "Nombre": "AGUSTIN CALVO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "53623",
+   "Nombre": "IGNACIO AÑON",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "53267",
+   "Nombre": "MAXIMO TORNONI",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "45778",
+   "Nombre": "SANTIAGO BARBEITO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "64272",
+   "Nombre": "HERNAN EZEQUIEL PUSCHIASIS",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "64740",
+   "Nombre": "EMILIANO VANZINI",
+   "camiseta": "69",
+   "Capitan": ""
+  },
+  {
+   "carne": "67387",
+   "Nombre": "GONZALO ESTEVES",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "49009",
+   "Nombre": "FACUNDO ACUÑA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "54722",
+   "Nombre": "LUCAS SCAFARELLI",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "56611",
+   "Nombre": "SEBASTIAN SAR",
+   "camiseta": "99",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "52879",
+   "Jug_Sale": "IGNACIO QUINTANS",
+   "CarneEntra": "59772",
+   "Jug_Entra": "MIRKO FELIX FLORA",
+   "camiseta": "44",
+   "minutos": "34"
+  },
+  {
+   "CarneSale": "49193",
+   "Jug_Sale": "JUAN PEREZ",
+   "CarneEntra": "59776",
+   "Jug_Entra": "MARTINO LORENZO FLORA",
+   "camiseta": "12",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "43741",
+   "Jug_Sale": "SANTIAGO ALVES",
+   "CarneEntra": "45255",
+   "Jug_Entra": "NICOLAS VISCAY",
+   "camiseta": "15",
+   "minutos": "70"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "56611",
+   "Jug_Sale": "SEBASTIAN SAR",
+   "CarneEntra": "52184",
+   "Jug_Entra": "DIEGO GIBERT",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "49009",
+   "Jug_Sale": "FACUNDO ACUÑA",
+   "CarneEntra": "64236",
+   "Jug_Entra": "NICOLAS KRUL",
+   "camiseta": "19",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "53386",
+   "Jug_Sale": "AGUSTIN CALVO",
+   "CarneEntra": "58665",
+   "Jug_Entra": "TOMAS ALGORTA",
+   "camiseta": "32",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "53623",
+   "Jug_Sale": "IGNACIO AÑON",
+   "CarneEntra": "45786",
+   "Jug_Entra": "KEVIN TAUBER",
+   "camiseta": "17",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "53267",
+   "Jug_Sale": "MAXIMO TORNONI",
+   "CarneEntra": "52808",
+   "Jug_Entra": "SEBASTIAN USHER",
+   "camiseta": "5",
+   "minutos": "69"
+  },
+  {
+   "CarneSale": "64740",
+   "Jug_Sale": "EMILIANO VANZINI",
+   "CarneEntra": "62873",
+   "Jug_Entra": "MATEO AGUSTIN ARDENTE",
+   "camiseta": "60",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "45778",
+   "Jug_Sale": "SANTIAGO BARBEITO",
+   "CarneEntra": "66610",
+   "Jug_Entra": "FRANCO MAISSONAVE",
+   "camiseta": "8",
+   "minutos": "81"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "43741",
+   "Nombre": "SANTIAGO ALVES",
+   "minutos": "13",
+   "EnContra": "0"
+  },
+  {
+   "carne": "46887",
+   "Nombre": "TOMAS MACHADO",
+   "minutos": "32",
+   "EnContra": "0"
+  },
+  {
+   "carne": "52794",
+   "Nombre": "MAURO LARRROSA",
+   "minutos": "51",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "52184",
+   "Nombre": "DIEGO GIBERT",
+   "minutos": "85",
+   "EnContra": "1"
+  },
+  {
+   "carne": "64236",
+   "Nombre": "NICOLAS KRUL",
+   "minutos": "73",
+   "EnContra": "1"
+  },
+  {
+   "carne": "67387",
+   "Nombre": "GONZALO ESTEVES",
+   "minutos": "47",
+   "EnContra": "1"
+  },
+  {
+   "carne": "67387",
+   "Nombre": "GONZALO ESTEVES",
+   "minutos": "76",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"A\" PERM. y DESC.",
   "Cancha": "COMPLEJO DEPORTIVO ARRAYANES",
-  "Fecha_Inicio": "2026-10-25 12:45:00",
-  "Fecha_fin": "2026-10-25 12:45:00",
+  "Fecha_Inicio": "2026-10-25 13:10:00",
+  "Fecha_fin": "2026-10-25 13:10:00",
   "Locatario": "SANTA ELENA LAGOMAR",
   "goles_locatario": "3",
   "puntos_locatario": "1",
@@ -29,12 +29,271 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "titularesL": [
+  {
+   "carne": "61170",
+   "Nombre": "THIAGO HANDERSSON",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "38985",
+   "Nombre": "MATEO BARAYBAR",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "39354",
+   "Nombre": "FEDERICO COMBA",
+   "camiseta": "3",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "49228",
+   "Nombre": "SANTIAGO QUINTANS",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "54416",
+   "Nombre": "JOAQUIN FALCON",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "53426",
+   "Nombre": "JUAN MANUEL BELLO",
+   "camiseta": "55",
+   "Capitan": ""
+  },
+  {
+   "carne": "41027",
+   "Nombre": "FELIPE ESTEVEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "53269",
+   "Nombre": "JUAN MANUEL RODRIGUEZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "50407",
+   "Nombre": "FELIPE PONS",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "41326",
+   "Nombre": "FRANCO POLACCHINI",
+   "camiseta": "96",
+   "Capitan": ""
+  },
+  {
+   "carne": "58300",
+   "Nombre": "GUILLERMO MAICHE",
+   "camiseta": "26",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "35658",
+   "Nombre": "JOAQUIN ZEINAL",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "52946",
+   "Nombre": "SEBASTIAN LICHT",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "61200",
+   "Nombre": "ARY GUSTAVO RABINO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "43323",
+   "Nombre": "MATIAS LIJTENSTEIN",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "39120",
+   "Nombre": "NURIEL LEWIN",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "35085",
+   "Nombre": "IONATAN ISZAKOVITS",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "44310",
+   "Nombre": "LUCAS ARON NAHMIAS",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "47255",
+   "Nombre": "ALAN SKORKA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "35104",
+   "Nombre": "MARTIN OPPENHEIMER",
+   "camiseta": "16",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "37317",
+   "Nombre": "MAURICIO WAITER",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "41733",
+   "Nombre": "SEBASTIAN MARTINS",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "38985",
+   "Jug_Sale": "MATEO BARAYBAR",
+   "CarneEntra": "56495",
+   "Jug_Entra": "BAUTISTA MATEO",
+   "camiseta": "11",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "54416",
+   "Jug_Sale": "JOAQUIN FALCON",
+   "CarneEntra": "61154",
+   "Jug_Entra": "FACUNDO SOLER",
+   "camiseta": "53",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "41326",
+   "Jug_Sale": "FRANCO POLACCHINI",
+   "CarneEntra": "55248",
+   "Jug_Entra": "MARCOS RADMILOVICH",
+   "camiseta": "71",
+   "minutos": "82"
+  },
+  {
+   "CarneSale": "41027",
+   "Jug_Sale": "FELIPE ESTEVEZ",
+   "CarneEntra": "61323",
+   "Jug_Entra": "SANTINO MIGUEL VILA",
+   "camiseta": "5",
+   "minutos": "88"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "52946",
+   "Jug_Sale": "SEBASTIAN LICHT",
+   "CarneEntra": "34392",
+   "Jug_Entra": "JUAN PEDRO PEREYRA",
+   "camiseta": "20",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "39120",
+   "Jug_Sale": "NURIEL LEWIN",
+   "CarneEntra": "45841",
+   "Jug_Entra": "MATIAS TROSTCHANSKY",
+   "camiseta": "34",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "47255",
+   "Jug_Sale": "ALAN SKORKA",
+   "CarneEntra": "43319",
+   "Jug_Entra": "ALAN GARFINKEL",
+   "camiseta": "19",
+   "minutos": "59"
+  },
+  {
+   "CarneSale": "37317",
+   "Jug_Sale": "MAURICIO WAITER",
+   "CarneEntra": "37385",
+   "Jug_Entra": "FEDERICO BRENER",
+   "camiseta": "6",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "61200",
+   "Jug_Sale": "ARY GUSTAVO RABINO",
+   "CarneEntra": "56384",
+   "Jug_Entra": "MATIAS SZAFRAN",
+   "camiseta": "99",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "41733",
+   "Jug_Sale": "SEBASTIAN MARTINS",
+   "CarneEntra": "59245",
+   "Jug_Entra": "AGUSTIN JUSTITZ",
+   "camiseta": "15",
+   "minutos": "81"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "50407",
+   "Nombre": "FELIPE PONS",
+   "minutos": "46",
+   "EnContra": "0"
+  },
+  {
+   "carne": "50407",
+   "Nombre": "FELIPE PONS",
+   "minutos": "95",
+   "EnContra": "0"
+  },
+  {
+   "carne": "53269",
+   "Nombre": "JUAN MANUEL RODRIGUEZ",
+   "minutos": "13",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "34392",
+   "Nombre": "JUAN PEDRO PEREYRA",
+   "minutos": "90",
+   "EnContra": "1"
+  },
+  {
+   "carne": "43319",
+   "Nombre": "ALAN GARFINKEL",
+   "minutos": "68",
+   "EnContra": "1"
+  },
+  {
+   "carne": "56384",
+   "Nombre": "MATIAS SZAFRAN",
+   "minutos": "94",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "GUILLERMO MAICHE",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

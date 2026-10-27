@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "DIVISIONAL \"G\" COPA PLATA",
   "Cancha": "COMPLEJO LAS CASUARINAS",
-  "Fecha_Inicio": "2026-10-25 10:30:00",
-  "Fecha_fin": "2026-10-25 10:30:00",
+  "Fecha_Inicio": "2026-10-25 11:00:00",
+  "Fecha_fin": "2026-10-25 11:00:00",
   "Locatario": "CENTRO GALLEGO",
   "goles_locatario": "2",
   "puntos_locatario": "3",
@@ -29,11 +29,248 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "52050",
+   "Nombre": "DIEGO SEBASTIAN HERNANDEZ",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "37587",
+   "Nombre": "GUILLERMO TOMAS RODRIGUEZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "64778",
+   "Nombre": "IGNACIO TABARE CLAVIJO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "46319",
+   "Nombre": "SERGIO MATIAS MARTINEZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "39957",
+   "Nombre": "MATIAS ROCCO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "68699",
+   "Nombre": "FACUNDO CASTRO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "43060",
+   "Nombre": "FACUNDO DE MARIA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "69114",
+   "Nombre": "IHOJAN EZEQUIEL ORTIZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "64477",
+   "Nombre": "DONATTO PAOLO RODRIGUEZ",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "63976",
+   "Nombre": "THIAGO ESCUDERO",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "46504",
+   "Nombre": "KEVIN RAFAEL JAURETCHE",
+   "camiseta": "7",
+   "Capitan": "(C)"
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "55323",
+   "Nombre": "DIEGO AGUSTIN FIRPO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "69133",
+   "Nombre": "JOAQUIN APARICIO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "67502",
+   "Nombre": "IGNACIO AREVALO",
+   "camiseta": "80",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "61419",
+   "Nombre": "JOAQUIN CARBON",
+   "camiseta": "69",
+   "Capitan": ""
+  },
+  {
+   "carne": "56833",
+   "Nombre": "FRANCISCO NICOLAS CARBON",
+   "camiseta": "62",
+   "Capitan": ""
+  },
+  {
+   "carne": "67514",
+   "Nombre": "JOAQUIN ARENES",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "58960",
+   "Nombre": "LEANDRO ALEXEI BOSCHI",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "54692",
+   "Nombre": "AGUSTIN ISMAEL ALVAREZ",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "53375",
+   "Nombre": "JUAN NICOLAS MARTINEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "64274",
+   "Nombre": "JOAQUIN HERNANDEZ",
+   "camiseta": "90",
+   "Capitan": ""
+  },
+  {
+   "carne": "58650",
+   "Nombre": "GERMAN FRANCISCO SILVEIRA",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "39957",
+   "Jug_Sale": "MATIAS ROCCO",
+   "CarneEntra": "66263",
+   "Jug_Entra": "JOAQUIN MANUEL MUÑOZ",
+   "camiseta": "10",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "43060",
+   "Jug_Sale": "FACUNDO DE MARIA",
+   "CarneEntra": "55318",
+   "Jug_Entra": "CARLOS FLEITAS",
+   "camiseta": "13",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "68699",
+   "Jug_Sale": "FACUNDO CASTRO",
+   "CarneEntra": "51991",
+   "Jug_Entra": "CRISTIAN ANTONY BRITO",
+   "camiseta": "9",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "64477",
+   "Jug_Sale": "DONATTO PAOLO RODRIGUEZ",
+   "CarneEntra": "63497",
+   "Jug_Entra": "FABRIZIO DONATO GIANNECCHINI",
+   "camiseta": "7",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "37587",
+   "Jug_Sale": "GUILLERMO TOMAS RODRIGUEZ",
+   "CarneEntra": "49768",
+   "Jug_Entra": "CESAR MARTIN PEREZ",
+   "camiseta": "6",
+   "minutos": "85"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "67514",
+   "Jug_Sale": "JOAQUIN ARENES",
+   "CarneEntra": "60144",
+   "Jug_Entra": "SANTIAGO BETANCOR",
+   "camiseta": "8",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58960",
+   "Jug_Sale": "LEANDRO ALEXEI BOSCHI",
+   "CarneEntra": "69212",
+   "Jug_Entra": "LAUTARO GONZALEZ",
+   "camiseta": "30",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "54692",
+   "Jug_Sale": "AGUSTIN ISMAEL ALVAREZ",
+   "CarneEntra": "67510",
+   "Jug_Entra": "CLEMENTE SILVA",
+   "camiseta": "33",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "69133",
+   "Jug_Sale": "JOAQUIN APARICIO",
+   "CarneEntra": "67508",
+   "Jug_Entra": "FRANCISCO GONZALEZ",
+   "camiseta": "17",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "61419",
+   "Jug_Sale": "JOAQUIN CARBON",
+   "CarneEntra": "67503",
+   "Jug_Entra": "FRANCISCO REYES",
+   "camiseta": "4",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "58650",
+   "Jug_Sale": "GERMAN FRANCISCO SILVEIRA",
+   "CarneEntra": "62928",
+   "Jug_Entra": "AGUSTIN ARENES",
+   "camiseta": "27",
+   "minutos": "89"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "63976",
+   "Nombre": "THIAGO ESCUDERO",
+   "minutos": "45",
+   "EnContra": "0"
+  },
+  {
+   "carne": "63976",
+   "Nombre": "THIAGO ESCUDERO",
+   "minutos": "90",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "SUB20 \"C\" COPA DE PLATA",
   "Cancha": "COMPLEJO LOS NOGALES",
-  "Fecha_Inicio": "2026-10-24 17:00:00",
-  "Fecha_fin": "2026-10-24 17:00:00",
+  "Fecha_Inicio": "2026-10-24 17:15:00",
+  "Fecha_fin": "2026-10-24 17:15:00",
   "Locatario": "MONTEVIDEO COLLEGE",
   "goles_locatario": "2",
   "puntos_locatario": "3",
@@ -29,12 +29,202 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "66348",
+   "Nombre": "FELIPE DE BRITO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "67433",
+   "Nombre": "IGNACIO STANHAM",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "59185",
+   "Nombre": "MATEO GONZALEZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "64412",
+   "Nombre": "FEDERICO MACADAR",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "64762",
+   "Nombre": "NICOLAS VILLA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "68538",
+   "Nombre": "FRANCO EMILIANO CEDRES",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "58777",
+   "Nombre": "RODRIGO GONZALEZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "62874",
+   "Nombre": "JUAN MANUEL CARBONE",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "63442",
+   "Nombre": "MATEO FONT",
+   "camiseta": "18",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "66402",
+   "Nombre": "ANTONY DANIEL CARDOZO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "66020",
+   "Nombre": "FACUNDO DOMINGUEZ",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "66240",
+   "Nombre": "FELIPE ROMAN BOVIO",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "68015",
+   "Nombre": "GUILLERMO NICOLAS MOREIRA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "60120",
+   "Nombre": "FELIPE SIERRA",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "67500",
+   "Nombre": "IGNACIO SPINOGLIO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "67016",
+   "Nombre": "MARTIN NAHUEL AMARAL",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "61124",
+   "Nombre": "BENJAMIN LOPEZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "62219",
+   "Nombre": "MATEO BERRIEL",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "66710",
+   "Nombre": "ENZO MIGUES",
+   "camiseta": "68",
+   "Capitan": ""
+  },
+  {
+   "carne": "61125",
+   "Nombre": "JOAQUIN LOPEZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "67017",
+   "Nombre": "FELIPE PISANO",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "63499",
+   "Nombre": "JUAN FRANCISCO ARISPE",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "62874",
+   "Jug_Sale": "JUAN MANUEL CARBONE",
+   "CarneEntra": "64392",
+   "Jug_Entra": "MATIAS IVAÑEZ",
+   "camiseta": "16",
+   "minutos": "59"
+  },
+  {
+   "CarneSale": "66402",
+   "Jug_Sale": "ANTONY DANIEL CARDOZO",
+   "CarneEntra": "61650",
+   "Jug_Entra": "MATIAS MARQUEZ",
+   "camiseta": "11",
+   "minutos": "94"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "66710",
+   "Jug_Sale": "ENZO MIGUES",
+   "CarneEntra": "68355",
+   "Jug_Entra": "GERMAN DONATO LUCAS",
+   "camiseta": "23",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67017",
+   "Jug_Sale": "FELIPE PISANO",
+   "CarneEntra": "64522",
+   "Jug_Entra": "MATIAS GATTI",
+   "camiseta": "25",
+   "minutos": "45"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "62874",
+   "Nombre": "JUAN MANUEL CARBONE",
+   "minutos": "36",
+   "EnContra": "0"
+  },
+  {
+   "carne": "66402",
+   "Nombre": "ANTONY DANIEL CARDOZO",
+   "minutos": "15",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
- "expulsadosV": []
+ "expulsadosV": [
+  {
+   "Nombre": "FELIPE SIERRA",
+   "observaciones": ""
+  },
+  {
+   "Nombre": "JOAQUIN LOPEZ",
+   "observaciones": ""
+  }
+ ]
 }

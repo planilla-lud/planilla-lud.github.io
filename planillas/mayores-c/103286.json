@@ -3,7 +3,7 @@
  "categoria": "mayores-c",
  "serie": "CTA",
  "fecha": 5,
- "fechaHora": "2026-10-25 11:15:00",
+ "fechaHora": "2026-10-25 11:30:00",
  "cancha": "CAMPO DEP. COLEGIO INGLES",
  "local": "COLEGIO Y LICEO INGLES",
  "visitante": "COLEGIO SANTA ELENA",
@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"C\" TIT. y ASC.",
   "Cancha": "CAMPO DEP. COLEGIO INGLES",
-  "Fecha_Inicio": "2026-10-25 12:45:00",
-  "Fecha_fin": "2026-10-25 12:45:00",
+  "Fecha_Inicio": "2026-10-25 13:30:00",
+  "Fecha_fin": "2026-10-25 13:30:00",
   "Locatario": "COLEGIO Y LICEO INGLES",
   "goles_locatario": "1",
   "puntos_locatario": "1",
@@ -29,12 +29,239 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "37150",
+   "Nombre": "GERONIMO AGUSTIN KACHELE",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "46109",
+   "Nombre": "JOAQUIN REBUFFO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "45570",
+   "Nombre": "PEDRO MILAT",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "49834",
+   "Nombre": "FEDERICO GALUSSO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "47631",
+   "Nombre": "MAURO GAMBETTA",
+   "camiseta": "91",
+   "Capitan": ""
+  },
+  {
+   "carne": "39141",
+   "Nombre": "GASTON BURGHI",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "46227",
+   "Nombre": "JOAQUIN MUÑOZ",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "56019",
+   "Nombre": "JUAN MANUEL BAZZINO",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "59398",
+   "Nombre": "ALFONSO IBARRA",
+   "camiseta": "75",
+   "Capitan": ""
+  },
+  {
+   "carne": "45992",
+   "Nombre": "SANTIAGO CAUBARRERE",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "47635",
+   "Nombre": "MATEO BURGHI",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "60725",
+   "Nombre": "ALESSANDRO EZEQUIEL PEREIRA",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "42937",
+   "Nombre": "DIEGO PENINO",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "66258",
+   "Nombre": "LEANDRO PEREZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "41088",
+   "Nombre": "PEDRO MOREIRA",
+   "camiseta": "66",
+   "Capitan": ""
+  },
+  {
+   "carne": "49735",
+   "Nombre": "HECTOR GASTON RODRIGUEZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "26828",
+   "Nombre": "JUAN IGNACIO MANERA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "51604",
+   "Nombre": "JUAN GABRIEL RUSSO",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "33869",
+   "Nombre": "JOAQUIN DANIEL GARCIA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "49318",
+   "Nombre": "FABRIZIO BEIROA",
+   "camiseta": "92",
+   "Capitan": ""
+  },
+  {
+   "carne": "32511",
+   "Nombre": "MATHIAS TORRES",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "44549",
+   "Nombre": "SANTIAGO MARTIN RIBEIRO",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "46227",
+   "Jug_Sale": "JOAQUIN MUÑOZ",
+   "CarneEntra": "49342",
+   "Jug_Entra": "MATEO JOAQUIN FERNANDEZ",
+   "camiseta": "44",
+   "minutos": "87"
+  },
+  {
+   "CarneSale": "47635",
+   "Jug_Sale": "MATEO BURGHI",
+   "CarneEntra": "47463",
+   "Jug_Entra": "AGUSTIN ONETTO",
+   "camiseta": "12",
+   "minutos": "94"
+  },
+  {
+   "CarneSale": "46109",
+   "Jug_Sale": "JOAQUIN REBUFFO",
+   "CarneEntra": "53131",
+   "Jug_Entra": "JUAN CRUZ CAFFERATTA",
+   "camiseta": "61",
+   "minutos": "99"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "26828",
+   "Jug_Sale": "JUAN IGNACIO MANERA",
+   "CarneEntra": "41791",
+   "Jug_Entra": "SANTIAGO MARTIN GONZALEZ",
+   "camiseta": "7",
+   "minutos": "33"
+  },
+  {
+   "CarneSale": "49318",
+   "Jug_Sale": "FABRIZIO BEIROA",
+   "CarneEntra": "32328",
+   "Jug_Entra": "PEDRO NICOLAS HERRERO",
+   "camiseta": "6",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "49735",
+   "Jug_Sale": "HECTOR GASTON RODRIGUEZ",
+   "CarneEntra": "53403",
+   "Jug_Entra": "DIEGO FERNANDO AGUILERA",
+   "camiseta": "22",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "32511",
+   "Jug_Sale": "MATHIAS TORRES",
+   "CarneEntra": "54752",
+   "Jug_Entra": "EMILIANO FRANCISCO MORALES",
+   "camiseta": "20",
+   "minutos": "82"
+  },
+  {
+   "CarneSale": "41791",
+   "Jug_Sale": "SANTIAGO MARTIN GONZALEZ",
+   "CarneEntra": "58031",
+   "Jug_Entra": "MATEO NICOLAS CODINA",
+   "camiseta": "8",
+   "minutos": "96"
+  },
+  {
+   "CarneSale": "41088",
+   "Jug_Sale": "PEDRO MOREIRA",
+   "CarneEntra": "45390",
+   "Jug_Entra": "MATHIAS PILIPAUSKAS",
+   "camiseta": "19",
+   "minutos": "10"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "39141",
+   "Nombre": "GASTON BURGHI",
+   "minutos": "28",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "44549",
+   "Nombre": "SANTIAGO MARTIN RIBEIRO",
+   "minutos": "46",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
- "expulsadosV": []
+ "expulsadosV": [
+  {
+   "Nombre": "JOAQUIN DANIEL GARCIA",
+   "observaciones": ""
+  }
+ ]
 }

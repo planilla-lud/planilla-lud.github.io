@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "DIVISIONAL \"G\" COPA PLATA",
   "Cancha": "COMPLEJO JUAN XXIII",
-  "Fecha_Inicio": "2026-10-25 12:45:00",
-  "Fecha_fin": "2026-10-25 12:45:00",
+  "Fecha_Inicio": "2026-10-25 13:00:00",
+  "Fecha_fin": "2026-10-25 13:00:00",
   "Locatario": "MARISCAL NASAZZI",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,202 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
+ "titularesL": [
+  {
+   "carne": "51655",
+   "Nombre": "MANUEL FAUSTINO BARQUIN",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "69176",
+   "Nombre": "CONRADO VEIGA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "46510",
+   "Nombre": "NICOLAS DE SANTA ANA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "42994",
+   "Nombre": "GERONIMO PESCE",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "67153",
+   "Nombre": "DIEGO AGORIO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "52674",
+   "Nombre": "JOAQUIN BELLO",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "54638",
+   "Nombre": "THIAGO GONZALEZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "58573",
+   "Nombre": "GONZALO SALVETTI",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "54647",
+   "Nombre": "SEBASTIAN VIERA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "43688",
+   "Nombre": "LUIS ALVAREZ",
+   "camiseta": "8",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "51993",
+   "Nombre": "MATIAS MAURIN",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "63854",
+   "Nombre": "MATIAS MIGUEL GONZALEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "52720",
+   "Nombre": "EDWARD ALEXIS BINTANCOUR",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "63851",
+   "Nombre": "JEDI MAXIMILIANO RODRIGUEZ",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "67270",
+   "Nombre": "MARTINO ROCCO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "51792",
+   "Nombre": "LEANDRO CLAVIJO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "59858",
+   "Nombre": "RODRIGO IVAN CASAS",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "64653",
+   "Nombre": "BRAULIO TOMAS MATTOS",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "58227",
+   "Nombre": "IGNACIO EMANNUEL SILVA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "49537",
+   "Nombre": "MATIAS GERMAN CONSTENLA",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "45617",
+   "Nombre": "FACUNDO MARCELO BARBERO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "59251",
+   "Nombre": "BRYAN EZEQUIEL LATORRE",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "54638",
+   "Jug_Sale": "THIAGO GONZALEZ",
+   "CarneEntra": "52185",
+   "Jug_Entra": "SANTIAGO BARQUIN",
+   "camiseta": "17",
+   "minutos": "37"
+  },
+  {
+   "CarneSale": "46510",
+   "Jug_Sale": "NICOLAS DE SANTA ANA",
+   "CarneEntra": "42298",
+   "Jug_Entra": "ANDRES FABIAN CARRASCO",
+   "camiseta": "12",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67153",
+   "Jug_Sale": "DIEGO AGORIO",
+   "CarneEntra": "46510",
+   "Jug_Entra": "NICOLAS DE SANTA ANA",
+   "camiseta": "6",
+   "minutos": "69"
+  }
+ ],
  "cambiosV": [],
  "golesL": [],
- "golesV": [],
+ "golesV": [
+  {
+   "carne": "49537",
+   "Nombre": "MATIAS GERMAN CONSTENLA",
+   "minutos": "7",
+   "EnContra": "1"
+  },
+  {
+   "carne": "52720",
+   "Nombre": "EDWARD ALEXIS BINTANCOUR",
+   "minutos": "43",
+   "EnContra": "1"
+  },
+  {
+   "carne": "52720",
+   "Nombre": "EDWARD ALEXIS BINTANCOUR",
+   "minutos": "65",
+   "EnContra": "1"
+  },
+  {
+   "carne": "63851",
+   "Nombre": "JEDI MAXIMILIANO RODRIGUEZ",
+   "minutos": "11",
+   "EnContra": "1"
+  },
+  {
+   "carne": "67270",
+   "Nombre": "MARTINO ROCCO",
+   "minutos": "62",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

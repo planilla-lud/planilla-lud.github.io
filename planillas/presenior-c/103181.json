@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"C\" TIT. y ASC.",
   "Cancha": "COMPLEJO EL ENCUENTRO",
-  "Fecha_Inicio": "2026-10-24 10:30:00",
-  "Fecha_fin": "2026-10-24 10:30:00",
+  "Fecha_Inicio": "2026-10-24 11:00:00",
+  "Fecha_fin": "2026-10-24 11:00:00",
   "Locatario": "ODONTOLOGIA UNIVERSITARIO",
   "goles_locatario": "2",
   "puntos_locatario": "0",
@@ -29,12 +29,284 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "26181",
+   "Nombre": "VICTOR JAVIER VIDAL",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "57076",
+   "Nombre": "FEDERICO RODRIGUEZ",
+   "camiseta": "15",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "21433",
+   "Nombre": "SEBASTIAN VEGAS",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "56373",
+   "Nombre": "GONZALO RODRIGUEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "51068",
+   "Nombre": "MATIAS ALEXIS FLORES",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "45497",
+   "Nombre": "PABLO ANDRE FERNANDEZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "46285",
+   "Nombre": "FABRICIO PEREIRA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "54776",
+   "Nombre": "AGUSTIN DIEGO INGOGLIA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "31564",
+   "Nombre": "DIEGO MARTIN GONZALEZ",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "47097",
+   "Nombre": "ALVARO DAMIAN COLMAN",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "38527",
+   "Nombre": "NICOLAS DUARTE",
+   "camiseta": "77",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "29386",
+   "Nombre": "MAURICIO FABIAN COSTA",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "25658",
+   "Nombre": "FERNANDO POSADA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "21600",
+   "Nombre": "FEDERICO MORSI",
+   "camiseta": "2",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "22467",
+   "Nombre": "GONZALO RODRIGUEZ",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "29959",
+   "Nombre": "JUAN MANUEL MACHADO",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "26834",
+   "Nombre": "NICOLAS GROSSO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "52547",
+   "Nombre": "BRAIAN ANDRES FIERRO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "26174",
+   "Nombre": "GASTON FREIGEDO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "21560",
+   "Nombre": "SANTIAGO AMARO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "21510",
+   "Nombre": "GUSTAVO WELKER",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "32969",
+   "Nombre": "FEDERICO NAVILIAT",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "51068",
+   "Jug_Sale": "MATIAS ALEXIS FLORES",
+   "CarneEntra": "64735",
+   "Jug_Entra": "MATIAS GONZALO LOPEZ",
+   "camiseta": "17",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "45497",
+   "Jug_Sale": "PABLO ANDRE FERNANDEZ",
+   "CarneEntra": "68417",
+   "Jug_Entra": "SEBASTIAN GARCIA",
+   "camiseta": "21",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "54776",
+   "Jug_Sale": "AGUSTIN DIEGO INGOGLIA",
+   "CarneEntra": "66117",
+   "Jug_Entra": "SANTIAGO SEIJAS",
+   "camiseta": "10",
+   "minutos": "53"
+  },
+  {
+   "CarneSale": "21433",
+   "Jug_Sale": "SEBASTIAN VEGAS",
+   "CarneEntra": "35632",
+   "Jug_Entra": "SANTIAGO GORGA",
+   "camiseta": "22",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "46285",
+   "Jug_Sale": "FABRICIO PEREIRA",
+   "CarneEntra": "51068",
+   "Jug_Entra": "MATIAS ALEXIS FLORES",
+   "camiseta": "23",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "38527",
+   "Jug_Sale": "NICOLAS DUARTE",
+   "CarneEntra": "54776",
+   "Jug_Entra": "AGUSTIN DIEGO INGOGLIA",
+   "camiseta": "5",
+   "minutos": "80"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "21600",
+   "Jug_Sale": "FEDERICO MORSI",
+   "CarneEntra": "38803",
+   "Jug_Entra": "MAURO LAGOMARSINO",
+   "camiseta": "15",
+   "minutos": "29"
+  },
+  {
+   "CarneSale": "25658",
+   "Jug_Sale": "FERNANDO POSADA",
+   "CarneEntra": "21063",
+   "Jug_Entra": "MAURICIO MORSI",
+   "camiseta": "6",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "29959",
+   "Jug_Sale": "JUAN MANUEL MACHADO",
+   "CarneEntra": "41871",
+   "Jug_Entra": "DANILO RODRIGUEZ",
+   "camiseta": "8",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "26834",
+   "Jug_Sale": "NICOLAS GROSSO",
+   "CarneEntra": "58424",
+   "Jug_Entra": "ALFONSO DARIO GIMENEZ",
+   "camiseta": "19",
+   "minutos": "53"
+  },
+  {
+   "CarneSale": "22467",
+   "Jug_Sale": "GONZALO RODRIGUEZ",
+   "CarneEntra": "45719",
+   "Jug_Entra": "CRISTIAN ANDRES GONZALEZ",
+   "camiseta": "13",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "26174",
+   "Jug_Sale": "GASTON FREIGEDO",
+   "CarneEntra": "66996",
+   "Jug_Entra": "GERMAN BOZ",
+   "camiseta": "20",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "21510",
+   "Jug_Sale": "GUSTAVO WELKER",
+   "CarneEntra": "45717",
+   "Jug_Entra": "DIEGO MARTIN RIVERO",
+   "camiseta": "14",
+   "minutos": "80"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "31564",
+   "Nombre": "DIEGO MARTIN GONZALEZ",
+   "minutos": "43",
+   "EnContra": "0"
+  },
+  {
+   "carne": "57076",
+   "Nombre": "FEDERICO RODRIGUEZ",
+   "minutos": "48",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "38803",
+   "Nombre": "MAURO LAGOMARSINO",
+   "minutos": "83",
+   "EnContra": "1"
+  },
+  {
+   "carne": "38803",
+   "Nombre": "MAURO LAGOMARSINO",
+   "minutos": "92",
+   "EnContra": "1"
+  },
+  {
+   "carne": "66996",
+   "Nombre": "GERMAN BOZ",
+   "minutos": "70",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"C\" TIT. y ASC.",
   "Cancha": "COMPLEJO JUAN XXIII",
-  "Fecha_Inicio": "2026-10-25 10:30:00",
-  "Fecha_fin": "2026-10-25 10:30:00",
+  "Fecha_Inicio": "2026-10-25 11:00:00",
+  "Fecha_fin": "2026-10-25 11:00:00",
   "Locatario": "LA BLANQUEADA",
   "goles_locatario": "2",
   "puntos_locatario": "3",
@@ -29,11 +29,240 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "23480",
+   "Nombre": "IGNACIO GASTON BIDEGAIN",
+   "camiseta": "17",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "48515",
+   "Nombre": "KEVIN NICOLAS HERVADA",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "51477",
+   "Nombre": "VICTOR VIERA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "33639",
+   "Nombre": "RICARDO ANDRES BAYARDI",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "48353",
+   "Nombre": "TOMAS ARAMENDI",
+   "camiseta": "51",
+   "Capitan": ""
+  },
+  {
+   "carne": "54134",
+   "Nombre": "MARTIN CORTINAS",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "47632",
+   "Nombre": "SANTIAGO COLOMBO",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "51528",
+   "Nombre": "CARLOS ALFREDO DUARTE",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "61296",
+   "Nombre": "JOAQUIN LUCIANO NUÑEZ",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "54922",
+   "Nombre": "FABIAN ANDRE IRISARRI",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "55234",
+   "Nombre": "LUCAS DO VALLE PEIXOTO",
+   "camiseta": "22",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "54040",
+   "Nombre": "FELIPE MIÑOS",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "58584",
+   "Nombre": "GABRIEL TOLEDO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "61843",
+   "Nombre": "JUAN ANDRES BARRIOS",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "54393",
+   "Nombre": "KEVIN SEBASTIAN LUDUEÑA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "66120",
+   "Nombre": "AGUSTIN CALZADA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "56712",
+   "Nombre": "RENZO LESCANO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "63923",
+   "Nombre": "ADRIAN MOREIRA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "58023",
+   "Nombre": "MANUEL MENDEZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "39619",
+   "Nombre": "CRISTHIAN AGUSTIN ANADON",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "54780",
+   "Nombre": "ESTEBAN DANIEL VAZQUEZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "59163",
+   "Nombre": "FEDERICO ISMAEL MENDOZA",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "54922",
+   "Jug_Sale": "FABIAN ANDRE IRISARRI",
+   "CarneEntra": "56437",
+   "Jug_Entra": "FEDERICO PAOLINO",
+   "camiseta": "10",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "33639",
+   "Jug_Sale": "RICARDO ANDRES BAYARDI",
+   "CarneEntra": "59249",
+   "Jug_Entra": "AGUSTIN CAMPON",
+   "camiseta": "23",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "61296",
+   "Jug_Sale": "JOAQUIN LUCIANO NUÑEZ",
+   "CarneEntra": "38912",
+   "Jug_Entra": "CESAR LUIS PIEDRABUENA",
+   "camiseta": "30",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "54134",
+   "Jug_Sale": "MARTIN CORTINAS",
+   "CarneEntra": "49882",
+   "Jug_Entra": "ALEJANDRO IGNACIO PEYRE",
+   "camiseta": "71",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "55234",
+   "Jug_Sale": "LUCAS DO VALLE PEIXOTO",
+   "CarneEntra": "50374",
+   "Jug_Entra": "ADRIAN MANUEL FERNANDEZ",
+   "camiseta": "21",
+   "minutos": "85"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "54393",
+   "Jug_Sale": "KEVIN SEBASTIAN LUDUEÑA",
+   "CarneEntra": "64473",
+   "Jug_Entra": "GIANFRANCO MARCHIORO",
+   "camiseta": "19",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58023",
+   "Jug_Sale": "MANUEL MENDEZ",
+   "CarneEntra": "69010",
+   "Jug_Entra": "JUAN LAGREGA",
+   "camiseta": "16",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66120",
+   "Jug_Sale": "AGUSTIN CALZADA",
+   "CarneEntra": "44534",
+   "Jug_Entra": "FRANCO DE GREGORIO",
+   "camiseta": "4",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "39619",
+   "Jug_Sale": "CRISTHIAN AGUSTIN ANADON",
+   "CarneEntra": "63586",
+   "Jug_Entra": "EMILIANO ARREGUI",
+   "camiseta": "12",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "58584",
+   "Jug_Sale": "GABRIEL TOLEDO",
+   "CarneEntra": "56300",
+   "Jug_Entra": "NICOLAS CARDOZO",
+   "camiseta": "2",
+   "minutos": "75"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "51528",
+   "Nombre": "CARLOS ALFREDO DUARTE",
+   "minutos": "74",
+   "EnContra": "0"
+  },
+  {
+   "carne": "61296",
+   "Nombre": "JOAQUIN LUCIANO NUÑEZ",
+   "minutos": "45",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

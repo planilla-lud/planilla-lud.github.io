@@ -1,0 +1,314 @@
+{
+ "id": "103385",
+ "categoria": "sub20-c",
+ "serie": "20CP",
+ "fecha": 5,
+ "fechaHora": "2026-10-24 14:00:00",
+ "cancha": "COMPLEJO DFC",
+ "local": "PALLOTTI UNIVERSITARIO",
+ "visitante": "DFC",
+ "gl": 4,
+ "gv": 4,
+ "detalle": {
+  "nro_partido": "519",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "2",
+  "Divisional": "SUB20 \"C\" COPA DE PLATA",
+  "Cancha": "COMPLEJO DFC",
+  "Fecha_Inicio": "2026-10-24 15:45:00",
+  "Fecha_fin": "2026-10-24 15:45:00",
+  "Locatario": "PALLOTTI UNIVERSITARIO",
+  "goles_locatario": "4",
+  "puntos_locatario": "1",
+  "Visitante": "DFC",
+  "goles_visitante": "4",
+  "puntos_visitante": "1",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "67694",
+   "Nombre": "EMILIANO ISMAEL PEREZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "67706",
+   "Nombre": "ALEJANDRO SEBASTIAN PEREZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "67707",
+   "Nombre": "LUCAS THIAGO RODRIGUEZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "69098",
+   "Nombre": "LUIS ALEJANDRO ROJO",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "67699",
+   "Nombre": "EMILIANO MARTINEZ",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "58096",
+   "Nombre": "SANTIAGO LUNGO",
+   "camiseta": "23",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "67704",
+   "Nombre": "RICHARD GERMAN RIBEIROS",
+   "camiseta": "70",
+   "Capitan": ""
+  },
+  {
+   "carne": "69161",
+   "Nombre": "FELIPE ABEIRO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "68288",
+   "Nombre": "GABRIEL SEGOVIA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "68816",
+   "Nombre": "JOSE FELIPE ROJO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "69099",
+   "Nombre": "MANUEL CALVO",
+   "camiseta": "0",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "63051",
+   "Nombre": "LUCIANO MONTAÑA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "67598",
+   "Nombre": "THIAGO ALEXANDER LOPEZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "67470",
+   "Nombre": "THIAGO JOEL DOS SANTOS",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "67932",
+   "Nombre": "BAUTISTA PAZ",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "67602",
+   "Nombre": "VALENTINO LAUTARO DE ARMAS",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "68183",
+   "Nombre": "JOAQUIN JOAQUIN",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "68630",
+   "Nombre": "FACUNDO TOMAS GUEVARA",
+   "camiseta": "20",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "67600",
+   "Nombre": "BRUNO NICOLAS YACQUE",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "67462",
+   "Nombre": "BLAZ DANCKAR LANGHAIN",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "67464",
+   "Nombre": "VALENTIN SALVADOR ALFARO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "67590",
+   "Nombre": "GASTON MATEO ALONSO",
+   "camiseta": "15",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "69098",
+   "Jug_Sale": "LUIS ALEJANDRO ROJO",
+   "CarneEntra": "68654",
+   "Jug_Entra": "FEDERICO LORENZO Y LOSADA",
+   "camiseta": "11",
+   "minutos": "27"
+  },
+  {
+   "CarneSale": "68288",
+   "Jug_Sale": "GABRIEL SEGOVIA",
+   "CarneEntra": "65910",
+   "Jug_Entra": "FACUNDO EMMANUEL BENITEZ",
+   "camiseta": "9",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "58096",
+   "Jug_Sale": "SANTIAGO LUNGO",
+   "CarneEntra": "69098",
+   "Jug_Entra": "LUIS ALEJANDRO ROJO",
+   "camiseta": "15",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "67704",
+   "Jug_Sale": "RICHARD GERMAN RIBEIROS",
+   "CarneEntra": "67709",
+   "Jug_Entra": "SANTIAGO SOUZA",
+   "camiseta": "19",
+   "minutos": "83"
+  },
+  {
+   "CarneSale": "67707",
+   "Jug_Sale": "LUCAS THIAGO RODRIGUEZ",
+   "CarneEntra": "68288",
+   "Jug_Entra": "GABRIEL SEGOVIA",
+   "camiseta": "7",
+   "minutos": "85"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "67464",
+   "Jug_Sale": "VALENTIN SALVADOR ALFARO",
+   "CarneEntra": "67609",
+   "Jug_Entra": "NICOLAS RAUL PEREIRO",
+   "camiseta": "18",
+   "minutos": "20"
+  },
+  {
+   "CarneSale": "67600",
+   "Jug_Sale": "BRUNO NICOLAS YACQUE",
+   "CarneEntra": "67466",
+   "Jug_Entra": "FRANCO OTTONELLO",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67470",
+   "Jug_Sale": "THIAGO JOEL DOS SANTOS",
+   "CarneEntra": "67469",
+   "Jug_Entra": "SANTIAGO DANIEL DE LA LLANA",
+   "camiseta": "10",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "67609",
+   "Jug_Sale": "NICOLAS RAUL PEREIRO",
+   "CarneEntra": "68451",
+   "Jug_Entra": "GUSTAVO ALEJANDRO ATENCIO",
+   "camiseta": "16",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "68183",
+   "Jug_Sale": "JOAQUIN JOAQUIN",
+   "CarneEntra": "67599",
+   "Jug_Entra": "MATEO TIZIANO CASTRO",
+   "camiseta": "8",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "67462",
+   "Jug_Sale": "BLAZ DANCKAR LANGHAIN",
+   "CarneEntra": "56925",
+   "Jug_Entra": "EZEQUIEL LUCAS VIGNOLI",
+   "camiseta": "31",
+   "minutos": "75"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "65910",
+   "Nombre": "FACUNDO EMMANUEL BENITEZ",
+   "minutos": "77",
+   "EnContra": "0"
+  },
+  {
+   "carne": "67707",
+   "Nombre": "LUCAS THIAGO RODRIGUEZ",
+   "minutos": "84",
+   "EnContra": "0"
+  },
+  {
+   "carne": "68654",
+   "Nombre": "FEDERICO LORENZO Y LOSADA",
+   "minutos": "75",
+   "EnContra": "0"
+  },
+  {
+   "carne": "68816",
+   "Nombre": "JOSE FELIPE ROJO",
+   "minutos": "80",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "67462",
+   "Nombre": "BLAZ DANCKAR LANGHAIN",
+   "minutos": "51",
+   "EnContra": "1"
+  },
+  {
+   "carne": "67590",
+   "Nombre": "GASTON MATEO ALONSO",
+   "minutos": "56",
+   "EnContra": "1"
+  },
+  {
+   "carne": "67609",
+   "Nombre": "NICOLAS RAUL PEREIRO",
+   "minutos": "47",
+   "EnContra": "1"
+  },
+  {
+   "carne": "67609",
+   "Nombre": "NICOLAS RAUL PEREIRO",
+   "minutos": "53",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

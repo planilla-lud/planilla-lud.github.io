@@ -1,0 +1,284 @@
+{
+ "id": "103383",
+ "categoria": "sub20-b",
+ "serie": "20BPD",
+ "fecha": 5,
+ "fechaHora": "2026-10-24 13:30:00",
+ "cancha": "ELBIO FERNANDEZ",
+ "local": "ELBIO FERNANDEZ",
+ "visitante": "SAN JOSE DE LA PROVIDENCIA uni",
+ "gl": 0,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "462",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "2",
+  "Divisional": "SUB20 \"B\" PERM. y DESC.",
+  "Cancha": "ELBIO FERNANDEZ",
+  "Fecha_Inicio": "2026-10-24 15:30:00",
+  "Fecha_fin": "2026-10-24 15:30:00",
+  "Locatario": "ELBIO FERNANDEZ",
+  "goles_locatario": "0",
+  "puntos_locatario": "0",
+  "Visitante": "SAN JOSE DE LA PROVIDENCIA uni",
+  "goles_visitante": "1",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "56673",
+   "Nombre": "EMILIO MAIDANA",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "58989",
+   "Nombre": "GONZALO CASTELL",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "66347",
+   "Nombre": "LEONIDAS ALEJANDRO VARELA",
+   "camiseta": "45",
+   "Capitan": ""
+  },
+  {
+   "carne": "56674",
+   "Nombre": "JOAQUIN PEREZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "63519",
+   "Nombre": "IGNACIO PAIS",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "64434",
+   "Nombre": "SANTIAGO LAPENTE",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "64532",
+   "Nombre": "GUILLERMO NALERIO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "60817",
+   "Nombre": "JOAQUIN MIGUEZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "64530",
+   "Nombre": "EMILIANO DOS SANTOS",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "63022",
+   "Nombre": "SANTINO GALEANDRO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "56014",
+   "Nombre": "JUAN FRANCISCO MARQUEZ",
+   "camiseta": "7",
+   "Capitan": "(C)"
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "60952",
+   "Nombre": "JUAN IGNACIO MORATORIO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "63070",
+   "Nombre": "MATIAS GABRIEL TEIJEIRO",
+   "camiseta": "2",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "65926",
+   "Nombre": "JUAN MANUEL CORREA",
+   "camiseta": "72",
+   "Capitan": ""
+  },
+  {
+   "carne": "67299",
+   "Nombre": "FRANCO NICOLAS PURTSCHER",
+   "camiseta": "38",
+   "Capitan": ""
+  },
+  {
+   "carne": "68657",
+   "Nombre": "LUIS EDUARDO GONZALEZ",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "67653",
+   "Nombre": "EMILIANO PIETRAFESA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "67294",
+   "Nombre": "LIQUEL COLOMBO",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "67295",
+   "Nombre": "IVAN GONZALEZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "68294",
+   "Nombre": "FEDERICO CLAVARES",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "67391",
+   "Nombre": "SANTIAGO SEBASTIAN RDORIGUEZ",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "64353",
+   "Nombre": "THIAGO JOAQUIN SERRATTO",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "63519",
+   "Jug_Sale": "IGNACIO PAIS",
+   "CarneEntra": "56151",
+   "Jug_Entra": "BENJAMIN CANO",
+   "camiseta": "63",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64434",
+   "Jug_Sale": "SANTIAGO LAPENTE",
+   "CarneEntra": "56109",
+   "Jug_Entra": "MATIAS CACCIATORI",
+   "camiseta": "44",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "58989",
+   "Jug_Sale": "GONZALO CASTELL",
+   "CarneEntra": "56117",
+   "Jug_Entra": "MAURICIO NANDE",
+   "camiseta": "74",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "60817",
+   "Jug_Sale": "JOAQUIN MIGUEZ",
+   "CarneEntra": "57365",
+   "Jug_Entra": "SANTIAGO NICOLAS GONZALEZ",
+   "camiseta": "91",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "56674",
+   "Jug_Sale": "JOAQUIN PEREZ",
+   "CarneEntra": "55183",
+   "Jug_Entra": "IGNACIO RODOLFO GUERRA",
+   "camiseta": "88",
+   "minutos": "84"
+  },
+  {
+   "CarneSale": "63519",
+   "Jug_Sale": "IGNACIO PAIS",
+   "CarneEntra": "58410",
+   "Jug_Entra": "VALENTIN NICOLAS SUAREZ",
+   "camiseta": "19",
+   "minutos": "84"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "68294",
+   "Jug_Sale": "FEDERICO CLAVARES",
+   "CarneEntra": "69129",
+   "Jug_Entra": "TIAGO LEVI BATISTA",
+   "camiseta": "23",
+   "minutos": "37"
+  },
+  {
+   "CarneSale": "67391",
+   "Jug_Sale": "SANTIAGO SEBASTIAN RDORIGUEZ",
+   "CarneEntra": "65323",
+   "Jug_Entra": "LUCAS ROBERTO IBARRA",
+   "camiseta": "5",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "65926",
+   "Jug_Sale": "JUAN MANUEL CORREA",
+   "CarneEntra": "59218",
+   "Jug_Entra": "AGUSTIN GRAJALES",
+   "camiseta": "33",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "68657",
+   "Jug_Sale": "LUIS EDUARDO GONZALEZ",
+   "CarneEntra": "63069",
+   "Jug_Entra": "JOAQUIN MADERNI",
+   "camiseta": "90",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "64353",
+   "Jug_Sale": "THIAGO JOAQUIN SERRATTO",
+   "CarneEntra": "67391",
+   "Jug_Entra": "SANTIAGO SEBASTIAN RDORIGUEZ",
+   "camiseta": "88",
+   "minutos": "92"
+  },
+  {
+   "CarneSale": "69129",
+   "Jug_Sale": "TIAGO LEVI BATISTA",
+   "CarneEntra": "68657",
+   "Jug_Entra": "LUIS EDUARDO GONZALEZ",
+   "camiseta": "36",
+   "minutos": "92"
+  }
+ ],
+ "golesL": [],
+ "golesV": [
+  {
+   "carne": "67294",
+   "Nombre": "LIQUEL COLOMBO",
+   "minutos": "24",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": [
+  {
+   "Nombre": "MATIAS GABRIEL TEIJEIRO",
+   "observaciones": ""
+  }
+ ]
+}

@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"A\" TITULO",
   "Cancha": "COM. DEP. CLUB TROUVILLE",
-  "Fecha_Inicio": "2026-10-25 10:30:00",
-  "Fecha_fin": "2026-10-25 10:30:00",
+  "Fecha_Inicio": "2026-10-25 11:00:00",
+  "Fecha_fin": "2026-10-25 11:00:00",
   "Locatario": "NACIONAL UNIVERSITARIO",
   "goles_locatario": "0",
   "puntos_locatario": "1",
@@ -29,10 +29,202 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "48534",
+   "Nombre": "LEANDRO LOBELCHO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "42913",
+   "Nombre": "MARTIN MASLLORENS",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "62446",
+   "Nombre": "LAUTARO FELICIANO GONZALEZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "40727",
+   "Nombre": "RODRIGO YAMANDU TISCORNIA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "46942",
+   "Nombre": "IGNACIO REGUEIRO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "54680",
+   "Nombre": "GUILLERMO GUERRICO",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "35132",
+   "Nombre": "GIANFRANCO ROVETTA",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "52667",
+   "Nombre": "ENZO GALEANO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "35011",
+   "Nombre": "FEDERICO MANUEL ALFARO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "44968",
+   "Nombre": "JOAQUIN GARCIA",
+   "camiseta": "9",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56666",
+   "Nombre": "FACUNDO JAVIER GODOY",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "47611",
+   "Nombre": "FERNAN BZUROVSKI",
+   "camiseta": "73",
+   "Capitan": ""
+  },
+  {
+   "carne": "52842",
+   "Nombre": "TIZIANO GUIGOU",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "45433",
+   "Nombre": "FELIPE BENZANO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "36816",
+   "Nombre": "MARTIN COLELLA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "41519",
+   "Nombre": "MATEO ROLDOS",
+   "camiseta": "19",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "49214",
+   "Nombre": "FELIPE HERNANDEZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "49206",
+   "Nombre": "TOMAS PONCE DE LEON",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "36481",
+   "Nombre": "JUAN PABLO VIANA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "35145",
+   "Nombre": "IGNACIO COLELLA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "35584",
+   "Nombre": "LUCAS GUIMARAES",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "41117",
+   "Nombre": "LUIS FERNANDO HERBIN",
+   "camiseta": "30",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "52667",
+   "Jug_Sale": "ENZO GALEANO",
+   "CarneEntra": "62452",
+   "Jug_Entra": "FRANCISCO ARRUA",
+   "camiseta": "11",
+   "minutos": "51"
+  },
+  {
+   "CarneSale": "35132",
+   "Jug_Sale": "GIANFRANCO ROVETTA",
+   "CarneEntra": "58350",
+   "Jug_Entra": "RAMIRO LEONCINI",
+   "camiseta": "16",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "35011",
+   "Jug_Sale": "FEDERICO MANUEL ALFARO",
+   "CarneEntra": "56667",
+   "Jug_Entra": "JUAN DIEGO GODOY",
+   "camiseta": "23",
+   "minutos": "84"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "45433",
+   "Jug_Sale": "FELIPE BENZANO",
+   "CarneEntra": "45789",
+   "Jug_Entra": "JUAN PABLO COLELLA",
+   "camiseta": "33",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "35145",
+   "Jug_Sale": "IGNACIO COLELLA",
+   "CarneEntra": "48077",
+   "Jug_Entra": "AGUSTIN MARTINEZ",
+   "camiseta": "10",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "36816",
+   "Jug_Sale": "MARTIN COLELLA",
+   "CarneEntra": "59187",
+   "Jug_Entra": "FACUNDO FERNANDEZ",
+   "camiseta": "72",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "52842",
+   "Jug_Sale": "TIZIANO GUIGOU",
+   "CarneEntra": "39927",
+   "Jug_Entra": "MARTIN HERNANDEZ",
+   "camiseta": "26",
+   "minutos": "91"
+  }
+ ],
  "golesL": [],
  "golesV": [],
  "expulsadosL": [],

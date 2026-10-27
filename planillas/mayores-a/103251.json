@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"A\" TITULO",
   "Cancha": "ELF (LICEO FRANCES)",
-  "Fecha_Inicio": "2026-10-25 10:30:00",
-  "Fecha_fin": "2026-10-25 10:30:00",
+  "Fecha_Inicio": "2026-10-25 10:50:00",
+  "Fecha_fin": "2026-10-25 10:50:00",
   "Locatario": "E.L.F.",
   "goles_locatario": "5",
   "puntos_locatario": "3",
@@ -29,12 +29,286 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "39321",
+   "Nombre": "JUAN ESTEBAN LUKETICH",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "48958",
+   "Nombre": "MARCOS TUZMAN",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "35841",
+   "Nombre": "ADOLFO SAEZ",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "43243",
+   "Nombre": "LUIS OMAR CASTAGNINO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "56768",
+   "Nombre": "MATIAS DUPUY",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "45408",
+   "Nombre": "IGNACIO CANEPA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "27123",
+   "Nombre": "AGUSTIN GABUS",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "47497",
+   "Nombre": "FEDERICO TUZMAN",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "38540",
+   "Nombre": "JOAQUIN SAEZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "41113",
+   "Nombre": "FACUNDO CANEPA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "40561",
+   "Nombre": "AGUSTIN ETCHEGARAY",
+   "camiseta": "9",
+   "Capitan": "(C)"
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "45549",
+   "Nombre": "JOSE FACUNDO FONSECA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "28999",
+   "Nombre": "ALFONSO INCIARTE",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "61063",
+   "Nombre": "NICOLAS DORAO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "55925",
+   "Nombre": "FRANCISCO PABLO VILLAR",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "66855",
+   "Nombre": "SEBASTIAN MARTINEZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "60720",
+   "Nombre": "MATEO FERRERE",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "56348",
+   "Nombre": "FELIPE SICALO",
+   "camiseta": "15",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "39600",
+   "Nombre": "JAVIER ANDRES ZAFFARONI",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "51930",
+   "Nombre": "TOMAS PEREZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "52213",
+   "Nombre": "NICOLAS JAVIER PRATES",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "63592",
+   "Nombre": "JUAN ANDRES ERRANONDEA",
+   "camiseta": "18",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "56768",
+   "Jug_Sale": "MATIAS DUPUY",
+   "CarneEntra": "43958",
+   "Jug_Entra": "JUAN MARTIN STARICCO",
+   "camiseta": "16",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "41113",
+   "Jug_Sale": "FACUNDO CANEPA",
+   "CarneEntra": "49456",
+   "Jug_Entra": "IGNACIO ANTONIO CARNEIRO",
+   "camiseta": "10",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "47497",
+   "Jug_Sale": "FEDERICO TUZMAN",
+   "CarneEntra": "44457",
+   "Jug_Entra": "BRUNO GIORDANO",
+   "camiseta": "7",
+   "minutos": "69"
+  },
+  {
+   "CarneSale": "45408",
+   "Jug_Sale": "IGNACIO CANEPA",
+   "CarneEntra": "56768",
+   "Jug_Entra": "MATIAS DUPUY",
+   "camiseta": "22",
+   "minutos": "80"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "39600",
+   "Jug_Sale": "JAVIER ANDRES ZAFFARONI",
+   "CarneEntra": "65012",
+   "Jug_Entra": "JUAN MARTIN IFRAN",
+   "camiseta": "7",
+   "minutos": "37"
+  },
+  {
+   "CarneSale": "56348",
+   "Jug_Sale": "FELIPE SICALO",
+   "CarneEntra": "49165",
+   "Jug_Entra": "GUILLERMO PONS",
+   "camiseta": "19",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "28999",
+   "Jug_Sale": "ALFONSO INCIARTE",
+   "CarneEntra": "65015",
+   "Jug_Entra": "VALENTIN BISIO",
+   "camiseta": "13",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "51930",
+   "Jug_Sale": "TOMAS PEREZ",
+   "CarneEntra": "65008",
+   "Jug_Entra": "JUAN DIEGO JACQUES",
+   "camiseta": "9",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "52213",
+   "Jug_Sale": "NICOLAS JAVIER PRATES",
+   "CarneEntra": "46872",
+   "Jug_Entra": "SANTIAGO JOSE TAFERNABERRY",
+   "camiseta": "20",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "55925",
+   "Jug_Sale": "FRANCISCO PABLO VILLAR",
+   "CarneEntra": "52740",
+   "Jug_Entra": "MATEO DOMINGO URIA",
+   "camiseta": "3",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "66855",
+   "Jug_Sale": "SEBASTIAN MARTINEZ",
+   "CarneEntra": "59865",
+   "Jug_Entra": "MAXIMO PISANO",
+   "camiseta": "17",
+   "minutos": "75"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "38540",
+   "Nombre": "JOAQUIN SAEZ",
+   "minutos": "35",
+   "EnContra": "0"
+  },
+  {
+   "carne": "38540",
+   "Nombre": "JOAQUIN SAEZ",
+   "minutos": "81",
+   "EnContra": "0"
+  },
+  {
+   "carne": "40561",
+   "Nombre": "AGUSTIN ETCHEGARAY",
+   "minutos": "12",
+   "EnContra": "0"
+  },
+  {
+   "carne": "44457",
+   "Nombre": "BRUNO GIORDANO",
+   "minutos": "84",
+   "EnContra": "0"
+  },
+  {
+   "carne": "47497",
+   "Nombre": "FEDERICO TUZMAN",
+   "minutos": "46",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "63592",
+   "Nombre": "JUAN ANDRES ERRANONDEA",
+   "minutos": "83",
+   "EnContra": "1"
+  },
+  {
+   "carne": "63592",
+   "Nombre": "JUAN ANDRES ERRANONDEA",
+   "minutos": "86",
+   "EnContra": "1"
+  },
+  {
+   "carne": "65008",
+   "Nombre": "JUAN DIEGO JACQUES",
+   "minutos": "68",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

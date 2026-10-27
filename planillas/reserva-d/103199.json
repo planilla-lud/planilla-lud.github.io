@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"D\" COPA DE PLATA",
   "Cancha": "COM. DEP. CLUB TROUVILLE",
-  "Fecha_Inicio": "2026-10-24 12:45:00",
-  "Fecha_fin": "2026-10-24 12:45:00",
+  "Fecha_Inicio": "2026-10-24 13:10:00",
+  "Fecha_fin": "2026-10-24 13:10:00",
   "Locatario": "TROUVILLE UNIVERSITARIO",
   "goles_locatario": "0",
   "puntos_locatario": "1",
@@ -29,10 +29,242 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "50871",
+   "Nombre": "FEDERICO BRUGNOLI",
+   "camiseta": "1",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "50597",
+   "Nombre": "VALENTIN GONCALVEZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "48893",
+   "Nombre": "EMILIANO TELLECHEA",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "57068",
+   "Nombre": "JUAN IGNACIO RODRIGUEZ",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "54111",
+   "Nombre": "FACUNDO ALVAREZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "50596",
+   "Nombre": "SANTIAGO VINAGRE",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "55200",
+   "Nombre": "MAURO MATEO HERNANDEZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "55179",
+   "Nombre": "SANTIAGO COUTO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "50343",
+   "Nombre": "TOMAS PEREZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "61834",
+   "Nombre": "MATHIAS ALEXANDER RAMIREZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "58090",
+   "Nombre": "SANTIAGO DE OLIVERA",
+   "camiseta": "18",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "58465",
+   "Nombre": "SANTIAGO MEYER",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "62786",
+   "Nombre": "AGUSTIN DEL PRESTITO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "65984",
+   "Nombre": "ALFONSO BACCINO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "67486",
+   "Nombre": "RODRIGO MAZZOLINI",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "66908",
+   "Nombre": "LUCIANO NICOLAS BUZON",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "66909",
+   "Nombre": "JUAN MANUEL ZARRILLO",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "68242",
+   "Nombre": "VALENTINO ISMAEL GOLLY",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "61312",
+   "Nombre": "FACUNDO NAHUEL NAVAS",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "66698",
+   "Nombre": "CONRADO DIAZ",
+   "camiseta": "50",
+   "Capitan": ""
+  },
+  {
+   "carne": "67483",
+   "Nombre": "OCTAVIO ALVEZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "49235",
+   "Nombre": "SEBASTIAN PEDEMONTE",
+   "camiseta": "81",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "55179",
+   "Jug_Sale": "SANTIAGO COUTO",
+   "CarneEntra": "54908",
+   "Jug_Entra": "JOAQUIN BROMBAUER",
+   "camiseta": "21",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "58090",
+   "Jug_Sale": "SANTIAGO DE OLIVERA",
+   "CarneEntra": "55296",
+   "Jug_Entra": "MATEO VAZQUEZ",
+   "camiseta": "20",
+   "minutos": "74"
+  },
+  {
+   "CarneSale": "55200",
+   "Jug_Sale": "MAURO MATEO HERNANDEZ",
+   "CarneEntra": "55179",
+   "Jug_Entra": "SANTIAGO COUTO",
+   "camiseta": "11",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "61834",
+   "Jug_Sale": "MATHIAS ALEXANDER RAMIREZ",
+   "CarneEntra": "58090",
+   "Jug_Entra": "SANTIAGO DE OLIVERA",
+   "camiseta": "18",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "57068",
+   "Jug_Sale": "JUAN IGNACIO RODRIGUEZ",
+   "CarneEntra": "66628",
+   "Jug_Entra": "GERMAN BENTOS",
+   "camiseta": "4",
+   "minutos": "85"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "62786",
+   "Jug_Sale": "AGUSTIN DEL PRESTITO",
+   "CarneEntra": "67639",
+   "Jug_Entra": "AXEL NAHUEL CASTAÑO",
+   "camiseta": "19",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "65984",
+   "Jug_Sale": "ALFONSO BACCINO",
+   "CarneEntra": "45212",
+   "Jug_Entra": "TOMAS BERRETA",
+   "camiseta": "7",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "68242",
+   "Jug_Sale": "VALENTINO ISMAEL GOLLY",
+   "CarneEntra": "68954",
+   "Jug_Entra": "GERMAN LATORRE",
+   "camiseta": "26",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "66698",
+   "Jug_Sale": "CONRADO DIAZ",
+   "CarneEntra": "66694",
+   "Jug_Entra": "BRAYAN MAXIMILIANO GALARZA",
+   "camiseta": "73",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "61312",
+   "Jug_Sale": "FACUNDO NAHUEL NAVAS",
+   "CarneEntra": "57934",
+   "Jug_Entra": "PABLO FERNANDEZ",
+   "camiseta": "99",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "68954",
+   "Jug_Sale": "GERMAN LATORRE",
+   "CarneEntra": "65355",
+   "Jug_Entra": "FRANCISCO LEANDRO SEQUEIRA",
+   "camiseta": "22",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "66908",
+   "Jug_Sale": "LUCIANO NICOLAS BUZON",
+   "CarneEntra": "59313",
+   "Jug_Entra": "SEBASTIAN ALEXIS JORAJURIA",
+   "camiseta": "28",
+   "minutos": "94"
+  }
+ ],
  "golesL": [],
  "golesV": [],
  "expulsadosL": [],

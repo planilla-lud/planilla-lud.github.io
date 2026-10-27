@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"D\" TIT. y ASC.",
   "Cancha": "COMPLEJO LAS CASUARINAS",
-  "Fecha_Inicio": "2026-10-24 12:45:00",
-  "Fecha_fin": "2026-10-24 12:45:00",
+  "Fecha_Inicio": "2026-10-24 13:25:00",
+  "Fecha_fin": "2026-10-24 13:25:00",
   "Locatario": "CLUB JESUS MARIA",
   "goles_locatario": "1",
   "puntos_locatario": "3",
@@ -29,12 +29,256 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "55264",
+   "Nombre": "JERONIMO LARCADE",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "46472",
+   "Nombre": "GUILLERMO VON SANDEN",
+   "camiseta": "44",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "58348",
+   "Nombre": "JOAQUIN GUANI",
+   "camiseta": "43",
+   "Capitan": ""
+  },
+  {
+   "carne": "62065",
+   "Nombre": "FEDERICO RUBIO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "37751",
+   "Nombre": "AGUSTIN KOSEC",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "33929",
+   "Nombre": "FRANCISCO MARIZCURRENA",
+   "camiseta": "89",
+   "Capitan": ""
+  },
+  {
+   "carne": "35550",
+   "Nombre": "JOSE IGNACIO RINALDI",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "49172",
+   "Nombre": "MANUEL ANSELMI",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "55161",
+   "Nombre": "MATEO GONZALEZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "51610",
+   "Nombre": "PABLO VALDOMIR",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "52678",
+   "Nombre": "VALENTINO MASONI",
+   "camiseta": "81",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "56750",
+   "Nombre": "JOAQUIN BLANCO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "36849",
+   "Nombre": "LUCAS RICARDO VITOLA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "47715",
+   "Nombre": "PHILIPPE CHAPT",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "44977",
+   "Nombre": "FABIO PADULA",
+   "camiseta": "26",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "51720",
+   "Nombre": "OCTAVIO BERRUTI",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "43441",
+   "Nombre": "SERGIO DANIEL STELLA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "48529",
+   "Nombre": "MATHEUS FRANCISCO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "69213",
+   "Nombre": "MATEO MIGUELEZ",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "55866",
+   "Nombre": "FEDERICO BUHL",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "40646",
+   "Nombre": "JOAQUIN MATIAS DE LEON",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "38746",
+   "Nombre": "JUAN MANUEL PAGOLA",
+   "camiseta": "13",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "37751",
+   "Jug_Sale": "AGUSTIN KOSEC",
+   "CarneEntra": "46451",
+   "Jug_Entra": "GONZALO CAMESELLA",
+   "camiseta": "16",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "35550",
+   "Jug_Sale": "JOSE IGNACIO RINALDI",
+   "CarneEntra": "51224",
+   "Jug_Entra": "DIEGO MARTINEZ",
+   "camiseta": "37",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "55161",
+   "Jug_Sale": "MATEO GONZALEZ",
+   "CarneEntra": "57658",
+   "Jug_Entra": "IGNACIO MIERES",
+   "camiseta": "22",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "49172",
+   "Jug_Sale": "MANUEL ANSELMI",
+   "CarneEntra": "62063",
+   "Jug_Entra": "RODRIGO RUBIO",
+   "camiseta": "16",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "51610",
+   "Jug_Sale": "PABLO VALDOMIR",
+   "CarneEntra": "62062",
+   "Jug_Entra": "AFONSO COSTA",
+   "camiseta": "15",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "52678",
+   "Jug_Sale": "VALENTINO MASONI",
+   "CarneEntra": "49192",
+   "Jug_Entra": "JUAN MARTIN ROCCA",
+   "camiseta": "29",
+   "minutos": "83"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "47715",
+   "Jug_Sale": "PHILIPPE CHAPT",
+   "CarneEntra": "48897",
+   "Jug_Entra": "FRANCISCO BARAIBAR",
+   "camiseta": "24",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "43441",
+   "Jug_Sale": "SERGIO DANIEL STELLA",
+   "CarneEntra": "66787",
+   "Jug_Entra": "EZEQUIEL HERNANDEZ",
+   "camiseta": "11",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "48529",
+   "Jug_Sale": "MATHEUS FRANCISCO",
+   "CarneEntra": "57205",
+   "Jug_Entra": "DIAGO COSTA",
+   "camiseta": "21",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "38746",
+   "Jug_Sale": "JUAN MANUEL PAGOLA",
+   "CarneEntra": "45874",
+   "Jug_Entra": "LUCAS BURGHI",
+   "camiseta": "9",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "51720",
+   "Jug_Sale": "OCTAVIO BERRUTI",
+   "CarneEntra": "61002",
+   "Jug_Entra": "PEDRO RAINERI",
+   "camiseta": "18",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "40646",
+   "Jug_Sale": "JOAQUIN MATIAS DE LEON",
+   "CarneEntra": "52531",
+   "Jug_Entra": "MARCO ELIO SCALA",
+   "camiseta": "15",
+   "minutos": "73"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "52678",
+   "Nombre": "VALENTINO MASONI",
+   "minutos": "58",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
- "expulsadosL": [],
+ "expulsadosL": [
+  {
+   "Nombre": "FRANCISCO MARIZCURRENA",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"D\" COPA DE PLATA",
   "Cancha": "COMPLEJO DEPORTIVO H3O",
-  "Fecha_Inicio": "2026-10-24 12:45:00",
-  "Fecha_fin": "2026-10-24 12:45:00",
+  "Fecha_Inicio": "2026-10-24 12:50:00",
+  "Fecha_fin": "2026-10-24 12:50:00",
   "Locatario": "NUESTRA SEÑORA DE LOURDES",
   "goles_locatario": "1",
   "puntos_locatario": "1",
@@ -29,12 +29,223 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "titularesL": [
+  {
+   "carne": "69221",
+   "Nombre": "SANTIAGO PAJARES",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "68663",
+   "Nombre": "ARIEL ACOSTA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "69095",
+   "Nombre": "LUCAS EZEQUIEL ARAMBILLETE",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "64203",
+   "Nombre": "GUILLERMO ORTIZ",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "65209",
+   "Nombre": "CRISTIAN  DANIEL GARCIA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "69145",
+   "Nombre": "LUCAS NAHUEL MENDEZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "61515",
+   "Nombre": "ALAN ACOSTA",
+   "camiseta": "8",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "64817",
+   "Nombre": "SANTIAGO DIAS",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "33603",
+   "Nombre": "JUAN IGNACIO SELVES",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "30973",
+   "Nombre": "MAXIMILIANO PEREYRA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "67455",
+   "Nombre": "ADRIAN DAVID ACOSTA",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "62246",
+   "Nombre": "BRUNO MOREIRA",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "63777",
+   "Nombre": "FRANCO OLMOS",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "64071",
+   "Nombre": "FEDERICO SEBASTIAN BENITEZ",
+   "camiseta": "26",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "59027",
+   "Nombre": "RODRIGO IGNACIO VILAS",
+   "camiseta": "38",
+   "Capitan": ""
+  },
+  {
+   "carne": "53204",
+   "Nombre": "ARON SPINELLI",
+   "camiseta": "75",
+   "Capitan": ""
+  },
+  {
+   "carne": "62984",
+   "Nombre": "FABRIZIO VALVERDE",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "36368",
+   "Nombre": "MARCOS MANUEL QUEIROZ",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "59907",
+   "Nombre": "LUCIANO GONZALEZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "62487",
+   "Nombre": "ALEJO RAMIREZ",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "66523",
+   "Nombre": "JUAN LLOPIS",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "54931",
+   "Nombre": "GENARO VALENTIN COLOMBO",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "64817",
+   "Jug_Sale": "SANTIAGO DIAS",
+   "CarneEntra": "64816",
+   "Jug_Entra": "FEDERICO JAVIER BARCELO",
+   "camiseta": "80",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "69145",
+   "Jug_Sale": "LUCAS NAHUEL MENDEZ",
+   "CarneEntra": "68941",
+   "Jug_Entra": "GERONIMO FIGUEIRA",
+   "camiseta": "15",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "33603",
+   "Jug_Sale": "JUAN IGNACIO SELVES",
+   "CarneEntra": "61998",
+   "Jug_Entra": "GUZMAN COUSELO",
+   "camiseta": "12",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "69095",
+   "Jug_Sale": "LUCAS EZEQUIEL ARAMBILLETE",
+   "CarneEntra": "30182",
+   "Jug_Entra": "TELMO CANABARRO",
+   "camiseta": "13",
+   "minutos": "94"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "54931",
+   "Jug_Sale": "GENARO VALENTIN COLOMBO",
+   "CarneEntra": "59029",
+   "Jug_Entra": "GASTON VALENTINO CORNACCHIONE",
+   "camiseta": "37",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64071",
+   "Jug_Sale": "FEDERICO SEBASTIAN BENITEZ",
+   "CarneEntra": "64069",
+   "Jug_Entra": "CARLOS DANIEL GUIDOTTI",
+   "camiseta": "14",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66523",
+   "Jug_Sale": "JUAN LLOPIS",
+   "CarneEntra": "59912",
+   "Jug_Entra": "JUAN PABLO GALLARDO",
+   "camiseta": "32",
+   "minutos": "66"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "64203",
+   "Nombre": "GUILLERMO ORTIZ",
+   "minutos": "31",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "62487",
+   "Nombre": "ALEJO RAMIREZ",
+   "minutos": "48",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "CRISTIAN  DANIEL GARCIA",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"D\" COPA DE PLATA",
   "Cancha": "CIUDAD DEPORTIVA ZONA LAB",
-  "Fecha_Inicio": "2026-10-24 12:45:00",
-  "Fecha_fin": "2026-10-24 12:45:00",
+  "Fecha_Inicio": "2026-10-24 13:00:00",
+  "Fecha_fin": "2026-10-24 13:00:00",
   "Locatario": "SAN CONO",
   "goles_locatario": "2",
   "puntos_locatario": "1",
@@ -29,12 +29,255 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "69085",
+   "Nombre": "FRANCO DANERI",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "61099",
+   "Nombre": "AGUSTIN BARRIOS",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "61524",
+   "Nombre": "SEBASTIAN ENZO GUISADO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "61529",
+   "Nombre": "MATEO FERREIRA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "55354",
+   "Nombre": "JAIRO ALI ARAQUE",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "66467",
+   "Nombre": "DIEGO LOTTI",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "61532",
+   "Nombre": "JUAN IGNACIO OLIVERA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "44131",
+   "Nombre": "NAHUEL DE GIOBBI",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "61531",
+   "Nombre": "GONZALO GABRIEL BERRUTTI",
+   "camiseta": "11",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "61320",
+   "Nombre": "JONATAN NAHUEL MORA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "69163",
+   "Nombre": "LUCIANO NAHUEL BARCEL",
+   "camiseta": "5",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "56973",
+   "Nombre": "LUCAS CORREA",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "67474",
+   "Nombre": "MATIAS FRANCO",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "53826",
+   "Nombre": "JUAN IGNACIO SOSA DIAS",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "51002",
+   "Nombre": "JUAN MANUEL PEREZ",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "51803",
+   "Nombre": "SEBASTIAN TRONCOSO",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "64765",
+   "Nombre": "FRANCISCO JAVIER RIVERO",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "50127",
+   "Nombre": "SANTIAGO CALVETE",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "52787",
+   "Nombre": "IGNACIO SLINGER",
+   "camiseta": "69",
+   "Capitan": ""
+  },
+  {
+   "carne": "62836",
+   "Nombre": "RODRIGO JOSE ZAS",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "59752",
+   "Nombre": "RAMIRO LOPEZ",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "64777",
+   "Nombre": "IVAN VEGOVICH",
+   "camiseta": "24",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "61320",
+   "Jug_Sale": "JONATAN NAHUEL MORA",
+   "CarneEntra": "63261",
+   "Jug_Entra": "NICOLAS SANGUINE",
+   "camiseta": "18",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61529",
+   "Jug_Sale": "MATEO FERREIRA",
+   "CarneEntra": "53885",
+   "Jug_Entra": "GUILLERMO OSVALDO DOLIVEIRA",
+   "camiseta": "69",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66467",
+   "Jug_Sale": "DIEGO LOTTI",
+   "CarneEntra": "63361",
+   "Jug_Entra": "JUAN MANUEL GONZALVEZ",
+   "camiseta": "17",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "55354",
+   "Jug_Sale": "JAIRO ALI ARAQUE",
+   "CarneEntra": "64654",
+   "Jug_Entra": "GASTON ZAMBRAN",
+   "camiseta": "14",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "63261",
+   "Jug_Sale": "NICOLAS SANGUINE",
+   "CarneEntra": "65388",
+   "Jug_Entra": "JOAQUIN ROMAN MOREIRA",
+   "camiseta": "70",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "44131",
+   "Jug_Sale": "NAHUEL DE GIOBBI",
+   "CarneEntra": "60354",
+   "Jug_Entra": "MANUEL MAGNIN",
+   "camiseta": "8",
+   "minutos": "80"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "52787",
+   "Jug_Sale": "IGNACIO SLINGER",
+   "CarneEntra": "66167",
+   "Jug_Entra": "AGUSTIN BLAS RIVERO",
+   "camiseta": "91",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67474",
+   "Jug_Sale": "MATIAS FRANCO",
+   "CarneEntra": "64767",
+   "Jug_Entra": "FACUNDO NICOLAS FARAL",
+   "camiseta": "17",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64777",
+   "Jug_Sale": "IVAN VEGOVICH",
+   "CarneEntra": "55669",
+   "Jug_Entra": "MATEO PINTOS",
+   "camiseta": "17",
+   "minutos": "49"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "53885",
+   "Nombre": "GUILLERMO OSVALDO DOLIVEIRA",
+   "minutos": "71",
+   "EnContra": "0"
+  },
+  {
+   "carne": "61099",
+   "Nombre": "AGUSTIN BARRIOS",
+   "minutos": "67",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "50127",
+   "Nombre": "SANTIAGO CALVETE",
+   "minutos": "36",
+   "EnContra": "1"
+  },
+  {
+   "carne": "55669",
+   "Nombre": "MATEO PINTOS",
+   "minutos": "80",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
- "expulsadosV": []
+ "expulsadosV": [
+  {
+   "Nombre": "IGNACIO SLINGER",
+   "observaciones": ""
+  },
+  {
+   "Nombre": "RODRIGO JOSE ZAS",
+   "observaciones": ""
+  }
+ ]
 }

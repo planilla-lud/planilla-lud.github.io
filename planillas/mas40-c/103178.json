@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "M40 DIV. C COPA PLATA R2",
   "Cancha": "OLD CHRISTIANS CLUB",
-  "Fecha_Inicio": "2026-10-24 10:30:00",
-  "Fecha_fin": "2026-10-24 10:30:00",
+  "Fecha_Inicio": "2026-10-24 11:00:00",
+  "Fecha_fin": "2026-10-24 11:00:00",
   "Locatario": "OLD CHRISTIANS AZUL",
   "goles_locatario": "2",
   "puntos_locatario": "3",
@@ -29,11 +29,256 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "14693",
+   "Nombre": "DIEGO JALMA",
+   "camiseta": "0",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "15910",
+   "Nombre": "CARLOS EDUARDO VILABOA",
+   "camiseta": "72",
+   "Capitan": ""
+  },
+  {
+   "carne": "64834",
+   "Nombre": "DANIEL ALLIATI",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "64867",
+   "Nombre": "MARTIN ROBERTO PEREYRA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "66690",
+   "Nombre": "PEDRO LOMBARDI",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "19579",
+   "Nombre": "FEDERICO MIGUEL VAL",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "68889",
+   "Nombre": "JUAN LUIS OBES",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "21792",
+   "Nombre": "IGNACIO ENRIQUE VOITURET",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "15896",
+   "Nombre": "SEBASTIAN EDUARDO VICTORICA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "20964",
+   "Nombre": "FERNANDO JOSE DE LA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "14282",
+   "Nombre": "BRUNO PONZONI",
+   "camiseta": "12",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "59318",
+   "Nombre": "JUAN MARIA BRINGA",
+   "camiseta": "70",
+   "Capitan": ""
+  },
+  {
+   "carne": "65009",
+   "Nombre": "SEBASTIAN NOGUEIRA",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "29471",
+   "Nombre": "CHRISTOPER RODRIGUEZ CHAVES",
+   "camiseta": "81",
+   "Capitan": ""
+  },
+  {
+   "carne": "19121",
+   "Nombre": "DENIS MAURICIO FERNANDEZ",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "17208",
+   "Nombre": "ISMAEL BERTOLA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "53660",
+   "Nombre": "MARCOS GABRIEL DA ROSA",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "19105",
+   "Nombre": "FRANCISCO JOAQUIN POITTEVIN",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "22683",
+   "Nombre": "MAURICIO JOSE MUNIZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "63633",
+   "Nombre": "NICOLAS ANDRES SORIA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "51463",
+   "Nombre": "CARLOS ALFREDO BENITEZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "22327",
+   "Nombre": "CLAUDIO SEBASTIAN CUSATI",
+   "camiseta": "4",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "15910",
+   "Jug_Sale": "CARLOS EDUARDO VILABOA",
+   "CarneEntra": "14042",
+   "Jug_Entra": "NICOLAS ALBERTO DURAN",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64867",
+   "Jug_Sale": "MARTIN ROBERTO PEREYRA",
+   "CarneEntra": "15428",
+   "Jug_Entra": "SANTIAGO ENRIQUE QUEIROLO",
+   "camiseta": "19",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "19579",
+   "Jug_Sale": "FEDERICO MIGUEL VAL",
+   "CarneEntra": "11495",
+   "Jug_Entra": "JUAN FRANCISCO FERREIRA",
+   "camiseta": "16",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68889",
+   "Jug_Sale": "JUAN LUIS OBES",
+   "CarneEntra": "11987",
+   "Jug_Entra": "JUAN MANUEL ARROSPIDE",
+   "camiseta": "2",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "15896",
+   "Jug_Sale": "SEBASTIAN EDUARDO VICTORICA",
+   "CarneEntra": "13969",
+   "Jug_Entra": "NICOLAS CERVIÑO",
+   "camiseta": "3",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64834",
+   "Jug_Sale": "DANIEL ALLIATI",
+   "CarneEntra": "51648",
+   "Jug_Entra": "ADRIAN GABRIEL MORGAVI",
+   "camiseta": "32",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "14282",
+   "Jug_Sale": "BRUNO PONZONI",
+   "CarneEntra": "16473",
+   "Jug_Entra": "RAUL RODRIGO PERNA",
+   "camiseta": "21",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "51648",
+   "Jug_Sale": "ADRIAN GABRIEL MORGAVI",
+   "CarneEntra": "53334",
+   "Jug_Entra": "MARTIN GONZALEZ",
+   "camiseta": "26",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "66690",
+   "Jug_Sale": "PEDRO LOMBARDI",
+   "CarneEntra": "15431",
+   "Jug_Entra": "RAFAEL ENRIQUE CHANS",
+   "camiseta": "71",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "21792",
+   "Jug_Sale": "IGNACIO ENRIQUE VOITURET",
+   "CarneEntra": "64834",
+   "Jug_Entra": "DANIEL ALLIATI",
+   "camiseta": "13",
+   "minutos": "90"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "29471",
+   "Jug_Sale": "CHRISTOPER RODRIGUEZ CHAVES",
+   "CarneEntra": "63633",
+   "Jug_Entra": "NICOLAS ANDRES SORIA",
+   "camiseta": "21",
+   "minutos": "53"
+  },
+  {
+   "CarneSale": "63633",
+   "Jug_Sale": "NICOLAS ANDRES SORIA",
+   "CarneEntra": "46960",
+   "Jug_Entra": "FEDERICO GUSTAVO DEMICHERI",
+   "camiseta": "48",
+   "minutos": "45"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "14282",
+   "Nombre": "BRUNO PONZONI",
+   "minutos": "50",
+   "EnContra": "0"
+  },
+  {
+   "carne": "20964",
+   "Nombre": "FERNANDO JOSE DE LA",
+   "minutos": "62",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

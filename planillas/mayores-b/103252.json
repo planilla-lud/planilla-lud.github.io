@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"B\" PERM. y DESC.",
   "Cancha": "COLEGIO PIO",
-  "Fecha_Inicio": "2026-10-25 10:30:00",
-  "Fecha_fin": "2026-10-25 10:30:00",
+  "Fecha_Inicio": "2026-10-25 10:50:00",
+  "Fecha_fin": "2026-10-25 10:50:00",
   "Locatario": "OLIMAR",
   "goles_locatario": "1",
   "puntos_locatario": "0",
@@ -29,12 +29,224 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "66110",
+   "Nombre": "MARIO JOAQUIN BOSSIO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "38803",
+   "Nombre": "MAURO LAGOMARSINO",
+   "camiseta": "15",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "33338",
+   "Nombre": "IGNACIO INDA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "52547",
+   "Nombre": "BRAIAN ANDRES FIERRO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "29643",
+   "Nombre": "DARIO CAMPELO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "63395",
+   "Nombre": "DIEGO DANIEL DOS SANTOS",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "57724",
+   "Nombre": "GONZALO MARTIN MESPOLET",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "65333",
+   "Nombre": "LUCAS DIEGO ALVARIZA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "60969",
+   "Nombre": "STEVEN LARROSA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "52565",
+   "Nombre": "NAHUEL AGUSTIN VIGNOLO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "58424",
+   "Nombre": "ALFONSO DARIO GIMENEZ",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "35097",
+   "Nombre": "JUAN MANUEL CARRERO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "35549",
+   "Nombre": "NICOLAS ARTOLA",
+   "camiseta": "21",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "59059",
+   "Nombre": "TOMAS MENDEZ",
+   "camiseta": "36",
+   "Capitan": ""
+  },
+  {
+   "carne": "33924",
+   "Nombre": "ISMAEL SILVA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "46948",
+   "Nombre": "SANTIAGO CAULA",
+   "camiseta": "90",
+   "Capitan": ""
+  },
+  {
+   "carne": "41305",
+   "Nombre": "JOAQUIN JUAN VILLA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "47033",
+   "Nombre": "PAUL OURTHE CABALE",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "50659",
+   "Nombre": "IGNACIO TRONCOSO",
+   "camiseta": "47",
+   "Capitan": ""
+  },
+  {
+   "carne": "37662",
+   "Nombre": "FELIPE MARCOS CASAROTTI",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "62069",
+   "Nombre": "SANTIAGO SILVA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "35266",
+   "Nombre": "ALAIN ELISSALDE",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "29643",
+   "Jug_Sale": "DARIO CAMPELO",
+   "CarneEntra": "60171",
+   "Jug_Entra": "YONATHAN FACUNDO ALDAVE",
+   "camiseta": "14",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58424",
+   "Jug_Sale": "ALFONSO DARIO GIMENEZ",
+   "CarneEntra": "68478",
+   "Jug_Entra": "FELIPE TARAN",
+   "camiseta": "16",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "65333",
+   "Jug_Sale": "LUCAS DIEGO ALVARIZA",
+   "CarneEntra": "52566",
+   "Jug_Entra": "EMILIANO GASTON VIGNOLO",
+   "camiseta": "4",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "63395",
+   "Jug_Sale": "DIEGO DANIEL DOS SANTOS",
+   "CarneEntra": "58424",
+   "Jug_Entra": "ALFONSO DARIO GIMENEZ",
+   "camiseta": "19",
+   "minutos": "87"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "62069",
+   "Jug_Sale": "SANTIAGO SILVA",
+   "CarneEntra": "62062",
+   "Jug_Entra": "AFONSO COSTA",
+   "camiseta": "99",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "37662",
+   "Jug_Sale": "FELIPE MARCOS CASAROTTI",
+   "CarneEntra": "55161",
+   "Jug_Entra": "MATEO GONZALEZ",
+   "camiseta": "11",
+   "minutos": "83"
+  },
+  {
+   "CarneSale": "47033",
+   "Jug_Sale": "PAUL OURTHE CABALE",
+   "CarneEntra": "51224",
+   "Jug_Entra": "DIEGO MARTINEZ",
+   "camiseta": "37",
+   "minutos": "83"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "52565",
+   "Nombre": "NAHUEL AGUSTIN VIGNOLO",
+   "minutos": "20",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "35549",
+   "Nombre": "NICOLAS ARTOLA",
+   "minutos": "56",
+   "EnContra": "1"
+  },
+  {
+   "carne": "59059",
+   "Nombre": "TOMAS MENDEZ",
+   "minutos": "94",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"G\" TIT. y ASC",
   "Cancha": "CAMPO MARISTAS DEPORTIVO",
-  "Fecha_Inicio": "2026-10-25 12:45:00",
-  "Fecha_fin": "2026-10-25 12:45:00",
+  "Fecha_Inicio": "2026-10-25 13:15:00",
+  "Fecha_fin": "2026-10-25 13:15:00",
   "Locatario": "MARISTAS DEPORTIVO",
   "goles_locatario": "3",
   "puntos_locatario": "3",
@@ -29,12 +29,260 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "59350",
+   "Nombre": "GASTON NUÑEZ",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "56670",
+   "Nombre": "FEDERICO SALVA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "55113",
+   "Nombre": "FRANCISCO FERREYRA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "63478",
+   "Nombre": "MICHAEL NAHUEL PAIS",
+   "camiseta": "93",
+   "Capitan": ""
+  },
+  {
+   "carne": "61756",
+   "Nombre": "LUCAS DANIEL PEREZ",
+   "camiseta": "79",
+   "Capitan": ""
+  },
+  {
+   "carne": "57338",
+   "Nombre": "AKEEM JORGE",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "49161",
+   "Nombre": "MATEO RODRIGUEZ",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56224",
+   "Nombre": "SANTIAGO DANIEL CASCO",
+   "camiseta": "55",
+   "Capitan": ""
+  },
+  {
+   "carne": "55117",
+   "Nombre": "GUILLERMO VALLE LISBOA",
+   "camiseta": "48",
+   "Capitan": ""
+  },
+  {
+   "carne": "47785",
+   "Nombre": "FILIPPO RADICCIONI",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "69142",
+   "Nombre": "MATEO PEREZ",
+   "camiseta": "51",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "66171",
+   "Nombre": "LAUTARO RIVERO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "37503",
+   "Nombre": "NICOLAS RODRIGO BRANDI",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "43792",
+   "Nombre": "SEBASTIAN ALEJANDRO MEDINA",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "66392",
+   "Nombre": "AGUSTIN PEREYRA",
+   "camiseta": "95",
+   "Capitan": ""
+  },
+  {
+   "carne": "38767",
+   "Nombre": "PAUL MARCEL BERRIEL",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "49003",
+   "Nombre": "SANTIAGO DELLACQUA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "64155",
+   "Nombre": "GONZALO DIAZ",
+   "camiseta": "81",
+   "Capitan": ""
+  },
+  {
+   "carne": "46121",
+   "Nombre": "ANTONY MICHELL GALLI",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "66925",
+   "Nombre": "IVAN ALEJANDRO QUIMPOS",
+   "camiseta": "37",
+   "Capitan": ""
+  },
+  {
+   "carne": "66403",
+   "Nombre": "GHIAN FRANCO SILVEIRA",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "38000",
+   "Nombre": "AGUSTIN MINUTTI",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "69142",
+   "Jug_Sale": "MATEO PEREZ",
+   "CarneEntra": "49166",
+   "Jug_Entra": "THIAGO MATEO HERNANDEZ",
+   "camiseta": "14",
+   "minutos": "81"
+  },
+  {
+   "CarneSale": "56224",
+   "Jug_Sale": "SANTIAGO DANIEL CASCO",
+   "CarneEntra": "47861",
+   "Jug_Entra": "FRANCO DE LOS SANTOS",
+   "camiseta": "95",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "57338",
+   "Jug_Sale": "AKEEM JORGE",
+   "CarneEntra": "46422",
+   "Jug_Entra": "GONZALO IÑAKI DE PENA",
+   "camiseta": "8",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "49161",
+   "Jug_Sale": "MATEO RODRIGUEZ",
+   "CarneEntra": "66232",
+   "Jug_Entra": "LUCAS MAURICIO CARTAGENA",
+   "camiseta": "25",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "61756",
+   "Jug_Sale": "LUCAS DANIEL PEREZ",
+   "CarneEntra": "48010",
+   "Jug_Entra": "FABRICIO VERDIAS",
+   "camiseta": "15",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "47785",
+   "Jug_Sale": "FILIPPO RADICCIONI",
+   "CarneEntra": "56224",
+   "Jug_Entra": "SANTIAGO DANIEL CASCO",
+   "camiseta": "55",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "61756",
+   "Jug_Sale": "LUCAS DANIEL PEREZ",
+   "CarneEntra": "49161",
+   "Jug_Entra": "MATEO RODRIGUEZ",
+   "camiseta": "10",
+   "minutos": "70"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "66925",
+   "Jug_Sale": "IVAN ALEJANDRO QUIMPOS",
+   "CarneEntra": "63692",
+   "Jug_Entra": "TOMAS ANGELO LATRONICO",
+   "camiseta": "19",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "37503",
+   "Jug_Sale": "NICOLAS RODRIGO BRANDI",
+   "CarneEntra": "44137",
+   "Jug_Entra": "AGUSTIN DANIEL CANO",
+   "camiseta": "50",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "66392",
+   "Jug_Sale": "AGUSTIN PEREYRA",
+   "CarneEntra": "63979",
+   "Jug_Entra": "AGUSTIN ARBIZA",
+   "camiseta": "1",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "46121",
+   "Jug_Sale": "ANTONY MICHELL GALLI",
+   "CarneEntra": "58014",
+   "Jug_Entra": "FELIPE ALBIN",
+   "camiseta": "12",
+   "minutos": "81"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "47785",
+   "Nombre": "FILIPPO RADICCIONI",
+   "minutos": "13",
+   "EnContra": "0"
+  },
+  {
+   "carne": "49161",
+   "Nombre": "MATEO RODRIGUEZ",
+   "minutos": "90",
+   "EnContra": "0"
+  },
+  {
+   "carne": "69142",
+   "Nombre": "MATEO PEREZ",
+   "minutos": "76",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
- "expulsadosV": []
+ "expulsadosV": [
+  {
+   "Nombre": "LAUTARO RIVERO",
+   "observaciones": ""
+  }
+ ]
 }

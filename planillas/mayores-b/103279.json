@@ -3,7 +3,7 @@
  "categoria": "mayores-b",
  "serie": "BTA",
  "fecha": 5,
- "fechaHora": "2026-10-25 11:15:00",
+ "fechaHora": "2026-10-25 12:00:00",
  "cancha": "CLUB ALEMAN",
  "local": "ALEMAN UNIVERSITARIO",
  "visitante": "SAN ISIDRO LOMAS UNIVERSITARIO",
@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"B\" TIT. y ASC.",
   "Cancha": "CLUB ALEMAN",
-  "Fecha_Inicio": "2026-10-25 12:45:00",
-  "Fecha_fin": "2026-10-25 12:45:00",
+  "Fecha_Inicio": "2026-10-25 13:50:00",
+  "Fecha_fin": "2026-10-25 13:50:00",
   "Locatario": "ALEMAN UNIVERSITARIO",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,201 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "40708",
+   "Nombre": "MARTIN GABRIEL COURTOISIE",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "48647",
+   "Nombre": "LEANDRO PASQUET",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "40714",
+   "Nombre": "PIERRE WYAUX",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "42728",
+   "Nombre": "MATEO SELLANES",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "42681",
+   "Nombre": "SEBASTIAN ANTONIO CURA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "40039",
+   "Nombre": "ANDRES FORTE",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "55191",
+   "Nombre": "FEDERICO SAINTAGNE",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "39007",
+   "Nombre": "IGNACIO ESTEVES",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "48650",
+   "Nombre": "JUAN IGNACIO CERULLO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "39089",
+   "Nombre": "GONZALO PASQUET",
+   "camiseta": "9",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "39836",
+   "Nombre": "NICOLAS ALEJANDRO BORDAGORRI",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "67584",
+   "Nombre": "MATIAS SANTIAGO VILLAR",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "52357",
+   "Nombre": "BRUNO PASTORINI",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "52683",
+   "Nombre": "FRANCO CHEMELLO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "40527",
+   "Nombre": "SANTIAGO LARRALDE",
+   "camiseta": "22",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "60073",
+   "Nombre": "MAXIMILIANO CAMBON",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "57708",
+   "Nombre": "VALENTIN CUÑA",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "56507",
+   "Nombre": "LUCAS OLIVERA",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "47677",
+   "Nombre": "JUAN PABLO SILVIO NICOLETTI",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "32028",
+   "Nombre": "FACUNDO RODRIGUEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "53965",
+   "Nombre": "BRUNO MICHELENA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "52991",
+   "Nombre": "FRANCO MICHELENA",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "48650",
+   "Jug_Sale": "JUAN IGNACIO CERULLO",
+   "CarneEntra": "55187",
+   "Jug_Entra": "IGNACIO ANDRES ALVAREZ",
+   "camiseta": "59",
+   "minutos": "69"
+  },
+  {
+   "CarneSale": "55191",
+   "Jug_Sale": "FEDERICO SAINTAGNE",
+   "CarneEntra": "48649",
+   "Jug_Entra": "MATEO MANDIA",
+   "camiseta": "29",
+   "minutos": "76"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "32028",
+   "Jug_Sale": "FACUNDO RODRIGUEZ",
+   "CarneEntra": "63027",
+   "Jug_Entra": "NICOLAS IÑAKY GUERRA",
+   "camiseta": "20",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "53965",
+   "Jug_Sale": "BRUNO MICHELENA",
+   "CarneEntra": "29926",
+   "Jug_Entra": "JOAQUIN TEJERIA",
+   "camiseta": "9",
+   "minutos": "83"
+  },
+  {
+   "CarneSale": "57708",
+   "Jug_Sale": "VALENTIN CUÑA",
+   "CarneEntra": "52987",
+   "Jug_Entra": "RENZO GUZMAN RAMAGLI",
+   "camiseta": "3",
+   "minutos": "85"
+  }
+ ],
  "golesL": [],
- "golesV": [],
+ "golesV": [
+  {
+   "carne": "52991",
+   "Nombre": "FRANCO MICHELENA",
+   "minutos": "24",
+   "EnContra": "1"
+  },
+  {
+   "carne": "53965",
+   "Nombre": "BRUNO MICHELENA",
+   "minutos": "85",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

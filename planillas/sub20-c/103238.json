@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "SUB20 \"C\" TIT. y ASC.",
   "Cancha": "COMPLEJO COLEGIO JESÚS MARÍA",
-  "Fecha_Inicio": "2026-10-24 17:00:00",
-  "Fecha_fin": "2026-10-24 17:00:00",
+  "Fecha_Inicio": "2026-10-24 17:30:00",
+  "Fecha_fin": "2026-10-24 17:30:00",
   "Locatario": "CLUB JESUS MARIA",
   "goles_locatario": "1",
   "puntos_locatario": "3",
@@ -29,11 +29,258 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "63266",
+   "Nombre": "JUAN MANUEL LOPEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "62065",
+   "Nombre": "FEDERICO RUBIO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "60473",
+   "Nombre": "JUAN AGUSTIN LOPEZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "66003",
+   "Nombre": "MANUEL BECERRA",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "64901",
+   "Nombre": "TOMAS BELTRAN",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "64096",
+   "Nombre": "NICOLAS ANDRES ESTIBEN",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "58819",
+   "Nombre": "GERONIMO ACUÑA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "56791",
+   "Nombre": "JOAQUIN BRAGLIA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "64097",
+   "Nombre": "JUAN IGNACIO ESTIBEN",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "56092",
+   "Nombre": "AGUSTIN TELLECHEA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "65864",
+   "Nombre": "JOAQUIN PATRON",
+   "camiseta": "20",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "69203",
+   "Nombre": "RODRIGO CHAGAS",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "62359",
+   "Nombre": "MATHIAS GOMEZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "63435",
+   "Nombre": "MATEO ADOLFO OXEHUFWUD",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "63570",
+   "Nombre": "JUAN SEBASTIAN CORONEL",
+   "camiseta": "17",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "61142",
+   "Nombre": "FELIPE ODAZZIO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "67328",
+   "Nombre": "UZIEL GIMENEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "61216",
+   "Nombre": "JUAN FRANCISCO PASSADORE",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "61215",
+   "Nombre": "JOAQUIN PASSADORE",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "62356",
+   "Nombre": "AGUSTIN DA ROSA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "62354",
+   "Nombre": "MATEO NOVAS",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "65327",
+   "Nombre": "JUAN IGNACIO GOMEZ",
+   "camiseta": "27",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "56791",
+   "Jug_Sale": "JOAQUIN BRAGLIA",
+   "CarneEntra": "62062",
+   "Jug_Entra": "AFONSO COSTA",
+   "camiseta": "13",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64097",
+   "Jug_Sale": "JUAN IGNACIO ESTIBEN",
+   "CarneEntra": "62063",
+   "Jug_Entra": "RODRIGO RUBIO",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56092",
+   "Jug_Sale": "AGUSTIN TELLECHEA",
+   "CarneEntra": "69150",
+   "Jug_Entra": "MARTIN GUTIERREZ",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64096",
+   "Jug_Sale": "NICOLAS ANDRES ESTIBEN",
+   "CarneEntra": "66149",
+   "Jug_Entra": "NICOLAS JESUS NUÑEZ",
+   "camiseta": "8",
+   "minutos": "54"
+  },
+  {
+   "CarneSale": "62065",
+   "Jug_Sale": "FEDERICO RUBIO",
+   "CarneEntra": "61918",
+   "Jug_Entra": "LORENZO SILVA",
+   "camiseta": "55",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "66003",
+   "Jug_Sale": "MANUEL BECERRA",
+   "CarneEntra": "62921",
+   "Jug_Entra": "JOAQUIN CAO",
+   "camiseta": "17",
+   "minutos": "77"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "63435",
+   "Jug_Sale": "MATEO ADOLFO OXEHUFWUD",
+   "CarneEntra": "62358",
+   "Jug_Entra": "MATEO FIGUEROA",
+   "camiseta": "21",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61216",
+   "Jug_Sale": "JUAN FRANCISCO PASSADORE",
+   "CarneEntra": "61299",
+   "Jug_Entra": "FRANCO CROCCO",
+   "camiseta": "35",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61142",
+   "Jug_Sale": "FELIPE ODAZZIO",
+   "CarneEntra": "61216",
+   "Jug_Entra": "JUAN FRANCISCO PASSADORE",
+   "camiseta": "19",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "61215",
+   "Jug_Sale": "JOAQUIN PASSADORE",
+   "CarneEntra": "58770",
+   "Jug_Entra": "MATEO EASTMAN",
+   "camiseta": "30",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "65327",
+   "Jug_Sale": "JUAN IGNACIO GOMEZ",
+   "CarneEntra": "61897",
+   "Jug_Entra": "MATIAS MARCELO VERO",
+   "camiseta": "18",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "62354",
+   "Jug_Sale": "MATEO NOVAS",
+   "CarneEntra": "64958",
+   "Jug_Entra": "LUCA AFONZO",
+   "camiseta": "20",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "62356",
+   "Jug_Sale": "AGUSTIN DA ROSA",
+   "CarneEntra": "64628",
+   "Jug_Entra": "ANDRES SEBASTIAN DIAZ",
+   "camiseta": "99",
+   "minutos": "76"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "69150",
+   "Nombre": "MARTIN GUTIERREZ",
+   "minutos": "60",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

@@ -4,7 +4,7 @@
  "serie": "GTA",
  "fecha": 4,
  "fechaHora": "2026-10-25 09:00:00",
- "cancha": "ESCUELA NAVAL",
+ "cancha": "COM. DEP. CLUB TROUVILLE",
  "local": "NUESTRA SEÑORA DE LOURDES",
  "visitante": "DEPORTIVO NAVAL",
  "gl": 4,
@@ -17,9 +17,9 @@
   "categoria": "MAYORES MASCULINO",
   "rueda": "2",
   "Divisional": "MAYORES \"G\" TIT. y ASC",
-  "Cancha": "ESCUELA NAVAL",
-  "Fecha_Inicio": "2026-10-25 10:30:00",
-  "Fecha_fin": "2026-10-25 10:30:00",
+  "Cancha": "COM. DEP. CLUB TROUVILLE",
+  "Fecha_Inicio": "2026-10-25 11:10:00",
+  "Fecha_fin": "2026-10-25 11:10:00",
   "Locatario": "NUESTRA SEÑORA DE LOURDES",
   "goles_locatario": "4",
   "puntos_locatario": "3",
@@ -29,11 +29,244 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "41455",
+   "Nombre": "ANGEL JOSE VIDAL",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "49555",
+   "Nombre": "IGNACIO CHOPITEA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "38929",
+   "Nombre": "CARLOS FEDERICO SUAREZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "57085",
+   "Nombre": "MARCO ABDO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "52962",
+   "Nombre": "MARTIN POMBO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "64190",
+   "Nombre": "PABLO MATIAS OLIVERA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "37713",
+   "Nombre": "VALENTIN SANCHEZ",
+   "camiseta": "15",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "32230",
+   "Nombre": "FEDERICO DEL NEGRO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "65342",
+   "Nombre": "IGNACIO FEDERICO NUÑEZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "67226",
+   "Nombre": "MATIAS DA SILVA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "37753",
+   "Nombre": "DANIEL FEDERICO ARNOULD",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "51688",
+   "Nombre": "IVAN NICOLAS MEDEIROS",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "33424",
+   "Nombre": "EDUARDO MARCELO CUÑARRO",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "40687",
+   "Nombre": "DIEGO FERNANDO FURRER",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "45716",
+   "Nombre": "GUILLERMO LUIS ALVAREZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "51624",
+   "Nombre": "ALVARO RODRIGUEZ",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "60658",
+   "Nombre": "RAUL SEBASTIAN DA SILVA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "22811",
+   "Nombre": "RICARDO SILVA",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "55055",
+   "Nombre": "AGUSTIN FRANCO TROISI",
+   "camiseta": "47",
+   "Capitan": ""
+  },
+  {
+   "carne": "55638",
+   "Nombre": "GERMAN FAJARDO",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "36772",
+   "Nombre": "GONZALO DAMIAN CUELLO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "27893",
+   "Nombre": "ALEX MAURICIO ROLDAN",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "67226",
+   "Jug_Sale": "MATIAS DA SILVA",
+   "CarneEntra": "46879",
+   "Jug_Entra": "JOAQUIN PIÑEIRO",
+   "camiseta": "6",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "57085",
+   "Jug_Sale": "MARCO ABDO",
+   "CarneEntra": "53580",
+   "Jug_Entra": "IGNACIO NICOLAS CIFUENTES",
+   "camiseta": "17",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "37753",
+   "Jug_Sale": "DANIEL FEDERICO ARNOULD",
+   "CarneEntra": "66246",
+   "Jug_Entra": "MATHIAS NICOLAS MOREIRA",
+   "camiseta": "2",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "52962",
+   "Jug_Sale": "MARTIN POMBO",
+   "CarneEntra": "36322",
+   "Jug_Entra": "ANDRES FABIAN MAGGIARI",
+   "camiseta": "32",
+   "minutos": "82"
+  },
+  {
+   "CarneSale": "64190",
+   "Jug_Sale": "PABLO MATIAS OLIVERA",
+   "CarneEntra": "35760",
+   "Jug_Entra": "ALVARO BIANCHI",
+   "camiseta": "16",
+   "minutos": "82"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "22811",
+   "Jug_Sale": "RICARDO SILVA",
+   "CarneEntra": "38516",
+   "Jug_Entra": "SANTIAGO MARIA SERPA",
+   "camiseta": "80",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "45716",
+   "Jug_Sale": "GUILLERMO LUIS ALVAREZ",
+   "CarneEntra": "66482",
+   "Jug_Entra": "RAFAEL DOLDAN",
+   "camiseta": "12",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "51624",
+   "Jug_Sale": "ALVARO RODRIGUEZ",
+   "CarneEntra": "48186",
+   "Jug_Entra": "LUIS EDUARDO PEREYRA",
+   "camiseta": "45",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "55055",
+   "Jug_Sale": "AGUSTIN FRANCO TROISI",
+   "CarneEntra": "58062",
+   "Jug_Entra": "LEONARDO BENJAIN CARBALLO",
+   "camiseta": "27",
+   "minutos": "73"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "36322",
+   "Nombre": "ANDRES FABIAN MAGGIARI",
+   "minutos": "87",
+   "EnContra": "0"
+  },
+  {
+   "carne": "37713",
+   "Nombre": "VALENTIN SANCHEZ",
+   "minutos": "46",
+   "EnContra": "0"
+  },
+  {
+   "carne": "37713",
+   "Nombre": "VALENTIN SANCHEZ",
+   "minutos": "73",
+   "EnContra": "0"
+  },
+  {
+   "carne": "46879",
+   "Nombre": "JOAQUIN PIÑEIRO",
+   "minutos": "74",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

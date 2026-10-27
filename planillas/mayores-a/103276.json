@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"A\" PERM. y DESC.",
   "Cancha": "COMPLEJO JUAN XXIII",
-  "Fecha_Inicio": "2026-10-25 12:45:00",
-  "Fecha_fin": "2026-10-25 12:45:00",
+  "Fecha_Inicio": "2026-10-25 13:05:00",
+  "Fecha_fin": "2026-10-25 13:05:00",
   "Locatario": "JUAN XXIII",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,275 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "47883",
+   "Nombre": "STIVEN ACOSTA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "51518",
+   "Nombre": "SANTIAGO BRANCATO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "64095",
+   "Nombre": "JUAN ANDRES GARCIA",
+   "camiseta": "51",
+   "Capitan": ""
+  },
+  {
+   "carne": "40859",
+   "Nombre": "JUAN MANUEL FERREIRA",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "49012",
+   "Nombre": "AGUSTIN SUPERVIELLE",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "58711",
+   "Nombre": "GERMAN MANGARELLI",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "67671",
+   "Nombre": "JUAN IGNACIO SÀNCHEZ",
+   "camiseta": "96",
+   "Capitan": ""
+  },
+  {
+   "carne": "49276",
+   "Nombre": "MATEO TECHEIRA",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "50344",
+   "Nombre": "FELIPE MANUEL NIETO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "45693",
+   "Nombre": "PEDRO BENZO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "41174",
+   "Nombre": "JUAN PABLO PASTORINO",
+   "camiseta": "8",
+   "Capitan": "(C)"
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "45817",
+   "Nombre": "MATIAS ESTAPE",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "37424",
+   "Nombre": "SANTIAGO PEREZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "50839",
+   "Nombre": "FABRIZIO JORGE GRAJALES",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "39147",
+   "Nombre": "SEBASTIAN ECHEVERZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "45815",
+   "Nombre": "FRANCISCO MARICHAL",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "47176",
+   "Nombre": "SANTIAGO BENZANO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "39017",
+   "Nombre": "GERMAN FRAGA",
+   "camiseta": "17",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "57157",
+   "Nombre": "FACUNDO PIRIS",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "47680",
+   "Nombre": "JUAN FELIPE LUCAS",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "47673",
+   "Nombre": "FRANCISCO JAVIER CAMPON",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "47696",
+   "Nombre": "IGNACIO TOMAS ESTEFAN",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "50344",
+   "Jug_Sale": "FELIPE MANUEL NIETO",
+   "CarneEntra": "52645",
+   "Jug_Entra": "AGUSTIN QUARTINO",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "51518",
+   "Jug_Sale": "SANTIAGO BRANCATO",
+   "CarneEntra": "58867",
+   "Jug_Entra": "BRUNO MARASCO",
+   "camiseta": "32",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "49012",
+   "Jug_Sale": "AGUSTIN SUPERVIELLE",
+   "CarneEntra": "58847",
+   "Jug_Entra": "JUAN DIEGO FAGNONI",
+   "camiseta": "70",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "49276",
+   "Jug_Sale": "MATEO TECHEIRA",
+   "CarneEntra": "59802",
+   "Jug_Entra": "VALENTINO GORAN BARREIRO",
+   "camiseta": "42",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "58711",
+   "Jug_Sale": "GERMAN MANGARELLI",
+   "CarneEntra": "46955",
+   "Jug_Entra": "FRANCISCO ARTURO CACERES",
+   "camiseta": "87",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "40859",
+   "Jug_Sale": "JUAN MANUEL FERREIRA",
+   "CarneEntra": "49486",
+   "Jug_Entra": "IGNACIO GONZALEZ",
+   "camiseta": "15",
+   "minutos": "72"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "57157",
+   "Jug_Sale": "FACUNDO PIRIS",
+   "CarneEntra": "64647",
+   "Jug_Entra": "FABRIZIO OSCAR PAGLIA",
+   "camiseta": "4",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "47696",
+   "Jug_Sale": "IGNACIO TOMAS ESTEFAN",
+   "CarneEntra": "50866",
+   "Jug_Entra": "JOSE SANTIAGO LUCAS",
+   "camiseta": "19",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "45815",
+   "Jug_Sale": "FRANCISCO MARICHAL",
+   "CarneEntra": "47673",
+   "Jug_Entra": "FRANCISCO JAVIER CAMPON",
+   "camiseta": "12",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "47176",
+   "Jug_Sale": "SANTIAGO BENZANO",
+   "CarneEntra": "47800",
+   "Jug_Entra": "MATIAS GARRIDO",
+   "camiseta": "18",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "47680",
+   "Jug_Sale": "JUAN FELIPE LUCAS",
+   "CarneEntra": "52764",
+   "Jug_Entra": "DIEGO BUELA",
+   "camiseta": "3",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "39017",
+   "Jug_Sale": "GERMAN FRAGA",
+   "CarneEntra": "56643",
+   "Jug_Entra": "FEDERICO MOSCA",
+   "camiseta": "14",
+   "minutos": "78"
+  }
+ ],
  "golesL": [],
- "golesV": [],
+ "golesV": [
+  {
+   "carne": "47176",
+   "Nombre": "SANTIAGO BENZANO",
+   "minutos": "68",
+   "EnContra": "1"
+  },
+  {
+   "carne": "47176",
+   "Nombre": "SANTIAGO BENZANO",
+   "minutos": "76",
+   "EnContra": "1"
+  },
+  {
+   "carne": "47673",
+   "Nombre": "FRANCISCO JAVIER CAMPON",
+   "minutos": "19",
+   "EnContra": "1"
+  },
+  {
+   "carne": "47673",
+   "Nombre": "FRANCISCO JAVIER CAMPON",
+   "minutos": "50",
+   "EnContra": "1"
+  },
+  {
+   "carne": "50866",
+   "Nombre": "JOSE SANTIAGO LUCAS",
+   "minutos": "75",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

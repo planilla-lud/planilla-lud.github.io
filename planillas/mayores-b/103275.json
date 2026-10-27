@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"B\" TIT. y ASC.",
   "Cancha": "COMPLEJO LAS CASUARINAS",
-  "Fecha_Inicio": "2026-10-25 12:45:00",
-  "Fecha_fin": "2026-10-25 12:45:00",
+  "Fecha_Inicio": "2026-10-25 13:30:00",
+  "Fecha_fin": "2026-10-25 13:30:00",
   "Locatario": "SAGRADA FAMILIA UNIVERSITARIO",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,227 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "41778",
+   "Nombre": "NICOLAS MACCIO",
+   "camiseta": "25",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "55634",
+   "Nombre": "SANTIAGO EMANUEL OJEDA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "46744",
+   "Nombre": "JOAQUIN CASTRO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "57750",
+   "Nombre": "DIEGO LOPEZ",
+   "camiseta": "66",
+   "Capitan": ""
+  },
+  {
+   "carne": "45854",
+   "Nombre": "JULIAN VELAZQUEZ",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "41375",
+   "Nombre": "SANTIAGO FALERO",
+   "camiseta": "98",
+   "Capitan": ""
+  },
+  {
+   "carne": "63138",
+   "Nombre": "MATIAS RAFAEL CORREA",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "55636",
+   "Nombre": "IGNACIO IRISARRI",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "49888",
+   "Nombre": "MANUEL DOGLIO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "66465",
+   "Nombre": "HECTOR AGUSTIN VEGA",
+   "camiseta": "84",
+   "Capitan": ""
+  },
+  {
+   "carne": "54663",
+   "Nombre": "ESTEBAN SANTIAGO LOPEZ",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "45776",
+   "Nombre": "NICOLAS DOMINGUEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "24053",
+   "Nombre": "JUAN IGNACIO MORO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "51505",
+   "Nombre": "MATEO GIOSA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "45775",
+   "Nombre": "FRANCO GIOSA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "46923",
+   "Nombre": "MATEO PARPAL",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "47375",
+   "Nombre": "JOAQUIN MARQUEZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "46862",
+   "Nombre": "JUAN IGNACIO GARCIA",
+   "camiseta": "20",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "51589",
+   "Nombre": "LUCAS TROVO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "43862",
+   "Nombre": "SANTIAGO TORRE",
+   "camiseta": "66",
+   "Capitan": ""
+  },
+  {
+   "carne": "47379",
+   "Nombre": "FEDERICO DANIEL GONZALEZ",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "46705",
+   "Nombre": "JUAN PABLO GONZALEZ",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "54663",
+   "Jug_Sale": "ESTEBAN SANTIAGO LOPEZ",
+   "CarneEntra": "53070",
+   "Jug_Entra": "JUAN IGNACIO MAGRINI",
+   "camiseta": "23",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "45854",
+   "Jug_Sale": "JULIAN VELAZQUEZ",
+   "CarneEntra": "53121",
+   "Jug_Entra": "ANDRES RUGGIERO",
+   "camiseta": "50",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "55634",
+   "Jug_Sale": "SANTIAGO EMANUEL OJEDA",
+   "CarneEntra": "58943",
+   "Jug_Entra": "MATIAS DIEGO MENDEZ",
+   "camiseta": "26",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "46744",
+   "Jug_Sale": "JOAQUIN CASTRO",
+   "CarneEntra": "64055",
+   "Jug_Entra": "LAUTHARO MANUEL GUGLIELMONE",
+   "camiseta": "77",
+   "minutos": "74"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "24053",
+   "Jug_Sale": "JUAN IGNACIO MORO",
+   "CarneEntra": "54192",
+   "Jug_Entra": "FEDERICO PEREZ",
+   "camiseta": "0",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "47379",
+   "Jug_Sale": "FEDERICO DANIEL GONZALEZ",
+   "CarneEntra": "52806",
+   "Jug_Entra": "SANTIAGO LUIS",
+   "camiseta": "25",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "46705",
+   "Jug_Sale": "JUAN PABLO GONZALEZ",
+   "CarneEntra": "63385",
+   "Jug_Entra": "JUAN IGNACIO DELGADO",
+   "camiseta": "14",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "51589",
+   "Jug_Sale": "LUCAS TROVO",
+   "CarneEntra": "47184",
+   "Jug_Entra": "NICOLAS FLEGINSKY",
+   "camiseta": "37",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "47375",
+   "Jug_Sale": "JOAQUIN MARQUEZ",
+   "CarneEntra": "47817",
+   "Jug_Entra": "CAMILO GILI",
+   "camiseta": "7",
+   "minutos": "86"
+  }
+ ],
  "golesL": [],
- "golesV": [],
+ "golesV": [
+  {
+   "carne": "47379",
+   "Nombre": "FEDERICO DANIEL GONZALEZ",
+   "minutos": "43",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }
