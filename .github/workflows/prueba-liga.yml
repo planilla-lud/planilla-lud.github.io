@@ -1,7 +1,7 @@
 name: Consultar Liga (temporal)
 on:
   push:
-    branches: [prueba-liga]
+    branches: [prueba-liga2]
 permissions:
   contents: write
 jobs:
