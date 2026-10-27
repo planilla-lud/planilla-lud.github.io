@@ -12,6 +12,10 @@ on:
     # Liga los publica. Si no falta nada (scripts/faltan.mjs), la corrida termina enseguida.
     - cron: '5 17-23 * * 0,6'
     - cron: '5 0-6 * * 0,1'
+    # Lunes a viernes, cada 2 horas de 8:05 a 0:05: la Liga sube las planillas del finde a cualquier hora de la
+    # semana. Igual que el finde, solo baja si hay algo nuevo.
+    - cron: '5 11-23/2 * * 1-5'
+    - cron: '5 1 * * 2-6'
   push:
     branches: [main]
     paths: ['scripts/**', '.github/workflows/actualizar.yml']

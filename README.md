@@ -117,7 +117,8 @@ arriba dice de cuándo son esos datos. No toca Supabase ni el servidor en vivo, 
 - GitHub Actions (`.github/workflows/actualizar.yml`) corre todo solo el domingo a las 18:35, de lunes
   a jueves a las 20:35 y el jueves a las 22:35, después de que salen los fallos (hora de Montevideo). Además,
   sábados y domingos se fija cada una hora, de 14:05 a 03:05, si hay partidos jugados sin cargar
-  (`scripts/faltan.mjs`): si hay, baja solo esos; si no, termina enseguida. Así lo del sábado (Reserva,
+  (`scripts/faltan.mjs`): si hay, baja solo esos; si no, termina enseguida. De lunes a viernes hace lo mismo
+  cada 2 horas, de 8:05 a 0:05, porque la Liga sube las planillas del finde a cualquier hora de la semana. Así lo del sábado (Reserva,
   Sub 20...) entra el mismo sábado de noche, apenas la Liga lo publica. También se puede correr a mano:
   Actions > "Actualizar planillas y bajas" > Run workflow.
 

@@ -1,12 +1,12 @@
 // ¿Hay partidos ya jugados que todavía no están cargados? Lo usa el robot en las corridas de cada hora
 // del fin de semana: si no falta nada, termina enseguida sin consultar a la Liga.
-// Falta algo si en las últimas 36 horas hay:
+// Falta algo si en los últimos 5 días hay:
 //  - un partido del fixture que ya empezó hace más de 2 horas (todavía no aparece con resultado), o
 //  - un partido con resultado pero sin la planilla (la Liga carga los titulares después).
 import { readdirSync, readFileSync, existsSync, appendFileSync } from 'node:fs';
 
 const DIR = new URL('../planillas/', import.meta.url);
-const ahora = Date.now(), desde = ahora - 36 * 3600e3;
+const ahora = Date.now(), desde = ahora - 5 * 864e5; // las planillas del finde pueden llegar hasta el jueves
 const hora = s => new Date(s.replace(' ', 'T') + '-03:00').getTime(); // las horas de la Liga son de Montevideo
 const faltan = [];
 
