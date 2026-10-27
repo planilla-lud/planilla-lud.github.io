@@ -1,0 +1,257 @@
+{
+ "id": "103390",
+ "categoria": "sub18",
+ "serie": "18P",
+ "fecha": 2,
+ "fechaHora": "2026-10-25 15:30:00",
+ "cancha": "BRITISH SCHOOL",
+ "local": "OLD BOYS CLUB",
+ "visitante": "DEPORTIVO MORON",
+ "gl": 0,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "381",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 18 ",
+  "categoria": "SUB 18 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB18 PLATA",
+  "Cancha": "BRITISH SCHOOL",
+  "Fecha_Inicio": "2026-10-25 17:30:00",
+  "Fecha_fin": "2026-10-25 17:30:00",
+  "Locatario": "OLD BOYS CLUB",
+  "goles_locatario": "0",
+  "puntos_locatario": "0",
+  "Visitante": "DEPORTIVO MORON",
+  "goles_visitante": "1",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "58840",
+   "Nombre": "BENJAMIN VALERIANI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "56265",
+   "Nombre": "JUAN MARTIN HRILJAC",
+   "camiseta": "3",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "57002",
+   "Nombre": "JUAN MARTIN CANUTI",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "58858",
+   "Nombre": "JOAQUIN QUINTO REYES",
+   "camiseta": "67",
+   "Capitan": ""
+  },
+  {
+   "carne": "56261",
+   "Nombre": "FRANCISCO NOVEGIL",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "62988",
+   "Nombre": "LUCAS BENJAMIN WOYCIK",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "56262",
+   "Nombre": "FRANCISCO NAVARRO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "56255",
+   "Nombre": "TOMAS YOUNG",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "58841",
+   "Nombre": "JUAN BAUTISTA BONOMI",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "56267",
+   "Nombre": "JOAQUIN GUTIERREZ",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "61996",
+   "Nombre": "JUAN MATEO MAGUNA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "57778",
+   "Nombre": "MANUEL CAMPOS",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "57774",
+   "Nombre": "BRUNO SICA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "58771",
+   "Nombre": "ALEJO RODRIGUEZ",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "58621",
+   "Nombre": "JUAN IGNACIO DUFFAU",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "57780",
+   "Nombre": "DIEGO BETTINELLI",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "58390",
+   "Nombre": "LUCAS EMILIANO MESSERE",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "68258",
+   "Nombre": "MAXIMILIANO CUBA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "63643",
+   "Nombre": "MATEO FAULORD",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "68658",
+   "Nombre": "SANTINO GOMEZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "64944",
+   "Nombre": "VALENTINO DECIA",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "56255",
+   "Jug_Sale": "TOMAS YOUNG",
+   "CarneEntra": "58844",
+   "Jug_Entra": "NICOLAS MONTERO",
+   "camiseta": "45",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "56261",
+   "Jug_Sale": "FRANCISCO NOVEGIL",
+   "CarneEntra": "56255",
+   "Jug_Entra": "TOMAS YOUNG",
+   "camiseta": "11",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "56265",
+   "Jug_Sale": "JUAN MARTIN HRILJAC",
+   "CarneEntra": "60174",
+   "Jug_Entra": "SANTIAGO VILLALBA",
+   "camiseta": "16",
+   "minutos": "82"
+  },
+  {
+   "CarneSale": "62988",
+   "Jug_Sale": "LUCAS BENJAMIN WOYCIK",
+   "CarneEntra": "58880",
+   "Jug_Entra": "FEDERICO BARBOSA",
+   "camiseta": "23",
+   "minutos": "82"
+  },
+  {
+   "CarneSale": "58858",
+   "Jug_Sale": "JOAQUIN QUINTO REYES",
+   "CarneEntra": "56273",
+   "Jug_Entra": "ALEXIS BRUCE",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58841",
+   "Jug_Sale": "JUAN BAUTISTA BONOMI",
+   "CarneEntra": "63428",
+   "Jug_Entra": "FAUSTO MILESI",
+   "camiseta": "21",
+   "minutos": "45"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "64944",
+   "Jug_Sale": "VALENTINO DECIA",
+   "CarneEntra": "61144",
+   "Jug_Entra": "FACUNDO LUIS D’AMICO",
+   "camiseta": "5",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "57778",
+   "Jug_Sale": "MANUEL CAMPOS",
+   "CarneEntra": "68022",
+   "Jug_Entra": "FACUNDO SEBASTIAN VILLAGRAN",
+   "camiseta": "22",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "68658",
+   "Jug_Sale": "SANTINO GOMEZ",
+   "CarneEntra": "57790",
+   "Jug_Entra": "FELIPE VALENTIN GARI",
+   "camiseta": "12",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68658",
+   "Jug_Sale": "SANTINO GOMEZ",
+   "CarneEntra": "68658",
+   "Jug_Entra": "SANTINO GOMEZ",
+   "camiseta": "20",
+   "minutos": "85"
+  }
+ ],
+ "golesL": [],
+ "golesV": [
+  {
+   "carne": "63643",
+   "Nombre": "MATEO FAULORD",
+   "minutos": "3",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

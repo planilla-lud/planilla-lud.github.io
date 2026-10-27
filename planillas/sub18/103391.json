@@ -1,0 +1,258 @@
+{
+ "id": "103391",
+ "categoria": "sub18",
+ "serie": "18B",
+ "fecha": 2,
+ "fechaHora": "2026-10-25 15:30:00",
+ "cancha": "COMPLEJO WOODLANDS SCHOOL",
+ "local": "OLD WOODLANDS CLUB",
+ "visitante": "ALEMAN UNIVERSITARIO",
+ "gl": 0,
+ "gv": 2,
+ "detalle": {
+  "nro_partido": "406",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 18 ",
+  "categoria": "SUB 18 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB18 BRONCE",
+  "Cancha": "COMPLEJO WOODLANDS SCHOOL",
+  "Fecha_Inicio": "2026-10-25 17:30:00",
+  "Fecha_fin": "2026-10-25 17:30:00",
+  "Locatario": "OLD WOODLANDS CLUB",
+  "goles_locatario": "0",
+  "puntos_locatario": "0",
+  "Visitante": "ALEMAN UNIVERSITARIO",
+  "goles_visitante": "2",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "63283",
+   "Nombre": "NICOLAS PINTOS",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "63286",
+   "Nombre": "ENZO PIGNANELLI",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "60450",
+   "Nombre": "MATEO AURRECOCHEA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "62378",
+   "Nombre": "SANTINO FINOZZI",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "62184",
+   "Nombre": "JUAN BODEGA",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "66128",
+   "Nombre": "FRANCISCO MARTINEZ",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "60819",
+   "Nombre": "RODRIGO DI BELLO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "61801",
+   "Nombre": "THIAGO MIRASSON",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "62206",
+   "Nombre": "MATEO ALONSO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "62204",
+   "Nombre": "JUAN MARTIN GALINDEZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "62195",
+   "Nombre": "FRANCO MORELLI",
+   "camiseta": "29",
+   "Capitan": "(C)"
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "58980",
+   "Nombre": "MATEO PONCE DE LEON",
+   "camiseta": "78",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "68153",
+   "Nombre": "MATEO DEAMBROSI",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "64307",
+   "Nombre": "VALENTIN GRUBITS",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "58845",
+   "Nombre": "JUAN ENRIQUE GONZALEZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "58855",
+   "Nombre": "JOAQUIN MARTINEZ",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "59753",
+   "Nombre": "MATIAS REVELLO",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "59109",
+   "Nombre": "SANTIAGO ALVAREZ",
+   "camiseta": "82",
+   "Capitan": ""
+  },
+  {
+   "carne": "57678",
+   "Nombre": "MATIAS AGUSTIN ALVES",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "59473",
+   "Nombre": "SANTIAGO OUTERELO",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "59474",
+   "Nombre": "AGUSTIN CHIAPPORI",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "62640",
+   "Nombre": "FRANCO ANDRES LOPEZ",
+   "camiseta": "17",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "62206",
+   "Jug_Sale": "MATEO ALONSO",
+   "CarneEntra": "64676",
+   "Jug_Entra": "PEDRO VECHIO",
+   "camiseta": "98",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61801",
+   "Jug_Sale": "THIAGO MIRASSON",
+   "CarneEntra": "68142",
+   "Jug_Entra": "MAURO PIGNANELLI",
+   "camiseta": "35",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68142",
+   "Jug_Sale": "MAURO PIGNANELLI",
+   "CarneEntra": "62205",
+   "Jug_Entra": "FRANCISCO AGUIRRE",
+   "camiseta": "66",
+   "minutos": "48"
+  },
+  {
+   "CarneSale": "62378",
+   "Jug_Sale": "SANTINO FINOZZI",
+   "CarneEntra": "62206",
+   "Jug_Entra": "MATEO ALONSO",
+   "camiseta": "6",
+   "minutos": "50"
+  },
+  {
+   "CarneSale": "63286",
+   "Jug_Sale": "ENZO PIGNANELLI",
+   "CarneEntra": "61801",
+   "Jug_Entra": "THIAGO MIRASSON",
+   "camiseta": "13",
+   "minutos": "62"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "62640",
+   "Jug_Sale": "FRANCO ANDRES LOPEZ",
+   "CarneEntra": "68152",
+   "Jug_Entra": "LEANDRO FERNANDEZ",
+   "camiseta": "9",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "59753",
+   "Jug_Sale": "MATIAS REVELLO",
+   "CarneEntra": "62638",
+   "Jug_Entra": "LEANDRO BARBOZA",
+   "camiseta": "4",
+   "minutos": "90"
+  },
+  {
+   "CarneSale": "58980",
+   "Jug_Sale": "MATEO PONCE DE LEON",
+   "CarneEntra": "56121",
+   "Jug_Entra": "TOMAS APRAHAMIAN",
+   "camiseta": "2",
+   "minutos": "45"
+  }
+ ],
+ "golesL": [],
+ "golesV": [
+  {
+   "carne": "58855",
+   "Nombre": "JOAQUIN MARTINEZ",
+   "minutos": "1",
+   "EnContra": "1"
+  },
+  {
+   "carne": "58855",
+   "Nombre": "JOAQUIN MARTINEZ",
+   "minutos": "12",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": [
+  {
+   "Nombre": "JOAQUIN MARTINEZ",
+   "observaciones": ""
+  }
+ ]
+}

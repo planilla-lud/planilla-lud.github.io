@@ -1,0 +1,292 @@
+{
+ "id": "103392",
+ "categoria": "sub18",
+ "serie": "18B",
+ "fecha": 2,
+ "fechaHora": "2026-10-25 15:30:00",
+ "cancha": "THE ANGLO SCHOOL",
+ "local": "ANGLO SCHOOL UNIVERSITARIO",
+ "visitante": "SAN PABLO UNIVERSITARIO",
+ "gl": 3,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "407",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 18 ",
+  "categoria": "SUB 18 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB18 BRONCE",
+  "Cancha": "THE ANGLO SCHOOL",
+  "Fecha_Inicio": "2026-10-25 17:10:00",
+  "Fecha_fin": "2026-10-25 17:10:00",
+  "Locatario": "ANGLO SCHOOL UNIVERSITARIO",
+  "goles_locatario": "3",
+  "puntos_locatario": "3",
+  "Visitante": "SAN PABLO UNIVERSITARIO",
+  "goles_visitante": "1",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "66339",
+   "Nombre": "MATEO MARCOS FAZIO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "63040",
+   "Nombre": "LORENZO PEREIRA DA FONSECA",
+   "camiseta": "3",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "60461",
+   "Nombre": "BAUTISTA LOPEZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "60487",
+   "Nombre": "SANTIAGO LUVIZIO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "60481",
+   "Nombre": "IGNACIO MARTIN GOMEZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "60337",
+   "Nombre": "MATEO GLISENTI",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "66778",
+   "Nombre": "SANTIAGO MACEDO",
+   "camiseta": "50",
+   "Capitan": ""
+  },
+  {
+   "carne": "67128",
+   "Nombre": "FRANCISCO VERNASSA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "64236",
+   "Nombre": "NICOLAS KRUL",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "62547",
+   "Nombre": "GUILERMO DIEGO POMI",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "60434",
+   "Nombre": "BAUTISTA PATRONE",
+   "camiseta": "4",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "64487",
+   "Nombre": "HUGO FELIPE CASAL",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "64488",
+   "Nombre": "JOAQUIN HECTOR CERRUDO",
+   "camiseta": "80",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "65436",
+   "Nombre": "SANTINO ROMAGNOLI",
+   "camiseta": "92",
+   "Capitan": ""
+  },
+  {
+   "carne": "64482",
+   "Nombre": "FRANCESCO GIOVANELLI",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "60280",
+   "Nombre": "MATIAS MENDOZA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "67400",
+   "Nombre": "JOAQUIN PEÑA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "64490",
+   "Nombre": "FACUNDO MORENO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "64823",
+   "Nombre": "SAID YAPOR",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "65764",
+   "Nombre": "JOAQUIN CARRASCO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "66462",
+   "Nombre": "JUAN IGNACIO PEREZ",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "64826",
+   "Nombre": "SEBASTIAN DANIEL URETA",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "60434",
+   "Jug_Sale": "BAUTISTA PATRONE",
+   "CarneEntra": "60840",
+   "Jug_Entra": "EZEQUIEL MORALES",
+   "camiseta": "8",
+   "minutos": "23"
+  },
+  {
+   "CarneSale": "67128",
+   "Jug_Sale": "FRANCISCO VERNASSA",
+   "CarneEntra": "68430",
+   "Jug_Entra": "ENZO MIRABALLES",
+   "camiseta": "77",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "60481",
+   "Jug_Sale": "IGNACIO MARTIN GOMEZ",
+   "CarneEntra": "67129",
+   "Jug_Entra": "DELLAN SANTANA",
+   "camiseta": "25",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "60840",
+   "Jug_Sale": "EZEQUIEL MORALES",
+   "CarneEntra": "67386",
+   "Jug_Entra": "IAN MOLDAVSKY",
+   "camiseta": "5",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "66778",
+   "Jug_Sale": "SANTIAGO MACEDO",
+   "CarneEntra": "67128",
+   "Jug_Entra": "FRANCISCO VERNASSA",
+   "camiseta": "7",
+   "minutos": "50"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "64826",
+   "Jug_Sale": "SEBASTIAN DANIEL URETA",
+   "CarneEntra": "68329",
+   "Jug_Entra": "BENICIO ROCA",
+   "camiseta": "25",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "60280",
+   "Jug_Sale": "MATIAS MENDOZA",
+   "CarneEntra": "64486",
+   "Jug_Entra": "SANTINO OROÑA",
+   "camiseta": "9",
+   "minutos": "86"
+  },
+  {
+   "CarneSale": "65436",
+   "Jug_Sale": "SANTINO ROMAGNOLI",
+   "CarneEntra": "64824",
+   "Jug_Entra": "MAURO CAMI",
+   "camiseta": "8",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64823",
+   "Jug_Sale": "SAID YAPOR",
+   "CarneEntra": "68529",
+   "Jug_Entra": "SANTIAGO DE LEON",
+   "camiseta": "97",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67400",
+   "Jug_Sale": "JOAQUIN PEÑA",
+   "CarneEntra": "68528",
+   "Jug_Entra": "FRANCISCO CASTRILLON",
+   "camiseta": "34",
+   "minutos": "45"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "60337",
+   "Nombre": "MATEO GLISENTI",
+   "minutos": "12",
+   "EnContra": "0"
+  },
+  {
+   "carne": "64236",
+   "Nombre": "NICOLAS KRUL",
+   "minutos": "31",
+   "EnContra": "0"
+  },
+  {
+   "carne": "64236",
+   "Nombre": "NICOLAS KRUL",
+   "minutos": "93",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "66462",
+   "Nombre": "JUAN IGNACIO PEREZ",
+   "minutos": "70",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "GUILERMO DIEGO POMI",
+   "observaciones": ""
+  }
+ ],
+ "expulsadosV": [
+  {
+   "Nombre": "FRANCESCO GIOVANELLI",
+   "observaciones": ""
+  }
+ ]
+}

@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"E\" TIT. y ASC.",
   "Cancha": "CAMPO DEP. COLEGIO INGLES",
-  "Fecha_Inicio": "2026-10-25 10:30:00",
-  "Fecha_fin": "2026-10-25 10:30:00",
+  "Fecha_Inicio": "2026-10-25 10:50:00",
+  "Fecha_fin": "2026-10-25 10:50:00",
   "Locatario": "CAFU",
   "goles_locatario": "4",
   "puntos_locatario": "3",
@@ -29,12 +29,271 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "51727",
+   "Nombre": "MARCOS CARRION",
+   "camiseta": "96",
+   "Capitan": ""
+  },
+  {
+   "carne": "29538",
+   "Nombre": "MATIAS DA CUNHA",
+   "camiseta": "21",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "51170",
+   "Nombre": "NICOLAS FLORIAN GONZALEZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "35456",
+   "Nombre": "NICOLAS CAVASSA",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "56736",
+   "Nombre": "JUAN ESPINA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "34500",
+   "Nombre": "RODRIGO GABRIEL ANGELOTTI",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "52901",
+   "Nombre": "SALVADOR BURGOS",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "54698",
+   "Nombre": "SEBASTIAN MARCOS GONZALEZ",
+   "camiseta": "71",
+   "Capitan": ""
+  },
+  {
+   "carne": "66200",
+   "Nombre": "AGUSTIN NICOLAS ARAMBILLETE",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "55620",
+   "Nombre": "LUCAS BRITOS",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "55960",
+   "Nombre": "LUCAS BERNARDO BARJAS",
+   "camiseta": "22",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "59374",
+   "Nombre": "MATIAS CRISPINO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "64885",
+   "Nombre": "JOAQUIN EZEQUIEL ARISENDI",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "43870",
+   "Nombre": "BRUNO FREGNI",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "43869",
+   "Nombre": "SEBASTIAN BONANNI",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "41133",
+   "Nombre": "FEDERICO SERGIO GAZZANI",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "68725",
+   "Nombre": "SEBASTIAN ALEXANDER AREVALO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "45699",
+   "Nombre": "IGNACIO FEDERICO ALESINA",
+   "camiseta": "79",
+   "Capitan": ""
+  },
+  {
+   "carne": "63647",
+   "Nombre": "SANTIAGO PEREZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "67389",
+   "Nombre": "SANTIAGO DAMIAN VELAZQUEZ",
+   "camiseta": "91",
+   "Capitan": ""
+  },
+  {
+   "carne": "51611",
+   "Nombre": "AGUSTIN BOERO",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "43944",
+   "Nombre": "SANTIAGO TECHEIRA",
+   "camiseta": "13",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "35456",
+   "Jug_Sale": "NICOLAS CAVASSA",
+   "CarneEntra": "53761",
+   "Jug_Entra": "EMILIANO GASPAR TRUJILLO",
+   "camiseta": "18",
+   "minutos": "31"
+  },
+  {
+   "CarneSale": "34500",
+   "Jug_Sale": "RODRIGO GABRIEL ANGELOTTI",
+   "CarneEntra": "59440",
+   "Jug_Entra": "GONZALO FEDERICO CUÑA",
+   "camiseta": "28",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "29538",
+   "Jug_Sale": "MATIAS DA CUNHA",
+   "CarneEntra": "51165",
+   "Jug_Entra": "SERGIO FACUNDO DIAZ",
+   "camiseta": "17",
+   "minutos": "52"
+  },
+  {
+   "CarneSale": "55960",
+   "Jug_Sale": "LUCAS BERNARDO BARJAS",
+   "CarneEntra": "56110",
+   "Jug_Entra": "IGNACIO TABEIRA",
+   "camiseta": "6",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "66200",
+   "Jug_Sale": "AGUSTIN NICOLAS ARAMBILLETE",
+   "CarneEntra": "52903",
+   "Jug_Entra": "JOAQUIN PABLO GONZALEZ",
+   "camiseta": "41",
+   "minutos": "85"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "43944",
+   "Jug_Sale": "SANTIAGO TECHEIRA",
+   "CarneEntra": "43868",
+   "Jug_Entra": "NICOLAS LOGALDO",
+   "camiseta": "9",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "63647",
+   "Jug_Sale": "SANTIAGO PEREZ",
+   "CarneEntra": "58046",
+   "Jug_Entra": "LUCAS DANIEL ABALO",
+   "camiseta": "80",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68725",
+   "Jug_Sale": "SEBASTIAN ALEXANDER AREVALO",
+   "CarneEntra": "55788",
+   "Jug_Entra": "JUAN IGNACIO BECOÑA",
+   "camiseta": "71",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "51611",
+   "Jug_Sale": "AGUSTIN BOERO",
+   "CarneEntra": "54759",
+   "Jug_Entra": "AGUSTIN GALINDEZ",
+   "camiseta": "20",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "67389",
+   "Jug_Sale": "SANTIAGO DAMIAN VELAZQUEZ",
+   "CarneEntra": "47648",
+   "Jug_Entra": "JOAQUIN GELABERT",
+   "camiseta": "24",
+   "minutos": "80"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "29538",
+   "Nombre": "MATIAS DA CUNHA",
+   "minutos": "22",
+   "EnContra": "0"
+  },
+  {
+   "carne": "52901",
+   "Nombre": "SALVADOR BURGOS",
+   "minutos": "65",
+   "EnContra": "0"
+  },
+  {
+   "carne": "59440",
+   "Nombre": "GONZALO FEDERICO CUÑA",
+   "minutos": "73",
+   "EnContra": "0"
+  },
+  {
+   "carne": "66200",
+   "Nombre": "AGUSTIN NICOLAS ARAMBILLETE",
+   "minutos": "84",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "43944",
+   "Nombre": "SANTIAGO TECHEIRA",
+   "minutos": "45",
+   "EnContra": "1"
+  },
+  {
+   "carne": "68725",
+   "Nombre": "SEBASTIAN ALEXANDER AREVALO",
+   "minutos": "13",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
- "expulsadosV": []
+ "expulsadosV": [
+  {
+   "Nombre": "JOAQUIN EZEQUIEL ARISENDI",
+   "observaciones": ""
+  }
+ ]
 }

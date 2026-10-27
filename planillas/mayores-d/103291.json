@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"D\" TIT. y ASC.",
   "Cancha": "ESCUELA NAVAL",
-  "Fecha_Inicio": "2026-10-25 12:45:00",
-  "Fecha_fin": "2026-10-25 12:45:00",
+  "Fecha_Inicio": "2026-10-25 13:15:00",
+  "Fecha_fin": "2026-10-25 13:15:00",
   "Locatario": "YAGUARI",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,249 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "39264",
+   "Nombre": "BRUNO MARTINEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "39047",
+   "Nombre": "MAXIMILIANO ALEXIS ROSE",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "39438",
+   "Nombre": "MARTIN FONT",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "39046",
+   "Nombre": "RAFAEL FERREIRA",
+   "camiseta": "28",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "52482",
+   "Nombre": "JUAN AGUSTIN CARBONE",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "48531",
+   "Nombre": "FELIPE ROCA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "31503",
+   "Nombre": "SANTIAGO GALLINAL",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "64265",
+   "Nombre": "DIEGO CALLEROS",
+   "camiseta": "70",
+   "Capitan": ""
+  },
+  {
+   "carne": "55079",
+   "Nombre": "EMILIANO CARDOZO",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "54378",
+   "Nombre": "NICOLAS VAZQUEZ",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "37406",
+   "Nombre": "NICOLAS VARESE",
+   "camiseta": "8",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "30410",
+   "Nombre": "PABLO SANTIAGO NARBONDO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "41982",
+   "Nombre": "JUAN DIEGO FIANDRA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "41349",
+   "Nombre": "MARTIN NICOLAS GONZALEZ",
+   "camiseta": "25",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "58126",
+   "Nombre": "VALENTINO BERTINAT",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "41177",
+   "Nombre": "GONZALO MUÑOZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "68738",
+   "Nombre": "SANTIAGO ANDRES CURBELO",
+   "camiseta": "76",
+   "Capitan": ""
+  },
+  {
+   "carne": "41293",
+   "Nombre": "GERONIMO MARTIN BARERA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "63636",
+   "Nombre": "MATEO SILVA",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "39331",
+   "Nombre": "FELIPE OMAR GOYENOLA",
+   "camiseta": "98",
+   "Capitan": ""
+  },
+  {
+   "carne": "41814",
+   "Nombre": "AGUSTIN CARO",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "48462",
+   "Nombre": "JUAN MIGUEL NOCETTI",
+   "camiseta": "14",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "48531",
+   "Jug_Sale": "FELIPE ROCA",
+   "CarneEntra": "59855",
+   "Jug_Entra": "SALVADOR BENTANCUR",
+   "camiseta": "37",
+   "minutos": "69"
+  },
+  {
+   "CarneSale": "54378",
+   "Jug_Sale": "NICOLAS VAZQUEZ",
+   "CarneEntra": "47709",
+   "Jug_Entra": "MATIAS VIDAL",
+   "camiseta": "21",
+   "minutos": "69"
+  },
+  {
+   "CarneSale": "37406",
+   "Jug_Sale": "NICOLAS VARESE",
+   "CarneEntra": "28114",
+   "Jug_Entra": "SEBASTIAN EASTMAN",
+   "camiseta": "10",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "64265",
+   "Jug_Sale": "DIEGO CALLEROS",
+   "CarneEntra": "51078",
+   "Jug_Entra": "FRANCISCO AMOZA",
+   "camiseta": "7",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "52482",
+   "Jug_Sale": "JUAN AGUSTIN CARBONE",
+   "CarneEntra": "33375",
+   "Jug_Entra": "JOSE IGNACIO SAENZ",
+   "camiseta": "6",
+   "minutos": "86"
+  },
+  {
+   "CarneSale": "31503",
+   "Jug_Sale": "SANTIAGO GALLINAL",
+   "CarneEntra": "34284",
+   "Jug_Entra": "NICOLAS MAXILIANO VAZQUEZ",
+   "camiseta": "22",
+   "minutos": "90"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "41814",
+   "Jug_Sale": "AGUSTIN CARO",
+   "CarneEntra": "62278",
+   "Jug_Entra": "DANIEL BALPARDA",
+   "camiseta": "20",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "48462",
+   "Jug_Sale": "JUAN MIGUEL NOCETTI",
+   "CarneEntra": "37106",
+   "Jug_Entra": "JOSE ANTONIO FONSECA",
+   "camiseta": "11",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "39331",
+   "Jug_Sale": "FELIPE OMAR GOYENOLA",
+   "CarneEntra": "45689",
+   "Jug_Entra": "NICOLÀS VALLES",
+   "camiseta": "9",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "41177",
+   "Jug_Sale": "GONZALO MUÑOZ",
+   "CarneEntra": "37344",
+   "Jug_Entra": "LEANDRO ALCIDES LEDESMA",
+   "camiseta": "15",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "68738",
+   "Jug_Sale": "SANTIAGO ANDRES CURBELO",
+   "CarneEntra": "41171",
+   "Jug_Entra": "MATIAS JUAN BASSAIZTEGUY",
+   "camiseta": "50",
+   "minutos": "92"
+  }
+ ],
  "golesL": [],
- "golesV": [],
+ "golesV": [
+  {
+   "carne": "37106",
+   "Nombre": "JOSE ANTONIO FONSECA",
+   "minutos": "94",
+   "EnContra": "1"
+  },
+  {
+   "carne": "41293",
+   "Nombre": "GERONIMO MARTIN BARERA",
+   "minutos": "83",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

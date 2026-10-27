@@ -4,7 +4,7 @@
  "serie": "FTA",
  "fecha": 5,
  "fechaHora": "2026-10-25 09:00:00",
- "cancha": "COMPLEJO LOS ROJOS",
+ "cancha": "()",
  "local": "TACUAREMBO UNIVERSITARIO",
  "visitante": "FLORES UNIVERSITARIO",
  "gl": 2,
@@ -17,9 +17,9 @@
   "categoria": "MAYORES MASCULINO",
   "rueda": "2",
   "Divisional": "MAYORES \"F\" TIT. y ASC.",
-  "Cancha": "COMPLEJO LOS ROJOS",
-  "Fecha_Inicio": "2026-10-25 10:30:00",
-  "Fecha_fin": "2026-10-25 10:30:00",
+  "Cancha": "()",
+  "Fecha_Inicio": "2026-10-25 11:00:00",
+  "Fecha_fin": "2026-10-25 11:00:00",
   "Locatario": "TACUAREMBO UNIVERSITARIO",
   "goles_locatario": "2",
   "puntos_locatario": "1",
@@ -29,12 +29,238 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "58891",
+   "Nombre": "ALEJO ARRIOLA",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "53798",
+   "Nombre": "GREGG DELBONO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "38875",
+   "Nombre": "MARIO RAFAEL CASTILLO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "43770",
+   "Nombre": "IGNACIO JORGE GRUNFELD",
+   "camiseta": "3",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "65189",
+   "Nombre": "ANDERSON NAUEL JARA",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "65787",
+   "Nombre": "LAUTARO GUZMAN SEGREDO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "64715",
+   "Nombre": "RODRIGO CALDAS",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "64714",
+   "Nombre": "GONZALO CALDAS",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "56984",
+   "Nombre": "SANTIAGO RAMOS",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "64116",
+   "Nombre": "JUAN MARTIN ANSALDO",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "64574",
+   "Nombre": "CLEMENT AURELIEN R HOUDELINE",
+   "camiseta": "24",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "41557",
+   "Nombre": "FABRIZZIO DE ARMAS",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "63756",
+   "Nombre": "CAMILO PEREZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "50321",
+   "Nombre": "FERNANDO AGUSTIN SEVERO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "58511",
+   "Nombre": "LUCAS MOLINA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "36968",
+   "Nombre": "MARTIN PRATO",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "42894",
+   "Nombre": "MARTIN POLLERO",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "41494",
+   "Nombre": "SERGIO JAVIER HEREDIA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "35341",
+   "Nombre": "BRUNO DAMIAN BUENDIA",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "61226",
+   "Nombre": "GUILLERMO BAYARRES",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "62231",
+   "Nombre": "SANTIAGO TABACAMBI GUERRA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "58510",
+   "Nombre": "NANSEN MAURICIO ALDETA",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "65787",
+   "Jug_Sale": "LAUTARO GUZMAN SEGREDO",
+   "CarneEntra": "53839",
+   "Jug_Entra": "GONZALO CAMILO LEAL",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56984",
+   "Jug_Sale": "SANTIAGO RAMOS",
+   "CarneEntra": "65784",
+   "Jug_Entra": "WASHINGTON NAUHEL MENCAHCA",
+   "camiseta": "19",
+   "minutos": "45"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "61226",
+   "Jug_Sale": "GUILLERMO BAYARRES",
+   "CarneEntra": "50639",
+   "Jug_Entra": "NICOLAS DINTINO",
+   "camiseta": "7",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "62231",
+   "Jug_Sale": "SANTIAGO TABACAMBI GUERRA",
+   "CarneEntra": "61673",
+   "Jug_Entra": "GUIDO NICOLAS SOSA ROLFO",
+   "camiseta": "27",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "42894",
+   "Jug_Sale": "MARTIN POLLERO",
+   "CarneEntra": "41475",
+   "Jug_Entra": "DANIEL TORRES",
+   "camiseta": "14",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "35341",
+   "Jug_Sale": "BRUNO DAMIAN BUENDIA",
+   "CarneEntra": "52350",
+   "Jug_Entra": "MATIAS IRAZABAL",
+   "camiseta": "50",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "58510",
+   "Jug_Sale": "NANSEN MAURICIO ALDETA",
+   "CarneEntra": "60137",
+   "Jug_Entra": "ELEAZAR TORRES",
+   "camiseta": "29",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "36968",
+   "Jug_Sale": "MARTIN PRATO",
+   "CarneEntra": "41479",
+   "Jug_Entra": "AGUSTIN IBIÑETE",
+   "camiseta": "4",
+   "minutos": "90"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "53839",
+   "Nombre": "GONZALO CAMILO LEAL",
+   "minutos": "53",
+   "EnContra": "0"
+  },
+  {
+   "carne": "64714",
+   "Nombre": "GONZALO CALDAS",
+   "minutos": "60",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "50321",
+   "Nombre": "FERNANDO AGUSTIN SEVERO",
+   "minutos": "42",
+   "EnContra": "1"
+  },
+  {
+   "carne": "62231",
+   "Nombre": "SANTIAGO TABACAMBI GUERRA",
+   "minutos": "18",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

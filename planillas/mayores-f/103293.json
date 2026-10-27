@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"F\" PERM. y DESC.",
   "Cancha": "THE ANGLO SCHOOL",
-  "Fecha_Inicio": "2026-10-25 12:45:00",
-  "Fecha_fin": "2026-10-25 12:45:00",
+  "Fecha_Inicio": "2026-10-25 13:00:00",
+  "Fecha_fin": "2026-10-25 13:00:00",
   "Locatario": "ANGLO SCHOOL UNIVERSITARIO",
   "goles_locatario": "4",
   "puntos_locatario": "3",
@@ -29,11 +29,284 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "66339",
+   "Nombre": "MATEO MARCOS FAZIO",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "59761",
+   "Nombre": "BRUNO LAVIE",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "43795",
+   "Nombre": "MARTIN VALERO",
+   "camiseta": "70",
+   "Capitan": ""
+  },
+  {
+   "carne": "43337",
+   "Nombre": "JUAN MANUEL URTIAGA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "42729",
+   "Nombre": "VALENTIN ALEJANDRO FERNANDEZ",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "52808",
+   "Nombre": "SEBASTIAN USHER",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "66778",
+   "Nombre": "SANTIAGO MACEDO",
+   "camiseta": "50",
+   "Capitan": ""
+  },
+  {
+   "carne": "49009",
+   "Nombre": "FACUNDO ACUÑA",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "45786",
+   "Nombre": "KEVIN TAUBER",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "59513",
+   "Nombre": "JUAN DIEGO HERNANDEZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "62420",
+   "Nombre": "MATIAS LABORDE",
+   "camiseta": "0",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "63726",
+   "Nombre": "EZEQUIEL JONATHAN CABRERA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "64983",
+   "Nombre": "TIMOTEO BENJAMIN ROMAN",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "67101",
+   "Nombre": "FACUNDO RUBEN GOMEZ",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "59927",
+   "Nombre": "ANDERSON YOEL AGUIRRE",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "63646",
+   "Nombre": "MAURO JULIAN ALVAREZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "67103",
+   "Nombre": "EMANUEL ABDIEL DE GRACIA",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "62580",
+   "Nombre": "JOAQUIN ADRIAN VALS",
+   "camiseta": "30",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "62576",
+   "Nombre": "SANTIAGO VALENTIN SOSA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "67100",
+   "Nombre": "FABRICCIO EMANUEL MELNECIUC",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "66435",
+   "Nombre": "LAUTARO DE LEON",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "66116",
+   "Nombre": "EMILIANO CRUZ",
+   "camiseta": "15",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "59761",
+   "Jug_Sale": "BRUNO LAVIE",
+   "CarneEntra": "49636",
+   "Jug_Entra": "AGUSTIN ALGORTA",
+   "camiseta": "32",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "62420",
+   "Jug_Sale": "MATIAS LABORDE",
+   "CarneEntra": "52402",
+   "Jug_Entra": "PEDRO SCHELOTTO",
+   "camiseta": "6",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "45786",
+   "Jug_Sale": "KEVIN TAUBER",
+   "CarneEntra": "58665",
+   "Jug_Entra": "TOMAS ALGORTA",
+   "camiseta": "77",
+   "minutos": "74"
+  },
+  {
+   "CarneSale": "42729",
+   "Jug_Sale": "VALENTIN ALEJANDRO FERNANDEZ",
+   "CarneEntra": "60434",
+   "Jug_Entra": "BAUTISTA PATRONE",
+   "camiseta": "4",
+   "minutos": "74"
+  },
+  {
+   "CarneSale": "43795",
+   "Jug_Sale": "MARTIN VALERO",
+   "CarneEntra": "53171",
+   "Jug_Entra": "FRANCISCO ACUÑA",
+   "camiseta": "33",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "59513",
+   "Jug_Sale": "JUAN DIEGO HERNANDEZ",
+   "CarneEntra": "59555",
+   "Jug_Entra": "JUAN MANUEL BIA",
+   "camiseta": "9",
+   "minutos": "83"
+  },
+  {
+   "CarneSale": "66778",
+   "Jug_Sale": "SANTIAGO MACEDO",
+   "CarneEntra": "62873",
+   "Jug_Entra": "MATEO AGUSTIN ARDENTE",
+   "camiseta": "60",
+   "minutos": "83"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "62576",
+   "Jug_Sale": "SANTIAGO VALENTIN SOSA",
+   "CarneEntra": "65999",
+   "Jug_Entra": "LEANDRO DI PASCUA",
+   "camiseta": "71",
+   "minutos": "17"
+  },
+  {
+   "CarneSale": "62580",
+   "Jug_Sale": "JOAQUIN ADRIAN VALS",
+   "CarneEntra": "62686",
+   "Jug_Entra": "HECTRO ELIAS CORBO",
+   "camiseta": "5",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67100",
+   "Jug_Sale": "FABRICCIO EMANUEL MELNECIUC",
+   "CarneEntra": "68274",
+   "Jug_Entra": "JUAN MARTIN FLORES",
+   "camiseta": "12",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66116",
+   "Jug_Sale": "EMILIANO CRUZ",
+   "CarneEntra": "60985",
+   "Jug_Entra": "FABIO JULIANO SILVA",
+   "camiseta": "11",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "64983",
+   "Jug_Sale": "TIMOTEO BENJAMIN ROMAN",
+   "CarneEntra": "67100",
+   "Jug_Entra": "FABRICCIO EMANUEL MELNECIUC",
+   "camiseta": "32",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "67103",
+   "Jug_Sale": "EMANUEL ABDIEL DE GRACIA",
+   "CarneEntra": "60938",
+   "Jug_Entra": "FRANCO VEZZOSO",
+   "camiseta": "35",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "66435",
+   "Jug_Sale": "LAUTARO DE LEON",
+   "CarneEntra": "67103",
+   "Jug_Entra": "EMANUEL ABDIEL DE GRACIA",
+   "camiseta": "28",
+   "minutos": "78"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "43337",
+   "Nombre": "JUAN MANUEL URTIAGA",
+   "minutos": "22",
+   "EnContra": "0"
+  },
+  {
+   "carne": "43795",
+   "Nombre": "MARTIN VALERO",
+   "minutos": "60",
+   "EnContra": "0"
+  },
+  {
+   "carne": "45786",
+   "Nombre": "KEVIN TAUBER",
+   "minutos": "23",
+   "EnContra": "0"
+  },
+  {
+   "carne": "45786",
+   "Nombre": "KEVIN TAUBER",
+   "minutos": "28",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

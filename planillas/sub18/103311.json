@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB18 PLATA",
   "Cancha": "CIUDAD DEPORTIVA LS",
-  "Fecha_Inicio": "2026-10-25 17:00:00",
-  "Fecha_fin": "2026-10-25 17:00:00",
+  "Fecha_Inicio": "2026-10-25 17:15:00",
+  "Fecha_fin": "2026-10-25 17:15:00",
   "Locatario": "DEPORTIVO LS UNIVERSITARIO",
   "goles_locatario": "1",
   "puntos_locatario": "1",
@@ -29,12 +29,226 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "61026",
+   "Nombre": "MANUEL BARRERA",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "62927",
+   "Nombre": "LORENZO ANTONIO FERRARI",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "61057",
+   "Nombre": "MATEO NICOLI",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "66726",
+   "Nombre": "FACUNDO BIQUE",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "63703",
+   "Nombre": "MATHIAS AGUSTIN LOPEZ",
+   "camiseta": "2",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "59411",
+   "Nombre": "TIAGO MARTIN RAYMONDO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "67080",
+   "Nombre": "LUCIANO DAVID MOURA",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "59433",
+   "Nombre": "TOMAS SEBASTIAN FRANCO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "67172",
+   "Nombre": "JOAQUIN ACOSTA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "67085",
+   "Nombre": "SANTINO IPARRAGUIRRE",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "59417",
+   "Nombre": "BENJAMIN ALVAREZ",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "61017",
+   "Nombre": "NAHUEL CRISTOBO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "68628",
+   "Nombre": "JOAQUIN ISMAEL CARDOZO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "67073",
+   "Nombre": "LUCAS EZEQUIEL SERPA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "57245",
+   "Nombre": "AGUSTIN EMMANUEL TORIJA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "68461",
+   "Nombre": "RENZO NAHUEL CEDRES",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "57237",
+   "Nombre": "ANGEL SEBASTIAN MARTINEZ",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "62213",
+   "Nombre": "NICOLAS FERNANDEZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "64614",
+   "Nombre": "FACUNDO AGUSTIN PELUFFO",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "60432",
+   "Nombre": "FELIPE CERONI",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "67074",
+   "Nombre": "TOMÀS CENTURIÒN",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "58261",
+   "Nombre": "NICOLAS ACUÑA",
+   "camiseta": "32",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "62927",
+   "Jug_Sale": "LORENZO ANTONIO FERRARI",
+   "CarneEntra": "60212",
+   "Jug_Entra": "VALENTIN RODRIGUEZ",
+   "camiseta": "4",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "67172",
+   "Jug_Sale": "JOAQUIN ACOSTA",
+   "CarneEntra": "66182",
+   "Jug_Entra": "FABIAN LEONEL DZIEWULECKA",
+   "camiseta": "15",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67085",
+   "Jug_Sale": "SANTINO IPARRAGUIRRE",
+   "CarneEntra": "64296",
+   "Jug_Entra": "JUAN PABLO AGUIRREZABALA",
+   "camiseta": "24",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "67172",
+   "Jug_Sale": "JOAQUIN ACOSTA",
+   "CarneEntra": "67172",
+   "Jug_Entra": "JOAQUIN ACOSTA",
+   "camiseta": "16",
+   "minutos": "81"
+  },
+  {
+   "CarneSale": "59417",
+   "Jug_Sale": "BENJAMIN ALVAREZ",
+   "CarneEntra": "59981",
+   "Jug_Entra": "JUAN PABLO PORTA",
+   "camiseta": "22",
+   "minutos": "90"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "58261",
+   "Jug_Sale": "NICOLAS ACUÑA",
+   "CarneEntra": "57583",
+   "Jug_Entra": "KEVIN FACUNDO MAGURNO",
+   "camiseta": "21",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "57237",
+   "Jug_Sale": "ANGEL SEBASTIAN MARTINEZ",
+   "CarneEntra": "62302",
+   "Jug_Entra": "JUAN IGNACIO CABALLERO",
+   "camiseta": "99",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "68628",
+   "Jug_Sale": "JOAQUIN ISMAEL CARDOZO",
+   "CarneEntra": "57580",
+   "Jug_Entra": "FELIPE MATTHEY",
+   "camiseta": "8",
+   "minutos": "85"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "59417",
+   "Nombre": "BENJAMIN ALVAREZ",
+   "minutos": "60",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "62302",
+   "Nombre": "JUAN IGNACIO CABALLERO",
+   "minutos": "90",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

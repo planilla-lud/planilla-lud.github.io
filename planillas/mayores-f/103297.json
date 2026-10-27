@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"F\" TIT. y ASC.",
   "Cancha": "COMPLEJO LAS CASUARINAS",
-  "Fecha_Inicio": "2026-10-25 10:30:00",
-  "Fecha_fin": "2026-10-25 10:30:00",
+  "Fecha_Inicio": "2026-10-25 11:00:00",
+  "Fecha_fin": "2026-10-25 11:00:00",
   "Locatario": "PALLOTTI UNIVERSITARIO",
   "goles_locatario": "1",
   "puntos_locatario": "0",
@@ -29,12 +29,272 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
- "expulsadosV": []
+ "titularesL": [
+  {
+   "carne": "48519",
+   "Nombre": "NICOLAS ERNESTO SUBERBIE",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "54030",
+   "Nombre": "GASTON MACHADO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "43148",
+   "Nombre": "ELAL CAMILO SANS",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "42915",
+   "Nombre": "IVAN LAGO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "37050",
+   "Nombre": "FABRIZIO ZANONI",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "52466",
+   "Nombre": "GUZMAN VERDIAS",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "45268",
+   "Nombre": "FACUNDO ALANIZ",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "42510",
+   "Nombre": "AGUSTIN ANSORENA",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "43145",
+   "Nombre": "JOAQUIN MATEO RODRIGUEZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "43150",
+   "Nombre": "TOMAS DILEMA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "55085",
+   "Nombre": "MATIAS LIÑARES",
+   "camiseta": "21",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "57095",
+   "Nombre": "ENZO NAHUEL MOLITERNO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "58394",
+   "Nombre": "JUAN PEDRO MONTAÑES",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "48961",
+   "Nombre": "MATIAS NICOLAS LOPEZ",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "66500",
+   "Nombre": "CESAR MANUEL GARCIA",
+   "camiseta": "71",
+   "Capitan": ""
+  },
+  {
+   "carne": "66498",
+   "Nombre": "FACUNDO ECHEVERRIA",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "57102",
+   "Nombre": "ISMAEL BUCHELI",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "57092",
+   "Nombre": "JOAQUIN DE LOS SANTOS",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "62869",
+   "Nombre": "IGNACIO GERMAN",
+   "camiseta": "80",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "57883",
+   "Nombre": "ISMAEL SOTO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "59893",
+   "Nombre": "GERONIMO MANUEL ACOSTA",
+   "camiseta": "66",
+   "Capitan": ""
+  },
+  {
+   "carne": "58365",
+   "Nombre": "FEDERICO NAVARRO",
+   "camiseta": "36",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "42510",
+   "Jug_Sale": "AGUSTIN ANSORENA",
+   "CarneEntra": "59854",
+   "Jug_Entra": "LUCAS MANUEL VILCHES",
+   "camiseta": "13",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "55085",
+   "Jug_Sale": "MATIAS LIÑARES",
+   "CarneEntra": "68654",
+   "Jug_Entra": "FEDERICO LORENZO Y LOSADA",
+   "camiseta": "7",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "52466",
+   "Jug_Sale": "GUZMAN VERDIAS",
+   "CarneEntra": "58351",
+   "Jug_Entra": "JOAQUIN PAREDES",
+   "camiseta": "15",
+   "minutos": "89"
+  },
+  {
+   "CarneSale": "54030",
+   "Jug_Sale": "GASTON MACHADO",
+   "CarneEntra": "67620",
+   "Jug_Entra": "ALEXIS DANIEL PEREZ",
+   "camiseta": "27",
+   "minutos": "89"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "66498",
+   "Jug_Sale": "FACUNDO ECHEVERRIA",
+   "CarneEntra": "45228",
+   "Jug_Entra": "SEBASTIAN PACHECO",
+   "camiseta": "6",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "57102",
+   "Jug_Sale": "ISMAEL BUCHELI",
+   "CarneEntra": "58011",
+   "Jug_Entra": "OCTAVIO GERONIMO CABRERA",
+   "camiseta": "14",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "57092",
+   "Jug_Sale": "JOAQUIN DE LOS SANTOS",
+   "CarneEntra": "58366",
+   "Jug_Entra": "MARCO MARCELO BORDON",
+   "camiseta": "18",
+   "minutos": "84"
+  },
+  {
+   "CarneSale": "58365",
+   "Jug_Sale": "FEDERICO NAVARRO",
+   "CarneEntra": "48947",
+   "Jug_Entra": "ALEXIS QUINTAN",
+   "camiseta": "37",
+   "minutos": "84"
+  },
+  {
+   "CarneSale": "58394",
+   "Jug_Sale": "JUAN PEDRO MONTAÑES",
+   "CarneEntra": "69168",
+   "Jug_Entra": "VICTOR MANUEL BATALLA",
+   "camiseta": "72",
+   "minutos": "84"
+  },
+  {
+   "CarneSale": "59893",
+   "Jug_Sale": "GERONIMO MANUEL ACOSTA",
+   "CarneEntra": "59875",
+   "Jug_Entra": "FACUNDO RODRIGO BARITUSSIO",
+   "camiseta": "19",
+   "minutos": "87"
+  },
+  {
+   "CarneSale": "57883",
+   "Jug_Sale": "ISMAEL SOTO",
+   "CarneEntra": "59893",
+   "Jug_Entra": "GERONIMO MANUEL ACOSTA",
+   "camiseta": "66",
+   "minutos": "93"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "43150",
+   "Nombre": "TOMAS DILEMA",
+   "minutos": "47",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "57092",
+   "Nombre": "JOAQUIN DE LOS SANTOS",
+   "minutos": "78",
+   "EnContra": "1"
+  },
+  {
+   "carne": "57883",
+   "Nombre": "ISMAEL SOTO",
+   "minutos": "93",
+   "EnContra": "1"
+  },
+  {
+   "carne": "58011",
+   "Nombre": "OCTAVIO GERONIMO CABRERA",
+   "minutos": "65",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "TOMAS DILEMA",
+   "observaciones": ""
+  }
+ ],
+ "expulsadosV": [
+  {
+   "Nombre": "ENZO NAHUEL MOLITERNO",
+   "observaciones": ""
+  }
+ ]
 }

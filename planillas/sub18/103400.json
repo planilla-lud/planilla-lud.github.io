@@ -1,0 +1,277 @@
+{
+ "id": "103400",
+ "categoria": "sub18",
+ "serie": "18A",
+ "fecha": 2,
+ "fechaHora": "2026-10-25 15:30:00",
+ "cancha": "SPORT 11",
+ "local": "ARQUITECTURA JRS.",
+ "visitante": "COLEGIO Y LICEO INGLES",
+ "gl": 0,
+ "gv": 2,
+ "detalle": {
+  "nro_partido": "495",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 18 ",
+  "categoria": "SUB 18 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB18 AMISTAD",
+  "Cancha": "SPORT 11",
+  "Fecha_Inicio": "2026-10-25 17:15:00",
+  "Fecha_fin": "2026-10-25 17:15:00",
+  "Locatario": "ARQUITECTURA JRS.",
+  "goles_locatario": "0",
+  "puntos_locatario": "0",
+  "Visitante": "COLEGIO Y LICEO INGLES",
+  "goles_visitante": "2",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "66534",
+   "Nombre": "GONZALO MARTIN LLOVET",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "59461",
+   "Nombre": "FEDERICO MAIORANA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "57788",
+   "Nombre": "MANUEL BERMUDEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "63363",
+   "Nombre": "NICOLAS OTERO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "56059",
+   "Nombre": "MARTIN REYES",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "61802",
+   "Nombre": "MATEO ZOLESSI",
+   "camiseta": "8",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "66051",
+   "Nombre": "GUILLERMO SANTIAGO RUSSO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "60882",
+   "Nombre": "SANTIAGO PEREIRA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "65989",
+   "Nombre": "BENJAMIN EZEQUIEL MENDEZ",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "68957",
+   "Nombre": "SANTIAGO TRIAS",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "64584",
+   "Nombre": "MANUEL SUAREZ",
+   "camiseta": "15",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "64433",
+   "Nombre": "SANTIAGO LUCAS RODRIGUEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "68007",
+   "Nombre": "JUAN DIEGO RIVERO",
+   "camiseta": "49",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "60491",
+   "Nombre": "TOMAS LENZI",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "66105",
+   "Nombre": "FELIPE CEBAS",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "64421",
+   "Nombre": "FAUSTINO SALVO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "68008",
+   "Nombre": "LUCAS ANTONIO RUIZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "62971",
+   "Nombre": "FACUNDO GABRIEL FRAGA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "64512",
+   "Nombre": "LUCAS LLUIS",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "60763",
+   "Nombre": "JUAN ALFONSO FREIRE",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "68237",
+   "Nombre": "SANTIAGO LEONCINI",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "64235",
+   "Nombre": "PEDRO RAMOS",
+   "camiseta": "35",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "68957",
+   "Jug_Sale": "SANTIAGO TRIAS",
+   "CarneEntra": "66535",
+   "Jug_Entra": "PABLO CAPUTI",
+   "camiseta": "16",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "66534",
+   "Jug_Sale": "GONZALO MARTIN LLOVET",
+   "CarneEntra": "66090",
+   "Jug_Entra": "TEO CASAS",
+   "camiseta": "71",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "65989",
+   "Jug_Sale": "BENJAMIN EZEQUIEL MENDEZ",
+   "CarneEntra": "63154",
+   "Jug_Entra": "FELIPE GARZINA",
+   "camiseta": "4",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64584",
+   "Jug_Sale": "MANUEL SUAREZ",
+   "CarneEntra": "68935",
+   "Jug_Entra": "THIAGO FRANCESCO PACIELLO",
+   "camiseta": "3",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "60882",
+   "Jug_Sale": "SANTIAGO PEREIRA",
+   "CarneEntra": "68957",
+   "Jug_Entra": "SANTIAGO TRIAS",
+   "camiseta": "22",
+   "minutos": "82"
+  },
+  {
+   "CarneSale": "66051",
+   "Jug_Sale": "GUILLERMO SANTIAGO RUSSO",
+   "CarneEntra": "64584",
+   "Jug_Entra": "MANUEL SUAREZ",
+   "camiseta": "15",
+   "minutos": "82"
+  },
+  {
+   "CarneSale": "61802",
+   "Jug_Sale": "MATEO ZOLESSI",
+   "CarneEntra": "56059",
+   "Jug_Entra": "MARTIN REYES",
+   "camiseta": "17",
+   "minutos": "85"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "68008",
+   "Jug_Sale": "LUCAS ANTONIO RUIZ",
+   "CarneEntra": "68436",
+   "Jug_Entra": "FRANCISCO RIVERO",
+   "camiseta": "23",
+   "minutos": "34"
+  },
+  {
+   "CarneSale": "60763",
+   "Jug_Sale": "JUAN ALFONSO FREIRE",
+   "CarneEntra": "68008",
+   "Jug_Entra": "LUCAS ANTONIO RUIZ",
+   "camiseta": "15",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "62971",
+   "Jug_Sale": "FACUNDO GABRIEL FRAGA",
+   "CarneEntra": "68717",
+   "Jug_Entra": "MANUEL RODRIGUEZ",
+   "camiseta": "11",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "64421",
+   "Jug_Sale": "FAUSTINO SALVO",
+   "CarneEntra": "62971",
+   "Jug_Entra": "FACUNDO GABRIEL FRAGA",
+   "camiseta": "5",
+   "minutos": "87"
+  }
+ ],
+ "golesL": [],
+ "golesV": [
+  {
+   "carne": "64512",
+   "Nombre": "LUCAS LLUIS",
+   "minutos": "4",
+   "EnContra": "1"
+  },
+  {
+   "carne": "64512",
+   "Nombre": "LUCAS LLUIS",
+   "minutos": "94",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

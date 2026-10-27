@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"D\" TIT. y ASC.",
   "Cancha": "SCUOLA ITALIANA",
-  "Fecha_Inicio": "2026-10-25 12:45:00",
-  "Fecha_fin": "2026-10-25 12:45:00",
+  "Fecha_Inicio": "2026-10-25 13:10:00",
+  "Fecha_fin": "2026-10-25 13:10:00",
   "Locatario": "SCUOLA PALERMO",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,230 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "48909",
+   "Nombre": "RAFAEL MATEO FARINA",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "53285",
+   "Nombre": "FACUNDO ELLAURI",
+   "camiseta": "73",
+   "Capitan": ""
+  },
+  {
+   "carne": "42543",
+   "Nombre": "FACUNDO LEANDRO CONCARI",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "48901",
+   "Nombre": "FRANCO ARCARI",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "56827",
+   "Nombre": "AGUSTIN FACUNDO ANTUNA",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "46228",
+   "Nombre": "FEDERICO LOPEZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "48984",
+   "Nombre": "JOAQUIN MANUEL POMPA",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "47129",
+   "Nombre": "TEO CARVALHO",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "45287",
+   "Nombre": "MATIAS CAMBON",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "53635",
+   "Nombre": "JUAN PEDRO RESTUCCIA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "54441",
+   "Nombre": "GIANLUCA GANDOLFO",
+   "camiseta": "22",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "68364",
+   "Nombre": "SANTIAGO PEREIRA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "67326",
+   "Nombre": "MAXIMO VILA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "69190",
+   "Nombre": "LUCAS AMARILLO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "59242",
+   "Nombre": "NICOLAS ALVEZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "57721",
+   "Nombre": "ESTEBAN DAVID GAGAUZ",
+   "camiseta": "7",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "66216",
+   "Nombre": "TABARE FACUNDO RAMOS",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "55884",
+   "Nombre": "JOAQUIN VIÑOLY",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "56337",
+   "Nombre": "IVAN HARTWICH",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "64599",
+   "Nombre": "CRISTIANO MATIAS PIGNATA",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "52353",
+   "Nombre": "JUAN MARTIN TERRA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "64593",
+   "Nombre": "VICENTE GERFAUO",
+   "camiseta": "14",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "45287",
+   "Jug_Sale": "MATIAS CAMBON",
+   "CarneEntra": "49753",
+   "Jug_Entra": "AGUSTIN BENEDETTI",
+   "camiseta": "4",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "47129",
+   "Jug_Sale": "TEO CARVALHO",
+   "CarneEntra": "56929",
+   "Jug_Entra": "SANTIAGO GABRIEL MORALES",
+   "camiseta": "30",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "54441",
+   "Jug_Sale": "GIANLUCA GANDOLFO",
+   "CarneEntra": "68937",
+   "Jug_Entra": "TOMAS ALVAREZ",
+   "camiseta": "44",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "53635",
+   "Jug_Sale": "JUAN PEDRO RESTUCCIA",
+   "CarneEntra": "49240",
+   "Jug_Entra": "MATIAS TIZIANO MORENA",
+   "camiseta": "24",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "56827",
+   "Jug_Sale": "AGUSTIN FACUNDO ANTUNA",
+   "CarneEntra": "67189",
+   "Jug_Entra": "BENJAMIN RODOLFO DE LEON",
+   "camiseta": "20",
+   "minutos": "73"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "52353",
+   "Jug_Sale": "JUAN MARTIN TERRA",
+   "CarneEntra": "58825",
+   "Jug_Entra": "GONZALO FERNANDEZ",
+   "camiseta": "20",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "56337",
+   "Jug_Sale": "IVAN HARTWICH",
+   "CarneEntra": "47012",
+   "Jug_Entra": "SANTIAGO ANDRES IZAGUIRRE",
+   "camiseta": "4",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "67326",
+   "Jug_Sale": "MAXIMO VILA",
+   "CarneEntra": "66757",
+   "Jug_Entra": "MAXIMO CAIRUS",
+   "camiseta": "30",
+   "minutos": "89"
+  }
+ ],
  "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "golesV": [
+  {
+   "carne": "64593",
+   "Nombre": "VICENTE GERFAUO",
+   "minutos": "85",
+   "EnContra": "1"
+  },
+  {
+   "carne": "67326",
+   "Nombre": "MAXIMO VILA",
+   "minutos": "80",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "FACUNDO LEANDRO CONCARI",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

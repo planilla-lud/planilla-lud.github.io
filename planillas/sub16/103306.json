@@ -29,12 +29,297 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "63045",
+   "Nombre": "RENZO FERNANDEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "63941",
+   "Nombre": "FEDERICO DANERS",
+   "camiseta": "49",
+   "Capitan": ""
+  },
+  {
+   "carne": "64183",
+   "Nombre": "CAMILO VEGA",
+   "camiseta": "58",
+   "Capitan": ""
+  },
+  {
+   "carne": "66549",
+   "Nombre": "JOAQUIN LOPEZ",
+   "camiseta": "63",
+   "Capitan": ""
+  },
+  {
+   "carne": "64176",
+   "Nombre": "MANUEL MENDARO",
+   "camiseta": "60",
+   "Capitan": ""
+  },
+  {
+   "carne": "62871",
+   "Nombre": "BENJAMIN FERNANDEZ",
+   "camiseta": "46",
+   "Capitan": ""
+  },
+  {
+   "carne": "66552",
+   "Nombre": "FACUNDO NICOLAS ORIBE",
+   "camiseta": "28",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "67724",
+   "Nombre": "TIZIANO AMADO",
+   "camiseta": "68",
+   "Capitan": ""
+  },
+  {
+   "carne": "66866",
+   "Nombre": "IGNACIO CENTURION",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "64180",
+   "Nombre": "CAETANO BEYHAUT",
+   "camiseta": "67",
+   "Capitan": ""
+  },
+  {
+   "carne": "66551",
+   "Nombre": "EMANUEL CORREA",
+   "camiseta": "31",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "68170",
+   "Nombre": "MANUEL BRACHO",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "64563",
+   "Nombre": "SANTIAGO CARIDE",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "64558",
+   "Nombre": "FRANCISCO BINAGUY",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "64571",
+   "Nombre": "ALFONSO CEBAS",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "64552",
+   "Nombre": "IGNACIO JUAMBELTZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "64568",
+   "Nombre": "MATIAS GONZALEZ",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "64564",
+   "Nombre": "LUCAS GOLDBERG",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "68173",
+   "Nombre": "MATIAS ACOTA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "64556",
+   "Nombre": "FEDERICO LEONCINI",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "66228",
+   "Nombre": "THOMAS GEPP",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "64559",
+   "Nombre": "MATEO BASILIO",
+   "camiseta": "13",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "66866",
+   "Jug_Sale": "IGNACIO CENTURION",
+   "CarneEntra": "64175",
+   "Jug_Entra": "LUCAS COALLA",
+   "camiseta": "69",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "64180",
+   "Jug_Sale": "CAETANO BEYHAUT",
+   "CarneEntra": "68713",
+   "Jug_Entra": "FEDERICO FERRARES",
+   "camiseta": "45",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "62871",
+   "Jug_Sale": "BENJAMIN FERNANDEZ",
+   "CarneEntra": "63742",
+   "Jug_Entra": "VALENTIN MURIAS",
+   "camiseta": "43",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "66551",
+   "Jug_Sale": "EMANUEL CORREA",
+   "CarneEntra": "66547",
+   "Jug_Entra": "TOMAS SALORT",
+   "camiseta": "30",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "64176",
+   "Jug_Sale": "MANUEL MENDARO",
+   "CarneEntra": "64277",
+   "Jug_Entra": "FRANCISCO BISELLI",
+   "camiseta": "29",
+   "minutos": "74"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "64559",
+   "Jug_Sale": "MATEO BASILIO",
+   "CarneEntra": "67888",
+   "Jug_Entra": "RODRIGO RAMIREZ",
+   "camiseta": "17",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66228",
+   "Jug_Sale": "THOMAS GEPP",
+   "CarneEntra": "64565",
+   "Jug_Entra": "SANTIAGO DI BELLO",
+   "camiseta": "15",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64556",
+   "Jug_Sale": "FEDERICO LEONCINI",
+   "CarneEntra": "64560",
+   "Jug_Entra": "JUAN IGNACIO FERNANDEZ",
+   "camiseta": "8",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64552",
+   "Jug_Sale": "IGNACIO JUAMBELTZ",
+   "CarneEntra": "64569",
+   "Jug_Entra": "BAUTISTA CAMACHO",
+   "camiseta": "6",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68170",
+   "Jug_Sale": "MANUEL BRACHO",
+   "CarneEntra": "67886",
+   "Jug_Entra": "GUILLERMO SILVA",
+   "camiseta": "77",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68173",
+   "Jug_Sale": "MATIAS ACOTA",
+   "CarneEntra": "64566",
+   "Jug_Entra": "MATEO ACOSTA",
+   "camiseta": "71",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "64563",
+   "Jug_Sale": "SANTIAGO CARIDE",
+   "CarneEntra": "64557",
+   "Jug_Entra": "FRANCISCO MARTIN ASCHERI",
+   "camiseta": "20",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "64568",
+   "Jug_Sale": "MATIAS GONZALEZ",
+   "CarneEntra": "64561",
+   "Jug_Entra": "EMILIANO BRIVA",
+   "camiseta": "9",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "64558",
+   "Jug_Sale": "FRANCISCO BINAGUY",
+   "CarneEntra": "64570",
+   "Jug_Entra": "NICOLAS GARCIA",
+   "camiseta": "11",
+   "minutos": "76"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "62871",
+   "Nombre": "BENJAMIN FERNANDEZ",
+   "minutos": "64",
+   "EnContra": "0"
+  },
+  {
+   "carne": "64180",
+   "Nombre": "CAETANO BEYHAUT",
+   "minutos": "13",
+   "EnContra": "0"
+  },
+  {
+   "carne": "66551",
+   "Nombre": "EMANUEL CORREA",
+   "minutos": "40",
+   "EnContra": "0"
+  },
+  {
+   "carne": "68713",
+   "Nombre": "FEDERICO FERRARES",
+   "minutos": "72",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "64568",
+   "Nombre": "MATIAS GONZALEZ",
+   "minutos": "71",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
- "expulsadosV": []
+ "expulsadosV": [
+  {
+   "Nombre": "ALFONSO CEBAS",
+   "observaciones": ""
+  }
+ ]
 }

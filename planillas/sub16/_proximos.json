@@ -7,34 +7,6 @@
   "visitante": "THE BRITISH SCHOOL"
  },
  {
-  "serie": "16P",
-  "fechaHora": "2026-10-25 13:30:00",
-  "cancha": "COMPLEJO JUAN XXIII",
-  "local": "CIRCULO DE TENIS MONTEVIDEO",
-  "visitante": "DEPORTIVO MORON"
- },
- {
-  "serie": "16P",
-  "fechaHora": "2026-10-25 13:30:00",
-  "cancha": "ELF (LICEO FRANCES)",
-  "local": "E.L.F.",
-  "visitante": "TACUAREMBO UNIVERSITARIO"
- },
- {
-  "serie": "16B",
-  "fechaHora": "2026-10-25 13:30:00",
-  "cancha": "LA MENNAIS",
-  "local": "J.M.L.M",
-  "visitante": "DFC"
- },
- {
-  "serie": "16F",
-  "fechaHora": "2026-10-25 13:30:00",
-  "cancha": "POLIDEPORTIVO CARRASCO",
-  "local": "ACADEMIA FRM",
-  "visitante": "ARQUITECTURA JRS."
- },
- {
   "serie": "16C",
   "fechaHora": "2026-10-27 18:30:00",
   "cancha": "REGIMIENTO DE ARTILLERIA 5",
@@ -128,7 +100,7 @@
  {
   "serie": "16B",
   "fechaHora": "2026-11-01 13:30:00",
-  "cancha": "FUERZA AEREA",
+  "cancha": "ESCUELA NAVAL",
   "local": "YAGUARI",
   "visitante": "J.M.L.M"
  },
@@ -156,7 +128,7 @@
  {
   "serie": "16C",
   "fechaHora": "2026-11-01 13:30:00",
-  "cancha": "ACADEMIA",
+  "cancha": "COMPLEJO SCHIAFFINO (LAVALLEJA",
   "local": "A.E.B.U",
   "visitante": "NAUTICO CARRASCO Y PUNTA GORDA"
  },

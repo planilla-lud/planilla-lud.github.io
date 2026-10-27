@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB18 ORO",
   "Cancha": "CARRASCO LAWN TENIS (KM 23)",
-  "Fecha_Inicio": "2026-10-25 17:30:00",
-  "Fecha_fin": "2026-10-25 17:30:00",
+  "Fecha_Inicio": "2026-10-25 18:00:00",
+  "Fecha_fin": "2026-10-25 18:00:00",
   "Locatario": "CARRASCO LAWN TENNIS",
   "goles_locatario": "1",
   "puntos_locatario": "0",
@@ -29,12 +29,224 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "57786",
+   "Nombre": "FAUSTINO ARDITTI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "56127",
+   "Nombre": "FELIPE CROCI",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "57593",
+   "Nombre": "GENARO DE MORI",
+   "camiseta": "38",
+   "Capitan": ""
+  },
+  {
+   "carne": "56869",
+   "Nombre": "NICOLAS PODESTA",
+   "camiseta": "36",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "62744",
+   "Nombre": "FELIPE SARACCO",
+   "camiseta": "53",
+   "Capitan": ""
+  },
+  {
+   "carne": "63144",
+   "Nombre": "DIEGO RAFAEL DECARLINI",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "63410",
+   "Nombre": "TOMAS GRUDZIEN",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "64674",
+   "Nombre": "FRANCISCO TERRA",
+   "camiseta": "69",
+   "Capitan": ""
+  },
+  {
+   "carne": "61096",
+   "Nombre": "TOMAS ARRIETA",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "61501",
+   "Nombre": "IGNACIO PARADA",
+   "camiseta": "50",
+   "Capitan": ""
+  },
+  {
+   "carne": "57605",
+   "Nombre": "SANTIAGO GONZALEZ",
+   "camiseta": "51",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "57034",
+   "Nombre": "LUCA BURGHI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "57835",
+   "Nombre": "ALFONSO ZAMBRANO",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56688",
+   "Nombre": "TOMAS PASSADORE",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "58427",
+   "Nombre": "FACUNDO FIORE",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "63255",
+   "Nombre": "JOAQUIN YAGODA",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "57838",
+   "Nombre": "SANTINO DANTONIO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "60472",
+   "Nombre": "SANCHO CONTI",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "56510",
+   "Nombre": "JULIO PATRICIO JAKOB",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "67762",
+   "Nombre": "JUAN MANUEL BERNAL",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "58479",
+   "Nombre": "TOMAS TELLERIA",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "65485",
+   "Nombre": "FRANCISCO CAYAFA",
+   "camiseta": "95",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "64674",
+   "Jug_Sale": "FRANCISCO TERRA",
+   "CarneEntra": "62734",
+   "Jug_Entra": "BALTAZAR FERRARO",
+   "camiseta": "48",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61501",
+   "Jug_Sale": "IGNACIO PARADA",
+   "CarneEntra": "60773",
+   "Jug_Entra": "ALFONSO SCHAICH",
+   "camiseta": "14",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56127",
+   "Jug_Sale": "FELIPE CROCI",
+   "CarneEntra": "57612",
+   "Jug_Entra": "TOMAS ANTUÑA",
+   "camiseta": "20",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61096",
+   "Jug_Sale": "TOMAS ARRIETA",
+   "CarneEntra": "61859",
+   "Jug_Entra": "JUAN SEGUNDO RODRIGUEZ",
+   "camiseta": "19",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "63144",
+   "Jug_Sale": "DIEGO RAFAEL DECARLINI",
+   "CarneEntra": "62737",
+   "Jug_Entra": "VALENTINO SPOSITO",
+   "camiseta": "29",
+   "minutos": "45"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "67762",
+   "Jug_Sale": "JUAN MANUEL BERNAL",
+   "CarneEntra": "65624",
+   "Jug_Entra": "LORENZO RODRIGUEZ",
+   "camiseta": "20",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "60472",
+   "Jug_Sale": "SANCHO CONTI",
+   "CarneEntra": "60012",
+   "Jug_Entra": "RODRIGO JOSE CALDERON",
+   "camiseta": "90",
+   "minutos": "80"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "61096",
+   "Nombre": "TOMAS ARRIETA",
+   "minutos": "83",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "58479",
+   "Nombre": "TOMAS TELLERIA",
+   "minutos": "67",
+   "EnContra": "1"
+  },
+  {
+   "carne": "58479",
+   "Nombre": "TOMAS TELLERIA",
+   "minutos": "84",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

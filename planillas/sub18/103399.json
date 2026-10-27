@@ -1,0 +1,281 @@
+{
+ "id": "103399",
+ "categoria": "sub18",
+ "serie": "18A",
+ "fecha": 2,
+ "fechaHora": "2026-10-25 15:30:00",
+ "cancha": "POLIDEPORTIVO CARRASCO",
+ "local": "ACADEMIA FRM",
+ "visitante": "SANTA ELENA LAGOMAR",
+ "gl": 0,
+ "gv": 4,
+ "detalle": {
+  "nro_partido": "494",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 18 ",
+  "categoria": "SUB 18 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB18 AMISTAD",
+  "Cancha": "POLIDEPORTIVO CARRASCO",
+  "Fecha_Inicio": "2026-10-25 17:15:00",
+  "Fecha_fin": "2026-10-25 17:15:00",
+  "Locatario": "ACADEMIA FRM",
+  "goles_locatario": "0",
+  "puntos_locatario": "0",
+  "Visitante": "SANTA ELENA LAGOMAR",
+  "goles_visitante": "4",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "68704",
+   "Nombre": "FABIAN SANTINO LOPEZ",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "68596",
+   "Nombre": "MARCOS BRIAN",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "68595",
+   "Nombre": "LAUTARO MARTINEZ",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "59062",
+   "Nombre": "MARTIN ANDRES ALBORNOZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "65771",
+   "Nombre": "SANTIAGO MATEO VENTURELLI",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "64806",
+   "Nombre": "JOAQUIN NAHUEL AQUINO",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "68966",
+   "Nombre": "ALAN TRUJILLO",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "62963",
+   "Nombre": "VALENTIN MANUEL RODRIGUEZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "68967",
+   "Nombre": "PABLO GABRIEL RODRIGUEZ",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "65530",
+   "Nombre": "JUAN PABLO ORREGO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "60306",
+   "Nombre": "BRUNO ANTONIO TORRES",
+   "camiseta": "8",
+   "Capitan": "(C)"
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "57824",
+   "Nombre": "JOAQUIN DE AVILA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "57807",
+   "Nombre": "BENJAMIN BARLOCCI",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "57817",
+   "Nombre": "SANTIAGO PALO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "57806",
+   "Nombre": "TOMAS ELIZEIRE",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "60632",
+   "Nombre": "LEANDRO FERNANDEZ",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "60633",
+   "Nombre": "MIRKO ANGEL IBARBURU",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "57813",
+   "Nombre": "BRUNO CAMADINI",
+   "camiseta": "92",
+   "Capitan": ""
+  },
+  {
+   "carne": "60617",
+   "Nombre": "MATEO SCARONE",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "57797",
+   "Nombre": "JUAN CRUZ GÜENA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "57823",
+   "Nombre": "GUILLERMO RODRIGUEZ",
+   "camiseta": "72",
+   "Capitan": ""
+  },
+  {
+   "carne": "60635",
+   "Nombre": "ALEX FERRER",
+   "camiseta": "80",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "68966",
+   "Jug_Sale": "ALAN TRUJILLO",
+   "CarneEntra": "69205",
+   "Jug_Entra": "THIAGO SANTO",
+   "camiseta": "81",
+   "minutos": "17"
+  },
+  {
+   "CarneSale": "68596",
+   "Jug_Sale": "MARCOS BRIAN",
+   "CarneEntra": "68601",
+   "Jug_Entra": "LUCIANO ANTONIO SILVERA",
+   "camiseta": "54",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64806",
+   "Jug_Sale": "JOAQUIN NAHUEL AQUINO",
+   "CarneEntra": "65657",
+   "Jug_Entra": "MATIAS OXANDABARAT",
+   "camiseta": "28",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "59062",
+   "Jug_Sale": "MARTIN ANDRES ALBORNOZ",
+   "CarneEntra": "61372",
+   "Jug_Entra": "BRYAN ALEXANDER BAGNASCO",
+   "camiseta": "28",
+   "minutos": "40"
+  },
+  {
+   "CarneSale": "65771",
+   "Jug_Sale": "SANTIAGO MATEO VENTURELLI",
+   "CarneEntra": "69017",
+   "Jug_Entra": "FEDERICO ROBERTO RECOBA",
+   "camiseta": "49",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "68967",
+   "Jug_Sale": "PABLO GABRIEL RODRIGUEZ",
+   "CarneEntra": "68596",
+   "Jug_Entra": "MARCOS BRIAN",
+   "camiseta": "24",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "65530",
+   "Jug_Sale": "JUAN PABLO ORREGO",
+   "CarneEntra": "68966",
+   "Jug_Entra": "ALAN TRUJILLO",
+   "camiseta": "25",
+   "minutos": "70"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "57797",
+   "Jug_Sale": "JUAN CRUZ GÜENA",
+   "CarneEntra": "68856",
+   "Jug_Entra": "JUAN VALENTINO BERRUTTI",
+   "camiseta": "7",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "57823",
+   "Jug_Sale": "GUILLERMO RODRIGUEZ",
+   "CarneEntra": "57797",
+   "Jug_Entra": "JUAN CRUZ GÜENA",
+   "camiseta": "11",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "57806",
+   "Jug_Sale": "TOMAS ELIZEIRE",
+   "CarneEntra": "57808",
+   "Jug_Entra": "RENZO BROLI",
+   "camiseta": "6",
+   "minutos": "64"
+  }
+ ],
+ "golesL": [],
+ "golesV": [
+  {
+   "carne": "57797",
+   "Nombre": "JUAN CRUZ GÜENA",
+   "minutos": "86",
+   "EnContra": "1"
+  },
+  {
+   "carne": "60617",
+   "Nombre": "MATEO SCARONE",
+   "minutos": "69",
+   "EnContra": "1"
+  },
+  {
+   "carne": "60632",
+   "Nombre": "LEANDRO FERNANDEZ",
+   "minutos": "38",
+   "EnContra": "1"
+  },
+  {
+   "carne": "60635",
+   "Nombre": "ALEX FERRER",
+   "minutos": "78",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

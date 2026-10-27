@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"C\" PERM. y DESC.",
   "Cancha": "COM. CLUB UNIVERSIDAD CATOLICA",
-  "Fecha_Inicio": "2026-10-25 12:45:00",
-  "Fecha_fin": "2026-10-25 12:45:00",
+  "Fecha_Inicio": "2026-10-25 13:15:00",
+  "Fecha_fin": "2026-10-25 13:15:00",
   "Locatario": "SAN PABLO UNIVERSITARIO",
   "goles_locatario": "3",
   "puntos_locatario": "1",
@@ -29,12 +29,274 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "64487",
+   "Nombre": "HUGO FELIPE CASAL",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "66026",
+   "Nombre": "JOAQUIN GIRAUDIN",
+   "camiseta": "75",
+   "Capitan": ""
+  },
+  {
+   "carne": "51780",
+   "Nombre": "JOSE PEDRO TERRA",
+   "camiseta": "90",
+   "Capitan": ""
+  },
+  {
+   "carne": "47377",
+   "Nombre": "MARCOS CAPRILE",
+   "camiseta": "8",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56707",
+   "Nombre": "JUAN SANCHEZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "50763",
+   "Nombre": "IGNACIO MORENO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "45170",
+   "Nombre": "DANILO CHAVES",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "53769",
+   "Nombre": "TIAGO DA SILVA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "49707",
+   "Nombre": "FACUNDO DIAZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "55944",
+   "Nombre": "JULIAN GONZALEZ",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "59329",
+   "Nombre": "MATEO LAUTARO FERNANDEZ",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "68874",
+   "Nombre": "VALENTIN DEL PINO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "67165",
+   "Nombre": "BRIAN ISMAEL FERREIRA",
+   "camiseta": "66",
+   "Capitan": ""
+  },
+  {
+   "carne": "42578",
+   "Nombre": "SANTIAGO TORRES",
+   "camiseta": "2",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "60320",
+   "Nombre": "FACUNDO MARTIN FERNANDEZ",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "68568",
+   "Nombre": "RENZO BARBOZA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "54483",
+   "Nombre": "BRAIAN SUAREZ",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "50499",
+   "Nombre": "MATIAS ALEJANDRO MELLO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "68502",
+   "Nombre": "IGNACIO AGUSTIN DEFACIO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "67164",
+   "Nombre": "GABRIEL CURBELO",
+   "camiseta": "41",
+   "Capitan": ""
+  },
+  {
+   "carne": "52505",
+   "Nombre": "HEBER ANDRES LOPEZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "67921",
+   "Nombre": "ALFONSO SILVA",
+   "camiseta": "79",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "50763",
+   "Jug_Sale": "IGNACIO MORENO",
+   "CarneEntra": "37686",
+   "Jug_Entra": "MARTIN ROMANIELLO",
+   "camiseta": "88",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "59329",
+   "Jug_Sale": "MATEO LAUTARO FERNANDEZ",
+   "CarneEntra": "63301",
+   "Jug_Entra": "LEANDRO ALEXIS PELUFFO",
+   "camiseta": "24",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "55944",
+   "Jug_Sale": "JULIAN GONZALEZ",
+   "CarneEntra": "51861",
+   "Jug_Entra": "FRANCO CHIAZZARO",
+   "camiseta": "21",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "49707",
+   "Jug_Sale": "FACUNDO DIAZ",
+   "CarneEntra": "50763",
+   "Jug_Entra": "IGNACIO MORENO",
+   "camiseta": "5",
+   "minutos": "89"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "67164",
+   "Jug_Sale": "GABRIEL CURBELO",
+   "CarneEntra": "61737",
+   "Jug_Entra": "ENRICO PAGANINI",
+   "camiseta": "4",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "52505",
+   "Jug_Sale": "HEBER ANDRES LOPEZ",
+   "CarneEntra": "54049",
+   "Jug_Entra": "NAHUEL AMIGO",
+   "camiseta": "15",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "50499",
+   "Jug_Sale": "MATIAS ALEJANDRO MELLO",
+   "CarneEntra": "38030",
+   "Jug_Entra": "EMILIO GASTON BARAIBAR",
+   "camiseta": "9",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68568",
+   "Jug_Sale": "RENZO BARBOZA",
+   "CarneEntra": "54048",
+   "Jug_Entra": "LUCAS AMIGO",
+   "camiseta": "70",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67921",
+   "Jug_Sale": "ALFONSO SILVA",
+   "CarneEntra": "66575",
+   "Jug_Entra": "FACUNDO FERRER",
+   "camiseta": "30",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66575",
+   "Jug_Sale": "FACUNDO FERRER",
+   "CarneEntra": "38413",
+   "Jug_Entra": "ANIBAL OMAR ALVAREZ",
+   "camiseta": "10",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "42578",
+   "Jug_Sale": "SANTIAGO TORRES",
+   "CarneEntra": "52327",
+   "Jug_Entra": "DIEGO MATHIAS VALENZUELA",
+   "camiseta": "8",
+   "minutos": "68"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "49707",
+   "Nombre": "FACUNDO DIAZ",
+   "minutos": "40",
+   "EnContra": "0"
+  },
+  {
+   "carne": "49707",
+   "Nombre": "FACUNDO DIAZ",
+   "minutos": "68",
+   "EnContra": "0"
+  },
+  {
+   "carne": "55944",
+   "Nombre": "JULIAN GONZALEZ",
+   "minutos": "55",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "38030",
+   "Nombre": "EMILIO GASTON BARAIBAR",
+   "minutos": "82",
+   "EnContra": "1"
+  },
+  {
+   "carne": "52327",
+   "Nombre": "DIEGO MATHIAS VALENZUELA",
+   "minutos": "94",
+   "EnContra": "1"
+  },
+  {
+   "carne": "54048",
+   "Nombre": "LUCAS AMIGO",
+   "minutos": "75",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

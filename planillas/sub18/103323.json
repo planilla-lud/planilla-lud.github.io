@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB18 ORO",
   "Cancha": "MONTE VI \"LOS CEIBOS\"",
-  "Fecha_Inicio": "2026-10-25 17:00:00",
-  "Fecha_fin": "2026-10-25 17:00:00",
+  "Fecha_Inicio": "2026-10-25 17:30:00",
+  "Fecha_fin": "2026-10-25 17:30:00",
   "Locatario": "CEIBOS CLUB",
   "goles_locatario": "1",
   "puntos_locatario": "3",
@@ -29,12 +29,224 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "62865",
+   "Nombre": "BENJAMIN FERNANDEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "62224",
+   "Nombre": "PEDRO NARANCIO",
+   "camiseta": "13",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "62671",
+   "Nombre": "JOAQUIN CURBELO",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "64870",
+   "Nombre": "JUAN PONS",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "62071",
+   "Nombre": "JOAQUIN MARIA BARTOL",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "60875",
+   "Nombre": "ALFONSO FERBER",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "58003",
+   "Nombre": "JOAQUIN PILONI",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "60333",
+   "Nombre": "MANUEL LLORENTE",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "65335",
+   "Nombre": "JUAN BAUTISTA RODRIGUEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "64697",
+   "Nombre": "FRANCISCO GIMENEZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "68046",
+   "Nombre": "CAMILO VERA",
+   "camiseta": "3",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "68857",
+   "Nombre": "FRANCISCO PINTOS",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "60738",
+   "Nombre": "ALFONSO RUVIRA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "60574",
+   "Nombre": "AGUSTIN CASANOVA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "60581",
+   "Nombre": "JUAN IGNACIO PIRES",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "57500",
+   "Nombre": "TOMAS FESTA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "62469",
+   "Nombre": "TEO VALENTE",
+   "camiseta": "7",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "57492",
+   "Nombre": "SANTIAGO BELLO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "60556",
+   "Nombre": "JUAN FRANCISCO JUTGLA",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "60570",
+   "Nombre": "ALFONSO PINTOS",
+   "camiseta": "45",
+   "Capitan": ""
+  },
+  {
+   "carne": "60563",
+   "Nombre": "LORENZO HUGHES",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "56128",
+   "Nombre": "FRANCESCO SETTIN",
+   "camiseta": "23",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "60875",
+   "Jug_Sale": "ALFONSO FERBER",
+   "CarneEntra": "61039",
+   "Jug_Entra": "FELIPE SOBRAL",
+   "camiseta": "15",
+   "minutos": "34"
+  },
+  {
+   "CarneSale": "62071",
+   "Jug_Sale": "JOAQUIN MARIA BARTOL",
+   "CarneEntra": "66147",
+   "Jug_Entra": "LEANDRO CAMBÒN",
+   "camiseta": "7",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "68046",
+   "Jug_Sale": "CAMILO VERA",
+   "CarneEntra": "64871",
+   "Jug_Entra": "TIMOTEO PERRIER",
+   "camiseta": "17",
+   "minutos": "86"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "60570",
+   "Jug_Sale": "ALFONSO PINTOS",
+   "CarneEntra": "57496",
+   "Jug_Entra": "TOMAS FERNANDEZ",
+   "camiseta": "21",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "60563",
+   "Jug_Sale": "LORENZO HUGHES",
+   "CarneEntra": "57486",
+   "Jug_Entra": "AGUSTIN TORRES",
+   "camiseta": "9",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "57492",
+   "Jug_Sale": "SANTIAGO BELLO",
+   "CarneEntra": "64498",
+   "Jug_Entra": "JOAQUIN GORRITI",
+   "camiseta": "9",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "60738",
+   "Jug_Sale": "ALFONSO RUVIRA",
+   "CarneEntra": "60737",
+   "Jug_Entra": "SANTIAGO ROSPIDE",
+   "camiseta": "71",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "57500",
+   "Jug_Sale": "TOMAS FESTA",
+   "CarneEntra": "62096",
+   "Jug_Entra": "APARICIO SUAREZ",
+   "camiseta": "41",
+   "minutos": "83"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "66147",
+   "Nombre": "LEANDRO CAMBÒN",
+   "minutos": "71",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
- "expulsadosV": []
+ "expulsadosV": [
+  {
+   "Nombre": "FRANCESCO SETTIN",
+   "observaciones": ""
+  }
+ ]
 }

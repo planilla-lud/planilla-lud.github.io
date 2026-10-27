@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB18 BRONCE",
   "Cancha": "LA MENNAIS",
-  "Fecha_Inicio": "2026-10-25 17:00:00",
-  "Fecha_fin": "2026-10-25 17:00:00",
+  "Fecha_Inicio": "2026-10-25 17:20:00",
+  "Fecha_fin": "2026-10-25 17:20:00",
   "Locatario": "J.M.L.M",
   "goles_locatario": "2",
   "puntos_locatario": "3",
@@ -29,11 +29,248 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "64169",
+   "Nombre": "PEDRO RAVECA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "62406",
+   "Nombre": "BRUNO AREVALO",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "58002",
+   "Nombre": "FELIPE MONTEMURRO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "58174",
+   "Nombre": "MATEO MARTINEZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "58805",
+   "Nombre": "JUAN MARTIN CLUA",
+   "camiseta": "12",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "57052",
+   "Nombre": "VALENTIN VIDAL",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "61732",
+   "Nombre": "MARTIN CARBALLO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "58807",
+   "Nombre": "ALEJANDRO FERRARI",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "62154",
+   "Nombre": "FACUNDO MARTINEZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "58806",
+   "Nombre": "MATIAS CAGNOLI",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "58809",
+   "Nombre": "MATEO SCOTTI",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "68449",
+   "Nombre": "JHOAN ELIEN GOPAR",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "62117",
+   "Nombre": "EMILIO SANCHEZ",
+   "camiseta": "90",
+   "Capitan": ""
+  },
+  {
+   "carne": "58822",
+   "Nombre": "SANTIAGO BERTOLA",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "58820",
+   "Nombre": "ARAM MOURADIAN",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "58818",
+   "Nombre": "MAXIMILIANO BORDOLLI",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "58821",
+   "Nombre": "MATEO BERTOLA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "62116",
+   "Nombre": "MATEO FERRARI",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "63490",
+   "Nombre": "FELIPE DIAZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "62967",
+   "Nombre": "ALFONSO PUNZO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "62906",
+   "Nombre": "LUCCA CASELLA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "68781",
+   "Nombre": "IGNACIO MARTINEZ",
+   "camiseta": "45",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "62154",
+   "Jug_Sale": "FACUNDO MARTINEZ",
+   "CarneEntra": "64264",
+   "Jug_Entra": "DIEGO JAUNSOLO",
+   "camiseta": "5",
+   "minutos": "69"
+  },
+  {
+   "CarneSale": "58002",
+   "Jug_Sale": "FELIPE MONTEMURRO",
+   "CarneEntra": "58804",
+   "Jug_Entra": "GENARO DI GREGORIO",
+   "camiseta": "6",
+   "minutos": "69"
+  },
+  {
+   "CarneSale": "57052",
+   "Jug_Sale": "VALENTIN VIDAL",
+   "CarneEntra": "60645",
+   "Jug_Entra": "BENICIO CALERO",
+   "camiseta": "30",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "62406",
+   "Jug_Sale": "BRUNO AREVALO",
+   "CarneEntra": "61734",
+   "Jug_Entra": "JUAN VALSECHI",
+   "camiseta": "14",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "58807",
+   "Jug_Sale": "ALEJANDRO FERRARI",
+   "CarneEntra": "67449",
+   "Jug_Entra": "MARCELO SALVADOR MARTI",
+   "camiseta": "27",
+   "minutos": "88"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "58821",
+   "Jug_Sale": "MATEO BERTOLA",
+   "CarneEntra": "68979",
+   "Jug_Entra": "GERONIMO CAJA",
+   "camiseta": "59",
+   "minutos": "59"
+  },
+  {
+   "CarneSale": "62906",
+   "Jug_Sale": "LUCCA CASELLA",
+   "CarneEntra": "62687",
+   "Jug_Entra": "GUZMAN NANDE",
+   "camiseta": "19",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "62967",
+   "Jug_Sale": "ALFONSO PUNZO",
+   "CarneEntra": "68776",
+   "Jug_Entra": "JOAQUIN GOMEZ",
+   "camiseta": "48",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "62116",
+   "Jug_Sale": "MATEO FERRARI",
+   "CarneEntra": "62795",
+   "Jug_Entra": "AGUSTIN PIZZORNO",
+   "camiseta": "7",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58820",
+   "Jug_Sale": "ARAM MOURADIAN",
+   "CarneEntra": "60301",
+   "Jug_Entra": "FEDERICO JAVIER AMILIVIA",
+   "camiseta": "8",
+   "minutos": "59"
+  },
+  {
+   "CarneSale": "58822",
+   "Jug_Sale": "SANTIAGO BERTOLA",
+   "CarneEntra": "58820",
+   "Jug_Entra": "ARAM MOURADIAN",
+   "camiseta": "15",
+   "minutos": "78"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "62406",
+   "Nombre": "BRUNO AREVALO",
+   "minutos": "41",
+   "EnContra": "0"
+  },
+  {
+   "carne": "67449",
+   "Nombre": "MARCELO SALVADOR MARTI",
+   "minutos": "94",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

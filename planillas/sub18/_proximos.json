@@ -1,82 +1,5 @@
 [
  {
-  "serie": "18P",
-  "fechaHora": "2026-10-25 15:30:00",
-  "cancha": "BRITISH SCHOOL",
-  "local": "OLD BOYS CLUB",
-  "visitante": "DEPORTIVO MORON"
- },
- {
-  "serie": "18P",
-  "fechaHora": "2026-10-25 15:30:00",
-  "cancha": "ELF (LICEO FRANCES)",
-  "local": "E.L.F.",
-  "visitante": "SAGRADA FAMILIA UNIVERSITARIO"
- },
- {
-  "serie": "18B",
-  "fechaHora": "2026-10-25 15:30:00",
-  "cancha": "COMPLEJO JUAN XXIII",
-  "local": "CIRCULO DE TENIS MONTEVIDEO",
-  "visitante": "JUAN XXIII"
- },
- {
-  "serie": "18B",
-  "fechaHora": "2026-10-25 15:30:00",
-  "cancha": "THE ANGLO SCHOOL",
-  "local": "ANGLO SCHOOL UNIVERSITARIO",
-  "visitante": "SAN PABLO UNIVERSITARIO"
- },
- {
-  "serie": "18B",
-  "fechaHora": "2026-10-25 15:30:00",
-  "cancha": "COMPLEJO WOODLANDS SCHOOL",
-  "local": "OLD WOODLANDS CLUB",
-  "visitante": "ALEMAN UNIVERSITARIO"
- },
- {
-  "serie": "18C",
-  "fechaHora": "2026-10-25 15:30:00",
-  "cancha": "COMPLEJO LOS ROJOS",
-  "local": "LATINO FUTBOL CLUB",
-  "visitante": "TENIS EL PINAR"
- },
- {
-  "serie": "18F",
-  "fechaHora": "2026-10-25 15:30:00",
-  "cancha": "COMPLEJO SCHIAFFINO (LAVALLEJA",
-  "local": "NAUTICO CARRASCO Y PUNTA GORDA",
-  "visitante": "PLAYA HONDA UNIVERSITARIO"
- },
- {
-  "serie": "18F",
-  "fechaHora": "2026-10-25 15:30:00",
-  "cancha": "SAGRADA FAMILIA",
-  "local": "CLUB SOCIAL PIEDRAS BLANCAS",
-  "visitante": "A.E.B.U"
- },
- {
-  "serie": "18F",
-  "fechaHora": "2026-10-25 15:30:00",
-  "cancha": "CAM. DEP. ASOC. HEBRAICA Y MAC",
-  "local": "HEBRAICA UNIVERSITARIO",
-  "visitante": "CRANDON UNIVERSITARIO"
- },
- {
-  "serie": "18A",
-  "fechaHora": "2026-10-25 15:30:00",
-  "cancha": "SPORT 11",
-  "local": "ARQUITECTURA JRS.",
-  "visitante": "COLEGIO Y LICEO INGLES"
- },
- {
-  "serie": "18A",
-  "fechaHora": "2026-10-25 15:30:00",
-  "cancha": "POLIDEPORTIVO CARRASCO",
-  "local": "ACADEMIA FRM",
-  "visitante": "SANTA ELENA LAGOMAR"
- },
- {
   "serie": "18C",
   "fechaHora": "2026-10-27 20:00:00",
   "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
@@ -91,18 +14,11 @@
   "visitante": "TROUVILLE UNIVERSITARIO"
  },
  {
-  "serie": "18O",
-  "fechaHora": "2026-11-01 15:30:00",
-  "cancha": "MONTE VI \"LOS CEIBOS\"",
-  "local": "CEIBOS CLUB",
-  "visitante": "CLUB SEMINARIO"
- },
- {
-  "serie": "18O",
-  "fechaHora": "2026-11-01 15:30:00",
-  "cancha": "CAMPO MARISTAS DEPORTIVO",
-  "local": "MARISTAS DEPORTIVO",
-  "visitante": "CARRASCO LAWN TENNIS"
+  "serie": "18B",
+  "fechaHora": "2026-10-29 20:00:00",
+  "cancha": "COMPLEJO LA MASIA",
+  "local": "OLD WOODLANDS CLUB",
+  "visitante": "ANGLO SCHOOL UNIVERSITARIO"
  },
  {
   "serie": "18O",
@@ -145,13 +61,6 @@
   "cancha": "COMPLEJO URUNDAY UNIVERSITARIO",
   "local": "URUNDAY UNIVERSITARIO",
   "visitante": "DEPORTIVO MORON"
- },
- {
-  "serie": "18B",
-  "fechaHora": "2026-11-01 15:30:00",
-  "cancha": "COMPLEJO WOODLANDS SCHOOL",
-  "local": "OLD WOODLANDS CLUB",
-  "visitante": "ANGLO SCHOOL UNIVERSITARIO"
  },
  {
   "serie": "18B",
@@ -219,7 +128,7 @@
  {
   "serie": "18F",
   "fechaHora": "2026-11-01 15:30:00",
-  "cancha": "ACADEMIA",
+  "cancha": "COMPLEJO SCHIAFFINO (LAVALLEJA",
   "local": "A.E.B.U",
   "visitante": "NAUTICO CARRASCO Y PUNTA GORDA"
  },
@@ -525,6 +434,20 @@
   "visitante": "CARRASCO LAWN TENNIS"
  },
  {
+  "serie": "18O",
+  "fechaHora": "2026-11-15 15:30:00",
+  "cancha": "MONTE VI \"LOS CEIBOS\"",
+  "local": "CEIBOS CLUB",
+  "visitante": "CLUB SEMINARIO"
+ },
+ {
+  "serie": "18O",
+  "fechaHora": "2026-11-15 15:30:00",
+  "cancha": "CAMPO MARISTAS DEPORTIVO",
+  "local": "MARISTAS DEPORTIVO",
+  "visitante": "CARRASCO LAWN TENNIS"
+ },
+ {
   "serie": "18P",
   "fechaHora": "2026-11-15 15:30:00",
   "cancha": "CIUDAD DEPORTIVA LS",
@@ -612,6 +535,13 @@
   "serie": "18A",
   "fechaHora": "2026-11-18 00:00:00",
   "cancha": "CANCHA A FIJAR",
+  "local": "ACADEMIA FRM",
+  "visitante": "LA BLANQUEADA"
+ },
+ {
+  "serie": "18A",
+  "fechaHora": "2026-11-18 00:00:00",
+  "cancha": "CANCHA A FIJAR",
   "local": "SANTA ELENA LAGOMAR",
   "visitante": "TROUVILLE UNIVERSITARIO"
  },
@@ -621,13 +551,6 @@
   "cancha": "CANCHA A FIJAR",
   "local": "COLEGIO Y LICEO INGLES",
   "visitante": "NUMA TURCATTI"
- },
- {
-  "serie": "18A",
-  "fechaHora": "2026-11-18 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "ACADEMIA FRM",
-  "visitante": "LA BLANQUEADA"
  },
  {
   "serie": "18A",
@@ -913,15 +836,15 @@
   "serie": "18A",
   "fechaHora": "2026-11-29 00:00:00",
   "cancha": "CANCHA A FIJAR",
-  "local": "ACADEMIA FRM",
-  "visitante": "ARQUITECTURA JRS."
+  "local": "SCUOLA PALERMO",
+  "visitante": "COLEGIO Y LICEO INGLES"
  },
  {
   "serie": "18A",
   "fechaHora": "2026-11-29 00:00:00",
   "cancha": "CANCHA A FIJAR",
-  "local": "SCUOLA PALERMO",
-  "visitante": "COLEGIO Y LICEO INGLES"
+  "local": "ACADEMIA FRM",
+  "visitante": "ARQUITECTURA JRS."
  },
  {
   "serie": "18O",
@@ -996,16 +919,16 @@
  {
   "serie": "18A",
   "fechaHora": "2026-11-29 15:30:00",
-  "cancha": "COMPLEJO JUAN XXIII",
-  "local": "LA BLANQUEADA",
-  "visitante": "SANTA ELENA LAGOMAR"
+  "cancha": "COMPLEJO ALCOBENDAS",
+  "local": "NACIONAL UNIVERSITARIO",
+  "visitante": "NUMA TURCATTI"
  },
  {
   "serie": "18A",
   "fechaHora": "2026-11-29 15:30:00",
-  "cancha": "COMPLEJO ALCOBENDAS",
-  "local": "NACIONAL UNIVERSITARIO",
-  "visitante": "NUMA TURCATTI"
+  "cancha": "COMPLEJO JUAN XXIII",
+  "local": "LA BLANQUEADA",
+  "visitante": "SANTA ELENA LAGOMAR"
  },
  {
   "serie": "18A",

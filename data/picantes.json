@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-27T16:30:36.927Z",
+ "actualizado": "2026-10-27T21:17:19.978Z",
  "partidos": [
   {
    "div": "sub20-a",
@@ -109,8 +109,8 @@
    "k": "Trouville Universitario~Seminario Universitario",
    "l": "Trouville Universitario",
    "v": "Seminario Universitario",
-   "dia": "2026-10-31",
-   "hora": "15:30",
+   "dia": "2026-10-29",
+   "hora": "20:30",
    "etapa": "Permanencia",
    "pl": 6,
    "pv": 7,
@@ -236,8 +236,8 @@
    "n": 8,
    "base": 0,
    "tipo": "titulo",
-   "altasL": 1,
-   "altasV": 1
+   "altasL": 2,
+   "altasV": 0
   },
   {
    "div": "mayores-b",
@@ -270,7 +270,7 @@
    "n": 8,
    "base": 8,
    "tipo": "descenso",
-   "altasL": 3,
+   "altasL": 2,
    "altasV": 2
   },
   {
@@ -390,7 +390,7 @@
    "base": 0,
    "tipo": "titulo",
    "altasL": 2,
-   "altasV": 1
+   "altasV": 2
   },
   {
    "div": "mas40-b",
@@ -423,8 +423,25 @@
    "n": 8,
    "base": 0,
    "tipo": "titulo",
-   "altasL": 0,
-   "altasV": 0
+   "altasL": 1,
+   "altasV": 2
+  },
+  {
+   "div": "sub18-oro",
+   "divNombre": "Sub 18 Oro",
+   "k": "Seminario~Old Christians",
+   "l": "Seminario",
+   "v": "Old Christians",
+   "dia": "2026-11-08",
+   "hora": "15:30",
+   "etapa": "Copa de Oro",
+   "pl": 2,
+   "pv": 3,
+   "n": 8,
+   "base": 0,
+   "tipo": "titulo",
+   "altasL": 1,
+   "altasV": 2
   },
   {
    "div": "sub16-oro",
@@ -457,8 +474,8 @@
    "n": 8,
    "base": 8,
    "tipo": "descenso",
-   "altasL": 1,
-   "altasV": 3
+   "altasL": 0,
+   "altasV": 1
   },
   {
    "div": "presenior-e",
@@ -493,23 +510,6 @@
    "tipo": "titulo",
    "altasL": 0,
    "altasV": 0
-  },
-  {
-   "div": "mayores-g",
-   "divNombre": "Mayores G",
-   "k": "Varela Universitario~Familiar Universitario",
-   "l": "Varela Universitario",
-   "v": "Familiar Universitario",
-   "dia": "2026-10-28",
-   "hora": "22:00",
-   "etapa": "Título y ascenso",
-   "pl": 2,
-   "pv": 3,
-   "n": 8,
-   "base": 0,
-   "tipo": "titulo",
-   "altasL": 0,
-   "altasV": 3
   }
  ]
 }

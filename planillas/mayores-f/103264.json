@@ -4,7 +4,7 @@
  "serie": "FPD",
  "fecha": 5,
  "fechaHora": "2026-10-25 09:00:00",
- "cancha": "COMPLEJO LAS CASUARINAS",
+ "cancha": "()",
  "local": "PAYSANDU UNVERSITARIO",
  "visitante": "LA CUEVA DEL LOBIZON",
  "gl": 1,
@@ -17,9 +17,9 @@
   "categoria": "MAYORES MASCULINO",
   "rueda": "2",
   "Divisional": "MAYORES \"F\" PERM. y DESC.",
-  "Cancha": "COMPLEJO LAS CASUARINAS",
-  "Fecha_Inicio": "2026-10-25 10:30:00",
-  "Fecha_fin": "2026-10-25 10:30:00",
+  "Cancha": "()",
+  "Fecha_Inicio": "2026-10-25 11:00:00",
+  "Fecha_fin": "2026-10-25 11:00:00",
   "Locatario": "PAYSANDU UNVERSITARIO",
   "goles_locatario": "1",
   "puntos_locatario": "0",
@@ -29,12 +29,240 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "55343",
+   "Nombre": "MATEO SCHOLDERLE",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "58186",
+   "Nombre": "GUSTAVO SEBASTIAN OTATTI",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "60936",
+   "Nombre": "CIRO AGESTA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "53227",
+   "Nombre": "JUAN MANUEL ESPINDOLA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "59339",
+   "Nombre": "DIEGO ALBERTO ESPINDOLA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "59331",
+   "Nombre": "BRANDON GABRIEL CORREA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "45774",
+   "Nombre": "JUAN PABLO URRUTY",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "37855",
+   "Nombre": "ENZO GIULIANO COCCARO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "57013",
+   "Nombre": "GASTON PASARELLO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "26535",
+   "Nombre": "FELIPE BONET",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "46307",
+   "Nombre": "CARLOS MARCELO GIANOTTI",
+   "camiseta": "13",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "63197",
+   "Nombre": "RODRIGO NICOLAS FERNANDEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "67564",
+   "Nombre": "TOMAS TROCHE",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "62180",
+   "Nombre": "AGUSTIN LAVENTURE",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "49830",
+   "Nombre": "PABLO RODRIGUEZ",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "26194",
+   "Nombre": "ALFONSO ROSSO",
+   "camiseta": "7",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "28805",
+   "Nombre": "FEDERICO ROSSO",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "49909",
+   "Nombre": "PABLO MAYOBRE",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "33673",
+   "Nombre": "MARTIN ANDRES TORRES",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "67307",
+   "Nombre": "VALENTIN ROSTAN",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "67448",
+   "Nombre": "JOAQUIN LONG",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "61062",
+   "Nombre": "AGUSTIN PEREZ",
+   "camiseta": "5",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "59339",
+   "Jug_Sale": "DIEGO ALBERTO ESPINDOLA",
+   "CarneEntra": "59336",
+   "Jug_Entra": "FACUNDO ALEXANDER BENTANCUR",
+   "camiseta": "14",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "26535",
+   "Jug_Sale": "FELIPE BONET",
+   "CarneEntra": "68231",
+   "Jug_Entra": "WALTER ZOE SALAZAR",
+   "camiseta": "11",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "37855",
+   "Jug_Sale": "ENZO GIULIANO COCCARO",
+   "CarneEntra": "26535",
+   "Jug_Entra": "FELIPE BONET",
+   "camiseta": "5",
+   "minutos": "70"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "26194",
+   "Jug_Sale": "ALFONSO ROSSO",
+   "CarneEntra": "64780",
+   "Jug_Entra": "NAHUEL ROSTAN",
+   "camiseta": "32",
+   "minutos": "34"
+  },
+  {
+   "CarneSale": "67564",
+   "Jug_Sale": "TOMAS TROCHE",
+   "CarneEntra": "37332",
+   "Jug_Entra": "FEDERICO ISPER",
+   "camiseta": "19",
+   "minutos": "46"
+  },
+  {
+   "CarneSale": "33673",
+   "Jug_Sale": "MARTIN ANDRES TORRES",
+   "CarneEntra": "29552",
+   "Jug_Entra": "NICOLAS LEONARDO ZABALETA",
+   "camiseta": "22",
+   "minutos": "59"
+  },
+  {
+   "CarneSale": "28805",
+   "Jug_Sale": "FEDERICO ROSSO",
+   "CarneEntra": "64965",
+   "Jug_Entra": "EMILIANO ANDRES CABRERA",
+   "camiseta": "21",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "49909",
+   "Jug_Sale": "PABLO MAYOBRE",
+   "CarneEntra": "45674",
+   "Jug_Entra": "NAHUEL ENRIQUE RUIZ",
+   "camiseta": "16",
+   "minutos": "89"
+  },
+  {
+   "CarneSale": "67448",
+   "Jug_Sale": "JOAQUIN LONG",
+   "CarneEntra": "32032",
+   "Jug_Entra": "SANTIAGO BORGIA",
+   "camiseta": "31",
+   "minutos": "89"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "26535",
+   "Nombre": "FELIPE BONET",
+   "minutos": "41",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "28805",
+   "Nombre": "FEDERICO ROSSO",
+   "minutos": "67",
+   "EnContra": "1"
+  },
+  {
+   "carne": "67448",
+   "Nombre": "JOAQUIN LONG",
+   "minutos": "26",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"D\" TIT. y ASC.",
   "Cancha": "COMPLEJO DEPORTIVO H3O",
-  "Fecha_Inicio": "2026-10-25 10:30:00",
-  "Fecha_fin": "2026-10-25 10:30:00",
+  "Fecha_Inicio": "2026-10-25 11:05:00",
+  "Fecha_fin": "2026-10-25 11:05:00",
   "Locatario": "LA 12 UNIVERSITARIA",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,248 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "33323",
+   "Nombre": "RICARDO NICOLAS FACAL",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "64340",
+   "Nombre": "ALEX ALFONSO",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "53887",
+   "Nombre": "IGNACIO RAUL ALVAREZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "38683",
+   "Nombre": "BRUNO CRISTIAN PEREYRA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "57595",
+   "Nombre": "JOAQUIN PAMOUKAGHLIAN",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "50527",
+   "Nombre": "FACUNDO TALAGORRIA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "60083",
+   "Nombre": "GIANFRANCO CIMINO",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "66938",
+   "Nombre": "MAURICIO ERNESTO PEREYRA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "52908",
+   "Nombre": "AGUSTIN SALVADOR ROSSELLO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "58016",
+   "Nombre": "MAURO MEDRANO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "43707",
+   "Nombre": "FACUNDO MARIANO MUÑOZ",
+   "camiseta": "32",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "44677",
+   "Nombre": "CARLOS FACUNDO MORENO",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "64768",
+   "Nombre": "DIEGO ANDRES PERDOMO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "54838",
+   "Nombre": "AGUSTIN GANACHIPPI",
+   "camiseta": "2",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "17587",
+   "Nombre": "GONZALO HOMERO ALBIN",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "65354",
+   "Nombre": "JULIAN COHENAR",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "57829",
+   "Nombre": "FRANCO ALESSANDRO BARROSO",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "54839",
+   "Nombre": "NICOLAS ANTELO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "59766",
+   "Nombre": "JOSE ANDRES MARQUEZ",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "31995",
+   "Nombre": "JORGE IGNACIO DIAZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "54513",
+   "Nombre": "MATIAS MICHEL TORRES",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "54846",
+   "Nombre": "JUAN IGNACIO VAZ",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "60083",
+   "Jug_Sale": "GIANFRANCO CIMINO",
+   "CarneEntra": "60118",
+   "Jug_Entra": "DIEGO VICENTE CESAR",
+   "camiseta": "9",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "43707",
+   "Jug_Sale": "FACUNDO MARIANO MUÑOZ",
+   "CarneEntra": "54654",
+   "Jug_Entra": "MARTIN BERASAIN",
+   "camiseta": "19",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "58016",
+   "Jug_Sale": "MAURO MEDRANO",
+   "CarneEntra": "60785",
+   "Jug_Entra": "JEREMY SEBASTIAN MORENO",
+   "camiseta": "6",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64340",
+   "Jug_Sale": "ALEX ALFONSO",
+   "CarneEntra": "41167",
+   "Jug_Entra": "MATEO TECHERA",
+   "camiseta": "18",
+   "minutos": "81"
+  },
+  {
+   "CarneSale": "38683",
+   "Jug_Sale": "BRUNO CRISTIAN PEREYRA",
+   "CarneEntra": "69220",
+   "Jug_Entra": "VALENTIN VERA",
+   "camiseta": "35",
+   "minutos": "85"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "54513",
+   "Jug_Sale": "MATIAS MICHEL TORRES",
+   "CarneEntra": "59385",
+   "Jug_Entra": "PEDRO CAPDEVIELLE",
+   "camiseta": "20",
+   "minutos": "22"
+  },
+  {
+   "CarneSale": "59766",
+   "Jug_Sale": "JOSE ANDRES MARQUEZ",
+   "CarneEntra": "66880",
+   "Jug_Entra": "FELIPE PFEIFF",
+   "camiseta": "8",
+   "minutos": "59"
+  },
+  {
+   "CarneSale": "64768",
+   "Jug_Sale": "DIEGO ANDRES PERDOMO",
+   "CarneEntra": "45466",
+   "Jug_Entra": "AGUSTIN CALABUIG",
+   "camiseta": "42",
+   "minutos": "74"
+  },
+  {
+   "CarneSale": "59385",
+   "Jug_Sale": "PEDRO CAPDEVIELLE",
+   "CarneEntra": "63846",
+   "Jug_Entra": "JUAN GONZALO JIMENEZ",
+   "camiseta": "27",
+   "minutos": "74"
+  },
+  {
+   "CarneSale": "54846",
+   "Jug_Sale": "JUAN IGNACIO VAZ",
+   "CarneEntra": "59436",
+   "Jug_Entra": "LAUTARO OLVEIRA",
+   "camiseta": "19",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "57829",
+   "Jug_Sale": "FRANCO ALESSANDRO BARROSO",
+   "CarneEntra": "69130",
+   "Jug_Entra": "JUAN IGNACIO RODRIGUEZ",
+   "camiseta": "36",
+   "minutos": "88"
+  }
+ ],
  "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "golesV": [
+  {
+   "carne": "54838",
+   "Nombre": "AGUSTIN GANACHIPPI",
+   "minutos": "5",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "AGUSTIN SALVADOR ROSSELLO",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

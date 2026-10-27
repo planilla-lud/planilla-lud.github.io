@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB18 COMPETENCIA",
   "Cancha": "COMPLEJO DEP. y SAL, EL RINCON",
-  "Fecha_Inicio": "2026-10-25 17:00:00",
-  "Fecha_fin": "2026-10-25 17:00:00",
+  "Fecha_Inicio": "2026-10-25 17:30:00",
+  "Fecha_fin": "2026-10-25 17:30:00",
   "Locatario": "UNIVERSITARIO VERONES",
   "goles_locatario": "1",
   "puntos_locatario": "1",
@@ -29,12 +29,239 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "titularesL": [
+  {
+   "carne": "64021",
+   "Nombre": "SEBASTIAN NAHUEL SOLARI",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "66831",
+   "Nombre": "EYDAN GARCIA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "68105",
+   "Nombre": "HIOJAN GABRIEL GUILLENEA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "62818",
+   "Nombre": "SANTIAGO VECOÑA",
+   "camiseta": "23",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "63204",
+   "Nombre": "EMILIANO CANTERO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "62567",
+   "Nombre": "SANTINO MONTES DE OCA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "62559",
+   "Nombre": "MATEO FELIPE CANTERA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "62562",
+   "Nombre": "SANTIAGO KURONYA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "66371",
+   "Nombre": "CRISTIAN GABRIEL NOVOA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "66175",
+   "Nombre": "NAZARENO AGUSTIN GONZALEZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "62813",
+   "Nombre": "SANTINO PARODI",
+   "camiseta": "22",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "68500",
+   "Nombre": "AGUSTIN NUÑEZ",
+   "camiseta": "76",
+   "Capitan": ""
+  },
+  {
+   "carne": "66347",
+   "Nombre": "LEONIDAS ALEJANDRO VARELA",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "64372",
+   "Nombre": "AGUSTIN VALSANGIACOMO",
+   "camiseta": "99",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "68974",
+   "Nombre": "LORENZO SILVERA",
+   "camiseta": "91",
+   "Capitan": ""
+  },
+  {
+   "carne": "64532",
+   "Nombre": "GUILLERMO NALERIO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "64373",
+   "Nombre": "EDUARDO SABINO RODRIGUEZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "69003",
+   "Nombre": "MARIANO DIAZ",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "64434",
+   "Nombre": "SANTIAGO LAPENTE",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "64536",
+   "Nombre": "JOAQUIN RODRIGUEZ",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "64530",
+   "Nombre": "EMILIANO DOS SANTOS",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "64371",
+   "Nombre": "RAFAEL AGUSTIN RODRIGUEZ",
+   "camiseta": "87",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "62813",
+   "Jug_Sale": "SANTINO PARODI",
+   "CarneEntra": "65837",
+   "Jug_Entra": "MATIAS ALBE",
+   "camiseta": "15",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66371",
+   "Jug_Sale": "CRISTIAN GABRIEL NOVOA",
+   "CarneEntra": "62564",
+   "Jug_Entra": "MARTIN NAJAS",
+   "camiseta": "2",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66175",
+   "Jug_Sale": "NAZARENO AGUSTIN GONZALEZ",
+   "CarneEntra": "64022",
+   "Jug_Entra": "BENJAMIN MENDEZ",
+   "camiseta": "19",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "63204",
+   "Jug_Sale": "EMILIANO CANTERO",
+   "CarneEntra": "62813",
+   "Jug_Entra": "SANTINO PARODI",
+   "camiseta": "22",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "66831",
+   "Jug_Sale": "EYDAN GARCIA",
+   "CarneEntra": "66371",
+   "Jug_Entra": "CRISTIAN GABRIEL NOVOA",
+   "camiseta": "21",
+   "minutos": "93"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "64371",
+   "Jug_Sale": "RAFAEL AGUSTIN RODRIGUEZ",
+   "CarneEntra": "65873",
+   "Jug_Entra": "FEDERICO GOÑI",
+   "camiseta": "9",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "64536",
+   "Jug_Sale": "JOAQUIN RODRIGUEZ",
+   "CarneEntra": "67296",
+   "Jug_Entra": "SANTIAGO JANSSEN",
+   "camiseta": "28",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "69003",
+   "Jug_Sale": "MARIANO DIAZ",
+   "CarneEntra": "64537",
+   "Jug_Entra": "GIULIANO FRANCO",
+   "camiseta": "18",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "64373",
+   "Jug_Sale": "EDUARDO SABINO RODRIGUEZ",
+   "CarneEntra": "67298",
+   "Jug_Entra": "FRANCISCO BAUTISTA MARTINEZ",
+   "camiseta": "12",
+   "minutos": "90"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "62564",
+   "Nombre": "MARTIN NAJAS",
+   "minutos": "81",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "64530",
+   "Nombre": "EMILIANO DOS SANTOS",
+   "minutos": "12",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "SANTINO MONTES DE OCA",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

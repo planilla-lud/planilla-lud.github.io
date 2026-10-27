@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"F\" TIT. y ASC.",
   "Cancha": "ESCUELA MILITAR (TOLEDO)",
-  "Fecha_Inicio": "2026-10-25 12:45:00",
-  "Fecha_fin": "2026-10-25 12:45:00",
+  "Fecha_Inicio": "2026-10-25 13:00:00",
+  "Fecha_fin": "2026-10-25 13:00:00",
   "Locatario": "ESCUELA MILITAR",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,261 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "64893",
+   "Nombre": "JUAN PEREZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "56615",
+   "Nombre": "GASTON MELO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "64897",
+   "Nombre": "AGUSTIN GULARTE",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "62007",
+   "Nombre": "LAUREANO CASTILLO",
+   "camiseta": "63",
+   "Capitan": ""
+  },
+  {
+   "carne": "63159",
+   "Nombre": "ISMAEL EMILIANO VIEGA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "59450",
+   "Nombre": "ENZO OTEGUI",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "63113",
+   "Nombre": "AGUSTIN DIAZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "68942",
+   "Nombre": "LORENZO ALONSO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "51353",
+   "Nombre": "JORGE MONTERO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "46964",
+   "Nombre": "VALENTIN ARANCET",
+   "camiseta": "15",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "52738",
+   "Nombre": "JHON CASTAÑO",
+   "camiseta": "21",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "59906",
+   "Nombre": "MATEO FRANCO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "59036",
+   "Nombre": "FACUNDO ROSADO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "57278",
+   "Nombre": "LUCAS REINOSO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "56465",
+   "Nombre": "EZEQUIEL MONTIEL",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "59018",
+   "Nombre": "GONZALO GALEANO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "61822",
+   "Nombre": "LUCAS PEREIRA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "47551",
+   "Nombre": "PATRICIO COLLAZO",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "62488",
+   "Nombre": "JOAQUIN SEBASTIAN CASAL",
+   "camiseta": "76",
+   "Capitan": ""
+  },
+  {
+   "carne": "60958",
+   "Nombre": "FEDERICO MANUELIAN",
+   "camiseta": "99",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "60652",
+   "Nombre": "MATIAS VARELA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "54465",
+   "Nombre": "BRUNO POUND",
+   "camiseta": "17",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "63159",
+   "Jug_Sale": "ISMAEL EMILIANO VIEGA",
+   "CarneEntra": "64895",
+   "Jug_Entra": "GUILLERMO RODRIGUEZ",
+   "camiseta": "20",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "64897",
+   "Jug_Sale": "AGUSTIN GULARTE",
+   "CarneEntra": "63704",
+   "Jug_Entra": "LUIS DIAZ",
+   "camiseta": "14",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "63113",
+   "Jug_Sale": "AGUSTIN DIAZ",
+   "CarneEntra": "68943",
+   "Jug_Entra": "MAURO CORBO",
+   "camiseta": "13",
+   "minutos": "74"
+  },
+  {
+   "CarneSale": "59450",
+   "Jug_Sale": "ENZO OTEGUI",
+   "CarneEntra": "66803",
+   "Jug_Entra": "GONZALO RODRIGUEZ",
+   "camiseta": "22",
+   "minutos": "74"
+  },
+  {
+   "CarneSale": "56615",
+   "Jug_Sale": "GASTON MELO",
+   "CarneEntra": "59344",
+   "Jug_Entra": "RICARDO FEDERICO OJEDA",
+   "camiseta": "18",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "62007",
+   "Jug_Sale": "LAUREANO CASTILLO",
+   "CarneEntra": "64902",
+   "Jug_Entra": "JUAN FERNANDEZ",
+   "camiseta": "4",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "68942",
+   "Jug_Sale": "LORENZO ALONSO",
+   "CarneEntra": "56615",
+   "Jug_Entra": "GASTON MELO",
+   "camiseta": "17",
+   "minutos": "83"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "56465",
+   "Jug_Sale": "EZEQUIEL MONTIEL",
+   "CarneEntra": "68985",
+   "Jug_Entra": "TADEO ASUAGA",
+   "camiseta": "16",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "59018",
+   "Jug_Sale": "GONZALO GALEANO",
+   "CarneEntra": "67299",
+   "Jug_Entra": "FRANCO NICOLAS PURTSCHER",
+   "camiseta": "38",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "61822",
+   "Jug_Sale": "LUCAS PEREIRA",
+   "CarneEntra": "62487",
+   "Jug_Entra": "ALEJO RAMIREZ",
+   "camiseta": "41",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "54465",
+   "Jug_Sale": "BRUNO POUND",
+   "CarneEntra": "54931",
+   "Jug_Entra": "GENARO VALENTIN COLOMBO",
+   "camiseta": "11",
+   "minutos": "87"
+  }
+ ],
  "golesL": [],
- "golesV": [],
+ "golesV": [
+  {
+   "carne": "54465",
+   "Nombre": "BRUNO POUND",
+   "minutos": "20",
+   "EnContra": "1"
+  },
+  {
+   "carne": "54465",
+   "Nombre": "BRUNO POUND",
+   "minutos": "55",
+   "EnContra": "1"
+  },
+  {
+   "carne": "60652",
+   "Nombre": "MATIAS VARELA",
+   "minutos": "6",
+   "EnContra": "1"
+  },
+  {
+   "carne": "60652",
+   "Nombre": "MATIAS VARELA",
+   "minutos": "38",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

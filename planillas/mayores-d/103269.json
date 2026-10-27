@@ -3,7 +3,7 @@
  "categoria": "mayores-d",
  "serie": "DPD",
  "fecha": 5,
- "fechaHora": "2026-10-25 09:00:00",
+ "fechaHora": "2026-10-25 09:50:00",
  "cancha": "ESTADIO MARTÍNEZ MONEGAL",
  "local": "SALESIANOS DE LAS PIEDRAS",
  "visitante": "DEPORTIVO MORON",
@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"D\" PERM. y DESC.",
   "Cancha": "ESTADIO MARTÍNEZ MONEGAL",
-  "Fecha_Inicio": "2026-10-25 10:30:00",
-  "Fecha_fin": "2026-10-25 10:30:00",
+  "Fecha_Inicio": "2026-10-25 11:50:00",
+  "Fecha_fin": "2026-10-25 11:50:00",
   "Locatario": "SALESIANOS DE LAS PIEDRAS",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,273 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "68235",
+   "Nombre": "ESTEBAN DARIO CARABALLO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "23471",
+   "Nombre": "MICHEL PRONK",
+   "camiseta": "18",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "39596",
+   "Nombre": "DIEGO MANUEL BALADAS",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "58258",
+   "Nombre": "FACUNDO MARTIN BORGES",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "48265",
+   "Nombre": "EMILIANO SEBASTIAN MEDEIROS",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "56829",
+   "Nombre": "LUCAS JOAQUIN PERA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "68652",
+   "Nombre": "ENZO CRAIGDALLIE",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "68864",
+   "Nombre": "JOEL IGNACIO CORUJO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "58177",
+   "Nombre": "LAUTARO ROCHA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "63521",
+   "Nombre": "FRANCO NAHUEL CLAVIJO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "33591",
+   "Nombre": "ENZO FERNANDO DE MELLO",
+   "camiseta": "15",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "61996",
+   "Nombre": "JUAN MATEO MAGUNA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "58051",
+   "Nombre": "FRANCISCO PERRONE",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "63471",
+   "Nombre": "DIEGO PORTELA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "66165",
+   "Nombre": "JOAQUIN MATEU",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "64207",
+   "Nombre": "LAUTARO FABIAN LECUNA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "64945",
+   "Nombre": "AMERICO MAXIMILIANO MILLAN",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "64206",
+   "Nombre": "LUCA SANTINO LAURENZI",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "69214",
+   "Nombre": "ISAAC NARVAEZ",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "53588",
+   "Nombre": "DIEGO NICOLAS CAVALLERO",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56718",
+   "Nombre": "RAMIRO BENTANCOR",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "40883",
+   "Nombre": "GONZALO SISMONDI",
+   "camiseta": "3",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "56829",
+   "Jug_Sale": "LUCAS JOAQUIN PERA",
+   "CarneEntra": "26467",
+   "Jug_Entra": "KRISTIAN MAURICIO RODRIGUEZ",
+   "camiseta": "22",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68864",
+   "Jug_Sale": "JOEL IGNACIO CORUJO",
+   "CarneEntra": "43829",
+   "Jug_Entra": "RICHARD NICOLAS VIÑA",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "39596",
+   "Jug_Sale": "DIEGO MANUEL BALADAS",
+   "CarneEntra": "43826",
+   "Jug_Entra": "GABRIEL PAREDES",
+   "camiseta": "20",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58177",
+   "Jug_Sale": "LAUTARO ROCHA",
+   "CarneEntra": "26560",
+   "Jug_Entra": "MATIAS NICOLAS MORALES",
+   "camiseta": "14",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "58258",
+   "Jug_Sale": "FACUNDO MARTIN BORGES",
+   "CarneEntra": "69061",
+   "Jug_Entra": "GERMAN CLAVIJO",
+   "camiseta": "9",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "33591",
+   "Jug_Sale": "ENZO FERNANDO DE MELLO",
+   "CarneEntra": "50480",
+   "Jug_Entra": "JONATHAN MAICHEL RISSO",
+   "camiseta": "25",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "48265",
+   "Jug_Sale": "EMILIANO SEBASTIAN MEDEIROS",
+   "CarneEntra": "41438",
+   "Jug_Entra": "FACUNDO GRAU",
+   "camiseta": "19",
+   "minutos": "80"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "56718",
+   "Jug_Sale": "RAMIRO BENTANCOR",
+   "CarneEntra": "46463",
+   "Jug_Entra": "FEDERICO MELA",
+   "camiseta": "5",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64206",
+   "Jug_Sale": "LUCA SANTINO LAURENZI",
+   "CarneEntra": "64944",
+   "Jug_Entra": "VALENTINO DECIA",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64207",
+   "Jug_Sale": "LAUTARO FABIAN LECUNA",
+   "CarneEntra": "54546",
+   "Jug_Entra": "MARTIN PENA",
+   "camiseta": "8",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "40883",
+   "Jug_Sale": "GONZALO SISMONDI",
+   "CarneEntra": "50924",
+   "Jug_Entra": "FRANCO STELLA",
+   "camiseta": "13",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "69214",
+   "Jug_Sale": "ISAAC NARVAEZ",
+   "CarneEntra": "66306",
+   "Jug_Entra": "FEDERICO RODRIGUEZ",
+   "camiseta": "22",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "64945",
+   "Jug_Sale": "AMERICO MAXIMILIANO MILLAN",
+   "CarneEntra": "67259",
+   "Jug_Entra": "MANUEL NICOLAS TELIZ",
+   "camiseta": "7",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "53588",
+   "Jug_Sale": "DIEGO NICOLAS CAVALLERO",
+   "CarneEntra": "68660",
+   "Jug_Entra": "RENATO LUZARDO",
+   "camiseta": "91",
+   "minutos": "75"
+  }
+ ],
  "golesL": [],
- "golesV": [],
+ "golesV": [
+  {
+   "carne": "40883",
+   "Nombre": "GONZALO SISMONDI",
+   "minutos": "21",
+   "EnContra": "1"
+  },
+  {
+   "carne": "66165",
+   "Nombre": "JOAQUIN MATEU",
+   "minutos": "57",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

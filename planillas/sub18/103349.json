@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB18 PLATA",
   "Cancha": "COMPLEJO DEPORTIVO ARRAYANES",
-  "Fecha_Inicio": "2026-10-25 17:00:00",
-  "Fecha_fin": "2026-10-25 17:00:00",
+  "Fecha_Inicio": "2026-10-25 17:30:00",
+  "Fecha_fin": "2026-10-25 17:30:00",
   "Locatario": "COLEGIO SANTA ELENA",
   "goles_locatario": "1",
   "puntos_locatario": "1",
@@ -29,12 +29,234 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "62694",
+   "Nombre": "NOAH ELIAS LEFKARITIS",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "58409",
+   "Nombre": "LUCIANO CABRERA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "57679",
+   "Nombre": "JUAN MANUEL BELLO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "63150",
+   "Nombre": "MATHIAS PABLO FAZZIO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "62914",
+   "Nombre": "EMILIANO MILA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "66217",
+   "Nombre": "JUAN GENARO TABO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "63760",
+   "Nombre": "JUAN MANUEL RODRIGUEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "58136",
+   "Nombre": "MATEO BENSASSON",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "68391",
+   "Nombre": "SANTINO GORDILLO",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "63065",
+   "Nombre": "RODRIGO BENTANCOURT",
+   "camiseta": "79",
+   "Capitan": ""
+  },
+  {
+   "carne": "62530",
+   "Nombre": "ELIAN SHARIM TEJERIA",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "64610",
+   "Nombre": "JUAN PEDRO CASANOVA",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "64606",
+   "Nombre": "FACUNDO FEDERICO PATTETA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "56771",
+   "Nombre": "SANTIAGO MARTIN ARREGIN",
+   "camiseta": "73",
+   "Capitan": ""
+  },
+  {
+   "carne": "68164",
+   "Nombre": "FACUNDO RAMOS",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "64617",
+   "Nombre": "MATEO EMILIANO MARRERO",
+   "camiseta": "17",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "64615",
+   "Nombre": "JOAQUIN MORENO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "65374",
+   "Nombre": "JUAN MATIAS PEREIRA",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "64609",
+   "Nombre": "IVAN CHARABARUK",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "64607",
+   "Nombre": "FACUNDO ZEITOUNLIAN",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "64598",
+   "Nombre": "JOAQUIN MANUEL VAZQUEZ",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "64613",
+   "Nombre": "FELIPE DE MEDINA",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "63065",
+   "Jug_Sale": "RODRIGO BENTANCOURT",
+   "CarneEntra": "58135",
+   "Jug_Entra": "TIAGO JULIEN ALVAREZ",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "62914",
+   "Jug_Sale": "EMILIANO MILA",
+   "CarneEntra": "61890",
+   "Jug_Entra": "FELIPE MOLFINO",
+   "camiseta": "27",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "63150",
+   "Jug_Sale": "MATHIAS PABLO FAZZIO",
+   "CarneEntra": "63065",
+   "Jug_Entra": "RODRIGO BENTANCOURT",
+   "camiseta": "79",
+   "minutos": "71"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "56771",
+   "Jug_Sale": "SANTIAGO MARTIN ARREGIN",
+   "CarneEntra": "68164",
+   "Jug_Entra": "FACUNDO RAMOS",
+   "camiseta": "4",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "64607",
+   "Jug_Sale": "FACUNDO ZEITOUNLIAN",
+   "CarneEntra": "64609",
+   "Jug_Entra": "IVAN CHARABARUK",
+   "camiseta": "10",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "68164",
+   "Jug_Sale": "FACUNDO RAMOS",
+   "CarneEntra": "64918",
+   "Jug_Entra": "FACUNDO JESUS CESAR",
+   "camiseta": "20",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64609",
+   "Jug_Sale": "IVAN CHARABARUK",
+   "CarneEntra": "65724",
+   "Jug_Entra": "THIAGO ALTEZ",
+   "camiseta": "5",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "65374",
+   "Jug_Sale": "JUAN MATIAS PEREIRA",
+   "CarneEntra": "64607",
+   "Jug_Entra": "FACUNDO ZEITOUNLIAN",
+   "camiseta": "7",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "64617",
+   "Jug_Sale": "MATEO EMILIANO MARRERO",
+   "CarneEntra": "65724",
+   "Jug_Entra": "THIAGO ALTEZ",
+   "camiseta": "5",
+   "minutos": "92"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "57679",
+   "Nombre": "JUAN MANUEL BELLO",
+   "minutos": "7",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "64607",
+   "Nombre": "FACUNDO ZEITOUNLIAN",
+   "minutos": "65",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

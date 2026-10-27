@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"F\" PERM. y DESC.",
   "Cancha": "VILLA MARIA",
-  "Fecha_Inicio": "2026-10-25 10:30:00",
-  "Fecha_fin": "2026-10-25 10:30:00",
+  "Fecha_Inicio": "2026-10-25 10:52:00",
+  "Fecha_fin": "2026-10-25 10:52:00",
   "Locatario": "AMERICA UNIVERSITARIO",
   "goles_locatario": "3",
   "puntos_locatario": "3",
@@ -29,12 +29,243 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "64132",
+   "Nombre": "IGNACIO NAHUEL PENSADO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "55456",
+   "Nombre": "INTI DZIUR",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "63953",
+   "Nombre": "LEANDRO VIDELA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "49670",
+   "Nombre": "GASTON EMIDIO HUMEDES",
+   "camiseta": "4",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "57136",
+   "Nombre": "EMILIO VILLAMAYOR",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "51218",
+   "Nombre": "OSCAR ESTEBAN BABIO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "52572",
+   "Nombre": "SEBASTIAN NICOLAS BABIO",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "54418",
+   "Nombre": "ENZO ROSSO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "49055",
+   "Nombre": "SILVIO AGUSTIN MARTINEZ",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "56457",
+   "Nombre": "SANTIAGO MARCHETTI",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "54417",
+   "Nombre": "GUILLERMO SALGADO",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "67182",
+   "Nombre": "RAMIRO FERRAGUT",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "27135",
+   "Nombre": "JOAQUIN PERI",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "41287",
+   "Nombre": "FACUNDO BRUNO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "67181",
+   "Nombre": "FACUNDO GOROSO",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "39411",
+   "Nombre": "PABLO DANIEL PAZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "36600",
+   "Nombre": "NICOLAS TUCCI",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "26624",
+   "Nombre": "CAMILO REYES",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "53614",
+   "Nombre": "TIAGO SALHON",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "29282",
+   "Nombre": "DIEGO ANDRES HERNANDEZ",
+   "camiseta": "13",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "40991",
+   "Nombre": "MAURICIO ROMANO",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "53877",
+   "Nombre": "MARCOS BERTINAT",
+   "camiseta": "27",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "57136",
+   "Jug_Sale": "EMILIO VILLAMAYOR",
+   "CarneEntra": "68866",
+   "Jug_Entra": "PAOLO SANTIAGO GONZALEZ",
+   "camiseta": "13",
+   "minutos": "17"
+  },
+  {
+   "CarneSale": "57136",
+   "Jug_Sale": "EMILIO VILLAMAYOR",
+   "CarneEntra": "68875",
+   "Jug_Entra": "ELTON YROCHI AVILA",
+   "camiseta": "20",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "54417",
+   "Jug_Sale": "GUILLERMO SALGADO",
+   "CarneEntra": "67272",
+   "Jug_Entra": "RODRIGO BILLAREZ",
+   "camiseta": "17",
+   "minutos": "89"
+  },
+  {
+   "CarneSale": "56457",
+   "Jug_Sale": "SANTIAGO MARCHETTI",
+   "CarneEntra": "59856",
+   "Jug_Entra": "MARTIN JOSE CERDEIRAS",
+   "camiseta": "25",
+   "minutos": "91"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "26624",
+   "Jug_Sale": "CAMILO REYES",
+   "CarneEntra": "51376",
+   "Jug_Entra": "RENZO ARRIETA",
+   "camiseta": "29",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "53877",
+   "Jug_Sale": "MARCOS BERTINAT",
+   "CarneEntra": "62290",
+   "Jug_Entra": "MANUEL HERNAN HALLER",
+   "camiseta": "19",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "39411",
+   "Jug_Sale": "PABLO DANIEL PAZ",
+   "CarneEntra": "52887",
+   "Jug_Entra": "ROMEO ALBORNOZ",
+   "camiseta": "16",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "53614",
+   "Jug_Sale": "TIAGO SALHON",
+   "CarneEntra": "52978",
+   "Jug_Entra": "GUILLERMO COBAS",
+   "camiseta": "4",
+   "minutos": "82"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "54417",
+   "Nombre": "GUILLERMO SALGADO",
+   "minutos": "51",
+   "EnContra": "0"
+  },
+  {
+   "carne": "56457",
+   "Nombre": "SANTIAGO MARCHETTI",
+   "minutos": "33",
+   "EnContra": "0"
+  },
+  {
+   "carne": "56457",
+   "Nombre": "SANTIAGO MARCHETTI",
+   "minutos": "68",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "41287",
+   "Nombre": "FACUNDO BRUNO",
+   "minutos": "55",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
- "expulsadosV": []
+ "expulsadosV": [
+  {
+   "Nombre": "FACUNDO GOROSO",
+   "observaciones": ""
+  }
+ ]
 }

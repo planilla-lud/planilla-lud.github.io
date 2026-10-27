@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"C\" PERM. y DESC.",
   "Cancha": "COM. CLUB UNIVERSIDAD CATOLICA",
-  "Fecha_Inicio": "2026-10-25 10:30:00",
-  "Fecha_fin": "2026-10-25 10:30:00",
+  "Fecha_Inicio": "2026-10-25 10:51:00",
+  "Fecha_fin": "2026-10-25 10:51:00",
   "Locatario": "POCO SITIO PLAYA VERDE",
   "goles_locatario": "2",
   "puntos_locatario": "3",
@@ -29,12 +29,248 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "50792",
+   "Nombre": "LUCA BARCELO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "43678",
+   "Nombre": "GONZALO ALBA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "49285",
+   "Nombre": "EMILIANO MARSILI",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "48913",
+   "Nombre": "FEDERICO JOAQUIN OCAMPO",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "50788",
+   "Nombre": "JUAN ANDRES VARELA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "39100",
+   "Nombre": "TOMAS IGNACIO MANGGIAROTTI",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "45240",
+   "Nombre": "JOSE MAURO COSENTINO",
+   "camiseta": "16",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56209",
+   "Nombre": "EMILIANO DI LASCIO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "41351",
+   "Nombre": "GONZALO RUBEN YIZMEYIAN",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "36872",
+   "Nombre": "FEDERICO LUIS BISCARDI",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "40179",
+   "Nombre": "AGUSTIN FERNANDO GARABEDIAN",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "49862",
+   "Nombre": "DANIEL SORDELLI",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "20722",
+   "Nombre": "JUAN MANUEL GONZALEZ",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "54565",
+   "Nombre": "SEBASTIAN FEDERICO ALTEZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "49861",
+   "Nombre": "NICOLAS CARLOS ALTEZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "60794",
+   "Nombre": "JUAN IGNACIO VIGLIONE",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "64641",
+   "Nombre": "LEANDRO DELGADO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "39442",
+   "Nombre": "GUZMAN GONZALEZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "44411",
+   "Nombre": "BRAHIAN ANDRES CRUZ",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "68955",
+   "Nombre": "LUIS FRANCO PERAZZA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "22495",
+   "Nombre": "IGNACIO BURGOS",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "20253",
+   "Nombre": "PABLO CARLEVARO",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "39100",
+   "Jug_Sale": "TOMAS IGNACIO MANGGIAROTTI",
+   "CarneEntra": "50790",
+   "Jug_Entra": "JOAQUIN ANDRES GARCIA",
+   "camiseta": "22",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "41351",
+   "Jug_Sale": "GONZALO RUBEN YIZMEYIAN",
+   "CarneEntra": "47787",
+   "Jug_Entra": "JUAN PEDRO DOMINGUEZ",
+   "camiseta": "21",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "50788",
+   "Jug_Sale": "JUAN ANDRES VARELA",
+   "CarneEntra": "39100",
+   "Jug_Entra": "TOMAS IGNACIO MANGGIAROTTI",
+   "camiseta": "8",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "56209",
+   "Jug_Sale": "EMILIANO DI LASCIO",
+   "CarneEntra": "49274",
+   "Jug_Entra": "DIEGO RODRIGUEZ",
+   "camiseta": "15",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "40179",
+   "Jug_Sale": "AGUSTIN FERNANDO GARABEDIAN",
+   "CarneEntra": "41070",
+   "Jug_Entra": "MATEO BIQUE",
+   "camiseta": "23",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "43678",
+   "Jug_Sale": "GONZALO ALBA",
+   "CarneEntra": "67011",
+   "Jug_Entra": "FACUNDO SORIA",
+   "camiseta": "2",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "36872",
+   "Jug_Sale": "FEDERICO LUIS BISCARDI",
+   "CarneEntra": "41351",
+   "Jug_Entra": "GONZALO RUBEN YIZMEYIAN",
+   "camiseta": "10",
+   "minutos": "84"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "20253",
+   "Jug_Sale": "PABLO CARLEVARO",
+   "CarneEntra": "66338",
+   "Jug_Entra": "MATIAS ANDRES GONZALEZ",
+   "camiseta": "32",
+   "minutos": "11"
+  },
+  {
+   "CarneSale": "22495",
+   "Jug_Sale": "IGNACIO BURGOS",
+   "CarneEntra": "69066",
+   "Jug_Entra": "JOAQUIN LOPEZ",
+   "camiseta": "4",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "60794",
+   "Jug_Sale": "JUAN IGNACIO VIGLIONE",
+   "CarneEntra": "20253",
+   "Jug_Entra": "PABLO CARLEVARO",
+   "camiseta": "9",
+   "minutos": "45"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "36872",
+   "Nombre": "FEDERICO LUIS BISCARDI",
+   "minutos": "5",
+   "EnContra": "0"
+  },
+  {
+   "carne": "36872",
+   "Nombre": "FEDERICO LUIS BISCARDI",
+   "minutos": "65",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "20253",
+   "Nombre": "PABLO CARLEVARO",
+   "minutos": "92",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB16 BRONCE",
   "Cancha": "COMPLEJO AZULGRANA",
-  "Fecha_Inicio": "2026-10-25 15:00:00",
-  "Fecha_fin": "2026-10-25 15:00:00",
+  "Fecha_Inicio": "2026-10-25 15:15:00",
+  "Fecha_fin": "2026-10-25 15:15:00",
   "Locatario": "PELOTA AL MEDIO UNIVERSITARIO",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,251 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "64810",
+   "Nombre": "DAMIAN PICASSO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "65865",
+   "Nombre": "JOAQUIN RAMOS",
+   "camiseta": "6",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "67821",
+   "Nombre": "EMILIANO FABRICIO ABRINES",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "67831",
+   "Nombre": "ISMAEL PERDOMO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "67814",
+   "Nombre": "LUCA  MARTIN PASTORINO",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "67822",
+   "Nombre": "JOAQUIN ANDRES BELLO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "67815",
+   "Nombre": "ALAN SEBASTIAN CASTELLANOS",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "63467",
+   "Nombre": "PABLO BESTRICOV",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "67811",
+   "Nombre": "MATIAS ALEJANDRO ROJAS",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "67818",
+   "Nombre": "LUCIANO AGUSTIN FUQUES",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "66085",
+   "Nombre": "EZEQUIEL SERGIO SILVEIRA",
+   "camiseta": "5",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "63944",
+   "Nombre": "ROBERTO SAENZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "66600",
+   "Nombre": "AGUSTIN MARCHETTI",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "63948",
+   "Nombre": "MATIAS FERNANDEZ",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "66603",
+   "Nombre": "BAUTISTA PASSEGGI",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "63940",
+   "Nombre": "GERONIMO SPERANZA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "61623",
+   "Nombre": "PABLO MARCELO TOPOLANSKY",
+   "camiseta": "6",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "65295",
+   "Nombre": "BAUTISTA SOSA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "65291",
+   "Nombre": "EMILIANO SALGUEIRO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "63945",
+   "Nombre": "CONSTANTINO AROCENA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "67019",
+   "Nombre": "JUAN MARTIN POLETTO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "66516",
+   "Nombre": "JUAN MANUEL BARRIOS",
+   "camiseta": "21",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "67818",
+   "Jug_Sale": "LUCIANO AGUSTIN FUQUES",
+   "CarneEntra": "67822",
+   "Jug_Entra": "JOAQUIN ANDRES BELLO",
+   "camiseta": "11",
+   "minutos": "40"
+  },
+  {
+   "CarneSale": "67814",
+   "Jug_Sale": "LUCA  MARTIN PASTORINO",
+   "CarneEntra": "67806",
+   "Jug_Entra": "JOAQUIN IPARRAGUIRRE",
+   "camiseta": "17",
+   "minutos": "40"
+  },
+  {
+   "CarneSale": "67815",
+   "Jug_Sale": "ALAN SEBASTIAN CASTELLANOS",
+   "CarneEntra": "67805",
+   "Jug_Entra": "RODRIGO IPARRAGUIRRE",
+   "camiseta": "32",
+   "minutos": "40"
+  },
+  {
+   "CarneSale": "67811",
+   "Jug_Sale": "MATIAS ALEJANDRO ROJAS",
+   "CarneEntra": "67825",
+   "Jug_Entra": "BRUNO AMARO VERRIEL",
+   "camiseta": "28",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "65865",
+   "Jug_Sale": "JOAQUIN RAMOS",
+   "CarneEntra": "64521",
+   "Jug_Entra": "FRANCISCO MAXIMILIAN DE LA PEÑA",
+   "camiseta": "29",
+   "minutos": "72"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "65291",
+   "Jug_Sale": "EMILIANO SALGUEIRO",
+   "CarneEntra": "64247",
+   "Jug_Entra": "MATEO NIETO",
+   "camiseta": "18",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67019",
+   "Jug_Sale": "JUAN MARTIN POLETTO",
+   "CarneEntra": "64081",
+   "Jug_Entra": "GERONIMO MENDOZA",
+   "camiseta": "61",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "63945",
+   "Jug_Sale": "CONSTANTINO AROCENA",
+   "CarneEntra": "66604",
+   "Jug_Entra": "IGNACIO DOMINGUEZ",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66516",
+   "Jug_Sale": "JUAN MANUEL BARRIOS",
+   "CarneEntra": "67912",
+   "Jug_Entra": "JUAN  MANUEL PICERNO",
+   "camiseta": "15",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "65291",
+   "Jug_Sale": "EMILIANO SALGUEIRO",
+   "CarneEntra": "66601",
+   "Jug_Entra": "BAUTISTA GALLOTTI",
+   "camiseta": "17",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "66603",
+   "Jug_Sale": "BAUTISTA PASSEGGI",
+   "CarneEntra": "66602",
+   "Jug_Entra": "EMILIANO CAUDURO",
+   "camiseta": "18",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "66604",
+   "Jug_Sale": "IGNACIO DOMINGUEZ",
+   "CarneEntra": "66516",
+   "Jug_Entra": "JUAN MANUEL BARRIOS",
+   "camiseta": "21",
+   "minutos": "78"
+  }
+ ],
  "golesL": [],
- "golesV": [],
+ "golesV": [
+  {
+   "carne": "65291",
+   "Nombre": "EMILIANO SALGUEIRO",
+   "minutos": "15",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

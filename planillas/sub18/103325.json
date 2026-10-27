@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB18 COMPETENCIA",
   "Cancha": "MICROSULES",
-  "Fecha_Inicio": "2026-10-25 17:00:00",
-  "Fecha_fin": "2026-10-25 17:00:00",
+  "Fecha_Inicio": "2026-10-25 17:25:00",
+  "Fecha_fin": "2026-10-25 17:25:00",
   "Locatario": "PERRY SEXTA UNIVERSITARIO",
   "goles_locatario": "1",
   "puntos_locatario": "0",
@@ -29,12 +29,277 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "titularesL": [
+  {
+   "carne": "64585",
+   "Nombre": "FRANCISCO JOSE BOTTA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "68076",
+   "Nombre": "DAMIAN EZEQUIEL NASTASI",
+   "camiseta": "50",
+   "Capitan": ""
+  },
+  {
+   "carne": "61894",
+   "Nombre": "BAUTISTA MENDEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "68681",
+   "Nombre": "BRIAN SEBASTIAN CABRERA",
+   "camiseta": "41",
+   "Capitan": ""
+  },
+  {
+   "carne": "68075",
+   "Nombre": "JOAQUIN SEBASTIAN BRITOS",
+   "camiseta": "21",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "61518",
+   "Nombre": "RENZO MARTIN LIMA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "65755",
+   "Nombre": "LAUTARO EZEQUIEL VELAZQUEZ",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "68815",
+   "Nombre": "DYLAN DANIEL SILVA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "61453",
+   "Nombre": "LAUTARO AMORIN",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "65377",
+   "Nombre": "JUAN MANUEL RAMOS",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "63178",
+   "Nombre": "FABRIZIO YUBEN AGUILAR",
+   "camiseta": "24",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "64440",
+   "Nombre": "JUAN MANUEL CHIRIBAO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "58835",
+   "Nombre": "MATEO NAOR",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "62572",
+   "Nombre": "JUAN MARTIN AYERZA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "62031",
+   "Nombre": "JUAN PEDRO GARCIA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "62032",
+   "Nombre": "PEDRO NOVOA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "58834",
+   "Nombre": "FEDERICO ELISSALDE",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "63297",
+   "Nombre": "ALFONSO MONTESERIN",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "59084",
+   "Nombre": "JUAN CRUZ ALVAREZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "62034",
+   "Nombre": "FELIPE ALEJANDRO MORALES",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "62163",
+   "Nombre": "JUAN JUSTO TRUJILLO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "63299",
+   "Nombre": "JOAQUIN SANTIAGO",
+   "camiseta": "9",
+   "Capitan": "(C)"
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "63178",
+   "Jug_Sale": "FABRIZIO YUBEN AGUILAR",
+   "CarneEntra": "65648",
+   "Jug_Entra": "CESAR ENRIQUE CASTRO",
+   "camiseta": "20",
+   "minutos": "15"
+  },
+  {
+   "CarneSale": "68815",
+   "Jug_Sale": "DYLAN DANIEL SILVA",
+   "CarneEntra": "67177",
+   "Jug_Entra": "LUCAS RODRIGUEZ",
+   "camiseta": "37",
+   "minutos": "53"
+  },
+  {
+   "CarneSale": "64585",
+   "Jug_Sale": "FRANCISCO JOSE BOTTA",
+   "CarneEntra": "68340",
+   "Jug_Entra": "ANDRES LEPORE",
+   "camiseta": "12",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "61894",
+   "Jug_Sale": "BAUTISTA MENDEZ",
+   "CarneEntra": "68087",
+   "Jug_Entra": "NAHUEL EZEQUIEL ALFONSO",
+   "camiseta": "99",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68075",
+   "Jug_Sale": "JOAQUIN SEBASTIAN BRITOS",
+   "CarneEntra": "67178",
+   "Jug_Entra": "GASTON IGNACIO APAI",
+   "camiseta": "80",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61453",
+   "Jug_Sale": "LAUTARO AMORIN",
+   "CarneEntra": "67099",
+   "Jug_Entra": "FRANCO ALLEEN SCHMIT",
+   "camiseta": "15",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67178",
+   "Jug_Sale": "GASTON IGNACIO APAI",
+   "CarneEntra": "68907",
+   "Jug_Entra": "MAURICIO NAHUEL VARGAS",
+   "camiseta": "4",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "61518",
+   "Jug_Sale": "RENZO MARTIN LIMA",
+   "CarneEntra": "61894",
+   "Jug_Entra": "BAUTISTA MENDEZ",
+   "camiseta": "10",
+   "minutos": "76"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "63299",
+   "Jug_Sale": "JOAQUIN SANTIAGO",
+   "CarneEntra": "68922",
+   "Jug_Entra": "BRUNO MIETTO",
+   "camiseta": "8",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "63297",
+   "Jug_Sale": "ALFONSO MONTESERIN",
+   "CarneEntra": "63120",
+   "Jug_Entra": "MANUEL LORENZO",
+   "camiseta": "15",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "62163",
+   "Jug_Sale": "JUAN JUSTO TRUJILLO",
+   "CarneEntra": "62173",
+   "Jug_Entra": "GUILLERMO PAEZ",
+   "camiseta": "3",
+   "minutos": "81"
+  },
+  {
+   "CarneSale": "58834",
+   "Jug_Sale": "FEDERICO ELISSALDE",
+   "CarneEntra": "62177",
+   "Jug_Entra": "JUAN PEDRO CARVALHO",
+   "camiseta": "11",
+   "minutos": "88"
+  },
+  {
+   "CarneSale": "62572",
+   "Jug_Sale": "JUAN MARTIN AYERZA",
+   "CarneEntra": "62174",
+   "Jug_Entra": "VALENTINO VIÑAS",
+   "camiseta": "20",
+   "minutos": "88"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "68076",
+   "Nombre": "DAMIAN EZEQUIEL NASTASI",
+   "minutos": "92",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "59084",
+   "Nombre": "JUAN CRUZ ALVAREZ",
+   "minutos": "44",
+   "EnContra": "1"
+  },
+  {
+   "carne": "62034",
+   "Nombre": "FELIPE ALEJANDRO MORALES",
+   "minutos": "70",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "LAUTARO EZEQUIEL VELAZQUEZ",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

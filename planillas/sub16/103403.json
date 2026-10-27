@@ -1,0 +1,269 @@
+{
+ "id": "103403",
+ "categoria": "sub16",
+ "serie": "16F",
+ "fecha": 2,
+ "fechaHora": "2026-10-25 13:50:00",
+ "cancha": "POLIDEPORTIVO CARRASCO",
+ "local": "ACADEMIA FRM",
+ "visitante": "ARQUITECTURA JRS.",
+ "gl": 1,
+ "gv": 0,
+ "detalle": {
+  "nro_partido": "400",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 16 ",
+  "categoria": "SUB 16 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB16 CONFRATERNIDAD",
+  "Cancha": "POLIDEPORTIVO CARRASCO",
+  "Fecha_Inicio": "2026-10-25 15:30:00",
+  "Fecha_fin": "2026-10-25 15:30:00",
+  "Locatario": "ACADEMIA FRM",
+  "goles_locatario": "1",
+  "puntos_locatario": "3",
+  "Visitante": "ARQUITECTURA JRS.",
+  "goles_visitante": "0",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "61085",
+   "Nombre": "FABRIZIO PERRONE",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "65504",
+   "Nombre": "THIAGO ALVAREZ",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "62765",
+   "Nombre": "BENJAMIN DELGADO",
+   "camiseta": "6",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "65502",
+   "Nombre": "MAXIMO CANO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "65501",
+   "Nombre": "SANTIAGO CORREA",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "64940",
+   "Nombre": "FACUNDO EMANUEL PEGORRARO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "63864",
+   "Nombre": "ELIAS TIMOTEO DA SILVA",
+   "camiseta": "54",
+   "Capitan": ""
+  },
+  {
+   "carne": "68602",
+   "Nombre": "NATHAN JOAQUIN HERNANDEZ",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "64943",
+   "Nombre": "JUAN MARTIN BANINA",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "68599",
+   "Nombre": "FEDERICO GABRIEL GACEL",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "64946",
+   "Nombre": "MATEO NODAR",
+   "camiseta": "29",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "68250",
+   "Nombre": "IGNACIO SANGUINETTI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "69194",
+   "Nombre": "SANTIAGO REBELLA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "66536",
+   "Nombre": "JOAQUIN SOSA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "67167",
+   "Nombre": "GERONIMO GHISLIERI",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "65791",
+   "Nombre": "BENJAMIN MARTINEZ",
+   "camiseta": "4",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "60541",
+   "Nombre": "CAMILO ENRIQUE ALEGARI",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "66533",
+   "Nombre": "BENJAMIN SOSA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "66790",
+   "Nombre": "BRUNO ROMERO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "68934",
+   "Nombre": "THIAGO EMILIANO ALMARA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "62629",
+   "Nombre": "JUAN FRANCISCO QUINTERO",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "62955",
+   "Nombre": "LAUTARO BENJAMIN DI GENOVA",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "68602",
+   "Jug_Sale": "NATHAN JOAQUIN HERNANDEZ",
+   "CarneEntra": "61725",
+   "Jug_Entra": "IGNACIO RIVERO",
+   "camiseta": "7",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "62765",
+   "Jug_Sale": "BENJAMIN DELGADO",
+   "CarneEntra": "66352",
+   "Jug_Entra": "SEBASTIAN AGUIRRE",
+   "camiseta": "2",
+   "minutos": "59"
+  },
+  {
+   "CarneSale": "65502",
+   "Jug_Sale": "MAXIMO CANO",
+   "CarneEntra": "69207",
+   "Jug_Entra": "VALENTINO CICCHINI",
+   "camiseta": "25",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "64943",
+   "Jug_Sale": "JUAN MARTIN BANINA",
+   "CarneEntra": "69018",
+   "Jug_Entra": "AARON NICOLAS GARCIA",
+   "camiseta": "99",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "64946",
+   "Jug_Sale": "MATEO NODAR",
+   "CarneEntra": "68598",
+   "Jug_Entra": "MATEO ABREU",
+   "camiseta": "28",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "68599",
+   "Jug_Sale": "FEDERICO GABRIEL GACEL",
+   "CarneEntra": "62765",
+   "Jug_Entra": "BENJAMIN DELGADO",
+   "camiseta": "6",
+   "minutos": "80"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "66533",
+   "Jug_Sale": "BENJAMIN SOSA",
+   "CarneEntra": "68788",
+   "Jug_Entra": "ENZO EMILIANO FRAYGOLA",
+   "camiseta": "6",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "62629",
+   "Jug_Sale": "JUAN FRANCISCO QUINTERO",
+   "CarneEntra": "60697",
+   "Jug_Entra": "DANIEL NOGUEIRA",
+   "camiseta": "14",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "60541",
+   "Jug_Sale": "CAMILO ENRIQUE ALEGARI",
+   "CarneEntra": "66533",
+   "Jug_Entra": "BENJAMIN SOSA",
+   "camiseta": "8",
+   "minutos": "70"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "63864",
+   "Nombre": "ELIAS TIMOTEO DA SILVA",
+   "minutos": "44",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [],
+ "expulsadosL": [
+  {
+   "Nombre": "ELIAS TIMOTEO DA SILVA",
+   "observaciones": ""
+  }
+ ],
+ "expulsadosV": [
+  {
+   "Nombre": "GERONIMO GHISLIERI",
+   "observaciones": ""
+  },
+  {
+   "Nombre": "THIAGO EMILIANO ALMARA",
+   "observaciones": ""
+  }
+ ]
+}

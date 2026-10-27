@@ -1,0 +1,286 @@
+{
+ "id": "103387",
+ "categoria": "sub18",
+ "serie": "18F",
+ "fecha": 2,
+ "fechaHora": "2026-10-25 15:30:00",
+ "cancha": "G. HEBRAICA  MACABI",
+ "local": "HEBRAICA UNIVERSITARIO",
+ "visitante": "CRANDON UNIVERSITARIO",
+ "gl": 2,
+ "gv": 4,
+ "detalle": {
+  "nro_partido": "462",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 18 ",
+  "categoria": "SUB 18 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB18 CONFRATERNIDAD",
+  "Cancha": "G. HEBRAICA  MACABI",
+  "Fecha_Inicio": "2026-10-25 17:30:00",
+  "Fecha_fin": "2026-10-25 17:30:00",
+  "Locatario": "HEBRAICA UNIVERSITARIO",
+  "goles_locatario": "2",
+  "puntos_locatario": "0",
+  "Visitante": "CRANDON UNIVERSITARIO",
+  "goles_visitante": "4",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "60726",
+   "Nombre": "FACUNDO NOVELLI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "59292",
+   "Nombre": "EZEQUIEL SKORKA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "62778",
+   "Nombre": "TOMAS MADERO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "61576",
+   "Nombre": "FRANCO WAINBERG",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "65775",
+   "Nombre": "FACUNDO KOLENDER",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "57693",
+   "Nombre": "BENJAMIN LOBLOWITZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "59820",
+   "Nombre": "MATIAS KAPLAN",
+   "camiseta": "20",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "62782",
+   "Nombre": "BENICIO GERSTENFELD",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "61577",
+   "Nombre": "RODRIGO BIDERMAN",
+   "camiseta": "66",
+   "Capitan": ""
+  },
+  {
+   "carne": "59817",
+   "Nombre": "THIAGO MARTINEZ",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "61131",
+   "Nombre": "GONZALO FRANCISCO RIVERO",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "57590",
+   "Nombre": "FELIPE AMORIN",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "57597",
+   "Nombre": "JUAN IGNACIO CAPORALE",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "57632",
+   "Nombre": "AGUSTIN MANTERO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "57602",
+   "Nombre": "SANTIAGO BOGGIA",
+   "camiseta": "16",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "58627",
+   "Nombre": "PIERRE VALENTINO BONILLA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "57599",
+   "Nombre": "MANUEL AVILA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "57604",
+   "Nombre": "SANTIAGO MANUEL CURBELO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "57603",
+   "Nombre": "SANTIAGO COSTA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "57601",
+   "Nombre": "RODRIGO INFANTOZZI",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "57587",
+   "Nombre": "AGUSTIN CRAVIOTTO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "61411",
+   "Nombre": "FRANCISCO BOUBET",
+   "camiseta": "23",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "59817",
+   "Jug_Sale": "THIAGO MARTINEZ",
+   "CarneEntra": "61575",
+   "Jug_Entra": "RONY GANDELMAN",
+   "camiseta": "21",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "62782",
+   "Jug_Sale": "BENICIO GERSTENFELD",
+   "CarneEntra": "61571",
+   "Jug_Entra": "URIEL CYJON",
+   "camiseta": "18",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61576",
+   "Jug_Sale": "FRANCO WAINBERG",
+   "CarneEntra": "59814",
+   "Jug_Entra": "SHAI ELENTER",
+   "camiseta": "8",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61577",
+   "Jug_Sale": "RODRIGO BIDERMAN",
+   "CarneEntra": "63970",
+   "Jug_Entra": "TOBIAS EIDELMAN",
+   "camiseta": "30",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "59820",
+   "Jug_Sale": "MATIAS KAPLAN",
+   "CarneEntra": "62775",
+   "Jug_Entra": "ALAN BARILAS",
+   "camiseta": "99",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "65775",
+   "Jug_Sale": "FACUNDO KOLENDER",
+   "CarneEntra": "62961",
+   "Jug_Entra": "JOAQUIN SILVANO FLORES",
+   "camiseta": "69",
+   "minutos": "85"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "57587",
+   "Jug_Sale": "AGUSTIN CRAVIOTTO",
+   "CarneEntra": "57591",
+   "Jug_Entra": "FRANCISCO DUARTE",
+   "camiseta": "9",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "57601",
+   "Jug_Sale": "RODRIGO INFANTOZZI",
+   "CarneEntra": "57587",
+   "Jug_Entra": "AGUSTIN CRAVIOTTO",
+   "camiseta": "14",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "61411",
+   "Jug_Sale": "FRANCISCO BOUBET",
+   "CarneEntra": "57601",
+   "Jug_Entra": "RODRIGO INFANTOZZI",
+   "camiseta": "10",
+   "minutos": "85"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "61131",
+   "Nombre": "GONZALO FRANCISCO RIVERO",
+   "minutos": "8",
+   "EnContra": "0"
+  },
+  {
+   "carne": "61131",
+   "Nombre": "GONZALO FRANCISCO RIVERO",
+   "minutos": "23",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "57587",
+   "Nombre": "AGUSTIN CRAVIOTTO",
+   "minutos": "24",
+   "EnContra": "1"
+  },
+  {
+   "carne": "57587",
+   "Nombre": "AGUSTIN CRAVIOTTO",
+   "minutos": "59",
+   "EnContra": "1"
+  },
+  {
+   "carne": "57601",
+   "Nombre": "RODRIGO INFANTOZZI",
+   "minutos": "17",
+   "EnContra": "1"
+  },
+  {
+   "carne": "61411",
+   "Nombre": "FRANCISCO BOUBET",
+   "minutos": "32",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB16 COMPETENCIA",
   "Cancha": "SCUOLA ITALIANA",
-  "Fecha_Inicio": "2026-10-25 15:00:00",
-  "Fecha_fin": "2026-10-25 15:00:00",
+  "Fecha_Inicio": "2026-10-25 15:15:00",
+  "Fecha_fin": "2026-10-25 15:15:00",
   "Locatario": "SCUOLA PALERMO",
   "goles_locatario": "1",
   "puntos_locatario": "1",
@@ -29,12 +29,242 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "64377",
+   "Nombre": "LUCAS DI MAURO",
+   "camiseta": "13",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "65716",
+   "Nombre": "MATEO DEVITA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "60764",
+   "Nombre": "FACUNDO CARAMBULA",
+   "camiseta": "37",
+   "Capitan": ""
+  },
+  {
+   "carne": "64380",
+   "Nombre": "FRANCO MOLFINO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "64381",
+   "Nombre": "FACUNDO POTENZA",
+   "camiseta": "79",
+   "Capitan": ""
+  },
+  {
+   "carne": "65718",
+   "Nombre": "VICENTE VALENTIN VIERA",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "63514",
+   "Nombre": "LUCAS TAROCO",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "65610",
+   "Nombre": "LUCA GONZALEZ",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "61437",
+   "Nombre": "MARTIN BREGSTEIN",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "68865",
+   "Nombre": "MARTIN ASSIMONTTI",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "65887",
+   "Nombre": "FABRIZIO BISOGNO",
+   "camiseta": "14",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "67290",
+   "Nombre": "DIEGO FERNANDO NICOLENCO",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "68501",
+   "Nombre": "JOAQUIN VIERA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "67733",
+   "Nombre": "ALEJANDRO MARRERO",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "68641",
+   "Nombre": "BENICIO CAYAFFA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "65420",
+   "Nombre": "CONSTANTINO CABRERA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "67229",
+   "Nombre": "VALENTIN CABRERA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "68881",
+   "Nombre": "MARTIN GOMEZ",
+   "camiseta": "67",
+   "Capitan": ""
+  },
+  {
+   "carne": "67734",
+   "Nombre": "BENJAMIN PAIS",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "65128",
+   "Nombre": "RONALD CASTELLON",
+   "camiseta": "2",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "67732",
+   "Nombre": "ALEX GABRIEL HORNOS",
+   "camiseta": "50",
+   "Capitan": ""
+  },
+  {
+   "carne": "65130",
+   "Nombre": "FELIPE CUETO",
+   "camiseta": "99",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "68865",
+   "Jug_Sale": "MARTIN ASSIMONTTI",
+   "CarneEntra": "64756",
+   "Jug_Entra": "FELIPE REINALDO",
+   "camiseta": "7",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "65716",
+   "Jug_Sale": "MATEO DEVITA",
+   "CarneEntra": "60475",
+   "Jug_Entra": "AGUSTIN ANTELO",
+   "camiseta": "56",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "65610",
+   "Jug_Sale": "LUCA GONZALEZ",
+   "CarneEntra": "61927",
+   "Jug_Entra": "SANTIAGO BRUN",
+   "camiseta": "2",
+   "minutos": "47"
+  },
+  {
+   "CarneSale": "63514",
+   "Jug_Sale": "LUCAS TAROCO",
+   "CarneEntra": "68378",
+   "Jug_Entra": "SANTIAGO MATTERA",
+   "camiseta": "28",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "64381",
+   "Jug_Sale": "FACUNDO POTENZA",
+   "CarneEntra": "65615",
+   "Jug_Entra": "MAURIZIO XAVIER SORRONDEGUI",
+   "camiseta": "20",
+   "minutos": "66"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "65420",
+   "Jug_Sale": "CONSTANTINO CABRERA",
+   "CarneEntra": "65139",
+   "Jug_Entra": "DANIEL ANTONIO LEYVA",
+   "camiseta": "30",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67732",
+   "Jug_Sale": "ALEX GABRIEL HORNOS",
+   "CarneEntra": "68025",
+   "Jug_Entra": "JAHAZIEL ANDRES GALANTON",
+   "camiseta": "17",
+   "minutos": "26"
+  },
+  {
+   "CarneSale": "67732",
+   "Jug_Sale": "ALEX GABRIEL HORNOS",
+   "CarneEntra": "67228",
+   "Jug_Entra": "THIAGO PEREZ",
+   "camiseta": "20",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "65128",
+   "Jug_Sale": "RONALD CASTELLON",
+   "CarneEntra": "65135",
+   "Jug_Entra": "TIAGO REY",
+   "camiseta": "11",
+   "minutos": "23"
+  },
+  {
+   "CarneSale": "68501",
+   "Jug_Sale": "JOAQUIN VIERA",
+   "CarneEntra": "65133",
+   "Jug_Entra": "MARCO STEFANO FERRANTY",
+   "camiseta": "7",
+   "minutos": "23"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "65887",
+   "Nombre": "FABRIZIO BISOGNO",
+   "minutos": "20",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "67733",
+   "Nombre": "ALEJANDRO MARRERO",
+   "minutos": "54",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

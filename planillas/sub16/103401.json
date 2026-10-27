@@ -1,0 +1,329 @@
+{
+ "id": "103401",
+ "categoria": "sub16",
+ "serie": "16B",
+ "fecha": 2,
+ "fechaHora": "2026-10-25 13:30:00",
+ "cancha": "LA MENNAIS",
+ "local": "J.M.L.M",
+ "visitante": "DFC",
+ "gl": 4,
+ "gv": 0,
+ "detalle": {
+  "nro_partido": "343",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 16 ",
+  "categoria": "SUB 16 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB16 BRONCE",
+  "Cancha": "LA MENNAIS",
+  "Fecha_Inicio": "2026-10-25 15:20:00",
+  "Fecha_fin": "2026-10-25 15:20:00",
+  "Locatario": "J.M.L.M",
+  "goles_locatario": "4",
+  "puntos_locatario": "3",
+  "Visitante": "DFC",
+  "goles_visitante": "0",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "67857",
+   "Nombre": "JUAN ESTEBAN MELLO",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "67378",
+   "Nombre": "SANTIAGO FALKENHAGEN",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "67384",
+   "Nombre": "GUILLERMO GALINDO",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "66084",
+   "Nombre": "FACUNDO SCOTTI",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "64167",
+   "Nombre": "DANIEL CARBALLO",
+   "camiseta": "15",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "64172",
+   "Nombre": "TOMAS GABRIEL RODRIGUEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "62866",
+   "Nombre": "LAUTARO MENDEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "64181",
+   "Nombre": "JUAN FRANCO GRUNOW",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "64168",
+   "Nombre": "GABRIEL CARBALLO",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "63492",
+   "Nombre": "MARTIN BENITES",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "64263",
+   "Nombre": "JUAN MANUEL DUPONT",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "63051",
+   "Nombre": "LUCIANO MONTAÑA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "67602",
+   "Nombre": "VALENTINO LAUTARO DE ARMAS",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "67469",
+   "Nombre": "SANTIAGO DANIEL DE LA LLANA",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "68183",
+   "Nombre": "JOAQUIN JOAQUIN",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "67932",
+   "Nombre": "BAUTISTA PAZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "68911",
+   "Nombre": "SANTIAGO AGUSTIN ESCARCENA",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "67466",
+   "Nombre": "FRANCO OTTONELLO",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "67468",
+   "Nombre": "FACUNDO BENJAMIN FACUNDO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "67607",
+   "Nombre": "LAUTARO ALEXANDER ALANIS",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "67609",
+   "Nombre": "NICOLAS RAUL PEREIRO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "67600",
+   "Nombre": "BRUNO NICOLAS YACQUE",
+   "camiseta": "15",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "67378",
+   "Jug_Sale": "SANTIAGO FALKENHAGEN",
+   "CarneEntra": "61919",
+   "Jug_Entra": "SANTIAGO ANDRES BROGGI",
+   "camiseta": "28",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "63492",
+   "Jug_Sale": "MARTIN BENITES",
+   "CarneEntra": "67382",
+   "Jug_Entra": "MAURICIO FEDERICO PUÑALES",
+   "camiseta": "23",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66084",
+   "Jug_Sale": "FACUNDO SCOTTI",
+   "CarneEntra": "67383",
+   "Jug_Entra": "MATIAS GARDERES",
+   "camiseta": "17",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "62866",
+   "Jug_Sale": "LAUTARO MENDEZ",
+   "CarneEntra": "63491",
+   "Jug_Entra": "FELIPE BENITEZ",
+   "camiseta": "4",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "67378",
+   "Jug_Sale": "SANTIAGO FALKENHAGEN",
+   "CarneEntra": "68516",
+   "Jug_Entra": "MATIAS CARBAJALES",
+   "camiseta": "20",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "64168",
+   "Jug_Sale": "GABRIEL CARBALLO",
+   "CarneEntra": "66045",
+   "Jug_Entra": "ISMAEL GUTIERREZ",
+   "camiseta": "16",
+   "minutos": "73"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "67602",
+   "Jug_Sale": "VALENTINO LAUTARO DE ARMAS",
+   "CarneEntra": "68452",
+   "Jug_Entra": "SANDINO GABRIEL CUNHA",
+   "camiseta": "18",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67469",
+   "Jug_Sale": "SANTIAGO DANIEL DE LA LLANA",
+   "CarneEntra": "67601",
+   "Jug_Entra": "CONSTANTINO VIERAS",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68183",
+   "Jug_Sale": "JOAQUIN JOAQUIN",
+   "CarneEntra": "67603",
+   "Jug_Entra": "BRUNO PODESTA",
+   "camiseta": "16",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67932",
+   "Jug_Sale": "BAUTISTA PAZ",
+   "CarneEntra": "68451",
+   "Jug_Entra": "GUSTAVO ALEJANDRO ATENCIO",
+   "camiseta": "17",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67932",
+   "Jug_Sale": "BAUTISTA PAZ",
+   "CarneEntra": "68964",
+   "Jug_Entra": "BENJAMIN DANIEL CALCAÑO",
+   "camiseta": "88",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68911",
+   "Jug_Sale": "SANTIAGO AGUSTIN ESCARCENA",
+   "CarneEntra": "68184",
+   "Jug_Entra": "SANTIAGO FONTOURA",
+   "camiseta": "4",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67466",
+   "Jug_Sale": "FRANCO OTTONELLO",
+   "CarneEntra": "67463",
+   "Jug_Entra": "ROMAN GABRIEL MARTINEZ",
+   "camiseta": "13",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67607",
+   "Jug_Sale": "LAUTARO ALEXANDER ALANIS",
+   "CarneEntra": "67599",
+   "Jug_Entra": "MATEO TIZIANO CASTRO",
+   "camiseta": "7",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67609",
+   "Jug_Sale": "NICOLAS RAUL PEREIRO",
+   "CarneEntra": "67465",
+   "Jug_Entra": "IGANCIO CAMEJO",
+   "camiseta": "69",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67600",
+   "Jug_Sale": "BRUNO NICOLAS YACQUE",
+   "CarneEntra": "68179",
+   "Jug_Entra": "PIERO SILVEIRA",
+   "camiseta": "26",
+   "minutos": "45"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "64167",
+   "Nombre": "DANIEL CARBALLO",
+   "minutos": "4",
+   "EnContra": "0"
+  },
+  {
+   "carne": "64167",
+   "Nombre": "DANIEL CARBALLO",
+   "minutos": "53",
+   "EnContra": "0"
+  },
+  {
+   "carne": "64172",
+   "Nombre": "TOMAS GABRIEL RODRIGUEZ",
+   "minutos": "41",
+   "EnContra": "0"
+  },
+  {
+   "carne": "64263",
+   "Nombre": "JUAN MANUEL DUPONT",
+   "minutos": "28",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

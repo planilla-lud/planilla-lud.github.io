@@ -1,0 +1,260 @@
+{
+ "id": "103402",
+ "categoria": "sub16",
+ "serie": "16F",
+ "fecha": 2,
+ "fechaHora": "2026-10-25 13:30:00",
+ "cancha": "COMPLEJO COLEGIO JESÚS MARÍA",
+ "local": "CLUB JESUS MARIA",
+ "visitante": "CRANDON UNIVERSITARIO",
+ "gl": 1,
+ "gv": 2,
+ "detalle": {
+  "nro_partido": "397",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 16 ",
+  "categoria": "SUB 16 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB16 CONFRATERNIDAD",
+  "Cancha": "COMPLEJO COLEGIO JESÚS MARÍA",
+  "Fecha_Inicio": "2026-10-25 15:20:00",
+  "Fecha_fin": "2026-10-25 15:20:00",
+  "Locatario": "CLUB JESUS MARIA",
+  "goles_locatario": "1",
+  "puntos_locatario": "0",
+  "Visitante": "CRANDON UNIVERSITARIO",
+  "goles_visitante": "2",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "66932",
+   "Nombre": "SANTIAGO MARTINEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "65202",
+   "Nombre": "FABIAN DARIO MARIÑO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "63445",
+   "Nombre": "TIZIANO FRASCHERI",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "66935",
+   "Nombre": "FRANCISCO GALLESIO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "61918",
+   "Nombre": "LORENZO SILVA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "64905",
+   "Nombre": "TOMAS GALLO",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "62390",
+   "Nombre": "SANTIAGO LOMBARDO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "66933",
+   "Nombre": "FRANCISCO BERRIEL",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "64906",
+   "Nombre": "JOSE APARICIO PERRIER",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "64903",
+   "Nombre": "GUILLERMO LOPEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "61920",
+   "Nombre": "BAUTISTA TARIGO",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "61542",
+   "Nombre": "JOAQUIN BOGLIACCINI",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "61769",
+   "Nombre": "SANTIAGO RAFANIELLO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "61536",
+   "Nombre": "AGUSTIN PIRIZ",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "58632",
+   "Nombre": "FAUSTO SASTRE",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "58626",
+   "Nombre": "SANTIAGO CASTRO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "58629",
+   "Nombre": "FRANCISCO AGOSTO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "58633",
+   "Nombre": "JOAQUIN CARRIO",
+   "camiseta": "6",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "61540",
+   "Nombre": "RAMIRO DANZA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "64387",
+   "Nombre": "BENICIO BENJAMIN CURTO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "64385",
+   "Nombre": "SAMUEL ANDRES ESTELLER",
+   "camiseta": "69",
+   "Capitan": ""
+  },
+  {
+   "carne": "64379",
+   "Nombre": "MAURO MARIO ZORRILLA",
+   "camiseta": "5",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "63445",
+   "Jug_Sale": "TIZIANO FRASCHERI",
+   "CarneEntra": "68762",
+   "Jug_Entra": "FACUNDO BAZZINO",
+   "camiseta": "23",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "62390",
+   "Jug_Sale": "SANTIAGO LOMBARDO",
+   "CarneEntra": "62396",
+   "Jug_Entra": "FELIPE ORTIZ",
+   "camiseta": "22",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "66933",
+   "Jug_Sale": "FRANCISCO BERRIEL",
+   "CarneEntra": "65203",
+   "Jug_Entra": "JOAQUIN YAÑEZ",
+   "camiseta": "16",
+   "minutos": "78"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "64387",
+   "Jug_Sale": "BENICIO BENJAMIN CURTO",
+   "CarneEntra": "66503",
+   "Jug_Entra": "CLAUDIO NICOLAS SOSA",
+   "camiseta": "17",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58632",
+   "Jug_Sale": "FAUSTO SASTRE",
+   "CarneEntra": "61539",
+   "Jug_Entra": "LUCAS VALLE",
+   "camiseta": "3",
+   "minutos": "38"
+  },
+  {
+   "CarneSale": "61540",
+   "Jug_Sale": "RAMIRO DANZA",
+   "CarneEntra": "66502",
+   "Jug_Entra": "PEDRO MELAZZI",
+   "camiseta": "11",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "61769",
+   "Jug_Sale": "SANTIAGO RAFANIELLO",
+   "CarneEntra": "58623",
+   "Jug_Entra": "JUAN PEDRO BOLON",
+   "camiseta": "16",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "64379",
+   "Jug_Sale": "MAURO MARIO ZORRILLA",
+   "CarneEntra": "64387",
+   "Jug_Entra": "BENICIO BENJAMIN CURTO",
+   "camiseta": "15",
+   "minutos": "78"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "64903",
+   "Nombre": "GUILLERMO LOPEZ",
+   "minutos": "16",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "58626",
+   "Nombre": "SANTIAGO CASTRO",
+   "minutos": "50",
+   "EnContra": "1"
+  },
+  {
+   "carne": "58629",
+   "Nombre": "FRANCISCO AGOSTO",
+   "minutos": "57",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

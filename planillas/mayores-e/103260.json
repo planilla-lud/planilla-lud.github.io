@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"E\" TIT. y ASC.",
   "Cancha": "COMPLEJO LAS CASUARINAS",
-  "Fecha_Inicio": "2026-10-25 10:30:00",
-  "Fecha_fin": "2026-10-25 10:30:00",
+  "Fecha_Inicio": "2026-10-25 10:50:00",
+  "Fecha_fin": "2026-10-25 10:50:00",
   "Locatario": "CLUB ESTUDIANTES INGENIERIA",
   "goles_locatario": "1",
   "puntos_locatario": "0",
@@ -29,12 +29,258 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "34745",
+   "Nombre": "LUIS ALFREDO LEON",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "65749",
+   "Nombre": "GARY SAMUEL PIRIZ",
+   "camiseta": "95",
+   "Capitan": ""
+  },
+  {
+   "carne": "66687",
+   "Nombre": "PATRICIO ACOSTA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "66689",
+   "Nombre": "SANTIAGO NICOLAS IROLDI",
+   "camiseta": "37",
+   "Capitan": ""
+  },
+  {
+   "carne": "61450",
+   "Nombre": "MARTIN ROTTI",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "49812",
+   "Nombre": "MIGUEL ANGEL PASTORINI",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "68522",
+   "Nombre": "DIEGO HENRRY GADEA",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "51303",
+   "Nombre": "FELIPE CASARAVILLA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "59309",
+   "Nombre": "MARCOS NAHUEL ARRÙA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "39386",
+   "Nombre": "AGUSTIN PALLEIRO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "43081",
+   "Nombre": "FRANCISCO ORFILIO BETANCOR",
+   "camiseta": "15",
+   "Capitan": "(C)"
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "34347",
+   "Nombre": "DIEGO MARTIN BALDRIZ",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "51990",
+   "Nombre": "LUCAS JOAQUIN DORTA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "59254",
+   "Nombre": "MATIAS NICOLAS AUDIFFRED",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "67333",
+   "Nombre": "GASTON EXEQUIEL SARMIENTO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "59138",
+   "Nombre": "EMILIANO ROQUERO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "61281",
+   "Nombre": "LUCAS OLIVERA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "49275",
+   "Nombre": "ALEJO DE GIOBBI",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "67159",
+   "Nombre": "BRUNO CORREA",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "59011",
+   "Nombre": "NAHUEL ACOSTA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "60768",
+   "Nombre": "BRADLEY JESUS COLLAZO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "51146",
+   "Nombre": "JOSE IGNACIO PIZZINI",
+   "camiseta": "22",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "43081",
+   "Jug_Sale": "FRANCISCO ORFILIO BETANCOR",
+   "CarneEntra": "68673",
+   "Jug_Entra": "KEVIN NAHUEL ANTUNEZ",
+   "camiseta": "27",
+   "minutos": "29"
+  },
+  {
+   "CarneSale": "66687",
+   "Jug_Sale": "PATRICIO ACOSTA",
+   "CarneEntra": "59310",
+   "Jug_Entra": "GONZALO COLMAN",
+   "camiseta": "4",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "59309",
+   "Jug_Sale": "MARCOS NAHUEL ARRÙA",
+   "CarneEntra": "59115",
+   "Jug_Entra": "JOAQUIN RODRIGUEZ",
+   "camiseta": "74",
+   "minutos": "62"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "60768",
+   "Jug_Sale": "BRADLEY JESUS COLLAZO",
+   "CarneEntra": "63261",
+   "Jug_Entra": "NICOLAS SANGUINE",
+   "camiseta": "18",
+   "minutos": "20"
+  },
+  {
+   "CarneSale": "59254",
+   "Jug_Sale": "MATIAS NICOLAS AUDIFFRED",
+   "CarneEntra": "61532",
+   "Jug_Entra": "JUAN IGNACIO OLIVERA",
+   "camiseta": "13",
+   "minutos": "20"
+  },
+  {
+   "CarneSale": "51146",
+   "Jug_Sale": "JOSE IGNACIO PIZZINI",
+   "CarneEntra": "55354",
+   "Jug_Entra": "JAIRO ALI ARAQUE",
+   "camiseta": "77",
+   "minutos": "28"
+  },
+  {
+   "CarneSale": "61281",
+   "Jug_Sale": "LUCAS OLIVERA",
+   "CarneEntra": "66467",
+   "Jug_Entra": "DIEGO LOTTI",
+   "camiseta": "33",
+   "minutos": "35"
+  },
+  {
+   "CarneSale": "59011",
+   "Jug_Sale": "NAHUEL ACOSTA",
+   "CarneEntra": "47089",
+   "Jug_Entra": "GUSTAVO ISMAEL DUARTE",
+   "camiseta": "9",
+   "minutos": "35"
+  },
+  {
+   "CarneSale": "51990",
+   "Jug_Sale": "LUCAS JOAQUIN DORTA",
+   "CarneEntra": "61281",
+   "Jug_Entra": "LUCAS OLIVERA",
+   "camiseta": "8",
+   "minutos": "41"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "68673",
+   "Nombre": "KEVIN NAHUEL ANTUNEZ",
+   "minutos": "36",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "49275",
+   "Nombre": "ALEJO DE GIOBBI",
+   "minutos": "88",
+   "EnContra": "1"
+  },
+  {
+   "carne": "51146",
+   "Nombre": "JOSE IGNACIO PIZZINI",
+   "minutos": "47",
+   "EnContra": "1"
+  },
+  {
+   "carne": "59011",
+   "Nombre": "NAHUEL ACOSTA",
+   "minutos": "48",
+   "EnContra": "1"
+  },
+  {
+   "carne": "59011",
+   "Nombre": "NAHUEL ACOSTA",
+   "minutos": "59",
+   "EnContra": "1"
+  },
+  {
+   "carne": "67159",
+   "Nombre": "BRUNO CORREA",
+   "minutos": "7",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

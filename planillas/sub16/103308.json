@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB16 PLATA",
   "Cancha": "CIUDAD DEPORTIVA LS",
-  "Fecha_Inicio": "2026-10-25 15:00:00",
-  "Fecha_fin": "2026-10-25 15:00:00",
+  "Fecha_Inicio": "2026-10-25 15:20:00",
+  "Fecha_fin": "2026-10-25 15:20:00",
   "Locatario": "DEPORTIVO LS UNIVERSITARIO",
   "goles_locatario": "2",
   "puntos_locatario": "0",
@@ -29,12 +29,252 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "60380",
+   "Nombre": "MANUEL FERNANDEZ",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "61544",
+   "Nombre": "SANTINO CASTELLI",
+   "camiseta": "3",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "69152",
+   "Nombre": "RUBEN FELIPE GURIDI",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "64051",
+   "Nombre": "JUAN MANUEL SOSA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "64314",
+   "Nombre": "SANTIAGO MANUEL RODRIGUEZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "64303",
+   "Nombre": "MATIAS OLARAN",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "64297",
+   "Nombre": "LUCA MATEO ARDID",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "64309",
+   "Nombre": "JANO ALFONSO ARGÜELLO",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "64052",
+   "Nombre": "NICOLAS VALENTINO IFRAN",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "62926",
+   "Nombre": "DIEGO GUIRADO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "67871",
+   "Nombre": "MATEO EZEQUIEL PAGUA",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "67901",
+   "Nombre": "MATEO CHAVES",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "62257",
+   "Nombre": "EMILIANO GARCIA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "62483",
+   "Nombre": "JUAN IGNACIO FREGUEIRO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "67902",
+   "Nombre": "JUAN BAUTISTA GONZALEZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "64456",
+   "Nombre": "GIANLUCA IORLANO",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "65248",
+   "Nombre": "TIZIANO RAMOS",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "68525",
+   "Nombre": "ADIP NASSER",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "66828",
+   "Nombre": "JUAN MARTIN BELLO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "69072",
+   "Nombre": "JUAN MANUEL GOMEZ",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "67900",
+   "Nombre": "NICOLAS CAPORALE",
+   "camiseta": "29",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "62250",
+   "Nombre": "JUSTINO QUINTERO",
+   "camiseta": "14",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "64314",
+   "Jug_Sale": "SANTIAGO MANUEL RODRIGUEZ",
+   "CarneEntra": "62922",
+   "Jug_Entra": "JUAN MANUEL PEREYRA",
+   "camiseta": "15",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "64297",
+   "Jug_Sale": "LUCA MATEO ARDID",
+   "CarneEntra": "65352",
+   "Jug_Entra": "FELIPE GEREZ",
+   "camiseta": "6",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "64052",
+   "Jug_Sale": "NICOLAS VALENTINO IFRAN",
+   "CarneEntra": "63049",
+   "Jug_Entra": "EMILIANO MACIEL",
+   "camiseta": "51",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "62926",
+   "Jug_Sale": "DIEGO GUIRADO",
+   "CarneEntra": "65298",
+   "Jug_Entra": "NAHUEL CARMINATI",
+   "camiseta": "28",
+   "minutos": "15"
+  },
+  {
+   "CarneSale": "64303",
+   "Jug_Sale": "MATIAS OLARAN",
+   "CarneEntra": "67868",
+   "Jug_Entra": "SANTIAGO MORAES",
+   "camiseta": "61",
+   "minutos": "75"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "62483",
+   "Jug_Sale": "JUAN IGNACIO FREGUEIRO",
+   "CarneEntra": "65249",
+   "Jug_Entra": "SANTIAGO FRANCISCO CAPANO",
+   "camiseta": "9",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "69072",
+   "Jug_Sale": "JUAN MANUEL GOMEZ",
+   "CarneEntra": "67896",
+   "Jug_Entra": "MATEO HERNANDEZ",
+   "camiseta": "66",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "62257",
+   "Jug_Sale": "EMILIANO GARCIA",
+   "CarneEntra": "62268",
+   "Jug_Entra": "MATEO RULLO",
+   "camiseta": "22",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "64456",
+   "Jug_Sale": "GIANLUCA IORLANO",
+   "CarneEntra": "62257",
+   "Jug_Entra": "EMILIANO GARCIA",
+   "camiseta": "19",
+   "minutos": "78"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "62926",
+   "Nombre": "DIEGO GUIRADO",
+   "minutos": "30",
+   "EnContra": "0"
+  },
+  {
+   "carne": "64309",
+   "Nombre": "JANO ALFONSO ARGÜELLO",
+   "minutos": "78",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "65248",
+   "Nombre": "TIZIANO RAMOS",
+   "minutos": "51",
+   "EnContra": "1"
+  },
+  {
+   "carne": "66828",
+   "Nombre": "JUAN MARTIN BELLO",
+   "minutos": "1",
+   "EnContra": "1"
+  },
+  {
+   "carne": "66828",
+   "Nombre": "JUAN MARTIN BELLO",
+   "minutos": "42",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

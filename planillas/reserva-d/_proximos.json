@@ -1,6 +1,13 @@
 [
  {
   "serie": "RSDPD",
+  "fechaHora": "2026-10-29 21:00:00",
+  "cancha": "COMPLEJO LA MASIA",
+  "local": "ANGLO SCHOOL UNIVERSITARIO",
+  "visitante": "SAN JOSE DE LA PROVIDENCIA uni"
+ },
+ {
+  "serie": "RSDPD",
   "fechaHora": "2026-10-31 09:00:00",
   "cancha": "COM. CLUB UNIVERSIDAD CATOLICA",
   "local": "C. U. CATOLICA AZUL",
@@ -68,13 +75,6 @@
   "cancha": "COMPLEJO INDEPENDIENTE UNIV.",
   "local": "VARELA UNIVERSITARIO",
   "visitante": "CLUB FUERZA AEREA"
- },
- {
-  "serie": "RSDPD",
-  "fechaHora": "2026-10-31 11:15:00",
-  "cancha": "THE ANGLO SCHOOL",
-  "local": "ANGLO SCHOOL UNIVERSITARIO",
-  "visitante": "SAN JOSE DE LA PROVIDENCIA uni"
  },
  {
   "serie": "RSDPD",

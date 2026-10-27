@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB18 ORO",
   "Cancha": "COMPLEJO AZULGRANA",
-  "Fecha_Inicio": "2026-10-25 17:00:00",
-  "Fecha_fin": "2026-10-25 17:00:00",
+  "Fecha_Inicio": "2026-10-25 17:17:00",
+  "Fecha_fin": "2026-10-25 17:17:00",
   "Locatario": "PELOTA AL MEDIO UNIVERSITARIO",
   "goles_locatario": "3",
   "puntos_locatario": "3",
@@ -29,11 +29,246 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "59105",
+   "Nombre": "GABRIEL ALFREDO GAMARRA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "61465",
+   "Nombre": "GERMAN PINTOS",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "61480",
+   "Nombre": "MATIAS GASPAR ALBIN",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "67810",
+   "Nombre": "EFRAIN DANIEL TOLEDO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "61475",
+   "Nombre": "ALAN VLADYMIR MEDIZA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "58732",
+   "Nombre": "YUNIOR YULIANY LAGOS",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "61467",
+   "Nombre": "AMADEO LOPEZ",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "58739",
+   "Nombre": "LAUTARO BERNABE MENDOZA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "64511",
+   "Nombre": "MATEO NAHUEL MUNIZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "67807",
+   "Nombre": "WASHINGTON NICOLAS ARIAS",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "64513",
+   "Nombre": "THIAGO MARTIN RAMIREZ",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "62112",
+   "Nombre": "IGNACIO FROS",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "57781",
+   "Nombre": "JUAN PEDRO LANARO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "66389",
+   "Nombre": "JOAQUIN LIMA",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "62898",
+   "Nombre": "IGNACIO MELENDRE",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "62670",
+   "Nombre": "LORENZO MONTERO",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "64195",
+   "Nombre": "CAMILO CHIAPPARA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "58908",
+   "Nombre": "MANUEL PONS",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "62570",
+   "Nombre": "JUAN BERNARDO HERNANDEZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "62110",
+   "Nombre": "IGNACIO PUPPO",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "68684",
+   "Nombre": "IÑAKI IZUIBEJERES",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "57840",
+   "Nombre": "DIEGO BIDEGAIN",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "61475",
+   "Jug_Sale": "ALAN VLADYMIR MEDIZA",
+   "CarneEntra": "64802",
+   "Jug_Entra": "DILAN GALIANO",
+   "camiseta": "5",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64513",
+   "Jug_Sale": "THIAGO MARTIN RAMIREZ",
+   "CarneEntra": "64503",
+   "Jug_Entra": "SANTIAGO NICOLAS ALCANTARA",
+   "camiseta": "33",
+   "minutos": "74"
+  },
+  {
+   "CarneSale": "67810",
+   "Jug_Sale": "EFRAIN DANIEL TOLEDO",
+   "CarneEntra": "61466",
+   "Jug_Entra": "SANTIAGO JOAQUIN RODRIGUEZ",
+   "camiseta": "6",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "64511",
+   "Jug_Sale": "MATEO NAHUEL MUNIZ",
+   "CarneEntra": "61469",
+   "Jug_Entra": "MATHIAS NAHUEL DA SILVEIRA",
+   "camiseta": "18",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "61465",
+   "Jug_Sale": "GERMAN PINTOS",
+   "CarneEntra": "64509",
+   "Jug_Entra": "GEEANMARCO TIZIANO LOPEZ",
+   "camiseta": "17",
+   "minutos": "86"
+  },
+  {
+   "CarneSale": "58739",
+   "Jug_Sale": "LAUTARO BERNABE MENDOZA",
+   "CarneEntra": "56505",
+   "Jug_Entra": "IGNACIO PICASSO",
+   "camiseta": "13",
+   "minutos": "87"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "62110",
+   "Jug_Sale": "IGNACIO PUPPO",
+   "CarneEntra": "65258",
+   "Jug_Entra": "GASTON OMAR VANNI",
+   "camiseta": "99",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "62570",
+   "Jug_Sale": "JUAN BERNARDO HERNANDEZ",
+   "CarneEntra": "64436",
+   "Jug_Entra": "FACUNDO FUENTES",
+   "camiseta": "17",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "62670",
+   "Jug_Sale": "LORENZO MONTERO",
+   "CarneEntra": "67801",
+   "Jug_Entra": "LORENZO SOBA",
+   "camiseta": "23",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "68684",
+   "Jug_Sale": "IÑAKI IZUIBEJERES",
+   "CarneEntra": "64188",
+   "Jug_Entra": "TOMAS ARAUJO",
+   "camiseta": "77",
+   "minutos": "85"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "58739",
+   "Nombre": "LAUTARO BERNABE MENDOZA",
+   "minutos": "6",
+   "EnContra": "0"
+  },
+  {
+   "carne": "58739",
+   "Nombre": "LAUTARO BERNABE MENDOZA",
+   "minutos": "84",
+   "EnContra": "0"
+  },
+  {
+   "carne": "61467",
+   "Nombre": "AMADEO LOPEZ",
+   "minutos": "34",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

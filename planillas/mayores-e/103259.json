@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"E\" PERM. y DESC.",
   "Cancha": "COMPLEJO NORTHFIELD",
-  "Fecha_Inicio": "2026-10-25 10:30:00",
-  "Fecha_fin": "2026-10-25 10:30:00",
+  "Fecha_Inicio": "2026-10-25 11:00:00",
+  "Fecha_fin": "2026-10-25 11:00:00",
   "Locatario": "JEAN PIAGET",
   "goles_locatario": "3",
   "puntos_locatario": "3",
@@ -29,11 +29,254 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "59037",
+   "Nombre": "WILDER NAHUEL RODRIGUEZ",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "65824",
+   "Nombre": "MATHIAS ALEXIS TRAJTENBERG",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "43425",
+   "Nombre": "JUAN IGNACIO CARRION",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "67424",
+   "Nombre": "LUCAS MIGUEL MESTRE",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "35512",
+   "Nombre": "AGUSTIN PEDRO PUIG",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "53239",
+   "Nombre": "MARIANO FERNANDEZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "66227",
+   "Nombre": "ALEXANDER CASTELLI",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "66226",
+   "Nombre": "FEDERICO MARTIN RAMOS",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "41193",
+   "Nombre": "JUAN IGNACIO AYALA",
+   "camiseta": "7",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56281",
+   "Nombre": "PABLO RAUL LUCAS",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "62360",
+   "Nombre": "MATHIAS NAHUEL MORALES",
+   "camiseta": "21",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "55387",
+   "Nombre": "FRANCISCO BELLO",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "49668",
+   "Nombre": "GERONIMO ROMERO",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "52862",
+   "Nombre": "FACUNDO ROMERO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "48329",
+   "Nombre": "ANDRES SEBASTIAN CHANG",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "51878",
+   "Nombre": "MATHIAS SCHWARZ",
+   "camiseta": "67",
+   "Capitan": ""
+  },
+  {
+   "carne": "44154",
+   "Nombre": "GASTON BERRIEL",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "48417",
+   "Nombre": "RENZO PITTIN",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "31253",
+   "Nombre": "ADRIAN IGNACIO CAFFARELLI",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "68035",
+   "Nombre": "AGUSTIN ANDRES GEBELIN",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "45790",
+   "Nombre": "PEDRO BARBARO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "53627",
+   "Nombre": "JUAN MANUEL DELFINO",
+   "camiseta": "30",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "41193",
+   "Jug_Sale": "JUAN IGNACIO AYALA",
+   "CarneEntra": "65022",
+   "Jug_Entra": "MATIAS DAMIAN DELIA",
+   "camiseta": "13",
+   "minutos": "50"
+  },
+  {
+   "CarneSale": "66226",
+   "Jug_Sale": "FEDERICO MARTIN RAMOS",
+   "CarneEntra": "67872",
+   "Jug_Entra": "HUMBERTO GAUDIER BRICEÑO",
+   "camiseta": "26",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "62360",
+   "Jug_Sale": "MATHIAS NAHUEL MORALES",
+   "CarneEntra": "61882",
+   "Jug_Entra": "SIMON DUTRA",
+   "camiseta": "23",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "53239",
+   "Jug_Sale": "MARIANO FERNANDEZ",
+   "CarneEntra": "66204",
+   "Jug_Entra": "OSCAR MICHEL MOLINA",
+   "camiseta": "14",
+   "minutos": "82"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "31253",
+   "Jug_Sale": "ADRIAN IGNACIO CAFFARELLI",
+   "CarneEntra": "55770",
+   "Jug_Entra": "JUAN IGNACIO RIPOLL",
+   "camiseta": "29",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "44154",
+   "Jug_Sale": "GASTON BERRIEL",
+   "CarneEntra": "51022",
+   "Jug_Entra": "SANTIAGO FORTEZA",
+   "camiseta": "19",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "49668",
+   "Jug_Sale": "GERONIMO ROMERO",
+   "CarneEntra": "60346",
+   "Jug_Entra": "SEBASTIAN DANTON SOUBERBIELLE",
+   "camiseta": "32",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "52862",
+   "Jug_Sale": "FACUNDO ROMERO",
+   "CarneEntra": "52790",
+   "Jug_Entra": "MATIAS EYHERAGARAY",
+   "camiseta": "24",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "48417",
+   "Jug_Sale": "RENZO PITTIN",
+   "CarneEntra": "56942",
+   "Jug_Entra": "ALEJO IRAZOQUI",
+   "camiseta": "20",
+   "minutos": "82"
+  },
+  {
+   "CarneSale": "53627",
+   "Jug_Sale": "JUAN MANUEL DELFINO",
+   "CarneEntra": "52789",
+   "Jug_Entra": "FRANCISCO MARTIN",
+   "camiseta": "16",
+   "minutos": "82"
+  },
+  {
+   "CarneSale": "51878",
+   "Jug_Sale": "MATHIAS SCHWARZ",
+   "CarneEntra": "66942",
+   "Jug_Entra": "JOAQUIN SILVA",
+   "camiseta": "26",
+   "minutos": "86"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "56281",
+   "Nombre": "PABLO RAUL LUCAS",
+   "minutos": "13",
+   "EnContra": "0"
+  },
+  {
+   "carne": "56281",
+   "Nombre": "PABLO RAUL LUCAS",
+   "minutos": "48",
+   "EnContra": "0"
+  },
+  {
+   "carne": "56281",
+   "Nombre": "PABLO RAUL LUCAS",
+   "minutos": "6",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

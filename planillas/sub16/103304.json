@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB16 COMPETENCIA",
   "Cancha": "COMPLEJO SCHIAFFINO (LAVALLEJA",
-  "Fecha_Inicio": "2026-10-25 15:00:00",
-  "Fecha_fin": "2026-10-25 15:00:00",
+  "Fecha_Inicio": "2026-10-25 15:20:00",
+  "Fecha_fin": "2026-10-25 15:20:00",
   "Locatario": "NAUTICO CARRASCO Y PUNTA GORDA",
   "goles_locatario": "3",
   "puntos_locatario": "3",
@@ -29,11 +29,238 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "63746",
+   "Nombre": "JUAN IGNACIO CURIEL",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "65903",
+   "Nombre": "SEBASTIAN BORCA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "66209",
+   "Nombre": "SANTINO SCOSERIA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "61690",
+   "Nombre": "FACUNDO JORGE DEMARCO",
+   "camiseta": "27",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "68353",
+   "Nombre": "SANTIAGO JURADO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "68347",
+   "Nombre": "BENJAMIN GONZALEZ",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "68854",
+   "Nombre": "FRANCISCO SANTORO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "61926",
+   "Nombre": "TOMAS MONTENEGRO",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "64091",
+   "Nombre": "SANTIAGO FERNANDEZ",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "60480",
+   "Nombre": "FELIPE CUYAS",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "64089",
+   "Nombre": "CAMILO TOMAS MATEU",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "61547",
+   "Nombre": "FACUNDO MOREIRA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "62414",
+   "Nombre": "ERICK RIVERO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "68017",
+   "Nombre": "MATEO VALENTIN TORTEROLO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "61424",
+   "Nombre": "ULISES ESPINO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "63825",
+   "Nombre": "GABRIEL LOPEZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "61553",
+   "Nombre": "EMANUEL GUERINO",
+   "camiseta": "8",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "68326",
+   "Nombre": "LUCIANO VALENTIN PEREIRA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "69101",
+   "Nombre": "SANTIAGO ALBANO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "69000",
+   "Nombre": "RAMIRO FABIAN SANDOVAL",
+   "camiseta": "67",
+   "Capitan": ""
+  },
+  {
+   "carne": "61426",
+   "Nombre": "LORENZO RIVERO",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "69001",
+   "Nombre": "MAURO OLIVERA",
+   "camiseta": "18",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "68854",
+   "Jug_Sale": "FRANCISCO SANTORO",
+   "CarneEntra": "65636",
+   "Jug_Entra": "FACUNDO DE CARVALHO",
+   "camiseta": "80",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64091",
+   "Jug_Sale": "SANTIAGO FERNANDEZ",
+   "CarneEntra": "65821",
+   "Jug_Entra": "JUAN BAUTISTA CAULLIN",
+   "camiseta": "21",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "60480",
+   "Jug_Sale": "FELIPE CUYAS",
+   "CarneEntra": "68354",
+   "Jug_Entra": "MATIAS AICARDI",
+   "camiseta": "23",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66209",
+   "Jug_Sale": "SANTINO SCOSERIA",
+   "CarneEntra": "67925",
+   "Jug_Entra": "SEBASTIAN OMAR PERALTA",
+   "camiseta": "61",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "63746",
+   "Jug_Sale": "JUAN IGNACIO CURIEL",
+   "CarneEntra": "67316",
+   "Jug_Entra": "AGUSTIN BONNET",
+   "camiseta": "1",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "61926",
+   "Jug_Sale": "TOMAS MONTENEGRO",
+   "CarneEntra": "60480",
+   "Jug_Entra": "FELIPE CUYAS",
+   "camiseta": "42",
+   "minutos": "72"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "63825",
+   "Jug_Sale": "GABRIEL LOPEZ",
+   "CarneEntra": "65588",
+   "Jug_Entra": "FRANCO CATTANEO",
+   "camiseta": "71",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61547",
+   "Jug_Sale": "FACUNDO MOREIRA",
+   "CarneEntra": "61428",
+   "Jug_Entra": "DIEGO VICENTE FERNANDEZ",
+   "camiseta": "12",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61426",
+   "Jug_Sale": "LORENZO RIVERO",
+   "CarneEntra": "66283",
+   "Jug_Entra": "FRANCISCO LEANDRO FERNANDEZ",
+   "camiseta": "3",
+   "minutos": "59"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "64089",
+   "Nombre": "CAMILO TOMAS MATEU",
+   "minutos": "27",
+   "EnContra": "0"
+  },
+  {
+   "carne": "64089",
+   "Nombre": "CAMILO TOMAS MATEU",
+   "minutos": "48",
+   "EnContra": "0"
+  },
+  {
+   "carne": "65903",
+   "Nombre": "SEBASTIAN BORCA",
+   "minutos": "34",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

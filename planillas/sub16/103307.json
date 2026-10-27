@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB16 ORO",
   "Cancha": "COMPLEJO WOODLANDS SCHOOL",
-  "Fecha_Inicio": "2026-10-25 15:00:00",
-  "Fecha_fin": "2026-10-25 15:00:00",
+  "Fecha_Inicio": "2026-10-25 15:30:00",
+  "Fecha_fin": "2026-10-25 15:30:00",
   "Locatario": "OLD WOODLANDS CLUB",
   "goles_locatario": "3",
   "puntos_locatario": "3",
@@ -29,12 +29,251 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "63283",
+   "Nombre": "NICOLAS PINTOS",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "66181",
+   "Nombre": "LUCAS PURTSCHER",
+   "camiseta": "82",
+   "Capitan": ""
+  },
+  {
+   "carne": "68142",
+   "Nombre": "MAURO PIGNANELLI",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "63286",
+   "Nombre": "ENZO PIGNANELLI",
+   "camiseta": "3",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "62248",
+   "Nombre": "FRANCISCO FERRARO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "62600",
+   "Nombre": "VALENTINO SANTALLA",
+   "camiseta": "56",
+   "Capitan": ""
+  },
+  {
+   "carne": "62384",
+   "Nombre": "MATIAS FALLINI",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "64676",
+   "Nombre": "PEDRO VECHIO",
+   "camiseta": "98",
+   "Capitan": ""
+  },
+  {
+   "carne": "60450",
+   "Nombre": "MATEO AURRECOCHEA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "62378",
+   "Nombre": "SANTINO FINOZZI",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "60458",
+   "Nombre": "SANTIAGO SOTO",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "61958",
+   "Nombre": "EUGENIO RESTANO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "61959",
+   "Nombre": "JUAN IGNACIO RISSO",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "60379",
+   "Nombre": "JUAN FRANCISCO MILA",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "65271",
+   "Nombre": "PEDRO JOSE LAPETINA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "62096",
+   "Nombre": "APARICIO SUAREZ",
+   "camiseta": "41",
+   "Capitan": ""
+  },
+  {
+   "carne": "62094",
+   "Nombre": "JUAN MARTIN MAGRI",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "67541",
+   "Nombre": "ALEJO STORACE",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "65264",
+   "Nombre": "JUANCRUZ STORACE",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "62093",
+   "Nombre": "JUAN MANUEL BELLO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "63325",
+   "Nombre": "JUAN MIGUEL REGUSCI",
+   "camiseta": "79",
+   "Capitan": ""
+  },
+  {
+   "carne": "62091",
+   "Nombre": "ALEJO TELLERIA",
+   "camiseta": "21",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "64676",
+   "Jug_Sale": "PEDRO VECHIO",
+   "CarneEntra": "62386",
+   "Jug_Entra": "JUAN MARTIN HUGHES",
+   "camiseta": "19",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "62248",
+   "Jug_Sale": "FRANCISCO FERRARO",
+   "CarneEntra": "61923",
+   "Jug_Entra": "FRANCO BERTULLO",
+   "camiseta": "11",
+   "minutos": "69"
+  },
+  {
+   "CarneSale": "60450",
+   "Jug_Sale": "MATEO AURRECOCHEA",
+   "CarneEntra": "68133",
+   "Jug_Entra": "JOAQUIN DORADO",
+   "camiseta": "5",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "60458",
+   "Jug_Sale": "SANTIAGO SOTO",
+   "CarneEntra": "65737",
+   "Jug_Entra": "BENJAMIN PACHECO",
+   "camiseta": "18",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "62600",
+   "Jug_Sale": "VALENTINO SANTALLA",
+   "CarneEntra": "68135",
+   "Jug_Entra": "FELIPE ESTEVE",
+   "camiseta": "70",
+   "minutos": "80"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "67541",
+   "Jug_Sale": "ALEJO STORACE",
+   "CarneEntra": "61957",
+   "Jug_Entra": "JUAN BAUTISTA MARTINEZ",
+   "camiseta": "22",
+   "minutos": "40"
+  },
+  {
+   "CarneSale": "62091",
+   "Jug_Sale": "ALEJO TELLERIA",
+   "CarneEntra": "63326",
+   "Jug_Entra": "JOAQUIN MENAFRA",
+   "camiseta": "90",
+   "minutos": "52"
+  },
+  {
+   "CarneSale": "62093",
+   "Jug_Sale": "JUAN MANUEL BELLO",
+   "CarneEntra": "65265",
+   "Jug_Entra": "BAUTISTA SHAW",
+   "camiseta": "45",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "62094",
+   "Jug_Sale": "JUAN MARTIN MAGRI",
+   "CarneEntra": "62229",
+   "Jug_Entra": "FRANCISCO CARDOSO",
+   "camiseta": "14",
+   "minutos": "64"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "60450",
+   "Nombre": "MATEO AURRECOCHEA",
+   "minutos": "68",
+   "EnContra": "0"
+  },
+  {
+   "carne": "62600",
+   "Nombre": "VALENTINO SANTALLA",
+   "minutos": "42",
+   "EnContra": "0"
+  },
+  {
+   "carne": "64676",
+   "Nombre": "PEDRO VECHIO",
+   "minutos": "3",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "62091",
+   "Nombre": "ALEJO TELLERIA",
+   "minutos": "63",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
- "expulsadosV": []
+ "expulsadosV": [
+  {
+   "Nombre": "APARICIO SUAREZ",
+   "observaciones": ""
+  }
+ ]
 }

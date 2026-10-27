@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"E\" PERM. y DESC.",
   "Cancha": "ST PATRICKS",
-  "Fecha_Inicio": "2026-10-25 12:45:00",
-  "Fecha_fin": "2026-10-25 12:45:00",
+  "Fecha_Inicio": "2026-10-25 13:00:00",
+  "Fecha_fin": "2026-10-25 13:00:00",
   "Locatario": "OLD SAMPA CLUB",
   "goles_locatario": "1",
   "puntos_locatario": "1",
@@ -29,12 +29,198 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
+ "titularesL": [
+  {
+   "carne": "27933",
+   "Nombre": "ENRIQUE CALACHA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "69139",
+   "Nombre": "SANTIAGO LOTITO",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "23363",
+   "Nombre": "ALEJANDRO CALACHA",
+   "camiseta": "80",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "62689",
+   "Nombre": "DYLAN SANTIAGO CORREA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "64910",
+   "Nombre": "MARCOS GIMENEZ",
+   "camiseta": "55",
+   "Capitan": ""
+  },
+  {
+   "carne": "67715",
+   "Nombre": "TOMAS GONZALO MARQUEZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "69171",
+   "Nombre": "JUAN PABLO ROVIRA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "24728",
+   "Nombre": "MATIAS LARRIQUE",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "53207",
+   "Nombre": "CAMILO NICOLAS ROSA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "24792",
+   "Nombre": "VALENTIN LLANO",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "19267",
+   "Nombre": "FEDERICO CALACHA",
+   "camiseta": "25",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "59286",
+   "Nombre": "FRANCO NAHUEL LACERDA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "60236",
+   "Nombre": "EZEQUIEL BARBOZA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "56522",
+   "Nombre": "NICOLAS FRONTINI",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "40071",
+   "Nombre": "SANTIAGO NICOLAS CUENCA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "46471",
+   "Nombre": "PABLO EDUARDO FLORES",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "61744",
+   "Nombre": "ANTONIO SIMONET",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "37238",
+   "Nombre": "PABLO JAVIER DIAZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "36567",
+   "Nombre": "RODRIGO CAMPOS",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "56521",
+   "Nombre": "AGUSTIN VOLPI",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "45516",
+   "Nombre": "JOAQUIN LORENZELLI",
+   "camiseta": "34",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "61260",
+   "Nombre": "FACUNDO GOÑI",
+   "camiseta": "30",
+   "Capitan": ""
+  }
+ ],
  "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "cambiosV": [
+  {
+   "CarneSale": "45516",
+   "Jug_Sale": "JOAQUIN LORENZELLI",
+   "CarneEntra": "54186",
+   "Jug_Entra": "DIEGO VALENTIN ALVEZ",
+   "camiseta": "17",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56522",
+   "Jug_Sale": "NICOLAS FRONTINI",
+   "CarneEntra": "52526",
+   "Jug_Entra": "RENZO LEONARDO PAIVA",
+   "camiseta": "29",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61260",
+   "Jug_Sale": "FACUNDO GOÑI",
+   "CarneEntra": "32907",
+   "Jug_Entra": "FERNANDO DANIEL NAN",
+   "camiseta": "16",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56521",
+   "Jug_Sale": "AGUSTIN VOLPI",
+   "CarneEntra": "45516",
+   "Jug_Entra": "JOAQUIN LORENZELLI",
+   "camiseta": "34",
+   "minutos": "45"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "67715",
+   "Nombre": "TOMAS GONZALO MARQUEZ",
+   "minutos": "36",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "46471",
+   "Nombre": "PABLO EDUARDO FLORES",
+   "minutos": "70",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "FEDERICO CALACHA",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

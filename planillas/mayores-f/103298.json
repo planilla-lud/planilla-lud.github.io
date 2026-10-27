@@ -4,7 +4,7 @@
  "serie": "FTA",
  "fecha": 5,
  "fechaHora": "2026-10-25 11:15:00",
- "cancha": "MICROSULES",
+ "cancha": "()",
  "local": "VETERINARIA UNIVERSITARIO",
  "visitante": "BELLA UNION UNIVERSITARIO",
  "gl": 0,
@@ -17,9 +17,9 @@
   "categoria": "MAYORES MASCULINO",
   "rueda": "2",
   "Divisional": "MAYORES \"F\" TIT. y ASC.",
-  "Cancha": "MICROSULES",
-  "Fecha_Inicio": "2026-10-25 12:45:00",
-  "Fecha_fin": "2026-10-25 12:45:00",
+  "Cancha": "()",
+  "Fecha_Inicio": "2026-10-25 13:10:00",
+  "Fecha_fin": "2026-10-25 13:10:00",
   "Locatario": "VETERINARIA UNIVERSITARIO",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,249 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "40490",
+   "Nombre": "IGNACIO GUTIERREZ",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "54029",
+   "Nombre": "MANUEL ALEJANDRO GALIANI",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "46440",
+   "Nombre": "ANDERSON JAURIBIGUERRI",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "62121",
+   "Nombre": "ALVARO SEBASTIAN CAWEN",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "42405",
+   "Nombre": "ALEJANDRO  SEBASTIAN GARCIA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "66044",
+   "Nombre": "FAUSTO VELAZQUEZ",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "65727",
+   "Nombre": "CESAR ALTINO NUÑEZ",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "47237",
+   "Nombre": "GUILLERMO VALENTINO ZAPATA",
+   "camiseta": "64",
+   "Capitan": ""
+  },
+  {
+   "carne": "38891",
+   "Nombre": "RODRIGO MARTIN LOPEZ",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "46929",
+   "Nombre": "CARLOS DANIEL OCAMPO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "53459",
+   "Nombre": "LUCIANO JAURIBIGUERRI",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "60893",
+   "Nombre": "LEONARDO GABRIEL PEREIRA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "66284",
+   "Nombre": "JUAN IGNACIO BARCELLOS",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "68480",
+   "Nombre": "MAIKOL MACIEL",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "57139",
+   "Nombre": "ELBIO YONATAN FERREIRA",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "50135",
+   "Nombre": "FABRICIO NICOLAS MARENCO",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "64725",
+   "Nombre": "JUAN ROBERTO CAPIZAN",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "53075",
+   "Nombre": "NAHUEL NICOLAS BONINO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "49701",
+   "Nombre": "CRISTIAN CARBALLO",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "51809",
+   "Nombre": "ALEXANDRE GABRIEL DIAZ",
+   "camiseta": "28",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "41775",
+   "Nombre": "MARIANO GABRIEL MARQUEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "47980",
+   "Nombre": "HERNAN OXANDABARAT",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "54029",
+   "Jug_Sale": "MANUEL ALEJANDRO GALIANI",
+   "CarneEntra": "63479",
+   "Jug_Entra": "DIEGO MARTIN GODAY",
+   "camiseta": "32",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "53459",
+   "Jug_Sale": "LUCIANO JAURIBIGUERRI",
+   "CarneEntra": "39902",
+   "Jug_Entra": "AGUSTIN DIAZ",
+   "camiseta": "71",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "66044",
+   "Jug_Sale": "FAUSTO VELAZQUEZ",
+   "CarneEntra": "68011",
+   "Jug_Entra": "DIOGO TRISTAN ALONSO",
+   "camiseta": "68",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "62121",
+   "Jug_Sale": "ALVARO SEBASTIAN CAWEN",
+   "CarneEntra": "66044",
+   "Jug_Entra": "FAUSTO VELAZQUEZ",
+   "camiseta": "44",
+   "minutos": "82"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "53075",
+   "Jug_Sale": "NAHUEL NICOLAS BONINO",
+   "CarneEntra": "61892",
+   "Jug_Entra": "LEANDRO RODRIGUEZ",
+   "camiseta": "24",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "50135",
+   "Jug_Sale": "FABRICIO NICOLAS MARENCO",
+   "CarneEntra": "49700",
+   "Jug_Entra": "LEANDRO MARTIN SARASUA",
+   "camiseta": "20",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "41775",
+   "Jug_Sale": "MARIANO GABRIEL MARQUEZ",
+   "CarneEntra": "45449",
+   "Jug_Entra": "MANUEL QUINTANA",
+   "camiseta": "5",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "49701",
+   "Jug_Sale": "CRISTIAN CARBALLO",
+   "CarneEntra": "49457",
+   "Jug_Entra": "FACUNDO PEREIRA",
+   "camiseta": "2",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "47980",
+   "Jug_Sale": "HERNAN OXANDABARAT",
+   "CarneEntra": "60851",
+   "Jug_Entra": "IGNACIO DUARTE",
+   "camiseta": "19",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "66284",
+   "Jug_Sale": "JUAN IGNACIO BARCELLOS",
+   "CarneEntra": "49546",
+   "Jug_Entra": "JUAN SEBASTIAN PATRON",
+   "camiseta": "30",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "64725",
+   "Jug_Sale": "JUAN ROBERTO CAPIZAN",
+   "CarneEntra": "61183",
+   "Jug_Entra": "ENZO NICOLAS SAUCEDA",
+   "camiseta": "39",
+   "minutos": "85"
+  }
+ ],
  "golesL": [],
- "golesV": [],
+ "golesV": [
+  {
+   "carne": "47980",
+   "Nombre": "HERNAN OXANDABARAT",
+   "minutos": "78",
+   "EnContra": "1"
+  },
+  {
+   "carne": "51809",
+   "Nombre": "ALEXANDRE GABRIEL DIAZ",
+   "minutos": "73",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

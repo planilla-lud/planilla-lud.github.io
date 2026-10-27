@@ -7,9 +7,16 @@
   "visitante": "ARQUITECTURA JRS."
  },
  {
+  "serie": "20BPD",
+  "fechaHora": "2026-10-29 20:30:00",
+  "cancha": "COM. DEP. CLUB TROUVILLE",
+  "local": "TROUVILLE UNIVERSITARIO",
+  "visitante": "SEMINARIO UNIVERSITARIO"
+ },
+ {
   "serie": "20BTA",
   "fechaHora": "2026-10-31 13:30:00",
-  "cancha": "COMPLEJO JUAN XXIII",
+  "cancha": "COMPLEJO LOS NOGALES",
   "local": "CIRCULO DE TENIS MONTEVIDEO",
   "visitante": "COLEGIO SANTA ELENA"
  },
@@ -54,13 +61,6 @@
   "cancha": "VILLA MARIA",
   "local": "SAN JOSE DE LA PROVIDENCIA uni",
   "visitante": "LA BLANQUEADA"
- },
- {
-  "serie": "20BPD",
-  "fechaHora": "2026-10-31 15:30:00",
-  "cancha": "COM. DEP. CLUB TROUVILLE",
-  "local": "TROUVILLE UNIVERSITARIO",
-  "visitante": "SEMINARIO UNIVERSITARIO"
  },
  {
   "serie": "20BTA",

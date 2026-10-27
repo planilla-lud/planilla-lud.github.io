@@ -4,7 +4,7 @@
  "serie": "FPD",
  "fecha": 5,
  "fechaHora": "2026-10-25 11:15:00",
- "cancha": "FUERZA AEREA",
+ "cancha": "()",
  "local": "CLUB FUERZA AEREA",
  "visitante": "ESPARTA UNIVERSITARIO",
  "gl": 1,
@@ -17,9 +17,9 @@
   "categoria": "MAYORES MASCULINO",
   "rueda": "2",
   "Divisional": "MAYORES \"F\" PERM. y DESC.",
-  "Cancha": "FUERZA AEREA",
-  "Fecha_Inicio": "2026-10-25 12:45:00",
-  "Fecha_fin": "2026-10-25 12:45:00",
+  "Cancha": "()",
+  "Fecha_Inicio": "2026-10-25 13:14:00",
+  "Fecha_fin": "2026-10-25 13:14:00",
   "Locatario": "CLUB FUERZA AEREA",
   "goles_locatario": "1",
   "puntos_locatario": "0",
@@ -29,12 +29,257 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "titularesL": [
+  {
+   "carne": "32198",
+   "Nombre": "DIEGO MARTIN ACOSTA",
+   "camiseta": "77",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "47438",
+   "Nombre": "BERNARDO NICOLAS IRIONDO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "54593",
+   "Nombre": "DIEGO GUILLERMO MARTORANO",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "66213",
+   "Nombre": "GONZALO GUZMAN ANTELO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "69045",
+   "Nombre": "KEVIN ARIEL RAMOS",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "68927",
+   "Nombre": "THIAGO SAMUEL OXLEY",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "63481",
+   "Nombre": "FEDERICO CENA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "35573",
+   "Nombre": "MARTIN DEUS",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "66393",
+   "Nombre": "IVAN MOREIRA MOREIRA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "46316",
+   "Nombre": "SANTIAGO ROLAN",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "60642",
+   "Nombre": "LUCAS FACUNDO CORDERO",
+   "camiseta": "25",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "37571",
+   "Nombre": "ANDRES FRANCO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "61792",
+   "Nombre": "HERNAN ARAUJO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "42973",
+   "Nombre": "NICOLAS MARCIO RODAO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "66223",
+   "Nombre": "FACUNDO CHIAZZARO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "59713",
+   "Nombre": "BENJAZMIN PEREZ",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "58161",
+   "Nombre": "THIAGO FRANCISCO GONZALEZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "62301",
+   "Nombre": "LAUTARO TOMAS PUMAR",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "58897",
+   "Nombre": "JUAN MARTIN GARRIDO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "66097",
+   "Nombre": "FEDERICO LEMA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "67670",
+   "Nombre": "LAUREANO LARROSA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "59481",
+   "Nombre": "JUAN MANUEL BARROS",
+   "camiseta": "3",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "63481",
+   "Jug_Sale": "FEDERICO CENA",
+   "CarneEntra": "67300",
+   "Jug_Entra": "BENJAMIN PEREIRA",
+   "camiseta": "20",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66213",
+   "Jug_Sale": "GONZALO GUZMAN ANTELO",
+   "CarneEntra": "60254",
+   "Jug_Entra": "AXEL RAFAEL DAVILA",
+   "camiseta": "14",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "46316",
+   "Jug_Sale": "SANTIAGO ROLAN",
+   "CarneEntra": "51915",
+   "Jug_Entra": "EMILIANO DESEVO",
+   "camiseta": "26",
+   "minutos": "60"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "61792",
+   "Jug_Sale": "HERNAN ARAUJO",
+   "CarneEntra": "40833",
+   "Jug_Entra": "RODRIGO BOVINO",
+   "camiseta": "11",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "58897",
+   "Jug_Sale": "JUAN MARTIN GARRIDO",
+   "CarneEntra": "59397",
+   "Jug_Entra": "HUGO ATILIO TRIUNFO",
+   "camiseta": "16",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "67670",
+   "Jug_Sale": "LAUREANO LARROSA",
+   "CarneEntra": "67169",
+   "Jug_Entra": "NICLAS SANTIAGO AVELLANEDA",
+   "camiseta": "8",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "62301",
+   "Jug_Sale": "LAUTARO TOMAS PUMAR",
+   "CarneEntra": "43572",
+   "Jug_Entra": "NAHUEL MOREIRA",
+   "camiseta": "19",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "58161",
+   "Jug_Sale": "THIAGO FRANCISCO GONZALEZ",
+   "CarneEntra": "51299",
+   "Jug_Entra": "FACUNDO CERETTA",
+   "camiseta": "26",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "66223",
+   "Jug_Sale": "FACUNDO CHIAZZARO",
+   "CarneEntra": "49284",
+   "Jug_Entra": "FELIPE ARRICAR",
+   "camiseta": "18",
+   "minutos": "93"
+  },
+  {
+   "CarneSale": "58161",
+   "Jug_Sale": "THIAGO FRANCISCO GONZALEZ",
+   "CarneEntra": "67670",
+   "Jug_Entra": "LAUREANO LARROSA",
+   "camiseta": "22",
+   "minutos": "96"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "69045",
+   "Nombre": "KEVIN ARIEL RAMOS",
+   "minutos": "9",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "66097",
+   "Nombre": "FEDERICO LEMA",
+   "minutos": "56",
+   "EnContra": "1"
+  },
+  {
+   "carne": "66223",
+   "Nombre": "FACUNDO CHIAZZARO",
+   "minutos": "47",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "KEVIN ARIEL RAMOS",
+   "observaciones": ""
+  },
+  {
+   "Nombre": "IVAN MOREIRA MOREIRA",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

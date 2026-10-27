@@ -1,0 +1,297 @@
+{
+ "id": "103396",
+ "categoria": "sub16",
+ "serie": "16P",
+ "fecha": 2,
+ "fechaHora": "2026-10-25 13:30:00",
+ "cancha": "COMPLEJO JUAN XXIII",
+ "local": "CIRCULO DE TENIS MONTEVIDEO",
+ "visitante": "DEPORTIVO MORON",
+ "gl": 4,
+ "gv": 0,
+ "detalle": {
+  "nro_partido": "316",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 16 ",
+  "categoria": "SUB 16 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB16 PLATA",
+  "Cancha": "COMPLEJO JUAN XXIII",
+  "Fecha_Inicio": "2026-10-25 15:10:00",
+  "Fecha_fin": "2026-10-25 15:10:00",
+  "Locatario": "CIRCULO DE TENIS MONTEVIDEO",
+  "goles_locatario": "4",
+  "puntos_locatario": "3",
+  "Visitante": "DEPORTIVO MORON",
+  "goles_visitante": "0",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "65247",
+   "Nombre": "VALENTINO MARADEI",
+   "camiseta": "1",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "60428",
+   "Nombre": "BLAS TRAVERS",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "60696",
+   "Nombre": "CARLOS FIELITZ",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "68383",
+   "Nombre": "RODRIGO ATILIO GARCIA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "63193",
+   "Nombre": "JUAN IGNACIO SANTOS",
+   "camiseta": "57",
+   "Capitan": ""
+  },
+  {
+   "carne": "68744",
+   "Nombre": "FRANCO SANTAMARIA",
+   "camiseta": "90",
+   "Capitan": ""
+  },
+  {
+   "carne": "63194",
+   "Nombre": "THIAGO SILVA",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "60736",
+   "Nombre": "PEDRO ARQUERO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "63035",
+   "Nombre": "JOAQUIN NUÑEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "65185",
+   "Nombre": "AGUSTIN MASTROIANNI",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "65152",
+   "Nombre": "JOAQUN REY",
+   "camiseta": "71",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "66405",
+   "Nombre": "FRANCO CHIAPPE",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "61458",
+   "Nombre": "GERONIMO RODRIGUEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "62923",
+   "Nombre": "FRANCISCO CROSSA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "68912",
+   "Nombre": "JOHANN SANTIAGO FERNANDEZ",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "67862",
+   "Nombre": "LAUTARO GASTON GIORDANO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "67492",
+   "Nombre": "EZEQUIEL PERDOMO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "66816",
+   "Nombre": "IGNACIO GALIZIA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "61560",
+   "Nombre": "ANTONIO CARVALLIDO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "63588",
+   "Nombre": "JUAN IGNACIO RAIMONDO",
+   "camiseta": "16",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "66678",
+   "Nombre": "FABIO ALEXANDER SUREZ",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "66814",
+   "Nombre": "LUCIO AGUSTIN BENITEZ",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "65152",
+   "Jug_Sale": "JOAQUN REY",
+   "CarneEntra": "65151",
+   "Jug_Entra": "MATEO EMANUEL ROQUETA",
+   "camiseta": "3",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "63035",
+   "Jug_Sale": "JOAQUIN NUÑEZ",
+   "CarneEntra": "68190",
+   "Jug_Entra": "RENATO ANDRADE",
+   "camiseta": "95",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "60736",
+   "Jug_Sale": "PEDRO ARQUERO",
+   "CarneEntra": "65183",
+   "Jug_Entra": "JOAQUIN GERSCHUNI",
+   "camiseta": "88",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "63194",
+   "Jug_Sale": "THIAGO SILVA",
+   "CarneEntra": "62743",
+   "Jug_Entra": "XABI JORGE PEREZ",
+   "camiseta": "18",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "63035",
+   "Jug_Sale": "JOAQUIN NUÑEZ",
+   "CarneEntra": "68456",
+   "Jug_Entra": "JUAN MARTIN SOSA",
+   "camiseta": "72",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "68383",
+   "Jug_Sale": "RODRIGO ATILIO GARCIA",
+   "CarneEntra": "65180",
+   "Jug_Entra": "RAFAEL DONEGANA",
+   "camiseta": "15",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "60428",
+   "Jug_Sale": "BLAS TRAVERS",
+   "CarneEntra": "68486",
+   "Jug_Entra": "GERMAN PEREIRA",
+   "camiseta": "71",
+   "minutos": "70"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "67492",
+   "Jug_Sale": "EZEQUIEL PERDOMO",
+   "CarneEntra": "61456",
+   "Jug_Entra": "EMILIANO ANDRES OCAMPO",
+   "camiseta": "30",
+   "minutos": "48"
+  },
+  {
+   "CarneSale": "66814",
+   "Jug_Sale": "LUCIO AGUSTIN BENITEZ",
+   "CarneEntra": "67491",
+   "Jug_Entra": "FELIPE SABIANO",
+   "camiseta": "5",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "61560",
+   "Jug_Sale": "ANTONIO CARVALLIDO",
+   "CarneEntra": "69144",
+   "Jug_Entra": "ISMAEL CARABALLO",
+   "camiseta": "27",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "62923",
+   "Jug_Sale": "FRANCISCO CROSSA",
+   "CarneEntra": "67864",
+   "Jug_Entra": "TOMAS FERRANDO",
+   "camiseta": "25",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "68912",
+   "Jug_Sale": "JOHANN SANTIAGO FERNANDEZ",
+   "CarneEntra": "66817",
+   "Jug_Entra": "MARTIN GUEDES DE REZENDE",
+   "camiseta": "18",
+   "minutos": "62"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "60696",
+   "Nombre": "CARLOS FIELITZ",
+   "minutos": "70",
+   "EnContra": "0"
+  },
+  {
+   "carne": "60736",
+   "Nombre": "PEDRO ARQUERO",
+   "minutos": "25",
+   "EnContra": "0"
+  },
+  {
+   "carne": "63194",
+   "Nombre": "THIAGO SILVA",
+   "minutos": "28",
+   "EnContra": "0"
+  },
+  {
+   "carne": "63194",
+   "Nombre": "THIAGO SILVA",
+   "minutos": "50",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

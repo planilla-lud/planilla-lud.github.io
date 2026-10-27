@@ -1,15 +1,8 @@
 [
  {
-  "serie": "GPD",
-  "fechaHora": "2026-10-28 00:00:00",
-  "cancha": "NO SE JUEGA",
-  "local": "FECHA LIBRE",
-  "visitante": "COLEGIO SALESIANO DE LA COSTA"
- },
- {
   "serie": "GTA",
-  "fechaHora": "2026-10-28 09:00:00",
-  "cancha": "PQUE. ELLIS - COL. SAN ISIDRO",
+  "fechaHora": "2026-10-28 20:00:00",
+  "cancha": "POLIDEPORTIVO FAUQUET",
   "local": "COLEGIO SAN ISIDRO",
   "visitante": "DEPORTIVO NAVAL"
  },
@@ -264,6 +257,13 @@
   "cancha": "NO SE JUEGA",
   "local": "FECHA LIBRE",
   "visitante": "COLEGIO Y LICEO SANTO DOMINGO"
+ },
+ {
+  "serie": "GPD",
+  "fechaHora": "2026-12-30 00:00:00",
+  "cancha": "NO SE JUEGA",
+  "local": "FECHA LIBRE",
+  "visitante": "COLEGIO SALESIANO DE LA COSTA"
  },
  {
   "serie": "GPD",

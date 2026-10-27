@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"E\" PERM. y DESC.",
   "Cancha": "COMPLEJO DEPORTIVO H3O",
-  "Fecha_Inicio": "2026-10-25 10:30:00",
-  "Fecha_fin": "2026-10-25 10:30:00",
+  "Fecha_Inicio": "2026-10-25 11:00:00",
+  "Fecha_fin": "2026-10-25 11:00:00",
   "Locatario": "CLARA JACKSON UNIVERSITARIO",
   "goles_locatario": "1",
   "puntos_locatario": "0",
@@ -29,12 +29,262 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "26280",
+   "Nombre": "DIEGO ALVEZ",
+   "camiseta": "72",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "47110",
+   "Nombre": "FERNANDO CABRERA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "51411",
+   "Nombre": "JUAN VICTORIO SILVERA",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "66681",
+   "Nombre": "DIEGO RODRIGUEZ",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "35829",
+   "Nombre": "FEDERICO MARTIN LAITANO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "56085",
+   "Nombre": "MATEO LAPAZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "60317",
+   "Nombre": "DIEGO BENJAMIN FERNANDEZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "49756",
+   "Nombre": "DARIO MONSERRAT",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "43112",
+   "Nombre": "MATHIAS CABRERA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "69041",
+   "Nombre": "ALBERTO VALENTINO ORPI",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "61434",
+   "Nombre": "JOSE DAVID LAGUNA",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "63308",
+   "Nombre": "FELIPE MONAGAS",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "50588",
+   "Nombre": "IGNACIO YACI",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "44089",
+   "Nombre": "JUAN IGNACIO GONZALEZ",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "58871",
+   "Nombre": "SEBASTIAN BAZ",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "64612",
+   "Nombre": "SANTIAGO CAPRARIO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "43182",
+   "Nombre": "MARTIN BUENO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "37175",
+   "Nombre": "JUAN O´NEILL",
+   "camiseta": "26",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "54915",
+   "Nombre": "MARTIN HORACIO MONAGAS",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "35461",
+   "Nombre": "FABRIZIO PEROTTI",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "37117",
+   "Nombre": "AGUSTIN MALO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "62785",
+   "Nombre": "FELIPE ARRUABARRENA",
+   "camiseta": "0",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "69041",
+   "Jug_Sale": "ALBERTO VALENTINO ORPI",
+   "CarneEntra": "60932",
+   "Jug_Entra": "JOAQUIN FEDERICO CASTRO",
+   "camiseta": "25",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56085",
+   "Jug_Sale": "MATEO LAPAZ",
+   "CarneEntra": "69041",
+   "Jug_Entra": "ALBERTO VALENTINO ORPI",
+   "camiseta": "11",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "47110",
+   "Jug_Sale": "FERNANDO CABRERA",
+   "CarneEntra": "57230",
+   "Jug_Entra": "AGUSTIN LEAL",
+   "camiseta": "2",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "60317",
+   "Jug_Sale": "DIEGO BENJAMIN FERNANDEZ",
+   "CarneEntra": "56085",
+   "Jug_Entra": "MATEO LAPAZ",
+   "camiseta": "5",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "61434",
+   "Jug_Sale": "JOSE DAVID LAGUNA",
+   "CarneEntra": "41109",
+   "Jug_Entra": "FERNANDO ALVEZ",
+   "camiseta": "23",
+   "minutos": "89"
+  },
+  {
+   "CarneSale": "51411",
+   "Jug_Sale": "JUAN VICTORIO SILVERA",
+   "CarneEntra": "55342",
+   "Jug_Entra": "JUAN ANDRES RODRIGUEZ",
+   "camiseta": "20",
+   "minutos": "89"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "50588",
+   "Jug_Sale": "IGNACIO YACI",
+   "CarneEntra": "39899",
+   "Jug_Entra": "FACUNDO IBARRA",
+   "camiseta": "33",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58871",
+   "Jug_Sale": "SEBASTIAN BAZ",
+   "CarneEntra": "37052",
+   "Jug_Entra": "MAURO DUILIO GARRETANO",
+   "camiseta": "18",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "35461",
+   "Jug_Sale": "FABRIZIO PEROTTI",
+   "CarneEntra": "43895",
+   "Jug_Entra": "JOAQUIN BARBE",
+   "camiseta": "13",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "64612",
+   "Jug_Sale": "SANTIAGO CAPRARIO",
+   "CarneEntra": "64625",
+   "Jug_Entra": "FEDERICO CAPRARIO",
+   "camiseta": "3",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "54915",
+   "Jug_Sale": "MARTIN HORACIO MONAGAS",
+   "CarneEntra": "51377",
+   "Jug_Entra": "FRANCISCO VARELA",
+   "camiseta": "19",
+   "minutos": "82"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "69041",
+   "Nombre": "ALBERTO VALENTINO ORPI",
+   "minutos": "37",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "62785",
+   "Nombre": "FELIPE ARRUABARRENA",
+   "minutos": "49",
+   "EnContra": "1"
+  },
+  {
+   "carne": "62785",
+   "Nombre": "FELIPE ARRUABARRENA",
+   "minutos": "55",
+   "EnContra": "1"
+  },
+  {
+   "carne": "62785",
+   "Nombre": "FELIPE ARRUABARRENA",
+   "minutos": "86",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB18 AMISTAD",
   "Cancha": "COMPLEJO JUAN XXIII",
-  "Fecha_Inicio": "2026-10-25 17:00:00",
-  "Fecha_fin": "2026-10-25 17:00:00",
+  "Fecha_Inicio": "2026-10-25 17:20:00",
+  "Fecha_fin": "2026-10-25 17:20:00",
   "Locatario": "LA BLANQUEADA",
   "goles_locatario": "5",
   "puntos_locatario": "3",
@@ -29,12 +29,282 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
- "expulsadosV": []
+ "titularesL": [
+  {
+   "carne": "59051",
+   "Nombre": "IGNACIO DEL PRESTITO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "66906",
+   "Nombre": "RENZO SANTIAGO CANZANI",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "68245",
+   "Nombre": "RENZO MADAMO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "59410",
+   "Nombre": "SEBASTIAN MARTINEZ",
+   "camiseta": "41",
+   "Capitan": ""
+  },
+  {
+   "carne": "62312",
+   "Nombre": "MARCELO JAVIER SPANO",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "62084",
+   "Nombre": "SANTIAGO PEREIRA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "68661",
+   "Nombre": "GENNARO MAZZIOTTI",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "68263",
+   "Nombre": "LUCA SOCA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "67645",
+   "Nombre": "AGUSTIN DA SILVA",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "59394",
+   "Nombre": "MARTIN MORRA",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "60153",
+   "Nombre": "LAUTARO FRANCISCO MERNIES",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "67174",
+   "Nombre": "MARTIN TIAGO LIMA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "67236",
+   "Nombre": "FACUNDO DUARTE",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "65468",
+   "Nombre": "IVAN LAUTARO MORALES",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "57617",
+   "Nombre": "JUAN IGNACIO ARRILLAGA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "67234",
+   "Nombre": "RODRIGO HERNAN MARTINEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "56571",
+   "Nombre": "SANTIAGO GUSTAVO ALVAREZ",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "67233",
+   "Nombre": "RENZO SAMUEL GENTILIO",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "68232",
+   "Nombre": "THIAGO MATEO FERREIRA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "67175",
+   "Nombre": "FACUNDO AGUSTIN DUARTE",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "69187",
+   "Nombre": "MATEO ISMAEL CHARLE FAGUNDEZ",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "69074",
+   "Nombre": "LAUTARO NICOLAS RODRIGUEZ",
+   "camiseta": "3",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "68661",
+   "Jug_Sale": "GENNARO MAZZIOTTI",
+   "CarneEntra": "64720",
+   "Jug_Entra": "DANIEL MAXIMILIANO FUCE",
+   "camiseta": "21",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "59410",
+   "Jug_Sale": "SEBASTIAN MARTINEZ",
+   "CarneEntra": "68514",
+   "Jug_Entra": "LAUTARO ESCALANTE",
+   "camiseta": "18",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "60153",
+   "Jug_Sale": "LAUTARO FRANCISCO MERNIES",
+   "CarneEntra": "65979",
+   "Jug_Entra": "THIAGO JOAQUIN MARTINEZ",
+   "camiseta": "9",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "68263",
+   "Jug_Sale": "LUCA SOCA",
+   "CarneEntra": "67428",
+   "Jug_Entra": "LUCAS CIMIRRO",
+   "camiseta": "18",
+   "minutos": "75"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "67236",
+   "Jug_Sale": "FACUNDO DUARTE",
+   "CarneEntra": "68621",
+   "Jug_Entra": "NICOLAS ONIRA DEVITTA",
+   "camiseta": "15",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "69187",
+   "Jug_Sale": "MATEO ISMAEL CHARLE FAGUNDEZ",
+   "CarneEntra": "68029",
+   "Jug_Entra": "MARCO VERNASSA",
+   "camiseta": "7",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67174",
+   "Jug_Sale": "MARTIN TIAGO LIMA",
+   "CarneEntra": "67304",
+   "Jug_Entra": "JUAN MANUEL PAZOS",
+   "camiseta": "21",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67234",
+   "Jug_Sale": "RODRIGO HERNAN MARTINEZ",
+   "CarneEntra": "67174",
+   "Jug_Entra": "MARTIN TIAGO LIMA",
+   "camiseta": "18",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "68232",
+   "Jug_Sale": "THIAGO MATEO FERREIRA",
+   "CarneEntra": "67234",
+   "Jug_Entra": "RODRIGO HERNAN MARTINEZ",
+   "camiseta": "8",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "67174",
+   "Jug_Sale": "MARTIN TIAGO LIMA",
+   "CarneEntra": "69187",
+   "Jug_Entra": "MATEO ISMAEL CHARLE FAGUNDEZ",
+   "camiseta": "32",
+   "minutos": "76"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "59394",
+   "Nombre": "MARTIN MORRA",
+   "minutos": "5",
+   "EnContra": "0"
+  },
+  {
+   "carne": "60153",
+   "Nombre": "LAUTARO FRANCISCO MERNIES",
+   "minutos": "13",
+   "EnContra": "0"
+  },
+  {
+   "carne": "60153",
+   "Nombre": "LAUTARO FRANCISCO MERNIES",
+   "minutos": "27",
+   "EnContra": "0"
+  },
+  {
+   "carne": "67645",
+   "Nombre": "AGUSTIN DA SILVA",
+   "minutos": "24",
+   "EnContra": "0"
+  },
+  {
+   "carne": "68263",
+   "Nombre": "LUCA SOCA",
+   "minutos": "76",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "65468",
+   "Nombre": "IVAN LAUTARO MORALES",
+   "minutos": "69",
+   "EnContra": "1"
+  },
+  {
+   "carne": "67175",
+   "Nombre": "FACUNDO AGUSTIN DUARTE",
+   "minutos": "68",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "RENZO SANTIAGO CANZANI",
+   "observaciones": ""
+  }
+ ],
+ "expulsadosV": [
+  {
+   "Nombre": "MARTIN TIAGO LIMA",
+   "observaciones": ""
+  }
+ ]
 }

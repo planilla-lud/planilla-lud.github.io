@@ -1,0 +1,214 @@
+{
+ "id": "103398",
+ "categoria": "sub18",
+ "serie": "18F",
+ "fecha": 2,
+ "fechaHora": "2026-10-25 15:30:00",
+ "cancha": "COMPLEJO SCHIAFFINO (LAVALLEJA",
+ "local": "NAUTICO CARRASCO Y PUNTA GORDA",
+ "visitante": "PLAYA HONDA UNIVERSITARIO",
+ "gl": 0,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "465",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 18 ",
+  "categoria": "SUB 18 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB18 CONFRATERNIDAD",
+  "Cancha": "COMPLEJO SCHIAFFINO (LAVALLEJA",
+  "Fecha_Inicio": "2026-10-25 17:20:00",
+  "Fecha_fin": "2026-10-25 17:20:00",
+  "Locatario": "NAUTICO CARRASCO Y PUNTA GORDA",
+  "goles_locatario": "0",
+  "puntos_locatario": "0",
+  "Visitante": "PLAYA HONDA UNIVERSITARIO",
+  "goles_visitante": "1",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "63127",
+   "Nombre": "THIAGO MARTIN COITINHO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "57930",
+   "Nombre": "ELIAS GIMENEZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "57690",
+   "Nombre": "JUAN PABLO ROCHE",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "65858",
+   "Nombre": "DYLAN JOAQUIN PITTAMEGLIO",
+   "camiseta": "69",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "57686",
+   "Nombre": "ALEJANDRO MELOGNO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "57928",
+   "Nombre": "GERMAN ESCANDELL",
+   "camiseta": "71",
+   "Capitan": ""
+  },
+  {
+   "carne": "68980",
+   "Nombre": "TADEO MARRONE",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "60443",
+   "Nombre": "SANTINO ABBATE",
+   "camiseta": "82",
+   "Capitan": ""
+  },
+  {
+   "carne": "62598",
+   "Nombre": "EMILIANO SOSA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "62459",
+   "Nombre": "FEDERICO EMANUEL ANADON",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "62139",
+   "Nombre": "ALAN ADRIAN MAYES",
+   "camiseta": "4",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "62544",
+   "Nombre": "ISMAEL SARASUA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "62932",
+   "Nombre": "MARCIO EZEQUIEL SILVEIRA",
+   "camiseta": "37",
+   "Capitan": ""
+  },
+  {
+   "carne": "61717",
+   "Nombre": "JUAN MARTIN SAAVEDRA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "62148",
+   "Nombre": "MARTIN VILLAAMIL",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "62649",
+   "Nombre": "MATIAS CANAVEIS",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "62550",
+   "Nombre": "LORENZO GREIF",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "61846",
+   "Nombre": "IGNACIO FERRARI",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "59716",
+   "Nombre": "JUAN MANUEL BORCA",
+   "camiseta": "7",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "64497",
+   "Nombre": "JUAN IGNACIO ZABALA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "63152",
+   "Nombre": "AGUSTIN LOPEZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "57574",
+   "Nombre": "BRUNO MACHADO",
+   "camiseta": "41",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "62139",
+   "Jug_Sale": "ALAN ADRIAN MAYES",
+   "CarneEntra": "60335",
+   "Jug_Entra": "IGNACIO FERNANDEZ",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "57928",
+   "Jug_Sale": "GERMAN ESCANDELL",
+   "CarneEntra": "57929",
+   "Jug_Entra": "JUAN MANUEL LAGO",
+   "camiseta": "8",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "62598",
+   "Jug_Sale": "EMILIANO SOSA",
+   "CarneEntra": "60471",
+   "Jug_Entra": "AGUSTIN APARICIO CABILLON",
+   "camiseta": "34",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "60443",
+   "Jug_Sale": "SANTINO ABBATE",
+   "CarneEntra": "68782",
+   "Jug_Entra": "NICOLAS CAMPIONE",
+   "camiseta": "3",
+   "minutos": "77"
+  }
+ ],
+ "cambiosV": [],
+ "golesL": [],
+ "golesV": [
+  {
+   "carne": "64497",
+   "Nombre": "JUAN IGNACIO ZABALA",
+   "minutos": "83",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

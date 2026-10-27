@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB16 CONFRATERNIDAD",
   "Cancha": "COMPLEJO DEPORTIVO ARRAYANES",
-  "Fecha_Inicio": "2026-10-25 15:00:00",
-  "Fecha_fin": "2026-10-25 15:00:00",
+  "Fecha_Inicio": "2026-10-25 14:55:00",
+  "Fecha_fin": "2026-10-25 14:55:00",
   "Locatario": "COLEGIO SANTA ELENA",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,224 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
+ "titularesL": [
+  {
+   "carne": "62758",
+   "Nombre": "MANUEL LORENZO FAZZIO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "65585",
+   "Nombre": "JOAQUIN MOREIRA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "65400",
+   "Nombre": "JUAN EMILIO BORGEAUD",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "65398",
+   "Nombre": "BRUNO ANTONIO GIACOMINI",
+   "camiseta": "16",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "68396",
+   "Nombre": "JUAQUIN JACINTO PORCAL",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "68395",
+   "Nombre": "BORJA QUIROGA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "65389",
+   "Nombre": "LORENZO PERROTTA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "68687",
+   "Nombre": "BERNARDO CALVIÑO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "65893",
+   "Nombre": "FACUNDO QUARTINO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "65403",
+   "Nombre": "MATEO VALENTIN LOPEZ",
+   "camiseta": "18",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "68888",
+   "Nombre": "TOMAS ERRANDONEA",
+   "camiseta": "85",
+   "Capitan": ""
+  },
+  {
+   "carne": "65282",
+   "Nombre": "AGUSTIN GRECO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "65287",
+   "Nombre": "JOAQUIN NICOLAS ANDRIOLI",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "67767",
+   "Nombre": "LEON FELIPE DAL MONTE",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "68548",
+   "Nombre": "ALEJANDRO DAVID ACEVEDO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "67742",
+   "Nombre": "JUAN MANUEL ASHFIELD",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "67745",
+   "Nombre": "LUCIANO NICOLAS BOGAO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "68799",
+   "Nombre": "AXEL MATHIAS ESCARCENA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "68049",
+   "Nombre": "FRANCO LESCANO",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "67752",
+   "Nombre": "FRANCISCO JOSE ZAS LIZARRAGA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "67757",
+   "Nombre": "ANYEL JULIAN SAHAKIAN",
+   "camiseta": "90",
+   "Capitan": "(C)"
+  }
+ ],
  "cambiosL": [],
- "cambiosV": [],
+ "cambiosV": [
+  {
+   "CarneSale": "67742",
+   "Jug_Sale": "JUAN MANUEL ASHFIELD",
+   "CarneEntra": "67747",
+   "Jug_Entra": "ENZO GERMAN ALDERETTE",
+   "camiseta": "48",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68548",
+   "Jug_Sale": "ALEJANDRO DAVID ACEVEDO",
+   "CarneEntra": "68547",
+   "Jug_Entra": "TIHAGO SEBASTIAN PACHECO",
+   "camiseta": "8",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67745",
+   "Jug_Sale": "LUCIANO NICOLAS BOGAO",
+   "CarneEntra": "67760",
+   "Jug_Entra": "MATEO JAIR BALSAMO",
+   "camiseta": "16",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68799",
+   "Jug_Sale": "AXEL MATHIAS ESCARCENA",
+   "CarneEntra": "68679",
+   "Jug_Entra": "JUAN DIEGO BRUM",
+   "camiseta": "20",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67757",
+   "Jug_Sale": "ANYEL JULIAN SAHAKIAN",
+   "CarneEntra": "67754",
+   "Jug_Entra": "IGNACIO BASQUADE DIAZ",
+   "camiseta": "7",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67752",
+   "Jug_Sale": "FRANCISCO JOSE ZAS LIZARRAGA",
+   "CarneEntra": "63350",
+   "Jug_Entra": "FAUSTINO GUILLERMO MOREDO",
+   "camiseta": "61",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "65282",
+   "Jug_Sale": "AGUSTIN GRECO",
+   "CarneEntra": "65294",
+   "Jug_Entra": "MARIANO ARAMIS SARINA",
+   "camiseta": "5",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67767",
+   "Jug_Sale": "LEON FELIPE DAL MONTE",
+   "CarneEntra": "68548",
+   "Jug_Entra": "ALEJANDRO DAVID ACEVEDO",
+   "camiseta": "9",
+   "minutos": "58"
+  }
+ ],
  "golesL": [],
- "golesV": [],
+ "golesV": [
+  {
+   "carne": "67752",
+   "Nombre": "FRANCISCO JOSE ZAS LIZARRAGA",
+   "minutos": "26",
+   "EnContra": "1"
+  },
+  {
+   "carne": "67752",
+   "Nombre": "FRANCISCO JOSE ZAS LIZARRAGA",
+   "minutos": "32",
+   "EnContra": "1"
+  },
+  {
+   "carne": "68679",
+   "Nombre": "JUAN DIEGO BRUM",
+   "minutos": "46",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"E\" TIT. y ASC.",
   "Cancha": "ESCUELA NAVAL",
-  "Fecha_Inicio": "2026-10-25 10:30:00",
-  "Fecha_fin": "2026-10-25 10:30:00",
+  "Fecha_Inicio": "2026-10-25 11:00:00",
+  "Fecha_fin": "2026-10-25 11:00:00",
   "Locatario": "DEPORTIVO MITRE",
   "goles_locatario": "3",
   "puntos_locatario": "3",
@@ -29,12 +29,230 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "47389",
+   "Nombre": "SEBASTIAN SILVA",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "45966",
+   "Nombre": "SANTIAGO BENTACOR",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "57270",
+   "Nombre": "MATEO BERTOLIO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "37963",
+   "Nombre": "GUZMAN STEGLICH",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "55740",
+   "Nombre": "FACUNDO NAHUEL GONZALEZ",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "62622",
+   "Nombre": "STEFANO ESPINOSA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "44077",
+   "Nombre": "AGUSTIN ANDRES OTERO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "65976",
+   "Nombre": "JOAN LUCAS ROSA",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "53946",
+   "Nombre": "JUAN IGNACIO GODINO",
+   "camiseta": "6",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "25248",
+   "Nombre": "MATIAS BARREIRO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "68727",
+   "Nombre": "THEO DA SILVA",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "37483",
+   "Nombre": "SEBASTIAN GARCIA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "29802",
+   "Nombre": "PABLO ANDRES VOITURET",
+   "camiseta": "28",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "31759",
+   "Nombre": "GUILLERMO LA ROSA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "37522",
+   "Nombre": "GASTON ZAUGG",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "32352",
+   "Nombre": "DIEGO IGNACIO RODRIGUEZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "53068",
+   "Nombre": "ANGEL AGUSTIN FRIONI",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "37323",
+   "Nombre": "BRUNO TONCOPI",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "37520",
+   "Nombre": "EMILIANO SELVA",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "59785",
+   "Nombre": "ALVARO MARTIN FIGUEREDO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "50016",
+   "Nombre": "MARCELO RODRIGUEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "63171",
+   "Nombre": "RODRIGO ODRIOZOLA",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "45966",
+   "Jug_Sale": "SANTIAGO BENTACOR",
+   "CarneEntra": "66857",
+   "Jug_Entra": "JUAN ANDRES CRUJEIRA",
+   "camiseta": "11",
+   "minutos": "49"
+  },
+  {
+   "CarneSale": "25248",
+   "Jug_Sale": "MATIAS BARREIRO",
+   "CarneEntra": "57732",
+   "Jug_Entra": "SANTIAGO NICOLAS ESTEVEZ",
+   "camiseta": "21",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "68727",
+   "Jug_Sale": "THEO DA SILVA",
+   "CarneEntra": "66400",
+   "Jug_Entra": "ESTEBAN ESPINOSA",
+   "camiseta": "13",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "55740",
+   "Jug_Sale": "FACUNDO NAHUEL GONZALEZ",
+   "CarneEntra": "69158",
+   "Jug_Entra": "OSCAR ALEJANDRO CARDOSO",
+   "camiseta": "3",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "62622",
+   "Jug_Sale": "STEFANO ESPINOSA",
+   "CarneEntra": "32418",
+   "Jug_Entra": "JOSE IGNACIO OLASCOAGA",
+   "camiseta": "14",
+   "minutos": "90"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "63171",
+   "Jug_Sale": "RODRIGO ODRIOZOLA",
+   "CarneEntra": "30147",
+   "Jug_Entra": "SANTIAGO SORAVILLA",
+   "camiseta": "25",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "37323",
+   "Jug_Sale": "BRUNO TONCOPI",
+   "CarneEntra": "63171",
+   "Jug_Entra": "RODRIGO ODRIOZOLA",
+   "camiseta": "9",
+   "minutos": "86"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "57732",
+   "Nombre": "SANTIAGO NICOLAS ESTEVEZ",
+   "minutos": "85",
+   "EnContra": "0"
+  },
+  {
+   "carne": "62622",
+   "Nombre": "STEFANO ESPINOSA",
+   "minutos": "53",
+   "EnContra": "0"
+  },
+  {
+   "carne": "68727",
+   "Nombre": "THEO DA SILVA",
+   "minutos": "34",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "30147",
+   "Nombre": "SANTIAGO SORAVILLA",
+   "minutos": "77",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

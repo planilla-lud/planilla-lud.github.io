@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB16 ORO",
   "Cancha": "COMPLEJO DEP. y SAL, EL RINCON",
-  "Fecha_Inicio": "2026-10-25 15:00:00",
-  "Fecha_fin": "2026-10-25 15:00:00",
+  "Fecha_Inicio": "2026-10-25 15:15:00",
+  "Fecha_fin": "2026-10-25 15:15:00",
   "Locatario": "UNIVERSITARIO VERONES",
   "goles_locatario": "2",
   "puntos_locatario": "3",
@@ -29,12 +29,248 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "66830",
+   "Nombre": "SANTINO MARTINEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "68103",
+   "Nombre": "VALENTINO GUSTAVO ROSA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "62519",
+   "Nombre": "TIAGO ZUVELA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "64345",
+   "Nombre": "ELIAS DAVID MARTINEZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "67436",
+   "Nombre": "FACUNDO NICOLAS ROLIN",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "62532",
+   "Nombre": "AUGUSTO RODRIGUEZ",
+   "camiseta": "4",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "62548",
+   "Nombre": "FACUNDO NICOLAS CASTAÑARES",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "65837",
+   "Nombre": "MATIAS ALBE",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "62828",
+   "Nombre": "FELIPE DUARTE",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "62520",
+   "Nombre": "RODRIGO LIGÜERA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "64022",
+   "Nombre": "BENJAMIN MENDEZ",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "60014",
+   "Nombre": "JERONIMO ORRICO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "63168",
+   "Nombre": "TOMAS REY",
+   "camiseta": "22",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "61596",
+   "Nombre": "AGUSTIN BOZZOLO",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "67761",
+   "Nombre": "BRUNO TELLERIA",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "65622",
+   "Nombre": "MATEO CAPRARIO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "65623",
+   "Nombre": "BENJAMIN TROSTCHANSKY",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "61805",
+   "Nombre": "FEDERICO REYES",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "61806",
+   "Nombre": "FELIPE MACHADO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "65673",
+   "Nombre": "SANTIAGO CURBELO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "69027",
+   "Nombre": "MATEO VIEIRA DA CUNHA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "68904",
+   "Nombre": "JUAN VICENTE NOGUES",
+   "camiseta": "88",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "66830",
+   "Jug_Sale": "SANTINO MARTINEZ",
+   "CarneEntra": "62523",
+   "Jug_Entra": "GUILLERMO WARREN",
+   "camiseta": "9",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64345",
+   "Jug_Sale": "ELIAS DAVID MARTINEZ",
+   "CarneEntra": "68191",
+   "Jug_Entra": "VALENTINO BRIOSI",
+   "camiseta": "23",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67436",
+   "Jug_Sale": "FACUNDO NICOLAS ROLIN",
+   "CarneEntra": "62829",
+   "Jug_Entra": "MARTIN BRUNO LACUESTA",
+   "camiseta": "21",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "62548",
+   "Jug_Sale": "FACUNDO NICOLAS CASTAÑARES",
+   "CarneEntra": "68101",
+   "Jug_Entra": "KEVIN SANTIAGO MONTES",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64022",
+   "Jug_Sale": "BENJAMIN MENDEZ",
+   "CarneEntra": "62832",
+   "Jug_Entra": "FRANCO DANIEL PAZ",
+   "camiseta": "17",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68103",
+   "Jug_Sale": "VALENTINO GUSTAVO ROSA",
+   "CarneEntra": "67439",
+   "Jug_Entra": "SANTIAGO NICOLAS HERRERA",
+   "camiseta": "16",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "62828",
+   "Jug_Sale": "FELIPE DUARTE",
+   "CarneEntra": "62548",
+   "Jug_Entra": "FACUNDO NICOLAS CASTAÑARES",
+   "camiseta": "8",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "62520",
+   "Jug_Sale": "RODRIGO LIGÜERA",
+   "CarneEntra": "67436",
+   "Jug_Entra": "FACUNDO NICOLAS ROLIN",
+   "camiseta": "11",
+   "minutos": "75"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "65673",
+   "Jug_Sale": "SANTIAGO CURBELO",
+   "CarneEntra": "59200",
+   "Jug_Entra": "MATEO BIDEGAIN",
+   "camiseta": "75",
+   "minutos": "48"
+  },
+  {
+   "CarneSale": "65622",
+   "Jug_Sale": "MATEO CAPRARIO",
+   "CarneEntra": "61808",
+   "Jug_Entra": "LORENZO PAKCIARZ",
+   "camiseta": "13",
+   "minutos": "72"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "62520",
+   "Nombre": "RODRIGO LIGÜERA",
+   "minutos": "13",
+   "EnContra": "0"
+  },
+  {
+   "carne": "62548",
+   "Nombre": "FACUNDO NICOLAS CASTAÑARES",
+   "minutos": "23",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "67761",
+   "Nombre": "BRUNO TELLERIA",
+   "minutos": "72",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

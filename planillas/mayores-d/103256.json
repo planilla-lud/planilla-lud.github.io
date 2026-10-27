@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"D\" PERM. y DESC.",
   "Cancha": "COMPLEJO LOS ROJOS",
-  "Fecha_Inicio": "2026-10-25 10:30:00",
-  "Fecha_fin": "2026-10-25 10:30:00",
+  "Fecha_Inicio": "2026-10-25 11:00:00",
+  "Fecha_fin": "2026-10-25 11:00:00",
   "Locatario": "LATINO FUTBOL CLUB",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,211 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "56822",
+   "Nombre": "JUAN IGNACIO TELLECHEA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "62706",
+   "Nombre": "FACUNDO RAMA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "43741",
+   "Nombre": "SANTIAGO ALVES",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "48878",
+   "Nombre": "JUAN JOSE CERVIERI",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "44470",
+   "Nombre": "AGUSTIN GABRIEL SILVA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "40130",
+   "Nombre": "SANTIAGO VISCAY",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "55316",
+   "Nombre": "LUCIANO VICINO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "62075",
+   "Nombre": "SANTIAGO SOSA",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "37816",
+   "Nombre": "EMILIANO PABLO BONINI",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "46187",
+   "Nombre": "MARTIN NICOLAS BALIERO",
+   "camiseta": "38",
+   "Capitan": ""
+  },
+  {
+   "carne": "53922",
+   "Nombre": "IGNACIO FERNANDEZ",
+   "camiseta": "60",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "50667",
+   "Nombre": "IGNACIO GONZALEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "52165",
+   "Nombre": "ALFONSO GARCIA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "55533",
+   "Nombre": "EZEQUIEL HERNAN PRADO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "61932",
+   "Nombre": "BERNARDO COLLINS",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "53202",
+   "Nombre": "NICOLAS WAGNER",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "46783",
+   "Nombre": "NICOLAS CANOURA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "46785",
+   "Nombre": "SANTIAGO MARTIN CHAPPUIS",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "48308",
+   "Nombre": "GASTON MAZZO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "55536",
+   "Nombre": "FACUNDO GABRIEL PRADO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "49080",
+   "Nombre": "IGNACIO MOUGAN",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "43056",
+   "Nombre": "MATHIAS RODRIGUEZ",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "43741",
+   "Jug_Sale": "SANTIAGO ALVES",
+   "CarneEntra": "44615",
+   "Jug_Entra": "JOAQUIN FARIÑA",
+   "camiseta": "46",
+   "minutos": "30"
+  },
+  {
+   "CarneSale": "62075",
+   "Jug_Sale": "SANTIAGO SOSA",
+   "CarneEntra": "57069",
+   "Jug_Entra": "FRANCO TERPOLILLI",
+   "camiseta": "19",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "53922",
+   "Jug_Sale": "IGNACIO FERNANDEZ",
+   "CarneEntra": "43423",
+   "Jug_Entra": "BRAULIO CAPAGORRY",
+   "camiseta": "30",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "46187",
+   "Jug_Sale": "MARTIN NICOLAS BALIERO",
+   "CarneEntra": "41594",
+   "Jug_Entra": "GUILLERMO CHALES",
+   "camiseta": "11",
+   "minutos": "78"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "49080",
+   "Jug_Sale": "IGNACIO MOUGAN",
+   "CarneEntra": "66456",
+   "Jug_Entra": "GERARDO SEBASTIAN GULARTE",
+   "camiseta": "17",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "61932",
+   "Jug_Sale": "BERNARDO COLLINS",
+   "CarneEntra": "48547",
+   "Jug_Entra": "FACUNDO SADOVY",
+   "camiseta": "21",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "43056",
+   "Jug_Sale": "MATHIAS RODRIGUEZ",
+   "CarneEntra": "42739",
+   "Jug_Entra": "GONZALO GABRIEL BIANCHI",
+   "camiseta": "20",
+   "minutos": "78"
+  }
+ ],
  "golesL": [],
- "golesV": [],
+ "golesV": [
+  {
+   "carne": "48308",
+   "Nombre": "GASTON MAZZO",
+   "minutos": "72",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB16 BRONCE",
   "Cancha": "COM. CLUB UNIVERSIDAD CATOLICA",
-  "Fecha_Inicio": "2026-10-25 15:00:00",
-  "Fecha_fin": "2026-10-25 15:00:00",
+  "Fecha_Inicio": "2026-10-25 15:10:00",
+  "Fecha_fin": "2026-10-25 15:10:00",
   "Locatario": "POCO SITIO PLAYA VERDE",
   "goles_locatario": "4",
   "puntos_locatario": "3",
@@ -29,12 +29,247 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "titularesL": [
+  {
+   "carne": "68723",
+   "Nombre": "MATIAS ARMAND UGON",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "67115",
+   "Nombre": "NICOLAS STORACE",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "68618",
+   "Nombre": "JOAQUIN ALMARAZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "67971",
+   "Nombre": "AGUSTIN LUCAS GALICIA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "67973",
+   "Nombre": "LUCAS CASTRO",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "67109",
+   "Nombre": "NICOLAS PAIS",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "67123",
+   "Nombre": "FELIPE SALVIA",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "67111",
+   "Nombre": "FAUSTINO NOCETI",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "67972",
+   "Nombre": "BENJAMIN BERMUDEZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "67120",
+   "Nombre": "FAUSTINO BACHINI",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "68582",
+   "Nombre": "BENJAMIN DEMATTE",
+   "camiseta": "18",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "64328",
+   "Nombre": "LORENZO BRUNO PEZZANI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "63461",
+   "Nombre": "GUILLERMO SPILLER",
+   "camiseta": "9",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "60486",
+   "Nombre": "JUAN PEDRO ALVEZ",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "63038",
+   "Nombre": "FELIPE LIGÜERA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "66947",
+   "Nombre": "TOMAS VILENSKY",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "67406",
+   "Nombre": "BAUTISTA APRAHAMIAN",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "66952",
+   "Nombre": "JOAKIM GELOS",
+   "camiseta": "94",
+   "Capitan": ""
+  },
+  {
+   "carne": "64892",
+   "Nombre": "VICENTE DE ROSA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "65916",
+   "Nombre": "EMILIANO PUJADAS",
+   "camiseta": "66",
+   "Capitan": ""
+  },
+  {
+   "carne": "66951",
+   "Nombre": "MANUEL VILENSKY",
+   "camiseta": "81",
+   "Capitan": ""
+  },
+  {
+   "carne": "65257",
+   "Nombre": "FACUNDO QUEIROLO",
+   "camiseta": "23",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "67120",
+   "Jug_Sale": "FAUSTINO BACHINI",
+   "CarneEntra": "67117",
+   "Jug_Entra": "FELIPE CONDON",
+   "camiseta": "7",
+   "minutos": "46"
+  },
+  {
+   "CarneSale": "68618",
+   "Jug_Sale": "JOAQUIN ALMARAZ",
+   "CarneEntra": "67116",
+   "Jug_Entra": "LAUTARO XAVIER GARCIA",
+   "camiseta": "77",
+   "minutos": "74"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "66947",
+   "Jug_Sale": "TOMAS VILENSKY",
+   "CarneEntra": "66950",
+   "Jug_Entra": "FRANCISCO CHIAPPORI",
+   "camiseta": "18",
+   "minutos": "8"
+  },
+  {
+   "CarneSale": "66952",
+   "Jug_Sale": "JOAKIM GELOS",
+   "CarneEntra": "67404",
+   "Jug_Entra": "FACUNDO GONZALEZ",
+   "camiseta": "3",
+   "minutos": "20"
+  },
+  {
+   "CarneSale": "66951",
+   "Jug_Sale": "MANUEL VILENSKY",
+   "CarneEntra": "65916",
+   "Jug_Entra": "EMILIANO PUJADAS",
+   "camiseta": "66",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "64892",
+   "Jug_Sale": "VICENTE DE ROSA",
+   "CarneEntra": "66951",
+   "Jug_Entra": "MANUEL VILENSKY",
+   "camiseta": "81",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "65916",
+   "Jug_Sale": "EMILIANO PUJADAS",
+   "CarneEntra": "66948",
+   "Jug_Entra": "FACUNDO RADESCA",
+   "camiseta": "27",
+   "minutos": "90"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "67111",
+   "Nombre": "FAUSTINO NOCETI",
+   "minutos": "10",
+   "EnContra": "0"
+  },
+  {
+   "carne": "67971",
+   "Nombre": "AGUSTIN LUCAS GALICIA",
+   "minutos": "18",
+   "EnContra": "0"
+  },
+  {
+   "carne": "67971",
+   "Nombre": "AGUSTIN LUCAS GALICIA",
+   "minutos": "25",
+   "EnContra": "0"
+  },
+  {
+   "carne": "67973",
+   "Nombre": "LUCAS CASTRO",
+   "minutos": "6",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "63461",
+   "Nombre": "GUILLERMO SPILLER",
+   "minutos": "37",
+   "EnContra": "1"
+  },
+  {
+   "carne": "63461",
+   "Nombre": "GUILLERMO SPILLER",
+   "minutos": "43",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "FAUSTINO NOCETI",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

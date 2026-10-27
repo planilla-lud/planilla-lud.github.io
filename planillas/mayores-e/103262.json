@@ -4,7 +4,7 @@
  "serie": "ETA",
  "fecha": 5,
  "fechaHora": "2026-10-25 09:00:00",
- "cancha": "COMPLEJO 1GOL",
+ "cancha": "()",
  "local": "CERVANTES UNIVERSITARIO",
  "visitante": "BODY FACTORY",
  "gl": 1,
@@ -17,9 +17,9 @@
   "categoria": "MAYORES MASCULINO",
   "rueda": "2",
   "Divisional": "MAYORES \"E\" TIT. y ASC.",
-  "Cancha": "COMPLEJO 1GOL",
-  "Fecha_Inicio": "2026-10-25 10:30:00",
-  "Fecha_fin": "2026-10-25 10:30:00",
+  "Cancha": "()",
+  "Fecha_Inicio": "2026-10-25 10:50:00",
+  "Fecha_fin": "2026-10-25 10:50:00",
   "Locatario": "CERVANTES UNIVERSITARIO",
   "goles_locatario": "1",
   "puntos_locatario": "0",
@@ -29,12 +29,271 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "titularesL": [
+  {
+   "carne": "64465",
+   "Nombre": "FABRICIO RODRIGUEZ",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "63167",
+   "Nombre": "LUCAS BORGES",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "51670",
+   "Nombre": "RODRIGO BERGARA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "40955",
+   "Nombre": "FABRIZIO NICOLAS ARMARIO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "45764",
+   "Nombre": "MATIAS BUGARIN",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "62326",
+   "Nombre": "MANUEL LOPEZ",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "51413",
+   "Nombre": "RODRIGO MARTINEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "31726",
+   "Nombre": "DIEGO MARTIN RODRIGUEZ",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "50459",
+   "Nombre": "DAMIAN CAO",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "38019",
+   "Nombre": "IGNACIO GUZMAN FERNANDEZ",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "44754",
+   "Nombre": "PATRICIO LOPEZ",
+   "camiseta": "22",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "61129",
+   "Nombre": "LUIS MIGUEL MORA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "35440",
+   "Nombre": "DIEGO MARTIN BEGUE",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "52122",
+   "Nombre": "FRANCO GABRIEL PEREZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "44961",
+   "Nombre": "WALTER RENZO SERVETTI",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "43506",
+   "Nombre": "IGNACIO PAIS",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "47286",
+   "Nombre": "CLAUDIO MAXIMILIANO RODRIGUEZ",
+   "camiseta": "18",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "66188",
+   "Nombre": "JUAN DIEGO NOZAR",
+   "camiseta": "39",
+   "Capitan": ""
+  },
+  {
+   "carne": "43511",
+   "Nombre": "FABIAN AUGUSTO SUAREZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "44017",
+   "Nombre": "EDUARDO LUIS SUAREZ",
+   "camiseta": "48",
+   "Capitan": ""
+  },
+  {
+   "carne": "42480",
+   "Nombre": "FACUNDO ABAD",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "41743",
+   "Nombre": "LUCAS EXEQUIEL DIANESSI",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "63167",
+   "Jug_Sale": "LUCAS BORGES",
+   "CarneEntra": "51155",
+   "Jug_Entra": "SANTIAGO FURMAN",
+   "camiseta": "6",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "62326",
+   "Jug_Sale": "MANUEL LOPEZ",
+   "CarneEntra": "59247",
+   "Jug_Entra": "EDEL FERIE",
+   "camiseta": "9",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "64465",
+   "Jug_Sale": "FABRICIO RODRIGUEZ",
+   "CarneEntra": "63167",
+   "Jug_Entra": "LUCAS BORGES",
+   "camiseta": "13",
+   "minutos": "74"
+  },
+  {
+   "CarneSale": "31726",
+   "Jug_Sale": "DIEGO MARTIN RODRIGUEZ",
+   "CarneEntra": "61839",
+   "Jug_Entra": "IGNACIO SEBASTIAN OVANDO",
+   "camiseta": "20",
+   "minutos": "75"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "52122",
+   "Jug_Sale": "FRANCO GABRIEL PEREZ",
+   "CarneEntra": "39998",
+   "Jug_Entra": "BRANDON MAVERINO",
+   "camiseta": "32",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "43511",
+   "Jug_Sale": "FABIAN AUGUSTO SUAREZ",
+   "CarneEntra": "52329",
+   "Jug_Entra": "DIEGO ENRIQUE EMENS",
+   "camiseta": "17",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "35440",
+   "Jug_Sale": "DIEGO MARTIN BEGUE",
+   "CarneEntra": "64072",
+   "Jug_Entra": "CHARLES GASTON BORBAS",
+   "camiseta": "20",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "44961",
+   "Jug_Sale": "WALTER RENZO SERVETTI",
+   "CarneEntra": "60127",
+   "Jug_Entra": "NAHUEL VIERA",
+   "camiseta": "91",
+   "minutos": "59"
+  },
+  {
+   "CarneSale": "41743",
+   "Jug_Sale": "LUCAS EXEQUIEL DIANESSI",
+   "CarneEntra": "67303",
+   "Jug_Entra": "DANIEL ANDRES NOVO",
+   "camiseta": "12",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "47286",
+   "Jug_Sale": "CLAUDIO MAXIMILIANO RODRIGUEZ",
+   "CarneEntra": "69153",
+   "Jug_Entra": "DENIS NAHUEL MARTIRENA",
+   "camiseta": "47",
+   "minutos": "81"
+  },
+  {
+   "CarneSale": "42480",
+   "Jug_Sale": "FACUNDO ABAD",
+   "CarneEntra": "35440",
+   "Jug_Entra": "DIEGO MARTIN BEGUE",
+   "camiseta": "5",
+   "minutos": "81"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "50459",
+   "Nombre": "DAMIAN CAO",
+   "minutos": "43",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "39998",
+   "Nombre": "BRANDON MAVERINO",
+   "minutos": "55",
+   "EnContra": "1"
+  },
+  {
+   "carne": "42480",
+   "Nombre": "FACUNDO ABAD",
+   "minutos": "65",
+   "EnContra": "1"
+  },
+  {
+   "carne": "64072",
+   "Nombre": "CHARLES GASTON BORBAS",
+   "minutos": "80",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "MATIAS BUGARIN",
+   "observaciones": ""
+  },
+  {
+   "Nombre": "RODRIGO MARTINEZ",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

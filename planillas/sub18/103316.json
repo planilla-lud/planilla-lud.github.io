@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB18 ORO",
   "Cancha": "PARQUE CUPRA - CLUB SEMINARIO",
-  "Fecha_Inicio": "2026-10-25 17:00:00",
-  "Fecha_fin": "2026-10-25 17:00:00",
+  "Fecha_Inicio": "2026-10-25 17:30:00",
+  "Fecha_fin": "2026-10-25 17:30:00",
   "Locatario": "CLUB SEMINARIO",
   "goles_locatario": "1",
   "puntos_locatario": "3",
@@ -29,11 +29,202 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "58598",
+   "Nombre": "NICOLAS MAZZILLI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "59082",
+   "Nombre": "MARTIN JOSE DIAZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "63871",
+   "Nombre": "JUAN ANDRES DELGADO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "57297",
+   "Nombre": "FACUNDO SAPELLO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "62137",
+   "Nombre": "FRANCISCO BARROS",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "62030",
+   "Nombre": "FRANCO TORTEROLO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "62948",
+   "Nombre": "JOAQUIN CAPPUCCIO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "60868",
+   "Nombre": "IGNACIO ANDRES LEGARRA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "59080",
+   "Nombre": "MATIAS GOSSWEILER",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "62166",
+   "Nombre": "FELIPE AMARO LACASSY",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "58599",
+   "Nombre": "FACUNDO MOSCA",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "61315",
+   "Nombre": "IGNACIO CAETANO MACCHI",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "67545",
+   "Nombre": "JOAQUIN TEO FUSTES",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "62908",
+   "Nombre": "MATHEUS JOSE DE MORAES",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "59055",
+   "Nombre": "JUAN PABLO MIGUEZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "66011",
+   "Nombre": "FRANCO MARTIN REY",
+   "camiseta": "90",
+   "Capitan": ""
+  },
+  {
+   "carne": "60829",
+   "Nombre": "SANTIAGO MORALES",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "59049",
+   "Nombre": "SANTIAGO CABRERA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "60754",
+   "Nombre": "FELIPE DIAZ",
+   "camiseta": "80",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "66431",
+   "Nombre": "IGNACIO CAILLABET",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "68593",
+   "Nombre": "FACUNDO DANIEL ESNAL",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "62933",
+   "Nombre": "JUAN DIEGO ACOSTA",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "62166",
+   "Jug_Sale": "FELIPE AMARO LACASSY",
+   "CarneEntra": "63872",
+   "Jug_Entra": "MANUEL DE LA PEÑA",
+   "camiseta": "19",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "62948",
+   "Jug_Sale": "JOAQUIN CAPPUCCIO",
+   "CarneEntra": "69183",
+   "Jug_Entra": "ANDRES ESIS",
+   "camiseta": "22",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "58599",
+   "Jug_Sale": "FACUNDO MOSCA",
+   "CarneEntra": "62948",
+   "Jug_Entra": "JOAQUIN CAPPUCCIO",
+   "camiseta": "6",
+   "minutos": "81"
+  },
+  {
+   "CarneSale": "60868",
+   "Jug_Sale": "IGNACIO ANDRES LEGARRA",
+   "CarneEntra": "65318",
+   "Jug_Entra": "JUAN PEDRO DAMONTE",
+   "camiseta": "15",
+   "minutos": "89"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "62933",
+   "Jug_Sale": "JUAN DIEGO ACOSTA",
+   "CarneEntra": "58923",
+   "Jug_Entra": "MATEO CORREA",
+   "camiseta": "16",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "60829",
+   "Jug_Sale": "SANTIAGO MORALES",
+   "CarneEntra": "62933",
+   "Jug_Entra": "JUAN DIEGO ACOSTA",
+   "camiseta": "9",
+   "minutos": "82"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "58599",
+   "Nombre": "FACUNDO MOSCA",
+   "minutos": "77",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

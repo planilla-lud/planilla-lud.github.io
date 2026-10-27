@@ -1,0 +1,266 @@
+{
+ "id": "103393",
+ "categoria": "sub18",
+ "serie": "18B",
+ "fecha": 2,
+ "fechaHora": "2026-10-25 15:30:00",
+ "cancha": "COMPLEJO JUAN XXIII",
+ "local": "CIRCULO DE TENIS MONTEVIDEO",
+ "visitante": "JUAN XXIII",
+ "gl": 2,
+ "gv": 0,
+ "detalle": {
+  "nro_partido": "409",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 18 ",
+  "categoria": "SUB 18 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB18 BRONCE",
+  "Cancha": "COMPLEJO JUAN XXIII",
+  "Fecha_Inicio": "2026-10-25 17:20:00",
+  "Fecha_fin": "2026-10-25 17:20:00",
+  "Locatario": "CIRCULO DE TENIS MONTEVIDEO",
+  "goles_locatario": "2",
+  "puntos_locatario": "3",
+  "Visitante": "JUAN XXIII",
+  "goles_visitante": "0",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "60419",
+   "Nombre": "JOAQUIN EMANUEL CASALAS",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "57623",
+   "Nombre": "FABRICIO MACHADO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "68099",
+   "Nombre": "ALAN JEAN ROSANO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "65181",
+   "Nombre": "VALENTIN MAÑANA",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "57630",
+   "Nombre": "FRANCISCO PONCE",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "63013",
+   "Nombre": "VALENTIN CARBALLO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "68498",
+   "Nombre": "MATIAS MENDOZA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "60424",
+   "Nombre": "AGUSTIN NICOLAS CASALAS",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "63077",
+   "Nombre": "MATIAS SALABERRI",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "66095",
+   "Nombre": "MATIAS VILLAR",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "59362",
+   "Nombre": "ALEJO SILVEIRA",
+   "camiseta": "11",
+   "Capitan": "(C)"
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "62147",
+   "Nombre": "LEANDRO MINTEGUI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "63012",
+   "Nombre": "DAMIAN ALEJANDRO VELCOFF",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "68764",
+   "Nombre": "BRUNO GONZALO BAZZANO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "57814",
+   "Nombre": "FACUNDO LYNCH GONZALEZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "61098",
+   "Nombre": "JUAN BAUTISTA DANS",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "61796",
+   "Nombre": "JUAN IGNACIO PIÑERA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "59604",
+   "Nombre": "MAXIMO WERNER QUINCKE",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "65552",
+   "Nombre": "JUAN MARTIN ASENCIO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "64875",
+   "Nombre": "JOAQUIN VAZQUEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "59079",
+   "Nombre": "DIEGO MARTINO",
+   "camiseta": "9",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "65119",
+   "Nombre": "VALENTIN BALZA",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "63013",
+   "Jug_Sale": "VALENTIN CARBALLO",
+   "CarneEntra": "68824",
+   "Jug_Entra": "GUILLERMO IBARRA",
+   "camiseta": "36",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "57630",
+   "Jug_Sale": "FRANCISCO PONCE",
+   "CarneEntra": "59507",
+   "Jug_Entra": "JUAN MANUEL CURBELO",
+   "camiseta": "52",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "59362",
+   "Jug_Sale": "ALEJO SILVEIRA",
+   "CarneEntra": "60343",
+   "Jug_Entra": "FRANCISCO GORGA",
+   "camiseta": "21",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "60424",
+   "Jug_Sale": "AGUSTIN NICOLAS CASALAS",
+   "CarneEntra": "61379",
+   "Jug_Entra": "SEBASTIAN DEL CAMPO",
+   "camiseta": "69",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "66095",
+   "Jug_Sale": "MATIAS VILLAR",
+   "CarneEntra": "65992",
+   "Jug_Entra": "MATEO RODRIGUEZ",
+   "camiseta": "16",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "63077",
+   "Jug_Sale": "MATIAS SALABERRI",
+   "CarneEntra": "65185",
+   "Jug_Entra": "AGUSTIN MASTROIANNI",
+   "camiseta": "66",
+   "minutos": "85"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "65552",
+   "Jug_Sale": "JUAN MARTIN ASENCIO",
+   "CarneEntra": "66146",
+   "Jug_Entra": "GASTON ERRANDONEA",
+   "camiseta": "16",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "68764",
+   "Jug_Sale": "BRUNO GONZALO BAZZANO",
+   "CarneEntra": "68228",
+   "Jug_Entra": "AURELIO MUÑIZ",
+   "camiseta": "18",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "59604",
+   "Jug_Sale": "MAXIMO WERNER QUINCKE",
+   "CarneEntra": "68867",
+   "Jug_Entra": "CAMILO ALFREDO BACCI",
+   "camiseta": "17",
+   "minutos": "45"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "59362",
+   "Nombre": "ALEJO SILVEIRA",
+   "minutos": "54",
+   "EnContra": "0"
+  },
+  {
+   "carne": "66095",
+   "Nombre": "MATIAS VILLAR",
+   "minutos": "18",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [],
+ "expulsadosL": [],
+ "expulsadosV": [
+  {
+   "Nombre": "DAMIAN ALEJANDRO VELCOFF",
+   "observaciones": ""
+  }
+ ]
+}

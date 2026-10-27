@@ -4,7 +4,7 @@
  "serie": "CPD",
  "fecha": 5,
  "fechaHora": "2026-10-25 09:00:00",
- "cancha": "COMPLEJO DEVOTO",
+ "cancha": "()",
  "local": "WANDERERS",
  "visitante": "CLUB SOCIAL PIEDRAS BLANCAS",
  "gl": 1,
@@ -17,9 +17,9 @@
   "categoria": "MAYORES MASCULINO",
   "rueda": "2",
   "Divisional": "MAYORES \"C\" PERM. y DESC.",
-  "Cancha": "COMPLEJO DEVOTO",
-  "Fecha_Inicio": "2026-10-25 10:30:00",
-  "Fecha_fin": "2026-10-25 10:30:00",
+  "Cancha": "()",
+  "Fecha_Inicio": "2026-10-25 11:00:00",
+  "Fecha_fin": "2026-10-25 11:00:00",
   "Locatario": "WANDERERS",
   "goles_locatario": "1",
   "puntos_locatario": "1",
@@ -29,12 +29,218 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "57434",
+   "Nombre": "GONZALO ANDRES SANGUINETTI",
+   "camiseta": "82",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "66607",
+   "Nombre": "ALEXIS COLO",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "45274",
+   "Nombre": "ALEJANDRO GABRIEL MORALES",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "68863",
+   "Nombre": "VALENTIN RIVERO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "55367",
+   "Nombre": "LEOPOLDO RIVA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "46318",
+   "Nombre": "FACUNDO DEBENEDETTI",
+   "camiseta": "92",
+   "Capitan": ""
+  },
+  {
+   "carne": "43616",
+   "Nombre": "SANTIAGO VEGLIO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "56585",
+   "Nombre": "TADEO IBAÑEZ",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "52768",
+   "Nombre": "GUILLERMO MAÑKA",
+   "camiseta": "66",
+   "Capitan": ""
+  },
+  {
+   "carne": "55365",
+   "Nombre": "IGNACIO MANUEL MALLO",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "61865",
+   "Nombre": "NAZARENO PINTOS",
+   "camiseta": "31",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "59338",
+   "Nombre": "LEANDRO SOZZO",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "61173",
+   "Nombre": "MARCOS ELEUTERIO ACUÑA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "56544",
+   "Nombre": "GASTON SEBASTIAN OVIEDO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "64065",
+   "Nombre": "EMANUEL DIAZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "35404",
+   "Nombre": "SANTIAGO GASTON POMBO",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56546",
+   "Nombre": "MATEO ALEJANDRO BONFANTINI",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "64061",
+   "Nombre": "NESTOR RAEL VIDELA",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "56557",
+   "Nombre": "FRANCO LA BARBERA",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "61423",
+   "Nombre": "ALAN EZEQUIEL DE LOS SANTOS",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "63712",
+   "Nombre": "LUCAS GABRIEL DE BRUN",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "33653",
+   "Nombre": "MAICOL ALEXIS COMAS",
+   "camiseta": "21",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "46318",
+   "Jug_Sale": "FACUNDO DEBENEDETTI",
+   "CarneEntra": "55308",
+   "Jug_Entra": "JUAN MARTIN MALDONADO",
+   "camiseta": "15",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "66607",
+   "Jug_Sale": "ALEXIS COLO",
+   "CarneEntra": "51001",
+   "Jug_Entra": "FELIPE PEREZ",
+   "camiseta": "4",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "52768",
+   "Jug_Sale": "GUILLERMO MAÑKA",
+   "CarneEntra": "61300",
+   "Jug_Entra": "LUCIANO DA SILVA",
+   "camiseta": "34",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "43616",
+   "Jug_Sale": "SANTIAGO VEGLIO",
+   "CarneEntra": "66823",
+   "Jug_Entra": "JOSE PABLO ANTUNEZ",
+   "camiseta": "24",
+   "minutos": "87"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "56557",
+   "Jug_Sale": "FRANCO LA BARBERA",
+   "CarneEntra": "59324",
+   "Jug_Entra": "ANTHONY EZEQUIEL MASITY",
+   "camiseta": "3",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "56546",
+   "Jug_Sale": "MATEO ALEJANDRO BONFANTINI",
+   "CarneEntra": "65763",
+   "Jug_Entra": "JESSE JOEL BATISTA",
+   "camiseta": "22",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "64065",
+   "Jug_Sale": "EMANUEL DIAZ",
+   "CarneEntra": "33350",
+   "Jug_Entra": "SEBASTIAN ANDRES PEÑA",
+   "camiseta": "28",
+   "minutos": "78"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "52768",
+   "Nombre": "GUILLERMO MAÑKA",
+   "minutos": "11",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "64061",
+   "Nombre": "NESTOR RAEL VIDELA",
+   "minutos": "12",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }
