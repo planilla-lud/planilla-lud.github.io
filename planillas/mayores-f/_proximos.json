@@ -1,12 +1,5 @@
 [
  {
-  "serie": "FPD",
-  "fechaHora": "2026-11-01 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "KENNEDY UNIVERSITARIO",
-  "visitante": "PAYSANDU UNVERSITARIO"
- },
- {
   "serie": "FTA",
   "fechaHora": "2026-11-01 09:00:00",
   "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
@@ -23,9 +16,16 @@
  {
   "serie": "FPD",
   "fechaHora": "2026-11-01 09:00:00",
-  "cancha": "COLEGIO PIO",
+  "cancha": "COMPLEJO FUTBOL 11",
   "local": "ESPARTA UNIVERSITARIO",
   "visitante": "AMERICA UNIVERSITARIO"
+ },
+ {
+  "serie": "FPD",
+  "fechaHora": "2026-11-01 09:00:00",
+  "cancha": "LAS CEBRAS",
+  "local": "KENNEDY UNIVERSITARIO",
+  "visitante": "PAYSANDU UNVERSITARIO"
  },
  {
   "serie": "FPD",

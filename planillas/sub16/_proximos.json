@@ -28,13 +28,6 @@
   "visitante": "DFC"
  },
  {
-  "serie": "16B",
-  "fechaHora": "2026-10-25 13:30:00",
-  "cancha": "COM. CLUB UNIVERSIDAD CATOLICA",
-  "local": "POCO SITIO PLAYA VERDE",
-  "visitante": "ALEMAN UNIVERSITARIO"
- },
- {
   "serie": "16F",
   "fechaHora": "2026-10-25 13:30:00",
   "cancha": "POLIDEPORTIVO CARRASCO",
@@ -71,62 +64,6 @@
  },
  {
   "serie": "16O",
-  "fechaHora": "2026-11-01 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "OLD CHRISTIANS CLUB",
-  "visitante": "CLUB NAUTICO"
- },
- {
-  "serie": "16P",
-  "fechaHora": "2026-11-01 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "LA ESCALINATA",
-  "visitante": "CIRCULO DE TENIS MONTEVIDEO"
- },
- {
-  "serie": "16B",
-  "fechaHora": "2026-11-01 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "POCO SITIO PLAYA VERDE",
-  "visitante": "DEP.de la C. ARETEIA BIMBULLY"
- },
- {
-  "serie": "16C",
-  "fechaHora": "2026-11-01 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "SEMINARIO UNIVERSITARIO",
-  "visitante": "SCUOLA PALERMO"
- },
- {
-  "serie": "16C",
-  "fechaHora": "2026-11-01 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "A.E.B.U",
-  "visitante": "NAUTICO CARRASCO Y PUNTA GORDA"
- },
- {
-  "serie": "16F",
-  "fechaHora": "2026-11-01 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "CLUB JESUS MARIA",
-  "visitante": "LA BLANQUEADA"
- },
- {
-  "serie": "16F",
-  "fechaHora": "2026-11-01 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "ESTUDIANTES DEL PLATA",
-  "visitante": "ACADEMIA FRM"
- },
- {
-  "serie": "16F",
-  "fechaHora": "2026-11-01 10:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "FECHA LIBRE",
-  "visitante": "COLEGIO SANTA ELENA"
- },
- {
-  "serie": "16O",
   "fechaHora": "2026-11-01 13:30:00",
   "cancha": "COMPLEJO WOODLANDS SCHOOL",
   "local": "OLD WOODLANDS CLUB",
@@ -147,6 +84,13 @@
   "visitante": "THE BRITISH SCHOOL"
  },
  {
+  "serie": "16O",
+  "fechaHora": "2026-11-01 13:30:00",
+  "cancha": "OLD CHRISTIANS CLUB",
+  "local": "OLD CHRISTIANS CLUB",
+  "visitante": "CLUB NAUTICO"
+ },
+ {
   "serie": "16P",
   "fechaHora": "2026-11-01 13:30:00",
   "cancha": "CIUDAD DEPORTIVA LS",
@@ -159,6 +103,27 @@
   "cancha": "COMPLEJO LOS ROJOS",
   "local": "TACUAREMBO UNIVERSITARIO",
   "visitante": "CARRASCO LAWN TENNIS"
+ },
+ {
+  "serie": "16P",
+  "fechaHora": "2026-11-01 13:30:00",
+  "cancha": "PICHINCHA",
+  "local": "LA ESCALINATA",
+  "visitante": "CIRCULO DE TENIS MONTEVIDEO"
+ },
+ {
+  "serie": "16P",
+  "fechaHora": "2026-11-01 13:30:00",
+  "cancha": "COMPLEJO URUNDAY UNIVERSITARIO",
+  "local": "URUNDAY UNIVERSITARIO",
+  "visitante": "DEPORTIVO MORON"
+ },
+ {
+  "serie": "16B",
+  "fechaHora": "2026-11-01 13:30:00",
+  "cancha": "COM. CLUB UNIVERSIDAD CATOLICA",
+  "local": "POCO SITIO PLAYA VERDE",
+  "visitante": "DEP.de la C. ARETEIA BIMBULLY"
  },
  {
   "serie": "16B",
@@ -191,9 +156,30 @@
  {
   "serie": "16C",
   "fechaHora": "2026-11-01 13:30:00",
-  "cancha": "COMPLEJO ALCOBENDAS",
+  "cancha": "ACADEMIA",
+  "local": "A.E.B.U",
+  "visitante": "NAUTICO CARRASCO Y PUNTA GORDA"
+ },
+ {
+  "serie": "16C",
+  "fechaHora": "2026-11-01 13:30:00",
+  "cancha": "COMPLEJO LOS NOGALES",
   "local": "NACIONAL UNIVERSITARIO",
   "visitante": "ESCUELA L.P."
+ },
+ {
+  "serie": "16F",
+  "fechaHora": "2026-11-01 13:30:00",
+  "cancha": "COMPLEJO COLEGIO JESÚS MARÍA",
+  "local": "CLUB JESUS MARIA",
+  "visitante": "LA BLANQUEADA"
+ },
+ {
+  "serie": "16F",
+  "fechaHora": "2026-11-01 13:30:00",
+  "cancha": "LANDIA",
+  "local": "ESTUDIANTES DEL PLATA",
+  "visitante": "ACADEMIA FRM"
  },
  {
   "serie": "16F",
@@ -203,11 +189,11 @@
   "visitante": "ARQUITECTURA JRS."
  },
  {
-  "serie": "16P",
-  "fechaHora": "2026-11-01 15:30:00",
-  "cancha": "COMPLEJO URUNDAY UNIVERSITARIO",
-  "local": "URUNDAY UNIVERSITARIO",
-  "visitante": "DEPORTIVO MORON"
+  "serie": "16C",
+  "fechaHora": "2026-11-03 19:00:00",
+  "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
+  "local": "SEMINARIO UNIVERSITARIO",
+  "visitante": "SCUOLA PALERMO"
  },
  {
   "serie": "16O",
@@ -859,6 +845,13 @@
   "cancha": "NO SE JUEGA",
   "local": "DLS CLUB",
   "visitante": "FECHA LIBRE"
+ },
+ {
+  "serie": "16F",
+  "fechaHora": "2026-12-30 00:00:00",
+  "cancha": "NO SE JUEGA",
+  "local": "FECHA LIBRE",
+  "visitante": "COLEGIO SANTA ELENA"
  },
  {
   "serie": "16F",

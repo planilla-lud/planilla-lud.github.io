@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAS40 \"A\" PERM. y DESC.",
   "Cancha": "COMPLEJO LOS CARDALES",
-  "Fecha_Inicio": "2026-10-24 10:30:00",
-  "Fecha_fin": "2026-10-24 10:30:00",
+  "Fecha_Inicio": "2026-10-24 11:00:00",
+  "Fecha_fin": "2026-10-24 11:00:00",
   "Locatario": "CENTRO GALLEGO",
   "goles_locatario": "2",
   "puntos_locatario": "3",
@@ -29,11 +29,256 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "23721",
+   "Nombre": "RODRIGO ALVAREZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "35089",
+   "Nombre": "PABLO SEBASTIAN CASTRO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "20965",
+   "Nombre": "RODRIGO AUGUSTO MARTINEZ",
+   "camiseta": "19",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "17905",
+   "Nombre": "GUILLERMO FEDERICO FUENTES",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "19234",
+   "Nombre": "GABRIEL FAGETTI",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "17816",
+   "Nombre": "CARLOS LEANDRO MARTINEZ",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "42268",
+   "Nombre": "LUIS EMILIO OLIARI",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "22483",
+   "Nombre": "EMILIO MANUEL RODRIGUEZ",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "21126",
+   "Nombre": "SEBASTIAN MANGGINI",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "48318",
+   "Nombre": "BORIS SANTIAGO DURAN",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "32161",
+   "Nombre": "DIEGO SEBASTIAN ROSSI",
+   "camiseta": "8",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "14307",
+   "Nombre": "GUILLERMO DANIEL VERA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "15031",
+   "Nombre": "JULIO HERMAN BANEWUR",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "44715",
+   "Nombre": "DIEGO PERELMUTER",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "18964",
+   "Nombre": "FABIAN BIRNBAUM",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "44994",
+   "Nombre": "GUSTAVO RODZEWICZ",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "26078",
+   "Nombre": "FEDERICO WOLF CHEBI",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "28249",
+   "Nombre": "MAURO RADZINSKI",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "36064",
+   "Nombre": "DIEGO GONZALO CIAPPESONI",
+   "camiseta": "12",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "19096",
+   "Nombre": "ARI KACZKA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "17276",
+   "Nombre": "PABLO JAVIER CANEPA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "26410",
+   "Nombre": "MATIAS MOSCONA",
+   "camiseta": "4",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "19234",
+   "Jug_Sale": "GABRIEL FAGETTI",
+   "CarneEntra": "26808",
+   "Jug_Entra": "MARTIN RUBEN BUENO",
+   "camiseta": "24",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "42268",
+   "Jug_Sale": "LUIS EMILIO OLIARI",
+   "CarneEntra": "24680",
+   "Jug_Entra": "MATIAS RODRIGUEZ",
+   "camiseta": "23",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "32161",
+   "Jug_Sale": "DIEGO SEBASTIAN ROSSI",
+   "CarneEntra": "22333",
+   "Jug_Entra": "LEANDRO GASTON NUÑEZ",
+   "camiseta": "7",
+   "minutos": "54"
+  },
+  {
+   "CarneSale": "17816",
+   "Jug_Sale": "CARLOS LEANDRO MARTINEZ",
+   "CarneEntra": "21130",
+   "Jug_Entra": "DIEGO ARTIGAS OLAZABAL",
+   "camiseta": "13",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "21126",
+   "Jug_Sale": "SEBASTIAN MANGGINI",
+   "CarneEntra": "19234",
+   "Jug_Entra": "GABRIEL FAGETTI",
+   "camiseta": "16",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "48318",
+   "Jug_Sale": "BORIS SANTIAGO DURAN",
+   "CarneEntra": "14946",
+   "Jug_Entra": "JUAN PEDRO LARROUTUROU",
+   "camiseta": "10",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "17905",
+   "Jug_Sale": "GUILLERMO FEDERICO FUENTES",
+   "CarneEntra": "60114",
+   "Jug_Entra": "SERGIO EDGARDO PERRONE",
+   "camiseta": "25",
+   "minutos": "90"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "26078",
+   "Jug_Sale": "FEDERICO WOLF CHEBI",
+   "CarneEntra": "20627",
+   "Jug_Entra": "MARTIN BERENSTEIN",
+   "camiseta": "13",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "15031",
+   "Jug_Sale": "JULIO HERMAN BANEWUR",
+   "CarneEntra": "19947",
+   "Jug_Entra": "DENNY LIAM BRECHNER",
+   "camiseta": "88",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "44994",
+   "Jug_Sale": "GUSTAVO RODZEWICZ",
+   "CarneEntra": "16457",
+   "Jug_Entra": "WILLIAM IGNACIO KRIZ",
+   "camiseta": "29",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "36064",
+   "Jug_Sale": "DIEGO GONZALO CIAPPESONI",
+   "CarneEntra": "26078",
+   "Jug_Entra": "FEDERICO WOLF CHEBI",
+   "camiseta": "16",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "18964",
+   "Jug_Sale": "FABIAN BIRNBAUM",
+   "CarneEntra": "38265",
+   "Jug_Entra": "GABRIEL MANUEL YAÑEZ",
+   "camiseta": "6",
+   "minutos": "84"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "22333",
+   "Nombre": "LEANDRO GASTON NUÑEZ",
+   "minutos": "75",
+   "EnContra": "0"
+  },
+  {
+   "carne": "26808",
+   "Nombre": "MARTIN RUBEN BUENO",
+   "minutos": "90",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

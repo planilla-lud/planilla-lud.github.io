@@ -7,11 +7,11 @@
   "visitante": "SUDAMERICA UNIVERSITARIO"
  },
  {
-  "serie": "ETA",
-  "fechaHora": "2026-11-01 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "SAN AGUSTIN",
-  "visitante": "CERVANTES UNIVERSITARIO"
+  "serie": "EPD",
+  "fechaHora": "2026-10-28 22:00:00",
+  "cancha": "COMPLEJO INGENIERO DEL CAMPO",
+  "local": "CLUB RICHARD ANDERSON UNIV.",
+  "visitante": "JEAN PIAGET"
  },
  {
   "serie": "ETA",
@@ -21,18 +21,18 @@
   "visitante": "DEPORTIVO MITRE"
  },
  {
-  "serie": "EPD",
-  "fechaHora": "2026-11-01 09:00:00",
-  "cancha": "COMPLEJO INVICTUS (INCIARTE)",
-  "local": "CLUB RICHARD ANDERSON UNIV.",
-  "visitante": "JEAN PIAGET"
- },
- {
   "serie": "ETA",
   "fechaHora": "2026-11-01 11:15:00",
   "cancha": "COMPLEJO INGENIERO DEL CAMPO",
   "local": "SAN CONO",
   "visitante": "CAFU"
+ },
+ {
+  "serie": "ETA",
+  "fechaHora": "2026-11-01 11:15:00",
+  "cancha": "SANTA RITA",
+  "local": "SAN AGUSTIN",
+  "visitante": "CERVANTES UNIVERSITARIO"
  },
  {
   "serie": "ETA",

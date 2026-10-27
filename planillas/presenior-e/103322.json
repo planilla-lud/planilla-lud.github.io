@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "PS DIV. E 2ªR COPA ORO",
   "Cancha": "COMPLEJO JUAN XXIII",
-  "Fecha_Inicio": "2026-10-24 10:30:00",
-  "Fecha_fin": "2026-10-24 10:30:00",
+  "Fecha_Inicio": "2026-10-24 11:00:00",
+  "Fecha_fin": "2026-10-24 11:00:00",
   "Locatario": "CLUB ATLETICO AGUADA",
   "goles_locatario": "3",
   "puntos_locatario": "1",
@@ -29,12 +29,218 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "47759",
+   "Nombre": "JORGE ALEJANDRO ANTONIOLI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "32733",
+   "Nombre": "RAMIRO DE LA PUENTE",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "28132",
+   "Nombre": "MARTIN ECHEGARAY",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "24851",
+   "Nombre": "DANIEL ECHAGARAY",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "54433",
+   "Nombre": "GONZALO GRILLE",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "39203",
+   "Nombre": "ANDRY WAY RUIZ DIAZ",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "36896",
+   "Nombre": "JUAN IGNACIO PEYRO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "65351",
+   "Nombre": "CARLOS MAURICIO GONZALEZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "33312",
+   "Nombre": "HERNAN RUMBO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "50541",
+   "Nombre": "MARCELO JUNIOR FERNANDEZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "31934",
+   "Nombre": "JAVIER ANDRES GARCIA",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "33713",
+   "Nombre": "FERNANDO JOSE BARCALA",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "33306",
+   "Nombre": "GONZALO NICOLAS PELUFO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "26708",
+   "Nombre": "FRANCISCO CALVIÑO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "33116",
+   "Nombre": "GUILLERMO EDUARDO BELZA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "43161",
+   "Nombre": "JOSE LUIS FERNANDEZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "31957",
+   "Nombre": "GONZALO ERNESTO GIAMBRUNO",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "28333",
+   "Nombre": "JOAQUIN OJEDA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "31708",
+   "Nombre": "DIEGO VELASCO",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "31594",
+   "Nombre": "ALAN VACCARO",
+   "camiseta": "4",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "30054",
+   "Nombre": "NICOLAS BARQUET",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "38658",
+   "Nombre": "GERMAN FERNANDEZ",
+   "camiseta": "31",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "65351",
+   "Jug_Sale": "CARLOS MAURICIO GONZALEZ",
+   "CarneEntra": "32569",
+   "Jug_Entra": "EDUARDO DANIEL SAURINA",
+   "camiseta": "15",
+   "minutos": "76"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "33306",
+   "Jug_Sale": "GONZALO NICOLAS PELUFO",
+   "CarneEntra": "43182",
+   "Jug_Entra": "MARTIN BUENO",
+   "camiseta": "23",
+   "minutos": "30"
+  },
+  {
+   "CarneSale": "31957",
+   "Jug_Sale": "GONZALO ERNESTO GIAMBRUNO",
+   "CarneEntra": "35461",
+   "Jug_Entra": "FABRIZIO PEROTTI",
+   "camiseta": "10",
+   "minutos": "59"
+  },
+  {
+   "CarneSale": "28333",
+   "Jug_Sale": "JOAQUIN OJEDA",
+   "CarneEntra": "34939",
+   "Jug_Entra": "SANTIAGO DANIEL RODRIGUEZ",
+   "camiseta": "10",
+   "minutos": "66"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "32733",
+   "Nombre": "RAMIRO DE LA PUENTE",
+   "minutos": "65",
+   "EnContra": "0"
+  },
+  {
+   "carne": "32733",
+   "Nombre": "RAMIRO DE LA PUENTE",
+   "minutos": "94",
+   "EnContra": "0"
+  },
+  {
+   "carne": "54433",
+   "Nombre": "GONZALO GRILLE",
+   "minutos": "8",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "31594",
+   "Nombre": "ALAN VACCARO",
+   "minutos": "73",
+   "EnContra": "1"
+  },
+  {
+   "carne": "35461",
+   "Nombre": "FABRIZIO PEROTTI",
+   "minutos": "71",
+   "EnContra": "1"
+  },
+  {
+   "carne": "38658",
+   "Nombre": "GERMAN FERNANDEZ",
+   "minutos": "10",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

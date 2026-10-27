@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"B\" PER. y DESC",
   "Cancha": "COMPLEJO DEPORTIVO ARRAYANES",
-  "Fecha_Inicio": "2026-10-24 10:30:00",
-  "Fecha_fin": "2026-10-24 10:30:00",
+  "Fecha_Inicio": "2026-10-24 10:50:00",
+  "Fecha_fin": "2026-10-24 10:50:00",
   "Locatario": "PALLOTTI UNIVERSITARIO",
   "goles_locatario": "2",
   "puntos_locatario": "0",
@@ -29,12 +29,274 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "67586",
+   "Nombre": "DIEGO GASTON MUIÑA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "37505",
+   "Nombre": "ANDRES DENES",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "38888",
+   "Nombre": "ANDRES RICARDO SOSA",
+   "camiseta": "43",
+   "Capitan": ""
+  },
+  {
+   "carne": "37650",
+   "Nombre": "GONZALO SEBASTIAN MARTINICORENA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "27654",
+   "Nombre": "ISMAEL NADAL",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "26406",
+   "Nombre": "JUAN ANDRES VARELA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "27222",
+   "Nombre": "PABLO MARTIN HERNANDEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "28849",
+   "Nombre": "EMILIANO SOSA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "68668",
+   "Nombre": "ALVARO DANIEL NOBLE",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "25286",
+   "Nombre": "MATIAS SOSA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "68720",
+   "Nombre": "GABRIEL GLIELMA",
+   "camiseta": "99",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "18842",
+   "Nombre": "RODRIGO ALBERTO DURAN",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "68244",
+   "Nombre": "JORGE SEBASTIAN CALATAYUD",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "25030",
+   "Nombre": "JUAN MANUEL ROVELLA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "16315",
+   "Nombre": "MATIAS FERMIN IRAZABAL",
+   "camiseta": "21",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "25876",
+   "Nombre": "SANTIAGO ANDRES ARROYO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "28502",
+   "Nombre": "MARTIN PRESNO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "62272",
+   "Nombre": "DIEGO NICOLAS LA PAZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "22618",
+   "Nombre": "FRANCISCO NAVARRO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "24772",
+   "Nombre": "DANIEL ANTONIO MARTINEZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "38455",
+   "Nombre": "MAXIMILIANO ADRIAN ACOSTA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "33243",
+   "Nombre": "ALFONSO FREIRIA",
+   "camiseta": "5",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "27654",
+   "Jug_Sale": "ISMAEL NADAL",
+   "CarneEntra": "62798",
+   "Jug_Entra": "RODRIGO GONNZALEZ",
+   "camiseta": "6",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "37650",
+   "Jug_Sale": "GONZALO SEBASTIAN MARTINICORENA",
+   "CarneEntra": "58534",
+   "Jug_Entra": "MAURO GUGLIALMELLI",
+   "camiseta": "17",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "37505",
+   "Jug_Sale": "ANDRES DENES",
+   "CarneEntra": "25424",
+   "Jug_Entra": "FEDERICO ANDRES RABELINO",
+   "camiseta": "23",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "26406",
+   "Jug_Sale": "JUAN ANDRES VARELA",
+   "CarneEntra": "28455",
+   "Jug_Entra": "FEDERICO BRUZZONE",
+   "camiseta": "12",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "27222",
+   "Jug_Sale": "PABLO MARTIN HERNANDEZ",
+   "CarneEntra": "23385",
+   "Jug_Entra": "ALEJANDRO MARROCHE",
+   "camiseta": "20",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "68720",
+   "Jug_Sale": "GABRIEL GLIELMA",
+   "CarneEntra": "33224",
+   "Jug_Entra": "MARCIO MAÑANA",
+   "camiseta": "7",
+   "minutos": "70"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "24772",
+   "Jug_Sale": "DANIEL ANTONIO MARTINEZ",
+   "CarneEntra": "33243",
+   "Jug_Entra": "ALFONSO FREIRIA",
+   "camiseta": "5",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "22618",
+   "Jug_Sale": "FRANCISCO NAVARRO",
+   "CarneEntra": "68244",
+   "Jug_Entra": "JORGE SEBASTIAN CALATAYUD",
+   "camiseta": "22",
+   "minutos": "81"
+  },
+  {
+   "CarneSale": "28502",
+   "Jug_Sale": "MARTIN PRESNO",
+   "CarneEntra": "24772",
+   "Jug_Entra": "DANIEL ANTONIO MARTINEZ",
+   "camiseta": "13",
+   "minutos": "91"
+  },
+  {
+   "CarneSale": "68244",
+   "Jug_Sale": "JORGE SEBASTIAN CALATAYUD",
+   "CarneEntra": "18209",
+   "Jug_Entra": "MARTIN GUILLERMO IRAZOQUI",
+   "camiseta": "8",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "33243",
+   "Jug_Sale": "ALFONSO FREIRIA",
+   "CarneEntra": "37949",
+   "Jug_Entra": "IGNACIO ROSATI",
+   "camiseta": "18",
+   "minutos": "45"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "25286",
+   "Nombre": "MATIAS SOSA",
+   "minutos": "19",
+   "EnContra": "0"
+  },
+  {
+   "carne": "25286",
+   "Nombre": "MATIAS SOSA",
+   "minutos": "92",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "38455",
+   "Nombre": "MAXIMILIANO ADRIAN ACOSTA",
+   "minutos": "17",
+   "EnContra": "1"
+  },
+  {
+   "carne": "38455",
+   "Nombre": "MAXIMILIANO ADRIAN ACOSTA",
+   "minutos": "60",
+   "EnContra": "1"
+  },
+  {
+   "carne": "38455",
+   "Nombre": "MAXIMILIANO ADRIAN ACOSTA",
+   "minutos": "68",
+   "EnContra": "1"
+  },
+  {
+   "carne": "38455",
+   "Nombre": "MAXIMILIANO ADRIAN ACOSTA",
+   "minutos": "93",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

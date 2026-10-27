@@ -3,7 +3,7 @@
  "categoria": "sub20-a",
  "serie": "20APD",
  "fecha": 5,
- "fechaHora": "2026-10-24 13:30:00",
+ "fechaHora": "2026-10-24 00:00:00",
  "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
  "local": "PLAYA HONDA UNIVERSITARIO",
  "visitante": "OLD BOYS CLUB",
@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "SUB20 \"A\" PERM. y DESC.",
   "Cancha": "PARQUE CUPRA - CLUB SEMINARIO",
-  "Fecha_Inicio": "2026-10-24 15:00:00",
-  "Fecha_fin": "2026-10-24 15:00:00",
+  "Fecha_Inicio": "2026-10-24 00:00:00",
+  "Fecha_fin": "2026-10-24 00:00:00",
   "Locatario": "PLAYA HONDA UNIVERSITARIO",
   "goles_locatario": "1",
   "puntos_locatario": "0",
@@ -29,12 +29,263 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "titularesL": [
+  {
+   "carne": "52916",
+   "Nombre": "GUZMAN ESTOUP",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "66091",
+   "Nombre": "AGUSTIN VALLARINO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "56235",
+   "Nombre": "MANUEL SEBASTIAN BURGOS",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "57053",
+   "Nombre": "JUAN MATTOS",
+   "camiseta": "70",
+   "Capitan": ""
+  },
+  {
+   "carne": "64141",
+   "Nombre": "LAUTARO MARTIN PRESA",
+   "camiseta": "50",
+   "Capitan": ""
+  },
+  {
+   "carne": "67535",
+   "Nombre": "BENJAMIN DE IZAGUIRRE",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "58940",
+   "Nombre": "MARTIN LANGONE",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "58540",
+   "Nombre": "TOMAS BERTINAT",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "62024",
+   "Nombre": "JUAN MANUEL BOCCHI",
+   "camiseta": "41",
+   "Capitan": ""
+  },
+  {
+   "carne": "57776",
+   "Nombre": "EMILIANO DIAZ",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "58934",
+   "Nombre": "IGNACIO AGUIAR",
+   "camiseta": "2",
+   "Capitan": "(C)"
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "65914",
+   "Nombre": "LUCAS FACUNDO RUIZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "56265",
+   "Nombre": "JUAN MARTIN HRILJAC",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "55700",
+   "Nombre": "MANUEL LACALLE",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "57010",
+   "Nombre": "FELIPE SUAREZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "56261",
+   "Nombre": "FRANCISCO NOVEGIL",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "62988",
+   "Nombre": "LUCAS BENJAMIN WOYCIK",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "56262",
+   "Nombre": "FRANCISCO NAVARRO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "58844",
+   "Nombre": "NICOLAS MONTERO",
+   "camiseta": "45",
+   "Capitan": ""
+  },
+  {
+   "carne": "56255",
+   "Nombre": "TOMAS YOUNG",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "57000",
+   "Nombre": "ANDRES ARTAGAVEYTIA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "58841",
+   "Nombre": "JUAN BAUTISTA BONOMI",
+   "camiseta": "18",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "64141",
+   "Jug_Sale": "LAUTARO MARTIN PRESA",
+   "CarneEntra": "62051",
+   "Jug_Entra": "LUCA MORALES",
+   "camiseta": "26",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "57776",
+   "Jug_Sale": "EMILIANO DIAZ",
+   "CarneEntra": "59931",
+   "Jug_Entra": "JUAN MANUEL TOUYA",
+   "camiseta": "4",
+   "minutos": "74"
+  },
+  {
+   "CarneSale": "57053",
+   "Jug_Sale": "JUAN MATTOS",
+   "CarneEntra": "62052",
+   "Jug_Entra": "MANUEL MOREIRA",
+   "camiseta": "28",
+   "minutos": "86"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "57010",
+   "Jug_Sale": "FELIPE SUAREZ",
+   "CarneEntra": "56273",
+   "Jug_Entra": "ALEXIS BRUCE",
+   "camiseta": "10",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "62988",
+   "Jug_Sale": "LUCAS BENJAMIN WOYCIK",
+   "CarneEntra": "54579",
+   "Jug_Entra": "JAVIER CIVETTA",
+   "camiseta": "26",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "56261",
+   "Jug_Sale": "FRANCISCO NOVEGIL",
+   "CarneEntra": "57004",
+   "Jug_Entra": "ALBERTO HERRERA",
+   "camiseta": "7",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "58844",
+   "Jug_Sale": "NICOLAS MONTERO",
+   "CarneEntra": "58858",
+   "Jug_Entra": "JOAQUIN QUINTO REYES",
+   "camiseta": "67",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "58841",
+   "Jug_Sale": "JUAN BAUTISTA BONOMI",
+   "CarneEntra": "68761",
+   "Jug_Entra": "MATIAS AGUSTIN RUIZ",
+   "camiseta": "69",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "56255",
+   "Jug_Sale": "TOMAS YOUNG",
+   "CarneEntra": "67654",
+   "Jug_Entra": "BAUTISTA RISSO",
+   "camiseta": "80",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "56262",
+   "Jug_Sale": "FRANCISCO NAVARRO",
+   "CarneEntra": "57005",
+   "Jug_Entra": "IGNACIO IBARBURU",
+   "camiseta": "22",
+   "minutos": "80"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "58940",
+   "Nombre": "MARTIN LANGONE",
+   "minutos": "13",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "56255",
+   "Nombre": "TOMAS YOUNG",
+   "minutos": "17",
+   "EnContra": "1"
+  },
+  {
+   "carne": "56265",
+   "Nombre": "JUAN MARTIN HRILJAC",
+   "minutos": "65",
+   "EnContra": "1"
+  },
+  {
+   "carne": "58844",
+   "Nombre": "NICOLAS MONTERO",
+   "minutos": "37",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "MARTIN LANGONE",
+   "observaciones": ""
+  },
+  {
+   "Nombre": "BENJAMIN DE IZAGUIRRE",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

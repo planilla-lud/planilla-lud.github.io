@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"C\" TIT. y ASC.",
   "Cancha": "MONTE VI \"LOS CEIBOS\"",
-  "Fecha_Inicio": "2026-10-24 10:30:00",
-  "Fecha_fin": "2026-10-24 10:30:00",
+  "Fecha_Inicio": "2026-10-24 11:05:00",
+  "Fecha_fin": "2026-10-24 11:05:00",
   "Locatario": "CEIBOS CLUB",
   "goles_locatario": "5",
   "puntos_locatario": "3",
@@ -29,12 +29,274 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "24753",
+   "Nombre": "FERNANDO CARRASCO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "30061",
+   "Nombre": "FEDERICO ILDEFONSO GARCIA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "21512",
+   "Nombre": "JUAN MARTIN DIAZ",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "22441",
+   "Nombre": "SANTIAGO JORGE KIRIAKIDIS",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "18098",
+   "Nombre": "CARLOS JAVIER MORALES",
+   "camiseta": "7",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "21093",
+   "Nombre": "PABLO RAFAEL VERDE",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "24859",
+   "Nombre": "FERNANDO DAMIANI",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "30514",
+   "Nombre": "FRANCISCO JOSE DIAZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "20367",
+   "Nombre": "NICOLAS ORDOQUI",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "44947",
+   "Nombre": "JUAN IGNACIO BAYCE",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "21279",
+   "Nombre": "GONZALO FEDERICO MULLIN",
+   "camiseta": "16",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "47924",
+   "Nombre": "NICOLAS CARDOZO",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "18492",
+   "Nombre": "LEANDRO MAGALLANES",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "27951",
+   "Nombre": "JONATHAN FRANCISCO LEMOS",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "31320",
+   "Nombre": "SANTIAGO AGUSTIN OCHOA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "41310",
+   "Nombre": "JORGE AGUSTIN VIZCAINO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "33796",
+   "Nombre": "HERNAN NUÑEZ",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "31343",
+   "Nombre": "JUAN FRANCISCO INSA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "37683",
+   "Nombre": "PABLO GASTON OLIVERA",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "32100",
+   "Nombre": "FEDERICO FARACHIO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "22171",
+   "Nombre": "MARTIN JAVIER SOSA",
+   "camiseta": "38",
+   "Capitan": ""
+  },
+  {
+   "carne": "68241",
+   "Nombre": "JUAN PEDRO PACHECO",
+   "camiseta": "45",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "21512",
+   "Jug_Sale": "JUAN MARTIN DIAZ",
+   "CarneEntra": "39059",
+   "Jug_Entra": "GUILLERMO JOSE BARREIRO",
+   "camiseta": "10",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "21093",
+   "Jug_Sale": "PABLO RAFAEL VERDE",
+   "CarneEntra": "24948",
+   "Jug_Entra": "FRANCISCO CARRIQUIRY",
+   "camiseta": "5",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "30514",
+   "Jug_Sale": "FRANCISCO JOSE DIAZ",
+   "CarneEntra": "28104",
+   "Jug_Entra": "GUZMAN FEDERICO DE CASTRO",
+   "camiseta": "20",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "24859",
+   "Jug_Sale": "FERNANDO DAMIANI",
+   "CarneEntra": "18991",
+   "Jug_Entra": "VARTAN AGHASI SANTURIAN",
+   "camiseta": "15",
+   "minutos": "44"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "31320",
+   "Jug_Sale": "SANTIAGO AGUSTIN OCHOA",
+   "CarneEntra": "31579",
+   "Jug_Entra": "MATIAS JAVIER GONZALEZ",
+   "camiseta": "2",
+   "minutos": "32"
+  },
+  {
+   "CarneSale": "18492",
+   "Jug_Sale": "LEANDRO MAGALLANES",
+   "CarneEntra": "25371",
+   "Jug_Entra": "SANTIAGO RAMIS",
+   "camiseta": "6",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "27951",
+   "Jug_Sale": "JONATHAN FRANCISCO LEMOS",
+   "CarneEntra": "16998",
+   "Jug_Entra": "IGNACIO GRANDAL",
+   "camiseta": "22",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "31343",
+   "Jug_Sale": "JUAN FRANCISCO INSA",
+   "CarneEntra": "26404",
+   "Jug_Entra": "FEDERICO DE LEON",
+   "camiseta": "13",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "32100",
+   "Jug_Sale": "FEDERICO FARACHIO",
+   "CarneEntra": "25370",
+   "Jug_Entra": "JUAN PABLO MARTIGANI",
+   "camiseta": "28",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "22171",
+   "Jug_Sale": "MARTIN JAVIER SOSA",
+   "CarneEntra": "22830",
+   "Jug_Entra": "JUAN MANUEL CASTALDI",
+   "camiseta": "17",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "37683",
+   "Jug_Sale": "PABLO GASTON OLIVERA",
+   "CarneEntra": "26703",
+   "Jug_Entra": "ANDRES CAZALES",
+   "camiseta": "9",
+   "minutos": "76"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "18098",
+   "Nombre": "CARLOS JAVIER MORALES",
+   "minutos": "21",
+   "EnContra": "0"
+  },
+  {
+   "carne": "21512",
+   "Nombre": "JUAN MARTIN DIAZ",
+   "minutos": "38",
+   "EnContra": "0"
+  },
+  {
+   "carne": "22441",
+   "Nombre": "SANTIAGO JORGE KIRIAKIDIS",
+   "minutos": "30",
+   "EnContra": "0"
+  },
+  {
+   "carne": "22441",
+   "Nombre": "SANTIAGO JORGE KIRIAKIDIS",
+   "minutos": "50",
+   "EnContra": "0"
+  },
+  {
+   "carne": "22441",
+   "Nombre": "SANTIAGO JORGE KIRIAKIDIS",
+   "minutos": "62",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "33796",
+   "Nombre": "HERNAN NUÑEZ",
+   "minutos": "46",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAS40 \"A\" TITULO",
   "Cancha": "COM. CLUB UNIVERSIDAD CATOLICA",
-  "Fecha_Inicio": "2026-10-24 10:30:00",
-  "Fecha_fin": "2026-10-24 10:30:00",
+  "Fecha_Inicio": "2026-10-24 11:00:00",
+  "Fecha_fin": "2026-10-24 11:00:00",
   "Locatario": "UNIVERSITARIO VERONES",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,297 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "63287",
+   "Nombre": "RICARDO DANIEL PAZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "33519",
+   "Nombre": "PABLO BERMUDEZ",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "14035",
+   "Nombre": "LEONARDO FABIAN VALLEJO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "36484",
+   "Nombre": "SEBASTIAN GIORDANO BASSI",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "18132",
+   "Nombre": "SEBASTIAN MIGUEL GARCIA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "57254",
+   "Nombre": "JORGE ANIBAL DIAZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "32302",
+   "Nombre": "HECTOR MARCELO PEREZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "25293",
+   "Nombre": "NICOLAS GALUP",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "19369",
+   "Nombre": "LUIS IGNACIO FORTE",
+   "camiseta": "12",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "54394",
+   "Nombre": "DANIEL NICOLAS ALVAREZ",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "40522",
+   "Nombre": "PABLO MIGUEL OTTONELLI",
+   "camiseta": "25",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "19994",
+   "Nombre": "GERMAN FRAQUIA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "17894",
+   "Nombre": "NICOLAS ANTONIO RUIZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "22821",
+   "Nombre": "ERNESTO MARTIN CALLERIZA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "39923",
+   "Nombre": "JUAN IGNACIO RODRÌGUEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "16333",
+   "Nombre": "MARTIN EDUARDO RODRIGUEZ",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "45546",
+   "Nombre": "ALEJANDRO BETOLAZA",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "19196",
+   "Nombre": "SANTIAGO VILARDEBO",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "16950",
+   "Nombre": "JOSE ERNESTO OLIVERAS",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "41787",
+   "Nombre": "ANDRES D ALESSANDRO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "14701",
+   "Nombre": "PABLO SANTIAGO CASTRO",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "17908",
+   "Nombre": "JESUS SOSA",
+   "camiseta": "76",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "32302",
+   "Jug_Sale": "HECTOR MARCELO PEREZ",
+   "CarneEntra": "13911",
+   "Jug_Entra": "FABRICIO GASTON PRIETO",
+   "camiseta": "19",
+   "minutos": "37"
+  },
+  {
+   "CarneSale": "18132",
+   "Jug_Sale": "SEBASTIAN MIGUEL GARCIA",
+   "CarneEntra": "17835",
+   "Jug_Entra": "FERNANDO SILVA",
+   "camiseta": "8",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "40522",
+   "Jug_Sale": "PABLO MIGUEL OTTONELLI",
+   "CarneEntra": "35285",
+   "Jug_Entra": "JULIO BRAYAN MELLO",
+   "camiseta": "18",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "14035",
+   "Jug_Sale": "LEONARDO FABIAN VALLEJO",
+   "CarneEntra": "18132",
+   "Jug_Entra": "SEBASTIAN MIGUEL GARCIA",
+   "camiseta": "2",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "25293",
+   "Jug_Sale": "NICOLAS GALUP",
+   "CarneEntra": "21518",
+   "Jug_Entra": "RAUL MAXIMILIANO QUINTANA",
+   "camiseta": "11",
+   "minutos": "52"
+  },
+  {
+   "CarneSale": "54394",
+   "Jug_Sale": "DANIEL NICOLAS ALVAREZ",
+   "CarneEntra": "40522",
+   "Jug_Entra": "PABLO MIGUEL OTTONELLI",
+   "camiseta": "25",
+   "minutos": "74"
+  },
+  {
+   "CarneSale": "19369",
+   "Jug_Sale": "LUIS IGNACIO FORTE",
+   "CarneEntra": "25293",
+   "Jug_Entra": "NICOLAS GALUP",
+   "camiseta": "30",
+   "minutos": "79"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "16333",
+   "Jug_Sale": "MARTIN EDUARDO RODRIGUEZ",
+   "CarneEntra": "14703",
+   "Jug_Entra": "MARCEL AZZARINI",
+   "camiseta": "31",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "16950",
+   "Jug_Sale": "JOSE ERNESTO OLIVERAS",
+   "CarneEntra": "37362",
+   "Jug_Entra": "HORACIO REYNOSO",
+   "camiseta": "26",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "17908",
+   "Jug_Sale": "JESUS SOSA",
+   "CarneEntra": "16181",
+   "Jug_Entra": "PABLO ANGERIZ",
+   "camiseta": "4",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "45546",
+   "Jug_Sale": "ALEJANDRO BETOLAZA",
+   "CarneEntra": "19188",
+   "Jug_Entra": "GUSTAVO ANTONIO JACQUES",
+   "camiseta": "9",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "17908",
+   "Jug_Sale": "JESUS SOSA",
+   "CarneEntra": "17899",
+   "Jug_Entra": "PEDRO FEDERICO LESCOULIE",
+   "camiseta": "7",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "41787",
+   "Jug_Sale": "ANDRES D ALESSANDRO",
+   "CarneEntra": "24262",
+   "Jug_Entra": "CAMILO GERVASIO VALLS",
+   "camiseta": "10",
+   "minutos": "82"
+  },
+  {
+   "CarneSale": "19994",
+   "Jug_Sale": "GERMAN FRAQUIA",
+   "CarneEntra": "60701",
+   "Jug_Entra": "CESAR RAFAEL ALANIS",
+   "camiseta": "12",
+   "minutos": "86"
+  }
+ ],
  "golesL": [],
- "golesV": [],
+ "golesV": [
+  {
+   "carne": "14703",
+   "Nombre": "MARCEL AZZARINI",
+   "minutos": "66",
+   "EnContra": "1"
+  },
+  {
+   "carne": "16181",
+   "Nombre": "PABLO ANGERIZ",
+   "minutos": "53",
+   "EnContra": "1"
+  },
+  {
+   "carne": "16181",
+   "Nombre": "PABLO ANGERIZ",
+   "minutos": "95",
+   "EnContra": "1"
+  },
+  {
+   "carne": "17908",
+   "Nombre": "JESUS SOSA",
+   "minutos": "74",
+   "EnContra": "1"
+  },
+  {
+   "carne": "45546",
+   "Nombre": "ALEJANDRO BETOLAZA",
+   "minutos": "20",
+   "EnContra": "1"
+  },
+  {
+   "carne": "45546",
+   "Nombre": "ALEJANDRO BETOLAZA",
+   "minutos": "46",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

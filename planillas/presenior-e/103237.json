@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "PS DIV. E 2ªR COPA ORO",
   "Cancha": "CAMPO DEP. COLEGIO INGLES",
-  "Fecha_Inicio": "2026-10-24 10:30:00",
-  "Fecha_fin": "2026-10-24 10:30:00",
+  "Fecha_Inicio": "2026-10-24 11:00:00",
+  "Fecha_fin": "2026-10-24 11:00:00",
   "Locatario": "COLEGIO Y LICEO INGLES",
   "goles_locatario": "0",
   "puntos_locatario": "1",
@@ -29,10 +29,250 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "37150",
+   "Nombre": "GERONIMO AGUSTIN KACHELE",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "28272",
+   "Nombre": "SERGIO IGNACIO VICO",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "26911",
+   "Nombre": "BRUNO GIANCARLO GENTILE",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "37163",
+   "Nombre": "FELIPE VAZQUEZ",
+   "camiseta": "81",
+   "Capitan": ""
+  },
+  {
+   "carne": "30328",
+   "Nombre": "FACUNDO KACHELE",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "29931",
+   "Nombre": "GERMAN SUAREZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "33332",
+   "Nombre": "JUAN IGNACIO ARANCIBIA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "30184",
+   "Nombre": "PEDRO BOADO",
+   "camiseta": "37",
+   "Capitan": ""
+  },
+  {
+   "carne": "36954",
+   "Nombre": "JOAQUIN SANSBERRO",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "26534",
+   "Nombre": "GUILLERMO ADOLFO VIGNOLO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "26262",
+   "Nombre": "NICOLAS AGUIRREGARAY",
+   "camiseta": "8",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "25866",
+   "Nombre": "DIEGO ANDRES LOPEZ",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "48560",
+   "Nombre": "HERNAN FABRICIO DI MATTIA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "44958",
+   "Nombre": "FERNANDO GONZALEZ",
+   "camiseta": "41",
+   "Capitan": ""
+  },
+  {
+   "carne": "41698",
+   "Nombre": "MARCOS CARDOZO",
+   "camiseta": "52",
+   "Capitan": ""
+  },
+  {
+   "carne": "32102",
+   "Nombre": "MAURICIO NICOLAS WURTH",
+   "camiseta": "69",
+   "Capitan": ""
+  },
+  {
+   "carne": "38957",
+   "Nombre": "FEDERICO ANDRES GRANDE",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "32667",
+   "Nombre": "AGUSTIN IGNACIO FLIELLER",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "34913",
+   "Nombre": "MICHEL EDUARDO YERPO",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "37182",
+   "Nombre": "SANTIAGO MALLO",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "40769",
+   "Nombre": "NICOLAS ANDRES PORTERO",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "66785",
+   "Nombre": "RODRIGO ARCE",
+   "camiseta": "37",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "37163",
+   "Jug_Sale": "FELIPE VAZQUEZ",
+   "CarneEntra": "30835",
+   "Jug_Entra": "RODRIGO LUIS PASTOR",
+   "camiseta": "34",
+   "minutos": "54"
+  },
+  {
+   "CarneSale": "36954",
+   "Jug_Sale": "JOAQUIN SANSBERRO",
+   "CarneEntra": "30770",
+   "Jug_Entra": "GUILLERMO LUIS GALAIN",
+   "camiseta": "15",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "26262",
+   "Jug_Sale": "NICOLAS AGUIRREGARAY",
+   "CarneEntra": "37206",
+   "Jug_Entra": "LEONARDO GONZALEZ",
+   "camiseta": "42",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "29931",
+   "Jug_Sale": "GERMAN SUAREZ",
+   "CarneEntra": "36150",
+   "Jug_Entra": "JUAN MANUEL PUIG",
+   "camiseta": "74",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "26911",
+   "Jug_Sale": "BRUNO GIANCARLO GENTILE",
+   "CarneEntra": "24146",
+   "Jug_Entra": "FEDERICO GUAYMALLEN CAMBLOR",
+   "camiseta": "14",
+   "minutos": "80"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "34913",
+   "Jug_Sale": "MICHEL EDUARDO YERPO",
+   "CarneEntra": "37872",
+   "Jug_Entra": "JONATHAN EMANUEL CABRERA",
+   "camiseta": "7",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "41698",
+   "Jug_Sale": "MARCOS CARDOZO",
+   "CarneEntra": "35393",
+   "Jug_Entra": "MATIAS NICOLAS SOMMA",
+   "camiseta": "13",
+   "minutos": "46"
+  },
+  {
+   "CarneSale": "40769",
+   "Jug_Sale": "NICOLAS ANDRES PORTERO",
+   "CarneEntra": "51999",
+   "Jug_Entra": "DIEGO GODOY",
+   "camiseta": "9",
+   "minutos": "46"
+  },
+  {
+   "CarneSale": "66785",
+   "Jug_Sale": "RODRIGO ARCE",
+   "CarneEntra": "49734",
+   "Jug_Entra": "MAXIMILIANO TEJERA",
+   "camiseta": "35",
+   "minutos": "46"
+  },
+  {
+   "CarneSale": "37182",
+   "Jug_Sale": "SANTIAGO MALLO",
+   "CarneEntra": "44857",
+   "Jug_Entra": "FRANCO SORMANI",
+   "camiseta": "33",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "48560",
+   "Jug_Sale": "HERNAN FABRICIO DI MATTIA",
+   "CarneEntra": "44958",
+   "Jug_Entra": "FERNANDO GONZALEZ",
+   "camiseta": "41",
+   "minutos": "90"
+  },
+  {
+   "CarneSale": "44958",
+   "Jug_Sale": "FERNANDO GONZALEZ",
+   "CarneEntra": "54723",
+   "Jug_Entra": "MICHAEL ANDRES MARTINEZ",
+   "camiseta": "28",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "32102",
+   "Jug_Sale": "MAURICIO NICOLAS WURTH",
+   "CarneEntra": "46824",
+   "Jug_Entra": "ERNESTO FERNANDEZ",
+   "camiseta": "12",
+   "minutos": "82"
+  }
+ ],
  "golesL": [],
  "golesV": [],
  "expulsadosL": [],

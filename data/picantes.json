@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-25T22:30:39.361Z",
+ "actualizado": "2026-10-27T02:28:57.136Z",
  "partidos": [
   {
    "div": "sub20-a",
@@ -15,8 +15,8 @@
    "n": 8,
    "base": 8,
    "tipo": "descenso",
-   "altasL": 3,
-   "altasV": 0
+   "altasL": 1,
+   "altasV": 2
   },
   {
    "div": "reserva-a",
@@ -33,7 +33,7 @@
    "base": 0,
    "tipo": "titulo",
    "altasL": 0,
-   "altasV": 1
+   "altasV": 0
   },
   {
    "div": "sub20-b",
@@ -55,23 +55,6 @@
   {
    "div": "mayores-a",
    "divNombre": "Mayores A",
-   "k": "Old Ivy~Santa Elena",
-   "l": "Old Ivy",
-   "v": "Santa Elena",
-   "dia": "2026-11-01",
-   "hora": "00:00",
-   "etapa": "Permanencia",
-   "pl": 7,
-   "pv": 6,
-   "n": 8,
-   "base": 8,
-   "tipo": "descenso",
-   "altasL": 2,
-   "altasV": 1
-  },
-  {
-   "div": "mayores-a",
-   "divNombre": "Mayores A",
    "k": "Old Woodlands~ELF",
    "l": "Old Woodlands",
    "v": "ELF",
@@ -87,20 +70,20 @@
    "altasV": 1
   },
   {
-   "div": "reserva-c",
-   "divNombre": "Reserva C",
-   "k": "Old Brendans Verde~San Isidro Lomas Universitario",
-   "l": "Old Brendans Verde",
-   "v": "San Isidro Lomas Universitario",
-   "dia": "2026-10-31",
+   "div": "mayores-a",
+   "divNombre": "Mayores A",
+   "k": "Old Ivy~Santa Elena",
+   "l": "Old Ivy",
+   "v": "Santa Elena",
+   "dia": "2026-11-01",
    "hora": "11:15",
    "etapa": "Permanencia",
    "pl": 7,
-   "pv": 8,
+   "pv": 6,
    "n": 8,
    "base": 8,
    "tipo": "descenso",
-   "altasL": 3,
+   "altasL": 2,
    "altasV": 1
   },
   {
@@ -118,7 +101,7 @@
    "base": 0,
    "tipo": "titulo",
    "altasL": 0,
-   "altasV": 0
+   "altasV": 1
   },
   {
    "div": "sub20-b",
@@ -151,25 +134,8 @@
    "n": 8,
    "base": 0,
    "tipo": "titulo",
-   "altasL": 1,
-   "altasV": 1
-  },
-  {
-   "div": "mas40-b",
-   "divNombre": "Más 40 B",
-   "k": "Familiar Universitario~Sindicato Medico Del Uruguay",
-   "l": "Familiar Universitario",
-   "v": "Sindicato Medico Del Uruguay",
-   "dia": "2026-10-31",
-   "hora": "11:15",
-   "etapa": "Permanencia",
-   "pl": 8,
-   "pv": 7,
-   "n": 8,
-   "base": 8,
-   "tipo": "descenso",
    "altasL": 2,
-   "altasV": 2
+   "altasV": 1
   },
   {
    "div": "mayores-c",
@@ -195,7 +161,7 @@
    "l": "ELF",
    "v": "J.M.L.M",
    "dia": "2026-10-31",
-   "hora": "00:00",
+   "hora": "15:30",
    "etapa": "Título",
    "pl": 3,
    "pv": 4,
@@ -203,19 +169,19 @@
    "base": 0,
    "tipo": "titulo",
    "altasL": 2,
-   "altasV": 0
+   "altasV": 1
   },
   {
-   "div": "reserva-a",
-   "divNombre": "Reserva A",
-   "k": "Old Christians Azul~Old Boys",
-   "l": "Old Christians Azul",
+   "div": "presenior-a",
+   "divNombre": "Pre Senior A",
+   "k": "Urunday~Old Boys",
+   "l": "Urunday",
    "v": "Old Boys",
    "dia": "2026-10-31",
-   "hora": "09:00",
+   "hora": "11:15",
    "etapa": "Título",
-   "pl": 3,
-   "pv": 4,
+   "pl": 2,
+   "pv": 3,
    "n": 8,
    "base": 0,
    "tipo": "titulo",
@@ -236,8 +202,8 @@
    "n": 8,
    "base": 8,
    "tipo": "descenso",
-   "altasL": 3,
-   "altasV": 5
+   "altasL": 1,
+   "altasV": 1
   },
   {
    "div": "reserva-b",
@@ -253,7 +219,7 @@
    "n": 8,
    "base": 8,
    "tipo": "descenso",
-   "altasL": 1,
+   "altasL": 4,
    "altasV": 1
   },
   {
@@ -342,23 +308,6 @@
    "altasV": 2
   },
   {
-   "div": "presenior-a",
-   "divNombre": "Pre Senior A",
-   "k": "Nacional U.~Juan XXIII",
-   "l": "Nacional U.",
-   "v": "Juan XXIII",
-   "dia": "2026-10-31",
-   "hora": "11:15",
-   "etapa": "Título",
-   "pl": 3,
-   "pv": 4,
-   "n": 8,
-   "base": 0,
-   "tipo": "titulo",
-   "altasL": 0,
-   "altasV": 0
-  },
-  {
    "div": "mas40-a",
    "divNombre": "Más 40 A",
    "k": "Hebraica y Macabi~Tacuarembo Universitario",
@@ -373,7 +322,7 @@
    "base": 8,
    "tipo": "descenso",
    "altasL": 0,
-   "altasV": 0
+   "altasV": 2
   },
   {
    "div": "presenior-b",
@@ -389,8 +338,25 @@
    "n": 8,
    "base": 0,
    "tipo": "titulo",
-   "altasL": 0,
-   "altasV": 0
+   "altasL": 1,
+   "altasV": 1
+  },
+  {
+   "div": "mas40-b",
+   "divNombre": "Más 40 B",
+   "k": "Sindicato Medico Del Uruguay~Club Estudiantes Ingenieria",
+   "l": "Sindicato Medico Del Uruguay",
+   "v": "Club Estudiantes Ingenieria",
+   "dia": "2026-11-07",
+   "hora": "09:00",
+   "etapa": "Permanencia",
+   "pl": 7,
+   "pv": 5,
+   "n": 8,
+   "base": 8,
+   "tipo": "descenso",
+   "altasL": 2,
+   "altasV": 1
   },
   {
    "div": "presenior-d",
@@ -399,7 +365,7 @@
    "l": "Trouville Universitario",
    "v": "Maturana",
    "dia": "2026-10-31",
-   "hora": "09:00",
+   "hora": "11:15",
    "etapa": "Permanencia",
    "pl": 8,
    "pv": 6,
@@ -407,7 +373,7 @@
    "base": 8,
    "tipo": "descenso",
    "altasL": 0,
-   "altasV": 2
+   "altasV": 0
   },
   {
    "div": "mayores-f",
@@ -433,7 +399,7 @@
    "l": "Carrasco Lawn Tennis",
    "v": "Tenis El Pinar",
    "dia": "2026-10-31",
-   "hora": "11:15",
+   "hora": "09:00",
    "etapa": "Título y ascenso",
    "pl": 4,
    "pv": 3,
@@ -441,7 +407,7 @@
    "base": 0,
    "tipo": "titulo",
    "altasL": 2,
-   "altasV": 0
+   "altasV": 2
   },
   {
    "div": "mayores-d",
@@ -450,7 +416,7 @@
    "l": "Club Atletico Limburgo",
    "v": "La 12 Universitaria",
    "dia": "2026-11-01",
-   "hora": "00:00",
+   "hora": "09:00",
    "etapa": "Título y ascenso",
    "pl": 3,
    "pv": 4,
@@ -501,15 +467,49 @@
    "l": "Club Richard Anderson Univ.",
    "v": "Colegio Y Liceo Ingles",
    "dia": "2026-10-31",
-   "hora": "09:00",
+   "hora": "11:15",
    "etapa": "Título y ascenso (2.ª rueda)",
    "pl": 2,
    "pv": 3,
    "n": 7,
    "base": 0,
    "tipo": "titulo",
-   "altasL": 1,
+   "altasL": 0,
    "altasV": 1
+  },
+  {
+   "div": "mayores-g",
+   "divNombre": "Mayores G",
+   "k": "Maristas Deportivo~Nuestra Señora De Lourdes",
+   "l": "Maristas Deportivo",
+   "v": "Nuestra Señora De Lourdes",
+   "dia": "2026-10-28",
+   "hora": "21:00",
+   "etapa": "Título y ascenso",
+   "pl": 4,
+   "pv": 1,
+   "n": 8,
+   "base": 0,
+   "tipo": "titulo",
+   "altasL": 1,
+   "altasV": 0
+  },
+  {
+   "div": "mayores-g",
+   "divNombre": "Mayores G",
+   "k": "Varela Universitario~Familiar Universitario",
+   "l": "Varela Universitario",
+   "v": "Familiar Universitario",
+   "dia": "2026-10-28",
+   "hora": "22:00",
+   "etapa": "Título y ascenso",
+   "pl": 2,
+   "pv": 3,
+   "n": 8,
+   "base": 0,
+   "tipo": "titulo",
+   "altasL": 0,
+   "altasV": 3
   }
  ]
 }

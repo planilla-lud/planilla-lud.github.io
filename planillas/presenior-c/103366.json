@@ -1,0 +1,107 @@
+{
+ "id": "103366",
+ "categoria": "presenior-c",
+ "serie": "PSCTA",
+ "fecha": 4,
+ "fechaHora": "2026-10-24 09:00:00",
+ "cancha": "LOS TEROS",
+ "local": "EL CHORRO FUTBOL CLUB",
+ "visitante": "LA ESCAPADA UNIVERSITARIO",
+ "gl": 2,
+ "gv": 0,
+ "detalle": {
+  "nro_partido": "990",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "PRE SENIOR",
+  "categoria": "PRE-SENIOR MASCULINO",
+  "rueda": "2",
+  "Divisional": "PRESENIOR \"C\" TIT. y ASC.",
+  "Cancha": "LOS TEROS",
+  "Fecha_Inicio": "2026-10-24 09:00:00",
+  "Fecha_fin": "2026-10-24 09:00:00",
+  "Locatario": "EL CHORRO FUTBOL CLUB",
+  "goles_locatario": "2",
+  "puntos_locatario": "3",
+  "Visitante": "LA ESCAPADA UNIVERSITARIO",
+  "goles_visitante": "0",
+  "puntos_visitante": "0",
+  "walk_over": "1",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "26931",
+   "Nombre": "FEDERICO ROVELLA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "25837",
+   "Nombre": "VALENTIN MOSCONE",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "33095",
+   "Nombre": "MAURICIO BINNEWIES",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "34897",
+   "Nombre": "JOAQUIN PEREIRO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "50425",
+   "Nombre": "DIEGO FACUNDO ETCHEVERRY",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "27940",
+   "Nombre": "JOAQUIN GARAYALDE",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "30391",
+   "Nombre": "JUAN MIGUEL JAUME",
+   "camiseta": "7",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "59525",
+   "Nombre": "MARTIN IGNACIO MARIUS",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "33524",
+   "Nombre": "NICOLAS CHIANCONE",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "31095",
+   "Nombre": "RODRIGO MIGUEL GOMEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "28130",
+   "Nombre": "JUAN MARTIN FIGUEREDO",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [],
+ "cambiosL": [],
+ "cambiosV": [],
+ "golesL": [],
+ "golesV": [],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "SUB20 \"A\" TITULO",
   "Cancha": "COMPLEJO WOODLANDS SCHOOL",
-  "Fecha_Inicio": "2026-10-24 17:00:00",
-  "Fecha_fin": "2026-10-24 17:00:00",
+  "Fecha_Inicio": "2026-10-24 17:30:00",
+  "Fecha_fin": "2026-10-24 17:30:00",
   "Locatario": "OLD WOODLANDS CLUB",
   "goles_locatario": "1",
   "puntos_locatario": "0",
@@ -29,12 +29,232 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "65071",
+   "Nombre": "MANUEL FELIPE DOMINGUEZ",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "65736",
+   "Nombre": "CONSTANTINO JUAN SOTO",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "56934",
+   "Nombre": "RODRIGO VICTORICA",
+   "camiseta": "43",
+   "Capitan": ""
+  },
+  {
+   "carne": "52997",
+   "Nombre": "FELIX MARTIN ALVAREZ",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "55084",
+   "Nombre": "FRANCO PIGNANELLI",
+   "camiseta": "22",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "57173",
+   "Nombre": "ALFONSO FLEURQUIN",
+   "camiseta": "98",
+   "Capitan": ""
+  },
+  {
+   "carne": "62361",
+   "Nombre": "FACUNDO GONZALEZ",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "55093",
+   "Nombre": "TIMOTEO MORELLI",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "57168",
+   "Nombre": "PEDRO ROMERO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "55243",
+   "Nombre": "FELIPE LYONNET",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "59187",
+   "Nombre": "FACUNDO FERNANDEZ",
+   "camiseta": "47",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "55226",
+   "Nombre": "ALFONSO DEL CASTILLO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "56856",
+   "Nombre": "JOAQUIN FLEURQUIN",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "56863",
+   "Nombre": "JUAN PEDRO TORRES",
+   "camiseta": "54",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "59504",
+   "Nombre": "BAUTISTA RAUL FERNANDEZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "56866",
+   "Nombre": "MATEO AGUIRRE",
+   "camiseta": "59",
+   "Capitan": ""
+  },
+  {
+   "carne": "55250",
+   "Nombre": "TOMAS PEREYRA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "56859",
+   "Nombre": "AGUSTIN FERNANDEZ",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "59506",
+   "Nombre": "AGUSTIN HOUNIE",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "64835",
+   "Nombre": "FACUNDO MARQUEZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "55216",
+   "Nombre": "GASPAR HUGHES",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "55609",
+   "Nombre": "THEO CORTABARRIA",
+   "camiseta": "20",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "55084",
+   "Jug_Sale": "FRANCO PIGNANELLI",
+   "CarneEntra": "62195",
+   "Jug_Entra": "FRANCO MORELLI",
+   "camiseta": "23",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "65736",
+   "Jug_Sale": "CONSTANTINO JUAN SOTO",
+   "CarneEntra": "55065",
+   "Jug_Entra": "FELIPE SONEIRA",
+   "camiseta": "8",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "57173",
+   "Jug_Sale": "ALFONSO FLEURQUIN",
+   "CarneEntra": "62204",
+   "Jug_Entra": "JUAN MARTIN GALINDEZ",
+   "camiseta": "7",
+   "minutos": "87"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "56859",
+   "Jug_Sale": "AGUSTIN FERNANDEZ",
+   "CarneEntra": "64681",
+   "Jug_Entra": "FACUNDO TOPOLANSKI",
+   "camiseta": "33",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "55216",
+   "Jug_Sale": "GASPAR HUGHES",
+   "CarneEntra": "56240",
+   "Jug_Entra": "THIAGO VIERA",
+   "camiseta": "25",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "56856",
+   "Jug_Sale": "JOAQUIN FLEURQUIN",
+   "CarneEntra": "65751",
+   "Jug_Entra": "SANTIAGO GOSSWEILER",
+   "camiseta": "42",
+   "minutos": "81"
+  },
+  {
+   "CarneSale": "59506",
+   "Jug_Sale": "AGUSTIN HOUNIE",
+   "CarneEntra": "55211",
+   "Jug_Entra": "SANTIAGO BOUTMY",
+   "camiseta": "8",
+   "minutos": "87"
+  },
+  {
+   "CarneSale": "64835",
+   "Jug_Sale": "FACUNDO MARQUEZ",
+   "CarneEntra": "54771",
+   "Jug_Entra": "MARTIN MIHALIK",
+   "camiseta": "37",
+   "minutos": "87"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "62361",
+   "Nombre": "FACUNDO GONZALEZ",
+   "minutos": "40",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "55250",
+   "Nombre": "TOMAS PEREYRA",
+   "minutos": "42",
+   "EnContra": "1"
+  },
+  {
+   "carne": "55609",
+   "Nombre": "THEO CORTABARRIA",
+   "minutos": "80",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

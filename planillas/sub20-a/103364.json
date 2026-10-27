@@ -1,0 +1,284 @@
+{
+ "id": "103364",
+ "categoria": "sub20-a",
+ "serie": "20AT",
+ "fecha": 5,
+ "fechaHora": "2026-10-24 15:30:00",
+ "cancha": "ST. BRENDANS",
+ "local": "OLD BRENDANS CLUB",
+ "visitante": "CLUB SEMINARIO",
+ "gl": 1,
+ "gv": 2,
+ "detalle": {
+  "nro_partido": "379",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "2",
+  "Divisional": "SUB20 \"A\" TITULO",
+  "Cancha": "ST. BRENDANS",
+  "Fecha_Inicio": "2026-10-24 17:15:00",
+  "Fecha_fin": "2026-10-24 17:15:00",
+  "Locatario": "OLD BRENDANS CLUB",
+  "goles_locatario": "1",
+  "puntos_locatario": "0",
+  "Visitante": "CLUB SEMINARIO",
+  "goles_visitante": "2",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "58285",
+   "Nombre": "RODRIGO BROTONS",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "66331",
+   "Nombre": "JUAN BARRANDEGUY",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "56477",
+   "Nombre": "SEBASTIAN GRATADOUX",
+   "camiseta": "47",
+   "Capitan": ""
+  },
+  {
+   "carne": "58830",
+   "Nombre": "JOAQUÌN ROMERO",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "53875",
+   "Nombre": "ALFONSO ABELLA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "61164",
+   "Nombre": "MATEO CAPLIVSCHI",
+   "camiseta": "48",
+   "Capitan": ""
+  },
+  {
+   "carne": "59207",
+   "Nombre": "IGNACIO RODRIGUEZ",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "58833",
+   "Nombre": "MARCOS ERRECART CARRATU",
+   "camiseta": "50",
+   "Capitan": ""
+  },
+  {
+   "carne": "53395",
+   "Nombre": "MAURO MASENA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "53397",
+   "Nombre": "ELIAS GOMOLINSKY",
+   "camiseta": "9",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "55708",
+   "Nombre": "GONZALO BARTESAGHI",
+   "camiseta": "16",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "58598",
+   "Nombre": "NICOLAS MAZZILLI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "56208",
+   "Nombre": "LORENZO MANDIA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "57302",
+   "Nombre": "JUAN BAUTISTA PAMPIN",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "56647",
+   "Nombre": "JOAQUIN EMILIANO SOLOGAISTOA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "56195",
+   "Nombre": "SANTIAGO ALFREDO CAFFA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "56639",
+   "Nombre": "BENJAMIN MORALES",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56645",
+   "Nombre": "MAXIMO BERTOLA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "56643",
+   "Nombre": "FEDERICO MOSCA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "54598",
+   "Nombre": "LUCA SIVORI",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "63872",
+   "Nombre": "MANUEL DE LA PEÑA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "56642",
+   "Nombre": "MATEO PEREZ",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "58830",
+   "Jug_Sale": "JOAQUÌN ROMERO",
+   "CarneEntra": "58816",
+   "Jug_Entra": "GUILLERMO SOTO",
+   "camiseta": "45",
+   "minutos": "44"
+  },
+  {
+   "CarneSale": "56477",
+   "Jug_Sale": "SEBASTIAN GRATADOUX",
+   "CarneEntra": "56689",
+   "Jug_Entra": "DIEGO ANDRE MENDOZA",
+   "camiseta": "57",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61164",
+   "Jug_Sale": "MATEO CAPLIVSCHI",
+   "CarneEntra": "54756",
+   "Jug_Entra": "ADRIANO MARTIN AGGIO",
+   "camiseta": "22",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "58833",
+   "Jug_Sale": "MARCOS ERRECART CARRATU",
+   "CarneEntra": "59205",
+   "Jug_Entra": "MATEO WIBMER",
+   "camiseta": "82",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "53875",
+   "Jug_Sale": "ALFONSO ABELLA",
+   "CarneEntra": "55605",
+   "Jug_Entra": "BAUTISTA PARODI",
+   "camiseta": "13",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "53395",
+   "Jug_Sale": "MAURO MASENA",
+   "CarneEntra": "56472",
+   "Jug_Entra": "FACUNDO ASTIAZARAN",
+   "camiseta": "24",
+   "minutos": "80"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "57302",
+   "Jug_Sale": "JUAN BAUTISTA PAMPIN",
+   "CarneEntra": "62949",
+   "Jug_Entra": "JUAN IGNACIO PEDROZO",
+   "camiseta": "3",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "56642",
+   "Jug_Sale": "MATEO PEREZ",
+   "CarneEntra": "62171",
+   "Jug_Entra": "MATIAS RODRIGUEZ",
+   "camiseta": "6",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "56195",
+   "Jug_Sale": "SANTIAGO ALFREDO CAFFA",
+   "CarneEntra": "68563",
+   "Jug_Entra": "BENICIO CUEVAS",
+   "camiseta": "17",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "56208",
+   "Jug_Sale": "LORENZO MANDIA",
+   "CarneEntra": "55503",
+   "Jug_Entra": "SALVADOR DI CANDIA",
+   "camiseta": "11",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "54598",
+   "Jug_Sale": "LUCA SIVORI",
+   "CarneEntra": "54965",
+   "Jug_Entra": "JOAQUIN EMILIO VOLA",
+   "camiseta": "14",
+   "minutos": "80"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "53395",
+   "Nombre": "MAURO MASENA",
+   "minutos": "20",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "56643",
+   "Nombre": "FEDERICO MOSCA",
+   "minutos": "9",
+   "EnContra": "1"
+  },
+  {
+   "carne": "56645",
+   "Nombre": "MAXIMO BERTOLA",
+   "minutos": "84",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

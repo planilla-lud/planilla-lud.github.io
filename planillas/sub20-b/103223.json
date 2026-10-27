@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "SUB20 \"B\" TITULO",
   "Cancha": "COMPLEJO URUNDAY UNIVERSITARIO",
-  "Fecha_Inicio": "2026-10-24 17:00:00",
-  "Fecha_fin": "2026-10-24 17:00:00",
+  "Fecha_Inicio": "2026-10-24 17:30:00",
+  "Fecha_fin": "2026-10-24 17:30:00",
   "Locatario": "ISASA UNIVERSITARIO",
   "goles_locatario": "2",
   "puntos_locatario": "1",
@@ -29,12 +29,254 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "53537",
+   "Nombre": "MATEO VAZQUEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "57805",
+   "Nombre": "MATEO UBERTI",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "64257",
+   "Nombre": "JUAN MARTÌN GRAU",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "56489",
+   "Nombre": "JOAQUIN MUNIZ",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "62779",
+   "Nombre": "MIRKO DAMIAN MALAN",
+   "camiseta": "78",
+   "Capitan": ""
+  },
+  {
+   "carne": "58729",
+   "Nombre": "MATIAS CAMACHO",
+   "camiseta": "4",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "63384",
+   "Nombre": "AGUSTIN YERLE",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "68916",
+   "Nombre": "THIAGO MOMBRU",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "56838",
+   "Nombre": "LUCA ALESSANDRO COCINA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "66420",
+   "Nombre": "VALENTIN GASPAR QUARNETI",
+   "camiseta": "66",
+   "Capitan": ""
+  },
+  {
+   "carne": "56668",
+   "Nombre": "TADDEO BASSI",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "63317",
+   "Nombre": "NICOLAS GONZALEZ",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "56733",
+   "Nombre": "MATEO SILVIO RODRIGUEZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "64836",
+   "Nombre": "MARCOS FABIAN VIGNOLO",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "63253",
+   "Nombre": "THIAGO MARMISSOLLE",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "67107",
+   "Nombre": "IVAN BENTANCOR",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "64620",
+   "Nombre": "TOMAS PEREZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "56734",
+   "Nombre": "JOAQUIN CABRERA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "64614",
+   "Nombre": "FACUNDO AGUSTIN PELUFFO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "56111",
+   "Nombre": "SANTIAGO CANOURA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "63734",
+   "Nombre": "BENJAMIN LABORDE",
+   "camiseta": "11",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56113",
+   "Nombre": "JUAN FRANCISCO VOMERO",
+   "camiseta": "14",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "63384",
+   "Jug_Sale": "AGUSTIN YERLE",
+   "CarneEntra": "57367",
+   "Jug_Entra": "VALENTIN BARRETO",
+   "camiseta": "99",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "66420",
+   "Jug_Sale": "VALENTIN GASPAR QUARNETI",
+   "CarneEntra": "63384",
+   "Jug_Entra": "AGUSTIN YERLE",
+   "camiseta": "7",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "68916",
+   "Jug_Sale": "THIAGO MOMBRU",
+   "CarneEntra": "58731",
+   "Jug_Entra": "JULIAN ALEJANDRO NUÑEZ",
+   "camiseta": "8",
+   "minutos": "88"
+  },
+  {
+   "CarneSale": "56668",
+   "Jug_Sale": "TADDEO BASSI",
+   "CarneEntra": "66420",
+   "Jug_Entra": "VALENTIN GASPAR QUARNETI",
+   "camiseta": "66",
+   "minutos": "89"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "67107",
+   "Jug_Sale": "IVAN BENTANCOR",
+   "CarneEntra": "57024",
+   "Jug_Entra": "JULIAN GONCALVEZ",
+   "camiseta": "17",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64836",
+   "Jug_Sale": "MARCOS FABIAN VIGNOLO",
+   "CarneEntra": "66800",
+   "Jug_Entra": "RODRIGO SILVERA",
+   "camiseta": "3",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56113",
+   "Jug_Sale": "JUAN FRANCISCO VOMERO",
+   "CarneEntra": "64622",
+   "Jug_Entra": "TEO FELIPE SOCA",
+   "camiseta": "20",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "64614",
+   "Jug_Sale": "FACUNDO AGUSTIN PELUFFO",
+   "CarneEntra": "67548",
+   "Jug_Entra": "MARCOS SANTIAGO BRESCIANI",
+   "camiseta": "29",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "56733",
+   "Jug_Sale": "MATEO SILVIO RODRIGUEZ",
+   "CarneEntra": "58756",
+   "Jug_Entra": "FABRICIO MAGLIANO",
+   "camiseta": "18",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "56734",
+   "Jug_Sale": "JOAQUIN CABRERA",
+   "CarneEntra": "67108",
+   "Jug_Entra": "FRANCO PECCOTIELLO",
+   "camiseta": "69",
+   "minutos": "87"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "56668",
+   "Nombre": "TADDEO BASSI",
+   "minutos": "15",
+   "EnContra": "0"
+  },
+  {
+   "carne": "56668",
+   "Nombre": "TADDEO BASSI",
+   "minutos": "35",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "64614",
+   "Nombre": "FACUNDO AGUSTIN PELUFFO",
+   "minutos": "46",
+   "EnContra": "1"
+  },
+  {
+   "carne": "67548",
+   "Nombre": "MARCOS SANTIAGO BRESCIANI",
+   "minutos": "90",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

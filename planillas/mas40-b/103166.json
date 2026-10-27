@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAS40 \"B\" PER. y DESC,",
   "Cancha": "COMPLEJO ARACHAN",
-  "Fecha_Inicio": "2026-10-24 10:30:00",
-  "Fecha_fin": "2026-10-24 10:30:00",
+  "Fecha_Inicio": "2026-10-24 11:00:00",
+  "Fecha_fin": "2026-10-24 11:00:00",
   "Locatario": "OLIMAR",
   "goles_locatario": "0",
   "puntos_locatario": "1",
@@ -29,12 +29,249 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "11179",
+   "Nombre": "ALVARO DANIEL SIERRA",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "28168",
+   "Nombre": "EDGARDO FABIAN ALVAREZ",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "22324",
+   "Nombre": "FERNANDO DIEGO DELLEPIANE",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "16871",
+   "Nombre": "NICOLAS GABRIEL CAMPANELLA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "45102",
+   "Nombre": "ESTEBAN ANDRES FERNANDEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "16310",
+   "Nombre": "IGNACIO POSADA",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "35024",
+   "Nombre": "GERARDO LUCAS PAGANI",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "64699",
+   "Nombre": "DIEGO RIVERO",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "23561",
+   "Nombre": "GERMAN NICOLAS CHEBATAROFF",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "35128",
+   "Nombre": "MARCOS ALBERTO MERLO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "21414",
+   "Nombre": "GERMAN DEVITTA",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "25509",
+   "Nombre": "ANDRES RODRIGO GARCIA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "28139",
+   "Nombre": "ENZO JOSE FUDA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "25540",
+   "Nombre": "IGNACIO BELLO",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "25585",
+   "Nombre": "NICOLAS GALMARINI",
+   "camiseta": "16",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "39240",
+   "Nombre": "LIBER ILLINGTTON MAGALLANES",
+   "camiseta": "41",
+   "Capitan": ""
+  },
+  {
+   "carne": "21969",
+   "Nombre": "MATIAS MUÑOZ",
+   "camiseta": "38",
+   "Capitan": ""
+  },
+  {
+   "carne": "27920",
+   "Nombre": "GONZALO LEON ARIAS",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "25414",
+   "Nombre": "SERGIO LUIS MASTROGIOVANNI",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "40190",
+   "Nombre": "PABLO NICOLAS MAGRIS",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "25811",
+   "Nombre": "CHRISTIAN MIRAMBELL",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "36364",
+   "Nombre": "WILLMAN SEBASTIAN ROMERO",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "21414",
+   "Jug_Sale": "GERMAN DEVITTA",
+   "CarneEntra": "37800",
+   "Jug_Entra": "JOSE RAUL RODRIGUEZ",
+   "camiseta": "18",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "28168",
+   "Jug_Sale": "EDGARDO FABIAN ALVAREZ",
+   "CarneEntra": "64696",
+   "Jug_Entra": "MARCELO MADJARIAN",
+   "camiseta": "26",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "45102",
+   "Jug_Sale": "ESTEBAN ANDRES FERNANDEZ",
+   "CarneEntra": "16593",
+   "Jug_Entra": "JOSE MIGUEL ELOSEGUI",
+   "camiseta": "21",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "16310",
+   "Jug_Sale": "IGNACIO POSADA",
+   "CarneEntra": "52443",
+   "Jug_Entra": "MARIO GUSTAVO ALONSO",
+   "camiseta": "6",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "35128",
+   "Jug_Sale": "MARCOS ALBERTO MERLO",
+   "CarneEntra": "18826",
+   "Jug_Entra": "DANIEL FEDERICO FOLABELLA",
+   "camiseta": "13",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "45102",
+   "Jug_Sale": "ESTEBAN ANDRES FERNANDEZ",
+   "CarneEntra": "20604",
+   "Jug_Entra": "PABLO FRESIA",
+   "camiseta": "14",
+   "minutos": "86"
+  },
+  {
+   "CarneSale": "35024",
+   "Jug_Sale": "GERARDO LUCAS PAGANI",
+   "CarneEntra": "19849",
+   "Jug_Entra": "GASTON FERNANDEZ",
+   "camiseta": "10",
+   "minutos": "86"
+  },
+  {
+   "CarneSale": "16871",
+   "Jug_Sale": "NICOLAS GABRIEL CAMPANELLA",
+   "CarneEntra": "68872",
+   "Jug_Entra": "PABLO DARCI YASUIRE",
+   "camiseta": "25",
+   "minutos": "89"
+  },
+  {
+   "CarneSale": "64699",
+   "Jug_Sale": "DIEGO RIVERO",
+   "CarneEntra": "16925",
+   "Jug_Entra": "HENRY MAURICIO ACUÑA",
+   "camiseta": "4",
+   "minutos": "90"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "36364",
+   "Jug_Sale": "WILLMAN SEBASTIAN ROMERO",
+   "CarneEntra": "22551",
+   "Jug_Entra": "RODRIGO DANIEL LESTIDO",
+   "camiseta": "6",
+   "minutos": "40"
+  },
+  {
+   "CarneSale": "39240",
+   "Jug_Sale": "LIBER ILLINGTTON MAGALLANES",
+   "CarneEntra": "28313",
+   "Jug_Entra": "RICARDO FERNANDO MENEGUS",
+   "camiseta": "18",
+   "minutos": "59"
+  },
+  {
+   "CarneSale": "28313",
+   "Jug_Sale": "RICARDO FERNANDO MENEGUS",
+   "CarneEntra": "39240",
+   "Jug_Entra": "LIBER ILLINGTTON MAGALLANES",
+   "camiseta": "41",
+   "minutos": "67"
+  }
+ ],
  "golesL": [],
  "golesV": [],
- "expulsadosL": [],
+ "expulsadosL": [
+  {
+   "Nombre": "FERNANDO DIEGO DELLEPIANE",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

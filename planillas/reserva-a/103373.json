@@ -1,0 +1,263 @@
+{
+ "id": "103373",
+ "categoria": "reserva-a",
+ "serie": "RSAT",
+ "fecha": 4,
+ "fechaHora": "2026-10-24 09:00:00",
+ "cancha": "COMP. DEVOTO (NAUT. PICHINCHA)",
+ "local": "NAUTICO CARRASCO Y PUNTA GORDA",
+ "visitante": "OLD CHRISTIANS CLUB",
+ "gl": 0,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "627",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "RESERVA",
+  "categoria": "RESERVA MASCULINO",
+  "rueda": "2",
+  "Divisional": "RESERVA \"A\" TITULO",
+  "Cancha": "COMP. DEVOTO (NAUT. PICHINCHA)",
+  "Fecha_Inicio": "2026-10-24 11:00:00",
+  "Fecha_fin": "2026-10-24 11:00:00",
+  "Locatario": "NAUTICO CARRASCO Y PUNTA GORDA",
+  "goles_locatario": "0",
+  "puntos_locatario": "0",
+  "Visitante": "OLD CHRISTIANS CLUB",
+  "goles_visitante": "1",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "48273",
+   "Nombre": "SORIA PALLERO DIEGO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "53624",
+   "Nombre": "MATEO OURTHE",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "42059",
+   "Nombre": "RODRIGO FERREIRO",
+   "camiseta": "3",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "53595",
+   "Nombre": "CARLOS GONZALO DANERS",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "42290",
+   "Nombre": "PABLO JOAQUIN PARADO",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "49414",
+   "Nombre": "DIEGO GABRIEL HANDALIAN",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "48896",
+   "Nombre": "FACUNDO ALPUIN",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "49766",
+   "Nombre": "JUAN SALHON",
+   "camiseta": "69",
+   "Capitan": ""
+  },
+  {
+   "carne": "55476",
+   "Nombre": "IGNACIO MELLO",
+   "camiseta": "52",
+   "Capitan": ""
+  },
+  {
+   "carne": "55602",
+   "Nombre": "CAETANO MARRONE",
+   "camiseta": "92",
+   "Capitan": ""
+  },
+  {
+   "carne": "45826",
+   "Nombre": "VALENTIN DE LEONARDIS",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "48037",
+   "Nombre": "MATEO FABREGAT",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "38310",
+   "Nombre": "FEDERICO PONTE",
+   "camiseta": "95",
+   "Capitan": ""
+  },
+  {
+   "carne": "52819",
+   "Nombre": "IÑAKI LARRAECHEA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "67291",
+   "Nombre": "AUGUSTO PAULLIER",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "52331",
+   "Nombre": "JOSE PEDRO PARODI",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "30724",
+   "Nombre": "FEDERICO RICARDO MOLINS",
+   "camiseta": "93",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "51135",
+   "Nombre": "JOAQUIN FABREGAT",
+   "camiseta": "61",
+   "Capitan": ""
+  },
+  {
+   "carne": "55392",
+   "Nombre": "SANTIAGO COSTA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "55118",
+   "Nombre": "JUAN PABLO MOREIRA",
+   "camiseta": "97",
+   "Capitan": ""
+  },
+  {
+   "carne": "56908",
+   "Nombre": "GUILLERMO HOUNIE",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "66722",
+   "Nombre": "JOAQUIN RODRIGUEZ",
+   "camiseta": "38",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "45826",
+   "Jug_Sale": "VALENTIN DE LEONARDIS",
+   "CarneEntra": "54738",
+   "Jug_Entra": "THIAGO MORLAN",
+   "camiseta": "5",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "55602",
+   "Jug_Sale": "CAETANO MARRONE",
+   "CarneEntra": "55160",
+   "Jug_Entra": "JOAQUIN PEÑA",
+   "camiseta": "10",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "53624",
+   "Jug_Sale": "MATEO OURTHE",
+   "CarneEntra": "55719",
+   "Jug_Entra": "NICOLAS REY",
+   "camiseta": "14",
+   "minutos": "78"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "56908",
+   "Jug_Sale": "GUILLERMO HOUNIE",
+   "CarneEntra": "53214",
+   "Jug_Entra": "MANUEL PARODI",
+   "camiseta": "17",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "55392",
+   "Jug_Sale": "SANTIAGO COSTA",
+   "CarneEntra": "50902",
+   "Jug_Entra": "SANTIAGO VINCENT",
+   "camiseta": "20",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "51135",
+   "Jug_Sale": "JOAQUIN FABREGAT",
+   "CarneEntra": "37259",
+   "Jug_Entra": "IGNACIO MACHADO",
+   "camiseta": "41",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "55392",
+   "Jug_Sale": "SANTIAGO COSTA",
+   "CarneEntra": "46771",
+   "Jug_Entra": "SANTIAGO HAM",
+   "camiseta": "11",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "30724",
+   "Jug_Sale": "FEDERICO RICARDO MOLINS",
+   "CarneEntra": "49655",
+   "Jug_Entra": "HERNAN ALEGRESA",
+   "camiseta": "70",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "52331",
+   "Jug_Sale": "JOSE PEDRO PARODI",
+   "CarneEntra": "44918",
+   "Jug_Entra": "JOAQUIN BLANCO",
+   "camiseta": "29",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "66722",
+   "Jug_Sale": "JOAQUIN RODRIGUEZ",
+   "CarneEntra": "64683",
+   "Jug_Entra": "ALBERTO FELIPE ROSSO",
+   "camiseta": "36",
+   "minutos": "90"
+  }
+ ],
+ "golesL": [],
+ "golesV": [
+  {
+   "carne": "56908",
+   "Nombre": "GUILLERMO HOUNIE",
+   "minutos": "32",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

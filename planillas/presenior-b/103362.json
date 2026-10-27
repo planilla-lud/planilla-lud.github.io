@@ -1,0 +1,317 @@
+{
+ "id": "103362",
+ "categoria": "presenior-b",
+ "serie": "PSBPD",
+ "fecha": 4,
+ "fechaHora": "2026-10-24 11:15:00",
+ "cancha": "COMPLEJO ARACHAN",
+ "local": "WOLFRAMIO",
+ "visitante": "ARGOS ",
+ "gl": 5,
+ "gv": 4,
+ "detalle": {
+  "nro_partido": "877",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "PRE SENIOR",
+  "categoria": "PRE-SENIOR MASCULINO",
+  "rueda": "2",
+  "Divisional": "PRESENIOR \"B\" PER. y DESC",
+  "Cancha": "COMPLEJO ARACHAN",
+  "Fecha_Inicio": "2026-10-24 13:10:00",
+  "Fecha_fin": "2026-10-24 13:10:00",
+  "Locatario": "WOLFRAMIO",
+  "goles_locatario": "5",
+  "puntos_locatario": "3",
+  "Visitante": "ARGOS ",
+  "goles_visitante": "4",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "24370",
+   "Nombre": "JUAN PABLO ROMERO",
+   "camiseta": "12",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "39864",
+   "Nombre": "ANTHONY RODRIGO ALFONSO",
+   "camiseta": "49",
+   "Capitan": ""
+  },
+  {
+   "carne": "24978",
+   "Nombre": "ALEJANDRO BRUSONI",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "49577",
+   "Nombre": "FABIO ALEXANDER SUAREZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "54342",
+   "Nombre": "SANTIAGO MARTIN RODRIGUEZ",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "33546",
+   "Nombre": "JUAN EDUARDO GUTIERREZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "26387",
+   "Nombre": "BERNARDO ALARCON",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "35006",
+   "Nombre": "JOSE PABLO SOUZA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "30456",
+   "Nombre": "MATIAS FEDERICO PAZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "59524",
+   "Nombre": "TILSO RAMON LOZANO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "31372",
+   "Nombre": "JUAN NICOLAS MOSCOSO",
+   "camiseta": "74",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "27339",
+   "Nombre": "RODRIGO LEONEL GONZALEZ",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "69029",
+   "Nombre": "EMILIANO RAPHAEL GARIBOTTI",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "50530",
+   "Nombre": "SEBASTIAN JARA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "31613",
+   "Nombre": "LUCAS LEONEL BOUISSA",
+   "camiseta": "16",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "31867",
+   "Nombre": "MATIAS GONZALO SCAFFO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "66159",
+   "Nombre": "JHONY ALEXANDER BARCIA",
+   "camiseta": "90",
+   "Capitan": ""
+  },
+  {
+   "carne": "38008",
+   "Nombre": "JOSE MAURO RODRIGUEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "68573",
+   "Nombre": "DIEGO COSTA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "67473",
+   "Nombre": "JUAN FERNANDEZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "38103",
+   "Nombre": "FACUNDO PEREYRA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "32868",
+   "Nombre": "GUILLERMO SILVA",
+   "camiseta": "99",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "26387",
+   "Jug_Sale": "BERNARDO ALARCON",
+   "CarneEntra": "35489",
+   "Jug_Entra": "JUAN ANDRES FERREIRA",
+   "camiseta": "25",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "49577",
+   "Jug_Sale": "FABIO ALEXANDER SUAREZ",
+   "CarneEntra": "65283",
+   "Jug_Entra": "MARCELO FRANCISCO ALVES",
+   "camiseta": "22",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "35006",
+   "Jug_Sale": "JOSE PABLO SOUZA",
+   "CarneEntra": "68940",
+   "Jug_Entra": "FRANCISCO FABIAN PERDOMO",
+   "camiseta": "24",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "33546",
+   "Jug_Sale": "JUAN EDUARDO GUTIERREZ",
+   "CarneEntra": "26387",
+   "Jug_Entra": "BERNARDO ALARCON",
+   "camiseta": "80",
+   "minutos": "80"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "31867",
+   "Jug_Sale": "MATIAS GONZALO SCAFFO",
+   "CarneEntra": "61913",
+   "Jug_Entra": "PABLO GABRIEL CUADRADO",
+   "camiseta": "38",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "38008",
+   "Jug_Sale": "JOSE MAURO RODRIGUEZ",
+   "CarneEntra": "47946",
+   "Jug_Entra": "FABRIZIO JAVIER GONZALEZ",
+   "camiseta": "8",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68573",
+   "Jug_Sale": "DIEGO COSTA",
+   "CarneEntra": "27165",
+   "Jug_Entra": "FRANCISCO SEBASTIAN ARNALDI",
+   "camiseta": "7",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "50530",
+   "Jug_Sale": "SEBASTIAN JARA",
+   "CarneEntra": "31867",
+   "Jug_Entra": "MATIAS GONZALO SCAFFO",
+   "camiseta": "23",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "31613",
+   "Jug_Sale": "LUCAS LEONEL BOUISSA",
+   "CarneEntra": "38008",
+   "Jug_Entra": "JOSE MAURO RODRIGUEZ",
+   "camiseta": "80",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "69029",
+   "Jug_Sale": "EMILIANO RAPHAEL GARIBOTTI",
+   "CarneEntra": "68573",
+   "Jug_Entra": "DIEGO COSTA",
+   "camiseta": "2",
+   "minutos": "83"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "26387",
+   "Nombre": "BERNARDO ALARCON",
+   "minutos": "27",
+   "EnContra": "0"
+  },
+  {
+   "carne": "30456",
+   "Nombre": "MATIAS FEDERICO PAZ",
+   "minutos": "44",
+   "EnContra": "0"
+  },
+  {
+   "carne": "35006",
+   "Nombre": "JOSE PABLO SOUZA",
+   "minutos": "86",
+   "EnContra": "0"
+  },
+  {
+   "carne": "39864",
+   "Nombre": "ANTHONY RODRIGO ALFONSO",
+   "minutos": "70",
+   "EnContra": "0"
+  },
+  {
+   "carne": "54342",
+   "Nombre": "SANTIAGO MARTIN RODRIGUEZ",
+   "minutos": "88",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "32868",
+   "Nombre": "GUILLERMO SILVA",
+   "minutos": "1",
+   "EnContra": "1"
+  },
+  {
+   "carne": "32868",
+   "Nombre": "GUILLERMO SILVA",
+   "minutos": "81",
+   "EnContra": "1"
+  },
+  {
+   "carne": "32868",
+   "Nombre": "GUILLERMO SILVA",
+   "minutos": "85",
+   "EnContra": "1"
+  },
+  {
+   "carne": "38103",
+   "Nombre": "FACUNDO PEREYRA",
+   "minutos": "14",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": [
+  {
+   "Nombre": "JUAN FERNANDEZ",
+   "observaciones": ""
+  }
+ ]
+}

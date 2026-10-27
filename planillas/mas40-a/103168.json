@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAS40 \"A\" TITULO",
   "Cancha": "OLD CHRISTIANS CLUB",
-  "Fecha_Inicio": "2026-10-24 10:30:00",
-  "Fecha_fin": "2026-10-24 10:30:00",
+  "Fecha_Inicio": "2026-10-24 10:55:00",
+  "Fecha_fin": "2026-10-24 10:55:00",
   "Locatario": "OLD CHRISTIANS CLUB",
   "goles_locatario": "5",
   "puntos_locatario": "3",
@@ -29,12 +29,304 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "16062",
+   "Nombre": "JUAN MARTIN GONNET",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "17786",
+   "Nombre": "RODRIGO LUSSICH",
+   "camiseta": "82",
+   "Capitan": ""
+  },
+  {
+   "carne": "20807",
+   "Nombre": "AGUSTIN MANUEL RACHETTI",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "20220",
+   "Nombre": "SANTIAGO EDUARDO SUAREZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "15491",
+   "Nombre": "ALBERTO CARRACEDO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "57117",
+   "Nombre": "LUIS PEDRO GARCIA",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "22202",
+   "Nombre": "GERARDO GARCIA PINTOS",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "16903",
+   "Nombre": "JORGE CARLOS RACHETTI",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "24441",
+   "Nombre": "NICOLAS GARCIA PINTOS",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "16336",
+   "Nombre": "DIEGO SEBASTIAN SUAREZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "15398",
+   "Nombre": "PABLO CRISTOBO",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "19371",
+   "Nombre": "JOSE IGNACIO LAMANNA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "62022",
+   "Nombre": "MAURICIO ANTONIO DURAND",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "26401",
+   "Nombre": "GONZALO DANIEL ROMITTI",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "20820",
+   "Nombre": "GABRIEL ALEJANDRO PAISAN",
+   "camiseta": "6",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "17355",
+   "Nombre": "LUIS GUZMAN PEREZ",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "62023",
+   "Nombre": "GONZALO VALLE",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "61374",
+   "Nombre": "ALVARO RAFAEL GONZALEZ",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "22421",
+   "Nombre": "GERMAN DANIEL INDERKUM",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "24529",
+   "Nombre": "MARTIN MARTINEZ",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "57381",
+   "Nombre": "GERARDO BARBIERI",
+   "camiseta": "90",
+   "Capitan": ""
+  },
+  {
+   "carne": "58329",
+   "Nombre": "FEDERICO DAMIAN RODRIGUEZ",
+   "camiseta": "20",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "57117",
+   "Jug_Sale": "LUIS PEDRO GARCIA",
+   "CarneEntra": "17311",
+   "Jug_Entra": "JUAN MANUEL SIENRA",
+   "camiseta": "18",
+   "minutos": "34"
+  },
+  {
+   "CarneSale": "15398",
+   "Jug_Sale": "PABLO CRISTOBO",
+   "CarneEntra": "24441",
+   "Jug_Entra": "NICOLAS GARCIA PINTOS",
+   "camiseta": "88",
+   "minutos": "81"
+  },
+  {
+   "CarneSale": "17786",
+   "Jug_Sale": "RODRIGO LUSSICH",
+   "CarneEntra": "16695",
+   "Jug_Entra": "SANTIAGO PABLO LUSSICH",
+   "camiseta": "99",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "20807",
+   "Jug_Sale": "AGUSTIN MANUEL RACHETTI",
+   "CarneEntra": "21636",
+   "Jug_Entra": "NICOLAS HENDERSON",
+   "camiseta": "9",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "20220",
+   "Jug_Sale": "SANTIAGO EDUARDO SUAREZ",
+   "CarneEntra": "21006",
+   "Jug_Entra": "MAURO FERNANDO SORRENTINO",
+   "camiseta": "32",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "15491",
+   "Jug_Sale": "ALBERTO CARRACEDO",
+   "CarneEntra": "18059",
+   "Jug_Entra": "FEDERICO GREGORIO YOFFE",
+   "camiseta": "30",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "22202",
+   "Jug_Sale": "GERARDO GARCIA PINTOS",
+   "CarneEntra": "15560",
+   "Jug_Entra": "FEDERICO MANGINO",
+   "camiseta": "71",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "16903",
+   "Jug_Sale": "JORGE CARLOS RACHETTI",
+   "CarneEntra": "14507",
+   "Jug_Entra": "JOSE MARIA OBES",
+   "camiseta": "15",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "24441",
+   "Jug_Sale": "NICOLAS GARCIA PINTOS",
+   "CarneEntra": "21797",
+   "Jug_Entra": "JUAN IGNACIO LUSSICH",
+   "camiseta": "31",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "16336",
+   "Jug_Sale": "DIEGO SEBASTIAN SUAREZ",
+   "CarneEntra": "43379",
+   "Jug_Entra": "FEDERICO RODOLFO MENDEZ",
+   "camiseta": "22",
+   "minutos": "45"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "62022",
+   "Jug_Sale": "MAURICIO ANTONIO DURAND",
+   "CarneEntra": "22401",
+   "Jug_Entra": "GUILLERMO RAFFO",
+   "camiseta": "37",
+   "minutos": "22"
+  },
+  {
+   "CarneSale": "20820",
+   "Jug_Sale": "GABRIEL ALEJANDRO PAISAN",
+   "CarneEntra": "22455",
+   "Jug_Entra": "GONZALO GAMBETTA",
+   "camiseta": "15",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61374",
+   "Jug_Sale": "ALVARO RAFAEL GONZALEZ",
+   "CarneEntra": "62022",
+   "Jug_Entra": "MAURICIO ANTONIO DURAND",
+   "camiseta": "4",
+   "minutos": "31"
+  },
+  {
+   "CarneSale": "20820",
+   "Jug_Sale": "GABRIEL ALEJANDRO PAISAN",
+   "CarneEntra": "21261",
+   "Jug_Entra": "FEDERICO JOSE MORGADE",
+   "camiseta": "8",
+   "minutos": "53"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "16336",
+   "Nombre": "DIEGO SEBASTIAN SUAREZ",
+   "minutos": "7",
+   "EnContra": "0"
+  },
+  {
+   "carne": "16695",
+   "Nombre": "SANTIAGO PABLO LUSSICH",
+   "minutos": "83",
+   "EnContra": "0"
+  },
+  {
+   "carne": "21636",
+   "Nombre": "NICOLAS HENDERSON",
+   "minutos": "13",
+   "EnContra": "0"
+  },
+  {
+   "carne": "24441",
+   "Nombre": "NICOLAS GARCIA PINTOS",
+   "minutos": "8",
+   "EnContra": "0"
+  },
+  {
+   "carne": "57117",
+   "Nombre": "LUIS PEDRO GARCIA",
+   "minutos": "26",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "17355",
+   "Nombre": "LUIS GUZMAN PEREZ",
+   "minutos": "74",
+   "EnContra": "1"
+  },
+  {
+   "carne": "58329",
+   "Nombre": "FEDERICO DAMIAN RODRIGUEZ",
+   "minutos": "80",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

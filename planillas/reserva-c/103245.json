@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"C\" PER. y DESC.",
   "Cancha": "COMPLEJO JUAN XXIII",
-  "Fecha_Inicio": "2026-10-24 12:45:00",
-  "Fecha_fin": "2026-10-24 12:45:00",
+  "Fecha_Inicio": "2026-10-24 13:15:00",
+  "Fecha_fin": "2026-10-24 13:15:00",
   "Locatario": "LA BLANQUEADA",
   "goles_locatario": "1",
   "puntos_locatario": "1",
@@ -29,12 +29,271 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "titularesL": [
+  {
+   "carne": "54360",
+   "Nombre": "MARCOS NICOLAS ERNANDEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "53309",
+   "Nombre": "LUCIO GUALANO",
+   "camiseta": "43",
+   "Capitan": ""
+  },
+  {
+   "carne": "44550",
+   "Nombre": "FEDERICO JAVIER DE SIANO",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "62312",
+   "Nombre": "MARCELO JAVIER SPANO",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "35220",
+   "Nombre": "LUCIANO LOPEZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "53316",
+   "Nombre": "SANTIAGO NAHUEL NUÑEZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "49915",
+   "Nombre": "GASTON GUTIERREZ",
+   "camiseta": "24",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "54193",
+   "Nombre": "GASTON LOMBARDO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "47468",
+   "Nombre": "IGNACIO ANIDAPE",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "50374",
+   "Nombre": "ADRIAN MANUEL FERNANDEZ",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "55228",
+   "Nombre": "CRISTIAN ADRIAN LEMOS",
+   "camiseta": "25",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "53395",
+   "Nombre": "MAURO MASENA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "58816",
+   "Nombre": "GUILLERMO SOTO",
+   "camiseta": "45",
+   "Capitan": ""
+  },
+  {
+   "carne": "49150",
+   "Nombre": "GASTON SCHMIDT",
+   "camiseta": "2",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "58830",
+   "Nombre": "JOAQUÌN ROMERO",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "55605",
+   "Nombre": "BAUTISTA PARODI",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "64017",
+   "Nombre": "JUAN IGNACIO MENENDEZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "58833",
+   "Nombre": "MARCOS ERRECART CARRATU",
+   "camiseta": "50",
+   "Capitan": ""
+  },
+  {
+   "carne": "49147",
+   "Nombre": "JUAN TOURON",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "55930",
+   "Nombre": "BRYAN EZEQUIEL GIOVINAZZO",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "65624",
+   "Nombre": "LORENZO RODRIGUEZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "53397",
+   "Nombre": "ELIAS GOMOLINSKY",
+   "camiseta": "29",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "44550",
+   "Jug_Sale": "FEDERICO JAVIER DE SIANO",
+   "CarneEntra": "41360",
+   "Jug_Entra": "JUAN IGNACIO OLIVERA",
+   "camiseta": "37",
+   "minutos": "13"
+  },
+  {
+   "CarneSale": "55228",
+   "Jug_Sale": "CRISTIAN ADRIAN LEMOS",
+   "CarneEntra": "51623",
+   "Jug_Entra": "FEDERICO VELAZQUEZ",
+   "camiseta": "14",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "53316",
+   "Jug_Sale": "SANTIAGO NAHUEL NUÑEZ",
+   "CarneEntra": "47808",
+   "Jug_Entra": "SANTIAGO FERNANDO IRURTIA",
+   "camiseta": "10",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "47468",
+   "Jug_Sale": "IGNACIO ANIDAPE",
+   "CarneEntra": "59383",
+   "Jug_Entra": "MANUEL QUARTINO",
+   "camiseta": "8",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "50374",
+   "Jug_Sale": "ADRIAN MANUEL FERNANDEZ",
+   "CarneEntra": "53297",
+   "Jug_Entra": "BENJAMIN SOBRINO",
+   "camiseta": "10",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "35220",
+   "Jug_Sale": "LUCIANO LOPEZ",
+   "CarneEntra": "51525",
+   "Jug_Entra": "FACUNDO MARTIN CASAVIEJA",
+   "camiseta": "9",
+   "minutos": "86"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "49147",
+   "Jug_Sale": "JUAN TOURON",
+   "CarneEntra": "67764",
+   "Jug_Entra": "BRUNO COLLAZO",
+   "camiseta": "7",
+   "minutos": "37"
+  },
+  {
+   "CarneSale": "55605",
+   "Jug_Sale": "BAUTISTA PARODI",
+   "CarneEntra": "58151",
+   "Jug_Entra": "LUCAS FERNANDEZ",
+   "camiseta": "95",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "65624",
+   "Jug_Sale": "LORENZO RODRIGUEZ",
+   "CarneEntra": "59207",
+   "Jug_Entra": "IGNACIO RODRIGUEZ",
+   "camiseta": "80",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58816",
+   "Jug_Sale": "GUILLERMO SOTO",
+   "CarneEntra": "60472",
+   "Jug_Entra": "SANCHO CONTI",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58833",
+   "Jug_Sale": "MARCOS ERRECART CARRATU",
+   "CarneEntra": "56474",
+   "Jug_Entra": "JUAN BAUTISTA PAGANI",
+   "camiseta": "31",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67764",
+   "Jug_Sale": "BRUNO COLLAZO",
+   "CarneEntra": "57844",
+   "Jug_Entra": "LORENZO GARCIA",
+   "camiseta": "70",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "58830",
+   "Jug_Sale": "JOAQUÌN ROMERO",
+   "CarneEntra": "54756",
+   "Jug_Entra": "ADRIANO MARTIN AGGIO",
+   "camiseta": "22",
+   "minutos": "80"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "53309",
+   "Nombre": "LUCIO GUALANO",
+   "minutos": "3",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "59207",
+   "Nombre": "IGNACIO RODRIGUEZ",
+   "minutos": "75",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "MARCOS NICOLAS ERNANDEZ",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

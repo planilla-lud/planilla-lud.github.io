@@ -1,0 +1,261 @@
+{
+ "id": "103375",
+ "categoria": "sub20-b",
+ "serie": "20BTA",
+ "fecha": 5,
+ "fechaHora": "2026-10-24 16:00:00",
+ "cancha": "CARRASCO POLO",
+ "local": "CARRASCO POLO CLUB",
+ "visitante": "CRANDON UNIVERSITARIO",
+ "gl": 2,
+ "gv": 0,
+ "detalle": {
+  "nro_partido": "436",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "2",
+  "Divisional": "SUB20 \"B\" TITULO",
+  "Cancha": "CARRASCO POLO",
+  "Fecha_Inicio": "2026-10-24 18:00:00",
+  "Fecha_fin": "2026-10-24 18:00:00",
+  "Locatario": "CARRASCO POLO CLUB",
+  "goles_locatario": "2",
+  "puntos_locatario": "3",
+  "Visitante": "CRANDON UNIVERSITARIO",
+  "goles_visitante": "0",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "68944",
+   "Nombre": "MANUEL EMILIANO RODRIGUEZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "59058",
+   "Nombre": "VALENTIN MANGINI",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "56790",
+   "Nombre": "JUAN BAUTISTA GUEDES",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "56795",
+   "Nombre": "JUAN BENJAMIN STIRLING",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "59056",
+   "Nombre": "TOMAS MANGINI",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "55483",
+   "Nombre": "IGNACIO PAGES",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56802",
+   "Nombre": "SANTIAGO CARDELINO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "60825",
+   "Nombre": "THIAGO NAHUEL CORDERO",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "62036",
+   "Nombre": "FRANCO COLMAN",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "59446",
+   "Nombre": "SANTIAGO SARTI",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "65460",
+   "Nombre": "JUAN SANTIAGO RADO",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "56199",
+   "Nombre": "MATIAS ANDRES MORAES",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "58801",
+   "Nombre": "SALVADOR GARCIA LAGOS",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "57599",
+   "Nombre": "MANUEL AVILA",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "57602",
+   "Nombre": "SANTIAGO BOGGIA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "58600",
+   "Nombre": "JUAN IGNACIO ACOSTA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "58602",
+   "Nombre": "IGNACIO COSTA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "58604",
+   "Nombre": "JUAN MARTIN VERZERI",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "58652",
+   "Nombre": "AGUSTIN OXACELHAY",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "55501",
+   "Nombre": "SEBASTIAN RODRIGUEZ",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "57598",
+   "Nombre": "LUCAS KEUSHKERIAN",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "58502",
+   "Nombre": "TIZIANO VILA",
+   "camiseta": "8",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "60825",
+   "Jug_Sale": "THIAGO NAHUEL CORDERO",
+   "CarneEntra": "59748",
+   "Jug_Entra": "SANTIAGO MENDEZ",
+   "camiseta": "77",
+   "minutos": "26"
+  },
+  {
+   "CarneSale": "59446",
+   "Jug_Sale": "SANTIAGO SARTI",
+   "CarneEntra": "57347",
+   "Jug_Entra": "FACUNDO COSTA",
+   "camiseta": "7",
+   "minutos": "54"
+  },
+  {
+   "CarneSale": "59056",
+   "Jug_Sale": "TOMAS MANGINI",
+   "CarneEntra": "62494",
+   "Jug_Entra": "FRANCISCO JESUS GUERRERO",
+   "camiseta": "17",
+   "minutos": "54"
+  },
+  {
+   "CarneSale": "65460",
+   "Jug_Sale": "JUAN SANTIAGO RADO",
+   "CarneEntra": "67160",
+   "Jug_Entra": "AGUSTIN GARI",
+   "camiseta": "21",
+   "minutos": "67"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "57598",
+   "Jug_Sale": "LUCAS KEUSHKERIAN",
+   "CarneEntra": "57601",
+   "Jug_Entra": "RODRIGO INFANTOZZI",
+   "camiseta": "20",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "58602",
+   "Jug_Sale": "IGNACIO COSTA",
+   "CarneEntra": "57631",
+   "Jug_Entra": "JUAN IGNACIO DIAZ",
+   "camiseta": "22",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "55501",
+   "Jug_Sale": "SEBASTIAN RODRIGUEZ",
+   "CarneEntra": "58605",
+   "Jug_Entra": "GIUSEPPE RICCIO",
+   "camiseta": "3",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "58652",
+   "Jug_Sale": "AGUSTIN OXACELHAY",
+   "CarneEntra": "58601",
+   "Jug_Entra": "LUCAS LENZI",
+   "camiseta": "6",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "58502",
+   "Jug_Sale": "TIZIANO VILA",
+   "CarneEntra": "58609",
+   "Jug_Entra": "PATRICIO GIOVANNI GAROFOLO",
+   "camiseta": "19",
+   "minutos": "78"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "55483",
+   "Nombre": "IGNACIO PAGES",
+   "minutos": "65",
+   "EnContra": "0"
+  },
+  {
+   "carne": "62036",
+   "Nombre": "FRANCO COLMAN",
+   "minutos": "88",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

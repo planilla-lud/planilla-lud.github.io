@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"A\" PER. y DESC.",
   "Cancha": "CLUB ALEMAN",
-  "Fecha_Inicio": "2026-10-24 12:45:00",
-  "Fecha_fin": "2026-10-24 12:45:00",
+  "Fecha_Inicio": "2026-10-24 13:07:00",
+  "Fecha_fin": "2026-10-24 13:07:00",
   "Locatario": "ALEMAN UNIVERSITARIO",
   "goles_locatario": "1",
   "puntos_locatario": "3",
@@ -29,11 +29,226 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "58980",
+   "Nombre": "MATEO PONCE DE LEON",
+   "camiseta": "78",
+   "Capitan": ""
+  },
+  {
+   "carne": "50128",
+   "Nombre": "JUAN ANDRES GIL",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "37177",
+   "Nombre": "DIEGO GARRONE",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "53196",
+   "Nombre": "JOAQUIN RESTANO",
+   "camiseta": "66",
+   "Capitan": ""
+  },
+  {
+   "carne": "41908",
+   "Nombre": "JUAN MARTIN AZADIAN",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "50929",
+   "Nombre": "JUAN MANUEL CASELLA",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "39803",
+   "Nombre": "TEO NICOLAS BUDAKER",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "28952",
+   "Nombre": "SASHA ALEXANDER ANEFF",
+   "camiseta": "91",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "54025",
+   "Nombre": "JOSE IGNACIO ARBILLA",
+   "camiseta": "68",
+   "Capitan": ""
+  },
+  {
+   "carne": "48685",
+   "Nombre": "MAURICIO IHARA",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "53442",
+   "Nombre": "JUAN RAMON ARBILLA",
+   "camiseta": "45",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "42152",
+   "Nombre": "RODRIGO GATTO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "33722",
+   "Nombre": "JUAN IGNACIO MOLINARO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "42685",
+   "Nombre": "FRANCISCO DECURNEX",
+   "camiseta": "3",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "34987",
+   "Nombre": "SEBASTIAN CAGNOLI",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "55159",
+   "Nombre": "JUAN IGNACIO REICH",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "42221",
+   "Nombre": "AXEL WILLIAM LINDMAYER",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "49021",
+   "Nombre": "JUAN IGNACIO CANESSA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "44492",
+   "Nombre": "DIEGO JUAN CORALLO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "51826",
+   "Nombre": "AGUSTIN DEUS",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "44069",
+   "Nombre": "SANTIAGO RODRIGUEZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "43472",
+   "Nombre": "JUAN PEDRO VARGAS",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "48685",
+   "Jug_Sale": "MAURICIO IHARA",
+   "CarneEntra": "52646",
+   "Jug_Entra": "JUAN MARTIN BONFIGLIO",
+   "camiseta": "95",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "39803",
+   "Jug_Sale": "TEO NICOLAS BUDAKER",
+   "CarneEntra": "39151",
+   "Jug_Entra": "PEDRO SANTIAGO HERRERA",
+   "camiseta": "16",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "54025",
+   "Jug_Sale": "JOSE IGNACIO ARBILLA",
+   "CarneEntra": "53195",
+   "Jug_Entra": "MATIAS GIGIREY",
+   "camiseta": "25",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "53442",
+   "Jug_Sale": "JUAN RAMON ARBILLA",
+   "CarneEntra": "40041",
+   "Jug_Entra": "GUILLERMO MARCHESE",
+   "camiseta": "6",
+   "minutos": "89"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "44492",
+   "Jug_Sale": "DIEGO JUAN CORALLO",
+   "CarneEntra": "40095",
+   "Jug_Entra": "MATIAS ORIBE",
+   "camiseta": "18",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "49021",
+   "Jug_Sale": "JUAN IGNACIO CANESSA",
+   "CarneEntra": "34993",
+   "Jug_Entra": "GUILLERMO VIVO",
+   "camiseta": "29",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "44069",
+   "Jug_Sale": "SANTIAGO RODRIGUEZ",
+   "CarneEntra": "40998",
+   "Jug_Entra": "FELIPE FRUGONE",
+   "camiseta": "22",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "51826",
+   "Jug_Sale": "AGUSTIN DEUS",
+   "CarneEntra": "51137",
+   "Jug_Entra": "JULIO FERMIN BLANCO",
+   "camiseta": "40",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "40095",
+   "Jug_Sale": "MATIAS ORIBE",
+   "CarneEntra": "41576",
+   "Jug_Entra": "MARTIN JOSE IMHOF",
+   "camiseta": "19",
+   "minutos": "88"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "28952",
+   "Nombre": "SASHA ALEXANDER ANEFF",
+   "minutos": "38",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"A\" TITULO",
   "Cancha": "COMPLEJO JUAN XXIII",
-  "Fecha_Inicio": "2026-10-24 10:30:00",
-  "Fecha_fin": "2026-10-24 10:30:00",
+  "Fecha_Inicio": "2026-10-24 11:00:00",
+  "Fecha_fin": "2026-10-24 11:00:00",
   "Locatario": "JUAN XXIII",
   "goles_locatario": "2",
   "puntos_locatario": "3",
@@ -29,12 +29,240 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "36530",
+   "Nombre": "MATIAS IROLDI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "54395",
+   "Nombre": "ANDRES VECINO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "27083",
+   "Nombre": "NICOLAS DIEGO MOURE",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "33743",
+   "Nombre": "DIEGO CAYOTA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "32536",
+   "Nombre": "DIEGO ALBERTO PEREZ",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "28086",
+   "Nombre": "GUZMAN PRESNO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "35845",
+   "Nombre": "GABRIEL TARUSELLI",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "22120",
+   "Nombre": "SANTIAGO ESCOBAR",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "29899",
+   "Nombre": "ALEJANDRO PUCHIELE",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "21269",
+   "Nombre": "ALFONSO LUIS VIDAL",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "30983",
+   "Nombre": "RENZO LUCAS",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "30639",
+   "Nombre": "NICOLAS FERNANDO ALVAREZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "35358",
+   "Nombre": "GONZALO MARTIN RUSSO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "34261",
+   "Nombre": "MARTIN PESSANO",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "35041",
+   "Nombre": "JOAQUIN GUERRA",
+   "camiseta": "51",
+   "Capitan": ""
+  },
+  {
+   "carne": "21341",
+   "Nombre": "MAURO GONZALO PAZOS",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "26528",
+   "Nombre": "MARIO SZLAFMYC",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "19506",
+   "Nombre": "ALEJANDRO FERRARI",
+   "camiseta": "21",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "25769",
+   "Nombre": "FABRICIO RIANI",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "20774",
+   "Nombre": "DIEGO ALEMAN",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "29905",
+   "Nombre": "FELIPE SURRACO",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "30849",
+   "Nombre": "MANUEL BARBOZA",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "35845",
+   "Jug_Sale": "GABRIEL TARUSELLI",
+   "CarneEntra": "21424",
+   "Jug_Entra": "ALEJANDRO MAÑE",
+   "camiseta": "20",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "22120",
+   "Jug_Sale": "SANTIAGO ESCOBAR",
+   "CarneEntra": "23810",
+   "Jug_Entra": "NICOLAS RAMOS",
+   "camiseta": "3",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "21269",
+   "Jug_Sale": "ALFONSO LUIS VIDAL",
+   "CarneEntra": "18778",
+   "Jug_Entra": "SANTIAGO WALTER CAMPO",
+   "camiseta": "7",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "33743",
+   "Jug_Sale": "DIEGO CAYOTA",
+   "CarneEntra": "33489",
+   "Jug_Entra": "JUAN MANUEL YAÑEZ",
+   "camiseta": "4",
+   "minutos": "74"
+  },
+  {
+   "CarneSale": "54395",
+   "Jug_Sale": "ANDRES VECINO",
+   "CarneEntra": "33135",
+   "Jug_Entra": "NICOLAS RAMON AÑON",
+   "camiseta": "21",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "29899",
+   "Jug_Sale": "ALEJANDRO PUCHIELE",
+   "CarneEntra": "21458",
+   "Jug_Entra": "PABLO JOSE MARTON",
+   "camiseta": "20",
+   "minutos": "80"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "29905",
+   "Jug_Sale": "FELIPE SURRACO",
+   "CarneEntra": "22524",
+   "Jug_Entra": "FABRICIO UDAQUIOLA",
+   "camiseta": "2",
+   "minutos": "32"
+  },
+  {
+   "CarneSale": "26528",
+   "Jug_Sale": "MARIO SZLAFMYC",
+   "CarneEntra": "19419",
+   "Jug_Entra": "RODRIGO NICOLAS DE LAZZARI",
+   "camiseta": "15",
+   "minutos": "69"
+  },
+  {
+   "CarneSale": "35358",
+   "Jug_Sale": "GONZALO MARTIN RUSSO",
+   "CarneEntra": "23004",
+   "Jug_Entra": "ANGEL URRABURU",
+   "camiseta": "25",
+   "minutos": "75"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "29899",
+   "Nombre": "ALEJANDRO PUCHIELE",
+   "minutos": "18",
+   "EnContra": "0"
+  },
+  {
+   "carne": "30983",
+   "Nombre": "RENZO LUCAS",
+   "minutos": "12",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "22524",
+   "Nombre": "FABRICIO UDAQUIOLA",
+   "minutos": "53",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

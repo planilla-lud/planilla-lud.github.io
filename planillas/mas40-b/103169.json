@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAS40 \"B\" TIT. y ASC.",
   "Cancha": "COLEGIO PIO",
-  "Fecha_Inicio": "2026-10-24 10:30:00",
-  "Fecha_fin": "2026-10-24 10:30:00",
+  "Fecha_Inicio": "2026-10-24 11:00:00",
+  "Fecha_fin": "2026-10-24 11:00:00",
   "Locatario": "DANUBIO FUTBOL CLUB",
   "goles_locatario": "1",
   "puntos_locatario": "0",
@@ -29,12 +29,237 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "titularesL": [
+  {
+   "carne": "14645",
+   "Nombre": "PABLO ALBERTO FERNANDEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "12721",
+   "Nombre": "FABIAN HERNAN CORTES",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "18843",
+   "Nombre": "WILLIAM GONZALEZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "61118",
+   "Nombre": "RUBEN DARIO GEREZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "20702",
+   "Nombre": "JOSE LUIS TRIGO",
+   "camiseta": "18",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "19281",
+   "Nombre": "GABRIEL COPELOTTI",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "13451",
+   "Nombre": "OSCAR ALEJANDRO ARRUDA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "66926",
+   "Nombre": "PABLO SEBASTIAN RADÜNZ",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "21796",
+   "Nombre": "GUILLERMO FEDERICO URAN",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "58590",
+   "Nombre": "DIEGO FERREIRA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "66325",
+   "Nombre": "JUAN CARLOS MARTINS",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "25808",
+   "Nombre": "GONZALO FEDERICO HARISPE",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "18229",
+   "Nombre": "GERMAN ANDRES CRAPUCHETTI",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "64755",
+   "Nombre": "MARTIN UBAL",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "25956",
+   "Nombre": "NICOLAS FABIAN FERNANDEZ",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "49509",
+   "Nombre": "ADRIAN LAURINO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "62801",
+   "Nombre": "FERNANDO GABRIEL MONTIE",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "40409",
+   "Nombre": "CARLOS FEDERICO FERREIRA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "23518",
+   "Nombre": "DIEGO HERNAN SCOTTI",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "24828",
+   "Nombre": "FABIAN SOSA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "24705",
+   "Nombre": "RODRIGO RIVERA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "23243",
+   "Nombre": "IGNACIO ROLDAN",
+   "camiseta": "7",
+   "Capitan": "(C)"
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "21796",
+   "Jug_Sale": "GUILLERMO FEDERICO URAN",
+   "CarneEntra": "29411",
+   "Jug_Entra": "ALFONSO MICHEL MARQUEZ",
+   "camiseta": "12",
+   "minutos": "14"
+  },
+  {
+   "CarneSale": "61118",
+   "Jug_Sale": "RUBEN DARIO GEREZ",
+   "CarneEntra": "66193",
+   "Jug_Entra": "LUIS MAYORGA",
+   "camiseta": "17",
+   "minutos": "26"
+  },
+  {
+   "CarneSale": "66325",
+   "Jug_Sale": "JUAN CARLOS MARTINS",
+   "CarneEntra": "58590",
+   "Jug_Entra": "DIEGO FERREIRA",
+   "camiseta": "10",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "66926",
+   "Jug_Sale": "PABLO SEBASTIAN RADÜNZ",
+   "CarneEntra": "61118",
+   "Jug_Entra": "RUBEN DARIO GEREZ",
+   "camiseta": "2",
+   "minutos": "83"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "24828",
+   "Jug_Sale": "FABIAN SOSA",
+   "CarneEntra": "19695",
+   "Jug_Entra": "JUAN ANDRES HONTAN",
+   "camiseta": "77",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "24705",
+   "Jug_Sale": "RODRIGO RIVERA",
+   "CarneEntra": "24253",
+   "Jug_Entra": "BERNARDO MARIO PATRONE",
+   "camiseta": "9",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "62801",
+   "Jug_Sale": "FERNANDO GABRIEL MONTIE",
+   "CarneEntra": "33171",
+   "Jug_Entra": "JAVIER ANDRES SCHINCA",
+   "camiseta": "90",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "23243",
+   "Jug_Sale": "IGNACIO ROLDAN",
+   "CarneEntra": "24705",
+   "Jug_Entra": "RODRIGO RIVERA",
+   "camiseta": "21",
+   "minutos": "85"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "13451",
+   "Nombre": "OSCAR ALEJANDRO ARRUDA",
+   "minutos": "35",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "23518",
+   "Nombre": "DIEGO HERNAN SCOTTI",
+   "minutos": "26",
+   "EnContra": "1"
+  },
+  {
+   "carne": "24705",
+   "Nombre": "RODRIGO RIVERA",
+   "minutos": "89",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "WILLIAM GONZALEZ",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

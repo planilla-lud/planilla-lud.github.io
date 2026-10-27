@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"D\" PER. y DESC",
   "Cancha": "LIMBURGO -DR.J.L.PISCIOTTANO-",
-  "Fecha_Inicio": "2026-10-24 10:30:00",
-  "Fecha_fin": "2026-10-24 10:30:00",
+  "Fecha_Inicio": "2026-10-24 10:45:00",
+  "Fecha_fin": "2026-10-24 10:45:00",
   "Locatario": "NUMA TURCATTI",
   "goles_locatario": "2",
   "puntos_locatario": "0",
@@ -29,12 +29,250 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "25051",
+   "Nombre": "EDMUNDO MIGUEL GRIFFIN",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "35379",
+   "Nombre": "FEDERICO LA LAINA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "24412",
+   "Nombre": "RODRIGO CADENAS",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "43248",
+   "Nombre": "GONZALO DE LEON",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "66270",
+   "Nombre": "RODRIGO GONCALVEZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "46800",
+   "Nombre": "VICTOR DIEGO MOREIRA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "22165",
+   "Nombre": "BRUNO LUIS VARALDO",
+   "camiseta": "20",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "45272",
+   "Nombre": "DIEGO GERMAN MARTINEZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "27715",
+   "Nombre": "OSCAR MARTIN BASSO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "34252",
+   "Nombre": "MARCELO DANIEL SASSO",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "37679",
+   "Nombre": "JORGE ANTONIO PONS",
+   "camiseta": "27",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "17702",
+   "Nombre": "DANIEL WARD",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "21011",
+   "Nombre": "DANIEL IGAL GROISMAN",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "41052",
+   "Nombre": "VALENTIN MATEO PEÑALVA",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "28277",
+   "Nombre": "LUCAS JUAN PUIG",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "45283",
+   "Nombre": "DIEGO GAURONAS",
+   "camiseta": "26",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "36908",
+   "Nombre": "MARTIN GEJER",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "43847",
+   "Nombre": "JOAQUIN STIRLING",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "18049",
+   "Nombre": "ALAN TURNIANSKY",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "43721",
+   "Nombre": "BRUNO RIVERO",
+   "camiseta": "51",
+   "Capitan": ""
+  },
+  {
+   "carne": "37124",
+   "Nombre": "RICHARD ALEJANDRO ROCCO",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "21009",
+   "Nombre": "MAXIMILIANO AUGUSTO PEÑALVA",
+   "camiseta": "4",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "45272",
+   "Jug_Sale": "DIEGO GERMAN MARTINEZ",
+   "CarneEntra": "19890",
+   "Jug_Entra": "JAVIER GOÑI",
+   "camiseta": "12",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "66270",
+   "Jug_Sale": "RODRIGO GONCALVEZ",
+   "CarneEntra": "42925",
+   "Jug_Entra": "MARTIN LA LAINA",
+   "camiseta": "15",
+   "minutos": "70"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "28277",
+   "Jug_Sale": "LUCAS JUAN PUIG",
+   "CarneEntra": "54505",
+   "Jug_Entra": "RODRIGO SORIA",
+   "camiseta": "9",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "43847",
+   "Jug_Sale": "JOAQUIN STIRLING",
+   "CarneEntra": "41805",
+   "Jug_Entra": "DIEGO AUGUSTO LORENZO",
+   "camiseta": "2",
+   "minutos": "19"
+  },
+  {
+   "CarneSale": "37124",
+   "Jug_Sale": "RICHARD ALEJANDRO ROCCO",
+   "CarneEntra": "43847",
+   "Jug_Entra": "JOAQUIN STIRLING",
+   "camiseta": "6",
+   "minutos": "40"
+  },
+  {
+   "CarneSale": "18049",
+   "Jug_Sale": "ALAN TURNIANSKY",
+   "CarneEntra": "21189",
+   "Jug_Entra": "SEBASTIAN CAREDIO",
+   "camiseta": "10",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "43721",
+   "Jug_Sale": "BRUNO RIVERO",
+   "CarneEntra": "57709",
+   "Jug_Entra": "FRANCISCO ETCHENIQUE",
+   "camiseta": "8",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "41052",
+   "Jug_Sale": "VALENTIN MATEO PEÑALVA",
+   "CarneEntra": "23970",
+   "Jug_Entra": "DIEGO ANDRES WOLF",
+   "camiseta": "7",
+   "minutos": "80"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "27715",
+   "Nombre": "OSCAR MARTIN BASSO",
+   "minutos": "6",
+   "EnContra": "0"
+  },
+  {
+   "carne": "27715",
+   "Nombre": "OSCAR MARTIN BASSO",
+   "minutos": "16",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "36908",
+   "Nombre": "MARTIN GEJER",
+   "minutos": "30",
+   "EnContra": "1"
+  },
+  {
+   "carne": "41052",
+   "Nombre": "VALENTIN MATEO PEÑALVA",
+   "minutos": "55",
+   "EnContra": "1"
+  },
+  {
+   "carne": "41052",
+   "Nombre": "VALENTIN MATEO PEÑALVA",
+   "minutos": "57",
+   "EnContra": "1"
+  },
+  {
+   "carne": "41805",
+   "Nombre": "DIEGO AUGUSTO LORENZO",
+   "minutos": "77",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

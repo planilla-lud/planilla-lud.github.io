@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"D\" TIT. y ASC.",
   "Cancha": "COMPLEJO LOS ROJOS",
-  "Fecha_Inicio": "2026-10-24 10:30:00",
-  "Fecha_fin": "2026-10-24 10:30:00",
+  "Fecha_Inicio": "2026-10-24 11:00:00",
+  "Fecha_fin": "2026-10-24 11:00:00",
   "Locatario": "LATINO FUTBOL CLUB",
   "goles_locatario": "1",
   "puntos_locatario": "0",
@@ -29,12 +29,256 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
- "expulsadosV": []
+ "titularesL": [
+  {
+   "carne": "39628",
+   "Nombre": "FERNANDO DE POI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "34916",
+   "Nombre": "MARCOS ALEJO SANCHEZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "59021",
+   "Nombre": "HORACIO MATIAS DEL CORRO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "37016",
+   "Nombre": "JUAN ANDRES CASTRO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "56450",
+   "Nombre": "FEDERICO HERMIDA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "52449",
+   "Nombre": "FACUNDO FIERRO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "37034",
+   "Nombre": "LEANDRO GERMAN TARANTO",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "33410",
+   "Nombre": "JOSE ARAUJO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "44615",
+   "Nombre": "JOAQUIN FARIÑA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "21819",
+   "Nombre": "IGNACIO RODRIGUEZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "51694",
+   "Nombre": "JUAN PABLO LEYTON",
+   "camiseta": "9",
+   "Capitan": "(C)"
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "21036",
+   "Nombre": "JUAN AGUSTIN MURIAS",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "34281",
+   "Nombre": "MIGUEL PITETTA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "38649",
+   "Nombre": "ADRIAN RIBERO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "63840",
+   "Nombre": "EMILIO NICOLAS CAMEJO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "33907",
+   "Nombre": "JOAQUIN CICATIELLO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "24874",
+   "Nombre": "MARCELO ADRIAN CAMMARANO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "36517",
+   "Nombre": "MANUEL MATIAS GONZALEZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "33066",
+   "Nombre": "RAFAEL ESTEBAN GIMENEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "25908",
+   "Nombre": "JUAN MANUEL LAZBAL",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "37740",
+   "Nombre": "GONZALO RAMALLO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "31607",
+   "Nombre": "FEDERICO MARTIN GOMEZ",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "33410",
+   "Jug_Sale": "JOSE ARAUJO",
+   "CarneEntra": "31549",
+   "Jug_Entra": "MICHEL SEBASTIAN MATTOS",
+   "camiseta": "32",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "21819",
+   "Jug_Sale": "IGNACIO RODRIGUEZ",
+   "CarneEntra": "37816",
+   "Jug_Entra": "EMILIANO PABLO BONINI",
+   "camiseta": "34",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "37016",
+   "Jug_Sale": "JUAN ANDRES CASTRO",
+   "CarneEntra": "37033",
+   "Jug_Entra": "VICENTE GONZALEZ-ARNAO",
+   "camiseta": "29",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "59021",
+   "Jug_Sale": "HORACIO MATIAS DEL CORRO",
+   "CarneEntra": "33744",
+   "Jug_Entra": "NICOLAS MOREIRA",
+   "camiseta": "28",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "44615",
+   "Jug_Sale": "JOAQUIN FARIÑA",
+   "CarneEntra": "47757",
+   "Jug_Entra": "JUAN ANDRES NOGUES",
+   "camiseta": "30",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "34916",
+   "Jug_Sale": "MARCOS ALEJO SANCHEZ",
+   "CarneEntra": "31035",
+   "Jug_Entra": "GIANFRANCO AMADO POSE",
+   "camiseta": "11",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "37034",
+   "Jug_Sale": "LEANDRO GERMAN TARANTO",
+   "CarneEntra": "40984",
+   "Jug_Entra": "MATHIAS GABRIEL ORTIZ",
+   "camiseta": "20",
+   "minutos": "80"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "25908",
+   "Jug_Sale": "JUAN MANUEL LAZBAL",
+   "CarneEntra": "63917",
+   "Jug_Entra": "BRUNO FRANCISCO CONTE",
+   "camiseta": "77",
+   "minutos": "84"
+  },
+  {
+   "CarneSale": "31607",
+   "Jug_Sale": "FEDERICO MARTIN GOMEZ",
+   "CarneEntra": "26634",
+   "Jug_Entra": "GABRIEL GENTA",
+   "camiseta": "90",
+   "minutos": "95"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "51694",
+   "Nombre": "JUAN PABLO LEYTON",
+   "minutos": "1",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "37740",
+   "Nombre": "GONZALO RAMALLO",
+   "minutos": "67",
+   "EnContra": "1"
+  },
+  {
+   "carne": "37740",
+   "Nombre": "GONZALO RAMALLO",
+   "minutos": "75",
+   "EnContra": "1"
+  },
+  {
+   "carne": "37740",
+   "Nombre": "GONZALO RAMALLO",
+   "minutos": "94",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "FEDERICO HERMIDA",
+   "observaciones": ""
+  }
+ ],
+ "expulsadosV": [
+  {
+   "Nombre": "MIGUEL PITETTA",
+   "observaciones": ""
+  }
+ ]
 }

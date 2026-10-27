@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"B\" TIT. y ASC.",
   "Cancha": "OLD CHRISTIANS CLUB",
-  "Fecha_Inicio": "2026-10-24 12:45:00",
-  "Fecha_fin": "2026-10-24 12:45:00",
+  "Fecha_Inicio": "2026-10-24 13:05:00",
+  "Fecha_fin": "2026-10-24 13:05:00",
   "Locatario": "OLD CHRISTIANS BLANCO",
   "goles_locatario": "1",
   "puntos_locatario": "1",
@@ -29,12 +29,263 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "68857",
+   "Nombre": "FRANCISCO PINTOS",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "44039",
+   "Nombre": "ALEJANDRO FYNN",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "51235",
+   "Nombre": "JUAN MARQUES",
+   "camiseta": "2",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "67430",
+   "Nombre": "ANDRES VILLAR",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "52820",
+   "Nombre": "SEBASTIAN CLEMENTE",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "42800",
+   "Nombre": "FEDERICO  IGNACIO HERMIDA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "46844",
+   "Nombre": "JOSE ANTONIO GONZALEZ BERRO",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "52607",
+   "Nombre": "GUZMAN ARECHAVALETA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "52622",
+   "Nombre": "NICOLAS CLEMENTE",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "51502",
+   "Nombre": "DIEGO VIGORITO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "54409",
+   "Nombre": "JOAQUIN IRULEGUY",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "41531",
+   "Nombre": "JOAQUIN BELTRAN",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "53105",
+   "Nombre": "FELIPE FRIGERIO",
+   "camiseta": "88",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "53190",
+   "Nombre": "SANTINO CARASSALE",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "54001",
+   "Nombre": "AGUSTIN DANIEL LLUBERAS",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "47184",
+   "Nombre": "NICOLAS FLEGINSKY",
+   "camiseta": "37",
+   "Capitan": ""
+  },
+  {
+   "carne": "53104",
+   "Nombre": "FRANCO MESSANO",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "49501",
+   "Nombre": "TOMAS PARPAL",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "50933",
+   "Nombre": "SANTIAGO NICOLAS TIZON",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "47817",
+   "Nombre": "CAMILO GILI",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "52806",
+   "Nombre": "SANTIAGO LUIS",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "50448",
+   "Nombre": "JUAN FERNANDO COMPANY",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "44039",
+   "Jug_Sale": "ALEJANDRO FYNN",
+   "CarneEntra": "67427",
+   "Jug_Entra": "LUCAS DE ACHAVAL",
+   "camiseta": "11",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "42800",
+   "Jug_Sale": "FEDERICO  IGNACIO HERMIDA",
+   "CarneEntra": "47292",
+   "Jug_Entra": "NICOLAS JOSE REGUSCI",
+   "camiseta": "51",
+   "minutos": "69"
+  },
+  {
+   "CarneSale": "52820",
+   "Jug_Sale": "SEBASTIAN CLEMENTE",
+   "CarneEntra": "48918",
+   "Jug_Entra": "JUAN IGNACIO ROSPIDE",
+   "camiseta": "6",
+   "minutos": "69"
+  },
+  {
+   "CarneSale": "46844",
+   "Jug_Sale": "JOSE ANTONIO GONZALEZ BERRO",
+   "CarneEntra": "51134",
+   "Jug_Entra": "TOMAS LAFFITTE",
+   "camiseta": "21",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "51502",
+   "Jug_Sale": "DIEGO VIGORITO",
+   "CarneEntra": "46842",
+   "Jug_Entra": "JUAN MANUEL HERMIDA",
+   "camiseta": "19",
+   "minutos": "86"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "47817",
+   "Jug_Sale": "CAMILO GILI",
+   "CarneEntra": "49895",
+   "Jug_Entra": "AGUSTIN GONZALEZ",
+   "camiseta": "80",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "53104",
+   "Jug_Sale": "FRANCO MESSANO",
+   "CarneEntra": "54192",
+   "Jug_Entra": "FEDERICO PEREZ",
+   "camiseta": "8",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "54001",
+   "Jug_Sale": "AGUSTIN DANIEL LLUBERAS",
+   "CarneEntra": "49924",
+   "Jug_Entra": "FELIPE BAYARDO",
+   "camiseta": "4",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "47184",
+   "Jug_Sale": "NICOLAS FLEGINSKY",
+   "CarneEntra": "53184",
+   "Jug_Entra": "DIEGO DOMINGUEZ",
+   "camiseta": "30",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "50448",
+   "Jug_Sale": "JUAN FERNANDO COMPANY",
+   "CarneEntra": "53376",
+   "Jug_Entra": "GUILLERMO WILSON",
+   "camiseta": "71",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "52806",
+   "Jug_Sale": "SANTIAGO LUIS",
+   "CarneEntra": "51589",
+   "Jug_Entra": "LUCAS TROVO",
+   "camiseta": "10",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "50933",
+   "Jug_Sale": "SANTIAGO NICOLAS TIZON",
+   "CarneEntra": "53189",
+   "Jug_Entra": "FEDERICO VIDAL",
+   "camiseta": "17",
+   "minutos": "88"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "51134",
+   "Nombre": "TOMAS LAFFITTE",
+   "minutos": "80",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "50448",
+   "Nombre": "JUAN FERNANDO COMPANY",
+   "minutos": "47",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
- "expulsadosV": []
+ "expulsadosV": [
+  {
+   "Nombre": "JOAQUIN BELTRAN",
+   "observaciones": ""
+  }
+ ]
 }

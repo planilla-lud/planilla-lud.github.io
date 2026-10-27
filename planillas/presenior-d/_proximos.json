@@ -1,24 +1,10 @@
 [
  {
   "serie": "PSDTA",
-  "fechaHora": "2026-10-31 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "SCUOLA PALERMO",
-  "visitante": "DANUBIO FUTBOL CLUB"
- },
- {
-  "serie": "PSDTA",
   "fechaHora": "2026-10-31 09:00:00",
   "cancha": "COMPLEJO LOS ROJOS",
   "local": "LATINO FUTBOL CLUB",
   "visitante": "ESTUDIANTES ESPAÑOLES"
- },
- {
-  "serie": "PSDTA",
-  "fechaHora": "2026-10-31 09:00:00",
-  "cancha": "COMPLEJO ARACHAN",
-  "local": "BODY FACTORY",
-  "visitante": "CLUB FUERZA AEREA"
  },
  {
   "serie": "PSDTA",
@@ -49,8 +35,22 @@
   "visitante": "LIVERPOOL UNIVERSITARIO"
  },
  {
+  "serie": "PSDTA",
+  "fechaHora": "2026-10-31 11:15:00",
+  "cancha": "COMPLEJO ARACHAN",
+  "local": "BODY FACTORY",
+  "visitante": "CLUB FUERZA AEREA"
+ },
+ {
+  "serie": "PSDTA",
+  "fechaHora": "2026-10-31 11:15:00",
+  "cancha": "SCUOLA ITALIANA",
+  "local": "SCUOLA PALERMO",
+  "visitante": "DANUBIO FUTBOL CLUB"
+ },
+ {
   "serie": "PSDPD",
-  "fechaHora": "2026-10-31 09:00:00",
+  "fechaHora": "2026-10-31 11:15:00",
   "cancha": "COM. DEP. CLUB TROUVILLE",
   "local": "TROUVILLE UNIVERSITARIO",
   "visitante": "MATURANA UNIVERSITARIO"

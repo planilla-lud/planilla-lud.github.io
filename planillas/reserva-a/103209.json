@@ -4,7 +4,7 @@
  "serie": "RSAPD",
  "fecha": 4,
  "fechaHora": "2026-10-24 11:15:00",
- "cancha": "MONTE VI \"LOS CEIBOS\"",
+ "cancha": "()",
  "local": "TAPE",
  "visitante": "CLUB SEMINARIO",
  "gl": 0,
@@ -17,9 +17,9 @@
   "categoria": "RESERVA MASCULINO",
   "rueda": "2",
   "Divisional": "RESERVA \"A\" PER. y DESC.",
-  "Cancha": "MONTE VI \"LOS CEIBOS\"",
-  "Fecha_Inicio": "2026-10-24 12:45:00",
-  "Fecha_fin": "2026-10-24 12:45:00",
+  "Cancha": "()",
+  "Fecha_Inicio": "2026-10-24 13:20:00",
+  "Fecha_fin": "2026-10-24 13:20:00",
   "Locatario": "TAPE",
   "goles_locatario": "0",
   "puntos_locatario": "1",
@@ -29,10 +29,234 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "58443",
+   "Nombre": "ALFONSO PFEIFF",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "61063",
+   "Nombre": "NICOLAS DORAO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "65015",
+   "Nombre": "VALENTIN BISIO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "37326",
+   "Nombre": "JUAN INCIARTE",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "55125",
+   "Nombre": "JUAN GURMENDEZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "69057",
+   "Nombre": "JUAN IGNACIO SILVEIRA",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "49165",
+   "Nombre": "GUILLERMO PONS",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "65012",
+   "Nombre": "JUAN MARTIN IFRAN",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "65008",
+   "Nombre": "JUAN DIEGO JACQUES",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "46872",
+   "Nombre": "SANTIAGO JOSE TAFERNABERRY",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "31774",
+   "Nombre": "MARTIN INCIARTE",
+   "camiseta": "18",
+   "Capitan": "(C)"
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "52755",
+   "Nombre": "JOAQUIN MIRANDA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "42555",
+   "Nombre": "RODRIGO VAZQUEZ",
+   "camiseta": "19",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "62949",
+   "Nombre": "JUAN IGNACIO PEDROZO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "59121",
+   "Nombre": "ARIEL YONHATAN PACHECO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "47683",
+   "Nombre": "JUAN IGNACIO VIOLA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "64647",
+   "Nombre": "FABRIZIO OSCAR PAGLIA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "47800",
+   "Nombre": "MATIAS GARRIDO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "48063",
+   "Nombre": "GENARO CARUSO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "52764",
+   "Nombre": "DIEGO BUELA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "52457",
+   "Nombre": "SANTIAGO RAUL MAY",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "52746",
+   "Nombre": "IMANOL JIMENEZ DE ARECHAGA",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "69057",
+   "Jug_Sale": "JUAN IGNACIO SILVEIRA",
+   "CarneEntra": "56348",
+   "Jug_Entra": "FELIPE SICALO",
+   "camiseta": "28",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61063",
+   "Jug_Sale": "NICOLAS DORAO",
+   "CarneEntra": "65006",
+   "Jug_Entra": "GERONIMO GAUTHIER",
+   "camiseta": "16",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "65008",
+   "Jug_Sale": "JUAN DIEGO JACQUES",
+   "CarneEntra": "51930",
+   "Jug_Entra": "TOMAS PEREZ",
+   "camiseta": "21",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "31774",
+   "Jug_Sale": "MARTIN INCIARTE",
+   "CarneEntra": "63592",
+   "Jug_Entra": "JUAN ANDRES ERRANONDEA",
+   "camiseta": "9",
+   "minutos": "63"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "47800",
+   "Jug_Sale": "MATIAS GARRIDO",
+   "CarneEntra": "50866",
+   "Jug_Entra": "JOSE SANTIAGO LUCAS",
+   "camiseta": "18",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "42555",
+   "Jug_Sale": "RODRIGO VAZQUEZ",
+   "CarneEntra": "47800",
+   "Jug_Entra": "MATIAS GARRIDO",
+   "camiseta": "7",
+   "minutos": "53"
+  },
+  {
+   "CarneSale": "52746",
+   "Jug_Sale": "IMANOL JIMENEZ DE ARECHAGA",
+   "CarneEntra": "47678",
+   "Jug_Entra": "PEDRO MACKINNON",
+   "camiseta": "8",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "48063",
+   "Jug_Sale": "GENARO CARUSO",
+   "CarneEntra": "50855",
+   "Jug_Entra": "SEBASTIAN GUILLEN",
+   "camiseta": "17",
+   "minutos": "69"
+  },
+  {
+   "CarneSale": "52457",
+   "Jug_Sale": "SANTIAGO RAUL MAY",
+   "CarneEntra": "50787",
+   "Jug_Entra": "JUAN PEDRO ABELLA",
+   "camiseta": "11",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "52764",
+   "Jug_Sale": "DIEGO BUELA",
+   "CarneEntra": "53659",
+   "Jug_Entra": "ANDRES HERRERA",
+   "camiseta": "14",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "47683",
+   "Jug_Sale": "JUAN IGNACIO VIOLA",
+   "CarneEntra": "42555",
+   "Jug_Entra": "RODRIGO VAZQUEZ",
+   "camiseta": "19",
+   "minutos": "91"
+  }
+ ],
  "golesL": [],
  "golesV": [],
  "expulsadosL": [],

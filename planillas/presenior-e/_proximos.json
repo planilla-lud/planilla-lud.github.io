@@ -1,20 +1,6 @@
 [
  {
   "serie": "PSET2",
-  "fechaHora": "2026-10-24 09:00:00",
-  "cancha": "COMPLEJO AZULGRANA",
-  "local": "OBC AZULGRANA",
-  "visitante": "BELLA UNION UNIVERSITARIO"
- },
- {
-  "serie": "PSEB2",
-  "fechaHora": "2026-10-24 09:00:00",
-  "cancha": "COMPLEJO ARACHAN",
-  "local": "SUDAMERICA UNIVERSITARIO",
-  "visitante": "SANTA ELENA LAGOMAR"
- },
- {
-  "serie": "PSET2",
   "fechaHora": "2026-10-31 09:00:00",
   "cancha": "COMPLEJO LAS CASUARINAS",
   "local": "LA CUEVA DEL LOBIZON",
@@ -22,8 +8,8 @@
  },
  {
   "serie": "PSET2",
-  "fechaHora": "2026-10-31 09:00:00",
-  "cancha": "COMPLEJO LOS NOGALES",
+  "fechaHora": "2026-10-31 11:15:00",
+  "cancha": "COMPLEJO PROFUTBOL",
   "local": "CLUB RICHARD ANDERSON UNIV.",
   "visitante": "COLEGIO Y LICEO INGLES"
  },
@@ -166,6 +152,13 @@
   "cancha": "NO SE JUEGA",
   "local": "COLEGIO Y LICEO INGLES",
   "visitante": "FECHA LIBRE"
+ },
+ {
+  "serie": "PSET2",
+  "fechaHora": "2026-12-30 00:00:00",
+  "cancha": "NO SE JUEGA",
+  "local": "FECHA LIBRE",
+  "visitante": "LA CUEVA DEL LOBIZON"
  },
  {
   "serie": "PSET2",

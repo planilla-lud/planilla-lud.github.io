@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"B\" TIT. y ASC",
   "Cancha": "ELF (LICEO FRANCES)",
-  "Fecha_Inicio": "2026-10-24 10:30:00",
-  "Fecha_fin": "2026-10-24 10:30:00",
+  "Fecha_Inicio": "2026-10-24 11:00:00",
+  "Fecha_fin": "2026-10-24 11:00:00",
   "Locatario": "E.L.F.",
   "goles_locatario": "2",
   "puntos_locatario": "0",
@@ -29,12 +29,274 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "62001",
+   "Nombre": "ANTONIO SANTIAGO PEREYRA",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "26340",
+   "Nombre": "AGUSTIN CAÑADAS",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "28383",
+   "Nombre": "AGUSTIN JOSE SARNO",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "59700",
+   "Nombre": "ANDRES AGUSTIN LOPEZ",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "50274",
+   "Nombre": "SANTIAGO ESPAÑA",
+   "camiseta": "8",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "66214",
+   "Nombre": "JONATHAN MAICOL GARCIA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "25659",
+   "Nombre": "FREDY GASTON BATISTA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "28553",
+   "Nombre": "MARCELO DEUS",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "33595",
+   "Nombre": "FACUNDO CALVI",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "28308",
+   "Nombre": "MARTIN SERORENA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "26925",
+   "Nombre": "SANTIAGO GASTON SILVA",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "29107",
+   "Nombre": "FABRIZIO DANIEL BORSANI",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "35668",
+   "Nombre": "MATTIAS JOAN ALVEZ",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "45399",
+   "Nombre": "MATIAS DANIEL AGUIRREZABAL",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "24898",
+   "Nombre": "MATIAS SENTANARO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "31583",
+   "Nombre": "ADRIAN MAYOR",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "31424",
+   "Nombre": "DIEGO ALBERTO LOPEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "40038",
+   "Nombre": "EMILIANO DARIO WUNSCH",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "25465",
+   "Nombre": "MARCELO MAYOR",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "59789",
+   "Nombre": "DANIEL LUZ",
+   "camiseta": "70",
+   "Capitan": ""
+  },
+  {
+   "carne": "36351",
+   "Nombre": "DANIEL ALEJANDRO TUCUNA",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "28196",
+   "Nombre": "WALTER GUILLERMO RIVERO",
+   "camiseta": "7",
+   "Capitan": "(C)"
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "66214",
+   "Jug_Sale": "JONATHAN MAICOL GARCIA",
+   "CarneEntra": "61685",
+   "Jug_Entra": "JUAN LUIS OSORIO",
+   "camiseta": "16",
+   "minutos": "31"
+  },
+  {
+   "CarneSale": "26925",
+   "Jug_Sale": "SANTIAGO GASTON SILVA",
+   "CarneEntra": "26645",
+   "Jug_Entra": "JUAN IGNACIO ARAUJO",
+   "camiseta": "26",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "59700",
+   "Jug_Sale": "ANDRES AGUSTIN LOPEZ",
+   "CarneEntra": "23793",
+   "Jug_Entra": "IGNACIO ILDEFONSO PEREZ",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "28308",
+   "Jug_Sale": "MARTIN SERORENA",
+   "CarneEntra": "35981",
+   "Jug_Entra": "CARLOS ALBERTO FERNANDEZ",
+   "camiseta": "20",
+   "minutos": "33"
+  },
+  {
+   "CarneSale": "25659",
+   "Jug_Sale": "FREDY GASTON BATISTA",
+   "CarneEntra": "25621",
+   "Jug_Entra": "FABRICE ALBERT DESMULLIER",
+   "camiseta": "2",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "26340",
+   "Jug_Sale": "AGUSTIN CAÑADAS",
+   "CarneEntra": "63904",
+   "Jug_Entra": "FACUNDO MAURICIO ESTEVEZ",
+   "camiseta": "3",
+   "minutos": "69"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "28196",
+   "Jug_Sale": "WALTER GUILLERMO RIVERO",
+   "CarneEntra": "28194",
+   "Jug_Entra": "CHRISTIAN GABRIEL QUINTERO",
+   "camiseta": "10",
+   "minutos": "26"
+  },
+  {
+   "CarneSale": "59789",
+   "Jug_Sale": "DANIEL LUZ",
+   "CarneEntra": "30822",
+   "Jug_Entra": "MAXIMILIANO GABRIEL CODEVILA",
+   "camiseta": "92",
+   "minutos": "83"
+  },
+  {
+   "CarneSale": "31424",
+   "Jug_Sale": "DIEGO ALBERTO LOPEZ",
+   "CarneEntra": "30910",
+   "Jug_Entra": "LEANDRO MARCELO KENES",
+   "camiseta": "23",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "35668",
+   "Jug_Sale": "MATTIAS JOAN ALVEZ",
+   "CarneEntra": "68896",
+   "Jug_Entra": "MARIO MARTIN DE OLIVERA",
+   "camiseta": "33",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "36351",
+   "Jug_Sale": "DANIEL ALEJANDRO TUCUNA",
+   "CarneEntra": "68895",
+   "Jug_Entra": "DIEGO FERNANDO QUINTERO",
+   "camiseta": "40",
+   "minutos": "84"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "28553",
+   "Nombre": "MARCELO DEUS",
+   "minutos": "64",
+   "EnContra": "0"
+  },
+  {
+   "carne": "66214",
+   "Nombre": "JONATHAN MAICOL GARCIA",
+   "minutos": "19",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "28194",
+   "Nombre": "CHRISTIAN GABRIEL QUINTERO",
+   "minutos": "27",
+   "EnContra": "1"
+  },
+  {
+   "carne": "28194",
+   "Nombre": "CHRISTIAN GABRIEL QUINTERO",
+   "minutos": "50",
+   "EnContra": "1"
+  },
+  {
+   "carne": "30822",
+   "Nombre": "MAXIMILIANO GABRIEL CODEVILA",
+   "minutos": "85",
+   "EnContra": "1"
+  },
+  {
+   "carne": "36351",
+   "Nombre": "DANIEL ALEJANDRO TUCUNA",
+   "minutos": "20",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

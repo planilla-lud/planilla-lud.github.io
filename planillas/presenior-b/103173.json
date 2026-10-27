@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"B\" TIT. y ASC",
   "Cancha": "CARRASCO LAWN TENIS (KM 23)",
-  "Fecha_Inicio": "2026-10-24 10:30:00",
-  "Fecha_fin": "2026-10-24 10:30:00",
+  "Fecha_Inicio": "2026-10-24 11:05:00",
+  "Fecha_fin": "2026-10-24 11:05:00",
   "Locatario": "CARRASCO LAWN TENNIS",
   "goles_locatario": "3",
   "puntos_locatario": "0",
@@ -29,12 +29,267 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "28362",
+   "Nombre": "JUAN PABLO MARSICANO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "48257",
+   "Nombre": "RODRIGO CABRAL",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "29072",
+   "Nombre": "BRUNO RODRIGUEZ",
+   "camiseta": "69",
+   "Capitan": ""
+  },
+  {
+   "carne": "22253",
+   "Nombre": "LUCAS MORISIO",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "25821",
+   "Nombre": "JOAQUIN MAGALLAN",
+   "camiseta": "86",
+   "Capitan": ""
+  },
+  {
+   "carne": "34400",
+   "Nombre": "CARLOS MANUEL DE MELLO",
+   "camiseta": "51",
+   "Capitan": ""
+  },
+  {
+   "carne": "28144",
+   "Nombre": "ANDRES ANTONIO BESIO",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "18574",
+   "Nombre": "PABLO AGUSTIN FERNANDEZ",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "20483",
+   "Nombre": "NICOLAS KARDJIAN",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "23708",
+   "Nombre": "LEANDRO JOSE FERNANDEZ",
+   "camiseta": "46",
+   "Capitan": ""
+  },
+  {
+   "carne": "26011",
+   "Nombre": "MAURO GIAMMARCHI",
+   "camiseta": "7",
+   "Capitan": "(C)"
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "22739",
+   "Nombre": "GUZMAN PANARIO",
+   "camiseta": "1",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "32286",
+   "Nombre": "GONZALO VICTOR VEGA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "37709",
+   "Nombre": "GONZALO GUBITOSI",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "26579",
+   "Nombre": "JUAN PABLO DELOR",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "27121",
+   "Nombre": "JUAN JOSE CASTRO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "38848",
+   "Nombre": "FEDERICO FERRO",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "42577",
+   "Nombre": "IGNACIO CHRISTOPHERSEN",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "27261",
+   "Nombre": "DIEGO MATIAS RODRIGUEZ",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "42933",
+   "Nombre": "RODRIGO GONZALO SICA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "24864",
+   "Nombre": "FACUNDO ALVAREZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "26696",
+   "Nombre": "SEBASTIAN PABLO ELHORDOY",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "22253",
+   "Jug_Sale": "LUCAS MORISIO",
+   "CarneEntra": "21264",
+   "Jug_Entra": "JUAN ANDRES IRAOLA",
+   "camiseta": "35",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "20483",
+   "Jug_Sale": "NICOLAS KARDJIAN",
+   "CarneEntra": "26719",
+   "Jug_Entra": "MARTIN JOSE CRISTIANI",
+   "camiseta": "19",
+   "minutos": "39"
+  },
+  {
+   "CarneSale": "48257",
+   "Jug_Sale": "RODRIGO CABRAL",
+   "CarneEntra": "31878",
+   "Jug_Entra": "MAXIMILIANO SALA",
+   "camiseta": "47",
+   "minutos": "54"
+  },
+  {
+   "CarneSale": "25821",
+   "Jug_Sale": "JOAQUIN MAGALLAN",
+   "CarneEntra": "48257",
+   "Jug_Entra": "RODRIGO CABRAL",
+   "camiseta": "17",
+   "minutos": "40"
+  },
+  {
+   "CarneSale": "23708",
+   "Jug_Sale": "LEANDRO JOSE FERNANDEZ",
+   "CarneEntra": "23201",
+   "Jug_Entra": "JOSE IGNACIO MAIORANO",
+   "camiseta": "88",
+   "minutos": "80"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "42577",
+   "Jug_Sale": "IGNACIO CHRISTOPHERSEN",
+   "CarneEntra": "27534",
+   "Jug_Entra": "SANTIAGO MORO",
+   "camiseta": "0",
+   "minutos": "37"
+  },
+  {
+   "CarneSale": "27121",
+   "Jug_Sale": "JUAN JOSE CASTRO",
+   "CarneEntra": "31667",
+   "Jug_Entra": "DIEGO MARTIN BONAUDI",
+   "camiseta": "5",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "26696",
+   "Jug_Sale": "SEBASTIAN PABLO ELHORDOY",
+   "CarneEntra": "28210",
+   "Jug_Entra": "JULIO MONTERROSO",
+   "camiseta": "26",
+   "minutos": "68"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "23708",
+   "Nombre": "LEANDRO JOSE FERNANDEZ",
+   "minutos": "65",
+   "EnContra": "0"
+  },
+  {
+   "carne": "26719",
+   "Nombre": "MARTIN JOSE CRISTIANI",
+   "minutos": "73",
+   "EnContra": "0"
+  },
+  {
+   "carne": "29072",
+   "Nombre": "BRUNO RODRIGUEZ",
+   "minutos": "61",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "24864",
+   "Nombre": "FACUNDO ALVAREZ",
+   "minutos": "40",
+   "EnContra": "1"
+  },
+  {
+   "carne": "28210",
+   "Nombre": "JULIO MONTERROSO",
+   "minutos": "88",
+   "EnContra": "1"
+  },
+  {
+   "carne": "37709",
+   "Nombre": "GONZALO GUBITOSI",
+   "minutos": "81",
+   "EnContra": "1"
+  },
+  {
+   "carne": "42577",
+   "Nombre": "IGNACIO CHRISTOPHERSEN",
+   "minutos": "33",
+   "EnContra": "1"
+  },
+  {
+   "carne": "42933",
+   "Nombre": "RODRIGO GONZALO SICA",
+   "minutos": "45",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
- "expulsadosV": []
+ "expulsadosV": [
+  {
+   "Nombre": "IGNACIO CHRISTOPHERSEN",
+   "observaciones": ""
+  }
+ ]
 }

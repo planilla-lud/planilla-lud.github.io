@@ -1,17 +1,17 @@
 [
  {
-  "serie": "DTA",
-  "fechaHora": "2026-11-01 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "CLUB ATLETICO LIMBURGO",
-  "visitante": "LA 12 UNIVERSITARIA"
+  "serie": "DPD",
+  "fechaHora": "2026-10-28 21:00:00",
+  "cancha": "SAN EUGENIO",
+  "local": "SAN EUGENIO",
+  "visitante": "PERRY SEXTA UNIVERSITARIO"
  },
  {
-  "serie": "DPD",
-  "fechaHora": "2026-11-01 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "UNIVERSITARIO VERONES",
-  "visitante": "SALESIANOS DE LAS PIEDRAS"
+  "serie": "DTA",
+  "fechaHora": "2026-11-01 09:00:00",
+  "cancha": "LIMBURGO -DR.J.L.PISCIOTTANO-",
+  "local": "CLUB ATLETICO LIMBURGO",
+  "visitante": "LA 12 UNIVERSITARIA"
  },
  {
   "serie": "DTA",
@@ -35,13 +35,6 @@
   "visitante": "PEÑAROL UNIVERSITARIO"
  },
  {
-  "serie": "DPD",
-  "fechaHora": "2026-11-01 09:00:00",
-  "cancha": "SAN EUGENIO",
-  "local": "SAN EUGENIO",
-  "visitante": "PERRY SEXTA UNIVERSITARIO"
- },
- {
   "serie": "DTA",
   "fechaHora": "2026-11-01 11:15:00",
   "cancha": "COMPLEJO DEPORTIVO H3O",
@@ -54,6 +47,13 @@
   "cancha": "COMPLEJO JUAN XXIII",
   "local": "MOSSENS",
   "visitante": "NUMA TURCATTI"
+ },
+ {
+  "serie": "DPD",
+  "fechaHora": "2026-11-01 11:15:00",
+  "cancha": "JACKSONVILLE",
+  "local": "UNIVERSITARIO VERONES",
+  "visitante": "SALESIANOS DE LAS PIEDRAS"
  },
  {
   "serie": "DTA",

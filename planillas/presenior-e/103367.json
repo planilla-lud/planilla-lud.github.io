@@ -1,0 +1,291 @@
+{
+ "id": "103367",
+ "categoria": "presenior-e",
+ "serie": "PSET2",
+ "fecha": 4,
+ "fechaHora": "2026-10-24 09:00:00",
+ "cancha": "()",
+ "local": "OBC AZULGRANA",
+ "visitante": "BELLA UNION UNIVERSITARIO",
+ "gl": 1,
+ "gv": 3,
+ "detalle": {
+  "nro_partido": "1015",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "PRE SENIOR",
+  "categoria": "PRE-SENIOR MASCULINO",
+  "rueda": "3",
+  "Divisional": "PS DIV. E 2ªR COPA ORO",
+  "Cancha": "()",
+  "Fecha_Inicio": "2026-10-24 11:15:00",
+  "Fecha_fin": "2026-10-24 11:15:00",
+  "Locatario": "OBC AZULGRANA",
+  "goles_locatario": "1",
+  "puntos_locatario": "0",
+  "Visitante": "BELLA UNION UNIVERSITARIO",
+  "goles_visitante": "3",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "67090",
+   "Nombre": "MICHEL VOULMINOT",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "26851",
+   "Nombre": "SANTIAGO STORACE",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "26195",
+   "Nombre": "NICOLAS DEL CAMPO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "42094",
+   "Nombre": "MATIAS SANTIAGO BORDABERRY",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "56579",
+   "Nombre": "SANTIAGO GORTARI",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "29199",
+   "Nombre": "SANTIAGO RAUL MOLINARO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "23712",
+   "Nombre": "DANIEL MATIAS GARAT",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "27175",
+   "Nombre": "FEDERICO SALHON",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "23969",
+   "Nombre": "ALFREDO OSCAR CAT",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "26849",
+   "Nombre": "SANTIAGO JAVIER HERBON",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "48486",
+   "Nombre": "SANTIAGO MARIA FILIPPELLI",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "67674",
+   "Nombre": "JUAN JOSE ANCHIETA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "49464",
+   "Nombre": "AUGUSTO MARTIN DE LOS SANTOS",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "33295",
+   "Nombre": "GARY ANDRES SUAREZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "57376",
+   "Nombre": "ANDRES SEBASTIAN ROVETTA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "45482",
+   "Nombre": "JOSE MIGUEL SOMACAL",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "41311",
+   "Nombre": "LEONARDO DANIEL GARCIA",
+   "camiseta": "92",
+   "Capitan": ""
+  },
+  {
+   "carne": "45449",
+   "Nombre": "MANUEL QUINTANA",
+   "camiseta": "50",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "64926",
+   "Nombre": "MARTIN BENTOS",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "35958",
+   "Nombre": "RENATO RIBEIRO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "58245",
+   "Nombre": "JOSE EMILIO VILLAR",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "57873",
+   "Nombre": "MATIAS ARIEL DE LOS SANTOS",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "42094",
+   "Jug_Sale": "MATIAS SANTIAGO BORDABERRY",
+   "CarneEntra": "43474",
+   "Jug_Entra": "CAMILO OSORIO",
+   "camiseta": "34",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "23712",
+   "Jug_Sale": "DANIEL MATIAS GARAT",
+   "CarneEntra": "28441",
+   "Jug_Entra": "ALFONSO HEBER",
+   "camiseta": "4",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "26849",
+   "Jug_Sale": "SANTIAGO JAVIER HERBON",
+   "CarneEntra": "23969",
+   "Jug_Entra": "ALFREDO OSCAR CAT",
+   "camiseta": "45",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "26851",
+   "Jug_Sale": "SANTIAGO STORACE",
+   "CarneEntra": "28124",
+   "Jug_Entra": "MARTIN JULIO NOGUES",
+   "camiseta": "18",
+   "minutos": "77"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "35958",
+   "Jug_Sale": "RENATO RIBEIRO",
+   "CarneEntra": "30583",
+   "Jug_Entra": "WALTER LIMA",
+   "camiseta": "10",
+   "minutos": "28"
+  },
+  {
+   "CarneSale": "41311",
+   "Jug_Sale": "LEONARDO DANIEL GARCIA",
+   "CarneEntra": "60341",
+   "Jug_Entra": "JONATHAN ALVEZ",
+   "camiseta": "99",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "33295",
+   "Jug_Sale": "GARY ANDRES SUAREZ",
+   "CarneEntra": "53051",
+   "Jug_Entra": "AGUSTIN MAIOCHI",
+   "camiseta": "69",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "49464",
+   "Jug_Sale": "AUGUSTO MARTIN DE LOS SANTOS",
+   "CarneEntra": "40578",
+   "Jug_Entra": "SANTIAGO DUARTE",
+   "camiseta": "32",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "57376",
+   "Jug_Sale": "ANDRES SEBASTIAN ROVETTA",
+   "CarneEntra": "58388",
+   "Jug_Entra": "DAMIAN LATORRE",
+   "camiseta": "80",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "58245",
+   "Jug_Sale": "JOSE EMILIO VILLAR",
+   "CarneEntra": "38804",
+   "Jug_Entra": "JUAN JOSE PAGLIASSO",
+   "camiseta": "31",
+   "minutos": "92"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "26849",
+   "Nombre": "SANTIAGO JAVIER HERBON",
+   "minutos": "22",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "57873",
+   "Nombre": "MATIAS ARIEL DE LOS SANTOS",
+   "minutos": "51",
+   "EnContra": "1"
+  },
+  {
+   "carne": "57873",
+   "Nombre": "MATIAS ARIEL DE LOS SANTOS",
+   "minutos": "86",
+   "EnContra": "1"
+  },
+  {
+   "carne": "57873",
+   "Nombre": "MATIAS ARIEL DE LOS SANTOS",
+   "minutos": "93",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "SANTIAGO MARIA FILIPPELLI",
+   "observaciones": ""
+  },
+  {
+   "Nombre": "SANTIAGO GORTARI",
+   "observaciones": ""
+  }
+ ],
+ "expulsadosV": []
+}

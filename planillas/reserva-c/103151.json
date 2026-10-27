@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"C\" TIT. y ASC.",
   "Cancha": "COMPLEJO INGENIERO DEL CAMPO",
-  "Fecha_Inicio": "2026-10-22 23:30:00",
-  "Fecha_fin": "2026-10-22 23:30:00",
+  "Fecha_Inicio": "2026-10-22 23:45:00",
+  "Fecha_fin": "2026-10-22 23:45:00",
   "Locatario": "DANUBIO FUTBOL CLUB",
   "goles_locatario": "4",
   "puntos_locatario": "3",
@@ -29,12 +29,298 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "39749",
+   "Nombre": "SANTIAGO OLIVERI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "42691",
+   "Nombre": "MAXIMILIANO MUNDIN",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "54393",
+   "Nombre": "KEVIN SEBASTIAN LUDUEÑA",
+   "camiseta": "3",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "51293",
+   "Nombre": "JUAN MARTIN CABALLERO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "61832",
+   "Nombre": "AGUSTIN FRANCA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "63923",
+   "Nombre": "ADRIAN MOREIRA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "55067",
+   "Nombre": "NICOLAS MAURO RODRIGUEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "58023",
+   "Nombre": "MANUEL MENDEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "63586",
+   "Nombre": "EMILIANO ARREGUI",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "54780",
+   "Nombre": "ESTEBAN DANIEL VAZQUEZ",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "39619",
+   "Nombre": "CRISTHIAN AGUSTIN ANADON",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "54917",
+   "Nombre": "IGNACIO JOSE LUIS BRAGA",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "39059",
+   "Nombre": "GUILLERMO JOSE BARREIRO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "49360",
+   "Nombre": "TOMAS JOSE TARIGO",
+   "camiseta": "17",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "50906",
+   "Nombre": "IGNACION PEREZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "58663",
+   "Nombre": "JOAQUIN ETCHELAR",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "62073",
+   "Nombre": "JUAN IGNACIO PEVERELLI",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "49452",
+   "Nombre": "VALENTIN ALGARE",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "49450",
+   "Nombre": "AGUSTIN MATEO MACHADO",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "49358",
+   "Nombre": "JUAN ANDRES TORRES NEGREIRA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "54674",
+   "Nombre": "JUAN FRANCISCO TORRES NEGREIRA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "46459",
+   "Nombre": "TOMAS SEVERI",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "42691",
+   "Jug_Sale": "MAXIMILIANO MUNDIN",
+   "CarneEntra": "47195",
+   "Jug_Entra": "SANTIAGO RODRIGUEZ",
+   "camiseta": "16",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58023",
+   "Jug_Sale": "MANUEL MENDEZ",
+   "CarneEntra": "56892",
+   "Jug_Entra": "ENZO GUSTAVO FERRARI",
+   "camiseta": "5",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "63586",
+   "Jug_Sale": "EMILIANO ARREGUI",
+   "CarneEntra": "64473",
+   "Jug_Entra": "GIANFRANCO MARCHIORO",
+   "camiseta": "20",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "54780",
+   "Jug_Sale": "ESTEBAN DANIEL VAZQUEZ",
+   "CarneEntra": "46276",
+   "Jug_Entra": "FRANCO GUSTAVO MARFEI",
+   "camiseta": "17",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "55067",
+   "Jug_Sale": "NICOLAS MAURO RODRIGUEZ",
+   "CarneEntra": "62347",
+   "Jug_Entra": "JUAN MATEO LARREA",
+   "camiseta": "19",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "63923",
+   "Jug_Sale": "ADRIAN MOREIRA",
+   "CarneEntra": "58647",
+   "Jug_Entra": "DIEGO FERNANDO MORALES",
+   "camiseta": "14",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "39619",
+   "Jug_Sale": "CRISTHIAN AGUSTIN ANADON",
+   "CarneEntra": "51199",
+   "Jug_Entra": "NICOLAS AGUSTIN CARDOZO",
+   "camiseta": "13",
+   "minutos": "80"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "46459",
+   "Jug_Sale": "TOMAS SEVERI",
+   "CarneEntra": "68603",
+   "Jug_Entra": "FELIPE ROUCO",
+   "camiseta": "21",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "50906",
+   "Jug_Sale": "IGNACION PEREZ",
+   "CarneEntra": "47807",
+   "Jug_Entra": "JUAN ANDRES BRATSCHI",
+   "camiseta": "14",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "54674",
+   "Jug_Sale": "JUAN FRANCISCO TORRES NEGREIRA",
+   "CarneEntra": "62490",
+   "Jug_Entra": "NICOLAS MARTIN LOGIURATO",
+   "camiseta": "20",
+   "minutos": "52"
+  },
+  {
+   "CarneSale": "39059",
+   "Jug_Sale": "GUILLERMO JOSE BARREIRO",
+   "CarneEntra": "61186",
+   "Jug_Entra": "JOAQUIN MARIA FLORES",
+   "camiseta": "19",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "62073",
+   "Jug_Sale": "JUAN IGNACIO PEVERELLI",
+   "CarneEntra": "56341",
+   "Jug_Entra": "FRANCISCO SOBRAL",
+   "camiseta": "11",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "49358",
+   "Jug_Sale": "JUAN ANDRES TORRES NEGREIRA",
+   "CarneEntra": "53494",
+   "Jug_Entra": "NICOLAS LUIS SERE",
+   "camiseta": "3",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "49360",
+   "Jug_Sale": "TOMAS JOSE TARIGO",
+   "CarneEntra": "58661",
+   "Jug_Entra": "SANTIAGO GAUDIANO",
+   "camiseta": "71",
+   "minutos": "78"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "46276",
+   "Nombre": "FRANCO GUSTAVO MARFEI",
+   "minutos": "70",
+   "EnContra": "0"
+  },
+  {
+   "carne": "55067",
+   "Nombre": "NICOLAS MAURO RODRIGUEZ",
+   "minutos": "4",
+   "EnContra": "0"
+  },
+  {
+   "carne": "55067",
+   "Nombre": "NICOLAS MAURO RODRIGUEZ",
+   "minutos": "48",
+   "EnContra": "0"
+  },
+  {
+   "carne": "63586",
+   "Nombre": "EMILIANO ARREGUI",
+   "minutos": "55",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "39059",
+   "Nombre": "GUILLERMO JOSE BARREIRO",
+   "minutos": "44",
+   "EnContra": "1"
+  },
+  {
+   "carne": "62490",
+   "Nombre": "NICOLAS MARTIN LOGIURATO",
+   "minutos": "85",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

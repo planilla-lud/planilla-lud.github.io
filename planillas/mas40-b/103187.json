@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAS40 \"B\" TIT. y ASC.",
   "Cancha": "CARRASCO LAWN TENIS (KM 23)",
-  "Fecha_Inicio": "2026-10-24 12:45:00",
-  "Fecha_fin": "2026-10-24 12:45:00",
+  "Fecha_Inicio": "2026-10-24 13:15:00",
+  "Fecha_fin": "2026-10-24 13:15:00",
   "Locatario": "CARRASCO LAWN TENNIS",
   "goles_locatario": "3",
   "puntos_locatario": "1",
@@ -29,12 +29,250 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "13883",
+   "Nombre": "GONZALO JOSE RUIZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "18067",
+   "Nombre": "JUAN MANUEL YAQUINTA",
+   "camiseta": "91",
+   "Capitan": ""
+  },
+  {
+   "carne": "20737",
+   "Nombre": "JAVIER GUSTAVO MARIÑO",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "22628",
+   "Nombre": "NICOLAS SAEZ",
+   "camiseta": "81",
+   "Capitan": ""
+  },
+  {
+   "carne": "13497",
+   "Nombre": "IGNACIO ITURBURU",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "13676",
+   "Nombre": "IGNACIO GALEANO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "11361",
+   "Nombre": "CARLOS JAVIER SARACCO",
+   "camiseta": "48",
+   "Capitan": ""
+  },
+  {
+   "carne": "18056",
+   "Nombre": "FELIPE GARCIA",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "58917",
+   "Nombre": "IGNACIO ZUGARRAMURDI",
+   "camiseta": "57",
+   "Capitan": ""
+  },
+  {
+   "carne": "21389",
+   "Nombre": "ALESSANDRO PASQUALE GIARDINO",
+   "camiseta": "39",
+   "Capitan": ""
+  },
+  {
+   "carne": "23201",
+   "Nombre": "JOSE IGNACIO MAIORANO",
+   "camiseta": "88",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "22701",
+   "Nombre": "MATIAS AGUSTIN RODRIGUEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "22321",
+   "Nombre": "JOSE IGNACIO GERVAZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "18937",
+   "Nombre": "RAFAEL GONZALEZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "43482",
+   "Nombre": "ALEXIS MARTIN ARENAZA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "26537",
+   "Nombre": "GONZALO LANGONI",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "22225",
+   "Nombre": "ENRIQUE DANIEL PADIAL",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "17153",
+   "Nombre": "JUAN IGNACIO HERMIDA",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "20146",
+   "Nombre": "PABLO JAVIER VIERA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "20634",
+   "Nombre": "AGUSTIN CHIAZZARO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "16210",
+   "Nombre": "JOSE GABRIEL SUAREZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "18444",
+   "Nombre": "JOAQUIN BORBONET",
+   "camiseta": "15",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "21389",
+   "Jug_Sale": "ALESSANDRO PASQUALE GIARDINO",
+   "CarneEntra": "20818",
+   "Jug_Entra": "DIEGO PATRON",
+   "camiseta": "7",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "18056",
+   "Jug_Sale": "FELIPE GARCIA",
+   "CarneEntra": "17920",
+   "Jug_Entra": "ANDRES MUNHO",
+   "camiseta": "34",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "23201",
+   "Jug_Sale": "JOSE IGNACIO MAIORANO",
+   "CarneEntra": "14917",
+   "Jug_Entra": "FEDERICO SASSI",
+   "camiseta": "29",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "58917",
+   "Jug_Sale": "IGNACIO ZUGARRAMURDI",
+   "CarneEntra": "19479",
+   "Jug_Entra": "MIGUEL RUBINO",
+   "camiseta": "5",
+   "minutos": "74"
+  },
+  {
+   "CarneSale": "18067",
+   "Jug_Sale": "JUAN MANUEL YAQUINTA",
+   "CarneEntra": "64672",
+   "Jug_Entra": "GONZALO VENDITTO",
+   "camiseta": "21",
+   "minutos": "82"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "26537",
+   "Jug_Sale": "GONZALO LANGONI",
+   "CarneEntra": "19543",
+   "Jug_Entra": "NICOLAS RENATO BALDRIZ",
+   "camiseta": "13",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "20634",
+   "Jug_Sale": "AGUSTIN CHIAZZARO",
+   "CarneEntra": "43073",
+   "Jug_Entra": "ALEJANDRO RAFAEL DELUCA",
+   "camiseta": "8",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "17153",
+   "Jug_Sale": "JUAN IGNACIO HERMIDA",
+   "CarneEntra": "20146",
+   "Jug_Entra": "PABLO JAVIER VIERA",
+   "camiseta": "5",
+   "minutos": "80"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "18067",
+   "Nombre": "JUAN MANUEL YAQUINTA",
+   "minutos": "12",
+   "EnContra": "0"
+  },
+  {
+   "carne": "18067",
+   "Nombre": "JUAN MANUEL YAQUINTA",
+   "minutos": "69",
+   "EnContra": "0"
+  },
+  {
+   "carne": "58917",
+   "Nombre": "IGNACIO ZUGARRAMURDI",
+   "minutos": "51",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "16210",
+   "Nombre": "JOSE GABRIEL SUAREZ",
+   "minutos": "46",
+   "EnContra": "1"
+  },
+  {
+   "carne": "18444",
+   "Nombre": "JOAQUIN BORBONET",
+   "minutos": "68",
+   "EnContra": "1"
+  },
+  {
+   "carne": "18444",
+   "Nombre": "JOAQUIN BORBONET",
+   "minutos": "93",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

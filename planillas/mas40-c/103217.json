@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "M40 DIV. C COPA BRONCE R2",
   "Cancha": "COMPLEJO LAS CASUARINAS",
-  "Fecha_Inicio": "2026-10-24 12:45:00",
-  "Fecha_fin": "2026-10-24 12:45:00",
+  "Fecha_Inicio": "2026-10-24 12:36:00",
+  "Fecha_fin": "2026-10-24 12:36:00",
   "Locatario": "ANGLO",
   "goles_locatario": "5",
   "puntos_locatario": "3",
@@ -27,13 +27,239 @@
   "goles_visitante": "0",
   "puntos_visitante": "0",
   "walk_over": "0",
-  "observaciones": null
+  "observaciones": "Finalizado el encuentro a los 81 minutos por inferioridad numérica de UM."
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
+ "titularesL": [
+  {
+   "carne": "12777",
+   "Nombre": "ALVARO GUSMAN NUÑEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "13367",
+   "Nombre": "JUAN IGNACIO CERRO",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "34908",
+   "Nombre": "DANIEL ADRIAN GONZALEZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "21275",
+   "Nombre": "GERMAN CAPDEHOURAT",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "22325",
+   "Nombre": "FEDERICO ARISMENDI",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "28673",
+   "Nombre": "DIEGO MARTIN FUGAZOT",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "23199",
+   "Nombre": "JORGE ANDRES MARTINEZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "19388",
+   "Nombre": "MARCELO FABIAN GONZALEZ",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "20733",
+   "Nombre": "RODRIGO PEREZ",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "35038",
+   "Nombre": "PABLO SEBASTIAN VIDAL",
+   "camiseta": "99",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "20842",
+   "Nombre": "CARLOS ADRIAN PAREDES",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "42605",
+   "Nombre": "NESTOR SCLAVI",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "46506",
+   "Nombre": "DIEGO PEREZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "42430",
+   "Nombre": "LEANDRO TABARE VAZ",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "24432",
+   "Nombre": "MARCELO JAVIER SOSA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "20413",
+   "Nombre": "GABRIEL CARRIQUIRY",
+   "camiseta": "3",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "47400",
+   "Nombre": "ESTEBAN DANIEL GARCIA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "13042",
+   "Nombre": "ALVARO IGNACIO AGUIRRE",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "14583",
+   "Nombre": "PAULO RAUL SALDAÑA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "24784",
+   "Nombre": "RODRIGO ANTONIO VAZQUEZ",
+   "camiseta": "21",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "13367",
+   "Jug_Sale": "JUAN IGNACIO CERRO",
+   "CarneEntra": "16453",
+   "Jug_Entra": "CARLOS ALBERTO TARANTO",
+   "camiseta": "23",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "28673",
+   "Jug_Sale": "DIEGO MARTIN FUGAZOT",
+   "CarneEntra": "62119",
+   "Jug_Entra": "ANIBAL LEONARDO LEIFERT",
+   "camiseta": "19",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "19388",
+   "Jug_Sale": "MARCELO FABIAN GONZALEZ",
+   "CarneEntra": "64346",
+   "Jug_Entra": "FEDERICO RAUL STRAZZARINO",
+   "camiseta": "35",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "20733",
+   "Jug_Sale": "RODRIGO PEREZ",
+   "CarneEntra": "15654",
+   "Jug_Entra": "GERARDO GABRIEL HERNANDEZ",
+   "camiseta": "80",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "20842",
+   "Jug_Sale": "CARLOS ADRIAN PAREDES",
+   "CarneEntra": "40391",
+   "Jug_Entra": "PABLO AUGUSTO CORDERO",
+   "camiseta": "13",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "34908",
+   "Jug_Sale": "DANIEL ADRIAN GONZALEZ",
+   "CarneEntra": "20733",
+   "Jug_Entra": "RODRIGO PEREZ",
+   "camiseta": "27",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "23199",
+   "Jug_Sale": "JORGE ANDRES MARTINEZ",
+   "CarneEntra": "28673",
+   "Jug_Entra": "DIEGO MARTIN FUGAZOT",
+   "camiseta": "7",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "35038",
+   "Jug_Sale": "PABLO SEBASTIAN VIDAL",
+   "CarneEntra": "20842",
+   "Jug_Entra": "CARLOS ADRIAN PAREDES",
+   "camiseta": "9",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "22325",
+   "Jug_Sale": "FEDERICO ARISMENDI",
+   "CarneEntra": "13367",
+   "Jug_Entra": "JUAN IGNACIO CERRO",
+   "camiseta": "29",
+   "minutos": "65"
+  }
+ ],
  "cambiosV": [],
- "golesL": [],
+ "golesL": [
+  {
+   "carne": "19388",
+   "Nombre": "MARCELO FABIAN GONZALEZ",
+   "minutos": "8",
+   "EnContra": "0"
+  },
+  {
+   "carne": "28673",
+   "Nombre": "DIEGO MARTIN FUGAZOT",
+   "minutos": "44",
+   "EnContra": "0"
+  },
+  {
+   "carne": "40391",
+   "Nombre": "PABLO AUGUSTO CORDERO",
+   "minutos": "57",
+   "EnContra": "0"
+  },
+  {
+   "carne": "40391",
+   "Nombre": "PABLO AUGUSTO CORDERO",
+   "minutos": "59",
+   "EnContra": "0"
+  },
+  {
+   "carne": "64346",
+   "Nombre": "FEDERICO RAUL STRAZZARINO",
+   "minutos": "62",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

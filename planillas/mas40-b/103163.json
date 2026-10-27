@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAS40 \"B\" PER. y DESC,",
   "Cancha": "COMPLEJO DEPORTIVO ARRAYANES",
-  "Fecha_Inicio": "2026-10-24 10:30:00",
-  "Fecha_fin": "2026-10-24 10:30:00",
+  "Fecha_Inicio": "2026-10-24 10:50:00",
+  "Fecha_fin": "2026-10-24 10:50:00",
   "Locatario": "SA.FE.MA",
   "goles_locatario": "2",
   "puntos_locatario": "3",
@@ -29,11 +29,208 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "21597",
+   "Nombre": "CLAUDIO GARCIA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "49350",
+   "Nombre": "DIEGO GUSTAVO DELFANTE",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "66997",
+   "Nombre": "ERNESTO ACUÑA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "22359",
+   "Nombre": "JUAN CARLOS MUSSIO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "18534",
+   "Nombre": "ANDRES MARCOS COPPOLA",
+   "camiseta": "11",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "35585",
+   "Nombre": "DAMIAN ANDRES PERA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "48821",
+   "Nombre": "JOAQUIN ANDRES ZUNINO",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "59038",
+   "Nombre": "IÑAKI BUSTINGORRI",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "62621",
+   "Nombre": "ALEX JOHANN BONJOUR",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "18279",
+   "Nombre": "CRISTIAN DAVID RODRIGUEZ",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "17929",
+   "Nombre": "GONZALO JORGE TAGLIAFERRO",
+   "camiseta": "5",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "13113",
+   "Nombre": "SANTIAGO FRASCHINI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "51305",
+   "Nombre": "PABLO ANDRES NAVARRETE",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "14351",
+   "Nombre": "CARLOS ANDRES ROMANO",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "46546",
+   "Nombre": "MARCELO JAVIER CASAVIEJA",
+   "camiseta": "36",
+   "Capitan": ""
+  },
+  {
+   "carne": "66344",
+   "Nombre": "MARTIN CATTONI",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "30077",
+   "Nombre": "PABLO EDGARDO ALVEZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "31554",
+   "Nombre": "JUAN IGNACIO GOMEZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "25364",
+   "Nombre": "LEANDRO APARICIO GALETTA",
+   "camiseta": "48",
+   "Capitan": ""
+  },
+  {
+   "carne": "38770",
+   "Nombre": "ANTONIO MANUEL RODRIGUEZ",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "17392",
+   "Nombre": "JOSE PEDRO RAMIREZ",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "32307",
+   "Nombre": "RAMIRO VICENTE MOYANO",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "17929",
+   "Jug_Sale": "GONZALO JORGE TAGLIAFERRO",
+   "CarneEntra": "15555",
+   "Jug_Entra": "SANTIAGO JAVIER CABALLERO",
+   "camiseta": "4",
+   "minutos": "45"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "17392",
+   "Jug_Sale": "JOSE PEDRO RAMIREZ",
+   "CarneEntra": "32307",
+   "Jug_Entra": "RAMIRO VICENTE MOYANO",
+   "camiseta": "11",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "31554",
+   "Jug_Sale": "JUAN IGNACIO GOMEZ",
+   "CarneEntra": "46546",
+   "Jug_Entra": "MARCELO JAVIER CASAVIEJA",
+   "camiseta": "36",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "46546",
+   "Jug_Sale": "MARCELO JAVIER CASAVIEJA",
+   "CarneEntra": "61104",
+   "Jug_Entra": "FABIAN ACOSTA",
+   "camiseta": "90",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "32307",
+   "Jug_Sale": "RAMIRO VICENTE MOYANO",
+   "CarneEntra": "15459",
+   "Jug_Entra": "ALEJANDRO BROWN",
+   "camiseta": "13",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "38770",
+   "Jug_Sale": "ANTONIO MANUEL RODRIGUEZ",
+   "CarneEntra": "15132",
+   "Jug_Entra": "ALEJANDRO ALVARO BELLERATI",
+   "camiseta": "99",
+   "minutos": "45"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "48821",
+   "Nombre": "JOAQUIN ANDRES ZUNINO",
+   "minutos": "21",
+   "EnContra": "0"
+  },
+  {
+   "carne": "48821",
+   "Nombre": "JOAQUIN ANDRES ZUNINO",
+   "minutos": "90",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

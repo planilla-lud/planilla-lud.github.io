@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"A\" PER. y DESC",
   "Cancha": "COMPLEJO DEPORTIVO ARRAYANES",
-  "Fecha_Inicio": "2026-10-24 10:30:00",
-  "Fecha_fin": "2026-10-24 10:30:00",
+  "Fecha_Inicio": "2026-10-24 11:00:00",
+  "Fecha_fin": "2026-10-24 11:00:00",
   "Locatario": "MADRUGADA F.C",
   "goles_locatario": "1",
   "puntos_locatario": "0",
@@ -29,12 +29,267 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "titularesL": [
+  {
+   "carne": "18456",
+   "Nombre": "MARTIN MARUCA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "22757",
+   "Nombre": "SEBASTIAN CORREA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "31517",
+   "Nombre": "ALEJANDRO BAUDO",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "21347",
+   "Nombre": "GUILLERMO FERNANDO TORIJA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "34213",
+   "Nombre": "MATEO MARQUES",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "34256",
+   "Nombre": "GASTON ELBIO CANCELA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "19135",
+   "Nombre": "NICOLAS ANDRES SCHENONE",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "31925",
+   "Nombre": "PEDRO NICOLAS GARCIA",
+   "camiseta": "87",
+   "Capitan": ""
+  },
+  {
+   "carne": "40268",
+   "Nombre": "FABIAN RODRIGUEZ",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "51373",
+   "Nombre": "SERGIO MAXIMILIANO PEREZ",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "28237",
+   "Nombre": "MARCELO DAMIAN CASTRILLEJO",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "21670",
+   "Nombre": "ELI PERELMUTER",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "32888",
+   "Nombre": "DIEGO DAVID SONSOL",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "23925",
+   "Nombre": "KEVIN LUBINSKI",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "24718",
+   "Nombre": "NICOLAS OPER",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "37102",
+   "Nombre": "NICOLAS DIEGO MARIÑANSKY",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "21338",
+   "Nombre": "ALAN PAUL MIZRAJI",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "30530",
+   "Nombre": "PABLO DULCINI",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "40919",
+   "Nombre": "DIEGO GONZALEZ",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "40440",
+   "Nombre": "DANIEL LIPATIN",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "30253",
+   "Nombre": "SANTIAGO SAUL",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "22778",
+   "Nombre": "ALAN GRAUSER",
+   "camiseta": "20",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "21347",
+   "Jug_Sale": "GUILLERMO FERNANDO TORIJA",
+   "CarneEntra": "29114",
+   "Jug_Entra": "JOSE SEBASTIAN GRATTAROLA",
+   "camiseta": "29",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "34256",
+   "Jug_Sale": "GASTON ELBIO CANCELA",
+   "CarneEntra": "35976",
+   "Jug_Entra": "FEDERICO GARCIA",
+   "camiseta": "21",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "31925",
+   "Jug_Sale": "PEDRO NICOLAS GARCIA",
+   "CarneEntra": "39060",
+   "Jug_Entra": "FRANCISCO DANIEL BENTANCOR",
+   "camiseta": "47",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "34213",
+   "Jug_Sale": "MATEO MARQUES",
+   "CarneEntra": "30158",
+   "Jug_Entra": "MATIAS LIVCHICH",
+   "camiseta": "32",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "28237",
+   "Jug_Sale": "MARCELO DAMIAN CASTRILLEJO",
+   "CarneEntra": "54309",
+   "Jug_Entra": "JUAN MANUEL PUERTA",
+   "camiseta": "11",
+   "minutos": "53"
+  },
+  {
+   "CarneSale": "31517",
+   "Jug_Sale": "ALEJANDRO BAUDO",
+   "CarneEntra": "54528",
+   "Jug_Entra": "ALFREDO ANDRES HERRERA",
+   "camiseta": "19",
+   "minutos": "84"
+  },
+  {
+   "CarneSale": "19135",
+   "Jug_Sale": "NICOLAS ANDRES SCHENONE",
+   "CarneEntra": "21347",
+   "Jug_Entra": "GUILLERMO FERNANDO TORIJA",
+   "camiseta": "18",
+   "minutos": "84"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "21338",
+   "Jug_Sale": "ALAN PAUL MIZRAJI",
+   "CarneEntra": "26234",
+   "Jug_Entra": "FEDERICO SCHINDLER",
+   "camiseta": "8",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "40440",
+   "Jug_Sale": "DANIEL LIPATIN",
+   "CarneEntra": "44950",
+   "Jug_Entra": "DIEGO LIPATIN",
+   "camiseta": "33",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "22778",
+   "Jug_Sale": "ALAN GRAUSER",
+   "CarneEntra": "28079",
+   "Jug_Entra": "NICOLAS MENDELSHON",
+   "camiseta": "14",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "30253",
+   "Jug_Sale": "SANTIAGO SAUL",
+   "CarneEntra": "23290",
+   "Jug_Entra": "DIEGO ISRAEL POZIOMEK",
+   "camiseta": "17",
+   "minutos": "90"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "51373",
+   "Nombre": "SERGIO MAXIMILIANO PEREZ",
+   "minutos": "49",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "24718",
+   "Nombre": "NICOLAS OPER",
+   "minutos": "84",
+   "EnContra": "1"
+  },
+  {
+   "carne": "40919",
+   "Nombre": "DIEGO GONZALEZ",
+   "minutos": "23",
+   "EnContra": "1"
+  },
+  {
+   "carne": "40919",
+   "Nombre": "DIEGO GONZALEZ",
+   "minutos": "62",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "MARTIN MARUCA",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

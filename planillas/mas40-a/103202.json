@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAS40 \"A\" PERM. y DESC.",
   "Cancha": "COLEGIO PIO",
-  "Fecha_Inicio": "2026-10-24 12:45:00",
-  "Fecha_fin": "2026-10-24 12:45:00",
+  "Fecha_Inicio": "2026-10-24 13:10:00",
+  "Fecha_fin": "2026-10-24 13:10:00",
   "Locatario": "X - 13 UNIVERSITARIO",
   "goles_locatario": "2",
   "puntos_locatario": "1",
@@ -29,12 +29,230 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "23492",
+   "Nombre": "SANTIAGO MATIAS ORTIZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "29678",
+   "Nombre": "OSCAR WILLIAM PEREYRA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "18644",
+   "Nombre": "MAURICIO GONZALO SANTOS",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "19072",
+   "Nombre": "NICOLAS MAXIMILIANO IVANOVICH",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "54450",
+   "Nombre": "BERNARDO GABRIEL BACCINO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "16526",
+   "Nombre": "GONZALO DANIEL RIQUERO",
+   "camiseta": "4",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "42683",
+   "Nombre": "FABIO ENRIQUE RICCA",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "26156",
+   "Nombre": "PABLO IGNACIO COLL",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "39630",
+   "Nombre": "JAVIER ISAAC SCOTTI",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "26702",
+   "Nombre": "JOSE LUIS LOMBARDO",
+   "camiseta": "81",
+   "Capitan": ""
+  },
+  {
+   "carne": "27488",
+   "Nombre": "MARCELO FABIAN FRANCO",
+   "camiseta": "24",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "14138",
+   "Nombre": "GERMAN ODDONE",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "12575",
+   "Nombre": "SERGIO JAVIER FARAVELLI",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "13275",
+   "Nombre": "FRANCISCO JAVIER MITRANO",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "46961",
+   "Nombre": "GERARDO FRANCISCO ALCIATURI",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "13805",
+   "Nombre": "SERGIO JAVIER VIDAL",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "32875",
+   "Nombre": "LEANDRO SEBASTIAN ALEGRE",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "19298",
+   "Nombre": "GERMAN FEDERICO MOTTOLA",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "20135",
+   "Nombre": "GABRIEL GONZALEZ",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "47565",
+   "Nombre": "JUAN RAMIRO PERADOTTO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "20245",
+   "Nombre": "MATIAS AGUSTIN GONZALEZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "13983",
+   "Nombre": "MARCELO DANIEL MAUTTONI",
+   "camiseta": "88",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "16526",
+   "Jug_Sale": "GONZALO DANIEL RIQUERO",
+   "CarneEntra": "67179",
+   "Jug_Entra": "SEBASTIAN ALBERTO BALIÑO",
+   "camiseta": "25",
+   "minutos": "27"
+  },
+  {
+   "CarneSale": "67179",
+   "Jug_Sale": "SEBASTIAN ALBERTO BALIÑO",
+   "CarneEntra": "18938",
+   "Jug_Entra": "CARLOS FEDERICO GHIO",
+   "camiseta": "13",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "18644",
+   "Jug_Sale": "MAURICIO GONZALO SANTOS",
+   "CarneEntra": "21138",
+   "Jug_Entra": "MARCELO DANIEL MULLER",
+   "camiseta": "5",
+   "minutos": "45"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "13275",
+   "Jug_Sale": "FRANCISCO JAVIER MITRANO",
+   "CarneEntra": "11221",
+   "Jug_Entra": "MARIO SERGIO BADANO",
+   "camiseta": "28",
+   "minutos": "50"
+  },
+  {
+   "CarneSale": "47565",
+   "Jug_Sale": "JUAN RAMIRO PERADOTTO",
+   "CarneEntra": "13276",
+   "Jug_Entra": "JUAN MIGUEL KEUSHKERIAN",
+   "camiseta": "17",
+   "minutos": "50"
+  },
+  {
+   "CarneSale": "12575",
+   "Jug_Sale": "SERGIO JAVIER FARAVELLI",
+   "CarneEntra": "20028",
+   "Jug_Entra": "MARTIN OLIVERA",
+   "camiseta": "79",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "13805",
+   "Jug_Sale": "SERGIO JAVIER VIDAL",
+   "CarneEntra": "20523",
+   "Jug_Entra": "FLAVIO LLORACH",
+   "camiseta": "7",
+   "minutos": "65"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "26156",
+   "Nombre": "PABLO IGNACIO COLL",
+   "minutos": "51",
+   "EnContra": "0"
+  },
+  {
+   "carne": "54450",
+   "Nombre": "BERNARDO GABRIEL BACCINO",
+   "minutos": "35",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "13983",
+   "Nombre": "MARCELO DANIEL MAUTTONI",
+   "minutos": "59",
+   "EnContra": "1"
+  },
+  {
+   "carne": "46961",
+   "Nombre": "GERARDO FRANCISCO ALCIATURI",
+   "minutos": "40",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

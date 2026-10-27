@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"B\" PER. y DESC.",
   "Cancha": "COMPLEJO JUAN XXIII",
-  "Fecha_Inicio": "2026-10-24 12:45:00",
-  "Fecha_fin": "2026-10-24 12:45:00",
+  "Fecha_Inicio": "2026-10-24 13:05:00",
+  "Fecha_fin": "2026-10-24 13:05:00",
   "Locatario": "CIRCULO DE TENIS MONTEVIDEO",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,211 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "55015",
+   "Nombre": "FRANCISCO GRAMPIN",
+   "camiseta": "1",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "51734",
+   "Nombre": "NAHUEL JAVIER BALSAS",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "64208",
+   "Nombre": "JOAQUIN REPETTO",
+   "camiseta": "79",
+   "Capitan": ""
+  },
+  {
+   "carne": "59323",
+   "Nombre": "MARCOS DA SILVA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "50770",
+   "Nombre": "SANTIAGO IGNACIO FILGUEIRAS",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "54819",
+   "Nombre": "FACUNDO FERRARI",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "51216",
+   "Nombre": "IGNACIO ARRIOLA",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "60774",
+   "Nombre": "MATEO COMBA",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "64209",
+   "Nombre": "AGUSTIN MORALES",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "47766",
+   "Nombre": "MARCOS SANTIAGO HOLLANDER",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "50809",
+   "Nombre": "MARTIN GAITAN",
+   "camiseta": "35",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "47663",
+   "Nombre": "ANTHONE IVAN MARTINEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "58896",
+   "Nombre": "JUAN ANTONIO GONZALEZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "61141",
+   "Nombre": "ADRIAN IGNACIO GALVAN",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "66696",
+   "Nombre": "RODRIGO CABRERA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "56909",
+   "Nombre": "JOAQUIN NICOLAS NAVAS",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "51756",
+   "Nombre": "JUAN IGNACIO PERTUSSO",
+   "camiseta": "17",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "33319",
+   "Nombre": "JUAN CARLOS PINTOS",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "64990",
+   "Nombre": "ISMAEL PUGLIA",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "53606",
+   "Nombre": "GUILLERMO ANDRES REBOLLO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "46926",
+   "Nombre": "MATIAS ANDRES MUNIZ",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "63608",
+   "Nombre": "PABLO MARI",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "51734",
+   "Jug_Sale": "NAHUEL JAVIER BALSAS",
+   "CarneEntra": "55138",
+   "Jug_Entra": "SANTIAGO RODRIGUEZ",
+   "camiseta": "2",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "51216",
+   "Jug_Sale": "IGNACIO ARRIOLA",
+   "CarneEntra": "55021",
+   "Jug_Entra": "TOMAS BICA",
+   "camiseta": "20",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "60774",
+   "Jug_Sale": "MATEO COMBA",
+   "CarneEntra": "56291",
+   "Jug_Entra": "GUILLERMO CABALLERO",
+   "camiseta": "9",
+   "minutos": "69"
+  },
+  {
+   "CarneSale": "47766",
+   "Jug_Sale": "MARCOS SANTIAGO HOLLANDER",
+   "CarneEntra": "57390",
+   "Jug_Entra": "SANTIAGO ANDRES LOPEZ",
+   "camiseta": "47",
+   "minutos": "69"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "46926",
+   "Jug_Sale": "MATIAS ANDRES MUNIZ",
+   "CarneEntra": "62289",
+   "Jug_Entra": "JEREMIAS RUIZ DIAZ",
+   "camiseta": "9",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64990",
+   "Jug_Sale": "ISMAEL PUGLIA",
+   "CarneEntra": "40445",
+   "Jug_Entra": "JUAN VICENTE CAVALLERI",
+   "camiseta": "18",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "63608",
+   "Jug_Sale": "PABLO MARI",
+   "CarneEntra": "51402",
+   "Jug_Entra": "JUAN PEDRO PERDOMO",
+   "camiseta": "99",
+   "minutos": "83"
+  }
+ ],
  "golesL": [],
- "golesV": [],
+ "golesV": [
+  {
+   "carne": "62289",
+   "Nombre": "JEREMIAS RUIZ DIAZ",
+   "minutos": "88",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

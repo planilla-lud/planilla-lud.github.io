@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "SUB20 \"B\" TITULO",
   "Cancha": "CIUDAD DEPORTIVA LS",
-  "Fecha_Inicio": "2026-10-24 17:00:00",
-  "Fecha_fin": "2026-10-24 17:00:00",
+  "Fecha_Inicio": "2026-10-24 17:15:00",
+  "Fecha_fin": "2026-10-24 17:15:00",
   "Locatario": "DEPORTIVO LS UNIVERSITARIO",
   "goles_locatario": "0",
   "puntos_locatario": "1",
@@ -29,10 +29,218 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "60866",
+   "Nombre": "SANTINO SALAVERRY",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "59545",
+   "Nombre": "EMILIANO JOAQUIN PAREDES",
+   "camiseta": "21",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "59424",
+   "Nombre": "FACUNDO TOMAS GARCIA",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "63703",
+   "Nombre": "MATHIAS AGUSTIN LOPEZ",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "59396",
+   "Nombre": "KEVIN NICOLAS BARRERA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "56800",
+   "Nombre": "ELIAS LAUTARO IOVINE",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "63645",
+   "Nombre": "TOMAS DANIEL MARTINEZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "59419",
+   "Nombre": "IMANOL FYNN",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "56419",
+   "Nombre": "JUAN MANUEL VERA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "61020",
+   "Nombre": "GONZALO HUERTAS",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "56173",
+   "Nombre": "MATHIAS NAHUEL PEREIRA",
+   "camiseta": "17",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "59432",
+   "Nombre": "EDUARDO NAHUEL VELAZCO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "56766",
+   "Nombre": "THIAGO PALLAS",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "62735",
+   "Nombre": "EMILIANO MATHIAS CASTRO",
+   "camiseta": "62",
+   "Capitan": ""
+  },
+  {
+   "carne": "62729",
+   "Nombre": "GIOVANNI FABRIZIO TORALES",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "54791",
+   "Nombre": "JUAN MARTIN CAMMARANO",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "55882",
+   "Nombre": "FACUNDO MARTIN CASALAS",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "62732",
+   "Nombre": "JOAQUIN AFONSO",
+   "camiseta": "20",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "54794",
+   "Nombre": "SANTIAGO VILLAR",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "58067",
+   "Nombre": "EMILIO VACCARO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "68577",
+   "Nombre": "NICOLAS ANDRES DENIS",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "55162",
+   "Nombre": "FELIPE PAROLIN",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "61020",
+   "Jug_Sale": "GONZALO HUERTAS",
+   "CarneEntra": "63545",
+   "Jug_Entra": "GONZALO DANIEL GRECIET",
+   "camiseta": "7",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56419",
+   "Jug_Sale": "JUAN MANUEL VERA",
+   "CarneEntra": "59409",
+   "Jug_Entra": "FRANCO LARROSA",
+   "camiseta": "23",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "59419",
+   "Jug_Sale": "IMANOL FYNN",
+   "CarneEntra": "56421",
+   "Jug_Entra": "DAMIAN DENES",
+   "camiseta": "31",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "63645",
+   "Jug_Sale": "TOMAS DANIEL MARTINEZ",
+   "CarneEntra": "58965",
+   "Jug_Entra": "SEBASTIAN SANGUINETT",
+   "camiseta": "91",
+   "minutos": "76"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "55162",
+   "Jug_Sale": "FELIPE PAROLIN",
+   "CarneEntra": "55168",
+   "Jug_Entra": "MARTIN VILARRUBI",
+   "camiseta": "11",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "68577",
+   "Jug_Sale": "NICOLAS ANDRES DENIS",
+   "CarneEntra": "56776",
+   "Jug_Entra": "RODRIGO BOTTA",
+   "camiseta": "10",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "54794",
+   "Jug_Sale": "SANTIAGO VILLAR",
+   "CarneEntra": "62731",
+   "Jug_Entra": "TOMAS TAVAREZ",
+   "camiseta": "5",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "58067",
+   "Jug_Sale": "EMILIO VACCARO",
+   "CarneEntra": "62733",
+   "Jug_Entra": "IGNACIO EZEQUIEL FIGUEROA",
+   "camiseta": "17",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "55882",
+   "Jug_Sale": "FACUNDO MARTIN CASALAS",
+   "CarneEntra": "54790",
+   "Jug_Entra": "EMILIANO MARTIN PEREZ",
+   "camiseta": "8",
+   "minutos": "76"
+  }
+ ],
  "golesL": [],
  "golesV": [],
  "expulsadosL": [],

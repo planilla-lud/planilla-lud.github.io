@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"B\" TIT. y ASC.",
   "Cancha": "COMPLEJO INDEPENDIENTE UNIV.",
-  "Fecha_Inicio": "2026-10-24 12:45:00",
-  "Fecha_fin": "2026-10-24 12:45:00",
+  "Fecha_Inicio": "2026-10-24 12:52:00",
+  "Fecha_fin": "2026-10-24 12:52:00",
   "Locatario": "INDEPENDIENTE",
   "goles_locatario": "2",
   "puntos_locatario": "3",
@@ -29,12 +29,245 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "titularesL": [
+  {
+   "carne": "61237",
+   "Nombre": "JOAQUIN HAYMES",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "68177",
+   "Nombre": "ENZO FACUNDO SOUZA",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "42394",
+   "Nombre": "MARTINHO GABRIEL DA COSTA",
+   "camiseta": "13",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "42893",
+   "Nombre": "GABRIEL PEREYRA",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "48270",
+   "Nombre": "FRANCO MARTIN SANTORO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "57134",
+   "Nombre": "MATIAS EZEQUIEL PEREZ",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "42358",
+   "Nombre": "FABIO ENRIQUED DA COSTA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "45742",
+   "Nombre": "NEHUEN EZEQUIEL BONIFAZI",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "66145",
+   "Nombre": "IGNACIO BERTHEL",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "62653",
+   "Nombre": "MATEO DIAZ",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "59998",
+   "Nombre": "BRAHUDER LEONEL ALARCON",
+   "camiseta": "22",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "57193",
+   "Nombre": "FRANCO GABRIEL LOPEZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "41121",
+   "Nombre": "ALVARO CANO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "63398",
+   "Nombre": "BRUNO ANDRES CIAPPESONI",
+   "camiseta": "52",
+   "Capitan": ""
+  },
+  {
+   "carne": "42722",
+   "Nombre": "LUCAS MORONI",
+   "camiseta": "3",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "39397",
+   "Nombre": "GERMAN VIERA",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "39323",
+   "Nombre": "IGNACIO MILLER",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "49155",
+   "Nombre": "ANDRES FERNANDEZ",
+   "camiseta": "41",
+   "Capitan": ""
+  },
+  {
+   "carne": "49048",
+   "Nombre": "EZEQUIEL ESTEFAN",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "47391",
+   "Nombre": "SEBASTIAN ESTEBAN BRITOS",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "52052",
+   "Nombre": "FEDERICO DUTRA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "34982",
+   "Nombre": "GUILLERMO BURGOS",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "62653",
+   "Jug_Sale": "MATEO DIAZ",
+   "CarneEntra": "65734",
+   "Jug_Entra": "SANTIAGO FLORETTA",
+   "camiseta": "25",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "42358",
+   "Jug_Sale": "FABIO ENRIQUED DA COSTA",
+   "CarneEntra": "45360",
+   "Jug_Entra": "IVO THIAGO PEREZ",
+   "camiseta": "29",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "66145",
+   "Jug_Sale": "IGNACIO BERTHEL",
+   "CarneEntra": "41598",
+   "Jug_Entra": "AGUSTIN TESTA",
+   "camiseta": "19",
+   "minutos": "91"
+  },
+  {
+   "CarneSale": "45742",
+   "Jug_Sale": "NEHUEN EZEQUIEL BONIFAZI",
+   "CarneEntra": "58968",
+   "Jug_Entra": "NICOLAS CAPECI",
+   "camiseta": "8",
+   "minutos": "45"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "49155",
+   "Jug_Sale": "ANDRES FERNANDEZ",
+   "CarneEntra": "43891",
+   "Jug_Entra": "DIEGO LOPEZ",
+   "camiseta": "32",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "39323",
+   "Jug_Sale": "IGNACIO MILLER",
+   "CarneEntra": "58028",
+   "Jug_Entra": "TOMAS VASSALLUCCI",
+   "camiseta": "22",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "34982",
+   "Jug_Sale": "GUILLERMO BURGOS",
+   "CarneEntra": "36033",
+   "Jug_Entra": "FEDERICO FENOCCHI",
+   "camiseta": "9",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "42722",
+   "Jug_Sale": "LUCAS MORONI",
+   "CarneEntra": "63264",
+   "Jug_Entra": "FRANCO SEBASTIAN ISLAS",
+   "camiseta": "30",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "41121",
+   "Jug_Sale": "ALVARO CANO",
+   "CarneEntra": "36517",
+   "Jug_Entra": "MANUEL MATIAS GONZALEZ",
+   "camiseta": "23",
+   "minutos": "88"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "57134",
+   "Nombre": "MATIAS EZEQUIEL PEREZ",
+   "minutos": "94",
+   "EnContra": "0"
+  },
+  {
+   "carne": "61237",
+   "Nombre": "JOAQUIN HAYMES",
+   "minutos": "62",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "52052",
+   "Nombre": "FEDERICO DUTRA",
+   "minutos": "38",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "BRAHUDER LEONEL ALARCON",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

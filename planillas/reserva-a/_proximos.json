@@ -1,27 +1,6 @@
 [
  {
   "serie": "RSAT",
-  "fechaHora": "2026-10-24 09:00:00",
-  "cancha": "COMP. DEVOTO (NAUT. PICHINCHA)",
-  "local": "NAUTICO CARRASCO Y PUNTA GORDA",
-  "visitante": "OLD CHRISTIANS CLUB"
- },
- {
-  "serie": "RSAPD",
-  "fechaHora": "2026-10-24 11:15:00",
-  "cancha": "TENIS EL PINAR",
-  "local": "TENIS EL PINAR",
-  "visitante": "NACIONAL UNIVERSITARIO"
- },
- {
-  "serie": "RSAT",
-  "fechaHora": "2026-10-31 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "CARRASCO POLO CLUB",
-  "visitante": "NAUTICO CARRASCO Y PUNTA GORDA"
- },
- {
-  "serie": "RSAT",
   "fechaHora": "2026-10-31 09:00:00",
   "cancha": "OLD CHRISTIANS CLUB",
   "local": "OLD CHRISTIANS AZUL",
@@ -33,6 +12,13 @@
   "cancha": "COM. DEP. CLUB TROUVILLE",
   "local": "NACIONAL UNIVERSITARIO",
   "visitante": "ALEMAN UNIVERSITARIO"
+ },
+ {
+  "serie": "RSAT",
+  "fechaHora": "2026-10-31 11:15:00",
+  "cancha": "CARRASCO POLO",
+  "local": "CARRASCO POLO CLUB",
+  "visitante": "NAUTICO CARRASCO Y PUNTA GORDA"
  },
  {
   "serie": "RSAT",

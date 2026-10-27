@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"A\" TITULO",
   "Cancha": "CARRASCO LAWN TENIS (KM 23)",
-  "Fecha_Inicio": "2026-10-24 12:45:00",
-  "Fecha_fin": "2026-10-24 12:45:00",
+  "Fecha_Inicio": "2026-10-24 13:15:00",
+  "Fecha_fin": "2026-10-24 13:15:00",
   "Locatario": "CARRASCO LAWN TENNIS",
   "goles_locatario": "3",
   "puntos_locatario": "3",
@@ -29,12 +29,262 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "49084",
+   "Nombre": "GIULIANO CARDOZO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "41007",
+   "Nombre": "GERARDO SACCO",
+   "camiseta": "4",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "46325",
+   "Nombre": "FRANCO SUBIRAN",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "46708",
+   "Nombre": "AGUSTIN RAUL RODRIGUEZ",
+   "camiseta": "43",
+   "Capitan": ""
+  },
+  {
+   "carne": "44291",
+   "Nombre": "IGNACIO GEISINGER",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "48917",
+   "Nombre": "FRANCISCO ALGORTA",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "47764",
+   "Nombre": "BRUNO ZEFFERINO",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "47761",
+   "Nombre": "JUAN IGNACIO POTRIE",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "41534",
+   "Nombre": "DIEGO NICOLAS CHIJANE",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "48915",
+   "Nombre": "FACUNDO CURT GEISINGER",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "39903",
+   "Nombre": "MANUEL FERNANDEZ",
+   "camiseta": "27",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "59470",
+   "Nombre": "FABRICIO OLIVERA",
+   "camiseta": "1",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "48390",
+   "Nombre": "GERONIMO ALVARES",
+   "camiseta": "70",
+   "Capitan": ""
+  },
+  {
+   "carne": "33559",
+   "Nombre": "JULIO ALEXANDER GURIDI",
+   "camiseta": "87",
+   "Capitan": ""
+  },
+  {
+   "carne": "51653",
+   "Nombre": "JOSE MARIA TEJERA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "41575",
+   "Nombre": "MANUEL TERRA",
+   "camiseta": "41",
+   "Capitan": ""
+  },
+  {
+   "carne": "39036",
+   "Nombre": "MANUEL LEIVA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "51827",
+   "Nombre": "PHILIPPE JUDE",
+   "camiseta": "53",
+   "Capitan": ""
+  },
+  {
+   "carne": "47503",
+   "Nombre": "FRANCO CHIAPPARA",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "47508",
+   "Nombre": "HERNAN HARDOY",
+   "camiseta": "39",
+   "Capitan": ""
+  },
+  {
+   "carne": "53930",
+   "Nombre": "MAXIMO RICARDO SEIZER",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "41581",
+   "Nombre": "ALFONSO SIMETO",
+   "camiseta": "33",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "48915",
+   "Jug_Sale": "FACUNDO CURT GEISINGER",
+   "CarneEntra": "44810",
+   "Jug_Entra": "SANTIAGO GONZALEZ",
+   "camiseta": "24",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "48917",
+   "Jug_Sale": "FRANCISCO ALGORTA",
+   "CarneEntra": "31878",
+   "Jug_Entra": "MAXIMILIANO SALA",
+   "camiseta": "47",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "44291",
+   "Jug_Sale": "IGNACIO GEISINGER",
+   "CarneEntra": "49610",
+   "Jug_Entra": "MARTIN SUAYA",
+   "camiseta": "45",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "46708",
+   "Jug_Sale": "AGUSTIN RAUL RODRIGUEZ",
+   "CarneEntra": "36474",
+   "Jug_Entra": "FEDERICO ILAN ISRAEL",
+   "camiseta": "42",
+   "minutos": "87"
+  },
+  {
+   "CarneSale": "47764",
+   "Jug_Sale": "BRUNO ZEFFERINO",
+   "CarneEntra": "46250",
+   "Jug_Entra": "GUILLERMO JAVIER BECCHIO",
+   "camiseta": "22",
+   "minutos": "87"
+  },
+  {
+   "CarneSale": "41534",
+   "Jug_Sale": "DIEGO NICOLAS CHIJANE",
+   "CarneEntra": "39933",
+   "Jug_Entra": "TOMAS KLEIST",
+   "camiseta": "70",
+   "minutos": "90"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "47508",
+   "Jug_Sale": "HERNAN HARDOY",
+   "CarneEntra": "54585",
+   "Jug_Entra": "TOMAS CABRAL",
+   "camiseta": "25",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "39036",
+   "Jug_Sale": "MANUEL LEIVA",
+   "CarneEntra": "54580",
+   "Jug_Entra": "JUAN CARLOS VIDIELLA",
+   "camiseta": "49",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "47503",
+   "Jug_Sale": "FRANCO CHIAPPARA",
+   "CarneEntra": "37272",
+   "Jug_Entra": "JUAN LUIS IRULEGUY",
+   "camiseta": "8",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "41575",
+   "Jug_Sale": "MANUEL TERRA",
+   "CarneEntra": "34986",
+   "Jug_Entra": "FELIPE ANTONIO AZADIAN",
+   "camiseta": "17",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "51827",
+   "Jug_Sale": "PHILIPPE JUDE",
+   "CarneEntra": "47413",
+   "Jug_Entra": "LUCAS MARTIN VILLARONGA",
+   "camiseta": "32",
+   "minutos": "79"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "41534",
+   "Nombre": "DIEGO NICOLAS CHIJANE",
+   "minutos": "4",
+   "EnContra": "0"
+  },
+  {
+   "carne": "46708",
+   "Nombre": "AGUSTIN RAUL RODRIGUEZ",
+   "minutos": "86",
+   "EnContra": "0"
+  },
+  {
+   "carne": "47761",
+   "Nombre": "JUAN IGNACIO POTRIE",
+   "minutos": "41",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "41581",
+   "Nombre": "ALFONSO SIMETO",
+   "minutos": "13",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

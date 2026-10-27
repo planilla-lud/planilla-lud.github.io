@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"C\" TIT. y ASC.",
   "Cancha": "CLUB ALEMAN",
-  "Fecha_Inicio": "2026-10-24 10:30:00",
-  "Fecha_fin": "2026-10-24 10:30:00",
+  "Fecha_Inicio": "2026-10-24 11:00:00",
+  "Fecha_fin": "2026-10-24 11:00:00",
   "Locatario": "ALEMAN UNIVERSITARIO",
   "goles_locatario": "4",
   "puntos_locatario": "3",
@@ -29,12 +29,263 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "26521",
+   "Nombre": "SEBASTIAN DE AZPITARTE",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "28020",
+   "Nombre": "JOAQUIN JOSE CURA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "57860",
+   "Nombre": "ALFRED GOLLER",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "27399",
+   "Nombre": "JOAQUIN PASQUET",
+   "camiseta": "86",
+   "Capitan": ""
+  },
+  {
+   "carne": "27970",
+   "Nombre": "FELIPE GIRIBALDI",
+   "camiseta": "87",
+   "Capitan": ""
+  },
+  {
+   "carne": "26675",
+   "Nombre": "MATIAS ALONSO",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "27961",
+   "Nombre": "JUAN MANUEL SCHAICH",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "29507",
+   "Nombre": "ANTONIO SOTO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "27930",
+   "Nombre": "SANTIAGO DE AZPITARTE",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "38064",
+   "Nombre": "TEOFILO SCHAICH",
+   "camiseta": "21",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "23517",
+   "Nombre": "ALEXANDER REINER KOSSMANN",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "35217",
+   "Nombre": "GONZALO SILBERSTEIN",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "28224",
+   "Nombre": "IGNACIO JOSE IRAOLA",
+   "camiseta": "70",
+   "Capitan": ""
+  },
+  {
+   "carne": "32402",
+   "Nombre": "FERNANDO VALDEZ",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "32011",
+   "Nombre": "JOAQUIN DELUCCA",
+   "camiseta": "23",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "44965",
+   "Nombre": "MAX ALEGRE",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "35344",
+   "Nombre": "SANTIAGO CASTELO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "25993",
+   "Nombre": "CLAUDIO HERRERA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "31120",
+   "Nombre": "JUAN MANUEL DELUCCA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "37661",
+   "Nombre": "JUAN AGUSTIN DIAZ",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "31892",
+   "Nombre": "TOMAS DELUCCA",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "18017",
+   "Nombre": "NICOLAS PIROTTO",
+   "camiseta": "15",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "27970",
+   "Jug_Sale": "FELIPE GIRIBALDI",
+   "CarneEntra": "27395",
+   "Jug_Entra": "ERNESTO JULIO TRICOTTI",
+   "camiseta": "14",
+   "minutos": "48"
+  },
+  {
+   "CarneSale": "27961",
+   "Jug_Sale": "JUAN MANUEL SCHAICH",
+   "CarneEntra": "27493",
+   "Jug_Entra": "JUAN FRANCISCO ZORZIN",
+   "camiseta": "19",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "23517",
+   "Jug_Sale": "ALEXANDER REINER KOSSMANN",
+   "CarneEntra": "28376",
+   "Jug_Entra": "JUAN MANUEL ROMERO",
+   "camiseta": "17",
+   "minutos": "79"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "35344",
+   "Jug_Sale": "SANTIAGO CASTELO",
+   "CarneEntra": "32996",
+   "Jug_Entra": "JUAN DIEGO BALBI",
+   "camiseta": "29",
+   "minutos": "30"
+  },
+  {
+   "CarneSale": "44965",
+   "Jug_Sale": "MAX ALEGRE",
+   "CarneEntra": "29224",
+   "Jug_Entra": "FRANCISCO MARTIN ASTIGARRAGA",
+   "camiseta": "11",
+   "minutos": "46"
+  },
+  {
+   "CarneSale": "29224",
+   "Jug_Sale": "FRANCISCO MARTIN ASTIGARRAGA",
+   "CarneEntra": "32402",
+   "Jug_Entra": "FERNANDO VALDEZ",
+   "camiseta": "35",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "35344",
+   "Jug_Sale": "SANTIAGO CASTELO",
+   "CarneEntra": "39865",
+   "Jug_Entra": "JUAN MANUEL BIDEGAIN",
+   "camiseta": "10",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "32402",
+   "Jug_Sale": "FERNANDO VALDEZ",
+   "CarneEntra": "34974",
+   "Jug_Entra": "FRANCO COLELLA",
+   "camiseta": "20",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "25993",
+   "Jug_Sale": "CLAUDIO HERRERA",
+   "CarneEntra": "44965",
+   "Jug_Entra": "MAX ALEGRE",
+   "camiseta": "31",
+   "minutos": "65"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "23517",
+   "Nombre": "ALEXANDER REINER KOSSMANN",
+   "minutos": "44",
+   "EnContra": "0"
+  },
+  {
+   "carne": "27930",
+   "Nombre": "SANTIAGO DE AZPITARTE",
+   "minutos": "5",
+   "EnContra": "0"
+  },
+  {
+   "carne": "27930",
+   "Nombre": "SANTIAGO DE AZPITARTE",
+   "minutos": "50",
+   "EnContra": "0"
+  },
+  {
+   "carne": "29507",
+   "Nombre": "ANTONIO SOTO",
+   "minutos": "57",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "18017",
+   "Nombre": "NICOLAS PIROTTO",
+   "minutos": "92",
+   "EnContra": "1"
+  },
+  {
+   "carne": "32402",
+   "Nombre": "FERNANDO VALDEZ",
+   "minutos": "88",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
- "expulsadosV": []
+ "expulsadosV": [
+  {
+   "Nombre": "FERNANDO VALDEZ",
+   "observaciones": ""
+  }
+ ]
 }

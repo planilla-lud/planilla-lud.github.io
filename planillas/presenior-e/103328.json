@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "PS DIV. E 2ªR COPA PLATA",
   "Cancha": "COMPLEJO DEPORTIVO ARRAYANES",
-  "Fecha_Inicio": "2026-10-24 10:30:00",
-  "Fecha_fin": "2026-10-24 10:30:00",
+  "Fecha_Inicio": "2026-10-24 10:55:00",
+  "Fecha_fin": "2026-10-24 10:55:00",
   "Locatario": "JUVENTUD DE LAS PIEDRAS",
   "goles_locatario": "1",
   "puntos_locatario": "1",
@@ -29,12 +29,233 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
+ "titularesL": [
+  {
+   "carne": "31938",
+   "Nombre": "SEBASTIAN PIETRO GERARDO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "35485",
+   "Nombre": "MIGUEL PRESA",
+   "camiseta": "2",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "37090",
+   "Nombre": "GABRIEL LABARTHE",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "28166",
+   "Nombre": "ADRIAN DOS SANTOS",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "34702",
+   "Nombre": "MAXIMILIANO HECTOR RODRIGUEZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "27020",
+   "Nombre": "LEANDRO CASTELLI",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "68330",
+   "Nombre": "MAURICIO VLADIMIR ARANA",
+   "camiseta": "50",
+   "Capitan": ""
+  },
+  {
+   "carne": "24493",
+   "Nombre": "JUAN PABLO PRESTE",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "19829",
+   "Nombre": "PAOLO EDISON ROSSI",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "30064",
+   "Nombre": "MATIAS LUIS SORHUET",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "21251",
+   "Nombre": "JOSE LUIS CALVETTE",
+   "camiseta": "14",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "23069",
+   "Nombre": "DIEGO MARTIN MAROTTA",
+   "camiseta": "47",
+   "Capitan": ""
+  },
+  {
+   "carne": "21308",
+   "Nombre": "FEDERICO PARNIZARI",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "29910",
+   "Nombre": "MANUEL IBARRA",
+   "camiseta": "11",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "55279",
+   "Nombre": "JUAN MARTIN ANTELO",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "37656",
+   "Nombre": "ANGEL MATIAS RODRIGUEZ",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "23384",
+   "Nombre": "MARTIN HIRIART",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "33273",
+   "Nombre": "DANIEL ADRIAN RAMOS",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "30936",
+   "Nombre": "MARIO MATIAS MACHADO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "27619",
+   "Nombre": "DANIEL EDGARDO MAROTTA",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "36922",
+   "Nombre": "MAURICIO FARIAS",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "52499",
+   "Nombre": "RODOLFO ECHEMENDIA",
+   "camiseta": "17",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "37090",
+   "Jug_Sale": "GABRIEL LABARTHE",
+   "CarneEntra": "18097",
+   "Jug_Entra": "GUILLERMO ANDRES SANGUINETTI",
+   "camiseta": "19",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "34702",
+   "Jug_Sale": "MAXIMILIANO HECTOR RODRIGUEZ",
+   "CarneEntra": "29140",
+   "Jug_Entra": "SANTIAGO TOME",
+   "camiseta": "14",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68330",
+   "Jug_Sale": "MAURICIO VLADIMIR ARANA",
+   "CarneEntra": "24062",
+   "Jug_Entra": "PABLO GALLO",
+   "camiseta": "36",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "30064",
+   "Jug_Sale": "MATIAS LUIS SORHUET",
+   "CarneEntra": "29791",
+   "Jug_Entra": "DIEGO ALBERTO LAPORTE",
+   "camiseta": "8",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "21251",
+   "Jug_Sale": "JOSE LUIS CALVETTE",
+   "CarneEntra": "29804",
+   "Jug_Entra": "MATIAS GABRIEL TRNKA",
+   "camiseta": "20",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "19829",
+   "Jug_Sale": "PAOLO EDISON ROSSI",
+   "CarneEntra": "29209",
+   "Jug_Entra": "MATIAS OLID",
+   "camiseta": "10",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "24493",
+   "Jug_Sale": "JUAN PABLO PRESTE",
+   "CarneEntra": "43925",
+   "Jug_Entra": "MATEO NICOLAS SUAREZ",
+   "camiseta": "27",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "29140",
+   "Jug_Sale": "SANTIAGO TOME",
+   "CarneEntra": "30064",
+   "Jug_Entra": "MATIAS LUIS SORHUET",
+   "camiseta": "21",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "35485",
+   "Jug_Sale": "MIGUEL PRESA",
+   "CarneEntra": "19829",
+   "Jug_Entra": "PAOLO EDISON ROSSI",
+   "camiseta": "9",
+   "minutos": "84"
+  }
+ ],
  "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "golesL": [
+  {
+   "carne": "27020",
+   "Nombre": "LEANDRO CASTELLI",
+   "minutos": "71",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "36922",
+   "Nombre": "MAURICIO FARIAS",
+   "minutos": "32",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

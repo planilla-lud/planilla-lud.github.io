@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAS40 \"A\" PERM. y DESC.",
   "Cancha": "COMPLEJO MARLUNA",
-  "Fecha_Inicio": "2026-10-24 12:45:00",
-  "Fecha_fin": "2026-10-24 12:45:00",
+  "Fecha_Inicio": "2026-10-24 13:10:00",
+  "Fecha_fin": "2026-10-24 13:10:00",
   "Locatario": "MATECHA",
   "goles_locatario": "1",
   "puntos_locatario": "0",
@@ -29,12 +29,278 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "11787",
+   "Nombre": "RAFAEL TORCHELO",
+   "camiseta": "71",
+   "Capitan": ""
+  },
+  {
+   "carne": "31743",
+   "Nombre": "ROBERT DANIEL ANTIVERO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "45665",
+   "Nombre": "SEBASTIAN EVERGISTO FRANCA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "25641",
+   "Nombre": "MAICOHOL GABRIEL GARCIA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "15407",
+   "Nombre": "IGNACIO IBARRA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "49426",
+   "Nombre": "HORACIO ISMAEL TARILA",
+   "camiseta": "33",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "19658",
+   "Nombre": "DANIEL EDUARDO COSTA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "35696",
+   "Nombre": "JUAN MANUEL GIRIBONI",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "48328",
+   "Nombre": "ALAR AUGUSTO DUARTE",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "49424",
+   "Nombre": "DAMIAN BIDEGAIN",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "56821",
+   "Nombre": "JAVIER GUSTAVO FONT",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "13146",
+   "Nombre": "DIEGO RODRIGO BRESCIANI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "22237",
+   "Nombre": "WALTER WILLIAMS BRADFORD",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "13585",
+   "Nombre": "DANIEL ALEJANDRO MARTIN",
+   "camiseta": "51",
+   "Capitan": ""
+  },
+  {
+   "carne": "64158",
+   "Nombre": "FEDERICO GABRIEL GRANDILLO",
+   "camiseta": "37",
+   "Capitan": ""
+  },
+  {
+   "carne": "15707",
+   "Nombre": "GABRIEL MARTIN DIAZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "25856",
+   "Nombre": "FEDERICO AGUSTIN GARCIA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "18675",
+   "Nombre": "GERMAN AGUSTIN PEREZ",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "21150",
+   "Nombre": "MARTIN SEBASTIAN SANCHEZ",
+   "camiseta": "39",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "33509",
+   "Nombre": "HORACIO CORUJO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "19340",
+   "Nombre": "PAULO MARTIN DI CANDIA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "50552",
+   "Nombre": "ORIBE SEBASTIAN RIOS",
+   "camiseta": "20",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "25641",
+   "Jug_Sale": "MAICOHOL GABRIEL GARCIA",
+   "CarneEntra": "56820",
+   "Jug_Entra": "ROLANDO SHANTI LARRAINCI",
+   "camiseta": "8",
+   "minutos": "45"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "19340",
+   "Jug_Sale": "PAULO MARTIN DI CANDIA",
+   "CarneEntra": "30421",
+   "Jug_Entra": "JAVIER FEDERICO RODRIGUEZ",
+   "camiseta": "21",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "33509",
+   "Jug_Sale": "HORACIO CORUJO",
+   "CarneEntra": "22373",
+   "Jug_Entra": "WALTER LEANDRO BLARDONI",
+   "camiseta": "82",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "64158",
+   "Jug_Sale": "FEDERICO GABRIEL GRANDILLO",
+   "CarneEntra": "38037",
+   "Jug_Entra": "ERNESTO FABIAN BAZZANO",
+   "camiseta": "41",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "18675",
+   "Jug_Sale": "GERMAN AGUSTIN PEREZ",
+   "CarneEntra": "22443",
+   "Jug_Entra": "FEDERICO GUILLERMO SALES",
+   "camiseta": "33",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "50552",
+   "Jug_Sale": "ORIBE SEBASTIAN RIOS",
+   "CarneEntra": "22309",
+   "Jug_Entra": "MARTIN GOYEN",
+   "camiseta": "14",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "13585",
+   "Jug_Sale": "DANIEL ALEJANDRO MARTIN",
+   "CarneEntra": "56809",
+   "Jug_Entra": "MAXIMILIANO MENDEZ",
+   "camiseta": "3",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "21150",
+   "Jug_Sale": "MARTIN SEBASTIAN SANCHEZ",
+   "CarneEntra": "23626",
+   "Jug_Entra": "ANDRES GRIMALDI",
+   "camiseta": "91",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "15707",
+   "Jug_Sale": "GABRIEL MARTIN DIAZ",
+   "CarneEntra": "13585",
+   "Jug_Entra": "DANIEL ALEJANDRO MARTIN",
+   "camiseta": "21",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "25856",
+   "Jug_Sale": "FEDERICO AGUSTIN GARCIA",
+   "CarneEntra": "33509",
+   "Jug_Entra": "HORACIO CORUJO",
+   "camiseta": "6",
+   "minutos": "85"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "35696",
+   "Nombre": "JUAN MANUEL GIRIBONI",
+   "minutos": "25",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "19340",
+   "Nombre": "PAULO MARTIN DI CANDIA",
+   "minutos": "17",
+   "EnContra": "1"
+  },
+  {
+   "carne": "21150",
+   "Nombre": "MARTIN SEBASTIAN SANCHEZ",
+   "minutos": "47",
+   "EnContra": "1"
+  },
+  {
+   "carne": "22443",
+   "Nombre": "FEDERICO GUILLERMO SALES",
+   "minutos": "69",
+   "EnContra": "1"
+  },
+  {
+   "carne": "25856",
+   "Nombre": "FEDERICO AGUSTIN GARCIA",
+   "minutos": "38",
+   "EnContra": "1"
+  },
+  {
+   "carne": "30421",
+   "Nombre": "JAVIER FEDERICO RODRIGUEZ",
+   "minutos": "89",
+   "EnContra": "1"
+  },
+  {
+   "carne": "38037",
+   "Nombre": "ERNESTO FABIAN BAZZANO",
+   "minutos": "61",
+   "EnContra": "1"
+  },
+  {
+   "carne": "38037",
+   "Nombre": "ERNESTO FABIAN BAZZANO",
+   "minutos": "76",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

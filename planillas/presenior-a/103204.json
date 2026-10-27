@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"A\" PER. y DESC",
   "Cancha": "ESCUELA NAVAL",
-  "Fecha_Inicio": "2026-10-24 12:45:00",
-  "Fecha_fin": "2026-10-24 12:45:00",
+  "Fecha_Inicio": "2026-10-24 13:14:00",
+  "Fecha_fin": "2026-10-24 13:14:00",
   "Locatario": "PLAYA HONDA UNIVERSITARIO",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,225 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "37674",
+   "Nombre": "DIEGO MARCEL DOPICO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "38797",
+   "Nombre": "LORENZO VEGA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "31163",
+   "Nombre": "RODRIGO DURANTE",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "22718",
+   "Nombre": "SANTIAGO ABOAL",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "46097",
+   "Nombre": "ADRIAN IGNACIO RIOS",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "21156",
+   "Nombre": "SEBASTIAN NICOLAS MANEIRO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "21043",
+   "Nombre": "MATIAS BERENGUER",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "21504",
+   "Nombre": "FEDERICO LAMBACH",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "26554",
+   "Nombre": "SEBASTIAN TUBINO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "43898",
+   "Nombre": "BRUNO ANDRES MARTINEZ",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "27229",
+   "Nombre": "MARTIN HEBER GARCIA",
+   "camiseta": "26",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "34543",
+   "Nombre": "HERNAN GOMEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "34110",
+   "Nombre": "RODRIGO CARSIN",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "29901",
+   "Nombre": "CAMILO LAGUNA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "35037",
+   "Nombre": "FEDERICO CARSIN",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "38595",
+   "Nombre": "PABLO FERNANDEZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "31053",
+   "Nombre": "MARTIN NICOLAS BINCE",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "37081",
+   "Nombre": "SANTIAGO LAGO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "34812",
+   "Nombre": "FELIPE MOTTA",
+   "camiseta": "50",
+   "Capitan": ""
+  },
+  {
+   "carne": "23905",
+   "Nombre": "IGNACIO RAFAEL D AVILA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "30998",
+   "Nombre": "NICOLAS OYENARD",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "39911",
+   "Nombre": "LORENZO RAUL TENCA",
+   "camiseta": "29",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "21043",
+   "Jug_Sale": "MATIAS BERENGUER",
+   "CarneEntra": "23462",
+   "Jug_Entra": "ANDRES FRANCISCO OLIVERA",
+   "camiseta": "8",
+   "minutos": "28"
+  },
+  {
+   "CarneSale": "26554",
+   "Jug_Sale": "SEBASTIAN TUBINO",
+   "CarneEntra": "31787",
+   "Jug_Entra": "FABIAN AICARDI",
+   "camiseta": "0",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "21156",
+   "Jug_Sale": "SEBASTIAN NICOLAS MANEIRO",
+   "CarneEntra": "21044",
+   "Jug_Entra": "SANTIAGO DECIA",
+   "camiseta": "22",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "46097",
+   "Jug_Sale": "ADRIAN IGNACIO RIOS",
+   "CarneEntra": "26947",
+   "Jug_Entra": "BRUNO EDUARDO DI MARTINO",
+   "camiseta": "27",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "22718",
+   "Jug_Sale": "SANTIAGO ABOAL",
+   "CarneEntra": "26199",
+   "Jug_Entra": "MATHIAS PERDOMO",
+   "camiseta": "16",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "23462",
+   "Jug_Sale": "ANDRES FRANCISCO OLIVERA",
+   "CarneEntra": "61841",
+   "Jug_Entra": "MAURO ANTONIO ROSTAN",
+   "camiseta": "42",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "21504",
+   "Jug_Sale": "FEDERICO LAMBACH",
+   "CarneEntra": "44483",
+   "Jug_Entra": "RAMIRO GUICHON",
+   "camiseta": "21",
+   "minutos": "75"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "39911",
+   "Jug_Sale": "LORENZO RAUL TENCA",
+   "CarneEntra": "54800",
+   "Jug_Entra": "ADRIAN AGUIAR GERARDO",
+   "camiseta": "0",
+   "minutos": "45"
+  }
+ ],
  "golesL": [],
- "golesV": [],
+ "golesV": [
+  {
+   "carne": "30998",
+   "Nombre": "NICOLAS OYENARD",
+   "minutos": "49",
+   "EnContra": "1"
+  },
+  {
+   "carne": "30998",
+   "Nombre": "NICOLAS OYENARD",
+   "minutos": "84",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

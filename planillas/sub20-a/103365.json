@@ -1,0 +1,264 @@
+{
+ "id": "103365",
+ "categoria": "sub20-a",
+ "serie": "20AT",
+ "fecha": 5,
+ "fechaHora": "2026-10-24 15:30:00",
+ "cancha": "MONTE VI \"LOS CEIBOS\"",
+ "local": "CEIBOS CLUB",
+ "visitante": "E.L.F.",
+ "gl": 1,
+ "gv": 4,
+ "detalle": {
+  "nro_partido": "380",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "2",
+  "Divisional": "SUB20 \"A\" TITULO",
+  "Cancha": "MONTE VI \"LOS CEIBOS\"",
+  "Fecha_Inicio": "2026-10-24 17:23:00",
+  "Fecha_fin": "2026-10-24 17:23:00",
+  "Locatario": "CEIBOS CLUB",
+  "goles_locatario": "1",
+  "puntos_locatario": "0",
+  "Visitante": "E.L.F.",
+  "goles_visitante": "4",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "67235",
+   "Nombre": "JOSE GARCIA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "61506",
+   "Nombre": "JUAN O REILLY",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "64873",
+   "Nombre": "FELIPE LESCARBOURA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "62073",
+   "Nombre": "JUAN IGNACIO PEVERELLI",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "57352",
+   "Nombre": "SEBASTIAN FERBER",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "57406",
+   "Nombre": "JUAN MARTIN SZELAGOWSKI",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "56106",
+   "Nombre": "GIANLUCA BANCHIERI",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "63231",
+   "Nombre": "ALFREDO NAVARRO",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "56015",
+   "Nombre": "NICOLAS PERERA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "57461",
+   "Nombre": "SANTIAGO ROSSIGNUOLO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "58049",
+   "Nombre": "FELIPE GARCIA PINTOS",
+   "camiseta": "8",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "60898",
+   "Nombre": "JOAQUIN TRIAS",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "65790",
+   "Nombre": "FELIPE LIMA",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "56266",
+   "Nombre": "JUAN FRANCISCO CASTELLANOS",
+   "camiseta": "18",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "55273",
+   "Nombre": "JUAN SARACCO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "57687",
+   "Nombre": "RAMIRO MENDEZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "67158",
+   "Nombre": "LUCIANO DOS SANTOS",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "62703",
+   "Nombre": "MATIAS AGUSTIN RIPOLL",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "56768",
+   "Nombre": "MATIAS DUPUY",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "54658",
+   "Nombre": "JUAN MANUEL DUPUY",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "60555",
+   "Nombre": "MARCOS TRIGO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "61087",
+   "Nombre": "MANUEL RODRIGUEZ",
+   "camiseta": "21",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "57406",
+   "Jug_Sale": "JUAN MARTIN SZELAGOWSKI",
+   "CarneEntra": "56663",
+   "Jug_Entra": "IGNACIO SERE",
+   "camiseta": "17",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "63231",
+   "Jug_Sale": "ALFREDO NAVARRO",
+   "CarneEntra": "61799",
+   "Jug_Entra": "STEFANO LEBRATO",
+   "camiseta": "21",
+   "minutos": "62"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "67158",
+   "Jug_Sale": "LUCIANO DOS SANTOS",
+   "CarneEntra": "61161",
+   "Jug_Entra": "FACUNDO CORREA",
+   "camiseta": "23",
+   "minutos": "26"
+  },
+  {
+   "CarneSale": "65790",
+   "Jug_Sale": "FELIPE LIMA",
+   "CarneEntra": "57955",
+   "Jug_Entra": "MATIAS VIÑAR",
+   "camiseta": "14",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61087",
+   "Jug_Sale": "MANUEL RODRIGUEZ",
+   "CarneEntra": "59828",
+   "Jug_Entra": "IGNACIO RAMO",
+   "camiseta": "76",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "56768",
+   "Jug_Sale": "MATIAS DUPUY",
+   "CarneEntra": "54773",
+   "Jug_Entra": "JUAN IGNACIO PODESTA",
+   "camiseta": "15",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "67158",
+   "Jug_Sale": "LUCIANO DOS SANTOS",
+   "CarneEntra": "62369",
+   "Jug_Entra": "MAURICIO ZECCHI",
+   "camiseta": "20",
+   "minutos": "75"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "56106",
+   "Nombre": "GIANLUCA BANCHIERI",
+   "minutos": "23",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "54658",
+   "Nombre": "JUAN MANUEL DUPUY",
+   "minutos": "35",
+   "EnContra": "1"
+  },
+  {
+   "carne": "54658",
+   "Nombre": "JUAN MANUEL DUPUY",
+   "minutos": "41",
+   "EnContra": "1"
+  },
+  {
+   "carne": "55273",
+   "Nombre": "JUAN SARACCO",
+   "minutos": "47",
+   "EnContra": "1"
+  },
+  {
+   "carne": "56768",
+   "Nombre": "MATIAS DUPUY",
+   "minutos": "19",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

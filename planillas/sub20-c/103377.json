@@ -1,0 +1,241 @@
+{
+ "id": "103377",
+ "categoria": "sub20-c",
+ "serie": "20C2",
+ "fecha": 5,
+ "fechaHora": "2026-10-24 13:30:00",
+ "cancha": "EMA (PANDO) 2",
+ "local": "CLUB SOC. y DEP. LA CHISPA",
+ "visitante": "SAGRADA FAMILIA UNIVERSITARIO",
+ "gl": 1,
+ "gv": 2,
+ "detalle": {
+  "nro_partido": "490",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "2",
+  "Divisional": "SUB20 \"C\" TIT. y ASC.",
+  "Cancha": "EMA (PANDO) 2",
+  "Fecha_Inicio": "2026-10-24 15:30:00",
+  "Fecha_fin": "2026-10-24 15:30:00",
+  "Locatario": "CLUB SOC. y DEP. LA CHISPA",
+  "goles_locatario": "1",
+  "puntos_locatario": "0",
+  "Visitante": "SAGRADA FAMILIA UNIVERSITARIO",
+  "goles_visitante": "2",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "69008",
+   "Nombre": "MATIAS IVAN FLEITAS",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "69083",
+   "Nombre": "ERIC FACUNDO ESCOBAR",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "69224",
+   "Nombre": "GONZALO SILVEIRA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "67531",
+   "Nombre": "BRIAN OLIVERA",
+   "camiseta": "3",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "67534",
+   "Nombre": "BYRON QUILIMAS",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "68698",
+   "Nombre": "MATIAS MACHADO",
+   "camiseta": "86",
+   "Capitan": ""
+  },
+  {
+   "carne": "69007",
+   "Nombre": "KEVIN FERNANDEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "69225",
+   "Nombre": "ANDRES SANTIAGO GONZALEZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "68695",
+   "Nombre": "JEAN PIERRE MACHADO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "67528",
+   "Nombre": "NICOLAS SAAVEDRA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "67522",
+   "Nombre": "THIAGO VIERA",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "67561",
+   "Nombre": "JOAQUIN MEDINA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "65918",
+   "Nombre": "XOSE PABLO JALIFE",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "58680",
+   "Nombre": "JOAQUIN AISCAR",
+   "camiseta": "45",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "64409",
+   "Nombre": "LUCIANO SALVADOR ARISMENDI",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "59731",
+   "Nombre": "LUCA SPERANZA",
+   "camiseta": "55",
+   "Capitan": ""
+  },
+  {
+   "carne": "56678",
+   "Nombre": "GUILLERMO GABRIEL STUART",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "58946",
+   "Nombre": "AGUSTIN SEBASTIAN PIANO",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "58676",
+   "Nombre": "JUAN MANUEL VALDEZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "68553",
+   "Nombre": "VALENTIN LEMA",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "63845",
+   "Nombre": "VITO SANTINO MALAGUEZ",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "56452",
+   "Nombre": "PEDRO FACELLO",
+   "camiseta": "20",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "67534",
+   "Jug_Sale": "BYRON QUILIMAS",
+   "CarneEntra": "68213",
+   "Jug_Entra": "MAXIMILIANO SOTO",
+   "camiseta": "16",
+   "minutos": "45"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "58676",
+   "Jug_Sale": "JUAN MANUEL VALDEZ",
+   "CarneEntra": "58679",
+   "Jug_Entra": "JOAQUIN MARZIALI",
+   "camiseta": "30",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "59731",
+   "Jug_Sale": "LUCA SPERANZA",
+   "CarneEntra": "58954",
+   "Jug_Entra": "JOAQUIN BERMUDEZ",
+   "camiseta": "77",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "56678",
+   "Jug_Sale": "GUILLERMO GABRIEL STUART",
+   "CarneEntra": "68551",
+   "Jug_Entra": "NICOLAS GARCIA",
+   "camiseta": "76",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "56452",
+   "Jug_Sale": "PEDRO FACELLO",
+   "CarneEntra": "58755",
+   "Jug_Entra": "FELIPE RODRIGUEZ",
+   "camiseta": "28",
+   "minutos": "82"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "67528",
+   "Nombre": "NICOLAS SAAVEDRA",
+   "minutos": "32",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "68551",
+   "Nombre": "NICOLAS GARCIA",
+   "minutos": "80",
+   "EnContra": "1"
+  },
+  {
+   "carne": "68551",
+   "Nombre": "NICOLAS GARCIA",
+   "minutos": "90",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "JEAN PIERRE MACHADO",
+   "observaciones": ""
+  }
+ ],
+ "expulsadosV": []
+}

@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "PS DIV.E 2ªR COPA BRONCE",
   "Cancha": "HARAS CUC",
-  "Fecha_Inicio": "2026-10-24 12:45:00",
-  "Fecha_fin": "2026-10-24 12:45:00",
+  "Fecha_Inicio": "2026-10-24 13:05:00",
+  "Fecha_fin": "2026-10-24 13:05:00",
   "Locatario": "RIVER PLATE UNIVERSITARIO",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,287 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "67489",
+   "Nombre": "JOSE FERNANDO GEREZ",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "21571",
+   "Nombre": "GABRIEL SUAREZ",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "33795",
+   "Nombre": "EMILIANO DOMINGUEZ",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "52815",
+   "Nombre": "LUIS MATHIAS RODRIGUES",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "51396",
+   "Nombre": "GONZALO ZEBALLOS",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "67042",
+   "Nombre": "ANDRES PASSADORE",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "67488",
+   "Nombre": "CESAR EMILIANO FALCO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "43293",
+   "Nombre": "FABIAN SERVETTI",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56793",
+   "Nombre": "SEBASTIAN GONZALO SEINES",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "34843",
+   "Nombre": "DIEGO FERNANDO CHRISTOPH",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "43305",
+   "Nombre": "FABRIZIO GONZALEZ",
+   "camiseta": "16",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "44023",
+   "Nombre": "FRANCISCO CERVINO",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "35883",
+   "Nombre": "JOSÈ MIGUEL STRAUCH",
+   "camiseta": "39",
+   "Capitan": ""
+  },
+  {
+   "carne": "33881",
+   "Nombre": "JUAN URIA",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "36371",
+   "Nombre": "MARCOS RODRIGUEZ",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "62611",
+   "Nombre": "JACINTO MANUEL PIGURINA",
+   "camiseta": "25",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "64135",
+   "Nombre": "LUCIANO LOPEZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "67289",
+   "Nombre": "DIEGO ALBERTO PAZ",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "56426",
+   "Nombre": "MARTIN BALPARDA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "32831",
+   "Nombre": "IGNACIO ANDRES PONTE",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "32278",
+   "Nombre": "JAVIER LUSSICH",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "36002",
+   "Nombre": "SANTIAGO MANUEL NARANCIO",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "43305",
+   "Jug_Sale": "FABRIZIO GONZALEZ",
+   "CarneEntra": "48296",
+   "Jug_Entra": "GUSTAVO MARTIN ANSELMI",
+   "camiseta": "15",
+   "minutos": "32"
+  },
+  {
+   "CarneSale": "34843",
+   "Jug_Sale": "DIEGO FERNANDO CHRISTOPH",
+   "CarneEntra": "59168",
+   "Jug_Entra": "FERNANDO IGNACIO SILVA",
+   "camiseta": "0",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56793",
+   "Jug_Sale": "SEBASTIAN GONZALO SEINES",
+   "CarneEntra": "26052",
+   "Jug_Entra": "PABLO SEBASTIAN FERNANDEZ",
+   "camiseta": "0",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "33795",
+   "Jug_Sale": "EMILIANO DOMINGUEZ",
+   "CarneEntra": "39847",
+   "Jug_Entra": "JAIME GARCIA",
+   "camiseta": "0",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "21571",
+   "Jug_Sale": "GABRIEL SUAREZ",
+   "CarneEntra": "56865",
+   "Jug_Entra": "ALEXANDER ROBERTO TABEIRA",
+   "camiseta": "23",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "67042",
+   "Jug_Sale": "ANDRES PASSADORE",
+   "CarneEntra": "52240",
+   "Jug_Entra": "MATHÌAS IGNACIO RODRÌGUEZ",
+   "camiseta": "13",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "59168",
+   "Jug_Sale": "FERNANDO IGNACIO SILVA",
+   "CarneEntra": "34843",
+   "Jug_Entra": "DIEGO FERNANDO CHRISTOPH",
+   "camiseta": "20",
+   "minutos": "82"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "62611",
+   "Jug_Sale": "JACINTO MANUEL PIGURINA",
+   "CarneEntra": "35883",
+   "Jug_Entra": "JOSÈ MIGUEL STRAUCH",
+   "camiseta": "39",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "64135",
+   "Jug_Sale": "LUCIANO LOPEZ",
+   "CarneEntra": "62935",
+   "Jug_Entra": "IGNACIO DURANONA",
+   "camiseta": "29",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "35883",
+   "Jug_Sale": "JOSÈ MIGUEL STRAUCH",
+   "CarneEntra": "54428",
+   "Jug_Entra": "JOAQUIN GINZO",
+   "camiseta": "23",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "33881",
+   "Jug_Sale": "JUAN URIA",
+   "CarneEntra": "30216",
+   "Jug_Entra": "JOAQUIN MARQUES",
+   "camiseta": "4",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56426",
+   "Jug_Sale": "MARTIN BALPARDA",
+   "CarneEntra": "39794",
+   "Jug_Entra": "SEBASTIAN GUSTAVO RODRIGUEZ",
+   "camiseta": "23",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "36002",
+   "Jug_Sale": "SANTIAGO MANUEL NARANCIO",
+   "CarneEntra": "56426",
+   "Jug_Entra": "MARTIN BALPARDA",
+   "camiseta": "9",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "62935",
+   "Jug_Sale": "IGNACIO DURANONA",
+   "CarneEntra": "64135",
+   "Jug_Entra": "LUCIANO LOPEZ",
+   "camiseta": "15",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "35883",
+   "Jug_Sale": "JOSÈ MIGUEL STRAUCH",
+   "CarneEntra": "33881",
+   "Jug_Entra": "JUAN URIA",
+   "camiseta": "29",
+   "minutos": "88"
+  }
+ ],
  "golesL": [],
- "golesV": [],
+ "golesV": [
+  {
+   "carne": "36002",
+   "Nombre": "SANTIAGO MANUEL NARANCIO",
+   "minutos": "61",
+   "EnContra": "1"
+  },
+  {
+   "carne": "44023",
+   "Nombre": "FRANCISCO CERVINO",
+   "minutos": "54",
+   "EnContra": "1"
+  },
+  {
+   "carne": "56426",
+   "Nombre": "MARTIN BALPARDA",
+   "minutos": "71",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

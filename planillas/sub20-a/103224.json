@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "SUB20 \"A\" PERM. y DESC.",
   "Cancha": "COMPLEJO JUAN XXIII",
-  "Fecha_Inicio": "2026-10-24 17:00:00",
-  "Fecha_fin": "2026-10-24 17:00:00",
+  "Fecha_Inicio": "2026-10-24 17:30:00",
+  "Fecha_fin": "2026-10-24 17:30:00",
   "Locatario": "MATURANA UNIVERSITARIO",
   "goles_locatario": "4",
   "puntos_locatario": "3",
@@ -29,12 +29,215 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "63203",
+   "Nombre": "JOAQUIN RODRIGUEZ",
+   "camiseta": "66",
+   "Capitan": ""
+  },
+  {
+   "carne": "64798",
+   "Nombre": "SANTIAGO BIDONDO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "56778",
+   "Nombre": "FRANCISCO GOMEZ",
+   "camiseta": "30",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "63888",
+   "Nombre": "TOMAS NAHUEL AREOSA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "59293",
+   "Nombre": "AGUSTIN ALMEIDA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "64807",
+   "Nombre": "FRANCO GONZALEZ",
+   "camiseta": "51",
+   "Capitan": ""
+  },
+  {
+   "carne": "58751",
+   "Nombre": "FRANCISCO ANTONIO VILLAGRAN",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "60756",
+   "Nombre": "IGNACIO AGUSTIN DE GOUVEIA",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "56787",
+   "Nombre": "IGNACIO GONZALEZ",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "56775",
+   "Nombre": "MARIO AGUSTIN ANDRIOLO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "56098",
+   "Nombre": "MATIAS MARTIRENA",
+   "camiseta": "5",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "59094",
+   "Nombre": "SEBASTIAN CHAPPER",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "62670",
+   "Nombre": "LORENZO MONTERO",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "59224",
+   "Nombre": "MATIAS LEMBO",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "63242",
+   "Nombre": "VLADIMIR CASTRO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "57231",
+   "Nombre": "EMILIANO IFER",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "64194",
+   "Nombre": "SANTIAGO DEL CAMPO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "59102",
+   "Nombre": "AGUSTIN CAZET",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "62570",
+   "Nombre": "JUAN BERNARDO HERNANDEZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "57840",
+   "Nombre": "DIEGO BIDEGAIN",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "59100",
+   "Nombre": "VALENTINO PIERI",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "61871",
+   "Nombre": "FRANCO DI GIOVANNI",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "58751",
+   "Jug_Sale": "FRANCISCO ANTONIO VILLAGRAN",
+   "CarneEntra": "63574",
+   "Jug_Entra": "JUAN MANUEL CONDE",
+   "camiseta": "9",
+   "minutos": "51"
+  },
+  {
+   "CarneSale": "60756",
+   "Jug_Sale": "IGNACIO AGUSTIN DE GOUVEIA",
+   "CarneEntra": "57845",
+   "Jug_Entra": "ANDRES COUCE",
+   "camiseta": "41",
+   "minutos": "73"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "63242",
+   "Jug_Sale": "VLADIMIR CASTRO",
+   "CarneEntra": "59103",
+   "Jug_Entra": "MATEO AGUSTIN PETILLO",
+   "camiseta": "15",
+   "minutos": "57"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "56775",
+   "Nombre": "MARIO AGUSTIN ANDRIOLO",
+   "minutos": "60",
+   "EnContra": "0"
+  },
+  {
+   "carne": "59293",
+   "Nombre": "AGUSTIN ALMEIDA",
+   "minutos": "47",
+   "EnContra": "0"
+  },
+  {
+   "carne": "59293",
+   "Nombre": "AGUSTIN ALMEIDA",
+   "minutos": "75",
+   "EnContra": "0"
+  },
+  {
+   "carne": "63574",
+   "Nombre": "JUAN MANUEL CONDE",
+   "minutos": "90",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "59100",
+   "Nombre": "VALENTINO PIERI",
+   "minutos": "90",
+   "EnContra": "1"
+  },
+  {
+   "carne": "59224",
+   "Nombre": "MATIAS LEMBO",
+   "minutos": "76",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
- "expulsadosV": []
+ "expulsadosV": [
+  {
+   "Nombre": "LORENZO MONTERO",
+   "observaciones": ""
+  }
+ ]
 }

@@ -1,31 +1,31 @@
 [
  {
-  "serie": "BTA",
-  "fechaHora": "2026-11-01 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "J.M.L.M",
-  "visitante": "OLD BRENDANS CLUB"
- },
- {
-  "serie": "BPD",
-  "fechaHora": "2026-11-01 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "CLUB JESUS MARIA",
-  "visitante": "INDEPENDIENTE"
- },
- {
-  "serie": "BPD",
-  "fechaHora": "2026-11-01 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "CLUB UNIVERSIDAD CATOLICA",
-  "visitante": "CIRCULO DE TENIS MONTEVIDEO"
- },
- {
   "serie": "BPD",
   "fechaHora": "2026-11-01 09:00:00",
   "cancha": "COMPLEJO LAS CASUARINAS",
   "local": "SAN JUAN BAUTISTA",
   "visitante": "CITY PARK"
+ },
+ {
+  "serie": "BPD",
+  "fechaHora": "2026-11-01 09:00:00",
+  "cancha": "COMPLEJO COLEGIO JESÚS MARÍA",
+  "local": "CLUB JESUS MARIA",
+  "visitante": "INDEPENDIENTE"
+ },
+ {
+  "serie": "BPD",
+  "fechaHora": "2026-11-01 09:00:00",
+  "cancha": "COM. CLUB UNIVERSIDAD CATOLICA",
+  "local": "CLUB UNIVERSIDAD CATOLICA",
+  "visitante": "CIRCULO DE TENIS MONTEVIDEO"
+ },
+ {
+  "serie": "BTA",
+  "fechaHora": "2026-11-01 11:15:00",
+  "cancha": "LA MENNAIS",
+  "local": "J.M.L.M",
+  "visitante": "OLD BRENDANS CLUB"
  },
  {
   "serie": "BTA",

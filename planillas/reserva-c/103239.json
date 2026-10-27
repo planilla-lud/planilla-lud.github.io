@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"C\" TIT. y ASC.",
   "Cancha": "SAN EUGENIO",
-  "Fecha_Inicio": "2026-10-24 12:45:00",
-  "Fecha_fin": "2026-10-24 12:45:00",
+  "Fecha_Inicio": "2026-10-24 13:05:00",
+  "Fecha_fin": "2026-10-24 13:05:00",
   "Locatario": "SAN EUGENIO",
   "goles_locatario": "2",
   "puntos_locatario": "3",
@@ -29,12 +29,272 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "61746",
+   "Nombre": "SANTIAGO BRAZEIRO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "64439",
+   "Nombre": "AGUSTIN DAVILA",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "64443",
+   "Nombre": "ENZO JESUS RODRIGUEZ",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "54484",
+   "Nombre": "GREGORY EMMANUEL BARRIOS",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "49859",
+   "Nombre": "ALFREDO SUAREZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "68839",
+   "Nombre": "LAUTARO LARZABAL",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "49999",
+   "Nombre": "LEONARDO NICOLAS RIBEIRO",
+   "camiseta": "46",
+   "Capitan": ""
+  },
+  {
+   "carne": "59342",
+   "Nombre": "MATIAS MARTINS",
+   "camiseta": "80",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "68963",
+   "Nombre": "FACUNDO NICOLAS MORALES",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "59846",
+   "Nombre": "QUEVIN MACHADO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "62047",
+   "Nombre": "RAMIRO SALVADOR",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "59263",
+   "Nombre": "MAURO ANDRES RUVERTONI",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "55283",
+   "Nombre": "IGNACIO ZABALETA",
+   "camiseta": "47",
+   "Capitan": ""
+  },
+  {
+   "carne": "59802",
+   "Nombre": "VALENTINO GORAN BARREIRO",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "58847",
+   "Nombre": "JUAN DIEGO FAGNONI",
+   "camiseta": "70",
+   "Capitan": ""
+  },
+  {
+   "carne": "46955",
+   "Nombre": "FRANCISCO ARTURO CACERES",
+   "camiseta": "87",
+   "Capitan": ""
+  },
+  {
+   "carne": "54665",
+   "Nombre": "SANTIAGO PRINA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "58861",
+   "Nombre": "SEBASTIAN RODRIGUEZ",
+   "camiseta": "50",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "61867",
+   "Nombre": "MATEO ALVAREZ",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "61875",
+   "Nombre": "MARTIN VITABAR",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "59101",
+   "Nombre": "JULIAN RIVERON",
+   "camiseta": "66",
+   "Capitan": ""
+  },
+  {
+   "carne": "51708",
+   "Nombre": "AGUSTIN FERRES",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "49999",
+   "Jug_Sale": "LEONARDO NICOLAS RIBEIRO",
+   "CarneEntra": "62851",
+   "Jug_Entra": "FACUNDO CHAIA",
+   "camiseta": "28",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "54484",
+   "Jug_Sale": "GREGORY EMMANUEL BARRIOS",
+   "CarneEntra": "61743",
+   "Jug_Entra": "KAWE ALAMON",
+   "camiseta": "22",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "68839",
+   "Jug_Sale": "LAUTARO LARZABAL",
+   "CarneEntra": "44387",
+   "Jug_Entra": "BRUNO ALBERTO DE LOS SANTOS",
+   "camiseta": "66",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "62047",
+   "Jug_Sale": "RAMIRO SALVADOR",
+   "CarneEntra": "62696",
+   "Jug_Entra": "MATEO NAHUEL COSTA",
+   "camiseta": "25",
+   "minutos": "74"
+  },
+  {
+   "CarneSale": "49859",
+   "Jug_Sale": "ALFREDO SUAREZ",
+   "CarneEntra": "59857",
+   "Jug_Entra": "FEDERICO BALAO",
+   "camiseta": "21",
+   "minutos": "74"
+  },
+  {
+   "CarneSale": "59342",
+   "Jug_Sale": "MATIAS MARTINS",
+   "CarneEntra": "62993",
+   "Jug_Entra": "JUAN CARLOS MEDINA",
+   "camiseta": "34",
+   "minutos": "81"
+  },
+  {
+   "CarneSale": "59846",
+   "Jug_Sale": "QUEVIN MACHADO",
+   "CarneEntra": "69043",
+   "Jug_Entra": "FRANCISCO GARCIA",
+   "camiseta": "23",
+   "minutos": "91"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "55283",
+   "Jug_Sale": "IGNACIO ZABALETA",
+   "CarneEntra": "53468",
+   "Jug_Entra": "TOMAS PACHECO",
+   "camiseta": "6",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "59101",
+   "Jug_Sale": "JULIAN RIVERON",
+   "CarneEntra": "53772",
+   "Jug_Entra": "GIULIANO GAZZOLA",
+   "camiseta": "64",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "61867",
+   "Jug_Sale": "MATEO ALVAREZ",
+   "CarneEntra": "50344",
+   "Jug_Entra": "FELIPE MANUEL NIETO",
+   "camiseta": "17",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "59802",
+   "Jug_Sale": "VALENTINO GORAN BARREIRO",
+   "CarneEntra": "49012",
+   "Jug_Entra": "AGUSTIN SUPERVIELLE",
+   "camiseta": "4",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "61875",
+   "Jug_Sale": "MARTIN VITABAR",
+   "CarneEntra": "58867",
+   "Jug_Entra": "BRUNO MARASCO",
+   "camiseta": "15",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "53468",
+   "Jug_Sale": "TOMAS PACHECO",
+   "CarneEntra": "58047",
+   "Jug_Entra": "ALFONSO RODRIGUEZ",
+   "camiseta": "40",
+   "minutos": "78"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "59846",
+   "Nombre": "QUEVIN MACHADO",
+   "minutos": "30",
+   "EnContra": "0"
+  },
+  {
+   "carne": "59846",
+   "Nombre": "QUEVIN MACHADO",
+   "minutos": "70",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "51708",
+   "Nombre": "AGUSTIN FERRES",
+   "minutos": "60",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

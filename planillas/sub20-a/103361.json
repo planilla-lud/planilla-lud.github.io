@@ -1,0 +1,275 @@
+{
+ "id": "103361",
+ "categoria": "sub20-a",
+ "serie": "20AT",
+ "fecha": 5,
+ "fechaHora": "2026-10-24 15:30:00",
+ "cancha": "LA MENNAIS",
+ "local": "J.M.L.M",
+ "visitante": "NACIONAL UNIVERSITARIO",
+ "gl": 3,
+ "gv": 0,
+ "detalle": {
+  "nro_partido": "377",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "2",
+  "Divisional": "SUB20 \"A\" TITULO",
+  "Cancha": "LA MENNAIS",
+  "Fecha_Inicio": "2026-10-24 17:20:00",
+  "Fecha_fin": "2026-10-24 17:20:00",
+  "Locatario": "J.M.L.M",
+  "goles_locatario": "3",
+  "puntos_locatario": "3",
+  "Visitante": "NACIONAL UNIVERSITARIO",
+  "goles_visitante": "0",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "67397",
+   "Nombre": "ALEJANDRO MAURO NARIO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "56241",
+   "Nombre": "GUILLERMO FERRARI",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "57046",
+   "Nombre": "FRANCISCO MATTOS",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "55785",
+   "Nombre": "MATEO LAUTARO RODRIGUEZ",
+   "camiseta": "91",
+   "Capitan": ""
+  },
+  {
+   "carne": "56176",
+   "Nombre": "SANTIAGO LUCAS",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "56238",
+   "Nombre": "THIAGO GONZALEZ",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "64263",
+   "Nombre": "JUAN MANUEL DUPONT",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "58174",
+   "Nombre": "MATEO MARTINEZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "53175",
+   "Nombre": "MATEO GILI",
+   "camiseta": "7",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "55153",
+   "Nombre": "MAXIMO FERRIRA",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "66739",
+   "Nombre": "RENZO BARBIERI",
+   "camiseta": "35",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "62299",
+   "Nombre": "FACUNDO GONZALEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "69106",
+   "Nombre": "JUAN PABLO VIERA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "63621",
+   "Nombre": "RAUL ERNESTO GONZALEZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "57415",
+   "Nombre": "IÑAKI ETCHEVERRIA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "68428",
+   "Nombre": "FRANCISCO VIDIELLA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "57960",
+   "Nombre": "LUCAS GABRIEL GRAÑA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "58009",
+   "Nombre": "SEBASTIAN FARIAS",
+   "camiseta": "8",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "61151",
+   "Nombre": "VALENTIN GUERRICO",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "66558",
+   "Nombre": "CONSTANTINO BENTANCUR",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "56570",
+   "Nombre": "MARCOA ISMAEL GARCIA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "68981",
+   "Nombre": "IGNACIO FACUNDO ISNARDI",
+   "camiseta": "4",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "56238",
+   "Jug_Sale": "THIAGO GONZALEZ",
+   "CarneEntra": "58806",
+   "Jug_Entra": "MATIAS CAGNOLI",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56241",
+   "Jug_Sale": "GUILLERMO FERRARI",
+   "CarneEntra": "59539",
+   "Jug_Entra": "AGUSTIN ROBERTO",
+   "camiseta": "8",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "56176",
+   "Jug_Sale": "SANTIAGO LUCAS",
+   "CarneEntra": "55150",
+   "Jug_Entra": "MANUEL MAZZILLI",
+   "camiseta": "27",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "55785",
+   "Jug_Sale": "MATEO LAUTARO RODRIGUEZ",
+   "CarneEntra": "62406",
+   "Jug_Entra": "BRUNO AREVALO",
+   "camiseta": "16",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "55153",
+   "Jug_Sale": "MAXIMO FERRIRA",
+   "CarneEntra": "66739",
+   "Jug_Entra": "RENZO BARBIERI",
+   "camiseta": "35",
+   "minutos": "92"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "57415",
+   "Jug_Sale": "IÑAKI ETCHEVERRIA",
+   "CarneEntra": "58538",
+   "Jug_Entra": "PATRICIO BULA",
+   "camiseta": "21",
+   "minutos": "22"
+  },
+  {
+   "CarneSale": "61151",
+   "Jug_Sale": "VALENTIN GUERRICO",
+   "CarneEntra": "68108",
+   "Jug_Entra": "GAEL MARQUEZ",
+   "camiseta": "15",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56570",
+   "Jug_Sale": "MARCOA ISMAEL GARCIA",
+   "CarneEntra": "69169",
+   "Jug_Entra": "RODRIGO INGOLD",
+   "camiseta": "23",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "68981",
+   "Jug_Sale": "IGNACIO FACUNDO ISNARDI",
+   "CarneEntra": "60148",
+   "Jug_Entra": "GASPAR GUARISCO",
+   "camiseta": "20",
+   "minutos": "84"
+  },
+  {
+   "CarneSale": "58009",
+   "Jug_Sale": "SEBASTIAN FARIAS",
+   "CarneEntra": "58539",
+   "Jug_Entra": "SEBASTIAN BULA",
+   "camiseta": "44",
+   "minutos": "84"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "58174",
+   "Nombre": "MATEO MARTINEZ",
+   "minutos": "21",
+   "EnContra": "0"
+  },
+  {
+   "carne": "66739",
+   "Nombre": "RENZO BARBIERI",
+   "minutos": "10",
+   "EnContra": "0"
+  },
+  {
+   "carne": "66739",
+   "Nombre": "RENZO BARBIERI",
+   "minutos": "41",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

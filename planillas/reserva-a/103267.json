@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"A\" TITULO",
   "Cancha": "CARRASCO POLO",
-  "Fecha_Inicio": "2026-10-24 12:45:00",
-  "Fecha_fin": "2026-10-24 12:45:00",
+  "Fecha_Inicio": "2026-10-24 14:00:00",
+  "Fecha_fin": "2026-10-24 14:00:00",
   "Locatario": "CARRASCO POLO CLUB",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,251 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "53730",
+   "Nombre": "RENZO MACHIN",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "47029",
+   "Nombre": "GUZMAN PIANGELUA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "44087",
+   "Nombre": "FRANCISCO ROURE",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "49091",
+   "Nombre": "MATEO ROSA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "54900",
+   "Nombre": "TOMAS SANTIAGO VILLANUEVA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "42512",
+   "Nombre": "NICOLAS BOLGER",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "54897",
+   "Nombre": "THIAGO HERNANDEZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "35208",
+   "Nombre": "JUAN SEGUNDO MASPOLI",
+   "camiseta": "8",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "50873",
+   "Nombre": "LUCIO FLANGINI",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "43050",
+   "Nombre": "JOAQUIN COMPANY",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "54410",
+   "Nombre": "THIAGO TOLVE",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "55226",
+   "Nombre": "ALFONSO DEL CASTILLO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "54053",
+   "Nombre": "FRANCO BUYSAN",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "37171",
+   "Nombre": "MATEO DIEGO BLENGIO",
+   "camiseta": "18",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "35068",
+   "Nombre": "MATEO DI LORENZO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "41003",
+   "Nombre": "FEDERICO BARRIOS",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "52396",
+   "Nombre": "TOMAS DI LORENZO",
+   "camiseta": "96",
+   "Capitan": ""
+  },
+  {
+   "carne": "42263",
+   "Nombre": "JUAN MARTIN ROMANIELLO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "39601",
+   "Nombre": "NICOLAS OEHLER",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "32400",
+   "Nombre": "MATIAS DANIEL RIOS",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "63476",
+   "Nombre": "BAUTISTA MARIANO RODRIGUEZ ALEMPARTE",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "62462",
+   "Nombre": "JUAN GABRIEL ALVAREZ",
+   "camiseta": "0",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "47029",
+   "Jug_Sale": "GUZMAN PIANGELUA",
+   "CarneEntra": "41650",
+   "Jug_Entra": "FELIPE ZAS",
+   "camiseta": "19",
+   "minutos": "59"
+  },
+  {
+   "CarneSale": "50873",
+   "Jug_Sale": "LUCIO FLANGINI",
+   "CarneEntra": "36092",
+   "Jug_Entra": "ANDRES GABRIEL DIPOLITO",
+   "camiseta": "16",
+   "minutos": "54"
+  },
+  {
+   "CarneSale": "54410",
+   "Jug_Sale": "THIAGO TOLVE",
+   "CarneEntra": "40176",
+   "Jug_Entra": "JUAN PABLO RICO",
+   "camiseta": "25",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "35208",
+   "Jug_Sale": "JUAN SEGUNDO MASPOLI",
+   "CarneEntra": "48906",
+   "Jug_Entra": "LUCIANO MANGINI",
+   "camiseta": "21",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "43050",
+   "Jug_Sale": "JOAQUIN COMPANY",
+   "CarneEntra": "53865",
+   "Jug_Entra": "JOAQUIN RETHEMIAS",
+   "camiseta": "20",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "41650",
+   "Jug_Sale": "FELIPE ZAS",
+   "CarneEntra": "58221",
+   "Jug_Entra": "DIEGO ALEJANDRO NOGUERA",
+   "camiseta": "18",
+   "minutos": "75"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "37171",
+   "Jug_Sale": "MATEO DIEGO BLENGIO",
+   "CarneEntra": "43762",
+   "Jug_Entra": "ALFONSO MARQUES",
+   "camiseta": "3",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "39601",
+   "Jug_Sale": "NICOLAS OEHLER",
+   "CarneEntra": "54480",
+   "Jug_Entra": "FACUNDO BELO",
+   "camiseta": "30",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "63476",
+   "Jug_Sale": "BAUTISTA MARIANO RODRIGUEZ ALEMPARTE",
+   "CarneEntra": "42262",
+   "Jug_Entra": "FELIPE LOPEZ",
+   "camiseta": "9",
+   "minutos": "83"
+  },
+  {
+   "CarneSale": "54053",
+   "Jug_Sale": "FRANCO BUYSAN",
+   "CarneEntra": "39425",
+   "Jug_Entra": "SANTIAGO MARAFFI",
+   "camiseta": "4",
+   "minutos": "83"
+  },
+  {
+   "CarneSale": "41003",
+   "Jug_Sale": "FEDERICO BARRIOS",
+   "CarneEntra": "52606",
+   "Jug_Entra": "JUAN DIEGO CALABUIG",
+   "camiseta": "5",
+   "minutos": "91"
+  },
+  {
+   "CarneSale": "42263",
+   "Jug_Sale": "JUAN MARTIN ROMANIELLO",
+   "CarneEntra": "52697",
+   "Jug_Entra": "JOAQUIN DAVID LEAO",
+   "camiseta": "14",
+   "minutos": "95"
+  }
+ ],
  "golesL": [],
- "golesV": [],
+ "golesV": [
+  {
+   "carne": "62462",
+   "Nombre": "JUAN GABRIEL ALVAREZ",
+   "minutos": "1",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

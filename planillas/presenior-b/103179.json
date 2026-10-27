@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"B\" TIT. y ASC",
   "Cancha": "SANDY FUTBOL",
-  "Fecha_Inicio": "2026-10-24 10:30:00",
-  "Fecha_fin": "2026-10-24 10:30:00",
+  "Fecha_Inicio": "2026-10-24 11:00:00",
+  "Fecha_fin": "2026-10-24 11:00:00",
   "Locatario": "RESISTENCIA",
   "goles_locatario": "1",
   "puntos_locatario": "1",
@@ -29,12 +29,218 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "32833",
+   "Nombre": "JUAN JAVIER CARBALLO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "49863",
+   "Nombre": "JUAN IGNACIO PRADO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "26846",
+   "Nombre": "RODRIGO ROCHA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "23456",
+   "Nombre": "SERGIO SEBASTIAN MATTOS",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "23532",
+   "Nombre": "RODRIGO IBACETA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "25651",
+   "Nombre": "CRISTIAN AROCHA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "26679",
+   "Nombre": "PABLO FREIRE",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "25142",
+   "Nombre": "ADRIAN RODRIGO SILVA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "31507",
+   "Nombre": "JOAQUIN BADO",
+   "camiseta": "2",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "23840",
+   "Nombre": "RODRIGO AÑON",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "27066",
+   "Nombre": "SANTIAGO JULIAN LAGOMARSINO",
+   "camiseta": "22",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "60843",
+   "Nombre": "MAXIMILIANO PEREIRA",
+   "camiseta": "90",
+   "Capitan": ""
+  },
+  {
+   "carne": "20022",
+   "Nombre": "ALFONSO PRADERIO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "19902",
+   "Nombre": "SEBASTIAN MOTTA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "35742",
+   "Nombre": "AGUSTIN ANTONIO CERVIÑO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "34591",
+   "Nombre": "GUILLERMO PINO",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "48397",
+   "Nombre": "CLAUDIO JUAREZ",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "61432",
+   "Nombre": "MATIAS ACOSTA",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "29781",
+   "Nombre": "EMANUEL BURGUEZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "31631",
+   "Nombre": "GUILLERMO LUIS PASTORINI",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "32666",
+   "Nombre": "FACUNDO ARIEL CHAVEZ",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "27667",
+   "Nombre": "HUGO AGUSTIN NIETO",
+   "camiseta": "19",
+   "Capitan": "(C)"
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "26846",
+   "Jug_Sale": "RODRIGO ROCHA",
+   "CarneEntra": "22462",
+   "Jug_Entra": "PEDRO CAPRANI",
+   "camiseta": "14",
+   "minutos": "49"
+  },
+  {
+   "CarneSale": "27066",
+   "Jug_Sale": "SANTIAGO JULIAN LAGOMARSINO",
+   "CarneEntra": "23452",
+   "Jug_Entra": "IGNACIO SPANGENBERG",
+   "camiseta": "17",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "23840",
+   "Jug_Sale": "RODRIGO AÑON",
+   "CarneEntra": "23885",
+   "Jug_Entra": "MAURICIO DANIEL HERNANDEZ",
+   "camiseta": "21",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "49863",
+   "Jug_Sale": "JUAN IGNACIO PRADO",
+   "CarneEntra": "28831",
+   "Jug_Entra": "JOSE IGNACIO SANCHEZ",
+   "camiseta": "19",
+   "minutos": "83"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "19902",
+   "Jug_Sale": "SEBASTIAN MOTTA",
+   "CarneEntra": "28624",
+   "Jug_Entra": "MARTIN GUERRA",
+   "camiseta": "43",
+   "minutos": "26"
+  },
+  {
+   "CarneSale": "34591",
+   "Jug_Sale": "GUILLERMO PINO",
+   "CarneEntra": "21462",
+   "Jug_Entra": "MATIAS BARRENECHEA",
+   "camiseta": "4",
+   "minutos": "87"
+  },
+  {
+   "CarneSale": "21462",
+   "Jug_Sale": "MATIAS BARRENECHEA",
+   "CarneEntra": "19902",
+   "Jug_Entra": "SEBASTIAN MOTTA",
+   "camiseta": "8",
+   "minutos": "93"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "25651",
+   "Nombre": "CRISTIAN AROCHA",
+   "minutos": "2",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "35742",
+   "Nombre": "AGUSTIN ANTONIO CERVIÑO",
+   "minutos": "83",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

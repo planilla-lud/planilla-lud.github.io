@@ -1,0 +1,286 @@
+{
+ "id": "103359",
+ "categoria": "presenior-a",
+ "serie": "PSAT",
+ "fecha": 4,
+ "fechaHora": "2026-10-24 11:15:00",
+ "cancha": "OLD CHRISTIANS CLUB",
+ "local": "OLD CHRISTIANS CLUB",
+ "visitante": "OLD BOYS CLUB",
+ "gl": 1,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "794",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "PRE SENIOR",
+  "categoria": "PRE-SENIOR MASCULINO",
+  "rueda": "2",
+  "Divisional": "PRESENIOR \"A\" TITULO",
+  "Cancha": "OLD CHRISTIANS CLUB",
+  "Fecha_Inicio": "2026-10-24 13:00:00",
+  "Fecha_fin": "2026-10-24 13:00:00",
+  "Locatario": "OLD CHRISTIANS CLUB",
+  "goles_locatario": "1",
+  "puntos_locatario": "1",
+  "Visitante": "OLD BOYS CLUB",
+  "goles_visitante": "1",
+  "puntos_visitante": "1",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "26015",
+   "Nombre": "GUILLERMO FEDERICO BRITOS",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "22099",
+   "Nombre": "IGNACIO MARIA PEREZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "28899",
+   "Nombre": "IGNACIO MUÑOZ",
+   "camiseta": "3",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "37322",
+   "Nombre": "ANDRES ENRIQUE URIOSTE",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "28410",
+   "Nombre": "FELIPE JUAN URIOSTE",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "51231",
+   "Nombre": "ALEJO MAYORGA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "26729",
+   "Nombre": "LUIS IGNACIO CRISCI",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "33189",
+   "Nombre": "THOMAS SCHIMDT",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "20036",
+   "Nombre": "MATIAS CROSTA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "60126",
+   "Nombre": "DIEGO REIMUNDES",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "28143",
+   "Nombre": "EMILIANO GIOIA",
+   "camiseta": "20",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "22548",
+   "Nombre": "FRANCISCO MARIA BOSCH",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "28645",
+   "Nombre": "JOAQUIN SASSON",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "26390",
+   "Nombre": "ROBERTO MATIAS GIMENEZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "26389",
+   "Nombre": "MARTIN JOSE DONAGARAY",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "26980",
+   "Nombre": "SANTIAGO NIELS SHAW",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "29662",
+   "Nombre": "SANTIAGO JUAN ALBANELL",
+   "camiseta": "38",
+   "Capitan": ""
+  },
+  {
+   "carne": "32038",
+   "Nombre": "LUCAS MARIA GARCIA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "36432",
+   "Nombre": "ALBERTO FELIZ INCIARTE",
+   "camiseta": "23",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "27541",
+   "Nombre": "GERMAN JOSE ALBANELL",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "31896",
+   "Nombre": "ALFONSO GUZMAN GALLO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "26972",
+   "Nombre": "JUAN MANUEL MUSETTI",
+   "camiseta": "99",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "28410",
+   "Jug_Sale": "FELIPE JUAN URIOSTE",
+   "CarneEntra": "40060",
+   "Jug_Entra": "MATEO LONG",
+   "camiseta": "30",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "28143",
+   "Jug_Sale": "EMILIANO GIOIA",
+   "CarneEntra": "21639",
+   "Jug_Entra": "EDUARDO GABRIEL PEIRANO",
+   "camiseta": "6",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "20036",
+   "Jug_Sale": "MATIAS CROSTA",
+   "CarneEntra": "24790",
+   "Jug_Entra": "IGNACIO NOGUEIRA",
+   "camiseta": "11",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "37322",
+   "Jug_Sale": "ANDRES ENRIQUE URIOSTE",
+   "CarneEntra": "35690",
+   "Jug_Entra": "MARTIN UBILLA",
+   "camiseta": "29",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "51231",
+   "Jug_Sale": "ALEJO MAYORGA",
+   "CarneEntra": "26727",
+   "Jug_Entra": "CARLOS EDUARDO SCHECK",
+   "camiseta": "23",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "22099",
+   "Jug_Sale": "IGNACIO MARIA PEREZ",
+   "CarneEntra": "26806",
+   "Jug_Entra": "JULIO MANUEL LESTIDO",
+   "camiseta": "33",
+   "minutos": "82"
+  },
+  {
+   "CarneSale": "26729",
+   "Jug_Sale": "LUIS IGNACIO CRISCI",
+   "CarneEntra": "27137",
+   "Jug_Entra": "DIEGO PEDRO MARIÑO",
+   "camiseta": "9",
+   "minutos": "83"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "27541",
+   "Jug_Sale": "GERMAN JOSE ALBANELL",
+   "CarneEntra": "25060",
+   "Jug_Entra": "NICOLAS RUEDA",
+   "camiseta": "8",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "31896",
+   "Jug_Sale": "ALFONSO GUZMAN GALLO",
+   "CarneEntra": "29672",
+   "Jug_Entra": "JUAN MARIA OREGGIA",
+   "camiseta": "16",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "29662",
+   "Jug_Sale": "SANTIAGO JUAN ALBANELL",
+   "CarneEntra": "28292",
+   "Jug_Entra": "FRANCISCO CEA",
+   "camiseta": "11",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "26389",
+   "Jug_Sale": "MARTIN JOSE DONAGARAY",
+   "CarneEntra": "26591",
+   "Jug_Entra": "FELIPE DE SANTIAGO",
+   "camiseta": "22",
+   "minutos": "90"
+  },
+  {
+   "CarneSale": "32038",
+   "Jug_Sale": "LUCAS MARIA GARCIA",
+   "CarneEntra": "28182",
+   "Jug_Entra": "ALFREDO AROCENA",
+   "camiseta": "31",
+   "minutos": "95"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "60126",
+   "Nombre": "DIEGO REIMUNDES",
+   "minutos": "14",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "31896",
+   "Nombre": "ALFONSO GUZMAN GALLO",
+   "minutos": "26",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

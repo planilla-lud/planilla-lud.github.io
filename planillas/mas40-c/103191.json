@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "M40 DIV. C COPA BRONCE R2",
   "Cancha": "LIMBURGO -DR.J.L.PISCIOTTANO-",
-  "Fecha_Inicio": "2026-10-24 12:45:00",
-  "Fecha_fin": "2026-10-24 12:45:00",
+  "Fecha_Inicio": "2026-10-24 13:05:00",
+  "Fecha_fin": "2026-10-24 13:05:00",
   "Locatario": "NUMA TURCATTI",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,207 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "24412",
+   "Nombre": "RODRIGO CADENAS",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "42184",
+   "Nombre": "ANDRES RODOLFO LARGHER",
+   "camiseta": "2",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "42662",
+   "Nombre": "HECTOR MANUEL DAVILA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "53983",
+   "Nombre": "DIEGO FERNANDO NODAR",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "62983",
+   "Nombre": "NESTOR GABRIEL DAVILA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "19890",
+   "Nombre": "JAVIER GOÑI",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "18994",
+   "Nombre": "LEONARDO CAULA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "54436",
+   "Nombre": "MARTIN AGUERRE",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "25357",
+   "Nombre": "OMAR ZINA",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "17984",
+   "Nombre": "MARTIN ARMANDO ANTELO",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "67413",
+   "Nombre": "THOMAS EVANS",
+   "camiseta": "23",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "60166",
+   "Nombre": "JAVIER ALEJANDRO CAMPOS",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "37208",
+   "Nombre": "FEDERICO ISMAEL WOLCAN",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "67568",
+   "Nombre": "GASTON LEIVA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "66459",
+   "Nombre": "IGNACIO DE",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "63890",
+   "Nombre": "GUSTAVO ENRIQUE COSTAS",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "53136",
+   "Nombre": "RODRIGO ALONSO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "19530",
+   "Nombre": "ALEJANDRO BENTANCUR",
+   "camiseta": "8",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "31628",
+   "Nombre": "MARCELO PACHECO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "51564",
+   "Nombre": "GONZALO MARTIN GARATE",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "65311",
+   "Nombre": "WASHINGTON JOSE RODRIGUEZ",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "18199",
+   "Nombre": "NICOLAS LOPEZ",
+   "camiseta": "3",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "53983",
+   "Jug_Sale": "DIEGO FERNANDO NODAR",
+   "CarneEntra": "64670",
+   "Jug_Entra": "ADRIAN SILVEIRA",
+   "camiseta": "41",
+   "minutos": "31"
+  },
+  {
+   "CarneSale": "19890",
+   "Jug_Sale": "JAVIER GOÑI",
+   "CarneEntra": "14410",
+   "Jug_Entra": "RAUL ALEXIS HERNANDEZ",
+   "camiseta": "15",
+   "minutos": "45"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "65311",
+   "Jug_Sale": "WASHINGTON JOSE RODRIGUEZ",
+   "CarneEntra": "39708",
+   "Jug_Entra": "ANIBAL LEONARDO BARRIOS",
+   "camiseta": "79",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "18199",
+   "Jug_Sale": "NICOLAS LOPEZ",
+   "CarneEntra": "65311",
+   "Jug_Entra": "WASHINGTON JOSE RODRIGUEZ",
+   "camiseta": "9",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "63890",
+   "Jug_Sale": "GUSTAVO ENRIQUE COSTAS",
+   "CarneEntra": "18199",
+   "Jug_Entra": "NICOLAS LOPEZ",
+   "camiseta": "3",
+   "minutos": "78"
+  }
+ ],
  "golesL": [],
- "golesV": [],
+ "golesV": [
+  {
+   "carne": "53136",
+   "Nombre": "RODRIGO ALONSO",
+   "minutos": "11",
+   "EnContra": "1"
+  },
+  {
+   "carne": "65311",
+   "Nombre": "WASHINGTON JOSE RODRIGUEZ",
+   "minutos": "7",
+   "EnContra": "1"
+  },
+  {
+   "carne": "65311",
+   "Nombre": "WASHINGTON JOSE RODRIGUEZ",
+   "minutos": "68",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

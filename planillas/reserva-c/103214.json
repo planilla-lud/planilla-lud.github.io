@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"C\" TIT. y ASC.",
   "Cancha": "ELF (LICEO FRANCES)",
-  "Fecha_Inicio": "2026-10-24 12:45:00",
-  "Fecha_fin": "2026-10-24 12:45:00",
+  "Fecha_Inicio": "2026-10-24 13:00:00",
+  "Fecha_fin": "2026-10-24 13:00:00",
   "Locatario": "E.L.F.",
   "goles_locatario": "3",
   "puntos_locatario": "3",
@@ -29,12 +29,263 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "39321",
+   "Nombre": "JUAN ESTEBAN LUKETICH",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "45411",
+   "Nombre": "MAXIMILIANO PARODI",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "41367",
+   "Nombre": "FRANCISCO BARTESAGHI",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "56280",
+   "Nombre": "SEBASTIAN MACHIN",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "46978",
+   "Nombre": "IGNACIO TASSANI",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "49458",
+   "Nombre": "GUZMAN RODRIGUEZ",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "43242",
+   "Nombre": "FRANCO PASARISA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "43672",
+   "Nombre": "ALEJO CORRADI",
+   "camiseta": "11",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "48949",
+   "Nombre": "IGNACIO JOSE PALLAS",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "47572",
+   "Nombre": "FACUNDO MACRI",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "46858",
+   "Nombre": "SANTIAGO RODRIGUEZ",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "64261",
+   "Nombre": "SANTIAGO HERRERA",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "62352",
+   "Nombre": "SANTIAGO RICCONE",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "55027",
+   "Nombre": "FERNANDO RIQUEL",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "50423",
+   "Nombre": "MARTIN GARCIA",
+   "camiseta": "24",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "59792",
+   "Nombre": "MATEO ARMANDO OLIVERA",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "56887",
+   "Nombre": "JUAN MANUEL MASEDA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "57654",
+   "Nombre": "DONATO NOCETTI",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "50976",
+   "Nombre": "NICOLAS EZEQUIEL GUTIERREZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "62131",
+   "Nombre": "GONZALO RICCONE",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "55648",
+   "Nombre": "DIEGO MONTERO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "45350",
+   "Nombre": "BRUNO GASTON DIAZ",
+   "camiseta": "0",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "46978",
+   "Jug_Sale": "IGNACIO TASSANI",
+   "CarneEntra": "49456",
+   "Jug_Entra": "IGNACIO ANTONIO CARNEIRO",
+   "camiseta": "13",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "43242",
+   "Jug_Sale": "FRANCO PASARISA",
+   "CarneEntra": "52276",
+   "Jug_Entra": "SANTIAGO CARAVIA",
+   "camiseta": "6",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "47572",
+   "Jug_Sale": "FACUNDO MACRI",
+   "CarneEntra": "44457",
+   "Jug_Entra": "BRUNO GIORDANO",
+   "camiseta": "7",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "49458",
+   "Jug_Sale": "GUZMAN RODRIGUEZ",
+   "CarneEntra": "42786",
+   "Jug_Entra": "MATEO CORRADI",
+   "camiseta": "10",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "56280",
+   "Jug_Sale": "SEBASTIAN MACHIN",
+   "CarneEntra": "42784",
+   "Jug_Entra": "JOSE NICOLAS ROSA",
+   "camiseta": "17",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "46858",
+   "Jug_Sale": "SANTIAGO RODRIGUEZ",
+   "CarneEntra": "38540",
+   "Jug_Entra": "JOAQUIN SAEZ",
+   "camiseta": "12",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "43672",
+   "Jug_Sale": "ALEJO CORRADI",
+   "CarneEntra": "47483",
+   "Jug_Entra": "EMMANUEL KAKLOUK",
+   "camiseta": "25",
+   "minutos": "81"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "50976",
+   "Jug_Sale": "NICOLAS EZEQUIEL GUTIERREZ",
+   "CarneEntra": "67324",
+   "Jug_Entra": "FRANCO VALIENTE",
+   "camiseta": "31",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "45350",
+   "Jug_Sale": "BRUNO GASTON DIAZ",
+   "CarneEntra": "63850",
+   "Jug_Entra": "FACUNDO NAHUEL VIDAL",
+   "camiseta": "3",
+   "minutos": "74"
+  },
+  {
+   "CarneSale": "57654",
+   "Jug_Sale": "DONATO NOCETTI",
+   "CarneEntra": "61897",
+   "Jug_Entra": "MATIAS MARCELO VERO",
+   "camiseta": "18",
+   "minutos": "86"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "38540",
+   "Nombre": "JOAQUIN SAEZ",
+   "minutos": "86",
+   "EnContra": "0"
+  },
+  {
+   "carne": "38540",
+   "Nombre": "JOAQUIN SAEZ",
+   "minutos": "94",
+   "EnContra": "0"
+  },
+  {
+   "carne": "44457",
+   "Nombre": "BRUNO GIORDANO",
+   "minutos": "80",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "45350",
+   "Nombre": "BRUNO GASTON DIAZ",
+   "minutos": "44",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
- "expulsadosV": []
+ "expulsadosV": [
+  {
+   "Nombre": "MATEO ARMANDO OLIVERA",
+   "observaciones": ""
+  },
+  {
+   "Nombre": "GONZALO RICCONE",
+   "observaciones": ""
+  }
+ ]
 }

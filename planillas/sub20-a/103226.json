@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "SUB20 \"A\" PERM. y DESC.",
   "Cancha": "COM. CLUB UNIVERSIDAD CATOLICA",
-  "Fecha_Inicio": "2026-10-24 17:00:00",
-  "Fecha_fin": "2026-10-24 17:00:00",
+  "Fecha_Inicio": "2026-10-24 17:30:00",
+  "Fecha_fin": "2026-10-24 17:30:00",
   "Locatario": "SAN PABLO UNIVERSITARIO",
   "goles_locatario": "2",
   "puntos_locatario": "1",
@@ -29,12 +29,240 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
- "expulsadosV": []
+ "titularesL": [
+  {
+   "carne": "64487",
+   "Nombre": "HUGO FELIPE CASAL",
+   "camiseta": "1",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "64488",
+   "Nombre": "JOAQUIN HECTOR CERRUDO",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "59591",
+   "Nombre": "EMILIANO GARCIA",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "62915",
+   "Nombre": "MATEO RODRIGUEZ",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "65764",
+   "Nombre": "JOAQUIN CARRASCO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "64490",
+   "Nombre": "FACUNDO MORENO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "57407",
+   "Nombre": "LUCAS GAMBETTA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "59963",
+   "Nombre": "NICOLAS PROCHNAU",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "55821",
+   "Nombre": "FACUNDO JOEL SANDMAN",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "64484",
+   "Nombre": "PABLO RODRIGUEZ",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "64826",
+   "Nombre": "SEBASTIAN DANIEL URETA",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "57786",
+   "Nombre": "FAUSTINO ARDITTI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "56134",
+   "Nombre": "FELIPE MIGUEL WAS",
+   "camiseta": "23",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "59063",
+   "Nombre": "FRANCISCO RODRIGUEZ",
+   "camiseta": "39",
+   "Capitan": ""
+  },
+  {
+   "carne": "57067",
+   "Nombre": "JUAN BAUTISTA ALGORTA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "58673",
+   "Nombre": "ALEJO FERRES",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "67506",
+   "Nombre": "JUAN IGNACIO SERRENTINO",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "60773",
+   "Nombre": "ALFONSO SCHAICH",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "63410",
+   "Nombre": "TOMAS GRUDZIEN",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "56879",
+   "Nombre": "JERONIMO CODARI",
+   "camiseta": "55",
+   "Capitan": ""
+  },
+  {
+   "carne": "62744",
+   "Nombre": "FELIPE SARACCO",
+   "camiseta": "53",
+   "Capitan": ""
+  },
+  {
+   "carne": "56131",
+   "Nombre": "SEBASTIAN OLAVE",
+   "camiseta": "60",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "59963",
+   "Jug_Sale": "NICOLAS PROCHNAU",
+   "CarneEntra": "64824",
+   "Jug_Entra": "MAURO CAMI",
+   "camiseta": "8",
+   "minutos": "53"
+  },
+  {
+   "CarneSale": "57407",
+   "Jug_Sale": "LUCAS GAMBETTA",
+   "CarneEntra": "59390",
+   "Jug_Entra": "LUCCA BREGANI",
+   "camiseta": "78",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "64490",
+   "Jug_Sale": "FACUNDO MORENO",
+   "CarneEntra": "57407",
+   "Jug_Entra": "LUCAS GAMBETTA",
+   "camiseta": "81",
+   "minutos": "88"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "62744",
+   "Jug_Sale": "FELIPE SARACCO",
+   "CarneEntra": "57593",
+   "Jug_Entra": "GENARO DE MORI",
+   "camiseta": "38",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56879",
+   "Jug_Sale": "JERONIMO CODARI",
+   "CarneEntra": "56127",
+   "Jug_Entra": "FELIPE CROCI",
+   "camiseta": "33",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "63410",
+   "Jug_Sale": "TOMAS GRUDZIEN",
+   "CarneEntra": "56869",
+   "Jug_Entra": "NICOLAS PODESTA",
+   "camiseta": "36",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56134",
+   "Jug_Sale": "FELIPE MIGUEL WAS",
+   "CarneEntra": "61096",
+   "Jug_Entra": "TOMAS ARRIETA",
+   "camiseta": "27",
+   "minutos": "74"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "64484",
+   "Nombre": "PABLO RODRIGUEZ",
+   "minutos": "34",
+   "EnContra": "0"
+  },
+  {
+   "carne": "64490",
+   "Nombre": "FACUNDO MORENO",
+   "minutos": "67",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "56127",
+   "Nombre": "FELIPE CROCI",
+   "minutos": "88",
+   "EnContra": "1"
+  },
+  {
+   "carne": "67506",
+   "Nombre": "JUAN IGNACIO SERRENTINO",
+   "minutos": "75",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "HUGO FELIPE CASAL",
+   "observaciones": ""
+  }
+ ],
+ "expulsadosV": [
+  {
+   "Nombre": "JUAN IGNACIO SERRENTINO",
+   "observaciones": ""
+  }
+ ]
 }

@@ -1,59 +1,17 @@
 [
  {
-  "serie": "20APD",
-  "fechaHora": "2026-10-24 13:30:00",
-  "cancha": "TENIS EL PINAR",
-  "local": "TENIS EL PINAR",
-  "visitante": "NAUTICO CARRASCO Y PUNTA GORDA"
- },
- {
   "serie": "20AT",
-  "fechaHora": "2026-10-24 15:30:00",
-  "cancha": "MONTE VI \"LOS CEIBOS\"",
-  "local": "CEIBOS CLUB",
-  "visitante": "E.L.F."
- },
- {
-  "serie": "20AT",
-  "fechaHora": "2026-10-24 15:30:00",
-  "cancha": "ST. BRENDANS",
-  "local": "OLD BRENDANS CLUB",
-  "visitante": "CLUB SEMINARIO"
- },
- {
-  "serie": "20AT",
-  "fechaHora": "2026-10-24 15:30:00",
-  "cancha": "LA MENNAIS",
-  "local": "J.M.L.M",
-  "visitante": "NACIONAL UNIVERSITARIO"
- },
- {
-  "serie": "20AT",
-  "fechaHora": "2026-10-31 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "OLD CHRISTIANS CLUB",
-  "visitante": "OLD BRENDANS CLUB"
- },
- {
-  "serie": "20AT",
-  "fechaHora": "2026-10-31 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "E.L.F.",
-  "visitante": "J.M.L.M"
- },
- {
-  "serie": "20APD",
   "fechaHora": "2026-10-31 13:30:00",
-  "cancha": "CARRASCO LAWN TENIS (KM 23)",
-  "local": "CARRASCO LAWN TENNIS",
-  "visitante": "MATURANA UNIVERSITARIO"
+  "cancha": "COMPLEJO LOS NOGALES",
+  "local": "NACIONAL UNIVERSITARIO",
+  "visitante": "OLD WOODLANDS CLUB"
  },
  {
   "serie": "20AT",
   "fechaHora": "2026-10-31 15:30:00",
-  "cancha": "COMPLEJO ALCOBENDAS",
-  "local": "NACIONAL UNIVERSITARIO",
-  "visitante": "OLD WOODLANDS CLUB"
+  "cancha": "OLD CHRISTIANS CLUB",
+  "local": "OLD CHRISTIANS CLUB",
+  "visitante": "OLD BRENDANS CLUB"
  },
  {
   "serie": "20AT",
@@ -63,11 +21,25 @@
   "visitante": "CEIBOS CLUB"
  },
  {
+  "serie": "20AT",
+  "fechaHora": "2026-10-31 15:30:00",
+  "cancha": "ELF (LICEO FRANCES)",
+  "local": "E.L.F.",
+  "visitante": "J.M.L.M"
+ },
+ {
   "serie": "20APD",
   "fechaHora": "2026-10-31 15:30:00",
   "cancha": "COMPLEJO AZULGRANA",
   "local": "OLD BOYS CLUB",
   "visitante": "SAN PABLO UNIVERSITARIO"
+ },
+ {
+  "serie": "20APD",
+  "fechaHora": "2026-10-31 15:30:00",
+  "cancha": "CARRASCO LAWN TENIS (KM 23)",
+  "local": "CARRASCO LAWN TENNIS",
+  "visitante": "MATURANA UNIVERSITARIO"
  },
  {
   "serie": "20APD",

@@ -9,13 +9,6 @@
  {
   "serie": "18P",
   "fechaHora": "2026-10-25 15:30:00",
-  "cancha": "COMPLEJO DEPORTIVO ARRAYANES",
-  "local": "COLEGIO SANTA ELENA",
-  "visitante": "HCA UNIVERSITARIO"
- },
- {
-  "serie": "18P",
-  "fechaHora": "2026-10-25 15:30:00",
   "cancha": "ELF (LICEO FRANCES)",
   "local": "E.L.F.",
   "visitante": "SAGRADA FAMILIA UNIVERSITARIO"
@@ -47,13 +40,6 @@
   "cancha": "COMPLEJO LOS ROJOS",
   "local": "LATINO FUTBOL CLUB",
   "visitante": "TENIS EL PINAR"
- },
- {
-  "serie": "18C",
-  "fechaHora": "2026-10-25 15:30:00",
-  "cancha": "COMPLEJO COLEGIO JESÚS MARÍA",
-  "local": "CLUB JESUS MARIA",
-  "visitante": "SAN AGUSTIN"
  },
  {
   "serie": "18F",
@@ -91,13 +77,6 @@
   "visitante": "SANTA ELENA LAGOMAR"
  },
  {
-  "serie": "18A",
-  "fechaHora": "2026-10-25 15:30:00",
-  "cancha": "COMPLEJO JUAN XXIII",
-  "local": "LA BLANQUEADA",
-  "visitante": "NUMA TURCATTI"
- },
- {
   "serie": "18C",
   "fechaHora": "2026-10-27 20:00:00",
   "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
@@ -113,87 +92,17 @@
  },
  {
   "serie": "18O",
-  "fechaHora": "2026-11-01 00:00:00",
-  "cancha": "CANCHA A FIJAR",
+  "fechaHora": "2026-11-01 15:30:00",
+  "cancha": "MONTE VI \"LOS CEIBOS\"",
   "local": "CEIBOS CLUB",
   "visitante": "CLUB SEMINARIO"
  },
  {
   "serie": "18O",
-  "fechaHora": "2026-11-01 00:00:00",
-  "cancha": "CANCHA A FIJAR",
+  "fechaHora": "2026-11-01 15:30:00",
+  "cancha": "CAMPO MARISTAS DEPORTIVO",
   "local": "MARISTAS DEPORTIVO",
   "visitante": "CARRASCO LAWN TENNIS"
- },
- {
-  "serie": "18O",
-  "fechaHora": "2026-11-01 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "OLD CHRISTIANS CLUB",
-  "visitante": "SAN JUAN BAUTISTA"
- },
- {
-  "serie": "18P",
-  "fechaHora": "2026-11-01 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "SAGRADA FAMILIA UNIVERSITARIO",
-  "visitante": "COLEGIO SANTA ELENA"
- },
- {
-  "serie": "18P",
-  "fechaHora": "2026-11-01 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "HCA UNIVERSITARIO",
-  "visitante": "OLD BOYS CLUB"
- },
- {
-  "serie": "18B",
-  "fechaHora": "2026-11-01 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "SAN PABLO UNIVERSITARIO",
-  "visitante": "J.M.L.M"
- },
- {
-  "serie": "18B",
-  "fechaHora": "2026-11-01 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "LA ESCALINATA",
-  "visitante": "CIRCULO DE TENIS MONTEVIDEO"
- },
- {
-  "serie": "18B",
-  "fechaHora": "2026-11-01 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "ALEMAN UNIVERSITARIO",
-  "visitante": "JUAN XXIII"
- },
- {
-  "serie": "18C",
-  "fechaHora": "2026-11-01 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "SEMINARIO UNIVERSITARIO",
-  "visitante": "UNIVERSITARIO VERONES"
- },
- {
-  "serie": "18C",
-  "fechaHora": "2026-11-01 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "ELBIO FERNANDEZ",
-  "visitante": "LATINO FUTBOL CLUB"
- },
- {
-  "serie": "18C",
-  "fechaHora": "2026-11-01 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "SAN AGUSTIN",
-  "visitante": "TENIS EL PINAR"
- },
- {
-  "serie": "18F",
-  "fechaHora": "2026-11-01 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "A.E.B.U",
-  "visitante": "NAUTICO CARRASCO Y PUNTA GORDA"
  },
  {
   "serie": "18O",
@@ -203,11 +112,32 @@
   "visitante": "PELOTA AL MEDIO UNIVERSITARIO"
  },
  {
+  "serie": "18O",
+  "fechaHora": "2026-11-01 15:30:00",
+  "cancha": "OLD CHRISTIANS CLUB",
+  "local": "OLD CHRISTIANS CLUB",
+  "visitante": "SAN JUAN BAUTISTA"
+ },
+ {
   "serie": "18P",
   "fechaHora": "2026-11-01 15:30:00",
   "cancha": "CIUDAD DEPORTIVA LS",
   "local": "DEPORTIVO LS UNIVERSITARIO",
   "visitante": "E.L.F."
+ },
+ {
+  "serie": "18P",
+  "fechaHora": "2026-11-01 15:30:00",
+  "cancha": "SAGRADA FAMILIA",
+  "local": "SAGRADA FAMILIA UNIVERSITARIO",
+  "visitante": "COLEGIO SANTA ELENA"
+ },
+ {
+  "serie": "18P",
+  "fechaHora": "2026-11-01 15:30:00",
+  "cancha": "COMPLEJO NORTHFIELD",
+  "local": "HCA UNIVERSITARIO",
+  "visitante": "OLD BOYS CLUB"
  },
  {
   "serie": "18P",
@@ -224,11 +154,53 @@
   "visitante": "ANGLO SCHOOL UNIVERSITARIO"
  },
  {
+  "serie": "18B",
+  "fechaHora": "2026-11-01 15:30:00",
+  "cancha": "JACKSONVILLE",
+  "local": "SAN PABLO UNIVERSITARIO",
+  "visitante": "J.M.L.M"
+ },
+ {
+  "serie": "18B",
+  "fechaHora": "2026-11-01 15:30:00",
+  "cancha": "PICHINCHA",
+  "local": "LA ESCALINATA",
+  "visitante": "CIRCULO DE TENIS MONTEVIDEO"
+ },
+ {
+  "serie": "18B",
+  "fechaHora": "2026-11-01 15:30:00",
+  "cancha": "CLUB ALEMAN",
+  "local": "ALEMAN UNIVERSITARIO",
+  "visitante": "JUAN XXIII"
+ },
+ {
   "serie": "18C",
   "fechaHora": "2026-11-01 15:30:00",
   "cancha": "COMPLEJO COLEGIO JESÚS MARÍA",
   "local": "CLUB JESUS MARIA",
   "visitante": "PERRY SEXTA UNIVERSITARIO"
+ },
+ {
+  "serie": "18C",
+  "fechaHora": "2026-11-01 15:30:00",
+  "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
+  "local": "SEMINARIO UNIVERSITARIO",
+  "visitante": "UNIVERSITARIO VERONES"
+ },
+ {
+  "serie": "18C",
+  "fechaHora": "2026-11-01 15:30:00",
+  "cancha": "ELBIO FERNANDEZ",
+  "local": "ELBIO FERNANDEZ",
+  "visitante": "LATINO FUTBOL CLUB"
+ },
+ {
+  "serie": "18C",
+  "fechaHora": "2026-11-01 15:30:00",
+  "cancha": "SANTA RITA",
+  "local": "SAN AGUSTIN",
+  "visitante": "TENIS EL PINAR"
  },
  {
   "serie": "18F",
@@ -243,6 +215,13 @@
   "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
   "local": "ISASA UNIVERSITARIO",
   "visitante": "CLUB SOCIAL PIEDRAS BLANCAS"
+ },
+ {
+  "serie": "18F",
+  "fechaHora": "2026-11-01 15:30:00",
+  "cancha": "ACADEMIA",
+  "local": "A.E.B.U",
+  "visitante": "NAUTICO CARRASCO Y PUNTA GORDA"
  },
  {
   "serie": "18F",
@@ -934,15 +913,15 @@
   "serie": "18A",
   "fechaHora": "2026-11-29 00:00:00",
   "cancha": "CANCHA A FIJAR",
-  "local": "SCUOLA PALERMO",
-  "visitante": "COLEGIO Y LICEO INGLES"
+  "local": "ACADEMIA FRM",
+  "visitante": "ARQUITECTURA JRS."
  },
  {
   "serie": "18A",
   "fechaHora": "2026-11-29 00:00:00",
   "cancha": "CANCHA A FIJAR",
-  "local": "ACADEMIA FRM",
-  "visitante": "ARQUITECTURA JRS."
+  "local": "SCUOLA PALERMO",
+  "visitante": "COLEGIO Y LICEO INGLES"
  },
  {
   "serie": "18O",
@@ -1017,16 +996,16 @@
  {
   "serie": "18A",
   "fechaHora": "2026-11-29 15:30:00",
-  "cancha": "COMPLEJO ALCOBENDAS",
-  "local": "NACIONAL UNIVERSITARIO",
-  "visitante": "NUMA TURCATTI"
+  "cancha": "COMPLEJO JUAN XXIII",
+  "local": "LA BLANQUEADA",
+  "visitante": "SANTA ELENA LAGOMAR"
  },
  {
   "serie": "18A",
   "fechaHora": "2026-11-29 15:30:00",
-  "cancha": "COMPLEJO JUAN XXIII",
-  "local": "LA BLANQUEADA",
-  "visitante": "SANTA ELENA LAGOMAR"
+  "cancha": "COMPLEJO ALCOBENDAS",
+  "local": "NACIONAL UNIVERSITARIO",
+  "visitante": "NUMA TURCATTI"
  },
  {
   "serie": "18A",

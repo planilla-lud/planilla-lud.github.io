@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"D\" PER. y DESC",
   "Cancha": "Comp. \"LA REP. DE LIVERPOOL\"",
-  "Fecha_Inicio": "2026-10-24 10:30:00",
-  "Fecha_fin": "2026-10-24 10:30:00",
+  "Fecha_Inicio": "2026-10-24 11:00:00",
+  "Fecha_fin": "2026-10-24 11:00:00",
   "Locatario": "LIVERPOOL UNIVERSITARIO",
   "goles_locatario": "8",
   "puntos_locatario": "3",
@@ -29,12 +29,277 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
+ "titularesL": [
+  {
+   "carne": "33436",
+   "Nombre": "ANDRES SPADARO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "30588",
+   "Nombre": "PABLO GERMAN AMARILLO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "18532",
+   "Nombre": "JORGE LUIS VAZQUEZ",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "33231",
+   "Nombre": "SANTIAGO ANTUNEZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "22552",
+   "Nombre": "MAURICIO DI NITTO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "24813",
+   "Nombre": "DANILO SEBASTIAN PUGLISI",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "50308",
+   "Nombre": "LUIS ANTONIO SIMOES",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "59321",
+   "Nombre": "ALFONSO BRITOS",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "38423",
+   "Nombre": "OCTAVIO OSVALDO CAZZOLA",
+   "camiseta": "30",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "40586",
+   "Nombre": "BIAGIO MONZILLO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "38901",
+   "Nombre": "LEONARDO IZMENDI",
+   "camiseta": "91",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "31313",
+   "Nombre": "LUIS DANIEL ROSSANO",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "32377",
+   "Nombre": "PIERINO GILOCA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "37588",
+   "Nombre": "JOSE IGNACIO SAN MARTIN",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "54392",
+   "Nombre": "RODRIGO ALBANO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "67695",
+   "Nombre": "JUAN ANTONIO ALVAREZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "28071",
+   "Nombre": "SEBASTIAN PENA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "35395",
+   "Nombre": "MASSIMILIANO PECORA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "31936",
+   "Nombre": "FACUNDO DELGADO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "59690",
+   "Nombre": "GONZALO GABRIEL",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "34097",
+   "Nombre": "PABLO SEBASTIAN MOREIRA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "51361",
+   "Nombre": "FABRICIO PEREYRA",
+   "camiseta": "7",
+   "Capitan": "(C)"
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "22552",
+   "Jug_Sale": "MAURICIO DI NITTO",
+   "CarneEntra": "50915",
+   "Jug_Entra": "BRUNO GONZALEZ",
+   "camiseta": "23",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "38901",
+   "Jug_Sale": "LEONARDO IZMENDI",
+   "CarneEntra": "43016",
+   "Jug_Entra": "ALBERTO EZEQUIEL MEDINA",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "18532",
+   "Jug_Sale": "JORGE LUIS VAZQUEZ",
+   "CarneEntra": "62591",
+   "Jug_Entra": "MATHIAS DEMATTE",
+   "camiseta": "34",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "30588",
+   "Jug_Sale": "PABLO GERMAN AMARILLO",
+   "CarneEntra": "20971",
+   "Jug_Entra": "ROBERTO LAMAS",
+   "camiseta": "20",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "24813",
+   "Jug_Sale": "DANILO SEBASTIAN PUGLISI",
+   "CarneEntra": "22850",
+   "Jug_Entra": "HECTOR ANDRES MANNFRINI",
+   "camiseta": "4",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "59321",
+   "Jug_Sale": "ALFONSO BRITOS",
+   "CarneEntra": "38901",
+   "Jug_Entra": "LEONARDO IZMENDI",
+   "camiseta": "91",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "50308",
+   "Jug_Sale": "LUIS ANTONIO SIMOES",
+   "CarneEntra": "24813",
+   "Jug_Entra": "DANILO SEBASTIAN PUGLISI",
+   "camiseta": "9",
+   "minutos": "83"
+  }
+ ],
  "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "golesL": [
+  {
+   "carne": "24813",
+   "Nombre": "DANILO SEBASTIAN PUGLISI",
+   "minutos": "40",
+   "EnContra": "0"
+  },
+  {
+   "carne": "38423",
+   "Nombre": "OCTAVIO OSVALDO CAZZOLA",
+   "minutos": "55",
+   "EnContra": "0"
+  },
+  {
+   "carne": "38423",
+   "Nombre": "OCTAVIO OSVALDO CAZZOLA",
+   "minutos": "85",
+   "EnContra": "0"
+  },
+  {
+   "carne": "38423",
+   "Nombre": "OCTAVIO OSVALDO CAZZOLA",
+   "minutos": "90",
+   "EnContra": "0"
+  },
+  {
+   "carne": "40586",
+   "Nombre": "BIAGIO MONZILLO",
+   "minutos": "13",
+   "EnContra": "0"
+  },
+  {
+   "carne": "40586",
+   "Nombre": "BIAGIO MONZILLO",
+   "minutos": "81",
+   "EnContra": "0"
+  },
+  {
+   "carne": "40586",
+   "Nombre": "BIAGIO MONZILLO",
+   "minutos": "82",
+   "EnContra": "0"
+  },
+  {
+   "carne": "59321",
+   "Nombre": "ALFONSO BRITOS",
+   "minutos": "12",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "34097",
+   "Nombre": "PABLO SEBASTIAN MOREIRA",
+   "minutos": "28",
+   "EnContra": "1"
+  },
+  {
+   "carne": "37588",
+   "Nombre": "JOSE IGNACIO SAN MARTIN",
+   "minutos": "84",
+   "EnContra": "1"
+  },
+  {
+   "carne": "51361",
+   "Nombre": "FABRICIO PEREYRA",
+   "minutos": "86",
+   "EnContra": "1"
+  },
+  {
+   "carne": "59690",
+   "Nombre": "GONZALO GABRIEL",
+   "minutos": "71",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

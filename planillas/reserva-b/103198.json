@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"B\" PER. y DESC.",
   "Cancha": "CAMPO DEP. INSTITUTO CRANDON",
-  "Fecha_Inicio": "2026-10-24 12:45:00",
-  "Fecha_fin": "2026-10-24 12:45:00",
+  "Fecha_Inicio": "2026-10-24 13:10:00",
+  "Fecha_fin": "2026-10-24 13:10:00",
   "Locatario": "CRANDON UNIVERSITARIO",
   "goles_locatario": "3",
   "puntos_locatario": "3",
@@ -29,12 +29,245 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "58998",
+   "Nombre": "JUAN VAZQUEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "39418",
+   "Nombre": "RODRIGO BONSIGNORE",
+   "camiseta": "3",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "38502",
+   "Nombre": "JUAN PABLO MASLLORENS",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "55660",
+   "Nombre": "THIAGO FURTADO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "43684",
+   "Nombre": "JUAN PEDRO CORREA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "46937",
+   "Nombre": "MARTIN ROBATTO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "44088",
+   "Nombre": "FACUNDO DELGADO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "59694",
+   "Nombre": "FELIPE CASTRO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "50931",
+   "Nombre": "SANTIAGO AVILA",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "51112",
+   "Nombre": "MATEO AGUSTIN MARTINEZ",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "45038",
+   "Nombre": "IGNACIO RODRIGUEZ",
+   "camiseta": "21",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "55233",
+   "Nombre": "DANTE PEÑA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "43172",
+   "Nombre": "HERNAN YAÑEZ",
+   "camiseta": "36",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "41717",
+   "Nombre": "SANTIAGO PEREYRA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "49486",
+   "Nombre": "IGNACIO GONZALEZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "58853",
+   "Nombre": "FRANCISCO GANDIOLI",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "52613",
+   "Nombre": "JUAN MANUEL BUERO",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "58711",
+   "Nombre": "GERMAN MANGARELLI",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "62975",
+   "Nombre": "FRANCO ANDRES MIRAFIORE",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "55078",
+   "Nombre": "JOAQUIN CELIBERTI",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "58850",
+   "Nombre": "NICOLAS GANDIOLI",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "41174",
+   "Nombre": "JUAN PABLO PASTORINO",
+   "camiseta": "8",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "59694",
+   "Jug_Sale": "FELIPE CASTRO",
+   "CarneEntra": "47728",
+   "Jug_Entra": "FELIPE RAMA",
+   "camiseta": "5",
+   "minutos": "36"
+  },
+  {
+   "CarneSale": "38502",
+   "Jug_Sale": "JUAN PABLO MASLLORENS",
+   "CarneEntra": "44402",
+   "Jug_Entra": "SEBASTIAN RISSO",
+   "camiseta": "9",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "46937",
+   "Jug_Sale": "MARTIN ROBATTO",
+   "CarneEntra": "53671",
+   "Jug_Entra": "MATEO SCARRONE",
+   "camiseta": "10",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "45038",
+   "Jug_Sale": "IGNACIO RODRIGUEZ",
+   "CarneEntra": "46935",
+   "Jug_Entra": "MATEO PASSARINO",
+   "camiseta": "30",
+   "minutos": "90"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "62975",
+   "Jug_Sale": "FRANCO ANDRES MIRAFIORE",
+   "CarneEntra": "51841",
+   "Jug_Entra": "SANTIAGO DANIEL RAMBAO",
+   "camiseta": "25",
+   "minutos": "20"
+  },
+  {
+   "CarneSale": "51841",
+   "Jug_Sale": "SANTIAGO DANIEL RAMBAO",
+   "CarneEntra": "52645",
+   "Jug_Entra": "AGUSTIN QUARTINO",
+   "camiseta": "11",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "52613",
+   "Jug_Sale": "JUAN MANUEL BUERO",
+   "CarneEntra": "57648",
+   "Jug_Entra": "FRANCISCO GUILLEN",
+   "camiseta": "76",
+   "minutos": "90"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "44088",
+   "Nombre": "FACUNDO DELGADO",
+   "minutos": "70",
+   "EnContra": "0"
+  },
+  {
+   "carne": "44088",
+   "Nombre": "FACUNDO DELGADO",
+   "minutos": "73",
+   "EnContra": "0"
+  },
+  {
+   "carne": "44088",
+   "Nombre": "FACUNDO DELGADO",
+   "minutos": "84",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "41174",
+   "Nombre": "JUAN PABLO PASTORINO",
+   "minutos": "3",
+   "EnContra": "1"
+  },
+  {
+   "carne": "52613",
+   "Nombre": "JUAN MANUEL BUERO",
+   "minutos": "20",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
- "expulsadosV": []
+ "expulsadosV": [
+  {
+   "Nombre": "JUAN PABLO PASTORINO",
+   "observaciones": ""
+  },
+  {
+   "Nombre": "IGNACIO GONZALEZ",
+   "observaciones": ""
+  }
+ ]
 }

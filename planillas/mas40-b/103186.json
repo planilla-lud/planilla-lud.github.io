@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAS40 \"B\" TIT. y ASC.",
   "Cancha": "ESCUELA NAVAL",
-  "Fecha_Inicio": "2026-10-24 10:30:00",
-  "Fecha_fin": "2026-10-24 10:30:00",
+  "Fecha_Inicio": "2026-10-24 10:50:00",
+  "Fecha_fin": "2026-10-24 10:50:00",
   "Locatario": "ESPARTA UNIVERSITARIO",
   "goles_locatario": "5",
   "puntos_locatario": "3",
@@ -29,12 +29,258 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "23421",
+   "Nombre": "WALTER DANIEL BORIO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "24641",
+   "Nombre": "FERNANDO CARLOS GAMARRA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "15676",
+   "Nombre": "PABLO JAVIER REBOLLO",
+   "camiseta": "11",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "38910",
+   "Nombre": "ROBERTO MIGUEL VILLAGRA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "20066",
+   "Nombre": "DIEGO RAFAEL RIOS",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "59922",
+   "Nombre": "PABLO ANDRES FILIPPINI",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "16619",
+   "Nombre": "ANDRES DELLEPIANE",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "20916",
+   "Nombre": "MAXIMILIANO ANDRES VIERA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "20876",
+   "Nombre": "ALEJANDRO BALAZSI",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "19918",
+   "Nombre": "SERGIO MARTIN VENTOSO",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "9767",
+   "Nombre": "GUSTAVO ANIBAL LORDA",
+   "camiseta": "0",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "14496",
+   "Nombre": "HECTOR MIGUEL MASSA",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "63210",
+   "Nombre": "GASTON RUMI",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "53688",
+   "Nombre": "PABLO SILVA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "27339",
+   "Nombre": "RODRIGO LEONEL GONZALEZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "55792",
+   "Nombre": "MARCELO FABIAN BETANCOR",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "16790",
+   "Nombre": "FEDERICO RODRIGUEZ",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "25496",
+   "Nombre": "MIJAIL YAPOR",
+   "camiseta": "43",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "32836",
+   "Nombre": "NICOLAS EDUARDO IMBRIACO",
+   "camiseta": "39",
+   "Capitan": ""
+  },
+  {
+   "carne": "19606",
+   "Nombre": "PEDRO JAVIER AMENGUAL",
+   "camiseta": "47",
+   "Capitan": ""
+  },
+  {
+   "carne": "54534",
+   "Nombre": "RODRIGO SILVA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "37959",
+   "Nombre": "PABLO DANIEL ALVAREZ",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "19918",
+   "Jug_Sale": "SERGIO MARTIN VENTOSO",
+   "CarneEntra": "67253",
+   "Jug_Entra": "ANDRES SEBASTIAN MANEIRO",
+   "camiseta": "14",
+   "minutos": "10"
+  },
+  {
+   "CarneSale": "20876",
+   "Jug_Sale": "ALEJANDRO BALAZSI",
+   "CarneEntra": "17149",
+   "Jug_Entra": "CARLOS JAVIER SOUZA",
+   "camiseta": "9",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "20916",
+   "Jug_Sale": "MAXIMILIANO ANDRES VIERA",
+   "CarneEntra": "38795",
+   "Jug_Entra": "FEDERICO BARBE",
+   "camiseta": "10",
+   "minutos": "74"
+  },
+  {
+   "CarneSale": "38910",
+   "Jug_Sale": "ROBERTO MIGUEL VILLAGRA",
+   "CarneEntra": "20876",
+   "Jug_Entra": "ALEJANDRO BALAZSI",
+   "camiseta": "15",
+   "minutos": "82"
+  },
+  {
+   "CarneSale": "59922",
+   "Jug_Sale": "PABLO ANDRES FILIPPINI",
+   "CarneEntra": "9767",
+   "Jug_Entra": "GUSTAVO ANIBAL LORDA",
+   "camiseta": "7",
+   "minutos": "83"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "32836",
+   "Jug_Sale": "NICOLAS EDUARDO IMBRIACO",
+   "CarneEntra": "19486",
+   "Jug_Entra": "GUSTAVO GABRIEL BARRENECHEA",
+   "camiseta": "0",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "19606",
+   "Jug_Sale": "PEDRO JAVIER AMENGUAL",
+   "CarneEntra": "20944",
+   "Jug_Entra": "GERMAN ENRIQUE IBAÑEZ",
+   "camiseta": "0",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "55792",
+   "Jug_Sale": "MARCELO FABIAN BETANCOR",
+   "CarneEntra": "21824",
+   "Jug_Entra": "JORGE EDUARDO ADIB",
+   "camiseta": "0",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "21824",
+   "Jug_Sale": "JORGE EDUARDO ADIB",
+   "CarneEntra": "32836",
+   "Jug_Entra": "NICOLAS EDUARDO IMBRIACO",
+   "camiseta": "45",
+   "minutos": "53"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "17149",
+   "Nombre": "CARLOS JAVIER SOUZA",
+   "minutos": "80",
+   "EnContra": "0"
+  },
+  {
+   "carne": "17149",
+   "Nombre": "CARLOS JAVIER SOUZA",
+   "minutos": "88",
+   "EnContra": "0"
+  },
+  {
+   "carne": "38910",
+   "Nombre": "ROBERTO MIGUEL VILLAGRA",
+   "minutos": "3",
+   "EnContra": "0"
+  },
+  {
+   "carne": "38910",
+   "Nombre": "ROBERTO MIGUEL VILLAGRA",
+   "minutos": "32",
+   "EnContra": "0"
+  },
+  {
+   "carne": "38910",
+   "Nombre": "ROBERTO MIGUEL VILLAGRA",
+   "minutos": "81",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "37959",
+   "Nombre": "PABLO DANIEL ALVAREZ",
+   "minutos": "73",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

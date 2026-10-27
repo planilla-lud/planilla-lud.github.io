@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAS40 \"A\" PERM. y DESC.",
   "Cancha": "COMPLEJO LOS ROJOS",
-  "Fecha_Inicio": "2026-10-24 12:45:00",
-  "Fecha_fin": "2026-10-24 12:45:00",
+  "Fecha_Inicio": "2026-10-24 13:20:00",
+  "Fecha_fin": "2026-10-24 13:20:00",
   "Locatario": "TACUAREMBO UNIVERSITARIO",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,237 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "25753",
+   "Nombre": "JHON MICHAEL MANZZI",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "38043",
+   "Nombre": "JOSE RAFAEL AIRALA",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "31853",
+   "Nombre": "JAVIER IGNACIO GUERRERO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "42753",
+   "Nombre": "CESAR ANDRES ROSTAN",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "27349",
+   "Nombre": "YUVER JAVIER ACOSTA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "29709",
+   "Nombre": "MILTON DANIEL MALDEZ",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "57920",
+   "Nombre": "CARLOS IGNACIO DIAZ",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "19435",
+   "Nombre": "PABLO MARTIN MOLINA",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "18646",
+   "Nombre": "PABLO ALONSO",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "21704",
+   "Nombre": "GERARDO HUGO GONZALEZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "19006",
+   "Nombre": "LUCIO FLAVIO ALVEZ",
+   "camiseta": "33",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "14032",
+   "Nombre": "MARIANO MALLO",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "23788",
+   "Nombre": "NICOLAS JAVIER MORO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "42446",
+   "Nombre": "ALEJANDRO PERETTI",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "19424",
+   "Nombre": "RODRIGO NICOLAS SOTELO",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "19499",
+   "Nombre": "NICOLAS DANIEL MUNIZ",
+   "camiseta": "41",
+   "Capitan": ""
+  },
+  {
+   "carne": "17068",
+   "Nombre": "RAFAEL FEDERICO MORATO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "14737",
+   "Nombre": "JOSE MARIA GALLINAL",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "12928",
+   "Nombre": "JAVIER ANDRES LUSSICH",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "18239",
+   "Nombre": "CESAR ANDRES SANGUINETTI",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "18210",
+   "Nombre": "DIEGO RIVAS",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "35842",
+   "Nombre": "STEPHEN MCCARTHY",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "29709",
+   "Jug_Sale": "MILTON DANIEL MALDEZ",
+   "CarneEntra": "39822",
+   "Jug_Entra": "ALEJANDRO MARTIN BAZZI",
+   "camiseta": "25",
+   "minutos": "17"
+  },
+  {
+   "CarneSale": "19006",
+   "Jug_Sale": "LUCIO FLAVIO ALVEZ",
+   "CarneEntra": "12915",
+   "Jug_Entra": "MARCOS ADRIAN GONZALEZ",
+   "camiseta": "9",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "21704",
+   "Jug_Sale": "GERARDO HUGO GONZALEZ",
+   "CarneEntra": "26326",
+   "Jug_Entra": "LUIS IGNACIO ABUD",
+   "camiseta": "4",
+   "minutos": "45"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "35842",
+   "Jug_Sale": "STEPHEN MCCARTHY",
+   "CarneEntra": "15973",
+   "Jug_Entra": "JUAN AGUSTIN ORTIZ",
+   "camiseta": "16",
+   "minutos": "59"
+  },
+  {
+   "CarneSale": "18210",
+   "Jug_Sale": "DIEGO RIVAS",
+   "CarneEntra": "14666",
+   "Jug_Entra": "CARLOS EDUARDO RAINERI",
+   "camiseta": "8",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "19424",
+   "Jug_Sale": "RODRIGO NICOLAS SOTELO",
+   "CarneEntra": "23625",
+   "Jug_Entra": "GEORGE ANDRES GRUNERT",
+   "camiseta": "21",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "17068",
+   "Jug_Sale": "RAFAEL FEDERICO MORATO",
+   "CarneEntra": "15649",
+   "Jug_Entra": "DIEGO MONTADO",
+   "camiseta": "33",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "12928",
+   "Jug_Sale": "JAVIER ANDRES LUSSICH",
+   "CarneEntra": "13973",
+   "Jug_Entra": "MARTIN FUENTES",
+   "camiseta": "19",
+   "minutos": "75"
+  }
+ ],
  "golesL": [],
- "golesV": [],
+ "golesV": [
+  {
+   "carne": "14666",
+   "Nombre": "CARLOS EDUARDO RAINERI",
+   "minutos": "87",
+   "EnContra": "1"
+  },
+  {
+   "carne": "14737",
+   "Nombre": "JOSE MARIA GALLINAL",
+   "minutos": "58",
+   "EnContra": "1"
+  },
+  {
+   "carne": "14737",
+   "Nombre": "JOSE MARIA GALLINAL",
+   "minutos": "71",
+   "EnContra": "1"
+  },
+  {
+   "carne": "18210",
+   "Nombre": "DIEGO RIVAS",
+   "minutos": "4",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

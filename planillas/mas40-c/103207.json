@@ -4,7 +4,7 @@
  "serie": "M40P2",
  "fecha": 4,
  "fechaHora": "2026-10-24 09:00:00",
- "cancha": "COMPLEJO LA CORUÑA(MALVAREZ)",
+ "cancha": "()",
  "local": "PERRY JUVENTUD",
  "visitante": "WANDERERS",
  "gl": 0,
@@ -17,9 +17,9 @@
   "categoria": "MÁS 40 MASCULINO",
   "rueda": "3",
   "Divisional": "M40 DIV. C COPA PLATA R2",
-  "Cancha": "COMPLEJO LA CORUÑA(MALVAREZ)",
-  "Fecha_Inicio": "2026-10-24 10:30:00",
-  "Fecha_fin": "2026-10-24 10:30:00",
+  "Cancha": "()",
+  "Fecha_Inicio": "2026-10-24 11:00:00",
+  "Fecha_fin": "2026-10-24 11:00:00",
   "Locatario": "PERRY JUVENTUD",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,220 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "13170",
+   "Nombre": "VICTOR ALEJANDRO MAIDANA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "13717",
+   "Nombre": "PEDRO ALEJANDRO TRIACA",
+   "camiseta": "24",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "16050",
+   "Nombre": "MILTON JULIO GALLAS",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "13752",
+   "Nombre": "WALTER ROBERTO VIERA",
+   "camiseta": "50",
+   "Capitan": ""
+  },
+  {
+   "carne": "24144",
+   "Nombre": "ALFREDO ALVAREZ",
+   "camiseta": "73",
+   "Capitan": ""
+  },
+  {
+   "carne": "13811",
+   "Nombre": "DIEGO ERNENSTO ORTIZ",
+   "camiseta": "90",
+   "Capitan": ""
+  },
+  {
+   "carne": "27542",
+   "Nombre": "PABLO NICOLAS SILVEIRA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "34618",
+   "Nombre": "DAMIAN EDUARDO DIAZ",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "12635",
+   "Nombre": "MARCOS JAVIER MANEIRO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "15068",
+   "Nombre": "PABLO MIGUEL TOSAR",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "66186",
+   "Nombre": "PABLO EDUARDO BATISTA",
+   "camiseta": "17",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "20905",
+   "Nombre": "FACUNDO LOPEZ",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "22794",
+   "Nombre": "MAURO ANDRES BURGOS",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "45343",
+   "Nombre": "SANTIAGO ANTONIO RODRIGUEZ",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "17546",
+   "Nombre": "PABLO AGUSTIN EGUES",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "20364",
+   "Nombre": "NICOLAS MARTIN ERRICO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "22331",
+   "Nombre": "DIEGO ALBERTO FALCO",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "23413",
+   "Nombre": "JOSE IGNACIO PEREZ",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "36781",
+   "Nombre": "LUCIANO SUPERVIELLE",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "54310",
+   "Nombre": "JAVIER DI LONGO PINALI",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "15281",
+   "Nombre": "JAVIER GONZALEZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "14151",
+   "Nombre": "AGUSTIN PERRIER",
+   "camiseta": "0",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "15068",
+   "Jug_Sale": "PABLO MIGUEL TOSAR",
+   "CarneEntra": "63739",
+   "Jug_Entra": "LUIS EDUARDO ORLANDO",
+   "camiseta": "13",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "13811",
+   "Jug_Sale": "DIEGO ERNENSTO ORTIZ",
+   "CarneEntra": "62913",
+   "Jug_Entra": "CRISTIAN DANIEL CARRERAS",
+   "camiseta": "10",
+   "minutos": "45"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "36781",
+   "Jug_Sale": "LUCIANO SUPERVIELLE",
+   "CarneEntra": "32915",
+   "Jug_Entra": "GASTON AGUILAR",
+   "camiseta": "15",
+   "minutos": "45"
+  }
+ ],
  "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "golesV": [
+  {
+   "carne": "14151",
+   "Nombre": "AGUSTIN PERRIER",
+   "minutos": "38",
+   "EnContra": "1"
+  },
+  {
+   "carne": "14151",
+   "Nombre": "AGUSTIN PERRIER",
+   "minutos": "42",
+   "EnContra": "1"
+  },
+  {
+   "carne": "14151",
+   "Nombre": "AGUSTIN PERRIER",
+   "minutos": "89",
+   "EnContra": "1"
+  },
+  {
+   "carne": "17546",
+   "Nombre": "PABLO AGUSTIN EGUES",
+   "minutos": "2",
+   "EnContra": "1"
+  },
+  {
+   "carne": "45343",
+   "Nombre": "SANTIAGO ANTONIO RODRIGUEZ",
+   "minutos": "35",
+   "EnContra": "1"
+  },
+  {
+   "carne": "54310",
+   "Nombre": "JAVIER DI LONGO PINALI",
+   "minutos": "61",
+   "EnContra": "1"
+  },
+  {
+   "carne": "54310",
+   "Nombre": "JAVIER DI LONGO PINALI",
+   "minutos": "85",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "ALFREDO ALVAREZ",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

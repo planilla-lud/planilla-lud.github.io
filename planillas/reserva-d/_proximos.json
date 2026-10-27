@@ -7,48 +7,6 @@
   "visitante": "ISASA UNIVERSITARIO"
  },
  {
-  "serie": "RSDTA",
-  "fechaHora": "2026-10-24 11:15:00",
-  "cancha": "COMPLEJO DEPORTIVO H3O",
-  "local": "MATURANA UNIVERSITARIO",
-  "visitante": "YOUNG UNIVERSITARIO"
- },
- {
-  "serie": "RSDPD",
-  "fechaHora": "2026-10-24 11:15:00",
-  "cancha": "FUERZA AEREA",
-  "local": "CLUB FUERZA AEREA",
-  "visitante": "CLUB ATLETICO LIMBURGO"
- },
- {
-  "serie": "RSDTA",
-  "fechaHora": "2026-10-31 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "MARISTAS DEPORTIVO",
-  "visitante": "CLUB SOCIAL PIEDRAS BLANCAS"
- },
- {
-  "serie": "RSDPD",
-  "fechaHora": "2026-10-31 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "VARELA UNIVERSITARIO",
-  "visitante": "CLUB FUERZA AEREA"
- },
- {
-  "serie": "RSDTA",
-  "fechaHora": "2026-10-31 09:00:00",
-  "cancha": "ELF (LICEO FRANCES)",
-  "local": "ELF BLANCO",
-  "visitante": "SAN AGUSTIN"
- },
- {
-  "serie": "RSDTA",
-  "fechaHora": "2026-10-31 09:00:00",
-  "cancha": "COMPLEJO LOS VIÑEDOS",
-  "local": "CERVANTES UNIVERSITARIO",
-  "visitante": "ARQUITECTURA JRS."
- },
- {
   "serie": "RSDPD",
   "fechaHora": "2026-10-31 09:00:00",
   "cancha": "COM. CLUB UNIVERSIDAD CATOLICA",
@@ -65,9 +23,23 @@
  {
   "serie": "RSDTA",
   "fechaHora": "2026-10-31 11:15:00",
-  "cancha": "COMPLEJO JUAN XXIII",
+  "cancha": "COMPLEJO DEPORTIVO H3O",
   "local": "MATURANA UNIVERSITARIO",
   "visitante": "CLUB JESUS MARIA"
+ },
+ {
+  "serie": "RSDTA",
+  "fechaHora": "2026-10-31 11:15:00",
+  "cancha": "ELF (LICEO FRANCES)",
+  "local": "ELF BLANCO",
+  "visitante": "SAN AGUSTIN"
+ },
+ {
+  "serie": "RSDTA",
+  "fechaHora": "2026-10-31 11:15:00",
+  "cancha": "COMPLEJO 1GOL",
+  "local": "CERVANTES UNIVERSITARIO",
+  "visitante": "ARQUITECTURA JRS."
  },
  {
   "serie": "RSDTA",
@@ -75,6 +47,13 @@
   "cancha": "COMPLEJO LAS CASUARINAS",
   "local": "ISASA UNIVERSITARIO",
   "visitante": "DEP.de la C. ARETEIA BIMBULLY"
+ },
+ {
+  "serie": "RSDTA",
+  "fechaHora": "2026-10-31 11:15:00",
+  "cancha": "CAMPO MARISTAS DEPORTIVO",
+  "local": "MARISTAS DEPORTIVO",
+  "visitante": "CLUB SOCIAL PIEDRAS BLANCAS"
  },
  {
   "serie": "RSDTA",
@@ -89,6 +68,13 @@
   "cancha": "COMPLEJO LOS ROJOS",
   "local": "LATINO FUTBOL CLUB",
   "visitante": "TROUVILLE UNIVERSITARIO"
+ },
+ {
+  "serie": "RSDPD",
+  "fechaHora": "2026-10-31 11:15:00",
+  "cancha": "COMPLEJO INDEPENDIENTE UNIV.",
+  "local": "VARELA UNIVERSITARIO",
+  "visitante": "CLUB FUERZA AEREA"
  },
  {
   "serie": "RSDPD",

@@ -1,20 +1,6 @@
 [
  {
   "serie": "CTA",
-  "fechaHora": "2026-11-01 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "COLEGIO SANTA ELENA",
-  "visitante": "WOLFRAMIO"
- },
- {
-  "serie": "CPD",
-  "fechaHora": "2026-11-01 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "C.A.L.I.",
-  "visitante": "SAN PABLO UNIVERSITARIO"
- },
- {
-  "serie": "CTA",
   "fechaHora": "2026-11-01 09:00:00",
   "cancha": "COMPLEJO INGENIERO DEL CAMPO",
   "local": "DANUBIO FUTBOL CLUB",
@@ -30,7 +16,7 @@
  {
   "serie": "CPD",
   "fechaHora": "2026-11-01 09:00:00",
-  "cancha": "POLIDEPORTIVO FAUQUET",
+  "cancha": "SPORT 11",
   "local": "ARQUITECTURA JRS.",
   "visitante": "POCO SITIO PLAYA VERDE"
  },
@@ -51,9 +37,23 @@
  {
   "serie": "CTA",
   "fechaHora": "2026-11-01 11:15:00",
+  "cancha": "COMPLEJO DEPORTIVO ARRAYANES",
+  "local": "COLEGIO SANTA ELENA",
+  "visitante": "WOLFRAMIO"
+ },
+ {
+  "serie": "CTA",
+  "fechaHora": "2026-11-01 11:15:00",
   "cancha": "CAMPO DEP. INSTITUTO CRANDON",
   "local": "CRANDON UNIVERSITARIO",
   "visitante": "LA BLANQUEADA"
+ },
+ {
+  "serie": "CPD",
+  "fechaHora": "2026-11-01 11:15:00",
+  "cancha": "PARQUE O.CESTAU (EX VELODROMO)",
+  "local": "C.A.L.I.",
+  "visitante": "SAN PABLO UNIVERSITARIO"
  },
  {
   "serie": "CPD",

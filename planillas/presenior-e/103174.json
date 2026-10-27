@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "PS DIV. E 2ªR COPA PLATA",
   "Cancha": "CHACRA PASO DEL SAUCE",
-  "Fecha_Inicio": "2026-10-24 10:30:00",
-  "Fecha_fin": "2026-10-24 10:30:00",
+  "Fecha_Inicio": "2026-10-24 11:05:00",
+  "Fecha_fin": "2026-10-24 11:05:00",
   "Locatario": "APENAS UNIVERSITARIO",
   "goles_locatario": "1",
   "puntos_locatario": "0",
@@ -29,12 +29,229 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "68961",
+   "Nombre": "IVAN ANTUNEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "68425",
+   "Nombre": "ARIEL ALEXANDRO RIDGUAY",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "37503",
+   "Nombre": "NICOLAS RODRIGO BRANDI",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "49202",
+   "Nombre": "LEONARDO ARIONI",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "38767",
+   "Nombre": "PAUL MARCEL BERRIEL",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "67447",
+   "Nombre": "GASTON LUCAS FOLIATTI",
+   "camiseta": "92",
+   "Capitan": ""
+  },
+  {
+   "carne": "32393",
+   "Nombre": "GASTON ROBERTO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "48405",
+   "Nombre": "SEBASTIAN GIMENEZ",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "35007",
+   "Nombre": "BRAHIAN VIDIR",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "68279",
+   "Nombre": "GASTON ANDRES ENCISO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "34084",
+   "Nombre": "MARCELO ANDRES CHAVEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "59691",
+   "Nombre": "LUIS KLEINER PLANCHON",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "29287",
+   "Nombre": "SANTIAGO BARRIOS",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "58955",
+   "Nombre": "BRUNO PAOLO DONATO",
+   "camiseta": "89",
+   "Capitan": ""
+  },
+  {
+   "carne": "25121",
+   "Nombre": "AGUSTIN GIOSCIA",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "62379",
+   "Nombre": "DIEGO MARTIN BENITEZ",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "29730",
+   "Nombre": "FABIAN LEANDRO MAKOWSKI",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "54552",
+   "Nombre": "GONZALO MACEDO",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "34116",
+   "Nombre": "DIEGO NOBLE",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "18221",
+   "Nombre": "ANDRES MAURO SICA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "24145",
+   "Nombre": "JUAN PABLO REBELLATTO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "24211",
+   "Nombre": "DIEGO QUIJANO",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "67447",
+   "Jug_Sale": "GASTON LUCAS FOLIATTI",
+   "CarneEntra": "25404",
+   "Jug_Entra": "ALFONSO GABRIEL PAPUCHI",
+   "camiseta": "80",
+   "minutos": "36"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "24211",
+   "Jug_Sale": "DIEGO QUIJANO",
+   "CarneEntra": "42841",
+   "Jug_Entra": "CARLOS DAVID OCAMPO",
+   "camiseta": "72",
+   "minutos": "15"
+  },
+  {
+   "CarneSale": "24145",
+   "Jug_Sale": "JUAN PABLO REBELLATTO",
+   "CarneEntra": "59301",
+   "Jug_Entra": "MAURICIO CANCELO",
+   "camiseta": "12",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58955",
+   "Jug_Sale": "BRUNO PAOLO DONATO",
+   "CarneEntra": "24982",
+   "Jug_Entra": "JUAN MANUEL APOLO",
+   "camiseta": "41",
+   "minutos": "21"
+  },
+  {
+   "CarneSale": "18221",
+   "Jug_Sale": "ANDRES MAURO SICA",
+   "CarneEntra": "68611",
+   "Jug_Entra": "LEONARDO JAVIER BELTRAME",
+   "camiseta": "97",
+   "minutos": "32"
+  },
+  {
+   "CarneSale": "25121",
+   "Jug_Sale": "AGUSTIN GIOSCIA",
+   "CarneEntra": "24211",
+   "Jug_Entra": "DIEGO QUIJANO",
+   "camiseta": "7",
+   "minutos": "36"
+  },
+  {
+   "CarneSale": "29287",
+   "Jug_Sale": "SANTIAGO BARRIOS",
+   "CarneEntra": "18221",
+   "Jug_Entra": "ANDRES MAURO SICA",
+   "camiseta": "9",
+   "minutos": "42"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "68279",
+   "Nombre": "GASTON ANDRES ENCISO",
+   "minutos": "53",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "18221",
+   "Nombre": "ANDRES MAURO SICA",
+   "minutos": "19",
+   "EnContra": "1"
+  },
+  {
+   "carne": "18221",
+   "Nombre": "ANDRES MAURO SICA",
+   "minutos": "98",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
- "expulsadosV": []
+ "expulsadosV": [
+  {
+   "Nombre": "LUIS KLEINER PLANCHON",
+   "observaciones": ""
+  }
+ ]
 }

@@ -1,12 +1,5 @@
 [
  {
-  "serie": "20BTA",
-  "fechaHora": "2026-10-24 13:30:00",
-  "cancha": "COMPLEJO DEPORTIVO ARRAYANES",
-  "local": "COLEGIO SANTA ELENA",
-  "visitante": "OLD IVY"
- },
- {
   "serie": "20BPD",
   "fechaHora": "2026-10-24 13:30:00",
   "cancha": "ELBIO FERNANDEZ",
@@ -14,32 +7,11 @@
   "visitante": "SAN JOSE DE LA PROVIDENCIA uni"
  },
  {
-  "serie": "20BTA",
-  "fechaHora": "2026-10-24 16:00:00",
-  "cancha": "CARRASCO POLO",
-  "local": "CARRASCO POLO CLUB",
-  "visitante": "CRANDON UNIVERSITARIO"
- },
- {
   "serie": "20BPD",
   "fechaHora": "2026-10-27 20:00:00",
   "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
   "local": "SEMINARIO UNIVERSITARIO",
   "visitante": "ARQUITECTURA JRS."
- },
- {
-  "serie": "20BTA",
-  "fechaHora": "2026-10-31 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "OLD IVY",
-  "visitante": "ISASA UNIVERSITARIO"
- },
- {
-  "serie": "20BPD",
-  "fechaHora": "2026-10-31 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "SAN AGUSTIN",
-  "visitante": "SANTA ELENA LAGOMAR"
  },
  {
   "serie": "20BTA",
@@ -56,6 +28,20 @@
   "visitante": "CARRASCO POLO CLUB"
  },
  {
+  "serie": "20BPD",
+  "fechaHora": "2026-10-31 13:30:00",
+  "cancha": "SANTA RITA",
+  "local": "SAN AGUSTIN",
+  "visitante": "SANTA ELENA LAGOMAR"
+ },
+ {
+  "serie": "20BTA",
+  "fechaHora": "2026-10-31 15:30:00",
+  "cancha": "OLD IVY",
+  "local": "OLD IVY",
+  "visitante": "ISASA UNIVERSITARIO"
+ },
+ {
   "serie": "20BTA",
   "fechaHora": "2026-10-31 15:30:00",
   "cancha": "CAMPO DEP. INSTITUTO CRANDON",
@@ -65,7 +51,7 @@
  {
   "serie": "20BPD",
   "fechaHora": "2026-10-31 15:30:00",
-  "cancha": "POLIDEPORTIVO FAUQUET",
+  "cancha": "SPORT 11",
   "local": "ARQUITECTURA JRS.",
   "visitante": "ELBIO FERNANDEZ"
  },

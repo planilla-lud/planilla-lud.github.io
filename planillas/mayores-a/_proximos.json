@@ -1,22 +1,8 @@
 [
  {
-  "serie": "AT",
-  "fechaHora": "2026-11-01 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "TENIS EL PINAR",
-  "visitante": "NACIONAL UNIVERSITARIO"
- },
- {
   "serie": "APD",
-  "fechaHora": "2026-11-01 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "OLD IVY",
-  "visitante": "SANTA ELENA LAGOMAR"
- },
- {
-  "serie": "APD",
-  "fechaHora": "2026-11-01 00:00:00",
-  "cancha": "CANCHA A FIJAR",
+  "fechaHora": "2026-10-29 20:45:00",
+  "cancha": "OLD CHRISTIANS CLUB",
   "local": "OLD CHRISTIANS CLUB",
   "visitante": "JUAN XXIII"
  },
@@ -42,11 +28,25 @@
   "visitante": "CARRASCO POLO CLUB"
  },
  {
+  "serie": "AT",
+  "fechaHora": "2026-11-01 11:15:00",
+  "cancha": "TENIS EL PINAR",
+  "local": "TENIS EL PINAR",
+  "visitante": "NACIONAL UNIVERSITARIO"
+ },
+ {
   "serie": "APD",
   "fechaHora": "2026-11-01 11:15:00",
   "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
   "local": "CLUB SEMINARIO",
   "visitante": "CARRASCO LAWN TENNIS"
+ },
+ {
+  "serie": "APD",
+  "fechaHora": "2026-11-01 11:15:00",
+  "cancha": "OLD IVY",
+  "local": "OLD IVY",
+  "visitante": "SANTA ELENA LAGOMAR"
  },
  {
   "serie": "APD",

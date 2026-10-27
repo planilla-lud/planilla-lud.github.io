@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"B\" TIT. y ASC",
   "Cancha": "COMPLEJO DEPORTIVO H3O",
-  "Fecha_Inicio": "2026-10-24 10:30:00",
-  "Fecha_fin": "2026-10-24 10:30:00",
+  "Fecha_Inicio": "2026-10-24 11:00:00",
+  "Fecha_fin": "2026-10-24 11:00:00",
   "Locatario": "CIRCULO DE TENIS MONTEVIDEO",
   "goles_locatario": "1",
   "puntos_locatario": "0",
@@ -29,12 +29,246 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "22452",
+   "Nombre": "SEBASTIAN SALAVERRIA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "64253",
+   "Nombre": "MATIAS EMMANUEL PUCCIARELLI",
+   "camiseta": "38",
+   "Capitan": ""
+  },
+  {
+   "carne": "33773",
+   "Nombre": "JUAN ANDRES MOROSOFF",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "25397",
+   "Nombre": "MARTIN ANDRES ROSSI",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "29950",
+   "Nombre": "DIEGO MUJICA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "21402",
+   "Nombre": "JUAN IGNACIO SECO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "20875",
+   "Nombre": "JUAN ANDRES AREOSA",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "24257",
+   "Nombre": "SANTIAGO SILVEIRA DE ANDRADE",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "23921",
+   "Nombre": "JUAN ANDRES BOCCHIO",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "44462",
+   "Nombre": "SANTIAGO LAMANNA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "26217",
+   "Nombre": "DIEGO MARTIN DEMICHELI",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "27616",
+   "Nombre": "FEDERICO ANDRES LANZA",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "50276",
+   "Nombre": "MARCELO SEBASTIAN DE NOBREGA SOBRINHO",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "36581",
+   "Nombre": "MARTIN ROBERTO BUENO",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "50185",
+   "Nombre": "NICOLAS GERMAN MUCHA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "33675",
+   "Nombre": "RICARDO FABIAN PEREYRA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "35718",
+   "Nombre": "ANDRES LUCIO CASTIGLIA",
+   "camiseta": "90",
+   "Capitan": ""
+  },
+  {
+   "carne": "50012",
+   "Nombre": "PABLO SERGIO MARTINEZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "34966",
+   "Nombre": "DIEGO RODOLFO DO AMARAL",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "33737",
+   "Nombre": "GUSTAVO DANIEL TARAMASCO",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "53960",
+   "Nombre": "FERNANDO MARTIN BUDEZ",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "58815",
+   "Nombre": "WLATER DIEGO AYALA",
+   "camiseta": "16",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "64253",
+   "Jug_Sale": "MATIAS EMMANUEL PUCCIARELLI",
+   "CarneEntra": "23446",
+   "Jug_Entra": "DIEGO GIMENEZ",
+   "camiseta": "21",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "26217",
+   "Jug_Sale": "DIEGO MARTIN DEMICHELI",
+   "CarneEntra": "27293",
+   "Jug_Entra": "FERNANDO ALEM",
+   "camiseta": "16",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "24257",
+   "Jug_Sale": "SANTIAGO SILVEIRA DE ANDRADE",
+   "CarneEntra": "34891",
+   "Jug_Entra": "NICOLAS CHAIA",
+   "camiseta": "13",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "26217",
+   "Jug_Sale": "DIEGO MARTIN DEMICHELI",
+   "CarneEntra": "27967",
+   "Jug_Entra": "NICOLAS IWANKA",
+   "camiseta": "7",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "23921",
+   "Jug_Sale": "JUAN ANDRES BOCCHIO",
+   "CarneEntra": "29861",
+   "Jug_Entra": "SANTIAGO JOSE PEREZ",
+   "camiseta": "26",
+   "minutos": "80"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "50185",
+   "Jug_Sale": "NICOLAS GERMAN MUCHA",
+   "CarneEntra": "52416",
+   "Jug_Entra": "SANTIAGO NICOLAS CARPENTIERI",
+   "camiseta": "25",
+   "minutos": "3"
+  },
+  {
+   "CarneSale": "53960",
+   "Jug_Sale": "FERNANDO MARTIN BUDEZ",
+   "CarneEntra": "43644",
+   "Jug_Entra": "ALFREDO PAIVA",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "50276",
+   "Jug_Sale": "MARCELO SEBASTIAN DE NOBREGA SOBRINHO",
+   "CarneEntra": "33668",
+   "Jug_Entra": "MATIAS NICOLAS DUARTE",
+   "camiseta": "4",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "35718",
+   "Jug_Sale": "ANDRES LUCIO CASTIGLIA",
+   "CarneEntra": "53960",
+   "Jug_Entra": "FERNANDO MARTIN BUDEZ",
+   "camiseta": "14",
+   "minutos": "77"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "26217",
+   "Nombre": "DIEGO MARTIN DEMICHELI",
+   "minutos": "18",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "35718",
+   "Nombre": "ANDRES LUCIO CASTIGLIA",
+   "minutos": "45",
+   "EnContra": "1"
+  },
+  {
+   "carne": "50012",
+   "Nombre": "PABLO SERGIO MARTINEZ",
+   "minutos": "53",
+   "EnContra": "1"
+  },
+  {
+   "carne": "50012",
+   "Nombre": "PABLO SERGIO MARTINEZ",
+   "minutos": "56",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

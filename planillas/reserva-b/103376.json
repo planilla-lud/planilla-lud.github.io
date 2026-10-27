@@ -1,0 +1,331 @@
+{
+ "id": "103376",
+ "categoria": "reserva-b",
+ "serie": "RSBTA",
+ "fecha": 4,
+ "fechaHora": "2026-10-24 11:15:00",
+ "cancha": "CAM. DEP. ASOC. HEBRAICA Y MAC",
+ "local": "HEBRAICA UNIVERSITARIO",
+ "visitante": "OLD CHRISTIANS VERDE",
+ "gl": 5,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "685",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "RESERVA",
+  "categoria": "RESERVA MASCULINO",
+  "rueda": "2",
+  "Divisional": "RESERVA \"B\" TIT. y ASC.",
+  "Cancha": "CAM. DEP. ASOC. HEBRAICA Y MAC",
+  "Fecha_Inicio": "2026-10-24 13:05:00",
+  "Fecha_fin": "2026-10-24 13:05:00",
+  "Locatario": "HEBRAICA UNIVERSITARIO",
+  "goles_locatario": "5",
+  "puntos_locatario": "3",
+  "Visitante": "OLD CHRISTIANS VERDE",
+  "goles_visitante": "1",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "45400",
+   "Nombre": "DANIEL DEGEN",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "43445",
+   "Nombre": "SEBASTIAN ZOLKWER",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "45841",
+   "Nombre": "MATIAS TROSTCHANSKY",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "45511",
+   "Nombre": "LUCAS LEVIN",
+   "camiseta": "4",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "64338",
+   "Nombre": "LUCAS DICHTENBERG",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "59244",
+   "Nombre": "AGUSTÌN PILAS",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "47421",
+   "Nombre": "NICOLAS JAKOB",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "56384",
+   "Nombre": "MATIAS SZAFRAN",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "59245",
+   "Nombre": "AGUSTIN JUSTITZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "53835",
+   "Nombre": "MATEO NAHMIAS",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "54753",
+   "Nombre": "JOAQUIN BANEWUR",
+   "camiseta": "25",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "46366",
+   "Nombre": "IGNACIO MESIAS",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "67388",
+   "Nombre": "SANTIAGO BERTORELLI",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "35673",
+   "Nombre": "ALBERTO JERONIMO NOGUERA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "51736",
+   "Nombre": "PEDRO HINSCH",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "53757",
+   "Nombre": "JOAQUIN FERNANDEZ",
+   "camiseta": "70",
+   "Capitan": ""
+  },
+  {
+   "carne": "37067",
+   "Nombre": "TOMAS BERRO",
+   "camiseta": "93",
+   "Capitan": ""
+  },
+  {
+   "carne": "44029",
+   "Nombre": "TOMAS SANTIAGO SLINGER",
+   "camiseta": "33",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56746",
+   "Nombre": "JOAQUIN REINANTE",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "39754",
+   "Nombre": "JOAQUIN FEDERICO SLINGER",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "53976",
+   "Nombre": "MATEO STORACE",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "55214",
+   "Nombre": "BAUTISTA RAFAEL LADOUX",
+   "camiseta": "18",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "54753",
+   "Jug_Sale": "JOAQUIN BANEWUR",
+   "CarneEntra": "48732",
+   "Jug_Entra": "ILAN CAMONA",
+   "camiseta": "10",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "53835",
+   "Jug_Sale": "MATEO NAHMIAS",
+   "CarneEntra": "45526",
+   "Jug_Entra": "EITAN WUHL",
+   "camiseta": "80",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "43445",
+   "Jug_Sale": "SEBASTIAN ZOLKWER",
+   "CarneEntra": "52405",
+   "Jug_Entra": "ARIEL SUHAMI",
+   "camiseta": "17",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "59245",
+   "Jug_Sale": "AGUSTIN JUSTITZ",
+   "CarneEntra": "47247",
+   "Jug_Entra": "ARIEL SOBOL",
+   "camiseta": "8",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "56384",
+   "Jug_Sale": "MATIAS SZAFRAN",
+   "CarneEntra": "43038",
+   "Jug_Entra": "DIEGO MIODOWNIK",
+   "camiseta": "49",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "47421",
+   "Jug_Sale": "NICOLAS JAKOB",
+   "CarneEntra": "54690",
+   "Jug_Entra": "SANTIAGO SISIASVILI",
+   "camiseta": "2",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "45511",
+   "Jug_Sale": "LUCAS LEVIN",
+   "CarneEntra": "48731",
+   "Jug_Entra": "GASTON FRYDLENDER",
+   "camiseta": "23",
+   "minutos": "76"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "53757",
+   "Jug_Sale": "JOAQUIN FERNANDEZ",
+   "CarneEntra": "68491",
+   "Jug_Entra": "MARCOS SEIGAL",
+   "camiseta": "12",
+   "minutos": "50"
+  },
+  {
+   "CarneSale": "68491",
+   "Jug_Sale": "MARCOS SEIGAL",
+   "CarneEntra": "54879",
+   "Jug_Entra": "MARCOS VALDES",
+   "camiseta": "23",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "56746",
+   "Jug_Sale": "JOAQUIN REINANTE",
+   "CarneEntra": "52966",
+   "Jug_Entra": "LUCAS FRANCISCO PRESSO",
+   "camiseta": "11",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "53976",
+   "Jug_Sale": "MATEO STORACE",
+   "CarneEntra": "62469",
+   "Jug_Entra": "TEO VALENTE",
+   "camiseta": "17",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "35673",
+   "Jug_Sale": "ALBERTO JERONIMO NOGUERA",
+   "CarneEntra": "48580",
+   "Jug_Entra": "JUAN PABLO FERNANDEZ",
+   "camiseta": "99",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "39754",
+   "Jug_Sale": "JOAQUIN FEDERICO SLINGER",
+   "CarneEntra": "45068",
+   "Jug_Entra": "JUAN JOSE POL",
+   "camiseta": "16",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "55214",
+   "Jug_Sale": "BAUTISTA RAFAEL LADOUX",
+   "CarneEntra": "58115",
+   "Jug_Entra": "JUAN MANUEL GRECCO",
+   "camiseta": "22",
+   "minutos": "81"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "48732",
+   "Nombre": "ILAN CAMONA",
+   "minutos": "75",
+   "EnContra": "0"
+  },
+  {
+   "carne": "56384",
+   "Nombre": "MATIAS SZAFRAN",
+   "minutos": "21",
+   "EnContra": "0"
+  },
+  {
+   "carne": "59245",
+   "Nombre": "AGUSTIN JUSTITZ",
+   "minutos": "51",
+   "EnContra": "0"
+  },
+  {
+   "carne": "59245",
+   "Nombre": "AGUSTIN JUSTITZ",
+   "minutos": "66",
+   "EnContra": "0"
+  },
+  {
+   "carne": "59245",
+   "Nombre": "AGUSTIN JUSTITZ",
+   "minutos": "72",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "55214",
+   "Nombre": "BAUTISTA RAFAEL LADOUX",
+   "minutos": "59",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": [
+  {
+   "Nombre": "IGNACIO MESIAS",
+   "observaciones": ""
+  }
+ ]
+}

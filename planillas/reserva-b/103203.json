@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"B\" PER. y DESC.",
   "Cancha": "OLD IVY",
-  "Fecha_Inicio": "2026-10-24 12:45:00",
-  "Fecha_fin": "2026-10-24 12:45:00",
+  "Fecha_Inicio": "2026-10-24 12:55:00",
+  "Fecha_fin": "2026-10-24 12:55:00",
   "Locatario": "OLD IVY",
   "goles_locatario": "1",
   "puntos_locatario": "3",
@@ -29,11 +29,266 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "47827",
+   "Nombre": "AGUSTIN ARIASI",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "42603",
+   "Nombre": "MATEO INGOLD",
+   "camiseta": "15",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "47939",
+   "Nombre": "JUAN FRANCISCO DE LOS SANTOS",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "37327",
+   "Nombre": "FEDERICO DIEGO BAUZA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "56372",
+   "Nombre": "ALFONSO CARDELINO",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "42664",
+   "Nombre": "LUIS EDUARDO TOPOLANSKY",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "45591",
+   "Nombre": "FEDERICO DEAKIN",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "49105",
+   "Nombre": "NICOLAS CASAMAYOU",
+   "camiseta": "81",
+   "Capitan": ""
+  },
+  {
+   "carne": "66871",
+   "Nombre": "JUAN MANUEL COLMAN",
+   "camiseta": "75",
+   "Capitan": ""
+  },
+  {
+   "carne": "52848",
+   "Nombre": "CAMILO ROSSO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "57133",
+   "Nombre": "GUIDO MARTINO",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "61816",
+   "Nombre": "MATEO RAFAEL BRANAA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "55134",
+   "Nombre": "NICOLAS COSTANTE",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "51554",
+   "Nombre": "FELIPE OURTHE-CABALE",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "53738",
+   "Nombre": "DIEGO ZIMMERMAN",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "55157",
+   "Nombre": "DIEGO YAQUINTA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "52792",
+   "Nombre": "PABLO TOMAS SILVA",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "50725",
+   "Nombre": "JUAN IGNACIO ROSSI",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "50627",
+   "Nombre": "VICENTE MARTI",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "50631",
+   "Nombre": "LORENZO ALTAMIRANO",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "54936",
+   "Nombre": "CARLOS PEDRO MENDIVE",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "44167",
+   "Nombre": "FEDERICO ERNESTO CHIESA",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "42603",
+   "Jug_Sale": "MATEO INGOLD",
+   "CarneEntra": "66390",
+   "Jug_Entra": "JOAQUIN SANTINO FERNANDEZ",
+   "camiseta": "71",
+   "minutos": "29"
+  },
+  {
+   "CarneSale": "66871",
+   "Jug_Sale": "JUAN MANUEL COLMAN",
+   "CarneEntra": "54564",
+   "Jug_Entra": "GUILLERMO CAMPOS",
+   "camiseta": "80",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "49105",
+   "Jug_Sale": "NICOLAS CASAMAYOU",
+   "CarneEntra": "37264",
+   "Jug_Entra": "AGUSTIN ARTAGAVEYTIA",
+   "camiseta": "69",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "52848",
+   "Jug_Sale": "CAMILO ROSSO",
+   "CarneEntra": "61383",
+   "Jug_Entra": "MATIAS BENECH",
+   "camiseta": "15",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "45591",
+   "Jug_Sale": "FEDERICO DEAKIN",
+   "CarneEntra": "45594",
+   "Jug_Entra": "SANTIAGO GUTIERREZ",
+   "camiseta": "3",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "42664",
+   "Jug_Sale": "LUIS EDUARDO TOPOLANSKY",
+   "CarneEntra": "69107",
+   "Jug_Entra": "MATIAS PEREIRA",
+   "camiseta": "81",
+   "minutos": "69"
+  },
+  {
+   "CarneSale": "37327",
+   "Jug_Sale": "FEDERICO DIEGO BAUZA",
+   "CarneEntra": "45601",
+   "Jug_Entra": "JUAN BAUTISTA VILLARONGA",
+   "camiseta": "16",
+   "minutos": "75"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "55134",
+   "Jug_Sale": "NICOLAS COSTANTE",
+   "CarneEntra": "55539",
+   "Jug_Entra": "JUAN ANDRES FERREIRA",
+   "camiseta": "7",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "52792",
+   "Jug_Sale": "PABLO TOMAS SILVA",
+   "CarneEntra": "47801",
+   "Jug_Entra": "FACUNDO GAMBETTA",
+   "camiseta": "18",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "54936",
+   "Jug_Sale": "CARLOS PEDRO MENDIVE",
+   "CarneEntra": "55340",
+   "Jug_Entra": "AGUSTIN MARTINEZ",
+   "camiseta": "20",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "53738",
+   "Jug_Sale": "DIEGO ZIMMERMAN",
+   "CarneEntra": "51058",
+   "Jug_Entra": "TADEO SOBA",
+   "camiseta": "80",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "50725",
+   "Jug_Sale": "JUAN IGNACIO ROSSI",
+   "CarneEntra": "53852",
+   "Jug_Entra": "SANTIAGO JOSE MARTI",
+   "camiseta": "5",
+   "minutos": "81"
+  },
+  {
+   "CarneSale": "54936",
+   "Jug_Sale": "CARLOS PEDRO MENDIVE",
+   "CarneEntra": "50624",
+   "Jug_Entra": "FACUNDO GALBARINI",
+   "camiseta": "79",
+   "minutos": "81"
+  },
+  {
+   "CarneSale": "50631",
+   "Jug_Sale": "LORENZO ALTAMIRANO",
+   "CarneEntra": "52859",
+   "Jug_Entra": "ALEN DOMINGUEZ",
+   "camiseta": "17",
+   "minutos": "88"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "52848",
+   "Nombre": "CAMILO ROSSO",
+   "minutos": "45",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

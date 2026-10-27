@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"B\" PER. y DESC",
   "Cancha": "COMPLEJO LOS CARDALES",
-  "Fecha_Inicio": "2026-10-24 12:45:00",
-  "Fecha_fin": "2026-10-24 12:45:00",
+  "Fecha_Inicio": "2026-10-24 13:07:00",
+  "Fecha_fin": "2026-10-24 13:07:00",
   "Locatario": "CENTRO GALLEGO",
   "goles_locatario": "1",
   "puntos_locatario": "1",
@@ -29,12 +29,250 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "17809",
+   "Nombre": "JUAN DANIEL GHEZZI",
+   "camiseta": "1",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "30896",
+   "Nombre": "AGUSTIN SANTIAGO",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "22596",
+   "Nombre": "BRUNO MARTELLA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "68365",
+   "Nombre": "CHRISTIAN NICOLAS TRINIDAD",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "67211",
+   "Nombre": "PABLO MARTIN BUDUSSIAN",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "53841",
+   "Nombre": "EZEQUIEL ANDRES ARRAMBIDE",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "28087",
+   "Nombre": "GONZALO HARO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "24991",
+   "Nombre": "ARMANDO BERNABEL HONORIO",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "33394",
+   "Nombre": "PEDRO PORTA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "38871",
+   "Nombre": "BRIAN DANIEL SILVA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "27673",
+   "Nombre": "JUAN PABLO PAZ",
+   "camiseta": "23",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "24682",
+   "Nombre": "LORENZO MANUEL FRANZINI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "23557",
+   "Nombre": "IGNACIO IRURETA GOYENA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "39512",
+   "Nombre": "JAVIER FRANCISCO MONTANS",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "23366",
+   "Nombre": "SANTIAGO POCHINTESTA",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "51059",
+   "Nombre": "RODRIGO MENDEZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "23363",
+   "Nombre": "ALEJANDRO CALACHA",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "33875",
+   "Nombre": "ENRIQUE LEGARIA",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "63323",
+   "Nombre": "MATIAS BATTRO",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "22544",
+   "Nombre": "JUAN GABRIEL BASSO",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "23361",
+   "Nombre": "ALEJANDRO REYES",
+   "camiseta": "15",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "27933",
+   "Nombre": "ENRIQUE CALACHA",
+   "camiseta": "70",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "67211",
+   "Jug_Sale": "PABLO MARTIN BUDUSSIAN",
+   "CarneEntra": "25165",
+   "Jug_Entra": "JUAN IGNACIO FERREIRA",
+   "camiseta": "11",
+   "minutos": "54"
+  },
+  {
+   "CarneSale": "30896",
+   "Jug_Sale": "AGUSTIN SANTIAGO",
+   "CarneEntra": "35089",
+   "Jug_Entra": "PABLO SEBASTIAN CASTRO",
+   "camiseta": "32",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "38871",
+   "Jug_Sale": "BRIAN DANIEL SILVA",
+   "CarneEntra": "62848",
+   "Jug_Entra": "FELIPE PILON",
+   "camiseta": "8",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "53841",
+   "Jug_Sale": "EZEQUIEL ANDRES ARRAMBIDE",
+   "CarneEntra": "46504",
+   "Jug_Entra": "KEVIN RAFAEL JAURETCHE",
+   "camiseta": "22",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "24991",
+   "Jug_Sale": "ARMANDO BERNABEL HONORIO",
+   "CarneEntra": "30896",
+   "Jug_Entra": "AGUSTIN SANTIAGO",
+   "camiseta": "28",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "33394",
+   "Jug_Sale": "PEDRO PORTA",
+   "CarneEntra": "22333",
+   "Jug_Entra": "LEANDRO GASTON NUÑEZ",
+   "camiseta": "15",
+   "minutos": "90"
+  },
+  {
+   "CarneSale": "68365",
+   "Jug_Sale": "CHRISTIAN NICOLAS TRINIDAD",
+   "CarneEntra": "38252",
+   "Jug_Entra": "LUCAS BAPTISTA",
+   "camiseta": "6",
+   "minutos": "90"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "51059",
+   "Jug_Sale": "RODRIGO MENDEZ",
+   "CarneEntra": "58101",
+   "Jug_Entra": "FRANCISCO VECINO",
+   "camiseta": "0",
+   "minutos": "34"
+  },
+  {
+   "CarneSale": "39512",
+   "Jug_Sale": "JAVIER FRANCISCO MONTANS",
+   "CarneEntra": "33230",
+   "Jug_Entra": "TOMAS GARCIA PINTOS",
+   "camiseta": "0",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "27933",
+   "Jug_Sale": "ENRIQUE CALACHA",
+   "CarneEntra": "23372",
+   "Jug_Entra": "JUAN IGNACIO LOPEZ",
+   "camiseta": "0",
+   "minutos": "74"
+  },
+  {
+   "CarneSale": "63323",
+   "Jug_Sale": "MATIAS BATTRO",
+   "CarneEntra": "44279",
+   "Jug_Entra": "GUILLERMO NICOLAS CARDOZO",
+   "camiseta": "0",
+   "minutos": "77"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "28087",
+   "Nombre": "GONZALO HARO",
+   "minutos": "53",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "23363",
+   "Nombre": "ALEJANDRO CALACHA",
+   "minutos": "87",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

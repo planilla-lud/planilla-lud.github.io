@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "SUB20 \"C\" TIT. y ASC.",
   "Cancha": "CAMPO MARISTAS DEPORTIVO",
-  "Fecha_Inicio": "2026-10-24 15:00:00",
-  "Fecha_fin": "2026-10-24 15:00:00",
+  "Fecha_Inicio": "2026-10-24 15:38:00",
+  "Fecha_fin": "2026-10-24 15:38:00",
   "Locatario": "MARISTAS DEPORTIVO",
   "goles_locatario": "1",
   "puntos_locatario": "1",
@@ -29,12 +29,231 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "titularesL": [
+  {
+   "carne": "67542",
+   "Nombre": "GONZALO EZEQUIEL EGIRUBELLO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "67545",
+   "Nombre": "JOAQUIN TEO FUSTES",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "58971",
+   "Nombre": "GUILLERMO SANTIAGO CABARCOS",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "55113",
+   "Nombre": "FRANCISCO FERREYRA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "66011",
+   "Nombre": "FRANCO MARTIN REY",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "60829",
+   "Nombre": "SANTIAGO MORALES",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "57414",
+   "Nombre": "VALENTIN MONTADO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "60754",
+   "Nombre": "FELIPE DIAZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "67026",
+   "Nombre": "JUAN PABLO CANEPA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "58706",
+   "Nombre": "MATIAS ORTIZ",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "61761",
+   "Nombre": "IGNACIO ALGIBAR",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "66339",
+   "Nombre": "MATEO MARCOS FAZIO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "56180",
+   "Nombre": "SANTIAGO DE OLEA",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "59555",
+   "Nombre": "JUAN MANUEL BIA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "66528",
+   "Nombre": "LUCA CANZANI",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "62420",
+   "Nombre": "MATIAS LABORDE",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "60337",
+   "Nombre": "MATEO GLISENTI",
+   "camiseta": "91",
+   "Capitan": ""
+  },
+  {
+   "carne": "56305",
+   "Nombre": "FRANCO GLISENTI",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "66778",
+   "Nombre": "SANTIAGO MACEDO",
+   "camiseta": "50",
+   "Capitan": ""
+  },
+  {
+   "carne": "65822",
+   "Nombre": "MATEO GREGORIO GONZALEZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "60554",
+   "Nombre": "JUAN PATRICIO MOSCA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "54757",
+   "Nombre": "LUIS IGNACIO MATTERA",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "60754",
+   "Jug_Sale": "FELIPE DIAZ",
+   "CarneEntra": "63099",
+   "Jug_Entra": "JOAQUIN FERNANDO HERNANDEZ",
+   "camiseta": "12",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "57414",
+   "Jug_Sale": "VALENTIN MONTADO",
+   "CarneEntra": "59049",
+   "Jug_Entra": "SANTIAGO CABRERA",
+   "camiseta": "6",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67545",
+   "Jug_Sale": "JOAQUIN TEO FUSTES",
+   "CarneEntra": "58726",
+   "Jug_Entra": "CAMILO CORRALES",
+   "camiseta": "7",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58971",
+   "Jug_Sale": "GUILLERMO SANTIAGO CABARCOS",
+   "CarneEntra": "67028",
+   "Jug_Entra": "JULIAN MONTADO",
+   "camiseta": "26",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "60829",
+   "Jug_Sale": "SANTIAGO MORALES",
+   "CarneEntra": "67027",
+   "Jug_Entra": "ARON ESTEVEZ",
+   "camiseta": "17",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "58706",
+   "Jug_Sale": "MATIAS ORTIZ",
+   "CarneEntra": "58906",
+   "Jug_Entra": "MARTIN MERA",
+   "camiseta": "15",
+   "minutos": "83"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "66528",
+   "Jug_Sale": "LUCA CANZANI",
+   "CarneEntra": "59761",
+   "Jug_Entra": "BRUNO LAVIE",
+   "camiseta": "6",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "60554",
+   "Jug_Sale": "JUAN PATRICIO MOSCA",
+   "CarneEntra": "60487",
+   "Jug_Entra": "SANTIAGO LUVIZIO",
+   "camiseta": "98",
+   "minutos": "83"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "67026",
+   "Nombre": "JUAN PABLO CANEPA",
+   "minutos": "7",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "65822",
+   "Nombre": "MATEO GREGORIO GONZALEZ",
+   "minutos": "6",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "FRANCISCO FERREYRA",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

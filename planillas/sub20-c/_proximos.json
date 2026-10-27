@@ -1,12 +1,5 @@
 [
  {
-  "serie": "20C2",
-  "fechaHora": "2026-10-24 13:30:00",
-  "cancha": "EMA (PANDO) 2",
-  "local": "CLUB SOC. y DEP. LA CHISPA",
-  "visitante": "SAGRADA FAMILIA UNIVERSITARIO"
- },
- {
   "serie": "20CP",
   "fechaHora": "2026-10-24 14:00:00",
   "cancha": "COMPLEJO DFC",
@@ -21,16 +14,9 @@
   "visitante": "COLEGIO Y LICEO SANTO DOMINGO"
  },
  {
-  "serie": "20C2",
-  "fechaHora": "2026-10-31 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "SAGRADA FAMILIA UNIVERSITARIO",
-  "visitante": "DANUBIO FUTBOL CLUB"
- },
- {
   "serie": "20CP",
-  "fechaHora": "2026-10-31 00:00:00",
-  "cancha": "CANCHA A FIJAR",
+  "fechaHora": "2026-10-31 13:30:00",
+  "cancha": "COMPLEJO JUAN XXIII",
   "local": "JUAN XXIII",
   "visitante": "VARELA UNIVERSITARIO"
  },
@@ -40,6 +26,13 @@
   "cancha": "THE ANGLO SCHOOL",
   "local": "ANGLO SCHOOL UNIVERSITARIO",
   "visitante": "CLUB SOC. y DEP. LA CHISPA"
+ },
+ {
+  "serie": "20C2",
+  "fechaHora": "2026-10-31 15:30:00",
+  "cancha": "SAGRADA FAMILIA",
+  "local": "SAGRADA FAMILIA UNIVERSITARIO",
+  "visitante": "DANUBIO FUTBOL CLUB"
  },
  {
   "serie": "20C2",
@@ -58,7 +51,7 @@
  {
   "serie": "20CP",
   "fechaHora": "2026-10-31 15:30:00",
-  "cancha": "LA CIMA",
+  "cancha": "COMPLEJO DEPORTIVO H3O",
   "local": "COLEGIO Y LICEO SANTO DOMINGO",
   "visitante": "PALLOTTI UNIVERSITARIO"
  },

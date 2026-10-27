@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"A\" PER. y DESC",
   "Cancha": "COM. CLUB UNIVERSIDAD CATOLICA",
-  "Fecha_Inicio": "2026-10-24 12:45:00",
-  "Fecha_fin": "2026-10-24 12:45:00",
+  "Fecha_Inicio": "2026-10-24 13:15:00",
+  "Fecha_fin": "2026-10-24 13:15:00",
   "Locatario": "UNIVERSITARIO VERONES",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,211 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "49186",
+   "Nombre": "CHARLES ADRIAN MARTINEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "49719",
+   "Nombre": "SERGIO ADRIAN ABALO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "36484",
+   "Nombre": "SEBASTIAN GIORDANO BASSI",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "19034",
+   "Nombre": "MATIAS SURRA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "35044",
+   "Nombre": "EDISON ANDRES DOMINGUEZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "33390",
+   "Nombre": "MAURIZIO ADINOLFI",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "22077",
+   "Nombre": "CESAR AUGUSTO CAVALLI",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "57256",
+   "Nombre": "JUIO FABIAN GONZALEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "35143",
+   "Nombre": "DAVIS STEVEN SANCHEZ",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "32130",
+   "Nombre": "JUAN MANUEL TARALLO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "29845",
+   "Nombre": "HORACIO DAMIAN CASANOVA",
+   "camiseta": "14",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "40434",
+   "Nombre": "JUAN PABLO DEUS",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "25136",
+   "Nombre": "EDUARDO MARCELO FRANCO",
+   "camiseta": "0",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "33051",
+   "Nombre": "JUAN MARCELO DUTRA",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "25135",
+   "Nombre": "RODRIGO CAMPOAMOR",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "26202",
+   "Nombre": "AGUSTIN SANTIAGO DAGUERRE",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "25243",
+   "Nombre": "DIEGO CABRERA",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "27444",
+   "Nombre": "FERNANDO RUBEN MATO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "33503",
+   "Nombre": "NICOLAS FEUERSTEIN",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "27997",
+   "Nombre": "NICOLAS VALDEZ",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "25027",
+   "Nombre": "SANTIAGO MATIAS RAMA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "27038",
+   "Nombre": "JAVIER CARRAU",
+   "camiseta": "2",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "35143",
+   "Jug_Sale": "DAVIS STEVEN SANCHEZ",
+   "CarneEntra": "24949",
+   "Jug_Entra": "MARTIN MARIO MERA",
+   "camiseta": "11",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "22077",
+   "Jug_Sale": "CESAR AUGUSTO CAVALLI",
+   "CarneEntra": "30933",
+   "Jug_Entra": "JORGE MARTIN CORREA",
+   "camiseta": "15",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "36484",
+   "Jug_Sale": "SEBASTIAN GIORDANO BASSI",
+   "CarneEntra": "38946",
+   "Jug_Entra": "SANTIAGO ANTONELLI",
+   "camiseta": "21",
+   "minutos": "45"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "27444",
+   "Jug_Sale": "FERNANDO RUBEN MATO",
+   "CarneEntra": "36531",
+   "Jug_Entra": "IGNACIO JIMENEZ",
+   "camiseta": "71",
+   "minutos": "15"
+  },
+  {
+   "CarneSale": "27997",
+   "Jug_Sale": "NICOLAS VALDEZ",
+   "CarneEntra": "23159",
+   "Jug_Entra": "NICOLAS LOPEZ",
+   "camiseta": "19",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "33503",
+   "Jug_Sale": "NICOLAS FEUERSTEIN",
+   "CarneEntra": "31819",
+   "Jug_Entra": "NICOLAS ALEJANDRO FIORDELMONDO",
+   "camiseta": "22",
+   "minutos": "35"
+  },
+  {
+   "CarneSale": "25027",
+   "Jug_Sale": "SANTIAGO MATIAS RAMA",
+   "CarneEntra": "23475",
+   "Jug_Entra": "RODRIGO LUIS AZNAREZ",
+   "camiseta": "10",
+   "minutos": "40"
+  }
+ ],
  "golesL": [],
- "golesV": [],
+ "golesV": [
+  {
+   "carne": "25027",
+   "Nombre": "SANTIAGO MATIAS RAMA",
+   "minutos": "75",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

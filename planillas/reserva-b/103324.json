@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"B\" TIT. y ASC.",
   "Cancha": "COMPLEJO URUNDAY UNIVERSITARIO",
-  "Fecha_Inicio": "2026-10-24 10:30:00",
-  "Fecha_fin": "2026-10-24 10:30:00",
+  "Fecha_Inicio": "2026-10-24 10:49:00",
+  "Fecha_fin": "2026-10-24 10:49:00",
   "Locatario": "URUNDAY UNIVERSITARIO",
   "goles_locatario": "2",
   "puntos_locatario": "3",
@@ -29,12 +29,237 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "56381",
+   "Nombre": "THIAGO NICOLAS ROMANO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "53690",
+   "Nombre": "MARCOS DANIEL AREVALO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "48966",
+   "Nombre": "IGNACIO FABIAN BOLLA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "54617",
+   "Nombre": "TOMAS DIAZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "68952",
+   "Nombre": "MAXIMILIANO EZEQUIEL PIRIZ",
+   "camiseta": "89",
+   "Capitan": ""
+  },
+  {
+   "carne": "54868",
+   "Nombre": "MAXIMILIANO ROMAY",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "47116",
+   "Nombre": "SANTIAGO RODRIGUEZ",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "43124",
+   "Nombre": "MATIAS FERNANDEZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "47100",
+   "Nombre": "JOAQUIN PALABES",
+   "camiseta": "92",
+   "Capitan": ""
+  },
+  {
+   "carne": "46518",
+   "Nombre": "MAURO GERMAN GRECCO",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "66028",
+   "Nombre": "MATEO AGUSTIN CHAKIYIN",
+   "camiseta": "18",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "59480",
+   "Nombre": "ENZO LEON FREYER",
+   "camiseta": "57",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "57184",
+   "Nombre": "MARCO ESTEBAN TORIELLI",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "53447",
+   "Nombre": "SANTIAGO RAMON URQUIZA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "43748",
+   "Nombre": "MATHIAS LUIS BOZZOLASCO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "62269",
+   "Nombre": "SEBASTIAN GEHR",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "69162",
+   "Nombre": "FACUNDO NICOLAS SILVESTRE",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "65964",
+   "Nombre": "BRUNO QUINELES",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "55630",
+   "Nombre": "SEBASTIAN ALEXIS YANES",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "55606",
+   "Nombre": "GONZALO CHIESA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "52014",
+   "Nombre": "MARTIN SORIA",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "49808",
+   "Nombre": "BRUNO FERNANDEZ",
+   "camiseta": "34",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "48966",
+   "Jug_Sale": "IGNACIO FABIAN BOLLA",
+   "CarneEntra": "64611",
+   "Jug_Entra": "FEDERICO PITA",
+   "camiseta": "33",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66028",
+   "Jug_Sale": "MATEO AGUSTIN CHAKIYIN",
+   "CarneEntra": "53212",
+   "Jug_Entra": "IONAS PATRICIO JOSPONIS",
+   "camiseta": "9",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "43124",
+   "Jug_Sale": "MATIAS FERNANDEZ",
+   "CarneEntra": "52176",
+   "Jug_Entra": "JUAN MANUEL GONZALEZ",
+   "camiseta": "21",
+   "minutos": "80"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "52014",
+   "Jug_Sale": "MARTIN SORIA",
+   "CarneEntra": "51793",
+   "Jug_Entra": "GERONIMO BREMERMANN",
+   "camiseta": "13",
+   "minutos": "32"
+  },
+  {
+   "CarneSale": "62269",
+   "Jug_Sale": "SEBASTIAN GEHR",
+   "CarneEntra": "47472",
+   "Jug_Entra": "JUAN PABLO PLA",
+   "camiseta": "17",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "57184",
+   "Jug_Sale": "MARCO ESTEBAN TORIELLI",
+   "CarneEntra": "44165",
+   "Jug_Entra": "FEDERICO ABDO",
+   "camiseta": "7",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "53447",
+   "Jug_Sale": "SANTIAGO RAMON URQUIZA",
+   "CarneEntra": "51004",
+   "Jug_Entra": "AGUSTIN NICOLAS CHARLO",
+   "camiseta": "4",
+   "minutos": "81"
+  },
+  {
+   "CarneSale": "55630",
+   "Jug_Sale": "SEBASTIAN ALEXIS YANES",
+   "CarneEntra": "67240",
+   "Jug_Entra": "JUAN MARTIN FAUST",
+   "camiseta": "5",
+   "minutos": "81"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "47100",
+   "Nombre": "JOAQUIN PALABES",
+   "minutos": "28",
+   "EnContra": "0"
+  },
+  {
+   "carne": "54868",
+   "Nombre": "MAXIMILIANO ROMAY",
+   "minutos": "90",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "55606",
+   "Nombre": "GONZALO CHIESA",
+   "minutos": "19",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
- "expulsadosV": []
+ "expulsadosV": [
+  {
+   "Nombre": "GONZALO CHIESA",
+   "observaciones": ""
+  }
+ ]
 }

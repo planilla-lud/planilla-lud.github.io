@@ -1,12 +1,5 @@
 [
  {
-  "serie": "M40B2",
-  "fechaHora": "2026-10-31 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "UNIVERSIDAD DE MONTEVIDEO",
-  "visitante": "DEPORTIVO MORON"
- },
- {
   "serie": "M40P2",
   "fechaHora": "2026-10-31 09:00:00",
   "cancha": "COM. CLUB UNIVERSIDAD CATOLICA",
@@ -16,7 +9,7 @@
  {
   "serie": "M40P2",
   "fechaHora": "2026-10-31 09:00:00",
-  "cancha": "POLIDEPORTIVO FAUQUET",
+  "cancha": "SPORT 11",
   "local": "ARQUITECTURA JRS.",
   "visitante": "PERRY JUVENTUD"
  },
@@ -33,6 +26,13 @@
   "cancha": "COMPLEJO LOS ROJOS",
   "local": "LATINO FUTBOL CLUB",
   "visitante": "OLD CHRISTIANS AZUL"
+ },
+ {
+  "serie": "M40B2",
+  "fechaHora": "2026-10-31 11:15:00",
+  "cancha": "COMPLEJO ABUA",
+  "local": "UNIVERSIDAD DE MONTEVIDEO",
+  "visitante": "DEPORTIVO MORON"
  },
  {
   "serie": "40S23",

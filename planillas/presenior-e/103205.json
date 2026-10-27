@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "PS DIV. E 2ªR COPA PLATA",
   "Cancha": "COM.SINDICATO MEDICO",
-  "Fecha_Inicio": "2026-10-24 10:30:00",
-  "Fecha_fin": "2026-10-24 10:30:00",
+  "Fecha_Inicio": "2026-10-24 11:00:00",
+  "Fecha_fin": "2026-10-24 11:00:00",
   "Locatario": "SINDICATO MEDICO DEL URUGUAY",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,230 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
+ "titularesL": [
+  {
+   "carne": "58895",
+   "Nombre": "GONZALO EZEQUIEL BARRIONUEVO",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "30994",
+   "Nombre": "VICTOR HUGO MADERA",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "57400",
+   "Nombre": "ALEXIS EXEQUIEL CASTRO",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "63288",
+   "Nombre": "SERGIO FERNANDO ROSSO",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "48337",
+   "Nombre": "EDUARDO GUSTAVO CLAUSTRE",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "52336",
+   "Nombre": "FEDERICO MOREIRA",
+   "camiseta": "15",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "48362",
+   "Nombre": "FABIO NELSON RODRIGUEZ",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "30560",
+   "Nombre": "ALEJANDRO ANDRADE",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "30065",
+   "Nombre": "MAXIMO DANIEL LACUESTA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "42101",
+   "Nombre": "FABIAN ANDRES CARLOS",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "52515",
+   "Nombre": "SANTIAGO NICOLAS CASTILLO",
+   "camiseta": "8",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "16469",
+   "Nombre": "ERNESTO CAMILO ROMERO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "31438",
+   "Nombre": "JUAN MARCELO FALCO",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "21380",
+   "Nombre": "JUAN IGNACIO PALERMO",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "31812",
+   "Nombre": "EDUARDO ANDRES LLANES",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "43930",
+   "Nombre": "FEDERICO RUILOPEZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "59159",
+   "Nombre": "FEDERICO  GUSTAVO JIMENEZ DE ARECHAGA",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "37827",
+   "Nombre": "ADRIAN ZOULAMIAN",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "28326",
+   "Nombre": "SANTIAGO COLA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "34215",
+   "Nombre": "FRANCO VERDIAS",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "44648",
+   "Nombre": "MATEO JOEL GONZALEZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "23256",
+   "Nombre": "MATHIAS BARIZO",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
  "cambiosL": [],
- "cambiosV": [],
+ "cambiosV": [
+  {
+   "CarneSale": "37827",
+   "Jug_Sale": "ADRIAN ZOULAMIAN",
+   "CarneEntra": "53604",
+   "Jug_Entra": "JONATHAN LUIS GREGORIO",
+   "camiseta": "17",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "28326",
+   "Jug_Sale": "SANTIAGO COLA",
+   "CarneEntra": "38830",
+   "Jug_Entra": "SANTIAGO AGUSTIN FURINO",
+   "camiseta": "14",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "34215",
+   "Jug_Sale": "FRANCO VERDIAS",
+   "CarneEntra": "67000",
+   "Jug_Entra": "LUIS IGNACIO ESTEVES GAUNA",
+   "camiseta": "18",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "31438",
+   "Jug_Sale": "JUAN MARCELO FALCO",
+   "CarneEntra": "67003",
+   "Jug_Entra": "MAXIMILIANO ANDRES CASTRO",
+   "camiseta": "25",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "44648",
+   "Jug_Sale": "MATEO JOEL GONZALEZ",
+   "CarneEntra": "30300",
+   "Jug_Entra": "JOSE IGNACIO CARAMES",
+   "camiseta": "23",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "43930",
+   "Jug_Sale": "FEDERICO RUILOPEZ",
+   "CarneEntra": "34215",
+   "Jug_Entra": "FRANCO VERDIAS",
+   "camiseta": "11",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "23256",
+   "Jug_Sale": "MATHIAS BARIZO",
+   "CarneEntra": "44648",
+   "Jug_Entra": "MATEO JOEL GONZALEZ",
+   "camiseta": "7",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "21380",
+   "Jug_Sale": "JUAN IGNACIO PALERMO",
+   "CarneEntra": "31438",
+   "Jug_Entra": "JUAN MARCELO FALCO",
+   "camiseta": "5",
+   "minutos": "80"
+  }
+ ],
  "golesL": [],
- "golesV": [],
+ "golesV": [
+  {
+   "carne": "23256",
+   "Nombre": "MATHIAS BARIZO",
+   "minutos": "69",
+   "EnContra": "1"
+  },
+  {
+   "carne": "30300",
+   "Nombre": "JOSE IGNACIO CARAMES",
+   "minutos": "90",
+   "EnContra": "1"
+  },
+  {
+   "carne": "44648",
+   "Nombre": "MATEO JOEL GONZALEZ",
+   "minutos": "23",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }
