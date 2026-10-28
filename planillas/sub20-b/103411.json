@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "SUB20 \"B\" PERM. y DESC.",
   "Cancha": "PARQUE CUPRA - CLUB SEMINARIO",
-  "Fecha_Inicio": "2026-10-27 21:30:00",
-  "Fecha_fin": "2026-10-27 21:30:00",
+  "Fecha_Inicio": "2026-10-27 22:15:00",
+  "Fecha_fin": "2026-10-27 22:15:00",
   "Locatario": "SEMINARIO UNIVERSITARIO",
   "goles_locatario": "3",
   "puntos_locatario": "3",
@@ -29,12 +29,270 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "55373",
+   "Nombre": "JUAN MANUEL RIUS",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "54921",
+   "Nombre": "JUAN IGNACIO CAPPUCCIO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "68561",
+   "Nombre": "AUGUSTO FEDERICO MARTINEZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "54960",
+   "Nombre": "PEDRO BARNABE",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "68564",
+   "Nombre": "JOAQUIN URRUTIA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "54961",
+   "Nombre": "NICOLAS BONINO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "66059",
+   "Nombre": "BRUNO REGINA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "54602",
+   "Nombre": "AGUSTIN RE",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "54607",
+   "Nombre": "JOAQUIN GARCIA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "56192",
+   "Nombre": "AGUSTIN NICOLAS SALGUEIRO",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "56566",
+   "Nombre": "FELIPE PORTEIRO",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "68959",
+   "Nombre": "DIEGO MARTIN VAZQUEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "58643",
+   "Nombre": "MATEO ESPIGA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "54652",
+   "Nombre": "VICENTE MARTIN ALVES",
+   "camiseta": "33",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "59461",
+   "Nombre": "FEDERICO MAIORANA",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "63561",
+   "Nombre": "ISAAC ENRIQUE LUCES",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "59938",
+   "Nombre": "DIEGO DAVID BARCELO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "63891",
+   "Nombre": "GABRIEL SOLDATTI",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "64078",
+   "Nombre": "JOAQUIN GRACIA",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "69164",
+   "Nombre": "LEANDRO DANIEL RANERO",
+   "camiseta": "36",
+   "Capitan": ""
+  },
+  {
+   "carne": "61753",
+   "Nombre": "SANTIAGO GONZALEZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "66051",
+   "Nombre": "GUILLERMO SANTIAGO RUSSO",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "54602",
+   "Jug_Sale": "AGUSTIN RE",
+   "CarneEntra": "63390",
+   "Jug_Entra": "MATIAS PARDO",
+   "camiseta": "20",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56192",
+   "Jug_Sale": "AGUSTIN NICOLAS SALGUEIRO",
+   "CarneEntra": "59078",
+   "Jug_Entra": "MATEO ETCHART",
+   "camiseta": "13",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "54607",
+   "Jug_Sale": "JOAQUIN GARCIA",
+   "CarneEntra": "56635",
+   "Jug_Entra": "AGUSTÌN SANTIAGO VASQUE",
+   "camiseta": "15",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "56566",
+   "Jug_Sale": "FELIPE PORTEIRO",
+   "CarneEntra": "54611",
+   "Jug_Entra": "JUAN IGNACIO MORALES",
+   "camiseta": "17",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "68561",
+   "Jug_Sale": "AUGUSTO FEDERICO MARTINEZ",
+   "CarneEntra": "54607",
+   "Jug_Entra": "JOAQUIN GARCIA",
+   "camiseta": "21",
+   "minutos": "90"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "64078",
+   "Jug_Sale": "JOAQUIN GRACIA",
+   "CarneEntra": "54913",
+   "Jug_Entra": "ISMAEL BONNECARRERE",
+   "camiseta": "14",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "54652",
+   "Jug_Sale": "VICENTE MARTIN ALVES",
+   "CarneEntra": "56059",
+   "Jug_Entra": "MARTIN REYES",
+   "camiseta": "17",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "63891",
+   "Jug_Sale": "GABRIEL SOLDATTI",
+   "CarneEntra": "53333",
+   "Jug_Entra": "SANTIAGO JOSE LUJAMBIO",
+   "camiseta": "3",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61753",
+   "Jug_Sale": "SANTIAGO GONZALEZ",
+   "CarneEntra": "63363",
+   "Jug_Entra": "NICOLAS OTERO",
+   "camiseta": "6",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66051",
+   "Jug_Sale": "GUILLERMO SANTIAGO RUSSO",
+   "CarneEntra": "60882",
+   "Jug_Entra": "SANTIAGO PEREIRA",
+   "camiseta": "8",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "59461",
+   "Jug_Sale": "FEDERICO MAIORANA",
+   "CarneEntra": "64827",
+   "Jug_Entra": "RODRIGO PITTAMIGLIO",
+   "camiseta": "57",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "59938",
+   "Jug_Sale": "DIEGO DAVID BARCELO",
+   "CarneEntra": "65840",
+   "Jug_Entra": "EMANUEL GALLETA",
+   "camiseta": "26",
+   "minutos": "79"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "54602",
+   "Nombre": "AGUSTIN RE",
+   "minutos": "39",
+   "EnContra": "0"
+  },
+  {
+   "carne": "68561",
+   "Nombre": "AUGUSTO FEDERICO MARTINEZ",
+   "minutos": "20",
+   "EnContra": "0"
+  },
+  {
+   "carne": "68561",
+   "Nombre": "AUGUSTO FEDERICO MARTINEZ",
+   "minutos": "37",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "66051",
+   "Nombre": "GUILLERMO SANTIAGO RUSSO",
+   "minutos": "57",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

@@ -7,11 +7,11 @@
   "visitante": "THE BRITISH SCHOOL"
  },
  {
-  "serie": "16O",
-  "fechaHora": "2026-10-27 20:00:00",
-  "cancha": "CIUDAD DEPORTIVA LS",
-  "local": "CLUB SEMINARIO",
-  "visitante": "DLS CLUB"
+  "serie": "16B",
+  "fechaHora": "2026-10-29 18:00:00",
+  "cancha": "COMPLEJO DFC",
+  "local": "DFC",
+  "visitante": "PELOTA AL MEDIO UNIVERSITARIO"
  },
  {
   "serie": "16O",
@@ -82,13 +82,6 @@
   "cancha": "ESCUELA NAVAL",
   "local": "YAGUARI",
   "visitante": "J.M.L.M"
- },
- {
-  "serie": "16B",
-  "fechaHora": "2026-11-01 13:30:00",
-  "cancha": "COMPLEJO DFC",
-  "local": "DFC",
-  "visitante": "PELOTA AL MEDIO UNIVERSITARIO"
  },
  {
   "serie": "16B",

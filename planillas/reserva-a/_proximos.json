@@ -14,18 +14,18 @@
   "visitante": "NAUTICO CARRASCO Y PUNTA GORDA"
  },
  {
+  "serie": "RSAPD",
+  "fechaHora": "2026-10-30 21:00:00",
+  "cancha": "COMPLEJO LOS NOGALES",
+  "local": "NACIONAL UNIVERSITARIO",
+  "visitante": "ALEMAN UNIVERSITARIO"
+ },
+ {
   "serie": "RSAT",
   "fechaHora": "2026-10-31 09:00:00",
   "cancha": "OLD CHRISTIANS CLUB",
   "local": "OLD CHRISTIANS AZUL",
   "visitante": "OLD BOYS CLUB"
- },
- {
-  "serie": "RSAPD",
-  "fechaHora": "2026-10-31 09:00:00",
-  "cancha": "COM. DEP. CLUB TROUVILLE",
-  "local": "NACIONAL UNIVERSITARIO",
-  "visitante": "ALEMAN UNIVERSITARIO"
  },
  {
   "serie": "RSAT",
@@ -57,6 +57,13 @@
  },
  {
   "serie": "RSAT",
+  "fechaHora": "2026-11-02 21:30:00",
+  "cancha": "CARRASCO POLO",
+  "local": "PLAYA HONDA UNIVERSITARIO",
+  "visitante": "CARRASCO POLO CLUB"
+ },
+ {
+  "serie": "RSAT",
   "fechaHora": "2026-11-07 09:00:00",
   "cancha": "COMP. DEVOTO (NAUT. PICHINCHA)",
   "local": "NAUTICO CARRASCO Y PUNTA GORDA",
@@ -82,13 +89,6 @@
   "cancha": "CARRASCO LAWN TENIS (KM 23)",
   "local": "CARRASCO LAWN TENNIS",
   "visitante": "OLD CHRISTIANS CLUB"
- },
- {
-  "serie": "RSAT",
-  "fechaHora": "2026-11-07 11:15:00",
-  "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
-  "local": "PLAYA HONDA UNIVERSITARIO",
-  "visitante": "CARRASCO POLO CLUB"
  },
  {
   "serie": "RSAPD",

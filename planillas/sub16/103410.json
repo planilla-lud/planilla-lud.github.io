@@ -29,12 +29,316 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "61654",
+   "Nombre": "JUAN MANUEL MOREIRA",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "63186",
+   "Nombre": "JUAN SEBASTIAN JIMENEZ DE ARECHAGA",
+   "camiseta": "66",
+   "Capitan": ""
+  },
+  {
+   "carne": "65049",
+   "Nombre": "JUAN ALFONSO ODDONE",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "67992",
+   "Nombre": "JUAN IGNACIO RODRIGUEZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "65456",
+   "Nombre": "SANTOS SASHA BALUT",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "62239",
+   "Nombre": "ANDRES TERCERO PEREZ DEL CASTILLO",
+   "camiseta": "78",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "65058",
+   "Nombre": "IGNACIO AGUSTIN NOVEGIL",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "62989",
+   "Nombre": "BENJAMIN RISSO",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "62241",
+   "Nombre": "BENJAMIN ALBERTO BRAUSE",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "65053",
+   "Nombre": "JUAN BOSCH",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "65064",
+   "Nombre": "JUAN MARTIN FRECHOU",
+   "camiseta": "22",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "61924",
+   "Nombre": "OCTAVIO ABBATE",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "67924",
+   "Nombre": "MANUEL MUNIZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "61916",
+   "Nombre": "FRANCISCO LUVIZIO",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "61922",
+   "Nombre": "JOAQUIN ESCUDERO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "64087",
+   "Nombre": "FELIPE PEÑASCO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "65635",
+   "Nombre": "MAURO BADANO",
+   "camiseta": "70",
+   "Capitan": ""
+  },
+  {
+   "carne": "62392",
+   "Nombre": "ESTEBAN FELIPE SANGUINETTI",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "64759",
+   "Nombre": "BAUTISTA DE MELLO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "60336",
+   "Nombre": "MATIAS ZAQUIERE",
+   "camiseta": "50",
+   "Capitan": ""
+  },
+  {
+   "carne": "67915",
+   "Nombre": "VICENTE ORTIZ",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "66173",
+   "Nombre": "SANTIAGO AGUSTIN MARTINEZ RODRIGUEZ",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "65058",
+   "Jug_Sale": "IGNACIO AGUSTIN NOVEGIL",
+   "CarneEntra": "65035",
+   "Jug_Entra": "FRANCISCO IÑAKI MARTINEZ",
+   "camiseta": "4",
+   "minutos": "51"
+  },
+  {
+   "CarneSale": "65064",
+   "Jug_Sale": "JUAN MARTIN FRECHOU",
+   "CarneEntra": "65060",
+   "Jug_Entra": "FRANZ SEDELMAYR",
+   "camiseta": "21",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "62239",
+   "Jug_Sale": "ANDRES TERCERO PEREZ DEL CASTILLO",
+   "CarneEntra": "65413",
+   "Jug_Entra": "ISIDORO ALBERTO JAIME",
+   "camiseta": "10",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "65053",
+   "Jug_Sale": "JUAN BOSCH",
+   "CarneEntra": "61665",
+   "Jug_Entra": "JUAN MIGUEL AGUERRE",
+   "camiseta": "17",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "65456",
+   "Jug_Sale": "SANTOS SASHA BALUT",
+   "CarneEntra": "61599",
+   "Jug_Entra": "ALFONSO MAILHOS",
+   "camiseta": "7",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "62241",
+   "Jug_Sale": "BENJAMIN ALBERTO BRAUSE",
+   "CarneEntra": "65036",
+   "Jug_Entra": "SANTIAGO TORRES",
+   "camiseta": "18",
+   "minutos": "70"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "66173",
+   "Jug_Sale": "SANTIAGO AGUSTIN MARTINEZ RODRIGUEZ",
+   "CarneEntra": "66972",
+   "Jug_Entra": "FEDERICO MARTIN TERZAGHI",
+   "camiseta": "19",
+   "minutos": "52"
+  },
+  {
+   "CarneSale": "62392",
+   "Jug_Sale": "ESTEBAN FELIPE SANGUINETTI",
+   "CarneEntra": "66770",
+   "Jug_Entra": "AMARO REY MEIRELLES",
+   "camiseta": "21",
+   "minutos": "40"
+  },
+  {
+   "CarneSale": "60336",
+   "Jug_Sale": "MATIAS ZAQUIERE",
+   "CarneEntra": "68454",
+   "Jug_Entra": "LUCAS BRUN",
+   "camiseta": "15",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "61922",
+   "Jug_Sale": "JOAQUIN ESCUDERO",
+   "CarneEntra": "61921",
+   "Jug_Entra": "VALENTIN FUENTES",
+   "camiseta": "27",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "61924",
+   "Jug_Sale": "OCTAVIO ABBATE",
+   "CarneEntra": "66773",
+   "Jug_Entra": "RAMIRO PINTOS",
+   "camiseta": "23",
+   "minutos": "60"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "65036",
+   "Nombre": "SANTIAGO TORRES",
+   "minutos": "71",
+   "EnContra": "0"
+  },
+  {
+   "carne": "65053",
+   "Nombre": "JUAN BOSCH",
+   "minutos": "3",
+   "EnContra": "0"
+  },
+  {
+   "carne": "65053",
+   "Nombre": "JUAN BOSCH",
+   "minutos": "7",
+   "EnContra": "0"
+  },
+  {
+   "carne": "65053",
+   "Nombre": "JUAN BOSCH",
+   "minutos": "29",
+   "EnContra": "0"
+  },
+  {
+   "carne": "65053",
+   "Nombre": "JUAN BOSCH",
+   "minutos": "31",
+   "EnContra": "0"
+  },
+  {
+   "carne": "65053",
+   "Nombre": "JUAN BOSCH",
+   "minutos": "47",
+   "EnContra": "0"
+  },
+  {
+   "carne": "65053",
+   "Nombre": "JUAN BOSCH",
+   "minutos": "55",
+   "EnContra": "0"
+  },
+  {
+   "carne": "65053",
+   "Nombre": "JUAN BOSCH",
+   "minutos": "70",
+   "EnContra": "0"
+  },
+  {
+   "carne": "65456",
+   "Nombre": "SANTOS SASHA BALUT",
+   "minutos": "50",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "61922",
+   "Nombre": "JOAQUIN ESCUDERO",
+   "minutos": "56",
+   "EnContra": "1"
+  },
+  {
+   "carne": "65635",
+   "Nombre": "MAURO BADANO",
+   "minutos": "43",
+   "EnContra": "1"
+  },
+  {
+   "carne": "65635",
+   "Nombre": "MAURO BADANO",
+   "minutos": "68",
+   "EnContra": "1"
+  },
+  {
+   "carne": "66770",
+   "Nombre": "AMARO REY MEIRELLES",
+   "minutos": "51",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

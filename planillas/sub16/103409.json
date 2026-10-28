@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB16 COMPETENCIA",
   "Cancha": "CAM. DEP. ASOC. HEBRAICA Y MAC",
-  "Fecha_Inicio": "2026-10-27 22:00:00",
-  "Fecha_fin": "2026-10-27 22:00:00",
+  "Fecha_Inicio": "2026-10-27 22:10:00",
+  "Fecha_fin": "2026-10-27 22:10:00",
   "Locatario": "HEBRAICA UNIVERSITARIO",
   "goles_locatario": "4",
   "puntos_locatario": "3",
@@ -29,12 +29,202 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "68271",
+   "Nombre": "EMILIANO KLEIMAN",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "68219",
+   "Nombre": "FELIPE VALENTIN CANIAS",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "63970",
+   "Nombre": "TOBIAS EIDELMAN",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "67220",
+   "Nombre": "FERNANDO TROSTCHANSKY",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "63971",
+   "Nombre": "DAN BRONSTEIN",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "66923",
+   "Nombre": "SANTIAGO CHEBI",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "66959",
+   "Nombre": "MATIAS RODY ALBOJER",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "65326",
+   "Nombre": "TOMAS PIVEN",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "62775",
+   "Nombre": "ALAN BARILAS",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "65775",
+   "Nombre": "FACUNDO KOLENDER",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "66922",
+   "Nombre": "ALAN BENCHOA",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "64544",
+   "Nombre": "JOAQUIN SEBASTIAN MEDINA",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "62764",
+   "Nombre": "PATRICIO TADEO LARROSA",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "64841",
+   "Nombre": "THIAGO DOMINGUEZ",
+   "camiseta": "67",
+   "Capitan": ""
+  },
+  {
+   "carne": "69024",
+   "Nombre": "NAHUEL ORTIZ",
+   "camiseta": "45",
+   "Capitan": ""
+  },
+  {
+   "carne": "64541",
+   "Nombre": "VALENTINO SANCHEZ",
+   "camiseta": "52",
+   "Capitan": ""
+  },
+  {
+   "carne": "64538",
+   "Nombre": "RODRIGO AGUSTIN RICO",
+   "camiseta": "48",
+   "Capitan": ""
+  },
+  {
+   "carne": "67314",
+   "Nombre": "SEBASTIAN FALERO",
+   "camiseta": "61",
+   "Capitan": ""
+  },
+  {
+   "carne": "64528",
+   "Nombre": "SANTIAGO COPATTI",
+   "camiseta": "43",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "67313",
+   "Nombre": "LAUTARO SALVARREY",
+   "camiseta": "66",
+   "Capitan": ""
+  },
+  {
+   "carne": "69025",
+   "Nombre": "BRUNO MELIAN",
+   "camiseta": "57",
+   "Capitan": ""
+  },
+  {
+   "carne": "64496",
+   "Nombre": "NICOLAS MARTINEZ",
+   "camiseta": "15",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "66923",
+   "Jug_Sale": "SANTIAGO CHEBI",
+   "CarneEntra": "66960",
+   "Jug_Entra": "FEDERICO GYURCSEK",
+   "camiseta": "86",
+   "minutos": "16"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "64538",
+   "Jug_Sale": "RODRIGO AGUSTIN RICO",
+   "CarneEntra": "60538",
+   "Jug_Entra": "RODRIGO BIANCO",
+   "camiseta": "63",
+   "minutos": "70"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "62775",
+   "Nombre": "ALAN BARILAS",
+   "minutos": "2",
+   "EnContra": "0"
+  },
+  {
+   "carne": "65775",
+   "Nombre": "FACUNDO KOLENDER",
+   "minutos": "30",
+   "EnContra": "0"
+  },
+  {
+   "carne": "65775",
+   "Nombre": "FACUNDO KOLENDER",
+   "minutos": "61",
+   "EnContra": "0"
+  },
+  {
+   "carne": "66922",
+   "Nombre": "ALAN BENCHOA",
+   "minutos": "55",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "67313",
+   "Nombre": "LAUTARO SALVARREY",
+   "minutos": "72",
+   "EnContra": "1"
+  },
+  {
+   "carne": "69025",
+   "Nombre": "BRUNO MELIAN",
+   "minutos": "14",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

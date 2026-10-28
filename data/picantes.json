@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-28T02:11:44.970Z",
+ "actualizado": "2026-10-28T23:11:25.846Z",
  "partidos": [
   {
    "div": "sub20-a",
@@ -93,7 +93,7 @@
    "l": "Trouville Universitario",
    "v": "Seminario Universitario",
    "dia": "2026-10-29",
-   "hora": "20:30",
+   "hora": "20:15",
    "etapa": "Permanencia",
    "pl": 6,
    "pv": 7,
@@ -101,7 +101,7 @@
    "base": 8,
    "tipo": "descenso",
    "altasL": 0,
-   "altasV": 0
+   "altasV": 2
   },
   {
    "div": "reserva-b",
@@ -274,13 +274,30 @@
    "altasV": 4
   },
   {
+   "div": "sub16-oro",
+   "divNombre": "Sub 16 Oro",
+   "k": "Dls Club~Universitario Verones",
+   "l": "Dls Club",
+   "v": "Universitario Verones",
+   "dia": "2026-11-01",
+   "hora": "13:30",
+   "etapa": "Copa de Oro",
+   "pl": 1,
+   "pv": 2,
+   "n": 8,
+   "base": 0,
+   "tipo": "titulo",
+   "altasL": 0,
+   "altasV": 2
+  },
+  {
    "div": "mas40-a",
    "divNombre": "Más 40 A",
    "k": "Hebraica y Macabi~Tacuarembo Universitario",
    "l": "Hebraica y Macabi",
    "v": "Tacuarembo Universitario",
    "dia": "2026-10-31",
-   "hora": "09:00",
+   "hora": "11:15",
    "etapa": "Permanencia",
    "pl": 5,
    "pv": 6,
@@ -359,23 +376,6 @@
    "altasV": 2
   },
   {
-   "div": "sub16-oro",
-   "divNombre": "Sub 16 Oro",
-   "k": "Dls Club~Universitario Verones",
-   "l": "Dls Club",
-   "v": "Universitario Verones",
-   "dia": "2026-11-01",
-   "hora": "13:30",
-   "etapa": "Copa de Oro",
-   "pl": 3,
-   "pv": 1,
-   "n": 8,
-   "base": 0,
-   "tipo": "titulo",
-   "altasL": 0,
-   "altasV": 2
-  },
-  {
    "div": "mas40-b",
    "divNombre": "Más 40 B",
    "k": "Carrasco Lawn Tennis~Tenis El Pinar",
@@ -423,7 +423,7 @@
    "n": 8,
    "base": 0,
    "tipo": "titulo",
-   "altasL": 1,
+   "altasL": 4,
    "altasV": 2
   },
   {

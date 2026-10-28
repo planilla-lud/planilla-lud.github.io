@@ -3913,19 +3913,6 @@
   "texto": "Inhabilitación provisoria en carácter de medida cautelar"
  },
  {
-  "tipo": "fallo",
-  "fecha": "2026-10-08",
-  "partido": "343",
-  "serie": "18-62",
-  "carne": "64828",
-  "nombre": "JUAN AGUSTIN PUPPO",
-  "club": "SAN PABLO UNIVERSITARIO",
-  "sancion": "SUSP.PREVENTIVA",
-  "fechas": 0,
-  "detalle": "F:0 - UR:0 - FC:2026-10-29",
-  "texto": "Inhabilitación provisoria en carácter de medida cautelar."
- },
- {
   "tipo": "automatica",
   "fecha": "2026-10-11",
   "partido": "200",
