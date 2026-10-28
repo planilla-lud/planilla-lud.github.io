@@ -1,6 +1,13 @@
 [
  {
   "serie": "BPD",
+  "fechaHora": "2026-10-29 22:15:00",
+  "cancha": "COM. DEP. CLUB TROUVILLE",
+  "local": "CLUB UNIVERSIDAD CATOLICA",
+  "visitante": "CIRCULO DE TENIS MONTEVIDEO"
+ },
+ {
+  "serie": "BPD",
   "fechaHora": "2026-11-01 09:00:00",
   "cancha": "COMPLEJO LAS CASUARINAS",
   "local": "SAN JUAN BAUTISTA",
@@ -12,13 +19,6 @@
   "cancha": "COMPLEJO COLEGIO JESÚS MARÍA",
   "local": "CLUB JESUS MARIA",
   "visitante": "INDEPENDIENTE"
- },
- {
-  "serie": "BPD",
-  "fechaHora": "2026-11-01 09:00:00",
-  "cancha": "COM. CLUB UNIVERSIDAD CATOLICA",
-  "local": "CLUB UNIVERSIDAD CATOLICA",
-  "visitante": "CIRCULO DE TENIS MONTEVIDEO"
  },
  {
   "serie": "BTA",

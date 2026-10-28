@@ -143,13 +143,6 @@
   "serie": "18A",
   "fechaHora": "2026-11-04 00:00:00",
   "cancha": "CANCHA A FIJAR",
-  "local": "NUMA TURCATTI",
-  "visitante": "SCUOLA PALERMO"
- },
- {
-  "serie": "18A",
-  "fechaHora": "2026-11-04 00:00:00",
-  "cancha": "CANCHA A FIJAR",
   "local": "SANTA ELENA LAGOMAR",
   "visitante": "ARQUITECTURA JRS."
  },
@@ -166,6 +159,13 @@
   "cancha": "COMPLEJO ALCOBENDAS",
   "local": "NACIONAL UNIVERSITARIO",
   "visitante": "COLEGIO Y LICEO INGLES"
+ },
+ {
+  "serie": "18A",
+  "fechaHora": "2026-11-04 18:30:00",
+  "cancha": "SCUOLA ITALIANA",
+  "local": "NUMA TURCATTI",
+  "visitante": "SCUOLA PALERMO"
  },
  {
   "serie": "18P",

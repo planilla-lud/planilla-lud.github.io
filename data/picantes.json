@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-27T21:17:19.978Z",
+ "actualizado": "2026-10-28T02:11:44.970Z",
  "partidos": [
   {
    "div": "sub20-a",
@@ -34,23 +34,6 @@
    "tipo": "titulo",
    "altasL": 2,
    "altasV": 0
-  },
-  {
-   "div": "sub20-b",
-   "divNombre": "Sub 20 B",
-   "k": "Seminario Universitario~Arquitectura Jrs.",
-   "l": "Seminario Universitario",
-   "v": "Arquitectura Jrs.",
-   "dia": "2026-10-27",
-   "hora": "20:00",
-   "etapa": "Permanencia",
-   "pl": 7,
-   "pv": 8,
-   "n": 8,
-   "base": 8,
-   "tipo": "descenso",
-   "altasL": 0,
-   "altasV": 1
   },
   {
    "div": "mayores-a",
@@ -291,23 +274,6 @@
    "altasV": 4
   },
   {
-   "div": "sub16-oro",
-   "divNombre": "Sub 16 Oro",
-   "k": "Dls Club~Universitario Verones",
-   "l": "Dls Club",
-   "v": "Universitario Verones",
-   "dia": "2026-11-01",
-   "hora": "13:30",
-   "etapa": "Copa de Oro",
-   "pl": 2,
-   "pv": 1,
-   "n": 8,
-   "base": 0,
-   "tipo": "titulo",
-   "altasL": 0,
-   "altasV": 2
-  },
-  {
    "div": "mas40-a",
    "divNombre": "Más 40 A",
    "k": "Hebraica y Macabi~Tacuarembo Universitario",
@@ -393,6 +359,23 @@
    "altasV": 2
   },
   {
+   "div": "sub16-oro",
+   "divNombre": "Sub 16 Oro",
+   "k": "Dls Club~Universitario Verones",
+   "l": "Dls Club",
+   "v": "Universitario Verones",
+   "dia": "2026-11-01",
+   "hora": "13:30",
+   "etapa": "Copa de Oro",
+   "pl": 3,
+   "pv": 1,
+   "n": 8,
+   "base": 0,
+   "tipo": "titulo",
+   "altasL": 0,
+   "altasV": 2
+  },
+  {
    "div": "mas40-b",
    "divNombre": "Más 40 B",
    "k": "Carrasco Lawn Tennis~Tenis El Pinar",
@@ -444,23 +427,6 @@
    "altasV": 2
   },
   {
-   "div": "sub16-oro",
-   "divNombre": "Sub 16 Oro",
-   "k": "Seminario~Dls Club",
-   "l": "Seminario",
-   "v": "Dls Club",
-   "dia": "2026-10-27",
-   "hora": "20:00",
-   "etapa": "Copa de Oro",
-   "pl": 3,
-   "pv": 2,
-   "n": 8,
-   "base": 0,
-   "tipo": "titulo",
-   "altasL": 5,
-   "altasV": 0
-  },
-  {
    "div": "mayores-e",
    "divNombre": "Mayores E",
    "k": "Deportivo Salto~Clara Jackson Universitario",
@@ -510,6 +476,23 @@
    "tipo": "titulo",
    "altasL": 0,
    "altasV": 0
+  },
+  {
+   "div": "mayores-g",
+   "divNombre": "Mayores G",
+   "k": "Varela Universitario~Familiar Universitario",
+   "l": "Varela Universitario",
+   "v": "Familiar Universitario",
+   "dia": "2026-10-28",
+   "hora": "22:00",
+   "etapa": "Título y ascenso",
+   "pl": 2,
+   "pv": 3,
+   "n": 8,
+   "base": 0,
+   "tipo": "titulo",
+   "altasL": 0,
+   "altasV": 3
   }
  ]
 }
