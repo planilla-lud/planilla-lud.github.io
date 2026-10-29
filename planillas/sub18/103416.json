@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB18 AMISTAD",
   "Cancha": "SCUOLA ITALIANA",
-  "Fecha_Inicio": "2026-10-27 22:00:00",
-  "Fecha_fin": "2026-10-27 22:00:00",
+  "Fecha_Inicio": "2026-10-27 22:15:00",
+  "Fecha_fin": "2026-10-27 22:15:00",
   "Locatario": "SCUOLA PALERMO",
   "goles_locatario": "5",
   "puntos_locatario": "3",
@@ -29,12 +29,266 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "64377",
+   "Nombre": "LUCAS DI MAURO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "62129",
+   "Nombre": "LUCAS GUTIERREZ",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "59177",
+   "Nombre": "NICOLAS MARQUES",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "62155",
+   "Nombre": "BENO QUARTARA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "62404",
+   "Nombre": "FRANCO DEMICHELI",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "60744",
+   "Nombre": "BRUNI MOLLAJOLI",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "67703",
+   "Nombre": "AGUSTIN NATTERO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "63526",
+   "Nombre": "MATEO LABRADOR",
+   "camiseta": "12",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "57868",
+   "Nombre": "LUCIANO VARELA",
+   "camiseta": "65",
+   "Capitan": ""
+  },
+  {
+   "carne": "59173",
+   "Nombre": "AGUSTIN NICOLAS GANDINI",
+   "camiseta": "81",
+   "Capitan": ""
+  },
+  {
+   "carne": "68802",
+   "Nombre": "THIAGO DEVITTA",
+   "camiseta": "73",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "58328",
+   "Nombre": "MIRKO NICOLAS ZUVELA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "68575",
+   "Nombre": "MANUEL GUGIATO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "59764",
+   "Nombre": "SANTIAGO IRIARTE",
+   "camiseta": "2",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "61490",
+   "Nombre": "IGNACIO RODRIGUEZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "61112",
+   "Nombre": "GUILLERMO BALDOVINO",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "63830",
+   "Nombre": "GERMAN VEGA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "67690",
+   "Nombre": "BENJAMIN KOUYMTCHIAN",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "66441",
+   "Nombre": "EZEQUIEL ADRIAN GOMEZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "68285",
+   "Nombre": "IGNACIO FONTES",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "63238",
+   "Nombre": "PEDRO LATAILLADE",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "64698",
+   "Nombre": "LORENZO GALEANO",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "60744",
+   "Jug_Sale": "BRUNI MOLLAJOLI",
+   "CarneEntra": "61927",
+   "Jug_Entra": "SANTIAGO BRUN",
+   "camiseta": "2",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68802",
+   "Jug_Sale": "THIAGO DEVITTA",
+   "CarneEntra": "63229",
+   "Jug_Entra": "CONSTANTINO DANGELO",
+   "camiseta": "45",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "57868",
+   "Jug_Sale": "LUCIANO VARELA",
+   "CarneEntra": "69105",
+   "Jug_Entra": "TIZZIANO DALLORSO",
+   "camiseta": "5",
+   "minutos": "75"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "67690",
+   "Jug_Sale": "BENJAMIN KOUYMTCHIAN",
+   "CarneEntra": "59195",
+   "Jug_Entra": "AGUSTIN CERUELO",
+   "camiseta": "18",
+   "minutos": "30"
+  },
+  {
+   "CarneSale": "61490",
+   "Jug_Sale": "IGNACIO RODRIGUEZ",
+   "CarneEntra": "68283",
+   "Jug_Entra": "JULIAN CHARLO",
+   "camiseta": "14",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "63238",
+   "Jug_Sale": "PEDRO LATAILLADE",
+   "CarneEntra": "68285",
+   "Jug_Entra": "IGNACIO FONTES",
+   "camiseta": "15",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "66441",
+   "Jug_Sale": "EZEQUIEL ADRIAN GOMEZ",
+   "CarneEntra": "64960",
+   "Jug_Entra": "JUAN CRUZ VARELA",
+   "camiseta": "13",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "64698",
+   "Jug_Sale": "LORENZO GALEANO",
+   "CarneEntra": "59294",
+   "Jug_Entra": "THIAGO COITIÑO",
+   "camiseta": "19",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "68575",
+   "Jug_Sale": "MANUEL GUGIATO",
+   "CarneEntra": "68574",
+   "Jug_Entra": "RAMIRO PEREIRA",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68285",
+   "Jug_Sale": "IGNACIO FONTES",
+   "CarneEntra": "64956",
+   "Jug_Entra": "TOMAS GONZALEZ",
+   "camiseta": "17",
+   "minutos": "45"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "59173",
+   "Nombre": "AGUSTIN NICOLAS GANDINI",
+   "minutos": "3",
+   "EnContra": "0"
+  },
+  {
+   "carne": "59173",
+   "Nombre": "AGUSTIN NICOLAS GANDINI",
+   "minutos": "16",
+   "EnContra": "0"
+  },
+  {
+   "carne": "61927",
+   "Nombre": "SANTIAGO BRUN",
+   "minutos": "60",
+   "EnContra": "0"
+  },
+  {
+   "carne": "63526",
+   "Nombre": "MATEO LABRADOR",
+   "minutos": "29",
+   "EnContra": "0"
+  },
+  {
+   "carne": "68802",
+   "Nombre": "THIAGO DEVITTA",
+   "minutos": "38",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "64698",
+   "Nombre": "LORENZO GALEANO",
+   "minutos": "10",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

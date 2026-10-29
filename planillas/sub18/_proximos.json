@@ -1,17 +1,24 @@
 [
  {
-  "serie": "18C",
-  "fechaHora": "2026-10-27 20:00:00",
-  "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
-  "local": "SEMINARIO UNIVERSITARIO",
-  "visitante": "CLUB JESUS MARIA"
- },
- {
   "serie": "18B",
   "fechaHora": "2026-10-29 20:00:00",
   "cancha": "COMPLEJO LA MASIA",
   "local": "OLD WOODLANDS CLUB",
   "visitante": "ANGLO SCHOOL UNIVERSITARIO"
+ },
+ {
+  "serie": "18O",
+  "fechaHora": "2026-11-01 15:30:00",
+  "cancha": "MONTE VI \"LOS CEIBOS\"",
+  "local": "CEIBOS CLUB",
+  "visitante": "CLUB SEMINARIO"
+ },
+ {
+  "serie": "18O",
+  "fechaHora": "2026-11-01 15:30:00",
+  "cancha": "CAMPO MARISTAS DEPORTIVO",
+  "local": "MARISTAS DEPORTIVO",
+  "visitante": "CARRASCO LAWN TENNIS"
  },
  {
   "serie": "18O",
@@ -40,13 +47,6 @@
   "cancha": "SAGRADA FAMILIA",
   "local": "SAGRADA FAMILIA UNIVERSITARIO",
   "visitante": "COLEGIO SANTA ELENA"
- },
- {
-  "serie": "18P",
-  "fechaHora": "2026-11-01 15:30:00",
-  "cancha": "COMPLEJO NORTHFIELD",
-  "local": "HCA UNIVERSITARIO",
-  "visitante": "OLD BOYS CLUB"
  },
  {
   "serie": "18P",
@@ -131,6 +131,13 @@
   "cancha": "CAMPO DEP. INSTITUTO CRANDON",
   "local": "CRANDON UNIVERSITARIO",
   "visitante": "PLAYA HONDA UNIVERSITARIO"
+ },
+ {
+  "serie": "18P",
+  "fechaHora": "2026-11-03 20:00:00",
+  "cancha": "COMPLEJO NORTHFIELD",
+  "local": "HCA UNIVERSITARIO",
+  "visitante": "OLD BOYS CLUB"
  },
  {
   "serie": "18A",
@@ -424,20 +431,6 @@
   "fechaHora": "2026-11-15 15:30:00",
   "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
   "local": "CLUB SEMINARIO",
-  "visitante": "CARRASCO LAWN TENNIS"
- },
- {
-  "serie": "18O",
-  "fechaHora": "2026-11-15 15:30:00",
-  "cancha": "MONTE VI \"LOS CEIBOS\"",
-  "local": "CEIBOS CLUB",
-  "visitante": "CLUB SEMINARIO"
- },
- {
-  "serie": "18O",
-  "fechaHora": "2026-11-15 15:30:00",
-  "cancha": "CAMPO MARISTAS DEPORTIVO",
-  "local": "MARISTAS DEPORTIVO",
   "visitante": "CARRASCO LAWN TENNIS"
  },
  {

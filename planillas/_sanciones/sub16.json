@@ -2793,5 +2793,18 @@
   "fechas": 5,
   "detalle": "F:5 - UR:0",
   "texto": "Que cumpla en todas las categorías de la disciplina deportiva."
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-10-29",
+  "partido": "337",
+  "serie": "16B",
+  "carne": "62937",
+  "nombre": "LEON PEDRO SCHILDE",
+  "club": "ALEMAN UNIVERSITARIO",
+  "sancion": "SUSPENDIDO",
+  "fechas": 1,
+  "detalle": "F:1 - UR:1",
+  "texto": "Art. 149 del C.P"
  }
 ]

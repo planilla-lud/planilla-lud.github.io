@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"A\" PER. y DESC.",
   "Cancha": "PARQUE CUPRA - CLUB SEMINARIO",
-  "Fecha_Inicio": "2026-10-28 23:00:00",
-  "Fecha_fin": "2026-10-28 23:00:00",
+  "Fecha_Inicio": "2026-10-28 23:30:00",
+  "Fecha_fin": "2026-10-28 23:30:00",
   "Locatario": "CLUB SEMINARIO",
   "goles_locatario": "1",
   "puntos_locatario": "1",
@@ -29,12 +29,223 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "49263",
+   "Nombre": "MARTIN MURAÑA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "37424",
+   "Nombre": "SANTIAGO PEREZ",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "42555",
+   "Nombre": "RODRIGO VAZQUEZ",
+   "camiseta": "19",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "59121",
+   "Nombre": "ARIEL YONHATAN PACHECO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "47683",
+   "Nombre": "JUAN IGNACIO VIOLA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "64647",
+   "Nombre": "FABRIZIO OSCAR PAGLIA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "52764",
+   "Nombre": "DIEGO BUELA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "48063",
+   "Nombre": "GENARO CARUSO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "47800",
+   "Nombre": "MATIAS GARRIDO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "50866",
+   "Nombre": "JOSE SANTIAGO LUCAS",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "52746",
+   "Nombre": "IMANOL JIMENEZ DE ARECHAGA",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "53017",
+   "Nombre": "ALFONSO GIMENEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "55124",
+   "Nombre": "JOSE MARIA BARRABINO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "41605",
+   "Nombre": "NICOLAS MURO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "43274",
+   "Nombre": "RAFAEL MONESTIER",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "41651",
+   "Nombre": "JOSE MIGUEL MARTIRENA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "43266",
+   "Nombre": "FERNANDO INTHAMOUSSU",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "53505",
+   "Nombre": "SANTIAGO LOPEZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "54403",
+   "Nombre": "IGNACIO GIMENEZ",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "23902",
+   "Nombre": "ENRIQUE MARTIN BOIX",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "58393",
+   "Nombre": "MANUEL ECHEVARRIA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "51833",
+   "Nombre": "THIAGO TORANZA",
+   "camiseta": "20",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "52746",
+   "Jug_Sale": "IMANOL JIMENEZ DE ARECHAGA",
+   "CarneEntra": "47176",
+   "Jug_Entra": "SANTIAGO BENZANO",
+   "camiseta": "16",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "48063",
+   "Jug_Sale": "GENARO CARUSO",
+   "CarneEntra": "47678",
+   "Jug_Entra": "PEDRO MACKINNON",
+   "camiseta": "8",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "47683",
+   "Jug_Sale": "JUAN IGNACIO VIOLA",
+   "CarneEntra": "50801",
+   "Jug_Entra": "JUAN MANUEL DÌAZ",
+   "camiseta": "14",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "47800",
+   "Jug_Sale": "MATIAS GARRIDO",
+   "CarneEntra": "53659",
+   "Jug_Entra": "ANDRES HERRERA",
+   "camiseta": "6",
+   "minutos": "85"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "58393",
+   "Jug_Sale": "MANUEL ECHEVARRIA",
+   "CarneEntra": "43260",
+   "Jug_Entra": "JUAN DIEGO TORRES NEGREIRA",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "55124",
+   "Jug_Sale": "JOSE MARIA BARRABINO",
+   "CarneEntra": "41897",
+   "Jug_Entra": "IGNACIO CABRERA",
+   "camiseta": "9",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "23902",
+   "Jug_Sale": "ENRIQUE MARTIN BOIX",
+   "CarneEntra": "53744",
+   "Jug_Entra": "JUAN ANDRES ECHEGOYEN",
+   "camiseta": "10",
+   "minutos": "77"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "52746",
+   "Nombre": "IMANOL JIMENEZ DE ARECHAGA",
+   "minutos": "47",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "43260",
+   "Nombre": "JUAN DIEGO TORRES NEGREIRA",
+   "minutos": "55",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
- "expulsadosV": []
+ "expulsadosV": [
+  {
+   "Nombre": "ENRIQUE MARTIN BOIX",
+   "observaciones": ""
+  }
+ ]
 }

@@ -1,0 +1,261 @@
+{
+ "id": "103438",
+ "categoria": "mayores-e",
+ "serie": "EPD",
+ "fecha": 6,
+ "fechaHora": "2026-10-28 21:00:00",
+ "cancha": "COMPLEJO LAS CASUARINAS",
+ "local": "EL CHORRO FUTBOL CLUB",
+ "visitante": "SUDAMERICA UNIVERSITARIO",
+ "gl": 0,
+ "gv": 2,
+ "detalle": {
+  "nro_partido": "1115",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "MAYORES",
+  "categoria": "MAYORES MASCULINO",
+  "rueda": "2",
+  "Divisional": "MAYORES \"E\" PERM. y DESC.",
+  "Cancha": "COMPLEJO LAS CASUARINAS",
+  "Fecha_Inicio": "2026-10-28 23:00:00",
+  "Fecha_fin": "2026-10-28 23:00:00",
+  "Locatario": "EL CHORRO FUTBOL CLUB",
+  "goles_locatario": "0",
+  "puntos_locatario": "0",
+  "Visitante": "SUDAMERICA UNIVERSITARIO",
+  "goles_visitante": "2",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "60685",
+   "Nombre": "MATEO HEROSA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "40273",
+   "Nombre": "JUAN IGNACIO GUERRERO",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "48329",
+   "Nombre": "ANDRES SEBASTIAN CHANG",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "25837",
+   "Nombre": "VALENTIN MOSCONE",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "66942",
+   "Nombre": "JOAQUIN SILVA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "48417",
+   "Nombre": "RENZO PITTIN",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "55770",
+   "Nombre": "JUAN IGNACIO RIPOLL",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "43462",
+   "Nombre": "JUAN IGNACIO GUADALUPE",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "51513",
+   "Nombre": "NICOLAS CARIDE",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "53627",
+   "Nombre": "JUAN MANUEL DELFINO",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "49361",
+   "Nombre": "ALDO CENTANARO",
+   "camiseta": "81",
+   "Capitan": "(C)"
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "64962",
+   "Nombre": "JUAN BAUTISTA MENDEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "40257",
+   "Nombre": "ROQUE MARTIN ANDRADA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "54112",
+   "Nombre": "ARIEL FRANCISCO ACOSTA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "63812",
+   "Nombre": "ANDRES OLIVERA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "56528",
+   "Nombre": "SANTIAGO NICOLAS BARRIOS",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "62441",
+   "Nombre": "BRIAN ANTHONY PEREZ",
+   "camiseta": "37",
+   "Capitan": ""
+  },
+  {
+   "carne": "44638",
+   "Nombre": "WALTER SANTIAGO SEGOVIA",
+   "camiseta": "36",
+   "Capitan": ""
+  },
+  {
+   "carne": "40236",
+   "Nombre": "SANTIAGO MARTINEZ",
+   "camiseta": "49",
+   "Capitan": ""
+  },
+  {
+   "carne": "61873",
+   "Nombre": "JUAN MARTIN FUMERO",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "41872",
+   "Nombre": "FACUNDO SILVERA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "64590",
+   "Nombre": "FAUSTINO VALIENTE",
+   "camiseta": "35",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "49361",
+   "Jug_Sale": "ALDO CENTANARO",
+   "CarneEntra": "28130",
+   "Jug_Entra": "JUAN MARTIN FIGUEREDO",
+   "camiseta": "27",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "25837",
+   "Jug_Sale": "VALENTIN MOSCONE",
+   "CarneEntra": "29760",
+   "Jug_Entra": "SANTIAGO QUEIROLO",
+   "camiseta": "81",
+   "minutos": "69"
+  },
+  {
+   "CarneSale": "66942",
+   "Jug_Sale": "JOAQUIN SILVA",
+   "CarneEntra": "25395",
+   "Jug_Entra": "FEDERICO MATIAS BONILLA",
+   "camiseta": "10",
+   "minutos": "69"
+  },
+  {
+   "CarneSale": "55770",
+   "Jug_Sale": "JUAN IGNACIO RIPOLL",
+   "CarneEntra": "66942",
+   "Jug_Entra": "JOAQUIN SILVA",
+   "camiseta": "9",
+   "minutos": "74"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "64590",
+   "Jug_Sale": "FAUSTINO VALIENTE",
+   "CarneEntra": "49363",
+   "Jug_Entra": "EMMANUEL RAMIREZ",
+   "camiseta": "45",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61873",
+   "Jug_Sale": "JUAN MARTIN FUMERO",
+   "CarneEntra": "49733",
+   "Jug_Entra": "DIEGO OLASO",
+   "camiseta": "40",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "40236",
+   "Jug_Sale": "SANTIAGO MARTINEZ",
+   "CarneEntra": "64961",
+   "Jug_Entra": "JUAN PABLO ALVAREZ",
+   "camiseta": "47",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "41872",
+   "Jug_Sale": "FACUNDO SILVERA",
+   "CarneEntra": "49931",
+   "Jug_Entra": "IAN ANDRES PEREZ",
+   "camiseta": "44",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "44638",
+   "Jug_Sale": "WALTER SANTIAGO SEGOVIA",
+   "CarneEntra": "54089",
+   "Jug_Entra": "PABLO GOROSO",
+   "camiseta": "8",
+   "minutos": "75"
+  }
+ ],
+ "golesL": [],
+ "golesV": [
+  {
+   "carne": "54112",
+   "Nombre": "ARIEL FRANCISCO ACOSTA",
+   "minutos": "12",
+   "EnContra": "1"
+  },
+  {
+   "carne": "54112",
+   "Nombre": "ARIEL FRANCISCO ACOSTA",
+   "minutos": "45",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"G\" TIT. y ASC",
   "Cancha": "POLIDEPORTIVO FAUQUET",
-  "Fecha_Inicio": "2026-10-28 21:30:00",
-  "Fecha_fin": "2026-10-28 21:30:00",
+  "Fecha_Inicio": "2026-10-28 22:00:00",
+  "Fecha_fin": "2026-10-28 22:00:00",
   "Locatario": "COLEGIO SAN ISIDRO",
   "goles_locatario": "3",
   "puntos_locatario": "3",
@@ -29,12 +29,251 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "58981",
+   "Nombre": "AGUSTIN NICOLAS HEREDIA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "61123",
+   "Nombre": "GONZALO NAHUEL MELO",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "56512",
+   "Nombre": "MATIAS VILA",
+   "camiseta": "16",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "67512",
+   "Nombre": "AGUSTIN POMBO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "59217",
+   "Nombre": "FEDERICO PIERO GELMINI",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "68747",
+   "Nombre": "JOAQUIN DOS SANTOS REGE",
+   "camiseta": "51",
+   "Capitan": ""
+  },
+  {
+   "carne": "57472",
+   "Nombre": "AGUSTIN PISANO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "54828",
+   "Nombre": "FEDERICO TOMAS BARRIOS",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "56516",
+   "Nombre": "FELIPE VERO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "59215",
+   "Nombre": "SANTIAGO GABRIEL SOSA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "59219",
+   "Nombre": "JUAN ANDRES COLOMBO",
+   "camiseta": "23",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "45578",
+   "Nombre": "VICTOR MANUEL REYES",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "15097",
+   "Nombre": "MARCELO ADRIAN DA SILVA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "55638",
+   "Nombre": "GERMAN FAJARDO",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "36772",
+   "Nombre": "GONZALO DAMIAN CUELLO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "45716",
+   "Nombre": "GUILLERMO LUIS ALVAREZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "55055",
+   "Nombre": "AGUSTIN FRANCO TROISI",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "33424",
+   "Nombre": "EDUARDO MARCELO CUÑARRO",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "51624",
+   "Nombre": "ALVARO RODRIGUEZ",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "36874",
+   "Nombre": "ANIBAL DAMIAN CASTILLO",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "27893",
+   "Nombre": "ALEX MAURICIO ROLDAN",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "57861",
+   "Nombre": "NICOLAS CESAR",
+   "camiseta": "47",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "68747",
+   "Jug_Sale": "JOAQUIN DOS SANTOS REGE",
+   "CarneEntra": "53862",
+   "Jug_Entra": "MANUEL ALEJANDRO MAYO",
+   "camiseta": "2",
+   "minutos": "52"
+  },
+  {
+   "CarneSale": "59215",
+   "Jug_Sale": "SANTIAGO GABRIEL SOSA",
+   "CarneEntra": "48540",
+   "Jug_Entra": "CARLOS ANDRES SEGREDO",
+   "camiseta": "9",
+   "minutos": "52"
+  },
+  {
+   "CarneSale": "54828",
+   "Jug_Sale": "FEDERICO TOMAS BARRIOS",
+   "CarneEntra": "56511",
+   "Jug_Entra": "MAURO PISANO",
+   "camiseta": "5",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "57472",
+   "Jug_Sale": "AGUSTIN PISANO",
+   "CarneEntra": "62219",
+   "Jug_Entra": "MATEO BERRIEL",
+   "camiseta": "3",
+   "minutos": "80"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "57861",
+   "Jug_Sale": "NICOLAS CESAR",
+   "CarneEntra": "60658",
+   "Jug_Entra": "RAUL SEBASTIAN DA SILVA",
+   "camiseta": "20",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "55055",
+   "Jug_Sale": "AGUSTIN FRANCO TROISI",
+   "CarneEntra": "48140",
+   "Jug_Entra": "IVO LEONARDO FREDES",
+   "camiseta": "19",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "15097",
+   "Jug_Sale": "MARCELO ADRIAN DA SILVA",
+   "CarneEntra": "40687",
+   "Jug_Entra": "DIEGO FERNANDO FURRER",
+   "camiseta": "30",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "33424",
+   "Jug_Sale": "EDUARDO MARCELO CUÑARRO",
+   "CarneEntra": "66482",
+   "Jug_Entra": "RAFAEL DOLDAN",
+   "camiseta": "12",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "45716",
+   "Jug_Sale": "GUILLERMO LUIS ALVAREZ",
+   "CarneEntra": "48186",
+   "Jug_Entra": "LUIS EDUARDO PEREYRA",
+   "camiseta": "45",
+   "minutos": "80"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "48540",
+   "Nombre": "CARLOS ANDRES SEGREDO",
+   "minutos": "93",
+   "EnContra": "0"
+  },
+  {
+   "carne": "59215",
+   "Nombre": "SANTIAGO GABRIEL SOSA",
+   "minutos": "20",
+   "EnContra": "0"
+  },
+  {
+   "carne": "59215",
+   "Nombre": "SANTIAGO GABRIEL SOSA",
+   "minutos": "39",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "27893",
+   "Nombre": "ALEX MAURICIO ROLDAN",
+   "minutos": "38",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
- "expulsadosV": []
+ "expulsadosV": [
+  {
+   "Nombre": "GERMAN FAJARDO",
+   "observaciones": ""
+  }
+ ]
 }

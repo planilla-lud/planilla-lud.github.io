@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAS40 \"A\" TITULO",
   "Cancha": "COMPLEJO AZULGRANA",
-  "Fecha_Inicio": "2026-10-28 22:30:00",
-  "Fecha_fin": "2026-10-28 22:30:00",
+  "Fecha_Inicio": "2026-10-28 22:50:00",
+  "Fecha_fin": "2026-10-28 22:50:00",
   "Locatario": "CIRCULO DE TENIS MONTEVIDEO",
   "goles_locatario": "2",
   "puntos_locatario": "3",
@@ -29,11 +29,240 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "22452",
+   "Nombre": "SEBASTIAN SALAVERRIA",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "18894",
+   "Nombre": "IGNACIO ROBERTO DE MULA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "11860",
+   "Nombre": "GUSTAVO WERNER SCHICKE",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "27725",
+   "Nombre": "ALEJANDRO VERNENGO",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "20545",
+   "Nombre": "EDUARDO GIORDANO SANGUINETTI",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "21536",
+   "Nombre": "FRANCISCO SEBASTIAN FRONTINI",
+   "camiseta": "51",
+   "Capitan": ""
+  },
+  {
+   "carne": "19945",
+   "Nombre": "MARCELO CID DE LA PAZ",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "13715",
+   "Nombre": "DIEGO FERNANDEZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "14617",
+   "Nombre": "OSMAR DARIO MUÑOZ",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "20885",
+   "Nombre": "BRUNO ELIS VERNASSA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "19586",
+   "Nombre": "FEDERICO REYES",
+   "camiseta": "16",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "29630",
+   "Nombre": "GUILLERMO ALTMANN",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "20192",
+   "Nombre": "MARTIN RAFAEL CARDOSO",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "19652",
+   "Nombre": "NICOLAS VILASECA",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "18057",
+   "Nombre": "GUSTAVO CHIARINO",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "21640",
+   "Nombre": "FEDERICO VILASECA",
+   "camiseta": "36",
+   "Capitan": ""
+  },
+  {
+   "carne": "18136",
+   "Nombre": "RODNEY CARLOS BRUCE",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "16467",
+   "Nombre": "FERNANDO JIMENEZ",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "18770",
+   "Nombre": "MATIAS JOSE RACHETTI",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "16225",
+   "Nombre": "NICOLAS JUAN BRAUSE",
+   "camiseta": "39",
+   "Capitan": ""
+  },
+  {
+   "carne": "16827",
+   "Nombre": "JAVIER BURGOS",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "20004",
+   "Nombre": "IGNACIO ABADIE",
+   "camiseta": "24",
+   "Capitan": "(C)"
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "20545",
+   "Jug_Sale": "EDUARDO GIORDANO SANGUINETTI",
+   "CarneEntra": "21402",
+   "Jug_Entra": "JUAN IGNACIO SECO",
+   "camiseta": "57",
+   "minutos": "25"
+  },
+  {
+   "CarneSale": "27725",
+   "Jug_Sale": "ALEJANDRO VERNENGO",
+   "CarneEntra": "54445",
+   "Jug_Entra": "ALBERTO MARTIN RODRIGUEZ",
+   "camiseta": "13",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "19945",
+   "Jug_Sale": "MARCELO CID DE LA PAZ",
+   "CarneEntra": "31040",
+   "Jug_Entra": "JUAN PEDRO CID DE LA PAZ",
+   "camiseta": "24",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "14617",
+   "Jug_Sale": "OSMAR DARIO MUÑOZ",
+   "CarneEntra": "18901",
+   "Jug_Entra": "MARTIN TAGLE",
+   "camiseta": "21",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "20885",
+   "Jug_Sale": "BRUNO ELIS VERNASSA",
+   "CarneEntra": "16276",
+   "Jug_Entra": "JUAN MIGUEL REYES",
+   "camiseta": "22",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "21536",
+   "Jug_Sale": "FRANCISCO SEBASTIAN FRONTINI",
+   "CarneEntra": "32421",
+   "Jug_Entra": "PABLO GUSTAVO MUÑOZ",
+   "camiseta": "26",
+   "minutos": "84"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "16467",
+   "Jug_Sale": "FERNANDO JIMENEZ",
+   "CarneEntra": "56149",
+   "Jug_Entra": "JUAN CAMPOMAR",
+   "camiseta": "28",
+   "minutos": "25"
+  },
+  {
+   "CarneSale": "18057",
+   "Jug_Sale": "GUSTAVO CHIARINO",
+   "CarneEntra": "21016",
+   "Jug_Entra": "DIEGO CUENCA",
+   "camiseta": "29",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "16827",
+   "Jug_Sale": "JAVIER BURGOS",
+   "CarneEntra": "19571",
+   "Jug_Entra": "GABRIEL PAYSSE",
+   "camiseta": "27",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "19652",
+   "Jug_Sale": "NICOLAS VILASECA",
+   "CarneEntra": "16410",
+   "Jug_Entra": "JUAN PEDRO SABELLA",
+   "camiseta": "33",
+   "minutos": "25"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "19586",
+   "Nombre": "FEDERICO REYES",
+   "minutos": "60",
+   "EnContra": "0"
+  },
+  {
+   "carne": "20885",
+   "Nombre": "BRUNO ELIS VERNASSA",
+   "minutos": "48",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

@@ -1,0 +1,269 @@
+{
+ "id": "103434",
+ "categoria": "mayores-d",
+ "serie": "DTA",
+ "fecha": 5,
+ "fechaHora": "2026-10-25 11:20:00",
+ "cancha": "()",
+ "local": "NUMA TURCATTI",
+ "visitante": "CLUB ATLETICO LIMBURGO",
+ "gl": 2,
+ "gv": 0,
+ "detalle": {
+  "nro_partido": "1025",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "MAYORES",
+  "categoria": "MAYORES MASCULINO",
+  "rueda": "2",
+  "Divisional": "MAYORES \"D\" TIT. y ASC.",
+  "Cancha": "()",
+  "Fecha_Inicio": "2026-10-25 13:16:00",
+  "Fecha_fin": "2026-10-25 13:16:00",
+  "Locatario": "NUMA TURCATTI",
+  "goles_locatario": "2",
+  "puntos_locatario": "3",
+  "Visitante": "CLUB ATLETICO LIMBURGO",
+  "goles_visitante": "0",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "37679",
+   "Nombre": "JORGE ANTONIO PONS",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "42774",
+   "Nombre": "LUIS ESTEBAN FERMER",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "47895",
+   "Nombre": "TOMAS BAZAN",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "54622",
+   "Nombre": "JUAN MANUEL CADENAS",
+   "camiseta": "26",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "48317",
+   "Nombre": "THIAGO DA SILVA",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "64138",
+   "Nombre": "DILAN NAHUEL GARCIA",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "55052",
+   "Nombre": "AGUSTIN RODRIGUEZ",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "61334",
+   "Nombre": "ALAN JAVIER VALERA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "55412",
+   "Nombre": "DIEGO OTAÑO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "39467",
+   "Nombre": "MATEO YUVET",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "68506",
+   "Nombre": "NICOLAS MENDEZ",
+   "camiseta": "5",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "53417",
+   "Nombre": "MARCOS FERNANDEZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "41152",
+   "Nombre": "TOMAS PAPARIELLO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "45770",
+   "Nombre": "IVAN NICOLAI BOWTUN",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "45008",
+   "Nombre": "GASTON ANTUNEZ",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "36388",
+   "Nombre": "GUZMAN ALEJANDRO PEREIRA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "45386",
+   "Nombre": "TOMAS BETTANIN",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "43194",
+   "Nombre": "LUCAS MARTINEZ",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "52642",
+   "Nombre": "TOMAS MARTINEZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "45372",
+   "Nombre": "DAVID ROBIDO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "51441",
+   "Nombre": "SANTIAGO DERGAZARIAN",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "27124",
+   "Nombre": "SEBASTIAN PEREZ",
+   "camiseta": "9",
+   "Capitan": "(C)"
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "68506",
+   "Jug_Sale": "NICOLAS MENDEZ",
+   "CarneEntra": "63007",
+   "Jug_Entra": "MARCELL AGUSTIN CRUZ",
+   "camiseta": "12",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "61334",
+   "Jug_Sale": "ALAN JAVIER VALERA",
+   "CarneEntra": "54090",
+   "Jug_Entra": "HERNAN ARIEL CAÑETE",
+   "camiseta": "8",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "39467",
+   "Jug_Sale": "MATEO YUVET",
+   "CarneEntra": "57177",
+   "Jug_Entra": "IGNACIO GUERRERO",
+   "camiseta": "3",
+   "minutos": "89"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "51441",
+   "Jug_Sale": "SANTIAGO DERGAZARIAN",
+   "CarneEntra": "48327",
+   "Jug_Entra": "BRUNO MARCELO BASCIALLA",
+   "camiseta": "34",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "52642",
+   "Jug_Sale": "TOMAS MARTINEZ",
+   "CarneEntra": "48955",
+   "Jug_Entra": "IGNACIO LOPEZ",
+   "camiseta": "80",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "45386",
+   "Jug_Sale": "TOMAS BETTANIN",
+   "CarneEntra": "46385",
+   "Jug_Entra": "FERNANDO EMANUEL FAGALDES",
+   "camiseta": "33",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "36388",
+   "Jug_Sale": "GUZMAN ALEJANDRO PEREIRA",
+   "CarneEntra": "40634",
+   "Jug_Entra": "JUAN MANUEL MONTERO",
+   "camiseta": "11",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "43194",
+   "Jug_Sale": "LUCAS MARTINEZ",
+   "CarneEntra": "35286",
+   "Jug_Entra": "NICOLAS CRAVIOTTO",
+   "camiseta": "16",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "45372",
+   "Jug_Sale": "DAVID ROBIDO",
+   "CarneEntra": "44051",
+   "Jug_Entra": "ALEXIS JAVIER NOBLE",
+   "camiseta": "22",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "45008",
+   "Jug_Sale": "GASTON ANTUNEZ",
+   "CarneEntra": "47345",
+   "Jug_Entra": "JOAQUIN GABRIEL VARELA",
+   "camiseta": "26",
+   "minutos": "81"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "55412",
+   "Nombre": "DIEGO OTAÑO",
+   "minutos": "85",
+   "EnContra": "0"
+  },
+  {
+   "carne": "68506",
+   "Nombre": "NICOLAS MENDEZ",
+   "minutos": "5",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

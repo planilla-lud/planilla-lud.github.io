@@ -37,13 +37,6 @@
  {
   "serie": "20CP",
   "fechaHora": "2026-10-31 15:30:00",
-  "cancha": "COMPLEJO DEPORTIVO H3O",
-  "local": "COLEGIO Y LICEO SANTO DOMINGO",
-  "visitante": "PALLOTTI UNIVERSITARIO"
- },
- {
-  "serie": "20CP",
-  "fechaHora": "2026-10-31 15:30:00",
   "cancha": "COMPLEJO DFC",
   "local": "DFC",
   "visitante": "MONTEVIDEO COLLEGE"
@@ -54,6 +47,13 @@
   "cancha": "PQUE. ELLIS - COL. SAN ISIDRO",
   "local": "COLEGIO SAN ISIDRO",
   "visitante": "FLORES UNIVERSITARIO"
+ },
+ {
+  "serie": "20CP",
+  "fechaHora": "2026-10-31 16:00:00",
+  "cancha": "COMPLEJO DEPORTIVO H3O",
+  "local": "COLEGIO Y LICEO SANTO DOMINGO",
+  "visitante": "PALLOTTI UNIVERSITARIO"
  },
  {
   "serie": "20C2",

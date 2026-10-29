@@ -1,0 +1,266 @@
+{
+ "id": "103435",
+ "categoria": "sub18",
+ "serie": "18C",
+ "fecha": 1,
+ "fechaHora": "2026-10-27 20:00:00",
+ "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
+ "local": "SEMINARIO UNIVERSITARIO",
+ "visitante": "CLUB JESUS MARIA",
+ "gl": 2,
+ "gv": 2,
+ "detalle": {
+  "nro_partido": "433",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 18 ",
+  "categoria": "SUB 18 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB18 COMPETENCIA",
+  "Cancha": "PARQUE CUPRA - CLUB SEMINARIO",
+  "Fecha_Inicio": "2026-10-27 22:15:00",
+  "Fecha_fin": "2026-10-27 22:15:00",
+  "Locatario": "SEMINARIO UNIVERSITARIO",
+  "goles_locatario": "2",
+  "puntos_locatario": "1",
+  "Visitante": "CLUB JESUS MARIA",
+  "goles_visitante": "2",
+  "puntos_visitante": "1",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "64440",
+   "Nombre": "JUAN MANUEL CHIRIBAO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "67728",
+   "Nombre": "EMILIANO MASSAFERRO",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "58835",
+   "Nombre": "MATEO NAOR",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "62032",
+   "Nombre": "PEDRO NOVOA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "62031",
+   "Nombre": "JUAN PEDRO GARCIA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "63297",
+   "Nombre": "ALFONSO MONTESERIN",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "58834",
+   "Nombre": "FEDERICO ELISSALDE",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "62163",
+   "Nombre": "JUAN JUSTO TRUJILLO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "59084",
+   "Nombre": "JUAN CRUZ ALVAREZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "62034",
+   "Nombre": "FELIPE ALEJANDRO MORALES",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "63299",
+   "Nombre": "JOAQUIN SANTIAGO",
+   "camiseta": "9",
+   "Capitan": "(C)"
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "63266",
+   "Nombre": "JUAN MANUEL LOPEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "57870",
+   "Nombre": "SANTINO BARATE",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "62059",
+   "Nombre": "FELIPE RUBIO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "62822",
+   "Nombre": "JOAQUIN LARREA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "62062",
+   "Nombre": "AFONSO COSTA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "62063",
+   "Nombre": "RODRIGO RUBIO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "62069",
+   "Nombre": "SANTIAGO SILVA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "62065",
+   "Nombre": "FEDERICO RUBIO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "58819",
+   "Nombre": "GERONIMO ACUÑA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "62476",
+   "Nombre": "MATIAS NICOLAS CABRERA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "60473",
+   "Nombre": "JUAN AGUSTIN LOPEZ",
+   "camiseta": "6",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "63299",
+   "Jug_Sale": "JOAQUIN SANTIAGO",
+   "CarneEntra": "63120",
+   "Jug_Entra": "MANUEL LORENZO",
+   "camiseta": "15",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "62163",
+   "Jug_Sale": "JUAN JUSTO TRUJILLO",
+   "CarneEntra": "62173",
+   "Jug_Entra": "GUILLERMO PAEZ",
+   "camiseta": "20",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "67728",
+   "Jug_Sale": "EMILIANO MASSAFERRO",
+   "CarneEntra": "68922",
+   "Jug_Entra": "BRUNO MIETTO",
+   "camiseta": "6",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "62032",
+   "Jug_Sale": "PEDRO NOVOA",
+   "CarneEntra": "62163",
+   "Jug_Entra": "JUAN JUSTO TRUJILLO",
+   "camiseta": "8",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "58834",
+   "Jug_Sale": "FEDERICO ELISSALDE",
+   "CarneEntra": "62177",
+   "Jug_Entra": "JUAN PEDRO CARVALHO",
+   "camiseta": "22",
+   "minutos": "89"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "62062",
+   "Jug_Sale": "AFONSO COSTA",
+   "CarneEntra": "64903",
+   "Jug_Entra": "GUILLERMO LOPEZ",
+   "camiseta": "80",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "62476",
+   "Jug_Sale": "MATIAS NICOLAS CABRERA",
+   "CarneEntra": "61918",
+   "Jug_Entra": "LORENZO SILVA",
+   "camiseta": "50",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "62063",
+   "Jug_Sale": "RODRIGO RUBIO",
+   "CarneEntra": "61920",
+   "Jug_Entra": "BAUTISTA TARIGO",
+   "camiseta": "90",
+   "minutos": "75"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "58834",
+   "Nombre": "FEDERICO ELISSALDE",
+   "minutos": "68",
+   "EnContra": "0"
+  },
+  {
+   "carne": "62034",
+   "Nombre": "FELIPE ALEJANDRO MORALES",
+   "minutos": "80",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "58819",
+   "Nombre": "GERONIMO ACUÑA",
+   "minutos": "5",
+   "EnContra": "1"
+  },
+  {
+   "carne": "62822",
+   "Nombre": "JOAQUIN LARREA",
+   "minutos": "60",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

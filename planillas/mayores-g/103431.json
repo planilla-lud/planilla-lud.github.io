@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "DIVISIONAL \"G\" COPA PLATA",
   "Cancha": "POLIDEPORTIVO FAUQUET",
-  "Fecha_Inicio": "2026-10-28 22:00:00",
-  "Fecha_fin": "2026-10-28 22:00:00",
+  "Fecha_Inicio": "2026-10-28 22:30:00",
+  "Fecha_fin": "2026-10-28 22:30:00",
   "Locatario": "RIVER PLATE UNIVERSITARIO",
   "goles_locatario": "2",
   "puntos_locatario": "3",
@@ -29,12 +29,224 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "66259",
+   "Nombre": "LUCIO GONZALEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "67278",
+   "Nombre": "JOEL NICOLAS CORREA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "56805",
+   "Nombre": "FACUNDO NAHUEL SILVA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "61909",
+   "Nombre": "AGUSTIN EXEQUIEL RODRIGUEZ",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "67041",
+   "Nombre": "IGNACIO RAUL BERGARA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "67040",
+   "Nombre": "FACUNDO REDIN",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "67279",
+   "Nombre": "MATHIAS PESCA",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "66296",
+   "Nombre": "MAXIMILIANO ROLDAN",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "67488",
+   "Nombre": "CESAR EMILIANO FALCO",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "68993",
+   "Nombre": "SANTIAGO TOMAS RAMOS",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "67629",
+   "Nombre": "FRANCO BATISTA",
+   "camiseta": "8",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "67573",
+   "Nombre": "MATEO PORTA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "69176",
+   "Nombre": "CONRADO VEIGA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "42994",
+   "Nombre": "GERONIMO PESCE",
+   "camiseta": "9",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "52185",
+   "Nombre": "SANTIAGO BARQUIN",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "52674",
+   "Nombre": "JOAQUIN BELLO",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "54643",
+   "Nombre": "MARTIN CORRAL",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "46510",
+   "Nombre": "NICOLAS DE SANTA ANA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "51993",
+   "Nombre": "MATIAS MAURIN",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "40623",
+   "Nombre": "FRANCISCO PEREIRA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "54647",
+   "Nombre": "SEBASTIAN VIERA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "43688",
+   "Nombre": "LUIS ALVAREZ",
+   "camiseta": "8",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "68993",
+   "Jug_Sale": "SANTIAGO TOMAS RAMOS",
+   "CarneEntra": "67280",
+   "Jug_Entra": "SANTIAGO ORTIZ",
+   "camiseta": "26",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67040",
+   "Jug_Sale": "FACUNDO REDIN",
+   "CarneEntra": "62162",
+   "Jug_Entra": "LAUTARO RODRIGUEZ",
+   "camiseta": "13",
+   "minutos": "51"
+  },
+  {
+   "CarneSale": "67041",
+   "Jug_Sale": "IGNACIO RAUL BERGARA",
+   "CarneEntra": "56793",
+   "Jug_Entra": "SEBASTIAN GONZALO SEINES",
+   "camiseta": "3",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "67488",
+   "Jug_Sale": "CESAR EMILIANO FALCO",
+   "CarneEntra": "29363",
+   "Jug_Entra": "RAFAEL ENRIQUE PERDOMO",
+   "camiseta": "7",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "67629",
+   "Jug_Sale": "FRANCO BATISTA",
+   "CarneEntra": "67040",
+   "Jug_Entra": "FACUNDO REDIN",
+   "camiseta": "29",
+   "minutos": "74"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "46510",
+   "Jug_Sale": "NICOLAS DE SANTA ANA",
+   "CarneEntra": "42298",
+   "Jug_Entra": "ANDRES FABIAN CARRASCO",
+   "camiseta": "5",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "52185",
+   "Jug_Sale": "SANTIAGO BARQUIN",
+   "CarneEntra": "51582",
+   "Jug_Entra": "ANDRES LAUTARO CARDARELLO",
+   "camiseta": "20",
+   "minutos": "65"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "56805",
+   "Nombre": "FACUNDO NAHUEL SILVA",
+   "minutos": "7",
+   "EnContra": "0"
+  },
+  {
+   "carne": "62162",
+   "Nombre": "LAUTARO RODRIGUEZ",
+   "minutos": "80",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "51993",
+   "Nombre": "MATIAS MAURIN",
+   "minutos": "10",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"G\" TIT. y ASC",
   "Cancha": "LOS TEROS",
-  "Fecha_Inicio": "2026-10-28 23:30:00",
-  "Fecha_fin": "2026-10-28 23:30:00",
+  "Fecha_Inicio": "2026-10-28 00:00:00",
+  "Fecha_fin": "2026-10-28 00:00:00",
   "Locatario": "VARELA UNIVERSITARIO",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,259 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "65735",
+   "Nombre": "LAUTARO ESCOBAR",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "47522",
+   "Nombre": "JUAN IGNACIO BELLO",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "63304",
+   "Nombre": "FRANCO MANUEL ROZINCHIN",
+   "camiseta": "15",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "63567",
+   "Nombre": "JUAN MANUEL CASAIS",
+   "camiseta": "98",
+   "Capitan": ""
+  },
+  {
+   "carne": "58662",
+   "Nombre": "SANTIAGO LOZANO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "41030",
+   "Nombre": "LUCAS GONZALEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "62838",
+   "Nombre": "TADEO ARES",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "53152",
+   "Nombre": "MANUEL ALONSO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "62581",
+   "Nombre": "MAURICIO ANDRES DEUS",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "67479",
+   "Nombre": "RAMIRO PASTRANA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "65878",
+   "Nombre": "IGNACIO DANIEL DOLDAN",
+   "camiseta": "77",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "62379",
+   "Nombre": "DIEGO MARTIN BENITEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "57262",
+   "Nombre": "BRIAN PATERA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "36515",
+   "Nombre": "SEBASTIAN ARSUAGA",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "68960",
+   "Nombre": "MAURICIO EZEQUIEL IMPERIAL",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "67176",
+   "Nombre": "LUCAS PIAS",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "64269",
+   "Nombre": "BRUNO NAHUEL ZELPO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "64267",
+   "Nombre": "AXEL MATEO ZELPO",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "51702",
+   "Nombre": "MAXIMILIANO GOMEZ",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "38933",
+   "Nombre": "RICARDO AGUSTIN PERDOMO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "39170",
+   "Nombre": "EMILIANO HELO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "45377",
+   "Nombre": "FRANCO FERRERO",
+   "camiseta": "80",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "63567",
+   "Jug_Sale": "JUAN MANUEL CASAIS",
+   "CarneEntra": "58727",
+   "Jug_Entra": "JOAQUIN GRACIANO",
+   "camiseta": "30",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "62581",
+   "Jug_Sale": "MAURICIO ANDRES DEUS",
+   "CarneEntra": "67476",
+   "Jug_Entra": "NICOLAS RIVERO",
+   "camiseta": "40",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "58662",
+   "Jug_Sale": "SANTIAGO LOZANO",
+   "CarneEntra": "50127",
+   "Jug_Entra": "SANTIAGO CALVETE",
+   "camiseta": "21",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "53152",
+   "Jug_Sale": "MANUEL ALONSO",
+   "CarneEntra": "62587",
+   "Jug_Entra": "MATEO ALONSO",
+   "camiseta": "6",
+   "minutos": "86"
+  },
+  {
+   "CarneSale": "62838",
+   "Jug_Sale": "TADEO ARES",
+   "CarneEntra": "55147",
+   "Jug_Entra": "EDUARDO IVAN UBAL",
+   "camiseta": "66",
+   "minutos": "86"
+  },
+  {
+   "CarneSale": "67479",
+   "Jug_Sale": "RAMIRO PASTRANA",
+   "CarneEntra": "58704",
+   "Jug_Entra": "IGNACIO JAVIER ROMERO",
+   "camiseta": "13",
+   "minutos": "88"
+  },
+  {
+   "CarneSale": "41030",
+   "Jug_Sale": "LUCAS GONZALEZ",
+   "CarneEntra": "55669",
+   "Jug_Entra": "MATEO PINTOS",
+   "camiseta": "17",
+   "minutos": "88"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "64269",
+   "Jug_Sale": "BRUNO NAHUEL ZELPO",
+   "CarneEntra": "33805",
+   "Jug_Entra": "GUSTAVO REBELLATO",
+   "camiseta": "8",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "57262",
+   "Jug_Sale": "BRIAN PATERA",
+   "CarneEntra": "47166",
+   "Jug_Entra": "ISMAEL NICOLAS BENITEZ",
+   "camiseta": "4",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "36515",
+   "Jug_Sale": "SEBASTIAN ARSUAGA",
+   "CarneEntra": "57259",
+   "Jug_Entra": "CARLOS  ALBERTO SANCHEZ",
+   "camiseta": "28",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "39170",
+   "Jug_Sale": "EMILIANO HELO",
+   "CarneEntra": "34073",
+   "Jug_Entra": "ALVARO MARTIN BADARACCO",
+   "camiseta": "11",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "51702",
+   "Jug_Sale": "MAXIMILIANO GOMEZ",
+   "CarneEntra": "57118",
+   "Jug_Entra": "ENZO BATISTA",
+   "camiseta": "19",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "64267",
+   "Jug_Sale": "AXEL MATEO ZELPO",
+   "CarneEntra": "57262",
+   "Jug_Entra": "BRIAN PATERA",
+   "camiseta": "17",
+   "minutos": "89"
+  }
+ ],
  "golesL": [],
- "golesV": [],
+ "golesV": [
+  {
+   "carne": "45377",
+   "Nombre": "FRANCO FERRERO",
+   "minutos": "18",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

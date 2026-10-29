@@ -3820,5 +3820,57 @@
   "fechas": 1,
   "detalle": "F:1 - UR:0",
   "texto": "Sanción generada automáticamente por expulsión en el partido"
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-10-29",
+  "partido": "382",
+  "serie": "M40P2",
+  "carne": "17833",
+  "nombre": "AGUSTIN MARIA ILLARAMENDI",
+  "club": "LATINO FUTBOL CLUB",
+  "sancion": "SUSPENDIDO",
+  "fechas": 2,
+  "detalle": "F:2 - UR:0",
+  "texto": "Art. 147 del C.P"
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-10-29",
+  "partido": "394",
+  "serie": "M40B2",
+  "carne": "31098",
+  "nombre": "SEBASTIAN NUÑEZ",
+  "club": "NUMA TURCATTI",
+  "sancion": "SUSPENDIDO",
+  "fechas": 1,
+  "detalle": "F:1 - UR:1",
+  "texto": "Art. 147 del C.P"
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-10-29",
+  "partido": "518",
+  "serie": "M40O2",
+  "carne": "35028",
+  "nombre": "JUAN MANUEL HUE",
+  "club": "PINAR JRS",
+  "sancion": "SUSPENDIDO",
+  "fechas": 2,
+  "detalle": "F:2 - UR:0",
+  "texto": "Art. 147 del C.P"
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-10-29",
+  "partido": "382",
+  "serie": "M40P2",
+  "carne": "63172",
+  "nombre": "PABLO RAUL VIÑAS",
+  "club": "POCO SITIO PLAYA VERDE",
+  "sancion": "SUSPENDIDO",
+  "fechas": 1,
+  "detalle": "F:1 - UR:1",
+  "texto": "Art. 151 del C.P"
  }
 ]

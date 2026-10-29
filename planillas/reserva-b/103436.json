@@ -1,0 +1,284 @@
+{
+ "id": "103436",
+ "categoria": "reserva-b",
+ "serie": "RSBTA",
+ "fecha": 5,
+ "fechaHora": "2026-10-28 21:00:00",
+ "cancha": "CAM. DEP. ASOC. HEBRAICA Y MAC",
+ "local": "ELBIO FERNANDEZ",
+ "visitante": "HEBRAICA UNIVERSITARIO",
+ "gl": 2,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "687",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "RESERVA",
+  "categoria": "RESERVA MASCULINO",
+  "rueda": "2",
+  "Divisional": "RESERVA \"B\" TIT. y ASC.",
+  "Cancha": "CAM. DEP. ASOC. HEBRAICA Y MAC",
+  "Fecha_Inicio": "2026-10-28 23:05:00",
+  "Fecha_fin": "2026-10-28 23:05:00",
+  "Locatario": "ELBIO FERNANDEZ",
+  "goles_locatario": "2",
+  "puntos_locatario": "3",
+  "Visitante": "HEBRAICA UNIVERSITARIO",
+  "goles_visitante": "1",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "59480",
+   "Nombre": "ENZO LEON FREYER",
+   "camiseta": "57",
+   "Capitan": ""
+  },
+  {
+   "carne": "57184",
+   "Nombre": "MARCO ESTEBAN TORIELLI",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "53447",
+   "Nombre": "SANTIAGO RAMON URQUIZA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "52135",
+   "Nombre": "LUCAS FONTES",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "51278",
+   "Nombre": "GUILLERMO AGUSTIN BELANDO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "69162",
+   "Nombre": "FACUNDO NICOLAS SILVESTRE",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "65964",
+   "Nombre": "BRUNO QUINELES",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "67243",
+   "Nombre": "SEBASTIAN ROSSO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "47472",
+   "Nombre": "JUAN PABLO PLA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "44165",
+   "Nombre": "FEDERICO ABDO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "47461",
+   "Nombre": "AGUSTIN DE LOS SALNTOS",
+   "camiseta": "26",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "45400",
+   "Nombre": "DANIEL DEGEN",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "43445",
+   "Nombre": "SEBASTIAN ZOLKWER",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "45841",
+   "Nombre": "MATIAS TROSTCHANSKY",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "45511",
+   "Nombre": "LUCAS LEVIN",
+   "camiseta": "4",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "64338",
+   "Nombre": "LUCAS DICHTENBERG",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "59244",
+   "Nombre": "AGUSTÌN PILAS",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "47255",
+   "Nombre": "ALAN SKORKA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "56384",
+   "Nombre": "MATIAS SZAFRAN",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "59245",
+   "Nombre": "AGUSTIN JUSTITZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "53835",
+   "Nombre": "MATEO NAHMIAS",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "54753",
+   "Nombre": "JOAQUIN BANEWUR",
+   "camiseta": "25",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "47472",
+   "Jug_Sale": "JUAN PABLO PLA",
+   "CarneEntra": "49808",
+   "Jug_Entra": "BRUNO FERNANDEZ",
+   "camiseta": "34",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "44165",
+   "Jug_Sale": "FEDERICO ABDO",
+   "CarneEntra": "50437",
+   "Jug_Entra": "MARTIN ALEJANDRO COSTA",
+   "camiseta": "9",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "52135",
+   "Jug_Sale": "LUCAS FONTES",
+   "CarneEntra": "47916",
+   "Jug_Entra": "MARTIN MENDEZ",
+   "camiseta": "25",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "51278",
+   "Jug_Sale": "GUILLERMO AGUSTIN BELANDO",
+   "CarneEntra": "66361",
+   "Jug_Entra": "MAXIMILIANO RATTO",
+   "camiseta": "21",
+   "minutos": "82"
+  },
+  {
+   "CarneSale": "57184",
+   "Jug_Sale": "MARCO ESTEBAN TORIELLI",
+   "CarneEntra": "56779",
+   "Jug_Entra": "JOAQUIN ELOLA",
+   "camiseta": "11",
+   "minutos": "87"
+  },
+  {
+   "CarneSale": "47461",
+   "Jug_Sale": "AGUSTIN DE LOS SALNTOS",
+   "CarneEntra": "67240",
+   "Jug_Entra": "JUAN MARTIN FAUST",
+   "camiseta": "5",
+   "minutos": "87"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "45400",
+   "Jug_Sale": "DANIEL DEGEN",
+   "CarneEntra": "45529",
+   "Jug_Entra": "NATHAN CARMONA",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "43445",
+   "Jug_Sale": "SEBASTIAN ZOLKWER",
+   "CarneEntra": "47421",
+   "Jug_Entra": "NICOLAS JAKOB",
+   "camiseta": "77",
+   "minutos": "32"
+  },
+  {
+   "CarneSale": "47255",
+   "Jug_Sale": "ALAN SKORKA",
+   "CarneEntra": "52405",
+   "Jug_Entra": "ARIEL SUHAMI",
+   "camiseta": "71",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "56384",
+   "Jug_Sale": "MATIAS SZAFRAN",
+   "CarneEntra": "47247",
+   "Jug_Entra": "ARIEL SOBOL",
+   "camiseta": "8",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "59244",
+   "Jug_Sale": "AGUSTÌN PILAS",
+   "CarneEntra": "43458",
+   "Jug_Entra": "MATIAS WILNER",
+   "camiseta": "17",
+   "minutos": "77"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "50437",
+   "Nombre": "MARTIN ALEJANDRO COSTA",
+   "minutos": "78",
+   "EnContra": "0"
+  },
+  {
+   "carne": "50437",
+   "Nombre": "MARTIN ALEJANDRO COSTA",
+   "minutos": "86",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "59245",
+   "Nombre": "AGUSTIN JUSTITZ",
+   "minutos": "85",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

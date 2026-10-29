@@ -1,0 +1,277 @@
+{
+ "id": "103439",
+ "categoria": "mayores-e",
+ "serie": "EPD",
+ "fecha": 1,
+ "fechaHora": "2026-09-27 09:00:00",
+ "cancha": "COMPLEJO DEPORTIVO H3O",
+ "local": "CLARA JACKSON UNIVERSITARIO",
+ "visitante": "UT SERVIAM",
+ "gl": 2,
+ "gv": 0,
+ "detalle": {
+  "nro_partido": "1093",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "MAYORES",
+  "categoria": "MAYORES MASCULINO",
+  "rueda": "2",
+  "Divisional": "MAYORES \"E\" PERM. y DESC.",
+  "Cancha": "COMPLEJO DEPORTIVO H3O",
+  "Fecha_Inicio": "2026-09-27 10:50:00",
+  "Fecha_fin": "2026-09-27 10:50:00",
+  "Locatario": "CLARA JACKSON UNIVERSITARIO",
+  "goles_locatario": "2",
+  "puntos_locatario": "3",
+  "Visitante": "UT SERVIAM",
+  "goles_visitante": "0",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "56085",
+   "Nombre": "MATEO LAPAZ",
+   "camiseta": "72",
+   "Capitan": ""
+  },
+  {
+   "carne": "48163",
+   "Nombre": "DANIEL EMILIO ORPI",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "47110",
+   "Nombre": "FERNANDO CABRERA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "57230",
+   "Nombre": "AGUSTIN LEAL",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "49756",
+   "Nombre": "DARIO MONSERRAT",
+   "camiseta": "6",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "60317",
+   "Nombre": "DIEGO BENJAMIN FERNANDEZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "60932",
+   "Nombre": "JOAQUIN FEDERICO CASTRO",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "69041",
+   "Nombre": "ALBERTO VALENTINO ORPI",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "66681",
+   "Nombre": "DIEGO RODRIGUEZ",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "43112",
+   "Nombre": "MATHIAS CABRERA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "58446",
+   "Nombre": "NICOLAS DEGUGLIELMI",
+   "camiseta": "18",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "46062",
+   "Nombre": "BRUNO BOUCHARD",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "68972",
+   "Nombre": "MATEO SERRON",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "42325",
+   "Nombre": "NICOLAS RODRIGUEZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "39586",
+   "Nombre": "NICOLAS BENEDETTI",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "37514",
+   "Nombre": "MARTIN BARBAGELATA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "69036",
+   "Nombre": "EMILIANO PIÑEYRO",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "44913",
+   "Nombre": "JOAQUIN BELTRAN",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "51595",
+   "Nombre": "MATIAS TORRE",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "36852",
+   "Nombre": "JUAN ANDRES BERTELLI",
+   "camiseta": "46",
+   "Capitan": ""
+  },
+  {
+   "carne": "40140",
+   "Nombre": "JUAN PEDRO CORA",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "35677",
+   "Nombre": "MIGUEL MARCOS PUGLIESE",
+   "camiseta": "27",
+   "Capitan": "(C)"
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "58446",
+   "Jug_Sale": "NICOLAS DEGUGLIELMI",
+   "CarneEntra": "61434",
+   "Jug_Entra": "JOSE DAVID LAGUNA",
+   "camiseta": "9",
+   "minutos": "54"
+  },
+  {
+   "CarneSale": "69041",
+   "Jug_Sale": "ALBERTO VALENTINO ORPI",
+   "CarneEntra": "35829",
+   "Jug_Entra": "FEDERICO MARTIN LAITANO",
+   "camiseta": "13",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "66681",
+   "Jug_Sale": "DIEGO RODRIGUEZ",
+   "CarneEntra": "55342",
+   "Jug_Entra": "JUAN ANDRES RODRIGUEZ",
+   "camiseta": "20",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "43112",
+   "Jug_Sale": "MATHIAS CABRERA",
+   "CarneEntra": "51411",
+   "Jug_Entra": "JUAN VICTORIO SILVERA",
+   "camiseta": "27",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "60317",
+   "Jug_Sale": "DIEGO BENJAMIN FERNANDEZ",
+   "CarneEntra": "41109",
+   "Jug_Entra": "FERNANDO ALVEZ",
+   "camiseta": "23",
+   "minutos": "91"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "40140",
+   "Jug_Sale": "JUAN PEDRO CORA",
+   "CarneEntra": "61818",
+   "Jug_Entra": "MANUEL SALVO",
+   "camiseta": "99",
+   "minutos": "46"
+  },
+  {
+   "CarneSale": "68972",
+   "Jug_Sale": "MATEO SERRON",
+   "CarneEntra": "51453",
+   "Jug_Entra": "DIEGO OCHOA",
+   "camiseta": "8",
+   "minutos": "46"
+  },
+  {
+   "CarneSale": "69036",
+   "Jug_Sale": "EMILIANO PIÑEYRO",
+   "CarneEntra": "46535",
+   "Jug_Entra": "MATHIAS NICOLAS MORAES",
+   "camiseta": "19",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "42325",
+   "Jug_Sale": "NICOLAS RODRIGUEZ",
+   "CarneEntra": "68972",
+   "Jug_Entra": "MATEO SERRON",
+   "camiseta": "29",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "36852",
+   "Jug_Sale": "JUAN ANDRES BERTELLI",
+   "CarneEntra": "66665",
+   "Jug_Entra": "LUIS ISMAEL UMPIERREZ",
+   "camiseta": "14",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "37514",
+   "Jug_Sale": "MARTIN BARBAGELATA",
+   "CarneEntra": "69036",
+   "Jug_Entra": "EMILIANO PIÑEYRO",
+   "camiseta": "34",
+   "minutos": "86"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "58446",
+   "Nombre": "NICOLAS DEGUGLIELMI",
+   "minutos": "32",
+   "EnContra": "0"
+  },
+  {
+   "carne": "69041",
+   "Nombre": "ALBERTO VALENTINO ORPI",
+   "minutos": "18",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

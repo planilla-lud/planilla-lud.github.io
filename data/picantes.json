@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-29T17:28:12.951Z",
+ "actualizado": "2026-10-29T23:18:28.714Z",
  "partidos": [
   {
    "div": "sub20-a",
@@ -49,7 +49,7 @@
    "n": 8,
    "base": 8,
    "tipo": "descenso",
-   "altasL": 2,
+   "altasL": 4,
    "altasV": 2
   },
   {
@@ -100,7 +100,7 @@
    "n": 8,
    "base": 0,
    "tipo": "titulo",
-   "altasL": 0,
+   "altasL": 2,
    "altasV": 1
   },
   {
@@ -271,7 +271,7 @@
    "base": 8,
    "tipo": "descenso",
    "altasL": 2,
-   "altasV": 2
+   "altasV": 3
   },
   {
    "div": "mayores-d",
@@ -376,23 +376,6 @@
    "altasV": 0
   },
   {
-   "div": "mayores-e",
-   "divNombre": "Mayores E",
-   "k": "Clara Jackson Universitario~Jean Piaget",
-   "l": "Clara Jackson Universitario",
-   "v": "Jean Piaget",
-   "dia": "2026-11-08",
-   "hora": "09:00",
-   "etapa": "Permanencia",
-   "pl": 7,
-   "pv": 6,
-   "n": 8,
-   "base": 8,
-   "tipo": "descenso",
-   "altasL": 1,
-   "altasV": 1
-  },
-  {
    "div": "mayores-f",
    "divNombre": "Mayores F",
    "k": "Bella Union Universitario~Tacuarembo Universitario",
@@ -440,7 +423,7 @@
    "n": 8,
    "base": 0,
    "tipo": "titulo",
-   "altasL": 1,
+   "altasL": 2,
    "altasV": 2
   },
   {
@@ -457,42 +440,25 @@
    "n": 8,
    "base": 8,
    "tipo": "descenso",
-   "altasL": 1,
+   "altasL": 2,
    "altasV": 0
   },
   {
    "div": "mayores-e",
    "divNombre": "Mayores E",
-   "k": "Deportivo Salto~Clara Jackson Universitario",
-   "l": "Deportivo Salto",
-   "v": "Clara Jackson Universitario",
-   "dia": "2026-11-01",
-   "hora": "11:15",
+   "k": "Clara Jackson Universitario~Jean Piaget",
+   "l": "Clara Jackson Universitario",
+   "v": "Jean Piaget",
+   "dia": "2026-11-08",
+   "hora": "09:00",
    "etapa": "Permanencia",
    "pl": 5,
    "pv": 7,
    "n": 8,
    "base": 8,
    "tipo": "descenso",
-   "altasL": 0,
+   "altasL": 1,
    "altasV": 1
-  },
-  {
-   "div": "sub18-oro",
-   "divNombre": "Sub 18 Oro",
-   "k": "Seminario~Old Christians",
-   "l": "Seminario",
-   "v": "Old Christians",
-   "dia": "2026-11-08",
-   "hora": "15:30",
-   "etapa": "Copa de Oro",
-   "pl": 2,
-   "pv": 3,
-   "n": 8,
-   "base": 0,
-   "tipo": "titulo",
-   "altasL": 4,
-   "altasV": 2
   },
   {
    "div": "presenior-e",

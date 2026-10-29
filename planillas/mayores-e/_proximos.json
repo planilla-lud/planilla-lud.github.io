@@ -1,17 +1,10 @@
 [
  {
-  "serie": "EPD",
-  "fechaHora": "2026-09-27 09:00:00",
-  "cancha": "COMPLEJO DEPORTIVO H3O",
-  "local": "CLARA JACKSON UNIVERSITARIO",
-  "visitante": "UT SERVIAM"
- },
- {
-  "serie": "EPD",
-  "fechaHora": "2026-10-28 21:00:00",
-  "cancha": "COMPLEJO LAS CASUARINAS",
-  "local": "EL CHORRO FUTBOL CLUB",
-  "visitante": "SUDAMERICA UNIVERSITARIO"
+  "serie": "ETA",
+  "fechaHora": "2026-11-01 09:00:00",
+  "cancha": "SANTA RITA",
+  "local": "SAN AGUSTIN",
+  "visitante": "CERVANTES UNIVERSITARIO"
  },
  {
   "serie": "ETA",
@@ -30,13 +23,6 @@
  {
   "serie": "ETA",
   "fechaHora": "2026-11-01 11:15:00",
-  "cancha": "SANTA RITA",
-  "local": "SAN AGUSTIN",
-  "visitante": "CERVANTES UNIVERSITARIO"
- },
- {
-  "serie": "ETA",
-  "fechaHora": "2026-11-01 11:15:00",
   "cancha": "COM. CLUB UNIVERSIDAD CATOLICA",
   "local": "ESTUDIANTES ESPAÑOLES",
   "visitante": "CLUB ESTUDIANTES INGENIERIA"
@@ -47,13 +33,6 @@
   "cancha": "COMPLEJO JUAN XXIII",
   "local": "UT SERVIAM",
   "visitante": "OLD SAMPA CLUB"
- },
- {
-  "serie": "EPD",
-  "fechaHora": "2026-11-01 11:15:00",
-  "cancha": "COMPLEJO NORTHFIELD",
-  "local": "DEPORTIVO SALTO",
-  "visitante": "CLARA JACKSON UNIVERSITARIO"
  },
  {
   "serie": "ETA",

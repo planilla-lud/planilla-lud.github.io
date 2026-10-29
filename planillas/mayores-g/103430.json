@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "DIVISIONAL \"G\" COPA PLATA",
   "Cancha": "COMPLEJO DEPORTIVO H3O",
-  "Fecha_Inicio": "2026-10-28 22:30:00",
-  "Fecha_fin": "2026-10-28 22:30:00",
+  "Fecha_Inicio": "2026-10-28 23:00:00",
+  "Fecha_fin": "2026-10-28 23:00:00",
   "Locatario": "COLEGIO Y LICEO SANTO DOMINGO",
   "goles_locatario": "1",
   "puntos_locatario": "0",
@@ -29,12 +29,230 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "54102",
+   "Nombre": "THIAGO ENRIQUE ROMERO",
+   "camiseta": "36",
+   "Capitan": ""
+  },
+  {
+   "carne": "44090",
+   "Nombre": "PABLO KALEMKERIAN",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "56459",
+   "Nombre": "JORGE PABLO SZOLLOSSY",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "51462",
+   "Nombre": "NAHUEL PICO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "46847",
+   "Nombre": "SANTIAGO MARIO CAYAFA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "41345",
+   "Nombre": "LUCAS ENRIQUE ALEIZON",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "61987",
+   "Nombre": "AGUSTIN NOVO",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "45143",
+   "Nombre": "NICOLAS GALEANO",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "58921",
+   "Nombre": "LEANDRO ANDRES GRIGNETTI",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "46846",
+   "Nombre": "SEBASTIAN MATTA",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "63190",
+   "Nombre": "MAURO CELIBERTI",
+   "camiseta": "16",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "52050",
+   "Nombre": "DIEGO SEBASTIAN HERNANDEZ",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "37587",
+   "Nombre": "GUILLERMO TOMAS RODRIGUEZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "64778",
+   "Nombre": "IGNACIO TABARE CLAVIJO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "46319",
+   "Nombre": "SERGIO MATIAS MARTINEZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "66263",
+   "Nombre": "JOAQUIN MANUEL MUÑOZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "68699",
+   "Nombre": "FACUNDO CASTRO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "43060",
+   "Nombre": "FACUNDO DE MARIA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "69114",
+   "Nombre": "IHOJAN EZEQUIEL ORTIZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "64477",
+   "Nombre": "DONATTO PAOLO RODRIGUEZ",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "63976",
+   "Nombre": "THIAGO ESCUDERO",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "46504",
+   "Nombre": "KEVIN RAFAEL JAURETCHE",
+   "camiseta": "17",
+   "Capitan": "(C)"
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "41345",
+   "Jug_Sale": "LUCAS ENRIQUE ALEIZON",
+   "CarneEntra": "40036",
+   "Jug_Entra": "FACUNDO NICOLAS PADRON",
+   "camiseta": "25",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "44090",
+   "Jug_Sale": "PABLO KALEMKERIAN",
+   "CarneEntra": "53206",
+   "Jug_Entra": "GASTON GALEANO",
+   "camiseta": "10",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "46846",
+   "Jug_Sale": "SEBASTIAN MATTA",
+   "CarneEntra": "55570",
+   "Jug_Entra": "MAXIMO FEDERICO ACQUADRO",
+   "camiseta": "13",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "63190",
+   "Jug_Sale": "MAURO CELIBERTI",
+   "CarneEntra": "46846",
+   "Jug_Entra": "SEBASTIAN MATTA",
+   "camiseta": "33",
+   "minutos": "90"
+  },
+  {
+   "CarneSale": "45143",
+   "Jug_Sale": "NICOLAS GALEANO",
+   "CarneEntra": "54903",
+   "Jug_Entra": "JUAN IGNACIO VIDAL",
+   "camiseta": "26",
+   "minutos": "91"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "68699",
+   "Jug_Sale": "FACUNDO CASTRO",
+   "CarneEntra": "49913",
+   "Jug_Entra": "SEBASTIAN PAZOS",
+   "camiseta": "92",
+   "minutos": "50"
+  },
+  {
+   "CarneSale": "43060",
+   "Jug_Sale": "FACUNDO DE MARIA",
+   "CarneEntra": "55318",
+   "Jug_Entra": "CARLOS FLEITAS",
+   "camiseta": "13",
+   "minutos": "50"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "56459",
+   "Nombre": "JORGE PABLO SZOLLOSSY",
+   "minutos": "3",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "63976",
+   "Nombre": "THIAGO ESCUDERO",
+   "minutos": "80",
+   "EnContra": "1"
+  },
+  {
+   "carne": "63976",
+   "Nombre": "THIAGO ESCUDERO",
+   "minutos": "97",
+   "EnContra": "1"
+  },
+  {
+   "carne": "66263",
+   "Nombre": "JOAQUIN MANUEL MUÑOZ",
+   "minutos": "98",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }
