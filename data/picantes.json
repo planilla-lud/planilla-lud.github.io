@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-29T02:52:58.149Z",
+ "actualizado": "2026-10-29T06:56:56.194Z",
  "partidos": [
   {
    "div": "sub20-a",
@@ -34,6 +34,23 @@
    "tipo": "titulo",
    "altasL": 2,
    "altasV": 0
+  },
+  {
+   "div": "reserva-a",
+   "divNombre": "Reserva A",
+   "k": "Ceibos Club~Obc Azulgrana.",
+   "l": "Ceibos Club",
+   "v": "Obc Azulgrana.",
+   "dia": "2026-11-07",
+   "hora": "09:00",
+   "etapa": "Permanencia",
+   "pl": 7,
+   "pv": 8,
+   "n": 8,
+   "base": 8,
+   "tipo": "descenso",
+   "altasL": 2,
+   "altasV": 2
   },
   {
    "div": "mayores-a",
@@ -359,6 +376,23 @@
    "altasV": 0
   },
   {
+   "div": "mayores-e",
+   "divNombre": "Mayores E",
+   "k": "Clara Jackson Universitario~Jean Piaget",
+   "l": "Clara Jackson Universitario",
+   "v": "Jean Piaget",
+   "dia": "2026-11-08",
+   "hora": "09:00",
+   "etapa": "Permanencia",
+   "pl": 6,
+   "pv": 7,
+   "n": 8,
+   "base": 8,
+   "tipo": "descenso",
+   "altasL": 1,
+   "altasV": 1
+  },
+  {
    "div": "mayores-f",
    "divNombre": "Mayores F",
    "k": "Bella Union Universitario~Tacuarembo Universitario",
@@ -476,40 +510,6 @@
    "tipo": "titulo",
    "altasL": 0,
    "altasV": 1
-  },
-  {
-   "div": "mayores-g",
-   "divNombre": "Mayores G",
-   "k": "Maristas Deportivo~Nuestra Señora De Lourdes",
-   "l": "Maristas Deportivo",
-   "v": "Nuestra Señora De Lourdes",
-   "dia": "2026-10-28",
-   "hora": "21:00",
-   "etapa": "Título y ascenso",
-   "pl": 4,
-   "pv": 1,
-   "n": 8,
-   "base": 0,
-   "tipo": "titulo",
-   "altasL": 0,
-   "altasV": 0
-  },
-  {
-   "div": "mayores-g",
-   "divNombre": "Mayores G",
-   "k": "Varela Universitario~Familiar Universitario",
-   "l": "Varela Universitario",
-   "v": "Familiar Universitario",
-   "dia": "2026-10-28",
-   "hora": "22:00",
-   "etapa": "Título y ascenso",
-   "pl": 2,
-   "pv": 3,
-   "n": 8,
-   "base": 0,
-   "tipo": "titulo",
-   "altasL": 0,
-   "altasV": 3
   }
  ]
 }
