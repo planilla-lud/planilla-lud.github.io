@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-28T23:11:25.846Z",
+ "actualizado": "2026-10-29T02:52:58.149Z",
  "partidos": [
   {
    "div": "sub20-a",
@@ -408,6 +408,23 @@
    "tipo": "titulo",
    "altasL": 1,
    "altasV": 2
+  },
+  {
+   "div": "mayores-d",
+   "divNombre": "Mayores D",
+   "k": "San Eugenio~Trouville Universitario",
+   "l": "San Eugenio",
+   "v": "Trouville Universitario",
+   "dia": "2026-11-08",
+   "hora": "09:00",
+   "etapa": "Permanencia",
+   "pl": 6,
+   "pv": 5,
+   "n": 8,
+   "base": 8,
+   "tipo": "descenso",
+   "altasL": 1,
+   "altasV": 0
   },
   {
    "div": "sub18-oro",
