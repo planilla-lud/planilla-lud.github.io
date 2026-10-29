@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-29T06:56:56.194Z",
+ "actualizado": "2026-10-29T17:28:12.951Z",
  "partidos": [
   {
    "div": "sub20-a",
@@ -384,8 +384,8 @@
    "dia": "2026-11-08",
    "hora": "09:00",
    "etapa": "Permanencia",
-   "pl": 6,
-   "pv": 7,
+   "pl": 7,
+   "pv": 6,
    "n": 8,
    "base": 8,
    "tipo": "descenso",
@@ -461,6 +461,23 @@
    "altasV": 0
   },
   {
+   "div": "mayores-e",
+   "divNombre": "Mayores E",
+   "k": "Deportivo Salto~Clara Jackson Universitario",
+   "l": "Deportivo Salto",
+   "v": "Clara Jackson Universitario",
+   "dia": "2026-11-01",
+   "hora": "11:15",
+   "etapa": "Permanencia",
+   "pl": 5,
+   "pv": 7,
+   "n": 8,
+   "base": 8,
+   "tipo": "descenso",
+   "altasL": 0,
+   "altasV": 1
+  },
+  {
    "div": "sub18-oro",
    "divNombre": "Sub 18 Oro",
    "k": "Seminario~Old Christians",
@@ -476,23 +493,6 @@
    "tipo": "titulo",
    "altasL": 4,
    "altasV": 2
-  },
-  {
-   "div": "mayores-e",
-   "divNombre": "Mayores E",
-   "k": "Deportivo Salto~Clara Jackson Universitario",
-   "l": "Deportivo Salto",
-   "v": "Clara Jackson Universitario",
-   "dia": "2026-11-01",
-   "hora": "11:15",
-   "etapa": "Permanencia",
-   "pl": 5,
-   "pv": 6,
-   "n": 8,
-   "base": 8,
-   "tipo": "descenso",
-   "altasL": 0,
-   "altasV": 1
   },
   {
    "div": "presenior-e",

@@ -1,33 +1,5 @@
 [
  {
-  "serie": "GPD",
-  "fechaHora": "2026-10-28 20:30:00",
-  "cancha": "POLIDEPORTIVO FAUQUET",
-  "local": "RIVER PLATE UNIVERSITARIO",
-  "visitante": "MARISCAL NASAZZI"
- },
- {
-  "serie": "GTA",
-  "fechaHora": "2026-10-28 21:00:00",
-  "cancha": "COMPLEJO LAS CASUARINAS",
-  "local": "MARISTAS DEPORTIVO",
-  "visitante": "NUESTRA SEÑORA DE LOURDES"
- },
- {
-  "serie": "GPD",
-  "fechaHora": "2026-10-28 21:00:00",
-  "cancha": "COMPLEJO DEPORTIVO H3O",
-  "local": "COLEGIO Y LICEO SANTO DOMINGO",
-  "visitante": "CENTRO GALLEGO"
- },
- {
-  "serie": "GTA",
-  "fechaHora": "2026-10-28 22:00:00",
-  "cancha": "COMPLEJO LOS NOGALES",
-  "local": "APENAS UNIVERSITARIO",
-  "visitante": "GOMENSORO"
- },
- {
   "serie": "GTA",
   "fechaHora": "2026-11-01 09:00:00",
   "cancha": "ESCUELA NAVAL",
