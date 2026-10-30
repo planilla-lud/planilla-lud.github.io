@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-29T23:18:28.714Z",
+ "actualizado": "2026-10-30T02:58:36.911Z",
  "partidos": [
   {
    "div": "sub20-a",
@@ -87,6 +87,23 @@
    "altasV": 2
   },
   {
+   "div": "mayores-a",
+   "divNombre": "Mayores A",
+   "k": "Juan XXIII~Carrasco Lawn Tennis",
+   "l": "Juan XXIII",
+   "v": "Carrasco Lawn Tennis",
+   "dia": "2026-11-08",
+   "hora": "09:00",
+   "etapa": "Permanencia",
+   "pl": 8,
+   "pv": 5,
+   "n": 8,
+   "base": 8,
+   "tipo": "descenso",
+   "altasL": 1,
+   "altasV": 3
+  },
+  {
    "div": "mas40-a",
    "divNombre": "Más 40 A",
    "k": "Old Boys~Old Christians",
@@ -102,23 +119,6 @@
    "tipo": "titulo",
    "altasL": 2,
    "altasV": 1
-  },
-  {
-   "div": "sub20-b",
-   "divNombre": "Sub 20 B",
-   "k": "Trouville Universitario~Seminario Universitario",
-   "l": "Trouville Universitario",
-   "v": "Seminario Universitario",
-   "dia": "2026-10-29",
-   "hora": "20:15",
-   "etapa": "Permanencia",
-   "pl": 6,
-   "pv": 7,
-   "n": 8,
-   "base": 8,
-   "tipo": "descenso",
-   "altasL": 0,
-   "altasV": 2
   },
   {
    "div": "reserva-b",
