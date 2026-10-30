@@ -114,13 +114,6 @@
  {
   "serie": "16F",
   "fechaHora": "2026-11-01 13:30:00",
-  "cancha": "COMPLEJO COLEGIO JESÚS MARÍA",
-  "local": "CLUB JESUS MARIA",
-  "visitante": "LA BLANQUEADA"
- },
- {
-  "serie": "16F",
-  "fechaHora": "2026-11-01 13:30:00",
   "cancha": "LANDIA",
   "local": "ESTUDIANTES DEL PLATA",
   "visitante": "ACADEMIA FRM"
@@ -138,6 +131,13 @@
   "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
   "local": "SEMINARIO UNIVERSITARIO",
   "visitante": "SCUOLA PALERMO"
+ },
+ {
+  "serie": "16F",
+  "fechaHora": "2026-11-03 19:00:00",
+  "cancha": "COMPLEJO LA MASIA",
+  "local": "CLUB JESUS MARIA",
+  "visitante": "LA BLANQUEADA"
  },
  {
   "serie": "16O",
