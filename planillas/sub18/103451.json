@@ -1,0 +1,286 @@
+{
+ "id": "103451",
+ "categoria": "sub18",
+ "serie": "18F",
+ "fecha": 2,
+ "fechaHora": "2026-10-25 16:00:00",
+ "cancha": "SAGRADA FAMILIA",
+ "local": "CLUB SOCIAL PIEDRAS BLANCAS",
+ "visitante": "A.E.B.U",
+ "gl": 1,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "464",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 18 ",
+  "categoria": "SUB 18 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB18 CONFRATERNIDAD",
+  "Cancha": "SAGRADA FAMILIA",
+  "Fecha_Inicio": "2026-10-25 17:55:00",
+  "Fecha_fin": "2026-10-25 17:55:00",
+  "Locatario": "CLUB SOCIAL PIEDRAS BLANCAS",
+  "goles_locatario": "1",
+  "puntos_locatario": "1",
+  "Visitante": "A.E.B.U",
+  "goles_visitante": "1",
+  "puntos_visitante": "1",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "66991",
+   "Nombre": "KEVIN EZEQUIEL CARDOZO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "69089",
+   "Nombre": "SEBASTIAN ACOSTA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "66989",
+   "Nombre": "LAUTARO AGUSTIN CUADRO",
+   "camiseta": "21",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "65731",
+   "Nombre": "AARON BAUTISTA GUILLEN",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "68292",
+   "Nombre": "THIAGO NICOLAS SILVA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "68752",
+   "Nombre": "LUCAS MATEO LAITANO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "63346",
+   "Nombre": "DYLAN MARCEL MENDEZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "69060",
+   "Nombre": "FACUNDO NAHUEL GONZALEZ",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "66983",
+   "Nombre": "ELIAS AGUSTIN DOS SANTOS",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "68293",
+   "Nombre": "MARIO AGUSTIN FERNANDEZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "65863",
+   "Nombre": "ALEX SANTIAGO MIGUEZ",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "67290",
+   "Nombre": "DIEGO FERNANDO NICOLENCO",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "67152",
+   "Nombre": "THIAGO MONGE",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "68783",
+   "Nombre": "TAMIR SCOCOZZA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "65427",
+   "Nombre": "MATEO MONROY",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "58700",
+   "Nombre": "DIEGO FERNANDO PERONE",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "67148",
+   "Nombre": "ANTHONY CRISTOPHE REYES",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "68280",
+   "Nombre": "ERDIBE CASAMAYOR",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "68641",
+   "Nombre": "BENICIO CAYAFFA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "67151",
+   "Nombre": "FELIPE MEDEROS",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "65130",
+   "Nombre": "FELIPE CUETO",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "61814",
+   "Nombre": "SANTIAGO JUAN MAGNANI",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "66989",
+   "Jug_Sale": "LAUTARO AGUSTIN CUADRO",
+   "CarneEntra": "69023",
+   "Jug_Entra": "RODRIGO MARTIN NUÑEZ",
+   "camiseta": "3",
+   "minutos": "51"
+  },
+  {
+   "CarneSale": "66991",
+   "Jug_Sale": "KEVIN EZEQUIEL CARDOZO",
+   "CarneEntra": "66988",
+   "Jug_Entra": "SEBASTIAN NICOLAS BARRIOS",
+   "camiseta": "15",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "65731",
+   "Jug_Sale": "AARON BAUTISTA GUILLEN",
+   "CarneEntra": "66982",
+   "Jug_Entra": "SANTIAGO GONZALEZ",
+   "camiseta": "13",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "65863",
+   "Jug_Sale": "ALEX SANTIAGO MIGUEZ",
+   "CarneEntra": "69179",
+   "Jug_Entra": "DAVID ISRAEL LUGO",
+   "camiseta": "9",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "66988",
+   "Jug_Sale": "SEBASTIAN NICOLAS BARRIOS",
+   "CarneEntra": "68295",
+   "Jug_Entra": "ALEXANDER JERAMEL ISBARBO",
+   "camiseta": "20",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "68293",
+   "Jug_Sale": "MARIO AGUSTIN FERNANDEZ",
+   "CarneEntra": "65731",
+   "Jug_Entra": "AARON BAUTISTA GUILLEN",
+   "camiseta": "8",
+   "minutos": "80"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "68641",
+   "Jug_Sale": "BENICIO CAYAFFA",
+   "CarneEntra": "67733",
+   "Jug_Entra": "ALEJANDRO MARRERO",
+   "camiseta": "80",
+   "minutos": "22"
+  },
+  {
+   "CarneSale": "68280",
+   "Jug_Sale": "ERDIBE CASAMAYOR",
+   "CarneEntra": "68025",
+   "Jug_Entra": "JAHAZIEL ANDRES GALANTON",
+   "camiseta": "17",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67148",
+   "Jug_Sale": "ANTHONY CRISTOPHE REYES",
+   "CarneEntra": "65420",
+   "Jug_Entra": "CONSTANTINO CABRERA",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58700",
+   "Jug_Sale": "DIEGO FERNANDO PERONE",
+   "CarneEntra": "65128",
+   "Jug_Entra": "RONALD CASTELLON",
+   "camiseta": "2",
+   "minutos": "82"
+  },
+  {
+   "CarneSale": "65427",
+   "Jug_Sale": "MATEO MONROY",
+   "CarneEntra": "68881",
+   "Jug_Entra": "MARTIN GOMEZ",
+   "camiseta": "67",
+   "minutos": "53"
+  },
+  {
+   "CarneSale": "65130",
+   "Jug_Sale": "FELIPE CUETO",
+   "CarneEntra": "68627",
+   "Jug_Entra": "FRANCISCO MENDES",
+   "camiseta": "30",
+   "minutos": "86"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "65863",
+   "Nombre": "ALEX SANTIAGO MIGUEZ",
+   "minutos": "52",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "61814",
+   "Nombre": "SANTIAGO JUAN MAGNANI",
+   "minutos": "87",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

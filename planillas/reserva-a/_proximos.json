@@ -9,6 +9,13 @@
  {
   "serie": "RSAT",
   "fechaHora": "2026-10-31 09:00:00",
+  "cancha": "COMPLEJO WOODLANDS SCHOOL",
+  "local": "OLD WOODLANDS CLUB",
+  "visitante": "CARRASCO LAWN TENNIS"
+ },
+ {
+  "serie": "RSAT",
+  "fechaHora": "2026-10-31 09:00:00",
   "cancha": "OLD CHRISTIANS CLUB",
   "local": "OLD CHRISTIANS AZUL",
   "visitante": "OLD BOYS CLUB"
@@ -19,13 +26,6 @@
   "cancha": "OLD CHRISTIANS CLUB",
   "local": "OLD CHRISTIANS CLUB",
   "visitante": "PLAYA HONDA UNIVERSITARIO"
- },
- {
-  "serie": "RSAT",
-  "fechaHora": "2026-10-31 11:15:00",
-  "cancha": "COMPLEJO WOODLANDS SCHOOL",
-  "local": "OLD WOODLANDS CLUB",
-  "visitante": "CARRASCO LAWN TENNIS"
  },
  {
   "serie": "RSAPD",
@@ -43,7 +43,7 @@
  },
  {
   "serie": "RSAT",
-  "fechaHora": "2026-11-02 21:30:00",
+  "fechaHora": "2026-11-03 21:30:00",
   "cancha": "CARRASCO POLO",
   "local": "PLAYA HONDA UNIVERSITARIO",
   "visitante": "CARRASCO POLO CLUB"

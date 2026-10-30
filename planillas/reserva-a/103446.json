@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"A\" TITULO",
   "Cancha": "CARRASCO POLO",
-  "Fecha_Inicio": "2026-10-29 22:30:00",
-  "Fecha_fin": "2026-10-29 22:30:00",
+  "Fecha_Inicio": "2026-10-29 23:10:00",
+  "Fecha_fin": "2026-10-29 23:10:00",
   "Locatario": "CARRASCO POLO CLUB",
   "goles_locatario": "3",
   "puntos_locatario": "3",
@@ -29,12 +29,265 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "53730",
+   "Nombre": "RENZO MACHIN",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "54900",
+   "Nombre": "TOMAS SANTIAGO VILLANUEVA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "47029",
+   "Nombre": "GUZMAN PIANGELUA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "53865",
+   "Nombre": "JOAQUIN RETHEMIAS",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "49091",
+   "Nombre": "MATEO ROSA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "24454",
+   "Nombre": "EMILIANO PISANO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "42512",
+   "Nombre": "NICOLAS BOLGER",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "50873",
+   "Nombre": "LUCIO FLANGINI",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "54897",
+   "Nombre": "THIAGO HERNANDEZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "54410",
+   "Nombre": "THIAGO TOLVE",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "43050",
+   "Nombre": "JOAQUIN COMPANY",
+   "camiseta": "24",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "55007",
+   "Nombre": "FACUNDO SERGIO RIGOLI",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "55476",
+   "Nombre": "IGNACIO MELLO",
+   "camiseta": "52",
+   "Capitan": ""
+  },
+  {
+   "carne": "55602",
+   "Nombre": "CAETANO MARRONE",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "53624",
+   "Nombre": "MATEO OURTHE",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "42059",
+   "Nombre": "RODRIGO FERREIRO",
+   "camiseta": "3",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "53595",
+   "Nombre": "CARLOS GONZALO DANERS",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "42290",
+   "Nombre": "PABLO JOAQUIN PARADO",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "49414",
+   "Nombre": "DIEGO GABRIEL HANDALIAN",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "48896",
+   "Nombre": "FACUNDO ALPUIN",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "49766",
+   "Nombre": "JUAN SALHON",
+   "camiseta": "69",
+   "Capitan": ""
+  },
+  {
+   "carne": "54738",
+   "Nombre": "THIAGO MORLAN",
+   "camiseta": "5",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "54900",
+   "Jug_Sale": "TOMAS SANTIAGO VILLANUEVA",
+   "CarneEntra": "49037",
+   "Jug_Entra": "SANTIAGO ROVELLA",
+   "camiseta": "2",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "50873",
+   "Jug_Sale": "LUCIO FLANGINI",
+   "CarneEntra": "40176",
+   "Jug_Entra": "JUAN PABLO RICO",
+   "camiseta": "25",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "43050",
+   "Jug_Sale": "JOAQUIN COMPANY",
+   "CarneEntra": "44668",
+   "Jug_Entra": "GONZALO COMPANY",
+   "camiseta": "11",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "49091",
+   "Jug_Sale": "MATEO ROSA",
+   "CarneEntra": "36092",
+   "Jug_Entra": "ANDRES GABRIEL DIPOLITO",
+   "camiseta": "16",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "53865",
+   "Jug_Sale": "JOAQUIN RETHEMIAS",
+   "CarneEntra": "53667",
+   "Jug_Entra": "MATEO ROLDAN",
+   "camiseta": "14",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "24454",
+   "Jug_Sale": "EMILIANO PISANO",
+   "CarneEntra": "48906",
+   "Jug_Entra": "LUCIANO MANGINI",
+   "camiseta": "9",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "54410",
+   "Jug_Sale": "THIAGO TOLVE",
+   "CarneEntra": "58221",
+   "Jug_Entra": "DIEGO ALEJANDRO NOGUERA",
+   "camiseta": "18",
+   "minutos": "83"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "42290",
+   "Jug_Sale": "PABLO JOAQUIN PARADO",
+   "CarneEntra": "45826",
+   "Jug_Entra": "VALENTIN DE LEONARDIS",
+   "camiseta": "19",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "49414",
+   "Jug_Sale": "DIEGO GABRIEL HANDALIAN",
+   "CarneEntra": "49489",
+   "Jug_Entra": "PAOLO PARIANI",
+   "camiseta": "8",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "53595",
+   "Jug_Sale": "CARLOS GONZALO DANERS",
+   "CarneEntra": "42290",
+   "Jug_Entra": "PABLO JOAQUIN PARADO",
+   "camiseta": "34",
+   "minutos": "70"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "40176",
+   "Nombre": "JUAN PABLO RICO",
+   "minutos": "89",
+   "EnContra": "0"
+  },
+  {
+   "carne": "53865",
+   "Nombre": "JOAQUIN RETHEMIAS",
+   "minutos": "40",
+   "EnContra": "0"
+  },
+  {
+   "carne": "54410",
+   "Nombre": "THIAGO TOLVE",
+   "minutos": "41",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "48896",
+   "Nombre": "FACUNDO ALPUIN",
+   "minutos": "67",
+   "EnContra": "1"
+  },
+  {
+   "carne": "49766",
+   "Nombre": "JUAN SALHON",
+   "minutos": "4",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
- "expulsadosV": []
+ "expulsadosV": [
+  {
+   "Nombre": "MATEO OURTHE",
+   "observaciones": ""
+  }
+ ]
 }

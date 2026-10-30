@@ -9,13 +9,6 @@
  {
   "serie": "PSCTA",
   "fechaHora": "2026-10-31 09:00:00",
-  "cancha": "COMPLEJO WOODLANDS SCHOOL",
-  "local": "OLD WOODLANDS CLUB",
-  "visitante": "EL CHORRO FUTBOL CLUB"
- },
- {
-  "serie": "PSCTA",
-  "fechaHora": "2026-10-31 09:00:00",
   "cancha": "COMPLEJO LOS CARDALES",
   "local": "SAN JUAN BAUTISTA",
   "visitante": "LA ESCAPADA UNIVERSITARIO"
@@ -40,6 +33,13 @@
   "cancha": "COLEGIO PIO",
   "local": "OLIMAR",
   "visitante": "ALEMAN UNIVERSITARIO"
+ },
+ {
+  "serie": "PSCTA",
+  "fechaHora": "2026-10-31 11:15:00",
+  "cancha": "COMPLEJO WOODLANDS SCHOOL",
+  "local": "OLD WOODLANDS CLUB",
+  "visitante": "EL CHORRO FUTBOL CLUB"
  },
  {
   "serie": "PSCPD",

@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-30T17:03:41.521Z",
+ "actualizado": "2026-10-30T21:30:40.429Z",
  "partidos": [
   {
    "div": "sub20-a",
@@ -25,7 +25,7 @@
    "l": "Old Woodlands",
    "v": "Carrasco Lawn Tennis",
    "dia": "2026-10-31",
-   "hora": "11:15",
+   "hora": "09:00",
    "etapa": "Título",
    "pl": 2,
    "pv": 1,
@@ -100,7 +100,7 @@
    "n": 8,
    "base": 8,
    "tipo": "descenso",
-   "altasL": 1,
+   "altasL": 0,
    "altasV": 3
   },
   {

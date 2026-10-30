@@ -114,13 +114,6 @@
  {
   "serie": "16F",
   "fechaHora": "2026-11-01 13:30:00",
-  "cancha": "LANDIA",
-  "local": "ESTUDIANTES DEL PLATA",
-  "visitante": "ACADEMIA FRM"
- },
- {
-  "serie": "16F",
-  "fechaHora": "2026-11-01 13:30:00",
   "cancha": "CAMPO DEP. INSTITUTO CRANDON",
   "local": "CRANDON UNIVERSITARIO",
   "visitante": "ARQUITECTURA JRS."
@@ -138,6 +131,13 @@
   "cancha": "COMPLEJO LA MASIA",
   "local": "CLUB JESUS MARIA",
   "visitante": "LA BLANQUEADA"
+ },
+ {
+  "serie": "16F",
+  "fechaHora": "2026-11-05 19:00:00",
+  "cancha": "LANDIA",
+  "local": "ESTUDIANTES DEL PLATA",
+  "visitante": "ACADEMIA FRM"
  },
  {
   "serie": "16O",

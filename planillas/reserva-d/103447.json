@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"D\" COPA DE PLATA",
   "Cancha": "COMPLEJO LA MASIA",
-  "Fecha_Inicio": "2026-10-29 22:30:00",
-  "Fecha_fin": "2026-10-29 22:30:00",
+  "Fecha_Inicio": "2026-10-29 23:00:00",
+  "Fecha_fin": "2026-10-29 23:00:00",
   "Locatario": "ANGLO SCHOOL UNIVERSITARIO",
   "goles_locatario": "4",
   "puntos_locatario": "3",
@@ -29,12 +29,274 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "65853",
+   "Nombre": "JUAN PEREIRA",
+   "camiseta": "1",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "54722",
+   "Nombre": "LUCAS SCAFARELLI",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "49636",
+   "Nombre": "AGUSTIN ALGORTA",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "43337",
+   "Nombre": "JUAN MANUEL URTIAGA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "52402",
+   "Nombre": "PEDRO SCHELOTTO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "42729",
+   "Nombre": "VALENTIN ALEJANDRO FERNANDEZ",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "66528",
+   "Nombre": "LUCA CANZANI",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "52808",
+   "Nombre": "SEBASTIAN USHER",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "49009",
+   "Nombre": "FACUNDO ACUÑA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "67387",
+   "Nombre": "GONZALO ESTEVES",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "45786",
+   "Nombre": "KEVIN TAUBER",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "62246",
+   "Nombre": "BRUNO MOREIRA",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "63777",
+   "Nombre": "FRANCO OLMOS",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "64071",
+   "Nombre": "FEDERICO SEBASTIAN BENITEZ",
+   "camiseta": "26",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "59027",
+   "Nombre": "RODRIGO IGNACIO VILAS",
+   "camiseta": "38",
+   "Capitan": ""
+  },
+  {
+   "carne": "53204",
+   "Nombre": "ARON SPINELLI",
+   "camiseta": "79",
+   "Capitan": ""
+  },
+  {
+   "carne": "65085",
+   "Nombre": "FRANCO DIEGO",
+   "camiseta": "55",
+   "Capitan": ""
+  },
+  {
+   "carne": "36368",
+   "Nombre": "MARCOS MANUEL QUEIROZ",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "58238",
+   "Nombre": "ALEJANDRO RODRIGUEZ",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "62488",
+   "Nombre": "JOAQUIN SEBASTIAN CASAL",
+   "camiseta": "76",
+   "Capitan": ""
+  },
+  {
+   "carne": "59029",
+   "Nombre": "GASTON VALENTINO CORNACCHIONE",
+   "camiseta": "37",
+   "Capitan": ""
+  },
+  {
+   "carne": "62487",
+   "Nombre": "ALEJO RAMIREZ",
+   "camiseta": "41",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "52808",
+   "Jug_Sale": "SEBASTIAN USHER",
+   "CarneEntra": "45778",
+   "Jug_Entra": "SANTIAGO BARBEITO",
+   "camiseta": "21",
+   "minutos": "18"
+  },
+  {
+   "CarneSale": "52402",
+   "Jug_Sale": "PEDRO SCHELOTTO",
+   "CarneEntra": "53378",
+   "Jug_Entra": "NICOLAS SILVA",
+   "camiseta": "14",
+   "minutos": "53"
+  },
+  {
+   "CarneSale": "49009",
+   "Jug_Sale": "FACUNDO ACUÑA",
+   "CarneEntra": "56305",
+   "Jug_Entra": "FRANCO GLISENTI",
+   "camiseta": "10",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "49636",
+   "Jug_Sale": "AGUSTIN ALGORTA",
+   "CarneEntra": "57343",
+   "Jug_Entra": "FEDERICO PELUFFO",
+   "camiseta": "19",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "52808",
+   "Jug_Sale": "SEBASTIAN USHER",
+   "CarneEntra": "53267",
+   "Jug_Entra": "MAXIMO TORNONI",
+   "camiseta": "80",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "67387",
+   "Jug_Sale": "GONZALO ESTEVES",
+   "CarneEntra": "53623",
+   "Jug_Entra": "IGNACIO AÑON",
+   "camiseta": "15",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "45786",
+   "Jug_Sale": "KEVIN TAUBER",
+   "CarneEntra": "53171",
+   "Jug_Entra": "FRANCISCO ACUÑA",
+   "camiseta": "33",
+   "minutos": "85"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "64071",
+   "Jug_Sale": "FEDERICO SEBASTIAN BENITEZ",
+   "CarneEntra": "66524",
+   "Jug_Entra": "EZEQUIEL ZANOLLI",
+   "camiseta": "24",
+   "minutos": "53"
+  },
+  {
+   "CarneSale": "65085",
+   "Jug_Sale": "FRANCO DIEGO",
+   "CarneEntra": "62984",
+   "Jug_Entra": "FABRIZIO VALVERDE",
+   "camiseta": "15",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "36368",
+   "Jug_Sale": "MARCOS MANUEL QUEIROZ",
+   "CarneEntra": "59907",
+   "Jug_Entra": "LUCIANO GONZALEZ",
+   "camiseta": "7",
+   "minutos": "87"
+  },
+  {
+   "CarneSale": "59029",
+   "Jug_Sale": "GASTON VALENTINO CORNACCHIONE",
+   "CarneEntra": "66523",
+   "Jug_Entra": "JUAN LLOPIS",
+   "camiseta": "90",
+   "minutos": "87"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "45786",
+   "Nombre": "KEVIN TAUBER",
+   "minutos": "8",
+   "EnContra": "0"
+  },
+  {
+   "carne": "45786",
+   "Nombre": "KEVIN TAUBER",
+   "minutos": "35",
+   "EnContra": "0"
+  },
+  {
+   "carne": "45786",
+   "Nombre": "KEVIN TAUBER",
+   "minutos": "56",
+   "EnContra": "0"
+  },
+  {
+   "carne": "67387",
+   "Nombre": "GONZALO ESTEVES",
+   "minutos": "30",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "58238",
+   "Nombre": "ALEJANDRO RODRIGUEZ",
+   "minutos": "38",
+   "EnContra": "1"
+  },
+  {
+   "carne": "62488",
+   "Nombre": "JOAQUIN SEBASTIAN CASAL",
+   "minutos": "60",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

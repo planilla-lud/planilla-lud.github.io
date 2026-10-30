@@ -7,13 +7,6 @@
   "visitante": "SEMINARIO UNIVERSITARIO"
  },
  {
-  "serie": "20BPD",
-  "fechaHora": "2026-10-30 20:00:00",
-  "cancha": "COMPLEJO DEPORTIVO ARRAYANES",
-  "local": "SAN AGUSTIN",
-  "visitante": "SANTA ELENA LAGOMAR"
- },
- {
   "serie": "20BTA",
   "fechaHora": "2026-10-31 13:30:00",
   "cancha": "COMPLEJO LOS NOGALES",
@@ -54,6 +47,13 @@
   "cancha": "VILLA MARIA",
   "local": "SAN JOSE DE LA PROVIDENCIA uni",
   "visitante": "LA BLANQUEADA"
+ },
+ {
+  "serie": "20BPD",
+  "fechaHora": "2026-10-31 15:30:00",
+  "cancha": "COMPLEJO DEPORTIVO ARRAYANES",
+  "local": "SAN AGUSTIN",
+  "visitante": "SANTA ELENA LAGOMAR"
  },
  {
   "serie": "20BTA",
