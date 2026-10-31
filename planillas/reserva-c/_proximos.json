@@ -2,44 +2,9 @@
  {
   "serie": "RSCTA",
   "fechaHora": "2026-10-31 11:15:00",
-  "cancha": "SAN EUGENIO",
-  "local": "SAN EUGENIO",
-  "visitante": "E.L.F."
- },
- {
-  "serie": "RSCTA",
-  "fechaHora": "2026-10-31 11:15:00",
   "cancha": "COLEGIO PIO",
   "local": "CENTRO CRISTOBAL COLON",
   "visitante": "SEMINARIO UNIVERSITARIO"
- },
- {
-  "serie": "RSCTA",
-  "fechaHora": "2026-10-31 11:15:00",
-  "cancha": "COMPLEJO JUAN XXIII",
-  "local": "SAN PABLO UNIVERSITARIO",
-  "visitante": "DANUBIO FUTBOL CLUB"
- },
- {
-  "serie": "RSCTA",
-  "fechaHora": "2026-10-31 11:15:00",
-  "cancha": "COMPLEJO JUAN XXIII",
-  "local": "JUAN XXIII BLANCO",
-  "visitante": "CEIBOS CLUB VERDE"
- },
- {
-  "serie": "RSCPD",
-  "fechaHora": "2026-10-31 11:15:00",
-  "cancha": "COMPLEJO JUAN XXIII",
-  "local": "LA BLANQUEADA",
-  "visitante": "WANDERERS"
- },
- {
-  "serie": "RSCPD",
-  "fechaHora": "2026-10-31 11:15:00",
-  "cancha": "LIMBURGO -DR.J.L.PISCIOTTANO-",
-  "local": "NUMA TURCATTI",
-  "visitante": "COLEGIO Y LICEO INGLES"
  },
  {
   "serie": "RSCPD",
@@ -47,6 +12,13 @@
   "cancha": "OLD CHRISTIANS CLUB",
   "local": "OLD CHRISTIANS NARANJA",
   "visitante": "PEÑAROL UNIVERSITARIO"
+ },
+ {
+  "serie": "RSCTA",
+  "fechaHora": "2026-11-05 11:15:00",
+  "cancha": "SAN EUGENIO",
+  "local": "SAN EUGENIO",
+  "visitante": "E.L.F."
  },
  {
   "serie": "RSCTA",

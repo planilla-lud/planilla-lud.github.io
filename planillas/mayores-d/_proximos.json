@@ -16,6 +16,13 @@
  {
   "serie": "DPD",
   "fechaHora": "2026-11-01 09:00:00",
+  "cancha": "JACKSONVILLE",
+  "local": "UNIVERSITARIO VERONES",
+  "visitante": "SALESIANOS DE LAS PIEDRAS"
+ },
+ {
+  "serie": "DPD",
+  "fechaHora": "2026-11-01 09:00:00",
   "cancha": "VILLA MARIA",
   "local": "DEPORTIVO MORON",
   "visitante": "LATINO FUTBOL CLUB"
@@ -40,13 +47,6 @@
   "cancha": "COMPLEJO JUAN XXIII",
   "local": "MOSSENS",
   "visitante": "NUMA TURCATTI"
- },
- {
-  "serie": "DPD",
-  "fechaHora": "2026-11-01 11:15:00",
-  "cancha": "JACKSONVILLE",
-  "local": "UNIVERSITARIO VERONES",
-  "visitante": "SALESIANOS DE LAS PIEDRAS"
  },
  {
   "serie": "DTA",

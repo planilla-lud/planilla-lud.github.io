@@ -2,23 +2,9 @@
  {
   "serie": "RSDPD",
   "fechaHora": "2026-10-31 09:00:00",
-  "cancha": "COM. CLUB UNIVERSIDAD CATOLICA",
-  "local": "C. U. CATOLICA AZUL",
-  "visitante": "SAN CONO"
- },
- {
-  "serie": "RSDPD",
-  "fechaHora": "2026-10-31 09:00:00",
   "cancha": "LIMBURGO -DR.J.L.PISCIOTTANO-",
   "local": "CLUB ATLETICO LIMBURGO",
   "visitante": "YAGUARI"
- },
- {
-  "serie": "RSDTA",
-  "fechaHora": "2026-10-31 11:15:00",
-  "cancha": "ELF (LICEO FRANCES)",
-  "local": "ELF BLANCO",
-  "visitante": "SAN AGUSTIN"
  },
  {
   "serie": "RSDTA",
@@ -36,27 +22,6 @@
  },
  {
   "serie": "RSDTA",
-  "fechaHora": "2026-10-31 11:15:00",
-  "cancha": "CAMPO MARISTAS DEPORTIVO",
-  "local": "MARISTAS DEPORTIVO",
-  "visitante": "CLUB SOCIAL PIEDRAS BLANCAS"
- },
- {
-  "serie": "RSDPD",
-  "fechaHora": "2026-10-31 11:15:00",
-  "cancha": "COMPLEJO LOS ROJOS",
-  "local": "LATINO FUTBOL CLUB",
-  "visitante": "TROUVILLE UNIVERSITARIO"
- },
- {
-  "serie": "RSDPD",
-  "fechaHora": "2026-10-31 11:15:00",
-  "cancha": "COMPLEJO INDEPENDIENTE UNIV.",
-  "local": "VARELA UNIVERSITARIO",
-  "visitante": "CLUB FUERZA AEREA"
- },
- {
-  "serie": "RSDTA",
   "fechaHora": "2026-11-05 00:00:00",
   "cancha": "COMPLEJO LAS CASUARINAS",
   "local": "MATURANA UNIVERSITARIO",
@@ -68,6 +33,13 @@
   "cancha": "CAMPUS DEL OESTE",
   "local": "YOUNG UNIVERSITARIO",
   "visitante": "TENIS EL PINAR SUB22"
+ },
+ {
+  "serie": "RSDTA",
+  "fechaHora": "2026-11-05 11:15:00",
+  "cancha": "ELF (LICEO FRANCES)",
+  "local": "ELF BLANCO",
+  "visitante": "SAN AGUSTIN"
  },
  {
   "serie": "RSDPD",

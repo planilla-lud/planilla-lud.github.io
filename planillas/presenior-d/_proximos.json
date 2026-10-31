@@ -1,24 +1,10 @@
 [
  {
-  "serie": "PSDTA",
-  "fechaHora": "2026-10-31 09:00:00",
-  "cancha": "COMPLEJO LOS ROJOS",
-  "local": "OLD BRENDANS CLUB",
-  "visitante": "DEPORTIVO MATADERO"
- },
- {
   "serie": "PSDPD",
   "fechaHora": "2026-10-31 09:00:00",
   "cancha": "CIUDAD DEPORTIVA ZONA LAB",
   "local": "JEAN PIAGET",
   "visitante": "LIVERPOOL UNIVERSITARIO"
- },
- {
-  "serie": "PSDTA",
-  "fechaHora": "2026-10-31 11:15:00",
-  "cancha": "COMPLEJO LOS ROJOS",
-  "local": "LATINO FUTBOL CLUB",
-  "visitante": "ESTUDIANTES ESPAÑOLES"
  },
  {
   "serie": "PSDTA",
@@ -33,13 +19,6 @@
   "cancha": "SCUOLA ITALIANA",
   "local": "SCUOLA PALERMO",
   "visitante": "DANUBIO FUTBOL CLUB"
- },
- {
-  "serie": "PSDPD",
-  "fechaHora": "2026-10-31 11:15:00",
-  "cancha": "COMPLEJO MARLUNA",
-  "local": "MATECHA",
-  "visitante": "ANGLO"
  },
  {
   "serie": "PSDTA",

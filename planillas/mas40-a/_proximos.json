@@ -2,37 +2,9 @@
  {
   "serie": "40CO",
   "fechaHora": "2026-10-31 09:00:00",
-  "cancha": "HARAS CUC",
-  "local": "UNIVERSITARIO VERONES",
-  "visitante": "GOMENSORO"
- },
- {
-  "serie": "40CO",
-  "fechaHora": "2026-10-31 09:00:00",
-  "cancha": "COMPLEJO DEPORTIVO ARRAYANES",
-  "local": "DEPORTIVO MATADERO",
-  "visitante": "CIRCULO DE TENIS MONTEVIDEO"
- },
- {
-  "serie": "40CO",
-  "fechaHora": "2026-10-31 09:00:00",
   "cancha": "COMPLEJO AZULGRANA",
   "local": "OLD BOYS CLUB",
   "visitante": "OLD CHRISTIANS CLUB"
- },
- {
-  "serie": "40CO",
-  "fechaHora": "2026-10-31 09:00:00",
-  "cancha": "COMPLEJO JUAN XXIII",
-  "local": "LA BLANQUEADA",
-  "visitante": "MATURANA UNIVERSITARIO"
- },
- {
-  "serie": "40CP",
-  "fechaHora": "2026-10-31 09:00:00",
-  "cancha": "COMPLEJO MARLUNA",
-  "local": "MATECHA",
-  "visitante": "CENTRO GALLEGO"
  },
  {
   "serie": "40CP",
@@ -40,13 +12,6 @@
   "cancha": "COMPLEJO URUNDAY UNIVERSITARIO",
   "local": "URUNDAY UNIVERSITARIO",
   "visitante": "CRANDON UNIVERSITARIO"
- },
- {
-  "serie": "40CP",
-  "fechaHora": "2026-10-31 11:15:00",
-  "cancha": "COMPLEJO LOS CARDALES",
-  "local": "HEBRAICA UNIVERSITARIO",
-  "visitante": "TACUAREMBO UNIVERSITARIO"
  },
  {
   "serie": "40CP",

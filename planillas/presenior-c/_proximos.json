@@ -1,59 +1,10 @@
 [
  {
-  "serie": "PSCTA",
-  "fechaHora": "2026-10-31 09:00:00",
-  "cancha": "MONTE VI \"LOS CEIBOS\"",
-  "local": "CEIBOS CLUB",
-  "visitante": "ODONTOLOGIA UNIVERSITARIO"
- },
- {
-  "serie": "PSCTA",
-  "fechaHora": "2026-10-31 09:00:00",
-  "cancha": "COMPLEJO LOS CARDALES",
-  "local": "SAN JUAN BAUTISTA",
-  "visitante": "LA ESCAPADA UNIVERSITARIO"
- },
- {
-  "serie": "PSCPD",
-  "fechaHora": "2026-10-31 09:00:00",
-  "cancha": "COMPLEJO DEPORTIVO ARRAYANES",
-  "local": "SAN EUGENIO",
-  "visitante": "CLARA JACKSON UNIVERSITARIO"
- },
- {
-  "serie": "PSCPD",
-  "fechaHora": "2026-10-31 09:00:00",
-  "cancha": "COMPLEJO DEPORTIVO ARRAYANES",
-  "local": "CLUB ESTUDIANTES INGENIERIA",
-  "visitante": "TACUAREMBO UNIVERSITARIO"
- },
- {
-  "serie": "PSCTA",
-  "fechaHora": "2026-10-31 11:15:00",
-  "cancha": "COLEGIO PIO",
-  "local": "OLIMAR",
-  "visitante": "ALEMAN UNIVERSITARIO"
- },
- {
-  "serie": "PSCTA",
-  "fechaHora": "2026-10-31 11:15:00",
-  "cancha": "COMPLEJO WOODLANDS SCHOOL",
-  "local": "OLD WOODLANDS CLUB",
-  "visitante": "EL CHORRO FUTBOL CLUB"
- },
- {
   "serie": "PSCPD",
   "fechaHora": "2026-10-31 11:15:00",
   "cancha": "SPORT 11",
   "local": "ARQUITECTURA JRS.",
   "visitante": "DEPORTIVO MITRE"
- },
- {
-  "serie": "PSCPD",
-  "fechaHora": "2026-10-31 11:15:00",
-  "cancha": "COMPLEJO LAS CASUARINAS",
-  "local": "FLORES UNIVERSITARIO",
-  "visitante": "SAN ISIDRO LOMAS UNIVERSITARIO"
  },
  {
   "serie": "PSCTA",

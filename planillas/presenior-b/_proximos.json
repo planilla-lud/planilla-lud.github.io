@@ -2,20 +2,6 @@
  {
   "serie": "PSBTA",
   "fechaHora": "2026-10-31 09:00:00",
-  "cancha": "COLEGIO PIO",
-  "local": "CENTRO CRISTOBAL COLON",
-  "visitante": "CIRCULO DE TENIS MONTEVIDEO"
- },
- {
-  "serie": "PSBTA",
-  "fechaHora": "2026-10-31 09:00:00",
-  "cancha": "COMPLEJO LAS CASUARINAS",
-  "local": "CLUB SOCIAL PIEDRAS BLANCAS",
-  "visitante": "RESISTENCIA"
- },
- {
-  "serie": "PSBTA",
-  "fechaHora": "2026-10-31 09:00:00",
   "cancha": "COMPLEJO LAS CASUARINAS",
   "local": "J.M.L.M",
   "visitante": "CRANDON UNIVERSITARIO"
@@ -29,24 +15,10 @@
  },
  {
   "serie": "PSBPD",
-  "fechaHora": "2026-10-31 09:00:00",
-  "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
-  "local": "CLUB SEMINARIO",
-  "visitante": "PERRY SEXTA UNIVERSITARIO"
- },
- {
-  "serie": "PSBPD",
   "fechaHora": "2026-10-31 11:15:00",
   "cancha": "COMPLEJO LAS CASUARINAS",
   "local": "OLD SAMPA CLUB",
   "visitante": "WOLFRAMIO"
- },
- {
-  "serie": "PSBPD",
-  "fechaHora": "2026-10-31 11:15:00",
-  "cancha": "COMPLEJO DEPORTIVO ARRAYANES",
-  "local": "ARGOS ",
-  "visitante": "ESTUDIANTIL SALTEÑO"
  },
  {
   "serie": "PSBTA",

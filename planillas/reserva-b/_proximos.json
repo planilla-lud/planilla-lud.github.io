@@ -1,54 +1,5 @@
 [
  {
-  "serie": "RSBTA",
-  "fechaHora": "2026-10-31 09:00:00",
-  "cancha": "OLD CHRISTIANS CLUB",
-  "local": "OLD CHRISTIANS BLANCO",
-  "visitante": "INDEPENDIENTE"
- },
- {
-  "serie": "RSBPD",
-  "fechaHora": "2026-10-31 09:00:00",
-  "cancha": "CAMPO DEP. INSTITUTO CRANDON",
-  "local": "CRANDON UNIVERSITARIO",
-  "visitante": "COLEGIO SANTA ELENA"
- },
- {
-  "serie": "RSBPD",
-  "fechaHora": "2026-10-31 09:00:00",
-  "cancha": "COMPLEJO JUAN XXIII",
-  "local": "JUAN XXIII",
-  "visitante": "SAN JUAN BAUTISTA"
- },
- {
-  "serie": "RSBTA",
-  "fechaHora": "2026-10-31 11:15:00",
-  "cancha": "COMPLEJO LOS ROJOS",
-  "local": "OLD BRENDANS CLUB",
-  "visitante": "URUNDAY UNIVERSITARIO"
- },
- {
-  "serie": "RSBTA",
-  "fechaHora": "2026-10-31 11:15:00",
-  "cancha": "COMPLEJO LAS CASUARINAS",
-  "local": "J.M.L.M",
-  "visitante": "OLD CHRISTIANS VERDE"
- },
- {
-  "serie": "RSBPD",
-  "fechaHora": "2026-10-31 11:15:00",
-  "cancha": "COMPLEJO DEPORTIVO ARRAYANES",
-  "local": "SANTA ELENA LAGOMAR",
-  "visitante": "CIRCULO DE TENIS MONTEVIDEO"
- },
- {
-  "serie": "RSBPD",
-  "fechaHora": "2026-10-31 11:15:00",
-  "cancha": "COM. CLUB UNIVERSIDAD CATOLICA",
-  "local": "CLUB UNIVERSIDAD CATOLICA",
-  "visitante": "OLD IVY"
- },
- {
   "serie": "RSBPD",
   "fechaHora": "2026-11-07 00:00:00",
   "cancha": "CANCHA A FIJAR",

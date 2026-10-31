@@ -23,13 +23,6 @@
  {
   "serie": "20C2",
   "fechaHora": "2026-10-31 15:30:00",
-  "cancha": "CLUB ALEMAN",
-  "local": "ALEMAN UNIVERSITARIO",
-  "visitante": "CLUB JESUS MARIA"
- },
- {
-  "serie": "20C2",
-  "fechaHora": "2026-10-31 15:30:00",
   "cancha": "COLEGIO PIO",
   "local": "CENTRO CRISTOBAL COLON",
   "visitante": "MARISTAS DEPORTIVO"
@@ -54,6 +47,13 @@
   "cancha": "COMPLEJO LAS CASUARINAS",
   "local": "COLEGIO Y LICEO SANTO DOMINGO",
   "visitante": "PALLOTTI UNIVERSITARIO"
+ },
+ {
+  "serie": "20C2",
+  "fechaHora": "2026-11-05 15:30:00",
+  "cancha": "CLUB ALEMAN",
+  "local": "ALEMAN UNIVERSITARIO",
+  "visitante": "CLUB JESUS MARIA"
  },
  {
   "serie": "20C2",

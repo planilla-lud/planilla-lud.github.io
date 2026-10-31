@@ -72,7 +72,7 @@
  {
   "serie": "16B",
   "fechaHora": "2026-11-01 13:30:00",
-  "cancha": "COM. CLUB UNIVERSIDAD CATOLICA",
+  "cancha": "COLEGIO ARETEIA",
   "local": "POCO SITIO PLAYA VERDE",
   "visitante": "DEP.de la C. ARETEIA BIMBULLY"
  },
@@ -89,13 +89,6 @@
   "cancha": "CLUB ALEMAN",
   "local": "ALEMAN UNIVERSITARIO",
   "visitante": "TENIS EL PINAR"
- },
- {
-  "serie": "16C",
-  "fechaHora": "2026-11-01 13:30:00",
-  "cancha": "CAM. DEP. ASOC. HEBRAICA Y MAC",
-  "local": "HEBRAICA UNIVERSITARIO",
-  "visitante": "PERRY SEXTA UNIVERSITARIO"
  },
  {
   "serie": "16C",
@@ -131,6 +124,13 @@
   "cancha": "COMPLEJO LA MASIA",
   "local": "CLUB JESUS MARIA",
   "visitante": "LA BLANQUEADA"
+ },
+ {
+  "serie": "16C",
+  "fechaHora": "2026-11-05 13:30:00",
+  "cancha": "CAM. DEP. ASOC. HEBRAICA Y MAC",
+  "local": "HEBRAICA UNIVERSITARIO",
+  "visitante": "PERRY SEXTA UNIVERSITARIO"
  },
  {
   "serie": "16F",
