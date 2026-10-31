@@ -4487,6 +4487,19 @@
  {
   "tipo": "automatica",
   "fecha": "2026-10-25",
+  "partido": "379",
+  "serie": "18P",
+  "carne": "59812",
+  "nombre": "FRANCO EMANUEL NUÑEZ",
+  "club": "E.L.F.",
+  "sancion": "SANCIÓN AUTOMÁTICA",
+  "fechas": 1,
+  "detalle": "F:1 - UR:0",
+  "texto": "Sanción generada automáticamente por expulsión en el partido"
+ },
+ {
+  "tipo": "automatica",
+  "fecha": "2026-10-25",
   "partido": "407",
   "serie": "18B",
   "carne": "62547",

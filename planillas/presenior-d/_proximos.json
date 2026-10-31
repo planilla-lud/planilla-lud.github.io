@@ -9,13 +9,6 @@
  {
   "serie": "PSDPD",
   "fechaHora": "2026-10-31 09:00:00",
-  "cancha": "COMPLEJO LAS CASUARINAS",
-  "local": "UT SERVIAM",
-  "visitante": "NUMA TURCATTI"
- },
- {
-  "serie": "PSDPD",
-  "fechaHora": "2026-10-31 09:00:00",
   "cancha": "CIUDAD DEPORTIVA ZONA LAB",
   "local": "JEAN PIAGET",
   "visitante": "LIVERPOOL UNIVERSITARIO"
@@ -30,7 +23,7 @@
  {
   "serie": "PSDTA",
   "fechaHora": "2026-10-31 11:15:00",
-  "cancha": "COMPLEJO ARACHAN",
+  "cancha": "COMPLEJO LAS CASUARINAS",
   "local": "BODY FACTORY",
   "visitante": "CLUB FUERZA AEREA"
  },
@@ -47,13 +40,6 @@
   "cancha": "COMPLEJO MARLUNA",
   "local": "MATECHA",
   "visitante": "ANGLO"
- },
- {
-  "serie": "PSDPD",
-  "fechaHora": "2026-10-31 11:15:00",
-  "cancha": "COM. DEP. CLUB TROUVILLE",
-  "local": "TROUVILLE UNIVERSITARIO",
-  "visitante": "MATURANA UNIVERSITARIO"
  },
  {
   "serie": "PSDTA",
@@ -166,5 +152,19 @@
   "cancha": "COM. CLUB UNIVERSIDAD CATOLICA",
   "local": "ANGLO",
   "visitante": "NUMA TURCATTI"
+ },
+ {
+  "serie": "PSDPD",
+  "fechaHora": "2026-12-30 00:00:00",
+  "cancha": "WALKOVER",
+  "local": "UT SERVIAM",
+  "visitante": "NUMA TURCATTI"
+ },
+ {
+  "serie": "PSDPD",
+  "fechaHora": "2026-12-30 00:00:00",
+  "cancha": "WALKOVER",
+  "local": "TROUVILLE UNIVERSITARIO",
+  "visitante": "MATURANA UNIVERSITARIO"
  }
 ]

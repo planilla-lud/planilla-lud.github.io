@@ -16,13 +16,6 @@
  {
   "serie": "RSDTA",
   "fechaHora": "2026-10-31 11:15:00",
-  "cancha": "COMPLEJO LAS CASUARINAS",
-  "local": "MATURANA UNIVERSITARIO",
-  "visitante": "CLUB JESUS MARIA"
- },
- {
-  "serie": "RSDTA",
-  "fechaHora": "2026-10-31 11:15:00",
   "cancha": "ELF (LICEO FRANCES)",
   "local": "ELF BLANCO",
   "visitante": "SAN AGUSTIN"
@@ -30,7 +23,7 @@
  {
   "serie": "RSDTA",
   "fechaHora": "2026-10-31 11:15:00",
-  "cancha": "COMPLEJO 1GOL",
+  "cancha": "CIUDAD DEPORTIVA ZONA LAB",
   "local": "CERVANTES UNIVERSITARIO",
   "visitante": "ARQUITECTURA JRS."
  },
@@ -49,13 +42,6 @@
   "visitante": "CLUB SOCIAL PIEDRAS BLANCAS"
  },
  {
-  "serie": "RSDTA",
-  "fechaHora": "2026-10-31 11:15:00",
-  "cancha": "CAMPUS DEL OESTE",
-  "local": "YOUNG UNIVERSITARIO",
-  "visitante": "TENIS EL PINAR SUB22"
- },
- {
   "serie": "RSDPD",
   "fechaHora": "2026-10-31 11:15:00",
   "cancha": "COMPLEJO LOS ROJOS",
@@ -68,6 +54,20 @@
   "cancha": "COMPLEJO INDEPENDIENTE UNIV.",
   "local": "VARELA UNIVERSITARIO",
   "visitante": "CLUB FUERZA AEREA"
+ },
+ {
+  "serie": "RSDTA",
+  "fechaHora": "2026-11-05 00:00:00",
+  "cancha": "COMPLEJO LAS CASUARINAS",
+  "local": "MATURANA UNIVERSITARIO",
+  "visitante": "CLUB JESUS MARIA"
+ },
+ {
+  "serie": "RSDTA",
+  "fechaHora": "2026-11-05 00:00:00",
+  "cancha": "CAMPUS DEL OESTE",
+  "local": "YOUNG UNIVERSITARIO",
+  "visitante": "TENIS EL PINAR SUB22"
  },
  {
   "serie": "RSDPD",

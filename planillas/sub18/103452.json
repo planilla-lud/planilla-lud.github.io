@@ -1,0 +1,260 @@
+{
+ "id": "103452",
+ "categoria": "sub18",
+ "serie": "18P",
+ "fecha": 2,
+ "fechaHora": "2026-10-25 15:30:00",
+ "cancha": "ELF (LICEO FRANCES)",
+ "local": "E.L.F.",
+ "visitante": "SAGRADA FAMILIA UNIVERSITARIO",
+ "gl": 1,
+ "gv": 2,
+ "detalle": {
+  "nro_partido": "379",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 18 ",
+  "categoria": "SUB 18 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB18 PLATA",
+  "Cancha": "ELF (LICEO FRANCES)",
+  "Fecha_Inicio": "2026-10-25 17:30:00",
+  "Fecha_fin": "2026-10-25 17:30:00",
+  "Locatario": "E.L.F.",
+  "goles_locatario": "1",
+  "puntos_locatario": "0",
+  "Visitante": "SAGRADA FAMILIA UNIVERSITARIO",
+  "goles_visitante": "2",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "60898",
+   "Nombre": "JOAQUIN TRIAS",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "60273",
+   "Nombre": "LUCAS FLORENTINO",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "67093",
+   "Nombre": "FEDERICO SISIASVILI",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "57687",
+   "Nombre": "RAMIRO MENDEZ",
+   "camiseta": "18",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56753",
+   "Nombre": "JUAN MARTIN BENQUET",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "57955",
+   "Nombre": "MATIAS VIÑAR",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "60555",
+   "Nombre": "MARCOS TRIGO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "64228",
+   "Nombre": "FELIPE BARDIER",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "57927",
+   "Nombre": "MATEO TIO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "61087",
+   "Nombre": "MANUEL RODRIGUEZ",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "59824",
+   "Nombre": "ALFONSO JOSE BECOÑA",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "62423",
+   "Nombre": "ISMAEL BENADERET",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "65982",
+   "Nombre": "JUAN VALENTINO BRINGA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "60285",
+   "Nombre": "FELIPE AGUIRRE",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "67661",
+   "Nombre": "SANTIAGO SAUCO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "58692",
+   "Nombre": "BENJAMIN SPOTURNO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "58681",
+   "Nombre": "MARTIN TOMAS GARCIA GARCIA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "58695",
+   "Nombre": "AGUSTIN SANTOS",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "61835",
+   "Nombre": "MAXIMILIANO NUÑEZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "65070",
+   "Nombre": "JUAN GERMAN DAVILA",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "66812",
+   "Nombre": "FELIPE LARREGUI",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "67562",
+   "Nombre": "IKER PINTOS",
+   "camiseta": "59",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "60898",
+   "Jug_Sale": "JOAQUIN TRIAS",
+   "CarneEntra": "62388",
+   "Jug_Entra": "GONZALO VERANO",
+   "camiseta": "12",
+   "minutos": "37"
+  },
+  {
+   "CarneSale": "61087",
+   "Jug_Sale": "MANUEL RODRIGUEZ",
+   "CarneEntra": "64813",
+   "Jug_Entra": "BRUNO ALDAY",
+   "camiseta": "15",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "56753",
+   "Jug_Sale": "JUAN MARTIN BENQUET",
+   "CarneEntra": "67529",
+   "Jug_Entra": "PEDRO BAZ",
+   "camiseta": "13",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "57927",
+   "Jug_Sale": "MATEO TIO",
+   "CarneEntra": "67092",
+   "Jug_Entra": "FACUNDO ABDALA",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "60273",
+   "Jug_Sale": "LUCAS FLORENTINO",
+   "CarneEntra": "61161",
+   "Jug_Entra": "FACUNDO CORREA",
+   "camiseta": "19",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64228",
+   "Jug_Sale": "FELIPE BARDIER",
+   "CarneEntra": "59812",
+   "Jug_Entra": "FRANCO EMANUEL NUÑEZ",
+   "camiseta": "6",
+   "minutos": "45"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "65070",
+   "Jug_Sale": "JUAN GERMAN DAVILA",
+   "CarneEntra": "66387",
+   "Jug_Entra": "URIEL FEDERICO PERA",
+   "camiseta": "32",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "58695",
+   "Jug_Sale": "AGUSTIN SANTOS",
+   "CarneEntra": "60277",
+   "Jug_Entra": "BRUNO FACELLO",
+   "camiseta": "20",
+   "minutos": "45"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "60555",
+   "Nombre": "MARCOS TRIGO",
+   "minutos": "19",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "58695",
+   "Nombre": "AGUSTIN SANTOS",
+   "minutos": "57",
+   "EnContra": "1"
+  },
+  {
+   "carne": "66812",
+   "Nombre": "FELIPE LARREGUI",
+   "minutos": "89",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

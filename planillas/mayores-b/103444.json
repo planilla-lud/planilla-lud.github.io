@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"B\" PERM. y DESC.",
   "Cancha": "COM. DEP. CLUB TROUVILLE",
-  "Fecha_Inicio": "2026-10-29 23:45:00",
-  "Fecha_fin": "2026-10-29 23:45:00",
+  "Fecha_Inicio": "2026-10-29 00:15:00",
+  "Fecha_fin": "2026-10-29 00:15:00",
   "Locatario": "CLUB UNIVERSIDAD CATOLICA",
   "goles_locatario": "2",
   "puntos_locatario": "0",
@@ -29,12 +29,304 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "58893",
+   "Nombre": "LUCAS AGUSTIN RODRIGUEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "32373",
+   "Nombre": "AGUSTIN OLIVERI",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "54349",
+   "Nombre": "DIEGO FERNANDEZ",
+   "camiseta": "55",
+   "Capitan": ""
+  },
+  {
+   "carne": "34600",
+   "Nombre": "STEFANO VITTORIO CAMAROTE",
+   "camiseta": "2",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "34367",
+   "Nombre": "JUAN MARTIN LEMA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "38087",
+   "Nombre": "MARIANO CORTIZAS",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "34231",
+   "Nombre": "SEBASTIAN NICOLAS RODRIGUEZ",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "63107",
+   "Nombre": "MATEO NUÑEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "54369",
+   "Nombre": "JONATHAN AGUSTÌN REY",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "33252",
+   "Nombre": "GASTON SANCHEZ",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "62289",
+   "Nombre": "JEREMIAS RUIZ DIAZ",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "47699",
+   "Nombre": "VALENTIN ROSSI",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "56731",
+   "Nombre": "JOAQUIN MAYER",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "45391",
+   "Nombre": "FELIPE MOROSOFF",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "51840",
+   "Nombre": "AGUSTIN CABALLERO",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "51200",
+   "Nombre": "LUCAS EXEQUIEL GUERRERO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "56653",
+   "Nombre": "JOAQUIN CUBON",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "56810",
+   "Nombre": "JUAN IGNACIO ABATE",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "42509",
+   "Nombre": "JUAN PABLO MUÑOZ",
+   "camiseta": "8",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "54010",
+   "Nombre": "TOMAS NAHUEL MANCINI",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "55130",
+   "Nombre": "RENZO ECHAGUE",
+   "camiseta": "86",
+   "Capitan": ""
+  },
+  {
+   "carne": "50934",
+   "Nombre": "JUAN IGNACIO MOLFINO",
+   "camiseta": "15",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "32373",
+   "Jug_Sale": "AGUSTIN OLIVERI",
+   "CarneEntra": "39855",
+   "Jug_Entra": "MARTIN CAMPOS",
+   "camiseta": "19",
+   "minutos": "4"
+  },
+  {
+   "CarneSale": "38087",
+   "Jug_Sale": "MARIANO CORTIZAS",
+   "CarneEntra": "63597",
+   "Jug_Entra": "SANTIAGO ECHEVERRIA",
+   "camiseta": "16",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "62289",
+   "Jug_Sale": "JEREMIAS RUIZ DIAZ",
+   "CarneEntra": "40253",
+   "Jug_Entra": "FACUNDO MARTINEZ",
+   "camiseta": "23",
+   "minutos": "49"
+  },
+  {
+   "CarneSale": "54349",
+   "Jug_Sale": "DIEGO FERNANDEZ",
+   "CarneEntra": "66696",
+   "Jug_Entra": "RODRIGO CABRERA",
+   "camiseta": "24",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "54369",
+   "Jug_Sale": "JONATHAN AGUSTÌN REY",
+   "CarneEntra": "53606",
+   "Jug_Entra": "GUILLERMO ANDRES REBOLLO",
+   "camiseta": "21",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "63597",
+   "Jug_Sale": "SANTIAGO ECHEVERRIA",
+   "CarneEntra": "45788",
+   "Jug_Entra": "NICOLAS ALEJANDRO MARTINEZ",
+   "camiseta": "8",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "33252",
+   "Jug_Sale": "GASTON SANCHEZ",
+   "CarneEntra": "46926",
+   "Jug_Entra": "MATIAS ANDRES MUNIZ",
+   "camiseta": "7",
+   "minutos": "75"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "54010",
+   "Jug_Sale": "TOMAS NAHUEL MANCINI",
+   "CarneEntra": "43095",
+   "Jug_Entra": "FACUNDO SEBASTIAN LÒPEZ",
+   "camiseta": "45",
+   "minutos": "53"
+  },
+  {
+   "CarneSale": "56810",
+   "Jug_Sale": "JUAN IGNACIO ABATE",
+   "CarneEntra": "62732",
+   "Jug_Entra": "JOAQUIN AFONSO",
+   "camiseta": "20",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "42509",
+   "Jug_Sale": "JUAN PABLO MUÑOZ",
+   "CarneEntra": "69112",
+   "Jug_Entra": "ELIAS JOSE MEDINA",
+   "camiseta": "30",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "51840",
+   "Jug_Sale": "AGUSTIN CABALLERO",
+   "CarneEntra": "55671",
+   "Jug_Entra": "JOAQUIN GUSTAVO MIGUES",
+   "camiseta": "46",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "55130",
+   "Jug_Sale": "RENZO ECHAGUE",
+   "CarneEntra": "44462",
+   "Jug_Entra": "SANTIAGO LAMANNA",
+   "camiseta": "11",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "51200",
+   "Jug_Sale": "LUCAS EXEQUIEL GUERRERO",
+   "CarneEntra": "33773",
+   "Jug_Entra": "JUAN ANDRES MOROSOFF",
+   "camiseta": "25",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "45391",
+   "Jug_Sale": "FELIPE MOROSOFF",
+   "CarneEntra": "20875",
+   "Jug_Entra": "JUAN ANDRES AREOSA",
+   "camiseta": "4",
+   "minutos": "70"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "62289",
+   "Nombre": "JEREMIAS RUIZ DIAZ",
+   "minutos": "27",
+   "EnContra": "0"
+  },
+  {
+   "carne": "63107",
+   "Nombre": "MATEO NUÑEZ",
+   "minutos": "87",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "42509",
+   "Nombre": "JUAN PABLO MUÑOZ",
+   "minutos": "7",
+   "EnContra": "1"
+  },
+  {
+   "carne": "42509",
+   "Nombre": "JUAN PABLO MUÑOZ",
+   "minutos": "74",
+   "EnContra": "1"
+  },
+  {
+   "carne": "50934",
+   "Nombre": "JUAN IGNACIO MOLFINO",
+   "minutos": "21",
+   "EnContra": "1"
+  },
+  {
+   "carne": "56653",
+   "Nombre": "JOAQUIN CUBON",
+   "minutos": "43",
+   "EnContra": "1"
+  },
+  {
+   "carne": "56810",
+   "Nombre": "JUAN IGNACIO ABATE",
+   "minutos": "51",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-30T21:30:40.429Z",
+ "actualizado": "2026-10-31T02:18:56.250Z",
  "partidos": [
   {
    "div": "sub20-a",
@@ -7,8 +7,8 @@
    "k": "Náutico~Playa Honda",
    "l": "Náutico",
    "v": "Playa Honda",
-   "dia": "2026-10-31",
-   "hora": "15:30",
+   "dia": "2026-11-03",
+   "hora": "20:00",
    "etapa": "Permanencia",
    "pl": 7,
    "pv": 8,
@@ -359,23 +359,6 @@
    "altasV": 1
   },
   {
-   "div": "presenior-d",
-   "divNombre": "Pre Senior D",
-   "k": "Trouville Universitario~Maturana",
-   "l": "Trouville Universitario",
-   "v": "Maturana",
-   "dia": "2026-10-31",
-   "hora": "11:15",
-   "etapa": "Permanencia",
-   "pl": 8,
-   "pv": 6,
-   "n": 8,
-   "base": 8,
-   "tipo": "descenso",
-   "altasL": 0,
-   "altasV": 0
-  },
-  {
    "div": "mayores-f",
    "divNombre": "Mayores F",
    "k": "Bella Union Universitario~Tacuarembo Universitario",
@@ -441,6 +424,23 @@
    "base": 8,
    "tipo": "descenso",
    "altasL": 2,
+   "altasV": 0
+  },
+  {
+   "div": "presenior-d",
+   "divNombre": "Pre Senior D",
+   "k": "Anglo~Trouville Universitario",
+   "l": "Anglo",
+   "v": "Trouville Universitario",
+   "dia": "2026-11-07",
+   "hora": "11:15",
+   "etapa": "Permanencia",
+   "pl": 5,
+   "pv": 8,
+   "n": 8,
+   "base": 8,
+   "tipo": "descenso",
+   "altasL": 1,
    "altasV": 0
   },
   {

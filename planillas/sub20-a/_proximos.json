@@ -9,13 +9,6 @@
  {
   "serie": "20AT",
   "fechaHora": "2026-10-31 13:30:00",
-  "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
-  "local": "CLUB SEMINARIO",
-  "visitante": "CEIBOS CLUB"
- },
- {
-  "serie": "20AT",
-  "fechaHora": "2026-10-31 13:30:00",
   "cancha": "ELF (LICEO FRANCES)",
   "local": "E.L.F.",
   "visitante": "J.M.L.M"
@@ -43,7 +36,7 @@
  },
  {
   "serie": "20APD",
-  "fechaHora": "2026-10-31 15:30:00",
+  "fechaHora": "2026-11-03 20:00:00",
   "cancha": "COMP. DEVOTO (NAUT. PICHINCHA)",
   "local": "NAUTICO CARRASCO Y PUNTA GORDA",
   "visitante": "PLAYA HONDA UNIVERSITARIO"
@@ -103,5 +96,12 @@
   "cancha": "COMP. DEVOTO (NAUT. PICHINCHA)",
   "local": "NAUTICO CARRASCO Y PUNTA GORDA",
   "visitante": "SAN JUAN BAUTISTA"
+ },
+ {
+  "serie": "20AT",
+  "fechaHora": "2026-12-30 00:00:00",
+  "cancha": "WALKOVER",
+  "local": "CLUB SEMINARIO",
+  "visitante": "CEIBOS CLUB"
  }
 ]

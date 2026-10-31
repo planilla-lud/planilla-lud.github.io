@@ -1,5 +1,12 @@
 [
  {
+  "serie": "40CC",
+  "fechaHora": "2026-10-05 00:00:00",
+  "cancha": "COMPLEJO ARACHAN",
+  "local": "OLIMAR",
+  "visitante": "SA.FE.MA"
+ },
+ {
   "serie": "40CB",
   "fechaHora": "2026-10-31 09:00:00",
   "cancha": "CARRASCO LAWN TENIS (KM 23)",
@@ -26,13 +33,6 @@
   "cancha": "COMPLEJO LAS CASUARINAS",
   "local": "FLORES UNIVERSITARIO",
   "visitante": "PERRY SEXTA UNIVERSITARIO"
- },
- {
-  "serie": "40CC",
-  "fechaHora": "2026-10-31 09:00:00",
-  "cancha": "COMPLEJO ARACHAN",
-  "local": "OLIMAR",
-  "visitante": "SA.FE.MA"
  },
  {
   "serie": "40CC",

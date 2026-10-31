@@ -14,20 +14,6 @@
   "visitante": "JUAN XXIII"
  },
  {
-  "serie": "PSAT",
-  "fechaHora": "2026-10-31 09:00:00",
-  "cancha": "COMP. DEVOTO (NAUT. PICHINCHA)",
-  "local": "NAUTICO CARRASCO Y PUNTA GORDA",
-  "visitante": "OLD CHRISTIANS CLUB"
- },
- {
-  "serie": "PSAPD",
-  "fechaHora": "2026-10-31 09:00:00",
-  "cancha": "CAM. DEP. ASOC. HEBRAICA Y MAC",
-  "local": "HEBRAICA UNIVERSITARIO",
-  "visitante": "PLAYA HONDA UNIVERSITARIO"
- },
- {
   "serie": "PSAPD",
   "fechaHora": "2026-10-31 09:00:00",
   "cancha": "TENIS EL PINAR",
@@ -54,6 +40,20 @@
   "cancha": "COM. CLUB UNIVERSIDAD CATOLICA",
   "local": "UNIVERSITARIO VERONES",
   "visitante": "MADRUGADA F.C"
+ },
+ {
+  "serie": "PSAT",
+  "fechaHora": "2026-11-05 00:00:00",
+  "cancha": "COMP. DEVOTO (NAUT. PICHINCHA)",
+  "local": "NAUTICO CARRASCO Y PUNTA GORDA",
+  "visitante": "OLD CHRISTIANS CLUB"
+ },
+ {
+  "serie": "PSAPD",
+  "fechaHora": "2026-11-05 00:00:00",
+  "cancha": "CAM. DEP. ASOC. HEBRAICA Y MAC",
+  "local": "HEBRAICA UNIVERSITARIO",
+  "visitante": "PLAYA HONDA UNIVERSITARIO"
  },
  {
   "serie": "PSAT",
