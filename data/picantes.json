@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-31T02:18:56.250Z",
+ "actualizado": "2026-10-31T06:54:27.071Z",
  "partidos": [
   {
    "div": "sub20-a",
@@ -102,6 +102,23 @@
    "tipo": "descenso",
    "altasL": 0,
    "altasV": 3
+  },
+  {
+   "div": "reserva-a",
+   "divNombre": "Reserva A",
+   "k": "Obc Azulgrana.~Sagrada Familia Universitario",
+   "l": "Obc Azulgrana.",
+   "v": "Sagrada Familia Universitario",
+   "dia": "2026-10-31",
+   "hora": "11:15",
+   "etapa": "Permanencia",
+   "pl": 8,
+   "pv": 5,
+   "n": 8,
+   "base": 8,
+   "tipo": "descenso",
+   "altasL": 2,
+   "altasV": 1
   },
   {
    "div": "mas40-a",
