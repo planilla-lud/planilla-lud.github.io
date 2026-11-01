@@ -1496,15 +1496,18 @@ function vSinCargar(d) {
 }
 function vTabla(d, cat, arg) {
   const etapas = etapasTabla(d, DIVS[cat].letra);
-  if (!etapas.length) return `<h2>Tabla</h2><div class="empty">Todavía no hay partidos jugados en ${esc(DIVS[cat].nombre)}.</div>`;
+  if (!etapas.length) return `<div class="page-h"><h2>Tabla</h2></div><div class="empty">Todavía no hay partidos jugados en ${esc(DIVS[cat].nombre)}.</div>`;
   const et = etapas.includes(arg) ? arg : etapas[0];
   const T = tablaDe(d, et), b = base(d, et), n = T.filas.length, M = movimientos(d, et, T.filas);
-  const notas = { 0: 'Debajo de la línea punteada: los cuatro que pelean el título.', 2: 'Arriba de la línea punteada: los cuatro que pelean por no descender.' };
-  const nota = primeraFase(et) ? (n === 16 ? 'Los 8 de arriba pasan al título; los otros 8, a la permanencia.' : '') : notas[pesoEtapa(et)] || '';
-  return `<div class="stack"><h2>Tabla</h2><p class="lede">Abajo de cada equipo: los últimos 5, la racha, las bajas de nivel alto de la próxima fecha y contra quién juega.</p>${notaVivo(d)}</div>
+  const notas = { 0: '<i></i>Los cuatro que pelean el título.', 2: '<i class="dn"></i>Los cuatro que pelean por no descender.' };
+  const nota = primeraFase(et) ? (n === 16 ? '<i></i>Los 8 de arriba pasan al título; los otros 8, a la permanencia.' : '') : notas[pesoEtapa(et)] || '';
+  return `<div class="page-h"><h2>Tabla</h2></div>
   ${etapas.length > 1 ? `<div class="chips" role="group" aria-label="Grupo">${etapas.map(x => `<a class="chip" href="${link(cat, 'tabla', x)}" aria-pressed="${x === et}">${esc(x)}</a>`).join('')}</div>` : ''}
-  <div class="tb" id="tabla">${cabezaTabla()}${T.filas.map((f, i) => filaTabla(d, cat, f, i + 1 + b, { cut: corte(et, i, n), mov: M?.mov[f[0]], prov: T.prov?.has(f[0]) })).join('')}</div>
-  <p class="small muted" style="margin:0">${esc(et)}${nota ? ' · ' + nota : ''}${M ? ` Las flechas: puestos que ganó o perdió con la fecha ${M.fecha}.` : ''}${T.fuente === 'oficial' ? ' Tabla oficial de la Liga (incluye los partidos que da el Tribunal).' : ' Calculada con los resultados: la Liga todavía no publicó esta tabla.'}</p>`;
+  ${notaVivo(d)}
+  <div class="tb" id="tabla">${cabezaTabla()}${T.filas.map((f, i) => filaTabla(d, cat, f, i + 1 + b, { cut: corte(et, i, n), zona: zona(et, i, n), mov: M?.mov[f[0]], prov: T.prov?.has(f[0]) })).join('')}</div>
+  <div class="tb-pie">${nota ? `<span>${nota}</span>` : ''}
+    <span>Abajo de cada equipo: los últimos 5, la racha, las bajas de nivel alto de la próxima fecha y contra quién juega.${M ? ` Las flechas: puestos que ganó o perdió con la fecha ${M.fecha}.` : ''}</span>
+    <span>${esc(et)} · ${T.fuente === 'oficial' ? 'Tabla oficial de la Liga (incluye los partidos que da el Tribunal).' : 'Calculada con los resultados: la Liga todavía no publicó esta tabla.'}</span></div>`;
 }
 // En la tabla, el equipo de "Mi equipo" queda marcado.
 async function marcarMiEquipo(cat) {
