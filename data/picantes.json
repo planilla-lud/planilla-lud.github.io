@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-31T20:30:28.275Z",
+ "actualizado": "2026-11-01T00:04:35.594Z",
  "partidos": [
   {
    "div": "sub20-a",
@@ -100,6 +100,23 @@
    "n": 8,
    "base": 0,
    "tipo": "titulo",
+   "altasL": 1,
+   "altasV": 1
+  },
+  {
+   "div": "sub20-a",
+   "divNombre": "Sub 20 A",
+   "k": "Náutico~San Juan Bautista",
+   "l": "Náutico",
+   "v": "San Juan Bautista",
+   "dia": "2026-11-07",
+   "hora": "15:30",
+   "etapa": "Permanencia",
+   "pl": 7,
+   "pv": 6,
+   "n": 8,
+   "base": 8,
+   "tipo": "descenso",
    "altasL": 1,
    "altasV": 1
   },
@@ -493,23 +510,6 @@
    "tipo": "titulo",
    "altasL": 2,
    "altasV": 2
-  },
-  {
-   "div": "presenior-c",
-   "divNombre": "Pre Senior C",
-   "k": "Tacuarembo Universitario~San Eugenio",
-   "l": "Tacuarembo Universitario",
-   "v": "San Eugenio",
-   "dia": "2026-11-07",
-   "hora": "11:15",
-   "etapa": "Permanencia",
-   "pl": 5,
-   "pv": 7,
-   "n": 8,
-   "base": 8,
-   "tipo": "descenso",
-   "altasL": 0,
-   "altasV": 1
   }
  ]
 }

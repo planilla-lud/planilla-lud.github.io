@@ -37,13 +37,6 @@
  {
   "serie": "18P",
   "fechaHora": "2026-11-01 15:30:00",
-  "cancha": "SAGRADA FAMILIA",
-  "local": "SAGRADA FAMILIA UNIVERSITARIO",
-  "visitante": "COLEGIO SANTA ELENA"
- },
- {
-  "serie": "18P",
-  "fechaHora": "2026-11-01 15:30:00",
   "cancha": "COMPLEJO URUNDAY UNIVERSITARIO",
   "local": "URUNDAY UNIVERSITARIO",
   "visitante": "DEPORTIVO MORON"
@@ -91,13 +84,6 @@
   "visitante": "LATINO FUTBOL CLUB"
  },
  {
-  "serie": "18C",
-  "fechaHora": "2026-11-01 15:30:00",
-  "cancha": "SANTA RITA",
-  "local": "SAN AGUSTIN",
-  "visitante": "TENIS EL PINAR"
- },
- {
   "serie": "18F",
   "fechaHora": "2026-11-01 15:30:00",
   "cancha": "COLEGIO ARETEIA",
@@ -124,6 +110,13 @@
   "cancha": "CAMPO DEP. INSTITUTO CRANDON",
   "local": "CRANDON UNIVERSITARIO",
   "visitante": "PLAYA HONDA UNIVERSITARIO"
+ },
+ {
+  "serie": "18P",
+  "fechaHora": "2026-11-02 20:30:00",
+  "cancha": "COMPLEJO DEPORTIVO ARRAYANES",
+  "local": "SAGRADA FAMILIA UNIVERSITARIO",
+  "visitante": "COLEGIO SANTA ELENA"
  },
  {
   "serie": "18P",
@@ -159,6 +152,13 @@
   "cancha": "SCUOLA ITALIANA",
   "local": "NUMA TURCATTI",
   "visitante": "SCUOLA PALERMO"
+ },
+ {
+  "serie": "18C",
+  "fechaHora": "2026-11-05 15:30:00",
+  "cancha": "SANTA RITA",
+  "local": "SAN AGUSTIN",
+  "visitante": "TENIS EL PINAR"
  },
  {
   "serie": "18P",
@@ -507,15 +507,15 @@
   "serie": "18A",
   "fechaHora": "2026-11-18 00:00:00",
   "cancha": "CANCHA A FIJAR",
-  "local": "ACADEMIA FRM",
-  "visitante": "LA BLANQUEADA"
+  "local": "SCUOLA PALERMO",
+  "visitante": "NACIONAL UNIVERSITARIO"
  },
  {
   "serie": "18A",
   "fechaHora": "2026-11-18 00:00:00",
   "cancha": "CANCHA A FIJAR",
-  "local": "SCUOLA PALERMO",
-  "visitante": "NACIONAL UNIVERSITARIO"
+  "local": "ACADEMIA FRM",
+  "visitante": "LA BLANQUEADA"
  },
  {
   "serie": "18A",
@@ -815,15 +815,15 @@
   "serie": "18A",
   "fechaHora": "2026-11-29 00:00:00",
   "cancha": "CANCHA A FIJAR",
-  "local": "SCUOLA PALERMO",
-  "visitante": "COLEGIO Y LICEO INGLES"
+  "local": "ACADEMIA FRM",
+  "visitante": "ARQUITECTURA JRS."
  },
  {
   "serie": "18A",
   "fechaHora": "2026-11-29 00:00:00",
   "cancha": "CANCHA A FIJAR",
-  "local": "ACADEMIA FRM",
-  "visitante": "ARQUITECTURA JRS."
+  "local": "SCUOLA PALERMO",
+  "visitante": "COLEGIO Y LICEO INGLES"
  },
  {
   "serie": "18O",
@@ -922,5 +922,12 @@
   "cancha": "NO SE JUEGA",
   "local": "NUMA TURCATTI",
   "visitante": "FECHA LIBRE"
+ },
+ {
+  "serie": "18A",
+  "fechaHora": "2026-12-30 16:55:00",
+  "cancha": "NO SE JUEGA",
+  "local": "FECHA LIBRE",
+  "visitante": "LA BLANQUEADA"
  }
 ]
