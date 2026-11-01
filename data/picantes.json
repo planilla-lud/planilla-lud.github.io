@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-01T00:04:35.594Z",
+ "actualizado": "2026-11-01T11:47:47.701Z",
  "partidos": [
   {
    "div": "sub20-a",
@@ -186,7 +186,7 @@
    "base": 0,
    "tipo": "titulo",
    "altasL": 0,
-   "altasV": 2
+   "altasV": 1
   },
   {
    "div": "reserva-b",
@@ -240,6 +240,23 @@
    "altasV": 0
   },
   {
+   "div": "reserva-c",
+   "divNombre": "Reserva C",
+   "k": "Danubio Futbol Club~Centro Cristobal Colon",
+   "l": "Danubio Futbol Club",
+   "v": "Centro Cristobal Colon",
+   "dia": "2026-11-07",
+   "hora": "11:15",
+   "etapa": "Título y ascenso",
+   "pl": 3,
+   "pv": 1,
+   "n": 8,
+   "base": 0,
+   "tipo": "titulo",
+   "altasL": 0,
+   "altasV": 1
+  },
+  {
    "div": "sub20-a",
    "divNombre": "Sub 20 A",
    "k": "ELF~J.M.L.M",
@@ -289,40 +306,6 @@
    "tipo": "descenso",
    "altasL": 0,
    "altasV": 0
-  },
-  {
-   "div": "reserva-c",
-   "divNombre": "Reserva C",
-   "k": "Danubio Futbol Club~Centro Cristobal Colon",
-   "l": "Danubio Futbol Club",
-   "v": "Centro Cristobal Colon",
-   "dia": "2026-11-07",
-   "hora": "11:15",
-   "etapa": "Título y ascenso",
-   "pl": 3,
-   "pv": 2,
-   "n": 8,
-   "base": 0,
-   "tipo": "titulo",
-   "altasL": 0,
-   "altasV": 3
-  },
-  {
-   "div": "reserva-c",
-   "divNombre": "Reserva C",
-   "k": "ELF~Juan XXIII Blanco",
-   "l": "ELF",
-   "v": "Juan XXIII Blanco",
-   "dia": "2026-11-07",
-   "hora": "11:15",
-   "etapa": "Título y ascenso",
-   "pl": 1,
-   "pv": 4,
-   "n": 8,
-   "base": 0,
-   "tipo": "titulo",
-   "altasL": 0,
-   "altasV": 2
   },
   {
    "div": "mayores-e",
@@ -408,6 +391,23 @@
    "tipo": "descenso",
    "altasL": 2,
    "altasV": 3
+  },
+  {
+   "div": "reserva-c",
+   "divNombre": "Reserva C",
+   "k": "ELF~Juan XXIII Blanco",
+   "l": "ELF",
+   "v": "Juan XXIII Blanco",
+   "dia": "2026-11-07",
+   "hora": "11:15",
+   "etapa": "Título y ascenso",
+   "pl": 2,
+   "pv": 4,
+   "n": 8,
+   "base": 0,
+   "tipo": "titulo",
+   "altasL": 0,
+   "altasV": 2
   },
   {
    "div": "mayores-d",
