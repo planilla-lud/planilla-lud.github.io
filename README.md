@@ -12,18 +12,21 @@ Página: https://planilla-lud.github.io/
 
 ## Diseño
 
-Tema "pizarra", el mismo de la página de presentación: vestuario de noche, pizarra táctica y tiza.
-Fondo verde pizarra (siempre oscuro), texto color tiza y un solo acento amarillo marcador, usado poco
-(botón principal, sección activa, Mi equipo). Los estados van en tiza de color (rojo = nivel alto,
-naranja = medio) y las barras de minutos son trazos de tiza. Tipografía Big Shoulders Display (títulos y
-cifras, en mayúscula), Instrument Sans (texto) e IBM Plex Mono (etiquetas chicas, como una planilla).
-La portada tiene una cancha de tiza de fondo y toda la página una capa fija de grano. Aparición suave al
-hacer scroll (se apaga si el teléfono pide reducir movimiento).
-Todos los colores, radios, sombras y espacios son variables al principio del `<style>` de `index.html`.
+App de datos deportivos, pensada primero para el celular. Superficies neutras (grafito en oscuro, gris
+muy claro en claro), filas de lista en vez de tarjetas y un solo acento celeste para lo seleccionado y
+los links. Los colores significan algo: rojo = baja segura (nivel alto), ámbar = duda (medio), verde,
+gris y rojo = ganó, empató y perdió; en la tabla, una marca celeste para los que pelean el título y roja
+para los que pelean por no descender. Tipografía Barlow para todo (cifras de ancho fijo) y Barlow Semi
+Condensed solo para marcadores. Tema claro y oscuro: sigue al teléfono y se puede fijar en Más > Tema.
+Las explicaciones de cómo se calcula cada cosa quedan plegadas detrás de un ícono de info.
+Todos los colores, radios y espacios son variables al principio del `<style>` de `index.html`.
 
 En el celular hay barra de navegación abajo (Inicio, Bajas, Partidos, Tabla y Más) y la divisional se
-elige desde el botón del encabezado. En la compu las secciones van en una fila arriba. `og.png` es la
-imagen que aparece al compartir el link por WhatsApp.
+elige desde el botón del encabezado; arriba a la derecha están Preguntale y Mi equipo. En la compu las
+secciones van en una fila arriba. La previa y Partidos se ordenan en pestañas. El contador de entradas
+está adentro de Más. `#/clubes` es el lugar reservado para la versión para clubes (informe del rival y
+gestión del plantel), todavía como "Próximamente". `og.png` es la imagen que aparece al compartir el
+link por WhatsApp.
 
 ## Qué muestra
 
@@ -58,7 +61,7 @@ imagen que aparece al compartir el link por WhatsApp.
   primera rueda y los 4 que pelean por no descender. Tu equipo de "Mi equipo" queda marcado. Cada previa
   trae "Qué se juegan": la tabla del grupo con los dos equipos marcados y la distancia en puntos. Tocando
   un equipo se entra a su página: plantel con partidos, titularidades, minutos, goles y los últimos 5.
-- **Contador (arriba en todas las pestañas):** entradas a la página (cada apertura), los 3 partidos más vistos de
+- **Contador (en Más):** entradas a la página (cada apertura), los 3 partidos más vistos de
   la temporada (la previa y la página del partido jugado suman juntas) y los 3 clubes favoritos (cuántos
   celulares o compus lo tienen en Mi equipo). Se guarda en Supabase: el SQL está en `supabase/contador.sql` y
   la web usa la clave pública, que solo puede llamar a esas funciones. Solo cuenta en la página publicada;
@@ -81,7 +84,7 @@ lesionado, de viaje o de exámenes. Las suspensiones se confirman en Fallos y Pe
 
 La página se instala como app ("Agregar a pantalla de inicio" en el iPhone desde Safari, o "Instalar app"
 en Chrome de Android): `manifest.webmanifest` y los íconos y pantallas de arranque de `app/`. Los genera
-`herramientas/portada.py` con el mismo diseño de la página.
+`herramientas/portada.py` con el mismo diseño de la página (usa el Chrome o Edge instalado).
 
 Anda sin señal (en la cancha): `sw.js` guarda la página y lo último que se vio de cada divisional. Con
 señal va primero a buscar lo nuevo; si en 4 segundos no llegó, muestra lo guardado. Sin conexión, un aviso
