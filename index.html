@@ -82,7 +82,6 @@
   --danger:#ff6b5e; --danger-soft:#3a1a17; --warning:#f2a33a; --warning-soft:#33240e;
   --win:#36c072; --draw:#69727c; --loss:#ff6b5e; --on-res:#0c0f12;
   --bar:#252c33; --play:#dde2e7; --play-sub:#6c7782; --gol:#4db0f2;
-  --crest-bg:#e9ecef;
   --shadow-pop:0 16px 40px -8px rgba(0,0,0,.7);
 }
 @media (prefers-color-scheme:dark){
@@ -95,7 +94,6 @@
     --danger:#ff6b5e; --danger-soft:#3a1a17; --warning:#f2a33a; --warning-soft:#33240e;
     --win:#36c072; --draw:#69727c; --loss:#ff6b5e; --on-res:#0c0f12;
     --bar:#252c33; --play:#dde2e7; --play-sub:#6c7782; --gol:#4db0f2;
-    --crest-bg:#e9ecef;
     --shadow-pop:0 16px 40px -8px rgba(0,0,0,.7);
   }
 }
@@ -324,15 +322,15 @@ input.search:focus{outline:2px solid var(--accent);outline-offset:-1px}
 .crest.lg img{padding:3px}
 
 /* ---------- filas de partido (Inicio, Partidos, lo más picante) ---------- */
-.mr{display:grid;grid-template-columns:52px minmax(0,1fr) auto;gap:12px;align-items:center;padding:10px 16px;border-top:1px solid var(--line);color:inherit;position:relative}
+.mr{display:grid;grid-template-columns:56px minmax(0,1fr) auto;gap:12px;align-items:center;padding:10px 16px;border-top:1px solid var(--line);color:inherit;position:relative}
 .mr:first-child,.panel-h + .mr{border-top:0}
 .mr:hover{background:var(--hover);text-decoration:none}
 .mr[hidden]{display:none}
 .mr.hot::before{content:"";position:absolute;left:0;top:8px;bottom:8px;width:3px;border-radius:0 3px 3px 0;background:var(--accent)}
 .mr.hot.dn::before{background:var(--danger)}
-.mr-w{display:flex;flex-direction:column;align-items:center;text-align:center;font-size:.78rem;color:var(--muted);line-height:1.2;border-right:1px solid var(--line);padding-right:10px;align-self:stretch;justify-content:center}
+.mr-w{display:flex;flex-direction:column;align-items:center;text-align:center;font-size:.74rem;white-space:nowrap;color:var(--muted);line-height:1.2;border-right:1px solid var(--line);padding-right:10px;align-self:stretch;justify-content:center}
 .mr-w b{color:var(--fg);font-size:.92rem;font-weight:600}
-.mr-w .dv{margin-top:3px;font-size:.7rem;font-weight:600;color:var(--accent)}
+.mr-w .dv{margin-top:3px;font-size:.68rem;font-weight:600;color:var(--accent);white-space:normal;line-height:1.15}
 .mr-tt{display:grid;gap:6px;min-width:0}
 .mr-t{display:flex;align-items:center;gap:8px;min-width:0;font-weight:500}
 .mr-t .n{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
@@ -349,13 +347,15 @@ input.search:focus{outline:2px solid var(--accent);outline-offset:-1px}
 .forma b{width:16px;height:16px;border-radius:4px;display:grid;place-items:center;font-size:.62rem;font-weight:700;color:var(--on-res)}
 .forma .G{background:var(--win)}.forma .E{background:var(--draw)}.forma .P{background:var(--loss)}
 .forma.mini b{width:7px;height:7px;border-radius:50%;font-size:0}
+.mr-m .forma{height:24px;align-items:center}
+.mr-w .tag{margin:4px 0 0;font-size:.62rem;padding:0 4px}
 .mas-btn{display:block;width:100%;padding:12px;border:0;border-top:1px solid var(--line);background:none;color:var(--accent);font-weight:600;cursor:pointer}
 .mas-btn:hover{background:var(--hover)}
 
 /* resumen de la fecha (arriba de Inicio) */
 .resumen{display:flex;flex-direction:column;gap:12px}
-.resumen-h{display:flex;align-items:baseline;justify-content:space-between;gap:12px}
-.resumen-h h1{font-size:1.35rem}
+.resumen-h{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:2px 12px}
+.resumen-h h1{font-size:1.2rem}
 .resumen-h small{color:var(--muted);font-size:.86rem;white-space:nowrap}
 .cifras{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));background:var(--surface);border:1px solid var(--line);border-radius:var(--r)}
 @media (max-width:599px){.cifras{margin:0 calc(-1 * var(--gutter));border-radius:0;border-left:0;border-right:0}}
@@ -1244,7 +1244,7 @@ function racha(d, eq, n = 5) {
   return (d.porEquipo[eq] || []).slice().sort((a, b) => (a.p.dia + a.p.hora).localeCompare(b.p.dia + b.p.hora)).slice(-n)
     .map(x => ({ r: x.gf > x.gc ? 'G' : x.gf < x.gc ? 'P' : 'E', x }));
 }
-const formaHtml = (d, eq) => `<span class="forma" aria-label="Últimos 5">${racha(d, eq).map(({ r, x }) => `<b class="${r}" title="${x.gf}-${x.gc} vs ${esc(x.rival)} (${fDia(x.p.dia)})">${r}</b>`).join('')}</span>`;
+const formaHtml = (d, eq, mini) => `<span class="forma${mini ? ' mini' : ''}" aria-label="Últimos 5">${racha(d, eq).map(({ r, x }) => `<b class="${r}" title="${x.gf}-${x.gc} vs ${esc(x.rival)} (${fDia(x.p.dia)})">${r}</b>`).join('')}</span>`;
 // Tabla de cada etapa. Manda la tabla oficial de la Liga (data/posiciones.json, con PJ, goles y puntos),
 // que incluye los partidos que da el Tribunal y los formatos especiales. Si no está, se calcula como el
 // reglamento (art. 3): la primera fase (primera rueda o series) y las copas cuentan solo sus partidos; en
@@ -1790,6 +1790,25 @@ async function compartirFinde() {
   aviso('Texto copiado. Se abre WhatsApp para mandarlo.');
 }
 
+// Una fila de partido de la próxima fecha (Inicio, Partidos y lo más picante): hora y día, los dos equipos
+// con su puesto y sus bajas de nivel alto, y a la derecha la forma (últimos 5).
+// op: { pos: { l, v }, altas: [l, v], tipo: 'titulo' | 'descenso', div: nombre de la divisional, d: datos para la forma }
+function filaPrevia(href, f, op = {}) {
+  const p = op.pos || {}, al = op.altas || [];
+  const lado = (eq, pos, n) => `<span class="mr-t">${crest(eq)}<span class="n">${esc(eq)}</span>${pos ? `<span class="ps">${pos}°</span>` : ''}${n ? `<span class="bj">${n} baja${n > 1 ? 's' : ''}</span>` : ''}</span>`;
+  const tipo = op.tipo ? tagPicante(op.tipo) : '';
+  return `<a class="mr${op.tipo ? ' hot' + (op.tipo === 'descenso' ? ' dn' : '') : ''}" href="${href}">
+    <span class="mr-w">${f.hora !== '00:00' ? `<b>${f.hora}</b>` : '<b>A conf.</b>'}${fDia(f.dia)}${op.div ? `<span class="dv">${esc(op.div)}</span>` : ''}${tipo}</span>
+    <span class="mr-tt">${lado(f.l, p.l, al[0])}${lado(f.v, p.v, al[1])}</span>
+    ${op.d ? `<span class="mr-m">${formaHtml(op.d, f.l, true)}${formaHtml(op.d, f.v, true)}</span>` : ''}</a>`;
+}
+// Las filas agrupadas por etapa (Título, Permanencia, Copa de plata...), en el orden de importancia.
+function porEtapa(L, fila) {
+  const g = new Map();
+  for (const x of L) { const et = x[1].etapa || ''; if (!g.has(et)) g.set(et, []); g.get(et).push(x); }
+  return [...g].map(([et, xs]) => `${et ? `<div class="panel-h"><b>${esc(et)}</b><span>${xs.length} partido${xs.length > 1 ? 's' : ''}</span></div>` : ''}${xs.map(fila).join('')}`).join('');
+}
+
 // ---------- portada ----------
 function vInicio(d, cat) {
   const L = previasOrden(d);
@@ -1798,34 +1817,27 @@ function vInicio(d, cat) {
   const totalAltas = L.reduce((n, [, f]) => n + altas(f.l).length + altas(f.v).length, 0);
   const suspendidos = new Set((d.sanciones || []).filter(s => s.estado === 'vigente').map(s => s.c)).size;
   const r = d.resumen || {};
-  $('#hero').innerHTML = `<section class="hero"><div class="wrap">
-    <p class="eyebrow">${esc(DIVS[cat].nombre)} · Temporada 2026</p>
-    <h1>${fechaDia ? `Próxima fecha: ${fDia(fechaDia)}` : 'Sin partidos programados'}</h1>
-    <p class="l">Quién puede faltar, quién está suspendido y el once probable de cada equipo, sacado de las planillas oficiales.</p>
-    <div class="ctas"><a class="btn p" href="${link(cat, 'bajas')}">Ver las bajas</a><a class="btn o" href="${link(cat, 'partidos')}">Previas de la fecha</a></div>
-    <div class="stats">
-      <div class="stat"><a href="${link(cat, 'partidos')}"><b>${L.length}</b><span>partidos en la próxima fecha</span></a></div>
-      <div class="stat"><a href="${link(cat, 'bajas', 'alta')}"><b class="warn">${totalAltas}</b><span>posibles bajas de nivel alto</span></a></div>
-      <div class="stat"><a href="${link(cat, 'sanciones')}"><b>${suspendidos}</b><span>jugadores suspendidos</span></a></div>
-      ${ACIERTOS?.divisionales?.[cat] ? `<div class="stat"><a href="${link(cat, 'bajas', 'aciertos')}"><b>${coma(ACIERTOS.divisionales[cat].promedio)}<small>/11</small></b><span>titulares acertados por partido en la temporada</span></a></div>`
-        : `<div class="stat"><a href="${link(cat, 'partidos')}"><b>${r.partidos ?? '–'}</b><span>partidos jugados en la temporada</span></a></div>`}
-    </div></div></section>`;
-  const tarjeta = ([k, f]) => {
-    const n = eq => { const x = altas(eq).length; return x ? `<span class="al">${x} baja${x > 1 ? 's' : ''}</span>` : ''; };
-    return `<a class="pv-card" href="${link(cat, 'previa', k)}">
-      <span class="t">${crest(f.l)}<span>${esc(f.l)}</span>${formaHtml(d, f.l)}${n(f.l)}</span>
-      <span class="mid">${picanteHtml(d, f)}<b>${fDia(f.dia)}</b>${f.hora !== '00:00' ? f.hora : 'a confirmar'}${f.etapa ? '<br>' + esc(f.etapa) : ''}${puestosHtml(d, f)}</span>
-      <span class="t">${crest(f.v)}<span>${esc(f.v)}</span>${formaHtml(d, f.v)}${n(f.v)}</span></a>`;
-  };
+  $('#hero').innerHTML = '';
+  const resumen = `<section class="resumen">
+    <div class="resumen-h"><h1>${fechaDia ? `Próxima fecha · ${fDia(fechaDia)}` : 'Sin partidos programados'}</h1><small>Temporada 2026</small></div>
+    <div class="cifras">
+      <a href="${link(cat, 'partidos')}"><b>${L.length}</b><span>partidos</span></a>
+      <a href="${link(cat, 'bajas', 'alta')}"><b class="${totalAltas ? 'warn' : ''}">${totalAltas}</b><span>bajas de nivel alto</span></a>
+      <a href="${link(cat, 'sanciones')}"><b>${suspendidos}</b><span>suspendidos</span></a>
+      ${ACIERTOS?.divisionales?.[cat] ? `<a href="${link(cat, 'bajas', 'aciertos')}"><b>${coma(ACIERTOS.divisionales[cat].promedio)}<small>/11</small></b><span>titulares acertados</span></a>`
+        : `<a href="${link(cat, 'partidos')}"><b>${r.partidos ?? '–'}</b><span>jugados</span></a>`}
+    </div></section>`;
+  const fila = ([k, f]) => filaPrevia(link(cat, 'previa', k), f, { pos: general(d, f), altas: [altas(f.l).length, altas(f.v).length], tipo: picante(d, f), d });
   // Las bajas más fuertes de la fecha (suspendidos y lesiones probables primero).
   const peso = { suspendido: 0, expulsado: 1, 'lesion-probable': 2, 'salio-temprano': 3, 'no-jugo': 4 };
   const destacadas = L.flatMap(([, f]) => [f.l, f.v]).flatMap(eq => altas(eq).map(a => ({ ...a, eq })))
     .sort((a, b) => (peso[a.tipo] ?? 9) - (peso[b.tipo] ?? 9)).slice(0, 6);
-  return `<section class="stack" id="picantes" hidden></section>
-    ${L.length ? `<section class="stack"><div class="sec-h"><div><p class="eyebrow">La fecha</p><h2>Partidos</h2></div><a href="${link(cat, 'partidos')}">Todos los partidos →</a></div>
-      <div class="card pv-list" style="padding:0">${L.map(tarjeta).join('')}</div></section>` : ''}
-    ${destacadas.length ? `<section class="stack"><div class="sec-h"><div><p class="eyebrow">Ojo con estos</p><h2>Bajas más importantes</h2></div><a href="${link(cat, 'bajas')}">Ver todas →</a></div>
-      <section class="fixture"><div class="side">${destacadas.map(a => `<div class="alert"><b class="lvl ${a.nivel}">${a.nivel}</b>${a.carne ? `<a href="${link(cat, 'jugador', a.carne)}">${esc(a.nombre)} <span class="muted" style="font-weight:500">· ${esc(a.eq)}</span></a>` : `<b>${esc(a.nombre)} · ${esc(a.eq)}</b>`}<span>${esc(a.texto)}</span></div>`).join('')}</div></section></section>` : ''}`;
+  return `${resumen}
+    <section class="stack" id="picantes" hidden></section>
+    ${L.length ? `<section class="stack"><div class="sec-h"><h2>Partidos de la fecha</h2><a href="${link(cat, 'partidos')}">Todos</a></div>
+      <div class="panel">${porEtapa(L, fila)}</div></section>` : ''}
+    ${destacadas.length ? `<section class="stack"><div class="sec-h"><h2>Bajas más importantes</h2><a href="${link(cat, 'bajas')}">Todas</a></div>
+      <div class="panel"><div class="side sola">${destacadas.map(a => `<div class="alert"><b class="lvl ${a.nivel}">${a.nivel}</b>${a.carne ? `<a href="${link(cat, 'jugador', a.carne)}">${esc(a.nombre)} <span class="eq">· ${esc(a.eq)}</span></a>` : `<b>${esc(a.nombre)} <span class="eq">· ${esc(a.eq)}</span></b>`}<span>${esc(a.texto)}</span></div>`).join('')}</div></div></section>` : ''}`;
 }
 
 // Lo más picante de todas las divisionales (data/picantes.json lo arma el robot con scripts/picantes.mjs,
@@ -1840,18 +1852,15 @@ async function pintarPicantes() {
   const hoy = new Date(Date.now() - 3 * 36e5).toISOString().slice(0, 10); // fecha de Montevideo
   const L = (PICANTES.partidos || []).filter(p => p.dia >= hoy);
   if (!L.length) return;
-  const VISIBLES = 8;
-  const lado = (eq, x) => `<span class="t">${crest(eq)}<span>${esc(eq)}</span>${x ? `<span class="al">${x} baja${x > 1 ? 's' : ''}</span>` : ''}</span>`;
-  const tarjeta = (p, i) => `<a class="pv-card" href="${link(p.div, 'previa', p.k)}"${i >= VISIBLES ? ' hidden' : ''}>
-      ${lado(p.l, p.altasL)}
-      <span class="mid">${p.tipo === 'descenso' ? tagPicante('descenso') : ''}<span class="divi">${esc(p.divNombre)}</span><b>${fDia(p.dia)}</b>${p.hora !== '00:00' ? p.hora : 'a confirmar'}<span class="pos">${p.pl + (p.base || 0)}° vs ${p.pv + (p.base || 0)}°</span></span>
-      ${lado(p.v, p.altasV)}</a>`;
-  el.innerHTML = `<div><p class="eyebrow">Todas las categorías</p><h2>Lo más picante</h2>
-    <p class="lede">Cruces entre los cuatro de arriba (pelea por el título o el ascenso) y entre los cuatro de abajo de la permanencia (pelea por no descender), de todas las categorías juntas. Suma lo cerca de la punta o del fondo que están los dos equipos y lo alta que es la divisional.</p></div>
-    <div class="card pv-list" style="padding:0">${L.map(tarjeta).join('')}</div>
-    ${L.length > VISIBLES ? `<button class="chip" id="mas-picantes" style="align-self:center">Ver ${L.length - VISIBLES} más</button>` : ''}`;
+  const VISIBLES = 6;
+  const fila = (p, i) => filaPrevia(link(p.div, 'previa', p.k), { l: p.l, v: p.v, dia: p.dia, hora: p.hora }, { pos: { l: p.pl + (p.base || 0), v: p.pv + (p.base || 0) }, altas: [p.altasL, p.altasV], tipo: p.tipo === 'descenso' ? 'descenso' : null, div: p.divNombre })
+    .replace('<a class="mr', `<a${i >= VISIBLES ? ' hidden' : ''} class="mr`);
+  el.innerHTML = `<div class="sec-h"><div><h2>Lo más picante</h2><span class="sub">Todas las categorías</span></div></div>
+    <div class="panel">${L.map(fila).join('')}
+    ${L.length > VISIBLES ? `<button class="mas-btn" id="mas-picantes">Ver ${L.length - VISIBLES} más</button>` : ''}</div>
+    <details class="help"><summary>${ic('i-info')}Cómo se eligen</summary><div class="help-b">Cruces entre los cuatro de arriba (pelea por el título o el ascenso) y entre los cuatro de abajo de la permanencia (pelea por no descender), de todas las categorías juntas. Suma lo cerca de la punta o del fondo que están los dos equipos y lo alta que es la divisional.</div></details>`;
   const mas = $('#mas-picantes');
-  if (mas) mas.onclick = () => { el.querySelectorAll('.pv-card[hidden]').forEach(a => a.hidden = false); mas.remove(); };
+  if (mas) mas.onclick = () => { el.querySelectorAll('.mr[hidden]').forEach(a => a.hidden = false); mas.remove(); };
   el.hidden = false;
 }
 
