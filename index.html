@@ -82,6 +82,7 @@
   --danger:#ff6b5e; --danger-soft:#3a1a17; --warning:#f2a33a; --warning-soft:#33240e;
   --win:#36c072; --draw:#69727c; --loss:#ff6b5e; --on-res:#0c0f12;
   --bar:#252c33; --play:#dde2e7; --play-sub:#6c7782; --gol:#4db0f2;
+  --crest-bg:#dfe3e7;
   --shadow-pop:0 16px 40px -8px rgba(0,0,0,.7);
 }
 @media (prefers-color-scheme:dark){
@@ -94,6 +95,7 @@
     --danger:#ff6b5e; --danger-soft:#3a1a17; --warning:#f2a33a; --warning-soft:#33240e;
     --win:#36c072; --draw:#69727c; --loss:#ff6b5e; --on-res:#0c0f12;
     --bar:#252c33; --play:#dde2e7; --play-sub:#6c7782; --gol:#4db0f2;
+    --crest-bg:#dfe3e7;
     --shadow-pop:0 16px 40px -8px rgba(0,0,0,.7);
   }
 }
@@ -281,7 +283,8 @@ details.help p{margin:0 0 8px}
 a.chip{display:inline-block}
 .chip:hover{color:var(--fg);text-decoration:none}
 .chip[aria-pressed="true"]{background:var(--fg);color:var(--surface);border-color:var(--fg)}
-.tabs{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;border-bottom:1px solid var(--line);background:var(--surface)}
+.tabs{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;border-bottom:1px solid var(--line);background:var(--surface);position:sticky;top:calc(var(--header-h) + 1px + env(safe-area-inset-top,0px));z-index:5}
+@media (min-width:900px){.tabs{top:calc(var(--header-h) + 46px + env(safe-area-inset-top,0px))}}
 @media (max-width:599px){.tabs{margin-left:calc(-1 * var(--gutter));margin-right:calc(-1 * var(--gutter));padding:0 var(--gutter)}}
 .tabs button,.tabs a{flex:none;border:0;background:none;padding:12px 10px;font-weight:600;font-size:.94rem;color:var(--muted);cursor:pointer;box-shadow:inset 0 -2px 0 transparent;white-space:nowrap}
 .tabs [aria-selected="true"],.tabs [aria-current="page"]{color:var(--fg);box-shadow:inset 0 -2px 0 var(--accent)}
@@ -342,6 +345,11 @@ input.search:focus{outline:2px solid var(--accent);outline-offset:-1px}
 .mr .sc.g{color:var(--fg)}
 .mr .sc.p{color:var(--muted)}
 .mr .warn{grid-column:2/4;font-size:.76rem;color:var(--warning)}
+.mr.res{grid-template-columns:minmax(0,1fr) auto}
+.mr.res .warn{grid-column:1/-1}
+.mr.res .mr-m{gap:6px}
+.mr.res .sc{height:24px;line-height:24px}
+.mr-t.pierde{color:var(--muted)}
 /* forma: últimos 5 */
 .forma{display:inline-flex;gap:2px}
 .forma b{width:16px;height:16px;border-radius:4px;display:grid;place-items:center;font-size:.62rem;font-weight:700;color:var(--on-res)}
@@ -475,6 +483,8 @@ th[aria-sort]{color:var(--accent)}
 .xi .pl .pc{text-align:right;font-size:.82rem;color:var(--muted)}
 .lineup .pl .bar,.xi .pl .bar{grid-column:2/4;height:4px}
 .xi .pl .duda{grid-column:2/4;font-size:.82rem;color:var(--warning)}
+.xi .pl .pc.out{color:var(--danger);font-size:.8rem;white-space:nowrap}
+.xi .pl:has(.pc.out){grid-template-columns:24px minmax(0,1fr) auto}
 .sep{font-size:.76rem;font-weight:600;color:var(--muted);padding:12px 16px 6px;border-top:1px solid var(--line);background:var(--surface-2)}
 .xi .nota,.lineup .nota{padding:2px 16px 10px;font-size:.84rem;color:var(--muted);margin:0}
 .issues{margin:0;padding-left:20px;font-size:.92rem;color:var(--muted)}
@@ -1093,12 +1103,37 @@ function vJugador(d, cat, c) {
   </div></div>`;
 }
 
+// Resultados: una fila por partido, con los goles a la derecha (el ganador resaltado).
 function filaPartidos(cat, ps) {
-  return ps.map(p => `<a class="match" href="${link(cat, 'partido', p.id)}">
-    <span class="t">${crest(p.local)}<span>${esc(p.local)}</span></span>
-    <span class="score">${p.gl}-${p.gv}</span>
-    <span class="t v"><span>${esc(p.visitante)}</span>${crest(p.visitante)}</span>
-    ${!p.planilla ? `<span class="warn">${p.wo ? 'Walkover' : 'Sin planilla'}</span>` : ''}</a>`).join('');
+  return ps.map(p => {
+    const gana = p.gl > p.gv ? 'L' : p.gl < p.gv ? 'V' : '';
+    const t = (eq, yo) => `<span class="mr-t${gana && gana !== yo ? ' pierde' : ''}">${crest(eq)}<span class="n">${esc(eq)}</span></span>`;
+    return `<a class="mr res" href="${link(cat, 'partido', p.id)}">
+    <span class="mr-tt">${t(p.local, 'L')}${t(p.visitante, 'V')}</span>
+    <span class="mr-m"><span class="sc${gana === 'V' ? ' p' : ''}">${p.gl}</span><span class="sc${gana === 'L' ? ' p' : ''}">${p.gv}</span></span>
+    ${!p.planilla ? `<span class="warn">${p.wo ? 'Walkover' : 'Sin planilla'}</span>` : ''}</a>`;
+  }).join('');
+}
+// Volver: el link de arriba de las páginas de detalle.
+const atras = (href, txt) => `<a class="back" href="${href}">${ic('i-atras')}${esc(txt)}</a>`;
+// Pestañas dentro de una página (previa, partidos): todo queda en la página y se muestra una sola parte.
+// La elegida se recuerda mientras dure la visita (al pasar de una previa a otra sigue en la misma).
+function pestanas(id, lista, porDefecto) {
+  const elegida = (() => { try { return sessionStorage.getItem('pestana-' + id); } catch { return null; } })();
+  const on = lista.some(x => x[0] === elegida) ? elegida : porDefecto || lista[0][0];
+  return {
+    barra: `<div class="tabs" role="tablist" data-pestanas="${id}">${lista.map(([k, n]) => `<button type="button" role="tab" data-p="${k}" aria-selected="${k === on}" onclick="pestana(this)">${n}</button>`).join('')}</div>`,
+    panel: (k, html) => `<div class="tab-p${k === on ? ' on' : ''}" role="tabpanel" data-p="${k}" data-de="${id}">${html}</div>`,
+  };
+}
+function pestana(b) {
+  const id = b.parentElement.dataset.pestanas, k = b.dataset.p;
+  b.parentElement.querySelectorAll('[role="tab"]').forEach(x => x.setAttribute('aria-selected', x === b));
+  document.querySelectorAll(`.tab-p[data-de="${id}"]`).forEach(p => p.classList.toggle('on', p.dataset.p === k));
+  try { sessionStorage.setItem('pestana-' + id, k); } catch {}
+  // Si ya había bajado, vuelve al principio de la parte elegida (las pestañas quedan pegadas arriba).
+  const ref = b.parentElement.previousElementSibling;
+  if (ref) { const y = ref.getBoundingClientRect().bottom + scrollY - $('#top').offsetHeight - ($('#subnav').offsetHeight || 0); if (scrollY > y) scrollTo(0, y); }
 }
 
 function vPartidos(d, cat) {
@@ -1109,47 +1144,44 @@ function vPartidos(d, cat) {
     grupos.get(k).push(p);
   }
   const L = previasOrden(d);
-  const proxima = L.length ? `<section class="stack"><div><p class="eyebrow">Próxima fecha</p><h3>Previas</h3><p class="lede small">Tocá un partido para ver el once probable, las bajas, cómo vienen y el cara a cara.</p></div>
-    <div class="card pv-list" style="padding:0">${L.map(([k, f]) => `<a class="pv-card" href="${link(cat, 'previa', k)}">
-      <span class="t">${crest(f.l)}<span>${esc(f.l)}</span>${formaHtml(d, f.l)}</span>
-      <span class="mid">${picanteHtml(d, f)}<b>${fDia(f.dia)}</b>${f.hora !== '00:00' ? f.hora : 'hora a confirmar'}${f.etapa ? '<br>' + esc(f.etapa) : ''}${puestosHtml(d, f)}</span>
-      <span class="t">${crest(f.v)}<span>${esc(f.v)}</span>${formaHtml(d, f.v)}</span></a>`).join('')}</div></section>` : '';
-  return `<div class="stack"><h2>Partidos</h2></div>${proxima}
-  <section class="stack"><div><p class="eyebrow">Temporada</p><h3>Resultados</h3>${notaVivo(d)}</div>
-  ${vSinCargar(d)}
-  ${[...grupos].map(([k, ps]) => `<div class="stack"><h3 class="small muted" style="font-size:.95rem">${esc(k)} · ${fDia(ps[0].dia)}</h3><div class="card" style="padding:0">${filaPartidos(cat, ps)}</div></div>`).join('')}</section>`;
+  const P = pestanas('partidos', [...(L.length ? [['proxima', 'Próxima fecha']] : []), ['resultados', 'Resultados']]);
+  const fila = ([k, f]) => filaPrevia(link(cat, 'previa', k), f, { pos: general(d, f), tipo: picante(d, f), d });
+  const proxima = L.length ? P.panel('proxima', `<p class="lede">Tocá un partido para ver el once probable, las bajas, cómo vienen y el cara a cara.</p>
+    <div class="panel">${porEtapa(L, fila)}</div>`) : '';
+  return `<div class="page-h"><h2>Partidos</h2></div>${P.barra}${proxima}
+  ${P.panel('resultados', `${notaVivo(d)}${vSinCargar(d)}
+  ${[...grupos].map(([k, ps]) => `<div class="panel"><div class="panel-h"><b>${esc(k)}</b><span>${fDia(ps[0].dia)}</span></div>${filaPartidos(cat, ps)}</div>`).join('')}`)}`;
 }
 
 function vPartido(d, cat, id) {
   const p = d.porId[id];
   if (!p) return `<div class="empty">No encontré ese partido.</div>`;
-  const head = `<a class="back" href="${link(cat, 'partidos')}">← Partidos</a>
-  <div class="card stack"><div class="small muted" style="text-align:center">${esc(p.etapa)} · Fecha ${p.fecha} · ${fDia(p.dia)}${p.hora !== '00:00' ? ' ' + p.hora : ''}${p.cancha ? ' · ' + esc(p.cancha) : ''}</div>
+  const head = `${atras(link(cat, 'partidos'), 'Partidos')}
+  <div class="marcador"><div class="meta">${esc(p.etapa)} · Fecha ${p.fecha} · ${fDia(p.dia)}${p.hora !== '00:00' ? ' ' + p.hora : ''}${p.cancha ? ' · ' + esc(p.cancha) : ''}</div>
   <div class="bigscore"><a href="${link(cat, 'equipo', p.local)}">${crest(p.local, true)}${esc(p.local)}</a><span class="score">${p.gl}-${p.gv}</span><a href="${link(cat, 'equipo', p.visitante)}">${crest(p.visitante, true)}${esc(p.visitante)}</a></div>
-  <div class="small muted" style="text-align:center"><a href="https://ligauniversitaria.org.uy/resultados/detallePartido.html?id=${esc(p.id)}" target="_blank" rel="noopener">Ver planilla en la LUD</a></div></div>`;
+  <div class="acc"><a class="share" href="https://ligauniversitaria.org.uy/resultados/detallePartido.html?id=${esc(p.id)}" target="_blank" rel="noopener">Ver planilla en la LUD</a></div></div>`;
   if (!p.planilla) return head + `<div class="empty">${p.wo ? 'Partido ganado por walkover: no hay planilla.' : 'La Liga todavía no cargó la planilla de este partido.'}</div>`;
   const nom = c => d.jugadores[c]?.nombre || c;
   const ev = p.eventos.map(e => {
     let txt;
-    if (e.tipo === 'cambio') txt = `${e.entra ? `<a class="in" href="${link(cat, 'jugador', e.entra)}">▲ ${esc(e.entraN)}</a>` : `<span class="in">▲ ${esc(e.entraN)}</span>`}<br>${e.sale ? `<a class="out" href="${link(cat, 'jugador', e.sale)}">▼ ${esc(e.saleN)}</a>` : `<span class="out">▼ ${esc(e.saleN)}</span>`}`;
-    else txt = `<b>⚽ ${esc(e.nombre)}</b>${e.tipo === 'gol-contra' ? ' <span class="tag red">en contra</span>' : ''}`;
+    if (e.tipo === 'cambio') txt = `${e.entra ? `<a class="in" href="${link(cat, 'jugador', e.entra)}">${ic('i-entra')} ${esc(e.entraN)}</a>` : `<span class="in">${ic('i-entra')} ${esc(e.entraN)}</span>`}<br>${e.sale ? `<a class="out" href="${link(cat, 'jugador', e.sale)}">${ic('i-sale')} ${esc(e.saleN)}</a>` : `<span class="out">${ic('i-sale')} ${esc(e.saleN)}</span>`}`;
+    else txt = `<span class="gl">${ic('i-gol')} ${esc(e.nombre)}</span>${e.tipo === 'gol-contra' ? ' <span class="tag red">en contra</span>' : ''}`;
     return `<div class="ev"><div class="l">${e.lado === 'L' ? txt : ''}</div><div class="m">${e.m ?? '?'}'</div><div>${e.lado === 'V' ? txt : ''}</div></div>`;
   }).join('');
   const lineup = (lado, eq) => {
     const js = p[lado];
     const pl = j => `<div class="pl"><span class="n">${esc(j.cam)}</span><a href="${link(cat, 'jugador', j.c)}">${esc(nom(j.c))}${j.t && esArquero(d, eq, j.c) ? ' ' + TAG_ARQ : ''}${j.cap ? ' <span class="tag">C</span>' : ''}${j.x ? ' <span class="tag red">roja</span>' : ''}</a><span class="mm">${j.min}'</span>${barra(j, p.fin)}</div>`;
-    return `<div class="card lineup"><h3>${esc(eq)}</h3><div class="sep">Titulares</div>${js.filter(j => j.t).map(pl).join('')}${js.some(j => !j.t) ? '<div class="sep">Entraron</div>' + js.filter(j => !j.t).map(pl).join('') : ''}</div>`;
+    return `<div class="panel lineup"><h3>${esc(eq)}</h3><div class="sep">Titulares</div>${js.filter(j => j.t).map(pl).join('')}${js.some(j => !j.t) ? '<div class="sep">Entraron</div>' + js.filter(j => !j.t).map(pl).join('') : ''}</div>`;
   };
   return head + `
-  ${ev ? `<div class="card"><h3 style="margin-bottom:6px">Minuto a minuto</h3><div class="timeline">${ev}</div></div>` : ''}
-  <div class="lineups">${lineup('L', p.local)}${lineup('V', p.visitante)}</div>`;
+  ${ev ? `<section class="stack"><div class="sec-h"><h2>Minuto a minuto</h2></div><div class="panel timeline">${ev}</div></section>` : ''}
+  <section class="stack"><div class="sec-h"><h2>Formaciones</h2></div><div class="lineups">${lineup('L', p.local)}${lineup('V', p.visitante)}</div></section>`;
 }
-
 
 
 // ---------- compartir bajas ----------
 let COMPARTIR = null;
-const ICONO_COMPARTIR = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12v7a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-7"/><path d="M16 6l-4-4-4 4"/><path d="M12 2v13"/></svg>';
+const ICONO_COMPARTIR = '<svg class="i" aria-hidden="true"><use href="#i-share"/></svg>';
 function textoBajas(d, cat, f, nivel) {
   const linea = eq => {
     const b = d.bajas[eq];
@@ -1401,7 +1433,7 @@ function filaTabla(d, cat, f, puesto, op = {}) {
     ${r ? `<span class="tag ${r[1]}">${r[0]}</span>` : ''}${op.prov ? '<span class="tag prov" title="Incluye un resultado cargado a mano: la Liga todavía no lo subió">provisorio</span>' : ''}${(n => n ? `<span class="tag sc" title="Ya se jugó, pero la Liga todavía no cargó el resultado">${n} sin cargar</span>` : '')(sinCargarDe(d, eq))}${nAl ? `<span class="tb-al">${nAl} baja${nAl > 1 ? 's' : ''}</span>` : ''}
     ${px && libre(px.rival) ? '<span class="tb-px">Libre esta fecha</span>' : px ? `<span class="tb-px">${px.k ? `<a href="${link(cat, 'previa', px.k)}">vs ${esc(px.rival)}${px.pos ? ` (${px.pos}°)` : ''}</a>` : `vs ${esc(px.rival)}`}</span>` : ''}</div>`;
   const mv = op.mov ? `<span class="tb-mv ${op.mov > 0 ? 'up' : 'dn'}" title="${op.mov > 0 ? 'Subió' : 'Bajó'} ${Math.abs(op.mov)} con la última fecha">${op.mov > 0 ? '▲' : '▼'}${Math.abs(op.mov)}</span>` : '';
-  return `<div class="tb-r${op.cut ? ' cut' : ''}${op.hl ? ' hl' : ''}" data-eq="${esc(eq)}"><span class="tb-p">${puesto}${mv}</span>
+  return `<div class="tb-r${op.cut ? ' cut' : ''}${op.zona ? ' ' + op.zona : ''}${op.hl ? ' hl' : ''}" data-eq="${esc(eq)}"><span class="tb-p">${puesto}${mv}</span>
     <a class="tb-n" href="${link(cat, 'equipo', eq)}">${crest(eq)}<span>${esc(eq)}</span></a>
     <span class="tb-x tb-pj">${pj}</span><span class="tb-x">${g}</span><span class="tb-x">${e}</span><span class="tb-x">${p}</span><span class="tb-x">${gf}:${gc}</span>
     <span class="tb-dg">${dg > 0 ? '+' : ''}${dg}</span><span class="tb-pts">${pts}</span>${sub}</div>`;
@@ -1433,6 +1465,15 @@ function corte(etapa, i, n) {
   if (peso === 0) return i === 4 && n > 5;
   if (peso === 2) return n >= 6 && i === n - 4;
   return false;
+}
+// Zona de cada puesto, para la marca de color al costado: arriba los que pelean el título (o pasan de la
+// primera rueda), abajo los que pelean por no descender. Las mismas líneas que corte().
+function zona(etapa, i, n) {
+  if (primeraFase(etapa)) return n === 16 && i < 8 ? 'z-up' : '';
+  const peso = pesoEtapa(etapa);
+  if (peso === 0) return n > 5 && i < 4 ? 'z-up' : '';
+  if (peso === 2) return n >= 6 && i >= n - 4 ? 'z-dn' : '';
+  return '';
 }
 // Partidos ya jugados que la Liga todavía no cargó (con el provisorio, si alguien lo cargó a mano).
 const notaVivo = d => d.vivo ? `<p class="small muted" style="margin:4px 0 0">Conectado con la Liga: resultados y tabla al ${new Date(d.vivo.consultado).toLocaleTimeString('es-UY', { hour: '2-digit', minute: '2-digit' }).replace(/\.$/, '')}${d.vivo.nuevos ? ` · ${d.vivo.nuevos} resultado${d.vivo.nuevos > 1 ? 's' : ''} recién cargado${d.vivo.nuevos > 1 ? 's' : ''} (la planilla llega después)` : ''}.</p>` : '';
@@ -1482,9 +1523,9 @@ function vQueSeJuegan(d, cat, f) {
     return pts(i) === pts(0) ? `${eq} está igualado en puntos con el puntero.` : `${eq} está a ${dif(pts(0) - pts(i))} del puntero.`;
   };
   const sep = Math.abs(pts(il) - pts(iv));
-  return `<div class="stack"><h3>Qué se juegan</h3><p class="lede small">${esc(f.etapa)}${T.fuente === 'oficial' ? ', tabla oficial de la Liga' : ''}. <a href="${link(cat, 'tabla', f.etapa)}">Ver la tabla completa</a></p></div>
-  <div class="tb">${cabezaTabla()}${filas.slice(desde, hasta).map((x, j) => filaTabla(d, cat, x, desde + j + 1 + b, { hl: x[0] === f.l || x[0] === f.v, prox: false, cut: corte(f.etapa, desde + j, n) && j > 0, mov: M?.mov[x[0]], prov: T.prov?.has(x[0]) })).join('')}</div>
-  <div class="card small" style="display:grid;gap:4px"><span>${linea(Math.min(il, iv))}</span><span>${linea(Math.max(il, iv))}</span><span class="muted">${sep ? `Los separan ${dif(sep)}.` : 'Están igualados en puntos.'}</span></div>`;
+  return `<div class="sec-h"><div><h3>Qué se juegan</h3><span class="sub">${esc(f.etapa)}${T.fuente === 'oficial' ? ', tabla oficial de la Liga' : ''}</span></div><a href="${link(cat, 'tabla', f.etapa)}">Tabla completa</a></div>
+  <div class="tb">${cabezaTabla()}${filas.slice(desde, hasta).map((x, j) => filaTabla(d, cat, x, desde + j + 1 + b, { hl: x[0] === f.l || x[0] === f.v, prox: false, cut: corte(f.etapa, desde + j, n) && j > 0, zona: zona(f.etapa, desde + j, n), mov: M?.mov[x[0]], prov: T.prov?.has(x[0]) })).join('')}
+  <div class="dif"><span>${linea(Math.min(il, iv))}</span><span>${linea(Math.max(il, iv))}</span><span class="muted">${sep ? `Los separan ${dif(sep)}.` : 'Están igualados en puntos.'}</span></div></div>`;
 }
 // Posición del equipo en el grupo de su próximo partido (o del último jugado), para su página.
 function puestoEquipo(d, eq) {
@@ -1533,20 +1574,20 @@ const esArquero = (d, eq, c) => (d.bajas[eq]?.probable?.arqueros || []).includes
 const TAG_ARQ = '<span class="tag arq" title="Arquero (deducido: arranca con la 1 o la 12, casi nunca sale y no hace goles)">Arquero</span>';
 function vOnce(d, cat, eq) {
   const pr = d.bajas[eq]?.probable;
-  if (!pr || !pr.once.length) return `<div class="card lineup"><h3>${esc(eq)}</h3><div class="ok">Sin planillas suficientes.</div></div>`;
+  if (!pr || !pr.once.length) return `<div class="panel xi"><h3>${esc(eq)}</h3><p class="nota">Sin planillas suficientes.</p></div>`;
   const nom = c => d.jugadores[c]?.nombre || c;
   const pl = x => `<div class="pl"><span class="n">${esc(x.cam)}</span><a href="${link(cat, 'jugador', x.c)}">${esc(nom(x.c))}${x.arq || esArquero(d, eq, x.c) ? ' ' + TAG_ARQ : ''}</a><span class="pc">${x.pct}%</span>
-    <div class="bar"><span style="left:0;width:${x.pct}%"></span></div>${x.duda ? `<span></span><span class="small" style="grid-column:2/4;color:var(--amber)">Duda: ${esc(x.duda)}</span>` : ''}</div>`;
+    <div class="bar"><span style="left:0;width:${x.pct}%"></span></div>${x.duda ? `<span class="duda">Duda: ${esc(x.duda)}</span>` : ''}</div>`;
   const ac = aciertoEquipo(cat, eq);
-  return `<div class="card xi"><h3>${esc(eq)}</h3>${ac ? `<p class="small muted" style="margin:-4px 0 8px">Con este equipo acertó ${coma(ac.promedio)} de 11 en ${ac.partidos} partidos.</p>` : ''}
+  return `<div class="panel xi"><h3>${esc(eq)}</h3>${ac ? `<p class="nota">Con este equipo acertó ${coma(ac.promedio)} de 11 en ${ac.partidos} partidos.</p>` : ''}
     ${pr.once.map(pl).join('')}
-    ${pr.arqueros && !pr.arqueros.length ? '<p class="small muted" style="margin:8px 0 0">No se pudo identificar al arquero: nadie arranca seguido con la 1 o la 12.</p>' : ''}
-    ${pr.afuera.length ? `<div class="sep">Afuera</div>${pr.afuera.map(x => `<div class="pl"><span class="n"></span><a href="${link(cat, 'jugador', x.c)}">${esc(nom(x.c))}</a><span class="pc" style="color:var(--red)">${esc(x.motivo)}</span></div>`).join('')}` : ''}
+    ${pr.arqueros && !pr.arqueros.length ? '<p class="nota" style="padding-top:10px;border-top:1px solid var(--line)">No se pudo identificar al arquero: nadie arranca seguido con la 1 o la 12.</p>' : ''}
+    ${pr.afuera.length ? `<div class="sep">Afuera</div>${pr.afuera.map(x => `<div class="pl"><span class="n"></span><a href="${link(cat, 'jugador', x.c)}">${esc(nom(x.c))}</a><span class="pc out">${esc(x.motivo)}</span></div>`).join('')}` : ''}
     ${pr.alternativas.length ? `<div class="sep">Los que pelean el lugar</div>${pr.alternativas.map(pl).join('')}` : ''}</div>`;
 }
 function vPrevia(d, cat, k) {
   const f = d.previas?.[k];
-  if (!f) return `<a class="back" href="${link(cat, 'partidos')}">← Partidos</a><div class="empty">Ese partido ya no está en la próxima fecha.</div>`;
+  if (!f) return `${atras(link(cat, 'partidos'), 'Partidos')}<div class="empty">Ese partido ya no está en la próxima fecha.</div>`;
   const bajasDe = eq => {
     const b = d.bajas[eq]; const al = (b?.alertas || []).filter(a => a.nivel !== 'baja');
     return `<div class="side"><div class="side-h">${crest(eq)}<a href="${link(cat, 'equipo', eq)}">${esc(eq)}</a></div>${pend(b)}${al.length ? al.map(a => `<div class="alert"><b class="lvl ${a.nivel}">${a.nivel}</b>${a.carne ? `<a href="${link(cat, 'jugador', a.carne)}">${esc(a.nombre)}</a>` : `<b>${esc(a.nombre)}</b>`}<span>${esc(a.texto)}</span></div>`).join('') : '<div class="ok">Sin bajas detectadas.</div>'}</div>`;
@@ -1559,21 +1600,24 @@ function vPrevia(d, cat, k) {
   const h2h = f.caraACara || [];
   const lineaH = x => `<a class="h2h" href="${link(x.div, 'partido', x.id)}"><span class="dv">${esc(DIVS[x.div]?.nombre || x.div)}<br>${fDia(x.dia)}</span><span class="r">${esc(x.local)}</span><span class="sc">${x.gl}-${x.gv}</span><span>${esc(x.visitante)}</span></a>`;
   PREVIA = { cat, k };
-  return `<a class="back" href="${link(cat, 'partidos')}">← Partidos</a>
-  <div class="card stack"><div class="small muted" style="text-align:center">${esc(f.etapa || '')} · ${fDia(f.dia)}${f.hora !== '00:00' ? ' ' + f.hora : ''}${f.cancha && f.cancha !== 'Cancha A Fijar' ? ' · ' + esc(f.cancha) : ''}</div>
-    <div class="bigscore"><a href="${link(cat, 'equipo', f.l)}">${crest(f.l, true)}${esc(f.l)}</a><span class="score" style="background:var(--surface-2);color:var(--muted);font-size:1.4rem">vs</span><a href="${link(cat, 'equipo', f.v)}">${crest(f.v, true)}${esc(f.v)}</a></div>
-    <div class="bigscore" style="font-size:.78rem;color:var(--muted)"><span>${formaHtml(d, f.l)}<br>${resumen(f.l)}</span><span></span><span>${formaHtml(d, f.v)}<br>${resumen(f.v)}</span></div>
-    <div class="row" style="justify-content:center"><button class="share" onclick="compartirPrevia()">${ICONO_COMPARTIR}<span>Compartir la previa</span></button></div></div>
-  ${vQueSeJuegan(d, cat, f)}
-  ${vNumeros(d, cat, f)}
-  <section class="fixture"><div class="fixture-h"><b>Bajas</b><a href="${link(cat, 'bajas')}">todas las de la fecha</a></div>${bajasDe(f.l)}${bajasDe(f.v)}</section>
-  <div class="stack"><h3>Once probable</h3><p class="lede small">Armado con los titulares de los últimos 5 partidos (el último pesa mucho más). El % es cuántas veces fue titular en ese tramo; los suspendidos quedan afuera y las dudas aparecen marcadas.${ACIERTOS?.divisionales?.[cat] ? ` En ${esc(DIVS[cat].nombre)} acierta ${coma(ACIERTOS.divisionales[cat].promedio)} de 11 titulares por partido (<a href="${link(cat, 'bajas', 'aciertos')}">cómo se mide</a>).` : ''}</p></div>
-  <div class="two">${vOnce(d, cat, f.l)}${vOnce(d, cat, f.v)}</div>
-  <div class="stack"><h3>Cara a cara en la temporada</h3><p class="lede small">Todos los partidos entre estos clubes, en todas las categorías.</p></div>
-  ${h2h.length ? `<div class="card" style="padding:0">${h2h.map(lineaH).join('')}</div>` : '<div class="empty">No se cruzaron esta temporada.</div>'}
-  <div class="stack"><h3>Cuándo hacen y reciben goles</h3><p class="lede small">Goles en ${esc(DIVS[cat].nombre)} esta temporada, por tramo de 15 minutos.</p></div>
-  <div class="two"><div class="card"><h3 style="margin-bottom:8px">${esc(f.l)}</h3>${vTramos(d, f.l)}</div><div class="card"><h3 style="margin-bottom:8px">${esc(f.v)}</h3>${vTramos(d, f.v)}</div></div>
-  <div class="card stack"><h3>Goleadores en racha</h3><p class="small" style="margin:0"><b>${esc(f.l)}:</b> ${gf(f.l)}</p><p class="small" style="margin:0"><b>${esc(f.v)}:</b> ${gf(f.v)}</p><p class="small muted" style="margin:0">Goles en los últimos 5 partidos.</p></div>`;
+  const P = pestanas('previa', [['once', 'Once probable'], ['bajas', 'Bajas'], ['numeros', 'Números'], ['tabla', 'Tabla'], ['h2h', 'Cara a cara']]);
+  const acierto = ACIERTOS?.divisionales?.[cat] ? ` En ${esc(DIVS[cat].nombre)} acierta ${coma(ACIERTOS.divisionales[cat].promedio)} de 11 titulares por partido (<a href="${link(cat, 'bajas', 'aciertos')}">cómo se mide</a>).` : '';
+  return `${atras(link(cat, 'partidos'), 'Partidos')}
+  <div class="marcador"><div class="meta">${esc(f.etapa || '')} · ${fDia(f.dia)}${f.hora !== '00:00' ? ' ' + f.hora : ''}${f.cancha && f.cancha !== 'Cancha A Fijar' ? ' · ' + esc(f.cancha) : ''}</div>
+    <div class="bigscore"><a href="${link(cat, 'equipo', f.l)}">${crest(f.l, true)}${esc(f.l)}<span class="sub">${formaHtml(d, f.l)}<br>${resumen(f.l)}</span></a><span class="score vs">vs</span><a href="${link(cat, 'equipo', f.v)}">${crest(f.v, true)}${esc(f.v)}<span class="sub">${formaHtml(d, f.v)}<br>${resumen(f.v)}</span></a></div>
+    <div class="acc"><button class="share" onclick="compartirPrevia()">${ICONO_COMPARTIR}<span>Compartir la previa</span></button></div></div>
+  ${P.barra}
+  ${P.panel('once', `<details class="help"><summary>${ic('i-info')}Cómo se arma</summary><div class="help-b">Con los titulares de los últimos 5 partidos (el último pesa mucho más). El % es cuántas veces fue titular en ese tramo; los suspendidos quedan afuera y las dudas aparecen marcadas.${acierto}</div></details>
+    <div class="two">${vOnce(d, cat, f.l)}${vOnce(d, cat, f.v)}</div>`)}
+  ${P.panel('bajas', `<div class="panel"><div class="panel-h"><b>Posibles bajas</b><a href="${link(cat, 'bajas')}">Todas las de la fecha</a></div>${bajasDe(f.l)}${bajasDe(f.v)}</div>`)}
+  ${P.panel('numeros', `${vNumeros(d, cat, f)}
+    <section class="stack"><div class="sec-h"><div><h3>Cuándo hacen y reciben goles</h3><span class="sub">Goles en ${esc(DIVS[cat].nombre)} esta temporada, por tramo de 15 minutos.</span></div></div>
+    <div class="two"><div class="panel"><div class="panel-h"><b>${esc(f.l)}</b></div>${vTramos(d, f.l)}</div><div class="panel"><div class="panel-h"><b>${esc(f.v)}</b></div>${vTramos(d, f.v)}</div></div></section>
+    <section class="stack"><div class="sec-h"><div><h3>Goleadores en racha</h3><span class="sub">Goles en los últimos 5 partidos.</span></div></div>
+    <div class="panel"><div class="gol-r"><b>${esc(f.l)}</b>${gf(f.l)}</div><div class="gol-r"><b>${esc(f.v)}</b>${gf(f.v)}</div></div></section>`)}
+  ${P.panel('tabla', vQueSeJuegan(d, cat, f) || '<div class="empty">Todavía no hay tabla de este grupo.</div>')}
+  ${P.panel('h2h', `<div class="sec-h"><div><h3>Cara a cara en la temporada</h3><span class="sub">Todos los partidos entre estos clubes, en todas las categorías.</span></div></div>
+    ${h2h.length ? `<div class="panel">${h2h.map(lineaH).join('')}</div>` : '<div class="empty">No se cruzaron esta temporada.</div>'}`)}`;
 }
 // Números para pronosticar: cómo le va a cada uno de local o de visitante, cuántos goles hace y recibe,
 // cada cuánto marcan los dos, y lo que da la cuenta de los promedios. Todo con los partidos de la
@@ -1601,8 +1645,8 @@ function vNumeros(d, cat, f) {
   const fila = (t, a, b) => `<span class="np-t">${t}</span><span>${a}</span><span>${b}</span>`;
   // La cuenta de los promedios: lo que hace uno con lo que recibe el otro.
   const gl = (L.bgf + V.bgc) / 2, gv = (V.bgf + L.bgc) / 2;
-  return `<div class="stack"><h3>Números para pronosticar</h3><p class="lede small">De la temporada en ${esc(DIVS[cat]?.nombre || '')}, sin los W.O. La primera columna es el local; la segunda, el visitante.</p></div>
-  <div class="card np">
+  return `<section class="stack"><div class="sec-h"><div><h3>Números para pronosticar</h3><span class="sub">De la temporada en ${esc(DIVS[cat]?.nombre || '')}, sin los W.O.</span></div></div>
+  <div class="panel np">
     <span></span><b>${esc(f.l)}</b><b>${esc(f.v)}</b>
     ${fila('De local / de visitante', rec(L.ahi), rec(V.ahi))}
     ${fila('Goles a favor por partido', uno(L.gf), uno(V.gf))}
@@ -1612,7 +1656,7 @@ function vNumeros(d, cat, f) {
     ${fila('Valla invicta', pc(L.invicta), pc(V.invicta))}
     ${fila('Resultado más repetido', L.masRep ? `${L.masRep.r} <small>(${L.masRep.veces})</small>` : '–', V.masRep ? `${V.masRep.r} <small>(${V.masRep.veces})</small>` : '–')}
     <p class="np-cuenta">La cuenta de los promedios da <b>${esc(f.l)} ${uno(gl)} – ${uno(gv)} ${esc(f.v)}</b>. No es un pronóstico: es lo que hace cada uno contra lo que recibe el otro.</p>
-  </div>`;
+  </div></section>`;
 }
 let PREVIA = null;
 async function compartirPrevia() {
