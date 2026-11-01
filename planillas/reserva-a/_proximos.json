@@ -1,24 +1,10 @@
 [
  {
   "serie": "RSAT",
-  "fechaHora": "2026-10-31 09:00:00",
-  "cancha": "OLD CHRISTIANS CLUB",
-  "local": "OLD CHRISTIANS AZUL",
-  "visitante": "OLD BOYS CLUB"
- },
- {
-  "serie": "RSAT",
   "fechaHora": "2026-10-31 11:15:00",
   "cancha": "OLD CHRISTIANS CLUB",
   "local": "OLD CHRISTIANS CLUB",
   "visitante": "PLAYA HONDA UNIVERSITARIO"
- },
- {
-  "serie": "RSAPD",
-  "fechaHora": "2026-10-31 11:15:00",
-  "cancha": "COMPLEJO AZULGRANA",
-  "local": "OBC AZULGRANA.",
-  "visitante": "SAGRADA FAMILIA UNIVERSITARIO"
  },
  {
   "serie": "RSAT",

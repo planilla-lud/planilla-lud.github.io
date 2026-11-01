@@ -1,34 +1,6 @@
 [
  {
   "serie": "ETA",
-  "fechaHora": "2026-11-01 09:00:00",
-  "cancha": "SANTA RITA",
-  "local": "SAN AGUSTIN",
-  "visitante": "CERVANTES UNIVERSITARIO"
- },
- {
-  "serie": "ETA",
-  "fechaHora": "2026-11-01 09:00:00",
-  "cancha": "COMPLEJO LAS CASUARINAS",
-  "local": "BODY FACTORY",
-  "visitante": "DEPORTIVO MITRE"
- },
- {
-  "serie": "ETA",
-  "fechaHora": "2026-11-01 11:15:00",
-  "cancha": "COMPLEJO INGENIERO DEL CAMPO",
-  "local": "SAN CONO",
-  "visitante": "CAFU"
- },
- {
-  "serie": "ETA",
-  "fechaHora": "2026-11-01 11:15:00",
-  "cancha": "COM. CLUB UNIVERSIDAD CATOLICA",
-  "local": "ESTUDIANTES ESPAÑOLES",
-  "visitante": "CLUB ESTUDIANTES INGENIERIA"
- },
- {
-  "serie": "ETA",
   "fechaHora": "2026-11-08 00:00:00",
   "cancha": "CANCHA A FIJAR",
   "local": "DEPORTIVO MITRE",

@@ -1,54 +1,5 @@
 [
  {
-  "serie": "BPD",
-  "fechaHora": "2026-11-01 09:00:00",
-  "cancha": "COMPLEJO LAS CASUARINAS",
-  "local": "SAN JUAN BAUTISTA",
-  "visitante": "CITY PARK"
- },
- {
-  "serie": "BTA",
-  "fechaHora": "2026-11-01 11:15:00",
-  "cancha": "LA MENNAIS",
-  "local": "J.M.L.M",
-  "visitante": "OLD BRENDANS CLUB"
- },
- {
-  "serie": "BTA",
-  "fechaHora": "2026-11-01 11:15:00",
-  "cancha": "MONTE VI \"LOS CEIBOS\"",
-  "local": "CEIBOS CLUB",
-  "visitante": "ELBIO FERNANDEZ"
- },
- {
-  "serie": "BTA",
-  "fechaHora": "2026-11-01 11:15:00",
-  "cancha": "COMP. DEVOTO (NAUT. PICHINCHA)",
-  "local": "NAUTICO CARRASCO Y PUNTA GORDA",
-  "visitante": "ALEMAN UNIVERSITARIO"
- },
- {
-  "serie": "BTA",
-  "fechaHora": "2026-11-01 11:15:00",
-  "cancha": "SAN ISIDRO LOMAS",
-  "local": "SAN ISIDRO LOMAS UNIVERSITARIO",
-  "visitante": "SAGRADA FAMILIA UNIVERSITARIO"
- },
- {
-  "serie": "BPD",
-  "fechaHora": "2026-11-01 11:15:00",
-  "cancha": "COLEGIO PIO",
-  "local": "CENTRO CRISTOBAL COLON",
-  "visitante": "OLIMAR"
- },
- {
-  "serie": "BPD",
-  "fechaHora": "2026-11-01 11:15:00",
-  "cancha": "COMPLEJO LAS CASUARINAS",
-  "local": "CLUB JESUS MARIA",
-  "visitante": "INDEPENDIENTE"
- },
- {
   "serie": "BTA",
   "fechaHora": "2026-11-08 00:00:00",
   "cancha": "CANCHA A FIJAR",

@@ -23,13 +23,6 @@
  {
   "serie": "16O",
   "fechaHora": "2026-11-01 13:30:00",
-  "cancha": "CIUDAD DEPORTIVA LS",
-  "local": "DLS CLUB",
-  "visitante": "UNIVERSITARIO VERONES"
- },
- {
-  "serie": "16O",
-  "fechaHora": "2026-11-01 13:30:00",
   "cancha": "ST. BRENDANS",
   "local": "OLD BRENDANS CLUB",
   "visitante": "THE BRITISH SCHOOL"
@@ -40,13 +33,6 @@
   "cancha": "OLD CHRISTIANS CLUB",
   "local": "OLD CHRISTIANS CLUB",
   "visitante": "CLUB NAUTICO"
- },
- {
-  "serie": "16P",
-  "fechaHora": "2026-11-01 13:30:00",
-  "cancha": "CIUDAD DEPORTIVA LS",
-  "local": "DEPORTIVO LS UNIVERSITARIO",
-  "visitante": "E.L.F."
  },
  {
   "serie": "16P",
@@ -96,20 +82,6 @@
   "cancha": "COMPLEJO SCHIAFFINO (LAVALLEJA",
   "local": "A.E.B.U",
   "visitante": "NAUTICO CARRASCO Y PUNTA GORDA"
- },
- {
-  "serie": "16C",
-  "fechaHora": "2026-11-01 13:30:00",
-  "cancha": "COMPLEJO LOS NOGALES",
-  "local": "NACIONAL UNIVERSITARIO",
-  "visitante": "ESCUELA L.P."
- },
- {
-  "serie": "16F",
-  "fechaHora": "2026-11-01 13:30:00",
-  "cancha": "CAMPO DEP. INSTITUTO CRANDON",
-  "local": "CRANDON UNIVERSITARIO",
-  "visitante": "ARQUITECTURA JRS."
  },
  {
   "serie": "16C",

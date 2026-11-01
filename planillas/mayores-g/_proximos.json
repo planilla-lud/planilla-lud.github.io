@@ -1,55 +1,6 @@
 [
  {
   "serie": "GTA",
-  "fechaHora": "2026-11-01 09:00:00",
-  "cancha": "ESCUELA NAVAL",
-  "local": "DEPORTIVO NAVAL",
-  "visitante": "FAMILIAR UNIVERSITARIO"
- },
- {
-  "serie": "GTA",
-  "fechaHora": "2026-11-01 09:00:00",
-  "cancha": "COMPLEJO DEP. \"ENRIQUE CASTRO\"",
-  "local": "GOMENSORO",
-  "visitante": "MARISTAS DEPORTIVO"
- },
- {
-  "serie": "GTA",
-  "fechaHora": "2026-11-01 09:00:00",
-  "cancha": "COMPLEJO LOS NOGALES",
-  "local": "APENAS UNIVERSITARIO",
-  "visitante": "VARELA UNIVERSITARIO"
- },
- {
-  "serie": "GTA",
-  "fechaHora": "2026-11-01 09:00:00",
-  "cancha": "PQUE. ELLIS - COL. SAN ISIDRO",
-  "local": "COLEGIO SAN ISIDRO",
-  "visitante": "NUESTRA SEÑORA DE LOURDES"
- },
- {
-  "serie": "GPD",
-  "fechaHora": "2026-11-01 09:00:00",
-  "cancha": "COMPLEJO ABUA",
-  "local": "CLUB ATLETICO BELLA VISTA",
-  "visitante": "CENTRO GALLEGO"
- },
- {
-  "serie": "GPD",
-  "fechaHora": "2026-11-01 09:00:00",
-  "cancha": "COMPLEJO LOS ROJOS",
-  "local": "COLEGIO SALESIANO DE LA COSTA",
-  "visitante": "RIVER PLATE UNIVERSITARIO"
- },
- {
-  "serie": "GPD",
-  "fechaHora": "2026-11-01 09:00:00",
-  "cancha": "COMPLEJO JUAN XXIII",
-  "local": "PAMPERO",
-  "visitante": "MARISCAL NASAZZI"
- },
- {
-  "serie": "GTA",
   "fechaHora": "2026-11-08 00:00:00",
   "cancha": "CANCHA A FIJAR",
   "local": "VARELA UNIVERSITARIO",
