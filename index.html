@@ -545,8 +545,12 @@ th[aria-sort]{color:var(--accent)}
 .club-pick small{color:var(--muted);font-size:.78rem;text-align:right}
 .nx{display:flex;flex-wrap:wrap;align-items:center;gap:4px 10px;padding:12px 16px;font-size:.92rem;border-bottom:1px solid var(--line)}
 .nx b{font-weight:700}
-.para-clubes{display:grid;gap:4px;padding:14px 16px;font-size:.9rem;color:var(--muted)}
-.para-clubes b{color:var(--fg)}
+.pc-r{display:flex;gap:14px;align-items:flex-start;padding:14px 16px;border-top:1px solid var(--line)}
+.pc-r:first-child{border-top:0}
+.pc-r svg{width:22px;height:22px;color:var(--accent);margin-top:1px}
+.pc-r b{display:block;font-weight:700}
+.pc-r small{display:block;color:var(--muted);font-size:.9rem;line-height:1.4;margin-top:2px}
+.page-h .tag{margin:0}
 
 /* tabla de posiciones */
 .tb-r{display:grid;grid-template-columns:28px minmax(0,1fr) 28px 36px 36px;gap:2px 10px;align-items:center;padding:9px 16px 9px 12px;border-top:1px solid var(--line);position:relative}
@@ -1767,13 +1771,14 @@ async function syncFavorito() {
 async function renderMiEquipo(sub) {
   const main = $('#main');
   let C; try { C = await clubes(); } catch { main.innerHTML = '<div class="empty">No se pudieron cargar los clubes.</div>'; return; }
+  if (!location.hash.startsWith('#/mi-equipo')) return; // mientras cargaba se fue a otra sección
   const k = leer('club');
   $('#hero').innerHTML = ''; $('#actualizado').textContent = 'Tu equipo queda guardado en este navegador.';
   if (!k || !C[k] || sub === 'elegir') {
     const lista = Object.entries(C);
-    main.innerHTML = `<div class="stack"><h2>Elegí tu equipo</h2><p class="lede">Al abrir la web vas a ver directo lo de tu club: próximos partidos, bajas y suspendidos en todas las categorías.</p></div>
+    main.innerHTML = `<div class="page-h"><h2>Elegí tu club</h2></div><p class="lede">Al abrir la web vas a ver directo lo de tu club: próximos partidos, bajas y suspendidos en todas las categorías.</p>
       <input class="search" id="qc" type="search" placeholder="Buscar club" autocomplete="off">
-      <div class="card" style="padding:0" id="lc">${lista.map(([ck, c]) => `<button class="club-pick" data-n="${esc(slug(c.nombre))}" onclick="elegirClub('${ck}')">${crest(c.equipos[0].equipo)}<span class="n">${esc(c.nombre)}</span><small>${[...new Set(c.equipos.map(e => DIVS[e.div]?.nombre))].join(' · ')}</small></button>`).join('')}</div>`;
+      <div class="panel" id="lc">${lista.map(([ck, c]) => `<button class="club-pick" data-n="${esc(slug(c.nombre))}" onclick="elegirClub('${ck}')">${crest(c.equipos[0].equipo)}<span class="n">${esc(c.nombre)}</span><small>${[...new Set(c.equipos.map(e => DIVS[e.div]?.nombre))].join(' · ')}</small></button>`).join('')}</div>`;
     const q = $('#qc'); q.focus();
     q.addEventListener('input', () => { const v = slug(q.value); document.querySelectorAll('#lc .club-pick').forEach(b => b.hidden = !!v && !b.dataset.n.includes(v)); });
     return;
@@ -1782,18 +1787,18 @@ async function renderMiEquipo(sub) {
   const card = e => {
     const n = e.proximo, u = e.ultimo;
     const prev = n ? link(e.div, 'previa', n.local ? `${e.equipo}~${n.rival}` : `${n.rival}~${e.equipo}`) : null;
-    return `<section class="fixture team-card"><div class="fixture-h"><span><b>${esc(DIVS[e.div]?.nombre || e.div)}</b>${e.equipo !== c.nombre ? ` · ${esc(e.equipo)}` : ''}</span><a href="${link(e.div, 'equipo', e.equipo)}">plantel</a></div>
-      <div class="nx">${n ? `<span>Próximo:</span><b>vs ${esc(n.rival)}</b><span class="muted">${fDia(n.dia)}${n.hora !== '00:00' ? ' ' + n.hora : ''}${n.local ? ' · local' : ''}</span><a class="share" href="${prev}" style="margin-left:auto;text-decoration:none">Previa</a>` : '<span class="muted">Sin partido programado.</span>'}</div>
-      <div class="side">${pend(e)}${u ? `<div class="ok">Último con planilla: <a href="${link(e.div, 'partido', u.id)}" style="color:inherit">${u.gf}-${u.gc} vs ${esc(u.rival)} (${fDia(u.dia)})</a></div>` : ''}
+    return `<section class="panel"><div class="panel-h"><span><b>${esc(DIVS[e.div]?.nombre || e.div)}</b>${e.equipo !== c.nombre ? ` · ${esc(e.equipo)}` : ''}</span><a href="${link(e.div, 'equipo', e.equipo)}">Plantel</a></div>
+      <div class="nx">${n ? `<span class="muted">Próximo</span><b>vs ${esc(n.rival)}</b><span class="muted">${fDia(n.dia)}${n.hora !== '00:00' ? ' ' + n.hora : ''}${n.local ? ' · local' : ''}</span><a class="share" href="${prev}" style="margin-left:auto">Previa</a>` : '<span class="muted">Sin partido programado.</span>'}</div>
+      <div class="side sola">${pend(e)}${u ? `<div class="ok">Último con planilla: <a href="${link(e.div, 'partido', u.id)}">${u.gf}-${u.gc} vs ${esc(u.rival)} (${fDia(u.dia)})</a></div>` : ''}
       ${e.alertas.length ? e.alertas.map(a => `<div class="alert"><b class="lvl ${a.nivel}">${a.nivel}</b>${a.carne ? `<a href="${link(e.div, 'jugador', a.carne)}">${esc(a.nombre)}</a>` : `<b>${esc(a.nombre)}</b>`}<span>${esc(a.texto)}</span></div>`).join('') : '<div class="ok">Sin bajas detectadas.</div>'}</div></section>`;
   };
   const prox = c.equipos.filter(e => e.proximo).sort((a, b) => (a.proximo.dia + a.proximo.hora).localeCompare(b.proximo.dia + b.proximo.hora));
   const sinProx = c.equipos.filter(e => !e.proximo);
   const susp = c.equipos.flatMap(e => e.alertas.filter(a => a.tipo === 'suspendido').map(a => a.carne)).filter((x, i, l) => l.indexOf(x) === i).length;
-  main.innerHTML = `<div class="club-h">${crest(c.equipos[0].equipo, true)}<div style="flex:1;min-width:0"><h2>${esc(c.nombre)}</h2><div class="small muted">${c.equipos.length} equipo${c.equipos.length > 1 ? 's' : ''} · ${susp ? `${susp} suspendido${susp > 1 ? 's' : ''}` : 'sin suspendidos'}</div></div><a class="share" href="#/mi-equipo/elegir" style="text-decoration:none">Cambiar</a></div>
+  main.innerHTML = `<div class="club-h">${crest(c.equipos[0].equipo, true)}<div style="flex:1;min-width:0"><h2>${esc(c.nombre)}</h2><div class="small muted">${c.equipos.length} equipo${c.equipos.length > 1 ? 's' : ''} · ${susp ? `${susp} suspendido${susp > 1 ? 's' : ''}` : 'sin suspendidos'}</div></div><a class="share" href="#/mi-equipo/elegir">Cambiar</a></div>
     <section class="stack" id="finde"><div class="sk" style="height:160px"></div></section>
-    ${prox.length ? `<h3>Próximos partidos</h3>${prox.map(card).join('')}` : ''}
-    ${sinProx.length ? `<h3>Sin partido programado</h3>${sinProx.map(card).join('')}` : ''}`;
+    ${prox.length ? `<section class="stack"><div class="sec-h"><h2>Próximos partidos</h2></div>${prox.map(card).join('')}</section>` : ''}
+    ${sinProx.length ? `<section class="stack"><div class="sec-h"><h2>Sin partido programado</h2></div>${sinProx.map(card).join('')}</section>` : ''}`;
   pintarFinde(c);
 }
 
@@ -1823,8 +1828,8 @@ async function pintarFinde(c) {
   const dias = [...new Set(L.map(u => u.x.p.dia))].sort(), rango = dias.length > 1 ? `${fDia(dias[0])} al ${fDia(dias.at(-1))}` : fDia(dias[0]);
   const flecha = m => m > 0 ? ` ▲${m}` : m < 0 ? ` ▼${-m}` : '';
   FINDE = { club: c.nombre, rango, L, tot: [n('G'), n('E'), n('P')] };
-  el.innerHTML = `<div class="sec-h"><div><p class="eyebrow">La última semana · ${esc(rango)}</p><h2>Cómo le fue a ${esc(c.nombre)}</h2></div></div>
-    <div class="fixture">${L.map(u => `<a class="fd-r" href="${link(u.e.div, 'partido', u.x.p.id)}">
+  el.innerHTML = `<div class="sec-h"><div><h2>Cómo le fue a ${esc(c.nombre)}</h2><span class="sub">La última semana · ${esc(rango)}</span></div></div>
+    <div class="panel">${L.map(u => `<a class="fd-r" href="${link(u.e.div, 'partido', u.x.p.id)}">
       <b class="fd-res ${u.r}">${u.r}</b>
       <span class="fd-t"><small>${esc(u.nombre)}${u.e.equipo !== c.nombre ? ` · ${esc(u.e.equipo)}` : ''}</small>
         <span>${esc(u.x.p.local)} <b>${u.x.p.gl}-${u.x.p.gv}</b> ${esc(u.x.p.visitante)}</span>
@@ -1862,6 +1867,21 @@ function porEtapa(L, fila) {
   const g = new Map();
   for (const x of L) { const et = x[1].etapa || ''; if (!g.has(et)) g.set(et, []); g.get(et).push(x); }
   return [...g].map(([et, xs]) => `${et ? `<div class="panel-h"><b>${esc(et)}</b><span>${xs.length} partido${xs.length > 1 ? 's' : ''}</span></div>` : ''}${xs.map(fila).join('')}`).join('');
+}
+
+// ---------- para clubes ----------
+// La versión para clubes todavía no está: esta página deja el lugar y dice qué va a traer. Cada parte
+// tiene su id para que, cuando se construya, alcance con cambiar su contenido.
+const PARA_CLUBES = [
+  ['informe-rival', 'i-partidos', 'Informe del rival', 'Antes de cada partido: el once probable del rival, sus bajas y suspendidos, en qué minutos hace y recibe goles y quién viene goleando. Listo para mandar al cuerpo técnico.'],
+  ['plantel', 'i-jugadores', 'Gestión del plantel', 'Tus jugadores en todas las categorías: minutos, titularidades, suspensiones que se vienen y quién está jugando en otra divisional.'],
+];
+function renderClubes() {
+  $('#hero').innerHTML = '';
+  $('#main').innerHTML = `<div class="page-h"><h2>Para clubes</h2><span class="tag pronto">Próximamente</span></div>
+    <p class="lede">Una versión de Planilla LUD pensada para el cuerpo técnico y la comisión de cada club.</p>
+    <div class="panel">${PARA_CLUBES.map(([id, i, t, txt]) => `<div class="pc-r" id="pc-${id}">${ic(i)}<span><b>${t}</b><small>${txt}</small></span></div>`).join('')}</div>`;
+  window.scrollTo({ top: 0 });
 }
 
 // ---------- portada ----------
@@ -1970,6 +1990,7 @@ async function render() {
   // Sin dirección: si tiene equipo elegido, va directo a lo suyo.
   if (!cat0 && leer('club')) { location.replace('#/mi-equipo'); return; }
   if (cat0 === 'mi-equipo') { chrome('mi-equipo'); pintarAvisoApp(false); return renderMiEquipo(tab0); }
+  if (cat0 === 'clubes') { chrome('clubes'); pintarAvisoApp(false); return renderClubes(); }
   if (cat0 === 'cargar') { chrome(DIVS[tab0] ? tab0 : (DIVS[leer('div')] ? leer('div') : Object.keys(DIVS)[0]), 'inicio'); pintarAvisoApp(false); return renderCargar(tab0); }
   const cat = DIVS[cat0] ? cat0 : (DIVS[leer('div')] ? leer('div') : Object.keys(DIVS)[0]);
   const tab = tab0 || 'inicio';
