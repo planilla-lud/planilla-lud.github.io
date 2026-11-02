@@ -191,6 +191,8 @@ carga solo cuando la pregunta es sobre jugadores o rankings). Para un partido pu
 formaciones) o la temporada de un jugador partido a partido, el servidor abre `data/<divisional>.json` bajo
 demanda (`worker/src/detalle.js`). Antes de mandar una respuesta, el servidor la revisa: si una lista de
 posiciones sale desordenada o nombra una sección que la página no tiene, le pide a la IA que la rehaga y, si
-vuelve a fallar, ordena la lista él mismo. `node worker/probar.mjs` corre casi cien preguntas de todo tipo y
-comprueba que el contexto traiga los datos para contestarlas (sin gastar IA).
+vuelve a fallar, ordena la lista él mismo. `worker/preguntas.mjs` tiene más de 230 preguntas de todo tipo (tabla,
+fixture, resultados, bajas, jugadores, rankings, sanciones, hipotéticos, el club entero, toda la Liga, repreguntas,
+errores de tipeo) y `node worker/probar.mjs` comprueba que el contexto traiga los datos para contestar cada una (sin
+gastar IA). Si una pregunta nueva falla, lo primero es agregarla ahí.
 

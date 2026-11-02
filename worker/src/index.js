@@ -130,6 +130,12 @@ Cómo responder:
 - Si preguntan quién es "el 9" o un número de camiseta, buscalo en el PLANTEL (campo camiseta). Si nadie lo usa, decilo.
 - Si preguntan por la próxima fecha de una divisional, listá TODOS los partidos de "PRÓXIMA FECHA" con día, hora y cancha; si preguntan cómo salió la fecha, usá "ÚLTIMA FECHA JUGADA".
 - Si un jugador aparece en varias categorías, decilo (por ejemplo "juega en Mayores A y también en Sub 20 A").
+- Si hay VARIOS jugadores con el mismo nombre o apellido y no queda claro cuál, nombralos con su club y preguntá cuál.
+- Si hay "PARA TERMINAR 1°" o "PARA NO TERMINAR ÚLTIMO", eso es lo que necesita el equipo: copialo tal cual. Si dice "YA ASEGURADO", no digas que todavía depende de algo.
+- "Campaña por etapa" ya tiene los totales por primera rueda, título o permanencia: usalos en vez de sumar partidos.
+- Para "cuántos partidos se jugaron / quedan / cuándo termina" usá "DATOS DE <divisional>".
+- Si la pregunta no es sobre la Liga Universitaria (otro deporte, otra liga, un tema cualquiera), decí en una línea que solo sabés de la Liga Universitaria y sugerí qué se puede preguntar.
+- Si el usuario solo saluda o agradece, respondé corto y con onda, sin volcar datos.
 - Si un club juega en varias categorías y no queda claro cuál le interesa, respondé por la que aparece primero y mencioná que hay otras.
 - Si la pregunta no tiene datos para responder, decilo y sugerí la sección de la página (Bajas, Partidos, Tabla, Jugadores, Rankings, Sanciones). La página tiene SOLO esas secciones: no nombres ninguna otra.
 - Sin títulos de markdown. Podés usar guiones para listas y **negrita** para algún número clave. No inventes conceptos del reglamento (promedios, descensos, clasificaciones) que no estén en los datos.
@@ -204,7 +210,8 @@ function pulir(t) {
 // respuesta se revisa: si falla, se le pide que la rehaga una vez; si vuelve a fallar, el orden se arregla acá.
 const SECCIONES = ['bajas', 'partidos', 'tabla', 'tablas', 'jugadores', 'rankings', 'ranking', 'sanciones', 'mi equipo', 'clubes'];
 // Una línea de lista con puntos: "1. Old Woodlands – 43 pts", "- 3° ELF 37 pts (34 + 3)", "**ELF – 37 pts**".
-const LINEA_PTS = /^(\s*)(?:(\d{1,2})\s*[.)°º]\s*|[-•*]\s*(?:(\d{1,2})\s*[.)°º]\s*)?)(.*?\D)(\d{1,3})\s*(?:pts|puntos)\b(.*)$/i;
+// Solo cuentan las líneas con número de puesto ("1.", "3°"): así "- si gana: 37 pts / - si empata: 35 pts" no se toca.
+const LINEA_PTS = /^(\s*)(?:[-•*]\s*)?(\d{1,2})\s*[.)°º]\s*()(.*?\D)(\d{1,3})\s*(?:pts|puntos)\b(.*)$/i;
 function listasConPuntos(texto) {
   const lineas = texto.split('\n'), bloques = [];
   let actual = null;
