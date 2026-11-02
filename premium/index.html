@@ -852,7 +852,8 @@ label.pm-lista{cursor:pointer}
 .pm-cal span.si b{color:var(--win)}
 .pm-cal span.no b{color:var(--faint)}
 .pm-mio{background:var(--accent-soft)}
-.pm-sep{min-height:0;padding:4px 14px;color:var(--faint);justify-content:center}
+.tiles.pm-tiles{grid-template-columns:repeat(3,minmax(0,1fr))}
+.pm-sep{min-height:0;padding:4px 14px;color:var(--muted);justify-content:center}
 @media (max-height:500px){.pm-tabsw{position:relative;top:auto}}
 .pm-al .lvl{text-transform:none}
 .panel > .ok,.pm-cuerpo .panel > .ok{padding:12px 14px}
@@ -2201,7 +2202,14 @@ function pmEst() {
   if (!PM_EST) {
     PM_EST = { cfg: { ...PM_CFG0 }, hor: {}, susp: {}, extras: {}, marcas: {}, lista: {}, resp: {}, principal: {}, amistosos: [], videos: [], conv: {}, rol: 'dt', yo: null, ...pmLeerJ('pm-estado2', {}) };
     PM_EST.cfg = { ...PM_CFG0, ...PM_EST.cfg };
-    PM_EST.usuarios ??= JSON.parse(JSON.stringify(PM_USUARIOS0));
+    // Si lo guardado tiene una forma rara, se arregla cada parte por separado.
+    const obj = x => x && typeof x === 'object' && !Array.isArray(x), arr = Array.isArray;
+    for (const k of ['hor', 'susp', 'extras', 'marcas', 'lista', 'resp', 'principal', 'conv']) if (!obj(PM_EST[k])) PM_EST[k] = {};
+    for (const k of ['amistosos', 'videos']) if (!arr(PM_EST[k])) PM_EST[k] = [];
+    if (!arr(PM_EST.usuarios) || !PM_EST.usuarios.some(x => x?.rol === 'admin')) PM_EST.usuarios = JSON.parse(JSON.stringify(PM_USUARIOS0));
+    PM_EST.usuarios = PM_EST.usuarios.filter(x => obj(x) && typeof x.u === 'string' && typeof x.nombre === 'string');
+    for (const c of Object.keys(PM_EST.hor)) if (!arr(PM_EST.hor[c]) || PM_EST.hor[c].some(v => !obj(v) || !obj(v.dias) || typeof v.desde !== 'string')) delete PM_EST.hor[c];
+    for (const c of Object.keys(PM_EST.extras)) if (!arr(PM_EST.extras[c])) delete PM_EST.extras[c];
     delete PM_EST.horarios; PM_EST.hor ??= {}; PM_EST.susp ??= {}; PM_EST.extras ??= {};
   }
   return PM_EST;
@@ -2218,8 +2226,9 @@ const pmPct = (a, b) => b ? Math.round(100 * a / b) : 0;
 const PM_NOMBRES = { 'reserva-c': 'Reserva Azul', 'reserva-d': 'Reserva Blanca' };
 const pmCatN = c => PM_NOMBRES[c] || INDICE.categorias.find(x => x.id === DIVS[c]?.categoria)?.nombre || c;
 
-async function pmCargar() {
-  if (PM) return PM;
+let PM_CARGANDO = null;
+function pmCargar() { return PM ? Promise.resolve(PM) : (PM_CARGANDO ??= pmCargar0().catch(e => { PM_CARGANDO = null; throw e; })); }
+async function pmCargar0() {
   const C = await clubes();
   const club = C[PM_CLUB];
   const equipos = (await Promise.all(club.equipos.map(async e => { try { return { ...e, d: await datos(e.div), cat: e.div }; } catch { return null; } }))).filter(Boolean);
@@ -2250,9 +2259,11 @@ const pmHorEn = (cat, d) => pmVersiones(cat).filter(v => v.desde <= d).at(-1) ||
 const pmHorHoy = cat => pmHorEn(cat, pmHoy());
 // Para cambiar el horario: se edita la versión de hoy (si no hay, se crea copiando la vigente).
 function pmHorEditar(cat, fn) {
-  const E = pmEst(), vs = pmVersiones(cat).map(v => ({ ...v, dias: { ...v.dias } })), hoy = pmHoy();
+  const E = pmEst(), vs = pmVersiones(cat).map(v => ({ ...v, dias: { ...v.dias } }));
+  // Si hoy ya hubo práctica de este plantel, el cambio corre desde mañana.
+  const hoy = pmPracticas(cat).some(p => p.dia === pmHoy() && p.pasada) ? pmSumar(pmHoy(), 1) : pmHoy();
   let v = vs.find(x => x.desde === hoy);
-  if (!v) { v = { ...pmHorHoy(cat), dias: { ...pmHorHoy(cat).dias }, desde: hoy }; vs.push(v); vs.sort((a, b) => a.desde.localeCompare(b.desde)); }
+  if (!v) { const b = pmHorEn(cat, hoy); v = { ...b, dias: { ...b.dias }, desde: hoy }; vs.push(v); vs.sort((a, b) => a.desde.localeCompare(b.desde)); }
   fn(v); E.hor[cat] = vs; pmGuardar();
 }
 function pmPracticas(cat) {
@@ -2261,7 +2272,7 @@ function pmPracticas(cat) {
   const mk = (d, hora, lugar, extra) => ({ id: `${cat}|${d}`, cat, dia: d, hora, lugar, extra, pasada: d < hoy || (d === hoy && ahora >= hora) });
   for (let d = PM_INICIO; d <= fin; d = pmSumar(d, 1)) {
     const v = pmHorEn(cat, d), hora = v.dias[pmDow(d)];
-    if (!hora || (d >= PM_VACACIONES[0] && d <= PM_VACACIONES[1]) || E.susp[`${cat}|${d}`]) continue;
+    if (!hora || (d >= PM_VACACIONES[0] && d <= PM_VACACIONES[1]) || E.susp[`${cat}|${d}`] || (E.extras[cat] || []).some(x => x.dia === d)) continue;
     out.push(mk(d, hora, v.lugar));
   }
   for (const x of E.extras[cat] || []) if (!out.some(p => p.dia === x.dia) && !E.susp[`${cat}|${x.dia}`]) out.push(mk(x.dia, x.hora, pmHorEn(cat, x.dia).lugar, true));
@@ -2279,7 +2290,7 @@ function pmEditorDias(cat) {
     <div class="pm-semana">${prox.map(([d, hora]) => `<button type="button" data-pm="dia" data-cat="${cat}" data-v="${d}" aria-pressed="${!!hora}" aria-label="${PM_DIAS_L[d]}">${DIAS[d]}</button>`).join('')}</div>
     ${activos.length ? activos.map(([d, hora]) => `<label class="pm-r pm-hora" for="h-${cat}-${d}"><span class="pm-r-t"><b>${PM_DIAS_L[d]}</b></span><input type="time" class="pm-in" id="h-${cat}-${d}" data-pm="hora" data-cat="${cat}" data-d="${d}" value="${hora}"></label>`).join('') : '<p class="pm-nota pm-aviso">No tiene ningún día de práctica. Tocá los días de arriba.</p>'}
     <div class="pm-r"><span class="pm-r-t"><b>Lugar</b></span><input type="text" class="pm-in" id="lugar-${cat}" aria-label="Lugar de práctica" data-pm="lugar" data-cat="${cat}" value="${esc(v.lugar)}"></div>
-    <div class="pm-r pm-extra"><span class="pm-r-t"><b>Práctica extra</b><small>Un día suelto que no es de los de siempre.</small></span><input type="date" class="pm-in" id="ex-dia" aria-label="Día de la práctica extra" min="${hoy}" value="${(() => { let d = pmSumar(hoy, 1); while (v.dias[pmDow(d)]) d = pmSumar(d, 1); return d; })()}"><input type="time" class="pm-in" id="ex-hora" aria-label="Hora de la práctica extra" value="${Object.values(v.dias)[0] || '19:00'}"><button type="button" class="share" data-pm="extra" data-cat="${cat}">Agregar</button></div>
+    <div class="pm-r pm-extra"><span class="pm-r-t"><b>Práctica extra</b><small>Un día suelto que no es de los de siempre.</small></span><input type="date" class="pm-in" id="ex-dia" aria-label="Día de la práctica extra" min="${hoy}" value="${(() => { let d = pmSumar(hoy, 1); for (let i = 0; i < 7 && v.dias[pmDow(d)]; i++) d = pmSumar(d, 1); return d; })()}"><input type="time" class="pm-in" id="ex-hora" aria-label="Hora de la práctica extra" value="${Object.values(v.dias)[0] || '19:00'}"><button type="button" class="share" data-pm="extra" data-cat="${cat}">Agregar</button></div>
     ${susp.length || extras.length ? `<div class="pm-r pm-cambios"><span class="pm-r-t"><b>Cambios de esta semana en adelante</b>${extras.map(x => `<small>Extra: ${fDia(x.dia)} ${x.hora} <button type="button" class="lnk" data-pm="quitar-extra" data-cat="${cat}" data-v="${x.dia}">Quitar</button></small>`).join('')}${susp.map(d => `<small>Suspendida: ${fDia(d)} <button type="button" class="lnk" data-pm="reactivar" data-v="${cat}|${d}">Volver a ponerla</button></small>`).join('')}</span></div>` : ''}
     <p class="pm-nota">Los cambios corren desde hoy: las prácticas que ya pasaron quedan como fueron.</p></div>`;
 }
@@ -2373,11 +2384,11 @@ function pmAdentro(el) {
   });
 }
 async function pmVer([div, vtab, ...r]) {
-  const main = $('#main'), arg = r.join('/');
+  const main = $('#main'), arg = r.join('/'), h0 = location.hash;
   const fn = { previa: vPrevia, jugador: vJugador, partido: vPartido, equipo: vEquipo, tabla: vTabla, bajas: vBajas }[vtab];
   if (!DIVS[div] || !fn) { location.replace('#/clubes'); return; }
   let d; try { d = await datos(div); } catch (e) { main.innerHTML = `<div class="empty">${esc(e.message)}</div>`; return; }
-  if (!location.hash.startsWith('#/clubes/ver')) return;
+  if (location.hash !== h0) return;
   main.innerHTML = fn(d, div, arg);
   main.querySelectorAll('.back').forEach(b => b.remove());
   main.insertAdjacentHTML('afterbegin', atras('#/clubes/' + PM_VOLVER, 'Volver a Para clubes'));
@@ -2398,10 +2409,11 @@ const PM_USUARIOS0 = [
 ];
 let PM_SES = null;
 const pmUsuario = u => pmEst().usuarios.find(x => x.u === u);
+const pmJug = c => (PM && typeof c === 'string' && Object.hasOwn(PM.jug, c)) ? PM.jug[c] : null;
 function pmSesion() {
   try {
     const s = JSON.parse(pmL('pm-sesion') || 'null'); if (!s) return null;
-    if (s.rol === 'jug') return PM.jug[s.c] ? s : null;
+    if (s.rol === 'jug') return pmJug(s.c) ? s : null;
     const x = pmUsuario(s.u); return x ? { rol: x.rol, u: x.u, nombre: x.nombre } : null;
   } catch { return null; }
 }
@@ -2409,14 +2421,14 @@ function pmSesion() {
 function pmCV() {
   const S = PM_SES || pmSesion(); if (!S) return [];
   if (S.rol === 'admin') return PM.cats;
-  if (S.rol === 'jug') return PM.cats.filter(c => PM.jug[S.c]?.cats[c]);
+  if (S.rol === 'jug') return PM.cats.filter(c => pmJug(S.c)?.cats[c]);
   const x = pmUsuario(S.u); return PM.cats.filter(c => x?.equipos?.includes(c));
 }
 const pmDtDe = c => pmEst().usuarios.filter(x => x.rol === 'dt' && x.equipos?.includes(c)).map(x => x.nombre);
 const pmDtTxt = c => { const n = pmDtDe(c); return n.length ? 'DT: ' + n.join(', ') : 'Sin DT'; };
 const pmEV = () => PM.equipos.filter(e => pmCV().includes(e.div));
 const pmTabs = S => S?.rol === 'admin' ? [...PM_TABS.slice(0, -1), ['tecnicos', 'Técnicos'], PM_TABS.at(-1)] : PM_TABS;
-const pmCuenta = (u, t, s) => `<div class="pm-r"><span class="pm-r-t"><b>${t}</b><small>${s}</small></span><button type="button" class="share" data-u="${u}">Entrar</button></div>`;
+const pmCuenta = (u, t, s) => `<div class="pm-r"><span class="pm-r-t"><b>${t}</b><small>${s}</small></span><button type="button" class="share" data-u="${esc(u)}">Entrar</button></div>`;
 function pmEjemplo() {
   const ej = PM && Object.values(PM.jug).filter(J => J.cats['sub20-a']).sort((a, b) => b.cats['sub20-a'].min - a.cats['sub20-a'].min)[0];
   return ej ? pmCuenta(ej.c, `Jugador · ${esc(ej.nombre)}`, `Usuario <code>${ej.c}</code> (su carné)`) : '<div class="pm-r" id="pm-ej"><span class="pm-r-t"><b>Jugador</b><small>Cargando un jugador de ejemplo…</small></span></div>';
@@ -2447,8 +2459,8 @@ function pmEnlazarLogin(soloBotones) {
     let s = null;
     const x = pmUsuario(u);
     if (pw === PM_CLAVE && x) s = { rol: x.rol, u: x.u, nombre: x.nombre };
-    else if (pw === PM_CLAVE && PM.jug[u]) s = { rol: 'jug', c: u, nombre: PM.jug[u].nombre };
-    if (!s) { err.textContent = x || PM.jug[u] ? 'La contraseña no es correcta.' : 'No encontramos ese usuario en el ELF. Si sos jugador, usá tu número de carné.'; err.hidden = false; return; }
+    else if (pw === PM_CLAVE && pmJug(u)) s = { rol: 'jug', c: u, nombre: pmJug(u).nombre };
+    if (!s) { err.textContent = x || pmJug(u) ? 'La contraseña no es correcta.' : 'No encontramos ese usuario en el ELF. Si sos jugador, usá tu número de carné.'; err.hidden = false; return; }
     pmG('pm-sesion', JSON.stringify(s));
     const E = pmEst(); E.rol = s.rol === 'jug' ? 'jug' : 'dt'; E.yo = s.c || null; PM_SES = null; pmGuardar();
     aviso(`Hola, ${s.nombre.split(' ')[0]}.`); renderClubes(location.hash.split('/')[2]);
@@ -2478,7 +2490,7 @@ function pmDeslizar(w) {
 function pmResumen() {
   const hoy = pmHoy(), hace30 = pmSumar(hoy, -30);
   let fue = 0, tot = 0;
-  for (const c of pmCV()) for (const p of pmPracticas(c).filter(p => p.pasada && p.dia >= hace30)) for (const J of pmDe(c)) if (pmPrincipal(J) === c) { fue += pmFue(J, p); tot++; }
+  for (const c of pmCV()) for (const p of pmPracticas(c).filter(p => p.pasada && p.dia > hace30)) for (const J of pmDe(c)) if (pmPrincipal(J) === c) { fue += pmFue(J, p); tot++; }
   const proxs = pmCV().map(pmProx).filter(Boolean).sort((a, b) => (a.dia + a.hora).localeCompare(b.dia + b.hora));
   const p0 = proxs[0];
   const van = p0 ? pmDe(p0.cat).filter(J => pmResp(J, p0) === 'va').length : 0;
@@ -2604,12 +2616,12 @@ function pmRecordatorios() {
 
 // ----- Videos -----
 function pmVideos() {
-  const E = pmEst();
+  const E = pmEst(), mios = pmCV(), vids = E.videos.filter(v => v.div ? mios.includes(v.div) : pmSesion()?.rol === 'admin');
   const partidos = pmEV().flatMap(e => (e.d.porEquipo[e.equipo] || []).filter(x => x.gf != null).map(x => ({ e, x }))).sort((a, b) => b.x.p.dia.localeCompare(a.x.p.dia)).slice(0, 14);
   return `<p class="lede">Guardá el link del video de cada partido (YouTube, Drive o donde esté) para analizarlo con el plantel.</p>
-    <form class="panel pm-form" id="pm-vid"><div class="pm-campos"><label>Partido<select id="vid-p">${partidos.map(({ e, x }) => `<option value="${e.div}|${x.p.id}">${esc(DIVS[e.div].nombre)} · ${x.gf}-${x.gc} vs ${esc(x.rival)} (${fDia(x.p.dia)})</option>`).join('')}</select></label>
+    <form class="panel pm-form" id="pm-vid"><div class="pm-campos"><label>Partido<select id="vid-p"${partidos.length ? '' : ' disabled'}>${partidos.length ? '' : '<option>Todavía no hay partidos jugados</option>'}${partidos.map(({ e, x }) => `<option value="${e.div}|${x.p.id}">${esc(DIVS[e.div].nombre)} · ${x.gf}-${x.gc} vs ${esc(x.rival)} (${fDia(x.p.dia)})</option>`).join('')}</select></label>
       <label>Link<input type="url" id="vid-url" placeholder="https://" required></label></div><button class="btn p" type="submit">Guardar video</button></form>
-    ${E.videos.length ? `<div class="panel">${E.videos.map(v => `<div class="pm-r"><span class="pm-r-t"><b>${esc(v.titulo)}</b><small>${esc(v.url)}</small></span>${/^https?:\/\//i.test(v.url) ? `<a class="share" href="${esc(v.url)}" target="_blank" rel="noopener">Ver</a>` : ''}<button type="button" class="share" data-pm="borrar-vid" data-v="${v.id}">Borrar</button></div>`).join('')}</div>` : '<div class="empty">Todavía no hay videos guardados.</div>'}`;
+    ${vids.length ? `<div class="panel">${vids.map(v => `<div class="pm-r"><span class="pm-r-t"><b>${esc(v.titulo)}</b><small>${esc(v.url)}</small></span>${/^https?:\/\//i.test(v.url) ? `<a class="share" href="${esc(v.url)}" target="_blank" rel="noopener">Ver</a>` : ''}<button type="button" class="share" data-pm="borrar-vid" data-v="${v.id}">Borrar</button></div>`).join('')}</div>` : '<div class="empty">Todavía no hay videos guardados.</div>'}`;
 }
 
 // ----- Técnicos (solo el administrador) -----
@@ -2629,13 +2641,13 @@ function pmTecnicos() {
 // ----- Ajustes -----
 function pmAjustes() {
   const E = pmEst();
-  return `<section class="stack"><div class="sec-h"><div><h3>Qué ven los jugadores</h3><span class="sub">Vos decidís. Lo apagado no le aparece a nadie del plantel.</span></div></div>
+  return `<section class="stack"><div class="sec-h"><div><h3>Qué ven los jugadores</h3><span class="sub">Vale para todos los planteles del club. Lo apagado no le aparece a ningún jugador.</span></div></div>
       <div class="panel">${pmSw('verAsistencia', 'Sus prácticas', 'A cuántas fue en la semana, el mes y el año')}${pmSw('verRacha', 'Su racha', 'Prácticas seguidas sin faltar')}${pmSw('verMinutos', 'Sus minutos', 'Lo que jugó en cada plantel')}${pmSw('verCompaneros', 'Quién va a la próxima práctica', 'Las respuestas de sus compañeros al recordatorio')}${pmSw('verRanking', 'Ranking de asistencia', 'La tabla de todo el plantel ordenada por asistencia')}</div></section>
     <section class="stack"><div class="sec-h"><div><h3>Prácticas</h3><span class="sub">La asistencia la marca cada jugador.</span></div></div>
       <div class="panel">${pmSw('pasarLista', 'Pasar lista', 'El técnico confirma quién fue. Si está apagado, vale lo que marca el jugador')}${pmSw('recordatorio', 'Recordatorio por WhatsApp', '"¿Vas a la práctica?" antes de cada una')}
         <div class="pm-r"><span class="pm-r-t"><b>Cuándo se manda</b></span><div class="seg pm-seg"><button type="button" data-pm="rec" data-v="noche" aria-pressed="${E.cfg.recCuando === 'noche'}">Noche anterior</button><button type="button" data-pm="rec" data-v="antes" aria-pressed="${E.cfg.recCuando === 'antes'}">3 h antes</button></div></div></div></section>
     <section class="stack"><div class="sec-h"><div><h3>Partidos</h3></div></div><div class="panel">${pmSw('convocatoria', 'Convocatoria', 'Elegir los convocados de cada partido y mandar la lista')}</div></section>
-    <section class="stack"><div class="sec-h"><div><h3>Días de práctica</h3><span class="sub">Se cambian en Prácticas, eligiendo la categoría.</span></div><a href="#/clubes/practicas">Cambiar</a></div>
+    <section class="stack"><div class="sec-h"><div><h3>Días de práctica</h3><span class="sub">Se cambian en Prácticas, eligiendo el plantel.</span></div><a href="#/clubes/practicas">Cambiar</a></div>
       <div class="panel">${pmCV().map(c => `<div class="pm-r"><span class="pm-r-t"><b>${esc(pmCatN(c))}</b><small>${pmDiasTxt(c)} · ${esc(pmHorHoy(c).lugar)}</small></span></div>`).join('')}</div></section>
     ${pmSesion()?.rol !== 'admin' ? '' : `<section class="stack"><div class="sec-h"><div><h3>Plan</h3></div></div>
       <div class="panel"><div class="pm-r"><span class="pm-r-t"><b>Prueba gratis · ELF</b><small>Después: 30 USD por mes cada plantel, o 100 USD por mes todo el club.</small></span><span class="tag pm-plan">Activo</span></div>
@@ -2645,21 +2657,22 @@ function pmAjustes() {
 // ----- Vista del jugador -----
 function pmVistaJugador(S) {
   const E = pmEst(), mios = pmCV(), todos = Object.values(PM.jug).filter(x => S.rol === 'jug' || Object.keys(x.cats).some(c => mios.includes(c))).sort((a, b) => a.nombre.localeCompare(b.nombre));
-  const J = (S.rol === 'jug' || todos.some(x => x.c === E.yo)) && PM.jug[E.yo] || todos[0];
-  const cat = pmPrincipal(J), k = pmCuentas(J, cat), racha = pmRacha(J);
-  const pr = Object.keys(J.cats).map(pmProx).filter(Boolean).sort((a, b) => (a.dia + a.hora).localeCompare(b.dia + b.hora))[0];
+  const J = (S.rol === 'jug' || todos.some(x => x.c === E.yo)) && pmJug(E.yo) || todos[0];
+  const susCats = Object.keys(J.cats).filter(c => S.rol === 'jug' || mios.includes(c));
+  const cat = susCats.includes(pmPrincipal(J)) ? pmPrincipal(J) : susCats[0], k = pmCuentas(J, cat), racha = pmRacha(J, cat);
+  const pr = susCats.map(pmProx).filter(Boolean).sort((a, b) => (a.dia + a.hora).localeCompare(b.dia + b.hora))[0];
   const ult = pmPracticas(cat).filter(p => p.pasada).at(-1);
   const yaFue = ult && pmFue(J, ult);
   const resp = pr && pmResp(J, pr);
   const rank = E.cfg.verRanking ? pmDe(cat).filter(x => pmPrincipal(x) === cat).map(x => ({ x, p: pmCuentas(x, cat).pct })).sort((a, b) => b.p - a.p) : [];
   return (S.rol === 'jug' ? `<input type="hidden" id="pm-yo-sel" value="${J.c}">` : `<div class="pm-yo"><label for="pm-yo-sel" class="small muted">Ver como</label><select id="pm-yo-sel" data-pm="yo">${todos.map(x => `<option value="${x.c}"${x.c === J.c ? ' selected' : ''}>${esc(x.nombre)}</option>`).join('')}</select></div>`) + `
-    <div class="panel pm-hola"><div class="pm-r"><span class="pm-r-t"><b>Hola, ${esc(J.nombre.split(' ')[0])}</b><small>Plantel principal: ${esc(pmCatN(cat))}</small></span>
-      ${Object.keys(J.cats).length > 1 ? `<select id="pm-princ" data-pm="principal" aria-label="Plantel principal">${Object.keys(J.cats).map(c => `<option value="${c}"${c === cat ? ' selected' : ''}>${esc(pmCatN(c))}</option>`).join('')}</select>` : ''}</div>
+    <div class="panel pm-hola"><div class="pm-r"><span class="pm-r-t"><b>Hola, ${esc(J.nombre.split(' ')[0])}</b><small>${cat === pmPrincipal(J) ? 'Plantel principal' : 'Plantel'}: ${esc(pmCatN(cat))}</small></span>
+      ${S.rol === 'jug' && Object.keys(J.cats).length > 1 ? `<select id="pm-princ" data-pm="principal" aria-label="Plantel principal">${Object.keys(J.cats).map(c => `<option value="${c}"${c === cat ? ' selected' : ''}>${esc(pmCatN(c))}</option>`).join('')}</select>` : ''}</div>
       ${ult ? `<div class="pm-r"><span class="pm-r-t"><b>Práctica de ${esc(pmCatN(ult.cat))}</b><small>${pmDiaH(ult)}</small></span>${yaFue ? '<span class="pm-est si">Fuiste</span>' : `<button type="button" class="btn p" data-pm="fui" data-v="${ult.id}">Marcar que fui</button>`}</div>` : ''}
       ${pr ? `<div class="pm-r"><span class="pm-r-t"><b>¿Vas a la próxima?</b><small>${esc(pmCatN(pr.cat))} · ${pmDiaH(pr)}</small></span><div class="seg pm-seg"><button type="button" data-pm="voy" data-p="${pr.id}" data-v="va" aria-pressed="${resp === 'va'}">Voy</button><button type="button" data-pm="voy" data-p="${pr.id}" data-v="no" aria-pressed="${resp === 'no'}">No voy</button></div></div>` : ''}</div>
     ${E.cfg.verAsistencia || E.cfg.verRacha ? `<div class="tiles pm-tiles">${E.cfg.verRacha ? `<div class="tile"><b>${racha}</b><small>${racha === 1 ? 'Práctica seguida' : 'Prácticas seguidas'}</small></div>` : ''}${E.cfg.verAsistencia ? `<div class="tile"><b>${k.mes[0]}/${k.mes[1]}</b><small>Últimos 30 días</small></div><div class="tile"><b>${k.pct}%</b><small>Temporada (${k.anio[0]} de ${k.anio[1]})</small></div>` : ''}</div>` : ''}
     ${E.cfg.verAsistencia ? `<section class="stack"><div class="sec-h"><div><h3>Mis prácticas</h3><span class="sub">Las últimas de ${esc(pmCatN(cat))}.</span></div></div><div class="pm-cal">${pmPracticas(cat).filter(p => p.pasada).slice(-16).map(p => { const f = pmFue(J, p); return `<span class="${f ? 'si' : 'no'}" title="${fDia(p.dia)}: ${f ? 'fuiste' : 'no fuiste'}"><b>${p.dia.slice(8)}</b><small>${DIAS[pmDow(p.dia)]} ${PM_MESES[+p.dia.slice(5, 7) - 1]}</small></span>`; }).join('')}</div></section>` : ''}
-    ${E.cfg.verMinutos ? `<section class="stack"><div class="sec-h"><div><h3>Mis minutos</h3></div></div><div class="panel">${Object.entries(J.cats).map(([c, x]) => `<div class="pm-r"><span class="pm-r-t"><a href="${pmJugLink(J, c)}"><b>${esc(pmCatN(c))}</b></a><small>${x.pj} PJ · ${x.tit} de titular${x.gol ? ` · ${x.gol} gol${x.gol > 1 ? 'es' : ''}` : ''}</small></span><span class="pm-cnt"><b>${x.min}'</b></span></div>`).join('')}</div></section>` : ''}
+    ${E.cfg.verMinutos ? `<section class="stack"><div class="sec-h"><div><h3>Mis minutos</h3></div></div><div class="panel">${Object.entries(J.cats).filter(([c]) => susCats.includes(c)).map(([c, x]) => `<div class="pm-r"><span class="pm-r-t"><a href="${pmJugLink(J, c)}"><b>${esc(pmCatN(c))}</b></a><small>${x.pj} PJ · ${x.tit} de titular${x.gol ? ` · ${x.gol} gol${x.gol > 1 ? 'es' : ''}` : ''}</small></span><span class="pm-cnt"><b>${x.min}'</b></span></div>`).join('')}</div></section>` : ''}
     ${E.cfg.verCompaneros && pr ? `<section class="stack"><div class="sec-h"><div><h3>Van a la próxima</h3><span class="sub">${esc(pmCatN(pr.cat))} · ${fDia(pr.dia)}</span></div></div><div class="panel"><div class="pm-rg"><span>${pmDe(pr.cat).filter(x => pmResp(x, pr) === 'va').map(x => esc(pmCorto(x.nombre))).join(', ')}</span></div></div></section>` : ''}
     ${rank.length ? `<section class="stack"><div class="sec-h"><div><h3>Asistencia del plantel</h3><span class="sub">Los 10 que más fueron en la temporada${rank.findIndex(r => r.x.c === J.c) >= 10 ? ', y vos' : ''}.</span></div></div><div class="panel">${rank.map((r, i) => ({ ...r, i })).filter(({ x, i }) => i < 10 || x.c === J.c).map(({ x, p, i }) => `${i >= 10 ? '<div class="pm-r pm-sep">…</div>' : ''}<div class="pm-r${x.c === J.c ? ' pm-mio' : ''}"><span class="pm-r-t"><b>${i + 1}. ${esc(x.nombre)}</b></span><span class="pm-cnt"><b>${p}%</b></span></div>`).join('')}</div></section>` : ''}
     <p class="pm-nota">Esto es lo que ve un jugador. Lo que aparece acá lo decide el cuerpo técnico en Ajustes.</p>`;
@@ -2682,7 +2695,7 @@ function pmEnlazar() {
     else if (a === 'quitar-extra') { const c = b.dataset.cat; E.extras[c] = (E.extras[c] || []).filter(x => x.dia !== v); PM_PRAC = null; pmGuardar(); }
     else if (a === 'suspender') { E.susp[v] = 1; PM_PRAC = null; pmGuardar(); aviso('Práctica suspendida.'); }
     else if (a === 'reactivar') { delete E.susp[v]; pmGuardar(); }
-    else if (a === 'fui') { const c = $('#pm-yo-sel').value; (E.marcas[v] ??= {})[c] = 1; pmGuardar(); aviso('Listo, quedó marcado.'); }
+    else if (a === 'fui') { const c = $('#pm-yo-sel').value; (E.marcas[v] ??= {})[c] = 1; if (!E.cfg.pasarLista && E.lista[v]) delete E.lista[v][c]; pmGuardar(); aviso('Listo, quedó marcado.'); }
     else if (a === 'voy') { const c = $('#pm-yo-sel').value; (E.resp[b.dataset.p] ??= {})[c] = v; pmGuardar(); aviso(v === 'va' ? 'Anotado: vas.' : 'Anotado: no vas.'); }
     else if (a === 'borrar-am') { E.amistosos = E.amistosos.filter(x => x.id !== v); pmGuardar(); }
     else if (a === 'borrar-vid') { E.videos = E.videos.filter(x => x.id !== v); pmGuardar(); }
@@ -2700,7 +2713,7 @@ function pmEnlazar() {
     else if (a === 'conv') { const s = new Set(E.conv[i.dataset.k] || []); i.checked ? s.add(i.dataset.c) : s.delete(i.dataset.c); E.conv[i.dataset.k] = [...s]; pmGuardar(); }
     else if (a === 'yo') { E.yo = i.value; pmGuardar(); }
     else if (a === 'principal') { E.principal[$('#pm-yo-sel').value] = i.value; pmGuardar(); aviso('Plantel principal cambiado.'); }
-    else if (a === 'hora') { if (!i.value) return; pmHorEditar(i.dataset.cat, x => { x.dias[i.dataset.d] = i.value; }); aviso('Horario guardado.'); }
+    else if (a === 'hora') { if (!i.value) return; pmHorEditar(i.dataset.cat, x => { x.dias[i.dataset.d] = i.value; }); clearTimeout(pmEnlazar.t); pmEnlazar.t = setTimeout(() => aviso('Horario guardado.'), 900); return; }
     else if (a === 'lugar') { pmHorEditar(i.dataset.cat, x => { x.lugar = i.value.trim() || x.lugar; }); aviso('Lugar guardado.'); }
     else return;
     repintar();
@@ -2710,13 +2723,16 @@ function pmEnlazar() {
     ev.preventDefault();
     const min = {}; am.querySelectorAll('.pm-mins input').forEach(x => { if (Number(x.value) > 0) min[x.dataset.c] = Number(x.value); });
     if (!Object.keys(min).length) { aviso('Poné los minutos de al menos un jugador.'); return; }
-    E.amistosos.unshift({ id: String(Date.now()), cat: PM_CAT, dia: $('#am-dia').value, rival: $('#am-rival').value.trim(), min }); pmGuardar(); aviso('Amistoso guardado.'); repintar();
+    const rival = $('#am-rival').value.trim(); if (!rival) { aviso('Poné el nombre del rival.'); return; }
+    E.amistosos.unshift({ id: String(Date.now()), cat: PM_CAT, dia: $('#am-dia').value, rival, min }); pmGuardar(); aviso('Amistoso guardado.'); repintar();
   };
   const fdt = $('#pm-dt');
   if (fdt) fdt.onsubmit = ev => {
     ev.preventDefault();
     const n = $('#dt-n').value.trim(), u = $('#dt-u').value.trim().toLowerCase().replace(/\s+/g, '');
-    if (pmUsuario(u) || PM.jug[u]) { aviso('Ese usuario ya existe. Probá con otro.'); return; }
+    if (!/^[a-z0-9._-]{2,30}$/.test(u)) { aviso('El usuario puede tener letras, números, punto, guion o guion bajo (de 2 a 30).'); return; }
+    if (!n) { aviso('Poné el nombre del técnico.'); return; }
+    if (pmUsuario(u) || pmJug(u)) { aviso('Ese usuario ya existe. Probá con otro.'); return; }
     E.usuarios.push({ u, nombre: n, rol: 'dt', equipos: [] }); pmGuardar(); aviso(`${n} puede entrar con el usuario ${u}.`); repintar();
   };
   const vid = $('#pm-vid');
@@ -2724,7 +2740,8 @@ function pmEnlazar() {
     ev.preventDefault();
     const url = $('#vid-url').value.trim();
     if (!/^https?:\/\//i.test(url)) { aviso('El link tiene que empezar con https://'); return; }
-    const s = $('#vid-p'); E.videos.unshift({ id: String(Date.now()), titulo: s.options[s.selectedIndex].textContent, url }); pmGuardar(); aviso('Video guardado.'); repintar();
+    const s = $('#vid-p'); if (!s || s.selectedIndex < 0) { aviso('Todavía no hay partidos jugados para asociar el video.'); return; }
+    E.videos.unshift({ id: String(Date.now()), div: s.value.split('|')[0], titulo: s.options[s.selectedIndex].textContent, url }); pmGuardar(); aviso('Video guardado.'); repintar();
   };
 }
 
