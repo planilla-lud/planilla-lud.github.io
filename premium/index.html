@@ -852,6 +852,10 @@ label.pm-lista{cursor:pointer}
 .pm-cal span.si b{color:var(--win)}
 .pm-cal span.no b{color:var(--faint)}
 .pm-mio{background:var(--accent-soft)}
+.pm-tile-btn{font:inherit;color:inherit;text-align:left;background:none;cursor:pointer}
+.pm-tile-btn:hover b{text-decoration:underline}
+#pm-bajas{scroll-margin-top:calc(var(--header-h) + var(--cats-h) + 70px)}
+
 .tiles.pm-tiles{grid-template-columns:repeat(3,minmax(0,1fr))}
 .pm-sep{min-height:0;padding:4px 14px;color:var(--muted);justify-content:center}
 @media (max-height:500px){.pm-tabsw{position:relative;top:auto}}
@@ -2313,7 +2317,10 @@ function pmFue(J, pr) {
 // Respuesta al recordatorio de la próxima práctica.
 function pmResp(J, pr) {
   const r = pmEst().resp[pr.id]?.[J.c]; if (r) return r;
-  if (!pmCfg(pr.cat).recordatorio) return 'sin';
+  const C = pmCfg(pr.cat); if (!C.recordatorio) return 'sin';
+  // El recordatorio sale la noche anterior a las 20:00, o 3 horas antes; antes de eso nadie respondió.
+  const sale = C.recCuando === 'noche' ? `${pmSumar(pr.dia, -1)} 20:00` : (() => { const [hh, mm] = pr.hora.split(':').map(Number), m = hh * 60 + mm - 180; return m >= 0 ? `${pr.dia} ${String(Math.floor(m / 60)).padStart(2, '0')}:${String(m % 60).padStart(2, '0')}` : `${pmSumar(pr.dia, -1)} ${String(Math.floor((m + 1440) / 60)).padStart(2, '0')}:${String((m + 1440) % 60).padStart(2, '0')}`; })();
+  if (`${pmHoy()} ${pmAhora()}` < sale) return 'sin';
   const x = pmAzar('r' + J.c + pr.id);
   return x < 0.55 ? 'va' : x < 0.72 ? 'no' : 'sin';
 }
@@ -2512,10 +2519,12 @@ function pmResumen() {
     <div class="panel pm-plts">${PM.cats.map(c => { const n = pmDtDe(c); return `<div class="pm-r"><span class="pm-r-t"><b>${esc(pmCatN(c))}</b><small>${esc(DIVS[c].nombre)} · ${pmDiasTxt(c)}</small></span><span class="pm-dt${n.length ? '' : ' sin'}">${n.length ? esc(n.join(', ')) : 'Sin DT'}</span></div>`; }).join('')}</div></section>`;
   return plt + `<div class="tiles pm-tiles"><div class="tile"><b>${pmPct(fue, tot)}%</b><small>Asistencia, últimos 30 días</small></div>
       <div class="tile"><b>${p0 ? `${van}/${pmDe(p0.cat).length}` : '-'}</b><small>${p0 ? `Van a ${esc(pmCatN(p0.cat))}, ${fDia(p0.dia)}` : 'Sin prácticas cargadas'}</small></div>
-      <div class="tile"><b>${bajas.length}</b><small>Bajas seguras para la fecha</small></div></div>
+      <button type="button" class="tile pm-tile-btn" data-pm="ir-bajas"><b>${bajas.length}</b><small>Posibles bajas importantes</small></button></div>
     <section class="stack"><div class="sec-h"><div><h3>Próximos partidos</h3><span class="sub">Con el informe del rival: once probable, bajas, goles por minuto y goleadores.</span></div></div>
       <div class="panel">${pmEV().filter(e => e.proximo).sort((a, b) => (a.proximo.dia + a.proximo.hora).localeCompare(b.proximo.dia + b.proximo.hora)).map(e => { const n = e.proximo;
         return `<div class="pm-r"><span class="pm-r-t"><b>${esc(pmCatN(e.div))} vs ${esc(n.rival)}</b><small>${fDia(n.dia)}${n.hora !== '00:00' ? ' ' + n.hora : ''}${n.local ? ' · local' : ''} · ${esc(n.cancha)}${pmSesion()?.rol === 'admin' ? ` · ${esc(pmDtTxt(e.div))}` : ''}</small></span><a class="share" href="#/clubes/ver/${link(e.div, 'previa', n.local ? `${e.equipo}~${n.rival}` : `${n.rival}~${e.equipo}`).slice(2)}">Informe del rival</a></div>`; }).join('')}</div></section>
+    ${bajas.length ? `<section class="stack" id="pm-bajas"><div class="sec-h"><div><h3>Posibles bajas importantes</h3><span class="sub">Alertas de nivel alto para el próximo partido, sacadas de las planillas.</span></div></div>
+      <div class="panel side sola">${bajas.map(({ e, a }) => `<div class="alert"><b class="lvl alta">${esc(pmCatN(e.div))}</b>${a.carne ? `<a href="#/clubes/ver/${link(e.div, 'jugador', a.carne).slice(2)}">${esc(a.nombre)}</a>` : `<b>${esc(a.nombre)}</b>`}<span>${esc(a.texto)}</span></div>`).join('')}</div></section>` : ''}
     <section class="stack"><div class="sec-h"><div><h3>Para mirar</h3><span class="sub">Cruce de las prácticas con los minutos de las planillas, en su plantel principal.</span></div><a href="#/clubes/cruce">Ver todo</a></div>
       <div class="panel side sola">${mirar.length ? mirar.sort((a, b) => a.t.localeCompare(b.t)).slice(0, 8).map(({ J, c, t, txt }) => `<div class="alert pm-al ${t}"><b class="lvl ${t === 'mas' ? 'baja' : 'media'}">${t === 'mas' ? 'Darle minutos' : 'Falta a prácticas'}</b><a href="${pmJugLink(J, c)}">${esc(J.nombre)}</a><span>${esc(pmCatN(c))}. ${txt}</span></div>`).join('') : '<div class="ok">Nada fuera de lo normal.</div>'}</div></section>
     <section class="stack"><div class="sec-h"><div><h3>Próximas prácticas</h3><span class="sub">Quiénes respondieron al recordatorio.</span></div><a href="#/clubes/practicas">Prácticas</a></div>
@@ -2696,6 +2705,7 @@ function pmEnlazar() {
     const a = b.dataset.pm, v = b.dataset.v;
     if (a === 'cat') { PM_CAT = v; PM_PRAC = null; }
     else if (a === 'prac') PM_PRAC = v;
+    else if (a === 'ir-bajas') { $('#pm-bajas')?.scrollIntoView({ behavior: 'smooth', block: 'start' }); return; }
     else if (a === 'rol') { E.rol = v; pmGuardar(); }
     else if (a === 'salir') { pmG('pm-sesion', ''); PM_SES = null; E.rol = 'dt'; E.yo = null; pmGuardar(); aviso('Cerraste sesión.'); }
     else if (a === 'rec') { (E.cfgP[PM_CAT] ??= {}).recCuando = v; pmGuardar(); aviso('Guardado.'); }
@@ -2722,7 +2732,7 @@ function pmEnlazar() {
     else if (a === 'conv') { const s = new Set(E.conv[i.dataset.k] || []); i.checked ? s.add(i.dataset.c) : s.delete(i.dataset.c); E.conv[i.dataset.k] = [...s]; pmGuardar(); }
     else if (a === 'yo') { E.yo = i.value; pmGuardar(); }
     else if (a === 'principal') { E.principal[$('#pm-yo-sel').value] = i.value; pmGuardar(); aviso('Plantel principal cambiado.'); }
-    else if (a === 'hora') { if (!i.value) return; pmHorEditar(i.dataset.cat, x => { x.dias[i.dataset.d] = i.value; }); clearTimeout(pmEnlazar.t); pmEnlazar.t = setTimeout(() => aviso('Horario guardado.'), 900); return; }
+    else if (a === 'hora') { if (!i.value) return; pmHorEditar(i.dataset.cat, x => { x.dias[i.dataset.d] = i.value; }); clearTimeout(pmEnlazar.t); pmEnlazar.t = setTimeout(() => { aviso('Horario guardado.'); if (document.activeElement === i) i.addEventListener('blur', repintar, { once: true }); else repintar(); }, 900); return; }
     else if (a === 'lugar') { pmHorEditar(i.dataset.cat, x => { x.lugar = i.value.trim() || x.lugar; }); aviso('Lugar guardado.'); }
     else return;
     repintar();
