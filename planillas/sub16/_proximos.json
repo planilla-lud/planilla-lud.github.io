@@ -37,20 +37,6 @@
  {
   "serie": "16P",
   "fechaHora": "2026-11-01 13:30:00",
-  "cancha": "COMPLEJO LOS ROJOS",
-  "local": "TACUAREMBO UNIVERSITARIO",
-  "visitante": "CARRASCO LAWN TENNIS"
- },
- {
-  "serie": "16P",
-  "fechaHora": "2026-11-01 13:30:00",
-  "cancha": "PICHINCHA",
-  "local": "LA ESCALINATA",
-  "visitante": "CIRCULO DE TENIS MONTEVIDEO"
- },
- {
-  "serie": "16P",
-  "fechaHora": "2026-11-01 13:30:00",
   "cancha": "COMPLEJO URUNDAY UNIVERSITARIO",
   "local": "URUNDAY UNIVERSITARIO",
   "visitante": "DEPORTIVO MORON"
