@@ -1,5 +1,5 @@
 # Genera los íconos, las pantallas de arranque de la app (para "Agregar a inicio") y og.png (la imagen
-# que aparece al compartir el link). Mismo diseño que la página: grafito, aro celeste con un hueco
+# que aparece al compartir el link). Mismo diseño que la página: negro, aro blanco con un hueco
 # (el que falta) y Barlow.
 # Uso: python herramientas/portada.py
 # Usa el Chrome (o Edge) instalado, sin ventana. Si no lo encuentra: NAVEGADOR=ruta/al/chrome.
@@ -8,7 +8,7 @@ import os, shutil, subprocess, tempfile, pathlib
 
 RAIZ = pathlib.Path(__file__).resolve().parent.parent
 APP = RAIZ / 'app'
-FONDO, TEXTO, APAGADO, ACENTO = '#0c0f12', '#eceff2', '#9aa3ad', '#4db0f2'
+FONDO, TEXTO, APAGADO, ACENTO = '#000000', '#f3f3f4', '#9b9ea5', '#ffffff'
 LETRAS = '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;600&family=Barlow+Semi+Condensed:wght@700&display=block">'
 CSS = """*{margin:0;padding:0;box-sizing:border-box}html,body{width:100%;height:100%;overflow:hidden}
 body{font-family:Barlow,sans-serif;-webkit-font-smoothing:antialiased}"""
@@ -26,7 +26,7 @@ def marca(px, escala=1.0):
     r, sw = 15 * k, 6.5 * k
     largo = 2 * 3.14159 * r
     return f"""<svg width="{px}" height="{px}" viewBox="0 0 {px} {px}" xmlns="http://www.w3.org/2000/svg">
-  <rect width="{px}" height="{px}" fill="#111418"/>
+  <rect width="{px}" height="{px}" fill="#0a0a0a"/>
   <circle cx="{px/2}" cy="{px/2}" r="{r}" fill="none" stroke="{ACENTO}" stroke-width="{sw}" stroke-dasharray="{largo*0.807} {largo*0.193}" stroke-dashoffset="{-largo*0.064}" transform="rotate(-90 {px/2} {px/2})"/>
 </svg>"""
 
@@ -35,7 +35,7 @@ def splash(w, h):
     return f"""<div style="width:{w}px;height:{h}px;background:{FONDO};position:relative;color:{TEXTO}">
   <div style="position:absolute;left:0;right:0;top:{h*0.5 - t*0.28}px;display:flex;flex-direction:column;align-items:center;gap:{t*0.05}px">
     <div style="width:{t*0.26}px;height:{t*0.26}px;border-radius:{t*0.06}px;overflow:hidden;box-shadow:0 0 0 1px rgba(236,239,242,.12)">{marca(int(t*0.26))}</div>
-    <div style="font-family:'Barlow Semi Condensed';font-weight:700;font-size:{t*0.12}px;line-height:1">Planilla <span style="color:{ACENTO}">LUD</span></div>
+    <div style="font-family:'Barlow Semi Condensed';font-weight:700;font-size:{t*0.12}px;line-height:1">Planilla <span style="opacity:.6">LUD</span></div>
     <div style="font-size:{t*0.042}px;color:{APAGADO};font-weight:500">Bajas · Previas · Once probable</div>
   </div>
   <div style="position:absolute;left:0;right:0;bottom:{h*0.06}px;text-align:center;font-size:{t*0.034}px;color:#6e7781;font-weight:500">Liga Universitaria de Deportes</div>
@@ -49,7 +49,7 @@ def og():
     return f'''<div style="width:1200px;height:630px;position:relative;overflow:hidden;color:{TEXTO};background:{FONDO}">
   <div style="position:absolute;left:84px;top:80px;display:flex;align-items:center;gap:22px">
     <div style="width:84px;height:84px;border-radius:20px;overflow:hidden;box-shadow:0 0 0 1px rgba(236,239,242,.12)">{marca(84)}</div>
-    <div style="font-family:'Barlow Semi Condensed';font-weight:700;font-size:64px;line-height:1">Planilla <span style="color:{ACENTO}">LUD</span></div>
+    <div style="font-family:'Barlow Semi Condensed';font-weight:700;font-size:64px;line-height:1">Planilla <span style="opacity:.6">LUD</span></div>
   </div>
   <div style="position:absolute;left:84px;top:230px;width:980px;font-family:'Barlow Semi Condensed';font-weight:700;font-size:70px;line-height:1.02">Bajas, previas y once probable de cada partido</div>
   <div style="position:absolute;left:84px;top:404px;font-size:26px;font-weight:500;color:{APAGADO}">Liga Universitaria de Deportes · {cats}</div>
