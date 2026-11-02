@@ -281,7 +281,7 @@
      "letra": "Bronce",
      "nombre": "Sub 18 Bronce",
      "copa": "18B",
-     "actualizado": "2026-11-02T00:40:34.642Z",
+     "actualizado": "2026-11-02T04:59:34.551Z",
      "partidos": 116,
      "conPlanilla": 110,
      "conProblemas": 48,
@@ -325,7 +325,7 @@
      "letra": "Todas",
      "nombre": "Sub 18",
      "oculta": 1,
-     "actualizado": "2026-11-02T00:40:34.642Z",
+     "actualizado": "2026-11-02T04:59:34.551Z",
      "partidos": 398,
      "conPlanilla": 377,
      "conProblemas": 170,
@@ -364,10 +364,10 @@
      "letra": "Bronce",
      "nombre": "Sub 16 Bronce",
      "copa": "16B",
-     "actualizado": "2026-11-01T21:08:04.726Z",
-     "partidos": 108,
+     "actualizado": "2026-11-02T04:59:34.721Z",
+     "partidos": 109,
      "conPlanilla": 107,
-     "conProblemas": 53,
+     "conProblemas": 54,
      "equipos": 8
     },
     {
@@ -397,10 +397,10 @@
      "letra": "Todas",
      "nombre": "Sub 16",
      "oculta": 1,
-     "actualizado": "2026-11-02T00:40:34.770Z",
-     "partidos": 310,
+     "actualizado": "2026-11-02T04:59:34.721Z",
+     "partidos": 311,
      "conPlanilla": 295,
-     "conProblemas": 153,
+     "conProblemas": 154,
      "equipos": 39
     }
    ]
