@@ -9,6 +9,57 @@ const DATA = new URL('../data/', import.meta.url);
 const leer = f => JSON.parse(readFileSync(new URL(f, DATA)));
 const DIAS = ['dom', 'lun', 'mar', 'mié', 'jue', 'vie', 'sáb'];
 const fDia = d => `${DIAS[new Date(d + 'T12:00:00Z').getUTCDay()]} ${d.slice(8, 10)}/${d.slice(5, 7)}`;
+const puestos = (a, b) => a === b ? `${a}°` : b === a + 1 ? `${a}° o ${b}°` : `entre ${a}° y ${b}°`;
+
+// Escenarios de una tabla: recorre TODAS las combinaciones de resultados de los partidos que quedan
+// (3 resultados por partido) y anota en qué puesto puede terminar cada equipo. Así el chat no tiene que
+// reordenar la tabla a mano (la IA gratis lo hace mal). Con más de 11 partidos pendientes no se calcula.
+// filas: [{eq, pts}] de la tabla; pendientes: [[local, visitante, fechaHora]] con nombres cortos.
+function escenarios(filas, pendientes) {
+  const n = pendientes.length;
+  if (!n || n > 11) return null;
+  const idx = new Map(filas.map((x, i) => [x.eq, i]));
+  const par = pendientes.map(([l, v]) => [idx.get(l), idx.get(v)]);
+  const base = filas.map(x => x.pts);
+  // El próximo partido de cada equipo: el primero por fecha.
+  const orden = pendientes.map((_, k) => k).sort((a, b) => pendientes[a][2] < pendientes[b][2] ? -1 : 1);
+  const prox = filas.map((_, i) => orden.find(k => par[k][0] === i || par[k][1] === i));
+  const res = filas.map(() => ({ fin: [99, 0], fin1: false, si: {} }));
+  const pts = new Array(filas.length), out = new Array(n);
+  for (let c = 0; c < 3 ** n; c++) {
+    let r = c;
+    for (let k = 0; k < n; k++) { out[k] = r % 3; r = (r - out[k]) / 3; }
+    for (let i = 0; i < pts.length; i++) pts[i] = base[i];
+    for (let k = 0; k < n; k++) { const [a, b] = par[k]; if (out[k] === 0) pts[a] += 3; else if (out[k] === 1) { pts[a]++; pts[b]++; } else pts[b] += 3; }
+    for (let i = 0; i < pts.length; i++) {
+      let arriba = 0; const igual = [];
+      for (let j = 0; j < pts.length; j++) if (j !== i) { if (pts[j] > pts[i]) arriba++; else if (pts[j] === pts[i]) igual.push(j); }
+      const mejor = arriba + 1, peor = arriba + 1 + igual.length, R = res[i];
+      R.fin[0] = Math.min(R.fin[0], mejor); R.fin[1] = Math.max(R.fin[1], peor);
+      const k = prox[i];
+      if (k == null) continue;
+      const o = out[k], local = par[k][0] === i;
+      const clave = o === 1 ? 'E' : (o === 0) === local ? 'G' : 'P';
+      const s = (R.si[clave] ??= { ptsMin: 99, ptsMax: 0, mejor: 99, peor: 0, igual: new Set(), solo1: true });
+      s.ptsMin = Math.min(s.ptsMin, pts[i]); s.ptsMax = Math.max(s.ptsMax, pts[i]);
+      s.mejor = Math.min(s.mejor, mejor); s.peor = Math.max(s.peor, peor);
+      for (const j of igual) s.igual.add(filas[j].eq);
+    }
+  }
+  return filas.map((x, i) => ({ eq: x.eq, fin: res[i].fin, si: res[i].si, rival: prox[i] == null ? null : filas[par[prox[i]][0] === i ? par[prox[i]][1] : par[prox[i]][0]].eq }));
+}
+// Texto de los escenarios de un equipo, para el chat.
+function textoEscenario(x, etapa) {
+  if (!x.rival) return null;
+  const nombre = { G: 'si gana', E: 'si empata', P: 'si pierde' };
+  const partes = ['G', 'E', 'P'].filter(k => x.si[k]).map(k => {
+    const s = x.si[k], p = s.ptsMin === s.ptsMax ? `${s.ptsMin} pts` : `entre ${s.ptsMin} y ${s.ptsMax} pts`;
+    const empates = [...s.igual];
+    return `${nombre[k]} (${p}) termina ${puestos(s.mejor, s.peor)}`
+      + (empates.length ? ` (puede quedar igualado en puntos con ${empates.join(', ')}: ahí lo define el desempate)` : '');
+  });
+  return `Contra ${x.rival} en ${etapa}, PUESTOS YA CALCULADOS contando todos los resultados posibles de los demás partidos que quedan: ${partes.join('; ')}. Puesto final posible en ${etapa}: ${puestos(x.fin[0], x.fin[1])}.`;
+}
 
 const indice = leer('indice.json');
 const posiciones = existsSync(new URL('posiciones.json', DATA)) ? leer('posiciones.json').divisionales || {} : {};
@@ -41,18 +92,25 @@ for (const cat of indice.categorias) for (const dv of cat.divisionales) {
   const series = VISTAS.find(v => v.id === dv.id)?.series || {};
   const quedanEn = (eq, et) => fixtureTodo.filter(f => series[f.serie] === et && (corto(f.local) === eq || corto(f.visitante) === eq)).length;
   const puntos = {}; // "etapa|equipo" -> puntos oficiales
+  const esc = {}; // "etapa|equipo" -> escenarios calculados
   for (const [et, t] of Object.entries(posiciones[dv.id] || {})) {
     if (!t?.pos) continue;
     // La tabla oficial de la Liga (con lo que resuelve el Tribunal); si no está, la calculada con los resultados.
     const filas = t.filas?.length ? t.filas.map(([eq, pj, g, e, p2, gf, gc, ps]) => ({ eq, pj, g, e, p: p2, gf, gc, pts: ps }))
       : Object.entries(t.pos).sort((a, b) => a[1] - b[1]).map(([eq]) => ({ eq, ...(pts[eq] || { pts: 0, pj: 0, g: 0, e: 0, p: 0, gf: 0, gc: 0 }) }));
     const max = filas.map(x => x.pts + 3 * quedanEn(x.eq, et)), punta = filas[0]?.pts ?? 0;
+    const enTabla = new Set(filas.map(x => x.eq));
+    const pendientes = fixtureTodo.filter(f => series[f.serie] === et).map(f => [corto(f.local), corto(f.visitante), f.fechaHora])
+      .filter(([l, v]) => enTabla.has(l) && enTabla.has(v));
+    const escs = escenarios(filas, pendientes);
+    if (escs) for (const x of escs) esc[`${et}|${x.eq}`] = x;
     // La misma tabla en números, para que el chat le pueda sumar los resultados provisorios.
     tablasRaw[`${dv.id}|${et}`] = filas.map(x => [x.eq, x.pj, x.g, x.e, x.p, x.gf, x.gc, x.pts, quedanEn(x.eq, et),
       sinCargar.filter(f => series[f.serie] === et && (corto(f.local) === x.eq || corto(f.visitante) === x.eq)).length]);
     tablas[`${dv.id}|${et}`] = filas.map((x, i) => { const q = quedanEn(x.eq, et); puntos[`${et}|${x.eq}`] = x.pts;
       const sc = sinCargar.filter(f => series[f.serie] === et && (corto(f.local) === x.eq || corto(f.visitante) === x.eq)).length;
-      return `${i + 1}° ${x.eq} ${x.pts} pts (${x.pj} PJ, ${x.g}G ${x.e}E ${x.p}P, ${x.gf}-${x.gc}); le quedan ${q}${sc ? ` (${sc} ya jugado sin resultado cargado)` : ''}, puede llegar a ${max[i]}; ${max[i] >= punta ? 'todavía puede terminar 1°' : 'ya no puede terminar 1°'}`; });
+      const e2 = esc[`${et}|${x.eq}`];
+      return `${i + 1}° ${x.eq} ${x.pts} pts (${x.pj} PJ, ${x.g}G ${x.e}E ${x.p}P, ${x.gf}-${x.gc}); le quedan ${q}${sc ? ` (${sc} ya jugado sin resultado cargado)` : ''}, puede llegar a ${max[i]}; ${max[i] >= punta ? 'todavía puede terminar 1°' : 'ya no puede terminar 1°'}${e2 && q ? `; puesto final posible: ${puestos(e2.fin[0], e2.fin[1])}` : ''}`; });
     // ¿Alguien ya tiene asegurado el primer puesto?
     if (filas.length > 1) tablas[`${dv.id}|${et}`].push(filas[0].pts > Math.max(...max.slice(1))
       ? `${filas[0].eq} ya tiene asegurado el 1° puesto.` : `Nadie tiene asegurado el 1° puesto todavía.`);
@@ -99,7 +157,9 @@ for (const cat of indice.categorias) for (const dv of cat.divisionales) {
       tabla: etapa && tablas[`${dv.id}|${etapa}`] ? `${dv.id}|${etapa}` : null,
       escenario: pr && puntos[`${pr.etapa}|${eq}`] != null && puntos[`${pr.etapa}|${pr.rival}`] != null ? (() => {
         const a = puntos[`${pr.etapa}|${eq}`], b2 = puntos[`${pr.etapa}|${pr.rival}`];
-        return `Contra ${pr.rival}: si gana queda ${a + 3} y ${pr.rival} ${b2}; si empatan ${a + 1} y ${b2 + 1}; si pierde ${a} y ${pr.rival} ${b2 + 3}`;
+        const base = `Contra ${pr.rival}: si gana queda ${a + 3} y ${pr.rival} ${b2}; si empatan ${a + 1} y ${b2 + 1}; si pierde ${a} y ${pr.rival} ${b2 + 3}`;
+        const e2 = esc[`${pr.etapa}|${eq}`];
+        return e2 && e2.rival === pr.rival ? `${base}.\n${textoEscenario(e2, pr.etapa)}` : base;
       })() : null,
     });
     const i = equipos.length - 1;
