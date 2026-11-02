@@ -851,9 +851,26 @@ label.pm-lista{cursor:pointer}
 .pm-cal span.si b{color:var(--win)}
 .pm-cal span.no b{color:var(--faint)}
 .pm-mio{background:var(--accent-soft)}
+.pm-tabsw{position:sticky;top:calc(var(--header-h) + var(--cats-h) + 9px + env(safe-area-inset-top,0px));z-index:5}
+.pm-tabsw .tabs{position:static}
+.pm-fl[hidden]{display:none}
+.pm-tabs.arrastra{cursor:grabbing;user-select:none}
+.pm-tabs.arrastra a{pointer-events:none}
+.pm-fl{position:absolute;top:0;bottom:0;z-index:2;width:44px;border:0;display:flex;align-items:center;cursor:pointer;color:var(--fg);padding:0}
+.pm-fl.izq{left:0;justify-content:flex-start;padding-left:6px;border-radius:var(--r) 0 0 var(--r);background:linear-gradient(90deg,var(--surface) 55%,transparent)}
+.pm-fl.der{right:0;justify-content:flex-end;padding-right:6px;border-radius:0 var(--r) var(--r) 0;background:linear-gradient(270deg,var(--surface) 55%,transparent)}
+.pm-fl svg.i{width:20px;height:20px;padding:4px;box-sizing:content-box;border-radius:50%;background:var(--surface-2);border:1px solid var(--line-strong)}
+.pm-fl.der svg.i{transform:scaleX(-1)}
+.pm-fl:hover svg.i{background:var(--accent);color:var(--on-accent);border-color:var(--accent)}
+@media (pointer:fine){
+  .pm-tabs{scrollbar-width:thin;scrollbar-color:var(--line-strong) transparent;padding-bottom:2px}
+  .pm-tabs::-webkit-scrollbar{display:block;height:6px}
+  .pm-tabs::-webkit-scrollbar-thumb{background:var(--line-strong);border-radius:3px}
+  .pm-tabs::-webkit-scrollbar-track{background:transparent}
+}
+
 .pm-dt{flex:none;font-size:.86rem;font-weight:600;padding:3px 10px;border-radius:999px;background:var(--accent-soft);color:var(--fg)}
 .pm-dt.sin{background:color-mix(in srgb,var(--warning) 14%,transparent);color:var(--warning)}
-@media (min-width:1100px){.pm-cuerpo{margin-top:0}.tabs.pm-tabs{flex-wrap:wrap}}
 
 .pm-tec{flex-wrap:wrap}
 .pm-tec .pm-r-t{flex-basis:160px}
@@ -2300,9 +2317,10 @@ async function renderClubes(sub, rest = []) {
     ${S.rol !== 'jug' ? `<div class="seg pm-rol" role="group" aria-label="Ver como"><button type="button" data-pm="rol" data-v="dt" aria-pressed="${E.rol === 'dt'}">${S.rol === 'admin' ? 'Club' : 'Cuerpo técnico'}</button><button type="button" data-pm="rol" data-v="jug" aria-pressed="${E.rol === 'jug'}">Ver como jugador</button></div>` : ''}`;
   if (E.rol === 'jug') { main.innerHTML = cab + pmVistaJugador(S); pmEnlazar(); window.scrollTo({ top: 0 }); return; }
   if (S.rol === 'dt' && !pmCV().length) { main.innerHTML = cab.replace(/<div class="seg pm-rol"[\s\S]*$/, '') + '<div class="empty">Todavía no tenés planteles asignados. Pedile al administrador del club que te asigne los tuyos.</div>'; pmEnlazar(); return; }
-  const tabs = `<nav class="tabs pm-tabs" aria-label="Secciones del plan">${tabsV.map(([id, n]) => `<a href="#/clubes/${id}"${id === tab ? ' aria-current="page"' : ''}>${n}</a>`).join('')}</nav>`;
+  const tabs = `<div class="pm-tabsw"><button type="button" class="pm-fl izq" aria-label="Ver pestañas de la izquierda" hidden>${ic('i-atras')}</button><nav class="tabs pm-tabs" aria-label="Secciones del plan">${tabsV.map(([id, n]) => `<a href="#/clubes/${id}"${id === tab ? ' aria-current="page"' : ''}>${n}</a>`).join('')}</nav><button type="button" class="pm-fl der" aria-label="Ver pestañas de la derecha" hidden>${ic('i-atras')}</button></div>`;
   const V = { resumen: pmResumen, practicas: pmPracticasV, cruce: pmCruce, minutos: pmMinutos, convocatoria: pmConvocatoria, recordatorios: pmRecordatorios, videos: pmVideos, ajustes: pmAjustes, tecnicos: pmTecnicos }[tab];
   main.innerHTML = cab + tabs + `<div class="stack pm-cuerpo">${V()}</div>`;
+  pmDeslizar(main.querySelector('.pm-tabsw'));
   pmEnlazar();
 }
 
@@ -2389,6 +2407,26 @@ function pmEnlazarLogin() {
     const E = pmEst(); E.rol = s.rol === 'jug' ? 'jug' : 'dt'; E.yo = s.c || null; PM_SES = null; pmGuardar();
     aviso(`Hola, ${s.nombre.split(' ')[0]}.`); renderClubes(location.hash.split('/')[2]);
   };
+}
+
+// Barra de pestañas que se desliza: flechas a los costados, la ruedita del mouse y arrastrar.
+function pmDeslizar(w) {
+  if (!w) return;
+  const n = w.querySelector('nav'), izq = w.querySelector('.izq'), der = w.querySelector('.der');
+  const act = () => { izq.hidden = n.scrollLeft < 4; der.hidden = n.scrollLeft + n.clientWidth > n.scrollWidth - 4; };
+  const cur = n.querySelector('[aria-current="page"]');
+  if (cur) n.scrollLeft = cur.offsetLeft - n.clientWidth / 2 + cur.offsetWidth / 2;
+  izq.onclick = () => n.scrollBy({ left: -n.clientWidth * 0.7, behavior: 'smooth' });
+  der.onclick = () => n.scrollBy({ left: n.clientWidth * 0.7, behavior: 'smooth' });
+  n.addEventListener('scroll', act, { passive: true });
+  n.addEventListener('wheel', e => { if (Math.abs(e.deltaY) > Math.abs(e.deltaX) && n.scrollWidth > n.clientWidth) { e.preventDefault(); n.scrollLeft += e.deltaY; } }, { passive: false });
+  let x0 = null, s0 = 0, movio = false;
+  n.addEventListener('pointerdown', e => { if (e.pointerType !== 'mouse') return; x0 = e.clientX; s0 = n.scrollLeft; movio = false; });
+  addEventListener('pointermove', e => { if (x0 == null) return; const dx = e.clientX - x0; if (Math.abs(dx) > 5) { movio = true; n.classList.add('arrastra'); } if (movio) n.scrollLeft = s0 - dx; });
+  addEventListener('pointerup', () => { x0 = null; setTimeout(() => n.classList.remove('arrastra'), 0); });
+  n.addEventListener('click', e => { if (movio) { e.preventDefault(); movio = false; } }, true);
+  addEventListener('resize', act);
+  act();
 }
 
 // ----- Resumen -----
