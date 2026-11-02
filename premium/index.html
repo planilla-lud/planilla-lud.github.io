@@ -2329,6 +2329,13 @@ async function renderClubes(sub, rest = []) {
   $('#lado').innerHTML = '';
   $('#hero').innerHTML = '';
   const main = $('#main');
+  // Sin sesión, la pantalla de entrar aparece enseguida y los datos se cargan mientras tanto.
+  if (!pmL('pm-sesion')) {
+    $('#actualizado').textContent = 'Demo del plan para clubes: prácticas y asistencia de ejemplo, guardadas en este navegador.';
+    main.innerHTML = pmLogin(); pmEnlazarLogin(); window.scrollTo({ top: 0 });
+    pmCargar().then(() => { const el = $('#pm-ej'); if (el) { el.outerHTML = pmEjemplo(); pmEnlazarLogin(true); } }).catch(() => {});
+    return;
+  }
   if (!PM) main.innerHTML = SKELETON;
   try { await pmCargar(); } catch { main.innerHTML = '<div class="empty">No se pudieron cargar los datos del club. Probá recargar la página.</div>'; return; }
   if (!location.hash.startsWith('#/clubes')) return;
@@ -2409,10 +2416,14 @@ const pmDtDe = c => pmEst().usuarios.filter(x => x.rol === 'dt' && x.equipos?.in
 const pmDtTxt = c => { const n = pmDtDe(c); return n.length ? 'DT: ' + n.join(', ') : 'Sin DT'; };
 const pmEV = () => PM.equipos.filter(e => pmCV().includes(e.div));
 const pmTabs = S => S?.rol === 'admin' ? [...PM_TABS.slice(0, -1), ['tecnicos', 'Técnicos'], PM_TABS.at(-1)] : PM_TABS;
+const pmCuenta = (u, t, s) => `<div class="pm-r"><span class="pm-r-t"><b>${t}</b><small>${s}</small></span><button type="button" class="share" data-u="${u}">Entrar</button></div>`;
+function pmEjemplo() {
+  const ej = PM && Object.values(PM.jug).filter(J => J.cats['sub20-a']).sort((a, b) => b.cats['sub20-a'].min - a.cats['sub20-a'].min)[0];
+  return ej ? pmCuenta(ej.c, `Jugador · ${esc(ej.nombre)}`, `Usuario <code>${ej.c}</code> (su carné)`) : '<div class="pm-r" id="pm-ej"><span class="pm-r-t"><b>Jugador</b><small>Cargando un jugador de ejemplo…</small></span></div>';
+}
 function pmLogin() {
-  const ej = Object.values(PM.jug).filter(J => J.cats['sub20-a']).sort((a, b) => b.cats['sub20-a'].min - a.cats['sub20-a'].min)[0];
-  const cuenta = (u, t, s) => `<div class="pm-r"><span class="pm-r-t"><b>${t}</b><small>${s}</small></span><button type="button" class="share" data-u="${u}">Entrar</button></div>`;
-  return `<div class="pm-login"><div class="pm-login-h">${crest(PM.club.equipos[0].equipo, true)}<div><h2>Para clubes</h2><p class="small muted">Entrá con la cuenta que te dio tu club.</p></div></div>
+  const cuenta = pmCuenta;
+  return `<div class="pm-login"><div class="pm-login-h">${crest('ELF', true)}<div><h2>Para clubes</h2><p class="small muted">Entrá con la cuenta que te dio tu club.</p></div></div>
     <form class="panel pm-form" id="pm-login" autocomplete="on">
       <label for="lg-u">Usuario<input type="text" id="lg-u" autocomplete="username" autocapitalize="none" placeholder="Tu usuario o tu número de carné" required></label>
       <label for="lg-p">Contraseña<input type="password" id="lg-p" autocomplete="current-password" required></label>
@@ -2420,15 +2431,19 @@ function pmLogin() {
       <button class="btn p" type="submit">Iniciar sesión</button></form>
     <div class="panel pm-demo"><b>Cuentas de prueba</b><small class="pm-demo-s">Todas con la contraseña <code>${PM_CLAVE}</code></small>
       ${pmEst().usuarios.map(x => cuenta(x.u, x.rol === 'admin' ? `Administrador · ${esc(x.nombre)}` : `DT · ${esc(x.nombre)}`, `Usuario <code>${esc(x.u)}</code> · ${x.rol === 'admin' ? 've todo el club y asigna los técnicos' : (x.equipos || []).map(pmCatN).join(', ') || 'sin planteles'}`)).join('')}
-      ${ej ? cuenta(ej.c, `Jugador · ${esc(ej.nombre)}`, `Usuario <code>${ej.c}</code> (su carné)`) : ''}</div>
+      ${pmEjemplo()}</div>
     <p class="pm-nota">¿Tu club todavía no tiene el plan? Pedile a tu técnico o a la comisión que nos escriba.</p></div>`;
 }
-function pmEnlazarLogin() {
+function pmEnlazarLogin(soloBotones) {
   const f = $('#pm-login'), err = $('#lg-err');
+  if (!f) return;
   document.querySelectorAll('.pm-demo [data-u]').forEach(b => b.onclick = () => { $('#lg-u').value = b.dataset.u; $('#lg-p').value = PM_CLAVE; f.requestSubmit(); });
-  f.onsubmit = ev => {
+  if (soloBotones) return;
+  f.onsubmit = async ev => {
     ev.preventDefault();
     const u = $('#lg-u').value.trim().toLowerCase(), pw = $('#lg-p').value;
+    const btn = f.querySelector('button[type=submit]');
+    if (!PM) { btn.disabled = true; btn.textContent = 'Entrando…'; try { await pmCargar(); } catch { err.textContent = 'No se pudieron cargar los datos. Revisá la conexión y probá de nuevo.'; err.hidden = false; btn.disabled = false; btn.textContent = 'Iniciar sesión'; return; } btn.disabled = false; btn.textContent = 'Iniciar sesión'; }
     let s = null;
     const x = pmUsuario(u);
     if (pw === PM_CLAVE && x) s = { rol: x.rol, u: x.u, nombre: x.nombre };
@@ -2594,7 +2609,7 @@ function pmVideos() {
   return `<p class="lede">Guardá el link del video de cada partido (YouTube, Drive o donde esté) para analizarlo con el plantel.</p>
     <form class="panel pm-form" id="pm-vid"><div class="pm-campos"><label>Partido<select id="vid-p">${partidos.map(({ e, x }) => `<option value="${e.div}|${x.p.id}">${esc(DIVS[e.div].nombre)} · ${x.gf}-${x.gc} vs ${esc(x.rival)} (${fDia(x.p.dia)})</option>`).join('')}</select></label>
       <label>Link<input type="url" id="vid-url" placeholder="https://" required></label></div><button class="btn p" type="submit">Guardar video</button></form>
-    ${E.videos.length ? `<div class="panel">${E.videos.map(v => `<div class="pm-r"><span class="pm-r-t"><b>${esc(v.titulo)}</b><small>${esc(v.url)}</small></span><a class="share" href="${esc(v.url)}" target="_blank" rel="noopener">Ver</a><button type="button" class="share" data-pm="borrar-vid" data-v="${v.id}">Borrar</button></div>`).join('')}</div>` : '<div class="empty">Todavía no hay videos guardados.</div>'}`;
+    ${E.videos.length ? `<div class="panel">${E.videos.map(v => `<div class="pm-r"><span class="pm-r-t"><b>${esc(v.titulo)}</b><small>${esc(v.url)}</small></span>${/^https?:\/\//i.test(v.url) ? `<a class="share" href="${esc(v.url)}" target="_blank" rel="noopener">Ver</a>` : ''}<button type="button" class="share" data-pm="borrar-vid" data-v="${v.id}">Borrar</button></div>`).join('')}</div>` : '<div class="empty">Todavía no hay videos guardados.</div>'}`;
 }
 
 // ----- Técnicos (solo el administrador) -----
@@ -2707,7 +2722,9 @@ function pmEnlazar() {
   const vid = $('#pm-vid');
   if (vid) vid.onsubmit = ev => {
     ev.preventDefault();
-    const s = $('#vid-p'); E.videos.unshift({ id: String(Date.now()), titulo: s.options[s.selectedIndex].textContent, url: $('#vid-url').value.trim() }); pmGuardar(); aviso('Video guardado.'); repintar();
+    const url = $('#vid-url').value.trim();
+    if (!/^https?:\/\//i.test(url)) { aviso('El link tiene que empezar con https://'); return; }
+    const s = $('#vid-p'); E.videos.unshift({ id: String(Date.now()), titulo: s.options[s.selectedIndex].textContent, url }); pmGuardar(); aviso('Video guardado.'); repintar();
   };
 }
 
