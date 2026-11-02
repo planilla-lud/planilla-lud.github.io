@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-01T21:08:33.705Z",
+ "actualizado": "2026-11-02T20:48:29.127Z",
  "partidos": [
   {
    "div": "mayores-a",
@@ -24,7 +24,7 @@
    "k": "Náutico~Playa Honda",
    "l": "Náutico",
    "v": "Playa Honda",
-   "dia": "2026-11-03",
+   "dia": "2026-11-05",
    "hora": "20:00",
    "etapa": "Permanencia",
    "pl": 7,
@@ -58,8 +58,8 @@
    "k": "Old Ivy~Santa Elena",
    "l": "Old Ivy",
    "v": "Santa Elena",
-   "dia": "2026-11-05",
-   "hora": "11:15",
+   "dia": "2026-11-03",
+   "hora": "21:30",
    "etapa": "Permanencia",
    "pl": 7,
    "pv": 6,

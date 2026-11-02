@@ -16,13 +16,6 @@
  {
   "serie": "16O",
   "fechaHora": "2026-11-01 13:30:00",
-  "cancha": "COMPLEJO WOODLANDS SCHOOL",
-  "local": "OLD WOODLANDS CLUB",
-  "visitante": "CLUB SEMINARIO"
- },
- {
-  "serie": "16O",
-  "fechaHora": "2026-11-01 13:30:00",
   "cancha": "ST. BRENDANS",
   "local": "OLD BRENDANS CLUB",
   "visitante": "THE BRITISH SCHOOL"
@@ -40,13 +33,6 @@
   "cancha": "COMPLEJO URUNDAY UNIVERSITARIO",
   "local": "URUNDAY UNIVERSITARIO",
   "visitante": "DEPORTIVO MORON"
- },
- {
-  "serie": "16B",
-  "fechaHora": "2026-11-01 13:30:00",
-  "cancha": "COLEGIO ARETEIA",
-  "local": "POCO SITIO PLAYA VERDE",
-  "visitante": "DEP.de la C. ARETEIA BIMBULLY"
  },
  {
   "serie": "16B",

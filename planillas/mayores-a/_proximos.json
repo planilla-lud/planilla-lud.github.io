@@ -1,17 +1,17 @@
 [
  {
   "serie": "APD",
+  "fechaHora": "2026-11-03 21:30:00",
+  "cancha": "COMPLEJO DEPORTIVO ARRAYANES",
+  "local": "OLD IVY",
+  "visitante": "SANTA ELENA LAGOMAR"
+ },
+ {
+  "serie": "APD",
   "fechaHora": "2026-11-03 22:00:00",
   "cancha": "CAM. DEP. ASOC. HEBRAICA Y MAC",
   "local": "HEBRAICA UNIVERSITARIO",
   "visitante": "PLAYA HONDA UNIVERSITARIO"
- },
- {
-  "serie": "APD",
-  "fechaHora": "2026-11-05 11:15:00",
-  "cancha": "OLD IVY",
-  "local": "OLD IVY",
-  "visitante": "SANTA ELENA LAGOMAR"
  },
  {
   "serie": "AT",
