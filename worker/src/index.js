@@ -3,7 +3,8 @@
 // y le pide la respuesta a una IA gratis: primero Workers AI de Cloudflare (cuota diaria gratis); si se
 // acabó la cuota y hay claves configuradas, Gemini o Groq (también con plan gratis). Nada de esto cobra:
 // si se acaban todas las cuotas del día, el chat avisa que vuelvan mañana.
-import { buscar, contexto, norm } from './buscar.js';
+import { buscar, contexto, norm, necesitaJugadores } from './buscar.js';
+import { contextoDetalle } from './detalle.js';
 import { corto, TEMPORADA } from '../../scripts/comun.mjs';
 
 const ORIGENES = ['https://planilla-lud.github.io', 'http://localhost:8774', 'http://127.0.0.1:8774'];
@@ -85,6 +86,15 @@ async function cargarDatos(env) {
   datos = await r.json(); datosHasta = Date.now() + 10 * 60e3;
   return datos;
 }
+// El índice de jugadores (data/chat-jugadores.json) se carga solo cuando la pregunta lo necesita.
+let jugadoresHasta = 0;
+async function cargarJugadores(env, d) {
+  if (d.jugadores && Date.now() < jugadoresHasta) return;
+  const url = (env.DATOS_URL || 'https://planilla-lud.github.io/data/chat.json').replace(/chat\.json$/, 'chat-jugadores.json');
+  const r = await fetch(url, { cf: { cacheTtl: 600, cacheEverything: true } });
+  if (!r.ok) throw new Error(`No pude leer los jugadores (${r.status})`);
+  d.jugadores = (await r.json()).jugadores; jugadoresHasta = Date.now() + 10 * 60e3;
+}
 
 // Freno simple para que nadie se coma la cuota del día: 12 preguntas por minuto por persona.
 const visitas = new Map();
@@ -114,6 +124,12 @@ Cómo responder:
 - Si la pregunta es de toda una divisional (tabla, goleadores, suspendidos) y los datos son de otra divisional que la que pidió, decilo.
 - Nunca digas que un equipo "asegura" o que "ya no lo alcanzan" sin comparar: un equipo asegura el 1° solo si sus puntos (después del resultado que se plantea) superan el "puede llegar a" de TODOS los demás, contando que a los otros les siguen quedando sus partidos. Si no se cumple, decí que todavía lo pueden alcanzar y quién.
 - Las "posibles bajas" son deducciones de las planillas oficiales, no partes médicos: aclaralo solo si hablás de lesiones.
+- Los NÚMEROS YA CALCULADOS (racha, local/visitante, promedios, valla invicta, goleadas, tramos, rankings, resumen de la tabla, diferencia de gol "DIF") se copian tal cual: no los recalcules ni los contradigas.
+- Diferencia de gol = DIF de la tabla. Mejor ataque = más GF; mejor defensa = menos GC. Si la pregunta es "quién tiene mejor X", usá el "Resumen ya calculado" de la tabla.
+- Si preguntan por un partido puntual y tenés la línea del PARTIDO con minuto a minuto, respondé con los goles, el minuto y el autor; si solo tenés el resultado en la lista de resultados, dalo y decí que la planilla no tiene el detalle.
+- Si preguntan quién es "el 9" o un número de camiseta, buscalo en el PLANTEL (campo camiseta). Si nadie lo usa, decilo.
+- Si preguntan por la próxima fecha de una divisional, listá TODOS los partidos de "PRÓXIMA FECHA" con día, hora y cancha; si preguntan cómo salió la fecha, usá "ÚLTIMA FECHA JUGADA".
+- Si un jugador aparece en varias categorías, decilo (por ejemplo "juega en Mayores A y también en Sub 20 A").
 - Si un club juega en varias categorías y no queda claro cuál le interesa, respondé por la que aparece primero y mencioná que hay otras.
 - Si la pregunta no tiene datos para responder, decilo y sugerí la sección de la página (Bajas, Partidos, Tabla, Jugadores, Rankings, Sanciones). La página tiene SOLO esas secciones: no nombres ninguna otra.
 - Sin títulos de markdown. Podés usar guiones para listas y **negrita** para algún número clave. No inventes conceptos del reglamento (promedios, descensos, clasificaciones) que no estén en los datos.
@@ -248,8 +264,11 @@ export async function responder(env, cuerpo) {
   if (ultima.content.length > MAX_PREGUNTA) ultima.content = ultima.content.slice(0, MAX_PREGUNTA);
   const d = await cargarDatos(env);
   const anteriores = historial.slice(0, -1).filter(m => m.role === 'user').map(m => m.content).join(' ');
+  if (necesitaJugadores(d, ultima.content + ' ' + anteriores)) { try { await cargarJugadores(env, d); } catch (e) { console.log(e.message); } }
   const hallado = buscar(d, ultima.content, { div: cuerpo.div || null, club: cuerpo.club || null, anteriores });
-  const sistema = instrucciones(contexto(d, hallado, await provisorios(env)), d.ultimoResultado ? d.ultimoResultado.split('-').reverse().join('/') : null);
+  const detalle = await contextoDetalle(env, d, hallado);
+  const ctx = [contexto(d, hallado, await provisorios(env)), detalle].filter(Boolean).join('\n\n');
+  const sistema = instrucciones(ctx, d.ultimoResultado ? d.ultimoResultado.split('-').reverse().join('/') : null);
   const proveedores = [['cloudflare', workersAI], env.GEMINI_KEY && ['gemini', gemini], env.GROQ_KEY && ['groq', groq]].filter(Boolean);
   for (const [nombre, fn] of proveedores) {
     let texto;

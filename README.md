@@ -183,9 +183,14 @@ con eso. Usa Workers AI (cuota diaria gratis de Cloudflare) y, si se acaba, Gemi
 `.github/workflows/chat.yml` lo publica con los secretos `CLOUDFLARE_API_TOKEN` y `CLOUDFLARE_ACCOUNT_ID` y
 escribe su dirección en `chat-config.json`; la página muestra el botón solo si ese archivo existe.
 
-Las cuentas no las hace la IA: `scripts/chat.mjs` recorre todas las combinaciones de resultados que quedan en
-cada etapa y deja escrito en qué puesto termina cada equipo si gana, empata o pierde. Antes de mandar una
-respuesta, el servidor la revisa: si una lista de posiciones sale desordenada o nombra una sección que la página
-no tiene, le pide a la IA que la rehaga y, si vuelve a fallar, ordena la lista él mismo.
-`node worker/probar.mjs` prueba ese control y el contexto de preguntas típicas (sin gastar IA).
+Las cuentas no las hace la IA: `scripts/chat.mjs` las deja hechas en `data/chat.json` (puestos posibles según
+cada resultado, racha, local/visitante, promedios, valla invicta, goleadas, goles por tramo, capitán, diferencia
+de gol, fixture y resultados de la fecha por divisional, partidos picantes, precisión del once) y en
+`data/chat-jugadores.json` (cada jugador con minutos, goles, rojas, camiseta y último partido; el servidor lo
+carga solo cuando la pregunta es sobre jugadores o rankings). Para un partido puntual (minuto a minuto,
+formaciones) o la temporada de un jugador partido a partido, el servidor abre `data/<divisional>.json` bajo
+demanda (`worker/src/detalle.js`). Antes de mandar una respuesta, el servidor la revisa: si una lista de
+posiciones sale desordenada o nombra una sección que la página no tiene, le pide a la IA que la rehaga y, si
+vuelve a fallar, ordena la lista él mismo. `node worker/probar.mjs` corre casi cien preguntas de todo tipo y
+comprueba que el contexto traiga los datos para contestarlas (sin gastar IA).
 
