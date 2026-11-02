@@ -100,7 +100,33 @@ export function buscar(datos, texto, { div = null, club = null, anteriores = '' 
     if (uno) elegidos.push(uno[1]);
   }
   const campana = /\b(resultados|campana|temporada|todos los partidos|racha|historial|enfrentamientos|veces)\b/.test(q);
-  return { equipos: elegidos, jugadores, cat, div, campana };
+  // Divisional nombrada en la pregunta ("la B de mayores", "sub 20 a", "la oro"), para preguntas de toda la
+  // divisional (tabla, goleadores, suspendidos) que no nombran un equipo.
+  const divPedida = divisionalDe(ix, q, cat, div) || (!elegidos.length ? divisionalDe(ix, qPrev, cat, div) : null);
+  // Qué tipo de dato pide, para sumar listas de toda la divisional o del plantel.
+  const pide = {
+    tabla: /\b(tabla|posicion|posiciones|puntero|punteros|primero|primeros|lider|campeon|campeonato|titulo|ultimo|ultimos|desciende|descenso|asciende|ascenso|clasifica|clasificamos|clasifican|permanencia|puntos)\b/.test(q),
+    goles: /\b(goleador|goleadores|goles|gol|anoto|anotaron|pichichi)\b/.test(q),
+    sanciones: /\b(suspendido|suspendidos|sancion|sanciones|sancionado|sancionados|expulsado|expulsados|expulsion|roja|rojas|tribunal|fallo|fallos)\b/.test(q),
+    plantel: /\b(minutos|minuto|plantel|jugo mas|jugaron|titular|titulares|arquero|quienes|quien juega|mas partidos|convocados)\b/.test(q),
+  };
+  return { equipos: elegidos, jugadores, cat, div, campana, divPedida, pide };
+}
+
+// "mayores a", "la b de mayores", "sub 20 b", "sub 18 oro", "la plata" → id de la divisional.
+function divisionalDe(ix, q, cat, divPagina) {
+  if (!q) return null;
+  ix.divisionales ??= [...new Map(ix.datos.equipos.map(e => [e.div, e])).values()]
+    .map(e => ({ id: e.div, nombre: norm(e.divNombre), cat: e.cat, letra: norm(e.divNombre).split(' ').at(-1) }));
+  const exacta = ix.divisionales.find(d => new RegExp(`\\b${d.nombre}\\b`).test(q));
+  if (exacta) return exacta.id;
+  const m = q.match(/\b(?:divisional|serie|grupo|la|en la|de la)\s+([a-g]|oro|plata|bronce|competencia|confraternidad|amistad)\b/);
+  if (!m) return null;
+  const letra = m[1];
+  // "la a" sin categoría: la de la página si coincide, si no Mayores.
+  const catPagina = ix.divisionales.find(d => d.id === divPagina)?.cat;
+  const candidatas = ix.divisionales.filter(d => d.letra === letra);
+  return (candidatas.find(d => d.cat === cat) || candidatas.find(d => !cat && d.cat === catPagina) || candidatas.find(d => !cat && d.cat === 'Mayores') || (!cat && candidatas.length === 1 ? candidatas[0] : null))?.id || null;
 }
 
 const lista = (t, l) => l?.length ? `${t}: ${l.join('; ')}` : null;
@@ -166,6 +192,39 @@ export function contexto(datos, hallado, prov = []) {
     if (!k || vistas.has(k) || !datos.tablas?.[k]) continue;
     vistas.add(k);
     partes.push(`TABLA ${datos.equipos[i].divNombre} – ${k.split('|')[1]} (oficial de la Liga, puntos de toda la temporada; "puede llegar a" = puntos si gana todo lo que le queda):\n${tablaTexto(datos, k, prov)}`);
+  }
+  // Plantel del primer equipo (minutos, titularidades, goles), si la pregunta es sobre sus jugadores.
+  const pide = hallado.pide || {};
+  if ((pide.plantel || pide.goles) && mencionados[0]) {
+    const i0 = hallado.equipos[0];
+    const plantel = datos.jugadores.filter(j => j[1] === i0).sort((a, b) => b[4] - a[4]).slice(0, 25);
+    if (plantel.length) partes.push(`PLANTEL DE ${mencionados[0].eq} (${mencionados[0].divNombre}), ordenado por minutos: `
+      + plantel.map(([n, , pj, tit, min, gol]) => `${n} ${pj} PJ (${tit} tit.), ${min}', ${gol} goles`).join('; '));
+  }
+  // Toda una divisional: tablas, goleadores y suspendidos, cuando la pregunta nombra la divisional o no
+  // nombra ningún equipo.
+  const divs = hallado.divPedida ? [hallado.divPedida] : (!hallado.equipos.length ? [hallado.div || 'mayores-a'] : []);
+  for (const dv of divs) {
+    const delDiv = datos.equipos.map((e, i) => [e, i]).filter(([e]) => e.div === dv);
+    if (!delDiv.length) continue;
+    const nombre = delDiv[0][0].divNombre;
+    const sinPedido = !pide.goles && !pide.sanciones && !pide.plantel;
+    if (pide.tabla || sinPedido) {
+      // Primero la etapa que define el título, la primera rueda (ya terminada) al final.
+      const peso = k => /t[ií]tulo/i.test(k) ? 0 : /primera rueda/i.test(k) ? 2 : 1;
+      const ks = [...new Set(delDiv.map(([e]) => e.tabla).filter(Boolean))].filter(k => !vistas.has(k) && datos.tablas?.[k]).sort((a, b) => peso(a) - peso(b));
+      for (const k of ks) { vistas.add(k); partes.push(`TABLA ${nombre} – ${k.split('|')[1]} (oficial de la Liga, puntos de toda la temporada):\n${tablaTexto(datos, k, prov)}`); }
+      if (sinPedido) partes.push(`EQUIPOS DE ${nombre}:\n` + delDiv.map(([e]) => `${e.eq}: ${e.pos || 'sin posición'}; ${e.campana}${e.prox ? '; próximo ' + e.prox : ''}; ${e.bajas.length} posibles bajas, ${e.suspendidos.length} suspendidos`).join('\n'));
+    }
+    if (pide.goles) {
+      const ids = new Set(delDiv.map(([, i]) => i));
+      const top = datos.jugadores.filter(j => ids.has(j[1]) && j[5] > 0).sort((a, b) => b[5] - a[5] || a[4] - b[4]).slice(0, 15);
+      partes.push(`GOLEADORES DE ${nombre} (toda la temporada, con planilla cargada): ` + top.map(([n, i, pj, , , gol], k) => `${k + 1}. ${n} (${datos.equipos[i].eq}) ${gol} goles en ${pj} PJ`).join('; '));
+    }
+    if (pide.sanciones) {
+      const s = delDiv.flatMap(([e]) => e.suspendidos.map(x => `${e.eq} – ${x}`));
+      partes.push(`SUSPENDIDOS EN ${nombre}: ` + (s.length ? s.join('\n') : 'ninguno con sanción vigente.'));
+    }
   }
   if (hallado.jugadores.length) partes.push('JUGADORES MENCIONADOS:\n' + hallado.jugadores.map(([n, i, pj, tit, min, gol]) =>
     { const e = datos.equipos[i], gf = (e.resultados || []).reduce((s, r) => s + r[2], 0);

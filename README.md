@@ -183,3 +183,9 @@ con eso. Usa Workers AI (cuota diaria gratis de Cloudflare) y, si se acaba, Gemi
 `.github/workflows/chat.yml` lo publica con los secretos `CLOUDFLARE_API_TOKEN` y `CLOUDFLARE_ACCOUNT_ID` y
 escribe su dirección en `chat-config.json`; la página muestra el botón solo si ese archivo existe.
 
+Las cuentas no las hace la IA: `scripts/chat.mjs` recorre todas las combinaciones de resultados que quedan en
+cada etapa y deja escrito en qué puesto termina cada equipo si gana, empata o pierde. Antes de mandar una
+respuesta, el servidor la revisa: si una lista de posiciones sale desordenada o nombra una sección que la página
+no tiene, le pide a la IA que la rehaga y, si vuelve a fallar, ordena la lista él mismo.
+`node worker/probar.mjs` prueba ese control y el contexto de preguntas típicas (sin gastar IA).
+

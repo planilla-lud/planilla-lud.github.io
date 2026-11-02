@@ -3,7 +3,7 @@
 // y le pide la respuesta a una IA gratis: primero Workers AI de Cloudflare (cuota diaria gratis); si se
 // acabó la cuota y hay claves configuradas, Gemini o Groq (también con plan gratis). Nada de esto cobra:
 // si se acaban todas las cuotas del día, el chat avisa que vuelvan mañana.
-import { buscar, contexto } from './buscar.js';
+import { buscar, contexto, norm } from './buscar.js';
 import { corto, TEMPORADA } from '../../scripts/comun.mjs';
 
 const ORIGENES = ['https://planilla-lud.github.io', 'http://localhost:8774', 'http://127.0.0.1:8774'];
@@ -109,11 +109,16 @@ Cómo responder:
 - Si no sabés cuántos equipos clasifican, ascienden o descienden, no lo inventes: hablá de posiciones y puntos.
 - Si un equipo tiene partidos "ya jugados sin resultado cargado", la tabla todavía no los incluye: avisalo y contalo como partido que puede sumar (si el usuario te dice el resultado, usalo).
 - En las cuentas de campeonato considerá también los empates (1 punto), no solo ganar o perder, y si dos pueden terminar igualados en puntos decí que lo define el desempate.
+- PUESTOS: nunca reordenes una tabla vos. Si la pregunta es en qué puesto queda un equipo según un resultado, usá los "PUESTOS YA CALCULADOS" del equipo (ya cuentan todos los resultados posibles de los demás) y copiá ese rango tal cual ("termina 3° o 4°"). Si no están, decí entre qué puestos puede quedar comparando puntos, sin inventar un orden.
+- Si escribís una tabla o una lista de posiciones, el que tiene más puntos va siempre arriba. Nunca pongas un equipo con más puntos debajo de uno con menos.
+- Si la pregunta es de toda una divisional (tabla, goleadores, suspendidos) y los datos son de otra divisional que la que pidió, decilo.
 - Nunca digas que un equipo "asegura" o que "ya no lo alcanzan" sin comparar: un equipo asegura el 1° solo si sus puntos (después del resultado que se plantea) superan el "puede llegar a" de TODOS los demás, contando que a los otros les siguen quedando sus partidos. Si no se cumple, decí que todavía lo pueden alcanzar y quién.
 - Las "posibles bajas" son deducciones de las planillas oficiales, no partes médicos: aclaralo solo si hablás de lesiones.
 - Si un club juega en varias categorías y no queda claro cuál le interesa, respondé por la que aparece primero y mencioná que hay otras.
-- Si la pregunta no tiene datos para responder, decilo y sugerí la sección de la página (Bajas, Partidos, Tabla, Jugadores, Rankings, Sanciones).
+- Si la pregunta no tiene datos para responder, decilo y sugerí la sección de la página (Bajas, Partidos, Tabla, Jugadores, Rankings, Sanciones). La página tiene SOLO esas secciones: no nombres ninguna otra.
 - Sin títulos de markdown. Podés usar guiones para listas y **negrita** para algún número clave. No inventes conceptos del reglamento (promedios, descensos, clasificaciones) que no estén en los datos.
+- Cupos, ascensos, descensos, pase a otra divisional o a la "de Honor", liguillas, desempates: esas reglas NO están en los datos. Respondé con el puesto y los puntos, y decí en una línea que cuántos clasifican o suben lo define el reglamento de la Liga (ligauniversitaria.org.uy). Nunca digas "la página indica" algo que no está.
+- Si no tenés el dato, decilo en una línea. Es mejor "no tengo ese dato" que una respuesta inventada.
 
 DATOS:
 ${ctx || '(no se encontraron datos para esta pregunta)'}`;
@@ -178,6 +183,62 @@ function pulir(t) {
   return t.charAt(0).toUpperCase() + t.slice(1);
 }
 
+// ---- control de la respuesta ----
+// La IA gratis a veces desordena una tabla o nombra secciones que la página no tiene. Antes de mandar la
+// respuesta se revisa: si falla, se le pide que la rehaga una vez; si vuelve a fallar, el orden se arregla acá.
+const SECCIONES = ['bajas', 'partidos', 'tabla', 'tablas', 'jugadores', 'rankings', 'ranking', 'sanciones', 'mi equipo', 'clubes'];
+// Una línea de lista con puntos: "1. Old Woodlands – 43 pts", "- 3° ELF 37 pts (34 + 3)", "**ELF – 37 pts**".
+const LINEA_PTS = /^(\s*)(?:(\d{1,2})\s*[.)°º]\s*|[-•*]\s*(?:(\d{1,2})\s*[.)°º]\s*)?)(.*?\D)(\d{1,3})\s*(?:pts|puntos)\b(.*)$/i;
+function listasConPuntos(texto) {
+  const lineas = texto.split('\n'), bloques = [];
+  let actual = null;
+  lineas.forEach((l, k) => {
+    const m = l.replace(/\*\*/g, '').match(LINEA_PTS);
+    if (m) { (actual ??= []).push({ k, num: m[2] || m[3], pts: Number(m[5]), m }); }
+    else if (l.trim() === '' && actual) { /* una línea vacía no corta la lista */ }
+    else { if (actual?.length > 1) bloques.push(actual); actual = null; }
+  });
+  if (actual?.length > 1) bloques.push(actual);
+  return { lineas, bloques };
+}
+export function revisar(texto) {
+  const problemas = [];
+  const { bloques } = listasConPuntos(texto);
+  for (const b of bloques) for (let i = 1; i < b.length; i++) if (b[i].pts > b[i - 1].pts) {
+    problemas.push('en la lista de posiciones pusiste un equipo con más puntos debajo de uno con menos; el orden tiene que ir de más a menos puntos y el puesto de cada equipo tiene que salir de ese orden (o de los PUESTOS YA CALCULADOS)');
+    break;
+  }
+  const mala = seccionInventada(texto);
+  if (mala) problemas.push(`nombraste la sección "${mala}", que no existe: la página solo tiene Bajas, Partidos, Tabla, Jugadores, Rankings y Sanciones`);
+  return problemas;
+}
+const RE_SECCION = /secci[oó]n(?:es)?\s+(?:de\s+)?\**["“']?([A-ZÁÉÍÓÚ][\wÁÉÍÓÚáéíóúñ]*(?:\s*\/\s*[\wÁÉÍÓÚáéíóúñ]+|\s+[A-ZÁÉÍÓÚ][\wÁÉÍÓÚáéíóúñ]*)*)/g;
+function seccionInventada(texto) {
+  for (const m of texto.matchAll(RE_SECCION)) {
+    const n = norm(m[1]);
+    if (!SECCIONES.some(s => n === s || n.startsWith(s + ' '))) return m[1].trim();
+  }
+  return null;
+}
+// Saca las oraciones que mandan a una sección que no existe.
+function quitarSecciones(texto) {
+  return texto.split('\n').map(l => l.split(/(?<=[.!?])\s+/).filter(o => !seccionInventada(o)).join(' ')).join('\n').replace(/\n{3,}/g, '\n\n').trim();
+}
+// Último recurso: ordena de más a menos puntos cada lista desordenada y corrige la numeración.
+export function ordenarListas(texto) {
+  const { lineas, bloques } = listasConPuntos(texto);
+  for (const b of bloques) {
+    if (b.every((x, i) => !i || x.pts <= b[i - 1].pts)) continue;
+    const orig = b.map(x => lineas[x.k]);
+    const orden = b.map((x, i) => ({ ...x, linea: orig[i] })).sort((x, y) => y.pts - x.pts);
+    const numerada = b.every(x => x.num);
+    orden.forEach((x, i) => {
+      lineas[b[i].k] = numerada ? x.linea.replace(/^(\s*(?:[-•*]\s*)?(?:\*\*)?)\d{1,2}(\s*[.)°º])/, `$1${i + 1}$2`) : x.linea;
+    });
+  }
+  return lineas.join('\n');
+}
+
 export async function responder(env, cuerpo) {
   const historial = (Array.isArray(cuerpo.mensajes) ? cuerpo.mensajes : []).slice(-MAX_HISTORIAL)
     .filter(m => m && typeof m.texto === 'string' && m.texto.trim())
@@ -191,8 +252,19 @@ export async function responder(env, cuerpo) {
   const sistema = instrucciones(contexto(d, hallado, await provisorios(env)), d.ultimoResultado ? d.ultimoResultado.split('-').reverse().join('/') : null);
   const proveedores = [['cloudflare', workersAI], env.GEMINI_KEY && ['gemini', gemini], env.GROQ_KEY && ['groq', groq]].filter(Boolean);
   for (const [nombre, fn] of proveedores) {
-    try { return { texto: pulir(await fn(env, sistema, historial)), fuente: nombre }; }
-    catch (e) { console.log(`${nombre} falló: ${e.message}`); }
+    let texto;
+    try { texto = pulir(await fn(env, sistema, historial)); }
+    catch (e) { console.log(`${nombre} falló: ${e.message}`); continue; }
+    const problemas = revisar(texto);
+    if (!problemas.length) return { texto, fuente: nombre };
+    console.log(`${nombre}: respuesta con problemas (${problemas.join(' | ')}), se pide de nuevo`);
+    try {
+      const otra = pulir(await fn(env, sistema, [...historial, { role: 'assistant', content: texto },
+        { role: 'user', content: `Revisá tu respuesta anterior: ${problemas.join('; ')}. Escribila de nuevo bien, sin mencionar que la corregiste.` }]));
+      if (!revisar(otra).length) return { texto: otra, fuente: nombre };
+      texto = otra;
+    } catch (e) { console.log(`${nombre} falló al corregir: ${e.message}`); }
+    return { texto: quitarSecciones(ordenarListas(texto)), fuente: nombre };
   }
   return { texto: 'Por hoy se me acabaron las respuestas gratis 😅 Probá de nuevo mañana, o mirá la sección Bajas y Partidos de la página.', fuente: null };
 }
