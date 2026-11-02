@@ -851,6 +851,17 @@ label.pm-lista{cursor:pointer}
 .pm-cal span.si b{color:var(--win)}
 .pm-cal span.no b{color:var(--faint)}
 .pm-mio{background:var(--accent-soft)}
+.pm-login{max-width:440px;width:100%;margin:8px auto 0;display:flex;flex-direction:column;gap:14px}
+.pm-login-h{display:flex;align-items:center;gap:14px}
+.pm-login .pm-form label{display:flex;flex-direction:column;gap:4px;font-size:.82rem;font-weight:600;color:var(--muted)}
+.pm-login .btn{align-self:stretch}
+.pm-err{margin:0;color:var(--danger);font-size:.88rem;font-weight:600}
+.pm-demo{display:flex;flex-direction:column}
+.pm-demo > b{padding:12px 14px 4px}
+.pm-demo .pm-r{border-top:0}
+.pm-demo code{font-family:var(--font);font-weight:600;color:var(--fg);background:var(--surface-2);padding:0 4px;border-radius:4px}
+.pm-login > .pm-nota{text-align:center}
+
 @media (max-width:520px){.pm-cal{grid-template-columns:repeat(4,minmax(0,1fr))}.pm-r .pm-cnt{font-size:.8rem}}
 </style>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
@@ -2212,14 +2223,53 @@ async function renderClubes(sub) {
   if (!PM_CAT || !PM.cats.includes(PM_CAT)) PM_CAT = PM.cats.includes('sub20') ? 'sub20' : PM.cats[0];
   const tab = PM_TABS.some(t => t[0] === sub) ? sub : 'resumen';
   $('#actualizado').textContent = 'Demo del plan para clubes: prácticas y asistencia de ejemplo, guardadas en este navegador.';
+  const S = pmSesion();
+  if (!S) { main.innerHTML = pmLogin(); pmEnlazarLogin(); window.scrollTo({ top: 0 }); return; }
+  if (S.rol === 'jug') { E.rol = 'jug'; E.yo = S.c; }
   const cab = `<div class="club-h">${crest(PM.club.equipos[0].equipo, true)}<div style="flex:1;min-width:0"><h2>${esc(PM.club.nombre)} <span class="tag pm-plan">Plan club</span></h2>
-    <div class="small muted">${PM.equipos.length} equipos · ${Object.keys(PM.jug).length} jugadores con minutos · prueba gratis</div></div></div>
-    <div class="seg pm-rol" role="group" aria-label="Ver como"><button type="button" data-pm="rol" data-v="dt" aria-pressed="${E.rol === 'dt'}">Cuerpo técnico</button><button type="button" data-pm="rol" data-v="jug" aria-pressed="${E.rol === 'jug'}">Jugador</button></div>`;
-  if (E.rol === 'jug') { main.innerHTML = cab + pmVistaJugador(); pmEnlazar(); window.scrollTo({ top: 0 }); return; }
+    <div class="small muted">${esc(S.nombre)} · ${S.rol === 'dt' ? 'Cuerpo técnico' : 'Jugador'}</div></div><button type="button" class="share" data-pm="salir">Salir</button></div>
+    ${S.rol === 'dt' ? `<div class="seg pm-rol" role="group" aria-label="Ver como"><button type="button" data-pm="rol" data-v="dt" aria-pressed="${E.rol === 'dt'}">Cuerpo técnico</button><button type="button" data-pm="rol" data-v="jug" aria-pressed="${E.rol === 'jug'}">Ver como jugador</button></div>` : ''}`;
+  if (E.rol === 'jug') { main.innerHTML = cab + pmVistaJugador(S); pmEnlazar(); window.scrollTo({ top: 0 }); return; }
   const tabs = `<nav class="tabs" aria-label="Secciones del plan">${PM_TABS.map(([id, n]) => `<a href="#/clubes/${id}"${id === tab ? ' aria-current="page"' : ''}>${n}</a>`).join('')}</nav>`;
   const V = { resumen: pmResumen, practicas: pmPracticasV, cruce: pmCruce, minutos: pmMinutos, convocatoria: pmConvocatoria, recordatorios: pmRecordatorios, videos: pmVideos, ajustes: pmAjustes }[tab];
   main.innerHTML = cab + tabs + `<div class="stack pm-cuerpo">${V()}</div>`;
   pmEnlazar();
+}
+
+
+// ----- inicio de sesión -----
+// Demo: las cuentas se validan en el navegador. Para el plan de verdad va con cuentas en un servidor.
+const PM_CLAVE = 'elf2026';
+const PM_DT = { bruno: 'Bruno' };
+function pmSesion() { try { const s = JSON.parse(leer('pm-sesion') || 'null'); return s && (s.rol === 'dt' || PM.jug[s.c]) ? s : null; } catch { return null; } }
+function pmLogin() {
+  const ej = Object.values(PM.jug).filter(J => J.cats.sub20).sort((a, b) => b.cats.sub20.min - a.cats.sub20.min)[0];
+  return `<div class="pm-login"><div class="pm-login-h">${crest(PM.club.equipos[0].equipo, true)}<div><h2>Para clubes</h2><p class="small muted">Entrá con la cuenta que te dio tu club.</p></div></div>
+    <form class="panel pm-form" id="pm-login" autocomplete="on">
+      <label for="lg-u">Usuario<input type="text" id="lg-u" autocomplete="username" autocapitalize="none" placeholder="Tu usuario o tu número de carné" required></label>
+      <label for="lg-p">Contraseña<input type="password" id="lg-p" autocomplete="current-password" required></label>
+      <p class="pm-err" id="lg-err" hidden></p>
+      <button class="btn p" type="submit">Iniciar sesión</button></form>
+    <div class="panel pm-demo"><b>Cuentas de prueba</b>
+      <div class="pm-r"><span class="pm-r-t"><b>Técnico</b><small>Usuario <code>bruno</code> · contraseña <code>${PM_CLAVE}</code></small></span><button type="button" class="share" data-u="bruno">Usar</button></div>
+      ${ej ? `<div class="pm-r"><span class="pm-r-t"><b>Jugador · ${esc(ej.nombre)}</b><small>Usuario <code>${ej.c}</code> (su carné) · contraseña <code>${PM_CLAVE}</code></small></span><button type="button" class="share" data-u="${ej.c}">Usar</button></div>` : ''}
+      <p class="pm-nota">Cada jugador del ELF entra con su número de carné.</p></div>
+    <p class="pm-nota">¿Tu club todavía no tiene el plan? Pedile a tu técnico o a la comisión que nos escriba.</p></div>`;
+}
+function pmEnlazarLogin() {
+  const f = $('#pm-login'), err = $('#lg-err');
+  document.querySelectorAll('.pm-demo [data-u]').forEach(b => b.onclick = () => { $('#lg-u').value = b.dataset.u; $('#lg-p').value = PM_CLAVE; $('#lg-p').focus(); });
+  f.onsubmit = ev => {
+    ev.preventDefault();
+    const u = $('#lg-u').value.trim().toLowerCase(), pw = $('#lg-p').value;
+    let s = null;
+    if (pw === PM_CLAVE && PM_DT[u]) s = { rol: 'dt', nombre: PM_DT[u] };
+    else if (pw === PM_CLAVE && PM.jug[u]) s = { rol: 'jug', c: u, nombre: PM.jug[u].nombre };
+    if (!s) { err.textContent = PM_DT[u] || PM.jug[u] ? 'La contraseña no es correcta.' : 'No encontramos ese usuario en el ELF. Si sos jugador, usá tu número de carné.'; err.hidden = false; return; }
+    guardar('pm-sesion', JSON.stringify(s));
+    const E = pmEst(); E.rol = s.rol; E.yo = s.c || null; pmGuardar();
+    aviso(`Hola, ${s.nombre.split(' ')[0]}.`); renderClubes(location.hash.split('/')[2]);
+  };
 }
 
 // ----- Resumen -----
@@ -2371,7 +2421,7 @@ function pmAjustes() {
 }
 
 // ----- Vista del jugador -----
-function pmVistaJugador() {
+function pmVistaJugador(S) {
   const E = pmEst(), todos = Object.values(PM.jug).sort((a, b) => a.nombre.localeCompare(b.nombre));
   const J = PM.jug[E.yo] || todos.find(x => x.cats.sub20) || todos[0];
   const cat = pmPrincipal(J), k = pmCuentas(J, cat), racha = pmRacha(J);
@@ -2380,7 +2430,7 @@ function pmVistaJugador() {
   const yaFue = ult && pmFue(J, ult);
   const resp = pr && pmResp(J, pr);
   const rank = E.cfg.verRanking ? pmDe(cat).filter(x => pmPrincipal(x) === cat).map(x => ({ x, p: pmCuentas(x, cat).pct })).sort((a, b) => b.p - a.p) : [];
-  return `<div class="pm-yo"><label for="pm-yo-sel" class="small muted">Jugador de la demo</label><select id="pm-yo-sel" data-pm="yo">${todos.map(x => `<option value="${x.c}"${x.c === J.c ? ' selected' : ''}>${esc(x.nombre)}</option>`).join('')}</select></div>
+  return (S.rol === 'jug' ? `<input type="hidden" id="pm-yo-sel" value="${J.c}">` : `<div class="pm-yo"><label for="pm-yo-sel" class="small muted">Ver como</label><select id="pm-yo-sel" data-pm="yo">${todos.map(x => `<option value="${x.c}"${x.c === J.c ? ' selected' : ''}>${esc(x.nombre)}</option>`).join('')}</select></div>`) + `
     <div class="panel pm-hola"><div class="pm-r"><span class="pm-r-t"><b>Hola, ${esc(J.nombre.split(' ')[0])}</b><small>Categoría principal: ${esc(pmCatN(cat))}</small></span>
       ${Object.keys(J.cats).length > 1 ? `<select id="pm-princ" data-pm="principal" aria-label="Categoría principal">${Object.keys(J.cats).map(c => `<option value="${c}"${c === cat ? ' selected' : ''}>${esc(pmCatN(c))}</option>`).join('')}</select>` : ''}</div>
       ${ult ? `<div class="pm-r"><span class="pm-r-t"><b>Práctica de ${esc(pmCatN(ult.cat))}</b><small>${pmDiaH(ult)}</small></span>${yaFue ? '<span class="pm-est si">Fuiste</span>' : `<button type="button" class="btn p" data-pm="fui" data-v="${ult.id}">Marcar que fui</button>`}</div>` : ''}
@@ -2403,6 +2453,7 @@ function pmEnlazar() {
     if (a === 'cat') { PM_CAT = v; PM_PRAC = null; }
     else if (a === 'prac') PM_PRAC = v;
     else if (a === 'rol') { E.rol = v; pmGuardar(); }
+    else if (a === 'salir') { guardar('pm-sesion', ''); E.rol = 'dt'; E.yo = null; pmGuardar(); aviso('Cerraste sesión.'); }
     else if (a === 'rec') { E.cfg.recCuando = v; pmGuardar(); aviso('Guardado.'); }
     else if (a === 'dia') { const h = E.horarios[b.dataset.cat], d = Number(v); h.dias = h.dias.includes(d) ? h.dias.filter(x => x !== d) : [...h.dias, d].sort(); pmGuardar(); }
     else if (a === 'fui') { const c = $('#pm-yo-sel').value; (E.marcas[v] ??= {})[c] = 1; pmGuardar(); aviso('Listo, quedó marcado.'); }
