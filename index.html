@@ -73,7 +73,7 @@
   --font:"Barlow",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
   --font-score:"Barlow Semi Condensed","Barlow",sans-serif;
   --gutter:12px; --content:1200px;
-  --header-h:56px; --cats-h:44px; --bottom-h:60px;
+  --header-h:56px; --cats-h:50px; --bottom-h:60px;
 }
 :root[data-tema="oscuro"]{
   color-scheme:dark;
@@ -148,17 +148,18 @@ svg.i{width:20px;height:20px;flex:none;fill:none;stroke:currentColor;stroke-widt
 :root[data-tema="oscuro"] .ic-luna{display:none}
 @media (prefers-color-scheme:dark){:root:not([data-tema="claro"]) .ic-sol{display:block}:root:not([data-tema="claro"]) .ic-luna{display:none}}
 /* categorías (como los deportes de una app de resultados) */
-.cats{display:flex;gap:2px;height:var(--cats-h);overflow-x:auto;scrollbar-width:none}
+.cats{display:flex;gap:6px;align-items:center;height:var(--cats-h);padding-bottom:6px;overflow-x:auto;scrollbar-width:none}
 .cats::-webkit-scrollbar,.divs .wrap::-webkit-scrollbar,.chips::-webkit-scrollbar,.tabs::-webkit-scrollbar,.dias::-webkit-scrollbar{display:none}
-.cats a{display:flex;align-items:center;flex:none;padding:0 12px;color:var(--on-top-muted);font-weight:600;font-size:.95rem;white-space:nowrap;box-shadow:inset 0 -3px 0 transparent}
-.cats a:hover{color:var(--on-top);text-decoration:none}
-.cats a[aria-current="true"]{color:var(--on-top);box-shadow:inset 0 -3px 0 var(--on-top)}
+.cats a{display:flex;align-items:center;flex:none;height:34px;padding:0 15px;border-radius:999px;background:rgba(255,255,255,.08);color:var(--on-top-muted);font-weight:600;font-size:.93rem;white-space:nowrap;transition:background-color .15s,color .15s}
+.cats a:hover{color:var(--on-top);background:rgba(255,255,255,.14);text-decoration:none}
+.cats a[aria-current="true"]{background:#fff;color:#0a0a0a}
 /* divisionales de la categoría elegida */
 .divs{background:var(--surface);border-bottom:1px solid var(--line)}
 .divs .wrap{display:flex;gap:6px;align-items:center;height:52px;overflow-x:auto;scrollbar-width:none}
 .divs a{flex:none;display:inline-flex;align-items:center;justify-content:center;min-width:40px;height:34px;padding:0 12px;border-radius:999px;background:var(--surface-2);color:var(--fg);font-weight:700;font-size:.92rem;white-space:nowrap}
 .divs a:hover{text-decoration:none;background:var(--accent-soft)}
 .divs a[aria-current="page"]{background:var(--accent);color:var(--on-accent)}
+@media (pointer:coarse){.cats a,.divs a{height:38px}}
 .divs .lbl{flex:none;font-size:.8rem;font-weight:600;color:var(--muted);margin-right:4px}
 
 /* compu: tres columnas (secciones, contenido y la tabla al costado) */
@@ -186,6 +187,21 @@ svg.i{width:20px;height:20px;flex:none;fill:none;stroke:currentColor;stroke-widt
 .bnav [aria-current="page"]{color:var(--fg)}
 .bnav [aria-current="page"] svg{stroke-width:2.3}
 @media (min-width:1100px){.bnav{display:none}body{padding-bottom:0}}
+
+/* chat: botón flotante abajo a la derecha (en el celular, arriba de la barra) */
+.fab-chat{position:fixed;right:max(14px,env(safe-area-inset-right,0px));bottom:calc(var(--bottom-h) + 14px + env(safe-area-inset-bottom,0px));z-index:31;display:inline-flex;align-items:center;gap:8px;height:48px;padding:0 18px 0 14px;border:0;border-radius:999px;background:var(--accent);color:var(--on-accent);font:inherit;font-weight:700;font-size:.95rem;box-shadow:0 6px 20px rgba(0,0,0,.28),0 1px 3px rgba(0,0,0,.2);cursor:pointer}
+.fab-chat svg{width:22px;height:22px}
+.fab-chat:active{transform:scale(.97)}
+.fab-chat{transition:padding .2s,gap .2s}
+.fab-chat span{max-width:120px;overflow:hidden;white-space:nowrap;transition:max-width .2s,opacity .2s}
+.fab-chat.chico{padding:0 13px;gap:0}
+.fab-chat.chico span{max-width:0;opacity:0}
+@media (prefers-reduced-motion:reduce){.fab-chat,.fab-chat span{transition:none}}
+.fab-chat[hidden]{display:none}
+:root[data-tema="oscuro"] .fab-chat{box-shadow:0 6px 24px rgba(0,0,0,.7)}
+@media (min-width:1100px){.fab-chat{bottom:24px;right:24px}}
+/* que el botón no tape lo último de la página */
+@media (max-width:1099px){main{padding-bottom:84px}}
 
 /* avisos de arriba: instalar la app y sin conexión */
 .aviso-fino{display:flex;align-items:center;gap:10px;min-height:44px;font-size:.9rem;color:var(--fg)}
@@ -232,7 +248,10 @@ dialog.sheet[open]{animation:subir .22s ease-out}
 .menu-t:first-child{margin-top:0}
 .menu-tema{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 16px;border-top:1px solid var(--line);flex-wrap:wrap}
 .menu-tema > span{display:flex;align-items:center;gap:14px}
-.menu-tema .seg{margin:0}
+.menu-tema .seg{margin:0;flex:1 1 220px;max-width:320px}
+.menu .menu-tema .seg button{width:auto;flex:1 1 0;justify-content:center;padding:8px 10px;border:0;border-radius:6px;font-size:.88rem}
+.menu .menu-tema .seg button:hover{background:var(--hover)}
+.menu .menu-tema .seg button[aria-pressed="true"]{background:var(--surface);color:var(--fg);box-shadow:0 1px 2px rgba(0,0,0,.14)}
 .contador .menu-t{padding:0;margin-top:20px}
 /* contador (entradas, más vistos, favoritos): adentro de "Más" */
 .contador{font-size:.88rem;color:var(--muted);display:grid;gap:10px;padding-top:4px}
@@ -330,7 +349,7 @@ details.help p{margin:0 0 8px}
 a.chip{display:inline-block}
 .chip:hover{color:var(--fg);text-decoration:none}
 .chip[aria-pressed="true"]{background:var(--accent);color:var(--on-accent);border-color:var(--accent)}
-.tabs{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;background:var(--surface);border-radius:var(--r);box-shadow:var(--shadow);padding:0 8px;position:sticky;top:calc(var(--header-h) + var(--cats-h) + 9px + env(safe-area-inset-top,0px));z-index:5}
+.tabs{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;background:var(--surface);border-radius:var(--r);box-shadow:var(--shadow);padding:0 8px;position:sticky;top:calc(var(--header-h) + var(--cats-h) + 9px + env(safe-area-inset-top,0px));z-index:5;box-shadow:0 -10px 0 var(--bg),var(--shadow)}
 .tabs button,.tabs a{flex:none;border:0;background:none;padding:12px 10px;font-weight:600;font-size:.94rem;color:var(--muted);cursor:pointer;box-shadow:inset 0 -2px 0 transparent;white-space:nowrap}
 .tabs [aria-selected="true"],.tabs [aria-current="page"]{color:var(--fg);box-shadow:inset 0 -2px 0 var(--accent)}
 .tabs a:hover{text-decoration:none;color:var(--fg)}
@@ -401,6 +420,7 @@ input.search:focus{outline:2px solid var(--accent);outline-offset:-1px}
 .forma .G{background:var(--win)}.forma .E{background:var(--draw)}.forma .P{background:var(--loss)}
 .forma.mini b{width:6px;height:6px;border-radius:50%;font-size:0}
 .mr-m .forma{height:20px;align-items:center}
+@media (max-width:379px){.mr:not(.res) .mr-m{display:none}.mr:not(.res){grid-template-columns:52px minmax(0,1fr)}}
 .mr-w .tag{margin:4px 0 0;font-size:.6rem;padding:0 4px}
 .mas-btn{display:block;width:100%;padding:13px;border:0;border-top:1px solid var(--line);background:none;color:var(--fg);font-weight:600;cursor:pointer}
 .mas-btn:hover{background:var(--hover)}
@@ -426,6 +446,7 @@ input.search:focus{outline:2px solid var(--accent);outline-offset:-1px}
 .cifras b small{font-size:.55em;color:var(--muted);font-weight:600}
 .cifras b.warn{color:var(--danger)}
 .cifras span{font-size:.74rem;color:var(--muted);line-height:1.2}
+@media (max-width:379px){.cifras{grid-template-columns:repeat(2,minmax(0,1fr))}.cifras a:nth-child(3){border-left:0}.cifras a:nth-child(n+3){border-top:1px solid var(--line)}}
 
 /* bajas: un jugador por fila */
 .side{padding:0}
@@ -786,7 +807,6 @@ details.more summary{cursor:pointer;font-weight:600;padding:12px 16px;color:var(
     <a class="logo" href="#/" aria-label="Planilla LUD, inicio" id="logo"><svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="15" fill="#fff"/><circle cx="32" cy="32" r="15" fill="none" stroke="#0a0a0a" stroke-width="6.5" stroke-dasharray="76 18.2" stroke-dashoffset="-6" transform="rotate(-90 32 32)"/></svg><b>Planilla <span>LUD</span></b></a>
     <span class="spacer"></span>
     <a class="icobtn" id="btn-buscar" href="#" aria-label="Buscar un jugador"><svg class="i"><use href="#i-buscar"/></svg></a>
-    <button type="button" class="icobtn" id="btn-chat" hidden onclick="abrirChat()" aria-label="Preguntale"><svg class="i"><use href="#i-chat"/></svg></button>
     <button type="button" class="icobtn" id="btn-tema" onclick="alternarTema()" aria-label="Cambiar entre modo claro y modo oscuro"><svg class="i ic-luna"><use href="#i-luna"/></svg><svg class="i ic-sol"><use href="#i-sol"/></svg></button>
     <a class="icobtn mine" id="mine" href="#/mi-equipo" aria-label="Mi equipo"><svg class="i"><use href="#i-star"/></svg></a>
   </div>
@@ -820,6 +840,7 @@ details.more summary{cursor:pointer;font-weight:600;padding:12px 16px;color:var(
   <div class="wrap legal">Las bajas son pistas sacadas de las planillas, no partes médicos. Los minutos de los expulsados pueden quedar de más: la Liga no anota el minuto de la expulsión.</div>
 </footer>
 <nav class="bnav" id="bnav" aria-label="Secciones"></nav>
+<button type="button" class="fab-chat" id="btn-chat" hidden onclick="abrirChat()"><svg class="i" aria-hidden="true"><use href="#i-chat"/></svg><span>Preguntale</span></button>
 <dialog class="sheet chat" id="sheet-chat" aria-labelledby="sc-t"><div class="sheet-h"><div><h2 id="sc-t">Preguntale</h2><p class="small muted" style="margin:2px 0 0">Bajas, suspendidos, once probable y rivales de cualquier equipo de la Liga.</p></div><button class="x" data-cerrar aria-label="Cerrar"><svg class="i"><use href="#i-x"/></svg></button></div>
   <div class="chat-msgs" id="chat-msgs" aria-live="polite"></div>
   <form class="chat-form" id="chat-form" autocomplete="off"><input id="chat-q" maxlength="400" placeholder="¿Quién falta en el ELF el domingo?" aria-label="Tu pregunta"><button type="submit" aria-label="Enviar"><svg class="i"><use href="#i-enviar"/></svg></button></form>
@@ -1172,7 +1193,7 @@ function vEquipo(d, cat, eq) {
   const P = pestanas('equipo', [['resumen', 'Resumen'], ['plantel', 'Plantel']]);
   return `${atras(link(cat, 'tabla', pu?.etapa || ''), 'Tabla')}
   <div class="cab"><div class="ficha-h">${crest(eq, true)}<div style="flex:1;min-width:0"><h2>${esc(eq)}</h2><div class="small muted">${pu ? `<a href="${link(cat, 'tabla', pu.etapa)}"><b>${pu.puesto}° en ${esc(pu.etapa)}</b> · ${pu.pts} pts</a> · ` : ''}${todos.length} PJ · ${g}G ${e}E ${todos.length - g - e}P · GF ${todos.reduce((s, x) => s + x.gf, 0)} · GC ${todos.reduce((s, x) => s + x.gc, 0)}</div></div></div>
-  <div class="row acc-f">${b?.proximo ? `<a class="share" href="${link(cat, 'previa', (b.proximo.local ? eq + '~' + b.proximo.rival : b.proximo.rival + '~' + eq))}">Previa vs ${esc(b.proximo.rival)} · ${fDia(b.proximo.dia)}</a>` : ''}<button class="share" id="seguir" onclick="seguir('${cat}', ${esc(JSON.stringify(eq))})">${ic('i-star')}<span>Hacer mi equipo</span></button></div>${P.barra}</div>
+  <div class="row acc-f">${b?.proximo ? `<a class="share" href="${link(cat, 'previa', (b.proximo.local ? eq + '~' + b.proximo.rival : b.proximo.rival + '~' + eq))}">Previa vs ${esc(b.proximo.rival)} · ${fDia(b.proximo.dia)}</a>` : ''}<button class="share" id="seguir" onclick="seguir('${cat}', ${esc(JSON.stringify(eq))})">${ic('i-star')}<span>Hacer mi equipo</span></button></div></div>${P.barra}
   ${P.panel('resumen', `${b?.alertas.length || b?.pendientes?.length ? `<section class="panel"><div class="panel-h"><b>Posibles bajas</b><span>${b.proximo ? 'Próximo: vs ' + esc(b.proximo.rival) + ' · ' + fDia(b.proximo.dia) : ''}</span></div><div class="side sola">${pend(b)}${b.alertas.map(a => `<div class="alert"><b class="lvl ${a.nivel}">${a.nivel}</b>${a.carne ? `<a href="${link(cat, 'jugador', a.carne)}">${esc(a.nombre)}</a>` : `<b>${esc(a.nombre)}</b>`}<span>${esc(a.texto)}</span></div>`).join('')}</div></section>` : ''}
   <div class="panel"><div class="panel-h"><b>Partidos</b></div>${filaPartidos(cat, todos.map(x => x.p).slice().reverse())}</div>`)}
   ${P.panel('plantel', `<div class="sec-h"><div><h2>Plantel</h2><span class="sub">Tocá un encabezado para ordenar. En los últimos 5, la barra es el tiempo jugado: oscura si fue titular, clara si entró desde el banco, vacía si no jugó; la esquina roja es una expulsión.</span></div></div>
@@ -1288,7 +1309,7 @@ function vPartido(d, cat, id) {
   const cabeza = barra => `${atras(link(cat, 'partidos'), 'Partidos')}
   <div class="cab"><div class="marcador"><div class="meta"><b>${esc(DIVS[cat].nombre)}</b> · ${esc(p.etapa)} · Fecha ${p.fecha}${p.cancha ? ' · ' + esc(p.cancha) : ''}</div>
   <div class="bigscore"><a href="${link(cat, 'equipo', p.local)}">${crest(p.local, true)}${esc(p.local)}</a><span class="score">${p.gl}-${p.gv}<small>${p.wo ? 'W.O.' : 'Final'} · ${fDia(p.dia)}${p.hora !== '00:00' ? ' ' + p.hora : ''}</small></span><a href="${link(cat, 'equipo', p.visitante)}">${crest(p.visitante, true)}${esc(p.visitante)}</a></div>
-  <div class="acc"><a class="share" href="https://ligauniversitaria.org.uy/resultados/detallePartido.html?id=${esc(p.id)}" target="_blank" rel="noopener">Ver planilla en la LUD</a></div></div>${barra}</div>`;
+  <div class="acc"><a class="share" href="https://ligauniversitaria.org.uy/resultados/detallePartido.html?id=${esc(p.id)}" target="_blank" rel="noopener">Ver planilla en la LUD</a></div></div></div>${barra}`;
   const head = cabeza('');
   if (!p.planilla) return head + `<div class="empty">${p.wo ? 'Partido ganado por walkover: no hay planilla.' : 'La Liga todavía no cargó la planilla de este partido.'}</div>`;
   const nom = c => d.jugadores[c]?.nombre || c;
@@ -1739,7 +1760,8 @@ function vPrevia(d, cat, k) {
   <div class="cab"><div class="marcador"><div class="meta"><b>${esc(DIVS[cat].nombre)}</b> · ${esc(f.etapa || '')}${f.cancha && f.cancha !== 'Cancha A Fijar' ? ' · ' + esc(f.cancha) : ''}</div>
     <div class="bigscore"><a href="${link(cat, 'equipo', f.l)}">${crest(f.l, true)}${esc(f.l)}<span class="sub">${formaHtml(d, f.l)}<br>${resumen(f.l)}</span></a><span class="score vs">${f.hora !== '00:00' ? f.hora : 'A conf.'}<small>${fDia(f.dia)}</small></span><a href="${link(cat, 'equipo', f.v)}">${crest(f.v, true)}${esc(f.v)}<span class="sub">${formaHtml(d, f.v)}<br>${resumen(f.v)}</span></a></div>
     <div class="acc"><button class="share" onclick="compartirPrevia()">${ICONO_COMPARTIR}<span>Compartir la previa</span></button></div></div>
-  ${P.barra}</div>
+  </div>
+  ${P.barra}
   ${P.panel('once', `<details class="help"><summary>${ic('i-info')}Cómo se arma</summary><div class="help-b">Con los titulares de los últimos 5 partidos (el último pesa mucho más). El % es cuántas veces fue titular en ese tramo; los suspendidos quedan afuera y las dudas aparecen marcadas.${acierto}</div></details>
     <div class="two">${vOnce(d, cat, f.l)}${vOnce(d, cat, f.v)}</div>`)}
   ${P.panel('bajas', `<div class="panel"><div class="panel-h"><b>Posibles bajas</b><a href="${link(cat, 'bajas')}">Todas las de la fecha</a></div>${bajasDe(f.l)}${bajasDe(f.v)}</div>`)}
@@ -2268,6 +2290,9 @@ addEventListener('online', pintarSinRed);
 addEventListener('offline', pintarSinRed);
 if ('serviceWorker' in navigator && window.isSecureContext) addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));
 
+// El botón del chat: chico mientras se baja (no tapa), con el texto al subir o arriba de todo.
+let scrollAntes = 0;
+addEventListener('scroll', () => { const y = scrollY, b = $('#btn-chat'); if (b) b.classList.toggle('chico', y > 160 && y > scrollAntes); scrollAntes = y; }, { passive: true });
 addEventListener('hashchange', render);
 iniciarContador();
 render();
