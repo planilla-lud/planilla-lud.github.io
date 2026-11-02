@@ -2307,12 +2307,13 @@ function pmFue(J, pr) {
   if (E.marcas[pr.id]?.[J.c] != null) return E.marcas[pr.id][J.c];
   if (!pr.pasada) return null;
   const k = J.cats[pr.cat]; const parte = k.posibles ? Math.min(1, k.min / k.posibles) : 0;
-  const ganas = 0.3 + 0.42 * pmAzar('g' + J.c) + 0.26 * parte * (pmPrincipal(J) === pr.cat ? 1 : 0.6);
+  const ganas = 0.3 + 0.42 * pmAzar('g' + J.c) + 0.26 * parte * (J.principal0 === pr.cat ? 1 : 0.6);
   return pmAzar(J.c + pr.id) < ganas ? 1 : 0;
 }
 // Respuesta al recordatorio de la próxima práctica.
 function pmResp(J, pr) {
   const r = pmEst().resp[pr.id]?.[J.c]; if (r) return r;
+  if (!pmCfg(pr.cat).recordatorio) return 'sin';
   const x = pmAzar('r' + J.c + pr.id);
   return x < 0.55 ? 'va' : x < 0.72 ? 'no' : 'sin';
 }
@@ -2529,14 +2530,15 @@ function pmPracticasV() {
   const pr = ps.find(p => p.id === PM_PRAC);
   const filas = L.map(J => ({ J, k: pmCuentas(J, cat), r: pmRacha(J, cat) })).sort((a, b) => b.k.pct - a.k.pct || a.J.nombre.localeCompare(b.J.nombre));
   const ultimas = pasadas.slice(-8).reverse();
-  const lista = pr ? L.map(J => ({ J, f: pr.pasada ? pmFue(J, pr) : null, r: pmResp(J, pr) })).sort((a, b) => (b.f ?? 0) - (a.f ?? 0) || a.J.nombre.localeCompare(b.J.nombre)) : [];
+  // Con Pasar lista, orden alfabético fijo: así la fila no se mueve al tocarla.
+  const lista = pr ? L.map(J => ({ J, f: pr.pasada ? pmFue(J, pr) : null, r: pmResp(J, pr) })).sort((a, b) => (pmCfg(cat).pasarLista && pr.pasada ? 0 : (b.f ?? 0) - (a.f ?? 0)) || a.J.nombre.localeCompare(b.J.nombre)) : [];
   const cuentaPr = lista.filter(x => x.f).length;
   const grupo = (xs, t) => `<div class="pm-rg"><b>${t} <span class="muted">${xs.length}</span></b><span>${xs.map(x => `<a href="${pmJugLink(x.J, cat)}">${esc(pmCorto(x.J.nombre))}</a>`).join(', ') || '-'}</span></div>`;
   const chipsP = [...ultimas.reverse(), ...ps.filter(p => !p.pasada).slice(0, 3)];
   let cuerpo = '';
   if (pr && pr.pasada && pmCfg(cat).pasarLista) cuerpo = '<p class="pm-nota">Pasar lista está prendido: marcá o desmarcá a cada uno para confirmar.</p>' + lista.map(({ J, f }) => `<label class="pm-r pm-lista"><span class="pm-r-t"><b>${esc(J.nombre)}</b><small>${pmPrincipal(J) === cat ? 'Plantel principal' : 'Principal: ' + esc(pmCatN(pmPrincipal(J)))}</small></span><span class="pm-check"><span>${f ? 'Fue' : 'No fue'}</span><input type="checkbox" data-pm="lista" data-p="${pr.id}" data-c="${J.c}"${f ? ' checked' : ''}></span></label>`).join('');
   else if (pr && pr.pasada) cuerpo = `<div class="pm-rgs">${grupo(lista.filter(x => x.f), 'Fueron')}${grupo(lista.filter(x => !x.f), 'No fueron')}</div><p class="pm-nota">Cada jugador marca que fue desde su celular. Si querés confirmarlo vos, prendé <a href="#/clubes/ajustes">Pasar lista</a>.</p>`;
-  else if (pr) cuerpo = `<div class="pm-rgs">${grupo(lista.filter(x => x.r === 'va'), 'Van')}${grupo(lista.filter(x => x.r === 'no'), 'No van')}${grupo(lista.filter(x => x.r === 'sin'), 'Sin responder')}</div><p class="pm-nota">Son las respuestas al recordatorio de WhatsApp.</p>`;
+  else if (pr) cuerpo = `<div class="pm-rgs">${grupo(lista.filter(x => x.r === 'va'), 'Van')}${grupo(lista.filter(x => x.r === 'no'), 'No van')}${grupo(lista.filter(x => x.r === 'sin'), 'Sin responder')}</div><p class="pm-nota">${pmCfg(cat).recordatorio ? 'Son las respuestas al recordatorio de WhatsApp.' : 'El recordatorio está apagado para este plantel: acá aparecen solo los que respondieron desde la web.'}</p>`;
   return pmChipsCat(cat) + `
     <section class="stack"><div class="sec-h"><div><h3>Días de práctica</h3><span class="sub">${esc(pmCatN(cat))} · ${esc(pmDtTxt(cat))}</span></div></div>
       ${pmEditorDias(cat)}</section>
