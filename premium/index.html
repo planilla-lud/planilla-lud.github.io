@@ -851,6 +851,20 @@ label.pm-lista{cursor:pointer}
 .pm-cal span.si b{color:var(--win)}
 .pm-cal span.no b{color:var(--faint)}
 .pm-mio{background:var(--accent-soft)}
+.pm-semana{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:6px;padding:12px 14px}
+.pm-d{display:flex;flex-direction:column;align-items:stretch;gap:6px;min-width:0}
+.pm-d button{border:1px solid var(--line-strong);background:var(--surface);color:var(--muted);border-radius:var(--r-sm);padding:10px 0;font-weight:700;font-size:.92rem;cursor:pointer;text-transform:capitalize}
+.pm-d button[aria-pressed="true"]{background:var(--accent);color:var(--on-accent);border-color:var(--accent)}
+.pm-d input{font:inherit;font-size:.8rem;font-variant-numeric:tabular-nums;color:var(--fg);background:var(--surface-2);border:1px solid var(--line-strong);border-radius:var(--r-xs);padding:4px 2px;min-width:0;width:100%;text-align:center}
+.pm-d > span{font-size:.78rem;color:var(--faint);text-align:center;padding:4px 0}
+.pm-in{font:inherit;font-size:.92rem;color:var(--fg);background:var(--surface-2);border:1px solid var(--line-strong);border-radius:var(--r-sm);padding:7px 9px;min-width:0;max-width:100%}
+input.pm-in[type="text"]{flex:1;max-width:240px}
+.pm-extra{flex-wrap:wrap}
+.pm-extra .pm-r-t{flex-basis:100%}
+.pm-cambios small{display:flex;gap:8px;align-items:center}
+.pm-dp .lnk,.panel-h .lnk{border:0;background:none;padding:0;font:inherit;font-weight:600;color:var(--gol);cursor:pointer;text-decoration:underline;text-underline-offset:2px}
+@media (max-width:480px){.pm-semana{gap:4px;padding:10px}.pm-d button{padding:9px 0;font-size:.82rem}.pm-d input{font-size:.72rem;padding:4px 0}}
+
 .pm-login{max-width:440px;width:100%;margin:8px auto 0;display:flex;flex-direction:column;gap:14px}
 .pm-login-h{display:flex;align-items:center;gap:14px}
 .pm-login .pm-form label{display:flex;flex-direction:column;gap:4px;font-size:.82rem;font-weight:600;color:var(--muted)}
@@ -2106,14 +2120,17 @@ function filaPrevia(href, f, op = {}) {
 const PM_CLUB = 'elf';
 const PM_INICIO = '2026-03-16';
 const PM_VACACIONES = ['2026-06-29', '2026-07-19']; // vacaciones de julio: sin prácticas
+// Días de práctica de cada categoría (día de la semana -> hora). 0 = domingo.
 const PM_HORARIOS = {
-  mayores: { dias: [2, 4], hora: '20:30', lugar: 'Liceo Francés' },
-  sub20: { dias: [1, 3], hora: '19:00', lugar: 'Liceo Francés' },
-  reserva: { dias: [2, 4], hora: '20:30', lugar: 'Liceo Francés' },
-  presenior: { dias: [3], hora: '21:00', lugar: 'Liceo Francés' },
-  sub18: { dias: [1, 3], hora: '18:00', lugar: 'Liceo Francés' },
-  sub16: { dias: [2, 4], hora: '18:00', lugar: 'Liceo Francés' },
+  mayores: { dias: { 2: '20:30', 4: '20:30' }, lugar: 'Liceo Francés' },
+  sub20: { dias: { 1: '19:00', 3: '19:00' }, lugar: 'Liceo Francés' },
+  reserva: { dias: { 2: '20:30', 4: '20:30' }, lugar: 'Liceo Francés' },
+  presenior: { dias: { 3: '21:00' }, lugar: 'Liceo Francés' },
+  sub18: { dias: { 3: '18:00' }, lugar: 'Liceo Francés' },
+  sub16: { dias: { 2: '18:00', 4: '18:00' }, lugar: 'Liceo Francés' },
 };
+const PM_SEMANA = [1, 2, 3, 4, 5, 6, 0];
+const PM_DIAS_L = ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'];
 const PM_CFG0 = { verAsistencia: true, verRacha: true, verMinutos: true, verRanking: false, verCompaneros: false,
   pasarLista: false, convocatoria: false, recordatorio: true, recCuando: 'noche' };
 const PM_TABS = [['resumen', 'Resumen'], ['practicas', 'Prácticas'], ['cruce', 'Asistencia y minutos'], ['minutos', 'Minutos'],
@@ -2125,8 +2142,9 @@ let PM_CAT = null, PM_PRAC = null;
 const pmLeerJ = (k, def) => { try { return JSON.parse(leer(k)) ?? def; } catch { return def; } };
 function pmEst() {
   if (!PM_EST) {
-    PM_EST = { cfg: { ...PM_CFG0 }, horarios: JSON.parse(JSON.stringify(PM_HORARIOS)), marcas: {}, lista: {}, resp: {}, principal: {}, amistosos: [], videos: [], conv: {}, rol: 'dt', yo: null, ...pmLeerJ('pm-estado', {}) };
+    PM_EST = { cfg: { ...PM_CFG0 }, hor: {}, susp: {}, extras: {}, marcas: {}, lista: {}, resp: {}, principal: {}, amistosos: [], videos: [], conv: {}, rol: 'dt', yo: null, ...pmLeerJ('pm-estado', {}) };
     PM_EST.cfg = { ...PM_CFG0, ...PM_EST.cfg };
+    delete PM_EST.horarios; PM_EST.hor ??= {}; PM_EST.susp ??= {}; PM_EST.extras ??= {};
   }
   return PM_EST;
 }
@@ -2162,15 +2180,46 @@ async function pmCargar() {
   return PM;
 }
 // Prácticas de una categoría desde el arranque hasta dentro de una semana, según el horario cargado.
+// El horario cambia con el tiempo: cada cambio corre desde el día que se hizo, así las prácticas
+// anteriores quedan como fueron.
+function pmVersiones(cat) {
+  const v = pmEst().hor[cat];
+  return v?.length ? v : (PM_HORARIOS[cat] ? [{ desde: PM_INICIO, ...JSON.parse(JSON.stringify(PM_HORARIOS[cat])) }] : []);
+}
+const pmHorEn = (cat, d) => pmVersiones(cat).filter(v => v.desde <= d).at(-1) || pmVersiones(cat)[0];
+const pmHorHoy = cat => pmHorEn(cat, pmHoy());
+// Para cambiar el horario: se edita la versión de hoy (si no hay, se crea copiando la vigente).
+function pmHorEditar(cat, fn) {
+  const E = pmEst(), vs = pmVersiones(cat).map(v => ({ ...v, dias: { ...v.dias } })), hoy = pmHoy();
+  let v = vs.find(x => x.desde === hoy);
+  if (!v) { v = { ...pmHorHoy(cat), dias: { ...pmHorHoy(cat).dias }, desde: hoy }; vs.push(v); vs.sort((a, b) => a.desde.localeCompare(b.desde)); }
+  fn(v); E.hor[cat] = vs; pmGuardar();
+}
 function pmPracticas(cat) {
-  const h = pmEst().horarios[cat]; if (!h) return [];
-  const out = [], fin = pmSumar(pmHoy(), 8);
+  const E = pmEst(); if (!pmVersiones(cat).length) return [];
+  const out = [], fin = pmSumar(pmHoy(), 8), hoy = pmHoy(), ahora = pmAhora();
+  const mk = (d, hora, lugar, extra) => ({ id: `${cat}|${d}`, cat, dia: d, hora, lugar, extra, pasada: d < hoy || (d === hoy && ahora >= hora) });
   for (let d = PM_INICIO; d <= fin; d = pmSumar(d, 1)) {
-    if (!h.dias.includes(pmDow(d)) || (d >= PM_VACACIONES[0] && d <= PM_VACACIONES[1])) continue;
-    const pasada = d < pmHoy() || (d === pmHoy() && pmAhora() >= h.hora);
-    out.push({ id: `${cat}|${d}`, cat, dia: d, hora: h.hora, lugar: h.lugar, pasada });
+    const v = pmHorEn(cat, d), hora = v.dias[pmDow(d)];
+    if (!hora || (d >= PM_VACACIONES[0] && d <= PM_VACACIONES[1]) || E.susp[`${cat}|${d}`]) continue;
+    out.push(mk(d, hora, v.lugar));
   }
-  return out;
+  for (const x of E.extras[cat] || []) if (!out.some(p => p.dia === x.dia) && !E.susp[`${cat}|${x.dia}`]) out.push(mk(x.dia, x.hora, pmHorEn(cat, x.dia).lugar, true));
+  return out.sort((a, b) => a.dia.localeCompare(b.dia));
+}
+const pmDiasTxt = cat => { const v = pmHorHoy(cat), ds = PM_SEMANA.filter(d => v.dias[d]); return ds.length ? ds.map(d => `${DIAS[d]} ${v.dias[d]}`).join(' · ') : 'Sin días de práctica'; };
+// Editor de días de práctica de una categoría.
+function pmEditorDias(cat) {
+  const E = pmEst(), v = pmHorHoy(cat), hoy = pmHoy();
+  const prox = PM_SEMANA.map(d => [d, v.dias[d]]);
+  const susp = Object.keys(E.susp).filter(k => k.startsWith(cat + '|') && k.slice(cat.length + 1) >= hoy).map(k => k.split('|')[1]).sort();
+  const extras = (E.extras[cat] || []).filter(x => x.dia >= hoy).sort((a, b) => a.dia.localeCompare(b.dia));
+  return `<div class="panel pm-dp"><div class="panel-h"><span><b>Días de práctica de ${esc(pmCatN(cat))}</b></span><span>${pmDiasTxt(cat)}</span></div>
+    <div class="pm-semana">${prox.map(([d, hora]) => `<div class="pm-d${hora ? ' on' : ''}"><button type="button" data-pm="dia" data-cat="${cat}" data-v="${d}" aria-pressed="${!!hora}" aria-label="${PM_DIAS_L[d]}">${DIAS[d]}</button>${hora ? `<input type="time" id="h-${cat}-${d}" data-pm="hora" data-cat="${cat}" data-d="${d}" value="${hora}" aria-label="Hora del ${PM_DIAS_L[d].toLowerCase()}">` : '<span>No</span>'}</div>`).join('')}</div>
+    <div class="pm-r"><span class="pm-r-t"><b>Lugar</b></span><input type="text" class="pm-in" id="lugar-${cat}" data-pm="lugar" data-cat="${cat}" value="${esc(v.lugar)}"></div>
+    <div class="pm-r pm-extra"><span class="pm-r-t"><b>Práctica extra</b><small>Un día suelto que no es de los de siempre.</small></span><input type="date" class="pm-in" id="ex-dia" min="${hoy}" value="${pmSumar(hoy, 1)}"><input type="time" class="pm-in" id="ex-hora" value="${Object.values(v.dias)[0] || '19:00'}"><button type="button" class="share" data-pm="extra" data-cat="${cat}">Agregar</button></div>
+    ${susp.length || extras.length ? `<div class="pm-r pm-cambios"><span class="pm-r-t"><b>Cambios de esta semana en adelante</b>${extras.map(x => `<small>Extra: ${fDia(x.dia)} ${x.hora} <button type="button" class="lnk" data-pm="quitar-extra" data-cat="${cat}" data-v="${x.dia}">Quitar</button></small>`).join('')}${susp.map(d => `<small>Suspendida: ${fDia(d)} <button type="button" class="lnk" data-pm="reactivar" data-v="${cat}|${d}">Volver a ponerla</button></small>`).join('')}</span></div>` : ''}
+    <p class="pm-nota">Tocá un día para prenderlo o apagarlo. Los cambios corren desde hoy: las prácticas que ya pasaron quedan como fueron.</p></div>`;
 }
 const pmPrincipal = J => pmEst().principal[J.c] || J.principal0;
 const pmDe = cat => Object.values(PM.jug).filter(J => J.cats[cat]);
@@ -2337,9 +2386,10 @@ function pmPracticasV() {
   const lista = pr ? L.map(J => ({ J, f: pr.pasada ? pmFue(J, pr) : null, r: pmResp(J, pr) })).sort((a, b) => (b.f ?? 0) - (a.f ?? 0) || a.J.nombre.localeCompare(b.J.nombre)) : [];
   const cuentaPr = lista.filter(x => x.f).length;
   return pmChipsCat(cat) + `
-    <section class="stack"><div class="sec-h"><div><h3>Prácticas</h3><span class="sub">${esc(pmCatN(cat))}: ${E.horarios[cat].dias.map(d => DIAS[d]).join(' y ')} a las ${E.horarios[cat].hora}. Cada práctica es de una categoría.</span></div></div>
+    <section class="stack"><div class="sec-h"><div><h3>Prácticas</h3><span class="sub">${esc(pmCatN(cat))}: ${pmDiasTxt(cat)}. Cada práctica es de una categoría.</span></div></div>
+      ${pmEditorDias(cat)}
       <div class="chips pm-dias">${[...ultimas.reverse(), ...ps.filter(p => !p.pasada).slice(0, 2)].map(p => `<button type="button" class="chip" data-pm="prac" data-v="${p.id}" aria-pressed="${p.id === PM_PRAC}">${fDia(p.dia)}${p.pasada ? '' : ' · próxima'}</button>`).join('')}</div>
-      ${pr ? `<div class="panel"><div class="panel-h"><span><b>${pmDiaH(pr)}</b> · ${esc(pr.lugar)}</span><span>${pr.pasada ? `${cuentaPr} de ${L.length} fueron` : 'Todavía no se jugó'}</span></div>
+      ${pr ? `<div class="panel"><div class="panel-h"><span><b>${pmDiaH(pr)}</b> · ${esc(pr.lugar)}</span><span>${pr.pasada ? `${cuentaPr} de ${L.length} fueron` : `${pr.extra ? 'Extra · ' : ''}<button type="button" class="lnk" data-pm="suspender" data-v="${pr.id}">Suspender</button>`}</span></div>
         ${!pr.pasada ? '' : E.cfg.pasarLista ? '<p class="pm-nota">Pasar lista está prendido: marcá o desmarcá a cada uno para confirmar.</p>' : '<p class="pm-nota">Cada jugador marca que fue desde su celular. Si querés confirmarlo vos, prendé <a href="#/clubes/ajustes">Pasar lista</a>.</p>'}
         ${lista.map(({ J, f, r }) => `<div class="pm-r pm-lista"><span class="pm-r-t"><a href="${pmJugLink(J, cat)}">${esc(J.nombre)}</a><small>${pmPrincipal(J) === cat ? 'Principal' : esc(pmCatN(pmPrincipal(J))) + ' de principal'}</small></span>
           ${pr.pasada ? (E.cfg.pasarLista ? `<label class="pm-check"><input type="checkbox" data-pm="lista" data-p="${pr.id}" data-c="${J.c}"${f ? ' checked' : ''}><span>${f ? 'Fue' : 'No fue'}</span></label>` : `<span class="pm-est ${f ? 'si' : 'no'}">${f ? 'Fue' : 'No fue'}</span>`)
@@ -2414,7 +2464,7 @@ function pmRecordatorios() {
   const rs = p ? L.map(J => ({ J, r: pmResp(J, p) })) : [];
   const grupo = (k, h) => { const xs = rs.filter(x => x.r === k); return `<div class="pm-rg"><b>${h} <span class="muted">${xs.length}</span></b><span>${xs.map(x => esc(pmCorto(x.J.nombre))).join(', ') || '-'}</span></div>`; };
   return pmChipsCat(cat) + `<div class="panel pm-wpp-w"><div class="panel-h"><span><b>Recordatorio por WhatsApp</b></span><span>${E.cfg.recordatorio ? cuando : 'Apagado'}</span></div>
-      <div class="pm-wpp"><div class="pm-bur">Hola ${esc(ej)}! ¿Vas a la práctica de ${esc(pmCatN(cat))}${p ? ` del ${fDia(p.dia)} a las ${p.hora}` : ''} en ${esc(E.horarios[cat].lugar)}?<div class="pm-bots"><span>Voy</span><span>No voy</span></div></div></div>
+      <div class="pm-wpp"><div class="pm-bur">Hola ${esc(ej)}! ¿Vas a la práctica de ${esc(pmCatN(cat))}${p ? ` del ${fDia(p.dia)} a las ${p.hora}` : ''} en ${esc(pmHorHoy(cat).lugar)}?<div class="pm-bots"><span>Voy</span><span>No voy</span></div></div></div>
       <p class="pm-nota">Le llega a cada jugador de la categoría. Con un toque responde, y su respuesta aparece abajo y en Prácticas. Se cambia en <a href="#/clubes/ajustes">Ajustes</a>.</p></div>
     ${p ? `<section class="stack"><div class="sec-h"><div><h3>Respuestas para el ${fDia(p.dia)}</h3><span class="sub">${esc(pmCatN(cat))} · ${p.hora}</span></div></div>
       <div class="panel pm-rgs">${grupo('va', 'Van')}${grupo('no', 'No van')}${grupo('sin', 'Sin responder')}</div></section>` : ''}`;
@@ -2439,8 +2489,8 @@ function pmAjustes() {
       <div class="panel">${pmSw('pasarLista', 'Pasar lista', 'El técnico confirma quién fue. Si está apagado, vale lo que marca el jugador')}${pmSw('recordatorio', 'Recordatorio por WhatsApp', '"¿Vas a la práctica?" antes de cada una')}
         <div class="pm-r"><span class="pm-r-t"><b>Cuándo se manda</b></span><div class="seg pm-seg"><button type="button" data-pm="rec" data-v="noche" aria-pressed="${E.cfg.recCuando === 'noche'}">Noche anterior</button><button type="button" data-pm="rec" data-v="antes" aria-pressed="${E.cfg.recCuando === 'antes'}">3 h antes</button></div></div></div></section>
     <section class="stack"><div class="sec-h"><div><h3>Partidos</h3></div></div><div class="panel">${pmSw('convocatoria', 'Convocatoria', 'Elegir los convocados de cada partido y mandar la lista')}</div></section>
-    <section class="stack"><div class="sec-h"><div><h3>Horarios de práctica</h3><span class="sub">Con esto se arman las prácticas y los recordatorios.</span></div></div>
-      <div class="panel">${PM.cats.map(c => `<div class="pm-r pm-hor"><span class="pm-r-t"><b>${esc(pmCatN(c))}</b></span><div class="pm-dsem">${[1, 2, 3, 4, 5, 6].map(d => `<button type="button" data-pm="dia" data-cat="${c}" data-v="${d}" aria-pressed="${E.horarios[c].dias.includes(d)}">${DIAS[d]}</button>`).join('')}</div><input type="time" id="hora-${c}" data-pm="hora" data-cat="${c}" value="${E.horarios[c].hora}"></div>`).join('')}</div></section>
+    <section class="stack"><div class="sec-h"><div><h3>Días de práctica</h3><span class="sub">Se cambian en Prácticas, eligiendo la categoría.</span></div><a href="#/clubes/practicas">Cambiar</a></div>
+      <div class="panel">${PM.cats.map(c => `<div class="pm-r"><span class="pm-r-t"><b>${esc(pmCatN(c))}</b><small>${pmDiasTxt(c)} · ${esc(pmHorHoy(c).lugar)}</small></span></div>`).join('')}</div></section>
     <section class="stack"><div class="sec-h"><div><h3>Plan</h3></div></div>
       <div class="panel"><div class="pm-r"><span class="pm-r-t"><b>Prueba gratis · ELF</b><small>Después: 30 USD por mes cada plantel, o 100 USD por mes todo el club.</small></span><span class="tag pm-plan">Activo</span></div>
       <div class="pm-r"><span class="pm-r-t"><b>Borrar lo marcado en esta demo</b><small>Vuelve a los datos de ejemplo.</small></span><button type="button" class="share" data-pm="reset">Borrar</button></div></div></section>`;
@@ -2481,7 +2531,11 @@ function pmEnlazar() {
     else if (a === 'rol') { E.rol = v; pmGuardar(); }
     else if (a === 'salir') { guardar('pm-sesion', ''); E.rol = 'dt'; E.yo = null; pmGuardar(); aviso('Cerraste sesión.'); }
     else if (a === 'rec') { E.cfg.recCuando = v; pmGuardar(); aviso('Guardado.'); }
-    else if (a === 'dia') { const h = E.horarios[b.dataset.cat], d = Number(v); h.dias = h.dias.includes(d) ? h.dias.filter(x => x !== d) : [...h.dias, d].sort(); pmGuardar(); }
+    else if (a === 'dia') { const d = Number(v); pmHorEditar(b.dataset.cat, x => { if (x.dias[d]) delete x.dias[d]; else x.dias[d] = Object.values(x.dias)[0] || '19:00'; }); PM_PRAC = null; aviso(`${PM_DIAS_L[d]}: ${pmHorHoy(b.dataset.cat).dias[d] ? 'hay práctica' : 'sin práctica'}.`); }
+    else if (a === 'extra') { const dia = $('#ex-dia').value, hora = $('#ex-hora').value; if (!dia || !hora) { aviso('Elegí el día y la hora.'); return; } const c = b.dataset.cat; E.extras[c] = [...(E.extras[c] || []).filter(x => x.dia !== dia), { dia, hora }]; delete E.susp[`${c}|${dia}`]; pmGuardar(); aviso(`Práctica extra el ${fDia(dia)} a las ${hora}.`); }
+    else if (a === 'quitar-extra') { const c = b.dataset.cat; E.extras[c] = (E.extras[c] || []).filter(x => x.dia !== v); PM_PRAC = null; pmGuardar(); }
+    else if (a === 'suspender') { E.susp[v] = 1; PM_PRAC = null; pmGuardar(); aviso('Práctica suspendida.'); }
+    else if (a === 'reactivar') { delete E.susp[v]; pmGuardar(); }
     else if (a === 'fui') { const c = $('#pm-yo-sel').value; (E.marcas[v] ??= {})[c] = 1; pmGuardar(); aviso('Listo, quedó marcado.'); }
     else if (a === 'voy') { const c = $('#pm-yo-sel').value; (E.resp[b.dataset.p] ??= {})[c] = v; pmGuardar(); aviso(v === 'va' ? 'Anotado: vas.' : 'Anotado: no vas.'); }
     else if (a === 'borrar-am') { E.amistosos = E.amistosos.filter(x => x.id !== v); pmGuardar(); }
@@ -2498,7 +2552,8 @@ function pmEnlazar() {
     else if (a === 'conv') { const s = new Set(E.conv[i.dataset.k] || []); i.checked ? s.add(i.dataset.c) : s.delete(i.dataset.c); E.conv[i.dataset.k] = [...s]; pmGuardar(); }
     else if (a === 'yo') { E.yo = i.value; pmGuardar(); }
     else if (a === 'principal') { E.principal[$('#pm-yo-sel').value] = i.value; pmGuardar(); aviso('Categoría principal cambiada.'); }
-    else if (a === 'hora') { E.horarios[i.dataset.cat].hora = i.value; pmGuardar(); aviso('Horario guardado.'); return; }
+    else if (a === 'hora') { if (!i.value) return; pmHorEditar(i.dataset.cat, x => { x.dias[i.dataset.d] = i.value; }); aviso('Horario guardado.'); }
+    else if (a === 'lugar') { pmHorEditar(i.dataset.cat, x => { x.lugar = i.value.trim() || x.lugar; }); aviso('Lugar guardado.'); }
     else return;
     repintar();
   };
