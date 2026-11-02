@@ -852,6 +852,20 @@ label.pm-lista{cursor:pointer}
 .pm-cal span.si b{color:var(--win)}
 .pm-cal span.no b{color:var(--faint)}
 .pm-mio{background:var(--accent-soft)}
+.pm-fichas summary{list-style:none;display:flex;align-items:center;gap:10px;padding:13px 14px;cursor:pointer}
+.pm-fichas summary::-webkit-details-marker{display:none}
+.pm-fichas summary > span{flex:1;display:flex;flex-wrap:wrap;align-items:center;gap:6px}
+.pm-fichas summary svg.i{width:18px;height:18px;color:var(--muted);transition:transform .15s;transform:rotate(-90deg)}
+.pm-fichas[open] summary svg.i{transform:rotate(90deg)}
+.pm-fichas[open] summary{border-bottom:1px solid var(--line)}
+.pm-fichas .pm-nota{border-top:0}
+.pm-ficha{flex-wrap:wrap}
+.pm-ficha input{width:160px}
+.pm-est.pronto{background:var(--warning-soft);color:var(--warning);border-color:transparent}
+.pm-fichas-ok{font-size:.86rem;color:var(--muted);padding:2px 2px}
+.pm-ficha-yo.vencida{box-shadow:inset 3px 0 0 var(--danger),var(--shadow)}
+.pm-ficha-yo.pronto{box-shadow:inset 3px 0 0 var(--warning),var(--shadow)}
+
 .pm-tile-btn{font:inherit;color:inherit;text-align:left;background:none;cursor:pointer}
 .pm-tile-btn:hover b{text-decoration:underline}
 #pm-bajas{scroll-margin-top:calc(var(--header-h) + var(--cats-h) + 70px)}
@@ -2208,7 +2222,7 @@ function pmEst() {
     PM_EST.cfg = { ...PM_CFG0, ...PM_EST.cfg };
     // Si lo guardado tiene una forma rara, se arregla cada parte por separado.
     const obj = x => x && typeof x === 'object' && !Array.isArray(x), arr = Array.isArray;
-    for (const k of ['hor', 'susp', 'extras', 'marcas', 'lista', 'resp', 'principal', 'conv', 'cfgP']) if (!obj(PM_EST[k])) PM_EST[k] = {};
+    for (const k of ['hor', 'susp', 'extras', 'marcas', 'lista', 'resp', 'principal', 'conv', 'cfgP', 'fichas']) if (!obj(PM_EST[k])) PM_EST[k] = {};
     for (const k of ['amistosos', 'videos']) if (!arr(PM_EST[k])) PM_EST[k] = [];
     if (!arr(PM_EST.usuarios) || !PM_EST.usuarios.some(x => x?.rol === 'admin')) PM_EST.usuarios = JSON.parse(JSON.stringify(PM_USUARIOS0));
     PM_EST.usuarios = PM_EST.usuarios.filter(x => obj(x) && typeof x.u === 'string' && typeof x.nombre === 'string');
@@ -2500,6 +2514,30 @@ function pmDeslizar(w) {
   act(); setTimeout(act, 400);
 }
 
+// ----- Ficha médica -----
+// Fecha de vencimiento de la ficha médica de cada jugador. En la demo son de ejemplo (algunas vencidas y
+// otras por vencer); el técnico o el jugador cargan la fecha nueva cuando la renuevan.
+const PM_FICHA_BASE = '2026-11-02';
+var PM_FICHAS_ABIERTO = false;
+function pmFicha(J) {
+  const f = pmEst().fichas[J.c]; if (typeof f === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(f)) return f;
+  const x = pmAzar('f' + J.c);
+  return pmSumar(PM_FICHA_BASE, x < 0.07 ? -Math.round(5 + x * 600) : x < 0.16 ? Math.round((x - 0.07) * 330) : Math.round(40 + x * 330));
+}
+const pmFichaEst = f => f < pmHoy() ? 'vencida' : f <= pmSumar(pmHoy(), 30) ? 'pronto' : 'ok';
+const pmFecha = d => `${d.slice(8)}/${d.slice(5, 7)}/${d.slice(0, 4)}`;
+function pmFichasV() {
+  const vistos = new Set(), L = [];
+  for (const c of pmCV()) for (const J of pmDe(c)) if (!vistos.has(J.c)) { vistos.add(J.c); L.push({ J, c, f: pmFicha(J) }); }
+  const venc = L.filter(x => pmFichaEst(x.f) === 'vencida').sort((a, b) => a.f.localeCompare(b.f));
+  const pronto = L.filter(x => pmFichaEst(x.f) === 'pronto').sort((a, b) => a.f.localeCompare(b.f));
+  if (!venc.length && !pronto.length) return `<div class="pm-fichas-ok">Fichas médicas: todas al día.</div>`;
+  const fila = ({ J, c, f }) => `<div class="pm-r pm-ficha"><span class="pm-r-t"><b>${esc(J.nombre)}</b><small>${esc(pmCatN(pmPrincipal(J)))} · ${pmFichaEst(f) === 'vencida' ? `Venció el ${pmFecha(f)}` : `Vence el ${pmFecha(f)}`}</small></span>
+    <input type="date" class="pm-in" id="ficha-${J.c}" data-pm="ficha" data-c="${J.c}" value="${f}" aria-label="Nuevo vencimiento de la ficha de ${esc(J.nombre)}"></div>`;
+  return `<details class="panel pm-fichas"${PM_FICHAS_ABIERTO ? ' open' : ''} ontoggle="PM_FICHAS_ABIERTO = this.open"><summary><span><b>Fichas médicas</b>${venc.length ? ` <span class="pm-est no">${venc.length} vencida${venc.length > 1 ? 's' : ''}</span>` : ''}${pronto.length ? ` <span class="pm-est pronto">${pronto.length} vence${pronto.length > 1 ? 'n' : ''} en 30 días</span>` : ''}</span><svg class="i" aria-hidden="true"><use href="#i-atras"/></svg></summary>
+    <p class="pm-nota">Cuando un jugador la renueva, cambiá la fecha y listo.</p>${[...venc, ...pronto].map(fila).join('')}</details>`;
+}
+
 // ----- Resumen -----
 function pmResumen() {
   const hoy = pmHoy(), hace30 = pmSumar(hoy, -30);
@@ -2528,6 +2566,7 @@ function pmResumen() {
       <div class="panel side sola">${bajas.map(({ e, a }) => `<div class="alert"><b class="lvl alta">${esc(pmCatN(e.div))}</b>${a.carne ? `<a href="#/clubes/ver/${link(e.div, 'jugador', a.carne).slice(2)}">${esc(a.nombre)}</a>` : `<b>${esc(a.nombre)}</b>`}<span>${esc(a.texto)}</span></div>`).join('')}</div></section>` : ''}
     <section class="stack"><div class="sec-h"><div><h3>Para mirar</h3><span class="sub">Cruce de las prácticas con los minutos de las planillas, en su plantel principal.</span></div><a href="#/clubes/cruce">Ver todo</a></div>
       <div class="panel side sola">${mirar.length ? mirar.sort((a, b) => a.t.localeCompare(b.t)).slice(0, 8).map(({ J, c, t, txt }) => `<div class="alert pm-al ${t}"><b class="lvl ${t === 'mas' ? 'baja' : 'media'}">${t === 'mas' ? 'Darle minutos' : 'Falta a prácticas'}</b><a href="${pmJugLink(J, c)}">${esc(J.nombre)}</a><span>${esc(pmCatN(c))}. ${txt}</span></div>`).join('') : '<div class="ok">Nada fuera de lo normal.</div>'}</div></section>
+    ${pmFichasV()}
     <section class="stack"><div class="sec-h"><div><h3>Próximas prácticas</h3><span class="sub">Quiénes respondieron al recordatorio.</span></div><a href="#/clubes/practicas">Prácticas</a></div>
       <div class="panel">${proxs.map(p => { const L = pmDe(p.cat), r = L.map(J => pmResp(J, p)); return `<div class="pm-r"><span class="pm-r-t"><b>${esc(pmCatN(p.cat))}</b><small>${pmDiaH(p)} · ${esc(p.lugar)}</small></span><span class="pm-cnt"><b class="va">${r.filter(x => x === 'va').length}</b> van · <b class="no">${r.filter(x => x === 'no').length}</b> no · ${r.filter(x => x === 'sin').length} sin responder</span></div>`; }).join('')}</div></section>`;
 }
@@ -2612,7 +2651,7 @@ function pmConvocatoria() {
   const sel = new Set((E.conv[key] || []).filter(c => !susp.has(c)));
   const txt = `Convocados ${DIVS[e.div].nombre} vs ${n.rival}\n${fDia(n.dia)}${n.hora !== '00:00' ? ' ' + n.hora : ''} · ${n.cancha}\n\n` + L.filter(x => sel.has(x.J.c)).map((x, i) => `${i + 1}. ${x.J.nombre}`).join('\n');
   return pmChipsCat(cat) + `<div class="panel"><div class="panel-h"><span><b>${esc(DIVS[e.div].nombre)} vs ${esc(n.rival)}</b></span><span>${fDia(n.dia)}${n.hora !== '00:00' ? ' ' + n.hora : ''}</span></div>
-    ${L.map(({ J, a }) => `<label class="pm-r pm-lista"><span class="pm-r-t"><b>${esc(J.nombre)}${susp.has(J.c) ? '<span class="tag red">Suspendido</span>' : ''}</b><small>${J.cats[cat].min}' en la temporada · ${a}% de prácticas</small></span><input type="checkbox" class="pm-cb" data-pm="conv" data-k="${key}" data-c="${J.c}"${sel.has(J.c) && !susp.has(J.c) ? ' checked' : ''}${susp.has(J.c) ? ' disabled' : ''}></label>`).join('')}</div>
+    ${L.map(({ J, a }) => `<label class="pm-r pm-lista"><span class="pm-r-t"><b>${esc(J.nombre)}${susp.has(J.c) ? '<span class="tag red">Suspendido</span>' : ''}${pmFichaEst(pmFicha(J)) === 'vencida' ? '<span class="tag amber">Ficha vencida</span>' : ''}</b><small>${J.cats[cat].min}' en la temporada · ${a}% de prácticas</small></span><input type="checkbox" class="pm-cb" data-pm="conv" data-k="${key}" data-c="${J.c}"${sel.has(J.c) && !susp.has(J.c) ? ' checked' : ''}${susp.has(J.c) ? ' disabled' : ''}></label>`).join('')}</div>
     <div class="panel pm-msg"><div class="panel-h"><span><b>Mensaje para el grupo</b></span><span>${sel.size} convocados</span></div><pre id="conv-txt">${esc(txt)}</pre>
       <div class="row pm-acc"><button type="button" class="share" data-pm="copiar" data-v="conv-txt">Copiar</button><a class="share" target="_blank" rel="noopener" href="https://wa.me/?text=${encodeURIComponent(txt)}">Mandar por WhatsApp</a></div></div>`;
 }
@@ -2694,6 +2733,8 @@ function pmVistaJugador(S) {
     ${CF.verMinutos ? `<section class="stack"><div class="sec-h"><div><h3>Mis minutos</h3></div></div><div class="panel">${Object.entries(J.cats).filter(([c]) => susCats.includes(c)).map(([c, x]) => `<div class="pm-r"><span class="pm-r-t"><a href="${pmJugLink(J, c)}"><b>${esc(pmCatN(c))}</b></a><small>${x.pj} PJ · ${x.tit} de titular${x.gol ? ` · ${x.gol} gol${x.gol > 1 ? 'es' : ''}` : ''}</small></span><span class="pm-cnt"><b>${x.min}'</b></span></div>`).join('')}</div></section>` : ''}
     ${pr && pmCfg(pr.cat).verCompaneros ? `<section class="stack"><div class="sec-h"><div><h3>Van a la próxima</h3><span class="sub">${esc(pmCatN(pr.cat))} · ${fDia(pr.dia)}</span></div></div><div class="panel"><div class="pm-rg"><span>${pmDe(pr.cat).filter(x => pmResp(x, pr) === 'va').map(x => esc(pmCorto(x.nombre))).join(', ')}</span></div></div></section>` : ''}
     ${rank.length ? `<section class="stack"><div class="sec-h"><div><h3>Asistencia del plantel</h3><span class="sub">Los 10 que más fueron en la temporada${rank.findIndex(r => r.x.c === J.c) >= 10 ? ', y vos' : ''}.</span></div></div><div class="panel">${rank.map((r, i) => ({ ...r, i })).filter(({ x, i }) => i < 10 || x.c === J.c).map(({ x, p, i }) => `${i >= 10 ? '<div class="pm-r pm-sep">…</div>' : ''}<div class="pm-r${x.c === J.c ? ' pm-mio' : ''}"><span class="pm-r-t"><b>${i + 1}. ${esc(x.nombre)}</b></span><span class="pm-cnt"><b>${p}%</b></span></div>`).join('')}</div></section>` : ''}
+    ${(() => { const f = pmFicha(J), e = pmFichaEst(f); return `<div class="panel pm-ficha-yo ${e}"><div class="pm-r"><span class="pm-r-t"><b>Ficha médica</b><small>${e === 'vencida' ? `Venció el ${pmFecha(f)}. Renovala para poder jugar.` : e === 'pronto' ? `Vence el ${pmFecha(f)}. Acordate de renovarla.` : `Al día, vence el ${pmFecha(f)}.`}</small></span>${e !== 'ok' ? '<span class="pm-est ' + (e === 'vencida' ? 'no' : 'pronto') + '">' + (e === 'vencida' ? 'Vencida' : 'Por vencer') + '</span>' : ''}</div>
+      ${e !== 'ok' ? `<label class="pm-r pm-ficha" for="ficha-${J.c}"><span class="pm-r-t"><b>¿Ya la renovaste?</b><small>Poné la nueva fecha de vencimiento.</small></span><input type="date" class="pm-in" id="ficha-${J.c}" data-pm="ficha" data-c="${J.c}" value="${f}"></label>` : ''}</div>`; })()}
     <p class="pm-nota">Esto es lo que ve un jugador. Lo que aparece acá lo decide el cuerpo técnico en Ajustes.</p>`;
 }
 
@@ -2732,6 +2773,7 @@ function pmEnlazar() {
     if (a === 'lista') { (E.lista[i.dataset.p] ??= {})[i.dataset.c] = i.checked ? 1 : 0; pmGuardar(); }
     else if (a === 'conv') { const s = new Set(E.conv[i.dataset.k] || []); i.checked ? s.add(i.dataset.c) : s.delete(i.dataset.c); E.conv[i.dataset.k] = [...s]; pmGuardar(); }
     else if (a === 'yo') { E.yo = i.value; pmGuardar(); }
+    else if (a === 'ficha') { if (!/^\d{4}-\d{2}-\d{2}$/.test(i.value)) return; E.fichas[i.dataset.c] = i.value; pmGuardar(); aviso(`Ficha médica: vence el ${pmFecha(i.value)}.`); if (document.activeElement === i) { i.addEventListener('blur', repintar, { once: true }); return; } }
     else if (a === 'principal') { E.principal[$('#pm-yo-sel').value] = i.value; pmGuardar(); aviso('Plantel principal cambiado.'); }
     else if (a === 'hora') { if (!i.value) return; pmHorEditar(i.dataset.cat, x => { x.dias[i.dataset.d] = i.value; }); clearTimeout(pmEnlazar.t); pmEnlazar.t = setTimeout(() => { aviso('Horario guardado.'); if (document.activeElement === i) i.addEventListener('blur', repintar, { once: true }); else repintar(); }, 900); return; }
     else if (a === 'lugar') { pmHorEditar(i.dataset.cat, x => { x.lugar = i.value.trim() || x.lugar; }); aviso('Lugar guardado.'); }
