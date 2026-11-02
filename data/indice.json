@@ -28,7 +28,7 @@
      "id": "mayores-c",
      "letra": "C",
      "nombre": "Mayores C",
-     "actualizado": "2026-11-01T21:08:03.897Z",
+     "actualizado": "2026-11-02T13:17:14.731Z",
      "partidos": 168,
      "conPlanilla": 160,
      "conProblemas": 31,
@@ -104,10 +104,10 @@
      "id": "sub20-c",
      "letra": "C",
      "nombre": "Sub 20 C",
-     "actualizado": "2026-11-01T21:08:04.123Z",
-     "partidos": 161,
+     "actualizado": "2026-11-02T13:17:14.907Z",
+     "partidos": 162,
      "conPlanilla": 155,
-     "conProblemas": 48,
+     "conProblemas": 49,
      "equipos": 16
     }
    ]
@@ -140,7 +140,7 @@
      "id": "reserva-c",
      "letra": "C",
      "nombre": "Reserva C",
-     "actualizado": "2026-11-01T21:08:04.230Z",
+     "actualizado": "2026-11-02T13:17:14.986Z",
      "partidos": 158,
      "conPlanilla": 148,
      "conProblemas": 30,
