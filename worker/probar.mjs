@@ -1,7 +1,8 @@
 // Pruebas del chat sin IA: node worker/probar.mjs
 // 1) El control de respuestas detecta y arregla tablas desordenadas y secciones inventadas.
 // 2) Para preguntas típicas, el contexto que recibe la IA trae los datos que hacen falta.
-// Usa data/chat.json local (correr antes node scripts/chat.mjs).
+// Usa data/chat.json y data/chat-jugadores.json locales (correr antes node scripts/chat.mjs).
+// 3) El detalle bajo demanda (partido puntual, jugador partido a partido) se arma bien con los datos locales.
 import { readFileSync } from 'node:fs';
 import { buscar, contexto } from './src/buscar.js';
 import { revisar, ordenarListas } from './src/index.js';
@@ -30,35 +31,40 @@ ok(/3\. \*\*ELF – 37 pts\*\*/.test(arreglada) && /4\. Nacional U\. – 36/.tes
 ok(!revisar('1. Old Woodlands 43 pts\n2. Urunday 42 pts\n3. ELF 37 pts\n4. Nacional U. 36 pts').length, 'una tabla bien ordenada pasa');
 ok(!revisar('Mirá la sección **Bajas** de la página, o la sección de Rankings.').length, 'las secciones reales pasan');
 ok(!revisar('ELF tiene 34 pts y Nacional U. 36 pts.').length, 'una oración con puntos no cuenta como lista');
+ok(!revisar('- Si pierde: 34 pts\n- Si empata: 35 pts\n- Si gana: 37 pts').length, 'los escenarios sin número de puesto no se tocan');
 
 // ---- 2) contexto de preguntas típicas ----
+// Para cada pregunta, el contexto que recibe la IA tiene que traer estos datos (texto o regex).
 const datos = JSON.parse(readFileSync(new URL('../data/chat.json', import.meta.url)));
-const casos = [
-  // [pregunta, opciones, textos que tienen que estar en el contexto]
-  ['si ELF le gana a nacional en la ultima en que puesto queda? clasificamos a la de honor?', {}, ['PUESTOS YA CALCULADOS', 'si gana (37 pts) termina 3° o 4°', 'TABLA Mayores A – Título']],
-  ['como queda la tabla si elf empata?', {}, ['si empata (35 pts)']],
-  ['quien falta en el ELF el domingo?', {}, ['EQUIPO ELF (Mayores A)', 'Posibles bajas']],
-  ['bajas de elf en la sub 20', {}, ['EQUIPO ELF (Sub 20 A)']],
-  ['como esta la tabla de la b de mayores', {}, ['TABLA Mayores B']],
-  ['quien va primero en la A?', {}, ['TABLA Mayores A']],
-  ['goleadores de la reserva c', {}, ['GOLEADORES DE Reserva C']],
-  ['quien es el goleador de la sub 20 a', {}, ['GOLEADORES DE Sub 20 A', '1. ']],
-  ['suspendidos en la sub 18 plata', {}, ['SUSPENDIDOS EN Sub 18 Plata']],
-  ['quien jugo mas minutos en old boys', {}, ['PLANTEL DE Old Boys']],
-  ['cuantos goles hizo etchegaray', {}, ['Agustin Etchegaray']],
-  ['old woodlands vs urunday quien gano mas', {}, ['CARA A CARA']],
-  ['puede salir campeon urunday?', {}, ['TABLA Mayores A – Título', 'puede llegar a']],
-  ['contra quien juega carrasco polo', {}, ['EQUIPO Carrasco Polo', 'Próximo partido']],
-  ['once probable de tenis el pinar', {}, ['Once probable']],
-  ['como viene elf en la pre senior', {}, ['EQUIPO ELF (Pre Senior B)']],
-  ['tabla', { div: 'reserva-c' }, ['TABLA Reserva C']],
-  ['quien desciende en la a?', {}, ['TABLA Mayores A – Permanencia']],
-];
-for (const [q, opc, deben] of casos) {
-  const h = buscar(datos, q, opc);
-  const c = contexto(datos, h, []);
-  const faltan = deben.filter(t => !c.includes(t));
-  ok(!faltan.length, `"${q}"${faltan.length ? ` → falta: ${faltan.join(' | ')}` : ''} (${Math.round(c.length / 1000)}k caracteres)`);
+datos.jugadores = JSON.parse(readFileSync(new URL('../data/chat-jugadores.json', import.meta.url))).jugadores;
+const { PREGUNTAS } = await import('./preguntas.mjs');
+let maxLen = 0, suma = 0, n = 0;
+for (const [g, q, opc, deben] of PREGUNTAS) {
+  const c = contexto(datos, buscar(datos, q, opc), []);
+  maxLen = Math.max(maxLen, c.length); suma += c.length; n++;
+  const faltan = deben.filter(t => typeof t === 'string' ? !c.includes(t) : !t.test(c));
+  ok(!faltan.length, `[${g}] "${q}"${faltan.length ? ` → falta: ${faltan.map(String).join(' | ')}` : ''} (${Math.round(c.length / 1000)}k)`);
+}
+console.log(`Contexto promedio ${Math.round(suma / n / 1000)}k caracteres, máximo ${Math.round(maxLen / 1000)}k.`);
+ok(maxLen < 40000, 'ningún contexto pasa de 40k caracteres');
+
+// ---- 3) detalle bajo demanda (partido puntual, jugador partido a partido), con los datos locales ----
+{
+  const { contextoDetalle } = await import('./src/detalle.js');
+  const fetchReal = globalThis.fetch;
+  globalThis.fetch = async url => new Response(readFileSync(new URL('../data/' + String(url).split('/data/')[1], import.meta.url)), { status: 200 });
+  const env = {};
+  const casos = [
+    ['cuantos minutos jugo etchegaray contra tape', ['TEMPORADA DE Agustin Etchegaray PARTIDO A PARTIDO', 'TAPE']],
+    ['quien hizo los goles de elf vs tape', ['PARTIDO ELF 5-3 TAPE', 'Minuto a minuto', 'Formaciones']],
+    ['cuando fue el ultimo partido que jugo alfonso badano', ['TEMPORADA DE Alfonso Badano']],
+  ];
+  for (const [q, deben] of casos) {
+    const c = await contextoDetalle(env, datos, buscar(datos, q, {}));
+    const faltan = deben.filter(t => !c.includes(t));
+    ok(!faltan.length, `detalle "${q}"${faltan.length ? ` → falta: ${faltan.join(' | ')}` : ''}`);
+  }
+  globalThis.fetch = fetchReal;
 }
 console.log(fallas ? `\n${fallas} pruebas fallaron` : '\nTodo bien');
 process.exit(fallas ? 1 : 0);
