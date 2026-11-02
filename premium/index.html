@@ -2407,7 +2407,8 @@ async function pmVer([div, vtab, ...r]) {
   main.insertAdjacentHTML('afterbegin', atras('#/clubes/' + PM_VOLVER, 'Volver a Para clubes'));
   pmAdentro(main);
   document.title = (vtab === 'previa' ? 'Informe del rival' : main.querySelector('h2')?.textContent || 'Para clubes') + ' · Para clubes · Planilla LUD';
-  window.scrollTo({ top: 0 });
+  const ac = $('#aciertos');
+  if (ac && arg === 'aciertos') { ac.open = true; ac.scrollIntoView({ block: 'start' }); } else window.scrollTo({ top: 0 });
 }
 
 // ----- inicio de sesión -----
@@ -2710,7 +2711,7 @@ function pmEnlazar() {
     else if (a === 'salir') { pmG('pm-sesion', ''); PM_SES = null; E.rol = 'dt'; E.yo = null; pmGuardar(); aviso('Cerraste sesión.'); }
     else if (a === 'rec') { (E.cfgP[PM_CAT] ??= {}).recCuando = v; pmGuardar(); aviso('Guardado.'); }
     else if (a === 'dia') { const d = Number(v); pmHorEditar(b.dataset.cat, x => { if (x.dias[d]) delete x.dias[d]; else x.dias[d] = Object.values(x.dias)[0] || '19:00'; }); PM_PRAC = null; aviso(`${PM_DIAS_L[d]}: ${pmHorHoy(b.dataset.cat).dias[d] ? 'hay práctica' : 'sin práctica'}.`); }
-    else if (a === 'extra') { const dia = $('#ex-dia').value, hora = $('#ex-hora').value; if (!dia || !hora) { aviso('Elegí el día y la hora.'); return; } if (dia < pmHoy()) { aviso('La práctica extra tiene que ser de hoy en adelante.'); return; } const c = b.dataset.cat; if (pmPracticas(c).some(p => p.dia === dia)) { aviso(`El ${fDia(dia)} ya hay práctica de ${pmCatN(c)}.`); return; } E.extras[c] = [...(E.extras[c] || []).filter(x => x.dia !== dia), { dia, hora }]; delete E.susp[`${c}|${dia}`]; pmGuardar(); aviso(`Práctica extra el ${fDia(dia)} a las ${hora}.`); }
+    else if (a === 'extra') { const dia = $('#ex-dia').value, hora = $('#ex-hora').value; if (!dia || !hora) { aviso('Elegí el día y la hora.'); return; } if (dia < pmHoy() || (dia === pmHoy() && hora <= pmAhora())) { aviso('La práctica extra tiene que ser más adelante: esa hora ya pasó.'); return; } const c = b.dataset.cat; if (pmPracticas(c).some(p => p.dia === dia)) { aviso(`El ${fDia(dia)} ya hay práctica de ${pmCatN(c)}.`); return; } E.extras[c] = [...(E.extras[c] || []).filter(x => x.dia !== dia), { dia, hora }]; delete E.susp[`${c}|${dia}`]; pmGuardar(); aviso(`Práctica extra el ${fDia(dia)} a las ${hora}.`); }
     else if (a === 'quitar-extra') { const c = b.dataset.cat; E.extras[c] = (E.extras[c] || []).filter(x => x.dia !== v); PM_PRAC = null; pmGuardar(); }
     else if (a === 'suspender') { E.susp[v] = 1; PM_PRAC = null; pmGuardar(); aviso('Práctica suspendida.'); }
     else if (a === 'reactivar') { delete E.susp[v]; pmGuardar(); }
