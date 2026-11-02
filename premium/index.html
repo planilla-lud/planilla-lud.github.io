@@ -2204,7 +2204,7 @@ function pmRacha(J) {
 const pmMinPct = (J, cat) => { const k = J.cats[cat]; return k?.posibles ? Math.min(100, Math.round(100 * k.min / k.posibles)) : 0; };
 const pmAmist = (J, cat) => pmEst().amistosos.filter(a => a.cat === cat).reduce((n, a) => n + (Number(a.min[J.c]) || 0), 0);
 const pmCorto = n => { const p = n.split(' '); return p.length > 2 ? `${p[0]} ${p.at(-1)}` : n; };
-const pmJugLink = (J, cat) => link(J.cats[cat]?.divs[0] || J.cats[pmPrincipal(J)].divs[0], 'jugador', J.c);
+const pmJugLink = (J, cat) => '#/clubes/ver/' + link(J.cats[cat]?.divs[0] || J.cats[pmPrincipal(J)].divs[0], 'jugador', J.c).slice(2);
 function pmProx(cat) { return pmPracticas(cat).find(p => !p.pasada); }
 function pmChipsCat(sel) {
   return `<div class="chips pm-cats">${PM.cats.map(c => `<button type="button" class="chip" data-pm="cat" data-v="${c}" aria-pressed="${c === sel}">${esc(pmCatN(c))}</button>`).join('')}</div>`;
@@ -2212,7 +2212,8 @@ function pmChipsCat(sel) {
 const pmSw = (k, b, s) => `<label class="pm-sw"><span><b>${b}</b>${s ? `<small>${s}</small>` : ''}</span><input type="checkbox" id="cfg-${k}" data-pm="cfg" data-k="${k}"${pmEst().cfg[k] ? ' checked' : ''}><i aria-hidden="true"></i></label>`;
 const pmDiaH = p => `${fDia(p.dia)} · ${p.hora}`;
 
-async function renderClubes(sub) {
+let PM_VOLVER = 'resumen';
+async function renderClubes(sub, rest = []) {
   $('#lado').innerHTML = '';
   $('#hero').innerHTML = '';
   const main = $('#main');
@@ -2222,10 +2223,12 @@ async function renderClubes(sub) {
   const E = pmEst();
   if (!PM_CAT || !PM.cats.includes(PM_CAT)) PM_CAT = PM.cats.includes('sub20') ? 'sub20' : PM.cats[0];
   const tab = PM_TABS.some(t => t[0] === sub) ? sub : 'resumen';
+  PM_VOLVER = E.rol === 'jug' ? '' : tab;
   $('#actualizado').textContent = 'Demo del plan para clubes: prácticas y asistencia de ejemplo, guardadas en este navegador.';
   const S = pmSesion();
   if (!S) { main.innerHTML = pmLogin(); pmEnlazarLogin(); window.scrollTo({ top: 0 }); return; }
   if (S.rol === 'jug') { E.rol = 'jug'; E.yo = S.c; }
+  if (sub === 'ver') return pmVer(rest);
   const cab = `<div class="club-h">${crest(PM.club.equipos[0].equipo, true)}<div style="flex:1;min-width:0"><h2>${esc(PM.club.nombre)} <span class="tag pm-plan">Plan club</span></h2>
     <div class="small muted">${esc(S.nombre)} · ${S.rol === 'dt' ? 'Cuerpo técnico' : 'Jugador'}</div></div><button type="button" class="share" data-pm="salir">Salir</button></div>
     ${S.rol === 'dt' ? `<div class="seg pm-rol" role="group" aria-label="Ver como"><button type="button" data-pm="rol" data-v="dt" aria-pressed="${E.rol === 'dt'}">Cuerpo técnico</button><button type="button" data-pm="rol" data-v="jug" aria-pressed="${E.rol === 'jug'}">Ver como jugador</button></div>` : ''}`;
@@ -2236,6 +2239,29 @@ async function renderClubes(sub) {
   pmEnlazar();
 }
 
+
+// Informe del rival, ficha de jugador, partido y plantel adentro de Para clubes: se usan las mismas
+// pantallas de la web, pero los links entre ellas y el "volver" quedan dentro de la sección.
+const PM_ADENTRO = ['previa', 'jugador', 'partido', 'equipo', 'tabla', 'bajas'];
+function pmAdentro(el) {
+  el.querySelectorAll('a[href^="#/"]').forEach(a => {
+    const h = a.getAttribute('href'), [c, t] = h.slice(2).split('/');
+    if (DIVS[decodeURIComponent(c)] && PM_ADENTRO.includes(t)) a.setAttribute('href', '#/clubes/ver/' + h.slice(2));
+  });
+}
+async function pmVer([div, vtab, ...r]) {
+  const main = $('#main'), arg = r.join('/');
+  const fn = { previa: vPrevia, jugador: vJugador, partido: vPartido, equipo: vEquipo, tabla: vTabla, bajas: vBajas }[vtab];
+  if (!DIVS[div] || !fn) { location.replace('#/clubes'); return; }
+  let d; try { d = await datos(div); } catch (e) { main.innerHTML = `<div class="empty">${esc(e.message)}</div>`; return; }
+  if (!location.hash.startsWith('#/clubes/ver')) return;
+  main.innerHTML = fn(d, div, arg);
+  main.querySelectorAll('.back').forEach(b => b.remove());
+  main.insertAdjacentHTML('afterbegin', atras('#/clubes/' + PM_VOLVER, 'Volver a Para clubes'));
+  pmAdentro(main);
+  document.title = (vtab === 'previa' ? 'Informe del rival' : main.querySelector('h2')?.textContent || 'Para clubes') + ' · Para clubes · Planilla LUD';
+  window.scrollTo({ top: 0 });
+}
 
 // ----- inicio de sesión -----
 // Demo: las cuentas se validan en el navegador. Para el plan de verdad va con cuentas en un servidor.
@@ -2293,7 +2319,7 @@ function pmResumen() {
       <div class="tile"><b>${bajas.length}</b><small>Bajas seguras en la fecha</small></div></div>
     <section class="stack"><div class="sec-h"><div><h3>Próximos partidos</h3><span class="sub">Con el informe del rival: once probable, bajas, goles por minuto y goleadores.</span></div></div>
       <div class="panel">${PM.equipos.filter(e => e.proximo).sort((a, b) => (a.proximo.dia + a.proximo.hora).localeCompare(b.proximo.dia + b.proximo.hora)).map(e => { const n = e.proximo;
-        return `<div class="pm-r"><span class="pm-r-t"><b>${esc(DIVS[e.div].nombre)} vs ${esc(n.rival)}</b><small>${fDia(n.dia)}${n.hora !== '00:00' ? ' ' + n.hora : ''}${n.local ? ' · local' : ''} · ${esc(n.cancha)}</small></span><a class="share" href="${link(e.div, 'previa', n.local ? `${e.equipo}~${n.rival}` : `${n.rival}~${e.equipo}`)}">Informe del rival</a></div>`; }).join('')}</div></section>
+        return `<div class="pm-r"><span class="pm-r-t"><b>${esc(DIVS[e.div].nombre)} vs ${esc(n.rival)}</b><small>${fDia(n.dia)}${n.hora !== '00:00' ? ' ' + n.hora : ''}${n.local ? ' · local' : ''} · ${esc(n.cancha)}</small></span><a class="share" href="#/clubes/ver/${link(e.div, 'previa', n.local ? `${e.equipo}~${n.rival}` : `${n.rival}~${e.equipo}`).slice(2)}">Informe del rival</a></div>`; }).join('')}</div></section>
     <section class="stack"><div class="sec-h"><div><h3>Para mirar</h3><span class="sub">Cruce de las prácticas con los minutos de las planillas, en su categoría principal.</span></div><a href="#/clubes/cruce">Ver todo</a></div>
       <div class="panel side sola">${mirar.length ? mirar.sort((a, b) => a.t.localeCompare(b.t)).slice(0, 8).map(({ J, c, t, txt }) => `<div class="alert pm-al ${t}"><b class="lvl ${t === 'mas' ? 'baja' : 'media'}">${t === 'mas' ? 'Darle minutos' : 'Falta a prácticas'}</b><a href="${pmJugLink(J, c)}">${esc(J.nombre)}</a><span>${esc(pmCatN(c))}. ${txt}</span></div>`).join('') : '<div class="ok">Nada fuera de lo normal.</div>'}</div></section>
     <section class="stack"><div class="sec-h"><div><h3>Próximas prácticas</h3><span class="sub">Quiénes respondieron al recordatorio.</span></div><a href="#/clubes/practicas">Prácticas</a></div>
@@ -2643,7 +2669,7 @@ async function render() {
   // Sin dirección: si tiene equipo elegido, va directo a lo suyo.
   if (!cat0 && leer('club')) { location.replace('#/mi-equipo'); return; }
   if (cat0 === 'mi-equipo') { chrome('mi-equipo'); pintarAvisoApp(false); return renderMiEquipo(tab0); }
-  if (cat0 === 'clubes') { chrome('clubes'); pintarAvisoApp(false); return renderClubes(tab0); }
+  if (cat0 === 'clubes') { chrome('clubes'); pintarAvisoApp(false); return renderClubes(tab0, rest); }
   if (cat0 === 'cargar') { chrome(DIVS[tab0] ? tab0 : (DIVS[leer('div')] ? leer('div') : Object.keys(DIVS)[0]), 'inicio'); pintarAvisoApp(false); return renderCargar(tab0); }
   const cat = DIVS[cat0] ? cat0 : (DIVS[leer('div')] ? leer('div') : Object.keys(DIVS)[0]);
   const tab = tab0 || 'inicio';
