@@ -14,18 +14,18 @@
   "visitante": "E.L.F."
  },
  {
+  "serie": "RSCPD",
+  "fechaHora": "2026-11-05 21:00:00",
+  "cancha": "CIUDAD DEPORTIVA ZONA LAB",
+  "local": "PEÑAROL UNIVERSITARIO",
+  "visitante": "NUMA TURCATTI"
+ },
+ {
   "serie": "RSCTA",
   "fechaHora": "2026-11-07 09:00:00",
   "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
   "local": "SEMINARIO UNIVERSITARIO",
   "visitante": "SAN EUGENIO"
- },
- {
-  "serie": "RSCPD",
-  "fechaHora": "2026-11-07 09:00:00",
-  "cancha": "COMPLEJO PEÑAROL UNIVERSITARIO",
-  "local": "PEÑAROL UNIVERSITARIO",
-  "visitante": "NUMA TURCATTI"
  },
  {
   "serie": "RSCTA",

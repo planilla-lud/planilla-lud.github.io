@@ -7,18 +7,18 @@
   "visitante": "ELBIO FERNANDEZ"
  },
  {
+  "serie": "PSAPD",
+  "fechaHora": "2026-11-04 21:00:00",
+  "cancha": "CAM. DEP. ASOC. HEBRAICA Y MAC",
+  "local": "HEBRAICA UNIVERSITARIO",
+  "visitante": "PLAYA HONDA UNIVERSITARIO"
+ },
+ {
   "serie": "PSAT",
   "fechaHora": "2026-11-04 22:00:00",
   "cancha": "COMP. DEVOTO (NAUT. PICHINCHA)",
   "local": "NAUTICO CARRASCO Y PUNTA GORDA",
   "visitante": "OLD CHRISTIANS CLUB"
- },
- {
-  "serie": "PSAPD",
-  "fechaHora": "2026-11-05 00:00:00",
-  "cancha": "CAM. DEP. ASOC. HEBRAICA Y MAC",
-  "local": "HEBRAICA UNIVERSITARIO",
-  "visitante": "PLAYA HONDA UNIVERSITARIO"
  },
  {
   "serie": "PSAT",
