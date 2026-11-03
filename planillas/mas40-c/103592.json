@@ -1,0 +1,253 @@
+{
+ "id": "103592",
+ "categoria": "mas40-c",
+ "serie": "M40P2",
+ "fecha": 5,
+ "fechaHora": "2026-10-31 09:00:00",
+ "cancha": "SPORT 11",
+ "local": "ARQUITECTURA JRS.",
+ "visitante": "PERRY JUVENTUD",
+ "gl": 2,
+ "gv": 0,
+ "detalle": {
+  "nro_partido": "389",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "MAS 40",
+  "categoria": "MÁS 40 MASCULINO",
+  "rueda": "3",
+  "Divisional": "M40 DIV. C COPA PLATA R2",
+  "Cancha": "SPORT 11",
+  "Fecha_Inicio": "2026-10-31 10:50:00",
+  "Fecha_fin": "2026-10-31 10:50:00",
+  "Locatario": "ARQUITECTURA JRS.",
+  "goles_locatario": "2",
+  "puntos_locatario": "3",
+  "Visitante": "PERRY JUVENTUD",
+  "goles_visitante": "0",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "24630",
+   "Nombre": "DANIEL IGNACIO DIAZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "65224",
+   "Nombre": "LUIS SEBASTIAN VILLALBA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "26116",
+   "Nombre": "LEONARDO FACUNDO SORIA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "16364",
+   "Nombre": "JUAN PABLO GESUELE",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "16685",
+   "Nombre": "SEBASTIAN TURELL",
+   "camiseta": "44",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "51375",
+   "Nombre": "DORON URWICZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "18044",
+   "Nombre": "FEDERICO PEREZ",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "27004",
+   "Nombre": "WILSON ANDRES CORIA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "22244",
+   "Nombre": "BRUNO CONTI",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "21051",
+   "Nombre": "WALTER FEDERICO PEREZ",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "23469",
+   "Nombre": "NICHOLAS STRONGITHARM",
+   "camiseta": "8",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "13170",
+   "Nombre": "VICTOR ALEJANDRO MAIDANA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "16050",
+   "Nombre": "MILTON JULIO GALLAS",
+   "camiseta": "6",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "62913",
+   "Nombre": "CRISTIAN DANIEL CARRERAS",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "34618",
+   "Nombre": "DAMIAN EDUARDO DIAZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "63739",
+   "Nombre": "LUIS EDUARDO ORLANDO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "13811",
+   "Nombre": "DIEGO ERNENSTO ORTIZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "66186",
+   "Nombre": "PABLO EDUARDO BATISTA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "13752",
+   "Nombre": "WALTER ROBERTO VIERA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "68071",
+   "Nombre": "MARTIN SEBASTIAN ROLDAN",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "38336",
+   "Nombre": "ANDRES EDUARDO GASTEASORO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "48499",
+   "Nombre": "JORGE RODRIGO CABRERA",
+   "camiseta": "14",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "51375",
+   "Jug_Sale": "DORON URWICZ",
+   "CarneEntra": "42426",
+   "Jug_Entra": "GERMAN PEREZ",
+   "camiseta": "21",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "65224",
+   "Jug_Sale": "LUIS SEBASTIAN VILLALBA",
+   "CarneEntra": "26166",
+   "Jug_Entra": "ALEX MANUEL VIERA",
+   "camiseta": "13",
+   "minutos": "35"
+  },
+  {
+   "CarneSale": "23469",
+   "Jug_Sale": "NICHOLAS STRONGITHARM",
+   "CarneEntra": "23298",
+   "Jug_Entra": "PABLO ERNESTO AIRALDI",
+   "camiseta": "93",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "27004",
+   "Jug_Sale": "WILSON ANDRES CORIA",
+   "CarneEntra": "51375",
+   "Jug_Entra": "DORON URWICZ",
+   "camiseta": "16",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "26116",
+   "Jug_Sale": "LEONARDO FACUNDO SORIA",
+   "CarneEntra": "19769",
+   "Jug_Entra": "PABLO MARTIN VILLAR",
+   "camiseta": "83",
+   "minutos": "72"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "68071",
+   "Jug_Sale": "MARTIN SEBASTIAN ROLDAN",
+   "CarneEntra": "63739",
+   "Jug_Entra": "LUIS EDUARDO ORLANDO",
+   "camiseta": "11",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "38336",
+   "Jug_Sale": "ANDRES EDUARDO GASTEASORO",
+   "CarneEntra": "68071",
+   "Jug_Entra": "MARTIN SEBASTIAN ROLDAN",
+   "camiseta": "9",
+   "minutos": "86"
+  },
+  {
+   "CarneSale": "63739",
+   "Jug_Sale": "LUIS EDUARDO ORLANDO",
+   "CarneEntra": "12635",
+   "Jug_Entra": "MARCOS JAVIER MANEIRO",
+   "camiseta": "77",
+   "minutos": "45"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "23469",
+   "Nombre": "NICHOLAS STRONGITHARM",
+   "minutos": "56",
+   "EnContra": "0"
+  },
+  {
+   "carne": "65224",
+   "Nombre": "LUIS SEBASTIAN VILLALBA",
+   "minutos": "20",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

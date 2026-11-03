@@ -4,7 +4,7 @@
  "serie": "PSET2",
  "fecha": 5,
  "fechaHora": "2026-10-31 11:15:00",
- "cancha": "COMPLEJO PROFUTBOL",
+ "cancha": "()",
  "local": "CLUB RICHARD ANDERSON UNIV.",
  "visitante": "COLEGIO Y LICEO INGLES",
  "gl": 5,
@@ -17,9 +17,9 @@
   "categoria": "PRE-SENIOR MASCULINO",
   "rueda": "3",
   "Divisional": "PS DIV. E 2ªR COPA ORO",
-  "Cancha": "COMPLEJO PROFUTBOL",
-  "Fecha_Inicio": "2026-10-31 12:45:00",
-  "Fecha_fin": "2026-10-31 12:45:00",
+  "Cancha": "()",
+  "Fecha_Inicio": "2026-10-31 13:15:00",
+  "Fecha_fin": "2026-10-31 13:15:00",
   "Locatario": "CLUB RICHARD ANDERSON UNIV.",
   "goles_locatario": "5",
   "puntos_locatario": "3",
@@ -29,12 +29,283 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "33713",
+   "Nombre": "FERNANDO JOSE BARCALA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "33306",
+   "Nombre": "GONZALO NICOLAS PELUFO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "26708",
+   "Nombre": "FRANCISCO CALVIÑO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "41257",
+   "Nombre": "DIEGO ANDRES ROCCA",
+   "camiseta": "69",
+   "Capitan": ""
+  },
+  {
+   "carne": "43161",
+   "Nombre": "JOSE LUIS FERNANDEZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "28333",
+   "Nombre": "JOAQUIN OJEDA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "26753",
+   "Nombre": "DIEGO MARTIN RIENZI",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "31708",
+   "Nombre": "DIEGO VELASCO",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "33278",
+   "Nombre": "MARTIN FAGIOLI",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "31594",
+   "Nombre": "ALAN VACCARO",
+   "camiseta": "4",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "30054",
+   "Nombre": "NICOLAS BARQUET",
+   "camiseta": "2",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "37150",
+   "Nombre": "GERONIMO AGUSTIN KACHELE",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "26911",
+   "Nombre": "BRUNO GIANCARLO GENTILE",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "28272",
+   "Nombre": "SERGIO IGNACIO VICO",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "29931",
+   "Nombre": "GERMAN SUAREZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "33332",
+   "Nombre": "JUAN IGNACIO ARANCIBIA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "30184",
+   "Nombre": "PEDRO BOADO",
+   "camiseta": "37",
+   "Capitan": ""
+  },
+  {
+   "carne": "26262",
+   "Nombre": "NICOLAS AGUIRREGARAY",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "30835",
+   "Nombre": "RODRIGO LUIS PASTOR",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "30770",
+   "Nombre": "GUILLERMO LUIS GALAIN",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "24727",
+   "Nombre": "JORGE LUIS NICOLETTI",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "37163",
+   "Nombre": "FELIPE VAZQUEZ",
+   "camiseta": "81",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "26753",
+   "Jug_Sale": "DIEGO MARTIN RIENZI",
+   "CarneEntra": "35461",
+   "Jug_Entra": "FABRIZIO PEROTTI",
+   "camiseta": "10",
+   "minutos": "41"
+  },
+  {
+   "CarneSale": "28333",
+   "Jug_Sale": "JOAQUIN OJEDA",
+   "CarneEntra": "31957",
+   "Jug_Entra": "GONZALO ERNESTO GIAMBRUNO",
+   "camiseta": "25",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "33306",
+   "Jug_Sale": "GONZALO NICOLAS PELUFO",
+   "CarneEntra": "43182",
+   "Jug_Entra": "MARTIN BUENO",
+   "camiseta": "23",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "30054",
+   "Jug_Sale": "NICOLAS BARQUET",
+   "CarneEntra": "28100",
+   "Jug_Entra": "ANDRES BUREL",
+   "camiseta": "77",
+   "minutos": "45"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "33332",
+   "Jug_Sale": "JUAN IGNACIO ARANCIBIA",
+   "CarneEntra": "36150",
+   "Jug_Entra": "JUAN MANUEL PUIG",
+   "camiseta": "71",
+   "minutos": "18"
+  },
+  {
+   "CarneSale": "24727",
+   "Jug_Sale": "JORGE LUIS NICOLETTI",
+   "CarneEntra": "24146",
+   "Jug_Entra": "FEDERICO GUAYMALLEN CAMBLOR",
+   "camiseta": "14",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "30770",
+   "Jug_Sale": "GUILLERMO LUIS GALAIN",
+   "CarneEntra": "35054",
+   "Jug_Entra": "SANTIAGO MAGNI",
+   "camiseta": "11",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "37163",
+   "Jug_Sale": "FELIPE VAZQUEZ",
+   "CarneEntra": "37206",
+   "Jug_Entra": "LEONARDO GONZALEZ",
+   "camiseta": "42",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "30835",
+   "Jug_Sale": "RODRIGO LUIS PASTOR",
+   "CarneEntra": "36954",
+   "Jug_Entra": "JOAQUIN SANSBERRO",
+   "camiseta": "80",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "26262",
+   "Jug_Sale": "NICOLAS AGUIRREGARAY",
+   "CarneEntra": "30167",
+   "Jug_Entra": "RENZO PARODI",
+   "camiseta": "91",
+   "minutos": "72"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "26708",
+   "Nombre": "FRANCISCO CALVIÑO",
+   "minutos": "8",
+   "EnContra": "0"
+  },
+  {
+   "carne": "28100",
+   "Nombre": "ANDRES BUREL",
+   "minutos": "94",
+   "EnContra": "0"
+  },
+  {
+   "carne": "31594",
+   "Nombre": "ALAN VACCARO",
+   "minutos": "88",
+   "EnContra": "0"
+  },
+  {
+   "carne": "35461",
+   "Nombre": "FABRIZIO PEROTTI",
+   "minutos": "48",
+   "EnContra": "0"
+  },
+  {
+   "carne": "43161",
+   "Nombre": "JOSE LUIS FERNANDEZ",
+   "minutos": "29",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "24727",
+   "Nombre": "JORGE LUIS NICOLETTI",
+   "minutos": "4",
+   "EnContra": "1"
+  },
+  {
+   "carne": "30184",
+   "Nombre": "PEDRO BOADO",
+   "minutos": "79",
+   "EnContra": "1"
+  },
+  {
+   "carne": "37163",
+   "Nombre": "FELIPE VAZQUEZ",
+   "minutos": "49",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
- "expulsadosV": []
+ "expulsadosV": [
+  {
+   "Nombre": "BRUNO GIANCARLO GENTILE",
+   "observaciones": ""
+  }
+ ]
 }

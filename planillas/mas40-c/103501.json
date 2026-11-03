@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "M40 DIV. C COPA PLATA R2",
   "Cancha": "COMPLEJO LOS ROJOS",
-  "Fecha_Inicio": "2026-10-31 10:30:00",
-  "Fecha_fin": "2026-10-31 10:30:00",
+  "Fecha_Inicio": "2026-10-31 11:00:00",
+  "Fecha_fin": "2026-10-31 11:00:00",
   "Locatario": "LATINO FUTBOL CLUB",
   "goles_locatario": "2",
   "puntos_locatario": "1",
@@ -29,12 +29,251 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "titularesL": [
+  {
+   "carne": "20110",
+   "Nombre": "JUAN CARLOS AYALA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "27003",
+   "Nombre": "FRANCISCO NICOLAS BARCIA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "23817",
+   "Nombre": "ALEJANDRO JOSE NEVES",
+   "camiseta": "13",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "19853",
+   "Nombre": "GERARDO SEBASTIAN FANJUL",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "52344",
+   "Nombre": "MARCELO ALEJANDRO PEÑA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "16962",
+   "Nombre": "PAOLO PASCUAL VIOLA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "21523",
+   "Nombre": "GASTON LEWI",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "61736",
+   "Nombre": "PABLO SEBASTIAN MIRANDA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "17601",
+   "Nombre": "NICOLAS DANIEL DE MAIO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "57703",
+   "Nombre": "JORGE ANDRES VONDER",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "47213",
+   "Nombre": "MIGUEL ANGEL MOREIRA",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "18932",
+   "Nombre": "PABLO IGNACIO CASAMAYOU",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "11987",
+   "Nombre": "JUAN MANUEL ARROSPIDE",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "66690",
+   "Nombre": "PEDRO LOMBARDI",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "15910",
+   "Nombre": "CARLOS EDUARDO VILABOA",
+   "camiseta": "72",
+   "Capitan": ""
+  },
+  {
+   "carne": "18662",
+   "Nombre": "FEDERICO SALVADOR DEMARCO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "21792",
+   "Nombre": "IGNACIO ENRIQUE VOITURET",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "19579",
+   "Nombre": "FEDERICO MIGUEL VAL",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "14042",
+   "Nombre": "NICOLAS ALBERTO DURAN",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "64834",
+   "Nombre": "DANIEL ALLIATI",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "15896",
+   "Nombre": "SEBASTIAN EDUARDO VICTORICA",
+   "camiseta": "76",
+   "Capitan": ""
+  },
+  {
+   "carne": "20964",
+   "Nombre": "FERNANDO JOSE DE LA",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "27003",
+   "Jug_Sale": "FRANCISCO NICOLAS BARCIA",
+   "CarneEntra": "19853",
+   "Jug_Entra": "GERARDO SEBASTIAN FANJUL",
+   "camiseta": "14",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61736",
+   "Jug_Sale": "PABLO SEBASTIAN MIRANDA",
+   "CarneEntra": "66031",
+   "Jug_Entra": "GIOVANNI MARTIN DE LEON",
+   "camiseta": "4",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "17601",
+   "Jug_Sale": "NICOLAS DANIEL DE MAIO",
+   "CarneEntra": "19853",
+   "Jug_Entra": "GERARDO SEBASTIAN FANJUL",
+   "camiseta": "17",
+   "minutos": "87"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "18662",
+   "Jug_Sale": "FEDERICO SALVADOR DEMARCO",
+   "CarneEntra": "14059",
+   "Jug_Entra": "GERARDO DARIO ALVAREZ",
+   "camiseta": "77",
+   "minutos": "35"
+  },
+  {
+   "CarneSale": "14042",
+   "Jug_Sale": "NICOLAS ALBERTO DURAN",
+   "CarneEntra": "16473",
+   "Jug_Entra": "RAUL RODRIGO PERNA",
+   "camiseta": "21",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "15896",
+   "Jug_Sale": "SEBASTIAN EDUARDO VICTORICA",
+   "CarneEntra": "53334",
+   "Jug_Entra": "MARTIN GONZALEZ",
+   "camiseta": "26",
+   "minutos": "40"
+  },
+  {
+   "CarneSale": "15910",
+   "Jug_Sale": "CARLOS EDUARDO VILABOA",
+   "CarneEntra": "51645",
+   "Jug_Entra": "JUAN IGNACIO PINTOS",
+   "camiseta": "22",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "16473",
+   "Jug_Sale": "RAUL RODRIGO PERNA",
+   "CarneEntra": "57115",
+   "Jug_Entra": "DIEGO STRAUCH",
+   "camiseta": "33",
+   "minutos": "83"
+  },
+  {
+   "CarneSale": "19579",
+   "Jug_Sale": "FEDERICO MIGUEL VAL",
+   "CarneEntra": "15551",
+   "Jug_Entra": "FERNANDO JOSE ACLE",
+   "camiseta": "99",
+   "minutos": "89"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "57703",
+   "Nombre": "JORGE ANDRES VONDER",
+   "minutos": "19",
+   "EnContra": "0"
+  },
+  {
+   "carne": "57703",
+   "Nombre": "JORGE ANDRES VONDER",
+   "minutos": "84",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "20964",
+   "Nombre": "FERNANDO JOSE DE LA",
+   "minutos": "8",
+   "EnContra": "1"
+  },
+  {
+   "carne": "20964",
+   "Nombre": "FERNANDO JOSE DE LA",
+   "minutos": "16",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "JORGE ANDRES VONDER",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

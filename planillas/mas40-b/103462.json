@@ -7,7 +7,7 @@
  "cancha": "COMPLEJO LOS CARDALES",
  "local": "CLUB ATLETICO BRAZO ORIENTAL",
  "visitante": "SAN ISIDRO LOMAS UNIVERSITARIO",
- "gl": 0,
+ "gl": 1,
  "gv": 3,
  "detalle": {
   "nro_partido": "502",
@@ -18,10 +18,10 @@
   "rueda": "2",
   "Divisional": "MAS40 \"B\" PER. y DESC,",
   "Cancha": "COMPLEJO LOS CARDALES",
-  "Fecha_Inicio": "2026-10-31 10:30:00",
-  "Fecha_fin": "2026-10-31 10:30:00",
+  "Fecha_Inicio": "2026-10-31 11:00:00",
+  "Fecha_fin": "2026-10-31 11:00:00",
   "Locatario": "CLUB ATLETICO BRAZO ORIENTAL",
-  "goles_locatario": "0",
+  "goles_locatario": "1",
   "puntos_locatario": "0",
   "Visitante": "SAN ISIDRO LOMAS UNIVERSITARIO",
   "goles_visitante": "3",
@@ -29,12 +29,262 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "64775",
+   "Nombre": "HUGO MARCELO DUARTE",
+   "camiseta": "57",
+   "Capitan": ""
+  },
+  {
+   "carne": "28139",
+   "Nombre": "ENZO JOSE FUDA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "19265",
+   "Nombre": "ROBERTO GASTON SOLER",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "25585",
+   "Nombre": "NICOLAS GALMARINI",
+   "camiseta": "16",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "21969",
+   "Nombre": "MATIAS MUÑOZ",
+   "camiseta": "38",
+   "Capitan": ""
+  },
+  {
+   "carne": "25414",
+   "Nombre": "SERGIO LUIS MASTROGIOVANNI",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "25539",
+   "Nombre": "JUAN PABLO VAZQUEZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "24780",
+   "Nombre": "FRANCISCO PEREIRA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "46513",
+   "Nombre": "DIEGO ALFREDO LANZARO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "25811",
+   "Nombre": "CHRISTIAN MIRAMBELL",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "22551",
+   "Nombre": "RODRIGO DANIEL LESTIDO",
+   "camiseta": "6",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "19826",
+   "Nombre": "EMILIO MARTINEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "14531",
+   "Nombre": "JAVIER GERARDO GARRE",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "44887",
+   "Nombre": "MATIAS SOSA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "63687",
+   "Nombre": "NICOLAS OMAR MICHELENA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "63523",
+   "Nombre": "NESTOR ATILIO MONTIEL",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "63483",
+   "Nombre": "CARLOS ANTONIO YANES",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "19855",
+   "Nombre": "ANGEL ENRIQUE PERDOMO",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "16576",
+   "Nombre": "DIEGO ANDRES SOSA",
+   "camiseta": "22",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "15404",
+   "Nombre": "HERNAN FEDERICO PASCA",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "67721",
+   "Nombre": "SERGIO GABRIEL TARALLO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "24009",
+   "Nombre": "FEDERICO GABRIEL WILKINS",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "28139",
+   "Jug_Sale": "ENZO JOSE FUDA",
+   "CarneEntra": "42942",
+   "Jug_Entra": "MAURICIO JAVIER RODRIGUEZ",
+   "camiseta": "4",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "25539",
+   "Jug_Sale": "JUAN PABLO VAZQUEZ",
+   "CarneEntra": "27920",
+   "Jug_Entra": "GONZALO LEON ARIAS",
+   "camiseta": "15",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "21969",
+   "Jug_Sale": "MATIAS MUÑOZ",
+   "CarneEntra": "39240",
+   "Jug_Entra": "LIBER ILLINGTTON MAGALLANES",
+   "camiseta": "41",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "22551",
+   "Jug_Sale": "RODRIGO DANIEL LESTIDO",
+   "CarneEntra": "25539",
+   "Jug_Entra": "JUAN PABLO VAZQUEZ",
+   "camiseta": "11",
+   "minutos": "66"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "24009",
+   "Jug_Sale": "FEDERICO GABRIEL WILKINS",
+   "CarneEntra": "16572",
+   "Jug_Entra": "LEONARDO DIOSIL SANCHEZ",
+   "camiseta": "9",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "63523",
+   "Jug_Sale": "NESTOR ATILIO MONTIEL",
+   "CarneEntra": "25800",
+   "Jug_Entra": "FERNANDO TOSCANO",
+   "camiseta": "17",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "19855",
+   "Jug_Sale": "ANGEL ENRIQUE PERDOMO",
+   "CarneEntra": "63876",
+   "Jug_Entra": "LUIS DARIO DAVILA",
+   "camiseta": "18",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "19826",
+   "Jug_Sale": "EMILIO MARTINEZ",
+   "CarneEntra": "22390",
+   "Jug_Entra": "JUAN CARLOS FERNANDEZ",
+   "camiseta": "12",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67721",
+   "Jug_Sale": "SERGIO GABRIEL TARALLO",
+   "CarneEntra": "19855",
+   "Jug_Entra": "ANGEL ENRIQUE PERDOMO",
+   "camiseta": "13",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "19855",
+   "Jug_Sale": "ANGEL ENRIQUE PERDOMO",
+   "CarneEntra": "19826",
+   "Jug_Entra": "EMILIO MARTINEZ",
+   "camiseta": "9",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "16576",
+   "Jug_Sale": "DIEGO ANDRES SOSA",
+   "CarneEntra": "67721",
+   "Jug_Entra": "SERGIO GABRIEL TARALLO",
+   "camiseta": "3",
+   "minutos": "85"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "25811",
+   "Nombre": "CHRISTIAN MIRAMBELL",
+   "minutos": "10",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "63687",
+   "Nombre": "NICOLAS OMAR MICHELENA",
+   "minutos": "40",
+   "EnContra": "1"
+  },
+  {
+   "carne": "63687",
+   "Nombre": "NICOLAS OMAR MICHELENA",
+   "minutos": "43",
+   "EnContra": "1"
+  },
+  {
+   "carne": "63876",
+   "Nombre": "LUIS DARIO DAVILA",
+   "minutos": "75",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

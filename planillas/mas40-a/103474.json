@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAS40 \"A\" TITULO",
   "Cancha": "HARAS CUC",
-  "Fecha_Inicio": "2026-10-31 10:30:00",
-  "Fecha_fin": "2026-10-31 10:30:00",
+  "Fecha_Inicio": "2026-10-31 11:00:00",
+  "Fecha_fin": "2026-10-31 11:00:00",
   "Locatario": "UNIVERSITARIO VERONES",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,232 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
+ "titularesL": [
+  {
+   "carne": "63287",
+   "Nombre": "RICARDO DANIEL PAZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "32302",
+   "Nombre": "HECTOR MARCELO PEREZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "17835",
+   "Nombre": "FERNANDO SILVA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "35285",
+   "Nombre": "JULIO BRAYAN MELLO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "40522",
+   "Nombre": "PABLO MIGUEL OTTONELLI",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "54394",
+   "Nombre": "DANIEL NICOLAS ALVAREZ",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "13911",
+   "Nombre": "FABRICIO GASTON PRIETO",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "19369",
+   "Nombre": "LUIS IGNACIO FORTE",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "16647",
+   "Nombre": "FERNANDO DANIEL BETARTE",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "33519",
+   "Nombre": "PABLO BERMUDEZ",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "18132",
+   "Nombre": "SEBASTIAN MIGUEL GARCIA",
+   "camiseta": "2",
+   "Capitan": "(C)"
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "23296",
+   "Nombre": "WASHINGTON RICARDO SANTANA",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "17096",
+   "Nombre": "JULIAN CARVE",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "15792",
+   "Nombre": "JUAN RAMON PAEZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "17443",
+   "Nombre": "JAVIER FISCHER",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "24555",
+   "Nombre": "DIEGO TARAMASCO",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "15471",
+   "Nombre": "IGNACIO VAZQUEZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "17030",
+   "Nombre": "JUAN DIEGO LARROQUE",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "14903",
+   "Nombre": "TAZIO SCALDAFERRI",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "28905",
+   "Nombre": "BRUNO NICOLAS LAGOMARSINO",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "40476",
+   "Nombre": "JOSE MANUEL CAYAFFA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "13368",
+   "Nombre": "MARTIN ANDRES OLIVERA",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
  "cambiosL": [],
- "cambiosV": [],
+ "cambiosV": [
+  {
+   "CarneSale": "14903",
+   "Jug_Sale": "TAZIO SCALDAFERRI",
+   "CarneEntra": "22061",
+   "Jug_Entra": "MARCELO ARIEL AMARAL",
+   "camiseta": "18",
+   "minutos": "54"
+  },
+  {
+   "CarneSale": "15471",
+   "Jug_Sale": "IGNACIO VAZQUEZ",
+   "CarneEntra": "14231",
+   "Jug_Entra": "RODRIGO RECOBA",
+   "camiseta": "17",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "17096",
+   "Jug_Sale": "JULIAN CARVE",
+   "CarneEntra": "23588",
+   "Jug_Entra": "ANTONIO MARIA SERRENTINO",
+   "camiseta": "16",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "40476",
+   "Jug_Sale": "JOSE MANUEL CAYAFFA",
+   "CarneEntra": "14902",
+   "Jug_Entra": "PABLO MARCELO SILVA",
+   "camiseta": "14",
+   "minutos": "74"
+  },
+  {
+   "CarneSale": "24555",
+   "Jug_Sale": "DIEGO TARAMASCO",
+   "CarneEntra": "30341",
+   "Jug_Entra": "GUILLERMO LARROQUE",
+   "camiseta": "23",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "13368",
+   "Jug_Sale": "MARTIN ANDRES OLIVERA",
+   "CarneEntra": "17425",
+   "Jug_Entra": "DIEGO SCLEIDOROVICH",
+   "camiseta": "8",
+   "minutos": "45"
+  }
+ ],
  "golesL": [],
- "golesV": [],
+ "golesV": [
+  {
+   "carne": "14903",
+   "Nombre": "TAZIO SCALDAFERRI",
+   "minutos": "29",
+   "EnContra": "1"
+  },
+  {
+   "carne": "17425",
+   "Nombre": "DIEGO SCLEIDOROVICH",
+   "minutos": "70",
+   "EnContra": "1"
+  },
+  {
+   "carne": "28905",
+   "Nombre": "BRUNO NICOLAS LAGOMARSINO",
+   "minutos": "72",
+   "EnContra": "1"
+  },
+  {
+   "carne": "28905",
+   "Nombre": "BRUNO NICOLAS LAGOMARSINO",
+   "minutos": "78",
+   "EnContra": "1"
+  },
+  {
+   "carne": "28905",
+   "Nombre": "BRUNO NICOLAS LAGOMARSINO",
+   "minutos": "90",
+   "EnContra": "1"
+  },
+  {
+   "carne": "40476",
+   "Nombre": "JOSE MANUEL CAYAFFA",
+   "minutos": "31",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAS40 \"A\" PERM. y DESC.",
   "Cancha": "COMPLEJO LOS CARDALES",
-  "Fecha_Inicio": "2026-10-31 12:45:00",
-  "Fecha_fin": "2026-10-31 12:45:00",
+  "Fecha_Inicio": "2026-10-31 13:00:00",
+  "Fecha_fin": "2026-10-31 13:00:00",
   "Locatario": "HEBRAICA UNIVERSITARIO",
   "goles_locatario": "3",
   "puntos_locatario": "3",
@@ -29,12 +29,278 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "21670",
+   "Nombre": "ELI PERELMUTER",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "26410",
+   "Nombre": "MATIAS MOSCONA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "44715",
+   "Nombre": "DIEGO PERELMUTER",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "21338",
+   "Nombre": "ALAN PAUL MIZRAJI",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "15031",
+   "Nombre": "JULIO HERMAN BANEWUR",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "23109",
+   "Nombre": "MAURICIO ALBERICO MARQUEZ",
+   "camiseta": "33",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "28249",
+   "Nombre": "MAURO RADZINSKI",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "19096",
+   "Nombre": "ARI KACZKA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "17276",
+   "Nombre": "PABLO JAVIER CANEPA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "16457",
+   "Nombre": "WILLIAM IGNACIO KRIZ",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "20627",
+   "Nombre": "MARTIN BERENSTEIN",
+   "camiseta": "13",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "22311",
+   "Nombre": "JUAN GONZALO LEVRATTO",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "26326",
+   "Nombre": "LUIS IGNACIO ABUD",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "21464",
+   "Nombre": "ALEJANDRO BOIX",
+   "camiseta": "52",
+   "Capitan": ""
+  },
+  {
+   "carne": "57920",
+   "Nombre": "CARLOS IGNACIO DIAZ",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "31853",
+   "Nombre": "JAVIER IGNACIO GUERRERO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "18646",
+   "Nombre": "PABLO ALONSO",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "19435",
+   "Nombre": "PABLO MARTIN MOLINA",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "39822",
+   "Nombre": "ALEJANDRO MARTIN BAZZI",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "27349",
+   "Nombre": "YUVER JAVIER ACOSTA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "19006",
+   "Nombre": "LUCIO FLAVIO ALVEZ",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "50440",
+   "Nombre": "JUAN MANUEL GAGO",
+   "camiseta": "17",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "26410",
+   "Jug_Sale": "MATIAS MOSCONA",
+   "CarneEntra": "44994",
+   "Jug_Entra": "GUSTAVO RODZEWICZ",
+   "camiseta": "24",
+   "minutos": "38"
+  },
+  {
+   "CarneSale": "15031",
+   "Jug_Sale": "JULIO HERMAN BANEWUR",
+   "CarneEntra": "19947",
+   "Jug_Entra": "DENNY LIAM BRECHNER",
+   "camiseta": "88",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "16457",
+   "Jug_Sale": "WILLIAM IGNACIO KRIZ",
+   "CarneEntra": "17086",
+   "Jug_Entra": "OSCAR DIEGO FALERO",
+   "camiseta": "7",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "21670",
+   "Jug_Sale": "ELI PERELMUTER",
+   "CarneEntra": "14307",
+   "Jug_Entra": "GUILLERMO DANIEL VERA",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "28249",
+   "Jug_Sale": "MAURO RADZINSKI",
+   "CarneEntra": "36064",
+   "Jug_Entra": "DIEGO GONZALO CIAPPESONI",
+   "camiseta": "12",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "44715",
+   "Jug_Sale": "DIEGO PERELMUTER",
+   "CarneEntra": "38265",
+   "Jug_Entra": "GABRIEL MANUEL YAÑEZ",
+   "camiseta": "6",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "44994",
+   "Jug_Sale": "GUSTAVO RODZEWICZ",
+   "CarneEntra": "36753",
+   "Jug_Entra": "BORIS CARLOS SILVA",
+   "camiseta": "18",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "20627",
+   "Jug_Sale": "MARTIN BERENSTEIN",
+   "CarneEntra": "44994",
+   "Jug_Entra": "GUSTAVO RODZEWICZ",
+   "camiseta": "24",
+   "minutos": "83"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "19006",
+   "Jug_Sale": "LUCIO FLAVIO ALVEZ",
+   "CarneEntra": "61089",
+   "Jug_Entra": "GASTON ROSANO",
+   "camiseta": "99",
+   "minutos": "20"
+  },
+  {
+   "CarneSale": "31853",
+   "Jug_Sale": "JAVIER IGNACIO GUERRERO",
+   "CarneEntra": "38043",
+   "Jug_Entra": "JOSE RAFAEL AIRALA",
+   "camiseta": "27",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "61089",
+   "Jug_Sale": "GASTON ROSANO",
+   "CarneEntra": "15494",
+   "Jug_Entra": "ROBERTO MAURICIO DAVILA",
+   "camiseta": "78",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "39822",
+   "Jug_Sale": "ALEJANDRO MARTIN BAZZI",
+   "CarneEntra": "35825",
+   "Jug_Entra": "JUAN ANDRES SARRIES",
+   "camiseta": "5",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "19435",
+   "Jug_Sale": "PABLO MARTIN MOLINA",
+   "CarneEntra": "16875",
+   "Jug_Entra": "MAURICIO DIGENOVA",
+   "camiseta": "6",
+   "minutos": "75"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "20627",
+   "Nombre": "MARTIN BERENSTEIN",
+   "minutos": "50",
+   "EnContra": "0"
+  },
+  {
+   "carne": "20627",
+   "Nombre": "MARTIN BERENSTEIN",
+   "minutos": "75",
+   "EnContra": "0"
+  },
+  {
+   "carne": "36064",
+   "Nombre": "DIEGO GONZALO CIAPPESONI",
+   "minutos": "82",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "18646",
+   "Nombre": "PABLO ALONSO",
+   "minutos": "60",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

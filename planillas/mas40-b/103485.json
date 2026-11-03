@@ -3,7 +3,7 @@
  "categoria": "mas40-b",
  "serie": "40CC",
  "fecha": 5,
- "fechaHora": "2026-10-31 11:15:00",
+ "fechaHora": "2026-10-31 11:20:00",
  "cancha": "COMPLEJO DEPORTIVO ARRAYANES",
  "local": "CLUB ESTUDIANTES INGENIERIA",
  "visitante": "RIVER PLATE UNIVERSITARIO",
@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAS40 \"B\" PER. y DESC,",
   "Cancha": "COMPLEJO DEPORTIVO ARRAYANES",
-  "Fecha_Inicio": "2026-10-31 12:45:00",
-  "Fecha_fin": "2026-10-31 12:45:00",
+  "Fecha_Inicio": "2026-10-31 13:10:00",
+  "Fecha_fin": "2026-10-31 13:10:00",
   "Locatario": "CLUB ESTUDIANTES INGENIERIA",
   "goles_locatario": "1",
   "puntos_locatario": "1",
@@ -29,12 +29,250 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "36878",
+   "Nombre": "DARIO ALBERTO DE LEON",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "14351",
+   "Nombre": "CARLOS ANDRES ROMANO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "46546",
+   "Nombre": "MARCELO JAVIER CASAVIEJA",
+   "camiseta": "36",
+   "Capitan": ""
+  },
+  {
+   "carne": "66344",
+   "Nombre": "MARTIN CATTONI",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "31554",
+   "Nombre": "JUAN IGNACIO GOMEZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "51305",
+   "Nombre": "PABLO ANDRES NAVARRETE",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "30077",
+   "Nombre": "PABLO EDGARDO ALVEZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "25364",
+   "Nombre": "LEANDRO APARICIO GALETTA",
+   "camiseta": "48",
+   "Capitan": ""
+  },
+  {
+   "carne": "50827",
+   "Nombre": "PABLO ALFREDO FUENTES",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "32307",
+   "Nombre": "RAMIRO VICENTE MOYANO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "61104",
+   "Nombre": "FABIAN ACOSTA",
+   "camiseta": "90",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "46389",
+   "Nombre": "JAVIER FERNANDO PUIG",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "40771",
+   "Nombre": "NICOLAS PERDOMO",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "21571",
+   "Nombre": "GABRIEL SUAREZ",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "33349",
+   "Nombre": "GUSTAVO ELOY DELGADO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "52517",
+   "Nombre": "MARCELO EDUARDO PEREZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "29363",
+   "Nombre": "RAFAEL ENRIQUE PERDOMO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "39847",
+   "Nombre": "JAIME GARCIA",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "64148",
+   "Nombre": "ROBERTO EKKER",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "24427",
+   "Nombre": "MARTIN FERNANDO PUERTO",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "35758",
+   "Nombre": "MARTIN ALTAMIRANO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "31158",
+   "Nombre": "MATIAS DANIEL BARBOSA",
+   "camiseta": "20",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "61104",
+   "Jug_Sale": "FABIAN ACOSTA",
+   "CarneEntra": "32307",
+   "Jug_Entra": "RAMIRO VICENTE MOYANO",
+   "camiseta": "11",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "51305",
+   "Jug_Sale": "PABLO ANDRES NAVARRETE",
+   "CarneEntra": "50827",
+   "Jug_Entra": "PABLO ALFREDO FUENTES",
+   "camiseta": "30",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "32307",
+   "Jug_Sale": "RAMIRO VICENTE MOYANO",
+   "CarneEntra": "15459",
+   "Jug_Entra": "ALEJANDRO BROWN",
+   "camiseta": "13",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "50827",
+   "Jug_Sale": "PABLO ALFREDO FUENTES",
+   "CarneEntra": "17392",
+   "Jug_Entra": "JOSE PEDRO RAMIREZ",
+   "camiseta": "21",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "46546",
+   "Jug_Sale": "MARCELO JAVIER CASAVIEJA",
+   "CarneEntra": "38770",
+   "Jug_Entra": "ANTONIO MANUEL RODRIGUEZ",
+   "camiseta": "40",
+   "minutos": "45"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "35758",
+   "Jug_Sale": "MARTIN ALTAMIRANO",
+   "CarneEntra": "20360",
+   "Jug_Entra": "GUSTAVO JUAN HONORIO",
+   "camiseta": "15",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "33349",
+   "Jug_Sale": "GUSTAVO ELOY DELGADO",
+   "CarneEntra": "19490",
+   "Jug_Entra": "PABLO ANDRES GONZALEZ",
+   "camiseta": "17",
+   "minutos": "44"
+  },
+  {
+   "CarneSale": "31158",
+   "Jug_Sale": "MATIAS DANIEL BARBOSA",
+   "CarneEntra": "56865",
+   "Jug_Entra": "ALEXANDER ROBERTO TABEIRA",
+   "camiseta": "4",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "52517",
+   "Jug_Sale": "MARCELO EDUARDO PEREZ",
+   "CarneEntra": "40772",
+   "Jug_Entra": "CLAUDIO FABIAN TEJERA",
+   "camiseta": "11",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "39847",
+   "Jug_Sale": "JAIME GARCIA",
+   "CarneEntra": "35758",
+   "Jug_Entra": "MARTIN ALTAMIRANO",
+   "camiseta": "10",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "35758",
+   "Jug_Sale": "MARTIN ALTAMIRANO",
+   "CarneEntra": "33349",
+   "Jug_Entra": "GUSTAVO ELOY DELGADO",
+   "camiseta": "3",
+   "minutos": "87"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "51305",
+   "Nombre": "PABLO ANDRES NAVARRETE",
+   "minutos": "21",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "31158",
+   "Nombre": "MATIAS DANIEL BARBOSA",
+   "minutos": "21",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

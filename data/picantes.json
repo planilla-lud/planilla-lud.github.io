@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-03T02:58:06.197Z",
+ "actualizado": "2026-11-03T18:27:45.248Z",
  "partidos": [
   {
    "div": "mayores-a",
@@ -118,7 +118,7 @@
    "base": 8,
    "tipo": "descenso",
    "altasL": 1,
-   "altasV": 1
+   "altasV": 4
   },
   {
    "div": "presenior-a",
@@ -136,6 +136,23 @@
    "tipo": "titulo",
    "altasL": 1,
    "altasV": 0
+  },
+  {
+   "div": "reserva-c",
+   "divNombre": "Reserva C",
+   "k": "Numa Turcatti~San Isidro Lomas Universitario",
+   "l": "Numa Turcatti",
+   "v": "San Isidro Lomas Universitario",
+   "dia": "2026-11-14",
+   "hora": "11:15",
+   "etapa": "Permanencia",
+   "pl": 7,
+   "pv": 8,
+   "n": 8,
+   "base": 8,
+   "tipo": "descenso",
+   "altasL": 1,
+   "altasV": 1
   },
   {
    "div": "mas40-a",
@@ -197,13 +214,13 @@
    "dia": "2026-11-07",
    "hora": "15:30",
    "etapa": "Título y ascenso",
-   "pl": 3,
-   "pv": 2,
+   "pl": 2,
+   "pv": 3,
    "n": 8,
    "base": 0,
    "tipo": "titulo",
    "altasL": 0,
-   "altasV": 1
+   "altasV": 0
   },
   {
    "div": "reserva-b",
@@ -236,8 +253,8 @@
    "n": 8,
    "base": 0,
    "tipo": "titulo",
-   "altasL": 0,
-   "altasV": 1
+   "altasL": 2,
+   "altasV": 0
   },
   {
    "div": "mayores-c",
@@ -263,7 +280,7 @@
    "l": "Danubio Futbol Club",
    "v": "Centro Cristobal Colon",
    "dia": "2026-11-07",
-   "hora": "11:15",
+   "hora": "09:00",
    "etapa": "Título y ascenso",
    "pl": 3,
    "pv": 1,
@@ -279,8 +296,8 @@
    "k": "ELF~J.M.L.M",
    "l": "ELF",
    "v": "J.M.L.M",
-   "dia": "2026-11-05",
-   "hora": "13:30",
+   "dia": "2026-11-04",
+   "hora": "21:00",
    "etapa": "Título",
    "pl": 3,
    "pv": 4,
@@ -338,7 +355,7 @@
    "n": 8,
    "base": 8,
    "tipo": "descenso",
-   "altasL": 2,
+   "altasL": 1,
    "altasV": 0
   },
   {
@@ -348,15 +365,15 @@
    "l": "Perry Sexta Universitario",
    "v": "Argos",
    "dia": "2026-11-07",
-   "hora": "11:15",
+   "hora": "09:00",
    "etapa": "Permanencia",
    "pl": 6,
    "pv": 8,
    "n": 8,
    "base": 8,
    "tipo": "descenso",
-   "altasL": 0,
-   "altasV": 0
+   "altasL": 1,
+   "altasV": 1
   },
   {
    "div": "mas40-a",
@@ -372,8 +389,8 @@
    "n": 8,
    "base": 0,
    "tipo": "titulo",
-   "altasL": 1,
-   "altasV": 1
+   "altasL": 0,
+   "altasV": 0
   },
   {
    "div": "mayores-b",
@@ -406,8 +423,8 @@
    "n": 8,
    "base": 0,
    "tipo": "titulo",
-   "altasL": 2,
-   "altasV": 2
+   "altasL": 1,
+   "altasV": 0
   },
   {
    "div": "reserva-c",
@@ -491,25 +508,8 @@
    "n": 8,
    "base": 8,
    "tipo": "descenso",
-   "altasL": 2,
-   "altasV": 1
-  },
-  {
-   "div": "mas40-b",
-   "divNombre": "Más 40 B",
-   "k": "Sindicato Medico Del Uruguay~Club Estudiantes Ingenieria",
-   "l": "Sindicato Medico Del Uruguay",
-   "v": "Club Estudiantes Ingenieria",
-   "dia": "2026-11-07",
-   "hora": "09:00",
-   "etapa": "Permanencia",
-   "pl": 7,
-   "pv": 5,
-   "n": 8,
-   "base": 8,
-   "tipo": "descenso",
-   "altasL": 2,
-   "altasV": 1
+   "altasL": 1,
+   "altasV": 2
   }
  ]
 }

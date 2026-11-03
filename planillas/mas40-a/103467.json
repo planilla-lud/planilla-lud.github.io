@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAS40 \"A\" TITULO",
   "Cancha": "COMPLEJO DEPORTIVO ARRAYANES",
-  "Fecha_Inicio": "2026-10-31 10:30:00",
-  "Fecha_fin": "2026-10-31 10:30:00",
+  "Fecha_Inicio": "2026-10-31 10:50:00",
+  "Fecha_fin": "2026-10-31 10:50:00",
   "Locatario": "DEPORTIVO MATADERO",
   "goles_locatario": "3",
   "puntos_locatario": "1",
@@ -29,12 +29,290 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "14102",
+   "Nombre": "MARTIN RIVERA BARREIRO",
+   "camiseta": "1",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "16398",
+   "Nombre": "FEDERICO SILVESTRI",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "14914",
+   "Nombre": "AGUSTIN FELIPE SEDANO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "17830",
+   "Nombre": "LEONARDO GAI",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "20435",
+   "Nombre": "IGNACIO JOSE GONZALEZ",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "19987",
+   "Nombre": "DIEGO MANUEL BERRIEL",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "16347",
+   "Nombre": "JORGE ANDRES TROCCOLI",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "22388",
+   "Nombre": "AGUSTIN DANIEL OTADUY",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "23812",
+   "Nombre": "YAMANDU DELGADO",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "12613",
+   "Nombre": "JOSE IGNACIO MIGNONE",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "11990",
+   "Nombre": "GERMAN PABLO MONCHIETTI",
+   "camiseta": "16",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "29565",
+   "Nombre": "CARLOS WILFREDO ANDRIOLO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "19586",
+   "Nombre": "FEDERICO REYES",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "20885",
+   "Nombre": "BRUNO ELIS VERNASSA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "14617",
+   "Nombre": "OSMAR DARIO MUÑOZ",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "13715",
+   "Nombre": "DIEGO FERNANDEZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "19945",
+   "Nombre": "MARCELO CID DE LA PAZ",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "21536",
+   "Nombre": "FRANCISCO SEBASTIAN FRONTINI",
+   "camiseta": "51",
+   "Capitan": ""
+  },
+  {
+   "carne": "18894",
+   "Nombre": "IGNACIO ROBERTO DE MULA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "27725",
+   "Nombre": "ALEJANDRO VERNENGO",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "32421",
+   "Nombre": "PABLO GUSTAVO MUÑOZ",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "18904",
+   "Nombre": "FEDERICO BICCHIERAI",
+   "camiseta": "2",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "22388",
+   "Jug_Sale": "AGUSTIN DANIEL OTADUY",
+   "CarneEntra": "14177",
+   "Jug_Entra": "GUILLERMO GONZALEZ",
+   "camiseta": "24",
+   "minutos": "38"
+  },
+  {
+   "CarneSale": "23812",
+   "Jug_Sale": "YAMANDU DELGADO",
+   "CarneEntra": "18626",
+   "Jug_Entra": "MILTON ALEJANDRO GRIECCO",
+   "camiseta": "19",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "16398",
+   "Jug_Sale": "FEDERICO SILVESTRI",
+   "CarneEntra": "23151",
+   "Jug_Entra": "MAURICIO REYMUNDE",
+   "camiseta": "18",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "19987",
+   "Jug_Sale": "DIEGO MANUEL BERRIEL",
+   "CarneEntra": "16615",
+   "Jug_Entra": "JUAN ROBKIN",
+   "camiseta": "32",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "11990",
+   "Jug_Sale": "GERMAN PABLO MONCHIETTI",
+   "CarneEntra": "16852",
+   "Jug_Entra": "BRUNO SPINELLI",
+   "camiseta": "26",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "14177",
+   "Jug_Sale": "GUILLERMO GONZALEZ",
+   "CarneEntra": "21767",
+   "Jug_Entra": "JUAN ARROSPIDE",
+   "camiseta": "23",
+   "minutos": "52"
+  },
+  {
+   "CarneSale": "12613",
+   "Jug_Sale": "JOSE IGNACIO MIGNONE",
+   "CarneEntra": "23812",
+   "Jug_Entra": "YAMANDU DELGADO",
+   "camiseta": "28",
+   "minutos": "82"
+  },
+  {
+   "CarneSale": "17830",
+   "Jug_Sale": "LEONARDO GAI",
+   "CarneEntra": "16398",
+   "Jug_Entra": "FEDERICO SILVESTRI",
+   "camiseta": "11",
+   "minutos": "89"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "27725",
+   "Jug_Sale": "ALEJANDRO VERNENGO",
+   "CarneEntra": "11860",
+   "Jug_Entra": "GUSTAVO WERNER SCHICKE",
+   "camiseta": "8",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "32421",
+   "Jug_Sale": "PABLO GUSTAVO MUÑOZ",
+   "CarneEntra": "31040",
+   "Jug_Entra": "JUAN PEDRO CID DE LA PAZ",
+   "camiseta": "24",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "19945",
+   "Jug_Sale": "MARCELO CID DE LA PAZ",
+   "CarneEntra": "18901",
+   "Jug_Entra": "MARTIN TAGLE",
+   "camiseta": "21",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "20885",
+   "Jug_Sale": "BRUNO ELIS VERNASSA",
+   "CarneEntra": "16276",
+   "Jug_Entra": "JUAN MIGUEL REYES",
+   "camiseta": "20",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "18904",
+   "Jug_Sale": "FEDERICO BICCHIERAI",
+   "CarneEntra": "18914",
+   "Jug_Entra": "FEDERICO JAVIER AICARDI",
+   "camiseta": "3",
+   "minutos": "85"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "11990",
+   "Nombre": "GERMAN PABLO MONCHIETTI",
+   "minutos": "15",
+   "EnContra": "0"
+  },
+  {
+   "carne": "14914",
+   "Nombre": "AGUSTIN FELIPE SEDANO",
+   "minutos": "70",
+   "EnContra": "0"
+  },
+  {
+   "carne": "16852",
+   "Nombre": "BRUNO SPINELLI",
+   "minutos": "72",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "19586",
+   "Nombre": "FEDERICO REYES",
+   "minutos": "35",
+   "EnContra": "1"
+  },
+  {
+   "carne": "19586",
+   "Nombre": "FEDERICO REYES",
+   "minutos": "75",
+   "EnContra": "1"
+  },
+  {
+   "carne": "31040",
+   "Nombre": "JUAN PEDRO CID DE LA PAZ",
+   "minutos": "76",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

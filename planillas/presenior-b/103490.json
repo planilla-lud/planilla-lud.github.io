@@ -4,7 +4,7 @@
  "serie": "PSBPD",
  "fecha": 5,
  "fechaHora": "2026-10-31 09:00:00",
- "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
+ "cancha": "()",
  "local": "CLUB SEMINARIO",
  "visitante": "PERRY SEXTA UNIVERSITARIO",
  "gl": 3,
@@ -17,9 +17,9 @@
   "categoria": "PRE-SENIOR MASCULINO",
   "rueda": "2",
   "Divisional": "PRESENIOR \"B\" PER. y DESC",
-  "Cancha": "PARQUE CUPRA - CLUB SEMINARIO",
-  "Fecha_Inicio": "2026-10-31 10:30:00",
-  "Fecha_fin": "2026-10-31 10:30:00",
+  "Cancha": "()",
+  "Fecha_Inicio": "2026-10-31 11:05:00",
+  "Fecha_fin": "2026-10-31 11:05:00",
   "Locatario": "CLUB SEMINARIO",
   "goles_locatario": "3",
   "puntos_locatario": "3",
@@ -29,12 +29,276 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "18842",
+   "Nombre": "RODRIGO ALBERTO DURAN",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "18209",
+   "Nombre": "MARTIN GUILLERMO IRAZOQUI",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "25030",
+   "Nombre": "JUAN MANUEL ROVELLA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "16315",
+   "Nombre": "MATIAS FERMIN IRAZABAL",
+   "camiseta": "21",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "25876",
+   "Nombre": "SANTIAGO ANDRES ARROYO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "28502",
+   "Nombre": "MARTIN PRESNO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "29031",
+   "Nombre": "FERNANDO BELOSO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "62272",
+   "Nombre": "DIEGO NICOLAS LA PAZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "22618",
+   "Nombre": "FRANCISCO NAVARRO",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "28056",
+   "Nombre": "RENZO CARUSO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "68614",
+   "Nombre": " JUAN FRANCISCO CASTRO",
+   "camiseta": "13",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "57513",
+   "Nombre": "MARTIN TORRES",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "37677",
+   "Nombre": "GABRIEL CANTERA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "43467",
+   "Nombre": "NICOLAS PATRICIO LLAMBI",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "24836",
+   "Nombre": "AGUSTIN ROLDAN",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "32042",
+   "Nombre": "RODRIGO ERNESTO CAPRARIO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "42883",
+   "Nombre": "AGUSTIN LAZARO",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "36490",
+   "Nombre": "LUIS ALBERTO CROSA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "30203",
+   "Nombre": "MAXIMILIANO MATEAUDA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "50525",
+   "Nombre": "SEBASTIAN ANDRES FLORES",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "28796",
+   "Nombre": "RODRIGO EDUARDO POSTIGLIONE",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "38941",
+   "Nombre": "CHRISTIAN NICOLAS ALVERNAZ",
+   "camiseta": "9",
+   "Capitan": "(C)"
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "18209",
+   "Jug_Sale": "MARTIN GUILLERMO IRAZOQUI",
+   "CarneEntra": "23563",
+   "Jug_Entra": "JOSE LUIS OLIVERA",
+   "camiseta": "4",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "28502",
+   "Jug_Sale": "MARTIN PRESNO",
+   "CarneEntra": "68244",
+   "Jug_Entra": "JORGE SEBASTIAN CALATAYUD",
+   "camiseta": "9",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "22618",
+   "Jug_Sale": "FRANCISCO NAVARRO",
+   "CarneEntra": "33243",
+   "Jug_Entra": "ALFONSO FREIRIA",
+   "camiseta": "11",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "25876",
+   "Jug_Sale": "SANTIAGO ANDRES ARROYO",
+   "CarneEntra": "24772",
+   "Jug_Entra": "DANIEL ANTONIO MARTINEZ",
+   "camiseta": "16",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "28056",
+   "Jug_Sale": "RENZO CARUSO",
+   "CarneEntra": "37949",
+   "Jug_Entra": "IGNACIO ROSATI",
+   "camiseta": "17",
+   "minutos": "83"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "43467",
+   "Jug_Sale": "NICOLAS PATRICIO LLAMBI",
+   "CarneEntra": "24867",
+   "Jug_Entra": "GUILLERMO RUIZ",
+   "camiseta": "26",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "37677",
+   "Jug_Sale": "GABRIEL CANTERA",
+   "CarneEntra": "54338",
+   "Jug_Entra": "MARCELO DANIEL PITTAMEGLIO",
+   "camiseta": "5",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "36490",
+   "Jug_Sale": "LUIS ALBERTO CROSA",
+   "CarneEntra": "52218",
+   "Jug_Entra": "MARTIN VILCHE",
+   "camiseta": "28",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "24836",
+   "Jug_Sale": "AGUSTIN ROLDAN",
+   "CarneEntra": "52556",
+   "Jug_Entra": "RODRIGO ANDRES GONZALEZ",
+   "camiseta": "19",
+   "minutos": "69"
+  },
+  {
+   "CarneSale": "28796",
+   "Jug_Sale": "RODRIGO EDUARDO POSTIGLIONE",
+   "CarneEntra": "47661",
+   "Jug_Entra": "EMILIANO MIELS SANTOS",
+   "camiseta": "15",
+   "minutos": "69"
+  },
+  {
+   "CarneSale": "38941",
+   "Jug_Sale": "CHRISTIAN NICOLAS ALVERNAZ",
+   "CarneEntra": "26146",
+   "Jug_Entra": "HORACIO ALDO MONTORO",
+   "camiseta": "18",
+   "minutos": "69"
+  },
+  {
+   "CarneSale": "32042",
+   "Jug_Sale": "RODRIGO ERNESTO CAPRARIO",
+   "CarneEntra": "40804",
+   "Jug_Entra": "BRUNO DANIEL ESAIN",
+   "camiseta": "27",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "30203",
+   "Jug_Sale": "MAXIMILIANO MATEAUDA",
+   "CarneEntra": "24958",
+   "Jug_Entra": "MATHIAS NICOLAS VARELA",
+   "camiseta": "21",
+   "minutos": "79"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "28056",
+   "Nombre": "RENZO CARUSO",
+   "minutos": "45",
+   "EnContra": "0"
+  },
+  {
+   "carne": "68614",
+   "Nombre": " JUAN FRANCISCO CASTRO",
+   "minutos": "55",
+   "EnContra": "0"
+  },
+  {
+   "carne": "68614",
+   "Nombre": " JUAN FRANCISCO CASTRO",
+   "minutos": "92",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
- "expulsadosV": []
+ "expulsadosV": [
+  {
+   "Nombre": "MARTIN TORRES",
+   "observaciones": ""
+  }
+ ]
 }

@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"D\" TIT. y ASC.",
   "Cancha": "CAMPO MARISTAS DEPORTIVO",
-  "Fecha_Inicio": "2026-10-31 12:45:00",
-  "Fecha_fin": "2026-10-31 12:45:00",
+  "Fecha_Inicio": "2026-10-31 13:15:00",
+  "Fecha_fin": "2026-10-31 13:15:00",
   "Locatario": "MARISTAS DEPORTIVO",
   "goles_locatario": "2",
   "puntos_locatario": "3",
@@ -29,12 +29,256 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "56224",
+   "Nombre": "SANTIAGO DANIEL CASCO",
+   "camiseta": "1",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "69053",
+   "Nombre": "IVAN ARIEL MELO",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "50844",
+   "Nombre": "BRUNO MARTIN PALACIO",
+   "camiseta": "87",
+   "Capitan": ""
+  },
+  {
+   "carne": "56682",
+   "Nombre": "DIEGO RAHI",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "56508",
+   "Nombre": "MATEO GARCIA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "66624",
+   "Nombre": "VALENTIN HUGO MENDIZABAL",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "60732",
+   "Nombre": "SEBASTIAN LAPORTE",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "66232",
+   "Nombre": "LUCAS MAURICIO CARTAGENA",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "58255",
+   "Nombre": "AGUSTIN DIAZ",
+   "camiseta": "47",
+   "Capitan": ""
+  },
+  {
+   "carne": "47999",
+   "Nombre": "DIEGO BOUZON",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "53961",
+   "Nombre": "FRANCISCO SCARRONE",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "59338",
+   "Nombre": "LEANDRO SOZZO",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "58509",
+   "Nombre": "WILSON DANIEL CORREA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "59330",
+   "Nombre": "JUAN PABLO CUÑA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "66983",
+   "Nombre": "ELIAS AGUSTIN DOS SANTOS",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "64760",
+   "Nombre": "FEDERICO CHARQUERO",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "60906",
+   "Nombre": "FACUNDO MANUEL VILLALBA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "66989",
+   "Nombre": "LAUTARO AGUSTIN CUADRO",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "66993",
+   "Nombre": "MAICOL GABRIEL LAMARQUE",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "61423",
+   "Nombre": "ALAN EZEQUIEL DE LOS SANTOS",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "66573",
+   "Nombre": "EZEQUIEL MICHAEL TOURNE",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "35047",
+   "Nombre": "LUIS MARCELO PEREIRA",
+   "camiseta": "99",
+   "Capitan": "(C)"
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "47999",
+   "Jug_Sale": "DIEGO BOUZON",
+   "CarneEntra": "68986",
+   "Jug_Entra": "BRUNO EDUARDO MELGAREJO",
+   "camiseta": "30",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66232",
+   "Jug_Sale": "LUCAS MAURICIO CARTAGENA",
+   "CarneEntra": "56604",
+   "Jug_Entra": "JOAQUIN LUPANO",
+   "camiseta": "60",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "53961",
+   "Jug_Sale": "FRANCISCO SCARRONE",
+   "CarneEntra": "41701",
+   "Jug_Entra": "JUAN PABLO ALDAMA",
+   "camiseta": "27",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "69053",
+   "Jug_Sale": "IVAN ARIEL MELO",
+   "CarneEntra": "47999",
+   "Jug_Entra": "DIEGO BOUZON",
+   "camiseta": "24",
+   "minutos": "63"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "59338",
+   "Jug_Sale": "LEANDRO SOZZO",
+   "CarneEntra": "59343",
+   "Jug_Entra": "MARCOS CALIXTO",
+   "camiseta": "1",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66983",
+   "Jug_Sale": "ELIAS AGUSTIN DOS SANTOS",
+   "CarneEntra": "61392",
+   "Jug_Entra": "FRANCO CANTO",
+   "camiseta": "9",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "35047",
+   "Jug_Sale": "LUIS MARCELO PEREIRA",
+   "CarneEntra": "59341",
+   "Jug_Entra": "LUCA CORREA PAIVA",
+   "camiseta": "13",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58509",
+   "Jug_Sale": "WILSON DANIEL CORREA",
+   "CarneEntra": "68752",
+   "Jug_Entra": "LUCAS MATEO LAITANO",
+   "camiseta": "5",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61423",
+   "Jug_Sale": "ALAN EZEQUIEL DE LOS SANTOS",
+   "CarneEntra": "65863",
+   "Jug_Entra": "ALEX SANTIAGO MIGUEZ",
+   "camiseta": "7",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66993",
+   "Jug_Sale": "MAICOL GABRIEL LAMARQUE",
+   "CarneEntra": "65731",
+   "Jug_Entra": "AARON BAUTISTA GUILLEN",
+   "camiseta": "18",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64760",
+   "Jug_Sale": "FEDERICO CHARQUERO",
+   "CarneEntra": "66993",
+   "Jug_Entra": "MAICOL GABRIEL LAMARQUE",
+   "camiseta": "17",
+   "minutos": "63"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "56604",
+   "Nombre": "JOAQUIN LUPANO",
+   "minutos": "68",
+   "EnContra": "0"
+  },
+  {
+   "carne": "58255",
+   "Nombre": "AGUSTIN DIAZ",
+   "minutos": "34",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "66989",
+   "Nombre": "LAUTARO AGUSTIN CUADRO",
+   "minutos": "11",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

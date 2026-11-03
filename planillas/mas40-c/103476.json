@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "M40 DIV. C COPA BRONCE R2",
   "Cancha": "ACADEMIA",
-  "Fecha_Inicio": "2026-10-31 10:30:00",
-  "Fecha_fin": "2026-10-31 10:30:00",
+  "Fecha_Inicio": "2026-10-31 11:00:00",
+  "Fecha_fin": "2026-10-31 11:00:00",
   "Locatario": "FERROTANQUE",
   "goles_locatario": "2",
   "puntos_locatario": "3",
@@ -29,11 +29,224 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "12221",
+   "Nombre": "MARIO CESAR RODRIGUEZ",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "16747",
+   "Nombre": "PABLO DANIEL GOMEZ",
+   "camiseta": "15",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "22210",
+   "Nombre": "MARCOS ADOLFO AMESPIL",
+   "camiseta": "71",
+   "Capitan": ""
+  },
+  {
+   "carne": "30868",
+   "Nombre": "PABLO DANIEL ZACHEO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "19570",
+   "Nombre": "SEBASTIAN DURA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "60735",
+   "Nombre": "CHRISTIAN MARCEL BARATTA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "17855",
+   "Nombre": "WASHINGTON SILVA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "17449",
+   "Nombre": "ALEJANDRO GABRIEL BARLOCCO",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "69088",
+   "Nombre": "RICARDO GABRIEL ARRIETA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "40570",
+   "Nombre": "JOSE LEONARDO BERMUDEZ",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "44183",
+   "Nombre": "PABLO GARRO",
+   "camiseta": "34",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "30543",
+   "Nombre": "PABLO EMILIANO CUÑA",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "13367",
+   "Nombre": "JUAN IGNACIO CERRO",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "35038",
+   "Nombre": "PABLO SEBASTIAN VIDAL",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "34908",
+   "Nombre": "DANIEL ADRIAN GONZALEZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "33072",
+   "Nombre": "ALEXANDER SEBASTIAN MOLINA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "62119",
+   "Nombre": "ANIBAL LEONARDO LEIFERT",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "20733",
+   "Nombre": "RODRIGO PEREZ",
+   "camiseta": "27",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "19709",
+   "Nombre": "ALEJANDRO ANDRES KING",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "15656",
+   "Nombre": "ALEJANDRO SEGREDO",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "40391",
+   "Nombre": "PABLO AUGUSTO CORDERO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "17083",
+   "Nombre": "NICOLAS DAMIAN CASTRO",
+   "camiseta": "79",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "12221",
+   "Jug_Sale": "MARIO CESAR RODRIGUEZ",
+   "CarneEntra": "68691",
+   "Jug_Entra": "ESTEBAN DANIEL DILEMA",
+   "camiseta": "1",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "60735",
+   "Jug_Sale": "CHRISTIAN MARCEL BARATTA",
+   "CarneEntra": "27927",
+   "Jug_Entra": "GERMAN LOMBARDI",
+   "camiseta": "5",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "30868",
+   "Jug_Sale": "PABLO DANIEL ZACHEO",
+   "CarneEntra": "22439",
+   "Jug_Entra": "AUGUSTO GUILLERMO AMESPIL",
+   "camiseta": "76",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "22210",
+   "Jug_Sale": "MARCOS ADOLFO AMESPIL",
+   "CarneEntra": "69079",
+   "Jug_Entra": "SANTIAGO ROBERTO BERNARDI",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "40570",
+   "Jug_Sale": "JOSE LEONARDO BERMUDEZ",
+   "CarneEntra": "60735",
+   "Jug_Entra": "CHRISTIAN MARCEL BARATTA",
+   "camiseta": "20",
+   "minutos": "50"
+  },
+  {
+   "CarneSale": "22439",
+   "Jug_Sale": "AUGUSTO GUILLERMO AMESPIL",
+   "CarneEntra": "12221",
+   "Jug_Entra": "MARIO CESAR RODRIGUEZ",
+   "camiseta": "12",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "12221",
+   "Jug_Sale": "MARIO CESAR RODRIGUEZ",
+   "CarneEntra": "30868",
+   "Jug_Entra": "PABLO DANIEL ZACHEO",
+   "camiseta": "23",
+   "minutos": "68"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "30543",
+   "Jug_Sale": "PABLO EMILIANO CUÑA",
+   "CarneEntra": "64346",
+   "Jug_Entra": "FEDERICO RAUL STRAZZARINO",
+   "camiseta": "1",
+   "minutos": "80"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "17449",
+   "Nombre": "ALEJANDRO GABRIEL BARLOCCO",
+   "minutos": "35",
+   "EnContra": "0"
+  },
+  {
+   "carne": "40570",
+   "Nombre": "JOSE LEONARDO BERMUDEZ",
+   "minutos": "25",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

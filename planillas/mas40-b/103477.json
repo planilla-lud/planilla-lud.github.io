@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAS40 \"B\" TIT. y ASC.",
   "Cancha": "COMPLEJO LAS CASUARINAS",
-  "Fecha_Inicio": "2026-10-31 10:30:00",
-  "Fecha_fin": "2026-10-31 10:30:00",
+  "Fecha_Inicio": "2026-10-31 11:00:00",
+  "Fecha_fin": "2026-10-31 11:00:00",
   "Locatario": "FLORES UNIVERSITARIO",
   "goles_locatario": "1",
   "puntos_locatario": "3",
@@ -29,11 +29,242 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "22701",
+   "Nombre": "MATIAS AGUSTIN RODRIGUEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "17253",
+   "Nombre": "RAUL NICOLAS FLORIO",
+   "camiseta": "36",
+   "Capitan": ""
+  },
+  {
+   "carne": "22321",
+   "Nombre": "JOSE IGNACIO GERVAZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "18937",
+   "Nombre": "RAFAEL GONZALEZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "26537",
+   "Nombre": "GONZALO LANGONI",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "22225",
+   "Nombre": "ENRIQUE DANIEL PADIAL",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "20146",
+   "Nombre": "PABLO JAVIER VIERA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "43073",
+   "Nombre": "ALEJANDRO RAFAEL DELUCA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "16856",
+   "Nombre": "CLAUDIO VENANCIO VIERA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "18444",
+   "Nombre": "JOAQUIN BORBONET",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "16210",
+   "Nombre": "JOSE GABRIEL SUAREZ",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "19566",
+   "Nombre": "IGNACIO RIVAROLA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "65725",
+   "Nombre": "MARCELO RAFAEL VIANA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "66837",
+   "Nombre": "ESTEBAN RAUL ZAPATA",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "49509",
+   "Nombre": "ADRIAN LAURINO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "25956",
+   "Nombre": "NICOLAS FABIAN FERNANDEZ",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "62801",
+   "Nombre": "FERNANDO GABRIEL MONTIE",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "23518",
+   "Nombre": "DIEGO HERNAN SCOTTI",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "23243",
+   "Nombre": "IGNACIO ROLDAN",
+   "camiseta": "7",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "40409",
+   "Nombre": "CARLOS FEDERICO FERREIRA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "24828",
+   "Nombre": "FABIAN SOSA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "24705",
+   "Nombre": "RODRIGO RIVERA",
+   "camiseta": "21",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "18444",
+   "Jug_Sale": "JOAQUIN BORBONET",
+   "CarneEntra": "24384",
+   "Jug_Entra": "LEONARDO JAVIER ANGULO",
+   "camiseta": "28",
+   "minutos": "59"
+  },
+  {
+   "CarneSale": "26537",
+   "Jug_Sale": "GONZALO LANGONI",
+   "CarneEntra": "43482",
+   "Jug_Entra": "ALEXIS MARTIN ARENAZA",
+   "camiseta": "22",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "16856",
+   "Jug_Sale": "CLAUDIO VENANCIO VIERA",
+   "CarneEntra": "17125",
+   "Jug_Entra": "MARTIN LIGUORI",
+   "camiseta": "20",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "17253",
+   "Jug_Sale": "RAUL NICOLAS FLORIO",
+   "CarneEntra": "18594",
+   "Jug_Entra": "SEBASTIAN ANDRES PESCE",
+   "camiseta": "12",
+   "minutos": "82"
+  },
+  {
+   "CarneSale": "16210",
+   "Jug_Sale": "JOSE GABRIEL SUAREZ",
+   "CarneEntra": "16856",
+   "Jug_Entra": "CLAUDIO VENANCIO VIERA",
+   "camiseta": "10",
+   "minutos": "82"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "24705",
+   "Jug_Sale": "RODRIGO RIVERA",
+   "CarneEntra": "19695",
+   "Jug_Entra": "JUAN ANDRES HONTAN",
+   "camiseta": "77",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "24828",
+   "Jug_Sale": "FABIAN SOSA",
+   "CarneEntra": "24253",
+   "Jug_Entra": "BERNARDO MARIO PATRONE",
+   "camiseta": "9",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "23243",
+   "Jug_Sale": "IGNACIO ROLDAN",
+   "CarneEntra": "64755",
+   "Jug_Entra": "MARTIN UBAL",
+   "camiseta": "29",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "23518",
+   "Jug_Sale": "DIEGO HERNAN SCOTTI",
+   "CarneEntra": "18229",
+   "Jug_Entra": "GERMAN ANDRES CRAPUCHETTI",
+   "camiseta": "80",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "25956",
+   "Jug_Sale": "NICOLAS FABIAN FERNANDEZ",
+   "CarneEntra": "47109",
+   "Jug_Entra": "GERMAN FERNANDEZ",
+   "camiseta": "3",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "65725",
+   "Jug_Sale": "MARCELO RAFAEL VIANA",
+   "CarneEntra": "18476",
+   "Jug_Entra": "RAFAEL DE LA",
+   "camiseta": "19",
+   "minutos": "45"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "16210",
+   "Nombre": "JOSE GABRIEL SUAREZ",
+   "minutos": "70",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

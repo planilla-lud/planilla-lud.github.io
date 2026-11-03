@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "SUB20 \"A\" PERM. y DESC.",
   "Cancha": "CARRASCO LAWN TENIS (KM 23)",
-  "Fecha_Inicio": "2026-10-31 15:00:00",
-  "Fecha_fin": "2026-10-31 15:00:00",
+  "Fecha_Inicio": "2026-10-31 15:30:00",
+  "Fecha_fin": "2026-10-31 15:30:00",
   "Locatario": "CARRASCO LAWN TENNIS",
   "goles_locatario": "2",
   "puntos_locatario": "1",
@@ -29,12 +29,214 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "57786",
+   "Nombre": "FAUSTINO ARDITTI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "56131",
+   "Nombre": "SEBASTIAN OLAVE",
+   "camiseta": "60",
+   "Capitan": ""
+  },
+  {
+   "carne": "56134",
+   "Nombre": "FELIPE MIGUEL WAS",
+   "camiseta": "23",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "62744",
+   "Nombre": "FELIPE SARACCO",
+   "camiseta": "55",
+   "Capitan": ""
+  },
+  {
+   "carne": "59063",
+   "Nombre": "FRANCISCO RODRIGUEZ",
+   "camiseta": "39",
+   "Capitan": ""
+  },
+  {
+   "carne": "56868",
+   "Nombre": "MAXIMO NICOLAS BAGNARDI",
+   "camiseta": "50",
+   "Capitan": ""
+  },
+  {
+   "carne": "60773",
+   "Nombre": "ALFONSO SCHAICH",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "63410",
+   "Nombre": "TOMAS GRUDZIEN",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "57067",
+   "Nombre": "JUAN BAUTISTA ALGORTA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "58673",
+   "Nombre": "ALEJO FERRES",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "57593",
+   "Nombre": "GENARO DE MORI",
+   "camiseta": "38",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "63203",
+   "Nombre": "JOAQUIN RODRIGUEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "56787",
+   "Nombre": "IGNACIO GONZALEZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "56778",
+   "Nombre": "FRANCISCO GOMEZ",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "63888",
+   "Nombre": "TOMAS NAHUEL AREOSA",
+   "camiseta": "92",
+   "Capitan": ""
+  },
+  {
+   "carne": "64798",
+   "Nombre": "SANTIAGO BIDONDO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "52597",
+   "Nombre": "JOAQUIN ZABALETA",
+   "camiseta": "80",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "64807",
+   "Nombre": "FRANCO GONZALEZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "56098",
+   "Nombre": "MATIAS MARTIRENA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "59293",
+   "Nombre": "AGUSTIN ALMEIDA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "56775",
+   "Nombre": "MARIO AGUSTIN ANDRIOLO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "64808",
+   "Nombre": "MANUEL TIAGO LIARD",
+   "camiseta": "16",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "62744",
+   "Jug_Sale": "FELIPE SARACCO",
+   "CarneEntra": "56869",
+   "Jug_Entra": "NICOLAS PODESTA",
+   "camiseta": "36",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "57593",
+   "Jug_Sale": "GENARO DE MORI",
+   "CarneEntra": "56127",
+   "Jug_Entra": "FELIPE CROCI",
+   "camiseta": "33",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "56868",
+   "Jug_Sale": "MAXIMO NICOLAS BAGNARDI",
+   "CarneEntra": "61501",
+   "Jug_Entra": "IGNACIO PARADA",
+   "camiseta": "50",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "63410",
+   "Jug_Sale": "TOMAS GRUDZIEN",
+   "CarneEntra": "64007",
+   "Jug_Entra": "LAUTARO FERNANDEZ",
+   "camiseta": "30",
+   "minutos": "75"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "56775",
+   "Jug_Sale": "MARIO AGUSTIN ANDRIOLO",
+   "CarneEntra": "63574",
+   "Jug_Entra": "JUAN MANUEL CONDE",
+   "camiseta": "14",
+   "minutos": "56"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "56869",
+   "Nombre": "NICOLAS PODESTA",
+   "minutos": "33",
+   "EnContra": "0"
+  },
+  {
+   "carne": "60773",
+   "Nombre": "ALFONSO SCHAICH",
+   "minutos": "59",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "52597",
+   "Nombre": "JOAQUIN ZABALETA",
+   "minutos": "14",
+   "EnContra": "1"
+  },
+  {
+   "carne": "59293",
+   "Nombre": "AGUSTIN ALMEIDA",
+   "minutos": "62",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

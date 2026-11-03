@@ -7,13 +7,6 @@
   "visitante": "SEMINARIO UNIVERSITARIO"
  },
  {
-  "serie": "20BTA",
-  "fechaHora": "2026-10-31 15:30:00",
-  "cancha": "CAMPO DEP. INSTITUTO CRANDON",
-  "local": "CRANDON UNIVERSITARIO",
-  "visitante": "DEPORTIVO LS UNIVERSITARIO"
- },
- {
   "serie": "20BPD",
   "fechaHora": "2026-10-31 15:30:00",
   "cancha": "SPORT 11",
@@ -21,16 +14,9 @@
   "visitante": "ELBIO FERNANDEZ"
  },
  {
-  "serie": "20BPD",
-  "fechaHora": "2026-10-31 15:30:00",
-  "cancha": "VILLA MARIA",
-  "local": "SAN JOSE DE LA PROVIDENCIA uni",
-  "visitante": "LA BLANQUEADA"
- },
- {
   "serie": "20BTA",
   "fechaHora": "2026-11-03 21:00:00",
-  "cancha": "OLD IVY",
+  "cancha": "COMPLEJO DEPORTIVO ARRAYANES",
   "local": "OLD IVY",
   "visitante": "ISASA UNIVERSITARIO"
  },

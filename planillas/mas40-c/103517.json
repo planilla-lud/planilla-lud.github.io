@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "M40 DIV. C COPA PLATA R2",
   "Cancha": "COM. CLUB UNIVERSIDAD CATOLICA",
-  "Fecha_Inicio": "2026-10-31 10:30:00",
-  "Fecha_fin": "2026-10-31 10:30:00",
+  "Fecha_Inicio": "2026-10-31 10:51:00",
+  "Fecha_fin": "2026-10-31 10:51:00",
   "Locatario": "POCO SITIO PLAYA VERDE",
   "goles_locatario": "2",
   "puntos_locatario": "0",
@@ -29,12 +29,281 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "titularesL": [
+  {
+   "carne": "59318",
+   "Nombre": "JUAN MARIA BRINGA",
+   "camiseta": "70",
+   "Capitan": ""
+  },
+  {
+   "carne": "19105",
+   "Nombre": "FRANCISCO JOAQUIN POITTEVIN",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "19121",
+   "Nombre": "DENIS MAURICIO FERNANDEZ",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "17208",
+   "Nombre": "ISMAEL BERTOLA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "58803",
+   "Nombre": "FEDERICO IGNACIO HOYOS",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "19109",
+   "Nombre": "PABLO ERNESTO BARITUSSIO",
+   "camiseta": "8",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "65009",
+   "Nombre": "SEBASTIAN NOGUEIRA",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "53717",
+   "Nombre": "RODOLFO FABIAN ACEVEDO FAGUNDEZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "31438",
+   "Nombre": "JUAN MARCELO FALCO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "58797",
+   "Nombre": "MARTIN LUIS BRINDISI",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "16469",
+   "Nombre": "ERNESTO CAMILO ROMERO",
+   "camiseta": "12",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "13999",
+   "Nombre": "RAFAEL IGNACIO DI BELLO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "28497",
+   "Nombre": "RODRIGO FERNANDEZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "14151",
+   "Nombre": "AGUSTIN PERRIER",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "23413",
+   "Nombre": "JOSE IGNACIO PEREZ",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "22794",
+   "Nombre": "MAURO ANDRES BURGOS",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "17546",
+   "Nombre": "PABLO AGUSTIN EGUES",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "20905",
+   "Nombre": "FACUNDO LOPEZ",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "20364",
+   "Nombre": "NICOLAS MARTIN ERRICO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "45343",
+   "Nombre": "SANTIAGO ANTONIO RODRIGUEZ",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "32915",
+   "Nombre": "GASTON AGUILAR",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "22331",
+   "Nombre": "DIEGO ALBERTO FALCO",
+   "camiseta": "12",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "53717",
+   "Jug_Sale": "RODOLFO FABIAN ACEVEDO FAGUNDEZ",
+   "CarneEntra": "22327",
+   "Jug_Entra": "CLAUDIO SEBASTIAN CUSATI",
+   "camiseta": "0",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58803",
+   "Jug_Sale": "FEDERICO IGNACIO HOYOS",
+   "CarneEntra": "53660",
+   "Jug_Entra": "MARCOS GABRIEL DA ROSA",
+   "camiseta": "25",
+   "minutos": "35"
+  },
+  {
+   "CarneSale": "65009",
+   "Jug_Sale": "SEBASTIAN NOGUEIRA",
+   "CarneEntra": "51463",
+   "Jug_Entra": "CARLOS ALFREDO BENITEZ",
+   "camiseta": "7",
+   "minutos": "31"
+  },
+  {
+   "CarneSale": "17208",
+   "Jug_Sale": "ISMAEL BERTOLA",
+   "CarneEntra": "63633",
+   "Jug_Entra": "NICOLAS ANDRES SORIA",
+   "camiseta": "21",
+   "minutos": "10"
+  },
+  {
+   "CarneSale": "58803",
+   "Jug_Sale": "FEDERICO IGNACIO HOYOS",
+   "CarneEntra": "53717",
+   "Jug_Entra": "RODOLFO FABIAN ACEVEDO FAGUNDEZ",
+   "camiseta": "11",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "58797",
+   "Jug_Sale": "MARTIN LUIS BRINDISI",
+   "CarneEntra": "65009",
+   "Jug_Entra": "SEBASTIAN NOGUEIRA",
+   "camiseta": "31",
+   "minutos": "72"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "32915",
+   "Jug_Sale": "GASTON AGUILAR",
+   "CarneEntra": "53619",
+   "Jug_Entra": "GABRIEL ALEJANDRO DACAL",
+   "camiseta": "32",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "45343",
+   "Jug_Sale": "SANTIAGO ANTONIO RODRIGUEZ",
+   "CarneEntra": "61272",
+   "Jug_Entra": "LUIS GAMIO",
+   "camiseta": "7",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "45343",
+   "Jug_Sale": "SANTIAGO ANTONIO RODRIGUEZ",
+   "CarneEntra": "61953",
+   "Jug_Entra": "NICOLAS JULIO CANESSA",
+   "camiseta": "24",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "22794",
+   "Jug_Sale": "MAURO ANDRES BURGOS",
+   "CarneEntra": "15143",
+   "Jug_Entra": "NICOLAS LIEUTIER",
+   "camiseta": "33",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "20905",
+   "Jug_Sale": "FACUNDO LOPEZ",
+   "CarneEntra": "22794",
+   "Jug_Entra": "MAURO ANDRES BURGOS",
+   "camiseta": "14",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "14151",
+   "Jug_Sale": "AGUSTIN PERRIER",
+   "CarneEntra": "17263",
+   "Jug_Entra": "LEONARDO ALONSO",
+   "camiseta": "91",
+   "minutos": "87"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "19121",
+   "Nombre": "DENIS MAURICIO FERNANDEZ",
+   "minutos": "40",
+   "EnContra": "0"
+  },
+  {
+   "carne": "19121",
+   "Nombre": "DENIS MAURICIO FERNANDEZ",
+   "minutos": "52",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "14151",
+   "Nombre": "AGUSTIN PERRIER",
+   "minutos": "51",
+   "EnContra": "1"
+  },
+  {
+   "carne": "14151",
+   "Nombre": "AGUSTIN PERRIER",
+   "minutos": "76",
+   "EnContra": "1"
+  },
+  {
+   "carne": "45343",
+   "Nombre": "SANTIAGO ANTONIO RODRIGUEZ",
+   "minutos": "12",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "ERNESTO CAMILO ROMERO",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

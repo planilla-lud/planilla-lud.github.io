@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAS40 \"A\" PERM. y DESC.",
   "Cancha": "COMPLEJO URUNDAY UNIVERSITARIO",
-  "Fecha_Inicio": "2026-10-31 10:30:00",
-  "Fecha_fin": "2026-10-31 10:30:00",
+  "Fecha_Inicio": "2026-10-31 10:55:00",
+  "Fecha_fin": "2026-10-31 10:55:00",
   "Locatario": "URUNDAY UNIVERSITARIO",
   "goles_locatario": "2",
   "puntos_locatario": "1",
@@ -29,12 +29,247 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "titularesL": [
+  {
+   "carne": "13146",
+   "Nombre": "DIEGO RODRIGO BRESCIANI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "22237",
+   "Nombre": "WALTER WILLIAMS BRADFORD",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "22309",
+   "Nombre": "MARTIN GOYEN",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "18675",
+   "Nombre": "GERMAN AGUSTIN PEREZ",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "25856",
+   "Nombre": "FEDERICO AGUSTIN GARCIA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "33509",
+   "Nombre": "HORACIO CORUJO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "64158",
+   "Nombre": "FEDERICO GABRIEL GRANDILLO",
+   "camiseta": "37",
+   "Capitan": ""
+  },
+  {
+   "carne": "13585",
+   "Nombre": "DANIEL ALEJANDRO MARTIN",
+   "camiseta": "51",
+   "Capitan": ""
+  },
+  {
+   "carne": "30421",
+   "Nombre": "JAVIER FEDERICO RODRIGUEZ",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "14997",
+   "Nombre": "RODRIGO FERNANDO PEREZ",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "22443",
+   "Nombre": "FEDERICO GUILLERMO SALES",
+   "camiseta": "33",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "14138",
+   "Nombre": "GERMAN ODDONE",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "16277",
+   "Nombre": "EDUARDO MISA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "18358",
+   "Nombre": "RODRIGO CASTRO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "36335",
+   "Nombre": "JORGE LUIS SEIJAS",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "11221",
+   "Nombre": "MARIO SERGIO BADANO",
+   "camiseta": "28",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "46961",
+   "Nombre": "GERARDO FRANCISCO ALCIATURI",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "19298",
+   "Nombre": "GERMAN FEDERICO MOTTOLA",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "47565",
+   "Nombre": "JUAN RAMIRO PERADOTTO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "20245",
+   "Nombre": "MATIAS AGUSTIN GONZALEZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "13983",
+   "Nombre": "MARCELO DANIEL MAUTTONI",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "13276",
+   "Nombre": "JUAN MIGUEL KEUSHKERIAN",
+   "camiseta": "17",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "22309",
+   "Jug_Sale": "MARTIN GOYEN",
+   "CarneEntra": "22373",
+   "Jug_Entra": "WALTER LEANDRO BLARDONI",
+   "camiseta": "82",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "13585",
+   "Jug_Sale": "DANIEL ALEJANDRO MARTIN",
+   "CarneEntra": "21150",
+   "Jug_Entra": "MARTIN SEBASTIAN SANCHEZ",
+   "camiseta": "39",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "18675",
+   "Jug_Sale": "GERMAN AGUSTIN PEREZ",
+   "CarneEntra": "33120",
+   "Jug_Entra": "GABRIEL HERNAN PEZZANO",
+   "camiseta": "20",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "14997",
+   "Jug_Sale": "RODRIGO FERNANDO PEREZ",
+   "CarneEntra": "15707",
+   "Jug_Entra": "GABRIEL MARTIN DIAZ",
+   "camiseta": "2",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "18675",
+   "Jug_Sale": "GERMAN AGUSTIN PEREZ",
+   "CarneEntra": "56809",
+   "Jug_Entra": "MAXIMILIANO MENDEZ",
+   "camiseta": "3",
+   "minutos": "45"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "16277",
+   "Jug_Sale": "EDUARDO MISA",
+   "CarneEntra": "20135",
+   "Jug_Entra": "GABRIEL GONZALEZ",
+   "camiseta": "5",
+   "minutos": "23"
+  },
+  {
+   "CarneSale": "18358",
+   "Jug_Sale": "RODRIGO CASTRO",
+   "CarneEntra": "14724",
+   "Jug_Entra": "JUAN IGNACIO DEL",
+   "camiseta": "15",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "13276",
+   "Jug_Sale": "JUAN MIGUEL KEUSHKERIAN",
+   "CarneEntra": "12575",
+   "Jug_Entra": "SERGIO JAVIER FARAVELLI",
+   "camiseta": "10",
+   "minutos": "75"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "25856",
+   "Nombre": "FEDERICO AGUSTIN GARCIA",
+   "minutos": "88",
+   "EnContra": "0"
+  },
+  {
+   "carne": "33120",
+   "Nombre": "GABRIEL HERNAN PEZZANO",
+   "minutos": "85",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "19298",
+   "Nombre": "GERMAN FEDERICO MOTTOLA",
+   "minutos": "90",
+   "EnContra": "1"
+  },
+  {
+   "carne": "46961",
+   "Nombre": "GERARDO FRANCISCO ALCIATURI",
+   "minutos": "58",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "FEDERICO AGUSTIN GARCIA",
+   "observaciones": ""
+  },
+  {
+   "Nombre": "FEDERICO GUILLERMO SALES",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

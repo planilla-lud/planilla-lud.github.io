@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "SUB20 \"C\" TIT. y ASC.",
   "Cancha": "COMPLEJO LOS CARDALES",
-  "Fecha_Inicio": "2026-10-31 17:00:00",
-  "Fecha_fin": "2026-10-31 17:00:00",
+  "Fecha_Inicio": "2026-10-31 17:20:00",
+  "Fecha_fin": "2026-10-31 17:20:00",
   "Locatario": "SAGRADA FAMILIA UNIVERSITARIO",
   "goles_locatario": "1",
   "puntos_locatario": "1",
@@ -29,12 +29,266 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "57025",
+   "Nombre": "FACUNDO AGUSTIN DA ROSA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "60191",
+   "Nombre": "RENZO DIAZ",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "58953",
+   "Nombre": "THIAGO EPHERRE",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "59749",
+   "Nombre": "FACUNDO SORIA HORNOS",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "58755",
+   "Nombre": "FELIPE RODRIGUEZ",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "56678",
+   "Nombre": "GUILLERMO GABRIEL STUART",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "68551",
+   "Nombre": "NICOLAS GARCIA",
+   "camiseta": "76",
+   "Capitan": ""
+  },
+  {
+   "carne": "58679",
+   "Nombre": "JOAQUIN MARZIALI",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "58676",
+   "Nombre": "JUAN MANUEL VALDEZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "55791",
+   "Nombre": "NAHUEL AGUSTIN ALVAREZ",
+   "camiseta": "1",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56452",
+   "Nombre": "PEDRO FACELLO",
+   "camiseta": "45",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "69011",
+   "Nombre": "SANTIAGO DANILO GONZALEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "61526",
+   "Nombre": "FACUNDO ARTIGUE",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "58023",
+   "Nombre": "MANUEL MENDEZ",
+   "camiseta": "20",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "64043",
+   "Nombre": "ALEX FERNANDEZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "67453",
+   "Nombre": "ADRIAN STEVEN RAMIREZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "64282",
+   "Nombre": "FACUNDO BORCHE",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "64044",
+   "Nombre": "LORENZO RAVA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "69115",
+   "Nombre": "LUCAS ANDRES GIGENA",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "68945",
+   "Nombre": "JONATHAN NAHUEL ROMERO",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "68894",
+   "Nombre": "TOMAS RUA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "68948",
+   "Nombre": "NICOLAS BERTIZ",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "56678",
+   "Jug_Sale": "GUILLERMO GABRIEL STUART",
+   "CarneEntra": "65918",
+   "Jug_Entra": "XOSE PABLO JALIFE",
+   "camiseta": "33",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56452",
+   "Jug_Sale": "PEDRO FACELLO",
+   "CarneEntra": "63845",
+   "Jug_Entra": "VITO SANTINO MALAGUEZ",
+   "camiseta": "14",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "58676",
+   "Jug_Sale": "JUAN MANUEL VALDEZ",
+   "CarneEntra": "66808",
+   "Jug_Entra": "BRUNO MARTIN BENTANCUR",
+   "camiseta": "27",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "55791",
+   "Jug_Sale": "NAHUEL AGUSTIN ALVAREZ",
+   "CarneEntra": "65070",
+   "Jug_Entra": "JUAN GERMAN DAVILA",
+   "camiseta": "88",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "59749",
+   "Jug_Sale": "FACUNDO SORIA HORNOS",
+   "CarneEntra": "64409",
+   "Jug_Entra": "LUCIANO SALVADOR ARISMENDI",
+   "camiseta": "25",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "68551",
+   "Jug_Sale": "NICOLAS GARCIA",
+   "CarneEntra": "58676",
+   "Jug_Entra": "JUAN MANUEL VALDEZ",
+   "camiseta": "17",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "58679",
+   "Jug_Sale": "JOAQUIN MARZIALI",
+   "CarneEntra": "56452",
+   "Jug_Entra": "PEDRO FACELLO",
+   "camiseta": "45",
+   "minutos": "80"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "68894",
+   "Jug_Sale": "TOMAS RUA",
+   "CarneEntra": "67360",
+   "Jug_Entra": "JOAQUIN GURIDI",
+   "camiseta": "21",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "69115",
+   "Jug_Sale": "LUCAS ANDRES GIGENA",
+   "CarneEntra": "68946",
+   "Jug_Entra": "MATEO AGUSTIN CARVALLO",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58023",
+   "Jug_Sale": "MANUEL MENDEZ",
+   "CarneEntra": "60641",
+   "Jug_Entra": "JOAQUIN ABELLA",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68948",
+   "Jug_Sale": "NICOLAS BERTIZ",
+   "CarneEntra": "64473",
+   "Jug_Entra": "GIANFRANCO MARCHIORO",
+   "camiseta": "9",
+   "minutos": "53"
+  },
+  {
+   "CarneSale": "64282",
+   "Jug_Sale": "FACUNDO BORCHE",
+   "CarneEntra": "68948",
+   "Jug_Entra": "NICOLAS BERTIZ",
+   "camiseta": "7",
+   "minutos": "8"
+  },
+  {
+   "CarneSale": "68945",
+   "Jug_Sale": "JONATHAN NAHUEL ROMERO",
+   "CarneEntra": "68894",
+   "Jug_Entra": "TOMAS RUA",
+   "camiseta": "14",
+   "minutos": "19"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "56452",
+   "Nombre": "PEDRO FACELLO",
+   "minutos": "17",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "68948",
+   "Nombre": "NICOLAS BERTIZ",
+   "minutos": "5",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

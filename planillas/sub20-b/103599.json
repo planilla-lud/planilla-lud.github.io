@@ -1,0 +1,263 @@
+{
+ "id": "103599",
+ "categoria": "sub20-b",
+ "serie": "20BTA",
+ "fecha": 6,
+ "fechaHora": "2026-10-31 15:30:00",
+ "cancha": "CAMPO DEP. INSTITUTO CRANDON",
+ "local": "CRANDON UNIVERSITARIO",
+ "visitante": "DEPORTIVO LS UNIVERSITARIO",
+ "gl": 0,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "437",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "2",
+  "Divisional": "SUB20 \"B\" TITULO",
+  "Cancha": "CAMPO DEP. INSTITUTO CRANDON",
+  "Fecha_Inicio": "2026-10-31 17:23:00",
+  "Fecha_fin": "2026-10-31 17:23:00",
+  "Locatario": "CRANDON UNIVERSITARIO",
+  "goles_locatario": "0",
+  "puntos_locatario": "0",
+  "Visitante": "DEPORTIVO LS UNIVERSITARIO",
+  "goles_visitante": "1",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "58657",
+   "Nombre": "SANTIAGO CID DE LA PAZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "58801",
+   "Nombre": "SALVADOR GARCIA LAGOS",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "58652",
+   "Nombre": "AGUSTIN OXACELHAY",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "58600",
+   "Nombre": "JUAN IGNACIO ACOSTA",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "58502",
+   "Nombre": "TIZIANO VILA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "58602",
+   "Nombre": "IGNACIO COSTA",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "57632",
+   "Nombre": "AGUSTIN MANTERO",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "61256",
+   "Nombre": "FRANCO CHELINI",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "58601",
+   "Nombre": "LUCAS LENZI",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "57598",
+   "Nombre": "LUCAS KEUSHKERIAN",
+   "camiseta": "72",
+   "Capitan": ""
+  },
+  {
+   "carne": "58609",
+   "Nombre": "PATRICIO GIOVANNI GAROFOLO",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "60866",
+   "Nombre": "SANTINO SALAVERRY",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "59424",
+   "Nombre": "FACUNDO TOMAS GARCIA",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "63703",
+   "Nombre": "MATHIAS AGUSTIN LOPEZ",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "59396",
+   "Nombre": "KEVIN NICOLAS BARRERA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "57849",
+   "Nombre": "FEDERICO MANUEL BOGAO",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "56800",
+   "Nombre": "ELIAS LAUTARO IOVINE",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "59545",
+   "Nombre": "EMILIANO JOAQUIN PAREDES",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "59419",
+   "Nombre": "IMANOL FYNN",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "63545",
+   "Nombre": "GONZALO DANIEL GRECIET",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "59409",
+   "Nombre": "FRANCO LARROSA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "56173",
+   "Nombre": "MATHIAS NAHUEL PEREIRA",
+   "camiseta": "17",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "58600",
+   "Jug_Sale": "JUAN IGNACIO ACOSTA",
+   "CarneEntra": "58655",
+   "Jug_Entra": "MATIAS DONNANGELO",
+   "camiseta": "20",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58601",
+   "Jug_Sale": "LUCAS LENZI",
+   "CarneEntra": "55501",
+   "Jug_Entra": "SEBASTIAN RODRIGUEZ",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61256",
+   "Jug_Sale": "FRANCO CHELINI",
+   "CarneEntra": "58798",
+   "Jug_Entra": "MATEO FRAGA",
+   "camiseta": "9",
+   "minutos": "81"
+  },
+  {
+   "CarneSale": "57598",
+   "Jug_Sale": "LUCAS KEUSHKERIAN",
+   "CarneEntra": "57601",
+   "Jug_Entra": "RODRIGO INFANTOZZI",
+   "camiseta": "26",
+   "minutos": "81"
+  },
+  {
+   "CarneSale": "57632",
+   "Jug_Sale": "AGUSTIN MANTERO",
+   "CarneEntra": "56199",
+   "Jug_Entra": "MATIAS ANDRES MORAES",
+   "camiseta": "22",
+   "minutos": "81"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "63545",
+   "Jug_Sale": "GONZALO DANIEL GRECIET",
+   "CarneEntra": "61020",
+   "Jug_Entra": "GONZALO HUERTAS",
+   "camiseta": "13",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "60866",
+   "Jug_Sale": "SANTINO SALAVERRY",
+   "CarneEntra": "56419",
+   "Jug_Entra": "JUAN MANUEL VERA",
+   "camiseta": "14",
+   "minutos": "53"
+  },
+  {
+   "CarneSale": "59409",
+   "Jug_Sale": "FRANCO LARROSA",
+   "CarneEntra": "56421",
+   "Jug_Entra": "DAMIAN DENES",
+   "camiseta": "13",
+   "minutos": "83"
+  },
+  {
+   "CarneSale": "63545",
+   "Jug_Sale": "GONZALO DANIEL GRECIET",
+   "CarneEntra": "58225",
+   "Jug_Entra": "GASTON PRILIAC",
+   "camiseta": "48",
+   "minutos": "87"
+  },
+  {
+   "CarneSale": "56173",
+   "Jug_Sale": "MATHIAS NAHUEL PEREIRA",
+   "CarneEntra": "56479",
+   "Jug_Entra": "FRANCISCO IVAN FERNANDEZ",
+   "camiseta": "4",
+   "minutos": "90"
+  }
+ ],
+ "golesL": [],
+ "golesV": [
+  {
+   "carne": "56173",
+   "Nombre": "MATHIAS NAHUEL PEREIRA",
+   "minutos": "23",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "SUB20 \"C\" TIT. y ASC.",
   "Cancha": "COLEGIO PIO",
-  "Fecha_Inicio": "2026-10-31 17:00:00",
-  "Fecha_fin": "2026-10-31 17:00:00",
+  "Fecha_Inicio": "2026-10-31 17:30:00",
+  "Fecha_fin": "2026-10-31 17:30:00",
   "Locatario": "CENTRO CRISTOBAL COLON",
   "goles_locatario": "1",
   "puntos_locatario": "0",
@@ -29,12 +29,299 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "titularesL": [
+  {
+   "carne": "61603",
+   "Nombre": "IGNACIO GUERRERO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "61299",
+   "Nombre": "FRANCO CROCCO",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "64258",
+   "Nombre": "BRUNO ALEJANDRO MARRERO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "62358",
+   "Nombre": "MATEO FIGUEROA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "61142",
+   "Nombre": "FELIPE ODAZZIO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "61216",
+   "Nombre": "JUAN FRANCISCO PASSADORE",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "67328",
+   "Nombre": "UZIEL GIMENEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "62356",
+   "Nombre": "AGUSTIN DA ROSA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "64958",
+   "Nombre": "LUCA AFONZO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "65327",
+   "Nombre": "JUAN IGNACIO GOMEZ",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "63435",
+   "Nombre": "MATEO ADOLFO OXEHUFWUD",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "62933",
+   "Nombre": "JUAN DIEGO ACOSTA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "62890",
+   "Nombre": "BAUTISTA ALBERTO SPENCER",
+   "camiseta": "51",
+   "Capitan": ""
+  },
+  {
+   "carne": "55113",
+   "Nombre": "FRANCISCO FERREYRA",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "62908",
+   "Nombre": "MATHEUS JOSE DE MORAES",
+   "camiseta": "96",
+   "Capitan": ""
+  },
+  {
+   "carne": "59354",
+   "Nombre": "FRANCISCO BULEIN",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "60829",
+   "Nombre": "SANTIAGO MORALES",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "67027",
+   "Nombre": "ARON ESTEVEZ",
+   "camiseta": "97",
+   "Capitan": ""
+  },
+  {
+   "carne": "59049",
+   "Nombre": "SANTIAGO CABRERA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "67026",
+   "Nombre": "JUAN PABLO CANEPA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "58706",
+   "Nombre": "MATIAS ORTIZ",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "58726",
+   "Nombre": "CAMILO CORRALES",
+   "camiseta": "71",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "61216",
+   "Jug_Sale": "JUAN FRANCISCO PASSADORE",
+   "CarneEntra": "61215",
+   "Jug_Entra": "JOAQUIN PASSADORE",
+   "camiseta": "25",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "63435",
+   "Jug_Sale": "MATEO ADOLFO OXEHUFWUD",
+   "CarneEntra": "63570",
+   "Jug_Entra": "JUAN SEBASTIAN CORONEL",
+   "camiseta": "17",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64958",
+   "Jug_Sale": "LUCA AFONZO",
+   "CarneEntra": "64261",
+   "Jug_Entra": "SANTIAGO HERRERA",
+   "camiseta": "4",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "61299",
+   "Jug_Sale": "FRANCO CROCCO",
+   "CarneEntra": "63435",
+   "Jug_Entra": "MATEO ADOLFO OXEHUFWUD",
+   "camiseta": "7",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "62358",
+   "Jug_Sale": "MATEO FIGUEROA",
+   "CarneEntra": "68832",
+   "Jug_Entra": "LEANDRO AGUSTIN PASANANTE",
+   "camiseta": "99",
+   "minutos": "85"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "58706",
+   "Jug_Sale": "MATIAS ORTIZ",
+   "CarneEntra": "68593",
+   "Jug_Entra": "FACUNDO DANIEL ESNAL",
+   "camiseta": "10",
+   "minutos": "35"
+  },
+  {
+   "CarneSale": "59049",
+   "Jug_Sale": "SANTIAGO CABRERA",
+   "CarneEntra": "69185",
+   "Jug_Entra": "JUAN SEBASTIAN FERNANDEZ",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "62890",
+   "Jug_Sale": "BAUTISTA ALBERTO SPENCER",
+   "CarneEntra": "60168",
+   "Jug_Entra": "RAFAEL DELGADO",
+   "camiseta": "19",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "62908",
+   "Jug_Sale": "MATHEUS JOSE DE MORAES",
+   "CarneEntra": "58971",
+   "Jug_Entra": "GUILLERMO SANTIAGO CABARCOS",
+   "camiseta": "13",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "60829",
+   "Jug_Sale": "SANTIAGO MORALES",
+   "CarneEntra": "63099",
+   "Jug_Entra": "JOAQUIN FERNANDO HERNANDEZ",
+   "camiseta": "4",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67027",
+   "Jug_Sale": "ARON ESTEVEZ",
+   "CarneEntra": "65867",
+   "Jug_Entra": "FACUNDO AGUSTIN FERNANDEZ",
+   "camiseta": "17",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "58726",
+   "Jug_Sale": "CAMILO CORRALES",
+   "CarneEntra": "59052",
+   "Jug_Entra": "NICOLAS ANDRES BALDINI",
+   "camiseta": "16",
+   "minutos": "68"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "63570",
+   "Nombre": "JUAN SEBASTIAN CORONEL",
+   "minutos": "81",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "58706",
+   "Nombre": "MATIAS ORTIZ",
+   "minutos": "7",
+   "EnContra": "1"
+  },
+  {
+   "carne": "58706",
+   "Nombre": "MATIAS ORTIZ",
+   "minutos": "13",
+   "EnContra": "1"
+  },
+  {
+   "carne": "67026",
+   "Nombre": "JUAN PABLO CANEPA",
+   "minutos": "57",
+   "EnContra": "1"
+  },
+  {
+   "carne": "67026",
+   "Nombre": "JUAN PABLO CANEPA",
+   "minutos": "46",
+   "EnContra": "1"
+  },
+  {
+   "carne": "67026",
+   "Nombre": "JUAN PABLO CANEPA",
+   "minutos": "84",
+   "EnContra": "1"
+  },
+  {
+   "carne": "67026",
+   "Nombre": "JUAN PABLO CANEPA",
+   "minutos": "87",
+   "EnContra": "1"
+  },
+  {
+   "carne": "68593",
+   "Nombre": "FACUNDO DANIEL ESNAL",
+   "minutos": "80",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "JUAN IGNACIO GOMEZ",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

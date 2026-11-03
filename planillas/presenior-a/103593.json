@@ -1,0 +1,273 @@
+{
+ "id": "103593",
+ "categoria": "presenior-a",
+ "serie": "PSAPD",
+ "fecha": 5,
+ "fechaHora": "2026-10-31 09:00:00",
+ "cancha": "COMPLEJO LAS CASUARINAS",
+ "local": "CLUB JESUS MARIA",
+ "visitante": "ELBIO FERNANDEZ",
+ "gl": 1,
+ "gv": 2,
+ "detalle": {
+  "nro_partido": "823",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "PRE SENIOR",
+  "categoria": "PRE-SENIOR MASCULINO",
+  "rueda": "2",
+  "Divisional": "PRESENIOR \"A\" PER. y DESC",
+  "Cancha": "COMPLEJO LAS CASUARINAS",
+  "Fecha_Inicio": "2026-10-31 11:00:00",
+  "Fecha_fin": "2026-10-31 11:00:00",
+  "Locatario": "CLUB JESUS MARIA",
+  "goles_locatario": "1",
+  "puntos_locatario": "0",
+  "Visitante": "ELBIO FERNANDEZ",
+  "goles_visitante": "2",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "40434",
+   "Nombre": "JUAN PABLO DEUS",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "33051",
+   "Nombre": "JUAN MARCELO DUTRA",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "25136",
+   "Nombre": "EDUARDO MARCELO FRANCO",
+   "camiseta": "0",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "27038",
+   "Nombre": "JAVIER CARRAU",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "25135",
+   "Nombre": "RODRIGO CAMPOAMOR",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "23159",
+   "Nombre": "NICOLAS LOPEZ",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "33503",
+   "Nombre": "NICOLAS FEUERSTEIN",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "27997",
+   "Nombre": "NICOLAS VALDEZ",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "36531",
+   "Nombre": "IGNACIO JIMENEZ",
+   "camiseta": "71",
+   "Capitan": ""
+  },
+  {
+   "carne": "25027",
+   "Nombre": "SANTIAGO MATIAS RAMA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "23357",
+   "Nombre": "MIGUEL IGNACIO FERNANDEZ",
+   "camiseta": "12",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "37846",
+   "Nombre": "CHRISTIAN DEL CASTILLO",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "65023",
+   "Nombre": "BRUNO MATIAS SOSA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "20401",
+   "Nombre": "JUAN PEDRO QUAGLIATA",
+   "camiseta": "2",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "35597",
+   "Nombre": "FABIAN CHIRIBAO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "40793",
+   "Nombre": "FERNANDO ABDO",
+   "camiseta": "70",
+   "Capitan": ""
+  },
+  {
+   "carne": "27192",
+   "Nombre": "JULIAN ALBERTO SPENCER",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "34126",
+   "Nombre": "ALEXIS GERMAN GARRO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "33785",
+   "Nombre": "ALEJANDRO RAYMOND",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "28073",
+   "Nombre": "CHRISTIAN FERNANDO VIGORITO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "27042",
+   "Nombre": "MAXIMILIANO ALBERTO CHIRIBAO",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "28083",
+   "Nombre": "JUAN PEDRO BALBI",
+   "camiseta": "21",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "27038",
+   "Jug_Sale": "JAVIER CARRAU",
+   "CarneEntra": "26423",
+   "Jug_Entra": "RENZO OMAR BEGHETTI",
+   "camiseta": "15",
+   "minutos": "40"
+  },
+  {
+   "CarneSale": "23159",
+   "Jug_Sale": "NICOLAS LOPEZ",
+   "CarneEntra": "35550",
+   "Jug_Entra": "JOSE IGNACIO RINALDI",
+   "camiseta": "35",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "23357",
+   "Jug_Sale": "MIGUEL IGNACIO FERNANDEZ",
+   "CarneEntra": "31819",
+   "Jug_Entra": "NICOLAS ALEJANDRO FIORDELMONDO",
+   "camiseta": "22",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "36531",
+   "Jug_Sale": "IGNACIO JIMENEZ",
+   "CarneEntra": "18309",
+   "Jug_Entra": "MATEO VIDAL",
+   "camiseta": "82",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "33051",
+   "Jug_Sale": "JUAN MARCELO DUTRA",
+   "CarneEntra": "28582",
+   "Jug_Entra": "DARIO DI GIOVANNI",
+   "camiseta": "24",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "33503",
+   "Jug_Sale": "NICOLAS FEUERSTEIN",
+   "CarneEntra": "22062",
+   "Jug_Entra": "AGUSTIN VERNASSA",
+   "camiseta": "21",
+   "minutos": "70"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "33785",
+   "Jug_Sale": "ALEJANDRO RAYMOND",
+   "CarneEntra": "65023",
+   "Jug_Entra": "BRUNO MATIAS SOSA",
+   "camiseta": "14",
+   "minutos": "47"
+  },
+  {
+   "CarneSale": "65023",
+   "Jug_Sale": "BRUNO MATIAS SOSA",
+   "CarneEntra": "26332",
+   "Jug_Entra": "SEBASTIAN CARDOZO",
+   "camiseta": "13",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "26332",
+   "Jug_Sale": "SEBASTIAN CARDOZO",
+   "CarneEntra": "15508",
+   "Jug_Entra": "DANIEL SEBASTIAN MARTINEZ",
+   "camiseta": "9",
+   "minutos": "81"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "25027",
+   "Nombre": "SANTIAGO MATIAS RAMA",
+   "minutos": "23",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "27042",
+   "Nombre": "MAXIMILIANO ALBERTO CHIRIBAO",
+   "minutos": "50",
+   "EnContra": "1"
+  },
+  {
+   "carne": "27192",
+   "Nombre": "JULIAN ALBERTO SPENCER",
+   "minutos": "1",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "NICOLAS VALDEZ",
+   "observaciones": ""
+  }
+ ],
+ "expulsadosV": []
+}

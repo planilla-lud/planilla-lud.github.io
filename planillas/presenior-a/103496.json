@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"A\" PER. y DESC",
   "Cancha": "COM. CLUB UNIVERSIDAD CATOLICA",
-  "Fecha_Inicio": "2026-10-31 12:45:00",
-  "Fecha_fin": "2026-10-31 12:45:00",
+  "Fecha_Inicio": "2026-10-31 13:08:00",
+  "Fecha_fin": "2026-10-31 13:08:00",
   "Locatario": "UNIVERSITARIO VERONES",
   "goles_locatario": "6",
   "puntos_locatario": "3",
@@ -29,12 +29,267 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "49186",
+   "Nombre": "CHARLES ADRIAN MARTINEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "49719",
+   "Nombre": "SERGIO ADRIAN ABALO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "28265",
+   "Nombre": "SANTIAGO GASTON GIUFFRA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "33390",
+   "Nombre": "MAURIZIO ADINOLFI",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "35044",
+   "Nombre": "EDISON ANDRES DOMINGUEZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "19034",
+   "Nombre": "MATIAS SURRA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "32130",
+   "Nombre": "JUAN MANUEL TARALLO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "24949",
+   "Nombre": "MARTIN MARIO MERA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "35143",
+   "Nombre": "DAVIS STEVEN SANCHEZ",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "21518",
+   "Nombre": "RAUL MAXIMILIANO QUINTANA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "29845",
+   "Nombre": "HORACIO DAMIAN CASANOVA",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "35976",
+   "Nombre": "FEDERICO GARCIA",
+   "camiseta": "76",
+   "Capitan": ""
+  },
+  {
+   "carne": "39060",
+   "Nombre": "FRANCISCO DANIEL BENTANCOR",
+   "camiseta": "47",
+   "Capitan": ""
+  },
+  {
+   "carne": "29114",
+   "Nombre": "JOSE SEBASTIAN GRATTAROLA",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "31517",
+   "Nombre": "ALEJANDRO BAUDO",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "34340",
+   "Nombre": "FEDERICO VARGHA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "21347",
+   "Nombre": "GUILLERMO FERNANDO TORIJA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "34256",
+   "Nombre": "GASTON ELBIO CANCELA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "22757",
+   "Nombre": "SEBASTIAN CORREA",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "40268",
+   "Nombre": "FABIAN RODRIGUEZ",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "28237",
+   "Nombre": "MARCELO DAMIAN CASTRILLEJO",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "26412",
+   "Nombre": "DIEGO ALDEBAR TILLIMAN",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "35143",
+   "Jug_Sale": "DAVIS STEVEN SANCHEZ",
+   "CarneEntra": "30933",
+   "Jug_Entra": "JORGE MARTIN CORREA",
+   "camiseta": "15",
+   "minutos": "35"
+  },
+  {
+   "CarneSale": "33390",
+   "Jug_Sale": "MAURIZIO ADINOLFI",
+   "CarneEntra": "22553",
+   "Jug_Entra": "GONZALO DANIEL PALAU",
+   "camiseta": "17",
+   "minutos": "84"
+  },
+  {
+   "CarneSale": "35143",
+   "Jug_Sale": "DAVIS STEVEN SANCHEZ",
+   "CarneEntra": "31643",
+   "Jug_Entra": "SANTIAGO NICOLAS PEREIRA",
+   "camiseta": "23",
+   "minutos": "86"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "26412",
+   "Jug_Sale": "DIEGO ALDEBAR TILLIMAN",
+   "CarneEntra": "54309",
+   "Jug_Entra": "JUAN MANUEL PUERTA",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "39060",
+   "Jug_Sale": "FRANCISCO DANIEL BENTANCOR",
+   "CarneEntra": "30154",
+   "Jug_Entra": "CHRISTIAN GRIFIN",
+   "camiseta": "13",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "29114",
+   "Jug_Sale": "JOSE SEBASTIAN GRATTAROLA",
+   "CarneEntra": "54528",
+   "Jug_Entra": "ALFREDO ANDRES HERRERA",
+   "camiseta": "19",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "22757",
+   "Jug_Sale": "SEBASTIAN CORREA",
+   "CarneEntra": "39060",
+   "Jug_Entra": "FRANCISCO DANIEL BENTANCOR",
+   "camiseta": "47",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "28237",
+   "Jug_Sale": "MARCELO DAMIAN CASTRILLEJO",
+   "CarneEntra": "26412",
+   "Jug_Entra": "DIEGO ALDEBAR TILLIMAN",
+   "camiseta": "9",
+   "minutos": "76"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "21518",
+   "Nombre": "RAUL MAXIMILIANO QUINTANA",
+   "minutos": "24",
+   "EnContra": "0"
+  },
+  {
+   "carne": "21518",
+   "Nombre": "RAUL MAXIMILIANO QUINTANA",
+   "minutos": "35",
+   "EnContra": "0"
+  },
+  {
+   "carne": "29845",
+   "Nombre": "HORACIO DAMIAN CASANOVA",
+   "minutos": "91",
+   "EnContra": "0"
+  },
+  {
+   "carne": "29845",
+   "Nombre": "HORACIO DAMIAN CASANOVA",
+   "minutos": "92",
+   "EnContra": "0"
+  },
+  {
+   "carne": "30933",
+   "Nombre": "JORGE MARTIN CORREA",
+   "minutos": "71",
+   "EnContra": "0"
+  },
+  {
+   "carne": "35143",
+   "Nombre": "DAVIS STEVEN SANCHEZ",
+   "minutos": "27",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "28237",
+   "Nombre": "MARCELO DAMIAN CASTRILLEJO",
+   "minutos": "50",
+   "EnContra": "1"
+  },
+  {
+   "carne": "30154",
+   "Nombre": "CHRISTIAN GRIFIN",
+   "minutos": "60",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
- "expulsadosV": []
+ "expulsadosV": [
+  {
+   "Nombre": "GASTON ELBIO CANCELA",
+   "observaciones": ""
+  }
+ ]
 }

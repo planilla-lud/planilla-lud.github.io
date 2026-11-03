@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"D\" PER. y DESC",
   "Cancha": "CIUDAD DEPORTIVA ZONA LAB",
-  "Fecha_Inicio": "2026-10-31 10:30:00",
-  "Fecha_fin": "2026-10-31 10:30:00",
+  "Fecha_Inicio": "2026-10-31 11:00:00",
+  "Fecha_fin": "2026-10-31 11:00:00",
   "Locatario": "JEAN PIAGET",
   "goles_locatario": "2",
   "puntos_locatario": "0",
@@ -29,12 +29,268 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "27576",
+   "Nombre": "JUAN SEBASTIAN RIOS",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "21009",
+   "Nombre": "MAXIMILIANO AUGUSTO PEÑALVA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "43847",
+   "Nombre": "JOAQUIN STIRLING",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "43721",
+   "Nombre": "BRUNO RIVERO",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "41805",
+   "Nombre": "DIEGO AUGUSTO LORENZO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "18049",
+   "Nombre": "ALAN TURNIANSKY",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "45283",
+   "Nombre": "DIEGO GAURONAS",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "21189",
+   "Nombre": "SEBASTIAN CAREDIO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "21011",
+   "Nombre": "DANIEL IGAL GROISMAN",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "41052",
+   "Nombre": "VALENTIN MATEO PEÑALVA",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "36908",
+   "Nombre": "MARTIN GEJER",
+   "camiseta": "13",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "35408",
+   "Nombre": "JUAN PABLO ROMERO",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "33231",
+   "Nombre": "SANTIAGO ANTUNEZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "50308",
+   "Nombre": "LUIS ANTONIO SIMOES",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "24813",
+   "Nombre": "DANILO SEBASTIAN PUGLISI",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "40586",
+   "Nombre": "BIAGIO MONZILLO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "38423",
+   "Nombre": "OCTAVIO OSVALDO CAZZOLA",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "59321",
+   "Nombre": "ALFONSO BRITOS",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "30588",
+   "Nombre": "PABLO GERMAN AMARILLO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "27084",
+   "Nombre": "MAXIMILIANO ALBERTI",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "62591",
+   "Nombre": "MATHIAS DEMATTE",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "43016",
+   "Nombre": "ALBERTO EZEQUIEL MEDINA",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "21011",
+   "Jug_Sale": "DANIEL IGAL GROISMAN",
+   "CarneEntra": "57047",
+   "Jug_Entra": "SERGIO GASTON MARTINEZ",
+   "camiseta": "14",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "57047",
+   "Jug_Sale": "SERGIO GASTON MARTINEZ",
+   "CarneEntra": "23970",
+   "Jug_Entra": "DIEGO ANDRES WOLF",
+   "camiseta": "8",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "18049",
+   "Jug_Sale": "ALAN TURNIANSKY",
+   "CarneEntra": "37124",
+   "Jug_Entra": "RICHARD ALEJANDRO ROCCO",
+   "camiseta": "22",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "43847",
+   "Jug_Sale": "JOAQUIN STIRLING",
+   "CarneEntra": "31632",
+   "Jug_Entra": "JUAN PEDRO IZQUIERDO",
+   "camiseta": "21",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "41805",
+   "Jug_Sale": "DIEGO AUGUSTO LORENZO",
+   "CarneEntra": "23874",
+   "Jug_Entra": "GAI BOROVIK",
+   "camiseta": "17",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "21189",
+   "Jug_Sale": "SEBASTIAN CAREDIO",
+   "CarneEntra": "41805",
+   "Jug_Entra": "DIEGO AUGUSTO LORENZO",
+   "camiseta": "2",
+   "minutos": "80"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "38423",
+   "Jug_Sale": "OCTAVIO OSVALDO CAZZOLA",
+   "CarneEntra": "33219",
+   "Jug_Entra": "MATIAS SANTIAGO DEVINCENZI",
+   "camiseta": "24",
+   "minutos": "16"
+  },
+  {
+   "CarneSale": "30588",
+   "Jug_Sale": "PABLO GERMAN AMARILLO",
+   "CarneEntra": "31175",
+   "Jug_Entra": "MATHIAS VIERA",
+   "camiseta": "28",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "43016",
+   "Jug_Sale": "ALBERTO EZEQUIEL MEDINA",
+   "CarneEntra": "66360",
+   "Jug_Entra": "AGUSTIN PAUL GALVAN",
+   "camiseta": "33",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "59321",
+   "Jug_Sale": "ALFONSO BRITOS",
+   "CarneEntra": "23980",
+   "Jug_Entra": "NICOLAS GABRIEL RODRIGUEZ",
+   "camiseta": "14",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "24813",
+   "Jug_Sale": "DANILO SEBASTIAN PUGLISI",
+   "CarneEntra": "24812",
+   "Jug_Entra": "SANTIAGO FAJARDO",
+   "camiseta": "80",
+   "minutos": "70"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "41052",
+   "Nombre": "VALENTIN MATEO PEÑALVA",
+   "minutos": "25",
+   "EnContra": "0"
+  },
+  {
+   "carne": "43721",
+   "Nombre": "BRUNO RIVERO",
+   "minutos": "3",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "27084",
+   "Nombre": "MAXIMILIANO ALBERTI",
+   "minutos": "43",
+   "EnContra": "1"
+  },
+  {
+   "carne": "40586",
+   "Nombre": "BIAGIO MONZILLO",
+   "minutos": "34",
+   "EnContra": "1"
+  },
+  {
+   "carne": "50308",
+   "Nombre": "LUIS ANTONIO SIMOES",
+   "minutos": "92",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"C\" TIT. y ASC.",
   "Cancha": "COMPLEJO LOS CARDALES",
-  "Fecha_Inicio": "2026-10-31 10:30:00",
-  "Fecha_fin": "2026-10-31 10:30:00",
+  "Fecha_Inicio": "2026-10-31 10:50:00",
+  "Fecha_fin": "2026-10-31 10:50:00",
   "Locatario": "SAN JUAN BAUTISTA",
   "goles_locatario": "2",
   "puntos_locatario": "3",
@@ -29,12 +29,214 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "47924",
+   "Nombre": "NICOLAS CARDOZO",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "31579",
+   "Nombre": "MATIAS JAVIER GONZALEZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "19891",
+   "Nombre": "ANDRES LAMAS",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "31343",
+   "Nombre": "JUAN FRANCISCO INSA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "41310",
+   "Nombre": "JORGE AGUSTIN VIZCAINO",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "25371",
+   "Nombre": "SANTIAGO RAMIS",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "26404",
+   "Nombre": "FEDERICO DE LEON",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "37683",
+   "Nombre": "PABLO GASTON OLIVERA",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "32100",
+   "Nombre": "FEDERICO FARACHIO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "22171",
+   "Nombre": "MARTIN JAVIER SOSA",
+   "camiseta": "38",
+   "Capitan": ""
+  },
+  {
+   "carne": "31447",
+   "Nombre": "DAVID PEREZ",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "23759",
+   "Nombre": "HUGO MARTIN MARIZCURRENA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "26372",
+   "Nombre": "PABLO COSTANIAN",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "20236",
+   "Nombre": "BARI FRANCISCO MONZEGLIO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "33966",
+   "Nombre": "FACUNDO CASTRO",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "16374",
+   "Nombre": "PATRICIO RAFAEL FERRES",
+   "camiseta": "81",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "26328",
+   "Nombre": "JOSE PEDRO RODRIGUEZ",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "39559",
+   "Nombre": "SANTIAGO ALVAREZ",
+   "camiseta": "36",
+   "Capitan": ""
+  },
+  {
+   "carne": "30932",
+   "Nombre": "MATHIAS RODDA",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "27695",
+   "Nombre": "JUAN MARTIN RODRIGUEZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "27677",
+   "Nombre": "BRUNO RAVA",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "49298",
+   "Nombre": "NICOLAS MARTINEZ",
+   "camiseta": "25",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "31343",
+   "Jug_Sale": "JUAN FRANCISCO INSA",
+   "CarneEntra": "18492",
+   "Jug_Entra": "LEANDRO MAGALLANES",
+   "camiseta": "4",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "31447",
+   "Jug_Sale": "DAVID PEREZ",
+   "CarneEntra": "26703",
+   "Jug_Entra": "ANDRES CAZALES",
+   "camiseta": "9",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "26404",
+   "Jug_Sale": "FEDERICO DE LEON",
+   "CarneEntra": "22830",
+   "Jug_Entra": "JUAN MANUEL CASTALDI",
+   "camiseta": "17",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "32100",
+   "Jug_Sale": "FEDERICO FARACHIO",
+   "CarneEntra": "62781",
+   "Jug_Entra": "WILLIAN MIGUEL ROSA",
+   "camiseta": "19",
+   "minutos": "81"
+  },
+  {
+   "CarneSale": "25371",
+   "Jug_Sale": "SANTIAGO RAMIS",
+   "CarneEntra": "27951",
+   "Jug_Entra": "JONATHAN FRANCISCO LEMOS",
+   "camiseta": "3",
+   "minutos": "87"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "27695",
+   "Jug_Sale": "JUAN MARTIN RODRIGUEZ",
+   "CarneEntra": "27253",
+   "Jug_Entra": "MARTIN RAMIREZ",
+   "camiseta": "4",
+   "minutos": "45"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "26703",
+   "Nombre": "ANDRES CAZALES",
+   "minutos": "75",
+   "EnContra": "0"
+  },
+  {
+   "carne": "26703",
+   "Nombre": "ANDRES CAZALES",
+   "minutos": "88",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
- "expulsadosV": []
+ "expulsadosV": [
+  {
+   "Nombre": "MATHIAS RODDA",
+   "observaciones": ""
+  }
+ ]
 }

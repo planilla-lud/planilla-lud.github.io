@@ -1,24 +1,10 @@
 [
  {
   "serie": "PSDTA",
-  "fechaHora": "2026-10-31 11:15:00",
-  "cancha": "COMPLEJO LAS CASUARINAS",
-  "local": "BODY FACTORY",
-  "visitante": "CLUB FUERZA AEREA"
- },
- {
-  "serie": "PSDTA",
   "fechaHora": "2026-11-07 09:00:00",
   "cancha": "COMPLEJO LAS CASUARINAS",
   "local": "DEPORTIVO MATADERO",
   "visitante": "SCUOLA PALERMO"
- },
- {
-  "serie": "PSDTA",
-  "fechaHora": "2026-11-07 09:00:00",
-  "cancha": "COLEGIO PIO",
-  "local": "DANUBIO FUTBOL CLUB",
-  "visitante": "BODY FACTORY"
  },
  {
   "serie": "PSDTA",
@@ -54,6 +40,13 @@
   "cancha": "LIMBURGO -DR.J.L.PISCIOTTANO-",
   "local": "NUMA TURCATTI",
   "visitante": "MATECHA"
+ },
+ {
+  "serie": "PSDTA",
+  "fechaHora": "2026-11-07 11:15:00",
+  "cancha": "COLEGIO PIO",
+  "local": "DANUBIO FUTBOL CLUB",
+  "visitante": "BODY FACTORY"
  },
  {
   "serie": "PSDPD",

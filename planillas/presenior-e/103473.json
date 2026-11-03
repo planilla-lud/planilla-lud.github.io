@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "PS DIV. E 2ªR COPA ORO",
   "Cancha": "COMPLEJO LAS CASUARINAS",
-  "Fecha_Inicio": "2026-10-31 10:30:00",
-  "Fecha_fin": "2026-10-31 10:30:00",
+  "Fecha_Inicio": "2026-10-31 11:00:00",
+  "Fecha_fin": "2026-10-31 11:00:00",
   "Locatario": "LA CUEVA DEL LOBIZON",
   "goles_locatario": "4",
   "puntos_locatario": "3",
@@ -29,12 +29,276 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "42159",
+   "Nombre": "SIGFRIDO VETTORAZZI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "49909",
+   "Nombre": "PABLO MAYOBRE",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "62180",
+   "Nombre": "AGUSTIN LAVENTURE",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "33715",
+   "Nombre": "FELIPE CASTRO",
+   "camiseta": "55",
+   "Capitan": ""
+  },
+  {
+   "carne": "22726",
+   "Nombre": "JUAN ANDRES ALDECOA",
+   "camiseta": "25",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "33673",
+   "Nombre": "MARTIN ANDRES TORRES",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "30916",
+   "Nombre": "MATIAS LA CAVA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "38201",
+   "Nombre": "NICOLAS RODRIGUEZ",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "31219",
+   "Nombre": "MARCIO ADRIAN SERRA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "35129",
+   "Nombre": "PABLO FARIAS",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "28805",
+   "Nombre": "FEDERICO ROSSO",
+   "camiseta": "14",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "67674",
+   "Nombre": "JUAN JOSE ANCHIETA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "58245",
+   "Nombre": "JOSE EMILIO VILLAR",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "57376",
+   "Nombre": "ANDRES SEBASTIAN ROVETTA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "53051",
+   "Nombre": "AGUSTIN MAIOCHI",
+   "camiseta": "69",
+   "Capitan": ""
+  },
+  {
+   "carne": "45482",
+   "Nombre": "JOSE MIGUEL SOMACAL",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "41311",
+   "Nombre": "LEONARDO DANIEL GARCIA",
+   "camiseta": "92",
+   "Capitan": ""
+  },
+  {
+   "carne": "35958",
+   "Nombre": "RENATO RIBEIRO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "45449",
+   "Nombre": "MANUEL QUINTANA",
+   "camiseta": "50",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "60341",
+   "Nombre": "JONATHAN ALVEZ",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "57873",
+   "Nombre": "MATIAS ARIEL DE LOS SANTOS",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "51431",
+   "Nombre": "VICTOR EDUARDO ARBIZA",
+   "camiseta": "86",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "30916",
+   "Jug_Sale": "MATIAS LA CAVA",
+   "CarneEntra": "29552",
+   "Jug_Entra": "NICOLAS LEONARDO ZABALETA",
+   "camiseta": "11",
+   "minutos": "46"
+  },
+  {
+   "CarneSale": "22726",
+   "Jug_Sale": "JUAN ANDRES ALDECOA",
+   "CarneEntra": "37332",
+   "Jug_Entra": "FEDERICO ISPER",
+   "camiseta": "19",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "31219",
+   "Jug_Sale": "MARCIO ADRIAN SERRA",
+   "CarneEntra": "32032",
+   "Jug_Entra": "SANTIAGO BORGIA",
+   "camiseta": "31",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "49909",
+   "Jug_Sale": "PABLO MAYOBRE",
+   "CarneEntra": "32033",
+   "Jug_Entra": "ENRIQUE MARTINEZ",
+   "camiseta": "15",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "28805",
+   "Jug_Sale": "FEDERICO ROSSO",
+   "CarneEntra": "45674",
+   "Jug_Entra": "NAHUEL ENRIQUE RUIZ",
+   "camiseta": "16",
+   "minutos": "89"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "35958",
+   "Jug_Sale": "RENATO RIBEIRO",
+   "CarneEntra": "43960",
+   "Jug_Entra": "MARTIN PAULINO",
+   "camiseta": "6",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "41311",
+   "Jug_Sale": "LEONARDO DANIEL GARCIA",
+   "CarneEntra": "40578",
+   "Jug_Entra": "SANTIAGO DUARTE",
+   "camiseta": "33",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58245",
+   "Jug_Sale": "JOSE EMILIO VILLAR",
+   "CarneEntra": "38804",
+   "Jug_Entra": "JUAN JOSE PAGLIASSO",
+   "camiseta": "31",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "60341",
+   "Jug_Sale": "JONATHAN ALVEZ",
+   "CarneEntra": "58388",
+   "Jug_Entra": "DAMIAN LATORRE",
+   "camiseta": "80",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "53051",
+   "Jug_Sale": "AGUSTIN MAIOCHI",
+   "CarneEntra": "49464",
+   "Jug_Entra": "AUGUSTO MARTIN DE LOS SANTOS",
+   "camiseta": "4",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "45482",
+   "Jug_Sale": "JOSE MIGUEL SOMACAL",
+   "CarneEntra": "54331",
+   "Jug_Entra": "ADOLFO EDIARDO PEREIRA",
+   "camiseta": "16",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "57376",
+   "Jug_Sale": "ANDRES SEBASTIAN ROVETTA",
+   "CarneEntra": "31733",
+   "Jug_Entra": "ANIBAL MORAES",
+   "camiseta": "7",
+   "minutos": "72"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "28805",
+   "Nombre": "FEDERICO ROSSO",
+   "minutos": "19",
+   "EnContra": "0"
+  },
+  {
+   "carne": "33673",
+   "Nombre": "MARTIN ANDRES TORRES",
+   "minutos": "55",
+   "EnContra": "0"
+  },
+  {
+   "carne": "35129",
+   "Nombre": "PABLO FARIAS",
+   "minutos": "47",
+   "EnContra": "0"
+  },
+  {
+   "carne": "38201",
+   "Nombre": "NICOLAS RODRIGUEZ",
+   "minutos": "33",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "67674",
+   "Nombre": "JUAN JOSE ANCHIETA",
+   "minutos": "1",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

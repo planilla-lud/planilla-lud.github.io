@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAS40 \"B\" TIT. y ASC.",
   "Cancha": "COMPLEJO DEPORTIVO ARRAYANES",
-  "Fecha_Inicio": "2026-10-31 10:30:00",
-  "Fecha_fin": "2026-10-31 10:30:00",
+  "Fecha_Inicio": "2026-10-31 11:00:00",
+  "Fecha_fin": "2026-10-31 11:00:00",
   "Locatario": "ARGOS ",
   "goles_locatario": "0",
   "puntos_locatario": "1",
@@ -29,12 +29,249 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "14496",
+   "Nombre": "HECTOR MIGUEL MASSA",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "55792",
+   "Nombre": "MARCELO FABIAN BETANCOR",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "27339",
+   "Nombre": "RODRIGO LEONEL GONZALEZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "17450",
+   "Nombre": "RICARDO LEIVA",
+   "camiseta": "41",
+   "Capitan": ""
+  },
+  {
+   "carne": "22222",
+   "Nombre": "RAMIRO FRANCISCO OLMOS",
+   "camiseta": "46",
+   "Capitan": ""
+  },
+  {
+   "carne": "19486",
+   "Nombre": "GUSTAVO GABRIEL BARRENECHEA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "25496",
+   "Nombre": "MIJAIL YAPOR",
+   "camiseta": "43",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "32836",
+   "Nombre": "NICOLAS EDUARDO IMBRIACO",
+   "camiseta": "39",
+   "Capitan": ""
+  },
+  {
+   "carne": "16790",
+   "Nombre": "FEDERICO RODRIGUEZ",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "37959",
+   "Nombre": "PABLO DANIEL ALVAREZ",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "54534",
+   "Nombre": "RODRIGO SILVA",
+   "camiseta": "23",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "14645",
+   "Nombre": "PABLO ALBERTO FERNANDEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "12721",
+   "Nombre": "FABIAN HERNAN CORTES",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "61118",
+   "Nombre": "RUBEN DARIO GEREZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "29411",
+   "Nombre": "ALFONSO MICHEL MARQUEZ",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "20702",
+   "Nombre": "JOSE LUIS TRIGO",
+   "camiseta": "18",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "19281",
+   "Nombre": "GABRIEL COPELOTTI",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "13451",
+   "Nombre": "OSCAR ALEJANDRO ARRUDA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "66926",
+   "Nombre": "PABLO SEBASTIAN RADÜNZ",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "58590",
+   "Nombre": "DIEGO FERREIRA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "66193",
+   "Nombre": "LUIS MAYORGA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "66325",
+   "Nombre": "JUAN CARLOS MARTINS",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "55792",
+   "Jug_Sale": "MARCELO FABIAN BETANCOR",
+   "CarneEntra": "27339",
+   "Jug_Entra": "RODRIGO LEONEL GONZALEZ",
+   "camiseta": "13",
+   "minutos": "69"
+  },
+  {
+   "CarneSale": "19486",
+   "Jug_Sale": "GUSTAVO GABRIEL BARRENECHEA",
+   "CarneEntra": "32836",
+   "Jug_Entra": "NICOLAS EDUARDO IMBRIACO",
+   "camiseta": "39",
+   "minutos": "69"
+  },
+  {
+   "CarneSale": "32836",
+   "Jug_Sale": "NICOLAS EDUARDO IMBRIACO",
+   "CarneEntra": "20944",
+   "Jug_Entra": "GERMAN ENRIQUE IBAÑEZ",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "54534",
+   "Jug_Sale": "RODRIGO SILVA",
+   "CarneEntra": "17532",
+   "Jug_Entra": "CRYSTHIAN MARTIN HIRIGOYEN",
+   "camiseta": "26",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "32836",
+   "Jug_Sale": "NICOLAS EDUARDO IMBRIACO",
+   "CarneEntra": "19486",
+   "Jug_Entra": "GUSTAVO GABRIEL BARRENECHEA",
+   "camiseta": "14",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "27339",
+   "Jug_Sale": "RODRIGO LEONEL GONZALEZ",
+   "CarneEntra": "55792",
+   "Jug_Entra": "MARCELO FABIAN BETANCOR",
+   "camiseta": "4",
+   "minutos": "78"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "66325",
+   "Jug_Sale": "JUAN CARLOS MARTINS",
+   "CarneEntra": "66193",
+   "Jug_Entra": "LUIS MAYORGA",
+   "camiseta": "17",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "20702",
+   "Jug_Sale": "JOSE LUIS TRIGO",
+   "CarneEntra": "66926",
+   "Jug_Entra": "PABLO SEBASTIAN RADÜNZ",
+   "camiseta": "21",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "12721",
+   "Jug_Sale": "FABIAN HERNAN CORTES",
+   "CarneEntra": "29411",
+   "Jug_Entra": "ALFONSO MICHEL MARQUEZ",
+   "camiseta": "12",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "66926",
+   "Jug_Sale": "PABLO SEBASTIAN RADÜNZ",
+   "CarneEntra": "35270",
+   "Jug_Entra": "WALTER GIANNI BALDASSARI",
+   "camiseta": "8",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66193",
+   "Jug_Sale": "LUIS MAYORGA",
+   "CarneEntra": "12708",
+   "Jug_Entra": "ERNESTO PIERINO DE MELLO",
+   "camiseta": "15",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "29411",
+   "Jug_Sale": "ALFONSO MICHEL MARQUEZ",
+   "CarneEntra": "17384",
+   "Jug_Entra": "DIEGO PERDOMO",
+   "camiseta": "4",
+   "minutos": "65"
+  }
+ ],
  "golesL": [],
  "golesV": [],
  "expulsadosL": [],
- "expulsadosV": []
+ "expulsadosV": [
+  {
+   "Nombre": "JOSE LUIS TRIGO",
+   "observaciones": ""
+  }
+ ]
 }

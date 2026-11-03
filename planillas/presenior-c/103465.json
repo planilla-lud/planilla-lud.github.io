@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"C\" PER. y DESC",
   "Cancha": "COMPLEJO DEPORTIVO ARRAYANES",
-  "Fecha_Inicio": "2026-10-31 10:30:00",
-  "Fecha_fin": "2026-10-31 10:30:00",
+  "Fecha_Inicio": "2026-10-31 11:00:00",
+  "Fecha_fin": "2026-10-31 11:00:00",
   "Locatario": "SAN EUGENIO",
   "goles_locatario": "1",
   "puntos_locatario": "0",
@@ -29,12 +29,272 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "31347",
+   "Nombre": "SERGIO EMILIANO CANDI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "45423",
+   "Nombre": "FELIPE DANIEL GONCALVES",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "38266",
+   "Nombre": "ESTEBAN JAVIER GURUCEAGA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "19239",
+   "Nombre": "IGNACIO ROSA",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "20494",
+   "Nombre": "ANDRES GERMAN FERNANDEZ",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "51342",
+   "Nombre": "GONZALO MARTINEZ",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "52801",
+   "Nombre": "GABRIEL DE LAS LLANAS",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "27853",
+   "Nombre": "ISRAEL LIBSCHITZ",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "47960",
+   "Nombre": "FERNANDO DE LAS  LLANAS",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "47307",
+   "Nombre": "LUIS ALEJANDRO AYALA",
+   "camiseta": "3",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "51318",
+   "Nombre": "GABRIEL DENIS",
+   "camiseta": "41",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "40111",
+   "Nombre": "DIEGO ROJAS",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "28183",
+   "Nombre": "LEONARDO BANCHERO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "26280",
+   "Nombre": "DIEGO ALVEZ",
+   "camiseta": "72",
+   "Capitan": ""
+  },
+  {
+   "carne": "33810",
+   "Nombre": "RODRIGO SOBRADO",
+   "camiseta": "68",
+   "Capitan": ""
+  },
+  {
+   "carne": "35096",
+   "Nombre": "AGUSTIN OSVALDO MIRO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "30276",
+   "Nombre": "KLAVDIO AGUSTIN MARTINEZ",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "40042",
+   "Nombre": "AGUSTIN GILI",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "35291",
+   "Nombre": "ADRIAN MONTOLI",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "35443",
+   "Nombre": "RAFAEL LANZETTA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "34628",
+   "Nombre": "SANTIAGO PATRICIO IGLESIAS",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "48326",
+   "Nombre": "FEDERICO RODRIGUEZ",
+   "camiseta": "19",
+   "Capitan": "(C)"
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "38266",
+   "Jug_Sale": "ESTEBAN JAVIER GURUCEAGA",
+   "CarneEntra": "59380",
+   "Jug_Entra": "CRISTIAN FLEITAS",
+   "camiseta": "30",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "51342",
+   "Jug_Sale": "GONZALO MARTINEZ",
+   "CarneEntra": "59846",
+   "Jug_Entra": "QUEVIN MACHADO",
+   "camiseta": "20",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "52801",
+   "Jug_Sale": "GABRIEL DE LAS LLANAS",
+   "CarneEntra": "59348",
+   "Jug_Entra": "MAURICIO TRAVERS",
+   "camiseta": "22",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "27853",
+   "Jug_Sale": "ISRAEL LIBSCHITZ",
+   "CarneEntra": "37219",
+   "Jug_Entra": "GONZALO GURUCEAGA",
+   "camiseta": "92",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "19239",
+   "Jug_Sale": "IGNACIO ROSA",
+   "CarneEntra": "46919",
+   "Jug_Entra": "CESAR AUGUSTO MOROSOLES",
+   "camiseta": "96",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "45423",
+   "Jug_Sale": "FELIPE DANIEL GONCALVES",
+   "CarneEntra": "23065",
+   "Jug_Entra": "LUIS EDUARDO SANGUINETTI",
+   "camiseta": "15",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "20494",
+   "Jug_Sale": "ANDRES GERMAN FERNANDEZ",
+   "CarneEntra": "66648",
+   "Jug_Entra": "PATRICIO SAMUEL LAGUNA",
+   "camiseta": "7",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "47960",
+   "Jug_Sale": "FERNANDO DE LAS  LLANAS",
+   "CarneEntra": "38266",
+   "Jug_Entra": "ESTEBAN JAVIER GURUCEAGA",
+   "camiseta": "23",
+   "minutos": "82"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "40042",
+   "Jug_Sale": "AGUSTIN GILI",
+   "CarneEntra": "23403",
+   "Jug_Entra": "AGUSTIN MUNIZ",
+   "camiseta": "9",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "33810",
+   "Jug_Sale": "RODRIGO SOBRADO",
+   "CarneEntra": "61414",
+   "Jug_Entra": "BRUNO TRIGO",
+   "camiseta": "11",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "30276",
+   "Jug_Sale": "KLAVDIO AGUSTIN MARTINEZ",
+   "CarneEntra": "34406",
+   "Jug_Entra": "FRANCO ANTONIO RICARDI",
+   "camiseta": "12",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "26280",
+   "Jug_Sale": "DIEGO ALVEZ",
+   "CarneEntra": "27327",
+   "Jug_Entra": "GERMAN RODRIGO SANTAMARIA",
+   "camiseta": "12",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "35096",
+   "Jug_Sale": "AGUSTIN OSVALDO MIRO",
+   "CarneEntra": "57636",
+   "Jug_Entra": "FACUNDO RUBEN MANZI",
+   "camiseta": "14",
+   "minutos": "45"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "51318",
+   "Nombre": "GABRIEL DENIS",
+   "minutos": "67",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "34628",
+   "Nombre": "SANTIAGO PATRICIO IGLESIAS",
+   "minutos": "18",
+   "EnContra": "1"
+  },
+  {
+   "carne": "48326",
+   "Nombre": "FEDERICO RODRIGUEZ",
+   "minutos": "74",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

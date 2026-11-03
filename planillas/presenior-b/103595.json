@@ -1,0 +1,277 @@
+{
+ "id": "103595",
+ "categoria": "presenior-b",
+ "serie": "PSBPD",
+ "fecha": 5,
+ "fechaHora": "2026-10-31 11:15:00",
+ "cancha": "COMPLEJO LAS CASUARINAS",
+ "local": "OLD SAMPA CLUB",
+ "visitante": "WOLFRAMIO",
+ "gl": 6,
+ "gv": 0,
+ "detalle": {
+  "nro_partido": "881",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "PRE SENIOR",
+  "categoria": "PRE-SENIOR MASCULINO",
+  "rueda": "2",
+  "Divisional": "PRESENIOR \"B\" PER. y DESC",
+  "Cancha": "COMPLEJO LAS CASUARINAS",
+  "Fecha_Inicio": "2026-10-31 13:05:00",
+  "Fecha_fin": "2026-10-31 13:05:00",
+  "Locatario": "OLD SAMPA CLUB",
+  "goles_locatario": "6",
+  "puntos_locatario": "3",
+  "Visitante": "WOLFRAMIO",
+  "goles_visitante": "0",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "24682",
+   "Nombre": "LORENZO MANUEL FRANZINI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "24739",
+   "Nombre": "NICOLAS SUAREZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "23363",
+   "Nombre": "ALEJANDRO CALACHA",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "24932",
+   "Nombre": "RAFAEL ETCHEBARNE",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "22544",
+   "Nombre": "JUAN GABRIEL BASSO",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "23366",
+   "Nombre": "SANTIAGO POCHINTESTA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "58101",
+   "Nombre": "FRANCISCO VECINO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "63323",
+   "Nombre": "MATIAS BATTRO",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "35873",
+   "Nombre": "LEONARDO BERHAU",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "29965",
+   "Nombre": "ALEJANDRO MAZZOLI",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "23372",
+   "Nombre": "JUAN IGNACIO LOPEZ",
+   "camiseta": "13",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "18734",
+   "Nombre": "PABLO MARTIN AREVALO",
+   "camiseta": "79",
+   "Capitan": ""
+  },
+  {
+   "carne": "13316",
+   "Nombre": "RICARDO FABIAN SOSA",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "38159",
+   "Nombre": "JUAN PABLO VARGAS",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "31372",
+   "Nombre": "JUAN NICOLAS MOSCOSO",
+   "camiseta": "74",
+   "Capitan": ""
+  },
+  {
+   "carne": "65283",
+   "Nombre": "MARCELO FRANCISCO ALVES",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "35006",
+   "Nombre": "JOSE PABLO SOUZA",
+   "camiseta": "19",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "26387",
+   "Nombre": "BERNARDO ALARCON",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "54342",
+   "Nombre": "SANTIAGO MARTIN RODRIGUEZ",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "30456",
+   "Nombre": "MATIAS FEDERICO PAZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "42249",
+   "Nombre": "GUILLERMO LOPEZ",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "68940",
+   "Nombre": "FRANCISCO FABIAN PERDOMO",
+   "camiseta": "24",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "24739",
+   "Jug_Sale": "NICOLAS SUAREZ",
+   "CarneEntra": "21634",
+   "Jug_Entra": "MATIAS CALACHA",
+   "camiseta": "10",
+   "minutos": "13"
+  },
+  {
+   "CarneSale": "23372",
+   "Jug_Sale": "JUAN IGNACIO LOPEZ",
+   "CarneEntra": "27933",
+   "Jug_Entra": "ENRIQUE CALACHA",
+   "camiseta": "3",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "22544",
+   "Jug_Sale": "JUAN GABRIEL BASSO",
+   "CarneEntra": "44279",
+   "Jug_Entra": "GUILLERMO NICOLAS CARDOZO",
+   "camiseta": "36",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "23363",
+   "Jug_Sale": "ALEJANDRO CALACHA",
+   "CarneEntra": "24729",
+   "Jug_Entra": "ANDRES IRURETA",
+   "camiseta": "8",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "58101",
+   "Jug_Sale": "FRANCISCO VECINO",
+   "CarneEntra": "23371",
+   "Jug_Entra": "EDUARDO ANDRES CUÑARRO",
+   "camiseta": "11",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "29965",
+   "Jug_Sale": "ALEJANDRO MAZZOLI",
+   "CarneEntra": "51059",
+   "Jug_Entra": "RODRIGO MENDEZ",
+   "camiseta": "23",
+   "minutos": "78"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "54342",
+   "Jug_Sale": "SANTIAGO MARTIN RODRIGUEZ",
+   "CarneEntra": "68940",
+   "Jug_Entra": "FRANCISCO FABIAN PERDOMO",
+   "camiseta": "21",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "68940",
+   "Jug_Sale": "FRANCISCO FABIAN PERDOMO",
+   "CarneEntra": "33546",
+   "Jug_Entra": "JUAN EDUARDO GUTIERREZ",
+   "camiseta": "5",
+   "minutos": "45"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "21634",
+   "Nombre": "MATIAS CALACHA",
+   "minutos": "70",
+   "EnContra": "0"
+  },
+  {
+   "carne": "23363",
+   "Nombre": "ALEJANDRO CALACHA",
+   "minutos": "9",
+   "EnContra": "0"
+  },
+  {
+   "carne": "23371",
+   "Nombre": "EDUARDO ANDRES CUÑARRO",
+   "minutos": "74",
+   "EnContra": "0"
+  },
+  {
+   "carne": "27933",
+   "Nombre": "ENRIQUE CALACHA",
+   "minutos": "55",
+   "EnContra": "0"
+  },
+  {
+   "carne": "29965",
+   "Nombre": "ALEJANDRO MAZZOLI",
+   "minutos": "10",
+   "EnContra": "0"
+  },
+  {
+   "carne": "35873",
+   "Nombre": "LEONARDO BERHAU",
+   "minutos": "87",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

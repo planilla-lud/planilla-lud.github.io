@@ -7,8 +7,8 @@
  "cancha": "COMPLEJO MARLUNA",
  "local": "MATECHA",
  "visitante": "CENTRO GALLEGO",
- "gl": 5,
- "gv": 2,
+ "gl": 2,
+ "gv": 5,
  "detalle": {
   "nro_partido": "449",
   "temporada": "RAFAEL \"CANARIO\" GARCÍA",
@@ -18,23 +18,307 @@
   "rueda": "2",
   "Divisional": "MAS40 \"A\" PERM. y DESC.",
   "Cancha": "COMPLEJO MARLUNA",
-  "Fecha_Inicio": "2026-10-31 10:30:00",
-  "Fecha_fin": "2026-10-31 10:30:00",
+  "Fecha_Inicio": "2026-10-31 10:50:00",
+  "Fecha_fin": "2026-10-31 10:50:00",
   "Locatario": "MATECHA",
-  "goles_locatario": "5",
-  "puntos_locatario": "3",
+  "goles_locatario": "2",
+  "puntos_locatario": "0",
   "Visitante": "CENTRO GALLEGO",
-  "goles_visitante": "2",
-  "puntos_visitante": "0",
+  "goles_visitante": "5",
+  "puntos_visitante": "3",
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "35695",
+   "Nombre": "ESTEBAN DANIEL VIERA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "35595",
+   "Nombre": "JORGE EDUARDO BELLO",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "24882",
+   "Nombre": "DIEGO FRANCISCO FYNN",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "56820",
+   "Nombre": "ROLANDO SHANTI LARRAINCI",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "45665",
+   "Nombre": "SEBASTIAN EVERGISTO FRANCA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "49426",
+   "Nombre": "HORACIO ISMAEL TARILA",
+   "camiseta": "33",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "15407",
+   "Nombre": "IGNACIO IBARRA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "48328",
+   "Nombre": "ALAR AUGUSTO DUARTE",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "19658",
+   "Nombre": "DANIEL EDUARDO COSTA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "35696",
+   "Nombre": "JUAN MANUEL GIRIBONI",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "29711",
+   "Nombre": "SEBASTIAN SCITTI",
+   "camiseta": "54",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "23721",
+   "Nombre": "RODRIGO ALVAREZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "17816",
+   "Nombre": "CARLOS LEANDRO MARTINEZ",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "42268",
+   "Nombre": "LUIS EMILIO OLIARI",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "22483",
+   "Nombre": "EMILIO MANUEL RODRIGUEZ",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "19234",
+   "Nombre": "GABRIEL FAGETTI",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "17905",
+   "Nombre": "GUILLERMO FEDERICO FUENTES",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "32161",
+   "Nombre": "DIEGO SEBASTIAN ROSSI",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "20965",
+   "Nombre": "RODRIGO AUGUSTO MARTINEZ",
+   "camiseta": "19",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "58918",
+   "Nombre": "JOSE  LUIS SMITH",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "23266",
+   "Nombre": "ANDRES NICOLAS FACAL",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "35089",
+   "Nombre": "PABLO SEBASTIAN CASTRO",
+   "camiseta": "17",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "35695",
+   "Jug_Sale": "ESTEBAN DANIEL VIERA",
+   "CarneEntra": "31743",
+   "Jug_Entra": "ROBERT DANIEL ANTIVERO",
+   "camiseta": "15",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "19658",
+   "Jug_Sale": "DANIEL EDUARDO COSTA",
+   "CarneEntra": "11596",
+   "Jug_Entra": "IGNACIO AMESPIL",
+   "camiseta": "11",
+   "minutos": "61"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "35089",
+   "Jug_Sale": "PABLO SEBASTIAN CASTRO",
+   "CarneEntra": "14946",
+   "Jug_Entra": "JUAN PEDRO LARROUTUROU",
+   "camiseta": "20",
+   "minutos": "15"
+  },
+  {
+   "CarneSale": "17816",
+   "Jug_Sale": "CARLOS LEANDRO MARTINEZ",
+   "CarneEntra": "24680",
+   "Jug_Entra": "MATIAS RODRIGUEZ",
+   "camiseta": "23",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "19234",
+   "Jug_Sale": "GABRIEL FAGETTI",
+   "CarneEntra": "26808",
+   "Jug_Entra": "MARTIN RUBEN BUENO",
+   "camiseta": "24",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "20965",
+   "Jug_Sale": "RODRIGO AUGUSTO MARTINEZ",
+   "CarneEntra": "22333",
+   "Jug_Entra": "LEANDRO GASTON NUÑEZ",
+   "camiseta": "7",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "23266",
+   "Jug_Sale": "ANDRES NICOLAS FACAL",
+   "CarneEntra": "25979",
+   "Jug_Entra": "SERGIO GUZMAN SCUTARI",
+   "camiseta": "90",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58918",
+   "Jug_Sale": "JOSE  LUIS SMITH",
+   "CarneEntra": "25625",
+   "Jug_Entra": "DIEGO WALTER ROCHA",
+   "camiseta": "6",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "42268",
+   "Jug_Sale": "LUIS EMILIO OLIARI",
+   "CarneEntra": "21126",
+   "Jug_Entra": "SEBASTIAN MANGGINI",
+   "camiseta": "44",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "17905",
+   "Jug_Sale": "GUILLERMO FEDERICO FUENTES",
+   "CarneEntra": "47888",
+   "Jug_Entra": "MARTIN ANSELMO PACINI",
+   "camiseta": "32",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "14946",
+   "Jug_Sale": "JUAN PEDRO LARROUTUROU",
+   "CarneEntra": "21130",
+   "Jug_Entra": "DIEGO ARTIGAS OLAZABAL",
+   "camiseta": "13",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "22483",
+   "Jug_Sale": "EMILIO MANUEL RODRIGUEZ",
+   "CarneEntra": "60114",
+   "Jug_Entra": "SERGIO EDGARDO PERRONE",
+   "camiseta": "25",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "32161",
+   "Jug_Sale": "DIEGO SEBASTIAN ROSSI",
+   "CarneEntra": "18461",
+   "Jug_Entra": "ADRIAN IGNACIO GONZALEZ",
+   "camiseta": "69",
+   "minutos": "70"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "24882",
+   "Nombre": "DIEGO FRANCISCO FYNN",
+   "minutos": "7",
+   "EnContra": "0"
+  },
+  {
+   "carne": "29711",
+   "Nombre": "SEBASTIAN SCITTI",
+   "minutos": "31",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "22333",
+   "Nombre": "LEANDRO GASTON NUÑEZ",
+   "minutos": "65",
+   "EnContra": "1"
+  },
+  {
+   "carne": "22483",
+   "Nombre": "EMILIO MANUEL RODRIGUEZ",
+   "minutos": "31",
+   "EnContra": "1"
+  },
+  {
+   "carne": "26808",
+   "Nombre": "MARTIN RUBEN BUENO",
+   "minutos": "61",
+   "EnContra": "1"
+  },
+  {
+   "carne": "26808",
+   "Nombre": "MARTIN RUBEN BUENO",
+   "minutos": "73",
+   "EnContra": "1"
+  },
+  {
+   "carne": "32161",
+   "Nombre": "DIEGO SEBASTIAN ROSSI",
+   "minutos": "9",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

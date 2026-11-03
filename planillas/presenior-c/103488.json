@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"C\" TIT. y ASC.",
   "Cancha": "COMPLEJO WOODLANDS SCHOOL",
-  "Fecha_Inicio": "2026-10-31 12:45:00",
-  "Fecha_fin": "2026-10-31 12:45:00",
+  "Fecha_Inicio": "2026-10-31 13:05:00",
+  "Fecha_fin": "2026-10-31 13:05:00",
   "Locatario": "OLD WOODLANDS CLUB",
   "goles_locatario": "4",
   "puntos_locatario": "3",
@@ -29,12 +29,234 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "35344",
+   "Nombre": "SANTIAGO CASTELO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "28224",
+   "Nombre": "IGNACIO JOSE IRAOLA",
+   "camiseta": "70",
+   "Capitan": ""
+  },
+  {
+   "carne": "32011",
+   "Nombre": "JOAQUIN DELUCCA",
+   "camiseta": "23",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "44965",
+   "Nombre": "MAX ALEGRE",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "37661",
+   "Nombre": "JUAN AGUSTIN DIAZ",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "34974",
+   "Nombre": "FRANCO COLELLA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "31120",
+   "Nombre": "JUAN MANUEL DELUCCA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "31892",
+   "Nombre": "TOMAS DELUCCA",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "25993",
+   "Nombre": "CLAUDIO HERRERA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "39865",
+   "Nombre": "JUAN MANUEL BIDEGAIN",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "18017",
+   "Nombre": "NICOLAS PIROTTO",
+   "camiseta": "15",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "33893",
+   "Nombre": "MATEO MOSCONE",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "33095",
+   "Nombre": "MAURICIO BINNEWIES",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "25837",
+   "Nombre": "VALENTIN MOSCONE",
+   "camiseta": "41",
+   "Capitan": ""
+  },
+  {
+   "carne": "31095",
+   "Nombre": "RODRIGO MIGUEL GOMEZ",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "34897",
+   "Nombre": "JOAQUIN PEREIRO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "22201",
+   "Nombre": "ALEJANDRO CASABO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "24512",
+   "Nombre": "ALVARO MARCELO BONILLA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "50425",
+   "Nombre": "DIEGO FACUNDO ETCHEVERRY",
+   "camiseta": "43",
+   "Capitan": ""
+  },
+  {
+   "carne": "30391",
+   "Nombre": "JUAN MIGUEL JAUME",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "28130",
+   "Nombre": "JUAN MARTIN FIGUEREDO",
+   "camiseta": "19",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "24545",
+   "Nombre": "GUZMAN NION",
+   "camiseta": "31",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "34974",
+   "Jug_Sale": "FRANCO COLELLA",
+   "CarneEntra": "31356",
+   "Jug_Entra": "MATHIAS DIENA",
+   "camiseta": "7",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "39865",
+   "Jug_Sale": "JUAN MANUEL BIDEGAIN",
+   "CarneEntra": "29700",
+   "Jug_Entra": "JUAN MARTIN DOMINGUEZ",
+   "camiseta": "19",
+   "minutos": "87"
+  },
+  {
+   "CarneSale": "28224",
+   "Jug_Sale": "IGNACIO JOSE IRAOLA",
+   "CarneEntra": "31493",
+   "Jug_Entra": "GONZALO MIGUEL LAGRENADE",
+   "camiseta": "24",
+   "minutos": "90"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "22201",
+   "Jug_Sale": "ALEJANDRO CASABO",
+   "CarneEntra": "29760",
+   "Jug_Entra": "SANTIAGO QUEIROLO",
+   "camiseta": "42",
+   "minutos": "53"
+  },
+  {
+   "CarneSale": "24545",
+   "Jug_Sale": "GUZMAN NION",
+   "CarneEntra": "59525",
+   "Jug_Entra": "MARTIN IGNACIO MARIUS",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "34897",
+   "Jug_Sale": "JOAQUIN PEREIRO",
+   "CarneEntra": "28501",
+   "Jug_Entra": "FELIPE GUZMAN COULLET",
+   "camiseta": "20",
+   "minutos": "80"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "18017",
+   "Nombre": "NICOLAS PIROTTO",
+   "minutos": "85",
+   "EnContra": "0"
+  },
+  {
+   "carne": "31120",
+   "Nombre": "JUAN MANUEL DELUCCA",
+   "minutos": "42",
+   "EnContra": "0"
+  },
+  {
+   "carne": "31356",
+   "Nombre": "MATHIAS DIENA",
+   "minutos": "90",
+   "EnContra": "0"
+  },
+  {
+   "carne": "31892",
+   "Nombre": "TOMAS DELUCCA",
+   "minutos": "75",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "50425",
+   "Nombre": "DIEGO FACUNDO ETCHEVERRY",
+   "minutos": "33",
+   "EnContra": "1"
+  },
+  {
+   "carne": "59525",
+   "Nombre": "MARTIN IGNACIO MARIUS",
+   "minutos": "62",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

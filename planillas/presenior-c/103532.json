@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"C\" PER. y DESC",
   "Cancha": "SPORT 11",
-  "Fecha_Inicio": "2026-10-31 12:45:00",
-  "Fecha_fin": "2026-10-31 12:45:00",
+  "Fecha_Inicio": "2026-10-31 13:00:00",
+  "Fecha_fin": "2026-10-31 13:00:00",
   "Locatario": "ARQUITECTURA JRS.",
   "goles_locatario": "5",
   "puntos_locatario": "3",
@@ -29,12 +29,242 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "10253",
+   "Nombre": "ANDRES MAURICIO ALVES",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "36406",
+   "Nombre": "MATHIAS FEDERICO GONZALEZ",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "25949",
+   "Nombre": "FEDERICO MARTIN MALOMO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "35454",
+   "Nombre": "GUILLERMO MATTOS",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "40466",
+   "Nombre": "CARLOS ANDRES FERNANDEZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "29550",
+   "Nombre": "PABLO SERGIO FERREIRA",
+   "camiseta": "20",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "21480",
+   "Nombre": "MARCO GASTON GENTINI",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "19451",
+   "Nombre": "DIEGO MARTIN GIGENA",
+   "camiseta": "66",
+   "Capitan": ""
+  },
+  {
+   "carne": "47052",
+   "Nombre": "MANUEL SAVIOZ",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "68726",
+   "Nombre": "ERNESTO FIDEL SARLI",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "40505",
+   "Nombre": "MARTIN BALBI",
+   "camiseta": "2",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "20274",
+   "Nombre": "ALEJANDRO BRUBACHER",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "35526",
+   "Nombre": "RAUL IGNACIO WANSEELE",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "23889",
+   "Nombre": "ANDRES BAUDO",
+   "camiseta": "26",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "20275",
+   "Nombre": "GABRIEL OTEGUI",
+   "camiseta": "47",
+   "Capitan": ""
+  },
+  {
+   "carne": "54923",
+   "Nombre": "SANTIAGO ANDRES AVIERO",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "20621",
+   "Nombre": "MATEO IGNACIO CABRAL",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "27464",
+   "Nombre": "MAURICIO GASTON ARAMBILLET",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "29857",
+   "Nombre": "GUILLERMO SLINGER",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "27523",
+   "Nombre": "JUAN FRANCISCO PEDROZO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "20725",
+   "Nombre": "SANTIAGO JOAQUIN DOS SANTOS",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "28604",
+   "Nombre": "MARCELO MARTIN SOSA",
+   "camiseta": "30",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "40505",
+   "Jug_Sale": "MARTIN BALBI",
+   "CarneEntra": "58564",
+   "Jug_Entra": "MAURO ARTURO GANDIN",
+   "camiseta": "99",
+   "minutos": "33"
+  },
+  {
+   "CarneSale": "21480",
+   "Jug_Sale": "MARCO GASTON GENTINI",
+   "CarneEntra": "50997",
+   "Jug_Entra": "MARTIN FERREIRA",
+   "camiseta": "14",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68726",
+   "Jug_Sale": "ERNESTO FIDEL SARLI",
+   "CarneEntra": "40505",
+   "Jug_Entra": "MARTIN BALBI",
+   "camiseta": "2",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "36406",
+   "Jug_Sale": "MATHIAS FEDERICO GONZALEZ",
+   "CarneEntra": "26116",
+   "Jug_Entra": "LEONARDO FACUNDO SORIA",
+   "camiseta": "5",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "47052",
+   "Jug_Sale": "MANUEL SAVIOZ",
+   "CarneEntra": "21480",
+   "Jug_Entra": "MARCO GASTON GENTINI",
+   "camiseta": "33",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "25949",
+   "Jug_Sale": "FEDERICO MARTIN MALOMO",
+   "CarneEntra": "36406",
+   "Jug_Entra": "MATHIAS FEDERICO GONZALEZ",
+   "camiseta": "21",
+   "minutos": "79"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "20725",
+   "Jug_Sale": "SANTIAGO JOAQUIN DOS SANTOS",
+   "CarneEntra": "63759",
+   "Jug_Entra": "GASTON BUBE",
+   "camiseta": "9",
+   "minutos": "45"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "40505",
+   "Nombre": "MARTIN BALBI",
+   "minutos": "4",
+   "EnContra": "0"
+  },
+  {
+   "carne": "40505",
+   "Nombre": "MARTIN BALBI",
+   "minutos": "85",
+   "EnContra": "0"
+  },
+  {
+   "carne": "47052",
+   "Nombre": "MANUEL SAVIOZ",
+   "minutos": "41",
+   "EnContra": "0"
+  },
+  {
+   "carne": "58564",
+   "Nombre": "MAURO ARTURO GANDIN",
+   "minutos": "55",
+   "EnContra": "0"
+  },
+  {
+   "carne": "58564",
+   "Nombre": "MAURO ARTURO GANDIN",
+   "minutos": "60",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "20621",
+   "Nombre": "MATEO IGNACIO CABRAL",
+   "minutos": "86",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

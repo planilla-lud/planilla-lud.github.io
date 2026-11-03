@@ -7,13 +7,6 @@
   "visitante": "SA.FE.MA"
  },
  {
-  "serie": "40CC",
-  "fechaHora": "2026-11-07 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "SA.FE.MA",
-  "visitante": "CLUB ATLETICO BRAZO ORIENTAL"
- },
- {
   "serie": "40CB",
   "fechaHora": "2026-11-07 09:00:00",
   "cancha": "COMPLEJO EL ENCUENTRO",
@@ -54,6 +47,13 @@
   "cancha": "COM. CLUB UNIVERSIDAD CATOLICA",
   "local": "RIVER PLATE UNIVERSITARIO",
   "visitante": "OLIMAR"
+ },
+ {
+  "serie": "40CC",
+  "fechaHora": "2026-11-07 09:00:00",
+  "cancha": "COMPLEJO DEPORTIVO ARRAYANES",
+  "local": "SA.FE.MA",
+  "visitante": "CLUB ATLETICO BRAZO ORIENTAL"
  },
  {
   "serie": "40CC",

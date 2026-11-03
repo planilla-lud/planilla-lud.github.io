@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"A\" TITULO",
   "Cancha": "COMPLEJO JUAN XXIII",
-  "Fecha_Inicio": "2026-10-31 10:30:00",
-  "Fecha_fin": "2026-10-31 10:30:00",
+  "Fecha_Inicio": "2026-10-31 10:52:00",
+  "Fecha_fin": "2026-10-31 10:52:00",
   "Locatario": "LA BLANQUEADA",
   "goles_locatario": "1",
   "puntos_locatario": "0",
@@ -29,12 +29,262 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "37989",
+   "Nombre": "GABRIEL GUILLEN",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "25091",
+   "Nombre": "SERGIO MAROTTA",
+   "camiseta": "90",
+   "Capitan": ""
+  },
+  {
+   "carne": "25090",
+   "Nombre": "DARIO MACEDO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "20377",
+   "Nombre": "JUAN PABLO BARRIOLA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "33307",
+   "Nombre": "NICOLAS SILVERA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "26042",
+   "Nombre": "DAVID JHONATAN MENESES",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "54318",
+   "Nombre": "SANTIAGO GABRIEL RIERA",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "47283",
+   "Nombre": "SERGIO DARIO RAMIREZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "33288",
+   "Nombre": "RODRIGO GUSTAVO FERNANDEZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "27597",
+   "Nombre": "SANTIAGO LOPEZ PINTOS",
+   "camiseta": "91",
+   "Capitan": ""
+  },
+  {
+   "carne": "19194",
+   "Nombre": "AGUSTIN FARACHIO",
+   "camiseta": "20",
+   "Capitan": "(C)"
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "26091",
+   "Nombre": "JESUS MORALES",
+   "camiseta": "89",
+   "Capitan": ""
+  },
+  {
+   "carne": "26209",
+   "Nombre": "FEDERICO ISMAEL OLIVERA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "26963",
+   "Nombre": "MATIAS PEREZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "40122",
+   "Nombre": "HUGO FERNANDO DONATTO",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "30261",
+   "Nombre": "JOAQUIN MURARA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "22901",
+   "Nombre": "JUAN IGNACIO LOZANO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "31037",
+   "Nombre": "JOHN CHRISTOPHER AYALA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "32123",
+   "Nombre": "AGUSTIN ANANIA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "21386",
+   "Nombre": "EMILIANO PEDRAGOSA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "24833",
+   "Nombre": "PABLO SASIAIN",
+   "camiseta": "20",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "24773",
+   "Nombre": "DIEGO KSIAZENICKI",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "25090",
+   "Jug_Sale": "DARIO MACEDO",
+   "CarneEntra": "34431",
+   "Jug_Entra": "CLAUDIO ANDRES ZANCHETTA",
+   "camiseta": "11",
+   "minutos": "28"
+  },
+  {
+   "CarneSale": "47283",
+   "Jug_Sale": "SERGIO DARIO RAMIREZ",
+   "CarneEntra": "41066",
+   "Jug_Entra": "BRUNO GERMAN",
+   "camiseta": "35",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "25091",
+   "Jug_Sale": "SERGIO MAROTTA",
+   "CarneEntra": "26415",
+   "Jug_Entra": "MARTIN GABRIEL MORILLO",
+   "camiseta": "10",
+   "minutos": "44"
+  },
+  {
+   "CarneSale": "26042",
+   "Jug_Sale": "DAVID JHONATAN MENESES",
+   "CarneEntra": "45940",
+   "Jug_Entra": "OMAR IGNACIO OSORIO",
+   "camiseta": "30",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "26415",
+   "Jug_Sale": "MARTIN GABRIEL MORILLO",
+   "CarneEntra": "69189",
+   "Jug_Entra": "ALEXIS KUSTER",
+   "camiseta": "9",
+   "minutos": "88"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "26091",
+   "Jug_Sale": "JESUS MORALES",
+   "CarneEntra": "31467",
+   "Jug_Entra": "RODRIGO HUGO OLIVERA",
+   "camiseta": "1",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "26963",
+   "Jug_Sale": "MATIAS PEREZ",
+   "CarneEntra": "60709",
+   "Jug_Entra": "LAUTARO DIAZ",
+   "camiseta": "24",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "24773",
+   "Jug_Sale": "DIEGO KSIAZENICKI",
+   "CarneEntra": "26525",
+   "Jug_Entra": "JOAQUIN ROSSI",
+   "camiseta": "18",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "26209",
+   "Jug_Sale": "FEDERICO ISMAEL OLIVERA",
+   "CarneEntra": "26197",
+   "Jug_Entra": "AGUSTIN RODAS",
+   "camiseta": "23",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "21386",
+   "Jug_Sale": "EMILIANO PEDRAGOSA",
+   "CarneEntra": "21862",
+   "Jug_Entra": "JUAN PABLO TERNANDE",
+   "camiseta": "27",
+   "minutos": "88"
+  },
+  {
+   "CarneSale": "24833",
+   "Jug_Sale": "PABLO SASIAIN",
+   "CarneEntra": "29888",
+   "Jug_Entra": "ANDRES RAPETTI",
+   "camiseta": "33",
+   "minutos": "90"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "34431",
+   "Nombre": "CLAUDIO ANDRES ZANCHETTA",
+   "minutos": "71",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "24833",
+   "Nombre": "PABLO SASIAIN",
+   "minutos": "36",
+   "EnContra": "1"
+  },
+  {
+   "carne": "24833",
+   "Nombre": "PABLO SASIAIN",
+   "minutos": "47",
+   "EnContra": "1"
+  },
+  {
+   "carne": "60709",
+   "Nombre": "LAUTARO DIAZ",
+   "minutos": "89",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

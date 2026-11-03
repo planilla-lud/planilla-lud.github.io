@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "SUB20 \"A\" TITULO",
   "Cancha": "OLD CHRISTIANS CLUB",
-  "Fecha_Inicio": "2026-10-31 17:00:00",
-  "Fecha_fin": "2026-10-31 17:00:00",
+  "Fecha_Inicio": "2026-10-31 17:15:00",
+  "Fecha_fin": "2026-10-31 17:15:00",
   "Locatario": "OLD CHRISTIANS CLUB",
   "goles_locatario": "0",
   "puntos_locatario": "1",
@@ -29,12 +29,233 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "55226",
+   "Nombre": "ALFONSO DEL CASTILLO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "56856",
+   "Nombre": "JOAQUIN FLEURQUIN",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "56863",
+   "Nombre": "JUAN PEDRO TORRES",
+   "camiseta": "54",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "59504",
+   "Nombre": "BAUTISTA RAUL FERNANDEZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "56866",
+   "Nombre": "MATEO AGUIRRE",
+   "camiseta": "37",
+   "Capitan": ""
+  },
+  {
+   "carne": "55250",
+   "Nombre": "TOMAS PEREYRA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "56859",
+   "Nombre": "AGUSTIN FERNANDEZ",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "59506",
+   "Nombre": "AGUSTIN HOUNIE",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "64835",
+   "Nombre": "FACUNDO MARQUEZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "55216",
+   "Nombre": "GASPAR HUGHES",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "55609",
+   "Nombre": "THEO CORTABARRIA",
+   "camiseta": "20",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "58285",
+   "Nombre": "RODRIGO BROTONS",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "59207",
+   "Nombre": "IGNACIO RODRIGUEZ",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "53875",
+   "Nombre": "ALFONSO ABELLA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "53395",
+   "Nombre": "MAURO MASENA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "53397",
+   "Nombre": "ELIAS GOMOLINSKY",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "66331",
+   "Nombre": "JUAN BARRANDEGUY",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "54756",
+   "Nombre": "ADRIANO MARTIN AGGIO",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "56689",
+   "Nombre": "DIEGO ANDRE MENDOZA",
+   "camiseta": "57",
+   "Capitan": ""
+  },
+  {
+   "carne": "55434",
+   "Nombre": "DIEGO TOURON",
+   "camiseta": "7",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "61164",
+   "Nombre": "MATEO CAPLIVSCHI",
+   "camiseta": "48",
+   "Capitan": ""
+  },
+  {
+   "carne": "56688",
+   "Nombre": "TOMAS PASSADORE",
+   "camiseta": "34",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "56859",
+   "Jug_Sale": "AGUSTIN FERNANDEZ",
+   "CarneEntra": "56864",
+   "Jug_Entra": "NICOLAS HARGUINDEGUY",
+   "camiseta": "74",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "56856",
+   "Jug_Sale": "JOAQUIN FLEURQUIN",
+   "CarneEntra": "64681",
+   "Jug_Entra": "FACUNDO TOPOLANSKI",
+   "camiseta": "33",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "55216",
+   "Jug_Sale": "GASPAR HUGHES",
+   "CarneEntra": "67547",
+   "Jug_Entra": "PEDRO ALEJO AROCENA",
+   "camiseta": "96",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "64835",
+   "Jug_Sale": "FACUNDO MARQUEZ",
+   "CarneEntra": "55251",
+   "Jug_Entra": "JUAN MENENDEZ",
+   "camiseta": "19",
+   "minutos": "90"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "54756",
+   "Jug_Sale": "ADRIANO MARTIN AGGIO",
+   "CarneEntra": "53390",
+   "Jug_Entra": "JUAN MANUEL ECHEVERRY",
+   "camiseta": "5",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "55434",
+   "Jug_Sale": "DIEGO TOURON",
+   "CarneEntra": "57836",
+   "Jug_Entra": "JUAN MANUEL ABELLA",
+   "camiseta": "18",
+   "minutos": "59"
+  },
+  {
+   "CarneSale": "53395",
+   "Jug_Sale": "MAURO MASENA",
+   "CarneEntra": "65624",
+   "Jug_Entra": "LORENZO RODRIGUEZ",
+   "camiseta": "20",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "56688",
+   "Jug_Sale": "TOMAS PASSADORE",
+   "CarneEntra": "55605",
+   "Jug_Entra": "BAUTISTA PARODI",
+   "camiseta": "13",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "57836",
+   "Jug_Sale": "JUAN MANUEL ABELLA",
+   "CarneEntra": "59205",
+   "Jug_Entra": "MATEO WIBMER",
+   "camiseta": "34",
+   "minutos": "86"
+  },
+  {
+   "CarneSale": "61164",
+   "Jug_Sale": "MATEO CAPLIVSCHI",
+   "CarneEntra": "56472",
+   "Jug_Entra": "FACUNDO ASTIAZARAN",
+   "camiseta": "24",
+   "minutos": "95"
+  }
+ ],
  "golesL": [],
  "golesV": [],
- "expulsadosL": [],
+ "expulsadosL": [
+  {
+   "Nombre": "TOMAS PEREYRA",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

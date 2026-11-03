@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"A\" PER. y DESC",
   "Cancha": "TENIS EL PINAR",
-  "Fecha_Inicio": "2026-10-31 10:30:00",
-  "Fecha_fin": "2026-10-31 10:30:00",
+  "Fecha_Inicio": "2026-10-31 11:00:00",
+  "Fecha_fin": "2026-10-31 11:00:00",
   "Locatario": "TENIS EL PINAR",
   "goles_locatario": "1",
   "puntos_locatario": "0",
@@ -29,12 +29,264 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "34543",
+   "Nombre": "HERNAN GOMEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "34110",
+   "Nombre": "RODRIGO CARSIN",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "35037",
+   "Nombre": "FEDERICO CARSIN",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "38595",
+   "Nombre": "PABLO FERNANDEZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "29901",
+   "Nombre": "CAMILO LAGUNA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "31053",
+   "Nombre": "MARTIN NICOLAS BINCE",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "34812",
+   "Nombre": "FELIPE MOTTA",
+   "camiseta": "50",
+   "Capitan": ""
+  },
+  {
+   "carne": "37081",
+   "Nombre": "SANTIAGO LAGO",
+   "camiseta": "11",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "54800",
+   "Nombre": "ADRIAN AGUIAR GERARDO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "30998",
+   "Nombre": "NICOLAS OYENARD",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "23905",
+   "Nombre": "IGNACIO RAFAEL D AVILA",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "14065",
+   "Nombre": "LEANDRO GUMERSINDO AGUIRRE",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "27079",
+   "Nombre": "JUAN MATEO BAGNULO",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "30322",
+   "Nombre": "RAFAEL GALLINAL",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "21327",
+   "Nombre": "FELIPE LECUEDER",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "18146",
+   "Nombre": "GERARDO LECUEDER",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "28649",
+   "Nombre": "AGUSTIN LECUEDER",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "20335",
+   "Nombre": "JUAN MUXI",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "23949",
+   "Nombre": "SANTIAGO MUXI",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "22430",
+   "Nombre": "RODRIGO DANIEL PUJOL",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "26543",
+   "Nombre": "JORGE EMILIANO ADDA",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "21861",
+   "Nombre": "MARTIN CARRASCO",
+   "camiseta": "3",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "37081",
+   "Jug_Sale": "SANTIAGO LAGO",
+   "CarneEntra": "30511",
+   "Jug_Entra": "BRUNO ERNESTO MILAN",
+   "camiseta": "15",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "29901",
+   "Jug_Sale": "CAMILO LAGUNA",
+   "CarneEntra": "22028",
+   "Jug_Entra": "JHONATAN RICARDO MARTINEZ",
+   "camiseta": "3",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "31053",
+   "Jug_Sale": "MARTIN NICOLAS BINCE",
+   "CarneEntra": "26840",
+   "Jug_Entra": "HECTOR MARIANO MENDEZ",
+   "camiseta": "14",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "54800",
+   "Jug_Sale": "ADRIAN AGUIAR GERARDO",
+   "CarneEntra": "37081",
+   "Jug_Entra": "SANTIAGO LAGO",
+   "camiseta": "11",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "34812",
+   "Jug_Sale": "FELIPE MOTTA",
+   "CarneEntra": "39911",
+   "Jug_Entra": "LORENZO RAUL TENCA",
+   "camiseta": "29",
+   "minutos": "85"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "26543",
+   "Jug_Sale": "JORGE EMILIANO ADDA",
+   "CarneEntra": "20292",
+   "Jug_Entra": "FRANCISCO FORNELLA",
+   "camiseta": "88",
+   "minutos": "30"
+  },
+  {
+   "CarneSale": "22430",
+   "Jug_Sale": "RODRIGO DANIEL PUJOL",
+   "CarneEntra": "27612",
+   "Jug_Entra": "JUAN CARLOS GOMEZ",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "20335",
+   "Jug_Sale": "JUAN MUXI",
+   "CarneEntra": "31539",
+   "Jug_Entra": "CARLOS SANGUINETTI",
+   "camiseta": "95",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "18146",
+   "Jug_Sale": "GERARDO LECUEDER",
+   "CarneEntra": "22426",
+   "Jug_Entra": "GUZMAN VIDAL",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "21327",
+   "Jug_Sale": "FELIPE LECUEDER",
+   "CarneEntra": "20294",
+   "Jug_Entra": "SANTIAGO RIANI",
+   "camiseta": "6",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "23949",
+   "Jug_Sale": "SANTIAGO MUXI",
+   "CarneEntra": "20308",
+   "Jug_Entra": "BRUNO CROSTA",
+   "camiseta": "28",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "27079",
+   "Jug_Sale": "JUAN MATEO BAGNULO",
+   "CarneEntra": "23218",
+   "Jug_Entra": "CARLOS ANDRES BOSCH",
+   "camiseta": "83",
+   "minutos": "92"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "23905",
+   "Nombre": "IGNACIO RAFAEL D AVILA",
+   "minutos": "19",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "20292",
+   "Nombre": "FRANCISCO FORNELLA",
+   "minutos": "74",
+   "EnContra": "1"
+  },
+  {
+   "carne": "31539",
+   "Nombre": "CARLOS SANGUINETTI",
+   "minutos": "70",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

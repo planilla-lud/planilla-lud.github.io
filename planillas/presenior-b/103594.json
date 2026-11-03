@@ -1,0 +1,275 @@
+{
+ "id": "103594",
+ "categoria": "presenior-b",
+ "serie": "PSBTA",
+ "fecha": 5,
+ "fechaHora": "2026-10-31 09:00:00",
+ "cancha": "COMPLEJO LAS CASUARINAS",
+ "local": "J.M.L.M",
+ "visitante": "CRANDON UNIVERSITARIO",
+ "gl": 3,
+ "gv": 0,
+ "detalle": {
+  "nro_partido": "851",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "PRE SENIOR",
+  "categoria": "PRE-SENIOR MASCULINO",
+  "rueda": "2",
+  "Divisional": "PRESENIOR \"B\" TIT. y ASC",
+  "Cancha": "COMPLEJO LAS CASUARINAS",
+  "Fecha_Inicio": "2026-10-31 10:55:00",
+  "Fecha_fin": "2026-10-31 10:55:00",
+  "Locatario": "J.M.L.M",
+  "goles_locatario": "3",
+  "puntos_locatario": "3",
+  "Visitante": "CRANDON UNIVERSITARIO",
+  "goles_visitante": "0",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "22739",
+   "Nombre": "GUZMAN PANARIO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "27534",
+   "Nombre": "SANTIAGO MORO",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "37709",
+   "Nombre": "GONZALO GUBITOSI",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "32286",
+   "Nombre": "GONZALO VICTOR VEGA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "27121",
+   "Nombre": "JUAN JOSE CASTRO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "26579",
+   "Nombre": "JUAN PABLO DELOR",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "38848",
+   "Nombre": "FEDERICO FERRO",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "24864",
+   "Nombre": "FACUNDO ALVAREZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "27261",
+   "Nombre": "DIEGO MATIAS RODRIGUEZ",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "42933",
+   "Nombre": "RODRIGO GONZALO SICA",
+   "camiseta": "20",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "31624",
+   "Nombre": "JUAN MANUEL VIQUE",
+   "camiseta": "26",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "23048",
+   "Nombre": "GONZALO ANDRES MAQUIEIRA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "19902",
+   "Nombre": "SEBASTIAN MOTTA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "48397",
+   "Nombre": "CLAUDIO JUAREZ",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "31631",
+   "Nombre": "GUILLERMO LUIS PASTORINI",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "20022",
+   "Nombre": "ALFONSO PRADERIO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "35742",
+   "Nombre": "AGUSTIN ANTONIO CERVIÑO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "27667",
+   "Nombre": "HUGO AGUSTIN NIETO",
+   "camiseta": "19",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "32666",
+   "Nombre": "FACUNDO ARIEL CHAVEZ",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "28624",
+   "Nombre": "MARTIN GUERRA",
+   "camiseta": "43",
+   "Capitan": ""
+  },
+  {
+   "carne": "29781",
+   "Nombre": "EMANUEL BURGUEZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "26378",
+   "Nombre": "DIEGO CASCO",
+   "camiseta": "22",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "26579",
+   "Jug_Sale": "JUAN PABLO DELOR",
+   "CarneEntra": "25367",
+   "Jug_Entra": "ANDRES BERNARDO ODIZZIO",
+   "camiseta": "29",
+   "minutos": "40"
+  },
+  {
+   "CarneSale": "27534",
+   "Jug_Sale": "SANTIAGO MORO",
+   "CarneEntra": "31285",
+   "Jug_Entra": "FRANCISCO DELLA SANTA",
+   "camiseta": "23",
+   "minutos": "46"
+  },
+  {
+   "CarneSale": "38848",
+   "Jug_Sale": "FEDERICO FERRO",
+   "CarneEntra": "39051",
+   "Jug_Entra": "CARLOS GANDULIA",
+   "camiseta": "25",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "27121",
+   "Jug_Sale": "JUAN JOSE CASTRO",
+   "CarneEntra": "33275",
+   "Jug_Entra": "MATIAS ERNESTO RANIERI",
+   "camiseta": "33",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "31624",
+   "Jug_Sale": "JUAN MANUEL VIQUE",
+   "CarneEntra": "27534",
+   "Jug_Entra": "SANTIAGO MORO",
+   "camiseta": "0",
+   "minutos": "69"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "26378",
+   "Jug_Sale": "DIEGO CASCO",
+   "CarneEntra": "20028",
+   "Jug_Entra": "MARTIN OLIVERA",
+   "camiseta": "41",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "28624",
+   "Jug_Sale": "MARTIN GUERRA",
+   "CarneEntra": "34591",
+   "Jug_Entra": "GUILLERMO PINO",
+   "camiseta": "42",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "27667",
+   "Jug_Sale": "HUGO AGUSTIN NIETO",
+   "CarneEntra": "26378",
+   "Jug_Entra": "DIEGO CASCO",
+   "camiseta": "22",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "23048",
+   "Jug_Sale": "GONZALO ANDRES MAQUIEIRA",
+   "CarneEntra": "60843",
+   "Jug_Entra": "MAXIMILIANO PEREIRA",
+   "camiseta": "90",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "32666",
+   "Jug_Sale": "FACUNDO ARIEL CHAVEZ",
+   "CarneEntra": "30103",
+   "Jug_Entra": "JUAN PEDRO CABRERA",
+   "camiseta": "26",
+   "minutos": "45"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "24864",
+   "Nombre": "FACUNDO ALVAREZ",
+   "minutos": "59",
+   "EnContra": "0"
+  },
+  {
+   "carne": "24864",
+   "Nombre": "FACUNDO ALVAREZ",
+   "minutos": "89",
+   "EnContra": "0"
+  },
+  {
+   "carne": "31624",
+   "Nombre": "JUAN MANUEL VIQUE",
+   "minutos": "28",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

@@ -3,7 +3,7 @@
  "categoria": "presenior-a",
  "serie": "PSAT",
  "fecha": 5,
- "fechaHora": "2026-10-31 11:15:00",
+ "fechaHora": "2026-10-31 11:30:00",
  "cancha": "COMPLEJO URUNDAY UNIVERSITARIO",
  "local": "URUNDAY UNIVERSITARIO",
  "visitante": "OLD BOYS CLUB",
@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"A\" TITULO",
   "Cancha": "COMPLEJO URUNDAY UNIVERSITARIO",
-  "Fecha_Inicio": "2026-10-31 12:45:00",
-  "Fecha_fin": "2026-10-31 12:45:00",
+  "Fecha_Inicio": "2026-10-31 13:20:00",
+  "Fecha_fin": "2026-10-31 13:20:00",
   "Locatario": "URUNDAY UNIVERSITARIO",
   "goles_locatario": "2",
   "puntos_locatario": "3",
@@ -29,12 +29,240 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "36841",
+   "Nombre": "JUAN MANUEL RIVERO",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "35042",
+   "Nombre": "GUILLERMO SEBASTIAN SUAREZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "32218",
+   "Nombre": "IGNACIO DANIEL SIRIANI",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "41163",
+   "Nombre": "JUAN IGNACIO GOMEZ",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "52326",
+   "Nombre": "ALEXIS BAYON",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "57337",
+   "Nombre": "LEONARDO DAMIAN PANZARIELLO",
+   "camiseta": "56",
+   "Capitan": ""
+  },
+  {
+   "carne": "24222",
+   "Nombre": "FEDERICO SALDIAS",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "63605",
+   "Nombre": "JAVIER ADRIAN GUERRA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "21795",
+   "Nombre": "MAXIMILIANO PEREZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "66202",
+   "Nombre": "MAURICIO ANTONIO DE LOS SANTOS",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "38368",
+   "Nombre": "JUAN MANUEL BOGADO",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "22548",
+   "Nombre": "FRANCISCO MARIA BOSCH",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "21266",
+   "Nombre": "JUAN MARTIN TERRA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "26389",
+   "Nombre": "MARTIN JOSE DONAGARAY",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "26390",
+   "Nombre": "ROBERTO MATIAS GIMENEZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "26980",
+   "Nombre": "SANTIAGO NIELS SHAW",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "27541",
+   "Nombre": "GERMAN JOSE ALBANELL",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "36432",
+   "Nombre": "ALBERTO FELIZ INCIARTE",
+   "camiseta": "23",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "32038",
+   "Nombre": "LUCAS MARIA GARCIA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "29662",
+   "Nombre": "SANTIAGO JUAN ALBANELL",
+   "camiseta": "38",
+   "Capitan": ""
+  },
+  {
+   "carne": "28182",
+   "Nombre": "ALFREDO AROCENA",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "26972",
+   "Nombre": "JUAN MANUEL MUSETTI",
+   "camiseta": "99",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "52326",
+   "Jug_Sale": "ALEXIS BAYON",
+   "CarneEntra": "49591",
+   "Jug_Entra": "YONATAN GONZALEZ",
+   "camiseta": "4",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "32218",
+   "Jug_Sale": "IGNACIO DANIEL SIRIANI",
+   "CarneEntra": "22536",
+   "Jug_Entra": "MARCIO FIDEL SUAREZ",
+   "camiseta": "17",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "21795",
+   "Jug_Sale": "MAXIMILIANO PEREZ",
+   "CarneEntra": "22496",
+   "Jug_Entra": "DIEGO SEBASTIAN PENELA",
+   "camiseta": "15",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "66202",
+   "Jug_Sale": "MAURICIO ANTONIO DE LOS SANTOS",
+   "CarneEntra": "42139",
+   "Jug_Entra": "RODRIGO DANIEL SIRIANI",
+   "camiseta": "30",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "38368",
+   "Jug_Sale": "JUAN MANUEL BOGADO",
+   "CarneEntra": "33442",
+   "Jug_Entra": "ANTONIO GABRIEL BERMUDEZ",
+   "camiseta": "51",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "42139",
+   "Jug_Sale": "RODRIGO DANIEL SIRIANI",
+   "CarneEntra": "34306",
+   "Jug_Entra": "MATHIAS LANZZERI",
+   "camiseta": "7",
+   "minutos": "90"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "27541",
+   "Jug_Sale": "GERMAN JOSE ALBANELL",
+   "CarneEntra": "29672",
+   "Jug_Entra": "JUAN MARIA OREGGIA",
+   "camiseta": "16",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "21266",
+   "Jug_Sale": "JUAN MARTIN TERRA",
+   "CarneEntra": "29955",
+   "Jug_Entra": "NICOLAS CASAROTTI",
+   "camiseta": "9",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "28182",
+   "Jug_Sale": "ALFREDO AROCENA",
+   "CarneEntra": "31896",
+   "Jug_Entra": "ALFONSO GUZMAN GALLO",
+   "camiseta": "19",
+   "minutos": "45"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "36841",
+   "Nombre": "JUAN MANUEL RIVERO",
+   "minutos": "62",
+   "EnContra": "0"
+  },
+  {
+   "carne": "57337",
+   "Nombre": "LEONARDO DAMIAN PANZARIELLO",
+   "minutos": "30",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "26972",
+   "Nombre": "JUAN MANUEL MUSETTI",
+   "minutos": "72",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

@@ -1,12 +1,5 @@
 [
  {
-  "serie": "RSBPD",
-  "fechaHora": "2026-11-07 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "COLEGIO SANTA ELENA",
-  "visitante": "JUAN XXIII"
- },
- {
   "serie": "RSBTA",
   "fechaHora": "2026-11-07 11:15:00",
   "cancha": "OLD CHRISTIANS CLUB",
@@ -54,6 +47,13 @@
   "cancha": "COMPLEJO JUAN XXIII",
   "local": "CIRCULO DE TENIS MONTEVIDEO",
   "visitante": "CRANDON UNIVERSITARIO"
+ },
+ {
+  "serie": "RSBPD",
+  "fechaHora": "2026-11-07 11:15:00",
+  "cancha": "COMPLEJO DEPORTIVO ARRAYANES",
+  "local": "COLEGIO SANTA ELENA",
+  "visitante": "JUAN XXIII"
  },
  {
   "serie": "RSBPD",

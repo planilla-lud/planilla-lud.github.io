@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"D\" TIT. y ASC.",
   "Cancha": "COMPLEJO LOS ROJOS",
-  "Fecha_Inicio": "2026-10-31 12:45:00",
-  "Fecha_fin": "2026-10-31 12:45:00",
+  "Fecha_Inicio": "2026-10-31 13:15:00",
+  "Fecha_fin": "2026-10-31 13:15:00",
   "Locatario": "LATINO FUTBOL CLUB",
   "goles_locatario": "3",
   "puntos_locatario": "3",
@@ -29,12 +29,257 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "39628",
+   "Nombre": "FERNANDO DE POI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "26283",
+   "Nombre": "RAFAEL DELLA TORRE",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "37016",
+   "Nombre": "JUAN ANDRES CASTRO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "47757",
+   "Nombre": "JUAN ANDRES NOGUES",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "34916",
+   "Nombre": "MARCOS ALEJO SANCHEZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "52449",
+   "Nombre": "FACUNDO FIERRO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "33691",
+   "Nombre": "GONZALO SUCAZES",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "33410",
+   "Nombre": "JOSE ARAUJO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "44615",
+   "Nombre": "JOAQUIN FARIÑA",
+   "camiseta": "21",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "21819",
+   "Nombre": "IGNACIO RODRIGUEZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "51694",
+   "Nombre": "JUAN PABLO LEYTON",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "12993",
+   "Nombre": "MARTIN SANTIAGO GEDANKE",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "23946",
+   "Nombre": "ALEJANDRO AGUSTIN DIAZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "64752",
+   "Nombre": "SANTIAGO OLIVERA OLIVERA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "26654",
+   "Nombre": "FEDERICO GASTON GORRIA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "31375",
+   "Nombre": "GONZALO CAIRO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "53640",
+   "Nombre": "HENRY GASTON LINK",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "41081",
+   "Nombre": "MARCOS AGUSTIN GARCIA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "44745",
+   "Nombre": "CAMILO CASAS",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "23753",
+   "Nombre": "DIEGO MAURICIO ACOSTA",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "26279",
+   "Nombre": "RODRIGO EMILIANO ANTELO",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "34626",
+   "Nombre": "RODRIGO SEBASTIAN ANDRADA",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "33410",
+   "Jug_Sale": "JOSE ARAUJO",
+   "CarneEntra": "31035",
+   "Jug_Entra": "GIANFRANCO AMADO POSE",
+   "camiseta": "11",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "26283",
+   "Jug_Sale": "RAFAEL DELLA TORRE",
+   "CarneEntra": "38692",
+   "Jug_Entra": "JUAN ANDRES PESSANO",
+   "camiseta": "13",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "47757",
+   "Jug_Sale": "JUAN ANDRES NOGUES",
+   "CarneEntra": "37036",
+   "Jug_Entra": "IGNACIO GONZALO PAOLILLO",
+   "camiseta": "26",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "21819",
+   "Jug_Sale": "IGNACIO RODRIGUEZ",
+   "CarneEntra": "56453",
+   "Jug_Entra": "DANIEL SEBASTIAN VARELA",
+   "camiseta": "35",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "33691",
+   "Jug_Sale": "GONZALO SUCAZES",
+   "CarneEntra": "37034",
+   "Jug_Entra": "LEANDRO GERMAN TARANTO",
+   "camiseta": "31",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "34916",
+   "Jug_Sale": "MARCOS ALEJO SANCHEZ",
+   "CarneEntra": "34914",
+   "Jug_Entra": "SANTIAGO FERNANDEZ",
+   "camiseta": "8",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "37016",
+   "Jug_Sale": "JUAN ANDRES CASTRO",
+   "CarneEntra": "21819",
+   "Jug_Entra": "IGNACIO RODRIGUEZ",
+   "camiseta": "7",
+   "minutos": "80"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "44745",
+   "Jug_Sale": "CAMILO CASAS",
+   "CarneEntra": "26654",
+   "Jug_Entra": "FEDERICO GASTON GORRIA",
+   "camiseta": "4",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "26654",
+   "Jug_Sale": "FEDERICO GASTON GORRIA",
+   "CarneEntra": "20356",
+   "Jug_Entra": "FERNANDO SIMON BARCELO",
+   "camiseta": "14",
+   "minutos": "45"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "21819",
+   "Nombre": "IGNACIO RODRIGUEZ",
+   "minutos": "36",
+   "EnContra": "0"
+  },
+  {
+   "carne": "51694",
+   "Nombre": "JUAN PABLO LEYTON",
+   "minutos": "60",
+   "EnContra": "0"
+  },
+  {
+   "carne": "52449",
+   "Nombre": "FACUNDO FIERRO",
+   "minutos": "29",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "53640",
+   "Nombre": "HENRY GASTON LINK",
+   "minutos": "57",
+   "EnContra": "1"
+  },
+  {
+   "carne": "53640",
+   "Nombre": "HENRY GASTON LINK",
+   "minutos": "65",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
- "expulsadosV": []
+ "expulsadosV": [
+  {
+   "Nombre": "MARTIN SANTIAGO GEDANKE",
+   "observaciones": ""
+  }
+ ]
 }

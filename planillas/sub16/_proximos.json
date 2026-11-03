@@ -98,13 +98,6 @@
   "visitante": "POCO SITIO PLAYA VERDE"
  },
  {
-  "serie": "16B",
-  "fechaHora": "2026-11-08 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "DEP.de la C. ARETEIA BIMBULLY",
-  "visitante": "ALEMAN UNIVERSITARIO"
- },
- {
   "serie": "16C",
   "fechaHora": "2026-11-08 00:00:00",
   "cancha": "CANCHA A FIJAR",
@@ -208,6 +201,13 @@
   "cancha": "COMPLEJO JUAN XXIII",
   "local": "LA BLANQUEADA",
   "visitante": "CRANDON UNIVERSITARIO"
+ },
+ {
+  "serie": "16B",
+  "fechaHora": "2026-11-10 19:30:00",
+  "cancha": "COLEGIO ARETEIA",
+  "local": "DEP.de la C. ARETEIA BIMBULLY",
+  "visitante": "ALEMAN UNIVERSITARIO"
  },
  {
   "serie": "16O",

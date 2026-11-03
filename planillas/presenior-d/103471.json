@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"D\" TIT. y ASC.",
   "Cancha": "COMPLEJO LOS ROJOS",
-  "Fecha_Inicio": "2026-10-31 10:30:00",
-  "Fecha_fin": "2026-10-31 10:30:00",
+  "Fecha_Inicio": "2026-10-31 11:00:00",
+  "Fecha_fin": "2026-10-31 11:00:00",
   "Locatario": "OLD BRENDANS CLUB",
   "goles_locatario": "4",
   "puntos_locatario": "3",
@@ -29,11 +29,236 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "21036",
+   "Nombre": "JUAN AGUSTIN MURIAS",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "37740",
+   "Nombre": "GONZALO RAMALLO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "24874",
+   "Nombre": "MARCELO ADRIAN CAMMARANO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "33907",
+   "Nombre": "JOAQUIN CICATIELLO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "38649",
+   "Nombre": "ADRIAN RIBERO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "63840",
+   "Nombre": "EMILIO NICOLAS CAMEJO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "31607",
+   "Nombre": "FEDERICO MARTIN GOMEZ",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "23486",
+   "Nombre": "SEBASTIAN VIDAL",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "27751",
+   "Nombre": "GUZMAN DANIEL MONTGOMERY",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "25908",
+   "Nombre": "JUAN MANUEL LAZBAL",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "36517",
+   "Nombre": "MANUEL MATIAS GONZALEZ",
+   "camiseta": "0",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "33861",
+   "Nombre": "RODRIGO ACOSTA",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "21208",
+   "Nombre": "ARTURO KEUSHKERIAN",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "37263",
+   "Nombre": "FELIPE MAURENTE",
+   "camiseta": "3",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "26930",
+   "Nombre": "ANDRES NICOLAS PALMA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "26923",
+   "Nombre": "MATHIAS MAURENTE",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "18823",
+   "Nombre": "SANTIAGO ADOLFO DIAZ",
+   "camiseta": "74",
+   "Capitan": ""
+  },
+  {
+   "carne": "29431",
+   "Nombre": "FRANCISCO JORGE AGUERRE",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "48145",
+   "Nombre": "JUAN MANUEL MARTINEZ",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "41699",
+   "Nombre": "FEDERICO AGUSTIN CORES",
+   "camiseta": "63",
+   "Capitan": ""
+  },
+  {
+   "carne": "28853",
+   "Nombre": "MARCIO NICOLAS ARAUJO",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "31617",
+   "Nombre": "SANTIAGO MATO",
+   "camiseta": "22",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "25908",
+   "Jug_Sale": "JUAN MANUEL LAZBAL",
+   "CarneEntra": "63917",
+   "Jug_Entra": "BRUNO FRANCISCO CONTE",
+   "camiseta": "77",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "31607",
+   "Jug_Sale": "FEDERICO MARTIN GOMEZ",
+   "CarneEntra": "51479",
+   "Jug_Entra": "LUIS ANDRES SOSA",
+   "camiseta": "41",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "24874",
+   "Jug_Sale": "MARCELO ADRIAN CAMMARANO",
+   "CarneEntra": "63840",
+   "Jug_Entra": "EMILIO NICOLAS CAMEJO",
+   "camiseta": "4",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "37740",
+   "Jug_Sale": "GONZALO RAMALLO",
+   "CarneEntra": "25908",
+   "Jug_Entra": "JUAN MANUEL LAZBAL",
+   "camiseta": "32",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "33907",
+   "Jug_Sale": "JOAQUIN CICATIELLO",
+   "CarneEntra": "31607",
+   "Jug_Entra": "FEDERICO MARTIN GOMEZ",
+   "camiseta": "14",
+   "minutos": "77"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "31617",
+   "Jug_Sale": "SANTIAGO MATO",
+   "CarneEntra": "62903",
+   "Jug_Entra": "PEDRO GULARTE",
+   "camiseta": "19",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "33861",
+   "Jug_Sale": "RODRIGO ACOSTA",
+   "CarneEntra": "22468",
+   "Jug_Entra": "RAMSES BAÑALES",
+   "camiseta": "1",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "26930",
+   "Jug_Sale": "ANDRES NICOLAS PALMA",
+   "CarneEntra": "52369",
+   "Jug_Entra": "JOSE MARIA FERNANDEZ",
+   "camiseta": "12",
+   "minutos": "45"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "25908",
+   "Nombre": "JUAN MANUEL LAZBAL",
+   "minutos": "29",
+   "EnContra": "0"
+  },
+  {
+   "carne": "25908",
+   "Nombre": "JUAN MANUEL LAZBAL",
+   "minutos": "50",
+   "EnContra": "0"
+  },
+  {
+   "carne": "31607",
+   "Nombre": "FEDERICO MARTIN GOMEZ",
+   "minutos": "34",
+   "EnContra": "0"
+  },
+  {
+   "carne": "51479",
+   "Nombre": "LUIS ANDRES SOSA",
+   "minutos": "90",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAS40 \"B\" TIT. y ASC.",
   "Cancha": "COLEGIO PIO",
-  "Fecha_Inicio": "2026-10-31 10:30:00",
-  "Fecha_fin": "2026-10-31 10:30:00",
+  "Fecha_Inicio": "2026-10-31 11:00:00",
+  "Fecha_fin": "2026-10-31 11:00:00",
   "Locatario": "CENTRO CRISTOBAL COLON",
   "goles_locatario": "2",
   "puntos_locatario": "1",
@@ -29,12 +29,262 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "28787",
+   "Nombre": "GABRIEL OSVALDO CHAVES",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "54620",
+   "Nombre": "HAMILTON BERNARDO TOURON",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "15663",
+   "Nombre": "JUAN FRANCISCO FRUGONI",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "67322",
+   "Nombre": "SANTIAGO ENRIQUE BARRETO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "11891",
+   "Nombre": "RAFAEL ALVARO MANCINI",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "27238",
+   "Nombre": "MAURICIO ACOSTA",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "29009",
+   "Nombre": "WALTER ALEJANDRO SEGOVIA",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "19015",
+   "Nombre": "PABLO ANDRES ALDAYA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "28443",
+   "Nombre": "VICENTE FAVIO GIUDICE",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "39726",
+   "Nombre": "FEDERICO ROBERTO CHAVES",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "26491",
+   "Nombre": "MARTIN HUMBERTO GUIGOU",
+   "camiseta": "55",
+   "Capitan": "(C)"
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "23421",
+   "Nombre": "WALTER DANIEL BORIO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "20066",
+   "Nombre": "DIEGO RAFAEL RIOS",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "59922",
+   "Nombre": "PABLO ANDRES FILIPPINI",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "24641",
+   "Nombre": "FERNANDO CARLOS GAMARRA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "16619",
+   "Nombre": "ANDRES DELLEPIANE",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "67253",
+   "Nombre": "ANDRES SEBASTIAN MANEIRO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "15676",
+   "Nombre": "PABLO JAVIER REBOLLO",
+   "camiseta": "11",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "24476",
+   "Nombre": "ANDRES MARIO ICHAZO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "37622",
+   "Nombre": "CARLOS EDUARDO SILVA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "20876",
+   "Nombre": "ALEJANDRO BALAZSI",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "38910",
+   "Nombre": "ROBERTO MIGUEL VILLAGRA",
+   "camiseta": "18",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "54620",
+   "Jug_Sale": "HAMILTON BERNARDO TOURON",
+   "CarneEntra": "20532",
+   "Jug_Entra": "DIEGO LIBER GONZALEZ",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67322",
+   "Jug_Sale": "SANTIAGO ENRIQUE BARRETO",
+   "CarneEntra": "24892",
+   "Jug_Entra": "JULIO CESAR HERRERA",
+   "camiseta": "37",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "24892",
+   "Jug_Sale": "JULIO CESAR HERRERA",
+   "CarneEntra": "25158",
+   "Jug_Entra": "CARLOS MATHIAS BALLAQUE",
+   "camiseta": "99",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "39726",
+   "Jug_Sale": "FEDERICO ROBERTO CHAVES",
+   "CarneEntra": "14898",
+   "Jug_Entra": "HECTOR ADRIAN CEDRES",
+   "camiseta": "55",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "29009",
+   "Jug_Sale": "WALTER ALEJANDRO SEGOVIA",
+   "CarneEntra": "12416",
+   "Jug_Entra": "CHRISTIAN ANDRES ALCORTA",
+   "camiseta": "5",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "28443",
+   "Jug_Sale": "VICENTE FAVIO GIUDICE",
+   "CarneEntra": "29009",
+   "Jug_Entra": "WALTER ALEJANDRO SEGOVIA",
+   "camiseta": "27",
+   "minutos": "82"
+  },
+  {
+   "CarneSale": "26491",
+   "Jug_Sale": "MARTIN HUMBERTO GUIGOU",
+   "CarneEntra": "24892",
+   "Jug_Entra": "JULIO CESAR HERRERA",
+   "camiseta": "37",
+   "minutos": "82"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "37622",
+   "Jug_Sale": "CARLOS EDUARDO SILVA",
+   "CarneEntra": "20916",
+   "Jug_Entra": "MAXIMILIANO ANDRES VIERA",
+   "camiseta": "21",
+   "minutos": "40"
+  },
+  {
+   "CarneSale": "16619",
+   "Jug_Sale": "ANDRES DELLEPIANE",
+   "CarneEntra": "29675",
+   "Jug_Entra": "MARTIN LOPEZ",
+   "camiseta": "22",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "20876",
+   "Jug_Sale": "ALEJANDRO BALAZSI",
+   "CarneEntra": "17149",
+   "Jug_Entra": "CARLOS JAVIER SOUZA",
+   "camiseta": "0",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "59922",
+   "Jug_Sale": "PABLO ANDRES FILIPPINI",
+   "CarneEntra": "27186",
+   "Jug_Entra": "PABLO ESTEBAN FAGUNDEZ",
+   "camiseta": "0",
+   "minutos": "45"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "27238",
+   "Nombre": "MAURICIO ACOSTA",
+   "minutos": "42",
+   "EnContra": "0"
+  },
+  {
+   "carne": "39726",
+   "Nombre": "FEDERICO ROBERTO CHAVES",
+   "minutos": "23",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "38910",
+   "Nombre": "ROBERTO MIGUEL VILLAGRA",
+   "minutos": "73",
+   "EnContra": "1"
+  },
+  {
+   "carne": "38910",
+   "Nombre": "ROBERTO MIGUEL VILLAGRA",
+   "minutos": "55",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

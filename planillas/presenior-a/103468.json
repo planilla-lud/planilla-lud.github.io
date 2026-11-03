@@ -4,7 +4,7 @@
  "serie": "PSAT",
  "fecha": 5,
  "fechaHora": "2026-10-31 09:00:00",
- "cancha": "COM. DEP. CLUB TROUVILLE",
+ "cancha": "()",
  "local": "NACIONAL UNIVERSITARIO",
  "visitante": "JUAN XXIII",
  "gl": 0,
@@ -17,9 +17,9 @@
   "categoria": "PRE-SENIOR MASCULINO",
   "rueda": "2",
   "Divisional": "PRESENIOR \"A\" TITULO",
-  "Cancha": "COM. DEP. CLUB TROUVILLE",
-  "Fecha_Inicio": "2026-10-31 10:30:00",
-  "Fecha_fin": "2026-10-31 10:30:00",
+  "Cancha": "()",
+  "Fecha_Inicio": "2026-10-31 10:50:00",
+  "Fecha_fin": "2026-10-31 10:50:00",
   "Locatario": "NACIONAL UNIVERSITARIO",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,263 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "53628",
+   "Nombre": "BRUNO DAVID GONZALEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "32437",
+   "Nombre": "EMILIANO MARQUES",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "31298",
+   "Nombre": "SANTIAGO OMAR TORIJA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "40521",
+   "Nombre": "CHRISTIAN EDUARDO FERRET",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "27674",
+   "Nombre": "MARTIN GIRALDI",
+   "camiseta": "4",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "31833",
+   "Nombre": "JUAN MARTIN COURTOISIE",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "31284",
+   "Nombre": "FELIPE MARIA CALZA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "30102",
+   "Nombre": "MATHIAS SEGREDO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "17299",
+   "Nombre": "JOSE PEDRO CARZOLIO",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "27583",
+   "Nombre": "ESTEBAN DAVID ZAPATA",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "29119",
+   "Nombre": "ALEJANDRO JUAN RAIZ",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "36530",
+   "Nombre": "MATIAS IROLDI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "33489",
+   "Nombre": "JUAN MANUEL YAÑEZ",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "21424",
+   "Nombre": "ALEJANDRO MAÑE",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "27083",
+   "Nombre": "NICOLAS DIEGO MOURE",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "54395",
+   "Nombre": "ANDRES VECINO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "32536",
+   "Nombre": "DIEGO ALBERTO PEREZ",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "28086",
+   "Nombre": "GUZMAN PRESNO",
+   "camiseta": "8",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "29212",
+   "Nombre": "ALFONSO MARIA CASTELLS",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "37774",
+   "Nombre": "RICHARD FERNANDO BARBOZA",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "21269",
+   "Nombre": "ALFONSO LUIS VIDAL",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "30983",
+   "Nombre": "RENZO LUCAS",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "32437",
+   "Jug_Sale": "EMILIANO MARQUES",
+   "CarneEntra": "34504",
+   "Jug_Entra": "JUAN SEBASTIAN DINI",
+   "camiseta": "25",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "17299",
+   "Jug_Sale": "JOSE PEDRO CARZOLIO",
+   "CarneEntra": "23766",
+   "Jug_Entra": "SEBASTIAN DE MARTINO",
+   "camiseta": "9",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "31298",
+   "Jug_Sale": "SANTIAGO OMAR TORIJA",
+   "CarneEntra": "27656",
+   "Jug_Entra": "NICOLAS ALEJANDRO MEYER",
+   "camiseta": "18",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "31284",
+   "Jug_Sale": "FELIPE MARIA CALZA",
+   "CarneEntra": "61514",
+   "Jug_Entra": "AGUSTIN LATORRE",
+   "camiseta": "17",
+   "minutos": "86"
+  },
+  {
+   "CarneSale": "27674",
+   "Jug_Sale": "MARTIN GIRALDI",
+   "CarneEntra": "33465",
+   "Jug_Entra": "PEDRO ISIDORO ROJA",
+   "camiseta": "45",
+   "minutos": "86"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "54395",
+   "Jug_Sale": "ANDRES VECINO",
+   "CarneEntra": "28887",
+   "Jug_Entra": "JAVIER URRESTARAZU",
+   "camiseta": "5",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "37774",
+   "Jug_Sale": "RICHARD FERNANDO BARBOZA",
+   "CarneEntra": "40583",
+   "Jug_Entra": "NICOLAS BRANCATO",
+   "camiseta": "14",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "30983",
+   "Jug_Sale": "RENZO LUCAS",
+   "CarneEntra": "18778",
+   "Jug_Entra": "SANTIAGO WALTER CAMPO",
+   "camiseta": "7",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "21424",
+   "Jug_Sale": "ALEJANDRO MAÑE",
+   "CarneEntra": "21348",
+   "Jug_Entra": "PABLO CORREA",
+   "camiseta": "23",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "21269",
+   "Jug_Sale": "ALFONSO LUIS VIDAL",
+   "CarneEntra": "23810",
+   "Jug_Entra": "NICOLAS RAMOS",
+   "camiseta": "3",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "32536",
+   "Jug_Sale": "DIEGO ALBERTO PEREZ",
+   "CarneEntra": "21458",
+   "Jug_Entra": "PABLO JOSE MARTON",
+   "camiseta": "20",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "29212",
+   "Jug_Sale": "ALFONSO MARIA CASTELLS",
+   "CarneEntra": "35845",
+   "Jug_Entra": "GABRIEL TARUSELLI",
+   "camiseta": "27",
+   "minutos": "82"
+  }
+ ],
  "golesL": [],
- "golesV": [],
+ "golesV": [
+  {
+   "carne": "30983",
+   "Nombre": "RENZO LUCAS",
+   "minutos": "45",
+   "EnContra": "1"
+  },
+  {
+   "carne": "32536",
+   "Nombre": "DIEGO ALBERTO PEREZ",
+   "minutos": "20",
+   "EnContra": "1"
+  },
+  {
+   "carne": "37774",
+   "Nombre": "RICHARD FERNANDO BARBOZA",
+   "minutos": "50",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

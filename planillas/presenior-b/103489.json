@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"B\" PER. y DESC",
   "Cancha": "COMPLEJO DEPORTIVO ARRAYANES",
-  "Fecha_Inicio": "2026-10-31 12:45:00",
-  "Fecha_fin": "2026-10-31 12:45:00",
+  "Fecha_Inicio": "2026-10-31 13:10:00",
+  "Fecha_fin": "2026-10-31 13:10:00",
   "Locatario": "ARGOS ",
   "goles_locatario": "3",
   "puntos_locatario": "0",
@@ -29,12 +29,238 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "14496",
+   "Nombre": "HECTOR MIGUEL MASSA",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "27339",
+   "Nombre": "RODRIGO LEONEL GONZALEZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "31613",
+   "Nombre": "LUCAS LEONEL BOUISSA",
+   "camiseta": "16",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "62845",
+   "Nombre": "ANDRES CATALANO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "38008",
+   "Nombre": "JOSE MAURO RODRIGUEZ",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "66159",
+   "Nombre": "JHONY ALEXANDER BARCIA",
+   "camiseta": "90",
+   "Capitan": ""
+  },
+  {
+   "carne": "33380",
+   "Nombre": "GERARDO MENDEZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "68573",
+   "Nombre": "DIEGO COSTA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "62323",
+   "Nombre": "JEREMMY MICHAEL RAMIREZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "47946",
+   "Nombre": "FABRIZIO JAVIER GONZALEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "32868",
+   "Nombre": "GUILLERMO SILVA",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "25905",
+   "Nombre": "SERGIO NICOLAS OLIVERI",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "38949",
+   "Nombre": "OSCAR SEBASTIAN ALBRECH",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "22861",
+   "Nombre": "MATIAS NIEVES",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "31404",
+   "Nombre": "AGUSTIN GABRIEL GONZALEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "22273",
+   "Nombre": "CARLOS JOAQUIN ELLIOT",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "54214",
+   "Nombre": "CHRISTIAN FABIAN MOREIRA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "25653",
+   "Nombre": "ROBERTO FERNANDO DA ROSA",
+   "camiseta": "90",
+   "Capitan": ""
+  },
+  {
+   "carne": "28961",
+   "Nombre": "RODRIGO COLLAZO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "31738",
+   "Nombre": "FACUNDO FABIAN GOMEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "25433",
+   "Nombre": "RAMIRO BARRON",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "31557",
+   "Nombre": "SERGIO GABRIEL MARTIRENA",
+   "camiseta": "17",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "68573",
+   "Jug_Sale": "DIEGO COSTA",
+   "CarneEntra": "31867",
+   "Jug_Entra": "MATIAS GONZALO SCAFFO",
+   "camiseta": "23",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "62323",
+   "Jug_Sale": "JEREMMY MICHAEL RAMIREZ",
+   "CarneEntra": "61915",
+   "Jug_Entra": "FEDERICO JOAQUIN LEAL",
+   "camiseta": "9",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "27339",
+   "Jug_Sale": "RODRIGO LEONEL GONZALEZ",
+   "CarneEntra": "35424",
+   "Jug_Entra": "MARIO MACHADO",
+   "camiseta": "20",
+   "minutos": "77"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "25905",
+   "Jug_Sale": "SERGIO NICOLAS OLIVERI",
+   "CarneEntra": "19819",
+   "Jug_Entra": "ALVARO GABRIEL LOPEZ",
+   "camiseta": "1",
+   "minutos": "13"
+  },
+  {
+   "CarneSale": "54214",
+   "Jug_Sale": "CHRISTIAN FABIAN MOREIRA",
+   "CarneEntra": "23494",
+   "Jug_Entra": "RODRIGO SOUZA",
+   "camiseta": "15",
+   "minutos": "59"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "32868",
+   "Nombre": "GUILLERMO SILVA",
+   "minutos": "12",
+   "EnContra": "0"
+  },
+  {
+   "carne": "47946",
+   "Nombre": "FABRIZIO JAVIER GONZALEZ",
+   "minutos": "11",
+   "EnContra": "0"
+  },
+  {
+   "carne": "66159",
+   "Nombre": "JHONY ALEXANDER BARCIA",
+   "minutos": "81",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "25653",
+   "Nombre": "ROBERTO FERNANDO DA ROSA",
+   "minutos": "36",
+   "EnContra": "1"
+  },
+  {
+   "carne": "25653",
+   "Nombre": "ROBERTO FERNANDO DA ROSA",
+   "minutos": "97",
+   "EnContra": "1"
+  },
+  {
+   "carne": "31404",
+   "Nombre": "AGUSTIN GABRIEL GONZALEZ",
+   "minutos": "93",
+   "EnContra": "1"
+  },
+  {
+   "carne": "31738",
+   "Nombre": "FACUNDO FABIAN GOMEZ",
+   "minutos": "54",
+   "EnContra": "1"
+  },
+  {
+   "carne": "54214",
+   "Nombre": "CHRISTIAN FABIAN MOREIRA",
+   "minutos": "57",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

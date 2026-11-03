@@ -1,0 +1,303 @@
+{
+ "id": "103597",
+ "categoria": "presenior-d",
+ "serie": "PSDTA",
+ "fecha": 5,
+ "fechaHora": "2026-10-31 11:15:00",
+ "cancha": "COMPLEJO LAS CASUARINAS",
+ "local": "BODY FACTORY",
+ "visitante": "CLUB FUERZA AEREA",
+ "gl": 0,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "937",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "PRE SENIOR",
+  "categoria": "PRE-SENIOR MASCULINO",
+  "rueda": "2",
+  "Divisional": "PRESENIOR \"D\" TIT. y ASC.",
+  "Cancha": "COMPLEJO LAS CASUARINAS",
+  "Fecha_Inicio": "2026-10-31 12:50:00",
+  "Fecha_fin": "2026-10-31 12:50:00",
+  "Locatario": "BODY FACTORY",
+  "goles_locatario": "0",
+  "puntos_locatario": "0",
+  "Visitante": "CLUB FUERZA AEREA",
+  "goles_visitante": "1",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "38951",
+   "Nombre": "FACUNDO ESTANISLAO DELGADO",
+   "camiseta": "90",
+   "Capitan": ""
+  },
+  {
+   "carne": "27735",
+   "Nombre": "MATIAS PAIS",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "60520",
+   "Nombre": "SEBASTIAN MONFORT",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "47286",
+   "Nombre": "CLAUDIO MAXIMILIANO RODRIGUEZ",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "31756",
+   "Nombre": "FEDERICO PALERMO",
+   "camiseta": "43",
+   "Capitan": ""
+  },
+  {
+   "carne": "56142",
+   "Nombre": "MAURO STOCCO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "54412",
+   "Nombre": "DIEGO SERGIO BOUZA",
+   "camiseta": "6",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "52544",
+   "Nombre": "ALEXIS BRAVO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "33642",
+   "Nombre": "FERNANDO PEREZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "43506",
+   "Nombre": "IGNACIO PAIS",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "64072",
+   "Nombre": "CHARLES GASTON BORBAS",
+   "camiseta": "20",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "35538",
+   "Nombre": "YAIR EDGAR MORALES",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "24179",
+   "Nombre": "SERGIO DANIEL BIANCHI",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "24282",
+   "Nombre": "GERARDO MOREIRA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "25130",
+   "Nombre": "FABRIZIO APELLANIZ",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "25991",
+   "Nombre": "FEDERICO BARDIER",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "32752",
+   "Nombre": "ALVARO DARIO BALCEMAO",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "36916",
+   "Nombre": "SANTIAGO NICOLAS RUGLIO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "27122",
+   "Nombre": "LEANDRO MIGUEL GONZALEZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "20859",
+   "Nombre": "IGNACIO OTASU",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "17844",
+   "Nombre": "YAMANDU SEBASTIAN SILVA",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "27563",
+   "Nombre": "ALVARO MARTIN BARDIER",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "52544",
+   "Jug_Sale": "ALEXIS BRAVO",
+   "CarneEntra": "33420",
+   "Jug_Entra": "MARTIN ENRIQUE AZURICA",
+   "camiseta": "25",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64072",
+   "Jug_Sale": "CHARLES GASTON BORBAS",
+   "CarneEntra": "50275",
+   "Jug_Entra": "CARLOS ESTEBAN SILVA",
+   "camiseta": "18",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "31756",
+   "Jug_Sale": "FEDERICO PALERMO",
+   "CarneEntra": "23408",
+   "Jug_Entra": "CARLOS ALEXEI CABALLERO",
+   "camiseta": "28",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "47286",
+   "Jug_Sale": "CLAUDIO MAXIMILIANO RODRIGUEZ",
+   "CarneEntra": "33642",
+   "Jug_Entra": "FERNANDO PEREZ",
+   "camiseta": "17",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "33642",
+   "Jug_Sale": "FERNANDO PEREZ",
+   "CarneEntra": "36071",
+   "Jug_Entra": "LEONARDO BRINDISI",
+   "camiseta": "5",
+   "minutos": "26"
+  },
+  {
+   "CarneSale": "36071",
+   "Jug_Sale": "LEONARDO BRINDISI",
+   "CarneEntra": "31756",
+   "Jug_Entra": "FEDERICO PALERMO",
+   "camiseta": "43",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "60520",
+   "Jug_Sale": "SEBASTIAN MONFORT",
+   "CarneEntra": "21170",
+   "Jug_Entra": "SEBASTIAN RUSO",
+   "camiseta": "10",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "43506",
+   "Jug_Sale": "IGNACIO PAIS",
+   "CarneEntra": "60520",
+   "Jug_Entra": "SEBASTIAN MONFORT",
+   "camiseta": "28",
+   "minutos": "31"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "20859",
+   "Jug_Sale": "IGNACIO OTASU",
+   "CarneEntra": "32198",
+   "Jug_Entra": "DIEGO MARTIN ACOSTA",
+   "camiseta": "40",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "25130",
+   "Jug_Sale": "FABRIZIO APELLANIZ",
+   "CarneEntra": "20772",
+   "Jug_Entra": "IGNACIO GONZALEZ",
+   "camiseta": "15",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "32752",
+   "Jug_Sale": "ALVARO DARIO BALCEMAO",
+   "CarneEntra": "19790",
+   "Jug_Entra": "GUSTAVO JAVIER GONZALEZ",
+   "camiseta": "2",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "27122",
+   "Jug_Sale": "LEANDRO MIGUEL GONZALEZ",
+   "CarneEntra": "66178",
+   "Jug_Entra": "JAIRO ALTAMIR DE LOS SANTOS",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "24282",
+   "Jug_Sale": "GERARDO MOREIRA",
+   "CarneEntra": "17537",
+   "Jug_Entra": "ANGEL SEBASTIAN MOREIRA",
+   "camiseta": "18",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "24179",
+   "Jug_Sale": "SERGIO DANIEL BIANCHI",
+   "CarneEntra": "33251",
+   "Jug_Entra": "NICOLAS UMBERTO MARTINEZ",
+   "camiseta": "13",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "17844",
+   "Jug_Sale": "YAMANDU SEBASTIAN SILVA",
+   "CarneEntra": "24282",
+   "Jug_Entra": "GERARDO MOREIRA",
+   "camiseta": "3",
+   "minutos": "79"
+  }
+ ],
+ "golesL": [],
+ "golesV": [
+  {
+   "carne": "36916",
+   "Nombre": "SANTIAGO NICOLAS RUGLIO",
+   "minutos": "81",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

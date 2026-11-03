@@ -29,6 +29,13 @@
  },
  {
   "serie": "20C2",
+  "fechaHora": "2026-11-04 21:00:00",
+  "cancha": "COMPLEJO INGENIERO DEL CAMPO",
+  "local": "DANUBIO FUTBOL CLUB",
+  "visitante": "ANGLO SCHOOL UNIVERSITARIO"
+ },
+ {
+  "serie": "20C2",
   "fechaHora": "2026-11-05 20:00:00",
   "cancha": "CLUB ALEMAN",
   "local": "ALEMAN UNIVERSITARIO",
@@ -61,13 +68,6 @@
   "cancha": "CANCHA A FIJAR",
   "local": "PALLOTTI UNIVERSITARIO",
   "visitante": "JUAN XXIII"
- },
- {
-  "serie": "20C2",
-  "fechaHora": "2026-11-07 13:30:00",
-  "cancha": "COLEGIO PIO",
-  "local": "DANUBIO FUTBOL CLUB",
-  "visitante": "ANGLO SCHOOL UNIVERSITARIO"
  },
  {
   "serie": "20C2",

@@ -3,7 +3,7 @@
  "categoria": "mas40-a",
  "serie": "40CO",
  "fecha": 5,
- "fechaHora": "2026-10-31 09:00:00",
+ "fechaHora": "2026-10-31 11:15:00",
  "cancha": "COMPLEJO AZULGRANA",
  "local": "OLD BOYS CLUB",
  "visitante": "OLD CHRISTIANS CLUB",
@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAS40 \"A\" TITULO",
   "Cancha": "COMPLEJO AZULGRANA",
-  "Fecha_Inicio": "2026-10-31 10:30:00",
-  "Fecha_fin": "2026-10-31 10:30:00",
+  "Fecha_Inicio": "2026-10-31 13:05:00",
+  "Fecha_fin": "2026-10-31 13:05:00",
   "Locatario": "OLD BOYS CLUB",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,264 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "29630",
+   "Nombre": "GUILLERMO ALTMANN",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "20192",
+   "Nombre": "MARTIN RAFAEL CARDOSO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "19652",
+   "Nombre": "NICOLAS VILASECA",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "18057",
+   "Nombre": "GUSTAVO CHIARINO",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "21640",
+   "Nombre": "FEDERICO VILASECA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "18136",
+   "Nombre": "RODNEY CARLOS BRUCE",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "20004",
+   "Nombre": "IGNACIO ABADIE",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "16225",
+   "Nombre": "NICOLAS JUAN BRAUSE",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "18770",
+   "Nombre": "MATIAS JOSE RACHETTI",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "16827",
+   "Nombre": "JAVIER BURGOS",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "56149",
+   "Nombre": "JUAN CAMPOMAR",
+   "camiseta": "2",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "12361",
+   "Nombre": "FACUNDO MARQUEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "23395",
+   "Nombre": "PEDRO MAURO SARAVIA",
+   "camiseta": "12",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "20220",
+   "Nombre": "SANTIAGO EDUARDO SUAREZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "17786",
+   "Nombre": "RODRIGO LUSSICH",
+   "camiseta": "82",
+   "Capitan": ""
+  },
+  {
+   "carne": "24441",
+   "Nombre": "NICOLAS GARCIA PINTOS",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "22202",
+   "Nombre": "GERARDO GARCIA PINTOS",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "16903",
+   "Nombre": "JORGE CARLOS RACHETTI",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "57117",
+   "Nombre": "LUIS PEDRO GARCIA",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "16336",
+   "Nombre": "DIEGO SEBASTIAN SUAREZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "21006",
+   "Nombre": "MAURO FERNANDO SORRENTINO",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "15398",
+   "Nombre": "PABLO CRISTOBO",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "21640",
+   "Jug_Sale": "FEDERICO VILASECA",
+   "CarneEntra": "18101",
+   "Jug_Entra": "ALBERTO JOSE FLEURQUIN",
+   "camiseta": "12",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "18057",
+   "Jug_Sale": "GUSTAVO CHIARINO",
+   "CarneEntra": "21016",
+   "Jug_Entra": "DIEGO CUENCA",
+   "camiseta": "3",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "20004",
+   "Jug_Sale": "IGNACIO ABADIE",
+   "CarneEntra": "21640",
+   "Jug_Entra": "FEDERICO VILASECA",
+   "camiseta": "11",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "16827",
+   "Jug_Sale": "JAVIER BURGOS",
+   "CarneEntra": "19571",
+   "Jug_Entra": "GABRIEL PAYSSE",
+   "camiseta": "20",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "18770",
+   "Jug_Sale": "MATIAS JOSE RACHETTI",
+   "CarneEntra": "19656",
+   "Jug_Entra": "JUAN MARTIN GORTARI",
+   "camiseta": "14",
+   "minutos": "78"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "16903",
+   "Jug_Sale": "JORGE CARLOS RACHETTI",
+   "CarneEntra": "21639",
+   "Jug_Entra": "EDUARDO GABRIEL PEIRANO",
+   "camiseta": "61",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "23395",
+   "Jug_Sale": "PEDRO MAURO SARAVIA",
+   "CarneEntra": "16903",
+   "Jug_Entra": "JORGE CARLOS RACHETTI",
+   "camiseta": "8",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "21006",
+   "Jug_Sale": "MAURO FERNANDO SORRENTINO",
+   "CarneEntra": "61205",
+   "Jug_Entra": "MAURO GRIGNOLA",
+   "camiseta": "14",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "22202",
+   "Jug_Sale": "GERARDO GARCIA PINTOS",
+   "CarneEntra": "18059",
+   "Jug_Entra": "FEDERICO GREGORIO YOFFE",
+   "camiseta": "30",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "17786",
+   "Jug_Sale": "RODRIGO LUSSICH",
+   "CarneEntra": "21797",
+   "Jug_Entra": "JUAN IGNACIO LUSSICH",
+   "camiseta": "31",
+   "minutos": "81"
+  },
+  {
+   "CarneSale": "15398",
+   "Jug_Sale": "PABLO CRISTOBO",
+   "CarneEntra": "15560",
+   "Jug_Entra": "FEDERICO MANGINO",
+   "camiseta": "71",
+   "minutos": "85"
+  }
+ ],
  "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "golesV": [
+  {
+   "carne": "15398",
+   "Nombre": "PABLO CRISTOBO",
+   "minutos": "54",
+   "EnContra": "1"
+  },
+  {
+   "carne": "15398",
+   "Nombre": "PABLO CRISTOBO",
+   "minutos": "93",
+   "EnContra": "1"
+  },
+  {
+   "carne": "17786",
+   "Nombre": "RODRIGO LUSSICH",
+   "minutos": "78",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "NICOLAS VILASECA",
+   "observaciones": ""
+  },
+  {
+   "Nombre": "JUAN CAMPOMAR",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

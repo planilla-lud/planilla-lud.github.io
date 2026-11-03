@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAS40 \"A\" TITULO",
   "Cancha": "COMPLEJO JUAN XXIII",
-  "Fecha_Inicio": "2026-10-31 10:30:00",
-  "Fecha_fin": "2026-10-31 10:30:00",
+  "Fecha_Inicio": "2026-10-31 11:05:00",
+  "Fecha_fin": "2026-10-31 11:05:00",
   "Locatario": "LA BLANQUEADA",
   "goles_locatario": "0",
   "puntos_locatario": "1",
@@ -29,10 +29,218 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "19994",
+   "Nombre": "GERMAN FRAQUIA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "45546",
+   "Nombre": "ALEJANDRO BETOLAZA",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "16333",
+   "Nombre": "MARTIN EDUARDO RODRIGUEZ",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "41787",
+   "Nombre": "ANDRES D ALESSANDRO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "39923",
+   "Nombre": "JUAN IGNACIO RODRÌGUEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "19196",
+   "Nombre": "SANTIAGO VILARDEBO",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "17894",
+   "Nombre": "NICOLAS ANTONIO RUIZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "30356",
+   "Nombre": "JOAQUIN DE LA SOVERA",
+   "camiseta": "71",
+   "Capitan": ""
+  },
+  {
+   "carne": "17908",
+   "Nombre": "JESUS SOSA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "14701",
+   "Nombre": "PABLO SANTIAGO CASTRO",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "14703",
+   "Nombre": "MARCEL AZZARINI",
+   "camiseta": "31",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "19371",
+   "Nombre": "JOSE IGNACIO LAMANNA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "33263",
+   "Nombre": "ALEJANDRO NICOLAS FRIGERIO",
+   "camiseta": "55",
+   "Capitan": ""
+  },
+  {
+   "carne": "26401",
+   "Nombre": "GONZALO DANIEL ROMITTI",
+   "camiseta": "27",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "20513",
+   "Nombre": "RODRIGO NICOLAS NEVES",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "30484",
+   "Nombre": "DIEGO LOPEZ",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "22421",
+   "Nombre": "GERMAN DANIEL INDERKUM",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "17355",
+   "Nombre": "LUIS GUZMAN PEREZ",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "27144",
+   "Nombre": "FERNANDO EDUARDO RUBINO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "24529",
+   "Nombre": "MARTIN MARTINEZ",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "45371",
+   "Nombre": "IGNACIO JAVIER ZAMBRA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "58329",
+   "Nombre": "FEDERICO DAMIAN RODRIGUEZ",
+   "camiseta": "20",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "45546",
+   "Jug_Sale": "ALEJANDRO BETOLAZA",
+   "CarneEntra": "22143",
+   "Jug_Entra": "ALDOLFO BENITO MACHIN",
+   "camiseta": "3",
+   "minutos": "36"
+  },
+  {
+   "CarneSale": "14703",
+   "Jug_Sale": "MARCEL AZZARINI",
+   "CarneEntra": "19188",
+   "Jug_Entra": "GUSTAVO ANTONIO JACQUES",
+   "camiseta": "35",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "14701",
+   "Jug_Sale": "PABLO SANTIAGO CASTRO",
+   "CarneEntra": "17899",
+   "Jug_Entra": "PEDRO FEDERICO LESCOULIE",
+   "camiseta": "7",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "19196",
+   "Jug_Sale": "SANTIAGO VILARDEBO",
+   "CarneEntra": "14701",
+   "Jug_Entra": "PABLO SANTIAGO CASTRO",
+   "camiseta": "24",
+   "minutos": "86"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "20513",
+   "Jug_Sale": "RODRIGO NICOLAS NEVES",
+   "CarneEntra": "19590",
+   "Jug_Entra": "GONZALO RAUL MANGADO",
+   "camiseta": "17",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "22421",
+   "Jug_Sale": "GERMAN DANIEL INDERKUM",
+   "CarneEntra": "57381",
+   "Jug_Entra": "GERARDO BARBIERI",
+   "camiseta": "90",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "45371",
+   "Jug_Sale": "IGNACIO JAVIER ZAMBRA",
+   "CarneEntra": "22401",
+   "Jug_Entra": "GUILLERMO RAFFO",
+   "camiseta": "37",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "30484",
+   "Jug_Sale": "DIEGO LOPEZ",
+   "CarneEntra": "67695",
+   "Jug_Entra": "JUAN ANTONIO ALVAREZ",
+   "camiseta": "7",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58329",
+   "Jug_Sale": "FEDERICO DAMIAN RODRIGUEZ",
+   "CarneEntra": "21261",
+   "Jug_Entra": "FEDERICO JOSE MORGADE",
+   "camiseta": "8",
+   "minutos": "45"
+  }
+ ],
  "golesL": [],
  "golesV": [],
  "expulsadosL": [],
