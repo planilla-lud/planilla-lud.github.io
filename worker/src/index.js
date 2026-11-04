@@ -7,7 +7,7 @@ import { buscar, contexto, norm, necesitaJugadores } from './buscar.js';
 import { contextoDetalle } from './detalle.js';
 import { corto, TEMPORADA } from '../../scripts/comun.mjs';
 
-const ORIGENES = ['https://planilla-lud.github.io', 'http://localhost:8774', 'http://127.0.0.1:8774'];
+const ORIGENES = ['https://planilla-lud.github.io', 'https://planilla-lud.vercel.app', 'http://localhost:8774', 'http://127.0.0.1:8774'];
 const MAX_PREGUNTA = 400, MAX_HISTORIAL = 6;
 
 const cors = origen => ({
