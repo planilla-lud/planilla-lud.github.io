@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAS40 \"B\" PER. y DESC,",
   "Cancha": "COMPLEJO LOS CARDALES",
-  "Fecha_Inicio": "2026-11-03 23:00:00",
-  "Fecha_fin": "2026-11-03 23:00:00",
+  "Fecha_Inicio": "2026-11-03 23:30:00",
+  "Fecha_fin": "2026-11-03 23:30:00",
   "Locatario": "OLIMAR",
   "goles_locatario": "2",
   "puntos_locatario": "3",
@@ -29,11 +29,264 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "11179",
+   "Nombre": "ALVARO DANIEL SIERRA",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "28168",
+   "Nombre": "EDGARDO FABIAN ALVAREZ",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "16871",
+   "Nombre": "NICOLAS GABRIEL CAMPANELLA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "16310",
+   "Nombre": "IGNACIO POSADA",
+   "camiseta": "8",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "64699",
+   "Nombre": "DIEGO RIVERO",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "35024",
+   "Nombre": "GERARDO LUCAS PAGANI",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "21414",
+   "Nombre": "GERMAN DEVITTA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "35128",
+   "Nombre": "MARCOS ALBERTO MERLO",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "16925",
+   "Nombre": "HENRY MAURICIO ACUÑA",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "17870",
+   "Nombre": "MARTIN AGUILAR",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "37967",
+   "Nombre": "CARLOS AGUSTIN MERLO",
+   "camiseta": "15",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "15555",
+   "Nombre": "SANTIAGO JAVIER CABALLERO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "48898",
+   "Nombre": "NICOLAS DIEGO VIGNI",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "59613",
+   "Nombre": "SEBASTIAN KEUCHKERIAN",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "18534",
+   "Nombre": "ANDRES MARCOS COPPOLA",
+   "camiseta": "11",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "46359",
+   "Nombre": "GERARDO ANDRES FERRARI",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "22359",
+   "Nombre": "JUAN CARLOS MUSSIO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "66997",
+   "Nombre": "ERNESTO ACUÑA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "43518",
+   "Nombre": "ALVARO REY",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "48821",
+   "Nombre": "JOAQUIN ANDRES ZUNINO",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "47402",
+   "Nombre": "MANUEL SOTELO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "17552",
+   "Nombre": "MARTIN SEBASTIAN MARQUES",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "28168",
+   "Jug_Sale": "EDGARDO FABIAN ALVAREZ",
+   "CarneEntra": "20604",
+   "Jug_Entra": "PABLO FRESIA",
+   "camiseta": "22",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "35128",
+   "Jug_Sale": "MARCOS ALBERTO MERLO",
+   "CarneEntra": "18826",
+   "Jug_Entra": "DANIEL FEDERICO FOLABELLA",
+   "camiseta": "13",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "37967",
+   "Jug_Sale": "CARLOS AGUSTIN MERLO",
+   "CarneEntra": "16593",
+   "Jug_Entra": "JOSE MIGUEL ELOSEGUI",
+   "camiseta": "30",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "20604",
+   "Jug_Sale": "PABLO FRESIA",
+   "CarneEntra": "19849",
+   "Jug_Entra": "GASTON FERNANDEZ",
+   "camiseta": "27",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "64699",
+   "Jug_Sale": "DIEGO RIVERO",
+   "CarneEntra": "41635",
+   "Jug_Entra": "NORBERTO SERGIO LONGO",
+   "camiseta": "7",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "21414",
+   "Jug_Sale": "GERMAN DEVITTA",
+   "CarneEntra": "37800",
+   "Jug_Entra": "JOSE RAUL RODRIGUEZ",
+   "camiseta": "3",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "16593",
+   "Jug_Sale": "JOSE MIGUEL ELOSEGUI",
+   "CarneEntra": "45102",
+   "Jug_Entra": "ESTEBAN ANDRES FERNANDEZ",
+   "camiseta": "16",
+   "minutos": "83"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "43518",
+   "Jug_Sale": "ALVARO REY",
+   "CarneEntra": "34947",
+   "Jug_Entra": "PABLO MARCELO MONTALTO",
+   "camiseta": "33",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "17552",
+   "Jug_Sale": "MARTIN SEBASTIAN MARQUES",
+   "CarneEntra": "62621",
+   "Jug_Entra": "ALEX JOHANN BONJOUR",
+   "camiseta": "22",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "47402",
+   "Jug_Sale": "MANUEL SOTELO",
+   "CarneEntra": "43518",
+   "Jug_Entra": "ALVARO REY",
+   "camiseta": "30",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "22359",
+   "Jug_Sale": "JUAN CARLOS MUSSIO",
+   "CarneEntra": "17551",
+   "Jug_Entra": "FABRIZIO MIGUEL GAULLI",
+   "camiseta": "19",
+   "minutos": "69"
+  },
+  {
+   "CarneSale": "66997",
+   "Jug_Sale": "ERNESTO ACUÑA",
+   "CarneEntra": "47402",
+   "Jug_Entra": "MANUEL SOTELO",
+   "camiseta": "9",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "48898",
+   "Jug_Sale": "NICOLAS DIEGO VIGNI",
+   "CarneEntra": "66997",
+   "Jug_Entra": "ERNESTO ACUÑA",
+   "camiseta": "8",
+   "minutos": "80"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "16310",
+   "Nombre": "IGNACIO POSADA",
+   "minutos": "84",
+   "EnContra": "0"
+  },
+  {
+   "carne": "17870",
+   "Nombre": "MARTIN AGUILAR",
+   "minutos": "76",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

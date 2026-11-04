@@ -1,0 +1,279 @@
+{
+ "id": "103645",
+ "categoria": "sub16",
+ "serie": "16C",
+ "fecha": 3,
+ "fechaHora": "2026-11-01 13:30:00",
+ "cancha": "COMPLEJO SCHIAFFINO (LAVALLEJA",
+ "local": "A.E.B.U",
+ "visitante": "NAUTICO CARRASCO Y PUNTA GORDA",
+ "gl": 8,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "374",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 16 ",
+  "categoria": "SUB 16 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB16 COMPETENCIA",
+  "Cancha": "COMPLEJO SCHIAFFINO (LAVALLEJA",
+  "Fecha_Inicio": "2026-11-01 15:05:00",
+  "Fecha_fin": "2026-11-01 15:05:00",
+  "Locatario": "A.E.B.U",
+  "goles_locatario": "8",
+  "puntos_locatario": "3",
+  "Visitante": "NAUTICO CARRASCO Y PUNTA GORDA",
+  "goles_visitante": "1",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "67733",
+   "Nombre": "ALEJANDRO MARRERO",
+   "camiseta": "80",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "67290",
+   "Nombre": "DIEGO FERNANDO NICOLENCO",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "67231",
+   "Nombre": "CAMILO MARTIN PEREZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "68881",
+   "Nombre": "MARTIN GOMEZ",
+   "camiseta": "67",
+   "Capitan": ""
+  },
+  {
+   "carne": "68769",
+   "Nombre": "FRANCISCO EMMANUEL CACHAN",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "67228",
+   "Nombre": "THIAGO PEREZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "68641",
+   "Nombre": "BENICIO CAYAFFA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "67732",
+   "Nombre": "ALEX GABRIEL HORNOS",
+   "camiseta": "50",
+   "Capitan": ""
+  },
+  {
+   "carne": "68501",
+   "Nombre": "JOAQUIN VIERA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "65130",
+   "Nombre": "FELIPE CUETO",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "68025",
+   "Nombre": "JAHAZIEL ANDRES GALANTON",
+   "camiseta": "17",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "63746",
+   "Nombre": "JUAN IGNACIO CURIEL",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "68354",
+   "Nombre": "MATIAS AICARDI",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "66209",
+   "Nombre": "SANTINO SCOSERIA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "67925",
+   "Nombre": "SEBASTIAN OMAR PERALTA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "68854",
+   "Nombre": "FRANCISCO SANTORO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "68347",
+   "Nombre": "BENJAMIN GONZALEZ",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "65541",
+   "Nombre": "CAMILO RODRIGUEZ",
+   "camiseta": "51",
+   "Capitan": ""
+  },
+  {
+   "carne": "61926",
+   "Nombre": "TOMAS MONTENEGRO",
+   "camiseta": "99",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "64089",
+   "Nombre": "CAMILO TOMAS MATEU",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "60480",
+   "Nombre": "FELIPE CUYAS",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "65498",
+   "Nombre": "FRANCISCO PAULOS",
+   "camiseta": "85",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "67732",
+   "Jug_Sale": "ALEX GABRIEL HORNOS",
+   "CarneEntra": "67229",
+   "Jug_Entra": "VALENTIN CABRERA",
+   "camiseta": "22",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68769",
+   "Jug_Sale": "FRANCISCO EMMANUEL CACHAN",
+   "CarneEntra": "65139",
+   "Jug_Entra": "DANIEL ANTONIO LEYVA",
+   "camiseta": "30",
+   "minutos": "49"
+  },
+  {
+   "CarneSale": "68025",
+   "Jug_Sale": "JAHAZIEL ANDRES GALANTON",
+   "CarneEntra": "65420",
+   "Jug_Entra": "CONSTANTINO CABRERA",
+   "camiseta": "10",
+   "minutos": "52"
+  },
+  {
+   "CarneSale": "65130",
+   "Jug_Sale": "FELIPE CUETO",
+   "CarneEntra": "65133",
+   "Jug_Entra": "MARCO STEFANO FERRANTY",
+   "camiseta": "7",
+   "minutos": "52"
+  },
+  {
+   "CarneSale": "67290",
+   "Jug_Sale": "DIEGO FERNANDO NICOLENCO",
+   "CarneEntra": "65140",
+   "Jug_Entra": "JOAQUIN REVELLO",
+   "camiseta": "1",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "68641",
+   "Jug_Sale": "BENICIO CAYAFFA",
+   "CarneEntra": "67732",
+   "Jug_Entra": "ALEX GABRIEL HORNOS",
+   "camiseta": "50",
+   "minutos": "67"
+  }
+ ],
+ "cambiosV": [],
+ "golesL": [
+  {
+   "carne": "65130",
+   "Nombre": "FELIPE CUETO",
+   "minutos": "10",
+   "EnContra": "0"
+  },
+  {
+   "carne": "65130",
+   "Nombre": "FELIPE CUETO",
+   "minutos": "48",
+   "EnContra": "0"
+  },
+  {
+   "carne": "65133",
+   "Nombre": "MARCO STEFANO FERRANTY",
+   "minutos": "76",
+   "EnContra": "0"
+  },
+  {
+   "carne": "67733",
+   "Nombre": "ALEJANDRO MARRERO",
+   "minutos": "36",
+   "EnContra": "0"
+  },
+  {
+   "carne": "68025",
+   "Nombre": "JAHAZIEL ANDRES GALANTON",
+   "minutos": "17",
+   "EnContra": "0"
+  },
+  {
+   "carne": "68501",
+   "Nombre": "JOAQUIN VIERA",
+   "minutos": "55",
+   "EnContra": "0"
+  },
+  {
+   "carne": "68501",
+   "Nombre": "JOAQUIN VIERA",
+   "minutos": "67",
+   "EnContra": "0"
+  },
+  {
+   "carne": "68641",
+   "Nombre": "BENICIO CAYAFFA",
+   "minutos": "44",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "61926",
+   "Nombre": "TOMAS MONTENEGRO",
+   "minutos": "18",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

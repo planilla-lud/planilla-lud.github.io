@@ -1,0 +1,268 @@
+{
+ "id": "103651",
+ "categoria": "sub16",
+ "serie": "16C",
+ "fecha": 3,
+ "fechaHora": "2026-11-03 19:00:00",
+ "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
+ "local": "SEMINARIO UNIVERSITARIO",
+ "visitante": "SCUOLA PALERMO",
+ "gl": 0,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "375",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 16 ",
+  "categoria": "SUB 16 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB16 COMPETENCIA",
+  "Cancha": "PARQUE CUPRA - CLUB SEMINARIO",
+  "Fecha_Inicio": "2026-11-03 20:50:00",
+  "Fecha_fin": "2026-11-03 20:50:00",
+  "Locatario": "SEMINARIO UNIVERSITARIO",
+  "goles_locatario": "0",
+  "puntos_locatario": "0",
+  "Visitante": "SCUOLA PALERMO",
+  "goles_visitante": "1",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "62556",
+   "Nombre": "FACUNDO LUCERO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "65108",
+   "Nombre": "JUSTINO OLASCOAGA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "65110",
+   "Nombre": "IGNACIO DALLA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "62575",
+   "Nombre": "MATIAS ROBOTTI",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "62561",
+   "Nombre": "FACUNDO MOSCA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "61582",
+   "Nombre": "JUSTINO MUNYO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "62558",
+   "Nombre": "FELIPE PEREZ",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "62953",
+   "Nombre": "JOAQUIN MORAES",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "62572",
+   "Nombre": "JUAN MARTIN AYERZA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "65169",
+   "Nombre": "FACUNDO ESTRAGO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "62806",
+   "Nombre": "BENICIO BARBOSA",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "64377",
+   "Nombre": "LUCAS DI MAURO",
+   "camiseta": "13",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "68377",
+   "Nombre": "THIAN BAUTISTA MORALES",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "60764",
+   "Nombre": "FACUNDO CARAMBULA",
+   "camiseta": "37",
+   "Capitan": ""
+  },
+  {
+   "carne": "64380",
+   "Nombre": "FRANCO MOLFINO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "60475",
+   "Nombre": "AGUSTIN ANTELO",
+   "camiseta": "56",
+   "Capitan": ""
+  },
+  {
+   "carne": "65718",
+   "Nombre": "VICENTE VALENTIN VIERA",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "64756",
+   "Nombre": "FELIPE REINALDO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "63514",
+   "Nombre": "LUCAS TAROCO",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "61437",
+   "Nombre": "MARTIN BREGSTEIN",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "65887",
+   "Nombre": "FABRIZIO BISOGNO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "65610",
+   "Nombre": "LUCA GONZALEZ",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "61582",
+   "Jug_Sale": "JUSTINO MUNYO",
+   "CarneEntra": "62566",
+   "Jug_Entra": "ALFONSO LORENZO",
+   "camiseta": "20",
+   "minutos": "50"
+  },
+  {
+   "CarneSale": "62561",
+   "Jug_Sale": "FACUNDO MOSCA",
+   "CarneEntra": "62627",
+   "Jug_Entra": "FELIPE BRANDES",
+   "camiseta": "15",
+   "minutos": "59"
+  },
+  {
+   "CarneSale": "65169",
+   "Jug_Sale": "FACUNDO ESTRAGO",
+   "CarneEntra": "65099",
+   "Jug_Entra": "MATEO BAZZINO",
+   "camiseta": "16",
+   "minutos": "59"
+  },
+  {
+   "CarneSale": "62558",
+   "Jug_Sale": "FELIPE PEREZ",
+   "CarneEntra": "65104",
+   "Jug_Entra": "NICOLAS GONZALEZ",
+   "camiseta": "11",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "62806",
+   "Jug_Sale": "BENICIO BARBOSA",
+   "CarneEntra": "65169",
+   "Jug_Entra": "FACUNDO ESTRAGO",
+   "camiseta": "7",
+   "minutos": "72"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "63514",
+   "Jug_Sale": "LUCAS TAROCO",
+   "CarneEntra": "64862",
+   "Jug_Entra": "THIAGO PORTEIRO",
+   "camiseta": "47",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "65610",
+   "Jug_Sale": "LUCA GONZALEZ",
+   "CarneEntra": "61927",
+   "Jug_Entra": "SANTIAGO BRUN",
+   "camiseta": "2",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "60475",
+   "Jug_Sale": "AGUSTIN ANTELO",
+   "CarneEntra": "65716",
+   "Jug_Entra": "MATEO DEVITA",
+   "camiseta": "22",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "68377",
+   "Jug_Sale": "THIAN BAUTISTA MORALES",
+   "CarneEntra": "68378",
+   "Jug_Entra": "SANTIAGO MATTERA",
+   "camiseta": "28",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "60764",
+   "Jug_Sale": "FACUNDO CARAMBULA",
+   "CarneEntra": "68865",
+   "Jug_Entra": "MARTIN ASSIMONTTI",
+   "camiseta": "11",
+   "minutos": "72"
+  }
+ ],
+ "golesL": [],
+ "golesV": [
+  {
+   "carne": "64862",
+   "Nombre": "THIAGO PORTEIRO",
+   "minutos": "80",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "BENICIO BARBOSA",
+   "observaciones": ""
+  }
+ ],
+ "expulsadosV": []
+}

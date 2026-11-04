@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB16 BRONCE",
   "Cancha": "COLEGIO ARETEIA",
-  "Fecha_Inicio": "2026-11-01 15:00:00",
-  "Fecha_fin": "2026-11-01 15:00:00",
+  "Fecha_Inicio": "2026-11-01 15:20:00",
+  "Fecha_fin": "2026-11-01 15:20:00",
   "Locatario": "POCO SITIO PLAYA VERDE",
   "goles_locatario": "3",
   "puntos_locatario": "3",
@@ -29,12 +29,244 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "68723",
+   "Nombre": "MATIAS ARMAND UGON",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "67123",
+   "Nombre": "FELIPE SALVIA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "67115",
+   "Nombre": "NICOLAS STORACE",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "68582",
+   "Nombre": "BENJAMIN DEMATTE",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "68618",
+   "Nombre": "JOAQUIN ALMARAZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "67971",
+   "Nombre": "AGUSTIN LUCAS GALICIA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "67973",
+   "Nombre": "LUCAS CASTRO",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "67113",
+   "Nombre": "VICENTE LACASA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "67118",
+   "Nombre": "PAOLO FORNARI TASHIRO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "67110",
+   "Nombre": "JOAQUIN MENDOZA IZETTA",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "67109",
+   "Nombre": "NICOLAS PAIS",
+   "camiseta": "22",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "63096",
+   "Nombre": "MARCOS MARTIN LEIRA",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "63941",
+   "Nombre": "FEDERICO DANERS",
+   "camiseta": "36",
+   "Capitan": ""
+  },
+  {
+   "carne": "64183",
+   "Nombre": "CAMILO VEGA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "66549",
+   "Nombre": "JOAQUIN LOPEZ",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "64176",
+   "Nombre": "MANUEL MENDARO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "62871",
+   "Nombre": "BENJAMIN FERNANDEZ",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "66552",
+   "Nombre": "FACUNDO NICOLAS ORIBE",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "67724",
+   "Nombre": "TIZIANO AMADO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "63477",
+   "Nombre": "JUAN VICENTE AZEVEDO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "64180",
+   "Nombre": "CAETANO BEYHAUT",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "66551",
+   "Nombre": "EMANUEL CORREA",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "67118",
+   "Jug_Sale": "PAOLO FORNARI TASHIRO",
+   "CarneEntra": "67120",
+   "Jug_Entra": "FAUSTINO BACHINI",
+   "camiseta": "3",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "68582",
+   "Jug_Sale": "BENJAMIN DEMATTE",
+   "CarneEntra": "64430",
+   "Jug_Entra": "JOAQUIN FERNANDO PERLA",
+   "camiseta": "9",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "67109",
+   "Jug_Sale": "NICOLAS PAIS",
+   "CarneEntra": "69097",
+   "Jug_Entra": "FRANCO BASTOS",
+   "camiseta": "6",
+   "minutos": "45"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "64176",
+   "Jug_Sale": "MANUEL MENDARO",
+   "CarneEntra": "64175",
+   "Jug_Entra": "LUCAS COALLA",
+   "camiseta": "71",
+   "minutos": "50"
+  },
+  {
+   "CarneSale": "63477",
+   "Jug_Sale": "JUAN VICENTE AZEVEDO",
+   "CarneEntra": "66866",
+   "Jug_Entra": "IGNACIO CENTURION",
+   "camiseta": "26",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "62871",
+   "Jug_Sale": "BENJAMIN FERNANDEZ",
+   "CarneEntra": "64177",
+   "Jug_Entra": "VALENTIN GONZALEZ",
+   "camiseta": "17",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "67724",
+   "Jug_Sale": "TIZIANO AMADO",
+   "CarneEntra": "64277",
+   "Jug_Entra": "FRANCISCO BISELLI",
+   "camiseta": "66",
+   "minutos": "74"
+  },
+  {
+   "CarneSale": "64180",
+   "Jug_Sale": "CAETANO BEYHAUT",
+   "CarneEntra": "68713",
+   "Jug_Entra": "FEDERICO FERRARES",
+   "camiseta": "13",
+   "minutos": "77"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "67118",
+   "Nombre": "PAOLO FORNARI TASHIRO",
+   "minutos": "35",
+   "EnContra": "0"
+  },
+  {
+   "carne": "67971",
+   "Nombre": "AGUSTIN LUCAS GALICIA",
+   "minutos": "40",
+   "EnContra": "0"
+  },
+  {
+   "carne": "67971",
+   "Nombre": "AGUSTIN LUCAS GALICIA",
+   "minutos": "47",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "66551",
+   "Nombre": "EMANUEL CORREA",
+   "minutos": "17",
+   "EnContra": "1"
+  },
+  {
+   "carne": "66551",
+   "Nombre": "EMANUEL CORREA",
+   "minutos": "59",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

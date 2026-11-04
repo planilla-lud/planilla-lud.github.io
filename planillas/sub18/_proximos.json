@@ -14,20 +14,6 @@
   "visitante": "CLUB SOCIAL PIEDRAS BLANCAS"
  },
  {
-  "serie": "18P",
-  "fechaHora": "2026-11-02 20:30:00",
-  "cancha": "COMPLEJO DEPORTIVO ARRAYANES",
-  "local": "SAGRADA FAMILIA UNIVERSITARIO",
-  "visitante": "COLEGIO SANTA ELENA"
- },
- {
-  "serie": "18P",
-  "fechaHora": "2026-11-03 20:00:00",
-  "cancha": "COMPLEJO NORTHFIELD",
-  "local": "HCA UNIVERSITARIO",
-  "visitante": "OLD BOYS CLUB"
- },
- {
   "serie": "18A",
   "fechaHora": "2026-11-04 18:30:00",
   "cancha": "SCUOLA ITALIANA",
@@ -89,13 +75,6 @@
   "cancha": "LA MENNAIS",
   "local": "SAN PABLO UNIVERSITARIO",
   "visitante": "J.M.L.M"
- },
- {
-  "serie": "18P",
-  "fechaHora": "2026-11-08 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "COLEGIO SANTA ELENA",
-  "visitante": "DEPORTIVO LS UNIVERSITARIO"
  },
  {
   "serie": "18P",
@@ -264,6 +243,13 @@
   "cancha": "CIUDAD DEPORTIVA ZONA LAB",
   "local": "ELBIO FERNANDEZ",
   "visitante": "LATINO FUTBOL CLUB"
+ },
+ {
+  "serie": "18P",
+  "fechaHora": "2026-11-10 20:30:00",
+  "cancha": "CIUDAD DEPORTIVA LS",
+  "local": "COLEGIO SANTA ELENA",
+  "visitante": "DEPORTIVO LS UNIVERSITARIO"
  },
  {
   "serie": "18A",

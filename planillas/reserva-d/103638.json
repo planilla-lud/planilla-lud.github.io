@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"D\" TIT. y ASC.",
   "Cancha": "COMPLEJO LOS CARDALES",
-  "Fecha_Inicio": "2026-11-03 22:00:00",
-  "Fecha_fin": "2026-11-03 22:00:00",
+  "Fecha_Inicio": "2026-11-03 22:30:00",
+  "Fecha_fin": "2026-11-03 22:30:00",
   "Locatario": "MATURANA UNIVERSITARIO",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,251 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "40068",
+   "Nombre": "SANTIAGO BOUSO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "41716",
+   "Nombre": "MATEO CASTAGNA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "51163",
+   "Nombre": "MATIAS IVANCICH",
+   "camiseta": "38",
+   "Capitan": ""
+  },
+  {
+   "carne": "52971",
+   "Nombre": "JUAN PABLO FERRARI",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "54861",
+   "Nombre": "FEDERICO GARCIA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "52985",
+   "Nombre": "FACUNDO AGUSTIN MARTINEZ",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "34886",
+   "Nombre": "FELIPE MARCOS SILVA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "58751",
+   "Nombre": "FRANCISCO ANTONIO VILLAGRAN",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "55560",
+   "Nombre": "JUAN MATEO PELUFO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "34857",
+   "Nombre": "NICOLAS MELO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "37723",
+   "Nombre": "MARTIN PRATO",
+   "camiseta": "18",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "55264",
+   "Nombre": "JERONIMO LARCADE",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "46472",
+   "Nombre": "GUILLERMO VON SANDEN",
+   "camiseta": "44",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "58348",
+   "Nombre": "JOAQUIN GUANI",
+   "camiseta": "43",
+   "Capitan": ""
+  },
+  {
+   "carne": "46948",
+   "Nombre": "SANTIAGO CAULA",
+   "camiseta": "90",
+   "Capitan": ""
+  },
+  {
+   "carne": "37751",
+   "Nombre": "AGUSTIN KOSEC",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "51224",
+   "Nombre": "DIEGO MARTINEZ",
+   "camiseta": "37",
+   "Capitan": ""
+  },
+  {
+   "carne": "35550",
+   "Nombre": "JOSE IGNACIO RINALDI",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "49172",
+   "Nombre": "MANUEL ANSELMI",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "51610",
+   "Nombre": "PABLO VALDOMIR",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "46451",
+   "Nombre": "GONZALO CAMESELLA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "52678",
+   "Nombre": "VALENTINO MASONI",
+   "camiseta": "81",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "34886",
+   "Jug_Sale": "FELIPE MARCOS SILVA",
+   "CarneEntra": "37188",
+   "Jug_Entra": "CLAUDIO SEBASTIAN FERREIRA",
+   "camiseta": "26",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "54861",
+   "Jug_Sale": "FEDERICO GARCIA",
+   "CarneEntra": "57624",
+   "Jug_Entra": "MANUEL THIAGO MARTINEZ",
+   "camiseta": "80",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "51163",
+   "Jug_Sale": "MATIAS IVANCICH",
+   "CarneEntra": "48268",
+   "Jug_Entra": "ERNESTO MATIAS PEREYRA",
+   "camiseta": "22",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "41716",
+   "Jug_Sale": "MATEO CASTAGNA",
+   "CarneEntra": "49541",
+   "Jug_Entra": "PABLO FERNANDO MOREIRA",
+   "camiseta": "69",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "54861",
+   "Jug_Sale": "FEDERICO GARCIA",
+   "CarneEntra": "55202",
+   "Jug_Entra": "SANTIAGO OLIVERA",
+   "camiseta": "29",
+   "minutos": "67"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "51610",
+   "Jug_Sale": "PABLO VALDOMIR",
+   "CarneEntra": "50884",
+   "Jug_Entra": "SANTIAGO RUBIO",
+   "camiseta": "77",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "46451",
+   "Jug_Sale": "GONZALO CAMESELLA",
+   "CarneEntra": "62062",
+   "Jug_Entra": "AFONSO COSTA",
+   "camiseta": "13",
+   "minutos": "59"
+  },
+  {
+   "CarneSale": "49172",
+   "Jug_Sale": "MANUEL ANSELMI",
+   "CarneEntra": "34547",
+   "Jug_Entra": "NICOLA PRATTO",
+   "camiseta": "8",
+   "minutos": "59"
+  },
+  {
+   "CarneSale": "52678",
+   "Jug_Sale": "VALENTINO MASONI",
+   "CarneEntra": "49192",
+   "Jug_Entra": "JUAN MARTIN ROCCA",
+   "camiseta": "29",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "37751",
+   "Jug_Sale": "AGUSTIN KOSEC",
+   "CarneEntra": "60835",
+   "Jug_Entra": "SEBASTIAN DANILO BAZZINO",
+   "camiseta": "19",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "51224",
+   "Jug_Sale": "DIEGO MARTINEZ",
+   "CarneEntra": "49110",
+   "Jug_Entra": "CAMILO BALIAN",
+   "camiseta": "33",
+   "minutos": "81"
+  },
+  {
+   "CarneSale": "35550",
+   "Jug_Sale": "JOSE IGNACIO RINALDI",
+   "CarneEntra": "50659",
+   "Jug_Entra": "IGNACIO TRONCOSO",
+   "camiseta": "47",
+   "minutos": "81"
+  }
+ ],
  "golesL": [],
- "golesV": [],
+ "golesV": [
+  {
+   "carne": "35550",
+   "Nombre": "JOSE IGNACIO RINALDI",
+   "minutos": "45",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

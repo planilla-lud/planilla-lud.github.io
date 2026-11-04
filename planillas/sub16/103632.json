@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB16 CONFRATERNIDAD",
   "Cancha": "COMPLEJO LA MASIA",
-  "Fecha_Inicio": "2026-11-03 20:30:00",
-  "Fecha_fin": "2026-11-03 20:30:00",
+  "Fecha_Inicio": "2026-11-03 20:55:00",
+  "Fecha_fin": "2026-11-03 20:55:00",
   "Locatario": "CLUB JESUS MARIA",
   "goles_locatario": "7",
   "puntos_locatario": "3",
@@ -29,12 +29,302 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "68278",
+   "Nombre": "MATEO VALLARINO",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "64906",
+   "Nombre": "JOSE APARICIO PERRIER",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "66935",
+   "Nombre": "FRANCISCO GALLESIO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "63445",
+   "Nombre": "TIZIANO FRASCHERI",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "65202",
+   "Nombre": "FABIAN DARIO MARIÑO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "64905",
+   "Nombre": "TOMAS GALLO",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "61918",
+   "Nombre": "LORENZO SILVA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "62390",
+   "Nombre": "SANTIAGO LOMBARDO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "64903",
+   "Nombre": "GUILLERMO LOPEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "66933",
+   "Nombre": "FRANCISCO BERRIEL",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "61920",
+   "Nombre": "BAUTISTA TARIGO",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "68267",
+   "Nombre": "FABRIZIO GIAMBIASI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "66893",
+   "Nombre": "DIEGO OLIVERA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "64227",
+   "Nombre": "FACUNDO GERIBONI",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "66742",
+   "Nombre": "MATIAS TERRA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "62877",
+   "Nombre": "THIAGO CORREA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "63023",
+   "Nombre": "LUCAS EMANUEL MACHADO",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "62880",
+   "Nombre": "GONZALO ABELLA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "62879",
+   "Nombre": "FACUNDO SANTINO LEITES",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "63026",
+   "Nombre": "LEONARDO MANUEL PEREZ",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "66741",
+   "Nombre": "JOAQUIN TARANTO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "64226",
+   "Nombre": "EMILIANO MIZRAJI",
+   "camiseta": "2",
+   "Capitan": "(C)"
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "65202",
+   "Jug_Sale": "FABIAN DARIO MARIÑO",
+   "CarneEntra": "68363",
+   "Jug_Entra": "MATHEUS HAESBAERT",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66933",
+   "Jug_Sale": "FRANCISCO BERRIEL",
+   "CarneEntra": "62396",
+   "Jug_Entra": "FELIPE ORTIZ",
+   "camiseta": "22",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "61918",
+   "Jug_Sale": "LORENZO SILVA",
+   "CarneEntra": "67712",
+   "Jug_Entra": "JUAN MANUEL LAGISQUET",
+   "camiseta": "24",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "63445",
+   "Jug_Sale": "TIZIANO FRASCHERI",
+   "CarneEntra": "65203",
+   "Jug_Entra": "JOAQUIN YAÑEZ",
+   "camiseta": "23",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "66935",
+   "Jug_Sale": "FRANCISCO GALLESIO",
+   "CarneEntra": "68762",
+   "Jug_Entra": "FACUNDO BAZZINO",
+   "camiseta": "16",
+   "minutos": "65"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "66893",
+   "Jug_Sale": "DIEGO OLIVERA",
+   "CarneEntra": "68404",
+   "Jug_Entra": "THIAGO CURBELO",
+   "camiseta": "12",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "63026",
+   "Jug_Sale": "LEONARDO MANUEL PEREZ",
+   "CarneEntra": "68260",
+   "Jug_Entra": "NICOLAS PEÑA",
+   "camiseta": "61",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "62879",
+   "Jug_Sale": "FACUNDO SANTINO LEITES",
+   "CarneEntra": "69121",
+   "Jug_Entra": "LAUTARO TOMAS LAUREIRO",
+   "camiseta": "91",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "63023",
+   "Jug_Sale": "LUCAS EMANUEL MACHADO",
+   "CarneEntra": "68259",
+   "Jug_Entra": "LAUTARO PORTILLO",
+   "camiseta": "21",
+   "minutos": "30"
+  },
+  {
+   "CarneSale": "62877",
+   "Jug_Sale": "THIAGO CORREA",
+   "CarneEntra": "66746",
+   "Jug_Entra": "THIAGO BROQUETAS",
+   "camiseta": "10",
+   "minutos": "30"
+  },
+  {
+   "CarneSale": "62880",
+   "Jug_Sale": "GONZALO ABELLA",
+   "CarneEntra": "65860",
+   "Jug_Entra": "DAVID GREGORIO",
+   "camiseta": "12",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "68267",
+   "Jug_Sale": "FABRIZIO GIAMBIASI",
+   "CarneEntra": "66889",
+   "Jug_Entra": "PEDRO HORNOS",
+   "camiseta": "12",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "64226",
+   "Jug_Sale": "EMILIANO MIZRAJI",
+   "CarneEntra": "64907",
+   "Jug_Entra": "SANTIAGO GARCIA",
+   "camiseta": "25",
+   "minutos": "63"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "61918",
+   "Nombre": "LORENZO SILVA",
+   "minutos": "20",
+   "EnContra": "0"
+  },
+  {
+   "carne": "61918",
+   "Nombre": "LORENZO SILVA",
+   "minutos": "48",
+   "EnContra": "0"
+  },
+  {
+   "carne": "61920",
+   "Nombre": "BAUTISTA TARIGO",
+   "minutos": "6",
+   "EnContra": "0"
+  },
+  {
+   "carne": "61920",
+   "Nombre": "BAUTISTA TARIGO",
+   "minutos": "61",
+   "EnContra": "0"
+  },
+  {
+   "carne": "63445",
+   "Nombre": "TIZIANO FRASCHERI",
+   "minutos": "17",
+   "EnContra": "0"
+  },
+  {
+   "carne": "66933",
+   "Nombre": "FRANCISCO BERRIEL",
+   "minutos": "49",
+   "EnContra": "0"
+  },
+  {
+   "carne": "66933",
+   "Nombre": "FRANCISCO BERRIEL",
+   "minutos": "54",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "64227",
+   "Nombre": "FACUNDO GERIBONI",
+   "minutos": "52",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"A\" PERM. y DESC.",
   "Cancha": "COMPLEJO DEPORTIVO ARRAYANES",
-  "Fecha_Inicio": "2026-11-03 23:00:00",
-  "Fecha_fin": "2026-11-03 23:00:00",
+  "Fecha_Inicio": "2026-11-03 23:20:00",
+  "Fecha_fin": "2026-11-03 23:20:00",
   "Locatario": "OLD IVY",
   "goles_locatario": "1",
   "puntos_locatario": "0",
@@ -29,12 +29,241 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "titularesL": [
+  {
+   "carne": "47827",
+   "Nombre": "AGUSTIN ARIASI",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "47834",
+   "Nombre": "THOMAS DEAKIN",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "54763",
+   "Nombre": "JUAN BAUTISTA CROSA",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "45594",
+   "Nombre": "SANTIAGO GUTIERREZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "69107",
+   "Nombre": "MATIAS PEREIRA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "61290",
+   "Nombre": "FERNANDO BENITEZ",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "45591",
+   "Nombre": "FEDERICO DEAKIN",
+   "camiseta": "22",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "54564",
+   "Nombre": "GUILLERMO CAMPOS",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "47833",
+   "Nombre": "SANTIAGO ANGENSCHEDIT",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "57133",
+   "Nombre": "GUIDO MARTINO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "61383",
+   "Nombre": "MATIAS BENECH",
+   "camiseta": "15",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "61170",
+   "Nombre": "THIAGO HANDERSSON",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "61154",
+   "Nombre": "FACUNDO SOLER",
+   "camiseta": "90",
+   "Capitan": ""
+  },
+  {
+   "carne": "49228",
+   "Nombre": "SANTIAGO QUINTANS",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "39354",
+   "Nombre": "FEDERICO COMBA",
+   "camiseta": "3",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "50407",
+   "Nombre": "FELIPE PONS",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "41027",
+   "Nombre": "FELIPE ESTEVEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "53426",
+   "Nombre": "JUAN MANUEL BELLO",
+   "camiseta": "55",
+   "Capitan": ""
+  },
+  {
+   "carne": "56495",
+   "Nombre": "BAUTISTA MATEO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "53269",
+   "Nombre": "JUAN MANUEL RODRIGUEZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "54416",
+   "Nombre": "JOAQUIN FALCON",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "45379",
+   "Nombre": "LUIS MATIAS BELDERRAIN",
+   "camiseta": "17",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "45591",
+   "Jug_Sale": "FEDERICO DEAKIN",
+   "CarneEntra": "37264",
+   "Jug_Entra": "AGUSTIN ARTAGAVEYTIA",
+   "camiseta": "69",
+   "minutos": "35"
+  },
+  {
+   "CarneSale": "69107",
+   "Jug_Sale": "MATIAS PEREIRA",
+   "CarneEntra": "56372",
+   "Jug_Entra": "ALFONSO CARDELINO",
+   "camiseta": "44",
+   "minutos": "50"
+  },
+  {
+   "CarneSale": "54763",
+   "Jug_Sale": "JUAN BAUTISTA CROSA",
+   "CarneEntra": "18671",
+   "Jug_Entra": "SANTIAGO COTELO",
+   "camiseta": "18",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "47827",
+   "Jug_Sale": "AGUSTIN ARIASI",
+   "CarneEntra": "34996",
+   "Jug_Entra": "GASTON VAREIKA",
+   "camiseta": "0",
+   "minutos": "45"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "56495",
+   "Jug_Sale": "BAUTISTA MATEO",
+   "CarneEntra": "50198",
+   "Jug_Entra": "MATHIAS RAMILO",
+   "camiseta": "87",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61154",
+   "Jug_Sale": "FACUNDO SOLER",
+   "CarneEntra": "41326",
+   "Jug_Entra": "FRANCO POLACCHINI",
+   "camiseta": "96",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "56495",
+   "Jug_Sale": "BAUTISTA MATEO",
+   "CarneEntra": "61323",
+   "Jug_Entra": "SANTINO MIGUEL VILA",
+   "camiseta": "5",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "50407",
+   "Jug_Sale": "FELIPE PONS",
+   "CarneEntra": "47333",
+   "Jug_Entra": "JOAQUIN GAI",
+   "camiseta": "6",
+   "minutos": "90"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "47827",
+   "Nombre": "AGUSTIN ARIASI",
+   "minutos": "3",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "45379",
+   "Nombre": "LUIS MATIAS BELDERRAIN",
+   "minutos": "47",
+   "EnContra": "1"
+  },
+  {
+   "carne": "45379",
+   "Nombre": "LUIS MATIAS BELDERRAIN",
+   "minutos": "75",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "GUIDO MARTINO",
+   "observaciones": ""
+  },
+  {
+   "Nombre": "FERNANDO BENITEZ",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

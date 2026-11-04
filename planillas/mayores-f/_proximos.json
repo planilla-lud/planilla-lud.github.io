@@ -1,12 +1,5 @@
 [
  {
-  "serie": "FPD",
-  "fechaHora": "2026-11-08 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "PAYSANDU UNVERSITARIO",
-  "visitante": "ESPARTA UNIVERSITARIO"
- },
- {
   "serie": "FTA",
   "fechaHora": "2026-11-08 09:00:00",
   "cancha": "COMPLEJO DEPORTIVO ARRAYANES",
@@ -26,6 +19,13 @@
   "cancha": "COMPLEJO LAS CASUARINAS",
   "local": "LA CUEVA DEL LOBIZON",
   "visitante": "KENNEDY UNIVERSITARIO"
+ },
+ {
+  "serie": "FPD",
+  "fechaHora": "2026-11-08 09:00:00",
+  "cancha": "COMPLEJO LAS CASUARINAS",
+  "local": "PAYSANDU UNVERSITARIO",
+  "visitante": "ESPARTA UNIVERSITARIO"
  },
  {
   "serie": "FPD",

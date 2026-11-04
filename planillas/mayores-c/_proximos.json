@@ -7,13 +7,6 @@
   "visitante": "COLEGIO Y LICEO INGLES"
  },
  {
-  "serie": "CPD",
-  "fechaHora": "2026-11-08 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "A.E.B.U",
-  "visitante": "POCO SITIO PLAYA VERDE"
- },
- {
   "serie": "CTA",
   "fechaHora": "2026-11-08 09:00:00",
   "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
@@ -54,5 +47,12 @@
   "cancha": "CAMPO DEP. INSTITUTO CRANDON",
   "local": "CRANDON UNIVERSITARIO",
   "visitante": "MATURANA UNIVERSITARIO"
+ },
+ {
+  "serie": "CPD",
+  "fechaHora": "2026-11-08 11:15:00",
+  "cancha": "ACADEMIA",
+  "local": "A.E.B.U",
+  "visitante": "POCO SITIO PLAYA VERDE"
  }
 ]

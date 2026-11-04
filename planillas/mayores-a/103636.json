@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"A\" PERM. y DESC.",
   "Cancha": "CAM. DEP. ASOC. HEBRAICA Y MAC",
-  "Fecha_Inicio": "2026-11-03 23:30:00",
-  "Fecha_fin": "2026-11-03 23:30:00",
+  "Fecha_Inicio": "2026-11-03 00:20:00",
+  "Fecha_fin": "2026-11-03 00:20:00",
   "Locatario": "HEBRAICA UNIVERSITARIO",
   "goles_locatario": "1",
   "puntos_locatario": "1",
@@ -29,12 +29,239 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "35658",
+   "Nombre": "JOAQUIN ZEINAL",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "37385",
+   "Nombre": "FEDERICO BRENER",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "39124",
+   "Nombre": "DARIO SZTERMAN",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "43323",
+   "Nombre": "MATIAS LIJTENSTEIN",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "43899",
+   "Nombre": "MATIAS KOHN",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "35085",
+   "Nombre": "IONATAN ISZAKOVITS",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "35104",
+   "Nombre": "MARTIN OPPENHEIMER",
+   "camiseta": "16",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "44310",
+   "Nombre": "LUCAS ARON NAHMIAS",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "37317",
+   "Nombre": "MAURICIO WAITER",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "43319",
+   "Nombre": "ALAN GARFINKEL",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "34651",
+   "Nombre": "MARCEL POZIOMEK",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "54947",
+   "Nombre": "SANTIAGO HERNAN RAMIREZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "54303",
+   "Nombre": "RODRIGO LEON",
+   "camiseta": "7",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "40183",
+   "Nombre": "FERNANDO MICHEL CHACON",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "58714",
+   "Nombre": "LUCIANO LAUDICIO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "57182",
+   "Nombre": "JOAQUIN PABLO BAUTISTA",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "68936",
+   "Nombre": "EZEQUIEL ACOSTA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "57539",
+   "Nombre": "MARTIN ANDRES RODRIGUEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "58638",
+   "Nombre": "SANTINO TORTORELLA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "68646",
+   "Nombre": "MARTIN GUADALUPE",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "46832",
+   "Nombre": "EMILIANO DANTAZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "53111",
+   "Nombre": "JUAN PEDRO TAFERNABERRY",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "37317",
+   "Jug_Sale": "MAURICIO WAITER",
+   "CarneEntra": "59245",
+   "Jug_Entra": "AGUSTIN JUSTITZ",
+   "camiseta": "15",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "35085",
+   "Jug_Sale": "IONATAN ISZAKOVITS",
+   "CarneEntra": "39120",
+   "Jug_Entra": "NURIEL LEWIN",
+   "camiseta": "13",
+   "minutos": "74"
+  },
+  {
+   "CarneSale": "43319",
+   "Jug_Sale": "ALAN GARFINKEL",
+   "CarneEntra": "28319",
+   "Jug_Entra": "MIKAEL LIJTENSTEIN",
+   "camiseta": "11",
+   "minutos": "83"
+  },
+  {
+   "CarneSale": "34651",
+   "Jug_Sale": "MARCEL POZIOMEK",
+   "CarneEntra": "61200",
+   "Jug_Entra": "ARY GUSTAVO RABINO",
+   "camiseta": "14",
+   "minutos": "86"
+  },
+  {
+   "CarneSale": "44310",
+   "Jug_Sale": "LUCAS ARON NAHMIAS",
+   "CarneEntra": "56384",
+   "Jug_Entra": "MATIAS SZAFRAN",
+   "camiseta": "50",
+   "minutos": "89"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "53111",
+   "Jug_Sale": "JUAN PEDRO TAFERNABERRY",
+   "CarneEntra": "31696",
+   "Jug_Entra": "JAVIER TAIS",
+   "camiseta": "19",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "68936",
+   "Jug_Sale": "EZEQUIEL ACOSTA",
+   "CarneEntra": "55198",
+   "Jug_Entra": "CAMILO JOAQUIN CABRERA",
+   "camiseta": "6",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "46832",
+   "Jug_Sale": "EMILIANO DANTAZ",
+   "CarneEntra": "58944",
+   "Jug_Entra": "IGNACIO ALGORTA",
+   "camiseta": "29",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "68646",
+   "Jug_Sale": "MARTIN GUADALUPE",
+   "CarneEntra": "67539",
+   "Jug_Entra": "MATIAS NICOLAS RODRIGUEZ",
+   "camiseta": "46",
+   "minutos": "73"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "59245",
+   "Nombre": "AGUSTIN JUSTITZ",
+   "minutos": "76",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "40183",
+   "Nombre": "FERNANDO MICHEL CHACON",
+   "minutos": "51",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
- "expulsadosV": []
+ "expulsadosV": [
+  {
+   "Nombre": "EMILIANO DANTAZ",
+   "observaciones": ""
+  }
+ ]
 }

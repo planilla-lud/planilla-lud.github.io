@@ -15,24 +15,17 @@
  },
  {
   "serie": "BTA",
-  "fechaHora": "2026-11-08 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "ELBIO FERNANDEZ",
-  "visitante": "J.M.L.M"
- },
- {
-  "serie": "BPD",
-  "fechaHora": "2026-11-08 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "OLIMAR",
-  "visitante": "SAN JUAN BAUTISTA"
- },
- {
-  "serie": "BTA",
   "fechaHora": "2026-11-08 11:15:00",
   "cancha": "SAN ISIDRO LOMAS",
   "local": "SAN ISIDRO LOMAS UNIVERSITARIO",
   "visitante": "NAUTICO CARRASCO Y PUNTA GORDA"
+ },
+ {
+  "serie": "BTA",
+  "fechaHora": "2026-11-08 11:15:00",
+  "cancha": "ELBIO FERNANDEZ",
+  "local": "ELBIO FERNANDEZ",
+  "visitante": "J.M.L.M"
  },
  {
   "serie": "BPD",
@@ -44,7 +37,14 @@
  {
   "serie": "BPD",
   "fechaHora": "2026-11-08 11:15:00",
-  "cancha": "COMPLEJO JUAN XXIII",
+  "cancha": "COLEGIO PIO",
+  "local": "OLIMAR",
+  "visitante": "SAN JUAN BAUTISTA"
+ },
+ {
+  "serie": "BPD",
+  "fechaHora": "2026-11-08 11:15:00",
+  "cancha": "COM. DEP. CLUB TROUVILLE",
   "local": "CIRCULO DE TENIS MONTEVIDEO",
   "visitante": "CITY PARK"
  },

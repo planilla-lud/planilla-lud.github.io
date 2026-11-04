@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "SUB20 \"B\" TITULO",
   "Cancha": "COMPLEJO DEPORTIVO ARRAYANES",
-  "Fecha_Inicio": "2026-11-03 22:30:00",
-  "Fecha_fin": "2026-11-03 22:30:00",
+  "Fecha_Inicio": "2026-11-03 23:10:00",
+  "Fecha_fin": "2026-11-03 23:10:00",
   "Locatario": "OLD IVY",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,241 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "59618",
+   "Nombre": "NICOLAS CROSA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "57951",
+   "Nombre": "JUAN GUILLERMO MARTINEZ",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "59611",
+   "Nombre": "FEDERICO MARTINEZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "57161",
+   "Nombre": "JUAN FRANCISCO SONEIRA",
+   "camiseta": "30",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "67380",
+   "Nombre": "JUAN PEDRO MENINI",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "59614",
+   "Nombre": "TOMAS HORJALES",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "64391",
+   "Nombre": "JUAN BAUTISTA IRIARTE",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "55486",
+   "Nombre": "ISMAEL CASTRO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "67379",
+   "Nombre": "JUAN PEDRO LUQUE",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "61114",
+   "Nombre": "ALFONSO TOPOLANSKY",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "59609",
+   "Nombre": "FRANCISCO RUBIO",
+   "camiseta": "47",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "53537",
+   "Nombre": "MATEO VAZQUEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "57805",
+   "Nombre": "MATEO UBERTI",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "68033",
+   "Nombre": "FRANCO MARTINEZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "56489",
+   "Nombre": "JOAQUIN MUNIZ",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "62779",
+   "Nombre": "MIRKO DAMIAN MALAN",
+   "camiseta": "51",
+   "Capitan": ""
+  },
+  {
+   "carne": "58729",
+   "Nombre": "MATIAS CAMACHO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "63384",
+   "Nombre": "AGUSTIN YERLE",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "68916",
+   "Nombre": "THIAGO MOMBRU",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "56838",
+   "Nombre": "LUCA ALESSANDRO COCINA",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "66420",
+   "Nombre": "VALENTIN GASPAR QUARNETI",
+   "camiseta": "66",
+   "Capitan": ""
+  },
+  {
+   "carne": "56668",
+   "Nombre": "TADDEO BASSI",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "57951",
+   "Jug_Sale": "JUAN GUILLERMO MARTINEZ",
+   "CarneEntra": "57162",
+   "Jug_Entra": "PHILIP MC GREGOR",
+   "camiseta": "70",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "59614",
+   "Jug_Sale": "TOMAS HORJALES",
+   "CarneEntra": "60169",
+   "Jug_Entra": "ROCCO JORGE LOBLOWITZ",
+   "camiseta": "28",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64391",
+   "Jug_Sale": "JUAN BAUTISTA IRIARTE",
+   "CarneEntra": "67457",
+   "Jug_Entra": "GIOVANNI RAIMONDI",
+   "camiseta": "10",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "55486",
+   "Jug_Sale": "ISMAEL CASTRO",
+   "CarneEntra": "66623",
+   "Jug_Entra": "IGNACIO CUMELLAS",
+   "camiseta": "16",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "67380",
+   "Jug_Sale": "JUAN PEDRO MENINI",
+   "CarneEntra": "59182",
+   "Jug_Entra": "MATEO DENIS",
+   "camiseta": "29",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "59618",
+   "Jug_Sale": "NICOLAS CROSA",
+   "CarneEntra": "53388",
+   "Jug_Entra": "VALENTINO LOBLOWITZ",
+   "camiseta": "1",
+   "minutos": "85"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "68916",
+   "Jug_Sale": "THIAGO MOMBRU",
+   "CarneEntra": "57367",
+   "Jug_Entra": "VALENTIN BARRETO",
+   "camiseta": "99",
+   "minutos": "50"
+  },
+  {
+   "CarneSale": "66420",
+   "Jug_Sale": "VALENTIN GASPAR QUARNETI",
+   "CarneEntra": "59445",
+   "Jug_Entra": "BRUNO ORTEGA",
+   "camiseta": "3",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "56668",
+   "Jug_Sale": "TADDEO BASSI",
+   "CarneEntra": "68916",
+   "Jug_Entra": "THIAGO MOMBRU",
+   "camiseta": "32",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "68033",
+   "Jug_Sale": "FRANCO MARTINEZ",
+   "CarneEntra": "64257",
+   "Jug_Entra": "JUAN MARTÌN GRAU",
+   "camiseta": "18",
+   "minutos": "75"
+  }
+ ],
  "golesL": [],
- "golesV": [],
+ "golesV": [
+  {
+   "carne": "56668",
+   "Nombre": "TADDEO BASSI",
+   "minutos": "14",
+   "EnContra": "1"
+  },
+  {
+   "carne": "58729",
+   "Nombre": "MATIAS CAMACHO",
+   "minutos": "59",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

@@ -1,24 +1,17 @@
 [
  {
   "serie": "GTA",
-  "fechaHora": "2026-11-08 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "VARELA UNIVERSITARIO",
-  "visitante": "GOMENSORO"
- },
- {
-  "serie": "GTA",
-  "fechaHora": "2026-11-08 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "MARISTAS DEPORTIVO",
-  "visitante": "DEPORTIVO NAVAL"
- },
- {
-  "serie": "GTA",
   "fechaHora": "2026-11-08 09:00:00",
   "cancha": "PQUE. ELLIS - COL. SAN ISIDRO",
   "local": "COLEGIO SAN ISIDRO",
   "visitante": "APENAS UNIVERSITARIO"
+ },
+ {
+  "serie": "GTA",
+  "fechaHora": "2026-11-08 09:00:00",
+  "cancha": "COMPLEJO INDEPENDIENTE UNIV.",
+  "local": "VARELA UNIVERSITARIO",
+  "visitante": "GOMENSORO"
  },
  {
   "serie": "GTA",
@@ -37,16 +30,23 @@
  {
   "serie": "GPD",
   "fechaHora": "2026-11-08 09:00:00",
-  "cancha": "LA CIMA",
-  "local": "COLEGIO Y LICEO SANTO DOMINGO",
-  "visitante": "COLEGIO SALESIANO DE LA COSTA"
- },
- {
-  "serie": "GPD",
-  "fechaHora": "2026-11-08 09:00:00",
   "cancha": "COM. CLUB UNIVERSIDAD CATOLICA",
   "local": "RIVER PLATE UNIVERSITARIO",
   "visitante": "CLUB ATLETICO BELLA VISTA"
+ },
+ {
+  "serie": "GTA",
+  "fechaHora": "2026-11-08 11:15:00",
+  "cancha": "CAMPO MARISTAS DEPORTIVO",
+  "local": "MARISTAS DEPORTIVO",
+  "visitante": "DEPORTIVO NAVAL"
+ },
+ {
+  "serie": "GPD",
+  "fechaHora": "2026-11-08 11:15:00",
+  "cancha": "COMPLEJO DEPORTIVO H3O",
+  "local": "COLEGIO Y LICEO SANTO DOMINGO",
+  "visitante": "COLEGIO SALESIANO DE LA COSTA"
  },
  {
   "serie": "GPD",

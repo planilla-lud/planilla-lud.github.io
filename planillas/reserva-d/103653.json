@@ -1,0 +1,300 @@
+{
+ "id": "103653",
+ "categoria": "reserva-d",
+ "serie": "RSDTA",
+ "fecha": 9,
+ "fechaHora": "2026-11-03 21:00:00",
+ "cancha": "ELF (LICEO FRANCES)",
+ "local": "ELF BLANCO",
+ "visitante": "SAN AGUSTIN",
+ "gl": 1,
+ "gv": 2,
+ "detalle": {
+  "nro_partido": "545",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "RESERVA",
+  "categoria": "RESERVA MASCULINO",
+  "rueda": "2",
+  "Divisional": "RESERVA \"D\" TIT. y ASC.",
+  "Cancha": "ELF (LICEO FRANCES)",
+  "Fecha_Inicio": "2026-11-03 23:00:00",
+  "Fecha_fin": "2026-11-03 23:00:00",
+  "Locatario": "ELF BLANCO",
+  "goles_locatario": "1",
+  "puntos_locatario": "0",
+  "Visitante": "SAN AGUSTIN",
+  "goles_visitante": "2",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "45874",
+   "Nombre": "LUCAS BURGHI",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "56750",
+   "Nombre": "JOAQUIN BLANCO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "47715",
+   "Nombre": "PHILIPPE CHAPT",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "43441",
+   "Nombre": "SERGIO DANIEL STELLA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "48529",
+   "Nombre": "MATHEUS FRANCISCO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "69213",
+   "Nombre": "MATEO MIGUELEZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "55866",
+   "Nombre": "FEDERICO BUHL",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "48897",
+   "Nombre": "FRANCISCO BARAIBAR",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "61002",
+   "Nombre": "PEDRO RAINERI",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "51154",
+   "Nombre": "JUAN JOSE RAMON SCANDROGLIO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "36828",
+   "Nombre": "JUAN GIBERT",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "47395",
+   "Nombre": "ALFONSO ALBERTO CANUTI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "55175",
+   "Nombre": "BENJAMIN HERRAN",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "47401",
+   "Nombre": "FELIPE SEXENIAN",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "55271",
+   "Nombre": "IGNACIO BORETTO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "48900",
+   "Nombre": "AGUSTIN DECIA",
+   "camiseta": "92",
+   "Capitan": ""
+  },
+  {
+   "carne": "45699",
+   "Nombre": "IGNACIO FEDERICO ALESINA",
+   "camiseta": "79",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "47398",
+   "Nombre": "FELIPE GALINDEZ",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "49157",
+   "Nombre": "SEBASTIAN CHEBI",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "50991",
+   "Nombre": "MAXIMILIANO GAGLIAMONE",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "55788",
+   "Nombre": "JUAN IGNACIO BECOÑA",
+   "camiseta": "71",
+   "Capitan": ""
+  },
+  {
+   "carne": "54167",
+   "Nombre": "JOAQUIN DECIA",
+   "camiseta": "77",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "51154",
+   "Jug_Sale": "JUAN JOSE RAMON SCANDROGLIO",
+   "CarneEntra": "26824",
+   "Jug_Entra": "MATHIAS PENSATORI",
+   "camiseta": "17",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "47715",
+   "Jug_Sale": "PHILIPPE CHAPT",
+   "CarneEntra": "51919",
+   "Jug_Entra": "SANTIAGO GRAU PEREZ",
+   "camiseta": "21",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61002",
+   "Jug_Sale": "PEDRO RAINERI",
+   "CarneEntra": "54929",
+   "Jug_Entra": "MARTIN TALMON",
+   "camiseta": "13",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "48897",
+   "Jug_Sale": "FRANCISCO BARAIBAR",
+   "CarneEntra": "57205",
+   "Jug_Entra": "DIAGO COSTA",
+   "camiseta": "5",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "55866",
+   "Jug_Sale": "FEDERICO BUHL",
+   "CarneEntra": "66787",
+   "Jug_Entra": "EZEQUIEL HERNANDEZ",
+   "camiseta": "24",
+   "minutos": "74"
+  },
+  {
+   "CarneSale": "48529",
+   "Jug_Sale": "MATHEUS FRANCISCO",
+   "CarneEntra": "47497",
+   "Jug_Entra": "FEDERICO TUZMAN",
+   "camiseta": "22",
+   "minutos": "74"
+  },
+  {
+   "CarneSale": "45874",
+   "Jug_Sale": "LUCAS BURGHI",
+   "CarneEntra": "38746",
+   "Jug_Entra": "JUAN MANUEL PAGOLA",
+   "camiseta": "12",
+   "minutos": "86"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "49157",
+   "Jug_Sale": "SEBASTIAN CHEBI",
+   "CarneEntra": "51345",
+   "Jug_Entra": "FELIPE AITA",
+   "camiseta": "3",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "54167",
+   "Jug_Sale": "JOAQUIN DECIA",
+   "CarneEntra": "43944",
+   "Jug_Entra": "SANTIAGO TECHEIRA",
+   "camiseta": "13",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "45699",
+   "Jug_Sale": "IGNACIO FEDERICO ALESINA",
+   "CarneEntra": "51336",
+   "Jug_Entra": "SEBASTIAN ROCHA",
+   "camiseta": "16",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "55788",
+   "Jug_Sale": "JUAN IGNACIO BECOÑA",
+   "CarneEntra": "50985",
+   "Jug_Entra": "SANTIAGO MOCHETTI",
+   "camiseta": "24",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "55271",
+   "Jug_Sale": "IGNACIO BORETTO",
+   "CarneEntra": "47603",
+   "Jug_Entra": "DANILO LUMACA",
+   "camiseta": "19",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "49157",
+   "Jug_Sale": "SEBASTIAN CHEBI",
+   "CarneEntra": "54126",
+   "Jug_Entra": "ALEJANDRO DIAZ",
+   "camiseta": "44",
+   "minutos": "75"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "36828",
+   "Nombre": "JUAN GIBERT",
+   "minutos": "45",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "43944",
+   "Nombre": "SANTIAGO TECHEIRA",
+   "minutos": "71",
+   "EnContra": "1"
+  },
+  {
+   "carne": "54167",
+   "Nombre": "JOAQUIN DECIA",
+   "minutos": "1",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

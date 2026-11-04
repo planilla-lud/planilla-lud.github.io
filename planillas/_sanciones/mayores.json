@@ -14874,6 +14874,19 @@
  {
   "tipo": "automatica",
   "fecha": "2026-11-03",
+  "partido": "890",
+  "serie": "APD",
+  "carne": "46832",
+  "nombre": "EMILIANO DANTAZ",
+  "club": "PLAYA HONDA UNIVERSITARIO",
+  "sancion": "SANCIÓN AUTOMÁTICA",
+  "fechas": 1,
+  "detalle": "F:1 - UR:0",
+  "texto": "Sanción generada automáticamente por expulsión en el partido"
+ },
+ {
+  "tipo": "automatica",
+  "fecha": "2026-11-03",
   "partido": "1088",
   "serie": "ETA",
   "carne": "52903",
@@ -14883,6 +14896,32 @@
   "fechas": 1,
   "detalle": "F:1 - UR:0",
   "texto": "SANCIÓN GENERADA AUTOMÁTICAMENTE."
+ },
+ {
+  "tipo": "automatica",
+  "fecha": "2026-11-03",
+  "partido": "891",
+  "serie": "APD",
+  "carne": "57133",
+  "nombre": "GUIDO MARTINO",
+  "club": "OLD IVY",
+  "sancion": "SANCIÓN AUTOMÁTICA",
+  "fechas": 1,
+  "detalle": "F:1 - UR:0",
+  "texto": "Sanción generada automáticamente por expulsión en el partido"
+ },
+ {
+  "tipo": "automatica",
+  "fecha": "2026-11-03",
+  "partido": "891",
+  "serie": "APD",
+  "carne": "61290",
+  "nombre": "FERNANDO BENITEZ",
+  "club": "OLD IVY",
+  "sancion": "SANCIÓN AUTOMÁTICA",
+  "fechas": 1,
+  "detalle": "F:1 - UR:0",
+  "texto": "Sanción generada automáticamente por expulsión en el partido"
  },
  {
   "tipo": "automatica",

@@ -22,6 +22,13 @@
  },
  {
   "serie": "20AT",
+  "fechaHora": "2026-11-06 20:00:00",
+  "cancha": "MONTE VI \"LOS CEIBOS\"",
+  "local": "CEIBOS CLUB",
+  "visitante": "OLD CHRISTIANS CLUB"
+ },
+ {
+  "serie": "20AT",
   "fechaHora": "2026-11-07 13:30:00",
   "cancha": "ST. BRENDANS",
   "local": "OLD BRENDANS CLUB",
@@ -40,13 +47,6 @@
   "cancha": "ELF (LICEO FRANCES)",
   "local": "E.L.F.",
   "visitante": "CLUB SEMINARIO"
- },
- {
-  "serie": "20AT",
-  "fechaHora": "2026-11-07 15:30:00",
-  "cancha": "MONTE VI \"LOS CEIBOS\"",
-  "local": "CEIBOS CLUB",
-  "visitante": "OLD CHRISTIANS CLUB"
  },
  {
   "serie": "20AT",

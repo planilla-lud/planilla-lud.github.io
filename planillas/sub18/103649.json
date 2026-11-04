@@ -1,0 +1,280 @@
+{
+ "id": "103649",
+ "categoria": "sub18",
+ "serie": "18P",
+ "fecha": 3,
+ "fechaHora": "2026-11-02 20:30:00",
+ "cancha": "COMPLEJO DEPORTIVO ARRAYANES",
+ "local": "SAGRADA FAMILIA UNIVERSITARIO",
+ "visitante": "COLEGIO SANTA ELENA",
+ "gl": 2,
+ "gv": 3,
+ "detalle": {
+  "nro_partido": "384",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 18 ",
+  "categoria": "SUB 18 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB18 PLATA",
+  "Cancha": "COMPLEJO DEPORTIVO ARRAYANES",
+  "Fecha_Inicio": "2026-11-02 22:20:00",
+  "Fecha_fin": "2026-11-02 22:20:00",
+  "Locatario": "SAGRADA FAMILIA UNIVERSITARIO",
+  "goles_locatario": "2",
+  "puntos_locatario": "0",
+  "Visitante": "COLEGIO SANTA ELENA",
+  "goles_visitante": "3",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "62423",
+   "Nombre": "ISMAEL BENADERET",
+   "camiseta": "12",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "65982",
+   "Nombre": "JUAN VALENTINO BRINGA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "60285",
+   "Nombre": "FELIPE AGUIRRE",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "67661",
+   "Nombre": "SANTIAGO SAUCO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "58692",
+   "Nombre": "BENJAMIN SPOTURNO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "58681",
+   "Nombre": "MARTIN TOMAS GARCIA GARCIA",
+   "camiseta": "54",
+   "Capitan": ""
+  },
+  {
+   "carne": "58695",
+   "Nombre": "AGUSTIN SANTOS",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "67874",
+   "Nombre": "EMILIANO RORIGUEZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "61835",
+   "Nombre": "MAXIMILIANO NUÑEZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "66812",
+   "Nombre": "FELIPE LARREGUI",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "67562",
+   "Nombre": "IKER PINTOS",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "62694",
+   "Nombre": "NOAH ELIAS LEFKARITIS",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "58135",
+   "Nombre": "TIAGO JULIEN ALVAREZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "63150",
+   "Nombre": "MATHIAS PABLO FAZZIO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "62914",
+   "Nombre": "EMILIANO MILA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "66257",
+   "Nombre": "FACUNDO CIPILIANO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "67071",
+   "Nombre": "BRUNO SANCHEZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "62530",
+   "Nombre": "ELIAN SHARIM TEJERIA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "58136",
+   "Nombre": "MATEO BENSASSON",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "63065",
+   "Nombre": "RODRIGO BENTANCOURT",
+   "camiseta": "79",
+   "Capitan": ""
+  },
+  {
+   "carne": "58409",
+   "Nombre": "LUCIANO CABRERA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "64156",
+   "Nombre": "GUILLERMO ZAMPROGNO",
+   "camiseta": "28",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "58695",
+   "Jug_Sale": "AGUSTIN SANTOS",
+   "CarneEntra": "65070",
+   "Jug_Entra": "JUAN GERMAN DAVILA",
+   "camiseta": "28",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "67874",
+   "Jug_Sale": "EMILIANO RORIGUEZ",
+   "CarneEntra": "63820",
+   "Jug_Entra": "GONZALO AGUSTIN OJEDA",
+   "camiseta": "30",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61835",
+   "Jug_Sale": "MAXIMILIANO NUÑEZ",
+   "CarneEntra": "67665",
+   "Jug_Entra": "JOAQUIN NICOLAS OLIVERA",
+   "camiseta": "8",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "67661",
+   "Jug_Sale": "SANTIAGO SAUCO",
+   "CarneEntra": "60277",
+   "Jug_Entra": "BRUNO FACELLO",
+   "camiseta": "20",
+   "minutos": "71"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "62914",
+   "Jug_Sale": "EMILIANO MILA",
+   "CarneEntra": "63760",
+   "Jug_Entra": "JUAN MANUEL RODRIGUEZ",
+   "camiseta": "8",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "63065",
+   "Jug_Sale": "RODRIGO BENTANCOURT",
+   "CarneEntra": "57679",
+   "Jug_Entra": "JUAN MANUEL BELLO",
+   "camiseta": "6",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66257",
+   "Jug_Sale": "FACUNDO CIPILIANO",
+   "CarneEntra": "62914",
+   "Jug_Entra": "EMILIANO MILA",
+   "camiseta": "20",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "62530",
+   "Jug_Sale": "ELIAN SHARIM TEJERIA",
+   "CarneEntra": "63065",
+   "Jug_Entra": "RODRIGO BENTANCOURT",
+   "camiseta": "79",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "58135",
+   "Jug_Sale": "TIAGO JULIEN ALVAREZ",
+   "CarneEntra": "66257",
+   "Jug_Entra": "FACUNDO CIPILIANO",
+   "camiseta": "23",
+   "minutos": "87"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "66812",
+   "Nombre": "FELIPE LARREGUI",
+   "minutos": "3",
+   "EnContra": "0"
+  },
+  {
+   "carne": "67562",
+   "Nombre": "IKER PINTOS",
+   "minutos": "80",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "57679",
+   "Nombre": "JUAN MANUEL BELLO",
+   "minutos": "58",
+   "EnContra": "1"
+  },
+  {
+   "carne": "67071",
+   "Nombre": "BRUNO SANCHEZ",
+   "minutos": "36",
+   "EnContra": "1"
+  },
+  {
+   "carne": "67071",
+   "Nombre": "BRUNO SANCHEZ",
+   "minutos": "80",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"A\" TITULO",
   "Cancha": "BRITISH SCHOOL",
-  "Fecha_Inicio": "2026-11-01 10:30:00",
-  "Fecha_fin": "2026-11-01 10:30:00",
+  "Fecha_Inicio": "2026-11-01 11:00:00",
+  "Fecha_fin": "2026-11-01 11:00:00",
   "Locatario": "OLD BOYS CLUB",
   "goles_locatario": "1",
   "puntos_locatario": "1",
@@ -29,12 +29,258 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "59008",
+   "Nombre": "GERONIMO FEDERICO ALONSO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "54579",
+   "Nombre": "JAVIER CIVETTA",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "29671",
+   "Nombre": "MARTIN GUSTAVO GUERRA",
+   "camiseta": "22",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "54974",
+   "Nombre": "SANTIAGO BOCAGE",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "47513",
+   "Nombre": "MAXIMO VARGAS",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "45980",
+   "Nombre": "ZENON CAPELLI",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "47515",
+   "Nombre": "JUAN MARIA SEIZER",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "49786",
+   "Nombre": "JUAN IGNACIO HARDOY",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "58231",
+   "Nombre": "FACUNDO VALENTTI",
+   "camiseta": "91",
+   "Capitan": ""
+  },
+  {
+   "carne": "54580",
+   "Nombre": "JUAN CARLOS VIDIELLA",
+   "camiseta": "49",
+   "Capitan": ""
+  },
+  {
+   "carne": "48369",
+   "Nombre": "LUCA BERTINI",
+   "camiseta": "14",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "40866",
+   "Nombre": "FACUNDO ROMANELLI",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "53597",
+   "Nombre": "BAUTISTA DE LUCA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "29697",
+   "Nombre": "DIEGO LACURCIA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "35870",
+   "Nombre": "LUCAS MACAGNO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "37465",
+   "Nombre": "RODRIGO FERNANDEZ",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "48017",
+   "Nombre": "JUAN MARTIN IRAOLA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "44181",
+   "Nombre": "FRANCISCO LABAT",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "35206",
+   "Nombre": "FEDERICO LACURCIA",
+   "camiseta": "17",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "59748",
+   "Nombre": "SANTIAGO MENDEZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "39434",
+   "Nombre": "SANTIAGO QUIÑONES",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "57347",
+   "Nombre": "FACUNDO COSTA",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "54580",
+   "Jug_Sale": "JUAN CARLOS VIDIELLA",
+   "CarneEntra": "45241",
+   "Jug_Entra": "JUAN FERMIN REMEDI",
+   "camiseta": "7",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "48369",
+   "Jug_Sale": "LUCA BERTINI",
+   "CarneEntra": "29955",
+   "Jug_Entra": "NICOLAS CASAROTTI",
+   "camiseta": "19",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "45980",
+   "Jug_Sale": "ZENON CAPELLI",
+   "CarneEntra": "54585",
+   "Jug_Entra": "TOMAS CABRAL",
+   "camiseta": "25",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "47515",
+   "Jug_Sale": "JUAN MARIA SEIZER",
+   "CarneEntra": "56273",
+   "Jug_Entra": "ALEXIS BRUCE",
+   "camiseta": "79",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "58231",
+   "Jug_Sale": "FACUNDO VALENTTI",
+   "CarneEntra": "56262",
+   "Jug_Entra": "FRANCISCO NAVARRO",
+   "camiseta": "17",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "54974",
+   "Jug_Sale": "SANTIAGO BOCAGE",
+   "CarneEntra": "57945",
+   "Jug_Entra": "BAUTISTA ESTEFANELL",
+   "camiseta": "95",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "47513",
+   "Jug_Sale": "MAXIMO VARGAS",
+   "CarneEntra": "47413",
+   "Jug_Entra": "LUCAS MARTIN VILLARONGA",
+   "camiseta": "32",
+   "minutos": "87"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "48017",
+   "Jug_Sale": "JUAN MARTIN IRAOLA",
+   "CarneEntra": "42582",
+   "Jug_Entra": "IGNACIO LACURCIA",
+   "camiseta": "16",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "57347",
+   "Jug_Sale": "FACUNDO COSTA",
+   "CarneEntra": "46817",
+   "Jug_Entra": "FEDERICO HEBER VAZ",
+   "camiseta": "9",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "35206",
+   "Jug_Sale": "FEDERICO LACURCIA",
+   "CarneEntra": "37473",
+   "Jug_Entra": "SANTIAGO MATO",
+   "camiseta": "15",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "53597",
+   "Jug_Sale": "BAUTISTA DE LUCA",
+   "CarneEntra": "47029",
+   "Jug_Entra": "GUZMAN PIANGELUA",
+   "camiseta": "8",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "59748",
+   "Jug_Sale": "SANTIAGO MENDEZ",
+   "CarneEntra": "55483",
+   "Jug_Entra": "IGNACIO PAGES",
+   "camiseta": "4",
+   "minutos": "90"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "58231",
+   "Nombre": "FACUNDO VALENTTI",
+   "minutos": "92",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "53597",
+   "Nombre": "BAUTISTA DE LUCA",
+   "minutos": "16",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

@@ -1,27 +1,6 @@
 [
  {
   "serie": "AT",
-  "fechaHora": "2026-11-08 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "TENIS EL PINAR",
-  "visitante": "OLD BOYS CLUB"
- },
- {
-  "serie": "APD",
-  "fechaHora": "2026-11-08 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "OLD CHRISTIANS CLUB",
-  "visitante": "HEBRAICA UNIVERSITARIO"
- },
- {
-  "serie": "APD",
-  "fechaHora": "2026-11-08 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "SANTA ELENA LAGOMAR",
-  "visitante": "CLUB SEMINARIO"
- },
- {
-  "serie": "AT",
   "fechaHora": "2026-11-08 09:00:00",
   "cancha": "COMPLEJO URUNDAY UNIVERSITARIO",
   "local": "URUNDAY UNIVERSITARIO",
@@ -44,6 +23,13 @@
  {
   "serie": "AT",
   "fechaHora": "2026-11-08 11:15:00",
+  "cancha": "TENIS EL PINAR",
+  "local": "TENIS EL PINAR",
+  "visitante": "OLD BOYS CLUB"
+ },
+ {
+  "serie": "AT",
+  "fechaHora": "2026-11-08 11:15:00",
   "cancha": "CARRASCO POLO",
   "local": "CARRASCO POLO CLUB",
   "visitante": "TAPE"
@@ -51,8 +37,22 @@
  {
   "serie": "APD",
   "fechaHora": "2026-11-08 11:15:00",
+  "cancha": "OLD CHRISTIANS CLUB",
+  "local": "OLD CHRISTIANS CLUB",
+  "visitante": "HEBRAICA UNIVERSITARIO"
+ },
+ {
+  "serie": "APD",
+  "fechaHora": "2026-11-08 11:15:00",
   "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
   "local": "PLAYA HONDA UNIVERSITARIO",
   "visitante": "OLD IVY"
+ },
+ {
+  "serie": "APD",
+  "fechaHora": "2026-11-08 11:15:00",
+  "cancha": "COMPLEJO DEPORTIVO ARRAYANES",
+  "local": "SANTA ELENA LAGOMAR",
+  "visitante": "CLUB SEMINARIO"
  }
 ]

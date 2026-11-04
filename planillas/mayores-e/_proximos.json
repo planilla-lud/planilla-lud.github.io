@@ -1,12 +1,5 @@
 [
  {
-  "serie": "EPD",
-  "fechaHora": "2026-11-08 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "OLD SAMPA CLUB",
-  "visitante": "EL CHORRO FUTBOL CLUB"
- },
- {
   "serie": "ETA",
   "fechaHora": "2026-11-08 09:00:00",
   "cancha": "ESCUELA NAVAL",
@@ -54,5 +47,12 @@
   "cancha": "COMPLEJO NORTHFIELD",
   "local": "DEPORTIVO SALTO",
   "visitante": "UT SERVIAM"
+ },
+ {
+  "serie": "EPD",
+  "fechaHora": "2026-11-08 11:15:00",
+  "cancha": "ST PATRICKS",
+  "local": "OLD SAMPA CLUB",
+  "visitante": "EL CHORRO FUTBOL CLUB"
  }
 ]
