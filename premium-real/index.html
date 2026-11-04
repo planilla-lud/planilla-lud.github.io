@@ -938,6 +938,7 @@ input.pm-in[type="text"]{flex:1;max-width:240px}
 
 .pm-login{max-width:440px;width:100%;margin:8px auto 0;display:flex;flex-direction:column;gap:14px}
 .pm-login-h{display:flex;align-items:center;gap:14px}
+.pm-login-logo{width:52px;height:52px;flex:none;border-radius:13px;box-shadow:0 0 0 1px var(--line, rgba(255,255,255,.12))}
 .pm-login .pm-form label{display:flex;flex-direction:column;gap:4px;font-size:.82rem;font-weight:600;color:var(--muted)}
 .pm-login .btn{align-self:stretch}
 .pm-err{margin:0;color:var(--danger);font-size:.88rem;font-weight:600}
@@ -2683,7 +2684,7 @@ const pmDtTxt = c => { const n = pmDtDe(c); return n.length ? 'DT: ' + n.join(',
 const pmEV = () => PM.equipos.filter(e => pmCV().includes(e.div));
 const pmTabs = S => S?.rol === 'admin' ? [...PM_TABS.slice(0, -1), ['tecnicos', 'Técnicos'], PM_TABS.at(-1)] : PM_TABS;
 function pmLogin() {
-  return `<div class="pm-login"><div class="pm-login-h">${crest('ELF', true)}<div><h2>Para clubes</h2><p class="small muted">Entrá con la cuenta que te dio tu club.</p></div></div>
+  return `<div class="pm-login"><div class="pm-login-h"><svg class="pm-login-logo" viewBox="0 0 64 64" role="img" aria-label="Planilla LUD"><rect width="64" height="64" rx="15" fill="#0a0a0a"/><circle cx="32" cy="32" r="15" fill="none" stroke="#fff" stroke-width="6.5" stroke-dasharray="76 18.2" stroke-dashoffset="-6" transform="rotate(-90 32 32)"/></svg><div><h2>Para clubes</h2><p class="small muted">Entrá con la cuenta que te dio tu club.</p></div></div>
     <form class="panel pm-form" id="pm-login" autocomplete="on">
       <label for="lg-u">Usuario<input type="text" id="lg-u" autocomplete="username" autocapitalize="none" placeholder="Tu usuario o tu número de carné" required></label>
       <label for="lg-p">Contraseña<input type="password" id="lg-p" autocomplete="current-password" required></label>
