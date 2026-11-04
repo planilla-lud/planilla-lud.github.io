@@ -2788,6 +2788,22 @@ function avGuardarClave(v, donde = avDonde()) {
 const avVisibles = () => pmEst().analisis.filter(r => pmSesion()?.rol === 'admin' || pmCV().includes(r.div));
 // Los partidos jugados del plantel y los rivales de su divisional, de las planillas.
 const avPartidos = cat => pmEV().filter(e => e.div === cat).flatMap(e => (e.d.porEquipo[e.equipo] || []).filter(x => x.gf != null).map(x => ({ id: x.p.id, dia: x.p.dia, rival: x.rival, gf: x.gf, gc: x.gc }))).sort((a, b) => b.dia.localeCompare(a.dia));
+// La planilla oficial del partido: número de camiseta, nombre, minutos y goles de cada jugador del club,
+// y los goles del partido con su minuto. Sirve para que Gemini nombre a los jugadores y no se equivoque con los goles.
+function avPlantel(cat, pid) {
+  if (!pid) return null;
+  for (const e of PM.equipos.filter(x => x.div === cat)) {
+    const x = (e.d.porEquipo[e.equipo] || []).find(y => y.p.id === pid); if (!x || !x.p.planilla) continue;
+    const nom = c => e.d.jugadores[c]?.nombre || '';
+    const jug = (x.p[x.lado] || []).map(j => ({ cam: String(j.cam ?? '').trim(), c: j.c, nombre: nom(j.c), min: j.min, tit: j.t === 1, goles: j.g || [], entra: (j.e || [])[0] ?? null, sale: (j.s || [])[0] ?? null })).filter(j => j.cam);
+    const otro = x.lado === 'L' ? 'V' : 'L';
+    const goles = [...(x.p[x.lado] || []).flatMap(j => (j.g || []).map(m => ({ m, nuestro: true, cam: j.cam, nombre: nom(j.c) }))),
+      ...(x.p[otro] || []).flatMap(j => (j.g || []).map(m => ({ m, nuestro: false, cam: j.cam, nombre: nom(j.c) })))].sort((a, b) => a.m - b.m);
+    return { div: e.div, jug, goles };
+  }
+  return null;
+}
+const avPorCam = (P, quien) => { const n = String(quien || '').match(/\d+/)?.[0]; return n && P ? P.jug.find(j => j.cam === n) : null; };
 const avRivales = cat => [...new Set(pmEV().filter(e => e.div === cat).flatMap(e => Object.keys(e.d.porEquipo).filter(x => x !== e.equipo)))].sort((a, b) => a.localeCompare(b, 'es'));
 // De lo que se elige (una carpeta entera o varios archivos) quedan solo los videos, ordenados por nombre.
 // Se saltean los archivos ocultos y la carpeta __MACOSX que deja el zip en la Mac.
@@ -2964,7 +2980,10 @@ Partido: ${ctx.club} (${ctx.plantel}) contra ${ctx.rival}${ctx.dia ? `, ${ctx.di
 - ${ctx.club} juega con camiseta ${F.color}. ${ctx.rival} juega con camiseta ${F.colRival}.
 - En el primer tiempo ${ctx.club} ataca hacia la ${lado[0]} de la cámara; en el segundo tiempo, hacia la ${lado[1]}.
 ${ctx.n ? `- Tipo de video: ${AV_TIPOS.find(t => t[0] === F.tipo)[1].toLowerCase()}. Son ${ctx.n} clip(s), etiquetados "Clip 1" a "Clip ${ctx.n}" en orden.${F.tipo === 'highlights' ? ' Son highlights de Veo: cada clip es una jugada suelta y no está el partido entero.' : F.tipo === 'recorte' ? ' Es un recorte: solo una parte del partido.' : ''}` : '- No hay video: trabajá solo con el informe de Veo. Todas las listas de "jugadas" van vacías ([]) y "llegadas" en 0 si el informe no permite saberlo.'}
-${F.veo.trim() ? `- Va el informe de Veo Analytics del partido, copiado de la web de Veo (texto desordenado: los números vienen de a pares, primero el rival y después ${ctx.club}, o por número de camiseta; en Veo ${ctx.club} puede aparecer como "ELF" o con el nombre del plantel y el rival como "Equipo rival"). Usá esos números para respaldar o matizar lo que ves en los clips; si no coinciden, decilo.${F.modo === 'jugador' ? ' Buscá la fila del jugador en "Player Stats" (por su número de camiseta) y usala.' : ''}
+${ctx.planilla ? `- Planilla oficial de la Liga para este partido. Jugadores de ${ctx.club} (número de camiseta, nombre, minutos, goles): ${ctx.planilla.jug.map(j => `#${j.cam} ${j.nombre} (${j.tit ? 'titular' : 'suplente'}, ${j.min}'${j.entra != null ? `, entró al ${j.entra}'` : ''}${j.sale != null ? `, salió al ${j.sale}'` : ''}${j.goles.length ? `, goles al ${j.goles.join("', ")}'` : ''})`).join('; ')}.
+  Goles del partido según la planilla: ${ctx.planilla.goles.map(g => `${g.m}' ${g.nuestro ? `${ctx.club} (#${g.cam} ${g.nombre})` : ctx.rival}`).join(', ') || 'ninguno'}. La planilla manda: si Veo o los clips dicen otra cosa sobre quién hizo un gol, usá la planilla. No afirmes en qué tiempo fue un gol si no está claro (un minuto 46 o 47 puede ser descuento del primer tiempo).
+  Cuando nombres a un jugador de ${ctx.club}, escribilo como "#número Nombre Apellido" (ej. "#${ctx.planilla.jug[0]?.cam} ${ctx.planilla.jug[0]?.nombre}"). En "jugadores", "quien" es solo el número.
+` : ''}${F.veo.trim() ? `- Va el informe de Veo Analytics del partido, copiado de la web de Veo (texto desordenado: los números vienen de a pares, primero el rival y después ${ctx.club}, o por número de camiseta; en Veo ${ctx.club} puede aparecer como "ELF" o con el nombre del plantel y el rival como "Equipo rival"). Usá esos números para respaldar o matizar lo que ves en los clips; si no coinciden, decilo.${F.modo === 'jugador' ? ' Buscá la fila del jugador en "Player Stats" (por su número de camiseta) y usala.' : ''}
 <<<INFORME DE VEO
 ${F.veo.trim().slice(0, 120000)}
 INFORME DE VEO>>>
@@ -3061,7 +3080,8 @@ async function avAnalizar() {
     const veo = clips.map(c => avVeo(c.f.name));
     const partes = clips.flatMap((c, i) => [{ text: `Clip ${i + 1} (${c.f.name})${veo[i].ini != null ? `: según Veo empieza en el ${avT(veo[i].ini)} del video del partido` : ''}${veo[i].tipo ? ` y Veo lo marcó como "${veo[i].tipo}"` : ''}. Revisá con la imagen de qué equipo es la jugada:` }, { file_data: { mime_type: subidos[i].mimeType, file_uri: subidos[i].uri } }]);
     for (const [i, f] of caps.entries()) partes.push({ text: `Captura ${i + 1} de Veo Analytics (${f.name}):` }, { inline_data: { mime_type: f.type || 'image/png', data: await avBase64(f) } });
-    partes.push({ text: avPrompt({ ...F }, { club: PM.club.nombre, plantel: pmCatN(F.cat), rival, dia: dia ? fDia(dia) : '', res: p ? `${PM.club.nombre} ${p.gf}, ${rival} ${p.gc}` : '', n: clips.length, caps: caps.length, jugador: J?.nombre }) });
+    const plantel = avPlantel(F.cat, p?.id);
+    partes.push({ text: avPrompt({ ...F }, { planilla: plantel, club: PM.club.nombre, plantel: pmCatN(F.cat), rival, dia: dia ? fDia(dia) : '', res: p ? `${PM.club.nombre} ${p.gf}, ${rival} ${p.gc}` : '', n: clips.length, caps: caps.length, jugador: J?.nombre }) });
     const cfg = { responseMimeType: 'application/json', temperature: 0.3, mediaResolution: 'MEDIA_RESOLUTION_LOW' };
     // Si Gemini está saturado (503) se reintenta solo y, si sigue, se prueba con otro modelo. Los videos ya subidos se reusan.
     const cuerpo = JSON.stringify({ contents: [{ role: 'user', parts: partes }], generationConfig: cfg });
@@ -3124,6 +3144,7 @@ function avInforme(id) {
   const r = avVisibles().find(x => x.id === id), volver = atras('#/clubes/analisis/' + (r && !r.clips.length ? 'datos' : 'videos'), 'Volver a Análisis');
   if (!r) return volver + '<div class="empty">Ese informe no existe o no es de tus planteles.</div>';
   AV_INFO = r.veo || r.clips.map(avVeo);
+  const P = avPlantel(r.div, r.partido.id);
   const I = r.informe, M = AV_MEDIA[id], club = PM.club.nombre, mk = I.marcador, n = Object.values(I.llegadas).reduce((a, b) => a + b, 0);
   // Si el partido tiene planilla, manda el resultado oficial.
   const marc = r.partido.gf != null ? `${r.partido.gf} - ${r.partido.gc}` : mk.nosotros != null && mk.rival != null ? `${mk.nosotros} - ${mk.rival}` : '';
@@ -3147,7 +3168,9 @@ function avInforme(id) {
       ${(I.numeros || []).length ? `<section class="panel"><div class="panel-h"><b>Lo que dicen los números de Veo</b>${/^https:\/\//.test(r.veoLink || '') ? `<a class="share" href="${esc(r.veoLink)}" target="_blank" rel="noopener">Ver en Veo</a>` : ''}</div><div class="side sola">${I.numeros.map(x => `<div class="alert"><b>${esc(x.dato)}</b>${x.lectura ? `<span>${esc(x.lectura)}</span>` : ''}</div>`).join('')}</div></section>` : ''}
       ${AV_FASES.some(([k]) => I.fases?.[k]?.texto) ? `<section class="panel"><div class="panel-h"><b>Por fases del juego</b></div><div class="side sola">${AV_FASES.filter(([k]) => I.fases[k]?.texto).map(([k, n]) => `<div class="alert"><b>${n}</b><span>${esc(I.fases[k].texto)}</span>${avJugadas(I.fases[k].jugadas)}</div>`).join('')}</div></section>` : ''}
       ${I.tiempos?.primero || I.tiempos?.segundo ? `<section class="panel"><div class="panel-h"><b>Primer y segundo tiempo</b></div><div class="side sola">${[['primero', 'Primer tiempo'], ['segundo', 'Segundo tiempo']].filter(([k]) => I.tiempos[k]).map(([k, n]) => `<div class="alert"><b>${n}</b><span>${esc(I.tiempos[k])}</span></div>`).join('')}</div></section>` : ''}
-      ${(I.jugadores || []).length ? `<section class="panel"><div class="panel-h"><b>Jugadores</b><span>Por número de camiseta</span></div><div class="side sola">${I.jugadores.map(x => `<div class="alert"><b>${esc(/^\d+$/.test(x.quien) ? '#' + x.quien : x.quien)}</b><b class="lvl ${x.tipo === 'mejorar' ? 'media' : 'baja'}">${x.tipo === 'mejorar' ? 'A mejorar' : 'Destacado'}</b><span>${esc(x.texto)}</span>${avJugadas(x.jugadas)}</div>`).join('')}</div></section>` : ''}
+      ${(I.jugadores || []).length ? `<section class="panel"><div class="panel-h"><b>Jugadores</b><span>${P ? 'Nombres de la planilla oficial' : 'Por número de camiseta'}</span></div><div class="side sola">${I.jugadores.map(x => { const j = avPorCam(P, x.quien), num = String(x.quien).match(/\d+/)?.[0];
+        const nombre = j ? `<a href="#/clubes/ver/${P.div}/jugador/${encodeURIComponent(j.c)}">#${esc(j.cam)} ${esc(j.nombre)}</a>` : esc(num ? '#' + num : x.quien);
+        return `<div class="alert"><b>${nombre}</b><b class="lvl ${x.tipo === 'mejorar' ? 'media' : 'baja'}">${x.tipo === 'mejorar' ? 'A mejorar' : 'Destacado'}</b><span>${esc(x.texto)}</span>${avJugadas(x.jugadas)}</div>`; }).join('')}</div></section>` : ''}
       ${I.rival?.texto ? `<section class="panel"><div class="panel-h"><b>Cómo jugó ${esc(r.partido.rival)}</b></div><p class="pm-av-txt">${esc(I.rival.texto)}</p>${I.rival.peligros.length ? `<div class="pm-av-pad"><b>Sus armas</b><ul class="pm-av-ul">${I.rival.peligros.map(x => `<li>${esc(x)}</li>`).join('')}</ul></div>` : ''}${I.rival.debilidades.length ? `<div class="pm-av-pad"><b>Dónde hacerle daño</b><ul class="pm-av-ul">${I.rival.debilidades.map(x => `<li>${esc(x)}</li>`).join('')}</ul></div>` : ''}</section>` : ''}
       <section class="panel"><div class="panel-h"><b>Qué salió bien</b></div>${puntos(I.bien, true)}</section>
       <section class="panel"><div class="panel-h"><b>Qué corregir</b></div>${puntos(I.corregir, false)}</section>
