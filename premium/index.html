@@ -954,9 +954,20 @@ input.pm-in[type="text"]{flex:1;max-width:240px}
 /* análisis de video */
 .pm-av-f{display:flex;flex-direction:column;gap:6px;font-size:.82rem;font-weight:600;color:var(--muted);min-width:0}
 .pm-av-ayuda{font-weight:500}
+.pm-r-col{flex-direction:column;align-items:stretch;gap:8px}
+.pm-plan-p{display:flex;flex-direction:column;border-bottom:1px solid var(--line)}
+.pm-plan-p > b{padding:10px 14px 2px;font-size:.86rem}
+.pm-plan-f{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr) auto;gap:8px;padding:8px 14px 12px}
+@media (max-width:560px){.pm-plan-f{grid-template-columns:1fr}}
+.pm-plan-v{padding:0 14px 10px}
+.pm-plan-top{margin-bottom:4px}
+.pm-plan-top .chip b{margin-left:4px}
+.pm-r-col .pm-in{width:100%}
 .pm-av-ul{margin:6px 0 0;padding-left:18px;display:flex;flex-direction:column;gap:4px}
+.pm-av-p{margin:4px 0 0}
 .pm-av-obj{color:var(--muted);font-size:.86rem}
-.pm-av-subs{max-width:320px}
+.pm-av-subs{max-width:640px;grid-template-columns:repeat(4,1fr)}
+@media (max-width:520px){.pm-av-subs{grid-template-columns:1fr 1fr}}
 .pm-av-veo textarea,.pm-av-veo input{font:inherit;font-size:.9rem;color:var(--fg);background:var(--surface-2);border:1px solid var(--line);border-radius:var(--r-sm);padding:10px 12px;width:100%}
 .pm-av-veo textarea{min-height:96px;resize:vertical}
 .pm-av-veo-t{display:flex;align-items:center;gap:8px}
@@ -2250,7 +2261,7 @@ const PM_HORARIOS = {
 const PM_SEMANA = [1, 2, 3, 4, 5, 6, 0];
 const PM_MESES = ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'set', 'oct', 'nov', 'dic'];
 const PM_DIAS_L = ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'];
-const PM_CFG0 = { verAsistencia: true, verRacha: true, verMinutos: true, verRanking: false, verCompaneros: false,
+const PM_CFG0 = { verAsistencia: true, verRacha: true, verMinutos: true, verRanking: false, verCompaneros: false, verAnalisis: true,
   pasarLista: false, convocatoria: false, recordatorio: true, recCuando: 'noche',
   avPlanilla: true, avRival: true, avResultado: true, avPractica: true, avConvocatoria: true };
 const PM_TABS = [['resumen', 'Resumen'], ['practicas', 'Prácticas'], ['cruce', 'Asistencia y minutos'], ['minutos', 'Minutos'],
@@ -2266,12 +2277,12 @@ const pmG = (k, v) => { PM_MEM[k] = v; guardar(k, v); };
 const pmLeerJ = (k, def) => { try { return JSON.parse(pmL(k)) ?? def; } catch { return def; } };
 function pmEst() {
   if (!PM_EST) {
-    PM_EST = { cfg: { ...PM_CFG0 }, hor: {}, susp: {}, extras: {}, marcas: {}, lista: {}, resp: {}, principal: {}, amistosos: [], videos: [], analisis: [], conv: {}, rol: 'dt', yo: null, ...pmLeerJ('pm-estado2', {}) };
+    PM_EST = { cfg: { ...PM_CFG0 }, hor: {}, susp: {}, extras: {}, marcas: {}, lista: {}, resp: {}, principal: {}, amistosos: [], videos: [], analisis: [], previas: [], temporadas: {}, planes: {}, conv: {}, rol: 'dt', yo: null, ...pmLeerJ('pm-estado2', {}) };
     PM_EST.cfg = { ...PM_CFG0, ...PM_EST.cfg };
     // Si lo guardado tiene una forma rara, se arregla cada parte por separado.
     const obj = x => x && typeof x === 'object' && !Array.isArray(x), arr = Array.isArray;
-    for (const k of ['hor', 'susp', 'extras', 'marcas', 'lista', 'resp', 'principal', 'conv', 'cfgP', 'fichas']) if (!obj(PM_EST[k])) PM_EST[k] = {};
-    for (const k of ['amistosos', 'videos', 'analisis']) if (!arr(PM_EST[k])) PM_EST[k] = [];
+    for (const k of ['hor', 'susp', 'extras', 'marcas', 'lista', 'resp', 'principal', 'conv', 'cfgP', 'fichas', 'temporadas', 'planes']) if (!obj(PM_EST[k])) PM_EST[k] = {};
+    for (const k of ['amistosos', 'videos', 'analisis', 'previas']) if (!arr(PM_EST[k])) PM_EST[k] = [];
     if (!arr(PM_EST.usuarios) || !PM_EST.usuarios.some(x => x?.rol === 'admin')) PM_EST.usuarios = JSON.parse(JSON.stringify(PM_USUARIOS0));
     PM_EST.usuarios = PM_EST.usuarios.filter(x => obj(x) && typeof x.u === 'string' && typeof x.nombre === 'string');
     for (const c of Object.keys(PM_EST.hor)) if (!arr(PM_EST.hor[c]) || PM_EST.hor[c].some(v => !obj(v) || !obj(v.dias) || typeof v.desde !== 'string')) delete PM_EST.hor[c];
@@ -2666,11 +2677,32 @@ function pmPracticasV() {
       ${pmEditorDias(cat)}</section>
     <section class="stack"><div class="sec-h"><div><h3>Asistencia por práctica</h3><span class="sub">Elegí una práctica para ver quién fue, o quién va a ir.</span></div></div>
       <div class="pm-desl"><button type="button" class="pm-fl izq" aria-label="Prácticas anteriores" hidden>${ic('i-atras')}</button><div class="chips pm-dias">${chipsP.map(p => `<button type="button" class="chip" data-pm="prac" data-v="${p.id}" aria-pressed="${p.id === PM_PRAC}">${fDia(p.dia)}${p.pasada ? '' : ' · próxima'}${p.extra ? ' · extra' : ''}</button>`).join('')}</div><button type="button" class="pm-fl der" aria-label="Próximas prácticas" hidden>${ic('i-atras')}</button></div>
-      ${pr ? `<div class="panel"><div class="panel-h"><span><b>${pmDiaH(pr)}</b> · ${esc(pr.lugar)}</span><span>${pr.pasada ? `${cuentaPr} de ${L.length} fueron` : `${pr.extra ? 'Extra · ' : ''}<button type="button" class="lnk" data-pm="suspender" data-v="${pr.id}">Suspender</button>`}</span></div>${cuerpo}</div>` : '<div class="empty">Este plantel no tiene prácticas cargadas. Prendé los días de arriba.</div>'}</section>
+      ${pr ? `<div class="panel"><div class="panel-h"><span><b>${pmDiaH(pr)}</b> · ${esc(pr.lugar)}</span><span>${pr.pasada ? `${cuentaPr} de ${L.length} fueron` : `${pr.extra ? 'Extra · ' : ''}<button type="button" class="lnk" data-pm="suspender" data-v="${pr.id}">Suspender</button>`}</span></div>${pmPlanV(pr)}${cuerpo}</div>` : '<div class="empty">Este plantel no tiene prácticas cargadas. Prendé los días de arriba.</div>'}</section>
     <section class="stack"><div class="sec-h"><div><h3>Asistencia de cada jugador</h3><span class="sub">Prácticas de ${esc(pmCatN(cat))} a las que fue: últimos 7 días, últimos 30 días y la temporada.</span></div></div>
       <div class="tablewrap"><table class="pm-tb"><thead><tr><th>Jugador</th><th>7 días</th><th>30 días</th><th>Temp.</th><th>%</th><th class="pm-racha">Racha</th></tr></thead><tbody>
       ${filas.map(({ J, k, r }) => `<tr><td class="name"><a href="${pmJugLink(J, cat)}">${esc(J.nombre)}</a></td><td class="num">${k.sem[0]}/${k.sem[1]}</td><td class="num">${k.mes[0]}/${k.mes[1]}</td><td class="num">${k.anio[0]}/${k.anio[1]}</td><td><div class="pm-pct"><div class="bar"><span style="width:${k.pct}%"></span></div><b>${k.pct}</b></div></td><td class="num pm-racha">${r ? r : '-'}</td></tr>`).join('')}
-      </tbody></table></div></section>`;
+      </tbody></table></div></section>
+    ${pmPlanAnioV(cat)}`;
+}
+
+// ----- Planificación: ejercicios de cada práctica -----
+// En una práctica que viene es el plan; en una que ya pasó, lo que se hizo. Se cargan a mano o desde un informe de Análisis.
+function pmPlanV(pr) {
+  const P = pmEst().planes[pr.id] || [];
+  return `<div class="pm-plan-p"><b>${pr.pasada ? 'Lo que se hizo' : 'Plan de la práctica'}</b>
+    ${P.map((x, i) => `<div class="pm-r"><span class="pm-r-t"><b>${esc(x.ejercicio)}</b>${[x.como, x.objetivo && 'Para: ' + x.objetivo, x.rival && 'Del informe vs ' + x.rival].some(Boolean) ? `<small>${esc([x.como, x.objetivo && 'Para: ' + x.objetivo, x.rival && 'Del informe vs ' + x.rival].filter(Boolean).join(' · '))}</small>` : ''}</span><button type="button" class="share" data-pm-plan-quitar="${pr.id}|${i}">Quitar</button></div>`).join('')}
+    <form class="pm-plan-f" data-pm-plan-add="${pr.id}"><input type="text" class="pm-in" name="ej" placeholder="${pr.pasada ? 'Ej.: rondo 5v2, definición, fútbol reducido' : 'Agregar un ejercicio'}" aria-label="Ejercicio" required><input type="text" class="pm-in" name="det" placeholder="Detalle (opcional): tiempo, espacio, reglas" aria-label="Detalle"><button type="submit" class="share">Agregar</button></form>
+    ${!P.length ? `<p class="pm-nota pm-sin pm-plan-v">${pr.pasada ? 'Anotá qué ejercicios hicieron, así queda en la planificación del año.' : 'También podés sumar los ejercicios que sugiere un informe en Análisis.'}</p>` : ''}</div>`;
+}
+// Todo lo que se trabajó en el año en un plantel, práctica por práctica.
+function pmPlanAnioV(cat) {
+  const E = pmEst(), ps = pmPracticas(cat).filter(p => (E.planes[p.id] || []).length).reverse();
+  const cuenta = {}; for (const p of ps) for (const x of E.planes[p.id]) cuenta[x.ejercicio] = (cuenta[x.ejercicio] || 0) + 1;
+  const top = Object.entries(cuenta).sort((a, b) => b[1] - a[1]).slice(0, 6);
+  return `<section class="stack"><div class="sec-h"><div><h3>Planificación del año</h3><span class="sub">Los ejercicios de cada práctica de ${esc(pmCatN(cat))}: lo planificado y lo que se hizo.</span></div></div>
+    ${ps.length ? `${top.length > 1 ? `<div class="chips pm-plan-top">${top.map(([n, k]) => `<span class="chip">${esc(n)} <b>${k}</b></span>`).join('')}</div>` : ''}
+    <div class="panel">${ps.map(p => `<div class="pm-r"><span class="pm-r-t"><b>${pmDiaH(p)}${p.pasada ? '' : ' · próxima'}</b><small>${E.planes[p.id].map(x => esc(x.ejercicio)).join(' · ')}</small></span><button type="button" class="share" data-pm="prac" data-v="${p.id}">Ver</button></div>`).join('')}</div>`
+      : '<div class="empty">Todavía no hay ejercicios cargados. Elegí una práctica arriba y agregá lo que hicieron o lo que van a hacer.</div>'}</section>`;
 }
 
 // ----- Asistencia y minutos -----
@@ -2778,7 +2810,9 @@ const avURL = c => c.url ??= URL.createObjectURL(c.f);
 const avYo = () => { const S = pmSesion(); return S ? S.u || S.c : ''; };
 const avClaveCuenta = () => (pmEst().claves || {})[avYo()] || '';
 const avDonde = () => avClaveCuenta() ? 'cuenta' : (leer('pm-gemini-donde') || 'navegador');
-const avClave = () => (avClaveCuenta() || leer('pm-gemini-clave') || '').trim();
+const avClavePropia = () => (avClaveCuenta() || leer('pm-gemini-clave') || '').trim();
+// Si el DT no puso una clave suya, se usa la del club (la carga el administrador en Ajustes).
+const avClave = () => avClavePropia() || String(pmEst().claveClub || '').trim();
 function avGuardarClave(v, donde = avDonde()) {
   const E = pmEst(), yo = avYo(); E.claves = E.claves || {};
   if (donde === 'cuenta' && yo) { if (v) E.claves[yo] = v; else delete E.claves[yo]; try { localStorage.removeItem('pm-gemini-clave'); } catch {} }
@@ -2839,14 +2873,16 @@ function avForm() {
 }
 
 // Análisis tiene dos secciones: Videos (los clips del partido, con o sin el informe de Veo) y Datos (solo el informe de Veo).
-const AV_SUBS = [['videos', 'Videos'], ['datos', 'Datos']];
+const AV_SUBS = [['videos', 'Videos'], ['datos', 'Datos'], ['temporada', 'Temporada'], ['rival', 'Previa del rival']];
 function pmAnalisis() {
   const id = decodeURIComponent(location.hash.split('/')[3] || '');
   if (id && !AV_SUBS.some(x => x[0] === id)) return avInforme(id);
-  const F = avForm(); F.sub = id || F.sub || 'videos';
+  const F = avForm(); F.sub = id || (['videos', 'datos'].includes(F.sub) ? F.sub : 'videos');
   const V = F.sub === 'videos', ps = avPartidos(F.cat), club = esc(PM.club.nombre);
   const subs = `<div class="seg pm-seg pm-av-subs" role="tablist" aria-label="Sección de Análisis">${AV_SUBS.map(([v, n]) => `<button type="button" role="tab" data-avsub="${v}" aria-pressed="${F.sub === v}" aria-selected="${F.sub === v}">${n}</button>`).join('')}</div>`;
-  const clave = avClave(), donde = avDonde(), modelo = avModelo();
+  if (F.sub === 'temporada') return subs + avTemporadaV();
+  if (F.sub === 'rival') return subs + avPreviaV();
+  const clave = avClavePropia(), donde = avDonde(), modelo = avModelo();
   const seg = (k, lista, nombre) => `<div class="seg pm-seg" role="group" aria-label="${nombre}">${lista.map(([v, n]) => `<button type="button" data-av="${k}" data-v="${v}" aria-pressed="${(k === 'donde' ? donde : F[k]) === v}">${n}</button>`).join('')}</div>`;
   const opt = (v, n, sel) => `<option value="${esc(v)}"${sel ? ' selected' : ''}>${esc(n)}</option>`;
   const campo = (k, n, ph, tipo = 'text') => `<label>${n}<input type="${tipo}" data-av="${k}" value="${esc(F[k])}"${ph ? ` placeholder="${esc(ph)}"` : ''}></label>`;
@@ -2885,6 +2921,7 @@ function pmAnalisis() {
         <label>Clave de API de Gemini<input type="password" data-av="clave" value="${esc(clave)}" autocomplete="off" spellcheck="false" placeholder="Pegá tu clave acá (empieza con AIza)"></label>
         <label>Modelo<select data-av="modelo">${AV_MODELOS.map(m => opt(m, m + (m === AV_MODELOS[0] ? ' (recomendado)' : ''), m === modelo)).join('')}</select></label>
       </div>
+      ${!avClavePropia() && pmEst().claveClub ? `<p class="pm-nota pm-sin pm-av-ok">✓ Se está usando la clave del club. Si ponés una tuya, se usa la tuya.</p>` : ''}
       <div class="pm-av-key">
         <span><b>¿No tenés clave?</b> Es gratis: entrá a Google AI Studio con tu cuenta de Google, tocá <b>Create API key</b> y copiala.</span>
         <a class="btn" href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">Sacar clave en AI Studio</a>
@@ -2936,11 +2973,35 @@ function avError(st, m = '') {
 const avCancelado = () => new DOMException('cancelado', 'AbortError');
 async function avPedir(ruta, op, clave) {
   let r;
-  try { r = await fetch(AV_API + ruta, { ...op, headers: { 'x-goog-api-key': clave, ...op?.headers }, signal: AV_RUN?.ctl.signal }); }
+  try { r = await fetch(AV_API + ruta, { ...op, headers: { 'x-goog-api-key': clave, ...op?.headers }, signal: op && 'signal' in op ? op.signal : AV_RUN?.ctl.signal }); }
   catch (e) { if (e.name === 'AbortError') throw e; throw new Error('No se pudo conectar con Gemini. Revisá la conexión.'); }
   if (!r.ok) { let m = ''; try { m = (await r.json()).error?.message || ''; } catch {} const e = new Error(avError(r.status, m)); e.status = r.status; e.raw = m; throw e; }
   return r;
 }
+// Un pedido de texto a Gemini (sin video), con los mismos reintentos y cambios de modelo que el análisis.
+async function avGenerar(partes, alNota) {
+  const clave = avClave(), modelo = avModelo();
+  if (!clave) throw new Error('Falta la clave de Gemini: pegala en Análisis > Videos, o pedile al administrador que cargue la del club en Ajustes.');
+  const cuerpo = JSON.stringify({ contents: [{ role: 'user', parts: partes }], generationConfig: { responseMimeType: 'application/json', temperature: 0.3 } });
+  const modelos = [modelo, ...AV_MODELOS.filter(m => m !== modelo)];
+  for (const m of modelos) for (let intento = 0; intento < 3; intento++) {
+    try {
+      const res = await (await avPedir(`/v1beta/models/${encodeURIComponent(m)}:generateContent`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: cuerpo, signal: null }, clave)).json();
+      const txt = (res.candidates?.[0]?.content?.parts || []).filter(x => !x.thought).map(x => x.text || '').join('').trim();
+      if (!txt) throw new Error('Gemini no devolvió nada. Probá de nuevo.');
+      try { return { json: JSON.parse(txt.replace(/^```(?:json)?\s*|\s*```$/g, '')), modelo: m }; } catch { throw new Error('Gemini devolvió algo que no se pudo leer. Probá de nuevo.'); }
+    } catch (e) {
+      if (![429, 500, 503, 404].includes(e.status)) throw e;
+      const sinCupo = e.status === 404 || (e.status === 429 && /quota|cuota/i.test(e.raw || ''));
+      if (m === modelos.at(-1) && (intento === 2 || sinCupo)) throw e;
+      if (sinCupo) break;
+      alNota?.(`${m} está saturado. ${intento < 2 ? 'Reintentando en unos segundos…' : 'Probando con otro modelo…'}`);
+      if (intento < 2) await new Promise(ok => setTimeout(ok, intento ? 12000 : 5000)); else break;
+    }
+  }
+  throw new Error('Gemini está saturado. Probá en unos minutos.');
+}
+const avTxtL = l => (Array.isArray(l) ? l : []).map(x => typeof x === 'string' ? x.trim() : String(x?.texto || '').trim()).filter(Boolean);
 const avDormir = ms => new Promise((ok, mal) => {
   const s = AV_RUN.ctl.signal, t = setTimeout(ok, ms);
   s.addEventListener('abort', () => { clearTimeout(t); mal(avCancelado()); }, { once: true });
@@ -2983,6 +3044,15 @@ async function avDeA(lista, n, fn) {
   await Promise.all(Array.from({ length: Math.min(n, lista.length) }, async () => { while (i < lista.length) { const k = i++; await fn(lista[k], k); } }));
 }
 
+// Los últimos informes del plantel antes de este partido (uno por partido), para comparar.
+function avPrevios(cat, dia, pid, n = 3) {
+  const vistos = new Set(), out = [];
+  for (const r of pmEst().analisis.filter(x => x.div === cat && x.partido.id !== pid && (!dia || !x.partido.dia || x.partido.dia < dia)).sort((a, b) => (b.partido.dia || b.creado).localeCompare(a.partido.dia || a.creado))) {
+    const k = r.partido.id || r.partido.rival + r.partido.dia; if (vistos.has(k)) continue; vistos.add(k); out.push(r); if (out.length >= n) break;
+  }
+  return out;
+}
+const avResumenPrevio = r => { const I = r.informe; return `${r.partido.dia ? fDia(r.partido.dia) + ' ' : ''}vs ${r.partido.rival}${r.partido.gf != null ? ` (${r.partido.gf}-${r.partido.gc})` : ''}${r.modo === 'jugador' ? ` [jugador: ${r.jugador?.nombre || r.jugador?.quien}]` : ''}: debilidades: ${I.debilidades.map(d => d.titulo + (d.patron ? ' (' + d.patron + ')' : '')).join('; ') || '-'}. A corregir: ${I.corregir.map(x => x.texto).join('; ') || '-'}.${(I.numeros || []).length ? ' Números: ' + I.numeros.map(x => x.dato).join('; ') + '.' : ''}`; };
 function avPrompt(F, ctx) {
   const lado = F.ataca === 'izq' ? ['izquierda', 'derecha'] : ['derecha', 'izquierda'];
   const jug = '[{"clip": 1, "seg": 0, "nota": "qué pasa en esa jugada"}]';
@@ -2996,6 +3066,8 @@ ${ctx.planilla ? `- Planilla oficial de la Liga para este partido. Jugadores de 
   Goles del partido según la planilla, con el tiempo en que fueron (YA RESUELTO: no lo cambies ni lo deduzcas del minuto): ${ctx.planilla.goles.map(g => { const t = avTiempoGol(g.m, ctx.tiemposVeo); return `${g.m}' ${g.nuestro ? `${ctx.club} (#${g.cam} ${g.nombre})` : ctx.rival} [${t === 1 ? 'primer tiempo' : t === 2 ? 'segundo tiempo' : 'tiempo sin confirmar'}${t === 1 && g.m > 45 ? ', descuento' : ''}]`; }).join(', ') || 'ninguno'}. La planilla manda: si Veo o los clips dicen otra cosa sobre quién hizo un gol, usá la planilla. Un gol "tiempo sin confirmar" no lo ubiques en ningún tiempo.
   Cuando nombres a un jugador de ${ctx.club}, escribilo como "#número Nombre Apellido" (ej. "#${ctx.planilla.jug[0]?.cam} ${ctx.planilla.jug[0]?.nombre}"). En "jugadores", "quien" es solo el número.
 ` : ''}${!ctx.planilla && ctx.tiemposVeo.length ? `- Goles según Veo, con el tiempo en que fueron (YA RESUELTO: no lo cambies): ${ctx.tiemposVeo.map(g => `${g.m}' ${g.equipo} [${g.t === 1 ? 'primer tiempo' : 'segundo tiempo'}${g.t === 1 && g.m > 45 ? ', descuento' : ''}]`).join(', ')}.
+` : ''}${ctx.previos?.length ? `- Informes anteriores de este plantel (el más nuevo primero). Compará este partido con ellos en "seguimiento":
+${ctx.previos.map(r => '  · ' + avResumenPrevio(r)).join('\n')}
 ` : ''}${F.veo.trim() ? `- Va el informe de Veo Analytics del partido, copiado de la web de Veo (texto desordenado: los números vienen de a pares, primero el rival y después ${ctx.club}, o por número de camiseta; en Veo ${ctx.club} puede aparecer como "ELF" o con el nombre del plantel y el rival como "Equipo rival"). Usá esos números para respaldar o matizar lo que ves en los clips; si no coinciden, decilo.${F.modo === 'jugador' ? ' Buscá la fila del jugador en "Player Stats" (por su número de camiseta) y usala.' : ''}
 <<<INFORME DE VEO
 ${F.veo.trim().slice(0, 120000)}
@@ -3015,7 +3087,8 @@ Devolvé SOLO un JSON con esta forma:
   "tiempos": {"primero": "cómo fue el primer tiempo", "segundo": "cómo fue el segundo tiempo y qué cambió"},
   "rival": {"texto": "cómo jugó el rival: sistema, por dónde atacó, qué nos hizo daño", "peligros": ["sus armas a tener en cuenta"], "debilidades": ["dónde se le puede hacer daño"]},
   "jugadores": [{"quien": "número de camiseta o puesto", "texto": "qué hizo, con datos si los hay", "tipo": "destacado o a mejorar", "jugadas": ${jug}}],
-  "entrenamiento": [{"ejercicio": "nombre corto del ejercicio o tarea", "como": "cómo se arma: espacio, jugadores, reglas", "objetivo": "qué problema del partido corrige"}]${F.veo.trim() ? `,
+  "entrenamiento": [{"ejercicio": "nombre corto del ejercicio o tarea", "como": "cómo se arma: espacio, jugadores, reglas", "objetivo": "qué problema del partido corrige"}],
+  "seguimiento": [{"tema": "el problema o punto de los partidos anteriores", "estado": "corregido, sigue o nuevo", "texto": "qué cambió respecto a antes, con datos", "jugadas": ${jug}}]${F.veo.trim() ? `,
   "numeros": [{"dato": "el número de Veo, ej. 33 intercepciones (+13 vs. últimos 5)", "lectura": "qué significa para el equipo o el jugador"}]` : ''}
 }
 
@@ -3030,6 +3103,7 @@ Reglas:
 - "tiempos": compará los dos tiempos (si el material no permite separarlos, decilo). Cada gol va en el tiempo que te pasé ya resuelto, aunque su minuto sea mayor a 45.
 - "jugadores": de 3 a 8 jugadores, destacados y a mejorar, identificados por número de camiseta (o por puesto si no se lee). No inventes números.
 - "entrenamiento": de 2 a 4 ejercicios para la semana, cada uno atado a un problema de este partido.
+- "seguimiento": ${ctx.previos?.length ? 'de 2 a 5 puntos comparando con los informes anteriores: "corregido" (un problema de antes que hoy no apareció o mejoró), "sigue" (se repite) o "nuevo" (no estaba antes). Si el material de hoy no alcanza para saber si algo se corrigió (por ejemplo, son solo highlights), decilo en el texto en vez de darlo por corregido.' : 'lista vacía ([]): no hay informes anteriores.'}
 - No inventes lo que no se ve en los videos.${F.veo.trim() ? `
 - "numeros" son de 5 a 10 datos del informe de Veo que más le sirven al cuerpo técnico, cada uno con su lectura. Usá los números exactos del informe, no los redondees ni inventes.` : ''}`;
 }
@@ -3057,6 +3131,7 @@ function avNormalizar(x, n) {
     rival: { texto: txt(o.rival?.texto), peligros: (Array.isArray(o.rival?.peligros) ? o.rival.peligros : []).map(txt).filter(Boolean), debilidades: (Array.isArray(o.rival?.debilidades) ? o.rival.debilidades : []).map(txt).filter(Boolean) },
     jugadores: (Array.isArray(o.jugadores) ? o.jugadores : []).map(x => ({ quien: txt(String(x?.quien ?? '')), texto: txt(x?.texto), tipo: /mejor/i.test(x?.tipo || '') ? 'mejorar' : 'destacado', jugadas: jugadas(x?.jugadas) })).filter(x => x.quien && x.texto).slice(0, 10),
     entrenamiento: (Array.isArray(o.entrenamiento) ? o.entrenamiento : []).map(x => ({ ejercicio: txt(x?.ejercicio), como: txt(x?.como), objetivo: txt(x?.objetivo) })).filter(x => x.ejercicio).slice(0, 6),
+    seguimiento: (Array.isArray(o.seguimiento) ? o.seguimiento : []).map(x => ({ tema: txt(x?.tema), estado: /correg/i.test(x?.estado || '') ? 'corregido' : /nuev/i.test(x?.estado || '') ? 'nuevo' : 'sigue', texto: txt(x?.texto), jugadas: jugadas(x?.jugadas) })).filter(x => x.tema).slice(0, 8),
   };
 }
 
@@ -3094,7 +3169,7 @@ async function avAnalizar() {
     const partes = clips.flatMap((c, i) => [{ text: `Clip ${i + 1} (${c.f.name})${veo[i].ini != null ? `: según Veo empieza en el ${avT(veo[i].ini)} del video del partido` : ''}${veo[i].tipo ? ` y Veo lo marcó como "${veo[i].tipo}"` : ''}. Revisá con la imagen de qué equipo es la jugada:` }, { file_data: { mime_type: subidos[i].mimeType, file_uri: subidos[i].uri } }]);
     for (const [i, f] of caps.entries()) partes.push({ text: `Captura ${i + 1} de Veo Analytics (${f.name}):` }, { inline_data: { mime_type: f.type || 'image/png', data: await avBase64(f) } });
     const plantel = avPlantel(F.cat, p?.id);
-    partes.push({ text: avPrompt({ ...F }, { planilla: plantel, tiemposVeo: avTiemposVeo(F.veo), club: PM.club.nombre, plantel: pmCatN(F.cat), rival, dia: dia ? fDia(dia) : '', res: p ? `${PM.club.nombre} ${p.gf}, ${rival} ${p.gc}` : '', n: clips.length, caps: caps.length, jugador: J?.nombre }) });
+    partes.push({ text: avPrompt({ ...F }, { planilla: plantel, tiemposVeo: avTiemposVeo(F.veo), previos: avPrevios(F.cat, dia, p?.id), club: PM.club.nombre, plantel: pmCatN(F.cat), rival, dia: dia ? fDia(dia) : '', res: p ? `${PM.club.nombre} ${p.gf}, ${rival} ${p.gc}` : '', n: clips.length, caps: caps.length, jugador: J?.nombre }) });
     const cfg = { responseMimeType: 'application/json', temperature: 0.3, mediaResolution: 'MEDIA_RESOLUTION_LOW' };
     // Si Gemini está saturado (503) se reintenta solo y, si sigue, se prueba con otro modelo. Los videos ya subidos se reusan.
     const cuerpo = JSON.stringify({ contents: [{ role: 'user', parts: partes }], generationConfig: cfg });
@@ -3179,6 +3254,7 @@ function avInforme(id) {
         ${I.debilidades.length ? `<div class="side sola">${I.debilidades.map(d => `<div class="alert"><b>${esc(d.titulo)}</b><b class="lvl ${d.gravedad}">${d.gravedad}</b>${d.patron ? `<span>${esc(d.patron)}</span>` : ''}${avJugadas(d.jugadas)}</div>`).join('')}</div>` : '<div class="ok">No marcó debilidades.</div>'}</section>
       <section class="panel"><div class="panel-h"><b>Goles</b></div>${goles(I.goles.favor, 'A favor')}${goles(I.goles.contra, 'En contra')}</section>
       ${(I.numeros || []).length ? `<section class="panel"><div class="panel-h"><b>Lo que dicen los números de Veo</b>${/^https:\/\//.test(r.veoLink || '') ? `<a class="share" href="${esc(r.veoLink)}" target="_blank" rel="noopener">Ver en Veo</a>` : ''}</div><div class="side sola">${I.numeros.map(x => `<div class="alert"><b>${esc(x.dato)}</b>${x.lectura ? `<span>${esc(x.lectura)}</span>` : ''}</div>`).join('')}</div></section>` : ''}
+      ${(I.seguimiento || []).length ? `<section class="panel"><div class="panel-h"><b>Respecto a los partidos anteriores</b><a class="share" href="#/clubes/analisis/temporada">Temporada</a></div><div class="side sola">${I.seguimiento.map(x => `<div class="alert"><b>${esc(x.tema)}</b><b class="lvl ${x.estado === 'corregido' ? 'baja' : x.estado === 'sigue' ? 'alta' : 'media'}">${x.estado === 'corregido' ? 'Corregido' : x.estado === 'sigue' ? 'Sigue pasando' : 'Nuevo'}</b>${x.texto ? `<span>${esc(x.texto)}</span>` : ''}${avJugadas(x.jugadas)}</div>`).join('')}</div></section>` : ''}
       ${AV_FASES.some(([k]) => I.fases?.[k]?.texto) ? `<section class="panel"><div class="panel-h"><b>Por fases del juego</b></div><div class="side sola">${AV_FASES.filter(([k]) => I.fases[k]?.texto).map(([k, n]) => `<div class="alert"><b>${n}</b><span>${esc(I.fases[k].texto)}</span>${avJugadas(I.fases[k].jugadas)}</div>`).join('')}</div></section>` : ''}
       ${I.tiempos?.primero || I.tiempos?.segundo ? `<section class="panel"><div class="panel-h"><b>Primer y segundo tiempo</b></div><div class="side sola">${[['primero', 'Primer tiempo'], ['segundo', 'Segundo tiempo']].filter(([k]) => I.tiempos[k]).map(([k, n]) => `<div class="alert"><b>${n}</b><span>${esc(I.tiempos[k])}</span></div>`).join('')}</div></section>` : ''}
       ${(I.jugadores || []).length ? `<section class="panel"><div class="panel-h"><b>Jugadores</b><span>${P ? 'Nombres de la planilla oficial' : 'Por número de camiseta'}</span></div><div class="side sola">${I.jugadores.map(x => { const j = avPorCam(P, x.quien), num = String(x.quien).match(/\d+/)?.[0];
@@ -3187,10 +3263,140 @@ function avInforme(id) {
       ${I.rival?.texto ? `<section class="panel"><div class="panel-h"><b>Cómo jugó ${esc(r.partido.rival)}</b></div><p class="pm-av-txt">${esc(I.rival.texto)}</p>${I.rival.peligros.length ? `<div class="pm-av-pad"><b>Sus armas</b><ul class="pm-av-ul">${I.rival.peligros.map(x => `<li>${esc(x)}</li>`).join('')}</ul></div>` : ''}${I.rival.debilidades.length ? `<div class="pm-av-pad"><b>Dónde hacerle daño</b><ul class="pm-av-ul">${I.rival.debilidades.map(x => `<li>${esc(x)}</li>`).join('')}</ul></div>` : ''}</section>` : ''}
       <section class="panel"><div class="panel-h"><b>Qué salió bien</b></div>${puntos(I.bien, true)}</section>
       <section class="panel"><div class="panel-h"><b>Qué corregir</b></div>${puntos(I.corregir, false)}</section>
-      ${(I.entrenamiento || []).length ? `<section class="panel"><div class="panel-h"><b>Para la semana de práctica</b><span>${I.entrenamiento.length} ${I.entrenamiento.length === 1 ? 'ejercicio' : 'ejercicios'}</span></div><div class="side sola">${I.entrenamiento.map(x => `<div class="alert"><b>${esc(x.ejercicio)}</b>${x.como ? `<span>${esc(x.como)}</span>` : ''}${x.objetivo ? `<span class="pm-av-obj">Para: ${esc(x.objetivo)}</span>` : ''}</div>`).join('')}</div></section>` : ''}
+      ${(I.entrenamiento || []).length ? `<section class="panel"><div class="panel-h"><b>Para la semana de práctica</b>${(() => { const pr = pmProx(r.div); if (!pr) return `<span>${I.entrenamiento.length} ${I.entrenamiento.length === 1 ? 'ejercicio' : 'ejercicios'}</span>`; const ya = (pmEst().planes[pr.id] || []).some(x => x.de === r.id); return ya ? `<a class="share" href="#/clubes/practicas">En la práctica del ${fDia(pr.dia)} ✓</a>` : `<button type="button" class="share" data-avplan="${r.id}">Agregar a la práctica del ${fDia(pr.dia)}</button>`; })()}</div><div class="side sola">${I.entrenamiento.map(x => `<div class="alert"><b>${esc(x.ejercicio)}</b>${x.como ? `<span>${esc(x.como)}</span>` : ''}${x.objetivo ? `<span class="pm-av-obj">Para: ${esc(x.objetivo)}</span>` : ''}</div>`).join('')}</div></section>` : ''}
+      ${avWhatsappV(r, P)}
       ${!r.clips.length && r.veoTexto && !(I.fases && AV_FASES.some(([k]) => I.fases[k]?.texto)) ? `<section class="panel pm-form"><div class="pm-av-f">¿Querés este informe más completo?<span class="pm-av-ayuda">Se vuelve a analizar el mismo informe de Veo, ahora a fondo: fases del juego, cada tiempo, jugadores, el rival y ejercicios para la semana. Queda como un informe nuevo.</span><div class="pm-av-btns"><button type="button" class="btn p" id="av-rehacer">Analizar de nuevo a fondo</button></div></div></section>` : ''}
       <p class="pm-nota pm-sin">Hecho con ${esc(r.datos.modelo)} el ${fDia(r.creado.slice(0, 10))} por ${esc(r.autorN)}, ${r.clips.length ? `con ${r.clips.length} ${r.clips.length === 1 ? 'clip' : 'clips'}` : 'sin video'}${r.veoTexto ? ', el informe de Veo' : ''}${r.capturas ? ` y ${r.capturas} ${r.capturas === 1 ? 'captura' : 'capturas'}` : ''}. Revisalo con el video: la IA se puede equivocar.</p>
     </div><aside class="pm-av-video">${video}</aside></div></div>`;
+}
+
+// ----- Temporada y previa del rival -----
+// Las dos se arman solo con texto (informes guardados y datos de la Liga), sin video: son rápidas y baratas.
+let AV_TP = { cat: null, rival: '', corre: '', nota: '', error: '' };
+const avCatTP = () => { if (!pmCV().includes(AV_TP.cat)) AV_TP.cat = pmCV().includes(PM_CAT) ? PM_CAT : pmCV()[0]; return AV_TP.cat; };
+const avEstadoTP = k => AV_TP.corre === k ? `<div class="panel pm-av-run"><div class="panel-h"><b>Gemini está trabajando…</b></div><p class="pm-nota">${esc(AV_TP.nota || 'Tarda menos de un minuto.')}</p></div>` : AV_TP.error ? `<p class="pm-err">${esc(AV_TP.error)}</p>` : '';
+const avSelCat = id => `<label>Plantel<select id="${id}">${pmCV().map(c => `<option value="${c}"${c === avCatTP() ? ' selected' : ''}>${esc(pmCatN(c))}</option>`).join('')}</select></label>`;
+const avLista = (t, xs, cls = '') => xs.length ? `<div class="pm-av-pad"><b>${t}</b><ul class="pm-av-ul ${cls}">${xs.map(x => `<li>${esc(x)}</li>`).join('')}</ul></div>` : '';
+
+function avTemporadaV() {
+  const cat = avCatTP(), Rs = pmEst().analisis.filter(r => r.div === cat).sort((a, b) => (a.partido.dia || a.creado).localeCompare(b.partido.dia || b.creado));
+  const T = pmEst().temporadas[cat], I = T?.informe;
+  const tend = { mejora: ['baja', 'Mejora'], empeora: ['alta', 'Empeora'], igual: ['media', 'Igual'] };
+  return `<p class="lede">Junta todos los informes guardados del plantel y saca lo que se repite, lo que mejoró y las prioridades para lo que viene.</p>
+    <div class="panel pm-form"><div class="pm-campos">${avSelCat('av-t-cat')}</div>
+      <p class="pm-nota pm-sin">${Rs.length} ${Rs.length === 1 ? 'informe guardado' : 'informes guardados'} de ${esc(pmCatN(cat))}${Rs.length ? ': ' + [...new Set(Rs.map(r => 'vs ' + r.partido.rival))].join(', ') : ''}.${T ? ` Último análisis: ${fDia(T.creado.slice(0, 10))}, con ${T.n} informes.` : ''}</p>
+      <button type="button" class="btn p" id="av-t-go"${Rs.length < 2 || AV_TP.corre ? ' disabled' : ''}>${T ? 'Actualizar la temporada' : 'Analizar la temporada'}</button>
+      ${Rs.length < 2 ? '<p class="pm-nota pm-sin">Hacen falta al menos 2 informes del plantel.</p>' : ''}</div>
+    ${avEstadoTP('temporada')}
+    ${I ? `<section class="panel"><div class="panel-h"><b>${esc(pmCatN(cat))} · la temporada hasta ahora</b><span>${T.n} informes</span></div><p class="pm-av-txt">${esc(I.resumen)}</p></section>
+      ${I.tendencias.length ? `<section class="panel"><div class="panel-h"><b>Cómo vienen los temas de partido a partido</b></div><div class="side sola">${I.tendencias.map(x => `<div class="alert"><b>${esc(x.tema)}</b><b class="lvl ${tend[x.estado][0]}">${tend[x.estado][1]}</b><span>${esc(x.texto)}</span></div>`).join('')}</div></section>` : ''}
+      ${I.recurrentes.length ? `<section class="panel"><div class="panel-h"><b>Problemas que se repiten</b></div><div class="side sola">${I.recurrentes.map(x => `<div class="alert"><b>${esc(x.tema)}</b>${x.veces ? `<b class="lvl alta">${x.veces} ${x.veces === 1 ? 'partido' : 'partidos'}</b>` : ''}<span>${esc(x.texto)}</span></div>`).join('')}</div></section>` : ''}
+      ${I.jugadores.length ? `<section class="panel"><div class="panel-h"><b>Jugadores en la temporada</b></div><div class="side sola">${I.jugadores.map(x => `<div class="alert"><b>${esc(x.quien)}</b><b class="lvl ${x.tipo === 'mejorar' ? 'media' : 'baja'}">${x.tipo === 'mejorar' ? 'A mejorar' : 'En alza'}</b><span>${esc(x.texto)}</span></div>`).join('')}</div></section>` : ''}
+      ${I.prioridades.length ? `<section class="panel"><div class="panel-h"><b>Prioridades para lo que viene</b></div>${avLista('', I.prioridades)}</section>` : ''}
+      <p class="pm-nota pm-sin">Hecho con ${esc(T.modelo)} el ${fDia(T.creado.slice(0, 10))}. Mientras más partidos se analizan, mejor sale.</p>` : ''}`;
+}
+async function avTemporadaGo() {
+  const cat = avCatTP(), Rs = pmEst().analisis.filter(r => r.div === cat).sort((a, b) => (a.partido.dia || a.creado).localeCompare(b.partido.dia || b.creado));
+  const datos = Rs.map(r => { const I = r.informe; return { fecha: r.partido.dia, rival: r.partido.rival, resultado: r.partido.gf != null ? `${r.partido.gf}-${r.partido.gc}` : '', tipo: r.clips.length ? 'video' : 'datos de Veo', modo: r.modo, jugador: r.jugador?.nombre || r.jugador?.quien || undefined,
+    resumen: I.resumen, debilidades: I.debilidades.map(d => `${d.titulo} [${d.gravedad}]: ${d.patron}`), corregir: I.corregir.map(x => x.texto), bien: I.bien.map(x => x.texto), numeros: (I.numeros || []).map(x => x.dato), llegadas: I.llegadas,
+    jugadores: (I.jugadores || []).map(x => { const j = avPorCam(avPlantel(r.div, r.partido.id), x.quien); return `${j ? `#${j.cam} ${j.nombre}` : x.quien} (${x.tipo}): ${x.texto}`; }), seguimiento: (I.seguimiento || []).map(x => `${x.tema}: ${x.estado}`) }; });
+  const prompt = `Sos analista de fútbol amateur (Liga Universitaria de Deportes, Uruguay) y escribís en español rioplatense para el cuerpo técnico de ${PM.club.nombre} (${pmCatN(cat)}). Estos son todos los informes de la temporada, en orden de fecha (JSON):
+${JSON.stringify(datos)}
+
+Hacé el análisis de la temporada. Devolvé SOLO un JSON:
+{"resumen": "un párrafo de 5 a 8 oraciones: cómo viene el equipo, qué lo define y qué cambió",
+ "tendencias": [{"tema": "", "estado": "mejora, empeora o igual", "texto": "cómo evolucionó, citando partidos y números"}],
+ "recurrentes": [{"tema": "", "veces": 0, "texto": "en qué partidos aparece y por qué pasa"}],
+ "jugadores": [{"quien": "#número Nombre o como aparezca", "tipo": "en alza o a mejorar", "texto": ""}],
+ "prioridades": ["qué trabajar primero y cómo"]}
+Reglas: de 3 a 6 tendencias, de 2 a 5 recurrentes, de 3 a 8 jugadores y de 3 a 5 prioridades. Basate solo en los informes: si algo aparece en un solo partido no es recurrente. Si unos informes son de highlights y otros de datos, tenelo en cuenta antes de decir que algo mejoró.`;
+  const { json: o, modelo } = await avGenerar([{ text: prompt }], n => { AV_TP.nota = n; renderClubes('analisis'); });
+  const txt = v => typeof v === 'string' ? v.trim() : '';
+  pmEst().temporadas[cat] = { creado: new Date(Date.now() - 3 * 3600e3).toISOString().slice(0, 16), n: Rs.length, modelo, informe: {
+    resumen: txt(o.resumen),
+    tendencias: (Array.isArray(o.tendencias) ? o.tendencias : []).map(x => ({ tema: txt(x?.tema), estado: /mejor/i.test(x?.estado || '') ? 'mejora' : /empeor/i.test(x?.estado || '') ? 'empeora' : 'igual', texto: txt(x?.texto) })).filter(x => x.tema),
+    recurrentes: (Array.isArray(o.recurrentes) ? o.recurrentes : []).map(x => ({ tema: txt(x?.tema), veces: Number.isFinite(+x?.veces) ? Math.round(+x.veces) : 0, texto: txt(x?.texto) })).filter(x => x.tema),
+    jugadores: (Array.isArray(o.jugadores) ? o.jugadores : []).map(x => ({ quien: txt(String(x?.quien ?? '')), tipo: /mejor/i.test(x?.tipo || '') ? 'mejorar' : 'alza', texto: txt(x?.texto) })).filter(x => x.quien && x.texto),
+    prioridades: avTxtL(o.prioridades) } };
+  pmGuardar();
+}
+
+// Lo que se sabe del rival: sus resultados y goleadores (de la Liga), cómo nos fue contra él y lo que dijeron nuestros informes.
+function avDatosRival(cat, rival) {
+  const e = PM.equipos.find(x => x.div === cat); if (!e) return null;
+  const d = e.d, suyos = (d.porEquipo[rival] || []).filter(x => x.gf != null).sort((a, b) => b.p.dia.localeCompare(a.p.dia));
+  const goleadores = Object.entries(d.jugadores).filter(([c, j]) => j.equipo === rival && d.stats?.[c]?.gol > 0).map(([c, j]) => ({ nombre: j.nombre, gol: d.stats[c].gol, pj: d.stats[c].pj, cam: j.camiseta })).sort((a, b) => b.gol - a.gol).slice(0, 6);
+  const vsNos = (d.porEquipo[e.equipo] || []).filter(x => x.rival === rival && x.gf != null).map(x => `${fDia(x.p.dia)}: ${PM.club.nombre} ${x.gf}-${x.gc} ${rival}`);
+  const gf = suyos.reduce((n, x) => n + x.gf, 0), gc = suyos.reduce((n, x) => n + x.gc, 0), g = suyos.filter(x => x.gf > x.gc).length, em = suyos.filter(x => x.gf === x.gc).length;
+  const informes = pmEst().analisis.filter(r => r.div === cat && r.partido.rival === rival);
+  const prox = e.proximo && e.proximo.rival === rival ? e.proximo : null;
+  return { suyos, goleadores, vsNos, gf, gc, g, em, p: suyos.length - g - em, informes, prox };
+}
+function avPreviaV() {
+  const cat = avCatTP(), e = PM.equipos.find(x => x.div === cat), rivales = avRivales(cat);
+  if (!rivales.includes(AV_TP.rival)) AV_TP.rival = e?.proximo?.rival && rivales.includes(e.proximo.rival) ? e.proximo.rival : rivales[0] || '';
+  const D = AV_TP.rival ? avDatosRival(cat, AV_TP.rival) : null;
+  const P = pmEst().previas.filter(x => x.div === cat && x.rival === AV_TP.rival).sort((a, b) => b.creado.localeCompare(a.creado))[0], I = P?.informe;
+  return `<p class="lede">Antes del partido: cómo juega el rival, sus armas, dónde hacerle daño y un plan. Usa los resultados y goleadores de la Liga y lo que dijeron nuestros informes cuando jugamos contra él.</p>
+    <div class="panel pm-form"><div class="pm-campos">${avSelCat('av-p-cat')}
+      <label>Rival<select id="av-p-rival">${rivales.map(r => `<option value="${esc(r)}"${r === AV_TP.rival ? ' selected' : ''}>${esc(r)}${e?.proximo?.rival === r ? ' (próximo partido)' : ''}</option>`).join('')}</select></label></div>
+      ${D ? `<p class="pm-nota pm-sin">${D.suyos.length} partidos jugados (${D.g} G, ${D.em} E, ${D.p} P, ${D.gf}-${D.gc} en goles)${D.vsNos.length ? ` · contra nosotros: ${esc(D.vsNos.join(', '))}` : ''}${D.informes.length ? ` · ${D.informes.length} ${D.informes.length === 1 ? 'informe nuestro' : 'informes nuestros'} contra ellos` : ''}.</p>` : ''}
+      <button type="button" class="btn p" id="av-p-go"${!AV_TP.rival || AV_TP.corre ? ' disabled' : ''}>${P ? 'Rehacer la previa' : 'Armar la previa'}</button></div>
+    ${avEstadoTP('rival')}
+    ${I ? `<section class="panel"><div class="panel-h"><b>Previa: ${esc(PM.club.nombre)} vs ${esc(P.rival)}</b><span>${fDia(P.creado.slice(0, 10))}</span></div><p class="pm-av-txt">${esc(I.resumen)}</p>${I.como_juega ? `<div class="pm-av-pad"><b>Cómo juega</b><p class="pm-av-p">${esc(I.como_juega)}</p></div>` : ''}${avLista('Sus armas', I.armas)}${avLista('Dónde hacerle daño', I.debilidades)}</section>
+      ${I.jugadores_clave.length ? `<section class="panel"><div class="panel-h"><b>Jugadores a tener en cuenta</b></div><div class="side sola">${I.jugadores_clave.map(x => `<div class="alert"><b>${esc(x.nombre)}</b><span>${esc(x.por_que)}</span></div>`).join('')}</div></section>` : ''}
+      ${I.plan.length ? `<section class="panel"><div class="panel-h"><b>Plan para el partido</b></div>${avLista('', I.plan)}</section>` : ''}
+      <p class="pm-nota pm-sin">Hecho con ${esc(P.modelo)}. ${D?.informes.length ? 'Usa nuestros informes contra este rival.' : 'Todavía no hay informes nuestros contra este rival: usa solo los datos de la Liga.'}</p>` : ''}`;
+}
+async function avPreviaGo() {
+  const cat = avCatTP(), rival = AV_TP.rival, D = avDatosRival(cat, rival); if (!D) return;
+  const prompt = `Sos analista de fútbol amateur (Liga Universitaria de Deportes, Uruguay) y escribís en español rioplatense para el cuerpo técnico de ${PM.club.nombre} (${pmCatN(cat)}). Prepará la previa del partido contra ${rival}${D.prox ? ` (${fDia(D.prox.dia)}${D.prox.local ? ', de local' : ''})` : ''}.
+Datos de la Liga de ${rival}: últimos resultados: ${D.suyos.slice(0, 10).map(x => `${fDia(x.p.dia)} ${x.gf}-${x.gc} vs ${x.rival}`).join('; ') || 'sin datos'}. Balance: ${D.g} ganados, ${D.em} empatados, ${D.p} perdidos, ${D.gf} goles a favor y ${D.gc} en contra. Goleadores: ${D.goleadores.map(x => `${x.nombre}${x.cam ? ' (#' + x.cam + ')' : ''} ${x.gol} goles en ${x.pj} PJ`).join('; ') || 'sin datos'}.
+Contra ${PM.club.nombre} esta temporada: ${D.vsNos.join('; ') || 'todavía no jugaron'}.
+${D.informes.length ? `Lo que dijeron nuestros informes de los partidos contra ellos: ${D.informes.map(r => `${r.partido.dia ? fDia(r.partido.dia) : ''}: ${r.informe.resumen} Cómo jugó el rival: ${r.informe.rival?.texto || '-'} Sus armas: ${(r.informe.rival?.peligros || []).join('; ') || '-'}. Dónde hacerle daño: ${(r.informe.rival?.debilidades || []).join('; ') || '-'}. Nuestras debilidades ese día: ${r.informe.debilidades.map(d => d.titulo).join('; ')}.`).join(' | ')}` : 'No tenemos informes nuestros contra este rival: basate en los datos de la Liga y decí qué no se puede saber.'}
+
+Devolvé SOLO un JSON:
+{"resumen": "3 a 5 oraciones", "como_juega": "cómo juega y qué tipo de partido propone (solo lo que se desprende de los datos)", "armas": ["sus fortalezas"], "debilidades": ["dónde se le puede hacer daño"], "jugadores_clave": [{"nombre": "", "por_que": ""}], "plan": ["claves concretas para el partido"]}
+No inventes: si un dato no está, no lo supongas.`;
+  const { json: o, modelo } = await avGenerar([{ text: prompt }], n => { AV_TP.nota = n; renderClubes('analisis'); });
+  const txt = v => typeof v === 'string' ? v.trim() : '';
+  pmEst().previas.unshift({ id: 'pv' + Date.now().toString(36), div: cat, rival, creado: new Date(Date.now() - 3 * 3600e3).toISOString().slice(0, 16), modelo, informe: {
+    resumen: txt(o.resumen), como_juega: txt(o.como_juega), armas: avTxtL(o.armas), debilidades: avTxtL(o.debilidades),
+    jugadores_clave: (Array.isArray(o.jugadores_clave) ? o.jugadores_clave : []).map(x => ({ nombre: txt(x?.nombre), por_que: txt(x?.por_que) })).filter(x => x.nombre), plan: avTxtL(o.plan) } });
+  pmGuardar();
+}
+function avEnlazarTP() {
+  const ir = () => renderClubes('analisis');
+  const correr = async (k, fn) => {
+    AV_TP.corre = k; AV_TP.error = ''; AV_TP.nota = ''; ir();
+    try { await fn(); aviso(k === 'rival' ? 'Previa lista.' : 'Temporada analizada.'); } catch (e) { AV_TP.error = e.message; }
+    AV_TP.corre = ''; ir();
+  };
+  for (const id of ['av-t-cat', 'av-p-cat']) { const x = $('#' + id); if (x) x.onchange = () => { AV_TP.cat = x.value; AV_TP.error = ''; ir(); }; }
+  const r = $('#av-p-rival'); if (r) r.onchange = () => { AV_TP.rival = r.value; AV_TP.error = ''; ir(); };
+  const t = $('#av-t-go'); if (t) t.onclick = () => correr('temporada', avTemporadaGo);
+  const p = $('#av-p-go'); if (p) p.onclick = () => correr('rival', avPreviaGo);
+}
+
+// ----- mandar por WhatsApp -----
+// Mensajes armados con el informe, listos para pegar en el grupo del plantel o mandarle a cada jugador.
+function avTextoGrupo(r) {
+  const I = r.informe, club = PM.club.nombre, res = r.partido.gf != null ? ` ${r.partido.gf}-${r.partido.gc}` : '';
+  const l = (t, xs) => xs.length ? `\n\n*${t}*\n` + xs.map(x => '• ' + x).join('\n') : '';
+  return `*${club} vs ${r.partido.rival}*${res} · ${pmCatN(r.div)}${r.partido.dia ? ' · ' + fDia(r.partido.dia) : ''}\n\n${I.resumen}`
+    + l('Lo que salió bien', I.bien.map(x => x.texto)) + l('Para corregir', I.corregir.map(x => x.texto))
+    + l('Esta semana en la práctica', (I.entrenamiento || []).map(x => x.ejercicio + (x.objetivo ? ' — ' + x.objetivo : '')));
+}
+function avTextoJugador(r, x, j) {
+  const nombre = j ? `#${j.cam} ${j.nombre}` : (String(x.quien).match(/\d+/) ? '#' + String(x.quien).match(/\d+/)[0] : x.quien);
+  return `*${nombre}* · ${PM.club.nombre} vs ${r.partido.rival}${r.partido.dia ? ' (' + fDia(r.partido.dia) + ')' : ''}\n\n${x.tipo === 'mejorar' ? 'Para mejorar' : 'Lo que hiciste bien'}: ${x.texto}`;
+}
+const avWa = t => 'https://wa.me/?text=' + encodeURIComponent(t);
+function avWhatsappV(r, P) {
+  const I = r.informe, js = I.jugadores || [];
+  return `<section class="panel"><div class="panel-h"><b>Mandar por WhatsApp</b><span>Copiá o abrí WhatsApp con el mensaje listo</span></div>
+    <div class="pm-r"><span class="pm-r-t"><b>Resumen para el grupo del plantel</b><small>Resultado, lo que salió bien, qué corregir y los ejercicios.</small></span><button type="button" class="share" data-avcopiar="grupo">Copiar</button><a class="share" href="${esc(avWa(avTextoGrupo(r)))}" target="_blank" rel="noopener">WhatsApp</a></div>
+    ${js.map((x, i) => { const j = avPorCam(P, x.quien); return `<div class="pm-r"><span class="pm-r-t"><b>${esc(j ? `#${j.cam} ${j.nombre}` : x.quien)}</b><small>${x.tipo === 'mejorar' ? 'A mejorar' : 'Destacado'}: lo que dice el informe de él</small></span><button type="button" class="share" data-avcopiar="${i}">Copiar</button><a class="share" href="${esc(avWa(avTextoJugador(r, x, j)))}" target="_blank" rel="noopener">WhatsApp</a></div>`; }).join('')}</section>`;
 }
 
 // Tocar una jugada: el reproductor cambia a ese clip y salta a ese segundo.
@@ -3206,6 +3412,30 @@ function avIr(clip, seg) {
 }
 
 function avEnlazar() {
+  const cc = $('#pm-clave-club');
+  if (cc) cc.onchange = () => { pmEst().claveClub = cc.value.trim(); pmGuardar(); aviso(cc.value.trim() ? 'Clave del club guardada.' : 'Se borró la clave del club.'); };
+  const idInf = () => decodeURIComponent(location.hash.split('/')[3] || '');
+  document.querySelectorAll('[data-avcopiar]').forEach(b => b.onclick = async () => {
+    const r = pmEst().analisis.find(x => x.id === idInf()); if (!r) return;
+    const k = b.dataset.avcopiar, x = r.informe.jugadores?.[Number(k)];
+    const t = k === 'grupo' ? avTextoGrupo(r) : avTextoJugador(r, x, avPorCam(avPlantel(r.div, r.partido.id), x?.quien));
+    try { await navigator.clipboard.writeText(t); aviso('Copiado. Pegalo en WhatsApp.'); } catch { aviso('No se pudo copiar: usá el botón WhatsApp.'); }
+  });
+  document.querySelectorAll('[data-avplan]').forEach(b => b.onclick = () => {
+    const E = pmEst(), r = E.analisis.find(x => x.id === b.dataset.avplan), pr = r && pmProx(r.div); if (!pr) return;
+    const L = (E.planes[pr.id] ||= []);
+    for (const x of r.informe.entrenamiento || []) if (!L.some(y => y.ejercicio === x.ejercicio)) L.push({ ...x, de: r.id, rival: r.partido.rival });
+    pmGuardar(); aviso(`Ejercicios agregados a la práctica del ${fDia(pr.dia)}.`);
+    renderClubes('analisis');
+  });
+  avEnlazarTP();
+  document.querySelectorAll('[data-pm-plan-add]').forEach(f => f.onsubmit = ev => {
+    ev.preventDefault();
+    const ej = f.ej.value.trim(), det = f.det.value.trim(); if (!ej) return;
+    (pmEst().planes[f.dataset.pmPlanAdd] ||= []).push({ ejercicio: ej, como: det });
+    pmGuardar(); renderClubes(location.hash.split('/')[2]);
+  });
+  document.querySelectorAll('[data-pm-plan-quitar]').forEach(b => b.onclick = () => { const [id, i] = b.dataset.pmPlanQuitar.split('|'); pmEst().planes[id]?.splice(Number(i), 1); pmGuardar(); renderClubes(location.hash.split('/')[2]); });
   const rh = $('#av-rehacer');
   if (rh) rh.onclick = () => {
     const id = decodeURIComponent(location.hash.split('/')[3] || ''), r = pmEst().analisis.find(x => x.id === id); if (!r) return;
@@ -3276,7 +3506,7 @@ function pmAjustes() {
   const E = pmEst();
   return pmChipsCat(PM_CAT) + `<p class="lede">Ajustes de ${esc(pmCatN(PM_CAT))}. Cada plantel tiene los suyos, así lo que cambia un técnico no toca a los otros.</p>
     <section class="stack"><div class="sec-h"><div><h3>Qué ven los jugadores</h3><span class="sub">Lo apagado no le aparece a ningún jugador de ${esc(pmCatN(PM_CAT))}.</span></div></div>
-      <div class="panel">${pmSw('verAsistencia', 'Sus prácticas', 'A cuántas fue en la semana, el mes y el año')}${pmSw('verRacha', 'Su racha', 'Prácticas seguidas sin faltar')}${pmSw('verMinutos', 'Sus minutos', 'Lo que jugó en cada plantel')}${pmSw('verCompaneros', 'Quién va a la próxima práctica', 'Las respuestas de sus compañeros al recordatorio')}${pmSw('verRanking', 'Ranking de asistencia', 'La tabla de todo el plantel ordenada por asistencia')}</div></section>
+      <div class="panel">${pmSw('verAsistencia', 'Sus prácticas', 'A cuántas fue en la semana, el mes y el año')}${pmSw('verRacha', 'Su racha', 'Prácticas seguidas sin faltar')}${pmSw('verMinutos', 'Sus minutos', 'Lo que jugó en cada plantel')}${pmSw('verAnalisis', 'Sus análisis', 'Lo que dicen de él los informes de video y de Veo')}${pmSw('verCompaneros', 'Quién va a la próxima práctica', 'Las respuestas de sus compañeros al recordatorio')}${pmSw('verRanking', 'Ranking de asistencia', 'La tabla de todo el plantel ordenada por asistencia')}</div></section>
     ${pmAvisosV()}
     <section class="stack"><div class="sec-h"><div><h3>Prácticas</h3><span class="sub">La asistencia la marca cada jugador.</span></div></div>
       <div class="panel">${pmSw('pasarLista', 'Pasar lista', 'El técnico confirma quién fue. Si está apagado, vale lo que marca el jugador')}${pmSw('recordatorio', 'Recordatorio por WhatsApp', '"¿Vas a la práctica?" antes de cada una')}
@@ -3286,6 +3516,8 @@ function pmAjustes() {
       <div class="panel">${pmCV().map(c => `<div class="pm-r"><span class="pm-r-t"><b>${esc(pmCatN(c))}</b><small>${pmDiasTxt(c)} · ${esc(pmHorHoy(c).lugar)}</small></span></div>`).join('')}</div></section>
     ${pmSesion()?.rol !== 'admin' ? '' : `<section class="stack"><div class="sec-h"><div><h3>Plan</h3></div></div>
       <div class="panel"><div class="pm-r"><span class="pm-r-t"><b>Prueba gratis · ELF</b><small>Después: 30 USD por mes cada plantel, o 100 USD por mes todo el club.</small></span><span class="tag pm-plan">Activo</span></div>
+      <div class="pm-r pm-r-col"><span class="pm-r-t"><b>Clave de Gemini del club</b><small>La usan todos los técnicos para el Análisis, así no necesitan una propia. Si un técnico pone la suya, se usa la de él.</small></span>
+        <input type="password" class="pm-in" id="pm-clave-club" value="${esc(pmEst().claveClub || '')}" placeholder="Pegá la clave de AI Studio" autocomplete="off" spellcheck="false" aria-label="Clave de Gemini del club"></div>
       <div class="pm-r"><span class="pm-r-t"><b>Borrar lo marcado en esta demo</b><small>Vuelve a los datos de ejemplo.</small></span><button type="button" class="share" data-pm="reset">Borrar</button></div></div></section>`}`;
 }
 
@@ -3361,7 +3593,20 @@ function pmVistaJugador(S) {
     ${rank.length ? `<section class="stack"><div class="sec-h"><div><h3>Asistencia del plantel</h3><span class="sub">Los 10 que más fueron en la temporada${rank.findIndex(r => r.x.c === J.c) >= 10 ? ', y vos' : ''}.</span></div></div><div class="panel">${rank.map((r, i) => ({ ...r, i })).filter(({ x, i }) => i < 10 || x.c === J.c).map(({ x, p, i }) => `${i >= 10 ? '<div class="pm-r pm-sep">…</div>' : ''}<div class="pm-r${x.c === J.c ? ' pm-mio' : ''}"><span class="pm-r-t"><b>${i + 1}. ${esc(x.nombre)}</b></span><span class="pm-cnt"><b>${p}%</b></span></div>`).join('')}</div></section>` : ''}
     ${(() => { const f = pmFicha(J), e = pmFichaEst(f); return `<div class="panel pm-ficha-yo ${e}"><div class="pm-r"><span class="pm-r-t"><b>Ficha médica</b><small>${e === 'vencida' ? `Venció el ${pmFecha(f)}. Renovala para poder jugar.` : e === 'pronto' ? `Vence el ${pmFecha(f)}. Acordate de renovarla.` : `Al día, vence el ${pmFecha(f)}.`}</small></span>${e !== 'ok' ? '<span class="pm-est ' + (e === 'vencida' ? 'no' : 'pronto') + '">' + (e === 'vencida' ? 'Vencida' : 'Por vencer') + '</span>' : ''}</div>
       ${e !== 'ok' ? `<label class="pm-r pm-ficha" for="ficha-${J.c}"><span class="pm-r-t"><b>¿Ya la renovaste?</b><small>Poné la nueva fecha de vencimiento.</small></span><input type="date" class="pm-in" id="ficha-${J.c}" data-pm="ficha" data-c="${J.c}" value="${f}"></label>` : ''}</div>`; })()}
+    ${CF.verAnalisis ? avDelJugador(J, susCats) : ''}
     <p class="pm-nota">Esto es lo que ve un jugador. Lo que aparece acá lo decide el cuerpo técnico en Ajustes.</p>`;
+}
+// Lo que dicen de un jugador los informes: los suyos (modo Jugador) y su parte en los del equipo (por su número en la planilla).
+function avDelJugador(J, cats) {
+  const items = [];
+  for (const r of pmEst().analisis.filter(x => cats.includes(x.div)).sort((a, b) => (b.partido.dia || b.creado).localeCompare(a.partido.dia || a.creado))) {
+    const I = r.informe, t = `vs ${r.partido.rival}${r.partido.dia ? ' · ' + fDia(r.partido.dia) : ''}`;
+    if (r.modo === 'jugador' && r.jugador?.c === J.c) items.push({ t, mejor: I.bien.map(x => x.texto), mejorar: [...I.corregir.map(x => x.texto), ...I.debilidades.map(d => d.titulo)] });
+    else { const P = avPlantel(r.div, r.partido.id); const mio = (I.jugadores || []).filter(x => avPorCam(P, x.quien)?.c === J.c);
+      if (mio.length) items.push({ t, mejor: mio.filter(x => x.tipo !== 'mejorar').map(x => x.texto), mejorar: mio.filter(x => x.tipo === 'mejorar').map(x => x.texto) }); }
+  }
+  return `<section class="stack"><div class="sec-h"><div><h3>Mis análisis</h3><span class="sub">Lo que dicen de vos los informes de los partidos.</span></div></div>
+    ${items.length ? items.slice(0, 8).map(x => `<div class="panel"><div class="panel-h"><b>${esc(x.t)}</b></div>${avLista('Lo que hiciste bien', x.mejor)}${avLista('Para mejorar', x.mejorar)}</div>`).join('') : '<div class="empty">Todavía no hay informes que hablen de vos.</div>'}</section>`;
 }
 
 // ----- acciones -----
