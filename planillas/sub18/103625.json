@@ -1,0 +1,188 @@
+{
+ "id": "103625",
+ "categoria": "sub18",
+ "serie": "18O",
+ "fecha": 3,
+ "fechaHora": "2026-11-01 15:30:00",
+ "cancha": "MONTE VI \"LOS CEIBOS\"",
+ "local": "CEIBOS CLUB",
+ "visitante": "CLUB SEMINARIO",
+ "gl": 1,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "357",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 18 ",
+  "categoria": "SUB 18 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB18 ORO",
+  "Cancha": "MONTE VI \"LOS CEIBOS\"",
+  "Fecha_Inicio": "2026-11-01 16:00:00",
+  "Fecha_fin": "2026-11-01 16:00:00",
+  "Locatario": "CEIBOS CLUB",
+  "goles_locatario": "1",
+  "puntos_locatario": "1",
+  "Visitante": "CLUB SEMINARIO",
+  "goles_visitante": "1",
+  "puntos_visitante": "1",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "62865",
+   "Nombre": "BENJAMIN FERNANDEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "62224",
+   "Nombre": "PEDRO NARANCIO",
+   "camiseta": "13",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "64697",
+   "Nombre": "FRANCISCO GIMENEZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "60333",
+   "Nombre": "MANUEL LLORENTE",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "68046",
+   "Nombre": "CAMILO VERA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "62671",
+   "Nombre": "JOAQUIN CURBELO",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "64870",
+   "Nombre": "JUAN PONS",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "65335",
+   "Nombre": "JUAN BAUTISTA RODRIGUEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "62071",
+   "Nombre": "JOAQUIN MARIA BARTOL",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "61039",
+   "Nombre": "FELIPE SOBRAL",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "66147",
+   "Nombre": "LEANDRO CAMBÒN",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "58598",
+   "Nombre": "NICOLAS MAZZILLI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "59082",
+   "Nombre": "MARTIN JOSE DIAZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "63871",
+   "Nombre": "JUAN ANDRES DELGADO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "57297",
+   "Nombre": "FACUNDO SAPELLO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "62137",
+   "Nombre": "FRANCISCO BARROS",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "62030",
+   "Nombre": "FRANCO TORTEROLO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "62948",
+   "Nombre": "JOAQUIN CAPPUCCIO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "60868",
+   "Nombre": "IGNACIO ANDRES LEGARRA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "59080",
+   "Nombre": "MATIAS GOSSWEILER",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "58599",
+   "Nombre": "FACUNDO MOSCA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "63872",
+   "Nombre": "MANUEL DE LA PEÑA",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [],
+ "cambiosV": [],
+ "golesL": [
+  {
+   "carne": "68046",
+   "Nombre": "CAMILO VERA",
+   "minutos": "20",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "60868",
+   "Nombre": "IGNACIO ANDRES LEGARRA",
+   "minutos": "2",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

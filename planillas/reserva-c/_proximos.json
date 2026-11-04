@@ -1,12 +1,5 @@
 [
  {
-  "serie": "RSCPD",
-  "fechaHora": "2026-10-31 11:15:00",
-  "cancha": "OLD CHRISTIANS CLUB",
-  "local": "OLD CHRISTIANS NARANJA",
-  "visitante": "PEÑAROL UNIVERSITARIO"
- },
- {
   "serie": "RSCTA",
   "fechaHora": "2026-11-04 21:00:00",
   "cancha": "COMPLEJO NORTHFIELD",
@@ -36,17 +29,17 @@
  },
  {
   "serie": "RSCTA",
-  "fechaHora": "2026-11-07 09:00:00",
-  "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
-  "local": "SEMINARIO UNIVERSITARIO",
-  "visitante": "SAN EUGENIO"
- },
- {
-  "serie": "RSCTA",
   "fechaHora": "2026-11-07 11:15:00",
   "cancha": "MONTE VI \"LOS CEIBOS\"",
   "local": "CEIBOS CLUB VERDE",
   "visitante": "SAN PABLO UNIVERSITARIO"
+ },
+ {
+  "serie": "RSCTA",
+  "fechaHora": "2026-11-07 11:15:00",
+  "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
+  "local": "SEMINARIO UNIVERSITARIO",
+  "visitante": "SAN EUGENIO"
  },
  {
   "serie": "RSCTA",

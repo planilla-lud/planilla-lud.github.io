@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"A\" PER. y DESC.",
   "Cancha": "MONTE VI \"LOS CEIBOS\"",
-  "Fecha_Inicio": "2026-10-31 12:45:00",
-  "Fecha_fin": "2026-10-31 12:45:00",
+  "Fecha_Inicio": "2026-10-31 13:20:00",
+  "Fecha_fin": "2026-10-31 13:20:00",
   "Locatario": "TAPE",
   "goles_locatario": "2",
   "puntos_locatario": "3",
@@ -29,11 +29,232 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "45549",
+   "Nombre": "JOSE FACUNDO FONSECA",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "55125",
+   "Nombre": "JUAN GURMENDEZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "61063",
+   "Nombre": "NICOLAS DORAO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "65015",
+   "Nombre": "VALENTIN BISIO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "66855",
+   "Nombre": "SEBASTIAN MARTINEZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "58984",
+   "Nombre": "NICOLAS LIBONATTI",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "51930",
+   "Nombre": "TOMAS PEREZ",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "65012",
+   "Nombre": "JUAN MARTIN IFRAN",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "69057",
+   "Nombre": "JUAN IGNACIO SILVEIRA",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "54540",
+   "Nombre": "JOAQUIN RODRIGUEZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "31774",
+   "Nombre": "MARTIN INCIARTE",
+   "camiseta": "18",
+   "Capitan": "(C)"
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "52627",
+   "Nombre": "JOAQUIN BERRO",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "48653",
+   "Nombre": "MATIAS  BERNARDO VAZQUEZ",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "50666",
+   "Nombre": "FACUNDO LAGO",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "49076",
+   "Nombre": "SANTIAGO NICOLAS D’ANGELO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "51806",
+   "Nombre": "MATHIAS SEBASTIAN BARRETO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "48656",
+   "Nombre": "LEANDRO GABRIEL TABEIRA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "48657",
+   "Nombre": "BRUNO CABRERA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "46830",
+   "Nombre": "JULIAN NESTOR MUHA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "48654",
+   "Nombre": "JUAN PABLO LOCATELLI",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "48796",
+   "Nombre": "MARTIN JAVIER DIAZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "45505",
+   "Nombre": "SANTIAGO DANIEL TORRES",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "31774",
+   "Jug_Sale": "MARTIN INCIARTE",
+   "CarneEntra": "62245",
+   "Jug_Entra": "GONZALO VILLALBA",
+   "camiseta": "8",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "55125",
+   "Jug_Sale": "JUAN GURMENDEZ",
+   "CarneEntra": "37326",
+   "Jug_Entra": "JUAN INCIARTE",
+   "camiseta": "26",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "69057",
+   "Jug_Sale": "JUAN IGNACIO SILVEIRA",
+   "CarneEntra": "49165",
+   "Jug_Entra": "GUILLERMO PONS",
+   "camiseta": "28",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "54540",
+   "Jug_Sale": "JOAQUIN RODRIGUEZ",
+   "CarneEntra": "65007",
+   "Jug_Entra": "MATHIAS LUCAS",
+   "camiseta": "13",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "51930",
+   "Jug_Sale": "TOMAS PEREZ",
+   "CarneEntra": "56348",
+   "Jug_Entra": "FELIPE SICALO",
+   "camiseta": "24",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "58984",
+   "Jug_Sale": "NICOLAS LIBONATTI",
+   "CarneEntra": "65008",
+   "Jug_Entra": "JUAN DIEGO JACQUES",
+   "camiseta": "14",
+   "minutos": "86"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "48657",
+   "Jug_Sale": "BRUNO CABRERA",
+   "CarneEntra": "58654",
+   "Jug_Entra": "MATIAS NICOLAS BARRIOS",
+   "camiseta": "6",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "46830",
+   "Jug_Sale": "JULIAN NESTOR MUHA",
+   "CarneEntra": "60921",
+   "Jug_Entra": "TEO OLAVE",
+   "camiseta": "10",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "50666",
+   "Jug_Sale": "FACUNDO LAGO",
+   "CarneEntra": "61617",
+   "Jug_Entra": "LUCIO  JOSE MORENO",
+   "camiseta": "9",
+   "minutos": "80"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "58984",
+   "Nombre": "NICOLAS LIBONATTI",
+   "minutos": "25",
+   "EnContra": "0"
+  },
+  {
+   "carne": "69057",
+   "Nombre": "JUAN IGNACIO SILVEIRA",
+   "minutos": "90",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

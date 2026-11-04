@@ -4,7 +4,7 @@
  "serie": "RSAPD",
  "fecha": 5,
  "fechaHora": "2026-10-31 11:15:00",
- "cancha": "COMPLEJO AZULGRANA",
+ "cancha": "()",
  "local": "OBC AZULGRANA.",
  "visitante": "SAGRADA FAMILIA UNIVERSITARIO",
  "gl": 0,
@@ -17,9 +17,9 @@
   "categoria": "RESERVA MASCULINO",
   "rueda": "2",
   "Divisional": "RESERVA \"A\" PER. y DESC.",
-  "Cancha": "COMPLEJO AZULGRANA",
-  "Fecha_Inicio": "2026-10-31 12:45:00",
-  "Fecha_fin": "2026-10-31 12:45:00",
+  "Cancha": "()",
+  "Fecha_Inicio": "2026-10-31 13:04:00",
+  "Fecha_fin": "2026-10-31 13:04:00",
   "Locatario": "OBC AZULGRANA.",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,277 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "56248",
+   "Nombre": "FACUNDO JOSE QUINTELA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "33722",
+   "Nombre": "JUAN IGNACIO MOLINARO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "42685",
+   "Nombre": "FRANCISCO DECURNEX",
+   "camiseta": "3",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "34987",
+   "Nombre": "SEBASTIAN CAGNOLI",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "55159",
+   "Nombre": "JUAN IGNACIO REICH",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "49021",
+   "Nombre": "JUAN IGNACIO CANESSA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "42221",
+   "Nombre": "AXEL WILLIAM LINDMAYER",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "51137",
+   "Nombre": "JULIO FERMIN BLANCO",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "45119",
+   "Nombre": "MATEO BANDIRALI",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "44492",
+   "Nombre": "DIEGO JUAN CORALLO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "44982",
+   "Nombre": "FEDERICO RUIZ",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "41778",
+   "Nombre": "NICOLAS MACCIO",
+   "camiseta": "25",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "50950",
+   "Nombre": "ISMAEL VILLANUEVA",
+   "camiseta": "94",
+   "Capitan": ""
+  },
+  {
+   "carne": "53121",
+   "Nombre": "ANDRES RUGGIERO",
+   "camiseta": "90",
+   "Capitan": ""
+  },
+  {
+   "carne": "64055",
+   "Nombre": "LAUTHARO MANUEL GUGLIELMONE",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "45854",
+   "Nombre": "JULIAN VELAZQUEZ",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "63138",
+   "Nombre": "MATIAS RAFAEL CORREA",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "48803",
+   "Nombre": "MATIAS REVELLO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "55636",
+   "Nombre": "IGNACIO IRISARRI",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "53070",
+   "Nombre": "JUAN IGNACIO MAGRINI",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "49888",
+   "Nombre": "MANUEL DOGLIO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "66465",
+   "Nombre": "HECTOR AGUSTIN VEGA",
+   "camiseta": "6",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "33722",
+   "Jug_Sale": "JUAN IGNACIO MOLINARO",
+   "CarneEntra": "57214",
+   "Jug_Entra": "IGNACIO DENIS",
+   "camiseta": "55",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "51137",
+   "Jug_Sale": "JULIO FERMIN BLANCO",
+   "CarneEntra": "42220",
+   "Jug_Entra": "FEDERICO IGLESIAS",
+   "camiseta": "15",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "45119",
+   "Jug_Sale": "MATEO BANDIRALI",
+   "CarneEntra": "35445",
+   "Jug_Entra": "SANTIAGO FELIPE MICHELINI",
+   "camiseta": "20",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "55159",
+   "Jug_Sale": "JUAN IGNACIO REICH",
+   "CarneEntra": "41576",
+   "Jug_Entra": "MARTIN JOSE IMHOF",
+   "camiseta": "19",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "34987",
+   "Jug_Sale": "SEBASTIAN CAGNOLI",
+   "CarneEntra": "55469",
+   "Jug_Entra": "ALFONSO ALVAREZ",
+   "camiseta": "28",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "42221",
+   "Jug_Sale": "AXEL WILLIAM LINDMAYER",
+   "CarneEntra": "55154",
+   "Jug_Entra": "IÑAKI ESTABLE",
+   "camiseta": "29",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "42685",
+   "Jug_Sale": "FRANCISCO DECURNEX",
+   "CarneEntra": "37267",
+   "Jug_Entra": "SANTIAGO CABALLERO",
+   "camiseta": "23",
+   "minutos": "83"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "50950",
+   "Jug_Sale": "ISMAEL VILLANUEVA",
+   "CarneEntra": "54783",
+   "Jug_Entra": "MARTIN SEBASTIAN GONZALEZ",
+   "camiseta": "60",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "48803",
+   "Jug_Sale": "MATIAS REVELLO",
+   "CarneEntra": "66798",
+   "Jug_Entra": "SANTIAGO OLIVERA",
+   "camiseta": "32",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "45854",
+   "Jug_Sale": "JULIAN VELAZQUEZ",
+   "CarneEntra": "41609",
+   "Jug_Entra": "FACUNDO VILLAR",
+   "camiseta": "22",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "49888",
+   "Jug_Sale": "MANUEL DOGLIO",
+   "CarneEntra": "37903",
+   "Jug_Entra": "MATEO MUJICA",
+   "camiseta": "5",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "53070",
+   "Jug_Sale": "JUAN IGNACIO MAGRINI",
+   "CarneEntra": "43136",
+   "Jug_Entra": "GABRIEL JOAQUIN SUAREZ",
+   "camiseta": "30",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "66465",
+   "Jug_Sale": "HECTOR AGUSTIN VEGA",
+   "CarneEntra": "31951",
+   "Jug_Entra": "NICOLAS SALESI",
+   "camiseta": "99",
+   "minutos": "83"
+  }
+ ],
  "golesL": [],
- "golesV": [],
+ "golesV": [
+  {
+   "carne": "43136",
+   "Nombre": "GABRIEL JOAQUIN SUAREZ",
+   "minutos": "80",
+   "EnContra": "1"
+  },
+  {
+   "carne": "53070",
+   "Nombre": "JUAN IGNACIO MAGRINI",
+   "minutos": "50",
+   "EnContra": "1"
+  },
+  {
+   "carne": "53070",
+   "Nombre": "JUAN IGNACIO MAGRINI",
+   "minutos": "64",
+   "EnContra": "1"
+  },
+  {
+   "carne": "55636",
+   "Nombre": "IGNACIO IRISARRI",
+   "minutos": "84",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

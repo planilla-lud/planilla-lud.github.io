@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"C\" TIT. y ASC.",
   "Cancha": "COLEGIO PIO",
-  "Fecha_Inicio": "2026-10-31 12:45:00",
-  "Fecha_fin": "2026-10-31 12:45:00",
+  "Fecha_Inicio": "2026-10-31 13:15:00",
+  "Fecha_fin": "2026-10-31 13:15:00",
   "Locatario": "CENTRO CRISTOBAL COLON",
   "goles_locatario": "2",
   "puntos_locatario": "3",
@@ -29,11 +29,248 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "64261",
+   "Nombre": "SANTIAGO HERRERA",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "55027",
+   "Nombre": "FERNANDO RIQUEL",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "62352",
+   "Nombre": "SANTIAGO RICCONE",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "63850",
+   "Nombre": "FACUNDO NAHUEL VIDAL",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "50423",
+   "Nombre": "MARTIN GARCIA",
+   "camiseta": "24",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "52424",
+   "Nombre": "MARCOS DANIEL CARREÑO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "57654",
+   "Nombre": "DONATO NOCETTI",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "50976",
+   "Nombre": "NICOLAS EZEQUIEL GUTIERREZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "45350",
+   "Nombre": "BRUNO GASTON DIAZ",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "67324",
+   "Nombre": "FRANCO VALIENTE",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "55648",
+   "Nombre": "DIEGO MONTERO",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "64440",
+   "Nombre": "JUAN MANUEL CHIRIBAO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "50779",
+   "Nombre": "JUAN IGNACIO FERREIRA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "50784",
+   "Nombre": "FRANCO PASCALE",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "51012",
+   "Nombre": "JUAN JOSE GENTILE",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "50800",
+   "Nombre": "FELIPE MIGUEL GIRO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "62273",
+   "Nombre": "SANTIAGO CABRERA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "53404",
+   "Nombre": "FRANCO BONAVOGLIA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "53657",
+   "Nombre": "MATEO PERTUSSO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "52843",
+   "Nombre": "JUAN ANDRES RAMIREZ",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "50807",
+   "Nombre": "JOSE DOMINGO MARTINELLI",
+   "camiseta": "9",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "51014",
+   "Nombre": "FANCISCO QUIJANO",
+   "camiseta": "20",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "52424",
+   "Jug_Sale": "MARCOS DANIEL CARREÑO",
+   "CarneEntra": "52342",
+   "Jug_Entra": "SANTIAGO MICHELINI",
+   "camiseta": "17",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "45350",
+   "Jug_Sale": "BRUNO GASTON DIAZ",
+   "CarneEntra": "61897",
+   "Jug_Entra": "MATIAS MARCELO VERO",
+   "camiseta": "18",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "50976",
+   "Jug_Sale": "NICOLAS EZEQUIEL GUTIERREZ",
+   "CarneEntra": "50424",
+   "Jug_Entra": "AGUSTIN CLARO",
+   "camiseta": "20",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "67324",
+   "Jug_Sale": "FRANCO VALIENTE",
+   "CarneEntra": "62356",
+   "Jug_Entra": "AGUSTIN DA ROSA",
+   "camiseta": "7",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "63850",
+   "Jug_Sale": "FACUNDO NAHUEL VIDAL",
+   "CarneEntra": "58397",
+   "Jug_Entra": "FACUNDO NAHUEL PIOLI",
+   "camiseta": "21",
+   "minutos": "83"
+  },
+  {
+   "CarneSale": "55648",
+   "Jug_Sale": "DIEGO MONTERO",
+   "CarneEntra": "64472",
+   "Jug_Entra": "JUAN MARTIN SUCAZES",
+   "camiseta": "23",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "50423",
+   "Jug_Sale": "MARTIN GARCIA",
+   "CarneEntra": "61142",
+   "Jug_Entra": "FELIPE ODAZZIO",
+   "camiseta": "15",
+   "minutos": "83"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "53657",
+   "Jug_Sale": "MATEO PERTUSSO",
+   "CarneEntra": "50860",
+   "Jug_Entra": "JUAN IGNACIO SAPELLO",
+   "camiseta": "19",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "51014",
+   "Jug_Sale": "FANCISCO QUIJANO",
+   "CarneEntra": "50796",
+   "Jug_Entra": "JUAN MARTIN MACHADO",
+   "camiseta": "17",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "50800",
+   "Jug_Sale": "FELIPE MIGUEL GIRO",
+   "CarneEntra": "53657",
+   "Jug_Entra": "MATEO PERTUSSO",
+   "camiseta": "10",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "50807",
+   "Jug_Sale": "JOSE DOMINGO MARTINELLI",
+   "CarneEntra": "50774",
+   "Jug_Entra": "FELIPE IGNACIO SOLOGAISTOA",
+   "camiseta": "22",
+   "minutos": "85"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "45350",
+   "Nombre": "BRUNO GASTON DIAZ",
+   "minutos": "37",
+   "EnContra": "0"
+  },
+  {
+   "carne": "55648",
+   "Nombre": "DIEGO MONTERO",
+   "minutos": "57",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

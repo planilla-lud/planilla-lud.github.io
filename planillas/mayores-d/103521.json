@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"D\" TIT. y ASC.",
   "Cancha": "CIUDAD DEPORTIVA LS",
-  "Fecha_Inicio": "2026-11-01 10:30:00",
-  "Fecha_fin": "2026-11-01 10:30:00",
+  "Fecha_Inicio": "2026-11-01 11:00:00",
+  "Fecha_fin": "2026-11-01 11:00:00",
   "Locatario": "DEPORTIVO LS UNIVERSITARIO",
   "goles_locatario": "8",
   "puntos_locatario": "3",
@@ -29,12 +29,268 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "44677",
+   "Nombre": "CARLOS FACUNDO MORENO",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "65354",
+   "Nombre": "JULIAN COHENAR",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "45466",
+   "Nombre": "AGUSTIN CALABUIG",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "17587",
+   "Nombre": "GONZALO HOMERO ALBIN",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "59389",
+   "Nombre": "RODRIGO GERMAN FERNANDEZ",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "54839",
+   "Nombre": "NICOLAS ANTELO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "66727",
+   "Nombre": "DIEGO JAVIER MONTIGLIO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "57072",
+   "Nombre": "ANGELO GIOVANNI OTTONELLO",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "59766",
+   "Nombre": "JOSE ANDRES MARQUEZ",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "49250",
+   "Nombre": "SANTIAGO ROO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "31995",
+   "Nombre": "JORGE IGNACIO DIAZ",
+   "camiseta": "0",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "46263",
+   "Nombre": "GUILLERMO SCHUSTER",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "49176",
+   "Nombre": "PEDRO AGUERRONDO",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "54441",
+   "Nombre": "GIANLUCA GANDOLFO",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "48901",
+   "Nombre": "FRANCO ARCARI",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "53285",
+   "Nombre": "FACUNDO ELLAURI",
+   "camiseta": "73",
+   "Capitan": ""
+  },
+  {
+   "carne": "47129",
+   "Nombre": "TEO CARVALHO",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "37817",
+   "Nombre": "MARTIN FERNANDEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "45287",
+   "Nombre": "MATIAS CAMBON",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "68937",
+   "Nombre": "TOMAS ALVAREZ",
+   "camiseta": "41",
+   "Capitan": ""
+  },
+  {
+   "carne": "63527",
+   "Nombre": "ENZO GOICOECHEA",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "49240",
+   "Nombre": "MATIAS TIZIANO MORENA",
+   "camiseta": "0",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "49250",
+   "Jug_Sale": "SANTIAGO ROO",
+   "CarneEntra": "43621",
+   "Jug_Entra": "DIEGO MARTIN BOUZAS",
+   "camiseta": "34",
+   "minutos": "15"
+  },
+  {
+   "CarneSale": "54839",
+   "Jug_Sale": "NICOLAS ANTELO",
+   "CarneEntra": "57829",
+   "Jug_Entra": "FRANCO ALESSANDRO BARROSO",
+   "camiseta": "32",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "54839",
+   "Jug_Sale": "NICOLAS ANTELO",
+   "CarneEntra": "54838",
+   "Jug_Entra": "AGUSTIN GANACHIPPI",
+   "camiseta": "2",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66727",
+   "Jug_Sale": "DIEGO JAVIER MONTIGLIO",
+   "CarneEntra": "54839",
+   "Jug_Entra": "NICOLAS ANTELO",
+   "camiseta": "5",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "31995",
+   "Jug_Sale": "JORGE IGNACIO DIAZ",
+   "CarneEntra": "54847",
+   "Jug_Entra": "FRANCO GONZALEZ",
+   "camiseta": "19",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "57072",
+   "Jug_Sale": "ANGELO GIOVANNI OTTONELLO",
+   "CarneEntra": "59389",
+   "Jug_Entra": "RODRIGO GERMAN FERNANDEZ",
+   "camiseta": "14",
+   "minutos": "61"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "49240",
+   "Jug_Sale": "MATIAS TIZIANO MORENA",
+   "CarneEntra": "66381",
+   "Jug_Entra": "SANTIAGO HERNAN RODAS",
+   "camiseta": "21",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "68937",
+   "Jug_Sale": "TOMAS ALVAREZ",
+   "CarneEntra": "49240",
+   "Jug_Entra": "MATIAS TIZIANO MORENA",
+   "camiseta": "41",
+   "minutos": "70"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "31995",
+   "Nombre": "JORGE IGNACIO DIAZ",
+   "minutos": "38",
+   "EnContra": "0"
+  },
+  {
+   "carne": "31995",
+   "Nombre": "JORGE IGNACIO DIAZ",
+   "minutos": "49",
+   "EnContra": "0"
+  },
+  {
+   "carne": "31995",
+   "Nombre": "JORGE IGNACIO DIAZ",
+   "minutos": "55",
+   "EnContra": "0"
+  },
+  {
+   "carne": "43621",
+   "Nombre": "DIEGO MARTIN BOUZAS",
+   "minutos": "75",
+   "EnContra": "0"
+  },
+  {
+   "carne": "57829",
+   "Nombre": "FRANCO ALESSANDRO BARROSO",
+   "minutos": "60",
+   "EnContra": "0"
+  },
+  {
+   "carne": "57829",
+   "Nombre": "FRANCO ALESSANDRO BARROSO",
+   "minutos": "63",
+   "EnContra": "0"
+  },
+  {
+   "carne": "59389",
+   "Nombre": "RODRIGO GERMAN FERNANDEZ",
+   "minutos": "85",
+   "EnContra": "0"
+  },
+  {
+   "carne": "59766",
+   "Nombre": "JOSE ANDRES MARQUEZ",
+   "minutos": "30",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "54441",
+   "Nombre": "GIANLUCA GANDOLFO",
+   "minutos": "38",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

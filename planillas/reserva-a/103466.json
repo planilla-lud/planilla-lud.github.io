@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"A\" TITULO",
   "Cancha": "COMPLEJO WOODLANDS SCHOOL",
-  "Fecha_Inicio": "2026-10-31 10:30:00",
-  "Fecha_fin": "2026-10-31 10:30:00",
+  "Fecha_Inicio": "2026-10-31 11:00:00",
+  "Fecha_fin": "2026-10-31 11:00:00",
   "Locatario": "OLD WOODLANDS CLUB",
   "goles_locatario": "2",
   "puntos_locatario": "3",
@@ -29,12 +29,256 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "65071",
+   "Nombre": "MANUEL FELIPE DOMINGUEZ",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "43493",
+   "Nombre": "FEDERICO HAZAN",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "36920",
+   "Nombre": "JUAN IGNACIO REGO",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "41001",
+   "Nombre": "DIEGO DABEZIES",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "50922",
+   "Nombre": "LUCAS ALEGRE",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "33370",
+   "Nombre": "SANTIAGO BZUROVSKI",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "53615",
+   "Nombre": "THIAGO BENITES",
+   "camiseta": "90",
+   "Capitan": ""
+  },
+  {
+   "carne": "49627",
+   "Nombre": "THEO FRANCO PIZZINI",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "53647",
+   "Nombre": "MATIAS PINTOS",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "51145",
+   "Nombre": "ALEJANDRO VICTORICA",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "50731",
+   "Nombre": "FACUNDO MUNUA",
+   "camiseta": "80",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "49084",
+   "Nombre": "GIULIANO CARDOZO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "41007",
+   "Nombre": "GERARDO SACCO",
+   "camiseta": "4",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "46325",
+   "Nombre": "FRANCO SUBIRAN",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "48915",
+   "Nombre": "FACUNDO CURT GEISINGER",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "46708",
+   "Nombre": "AGUSTIN RAUL RODRIGUEZ",
+   "camiseta": "43",
+   "Capitan": ""
+  },
+  {
+   "carne": "39903",
+   "Nombre": "MANUEL FERNANDEZ",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "48917",
+   "Nombre": "FRANCISCO ALGORTA",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "41534",
+   "Nombre": "DIEGO NICOLAS CHIJANE",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "47764",
+   "Nombre": "BRUNO ZEFFERINO",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "44291",
+   "Nombre": "IGNACIO GEISINGER",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "47761",
+   "Nombre": "JUAN IGNACIO POTRIE",
+   "camiseta": "13",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "36920",
+   "Jug_Sale": "JUAN IGNACIO REGO",
+   "CarneEntra": "43092",
+   "Jug_Entra": "JUAN DIEGO MONTANS",
+   "camiseta": "9",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "53615",
+   "Jug_Sale": "THIAGO BENITES",
+   "CarneEntra": "56777",
+   "Jug_Entra": "BRUNO MARIA IRULEGUY",
+   "camiseta": "71",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "50731",
+   "Jug_Sale": "FACUNDO MUNUA",
+   "CarneEntra": "48077",
+   "Jug_Entra": "AGUSTIN MARTINEZ",
+   "camiseta": "10",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "51145",
+   "Jug_Sale": "ALEJANDRO VICTORICA",
+   "CarneEntra": "38249",
+   "Jug_Entra": "TOMAS FALCO",
+   "camiseta": "16",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "49627",
+   "Jug_Sale": "THEO FRANCO PIZZINI",
+   "CarneEntra": "65309",
+   "Jug_Entra": "TIAGO SANTAMARIA",
+   "camiseta": "32",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "53647",
+   "Jug_Sale": "MATIAS PINTOS",
+   "CarneEntra": "35167",
+   "Jug_Entra": "JUAN MARTIN AROCENA",
+   "camiseta": "44",
+   "minutos": "90"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "47761",
+   "Jug_Sale": "JUAN IGNACIO POTRIE",
+   "CarneEntra": "44810",
+   "Jug_Entra": "SANTIAGO GONZALEZ",
+   "camiseta": "24",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "48915",
+   "Jug_Sale": "FACUNDO CURT GEISINGER",
+   "CarneEntra": "31878",
+   "Jug_Entra": "MAXIMILIANO SALA",
+   "camiseta": "47",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "44291",
+   "Jug_Sale": "IGNACIO GEISINGER",
+   "CarneEntra": "49610",
+   "Jug_Entra": "MARTIN SUAYA",
+   "camiseta": "21",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "48917",
+   "Jug_Sale": "FRANCISCO ALGORTA",
+   "CarneEntra": "66377",
+   "Jug_Entra": "MATEO AGUSTIN ASENCIO",
+   "camiseta": "29",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "47764",
+   "Jug_Sale": "BRUNO ZEFFERINO",
+   "CarneEntra": "46250",
+   "Jug_Entra": "GUILLERMO JAVIER BECCHIO",
+   "camiseta": "22",
+   "minutos": "83"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "50731",
+   "Nombre": "FACUNDO MUNUA",
+   "minutos": "36",
+   "EnContra": "0"
+  },
+  {
+   "carne": "51145",
+   "Nombre": "ALEJANDRO VICTORICA",
+   "minutos": "15",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "41534",
+   "Nombre": "DIEGO NICOLAS CHIJANE",
+   "minutos": "85",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

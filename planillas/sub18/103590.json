@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB18 ORO",
   "Cancha": "CAMPO MARISTAS DEPORTIVO",
-  "Fecha_Inicio": "2026-11-01 17:00:00",
-  "Fecha_fin": "2026-11-01 17:00:00",
+  "Fecha_Inicio": "2026-11-01 17:20:00",
+  "Fecha_fin": "2026-11-01 17:20:00",
   "Locatario": "MARISTAS DEPORTIVO",
   "goles_locatario": "2",
   "puntos_locatario": "3",
@@ -29,12 +29,245 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "titularesL": [
+  {
+   "carne": "61315",
+   "Nombre": "IGNACIO CAETANO MACCHI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "67545",
+   "Nombre": "JOAQUIN TEO FUSTES",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "62908",
+   "Nombre": "MATHEUS JOSE DE MORAES",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "59055",
+   "Nombre": "JUAN PABLO MIGUEZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "66011",
+   "Nombre": "FRANCO MARTIN REY",
+   "camiseta": "90",
+   "Capitan": ""
+  },
+  {
+   "carne": "60829",
+   "Nombre": "SANTIAGO MORALES",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "60754",
+   "Nombre": "FELIPE DIAZ",
+   "camiseta": "80",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "59049",
+   "Nombre": "SANTIAGO CABRERA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "66431",
+   "Nombre": "IGNACIO CAILLABET",
+   "camiseta": "71",
+   "Capitan": ""
+  },
+  {
+   "carne": "62933",
+   "Nombre": "JUAN DIEGO ACOSTA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "68593",
+   "Nombre": "FACUNDO DANIEL ESNAL",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "57786",
+   "Nombre": "FAUSTINO ARDITTI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "63144",
+   "Nombre": "DIEGO RAFAEL DECARLINI",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "63410",
+   "Nombre": "TOMAS GRUDZIEN",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "62744",
+   "Nombre": "FELIPE SARACCO",
+   "camiseta": "53",
+   "Capitan": ""
+  },
+  {
+   "carne": "57593",
+   "Nombre": "GENARO DE MORI",
+   "camiseta": "38",
+   "Capitan": ""
+  },
+  {
+   "carne": "56127",
+   "Nombre": "FELIPE CROCI",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "56869",
+   "Nombre": "NICOLAS PODESTA",
+   "camiseta": "36",
+   "Capitan": ""
+  },
+  {
+   "carne": "61501",
+   "Nombre": "IGNACIO PARADA",
+   "camiseta": "50",
+   "Capitan": ""
+  },
+  {
+   "carne": "61096",
+   "Nombre": "TOMAS ARRIETA",
+   "camiseta": "27",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "62737",
+   "Nombre": "VALENTINO SPOSITO",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "57605",
+   "Nombre": "SANTIAGO GONZALEZ",
+   "camiseta": "51",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "66431",
+   "Jug_Sale": "IGNACIO CAILLABET",
+   "CarneEntra": "58923",
+   "Jug_Entra": "MATEO CORREA",
+   "camiseta": "16",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "66011",
+   "Jug_Sale": "FRANCO MARTIN REY",
+   "CarneEntra": "60168",
+   "Jug_Entra": "RAFAEL DELGADO",
+   "camiseta": "97",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "62933",
+   "Jug_Sale": "JUAN DIEGO ACOSTA",
+   "CarneEntra": "68722",
+   "Jug_Entra": "FABRICIO MANUEL RABELA",
+   "camiseta": "79",
+   "minutos": "88"
+  },
+  {
+   "CarneSale": "68593",
+   "Jug_Sale": "FACUNDO DANIEL ESNAL",
+   "CarneEntra": "67689",
+   "Jug_Entra": "FELIPE FAHRADJIAN",
+   "camiseta": "19",
+   "minutos": "91"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "62744",
+   "Jug_Sale": "FELIPE SARACCO",
+   "CarneEntra": "62734",
+   "Jug_Entra": "BALTAZAR FERRARO",
+   "camiseta": "48",
+   "minutos": "50"
+  },
+  {
+   "CarneSale": "56127",
+   "Jug_Sale": "FELIPE CROCI",
+   "CarneEntra": "60773",
+   "Jug_Entra": "ALFONSO SCHAICH",
+   "camiseta": "14",
+   "minutos": "50"
+  },
+  {
+   "CarneSale": "63144",
+   "Jug_Sale": "DIEGO RAFAEL DECARLINI",
+   "CarneEntra": "67652",
+   "Jug_Entra": "FACUNDO PEREZ",
+   "camiseta": "61",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "61501",
+   "Jug_Sale": "IGNACIO PARADA",
+   "CarneEntra": "62744",
+   "Jug_Entra": "FELIPE SARACCO",
+   "camiseta": "53",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "57605",
+   "Jug_Sale": "SANTIAGO GONZALEZ",
+   "CarneEntra": "61859",
+   "Jug_Entra": "JUAN SEGUNDO RODRIGUEZ",
+   "camiseta": "19",
+   "minutos": "65"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "62933",
+   "Nombre": "JUAN DIEGO ACOSTA",
+   "minutos": "40",
+   "EnContra": "0"
+  },
+  {
+   "carne": "62933",
+   "Nombre": "JUAN DIEGO ACOSTA",
+   "minutos": "49",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "56869",
+   "Nombre": "NICOLAS PODESTA",
+   "minutos": "90",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "FELIPE DIAZ",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

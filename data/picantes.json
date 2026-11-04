@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-03T18:27:45.248Z",
+ "actualizado": "2026-11-04T00:01:49.325Z",
  "partidos": [
   {
    "div": "mayores-a",
@@ -15,7 +15,7 @@
    "n": 8,
    "base": 0,
    "tipo": "titulo",
-   "altasL": 1,
+   "altasL": 0,
    "altasV": 0
   },
   {
@@ -84,23 +84,6 @@
    "base": 8,
    "tipo": "descenso",
    "altasL": 0,
-   "altasV": 3
-  },
-  {
-   "div": "sub20-a",
-   "divNombre": "Sub 20 A",
-   "k": "J.M.L.M~Old Woodlands",
-   "l": "J.M.L.M",
-   "v": "Old Woodlands",
-   "dia": "2026-11-07",
-   "hora": "00:00",
-   "etapa": "Título",
-   "pl": 4,
-   "pv": 1,
-   "n": 8,
-   "base": 0,
-   "tipo": "titulo",
-   "altasL": 1,
    "altasV": 1
   },
   {
@@ -119,6 +102,23 @@
    "tipo": "descenso",
    "altasL": 1,
    "altasV": 4
+  },
+  {
+   "div": "sub20-a",
+   "divNombre": "Sub 20 A",
+   "k": "J.M.L.M~Old Woodlands",
+   "l": "J.M.L.M",
+   "v": "Old Woodlands",
+   "dia": "2026-11-07",
+   "hora": "15:30",
+   "etapa": "Título",
+   "pl": 4,
+   "pv": 1,
+   "n": 8,
+   "base": 0,
+   "tipo": "titulo",
+   "altasL": 1,
+   "altasV": 1
   },
   {
    "div": "presenior-a",
@@ -151,7 +151,7 @@
    "n": 8,
    "base": 8,
    "tipo": "descenso",
-   "altasL": 1,
+   "altasL": 0,
    "altasV": 1
   },
   {
@@ -203,7 +203,7 @@
    "base": 0,
    "tipo": "titulo",
    "altasL": 3,
-   "altasV": 1
+   "altasV": 0
   },
   {
    "div": "sub20-b",
@@ -270,8 +270,8 @@
    "n": 8,
    "base": 0,
    "tipo": "titulo",
-   "altasL": 0,
-   "altasV": 2
+   "altasL": 1,
+   "altasV": 3
   },
   {
    "div": "reserva-c",
@@ -287,7 +287,7 @@
    "n": 8,
    "base": 0,
    "tipo": "titulo",
-   "altasL": 0,
+   "altasL": 1,
    "altasV": 1
   },
   {
@@ -322,7 +322,7 @@
    "base": 0,
    "tipo": "titulo",
    "altasL": 0,
-   "altasV": 1
+   "altasV": 0
   },
   {
    "div": "reserva-a",
@@ -339,7 +339,7 @@
    "base": 8,
    "tipo": "descenso",
    "altasL": 0,
-   "altasV": 2
+   "altasV": 1
   },
   {
    "div": "presenior-a",
@@ -406,8 +406,8 @@
    "n": 8,
    "base": 8,
    "tipo": "descenso",
-   "altasL": 1,
-   "altasV": 0
+   "altasL": 2,
+   "altasV": 1
   },
   {
    "div": "mas40-b",
@@ -441,7 +441,7 @@
    "base": 0,
    "tipo": "titulo",
    "altasL": 0,
-   "altasV": 2
+   "altasV": 0
   },
   {
    "div": "mayores-d",
@@ -458,7 +458,7 @@
    "base": 0,
    "tipo": "titulo",
    "altasL": 0,
-   "altasV": 1
+   "altasV": 0
   },
   {
    "div": "mayores-f",
@@ -474,7 +474,7 @@
    "n": 8,
    "base": 0,
    "tipo": "titulo",
-   "altasL": 2,
+   "altasL": 1,
    "altasV": 0
   },
   {

@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"G\" TIT. y ASC",
   "Cancha": "ESCUELA NAVAL",
-  "Fecha_Inicio": "2026-11-01 10:30:00",
-  "Fecha_fin": "2026-11-01 10:30:00",
+  "Fecha_Inicio": "2026-11-01 10:50:00",
+  "Fecha_fin": "2026-11-01 10:50:00",
   "Locatario": "DEPORTIVO NAVAL",
   "goles_locatario": "2",
   "puntos_locatario": "0",
@@ -29,12 +29,276 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "45578",
+   "Nombre": "VICTOR MANUEL REYES",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "57861",
+   "Nombre": "NICOLAS CESAR",
+   "camiseta": "47",
+   "Capitan": ""
+  },
+  {
+   "carne": "40687",
+   "Nombre": "DIEGO FERNANDO FURRER",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "66482",
+   "Nombre": "RAFAEL DOLDAN",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "22811",
+   "Nombre": "RICARDO SILVA",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "58062",
+   "Nombre": "LEONARDO BENJAIN CARBALLO",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "60656",
+   "Nombre": "RAMIRO GONZALEZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "60657",
+   "Nombre": "CAMILO ARES",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "51624",
+   "Nombre": "ALVARO RODRIGUEZ",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "55055",
+   "Nombre": "AGUSTIN FRANCO TROISI",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "27893",
+   "Nombre": "ALEX MAURICIO ROLDAN",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "29730",
+   "Nombre": "FABIAN LEANDRO MAKOWSKI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "33157",
+   "Nombre": "JOAQUIN CAYRUS",
+   "camiseta": "46",
+   "Capitan": ""
+  },
+  {
+   "carne": "57262",
+   "Nombre": "BRIAN PATERA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "36515",
+   "Nombre": "SEBASTIAN ARSUAGA",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "68960",
+   "Nombre": "MAURICIO EZEQUIEL IMPERIAL",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "67176",
+   "Nombre": "LUCAS PIAS",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "38933",
+   "Nombre": "RICARDO AGUSTIN PERDOMO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "64267",
+   "Nombre": "AXEL MATEO ZELPO",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "51702",
+   "Nombre": "MAXIMILIANO GOMEZ",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "39170",
+   "Nombre": "EMILIANO HELO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "34073",
+   "Nombre": "ALVARO MARTIN BADARACCO",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "57861",
+   "Jug_Sale": "NICOLAS CESAR",
+   "CarneEntra": "36874",
+   "Jug_Entra": "ANIBAL DAMIAN CASTILLO",
+   "camiseta": "28",
+   "minutos": "43"
+  },
+  {
+   "CarneSale": "58062",
+   "Jug_Sale": "LEONARDO BENJAIN CARBALLO",
+   "CarneEntra": "57983",
+   "Jug_Entra": "MATHIAS TEOFILO DELGADO",
+   "camiseta": "18",
+   "minutos": "43"
+  },
+  {
+   "CarneSale": "55055",
+   "Jug_Sale": "AGUSTIN FRANCO TROISI",
+   "CarneEntra": "48186",
+   "Jug_Entra": "LUIS EDUARDO PEREYRA",
+   "camiseta": "45",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "60657",
+   "Jug_Sale": "CAMILO ARES",
+   "CarneEntra": "57861",
+   "Jug_Entra": "NICOLAS CESAR",
+   "camiseta": "47",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "57861",
+   "Jug_Sale": "NICOLAS CESAR",
+   "CarneEntra": "55055",
+   "Jug_Entra": "AGUSTIN FRANCO TROISI",
+   "camiseta": "11",
+   "minutos": "90"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "57262",
+   "Jug_Sale": "BRIAN PATERA",
+   "CarneEntra": "33805",
+   "Jug_Entra": "GUSTAVO REBELLATO",
+   "camiseta": "8",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "33157",
+   "Jug_Sale": "JOAQUIN CAYRUS",
+   "CarneEntra": "47166",
+   "Jug_Entra": "ISMAEL NICOLAS BENITEZ",
+   "camiseta": "4",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "39170",
+   "Jug_Sale": "EMILIANO HELO",
+   "CarneEntra": "45377",
+   "Jug_Entra": "FRANCO FERRERO",
+   "camiseta": "80",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "36515",
+   "Jug_Sale": "SEBASTIAN ARSUAGA",
+   "CarneEntra": "57259",
+   "Jug_Entra": "CARLOS  ALBERTO SANCHEZ",
+   "camiseta": "28",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "34073",
+   "Jug_Sale": "ALVARO MARTIN BADARACCO",
+   "CarneEntra": "33161",
+   "Jug_Entra": "DIEGO OYHARZABAL",
+   "camiseta": "7",
+   "minutos": "52"
+  },
+  {
+   "CarneSale": "67176",
+   "Jug_Sale": "LUCAS PIAS",
+   "CarneEntra": "57118",
+   "Jug_Entra": "ENZO BATISTA",
+   "camiseta": "19",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "51702",
+   "Jug_Sale": "MAXIMILIANO GOMEZ",
+   "CarneEntra": "67039",
+   "Jug_Entra": "IVAN NAZARENKO NAZARENKO RUOCCO",
+   "camiseta": "10",
+   "minutos": "73"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "27893",
+   "Nombre": "ALEX MAURICIO ROLDAN",
+   "minutos": "17",
+   "EnContra": "0"
+  },
+  {
+   "carne": "27893",
+   "Nombre": "ALEX MAURICIO ROLDAN",
+   "minutos": "86",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "33161",
+   "Nombre": "DIEGO OYHARZABAL",
+   "minutos": "59",
+   "EnContra": "1"
+  },
+  {
+   "carne": "34073",
+   "Nombre": "ALVARO MARTIN BADARACCO",
+   "minutos": "21",
+   "EnContra": "1"
+  },
+  {
+   "carne": "51702",
+   "Nombre": "MAXIMILIANO GOMEZ",
+   "minutos": "18",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

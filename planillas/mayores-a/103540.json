@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"A\" TITULO",
   "Cancha": "COMPLEJO WOODLANDS SCHOOL",
-  "Fecha_Inicio": "2026-11-01 12:45:00",
-  "Fecha_fin": "2026-11-01 12:45:00",
+  "Fecha_Inicio": "2026-11-01 13:10:00",
+  "Fecha_fin": "2026-11-01 13:10:00",
   "Locatario": "OLD WOODLANDS CLUB",
   "goles_locatario": "2",
   "puntos_locatario": "3",
@@ -29,11 +29,240 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "47611",
+   "Nombre": "FERNAN BZUROVSKI",
+   "camiseta": "73",
+   "Capitan": ""
+  },
+  {
+   "carne": "40030",
+   "Nombre": "ALEJO BZUROVSKI",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "36816",
+   "Nombre": "MARTIN COLELLA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "49214",
+   "Nombre": "FELIPE HERNANDEZ",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "49206",
+   "Nombre": "TOMAS PONCE DE LEON",
+   "camiseta": "91",
+   "Capitan": ""
+  },
+  {
+   "carne": "36481",
+   "Nombre": "JUAN PABLO VIANA",
+   "camiseta": "4",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "35145",
+   "Nombre": "IGNACIO COLELLA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "35584",
+   "Nombre": "LUCAS GUIMARAES",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "52842",
+   "Nombre": "TIZIANO GUIGOU",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "41117",
+   "Nombre": "LUIS FERNANDO HERBIN",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "41519",
+   "Nombre": "MATEO ROLDOS",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "39321",
+   "Nombre": "JUAN ESTEBAN LUKETICH",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "43243",
+   "Nombre": "LUIS OMAR CASTAGNINO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "36849",
+   "Nombre": "LUCAS RICARDO VITOLA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "35841",
+   "Nombre": "ADOLFO SAEZ",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "56768",
+   "Nombre": "MATIAS DUPUY",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "38540",
+   "Nombre": "JOAQUIN SAEZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "27123",
+   "Nombre": "AGUSTIN GABUS",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "45408",
+   "Nombre": "IGNACIO CANEPA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "47497",
+   "Nombre": "FEDERICO TUZMAN",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "41113",
+   "Nombre": "FACUNDO CANEPA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "40561",
+   "Nombre": "AGUSTIN ETCHEGARAY",
+   "camiseta": "9",
+   "Capitan": "(C)"
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "36816",
+   "Jug_Sale": "MARTIN COLELLA",
+   "CarneEntra": "53488",
+   "Jug_Entra": "FRANCO FONTANAROSSA",
+   "camiseta": "55",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "49214",
+   "Jug_Sale": "FELIPE HERNANDEZ",
+   "CarneEntra": "45433",
+   "Jug_Entra": "FELIPE BENZANO",
+   "camiseta": "23",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "52842",
+   "Jug_Sale": "TIZIANO GUIGOU",
+   "CarneEntra": "39927",
+   "Jug_Entra": "MARTIN HERNANDEZ",
+   "camiseta": "26",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "35584",
+   "Jug_Sale": "LUCAS GUIMARAES",
+   "CarneEntra": "45789",
+   "Jug_Entra": "JUAN PABLO COLELLA",
+   "camiseta": "33",
+   "minutos": "85"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "38540",
+   "Jug_Sale": "JOAQUIN SAEZ",
+   "CarneEntra": "59826",
+   "Jug_Entra": "ALFONSO BADANO",
+   "camiseta": "8",
+   "minutos": "42"
+  },
+  {
+   "CarneSale": "36849",
+   "Jug_Sale": "LUCAS RICARDO VITOLA",
+   "CarneEntra": "49456",
+   "Jug_Entra": "IGNACIO ANTONIO CARNEIRO",
+   "camiseta": "10",
+   "minutos": "53"
+  },
+  {
+   "CarneSale": "45408",
+   "Jug_Sale": "IGNACIO CANEPA",
+   "CarneEntra": "34958",
+   "Jug_Entra": "FEDERICO CAMPOS",
+   "camiseta": "6",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "41113",
+   "Jug_Sale": "FACUNDO CANEPA",
+   "CarneEntra": "44457",
+   "Jug_Entra": "BRUNO GIORDANO",
+   "camiseta": "7",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "56768",
+   "Jug_Sale": "MATIAS DUPUY",
+   "CarneEntra": "55273",
+   "Jug_Entra": "JUAN SARACCO",
+   "camiseta": "25",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "35841",
+   "Jug_Sale": "ADOLFO SAEZ",
+   "CarneEntra": "40768",
+   "Jug_Entra": "GERMAN PAZOS",
+   "camiseta": "18",
+   "minutos": "80"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "40030",
+   "Nombre": "ALEJO BZUROVSKI",
+   "minutos": "51",
+   "EnContra": "0"
+  },
+  {
+   "carne": "41519",
+   "Nombre": "MATEO ROLDOS",
+   "minutos": "32",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

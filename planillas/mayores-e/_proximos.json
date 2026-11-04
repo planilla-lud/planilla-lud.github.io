@@ -1,17 +1,17 @@
 [
  {
-  "serie": "ETA",
-  "fechaHora": "2026-11-08 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "DEPORTIVO MITRE",
-  "visitante": "SAN AGUSTIN"
- },
- {
   "serie": "EPD",
   "fechaHora": "2026-11-08 00:00:00",
   "cancha": "CANCHA A FIJAR",
   "local": "OLD SAMPA CLUB",
   "visitante": "EL CHORRO FUTBOL CLUB"
+ },
+ {
+  "serie": "ETA",
+  "fechaHora": "2026-11-08 09:00:00",
+  "cancha": "ESCUELA NAVAL",
+  "local": "DEPORTIVO MITRE",
+  "visitante": "SAN AGUSTIN"
  },
  {
   "serie": "ETA",

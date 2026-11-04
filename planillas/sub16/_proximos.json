@@ -210,6 +210,13 @@
   "visitante": "ALEMAN UNIVERSITARIO"
  },
  {
+  "serie": "16B",
+  "fechaHora": "2026-11-12 20:00:00",
+  "cancha": "LA MENNAIS",
+  "local": "J.M.L.M",
+  "visitante": "ALEMAN UNIVERSITARIO"
+ },
+ {
   "serie": "16O",
   "fechaHora": "2026-11-15 00:00:00",
   "cancha": "CANCHA A FIJAR",
@@ -369,13 +376,6 @@
   "cancha": "CANCHA A FIJAR",
   "local": "TENIS EL PINAR",
   "visitante": "POCO SITIO PLAYA VERDE"
- },
- {
-  "serie": "16B",
-  "fechaHora": "2026-11-22 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "J.M.L.M",
-  "visitante": "ALEMAN UNIVERSITARIO"
  },
  {
   "serie": "16C",

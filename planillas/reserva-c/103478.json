@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"C\" TIT. y ASC.",
   "Cancha": "COMPLEJO JUAN XXIII",
-  "Fecha_Inicio": "2026-10-31 12:45:00",
-  "Fecha_fin": "2026-10-31 12:45:00",
+  "Fecha_Inicio": "2026-10-31 13:00:00",
+  "Fecha_fin": "2026-10-31 13:00:00",
   "Locatario": "SAN PABLO UNIVERSITARIO",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,264 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "45571",
+   "Nombre": "JOSE MARIA NUÐEZ",
+   "camiseta": "39",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "54939",
+   "Nombre": "MAURO PEREIRA DAS NEVES",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "63209",
+   "Nombre": "VALENTIN MENDEZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "52895",
+   "Nombre": "RODRIGO MORANDI",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "53751",
+   "Nombre": "FELIPE BELLORA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "56490",
+   "Nombre": "PABLO ANDRES SCOFFONE",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "47881",
+   "Nombre": "GUILLERMO GONZALEZ",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "42736",
+   "Nombre": "SANTIAGO SOCA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "52663",
+   "Nombre": "MARCOS VERNENGO",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "59329",
+   "Nombre": "MATEO LAUTARO FERNANDEZ",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "53769",
+   "Nombre": "TIAGO DA SILVA",
+   "camiseta": "15",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "69011",
+   "Nombre": "SANTIAGO DANILO GONZALEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "42691",
+   "Nombre": "MAXIMILIANO MUNDIN",
+   "camiseta": "21",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56300",
+   "Nombre": "NICOLAS CARDOZO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "51293",
+   "Nombre": "JUAN MARTIN CABALLERO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "61832",
+   "Nombre": "AGUSTIN FRANCA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "63923",
+   "Nombre": "ADRIAN MOREIRA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "58023",
+   "Nombre": "MANUEL MENDEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "55067",
+   "Nombre": "NICOLAS MAURO RODRIGUEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "63586",
+   "Nombre": "EMILIANO ARREGUI",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "54780",
+   "Nombre": "ESTEBAN DANIEL VAZQUEZ",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "39619",
+   "Nombre": "CRISTHIAN AGUSTIN ANADON",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "53751",
+   "Jug_Sale": "FELIPE BELLORA",
+   "CarneEntra": "56704",
+   "Jug_Entra": "FRANCO RODRIGUEZ",
+   "camiseta": "2",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "42736",
+   "Jug_Sale": "SANTIAGO SOCA",
+   "CarneEntra": "51334",
+   "Jug_Entra": "FRANCISCO ENRIQUE TRIAY",
+   "camiseta": "27",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "52895",
+   "Jug_Sale": "RODRIGO MORANDI",
+   "CarneEntra": "56705",
+   "Jug_Entra": "AGUSTIN ULISES FAGIANI",
+   "camiseta": "26",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "47881",
+   "Jug_Sale": "GUILLERMO GONZALEZ",
+   "CarneEntra": "47151",
+   "Jug_Entra": "THIAGO QUINTAS",
+   "camiseta": "64",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "59329",
+   "Jug_Sale": "MATEO LAUTARO FERNANDEZ",
+   "CarneEntra": "37686",
+   "Jug_Entra": "MARTIN ROMANIELLO",
+   "camiseta": "88",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "54939",
+   "Jug_Sale": "MAURO PEREIRA DAS NEVES",
+   "CarneEntra": "66219",
+   "Jug_Entra": "JOAQUIN MENENDEZ",
+   "camiseta": "24",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "56490",
+   "Jug_Sale": "PABLO ANDRES SCOFFONE",
+   "CarneEntra": "48053",
+   "Jug_Entra": "CAETANO JOAQUIN RODRIGUEZ",
+   "camiseta": "17",
+   "minutos": "80"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "56300",
+   "Jug_Sale": "NICOLAS CARDOZO",
+   "CarneEntra": "59163",
+   "Jug_Entra": "FEDERICO ISMAEL MENDOZA",
+   "camiseta": "5",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58023",
+   "Jug_Sale": "MANUEL MENDEZ",
+   "CarneEntra": "62542",
+   "Jug_Entra": "FERNANDO ISMAEL MARTINEZ",
+   "camiseta": "20",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "63586",
+   "Jug_Sale": "EMILIANO ARREGUI",
+   "CarneEntra": "64473",
+   "Jug_Entra": "GIANFRANCO MARCHIORO",
+   "camiseta": "18",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "55067",
+   "Jug_Sale": "NICOLAS MAURO RODRIGUEZ",
+   "CarneEntra": "40962",
+   "Jug_Entra": "JUAN MANUEL MARQUES",
+   "camiseta": "22",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "61832",
+   "Jug_Sale": "AGUSTIN FRANCA",
+   "CarneEntra": "44534",
+   "Jug_Entra": "FRANCO DE GREGORIO",
+   "camiseta": "19",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "54780",
+   "Jug_Sale": "ESTEBAN DANIEL VAZQUEZ",
+   "CarneEntra": "58647",
+   "Jug_Entra": "DIEGO FERNANDO MORALES",
+   "camiseta": "14",
+   "minutos": "78"
+  }
+ ],
  "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "golesV": [
+  {
+   "carne": "39619",
+   "Nombre": "CRISTHIAN AGUSTIN ANADON",
+   "minutos": "54",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "VALENTIN MENDEZ",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

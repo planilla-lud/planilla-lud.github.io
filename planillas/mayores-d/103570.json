@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"D\" TIT. y ASC.",
   "Cancha": "COMPLEJO LAS CASUARINAS",
-  "Fecha_Inicio": "2026-11-01 12:45:00",
-  "Fecha_fin": "2026-11-01 12:45:00",
+  "Fecha_Inicio": "2026-11-01 13:15:00",
+  "Fecha_fin": "2026-11-01 13:15:00",
   "Locatario": "YOUNG UNIVERSITARIO",
   "goles_locatario": "2",
   "puntos_locatario": "1",
@@ -29,12 +29,246 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "68364",
+   "Nombre": "SANTIAGO PEREIRA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "52791",
+   "Nombre": "MATIAS NICOLAS DAVYT",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "69190",
+   "Nombre": "LUCAS AMARILLO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "67326",
+   "Nombre": "MAXIMO VILA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "59242",
+   "Nombre": "NICOLAS ALVEZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "57721",
+   "Nombre": "ESTEBAN DAVID GAGAUZ",
+   "camiseta": "7",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "66216",
+   "Nombre": "TABARE FACUNDO RAMOS",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "55884",
+   "Nombre": "JOAQUIN VIÑOLY",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "56337",
+   "Nombre": "IVAN HARTWICH",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "64593",
+   "Nombre": "VICENTE GERFAUO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "52353",
+   "Nombre": "JUAN MARTIN TERRA",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "45647",
+   "Nombre": "FEDERICO ROCCO",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "59855",
+   "Nombre": "SALVADOR BENTANCUR",
+   "camiseta": "37",
+   "Capitan": ""
+  },
+  {
+   "carne": "39438",
+   "Nombre": "MARTIN FONT",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "39046",
+   "Nombre": "RAFAEL FERREIRA",
+   "camiseta": "28",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "52482",
+   "Nombre": "JUAN AGUSTIN CARBONE",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "55079",
+   "Nombre": "EMILIANO CARDOZO",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "47709",
+   "Nombre": "MATIAS VIDAL",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "31503",
+   "Nombre": "SANTIAGO GALLINAL",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "68653",
+   "Nombre": "CARLOS CABALLERO",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "37406",
+   "Nombre": "NICOLAS VARESE",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "54378",
+   "Nombre": "NICOLAS VAZQUEZ",
+   "camiseta": "77",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "69190",
+   "Jug_Sale": "LUCAS AMARILLO",
+   "CarneEntra": "58825",
+   "Jug_Entra": "GONZALO FERNANDEZ",
+   "camiseta": "20",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "52353",
+   "Jug_Sale": "JUAN MARTIN TERRA",
+   "CarneEntra": "56157",
+   "Jug_Entra": "JEREMIAS SILVEIRA",
+   "camiseta": "26",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56337",
+   "Jug_Sale": "IVAN HARTWICH",
+   "CarneEntra": "67306",
+   "Jug_Entra": "JOSE SEBASTIAN GARCIA",
+   "camiseta": "22",
+   "minutos": "59"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "37406",
+   "Jug_Sale": "NICOLAS VARESE",
+   "CarneEntra": "28114",
+   "Jug_Entra": "SEBASTIAN EASTMAN",
+   "camiseta": "10",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "54378",
+   "Jug_Sale": "NICOLAS VAZQUEZ",
+   "CarneEntra": "30116",
+   "Jug_Entra": "JUAN PEDRO CAVIGLIA",
+   "camiseta": "16",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "31503",
+   "Jug_Sale": "SANTIAGO GALLINAL",
+   "CarneEntra": "39047",
+   "Jug_Entra": "MAXIMILIANO ALEXIS ROSE",
+   "camiseta": "13",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "68653",
+   "Jug_Sale": "CARLOS CABALLERO",
+   "CarneEntra": "33375",
+   "Jug_Entra": "JOSE IGNACIO SAENZ",
+   "camiseta": "6",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "47709",
+   "Jug_Sale": "MATIAS VIDAL",
+   "CarneEntra": "51078",
+   "Jug_Entra": "FRANCISCO AMOZA",
+   "camiseta": "18",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "55079",
+   "Jug_Sale": "EMILIANO CARDOZO",
+   "CarneEntra": "55076",
+   "Jug_Entra": "SIMON RUSSI",
+   "camiseta": "47",
+   "minutos": "87"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "56157",
+   "Nombre": "JEREMIAS SILVEIRA",
+   "minutos": "78",
+   "EnContra": "0"
+  },
+  {
+   "carne": "67306",
+   "Nombre": "JOSE SEBASTIAN GARCIA",
+   "minutos": "95",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "52482",
+   "Nombre": "JUAN AGUSTIN CARBONE",
+   "minutos": "86",
+   "EnContra": "1"
+  },
+  {
+   "carne": "54378",
+   "Nombre": "NICOLAS VAZQUEZ",
+   "minutos": "4",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

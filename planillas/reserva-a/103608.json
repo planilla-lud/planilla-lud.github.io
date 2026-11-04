@@ -1,0 +1,279 @@
+{
+ "id": "103608",
+ "categoria": "reserva-a",
+ "serie": "RSAT",
+ "fecha": 5,
+ "fechaHora": "2026-10-31 11:15:00",
+ "cancha": "OLD CHRISTIANS CLUB",
+ "local": "OLD CHRISTIANS CLUB",
+ "visitante": "PLAYA HONDA UNIVERSITARIO",
+ "gl": 1,
+ "gv": 0,
+ "detalle": {
+  "nro_partido": "632",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "RESERVA",
+  "categoria": "RESERVA MASCULINO",
+  "rueda": "2",
+  "Divisional": "RESERVA \"A\" TITULO",
+  "Cancha": "OLD CHRISTIANS CLUB",
+  "Fecha_Inicio": "2026-10-31 13:05:00",
+  "Fecha_fin": "2026-10-31 13:05:00",
+  "Locatario": "OLD CHRISTIANS CLUB",
+  "goles_locatario": "1",
+  "puntos_locatario": "3",
+  "Visitante": "PLAYA HONDA UNIVERSITARIO",
+  "goles_visitante": "0",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "48037",
+   "Nombre": "MATEO FABREGAT",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "67291",
+   "Nombre": "AUGUSTO PAULLIER",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "38310",
+   "Nombre": "FEDERICO PONTE",
+   "camiseta": "95",
+   "Capitan": ""
+  },
+  {
+   "carne": "52819",
+   "Nombre": "IÑAKI LARRAECHEA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "51135",
+   "Nombre": "JOAQUIN FABREGAT",
+   "camiseta": "61",
+   "Capitan": ""
+  },
+  {
+   "carne": "52331",
+   "Nombre": "JOSE PEDRO PARODI",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "30724",
+   "Nombre": "FEDERICO RICARDO MOLINS",
+   "camiseta": "93",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "55392",
+   "Nombre": "SANTIAGO COSTA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "55118",
+   "Nombre": "JUAN PABLO MOREIRA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "56908",
+   "Nombre": "GUILLERMO HOUNIE",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "66722",
+   "Nombre": "JOAQUIN RODRIGUEZ",
+   "camiseta": "38",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "53369",
+   "Nombre": "IVAN BARCIA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "53845",
+   "Nombre": "MARTIN CURUTCHAGUE",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "55177",
+   "Nombre": "MARCO PISANO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "52880",
+   "Nombre": "RODOLFO RODRIGUEZ",
+   "camiseta": "43",
+   "Capitan": ""
+  },
+  {
+   "carne": "58715",
+   "Nombre": "JUAN SEBASTIAN RODRIGUEZ",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "68323",
+   "Nombre": "FEDERICO SOLDEVILA",
+   "camiseta": "48",
+   "Capitan": ""
+  },
+  {
+   "carne": "56147",
+   "Nombre": "MAURO MATEO NAVARRINE",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "41179",
+   "Nombre": "EUGENIO SUPPARO",
+   "camiseta": "3",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "67539",
+   "Nombre": "MATIAS NICOLAS RODRIGUEZ",
+   "camiseta": "46",
+   "Capitan": ""
+  },
+  {
+   "carne": "53617",
+   "Nombre": "MAXIMILIANO MONTERO",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "62024",
+   "Nombre": "JUAN MANUEL BOCCHI",
+   "camiseta": "41",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "55118",
+   "Jug_Sale": "JUAN PABLO MOREIRA",
+   "CarneEntra": "37259",
+   "Jug_Entra": "IGNACIO MACHADO",
+   "camiseta": "4",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "55392",
+   "Jug_Sale": "SANTIAGO COSTA",
+   "CarneEntra": "46771",
+   "Jug_Entra": "SANTIAGO HAM",
+   "camiseta": "11",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "51135",
+   "Jug_Sale": "JOAQUIN FABREGAT",
+   "CarneEntra": "50902",
+   "Jug_Entra": "SANTIAGO VINCENT",
+   "camiseta": "6",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "30724",
+   "Jug_Sale": "FEDERICO RICARDO MOLINS",
+   "CarneEntra": "32431",
+   "Jug_Entra": "BENJAMIN BUNGE",
+   "camiseta": "9",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "56908",
+   "Jug_Sale": "GUILLERMO HOUNIE",
+   "CarneEntra": "44918",
+   "Jug_Entra": "JOAQUIN BLANCO",
+   "camiseta": "29",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "52819",
+   "Jug_Sale": "IÑAKI LARRAECHEA",
+   "CarneEntra": "49655",
+   "Jug_Entra": "HERNAN ALEGRESA",
+   "camiseta": "78",
+   "minutos": "90"
+  },
+  {
+   "CarneSale": "52331",
+   "Jug_Sale": "JOSE PEDRO PARODI",
+   "CarneEntra": "37170",
+   "Jug_Entra": "SEBASTIAN REGULES",
+   "camiseta": "75",
+   "minutos": "90"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "53617",
+   "Jug_Sale": "MAXIMILIANO MONTERO",
+   "CarneEntra": "44483",
+   "Jug_Entra": "RAMIRO GUICHON",
+   "camiseta": "44",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58715",
+   "Jug_Sale": "JUAN SEBASTIAN RODRIGUEZ",
+   "CarneEntra": "67537",
+   "Jug_Entra": "BAUTISTA GARRE",
+   "camiseta": "38",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "55177",
+   "Jug_Sale": "MARCO PISANO",
+   "CarneEntra": "54805",
+   "Jug_Entra": "MATIAS PALMERO",
+   "camiseta": "33",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "44483",
+   "Jug_Sale": "RAMIRO GUICHON",
+   "CarneEntra": "58715",
+   "Jug_Entra": "JUAN SEBASTIAN RODRIGUEZ",
+   "camiseta": "32",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "67539",
+   "Jug_Sale": "MATIAS NICOLAS RODRIGUEZ",
+   "CarneEntra": "55177",
+   "Jug_Entra": "MARCO PISANO",
+   "camiseta": "5",
+   "minutos": "64"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "66722",
+   "Nombre": "JOAQUIN RODRIGUEZ",
+   "minutos": "18",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

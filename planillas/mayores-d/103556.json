@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"D\" PERM. y DESC.",
   "Cancha": "VILLA MARIA",
-  "Fecha_Inicio": "2026-11-01 10:30:00",
-  "Fecha_fin": "2026-11-01 10:30:00",
+  "Fecha_Inicio": "2026-11-01 11:00:00",
+  "Fecha_fin": "2026-11-01 11:00:00",
   "Locatario": "DEPORTIVO MORON",
   "goles_locatario": "2",
   "puntos_locatario": "1",
@@ -29,12 +29,280 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
- "expulsadosV": []
+ "titularesL": [
+  {
+   "carne": "61996",
+   "Nombre": "JUAN MATEO MAGUNA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "64207",
+   "Nombre": "LAUTARO FABIAN LECUNA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "40883",
+   "Nombre": "GONZALO SISMONDI",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "50924",
+   "Nombre": "FRANCO STELLA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "54546",
+   "Nombre": "MARTIN PENA",
+   "camiseta": "8",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56718",
+   "Nombre": "RAMIRO BENTANCOR",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "64206",
+   "Nombre": "LUCA SANTINO LAURENZI",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "69214",
+   "Nombre": "ISAAC NARVAEZ",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "61178",
+   "Nombre": "BENJAMIN OLIVERA",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "68660",
+   "Nombre": "RENATO LUZARDO",
+   "camiseta": "91",
+   "Capitan": ""
+  },
+  {
+   "carne": "64686",
+   "Nombre": "EMANUEL NICOLAS PARIS",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "56822",
+   "Nombre": "JUAN IGNACIO TELLECHEA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "49737",
+   "Nombre": "MATIAS ACQUARONE",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "48878",
+   "Nombre": "JUAN JOSE CERVIERI",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "41594",
+   "Nombre": "GUILLERMO CHALES",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "37033",
+   "Nombre": "VICENTE GONZALEZ-ARNAO",
+   "camiseta": "13",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "40130",
+   "Nombre": "SANTIAGO VISCAY",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "55316",
+   "Nombre": "LUCIANO VICINO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "63613",
+   "Nombre": "EUSEBIO CABRAL",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "37816",
+   "Nombre": "EMILIANO PABLO BONINI",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "46187",
+   "Nombre": "MARTIN NICOLAS BALIERO",
+   "camiseta": "38",
+   "Capitan": ""
+  },
+  {
+   "carne": "53922",
+   "Nombre": "IGNACIO FERNANDEZ",
+   "camiseta": "60",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "68660",
+   "Jug_Sale": "RENATO LUZARDO",
+   "CarneEntra": "63593",
+   "Jug_Entra": "AGUSTIN ALEXANDER SERNA",
+   "camiseta": "9",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61178",
+   "Jug_Sale": "BENJAMIN OLIVERA",
+   "CarneEntra": "57790",
+   "Jug_Entra": "FELIPE VALENTIN GARI",
+   "camiseta": "12",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "50924",
+   "Jug_Sale": "FRANCO STELLA",
+   "CarneEntra": "66111",
+   "Jug_Entra": "MATIAS PEPELESCOV",
+   "camiseta": "31",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64207",
+   "Jug_Sale": "LAUTARO FABIAN LECUNA",
+   "CarneEntra": "50924",
+   "Jug_Entra": "FRANCO STELLA",
+   "camiseta": "13",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "64686",
+   "Jug_Sale": "EMANUEL NICOLAS PARIS",
+   "CarneEntra": "68660",
+   "Jug_Entra": "RENATO LUZARDO",
+   "camiseta": "91",
+   "minutos": "76"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "37033",
+   "Jug_Sale": "VICENTE GONZALEZ-ARNAO",
+   "CarneEntra": "44470",
+   "Jug_Entra": "AGUSTIN GABRIEL SILVA",
+   "camiseta": "7",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "55316",
+   "Jug_Sale": "LUCIANO VICINO",
+   "CarneEntra": "62075",
+   "Jug_Entra": "SANTIAGO SOSA",
+   "camiseta": "25",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "46187",
+   "Jug_Sale": "MARTIN NICOLAS BALIERO",
+   "CarneEntra": "54729",
+   "Jug_Entra": "FRANCISCO MANUEL IGLESIAS",
+   "camiseta": "9",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "37816",
+   "Jug_Sale": "EMILIANO PABLO BONINI",
+   "CarneEntra": "43741",
+   "Jug_Entra": "SANTIAGO ALVES",
+   "camiseta": "3",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "41594",
+   "Jug_Sale": "GUILLERMO CHALES",
+   "CarneEntra": "46187",
+   "Jug_Entra": "MARTIN NICOLAS BALIERO",
+   "camiseta": "38",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "48878",
+   "Jug_Sale": "JUAN JOSE CERVIERI",
+   "CarneEntra": "37816",
+   "Jug_Entra": "EMILIANO PABLO BONINI",
+   "camiseta": "35",
+   "minutos": "84"
+  },
+  {
+   "CarneSale": "62075",
+   "Jug_Sale": "SANTIAGO SOSA",
+   "CarneEntra": "37033",
+   "Jug_Entra": "VICENTE GONZALEZ-ARNAO",
+   "camiseta": "13",
+   "minutos": "93"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "64686",
+   "Nombre": "EMANUEL NICOLAS PARIS",
+   "minutos": "50",
+   "EnContra": "0"
+  },
+  {
+   "carne": "69214",
+   "Nombre": "ISAAC NARVAEZ",
+   "minutos": "52",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "43741",
+   "Nombre": "SANTIAGO ALVES",
+   "minutos": "91",
+   "EnContra": "1"
+  },
+  {
+   "carne": "43741",
+   "Nombre": "SANTIAGO ALVES",
+   "minutos": "94",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "LUCA SANTINO LAURENZI",
+   "observaciones": ""
+  }
+ ],
+ "expulsadosV": [
+  {
+   "Nombre": "SANTIAGO VISCAY",
+   "observaciones": ""
+  }
+ ]
 }

@@ -1,0 +1,270 @@
+{
+ "id": "103629",
+ "categoria": "sub18",
+ "serie": "18F",
+ "fecha": 3,
+ "fechaHora": "2026-11-01 15:30:00",
+ "cancha": "CAMPO DEP. INSTITUTO CRANDON",
+ "local": "CRANDON UNIVERSITARIO",
+ "visitante": "PLAYA HONDA UNIVERSITARIO",
+ "gl": 1,
+ "gv": 5,
+ "detalle": {
+  "nro_partido": "466",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 18 ",
+  "categoria": "SUB 18 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB18 CONFRATERNIDAD",
+  "Cancha": "CAMPO DEP. INSTITUTO CRANDON",
+  "Fecha_Inicio": "2026-11-01 17:15:00",
+  "Fecha_fin": "2026-11-01 17:15:00",
+  "Locatario": "CRANDON UNIVERSITARIO",
+  "goles_locatario": "1",
+  "puntos_locatario": "0",
+  "Visitante": "PLAYA HONDA UNIVERSITARIO",
+  "goles_visitante": "5",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "57591",
+   "Nombre": "FRANCISCO DUARTE",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "57599",
+   "Nombre": "MANUEL AVILA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "57602",
+   "Nombre": "SANTIAGO BOGGIA",
+   "camiseta": "16",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "57632",
+   "Nombre": "AGUSTIN MANTERO",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "57597",
+   "Nombre": "JUAN IGNACIO CAPORALE",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "57604",
+   "Nombre": "SANTIAGO MANUEL CURBELO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "57603",
+   "Nombre": "SANTIAGO COSTA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "57601",
+   "Nombre": "RODRIGO INFANTOZZI",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "58628",
+   "Nombre": "MARIO LORENZO MOLINA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "57587",
+   "Nombre": "AGUSTIN CRAVIOTTO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "61411",
+   "Nombre": "FRANCISCO BOUBET",
+   "camiseta": "23",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "62544",
+   "Nombre": "ISMAEL SARASUA",
+   "camiseta": "1",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "57574",
+   "Nombre": "BRUNO MACHADO",
+   "camiseta": "41",
+   "Capitan": ""
+  },
+  {
+   "carne": "62148",
+   "Nombre": "MARTIN VILLAAMIL",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "62550",
+   "Nombre": "LORENZO GREIF",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "60269",
+   "Nombre": "LUIS IGNACIO BALLEFIN",
+   "camiseta": "36",
+   "Capitan": ""
+  },
+  {
+   "carne": "62932",
+   "Nombre": "MARCIO EZEQUIEL SILVEIRA",
+   "camiseta": "37",
+   "Capitan": ""
+  },
+  {
+   "carne": "61846",
+   "Nombre": "IGNACIO FERRARI",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "62959",
+   "Nombre": "PIERO PISANO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "63152",
+   "Nombre": "AGUSTIN LOPEZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "64497",
+   "Nombre": "JUAN IGNACIO ZABALA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "62565",
+   "Nombre": "LORENZO RODRIGUEZ",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "61411",
+   "Jug_Sale": "FRANCISCO BOUBET",
+   "CarneEntra": "57631",
+   "Jug_Entra": "JUAN IGNACIO DIAZ",
+   "camiseta": "9",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "58628",
+   "Jug_Sale": "MARIO LORENZO MOLINA",
+   "CarneEntra": "57572",
+   "Jug_Entra": "FRANCO ABREU",
+   "camiseta": "17",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "57601",
+   "Jug_Sale": "RODRIGO INFANTOZZI",
+   "CarneEntra": "57603",
+   "Jug_Entra": "SANTIAGO COSTA",
+   "camiseta": "24",
+   "minutos": "70"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "60269",
+   "Jug_Sale": "LUIS IGNACIO BALLEFIN",
+   "CarneEntra": "63199",
+   "Jug_Entra": "RAUL IVAN MAGALLANES",
+   "camiseta": "42",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "62565",
+   "Jug_Sale": "LORENZO RODRIGUEZ",
+   "CarneEntra": "60269",
+   "Jug_Entra": "LUIS IGNACIO BALLEFIN",
+   "camiseta": "36",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "64497",
+   "Jug_Sale": "JUAN IGNACIO ZABALA",
+   "CarneEntra": "62565",
+   "Jug_Entra": "LORENZO RODRIGUEZ",
+   "camiseta": "11",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "62565",
+   "Jug_Sale": "LORENZO RODRIGUEZ",
+   "CarneEntra": "64497",
+   "Jug_Entra": "JUAN IGNACIO ZABALA",
+   "camiseta": "9",
+   "minutos": "79"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "57631",
+   "Nombre": "JUAN IGNACIO DIAZ",
+   "minutos": "65",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "62550",
+   "Nombre": "LORENZO GREIF",
+   "minutos": "80",
+   "EnContra": "1"
+  },
+  {
+   "carne": "62565",
+   "Nombre": "LORENZO RODRIGUEZ",
+   "minutos": "84",
+   "EnContra": "1"
+  },
+  {
+   "carne": "62932",
+   "Nombre": "MARCIO EZEQUIEL SILVEIRA",
+   "minutos": "28",
+   "EnContra": "1"
+  },
+  {
+   "carne": "63152",
+   "Nombre": "AGUSTIN LOPEZ",
+   "minutos": "69",
+   "EnContra": "1"
+  },
+  {
+   "carne": "64497",
+   "Nombre": "JUAN IGNACIO ZABALA",
+   "minutos": "8",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

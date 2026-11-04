@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"B\" PER. y DESC.",
   "Cancha": "COMPLEJO DEPORTIVO ARRAYANES",
-  "Fecha_Inicio": "2026-10-31 12:45:00",
-  "Fecha_fin": "2026-10-31 12:45:00",
+  "Fecha_Inicio": "2026-10-31 13:15:00",
+  "Fecha_fin": "2026-10-31 13:15:00",
   "Locatario": "SANTA ELENA LAGOMAR",
   "goles_locatario": "3",
   "puntos_locatario": "3",
@@ -29,12 +29,296 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
- "expulsadosV": []
+ "titularesL": [
+  {
+   "carne": "61170",
+   "Nombre": "THIAGO HANDERSSON",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "47333",
+   "Nombre": "JOAQUIN GAI",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "56497",
+   "Nombre": "LORENZO ILLIONE",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "47329",
+   "Nombre": "OCTAVIO SUM",
+   "camiseta": "2",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "47338",
+   "Nombre": "JOAQUIN KAPITAN",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "65031",
+   "Nombre": "EDUARDO MANUEL SANTOS",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "49388",
+   "Nombre": "FRANCO GONZALEZ",
+   "camiseta": "76",
+   "Capitan": ""
+  },
+  {
+   "carne": "49243",
+   "Nombre": "IGNACIO JAVIER GONZALEZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "49231",
+   "Nombre": "AGUSTIN MATEO",
+   "camiseta": "74",
+   "Capitan": ""
+  },
+  {
+   "carne": "53880",
+   "Nombre": "EROS CABALLERO",
+   "camiseta": "43",
+   "Capitan": ""
+  },
+  {
+   "carne": "50198",
+   "Nombre": "MATHIAS RAMILO",
+   "camiseta": "20",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "55015",
+   "Nombre": "FRANCISCO GRAMPIN",
+   "camiseta": "1",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "51734",
+   "Nombre": "NAHUEL JAVIER BALSAS",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "55138",
+   "Nombre": "SANTIAGO RODRIGUEZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "59323",
+   "Nombre": "MARCOS DA SILVA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "50770",
+   "Nombre": "SANTIAGO IGNACIO FILGUEIRAS",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "54819",
+   "Nombre": "FACUNDO FERRARI",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "51216",
+   "Nombre": "IGNACIO ARRIOLA",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "60774",
+   "Nombre": "MATEO COMBA",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "50809",
+   "Nombre": "MARTIN GAITAN",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "56291",
+   "Nombre": "GUILLERMO CABALLERO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "64209",
+   "Nombre": "AGUSTIN MORALES",
+   "camiseta": "8",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "53880",
+   "Jug_Sale": "EROS CABALLERO",
+   "CarneEntra": "51790",
+   "Jug_Entra": "BRUNO SOSA",
+   "camiseta": "16",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56497",
+   "Jug_Sale": "LORENZO ILLIONE",
+   "CarneEntra": "45379",
+   "Jug_Entra": "LUIS MATIAS BELDERRAIN",
+   "camiseta": "17",
+   "minutos": "74"
+  },
+  {
+   "CarneSale": "49243",
+   "Jug_Sale": "IGNACIO JAVIER GONZALEZ",
+   "CarneEntra": "47586",
+   "Jug_Entra": "JUAN BAUTISTA NOVO",
+   "camiseta": "8",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "49388",
+   "Jug_Sale": "FRANCO GONZALEZ",
+   "CarneEntra": "49581",
+   "Jug_Entra": "FACUNDO EZEQUIEL CORICA",
+   "camiseta": "35",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "49231",
+   "Jug_Sale": "AGUSTIN MATEO",
+   "CarneEntra": "47523",
+   "Jug_Entra": "IVAN NICOLAS PASTORINO",
+   "camiseta": "5",
+   "minutos": "74"
+  },
+  {
+   "CarneSale": "50198",
+   "Jug_Sale": "MATHIAS RAMILO",
+   "CarneEntra": "53101",
+   "Jug_Entra": "ROBERTO FRANCISCO PORTA",
+   "camiseta": "18",
+   "minutos": "74"
+  },
+  {
+   "CarneSale": "47338",
+   "Jug_Sale": "JOAQUIN KAPITAN",
+   "CarneEntra": "58163",
+   "Jug_Entra": "FACUNDO IGNACIO LARROSA",
+   "camiseta": "87",
+   "minutos": "88"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "51216",
+   "Jug_Sale": "IGNACIO ARRIOLA",
+   "CarneEntra": "57390",
+   "Jug_Entra": "SANTIAGO ANDRES LOPEZ",
+   "camiseta": "47",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "50770",
+   "Jug_Sale": "SANTIAGO IGNACIO FILGUEIRAS",
+   "CarneEntra": "64208",
+   "Jug_Entra": "JOAQUIN REPETTO",
+   "camiseta": "79",
+   "minutos": "51"
+  },
+  {
+   "CarneSale": "56291",
+   "Jug_Sale": "GUILLERMO CABALLERO",
+   "CarneEntra": "47766",
+   "Jug_Entra": "MARCOS SANTIAGO HOLLANDER",
+   "camiseta": "32",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "51734",
+   "Jug_Sale": "NAHUEL JAVIER BALSAS",
+   "CarneEntra": "55021",
+   "Jug_Entra": "TOMAS BICA",
+   "camiseta": "20",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "60774",
+   "Jug_Sale": "MATEO COMBA",
+   "CarneEntra": "52161",
+   "Jug_Entra": "GERVASIO PEREYRA",
+   "camiseta": "24",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "55138",
+   "Jug_Sale": "SANTIAGO RODRIGUEZ",
+   "CarneEntra": "64988",
+   "Jug_Entra": "LUCIANO QUIÑONES",
+   "camiseta": "22",
+   "minutos": "74"
+  },
+  {
+   "CarneSale": "54819",
+   "Jug_Sale": "FACUNDO FERRARI",
+   "CarneEntra": "53476",
+   "Jug_Entra": "LUCAS EZEQUIEL SCHANZLIN",
+   "camiseta": "91",
+   "minutos": "80"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "49231",
+   "Nombre": "AGUSTIN MATEO",
+   "minutos": "63",
+   "EnContra": "0"
+  },
+  {
+   "carne": "50198",
+   "Nombre": "MATHIAS RAMILO",
+   "minutos": "24",
+   "EnContra": "0"
+  },
+  {
+   "carne": "53880",
+   "Nombre": "EROS CABALLERO",
+   "minutos": "20",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "57390",
+   "Nombre": "SANTIAGO ANDRES LOPEZ",
+   "minutos": "93",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "EDUARDO MANUEL SANTOS",
+   "observaciones": ""
+  }
+ ],
+ "expulsadosV": [
+  {
+   "Nombre": "MARTIN GAITAN",
+   "observaciones": ""
+  }
+ ]
 }

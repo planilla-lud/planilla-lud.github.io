@@ -3,7 +3,7 @@
  "categoria": "mayores-b",
  "serie": "BTA",
  "fecha": 6,
- "fechaHora": "2026-11-01 11:15:00",
+ "fechaHora": "2026-11-01 11:35:00",
  "cancha": "COMP. DEVOTO (NAUT. PICHINCHA)",
  "local": "NAUTICO CARRASCO Y PUNTA GORDA",
  "visitante": "ALEMAN UNIVERSITARIO",
@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"B\" TIT. y ASC.",
   "Cancha": "COMP. DEVOTO (NAUT. PICHINCHA)",
-  "Fecha_Inicio": "2026-11-01 12:45:00",
-  "Fecha_fin": "2026-11-01 12:45:00",
+  "Fecha_Inicio": "2026-11-01 13:30:00",
+  "Fecha_fin": "2026-11-01 13:30:00",
   "Locatario": "NAUTICO CARRASCO Y PUNTA GORDA",
   "goles_locatario": "3",
   "puntos_locatario": "3",
@@ -29,11 +29,254 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "48273",
+   "Nombre": "SORIA PALLERO DIEGO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "49711",
+   "Nombre": "SANTIAGO CABRERA",
+   "camiseta": "29",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "49011",
+   "Nombre": "SANTIAGO GALLO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "54739",
+   "Nombre": "IÑAKI LOPEZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "43858",
+   "Nombre": "DIEGO OMAR MOREIRA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "49112",
+   "Nombre": "LUCAS BARCOS",
+   "camiseta": "49",
+   "Capitan": ""
+  },
+  {
+   "carne": "66481",
+   "Nombre": "WILLIAM WAGNER KLINGENDER",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "52635",
+   "Nombre": "JULIAN ALFONSO SAFI",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "51151",
+   "Nombre": "SANTIAGO MOREIRA",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "49709",
+   "Nombre": "FELIPE CABRERA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "52811",
+   "Nombre": "FELIPE PERLA",
+   "camiseta": "6",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "40708",
+   "Nombre": "MARTIN GABRIEL COURTOISIE",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "48647",
+   "Nombre": "LEANDRO PASQUET",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "53196",
+   "Nombre": "JOAQUIN RESTANO",
+   "camiseta": "66",
+   "Capitan": ""
+  },
+  {
+   "carne": "42728",
+   "Nombre": "MATEO SELLANES",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "42681",
+   "Nombre": "SEBASTIAN ANTONIO CURA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "55187",
+   "Nombre": "IGNACIO ANDRES ALVAREZ",
+   "camiseta": "89",
+   "Capitan": ""
+  },
+  {
+   "carne": "40039",
+   "Nombre": "ANDRES FORTE",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "39007",
+   "Nombre": "IGNACIO ESTEVES",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "48650",
+   "Nombre": "JUAN IGNACIO CERULLO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "48649",
+   "Nombre": "MATEO MANDIA",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "39836",
+   "Nombre": "NICOLAS ALEJANDRO BORDAGORRI",
+   "camiseta": "7",
+   "Capitan": "(C)"
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "49709",
+   "Jug_Sale": "FELIPE CABRERA",
+   "CarneEntra": "54737",
+   "Jug_Entra": "LUCAS ALVAREZ",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "52811",
+   "Jug_Sale": "FELIPE PERLA",
+   "CarneEntra": "43856",
+   "Jug_Entra": "AGUSTIN NOVELLI",
+   "camiseta": "70",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "49112",
+   "Jug_Sale": "LUCAS BARCOS",
+   "CarneEntra": "48838",
+   "Jug_Entra": "BRUNO GRAJALES",
+   "camiseta": "27",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "51151",
+   "Jug_Sale": "SANTIAGO MOREIRA",
+   "CarneEntra": "53595",
+   "Jug_Entra": "CARLOS GONZALO DANERS",
+   "camiseta": "17",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "52635",
+   "Jug_Sale": "JULIAN ALFONSO SAFI",
+   "CarneEntra": "40716",
+   "Jug_Entra": "JOAQUIN NICOLAS LESSA",
+   "camiseta": "6",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "66481",
+   "Jug_Sale": "WILLIAM WAGNER KLINGENDER",
+   "CarneEntra": "49414",
+   "Jug_Entra": "DIEGO GABRIEL HANDALIAN",
+   "camiseta": "11",
+   "minutos": "84"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "48650",
+   "Jug_Sale": "JUAN IGNACIO CERULLO",
+   "CarneEntra": "59473",
+   "Jug_Entra": "SANTIAGO OUTERELO",
+   "camiseta": "88",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "55187",
+   "Jug_Sale": "IGNACIO ANDRES ALVAREZ",
+   "CarneEntra": "49156",
+   "Jug_Entra": "MATHIAS SOARES DE LIMA",
+   "camiseta": "26",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "48649",
+   "Jug_Sale": "MATEO MANDIA",
+   "CarneEntra": "39151",
+   "Jug_Entra": "PEDRO SANTIAGO HERRERA",
+   "camiseta": "16",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "40039",
+   "Jug_Sale": "ANDRES FORTE",
+   "CarneEntra": "40900",
+   "Jug_Entra": "NICOLAS SAGASTI",
+   "camiseta": "30",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "39836",
+   "Jug_Sale": "NICOLAS ALEJANDRO BORDAGORRI",
+   "CarneEntra": "48650",
+   "Jug_Entra": "JUAN IGNACIO CERULLO",
+   "camiseta": "11",
+   "minutos": "75"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "48838",
+   "Nombre": "BRUNO GRAJALES",
+   "minutos": "90",
+   "EnContra": "0"
+  },
+  {
+   "carne": "49709",
+   "Nombre": "FELIPE CABRERA",
+   "minutos": "45",
+   "EnContra": "0"
+  },
+  {
+   "carne": "54737",
+   "Nombre": "LUCAS ALVAREZ",
+   "minutos": "67",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

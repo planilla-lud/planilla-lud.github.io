@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"F\" PERM. y DESC.",
   "Cancha": "ESCUELA NAVAL",
-  "Fecha_Inicio": "2026-11-01 12:45:00",
-  "Fecha_fin": "2026-11-01 12:45:00",
+  "Fecha_Inicio": "2026-11-01 13:15:00",
+  "Fecha_fin": "2026-11-01 13:15:00",
   "Locatario": "ESCUELA NAVAL",
   "goles_locatario": "3",
   "puntos_locatario": "1",
@@ -29,12 +29,276 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
- "expulsadosV": []
+ "titularesL": [
+  {
+   "carne": "63726",
+   "Nombre": "EZEQUIEL JONATHAN CABRERA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "63646",
+   "Nombre": "MAURO JULIAN ALVAREZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "67103",
+   "Nombre": "EMANUEL ABDIEL DE GRACIA",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "68274",
+   "Nombre": "JUAN MARTIN FLORES",
+   "camiseta": "55",
+   "Capitan": ""
+  },
+  {
+   "carne": "62580",
+   "Nombre": "JOAQUIN ADRIAN VALS",
+   "camiseta": "30",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "62576",
+   "Nombre": "SANTIAGO VALENTIN SOSA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "62583",
+   "Nombre": "CARLOS HENRIQUE SILVEIRA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "62686",
+   "Nombre": "HECTRO ELIAS CORBO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "66435",
+   "Nombre": "LAUTARO DE LEON",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "60938",
+   "Nombre": "FRANCO VEZZOSO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "66116",
+   "Nombre": "EMILIANO CRUZ",
+   "camiseta": "15",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "35538",
+   "Nombre": "YAIR EDGAR MORALES",
+   "camiseta": "1",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "66328",
+   "Nombre": "ALEX SUAREZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "25208",
+   "Nombre": "DIEGO MARTIN NOBLE",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "41646",
+   "Nombre": "SEBASTIAN DE MEDINA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "57418",
+   "Nombre": "YONATHAN EXEQUIEL ACOSTA",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "32201",
+   "Nombre": "CARLOS ANDRES AGUILERA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "63481",
+   "Nombre": "FEDERICO CENA",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "51915",
+   "Nombre": "EMILIANO DESEVO",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "60254",
+   "Nombre": "AXEL RAFAEL DAVILA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "67300",
+   "Nombre": "BENJAMIN PEREIRA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "66213",
+   "Nombre": "GONZALO GUZMAN ANTELO",
+   "camiseta": "3",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "68274",
+   "Jug_Sale": "JUAN MARTIN FLORES",
+   "CarneEntra": "59927",
+   "Jug_Entra": "ANDERSON YOEL AGUIRRE",
+   "camiseta": "4",
+   "minutos": "15"
+  },
+  {
+   "CarneSale": "63646",
+   "Jug_Sale": "MAURO JULIAN ALVAREZ",
+   "CarneEntra": "68274",
+   "Jug_Entra": "JUAN MARTIN FLORES",
+   "camiseta": "55",
+   "minutos": "26"
+  },
+  {
+   "CarneSale": "68274",
+   "Jug_Sale": "JUAN MARTIN FLORES",
+   "CarneEntra": "64983",
+   "Jug_Entra": "TIMOTEO BENJAMIN ROMAN",
+   "camiseta": "2",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66116",
+   "Jug_Sale": "EMILIANO CRUZ",
+   "CarneEntra": "68274",
+   "Jug_Entra": "JUAN MARTIN FLORES",
+   "camiseta": "55",
+   "minutos": "78"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "35538",
+   "Jug_Sale": "YAIR EDGAR MORALES",
+   "CarneEntra": "46851",
+   "Jug_Entra": "GASTON RAFAEL MOIRANO",
+   "camiseta": "10",
+   "minutos": "8"
+  },
+  {
+   "CarneSale": "67300",
+   "Jug_Sale": "BENJAMIN PEREIRA",
+   "CarneEntra": "46316",
+   "Jug_Entra": "SANTIAGO ROLAN",
+   "camiseta": "10",
+   "minutos": "35"
+  },
+  {
+   "CarneSale": "60254",
+   "Jug_Sale": "AXEL RAFAEL DAVILA",
+   "CarneEntra": "60642",
+   "Jug_Entra": "LUCAS FACUNDO CORDERO",
+   "camiseta": "23",
+   "minutos": "35"
+  },
+  {
+   "CarneSale": "35538",
+   "Jug_Sale": "YAIR EDGAR MORALES",
+   "CarneEntra": "25208",
+   "Jug_Entra": "DIEGO MARTIN NOBLE",
+   "camiseta": "21",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66328",
+   "Jug_Sale": "ALEX SUAREZ",
+   "CarneEntra": "24285",
+   "Jug_Entra": "ALBERTO DE MEDINA",
+   "camiseta": "31",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "51915",
+   "Jug_Sale": "EMILIANO DESEVO",
+   "CarneEntra": "25208",
+   "Jug_Entra": "DIEGO MARTIN NOBLE",
+   "camiseta": "9",
+   "minutos": "85"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "62580",
+   "Nombre": "JOAQUIN ADRIAN VALS",
+   "minutos": "61",
+   "EnContra": "0"
+  },
+  {
+   "carne": "62583",
+   "Nombre": "CARLOS HENRIQUE SILVEIRA",
+   "minutos": "6",
+   "EnContra": "0"
+  },
+  {
+   "carne": "62583",
+   "Nombre": "CARLOS HENRIQUE SILVEIRA",
+   "minutos": "31",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "25208",
+   "Nombre": "DIEGO MARTIN NOBLE",
+   "minutos": "79",
+   "EnContra": "1"
+  },
+  {
+   "carne": "60642",
+   "Nombre": "LUCAS FACUNDO CORDERO",
+   "minutos": "78",
+   "EnContra": "1"
+  },
+  {
+   "carne": "66213",
+   "Nombre": "GONZALO GUZMAN ANTELO",
+   "minutos": "41",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "SANTIAGO VALENTIN SOSA",
+   "observaciones": ""
+  }
+ ],
+ "expulsadosV": [
+  {
+   "Nombre": "SEBASTIAN DE MEDINA",
+   "observaciones": ""
+  }
+ ]
 }

@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"C\" PER. y DESC.",
   "Cancha": "LIMBURGO -DR.J.L.PISCIOTTANO-",
-  "Fecha_Inicio": "2026-10-31 12:45:00",
-  "Fecha_fin": "2026-10-31 12:45:00",
+  "Fecha_Inicio": "2026-10-31 13:00:00",
+  "Fecha_fin": "2026-10-31 13:00:00",
   "Locatario": "NUMA TURCATTI",
   "goles_locatario": "1",
   "puntos_locatario": "0",
@@ -29,12 +29,262 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "58491",
+   "Nombre": "FACUNDO SIMON",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "57177",
+   "Nombre": "IGNACIO GUERRERO",
+   "camiseta": "30",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "55412",
+   "Nombre": "DIEGO OTAÑO",
+   "camiseta": "36",
+   "Capitan": ""
+  },
+  {
+   "carne": "48317",
+   "Nombre": "THIAGO DA SILVA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "49283",
+   "Nombre": "SANTIAGO BARBOZA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "64351",
+   "Nombre": "BRUNO SIMON",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "39680",
+   "Nombre": "FELIX ANDRES FORASTIER",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "39198",
+   "Nombre": "MAXIMILIANO LUIS NICOLETTA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "64138",
+   "Nombre": "DILAN NAHUEL GARCIA",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "66777",
+   "Nombre": "SANTIAGO DAVRIEUX",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "51240",
+   "Nombre": "LUIS ANDRES FALKENSTEIN",
+   "camiseta": "18",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "64433",
+   "Nombre": "SANTIAGO LUCAS RODRIGUEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "45633",
+   "Nombre": "PABLO AGUIAR",
+   "camiseta": "55",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "39479",
+   "Nombre": "GASTON MUIÑO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "59413",
+   "Nombre": "TIAGO MAIORANO",
+   "camiseta": "73",
+   "Capitan": ""
+  },
+  {
+   "carne": "48882",
+   "Nombre": "JUAN IGNACIO APOLO",
+   "camiseta": "90",
+   "Capitan": ""
+  },
+  {
+   "carne": "47463",
+   "Nombre": "AGUSTIN ONETTO",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "39406",
+   "Nombre": "AGUSTIN FELIPEZ",
+   "camiseta": "50",
+   "Capitan": ""
+  },
+  {
+   "carne": "47716",
+   "Nombre": "SANTIAGO RODRIGUEZ",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "36986",
+   "Nombre": "JUAN CRUZ ESTEVEZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "49342",
+   "Nombre": "MATEO JOAQUIN FERNANDEZ",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "39287",
+   "Nombre": "NICOLAS MONTERO",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "49283",
+   "Jug_Sale": "SANTIAGO BARBOZA",
+   "CarneEntra": "54928",
+   "Jug_Entra": "ISMAEL IMPERIAL",
+   "camiseta": "4",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "39198",
+   "Jug_Sale": "MAXIMILIANO LUIS NICOLETTA",
+   "CarneEntra": "51082",
+   "Jug_Entra": "IGNACIO LUIS JAUNSOLO",
+   "camiseta": "22",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66777",
+   "Jug_Sale": "SANTIAGO DAVRIEUX",
+   "CarneEntra": "69074",
+   "Jug_Entra": "LAUTARO NICOLAS RODRIGUEZ",
+   "camiseta": "21",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "51240",
+   "Jug_Sale": "LUIS ANDRES FALKENSTEIN",
+   "CarneEntra": "32724",
+   "Jug_Entra": "MATEO BRUZZONE",
+   "camiseta": "33",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "48317",
+   "Jug_Sale": "THIAGO DA SILVA",
+   "CarneEntra": "51208",
+   "Jug_Entra": "JOAQUIN ALFONSO BECERRA",
+   "camiseta": "80",
+   "minutos": "81"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "47716",
+   "Jug_Sale": "SANTIAGO RODRIGUEZ",
+   "CarneEntra": "53131",
+   "Jug_Entra": "JUAN CRUZ CAFFERATTA",
+   "camiseta": "6",
+   "minutos": "9"
+  },
+  {
+   "CarneSale": "36986",
+   "Jug_Sale": "JUAN CRUZ ESTEVEZ",
+   "CarneEntra": "59393",
+   "Jug_Entra": "SEBASTIAN MACHADO",
+   "camiseta": "7",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "39287",
+   "Jug_Sale": "NICOLAS MONTERO",
+   "CarneEntra": "59406",
+   "Jug_Entra": "FEDERICO CANDAU",
+   "camiseta": "38",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "49342",
+   "Jug_Sale": "MATEO JOAQUIN FERNANDEZ",
+   "CarneEntra": "48798",
+   "Jug_Entra": "MATIAS ONANDI",
+   "camiseta": "15",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "48882",
+   "Jug_Sale": "JUAN IGNACIO APOLO",
+   "CarneEntra": "59416",
+   "Jug_Entra": "PEDRO BAUTISTA RODRIGUEZ",
+   "camiseta": "16",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "45633",
+   "Jug_Sale": "PABLO AGUIAR",
+   "CarneEntra": "51043",
+   "Jug_Entra": "JOAQUIN BARDINO",
+   "camiseta": "17",
+   "minutos": "85"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "55412",
+   "Nombre": "DIEGO OTAÑO",
+   "minutos": "20",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "39287",
+   "Nombre": "NICOLAS MONTERO",
+   "minutos": "25",
+   "EnContra": "1"
+  },
+  {
+   "carne": "39287",
+   "Nombre": "NICOLAS MONTERO",
+   "minutos": "53",
+   "EnContra": "1"
+  },
+  {
+   "carne": "59393",
+   "Nombre": "SEBASTIAN MACHADO",
+   "minutos": "65",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

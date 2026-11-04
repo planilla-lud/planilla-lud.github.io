@@ -1,0 +1,300 @@
+{
+ "id": "103602",
+ "categoria": "reserva-d",
+ "serie": "RSDTA",
+ "fecha": 9,
+ "fechaHora": "2026-10-31 11:15:00",
+ "cancha": "COMPLEJO LAS CASUARINAS",
+ "local": "ISASA UNIVERSITARIO",
+ "visitante": "DEP.de la C. ARETEIA BIMBULLY",
+ "gl": 3,
+ "gv": 4,
+ "detalle": {
+  "nro_partido": "543",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "RESERVA",
+  "categoria": "RESERVA MASCULINO",
+  "rueda": "2",
+  "Divisional": "RESERVA \"D\" TIT. y ASC.",
+  "Cancha": "COMPLEJO LAS CASUARINAS",
+  "Fecha_Inicio": "2026-10-31 13:20:00",
+  "Fecha_fin": "2026-10-31 13:20:00",
+  "Locatario": "ISASA UNIVERSITARIO",
+  "goles_locatario": "3",
+  "puntos_locatario": "0",
+  "Visitante": "DEP.de la C. ARETEIA BIMBULLY",
+  "goles_visitante": "4",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "57011",
+   "Nombre": "SEBASTIAN BONILLA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "41215",
+   "Nombre": "NICOLAS BERTRAN",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "53472",
+   "Nombre": "EMILIANO BASTARRICA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "43558",
+   "Nombre": "GASTON ALVAREZ DE RON",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "49355",
+   "Nombre": "FACUNDO VALENTIN ALLES",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "61403",
+   "Nombre": "LUCAS JAVIER MANITO",
+   "camiseta": "4",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "49353",
+   "Nombre": "NICOLAS URRETAVIZCAYA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "53966",
+   "Nombre": "FELIPE PEREZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "47961",
+   "Nombre": "AGUSTIN OLIVERA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "54629",
+   "Nombre": "FEDERICO HERNANDEZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "47703",
+   "Nombre": "BRUNO PAULINO",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "63096",
+   "Nombre": "MARCOS MARTIN LEIRA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "59893",
+   "Nombre": "GERONIMO MANUEL ACOSTA",
+   "camiseta": "66",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "69087",
+   "Nombre": "MATEO APOLITO",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "69167",
+   "Nombre": "NICOLAS MATIAS SALVO",
+   "camiseta": "90",
+   "Capitan": ""
+  },
+  {
+   "carne": "62868",
+   "Nombre": "TOMAS LICIO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "58366",
+   "Nombre": "MARCO MARCELO BORDON",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "57080",
+   "Nombre": "NICOLAS GEREZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "58013",
+   "Nombre": "IÑAKI GUDE",
+   "camiseta": "69",
+   "Capitan": ""
+  },
+  {
+   "carne": "58298",
+   "Nombre": "DAVID ILUTOVICH",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "59875",
+   "Nombre": "FACUNDO RODRIGO BARITUSSIO",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "56017",
+   "Nombre": "TIAGO PERDOMO",
+   "camiseta": "38",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "47961",
+   "Jug_Sale": "AGUSTIN OLIVERA",
+   "CarneEntra": "46794",
+   "Jug_Entra": "RAMIRO IVAN GONZALEZ",
+   "camiseta": "7",
+   "minutos": "54"
+  },
+  {
+   "CarneSale": "47703",
+   "Jug_Sale": "BRUNO PAULINO",
+   "CarneEntra": "46907",
+   "Jug_Entra": "ERNESTO BAUMGARTNER",
+   "camiseta": "10",
+   "minutos": "59"
+  },
+  {
+   "CarneSale": "49355",
+   "Jug_Sale": "FACUNDO VALENTIN ALLES",
+   "CarneEntra": "46909",
+   "Jug_Entra": "FEDERICO KARDJIAN",
+   "camiseta": "21",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "54629",
+   "Jug_Sale": "FEDERICO HERNANDEZ",
+   "CarneEntra": "47961",
+   "Jug_Entra": "AGUSTIN OLIVERA",
+   "camiseta": "16",
+   "minutos": "84"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "58298",
+   "Jug_Sale": "DAVID ILUTOVICH",
+   "CarneEntra": "69168",
+   "Jug_Entra": "VICTOR MANUEL BATALLA",
+   "camiseta": "26",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "59875",
+   "Jug_Sale": "FACUNDO RODRIGO BARITUSSIO",
+   "CarneEntra": "55321",
+   "Jug_Entra": "MATEO AGUSTIN MIRABALLES",
+   "camiseta": "50",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "69087",
+   "Jug_Sale": "MATEO APOLITO",
+   "CarneEntra": "67161",
+   "Jug_Entra": "RODRIGO DURAN",
+   "camiseta": "29",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "57080",
+   "Jug_Sale": "NICOLAS GEREZ",
+   "CarneEntra": "49114",
+   "Jug_Entra": "ALVARO DANIEL CHILDE",
+   "camiseta": "33",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "55321",
+   "Jug_Sale": "MATEO AGUSTIN MIRABALLES",
+   "CarneEntra": "64271",
+   "Jug_Entra": "THIAGO OTERO",
+   "camiseta": "5",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "56017",
+   "Jug_Sale": "TIAGO PERDOMO",
+   "CarneEntra": "57103",
+   "Jug_Entra": "NICOLAS ACOSTA",
+   "camiseta": "20",
+   "minutos": "70"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "49353",
+   "Nombre": "NICOLAS URRETAVIZCAYA",
+   "minutos": "8",
+   "EnContra": "0"
+  },
+  {
+   "carne": "54629",
+   "Nombre": "FEDERICO HERNANDEZ",
+   "minutos": "46",
+   "EnContra": "0"
+  },
+  {
+   "carne": "61403",
+   "Nombre": "LUCAS JAVIER MANITO",
+   "minutos": "38",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "56017",
+   "Nombre": "TIAGO PERDOMO",
+   "minutos": "27",
+   "EnContra": "1"
+  },
+  {
+   "carne": "56017",
+   "Nombre": "TIAGO PERDOMO",
+   "minutos": "53",
+   "EnContra": "1"
+  },
+  {
+   "carne": "59893",
+   "Nombre": "GERONIMO MANUEL ACOSTA",
+   "minutos": "35",
+   "EnContra": "1"
+  },
+  {
+   "carne": "59893",
+   "Nombre": "GERONIMO MANUEL ACOSTA",
+   "minutos": "94",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

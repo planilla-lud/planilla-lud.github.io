@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"B\" PERM. y DESC.",
   "Cancha": "COMPLEJO LAS CASUARINAS",
-  "Fecha_Inicio": "2026-11-01 10:30:00",
-  "Fecha_fin": "2026-11-01 10:30:00",
+  "Fecha_Inicio": "2026-11-01 11:00:00",
+  "Fecha_fin": "2026-11-01 11:00:00",
   "Locatario": "SAN JUAN BAUTISTA",
   "goles_locatario": "3",
   "puntos_locatario": "3",
@@ -29,12 +29,238 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "65017",
+   "Nombre": "DIEGO GUSTAVO VERA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "41550",
+   "Nombre": "SEBASTIAN EIRALDI",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "53726",
+   "Nombre": "IVAN ANDRES GARCIA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "26404",
+   "Nombre": "FEDERICO DE LEON",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "52859",
+   "Nombre": "ALEN DOMINGUEZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "35178",
+   "Nombre": "ANDRES GARCIA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "51058",
+   "Nombre": "TADEO SOBA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "45729",
+   "Nombre": "LUIS EDUARDO GORRIARAN",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "50625",
+   "Nombre": "IGNACIO GARCIA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "47801",
+   "Nombre": "FACUNDO GAMBETTA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "50993",
+   "Nombre": "SANTIAGO DURAN",
+   "camiseta": "24",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "39513",
+   "Nombre": "AGUSTIN BETANCOR",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "29893",
+   "Nombre": "PAULO NAHUEL SUAREZ",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "42749",
+   "Nombre": "LUCAS BAEZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "55443",
+   "Nombre": "AGUSTIN NICOLAS DE LOS SANTOS",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "33967",
+   "Nombre": "ANDRES YAFFE",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "49901",
+   "Nombre": "LEANDRO JAVIER PEREZ",
+   "camiseta": "31",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "37305",
+   "Nombre": "LUCAS FIGUEROA",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "58113",
+   "Nombre": "BRUNO AGUSTIN ACOSTA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "44229",
+   "Nombre": "MAURO DIDIER BORGES",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "38481",
+   "Nombre": "AGUSTIN MATEO RUIZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "32802",
+   "Nombre": "SANTIAGO FUENTES",
+   "camiseta": "17",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "52859",
+   "Jug_Sale": "ALEN DOMINGUEZ",
+   "CarneEntra": "49505",
+   "Jug_Entra": "JUAN MANUEL SALA",
+   "camiseta": "77",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "35178",
+   "Jug_Sale": "ANDRES GARCIA",
+   "CarneEntra": "43297",
+   "Jug_Entra": "MATIAS BALSAS",
+   "camiseta": "9",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "26404",
+   "Jug_Sale": "FEDERICO DE LEON",
+   "CarneEntra": "52859",
+   "Jug_Entra": "ALEN DOMINGUEZ",
+   "camiseta": "17",
+   "minutos": "87"
+  },
+  {
+   "CarneSale": "51058",
+   "Jug_Sale": "TADEO SOBA",
+   "CarneEntra": "35178",
+   "Jug_Entra": "ANDRES GARCIA",
+   "camiseta": "5",
+   "minutos": "90"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "37305",
+   "Jug_Sale": "LUCAS FIGUEROA",
+   "CarneEntra": "42702",
+   "Jug_Entra": "JONATHAN NERY MARTINEZ",
+   "camiseta": "10",
+   "minutos": "59"
+  },
+  {
+   "CarneSale": "33967",
+   "Jug_Sale": "ANDRES YAFFE",
+   "CarneEntra": "52442",
+   "Jug_Entra": "NICOLAS RODRIGUEZ",
+   "camiseta": "27",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "38481",
+   "Jug_Sale": "AGUSTIN MATEO RUIZ",
+   "CarneEntra": "45544",
+   "Jug_Entra": "SANTIAGO LOPEZ",
+   "camiseta": "77",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "32802",
+   "Jug_Sale": "SANTIAGO FUENTES",
+   "CarneEntra": "47650",
+   "Jug_Entra": "LUCAS TRINIDAD",
+   "camiseta": "14",
+   "minutos": "80"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "41550",
+   "Nombre": "SEBASTIAN EIRALDI",
+   "minutos": "63",
+   "EnContra": "0"
+  },
+  {
+   "carne": "50625",
+   "Nombre": "IGNACIO GARCIA",
+   "minutos": "81",
+   "EnContra": "0"
+  },
+  {
+   "carne": "53726",
+   "Nombre": "IVAN ANDRES GARCIA",
+   "minutos": "55",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "58113",
+   "Nombre": "BRUNO AGUSTIN ACOSTA",
+   "minutos": "31",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

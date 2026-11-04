@@ -1,59 +1,10 @@
 [
  {
-  "serie": "18O",
-  "fechaHora": "2026-11-01 15:30:00",
-  "cancha": "MONTE VI \"LOS CEIBOS\"",
-  "local": "CEIBOS CLUB",
-  "visitante": "CLUB SEMINARIO"
- },
- {
-  "serie": "18O",
-  "fechaHora": "2026-11-01 15:30:00",
-  "cancha": "ST. BRENDANS",
-  "local": "OLD BRENDANS CLUB",
-  "visitante": "PELOTA AL MEDIO UNIVERSITARIO"
- },
- {
-  "serie": "18O",
-  "fechaHora": "2026-11-01 15:30:00",
-  "cancha": "OLD CHRISTIANS CLUB",
-  "local": "OLD CHRISTIANS CLUB",
-  "visitante": "SAN JUAN BAUTISTA"
- },
- {
-  "serie": "18B",
-  "fechaHora": "2026-11-01 15:30:00",
-  "cancha": "HARAS CUC",
-  "local": "SAN PABLO UNIVERSITARIO",
-  "visitante": "J.M.L.M"
- },
- {
-  "serie": "18B",
-  "fechaHora": "2026-11-01 15:30:00",
-  "cancha": "PICHINCHA",
-  "local": "LA ESCALINATA",
-  "visitante": "CIRCULO DE TENIS MONTEVIDEO"
- },
- {
-  "serie": "18B",
-  "fechaHora": "2026-11-01 15:30:00",
-  "cancha": "CLUB ALEMAN",
-  "local": "ALEMAN UNIVERSITARIO",
-  "visitante": "JUAN XXIII"
- },
- {
   "serie": "18C",
   "fechaHora": "2026-11-01 15:30:00",
   "cancha": "COMPLEJO COLEGIO JESÚS MARÍA",
   "local": "CLUB JESUS MARIA",
   "visitante": "PERRY SEXTA UNIVERSITARIO"
- },
- {
-  "serie": "18C",
-  "fechaHora": "2026-11-01 15:30:00",
-  "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
-  "local": "SEMINARIO UNIVERSITARIO",
-  "visitante": "UNIVERSITARIO VERONES"
  },
  {
   "serie": "18C",
@@ -68,20 +19,6 @@
   "cancha": "COMPLEJO LAS CASUARINAS",
   "local": "ISASA UNIVERSITARIO",
   "visitante": "CLUB SOCIAL PIEDRAS BLANCAS"
- },
- {
-  "serie": "18F",
-  "fechaHora": "2026-11-01 15:30:00",
-  "cancha": "COMPLEJO SCHIAFFINO (LAVALLEJA",
-  "local": "A.E.B.U",
-  "visitante": "NAUTICO CARRASCO Y PUNTA GORDA"
- },
- {
-  "serie": "18F",
-  "fechaHora": "2026-11-01 15:30:00",
-  "cancha": "CAMPO DEP. INSTITUTO CRANDON",
-  "local": "CRANDON UNIVERSITARIO",
-  "visitante": "PLAYA HONDA UNIVERSITARIO"
  },
  {
   "serie": "18P",
@@ -107,16 +44,16 @@
  {
   "serie": "18A",
   "fechaHora": "2026-11-04 19:00:00",
-  "cancha": "COMPLEJO LOS NOGALES",
-  "local": "NACIONAL UNIVERSITARIO",
-  "visitante": "COLEGIO Y LICEO INGLES"
- },
- {
-  "serie": "18A",
-  "fechaHora": "2026-11-04 19:30:00",
   "cancha": "COMPLEJO DEPORTIVO ARRAYANES",
   "local": "SANTA ELENA LAGOMAR",
   "visitante": "ARQUITECTURA JRS."
+ },
+ {
+  "serie": "18A",
+  "fechaHora": "2026-11-04 19:00:00",
+  "cancha": "COMPLEJO LOS NOGALES",
+  "local": "NACIONAL UNIVERSITARIO",
+  "visitante": "COLEGIO Y LICEO INGLES"
  },
  {
   "serie": "18A",
@@ -152,6 +89,13 @@
   "cancha": "COMPLEJO NORTHFIELD",
   "local": "DEPORTIVO MORON",
   "visitante": "HCA UNIVERSITARIO"
+ },
+ {
+  "serie": "18B",
+  "fechaHora": "2026-11-06 20:00:00",
+  "cancha": "LA MENNAIS",
+  "local": "SAN PABLO UNIVERSITARIO",
+  "visitante": "J.M.L.M"
  },
  {
   "serie": "18P",
@@ -322,6 +266,13 @@
   "visitante": "NACIONAL UNIVERSITARIO"
  },
  {
+  "serie": "18A",
+  "fechaHora": "2026-11-11 18:30:00",
+  "cancha": "SCUOLA ITALIANA",
+  "local": "SCUOLA PALERMO",
+  "visitante": "NACIONAL UNIVERSITARIO"
+ },
+ {
   "serie": "18O",
   "fechaHora": "2026-11-15 00:00:00",
   "cancha": "CANCHA A FIJAR",
@@ -488,13 +439,6 @@
   "cancha": "COMPLEJO ALCOBENDAS",
   "local": "NACIONAL UNIVERSITARIO",
   "visitante": "SANTA ELENA LAGOMAR"
- },
- {
-  "serie": "18A",
-  "fechaHora": "2026-11-18 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "SCUOLA PALERMO",
-  "visitante": "NACIONAL UNIVERSITARIO"
  },
  {
   "serie": "18A",

@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"G\" TIT. y ASC",
   "Cancha": "COMPLEJO LOS NOGALES",
-  "Fecha_Inicio": "2026-11-01 10:30:00",
-  "Fecha_fin": "2026-11-01 10:30:00",
+  "Fecha_Inicio": "2026-11-01 11:00:00",
+  "Fecha_fin": "2026-11-01 11:00:00",
   "Locatario": "APENAS UNIVERSITARIO",
   "goles_locatario": "4",
   "puntos_locatario": "3",
@@ -29,12 +29,271 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "titularesL": [
+  {
+   "carne": "66171",
+   "Nombre": "LAUTARO RIVERO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "66392",
+   "Nombre": "AGUSTIN PEREYRA",
+   "camiseta": "95",
+   "Capitan": ""
+  },
+  {
+   "carne": "69093",
+   "Nombre": "EDGAR JAVIER GRILLO",
+   "camiseta": "81",
+   "Capitan": ""
+  },
+  {
+   "carne": "43792",
+   "Nombre": "SEBASTIAN ALEJANDRO MEDINA",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "34081",
+   "Nombre": "MARTIN SEBASTIAN DESPAUX",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "49003",
+   "Nombre": "SANTIAGO DELLACQUA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "38767",
+   "Nombre": "PAUL MARCEL BERRIEL",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "46121",
+   "Nombre": "ANTONY MICHELL GALLI",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "37503",
+   "Nombre": "NICOLAS RODRIGO BRANDI",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "49202",
+   "Nombre": "LEONARDO ARIONI",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "58014",
+   "Nombre": "FELIPE ALBIN",
+   "camiseta": "12",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "65735",
+   "Nombre": "LAUTARO ESCOBAR",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "47522",
+   "Nombre": "JUAN IGNACIO BELLO",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "63304",
+   "Nombre": "FRANCO MANUEL ROZINCHIN",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "63567",
+   "Nombre": "JUAN MANUEL CASAIS",
+   "camiseta": "98",
+   "Capitan": ""
+  },
+  {
+   "carne": "58662",
+   "Nombre": "SANTIAGO LOZANO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "41030",
+   "Nombre": "LUCAS GONZALEZ",
+   "camiseta": "8",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "53152",
+   "Nombre": "MANUEL ALONSO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "65878",
+   "Nombre": "IGNACIO DANIEL DOLDAN",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "62836",
+   "Nombre": "RODRIGO JOSE ZAS",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "67479",
+   "Nombre": "RAMIRO PASTRANA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "62581",
+   "Nombre": "MAURICIO ANDRES DEUS",
+   "camiseta": "20",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "49202",
+   "Jug_Sale": "LEONARDO ARIONI",
+   "CarneEntra": "39310",
+   "Jug_Entra": "GASTON RODRIGUEZ",
+   "camiseta": "20",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "37503",
+   "Jug_Sale": "NICOLAS RODRIGO BRANDI",
+   "CarneEntra": "32393",
+   "Jug_Entra": "GASTON ROBERTO",
+   "camiseta": "23",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "58014",
+   "Jug_Sale": "FELIPE ALBIN",
+   "CarneEntra": "66929",
+   "Jug_Entra": "SANTIAGO ANDRES CALCAGNO",
+   "camiseta": "7",
+   "minutos": "76"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "58662",
+   "Jug_Sale": "SANTIAGO LOZANO",
+   "CarneEntra": "68193",
+   "Jug_Entra": "IGNACIO ZINOLA",
+   "camiseta": "71",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "62836",
+   "Jug_Sale": "RODRIGO JOSE ZAS",
+   "CarneEntra": "67476",
+   "Jug_Entra": "NICOLAS RIVERO",
+   "camiseta": "40",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "63567",
+   "Jug_Sale": "JUAN MANUEL CASAIS",
+   "CarneEntra": "58727",
+   "Jug_Entra": "JOAQUIN GRACIANO",
+   "camiseta": "30",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "53152",
+   "Jug_Sale": "MANUEL ALONSO",
+   "CarneEntra": "62587",
+   "Jug_Entra": "MATEO ALONSO",
+   "camiseta": "6",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "63304",
+   "Jug_Sale": "FRANCO MANUEL ROZINCHIN",
+   "CarneEntra": "64765",
+   "Jug_Entra": "FRANCISCO JAVIER RIVERO",
+   "camiseta": "25",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "41030",
+   "Jug_Sale": "LUCAS GONZALEZ",
+   "CarneEntra": "62586",
+   "Jug_Entra": "LEANDRO MOCCIA",
+   "camiseta": "2",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "47522",
+   "Jug_Sale": "JUAN IGNACIO BELLO",
+   "CarneEntra": "55669",
+   "Jug_Entra": "MATEO PINTOS",
+   "camiseta": "17",
+   "minutos": "77"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "46121",
+   "Nombre": "ANTONY MICHELL GALLI",
+   "minutos": "67",
+   "EnContra": "0"
+  },
+  {
+   "carne": "49003",
+   "Nombre": "SANTIAGO DELLACQUA",
+   "minutos": "18",
+   "EnContra": "0"
+  },
+  {
+   "carne": "58014",
+   "Nombre": "FELIPE ALBIN",
+   "minutos": "1",
+   "EnContra": "0"
+  },
+  {
+   "carne": "58014",
+   "Nombre": "FELIPE ALBIN",
+   "minutos": "25",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "47522",
+   "Nombre": "JUAN IGNACIO BELLO",
+   "minutos": "62",
+   "EnContra": "1"
+  },
+  {
+   "carne": "58662",
+   "Nombre": "SANTIAGO LOZANO",
+   "minutos": "4",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "SANTIAGO DELLACQUA",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

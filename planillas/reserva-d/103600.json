@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"D\" TIT. y ASC.",
   "Cancha": "CIUDAD DEPORTIVA ZONA LAB",
-  "Fecha_Inicio": "2026-10-31 12:45:00",
-  "Fecha_fin": "2026-10-31 12:45:00",
+  "Fecha_Inicio": "2026-10-31 13:00:00",
+  "Fecha_fin": "2026-10-31 13:00:00",
   "Locatario": "CERVANTES UNIVERSITARIO",
   "goles_locatario": "1",
   "puntos_locatario": "3",
@@ -29,11 +29,193 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
+ "titularesL": [
+  {
+   "carne": "45494",
+   "Nombre": "RODRIGO CARLOS BARLA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "59275",
+   "Nombre": "JOAQUIN SILVERA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "59114",
+   "Nombre": "MAXIMILAINO PARDIE",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "47607",
+   "Nombre": "ALEX CLARK",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "55193",
+   "Nombre": "BRUNO BUERO",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "52723",
+   "Nombre": "FELIPE CARLOS DE CARVALHO",
+   "camiseta": "8",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "67441",
+   "Nombre": "FACUNDO RANDO",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "67255",
+   "Nombre": "MATIAS TEJEIRA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "67442",
+   "Nombre": "TOMAS MARTINEZ",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "59270",
+   "Nombre": "FACUNDO SANTIAGO LUCIANO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "63167",
+   "Nombre": "LUCAS BORGES",
+   "camiseta": "6",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "67481",
+   "Nombre": "DYLAN IVAN VALLE",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "51401",
+   "Nombre": "JUAN CRUZ DE ANGELIS",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "61430",
+   "Nombre": "GASTON NICOLAS DE OLIVEIRA",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "61751",
+   "Nombre": "NAHUEL PEREZ",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "68518",
+   "Nombre": "AGUSTIN EMANUEL ORTIZ",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "62014",
+   "Nombre": "ESTEBAN GABRIEL RODRIGUEZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "69195",
+   "Nombre": "AGUSTIN ETCHEVERRY",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "62016",
+   "Nombre": "MARCO TADEO CRISTINO",
+   "camiseta": "90",
+   "Capitan": ""
+  },
+  {
+   "carne": "58675",
+   "Nombre": "CARMELO COCCO",
+   "camiseta": "81",
+   "Capitan": ""
+  },
+  {
+   "carne": "58911",
+   "Nombre": "NICOLAS MOSQUEIRA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "56535",
+   "Nombre": "FRANCO NICOLAS BARCELO",
+   "camiseta": "77",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "55193",
+   "Jug_Sale": "BRUNO BUERO",
+   "CarneEntra": "59247",
+   "Jug_Entra": "EDEL FERIE",
+   "camiseta": "9",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "59270",
+   "Jug_Sale": "FACUNDO SANTIAGO LUCIANO",
+   "CarneEntra": "67438",
+   "Jug_Entra": "BRUNO MUSETTI",
+   "camiseta": "25",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "67255",
+   "Jug_Sale": "MATIAS TEJEIRA",
+   "CarneEntra": "59273",
+   "Jug_Entra": "PEDRO MALOSETTI",
+   "camiseta": "15",
+   "minutos": "74"
+  },
+  {
+   "CarneSale": "67442",
+   "Jug_Sale": "TOMAS MARTINEZ",
+   "CarneEntra": "67258",
+   "Jug_Entra": "NAHUEL TUBINO",
+   "camiseta": "16",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "59270",
+   "Jug_Sale": "FACUNDO SANTIAGO LUCIANO",
+   "CarneEntra": "67443",
+   "Jug_Entra": "LUCA GENTA",
+   "camiseta": "99",
+   "minutos": "85"
+  }
+ ],
  "cambiosV": [],
- "golesL": [],
+ "golesL": [
+  {
+   "carne": "59247",
+   "Nombre": "EDEL FERIE",
+   "minutos": "71",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

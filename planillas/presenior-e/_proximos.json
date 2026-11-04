@@ -2,7 +2,14 @@
  {
   "serie": "PSET2",
   "fechaHora": "2026-11-07 09:00:00",
-  "cancha": "SAN EUGENIO",
+  "cancha": "CAMPO DEP. COLEGIO INGLES",
+  "local": "COLEGIO Y LICEO INGLES",
+  "visitante": "CLUB ATLETICO AGUADA"
+ },
+ {
+  "serie": "PSET2",
+  "fechaHora": "2026-11-07 09:00:00",
+  "cancha": "COMPLEJO ABUA",
   "local": "BELLA UNION UNIVERSITARIO",
   "visitante": "WANDERERS"
  },
@@ -12,13 +19,6 @@
   "cancha": "COMPLEJO AZULGRANA",
   "local": "OBC AZULGRANA",
   "visitante": "LA CUEVA DEL LOBIZON"
- },
- {
-  "serie": "PSET2",
-  "fechaHora": "2026-11-07 09:00:00",
-  "cancha": "COMPLEJO DEVOTO",
-  "local": "WANDERERS",
-  "visitante": "FECHA LIBRE"
  },
  {
   "serie": "PSET2",
@@ -47,13 +47,6 @@
   "cancha": "CAMPO DEP. COLEGIO INGLES",
   "local": "COLEGIO Y LICEO INGLES",
   "visitante": "OBC AZULGRANA"
- },
- {
-  "serie": "PSET2",
-  "fechaHora": "2026-11-14 11:15:00",
-  "cancha": "CAMPO DEP. COLEGIO INGLES",
-  "local": "COLEGIO Y LICEO INGLES",
-  "visitante": "CLUB ATLETICO AGUADA"
  },
  {
   "serie": "PSE1",
@@ -130,6 +123,20 @@
   "fechaHora": "2026-12-30 00:00:00",
   "cancha": "NO SE JUEGA",
   "local": "COLEGIO Y LICEO INGLES",
+  "visitante": "FECHA LIBRE"
+ },
+ {
+  "serie": "PSET2",
+  "fechaHora": "2026-12-30 00:00:00",
+  "cancha": "NO SE JUEGA",
+  "local": "FECHA LIBRE",
+  "visitante": "CLUB RICHARD ANDERSON UNIV."
+ },
+ {
+  "serie": "PSET2",
+  "fechaHora": "2026-12-30 00:00:00",
+  "cancha": "NO SE JUEGA",
+  "local": "WANDERERS",
   "visitante": "FECHA LIBRE"
  },
  {

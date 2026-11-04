@@ -30,23 +30,23 @@
  {
   "serie": "PSCPD",
   "fechaHora": "2026-11-07 09:00:00",
+  "cancha": "COMPLEJO DEPORTIVO H3O",
+  "local": "CLARA JACKSON UNIVERSITARIO",
+  "visitante": "FLORES UNIVERSITARIO"
+ },
+ {
+  "serie": "PSCPD",
+  "fechaHora": "2026-11-07 11:15:00",
   "cancha": "SAN ISIDRO LOMAS",
   "local": "SAN ISIDRO LOMAS UNIVERSITARIO",
   "visitante": "ARQUITECTURA JRS."
  },
  {
   "serie": "PSCPD",
-  "fechaHora": "2026-11-07 09:00:00",
+  "fechaHora": "2026-11-07 11:15:00",
   "cancha": "COMPLEJO DEPORTIVO ARRAYANES",
   "local": "DEPORTIVO MITRE",
   "visitante": "CLUB ESTUDIANTES INGENIERIA"
- },
- {
-  "serie": "PSCPD",
-  "fechaHora": "2026-11-07 09:00:00",
-  "cancha": "COMPLEJO DEPORTIVO H3O",
-  "local": "CLARA JACKSON UNIVERSITARIO",
-  "visitante": "FLORES UNIVERSITARIO"
  },
  {
   "serie": "PSCPD",

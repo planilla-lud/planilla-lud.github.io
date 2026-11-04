@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"F\" PERM. y DESC.",
   "Cancha": "LAS CEBRAS",
-  "Fecha_Inicio": "2026-11-01 10:30:00",
-  "Fecha_fin": "2026-11-01 10:30:00",
+  "Fecha_Inicio": "2026-11-01 10:50:00",
+  "Fecha_fin": "2026-11-01 10:50:00",
   "Locatario": "KENNEDY UNIVERSITARIO",
   "goles_locatario": "5",
   "puntos_locatario": "3",
@@ -29,12 +29,272 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "67182",
+   "Nombre": "RAMIRO FERRAGUT",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "39411",
+   "Nombre": "PABLO DANIEL PAZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "41287",
+   "Nombre": "FACUNDO BRUNO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "27135",
+   "Nombre": "JOAQUIN PERI",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "36600",
+   "Nombre": "NICOLAS TUCCI",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "51376",
+   "Nombre": "RENZO ARRIETA",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "53614",
+   "Nombre": "TIAGO SALHON",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "26624",
+   "Nombre": "CAMILO REYES",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "40537",
+   "Nombre": "ALEJANDRO BAUBETA",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "29282",
+   "Nombre": "DIEGO ANDRES HERNANDEZ",
+   "camiseta": "13",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "62290",
+   "Nombre": "MANUEL HERNAN HALLER",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "26535",
+   "Nombre": "FELIPE BONET",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "55343",
+   "Nombre": "MATEO SCHOLDERLE",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "59336",
+   "Nombre": "FACUNDO ALEXANDER BENTANCUR",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "60936",
+   "Nombre": "CIRO AGESTA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "45774",
+   "Nombre": "JUAN PABLO URRUTY",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "58186",
+   "Nombre": "GUSTAVO SEBASTIAN OTATTI",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "49770",
+   "Nombre": "ERNESTO FERRARIS",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "51744",
+   "Nombre": "JUAN PEDRO GONZALEZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "37855",
+   "Nombre": "ENZO GIULIANO COCCARO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "59339",
+   "Nombre": "DIEGO ALBERTO ESPINDOLA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "33082",
+   "Nombre": "LUCIANO GASTON MONTERO",
+   "camiseta": "13",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "53614",
+   "Jug_Sale": "TIAGO SALHON",
+   "CarneEntra": "52915",
+   "Jug_Entra": "MATEO ESTOUP",
+   "camiseta": "8",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "51376",
+   "Jug_Sale": "RENZO ARRIETA",
+   "CarneEntra": "50369",
+   "Jug_Entra": "EDGARDO FEDERICO PEÑALVA",
+   "camiseta": "10",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "62290",
+   "Jug_Sale": "MANUEL HERNAN HALLER",
+   "CarneEntra": "53877",
+   "Jug_Entra": "MARCOS BERTINAT",
+   "camiseta": "29",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "26624",
+   "Jug_Sale": "CAMILO REYES",
+   "CarneEntra": "52887",
+   "Jug_Entra": "ROMEO ALBORNOZ",
+   "camiseta": "16",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "27135",
+   "Jug_Sale": "JOAQUIN PERI",
+   "CarneEntra": "52978",
+   "Jug_Entra": "GUILLERMO COBAS",
+   "camiseta": "4",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "29282",
+   "Jug_Sale": "DIEGO ANDRES HERNANDEZ",
+   "CarneEntra": "53209",
+   "Jug_Entra": "LUCAS LEDESMA",
+   "camiseta": "30",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "40537",
+   "Jug_Sale": "ALEJANDRO BAUBETA",
+   "CarneEntra": "40991",
+   "Jug_Entra": "MAURICIO ROMANO",
+   "camiseta": "28",
+   "minutos": "75"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "33082",
+   "Jug_Sale": "LUCIANO GASTON MONTERO",
+   "CarneEntra": "46307",
+   "Jug_Entra": "CARLOS MARCELO GIANOTTI",
+   "camiseta": "96",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "45774",
+   "Jug_Sale": "JUAN PABLO URRUTY",
+   "CarneEntra": "53227",
+   "Jug_Entra": "JUAN MANUEL ESPINDOLA",
+   "camiseta": "0",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "59339",
+   "Jug_Sale": "DIEGO ALBERTO ESPINDOLA",
+   "CarneEntra": "32743",
+   "Jug_Entra": "RENZO DANIEL ALIANDRE",
+   "camiseta": "69",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "59336",
+   "Jug_Sale": "FACUNDO ALEXANDER BENTANCUR",
+   "CarneEntra": "33082",
+   "Jug_Entra": "LUCIANO GASTON MONTERO",
+   "camiseta": "13",
+   "minutos": "73"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "26624",
+   "Nombre": "CAMILO REYES",
+   "minutos": "40",
+   "EnContra": "0"
+  },
+  {
+   "carne": "26624",
+   "Nombre": "CAMILO REYES",
+   "minutos": "62",
+   "EnContra": "0"
+  },
+  {
+   "carne": "29282",
+   "Nombre": "DIEGO ANDRES HERNANDEZ",
+   "minutos": "34",
+   "EnContra": "0"
+  },
+  {
+   "carne": "29282",
+   "Nombre": "DIEGO ANDRES HERNANDEZ",
+   "minutos": "60",
+   "EnContra": "0"
+  },
+  {
+   "carne": "39411",
+   "Nombre": "PABLO DANIEL PAZ",
+   "minutos": "90",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
- "expulsadosV": []
+ "expulsadosV": [
+  {
+   "Nombre": "ENZO GIULIANO COCCARO",
+   "observaciones": ""
+  }
+ ]
 }

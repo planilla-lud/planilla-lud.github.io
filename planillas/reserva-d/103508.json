@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"D\" COPA DE PLATA",
   "Cancha": "COMPLEJO INDEPENDIENTE UNIV.",
-  "Fecha_Inicio": "2026-10-31 12:45:00",
-  "Fecha_fin": "2026-10-31 12:45:00",
+  "Fecha_Inicio": "2026-10-31 13:05:00",
+  "Fecha_fin": "2026-10-31 13:05:00",
   "Locatario": "VARELA UNIVERSITARIO",
   "goles_locatario": "3",
   "puntos_locatario": "3",
@@ -29,12 +29,276 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "56973",
+   "Nombre": "LUCAS CORREA",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "67474",
+   "Nombre": "MATIAS FRANCO",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "53826",
+   "Nombre": "JUAN IGNACIO SOSA DIAS",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "51002",
+   "Nombre": "JUAN MANUEL PEREZ",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "51803",
+   "Nombre": "SEBASTIAN TRONCOSO",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "64765",
+   "Nombre": "FRANCISCO JAVIER RIVERO",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "52787",
+   "Nombre": "IGNACIO SLINGER",
+   "camiseta": "69",
+   "Capitan": ""
+  },
+  {
+   "carne": "50127",
+   "Nombre": "SANTIAGO CALVETE",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "64777",
+   "Nombre": "IVAN VEGOVICH",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "59752",
+   "Nombre": "RAMIRO LOPEZ",
+   "camiseta": "9",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "62836",
+   "Nombre": "RODRIGO JOSE ZAS",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "46851",
+   "Nombre": "GASTON RAFAEL MOIRANO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "65781",
+   "Nombre": "AXEL NAHUEL PIMENTEL",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "24285",
+   "Nombre": "ALBERTO DE MEDINA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "30093",
+   "Nombre": "FERNANDO GABRIEL DE MEDINA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "63084",
+   "Nombre": "KEVIN NICOLAS LAVALLEJA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "67305",
+   "Nombre": "MATHIAS NICOLAS DE LA FUENTE",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "63480",
+   "Nombre": "SERGI YONATAN FERNANDEZ",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "67300",
+   "Nombre": "BENJAMIN PEREIRA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "47191",
+   "Nombre": "CARLOS FACUNDO CABRERA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "30083",
+   "Nombre": "MATHIAS AYRTON FUIDIO",
+   "camiseta": "94",
+   "Capitan": ""
+  },
+  {
+   "carne": "60718",
+   "Nombre": "ALEXANDER ENRIQUE LOPEZ",
+   "camiseta": "69",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "64777",
+   "Jug_Sale": "IVAN VEGOVICH",
+   "CarneEntra": "67275",
+   "Jug_Entra": "MATEO MORALES",
+   "camiseta": "92",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "67474",
+   "Jug_Sale": "MATIAS FRANCO",
+   "CarneEntra": "64767",
+   "Jug_Entra": "FACUNDO NICOLAS FARAL",
+   "camiseta": "97",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "52787",
+   "Jug_Sale": "IGNACIO SLINGER",
+   "CarneEntra": "53351",
+   "Jug_Entra": "IGNACIO GIL",
+   "camiseta": "3",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "64765",
+   "Jug_Sale": "FRANCISCO JAVIER RIVERO",
+   "CarneEntra": "55669",
+   "Jug_Entra": "MATEO PINTOS",
+   "camiseta": "17",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "50127",
+   "Jug_Sale": "SANTIAGO CALVETE",
+   "CarneEntra": "55484",
+   "Jug_Entra": "GUILLERMO URIA",
+   "camiseta": "87",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "51803",
+   "Jug_Sale": "SEBASTIAN TRONCOSO",
+   "CarneEntra": "64764",
+   "Jug_Entra": "SANTIAGO SANCHEZ",
+   "camiseta": "42",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "53826",
+   "Jug_Sale": "JUAN IGNACIO SOSA DIAS",
+   "CarneEntra": "64252",
+   "Jug_Entra": "SANTIAGO BORRELLI",
+   "camiseta": "28",
+   "minutos": "85"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "47191",
+   "Jug_Sale": "CARLOS FACUNDO CABRERA",
+   "CarneEntra": "32378",
+   "Jug_Entra": "SEBASTIAN CLEMENTE",
+   "camiseta": "26",
+   "minutos": "25"
+  },
+  {
+   "CarneSale": "30083",
+   "Jug_Sale": "MATHIAS AYRTON FUIDIO",
+   "CarneEntra": "51915",
+   "Jug_Entra": "EMILIANO DESEVO",
+   "camiseta": "9",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "63084",
+   "Jug_Sale": "KEVIN NICOLAS LAVALLEJA",
+   "CarneEntra": "67252",
+   "Jug_Entra": "ROBERT MARCELO MEHARU",
+   "camiseta": "26",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "30093",
+   "Jug_Sale": "FERNANDO GABRIEL DE MEDINA",
+   "CarneEntra": "47191",
+   "Jug_Entra": "CARLOS FACUNDO CABRERA",
+   "camiseta": "5",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "63480",
+   "Jug_Sale": "SERGI YONATAN FERNANDEZ",
+   "CarneEntra": "30083",
+   "Jug_Entra": "MATHIAS AYRTON FUIDIO",
+   "camiseta": "94",
+   "minutos": "78"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "53826",
+   "Nombre": "JUAN IGNACIO SOSA DIAS",
+   "minutos": "7",
+   "EnContra": "0"
+  },
+  {
+   "carne": "59752",
+   "Nombre": "RAMIRO LOPEZ",
+   "minutos": "59",
+   "EnContra": "0"
+  },
+  {
+   "carne": "62836",
+   "Nombre": "RODRIGO JOSE ZAS",
+   "minutos": "74",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "51915",
+   "Nombre": "EMILIANO DESEVO",
+   "minutos": "90",
+   "EnContra": "1"
+  },
+  {
+   "carne": "67305",
+   "Nombre": "MATHIAS NICOLAS DE LA FUENTE",
+   "minutos": "45",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

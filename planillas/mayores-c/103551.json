@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"C\" PERM. y DESC.",
   "Cancha": "COMPLEJO NORTHFIELD",
-  "Fecha_Inicio": "2026-11-01 10:30:00",
-  "Fecha_fin": "2026-11-01 10:30:00",
+  "Fecha_Inicio": "2026-11-01 11:00:00",
+  "Fecha_fin": "2026-11-01 11:00:00",
   "Locatario": "CLUB SOCIAL PIEDRAS BLANCAS",
   "goles_locatario": "3",
   "puntos_locatario": "3",
@@ -29,11 +29,246 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "59338",
+   "Nombre": "LEANDRO SOZZO",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "59324",
+   "Nombre": "ANTHONY EZEQUIEL MASITY",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "56544",
+   "Nombre": "GASTON SEBASTIAN OVIEDO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "64065",
+   "Nombre": "EMANUEL DIAZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "35404",
+   "Nombre": "SANTIAGO GASTON POMBO",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "65763",
+   "Nombre": "JESSE JOEL BATISTA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "64061",
+   "Nombre": "NESTOR RAEL VIDELA",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "56557",
+   "Nombre": "FRANCO LA BARBERA",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "61423",
+   "Nombre": "ALAN EZEQUIEL DE LOS SANTOS",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "54623",
+   "Nombre": "CHRISTIAN LEONARDO SANGUINETTI",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "33653",
+   "Nombre": "MAICOL ALEXIS COMAS",
+   "camiseta": "21",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "48225",
+   "Nombre": "GERMAN CORREA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "57314",
+   "Nombre": "IGNACIO CHOCHO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "35508",
+   "Nombre": "AGUSTIN CORNU",
+   "camiseta": "18",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "67657",
+   "Nombre": "ANDRES ADOLFO BANEGA",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "51008",
+   "Nombre": "TOMAS GOMEZ",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "67655",
+   "Nombre": "MATIAS ALEJANDRO BRAIDA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "59845",
+   "Nombre": "IGNACIOB SOSA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "38570",
+   "Nombre": "JAVIER NICOLAS CLERICI",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "66174",
+   "Nombre": "RODRIGO EZEQUIEL VENIER",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "37229",
+   "Nombre": "MATIAS JOSE RIESTRA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "67656",
+   "Nombre": "GUILLERMO ALPUIN",
+   "camiseta": "13",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "54623",
+   "Jug_Sale": "CHRISTIAN LEONARDO SANGUINETTI",
+   "CarneEntra": "49841",
+   "Jug_Entra": "ALEXIS DANIEL TROTTA",
+   "camiseta": "9",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64061",
+   "Jug_Sale": "NESTOR RAEL VIDELA",
+   "CarneEntra": "66993",
+   "Jug_Entra": "MAICOL GABRIEL LAMARQUE",
+   "camiseta": "18",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56544",
+   "Jug_Sale": "GASTON SEBASTIAN OVIEDO",
+   "CarneEntra": "66229",
+   "Jug_Entra": "JUAN NICOLAS NUÑEZ",
+   "camiseta": "15",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "33653",
+   "Jug_Sale": "MAICOL ALEXIS COMAS",
+   "CarneEntra": "28987",
+   "Jug_Entra": "JONATHAN CAJARAVILLA",
+   "camiseta": "30",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "65763",
+   "Jug_Sale": "JESSE JOEL BATISTA",
+   "CarneEntra": "64061",
+   "Jug_Entra": "NESTOR RAEL VIDELA",
+   "camiseta": "12",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "61423",
+   "Jug_Sale": "ALAN EZEQUIEL DE LOS SANTOS",
+   "CarneEntra": "54623",
+   "Jug_Entra": "CHRISTIAN LEONARDO SANGUINETTI",
+   "camiseta": "19",
+   "minutos": "83"
+  },
+  {
+   "CarneSale": "66229",
+   "Jug_Sale": "JUAN NICOLAS NUÑEZ",
+   "CarneEntra": "65763",
+   "Jug_Entra": "JESSE JOEL BATISTA",
+   "camiseta": "22",
+   "minutos": "85"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "51008",
+   "Jug_Sale": "TOMAS GOMEZ",
+   "CarneEntra": "49181",
+   "Jug_Entra": "MATEO URIBE",
+   "camiseta": "25",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "66174",
+   "Jug_Sale": "RODRIGO EZEQUIEL VENIER",
+   "CarneEntra": "43521",
+   "Jug_Entra": "PABLO JOAQUIN COLINET",
+   "camiseta": "7",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "67656",
+   "Jug_Sale": "GUILLERMO ALPUIN",
+   "CarneEntra": "67733",
+   "Jug_Entra": "ALEJANDRO MARRERO",
+   "camiseta": "14",
+   "minutos": "74"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "56557",
+   "Nombre": "FRANCO LA BARBERA",
+   "minutos": "45",
+   "EnContra": "0"
+  },
+  {
+   "carne": "65763",
+   "Nombre": "JESSE JOEL BATISTA",
+   "minutos": "12",
+   "EnContra": "0"
+  },
+  {
+   "carne": "66993",
+   "Nombre": "MAICOL GABRIEL LAMARQUE",
+   "minutos": "82",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

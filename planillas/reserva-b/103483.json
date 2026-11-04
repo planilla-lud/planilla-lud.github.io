@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"B\" TIT. y ASC.",
   "Cancha": "COMPLEJO LAS CASUARINAS",
-  "Fecha_Inicio": "2026-10-31 12:45:00",
-  "Fecha_fin": "2026-10-31 12:45:00",
+  "Fecha_Inicio": "2026-10-31 13:15:00",
+  "Fecha_fin": "2026-10-31 13:15:00",
   "Locatario": "J.M.L.M",
   "goles_locatario": "1",
   "puntos_locatario": "0",
@@ -29,12 +29,270 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "53190",
+   "Nombre": "SANTINO CARASSALE",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "53105",
+   "Nombre": "FELIPE FRIGERIO",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "54001",
+   "Nombre": "AGUSTIN DANIEL LLUBERAS",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "49895",
+   "Nombre": "AGUSTIN GONZALEZ",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "49924",
+   "Nombre": "FELIPE BAYARDO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "47534",
+   "Nombre": "SANTIAGO FLEGINSKY",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "50933",
+   "Nombre": "SANTIAGO NICOLAS TIZON",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "49501",
+   "Nombre": "TOMAS PARPAL",
+   "camiseta": "24",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "50448",
+   "Nombre": "JUAN FERNANDO COMPANY",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "52806",
+   "Nombre": "SANTIAGO LUIS",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "47817",
+   "Nombre": "CAMILO GILI",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "37735",
+   "Nombre": "FRANCO MASCIA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "35673",
+   "Nombre": "ALBERTO JERONIMO NOGUERA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "44029",
+   "Nombre": "TOMAS SANTIAGO SLINGER",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "67388",
+   "Nombre": "SANTIAGO BERTORELLI",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "51736",
+   "Nombre": "PEDRO HINSCH",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "37067",
+   "Nombre": "TOMAS BERRO",
+   "camiseta": "93",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "35690",
+   "Nombre": "MARTIN UBILLA",
+   "camiseta": "71",
+   "Capitan": ""
+  },
+  {
+   "carne": "56746",
+   "Nombre": "JOAQUIN REINANTE",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "53976",
+   "Nombre": "MATEO STORACE",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "52602",
+   "Nombre": "JUAN DIEGO DE CASTRO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "55214",
+   "Nombre": "BAUTISTA RAFAEL LADOUX",
+   "camiseta": "18",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "53105",
+   "Jug_Sale": "FELIPE FRIGERIO",
+   "CarneEntra": "47184",
+   "Jug_Entra": "NICOLAS FLEGINSKY",
+   "camiseta": "37",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "47817",
+   "Jug_Sale": "CAMILO GILI",
+   "CarneEntra": "54192",
+   "Jug_Entra": "FEDERICO PEREZ",
+   "camiseta": "80",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "52806",
+   "Jug_Sale": "SANTIAGO LUIS",
+   "CarneEntra": "53376",
+   "Jug_Entra": "GUILLERMO WILSON",
+   "camiseta": "71",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "50448",
+   "Jug_Sale": "JUAN FERNANDO COMPANY",
+   "CarneEntra": "53184",
+   "Jug_Entra": "DIEGO DOMINGUEZ",
+   "camiseta": "30",
+   "minutos": "69"
+  },
+  {
+   "CarneSale": "50933",
+   "Jug_Sale": "SANTIAGO NICOLAS TIZON",
+   "CarneEntra": "45775",
+   "Jug_Entra": "FRANCO GIOSA",
+   "camiseta": "3",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "49895",
+   "Jug_Sale": "AGUSTIN GONZALEZ",
+   "CarneEntra": "46923",
+   "Jug_Entra": "MATEO PARPAL",
+   "camiseta": "23",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "49924",
+   "Jug_Sale": "FELIPE BAYARDO",
+   "CarneEntra": "53189",
+   "Jug_Entra": "FEDERICO VIDAL",
+   "camiseta": "17",
+   "minutos": "79"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "35673",
+   "Jug_Sale": "ALBERTO JERONIMO NOGUERA",
+   "CarneEntra": "53757",
+   "Jug_Entra": "JOAQUIN FERNANDEZ",
+   "camiseta": "23",
+   "minutos": "52"
+  },
+  {
+   "CarneSale": "56746",
+   "Jug_Sale": "JOAQUIN REINANTE",
+   "CarneEntra": "52966",
+   "Jug_Entra": "LUCAS FRANCISCO PRESSO",
+   "camiseta": "33",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "53976",
+   "Jug_Sale": "MATEO STORACE",
+   "CarneEntra": "52623",
+   "Jug_Entra": "ALEJO PARODI",
+   "camiseta": "2",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "55214",
+   "Jug_Sale": "BAUTISTA RAFAEL LADOUX",
+   "CarneEntra": "37322",
+   "Jug_Entra": "ANDRES ENRIQUE URIOSTE",
+   "camiseta": "22",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "37735",
+   "Jug_Sale": "FRANCO MASCIA",
+   "CarneEntra": "62469",
+   "Jug_Entra": "TEO VALENTE",
+   "camiseta": "17",
+   "minutos": "92"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "50448",
+   "Nombre": "JUAN FERNANDO COMPANY",
+   "minutos": "66",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "37735",
+   "Nombre": "FRANCO MASCIA",
+   "minutos": "39",
+   "EnContra": "1"
+  },
+  {
+   "carne": "52602",
+   "Nombre": "JUAN DIEGO DE CASTRO",
+   "minutos": "49",
+   "EnContra": "1"
+  },
+  {
+   "carne": "55214",
+   "Nombre": "BAUTISTA RAFAEL LADOUX",
+   "minutos": "12",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

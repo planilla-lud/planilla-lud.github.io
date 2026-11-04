@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"E\" TIT. y ASC.",
   "Cancha": "COMPLEJO INGENIERO DEL CAMPO",
-  "Fecha_Inicio": "2026-11-01 12:45:00",
-  "Fecha_fin": "2026-11-01 12:45:00",
+  "Fecha_Inicio": "2026-11-01 13:05:00",
+  "Fecha_fin": "2026-11-01 13:05:00",
   "Locatario": "SAN CONO",
   "goles_locatario": "2",
   "puntos_locatario": "1",
@@ -29,12 +29,238 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "34347",
+   "Nombre": "DIEGO MARTIN BALDRIZ",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "49275",
+   "Nombre": "ALEJO DE GIOBBI",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "61281",
+   "Nombre": "LUCAS OLIVERA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "59254",
+   "Nombre": "MATIAS NICOLAS AUDIFFRED",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "67333",
+   "Nombre": "GASTON EXEQUIEL SARMIENTO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "51990",
+   "Nombre": "LUCAS JOAQUIN DORTA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "67159",
+   "Nombre": "BRUNO CORREA",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "60768",
+   "Nombre": "BRADLEY JESUS COLLAZO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "66332",
+   "Nombre": "BRUNO DANIEL TODARO",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "59011",
+   "Nombre": "NAHUEL ACOSTA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "51146",
+   "Nombre": "JOSE IGNACIO PIZZINI",
+   "camiseta": "22",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "51727",
+   "Nombre": "MARCOS CARRION",
+   "camiseta": "96",
+   "Capitan": ""
+  },
+  {
+   "carne": "51170",
+   "Nombre": "NICOLAS FLORIAN GONZALEZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "67408",
+   "Nombre": "MATEO LIMA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "35456",
+   "Nombre": "NICOLAS CAVASSA",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "56736",
+   "Nombre": "JUAN ESPINA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "65477",
+   "Nombre": "JULIO GAEL MATTOS",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "54698",
+   "Nombre": "SEBASTIAN MARCOS GONZALEZ",
+   "camiseta": "71",
+   "Capitan": ""
+  },
+  {
+   "carne": "55620",
+   "Nombre": "LUCAS BRITOS",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "66200",
+   "Nombre": "AGUSTIN NICOLAS ARAMBILLETE",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "29538",
+   "Nombre": "MATIAS DA CUNHA",
+   "camiseta": "21",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "32399",
+   "Nombre": "IGNACIO LECUEDER",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "60768",
+   "Jug_Sale": "BRADLEY JESUS COLLAZO",
+   "CarneEntra": "63753",
+   "Jug_Entra": "ESTEBAN MAXIMILIANO SASTRE",
+   "camiseta": "15",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "60768",
+   "Jug_Sale": "BRADLEY JESUS COLLAZO",
+   "CarneEntra": "51146",
+   "Jug_Entra": "JOSE IGNACIO PIZZINI",
+   "camiseta": "10",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "63753",
+   "Jug_Sale": "ESTEBAN MAXIMILIANO SASTRE",
+   "CarneEntra": "63261",
+   "Jug_Entra": "NICOLAS SANGUINE",
+   "camiseta": "18",
+   "minutos": "87"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "35456",
+   "Jug_Sale": "NICOLAS CAVASSA",
+   "CarneEntra": "52901",
+   "Jug_Entra": "SALVADOR BURGOS",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "32399",
+   "Jug_Sale": "IGNACIO LECUEDER",
+   "CarneEntra": "37957",
+   "Jug_Entra": "ANDRES CURBELO",
+   "camiseta": "71",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "65477",
+   "Jug_Sale": "JULIO GAEL MATTOS",
+   "CarneEntra": "55960",
+   "Jug_Entra": "LUCAS BERNARDO BARJAS",
+   "camiseta": "22",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "29538",
+   "Jug_Sale": "MATIAS DA CUNHA",
+   "CarneEntra": "53761",
+   "Jug_Entra": "EMILIANO GASPAR TRUJILLO",
+   "camiseta": "18",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "55620",
+   "Jug_Sale": "LUCAS BRITOS",
+   "CarneEntra": "59440",
+   "Jug_Entra": "GONZALO FEDERICO CUÑA",
+   "camiseta": "28",
+   "minutos": "79"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "51146",
+   "Nombre": "JOSE IGNACIO PIZZINI",
+   "minutos": "20",
+   "EnContra": "0"
+  },
+  {
+   "carne": "67159",
+   "Nombre": "BRUNO CORREA",
+   "minutos": "77",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "37957",
+   "Nombre": "ANDRES CURBELO",
+   "minutos": "69",
+   "EnContra": "1"
+  },
+  {
+   "carne": "51170",
+   "Nombre": "NICOLAS FLORIAN GONZALEZ",
+   "minutos": "31",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

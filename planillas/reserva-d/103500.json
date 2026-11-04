@@ -8,7 +8,7 @@
  "local": "LATINO FUTBOL CLUB",
  "visitante": "TROUVILLE UNIVERSITARIO",
  "gl": 2,
- "gv": 0,
+ "gv": 1,
  "detalle": {
   "nro_partido": "603",
   "temporada": "RAFAEL \"CANARIO\" GARCÍA",
@@ -18,23 +18,251 @@
   "rueda": "2",
   "Divisional": "RESERVA \"D\" COPA DE PLATA",
   "Cancha": "COMPLEJO LOS ROJOS",
-  "Fecha_Inicio": "2026-10-31 12:45:00",
-  "Fecha_fin": "2026-10-31 12:45:00",
+  "Fecha_Inicio": "2026-10-31 13:00:00",
+  "Fecha_fin": "2026-10-31 13:00:00",
   "Locatario": "LATINO FUTBOL CLUB",
   "goles_locatario": "2",
   "puntos_locatario": "3",
   "Visitante": "TROUVILLE UNIVERSITARIO",
-  "goles_visitante": "0",
+  "goles_visitante": "1",
   "puntos_visitante": "0",
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "59728",
+   "Nombre": "ALEJANDRO BOTTO",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "54728",
+   "Nombre": "GUILLERMO VIÑAS",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "40984",
+   "Nombre": "MATHIAS GABRIEL ORTIZ",
+   "camiseta": "4",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "59776",
+   "Nombre": "MARTINO LORENZO FLORA",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "57069",
+   "Nombre": "FRANCO TERPOLILLI",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "59765",
+   "Nombre": "SANTIAGO TRIAS",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "62075",
+   "Nombre": "SANTIAGO SOSA",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "62074",
+   "Nombre": "FRANCISCO BURGOS",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "52794",
+   "Nombre": "MAURO LARRROSA",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "42311",
+   "Nombre": "DIEGO MATIAS VIZCARRA",
+   "camiseta": "57",
+   "Capitan": ""
+  },
+  {
+   "carne": "44390",
+   "Nombre": "LEANDRO AGUIAR",
+   "camiseta": "32",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "50871",
+   "Nombre": "FEDERICO BRUGNOLI",
+   "camiseta": "1",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "54908",
+   "Nombre": "JOAQUIN BROMBAUER",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "48893",
+   "Nombre": "EMILIANO TELLECHEA",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "58541",
+   "Nombre": "RODRIGO SEBABSTIAN CABRERA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "50597",
+   "Nombre": "VALENTIN GONCALVEZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "57068",
+   "Nombre": "JUAN IGNACIO RODRIGUEZ",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "61834",
+   "Nombre": "MATHIAS ALEXANDER RAMIREZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "53294",
+   "Nombre": "AGUSTIN SANTIÑAQUE",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "50343",
+   "Nombre": "TOMAS PEREZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "54111",
+   "Nombre": "FACUNDO ALVAREZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "50596",
+   "Nombre": "SANTIAGO VINAGRE",
+   "camiseta": "8",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "54728",
+   "Jug_Sale": "GUILLERMO VIÑAS",
+   "CarneEntra": "49737",
+   "Jug_Entra": "MATIAS ACQUARONE",
+   "camiseta": "5",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "62074",
+   "Jug_Sale": "FRANCISCO BURGOS",
+   "CarneEntra": "67196",
+   "Jug_Entra": "MANUEL SOUZA",
+   "camiseta": "56",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "42311",
+   "Jug_Sale": "DIEGO MATIAS VIZCARRA",
+   "CarneEntra": "62679",
+   "Jug_Entra": "JUAN VICENTE GRISTO",
+   "camiseta": "59",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "44390",
+   "Jug_Sale": "LEANDRO AGUIAR",
+   "CarneEntra": "67198",
+   "Jug_Entra": "MATIAS GERMAN COLOTUZZO",
+   "camiseta": "37",
+   "minutos": "84"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "50343",
+   "Jug_Sale": "TOMAS PEREZ",
+   "CarneEntra": "55179",
+   "Jug_Entra": "SANTIAGO COUTO",
+   "camiseta": "18",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "61834",
+   "Jug_Sale": "MATHIAS ALEXANDER RAMIREZ",
+   "CarneEntra": "58090",
+   "Jug_Entra": "SANTIAGO DE OLIVERA",
+   "camiseta": "17",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "48893",
+   "Jug_Sale": "EMILIANO TELLECHEA",
+   "CarneEntra": "54905",
+   "Jug_Entra": "SANTIAGO LIMA",
+   "camiseta": "15",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "57068",
+   "Jug_Sale": "JUAN IGNACIO RODRIGUEZ",
+   "CarneEntra": "62218",
+   "Jug_Entra": "BAUTISTA COLLAZO",
+   "camiseta": "19",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "58541",
+   "Jug_Sale": "RODRIGO SEBABSTIAN CABRERA",
+   "CarneEntra": "50343",
+   "Jug_Entra": "TOMAS PEREZ",
+   "camiseta": "7",
+   "minutos": "87"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "42311",
+   "Nombre": "DIEGO MATIAS VIZCARRA",
+   "minutos": "40",
+   "EnContra": "0"
+  },
+  {
+   "carne": "59765",
+   "Nombre": "SANTIAGO TRIAS",
+   "minutos": "21",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "54908",
+   "Nombre": "JOAQUIN BROMBAUER",
+   "minutos": "51",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

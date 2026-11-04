@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"B\" TIT. y ASC.",
   "Cancha": "MONTE VI \"LOS CEIBOS\"",
-  "Fecha_Inicio": "2026-11-01 12:45:00",
-  "Fecha_fin": "2026-11-01 12:45:00",
+  "Fecha_Inicio": "2026-11-01 13:30:00",
+  "Fecha_fin": "2026-11-01 13:30:00",
   "Locatario": "CEIBOS CLUB",
   "goles_locatario": "2",
   "puntos_locatario": "1",
@@ -29,12 +29,270 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "54917",
+   "Nombre": "IGNACIO JOSE LUIS BRAGA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "60669",
+   "Nombre": "ISMAEL MAESO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "56580",
+   "Nombre": "RODRIGO FERNANDEZ",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "56663",
+   "Nombre": "IGNACIO SERE",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "56664",
+   "Nombre": "SANTIAGO MIGUEL ROCCA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "58164",
+   "Nombre": "SANTIAGO PONS",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "53507",
+   "Nombre": "PATRICK HOBBINS",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "67223",
+   "Nombre": "MARIANO DIAZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "67617",
+   "Nombre": "RODRIGO LOPEZ",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "55123",
+   "Nombre": "RAFAEL MARIANO BERAMENDI",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "50651",
+   "Nombre": "JUAN PEDRO IRURETA-GOYENA",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "50489",
+   "Nombre": "AGUSTIN FERREIRA",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "47466",
+   "Nombre": "IGNACIO SUAREZ",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "49808",
+   "Nombre": "BRUNO FERNANDEZ",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "42277",
+   "Nombre": "MARIANO PEDRO CONDON",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "40793",
+   "Nombre": "FERNANDO ABDO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "65021",
+   "Nombre": "MARCOS AGUSTIN BARRERA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "52048",
+   "Nombre": "SANTIAGO ARANCO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "63022",
+   "Nombre": "SANTINO GALEANDRO",
+   "camiseta": "47",
+   "Capitan": ""
+  },
+  {
+   "carne": "36905",
+   "Nombre": "FELIX DIEGO CASTRO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "51793",
+   "Nombre": "GERONIMO BREMERMANN",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "50437",
+   "Nombre": "MARTIN ALEJANDRO COSTA",
+   "camiseta": "9",
+   "Capitan": "(C)"
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "56664",
+   "Jug_Sale": "SANTIAGO MIGUEL ROCCA",
+   "CarneEntra": "57406",
+   "Jug_Entra": "JUAN MARTIN SZELAGOWSKI",
+   "camiseta": "15",
+   "minutos": "18"
+  },
+  {
+   "CarneSale": "53507",
+   "Jug_Sale": "PATRICK HOBBINS",
+   "CarneEntra": "43266",
+   "Jug_Entra": "FERNANDO INTHAMOUSSU",
+   "camiseta": "14",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67617",
+   "Jug_Sale": "RODRIGO LOPEZ",
+   "CarneEntra": "43274",
+   "Jug_Entra": "RAFAEL MONESTIER",
+   "camiseta": "12",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "55123",
+   "Jug_Sale": "RAFAEL MARIANO BERAMENDI",
+   "CarneEntra": "55182",
+   "Jug_Entra": "JUAN IGNACIO CABRERA",
+   "camiseta": "11",
+   "minutos": "74"
+  },
+  {
+   "CarneSale": "58164",
+   "Jug_Sale": "SANTIAGO PONS",
+   "CarneEntra": "49452",
+   "Jug_Entra": "VALENTIN ALGARE",
+   "camiseta": "6",
+   "minutos": "87"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "65021",
+   "Jug_Sale": "MARCOS AGUSTIN BARRERA",
+   "CarneEntra": "50490",
+   "Jug_Entra": "PATRICIO EMANUEL BRITOS",
+   "camiseta": "21",
+   "minutos": "22"
+  },
+  {
+   "CarneSale": "42277",
+   "Jug_Sale": "MARIANO PEDRO CONDON",
+   "CarneEntra": "34889",
+   "Jug_Entra": "LORENZO HELGUERA",
+   "camiseta": "42",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "50437",
+   "Jug_Sale": "MARTIN ALEJANDRO COSTA",
+   "CarneEntra": "48575",
+   "Jug_Entra": "DANIEL OSCAR CABRERA",
+   "camiseta": "30",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "51793",
+   "Jug_Sale": "GERONIMO BREMERMANN",
+   "CarneEntra": "56014",
+   "Jug_Entra": "JUAN FRANCISCO MARQUEZ",
+   "camiseta": "18",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "47466",
+   "Jug_Sale": "IGNACIO SUAREZ",
+   "CarneEntra": "42277",
+   "Jug_Entra": "MARIANO PEDRO CONDON",
+   "camiseta": "19",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "36905",
+   "Jug_Sale": "FELIX DIEGO CASTRO",
+   "CarneEntra": "51793",
+   "Jug_Entra": "GERONIMO BREMERMANN",
+   "camiseta": "13",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "63022",
+   "Jug_Sale": "SANTINO GALEANDRO",
+   "CarneEntra": "50437",
+   "Jug_Entra": "MARTIN ALEJANDRO COSTA",
+   "camiseta": "9",
+   "minutos": "77"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "50651",
+   "Nombre": "JUAN PEDRO IRURETA-GOYENA",
+   "minutos": "21",
+   "EnContra": "0"
+  },
+  {
+   "carne": "50651",
+   "Nombre": "JUAN PEDRO IRURETA-GOYENA",
+   "minutos": "49",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "50437",
+   "Nombre": "MARTIN ALEJANDRO COSTA",
+   "minutos": "6",
+   "EnContra": "1"
+  },
+  {
+   "carne": "65021",
+   "Nombre": "MARCOS AGUSTIN BARRERA",
+   "minutos": "4",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

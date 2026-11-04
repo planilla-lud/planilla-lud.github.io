@@ -1,0 +1,277 @@
+{
+ "id": "103607",
+ "categoria": "sub20-c",
+ "serie": "20CP",
+ "fecha": 6,
+ "fechaHora": "2026-10-31 13:30:00",
+ "cancha": "COMPLEJO JUAN XXIII",
+ "local": "JUAN XXIII",
+ "visitante": "VARELA UNIVERSITARIO",
+ "gl": 0,
+ "gv": 2,
+ "detalle": {
+  "nro_partido": "524",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "2",
+  "Divisional": "SUB20 \"C\" COPA DE PLATA",
+  "Cancha": "COMPLEJO JUAN XXIII",
+  "Fecha_Inicio": "2026-10-31 15:20:00",
+  "Fecha_fin": "2026-10-31 15:20:00",
+  "Locatario": "JUAN XXIII",
+  "goles_locatario": "0",
+  "puntos_locatario": "0",
+  "Visitante": "VARELA UNIVERSITARIO",
+  "goles_visitante": "2",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "61876",
+   "Nombre": "JOAQUIN DE DIOS",
+   "camiseta": "52",
+   "Capitan": ""
+  },
+  {
+   "carne": "64103",
+   "Nombre": "ENZO YACI",
+   "camiseta": "49",
+   "Capitan": ""
+  },
+  {
+   "carne": "64095",
+   "Nombre": "JUAN ANDRES GARCIA",
+   "camiseta": "51",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "61069",
+   "Nombre": "VICENTE CASTRO",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "67669",
+   "Nombre": "FELIPE AGUSTIN PINO",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "64094",
+   "Nombre": "IGNACIO RODRIGUEZ",
+   "camiseta": "72",
+   "Capitan": ""
+  },
+  {
+   "carne": "67671",
+   "Nombre": "JUAN IGNACIO SÀNCHEZ",
+   "camiseta": "96",
+   "Capitan": ""
+  },
+  {
+   "carne": "63347",
+   "Nombre": "VALENTIN ROBKIN",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "58783",
+   "Nombre": "LAUTARO GABRIEL SALLES",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "67673",
+   "Nombre": "EMILIANO BARBOSA",
+   "camiseta": "84",
+   "Capitan": ""
+  },
+  {
+   "carne": "58624",
+   "Nombre": "JOAQUIN MATIAS NIETO",
+   "camiseta": "5",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "63543",
+   "Nombre": "MATEO RODRIGUEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "58727",
+   "Nombre": "JOAQUIN GRACIANO",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "62577",
+   "Nombre": "ORI MARTIN FERREIRA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "68858",
+   "Nombre": "THIAGO COGOY",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "62586",
+   "Nombre": "LEANDRO MOCCIA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "62587",
+   "Nombre": "MATEO ALONSO",
+   "camiseta": "6",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "55147",
+   "Nombre": "EDUARDO IVAN UBAL",
+   "camiseta": "66",
+   "Capitan": ""
+  },
+  {
+   "carne": "58704",
+   "Nombre": "IGNACIO JAVIER ROMERO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "64173",
+   "Nombre": "SANTIAGO MIRANDA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "55413",
+   "Nombre": "LUCAS OTAÑO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "68193",
+   "Nombre": "IGNACIO ZINOLA",
+   "camiseta": "71",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "58783",
+   "Jug_Sale": "LAUTARO GABRIEL SALLES",
+   "CarneEntra": "57022",
+   "Jug_Entra": "JUAN DIEGO CACERES",
+   "camiseta": "27",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64103",
+   "Jug_Sale": "ENZO YACI",
+   "CarneEntra": "59588",
+   "Jug_Entra": "GERARDO ROCCO BELLO",
+   "camiseta": "17",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "67673",
+   "Jug_Sale": "EMILIANO BARBOSA",
+   "CarneEntra": "64101",
+   "Jug_Entra": "SANTIAGO GONZALEZ",
+   "camiseta": "97",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "64094",
+   "Jug_Sale": "IGNACIO RODRIGUEZ",
+   "CarneEntra": "64501",
+   "Jug_Entra": "DIEGO GONZALEZ",
+   "camiseta": "78",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "61069",
+   "Jug_Sale": "VICENTE CASTRO",
+   "CarneEntra": "67239",
+   "Jug_Entra": "LEONARDO ENRIQUE CASTIGLIONI",
+   "camiseta": "50",
+   "minutos": "74"
+  },
+  {
+   "CarneSale": "58624",
+   "Jug_Sale": "JOAQUIN MATIAS NIETO",
+   "CarneEntra": "58783",
+   "Jug_Entra": "LAUTARO GABRIEL SALLES",
+   "camiseta": "42",
+   "minutos": "80"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "64173",
+   "Jug_Sale": "SANTIAGO MIRANDA",
+   "CarneEntra": "67476",
+   "Jug_Entra": "NICOLAS RIVERO",
+   "camiseta": "40",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "55147",
+   "Jug_Sale": "EDUARDO IVAN UBAL",
+   "CarneEntra": "68623",
+   "Jug_Entra": "GUILLERMO MARTINEZ",
+   "camiseta": "76",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "58704",
+   "Jug_Sale": "IGNACIO JAVIER ROMERO",
+   "CarneEntra": "67273",
+   "Jug_Entra": "SANTIAGO ROMAN DALIA",
+   "camiseta": "36",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "62586",
+   "Jug_Sale": "LEANDRO MOCCIA",
+   "CarneEntra": "64173",
+   "Jug_Entra": "SANTIAGO MIRANDA",
+   "camiseta": "23",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "55413",
+   "Jug_Sale": "LUCAS OTAÑO",
+   "CarneEntra": "55147",
+   "Jug_Entra": "EDUARDO IVAN UBAL",
+   "camiseta": "66",
+   "minutos": "81"
+  }
+ ],
+ "golesL": [],
+ "golesV": [
+  {
+   "carne": "67476",
+   "Nombre": "NICOLAS RIVERO",
+   "minutos": "86",
+   "EnContra": "1"
+  },
+  {
+   "carne": "68193",
+   "Nombre": "IGNACIO ZINOLA",
+   "minutos": "41",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

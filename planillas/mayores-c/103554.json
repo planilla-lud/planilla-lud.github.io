@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"C\" TIT. y ASC.",
   "Cancha": "COMPLEJO DEPORTIVO ARRAYANES",
-  "Fecha_Inicio": "2026-11-01 12:45:00",
-  "Fecha_fin": "2026-11-01 12:45:00",
+  "Fecha_Inicio": "2026-11-01 13:10:00",
+  "Fecha_fin": "2026-11-01 13:10:00",
   "Locatario": "COLEGIO SANTA ELENA",
   "goles_locatario": "3",
   "puntos_locatario": "3",
@@ -29,12 +29,257 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "titularesL": [
+  {
+   "carne": "60725",
+   "Nombre": "ALESSANDRO EZEQUIEL PEREIRA",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "42937",
+   "Nombre": "DIEGO PENINO",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "66258",
+   "Nombre": "LEANDRO PEREZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "41088",
+   "Nombre": "PEDRO MOREIRA",
+   "camiseta": "66",
+   "Capitan": ""
+  },
+  {
+   "carne": "32328",
+   "Nombre": "PEDRO NICOLAS HERRERO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "51604",
+   "Nombre": "JUAN GABRIEL RUSSO",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "49318",
+   "Nombre": "FABRIZIO BEIROA",
+   "camiseta": "92",
+   "Capitan": ""
+  },
+  {
+   "carne": "41791",
+   "Nombre": "SANTIAGO MARTIN GONZALEZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "54752",
+   "Nombre": "EMILIANO FRANCISCO MORALES",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "32511",
+   "Nombre": "MATHIAS TORRES",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "44549",
+   "Nombre": "SANTIAGO MARTIN RIBEIRO",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "54125",
+   "Nombre": "MATIAS FEDERICO AREVALO",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "64859",
+   "Nombre": "GONZALO FERREIRA",
+   "camiseta": "43",
+   "Capitan": ""
+  },
+  {
+   "carne": "43818",
+   "Nombre": "JOSE NICOLAS BESSON",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "43813",
+   "Nombre": "MARTIN JACCOTTET",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "66379",
+   "Nombre": "MARTIN FALCON",
+   "camiseta": "69",
+   "Capitan": ""
+  },
+  {
+   "carne": "38351",
+   "Nombre": "FACUNDO SORRIBAS",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "62391",
+   "Nombre": "JOAQUIN TECHERA SAMPAYO",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "46882",
+   "Nombre": "AGUSTIN BURIAN",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "45611",
+   "Nombre": "FRANCISCO FERREIRA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "46445",
+   "Nombre": "GERMAN ODONNELL MORALES",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "54707",
+   "Nombre": "JUAN MARTIN VANOLI",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "42937",
+   "Jug_Sale": "DIEGO PENINO",
+   "CarneEntra": "45390",
+   "Jug_Entra": "MATHIAS PILIPAUSKAS",
+   "camiseta": "19",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "44549",
+   "Jug_Sale": "SANTIAGO MARTIN RIBEIRO",
+   "CarneEntra": "63617",
+   "Jug_Entra": "JOAQUIN DOS SANTOS",
+   "camiseta": "91",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "49318",
+   "Jug_Sale": "FABRIZIO BEIROA",
+   "CarneEntra": "34051",
+   "Jug_Entra": "DANIEL MATIAS CASTRO",
+   "camiseta": "8",
+   "minutos": "81"
+  },
+  {
+   "CarneSale": "41791",
+   "Jug_Sale": "SANTIAGO MARTIN GONZALEZ",
+   "CarneEntra": "57202",
+   "Jug_Entra": "JUAN DIEGO VARELA",
+   "camiseta": "71",
+   "minutos": "92"
+  },
+  {
+   "CarneSale": "44549",
+   "Jug_Sale": "SANTIAGO MARTIN RIBEIRO",
+   "CarneEntra": "50889",
+   "Jug_Entra": "IGNACIO VIÑAS",
+   "camiseta": "23",
+   "minutos": "97"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "66379",
+   "Jug_Sale": "MARTIN FALCON",
+   "CarneEntra": "67001",
+   "Jug_Entra": "GERVASIO MUÑOZ",
+   "camiseta": "29",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "62391",
+   "Jug_Sale": "JOAQUIN TECHERA SAMPAYO",
+   "CarneEntra": "58707",
+   "Jug_Entra": "GUZMAN MAZZEI",
+   "camiseta": "11",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "45611",
+   "Jug_Sale": "FRANCISCO FERREIRA",
+   "CarneEntra": "58709",
+   "Jug_Entra": "JUAN MARTIN MATTEO",
+   "camiseta": "32",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "43813",
+   "Jug_Sale": "MARTIN JACCOTTET",
+   "CarneEntra": "41585",
+   "Jug_Entra": "ALVARO FRANCISCO MARTINEZ",
+   "camiseta": "20",
+   "minutos": "90"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "32511",
+   "Nombre": "MATHIAS TORRES",
+   "minutos": "44",
+   "EnContra": "0"
+  },
+  {
+   "carne": "41791",
+   "Nombre": "SANTIAGO MARTIN GONZALEZ",
+   "minutos": "58",
+   "EnContra": "0"
+  },
+  {
+   "carne": "44549",
+   "Nombre": "SANTIAGO MARTIN RIBEIRO",
+   "minutos": "35",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "45611",
+   "Nombre": "FRANCISCO FERREIRA",
+   "minutos": "61",
+   "EnContra": "1"
+  },
+  {
+   "carne": "46445",
+   "Nombre": "GERMAN ODONNELL MORALES",
+   "minutos": "11",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "PEDRO MOREIRA",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

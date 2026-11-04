@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"C\" PERM. y DESC.",
   "Cancha": "PICHINCHA",
-  "Fecha_Inicio": "2026-11-01 10:30:00",
-  "Fecha_fin": "2026-11-01 10:30:00",
+  "Fecha_Inicio": "2026-11-01 11:00:00",
+  "Fecha_fin": "2026-11-01 11:00:00",
   "Locatario": "DEFENSOR SPORTING",
   "goles_locatario": "4",
   "puntos_locatario": "3",
@@ -29,11 +29,221 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
+ "titularesL": [
+  {
+   "carne": "63615",
+   "Nombre": "SANTIAGO EMILIANO SILVERA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "54483",
+   "Nombre": "BRAIAN SUAREZ",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "45014",
+   "Nombre": "NICOLAS TORRES",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "42578",
+   "Nombre": "SANTIAGO TORRES",
+   "camiseta": "2",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "60320",
+   "Nombre": "FACUNDO MARTIN FERNANDEZ",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "68502",
+   "Nombre": "IGNACIO AGUSTIN DEFACIO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "54048",
+   "Nombre": "LUCAS AMIGO",
+   "camiseta": "70",
+   "Capitan": ""
+  },
+  {
+   "carne": "54049",
+   "Nombre": "NAHUEL AMIGO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "66575",
+   "Nombre": "FACUNDO FERRER",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "69042",
+   "Nombre": "DORIAN MIJHAEL MADRUGA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "68567",
+   "Nombre": "MATIAS ALEJO PEREZ",
+   "camiseta": "28",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "57434",
+   "Nombre": "GONZALO ANDRES SANGUINETTI",
+   "camiseta": "82",
+   "Capitan": ""
+  },
+  {
+   "carne": "45274",
+   "Nombre": "ALEJANDRO GABRIEL MORALES",
+   "camiseta": "9",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "66823",
+   "Nombre": "JOSE PABLO ANTUNEZ",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "61300",
+   "Nombre": "LUCIANO DA SILVA",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "56589",
+   "Nombre": "DARIO EMANUEL ARCHONDO",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "46318",
+   "Nombre": "FACUNDO DEBENEDETTI",
+   "camiseta": "92",
+   "Capitan": ""
+  },
+  {
+   "carne": "68863",
+   "Nombre": "VALENTIN RIVERO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "68296",
+   "Nombre": "SANTIAGO CUELLO",
+   "camiseta": "70",
+   "Capitan": ""
+  },
+  {
+   "carne": "45708",
+   "Nombre": "GUILLERMO ANDREOLI",
+   "camiseta": "63",
+   "Capitan": ""
+  },
+  {
+   "carne": "56585",
+   "Nombre": "TADEO IBAÑEZ",
+   "camiseta": "40",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "69042",
+   "Jug_Sale": "DORIAN MIJHAEL MADRUGA",
+   "CarneEntra": "52327",
+   "Jug_Entra": "DIEGO MATHIAS VALENZUELA",
+   "camiseta": "8",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66575",
+   "Jug_Sale": "FACUNDO FERRER",
+   "CarneEntra": "38413",
+   "Jug_Entra": "ANIBAL OMAR ALVAREZ",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "45014",
+   "Jug_Sale": "NICOLAS TORRES",
+   "CarneEntra": "50499",
+   "Jug_Entra": "MATIAS ALEJANDRO MELLO",
+   "camiseta": "5",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "42578",
+   "Jug_Sale": "SANTIAGO TORRES",
+   "CarneEntra": "68568",
+   "Jug_Entra": "RENZO BARBOZA",
+   "camiseta": "13",
+   "minutos": "52"
+  },
+  {
+   "CarneSale": "68502",
+   "Jug_Sale": "IGNACIO AGUSTIN DEFACIO",
+   "CarneEntra": "42963",
+   "Jug_Entra": "NAHUEL ETCHEBARNE",
+   "camiseta": "25",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "54483",
+   "Jug_Sale": "BRAIAN SUAREZ",
+   "CarneEntra": "52505",
+   "Jug_Entra": "HEBER ANDRES LOPEZ",
+   "camiseta": "7",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "68567",
+   "Jug_Sale": "MATIAS ALEJO PEREZ",
+   "CarneEntra": "61305",
+   "Jug_Entra": "FACUNDO GONZALEZ",
+   "camiseta": "77",
+   "minutos": "66"
+  }
+ ],
  "cambiosV": [],
- "golesL": [],
+ "golesL": [
+  {
+   "carne": "52327",
+   "Nombre": "DIEGO MATHIAS VALENZUELA",
+   "minutos": "77",
+   "EnContra": "0"
+  },
+  {
+   "carne": "54483",
+   "Nombre": "BRAIAN SUAREZ",
+   "minutos": "48",
+   "EnContra": "0"
+  },
+  {
+   "carne": "68567",
+   "Nombre": "MATIAS ALEJO PEREZ",
+   "minutos": "31",
+   "EnContra": "0"
+  },
+  {
+   "carne": "68567",
+   "Nombre": "MATIAS ALEJO PEREZ",
+   "minutos": "47",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

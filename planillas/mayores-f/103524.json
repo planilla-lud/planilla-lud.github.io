@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"F\" PERM. y DESC.",
   "Cancha": "COMPLEJO LAS CASUARINAS",
-  "Fecha_Inicio": "2026-11-01 10:30:00",
-  "Fecha_fin": "2026-11-01 10:30:00",
+  "Fecha_Inicio": "2026-11-01 11:00:00",
+  "Fecha_fin": "2026-11-01 11:00:00",
   "Locatario": "LA CUEVA DEL LOBIZON",
   "goles_locatario": "2",
   "puntos_locatario": "3",
@@ -29,12 +29,240 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "63197",
+   "Nombre": "RODRIGO NICOLAS FERNANDEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "64782",
+   "Nombre": "JORDAN MICHAEL VILLOLDO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "45674",
+   "Nombre": "NAHUEL ENRIQUE RUIZ",
+   "camiseta": "76",
+   "Capitan": ""
+  },
+  {
+   "carne": "49830",
+   "Nombre": "PABLO RODRIGUEZ",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "64965",
+   "Nombre": "EMILIANO ANDRES CABRERA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "67307",
+   "Nombre": "VALENTIN ROSTAN",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "64780",
+   "Nombre": "NAHUEL ROSTAN",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "61062",
+   "Nombre": "AGUSTIN PEREZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "67448",
+   "Nombre": "JOAQUIN LONG",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "60806",
+   "Nombre": "RODRIGO DAMIAN KAHRS",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "47277",
+   "Nombre": "RENATO GERMAN MONCALVO",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "56305",
+   "Nombre": "FRANCO GLISENTI",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "42729",
+   "Nombre": "VALENTIN ALEJANDRO FERNANDEZ",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "66528",
+   "Nombre": "LUCA CANZANI",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "63040",
+   "Nombre": "LORENZO PEREIRA DA FONSECA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "60487",
+   "Nombre": "SANTIAGO LUVIZIO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "60337",
+   "Nombre": "MATEO GLISENTI",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "53378",
+   "Nombre": "NICOLAS SILVA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "49009",
+   "Nombre": "FACUNDO ACUÑA",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "45772",
+   "Nombre": "LUCAS POMI",
+   "camiseta": "46",
+   "Capitan": ""
+  },
+  {
+   "carne": "49281",
+   "Nombre": "JUAN JOSE PATRONE",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "59513",
+   "Nombre": "JUAN DIEGO HERNANDEZ",
+   "camiseta": "98",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "64782",
+   "Jug_Sale": "JORDAN MICHAEL VILLOLDO",
+   "CarneEntra": "62180",
+   "Jug_Entra": "AGUSTIN LAVENTURE",
+   "camiseta": "2",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "45674",
+   "Jug_Sale": "NAHUEL ENRIQUE RUIZ",
+   "CarneEntra": "64781",
+   "Jug_Entra": "RODRIGO MANUEL SASSO",
+   "camiseta": "36",
+   "minutos": "72"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "49281",
+   "Jug_Sale": "JUAN JOSE PATRONE",
+   "CarneEntra": "54757",
+   "Jug_Entra": "LUIS IGNACIO MATTERA",
+   "camiseta": "9",
+   "minutos": "24"
+  },
+  {
+   "CarneSale": "60487",
+   "Jug_Sale": "SANTIAGO LUVIZIO",
+   "CarneEntra": "45786",
+   "Jug_Entra": "KEVIN TAUBER",
+   "camiseta": "7",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "45772",
+   "Jug_Sale": "LUCAS POMI",
+   "CarneEntra": "45778",
+   "Jug_Entra": "SANTIAGO BARBEITO",
+   "camiseta": "66",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "59513",
+   "Jug_Sale": "JUAN DIEGO HERNANDEZ",
+   "CarneEntra": "59555",
+   "Jug_Entra": "JUAN MANUEL BIA",
+   "camiseta": "2",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "53378",
+   "Jug_Sale": "NICOLAS SILVA",
+   "CarneEntra": "64272",
+   "Jug_Entra": "HERNAN EZEQUIEL PUSCHIASIS",
+   "camiseta": "88",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "63040",
+   "Jug_Sale": "LORENZO PEREIRA DA FONSECA",
+   "CarneEntra": "60840",
+   "Jug_Entra": "EZEQUIEL MORALES",
+   "camiseta": "1",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "60337",
+   "Jug_Sale": "MATEO GLISENTI",
+   "CarneEntra": "62873",
+   "Jug_Entra": "MATEO AGUSTIN ARDENTE",
+   "camiseta": "60",
+   "minutos": "70"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "47277",
+   "Nombre": "RENATO GERMAN MONCALVO",
+   "minutos": "34",
+   "EnContra": "0"
+  },
+  {
+   "carne": "60806",
+   "Nombre": "RODRIGO DAMIAN KAHRS",
+   "minutos": "67",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "42729",
+   "Nombre": "VALENTIN ALEJANDRO FERNANDEZ",
+   "minutos": "77",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

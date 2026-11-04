@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"B\" PERM. y DESC.",
   "Cancha": "COLEGIO PIO",
-  "Fecha_Inicio": "2026-11-01 12:45:00",
-  "Fecha_fin": "2026-11-01 12:45:00",
+  "Fecha_Inicio": "2026-11-01 13:15:00",
+  "Fecha_fin": "2026-11-01 13:15:00",
   "Locatario": "CENTRO CRISTOBAL COLON",
   "goles_locatario": "2",
   "puntos_locatario": "3",
@@ -29,12 +29,240 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "44959",
+   "Nombre": "FEDERICO NICOLAS COLMAN",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "44627",
+   "Nombre": "PABLO FEDERICO MONDINO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "37953",
+   "Nombre": "NICOLAS JORGE CANER",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "50099",
+   "Nombre": "ISMAEL LUZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "45345",
+   "Nombre": "JOAQUIN EASTMAN",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "28478",
+   "Nombre": "MATIAS LOVESIO",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "59519",
+   "Nombre": "THOMAS EZEQUIEL MENDIBERRE",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "41683",
+   "Nombre": "AGUSTIN SOLARI",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "58770",
+   "Nombre": "MATEO EASTMAN",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "63570",
+   "Nombre": "JUAN SEBASTIAN CORONEL",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "67324",
+   "Nombre": "FRANCO VALIENTE",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "57165",
+   "Nombre": "LEANDRO MARTIN BOLDRINI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "38803",
+   "Nombre": "MAURO LAGOMARSINO",
+   "camiseta": "15",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "33338",
+   "Nombre": "IGNACIO INDA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "33422",
+   "Nombre": "AGUSTIN GUTIERREZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "29643",
+   "Nombre": "DARIO CAMPELO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "63395",
+   "Nombre": "DIEGO DANIEL DOS SANTOS",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "56979",
+   "Nombre": "MAURO DANIEL MIRABALLES",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "60969",
+   "Nombre": "STEVEN LARROSA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "52565",
+   "Nombre": "NAHUEL AGUSTIN VIGNOLO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "57724",
+   "Nombre": "GONZALO MARTIN MESPOLET",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "65333",
+   "Nombre": "LUCAS DIEGO ALVARIZA",
+   "camiseta": "5",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "67324",
+   "Jug_Sale": "FRANCO VALIENTE",
+   "CarneEntra": "45350",
+   "Jug_Entra": "BRUNO GASTON DIAZ",
+   "camiseta": "11",
+   "minutos": "69"
+  },
+  {
+   "CarneSale": "59519",
+   "Jug_Sale": "THOMAS EZEQUIEL MENDIBERRE",
+   "CarneEntra": "45347",
+   "Jug_Entra": "GERONIMO ANDRES ARGON",
+   "camiseta": "21",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "41683",
+   "Jug_Sale": "AGUSTIN SOLARI",
+   "CarneEntra": "50424",
+   "Jug_Entra": "AGUSTIN CLARO",
+   "camiseta": "20",
+   "minutos": "90"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "29643",
+   "Jug_Sale": "DARIO CAMPELO",
+   "CarneEntra": "68478",
+   "Jug_Entra": "FELIPE TARAN",
+   "camiseta": "16",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "57724",
+   "Jug_Sale": "GONZALO MARTIN MESPOLET",
+   "CarneEntra": "58424",
+   "Jug_Entra": "ALFONSO DARIO GIMENEZ",
+   "camiseta": "19",
+   "minutos": "23"
+  },
+  {
+   "CarneSale": "56979",
+   "Jug_Sale": "MAURO DANIEL MIRABALLES",
+   "CarneEntra": "52242",
+   "Jug_Entra": "AGUSTIN BICA",
+   "camiseta": "2",
+   "minutos": "23"
+  },
+  {
+   "CarneSale": "63395",
+   "Jug_Sale": "DIEGO DANIEL DOS SANTOS",
+   "CarneEntra": "47177",
+   "Jug_Entra": "BRUNO BRUM",
+   "camiseta": "7",
+   "minutos": "29"
+  },
+  {
+   "CarneSale": "60969",
+   "Jug_Sale": "STEVEN LARROSA",
+   "CarneEntra": "52547",
+   "Jug_Entra": "BRAIAN ANDRES FIERRO",
+   "camiseta": "17",
+   "minutos": "91"
+  },
+  {
+   "CarneSale": "33422",
+   "Jug_Sale": "AGUSTIN GUTIERREZ",
+   "CarneEntra": "60171",
+   "Jug_Entra": "YONATHAN FACUNDO ALDAVE",
+   "camiseta": "12",
+   "minutos": "91"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "58770",
+   "Nombre": "MATEO EASTMAN",
+   "minutos": "43",
+   "EnContra": "0"
+  },
+  {
+   "carne": "67324",
+   "Nombre": "FRANCO VALIENTE",
+   "minutos": "8",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "52565",
+   "Nombre": "NAHUEL AGUSTIN VIGNOLO",
+   "minutos": "14",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

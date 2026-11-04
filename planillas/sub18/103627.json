@@ -1,0 +1,276 @@
+{
+ "id": "103627",
+ "categoria": "sub18",
+ "serie": "18B",
+ "fecha": 3,
+ "fechaHora": "2026-11-01 15:30:00",
+ "cancha": "PICHINCHA",
+ "local": "LA ESCALINATA",
+ "visitante": "CIRCULO DE TENIS MONTEVIDEO",
+ "gl": 1,
+ "gv": 2,
+ "detalle": {
+  "nro_partido": "411",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 18 ",
+  "categoria": "SUB 18 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB18 BRONCE",
+  "Cancha": "PICHINCHA",
+  "Fecha_Inicio": "2026-11-01 17:20:00",
+  "Fecha_fin": "2026-11-01 17:20:00",
+  "Locatario": "LA ESCALINATA",
+  "goles_locatario": "1",
+  "puntos_locatario": "0",
+  "Visitante": "CIRCULO DE TENIS MONTEVIDEO",
+  "goles_visitante": "2",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "68449",
+   "Nombre": "JHOAN ELIEN GOPAR",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "58824",
+   "Nombre": "JOAQUIN VILA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "62117",
+   "Nombre": "EMILIO SANCHEZ",
+   "camiseta": "90",
+   "Capitan": ""
+  },
+  {
+   "carne": "63490",
+   "Nombre": "FELIPE DIAZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "62795",
+   "Nombre": "AGUSTIN PIZZORNO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "58818",
+   "Nombre": "MAXIMILIANO BORDOLLI",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "68781",
+   "Nombre": "IGNACIO MARTINEZ",
+   "camiseta": "45",
+   "Capitan": ""
+  },
+  {
+   "carne": "58822",
+   "Nombre": "SANTIAGO BERTOLA",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "58820",
+   "Nombre": "ARAM MOURADIAN",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "62900",
+   "Nombre": "FACUNDO FERREYRA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "67974",
+   "Nombre": "GIANLUCA PEÑA",
+   "camiseta": "17",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "60419",
+   "Nombre": "JOAQUIN EMANUEL CASALAS",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "57625",
+   "Nombre": "LORENZO MORANDI",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "68099",
+   "Nombre": "ALAN JEAN ROSANO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "65181",
+   "Nombre": "VALENTIN MAÑANA",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "57630",
+   "Nombre": "FRANCISCO PONCE",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "60424",
+   "Nombre": "AGUSTIN NICOLAS CASALAS",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "68498",
+   "Nombre": "MATIAS MENDOZA",
+   "camiseta": "69",
+   "Capitan": ""
+  },
+  {
+   "carne": "68824",
+   "Nombre": "GUILLERMO IBARRA",
+   "camiseta": "36",
+   "Capitan": ""
+  },
+  {
+   "carne": "63077",
+   "Nombre": "MATIAS SALABERRI",
+   "camiseta": "20",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "66095",
+   "Nombre": "MATIAS VILLAR",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "59362",
+   "Nombre": "ALEJO SILVEIRA",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "62795",
+   "Jug_Sale": "AGUSTIN PIZZORNO",
+   "CarneEntra": "68979",
+   "Jug_Entra": "GERONIMO CAJA",
+   "camiseta": "39",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "63490",
+   "Jug_Sale": "FELIPE DIAZ",
+   "CarneEntra": "68776",
+   "Jug_Entra": "JOAQUIN GOMEZ",
+   "camiseta": "48",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "62117",
+   "Jug_Sale": "EMILIO SANCHEZ",
+   "CarneEntra": "68789",
+   "Jug_Entra": "GUSTAVO ALEXANDER LOPEZ",
+   "camiseta": "22",
+   "minutos": "81"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "57630",
+   "Jug_Sale": "FRANCISCO PONCE",
+   "CarneEntra": "59507",
+   "Jug_Entra": "JUAN MANUEL CURBELO",
+   "camiseta": "52",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68498",
+   "Jug_Sale": "MATIAS MENDOZA",
+   "CarneEntra": "61379",
+   "Jug_Entra": "SEBASTIAN DEL CAMPO",
+   "camiseta": "89",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "57625",
+   "Jug_Sale": "LORENZO MORANDI",
+   "CarneEntra": "63111",
+   "Jug_Entra": "LUKA RECOBA",
+   "camiseta": "32",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "59362",
+   "Jug_Sale": "ALEJO SILVEIRA",
+   "CarneEntra": "60343",
+   "Jug_Entra": "FRANCISCO GORGA",
+   "camiseta": "21",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "60424",
+   "Jug_Sale": "AGUSTIN NICOLAS CASALAS",
+   "CarneEntra": "63013",
+   "Jug_Entra": "VALENTIN CARBALLO",
+   "camiseta": "6",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "66095",
+   "Jug_Sale": "MATIAS VILLAR",
+   "CarneEntra": "60544",
+   "Jug_Entra": "SANTIAGO CABALLERO",
+   "camiseta": "10",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "63077",
+   "Jug_Sale": "MATIAS SALABERRI",
+   "CarneEntra": "63104",
+   "Jug_Entra": "FACUNDO CARDANI",
+   "camiseta": "26",
+   "minutos": "86"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "62900",
+   "Nombre": "FACUNDO FERREYRA",
+   "minutos": "8",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "61379",
+   "Nombre": "SEBASTIAN DEL CAMPO",
+   "minutos": "67",
+   "EnContra": "1"
+  },
+  {
+   "carne": "66095",
+   "Nombre": "MATIAS VILLAR",
+   "minutos": "45",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

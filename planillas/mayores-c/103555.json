@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"C\" TIT. y ASC.",
   "Cancha": "COMPLEJO INGENIERO DEL CAMPO",
-  "Fecha_Inicio": "2026-11-01 10:30:00",
-  "Fecha_fin": "2026-11-01 10:30:00",
+  "Fecha_Inicio": "2026-11-01 11:00:00",
+  "Fecha_fin": "2026-11-01 11:00:00",
   "Locatario": "DANUBIO FUTBOL CLUB",
   "goles_locatario": "2",
   "puntos_locatario": "0",
@@ -29,12 +29,302 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "39619",
+   "Nombre": "CRISTHIAN AGUSTIN ANADON",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "47195",
+   "Nombre": "SANTIAGO RODRIGUEZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "67591",
+   "Nombre": "JOSE LUIS MONTAÑES",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "58614",
+   "Nombre": "DIEGO ALLENDE",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "44534",
+   "Nombre": "FRANCO DE GREGORIO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "59163",
+   "Nombre": "FEDERICO ISMAEL MENDOZA",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56712",
+   "Nombre": "RENZO LESCANO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "61843",
+   "Nombre": "JUAN ANDRES BARRIOS",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "63586",
+   "Nombre": "EMILIANO ARREGUI",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "64473",
+   "Nombre": "GIANFRANCO MARCHIORO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "54780",
+   "Nombre": "ESTEBAN DANIEL VAZQUEZ",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "44112",
+   "Nombre": "FRANCO RUSSO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "47631",
+   "Nombre": "MAURO GAMBETTA",
+   "camiseta": "91",
+   "Capitan": ""
+  },
+  {
+   "carne": "49834",
+   "Nombre": "FEDERICO GALUSSO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "45570",
+   "Nombre": "PEDRO MILAT",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "37162",
+   "Nombre": "VALENTIN VAZQUEZ",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "46227",
+   "Nombre": "JOAQUIN MUÑOZ",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "56019",
+   "Nombre": "JUAN MANUEL BAZZINO",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "39141",
+   "Nombre": "GASTON BURGHI",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "59398",
+   "Nombre": "ALFONSO IBARRA",
+   "camiseta": "75",
+   "Capitan": ""
+  },
+  {
+   "carne": "47635",
+   "Nombre": "MATEO BURGHI",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "45992",
+   "Nombre": "SANTIAGO CAUBARRERE",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "44534",
+   "Jug_Sale": "FRANCO DE GREGORIO",
+   "CarneEntra": "61832",
+   "Jug_Entra": "AGUSTIN FRANCA",
+   "camiseta": "29",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "47195",
+   "Jug_Sale": "SANTIAGO RODRIGUEZ",
+   "CarneEntra": "59163",
+   "Jug_Entra": "FEDERICO ISMAEL MENDOZA",
+   "camiseta": "5",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "61843",
+   "Jug_Sale": "JUAN ANDRES BARRIOS",
+   "CarneEntra": "58023",
+   "Jug_Entra": "MANUEL MENDEZ",
+   "camiseta": "20",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "63586",
+   "Jug_Sale": "EMILIANO ARREGUI",
+   "CarneEntra": "63923",
+   "Jug_Entra": "ADRIAN MOREIRA",
+   "camiseta": "13",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "59163",
+   "Jug_Sale": "FEDERICO ISMAEL MENDOZA",
+   "CarneEntra": "63586",
+   "Jug_Entra": "EMILIANO ARREGUI",
+   "camiseta": "9",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "64473",
+   "Jug_Sale": "GIANFRANCO MARCHIORO",
+   "CarneEntra": "61843",
+   "Jug_Entra": "JUAN ANDRES BARRIOS",
+   "camiseta": "8",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "67591",
+   "Jug_Sale": "JOSE LUIS MONTAÑES",
+   "CarneEntra": "64473",
+   "Jug_Entra": "GIANFRANCO MARCHIORO",
+   "camiseta": "21",
+   "minutos": "73"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "37162",
+   "Jug_Sale": "VALENTIN VAZQUEZ",
+   "CarneEntra": "53131",
+   "Jug_Entra": "JUAN CRUZ CAFFERATTA",
+   "camiseta": "61",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "47631",
+   "Jug_Sale": "MAURO GAMBETTA",
+   "CarneEntra": "46109",
+   "Jug_Entra": "JOAQUIN REBUFFO",
+   "camiseta": "4",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "39141",
+   "Jug_Sale": "GASTON BURGHI",
+   "CarneEntra": "49342",
+   "Jug_Entra": "MATEO JOAQUIN FERNANDEZ",
+   "camiseta": "44",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "45992",
+   "Jug_Sale": "SANTIAGO CAUBARRERE",
+   "CarneEntra": "47463",
+   "Jug_Entra": "AGUSTIN ONETTO",
+   "camiseta": "12",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "56019",
+   "Jug_Sale": "JUAN MANUEL BAZZINO",
+   "CarneEntra": "39287",
+   "Jug_Entra": "NICOLAS MONTERO",
+   "camiseta": "20",
+   "minutos": "83"
+  },
+  {
+   "CarneSale": "49834",
+   "Jug_Sale": "FEDERICO GALUSSO",
+   "CarneEntra": "45633",
+   "Jug_Entra": "PABLO AGUIAR",
+   "camiseta": "55",
+   "minutos": "83"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "61832",
+   "Nombre": "AGUSTIN FRANCA",
+   "minutos": "53",
+   "EnContra": "0"
+  },
+  {
+   "carne": "67591",
+   "Nombre": "JOSE LUIS MONTAÑES",
+   "minutos": "30",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "39287",
+   "Nombre": "NICOLAS MONTERO",
+   "minutos": "85",
+   "EnContra": "1"
+  },
+  {
+   "carne": "45992",
+   "Nombre": "SANTIAGO CAUBARRERE",
+   "minutos": "28",
+   "EnContra": "1"
+  },
+  {
+   "carne": "47635",
+   "Nombre": "MATEO BURGHI",
+   "minutos": "25",
+   "EnContra": "1"
+  },
+  {
+   "carne": "47635",
+   "Nombre": "MATEO BURGHI",
+   "minutos": "47",
+   "EnContra": "1"
+  },
+  {
+   "carne": "47635",
+   "Nombre": "MATEO BURGHI",
+   "minutos": "57",
+   "EnContra": "1"
+  },
+  {
+   "carne": "59398",
+   "Nombre": "ALFONSO IBARRA",
+   "minutos": "68",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"D\" TIT. y ASC.",
   "Cancha": "LIMBURGO -DR.J.L.PISCIOTTANO-",
-  "Fecha_Inicio": "2026-11-01 10:30:00",
-  "Fecha_fin": "2026-11-01 10:30:00",
+  "Fecha_Inicio": "2026-11-01 11:00:00",
+  "Fecha_fin": "2026-11-01 11:00:00",
   "Locatario": "CLUB ATLETICO LIMBURGO",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,254 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "51640",
+   "Nombre": "FRANCO LOMBARDI",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "51636",
+   "Nombre": "FACUNDO MARSILI",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "45770",
+   "Nombre": "IVAN NICOLAI BOWTUN",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "36388",
+   "Nombre": "GUZMAN ALEJANDRO PEREIRA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "41152",
+   "Nombre": "TOMAS PAPARIELLO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "43194",
+   "Nombre": "LUCAS MARTINEZ",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "52642",
+   "Nombre": "TOMAS MARTINEZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "48955",
+   "Nombre": "IGNACIO LOPEZ",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "51441",
+   "Nombre": "SANTIAGO DERGAZARIAN",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "27124",
+   "Nombre": "SEBASTIAN PEREZ",
+   "camiseta": "9",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "45008",
+   "Nombre": "GASTON ANTUNEZ",
+   "camiseta": "22",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "33323",
+   "Nombre": "RICARDO NICOLAS FACAL",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "64340",
+   "Nombre": "ALEX ALFONSO",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "53887",
+   "Nombre": "IGNACIO RAUL ALVAREZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "38683",
+   "Nombre": "BRUNO CRISTIAN PEREYRA",
+   "camiseta": "20",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "60785",
+   "Nombre": "JEREMY SEBASTIAN MORENO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "54654",
+   "Nombre": "MARTIN BERASAIN",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "58016",
+   "Nombre": "MAURO MEDRANO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "43707",
+   "Nombre": "FACUNDO MARIANO MUÑOZ",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "60118",
+   "Nombre": "DIEGO VICENTE CESAR",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "50527",
+   "Nombre": "FACUNDO TALAGORRIA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "66938",
+   "Nombre": "MAURICIO ERNESTO PEREYRA",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "51636",
+   "Jug_Sale": "FACUNDO MARSILI",
+   "CarneEntra": "45372",
+   "Jug_Entra": "DAVID ROBIDO",
+   "camiseta": "17",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "48955",
+   "Jug_Sale": "IGNACIO LOPEZ",
+   "CarneEntra": "45386",
+   "Jug_Entra": "TOMAS BETTANIN",
+   "camiseta": "8",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "52642",
+   "Jug_Sale": "TOMAS MARTINEZ",
+   "CarneEntra": "46385",
+   "Jug_Entra": "FERNANDO EMANUEL FAGALDES",
+   "camiseta": "33",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "43194",
+   "Jug_Sale": "LUCAS MARTINEZ",
+   "CarneEntra": "45209",
+   "Jug_Entra": "JUAN MARTIN SUEIRO",
+   "camiseta": "21",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "51441",
+   "Jug_Sale": "SANTIAGO DERGAZARIAN",
+   "CarneEntra": "35286",
+   "Jug_Entra": "NICOLAS CRAVIOTTO",
+   "camiseta": "16",
+   "minutos": "79"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "43707",
+   "Jug_Sale": "FACUNDO MARIANO MUÑOZ",
+   "CarneEntra": "60083",
+   "Jug_Entra": "GIANFRANCO CIMINO",
+   "camiseta": "27",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "54654",
+   "Jug_Sale": "MARTIN BERASAIN",
+   "CarneEntra": "55135",
+   "Jug_Entra": "MATIAS MEDRANO",
+   "camiseta": "11",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "60785",
+   "Jug_Sale": "JEREMY SEBASTIAN MORENO",
+   "CarneEntra": "41167",
+   "Jug_Entra": "MATEO TECHERA",
+   "camiseta": "18",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "60118",
+   "Jug_Sale": "DIEGO VICENTE CESAR",
+   "CarneEntra": "53888",
+   "Jug_Entra": "JOAQUIN SOROKINS",
+   "camiseta": "30",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "58016",
+   "Jug_Sale": "MAURO MEDRANO",
+   "CarneEntra": "69220",
+   "Jug_Entra": "VALENTIN VERA",
+   "camiseta": "55",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "64340",
+   "Jug_Sale": "ALEX ALFONSO",
+   "CarneEntra": "38966",
+   "Jug_Entra": "BRUNO GASTON REPETTO",
+   "camiseta": "22",
+   "minutos": "85"
+  }
+ ],
  "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "golesV": [
+  {
+   "carne": "38683",
+   "Nombre": "BRUNO CRISTIAN PEREYRA",
+   "minutos": "96",
+   "EnContra": "1"
+  },
+  {
+   "carne": "60118",
+   "Nombre": "DIEGO VICENTE CESAR",
+   "minutos": "4",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "IVAN NICOLAI BOWTUN",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

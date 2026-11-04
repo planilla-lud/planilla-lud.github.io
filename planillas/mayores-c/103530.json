@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"C\" PERM. y DESC.",
   "Cancha": "SPORT 11",
-  "Fecha_Inicio": "2026-11-01 10:30:00",
-  "Fecha_fin": "2026-11-01 10:30:00",
+  "Fecha_Inicio": "2026-11-01 10:50:00",
+  "Fecha_fin": "2026-11-01 10:50:00",
   "Locatario": "ARQUITECTURA JRS.",
   "goles_locatario": "1",
   "puntos_locatario": "3",
@@ -29,11 +29,210 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "48791",
+   "Nombre": "JOAQUIN ALFREDO ALVES",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "51914",
+   "Nombre": "JOAQUIN GARCIA",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "43841",
+   "Nombre": "FACUNDO SEQUEIRA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "64076",
+   "Nombre": "AGUSTIN GRACIA",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "41010",
+   "Nombre": "DAMIAN PEREZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "46916",
+   "Nombre": "MATIAS BERNI",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "52536",
+   "Nombre": "ROBERT FEDERICO AGUIAR",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "52220",
+   "Nombre": "GABRIEL OLIVERA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "53302",
+   "Nombre": "FEDERICO MONTGOMERY",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "68519",
+   "Nombre": "FELIPE MACHADO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "59558",
+   "Nombre": "ENZO AGUSTIN BARTOLIC",
+   "camiseta": "13",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "50792",
+   "Nombre": "LUCA BARCELO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "43678",
+   "Nombre": "GONZALO ALBA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "50790",
+   "Nombre": "JOAQUIN ANDRES GARCIA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "48913",
+   "Nombre": "FEDERICO JOAQUIN OCAMPO",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "50788",
+   "Nombre": "JUAN ANDRES VARELA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "49285",
+   "Nombre": "EMILIANO MARSILI",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "45240",
+   "Nombre": "JOSE MAURO COSENTINO",
+   "camiseta": "16",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56209",
+   "Nombre": "EMILIANO DI LASCIO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "47787",
+   "Nombre": "JUAN PEDRO DOMINGUEZ",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "41351",
+   "Nombre": "GONZALO RUBEN YIZMEYIAN",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "40179",
+   "Nombre": "AGUSTIN FERNANDO GARABEDIAN",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "41010",
+   "Jug_Sale": "DAMIAN PEREZ",
+   "CarneEntra": "61430",
+   "Jug_Entra": "GASTON NICOLAS DE OLIVEIRA",
+   "camiseta": "15",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "52536",
+   "Jug_Sale": "ROBERT FEDERICO AGUIAR",
+   "CarneEntra": "55921",
+   "Jug_Entra": "SEBASTIAN CAMPOS",
+   "camiseta": "20",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "64076",
+   "Jug_Sale": "AGUSTIN GRACIA",
+   "CarneEntra": "57707",
+   "Jug_Entra": "JUAN MATEO NIEVAS",
+   "camiseta": "23",
+   "minutos": "83"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "41351",
+   "Jug_Sale": "GONZALO RUBEN YIZMEYIAN",
+   "CarneEntra": "39100",
+   "Jug_Entra": "TOMAS IGNACIO MANGGIAROTTI",
+   "camiseta": "8",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "50788",
+   "Jug_Sale": "JUAN ANDRES VARELA",
+   "CarneEntra": "41070",
+   "Jug_Entra": "MATEO BIQUE",
+   "camiseta": "23",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "47787",
+   "Jug_Sale": "JUAN PEDRO DOMINGUEZ",
+   "CarneEntra": "67011",
+   "Jug_Entra": "FACUNDO SORIA",
+   "camiseta": "2",
+   "minutos": "84"
+  },
+  {
+   "CarneSale": "49285",
+   "Jug_Sale": "EMILIANO MARSILI",
+   "CarneEntra": "41351",
+   "Jug_Entra": "GONZALO RUBEN YIZMEYIAN",
+   "camiseta": "10",
+   "minutos": "92"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "57707",
+   "Nombre": "JUAN MATEO NIEVAS",
+   "minutos": "93",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

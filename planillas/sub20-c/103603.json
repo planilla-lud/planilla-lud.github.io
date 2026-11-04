@@ -1,0 +1,107 @@
+{
+ "id": "103603",
+ "categoria": "sub20-c",
+ "serie": "20C2",
+ "fecha": 6,
+ "fechaHora": "2026-10-31 15:30:00",
+ "cancha": "COMPLEJO ALCOBENDAS",
+ "local": "ANGLO SCHOOL UNIVERSITARIO",
+ "visitante": "CLUB SOC. y DEP. LA CHISPA",
+ "gl": 2,
+ "gv": 0,
+ "detalle": {
+  "nro_partido": "496",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "2",
+  "Divisional": "SUB20 \"C\" TIT. y ASC.",
+  "Cancha": "COMPLEJO ALCOBENDAS",
+  "Fecha_Inicio": "2026-10-31 15:30:00",
+  "Fecha_fin": "2026-10-31 15:30:00",
+  "Locatario": "ANGLO SCHOOL UNIVERSITARIO",
+  "goles_locatario": "2",
+  "puntos_locatario": "3",
+  "Visitante": "CLUB SOC. y DEP. LA CHISPA",
+  "goles_visitante": "0",
+  "puntos_visitante": "0",
+  "walk_over": "1",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "56415",
+   "Nombre": "LUCAS AGUSTIN CACERES",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "56180",
+   "Nombre": "SANTIAGO DE OLEA",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "66528",
+   "Nombre": "LUCA CANZANI",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "59555",
+   "Nombre": "JUAN MANUEL BIA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "62420",
+   "Nombre": "MATIAS LABORDE",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "60337",
+   "Nombre": "MATEO GLISENTI",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "56305",
+   "Nombre": "FRANCO GLISENTI",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "66610",
+   "Nombre": "FRANCO MAISSONAVE",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "57343",
+   "Nombre": "FEDERICO PELUFFO",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "64236",
+   "Nombre": "NICOLAS KRUL",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "54757",
+   "Nombre": "LUIS IGNACIO MATTERA",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [],
+ "cambiosL": [],
+ "cambiosV": [],
+ "golesL": [],
+ "golesV": [],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

@@ -4,7 +4,7 @@
  "serie": "APD",
  "fecha": 6,
  "fechaHora": "2026-11-01 11:15:00",
- "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
+ "cancha": "()",
  "local": "CLUB SEMINARIO",
  "visitante": "CARRASCO LAWN TENNIS",
  "gl": 2,
@@ -17,9 +17,9 @@
   "categoria": "MAYORES MASCULINO",
   "rueda": "2",
   "Divisional": "MAYORES \"A\" PERM. y DESC.",
-  "Cancha": "PARQUE CUPRA - CLUB SEMINARIO",
-  "Fecha_Inicio": "2026-11-01 12:45:00",
-  "Fecha_fin": "2026-11-01 12:45:00",
+  "Cancha": "()",
+  "Fecha_Inicio": "2026-11-01 13:14:00",
+  "Fecha_fin": "2026-11-01 13:14:00",
   "Locatario": "CLUB SEMINARIO",
   "goles_locatario": "2",
   "puntos_locatario": "3",
@@ -29,11 +29,248 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "45817",
+   "Nombre": "MATIAS ESTAPE",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "37424",
+   "Nombre": "SANTIAGO PEREZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "50839",
+   "Nombre": "FABRIZIO JORGE GRAJALES",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "39147",
+   "Nombre": "SEBASTIAN ECHEVERZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "45815",
+   "Nombre": "FRANCISCO MARICHAL",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "47176",
+   "Nombre": "SANTIAGO BENZANO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "39017",
+   "Nombre": "GERMAN FRAGA",
+   "camiseta": "17",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "57157",
+   "Nombre": "FACUNDO PIRIS",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "47680",
+   "Nombre": "JUAN FELIPE LUCAS",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "47673",
+   "Nombre": "FRANCISCO JAVIER CAMPON",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "47696",
+   "Nombre": "IGNACIO TOMAS ESTEFAN",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "41005",
+   "Nombre": "NICOLAS RAFFO",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "48826",
+   "Nombre": "JOAQUIN PODESTA",
+   "camiseta": "45",
+   "Capitan": ""
+  },
+  {
+   "carne": "31952",
+   "Nombre": "JOAQUIN REBELLATO",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "44899",
+   "Nombre": "JUAN MARTIN DEFFEMINIS",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "44809",
+   "Nombre": "TOMAS JOSE SANZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "39086",
+   "Nombre": "MATHIAS GASTON CASTIÑEIRA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "66422",
+   "Nombre": "RODRIGO ARIAS",
+   "camiseta": "51",
+   "Capitan": ""
+  },
+  {
+   "carne": "58916",
+   "Nombre": "FELIPE BORDOLI",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "29653",
+   "Nombre": "MARTIN MUSETTI",
+   "camiseta": "21",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "22166",
+   "Nombre": "FEDERICO PUA",
+   "camiseta": "50",
+   "Capitan": ""
+  },
+  {
+   "carne": "28144",
+   "Nombre": "ANDRES ANTONIO BESIO",
+   "camiseta": "16",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "37424",
+   "Jug_Sale": "SANTIAGO PEREZ",
+   "CarneEntra": "55503",
+   "Jug_Entra": "SALVADOR DI CANDIA",
+   "camiseta": "14",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "47696",
+   "Jug_Sale": "IGNACIO TOMAS ESTEFAN",
+   "CarneEntra": "64647",
+   "Jug_Entra": "FABRIZIO OSCAR PAGLIA",
+   "camiseta": "4",
+   "minutos": "42"
+  },
+  {
+   "CarneSale": "47680",
+   "Jug_Sale": "JUAN FELIPE LUCAS",
+   "CarneEntra": "50866",
+   "Jug_Entra": "JOSE SANTIAGO LUCAS",
+   "camiseta": "19",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "47176",
+   "Jug_Sale": "SANTIAGO BENZANO",
+   "CarneEntra": "52746",
+   "Jug_Entra": "IMANOL JIMENEZ DE ARECHAGA",
+   "camiseta": "10",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "47673",
+   "Jug_Sale": "FRANCISCO JAVIER CAMPON",
+   "CarneEntra": "42555",
+   "Jug_Entra": "RODRIGO VAZQUEZ",
+   "camiseta": "13",
+   "minutos": "85"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "48826",
+   "Jug_Sale": "JOAQUIN PODESTA",
+   "CarneEntra": "23708",
+   "Jug_Entra": "LEANDRO JOSE FERNANDEZ",
+   "camiseta": "46",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58916",
+   "Jug_Sale": "FELIPE BORDOLI",
+   "CarneEntra": "50239",
+   "Jug_Entra": "FRANCISCO AGUSTIN PERTUSSO",
+   "camiseta": "2",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "22166",
+   "Jug_Sale": "FEDERICO PUA",
+   "CarneEntra": "40246",
+   "Jug_Entra": "LUCAS NERY CALCAGNO",
+   "camiseta": "5",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "44809",
+   "Jug_Sale": "TOMAS JOSE SANZ",
+   "CarneEntra": "66377",
+   "Jug_Entra": "MATEO AGUSTIN ASENCIO",
+   "camiseta": "29",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "39086",
+   "Jug_Sale": "MATHIAS GASTON CASTIÑEIRA",
+   "CarneEntra": "44291",
+   "Jug_Entra": "IGNACIO GEISINGER",
+   "camiseta": "19",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "28144",
+   "Jug_Sale": "ANDRES ANTONIO BESIO",
+   "CarneEntra": "31878",
+   "Jug_Entra": "MAXIMILIANO SALA",
+   "camiseta": "47",
+   "minutos": "45"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "47696",
+   "Nombre": "IGNACIO TOMAS ESTEFAN",
+   "minutos": "37",
+   "EnContra": "0"
+  },
+  {
+   "carne": "57157",
+   "Nombre": "FACUNDO PIRIS",
+   "minutos": "45",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

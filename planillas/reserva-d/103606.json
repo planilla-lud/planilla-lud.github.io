@@ -1,0 +1,260 @@
+{
+ "id": "103606",
+ "categoria": "reserva-d",
+ "serie": "RSDPD",
+ "fecha": 9,
+ "fechaHora": "2026-10-31 09:00:00",
+ "cancha": "LIMBURGO -DR.J.L.PISCIOTTANO-",
+ "local": "CLUB ATLETICO LIMBURGO",
+ "visitante": "YAGUARI",
+ "gl": 1,
+ "gv": 2,
+ "detalle": {
+  "nro_partido": "600",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "RESERVA",
+  "categoria": "RESERVA MASCULINO",
+  "rueda": "2",
+  "Divisional": "RESERVA \"D\" COPA DE PLATA",
+  "Cancha": "LIMBURGO -DR.J.L.PISCIOTTANO-",
+  "Fecha_Inicio": "2026-10-31 10:52:00",
+  "Fecha_fin": "2026-10-31 10:52:00",
+  "Locatario": "CLUB ATLETICO LIMBURGO",
+  "goles_locatario": "1",
+  "puntos_locatario": "0",
+  "Visitante": "YAGUARI",
+  "goles_visitante": "2",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "53417",
+   "Nombre": "MARCOS FERNANDEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "51238",
+   "Nombre": "MATIAS BELLINI",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "67009",
+   "Nombre": "MATIAS EDUARDO SANCHEZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "69125",
+   "Nombre": "IAN CASTILLO",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "56404",
+   "Nombre": "THIAGO NICOLAS MORADO",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "56504",
+   "Nombre": "THIAGO PELLEGRINO",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "53151",
+   "Nombre": "DIEGO RODRIGUEZ",
+   "camiseta": "32",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "45209",
+   "Nombre": "JUAN MARTIN SUEIRO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "31775",
+   "Nombre": "JOAQUIN GUTIERREZ",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "50881",
+   "Nombre": "THOMAS JESKE",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "20989",
+   "Nombre": "FEDERICO PEREZ",
+   "camiseta": "17",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "30521",
+   "Nombre": "AGUSTIN PEDRO BRITO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "55076",
+   "Nombre": "SIMON RUSSI",
+   "camiseta": "47",
+   "Capitan": ""
+  },
+  {
+   "carne": "39081",
+   "Nombre": "IGNACIO EASTMAN",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "51073",
+   "Nombre": "GASTON PALERMO",
+   "camiseta": "11",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "64265",
+   "Nombre": "DIEGO CALLEROS",
+   "camiseta": "70",
+   "Capitan": ""
+  },
+  {
+   "carne": "55080",
+   "Nombre": "FRANCISCO CERONI",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "51078",
+   "Nombre": "FRANCISCO AMOZA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "45639",
+   "Nombre": "PATRICIO CORREA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "47708",
+   "Nombre": "GASTON PINTOS",
+   "camiseta": "36",
+   "Capitan": ""
+  },
+  {
+   "carne": "58191",
+   "Nombre": "SANTINO AMOZA",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "65852",
+   "Nombre": "BAUTISTA DIBOT",
+   "camiseta": "66",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "56404",
+   "Jug_Sale": "THIAGO NICOLAS MORADO",
+   "CarneEntra": "68905",
+   "Jug_Entra": "MATEO IGUINI",
+   "camiseta": "88",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "53151",
+   "Jug_Sale": "DIEGO RODRIGUEZ",
+   "CarneEntra": "48988",
+   "Jug_Entra": "ALEJANDRO GUILLERMO ROCCA",
+   "camiseta": "0",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "45209",
+   "Jug_Sale": "JUAN MARTIN SUEIRO",
+   "CarneEntra": "62430",
+   "Jug_Entra": "ALEJO MARTIN FONT",
+   "camiseta": "30",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "67009",
+   "Jug_Sale": "MATIAS EDUARDO SANCHEZ",
+   "CarneEntra": "53721",
+   "Jug_Entra": "MATEO APPA",
+   "camiseta": "22",
+   "minutos": "85"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "47708",
+   "Jug_Sale": "GASTON PINTOS",
+   "CarneEntra": "54378",
+   "Jug_Entra": "NICOLAS VAZQUEZ",
+   "camiseta": "77",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "55080",
+   "Jug_Sale": "FRANCISCO CERONI",
+   "CarneEntra": "51075",
+   "Jug_Entra": "TOMAS AMEIXEIRAS",
+   "camiseta": "32",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "51078",
+   "Jug_Sale": "FRANCISCO AMOZA",
+   "CarneEntra": "55063",
+   "Jug_Entra": "FELIPE VELAZQUEZ",
+   "camiseta": "27",
+   "minutos": "69"
+  },
+  {
+   "CarneSale": "51073",
+   "Jug_Sale": "GASTON PALERMO",
+   "CarneEntra": "54376",
+   "Jug_Entra": "MATIAS CRAI",
+   "camiseta": "10",
+   "minutos": "75"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "56504",
+   "Nombre": "THIAGO PELLEGRINO",
+   "minutos": "40",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "54376",
+   "Nombre": "MATIAS CRAI",
+   "minutos": "80",
+   "EnContra": "1"
+  },
+  {
+   "carne": "64265",
+   "Nombre": "DIEGO CALLEROS",
+   "minutos": "48",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

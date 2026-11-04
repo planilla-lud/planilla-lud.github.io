@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"B\" TIT. y ASC.",
   "Cancha": "COMPLEJO LOS ROJOS",
-  "Fecha_Inicio": "2026-10-31 12:45:00",
-  "Fecha_fin": "2026-10-31 12:45:00",
+  "Fecha_Inicio": "2026-10-31 13:00:00",
+  "Fecha_fin": "2026-10-31 13:00:00",
   "Locatario": "OLD BRENDANS CLUB",
   "goles_locatario": "2",
   "puntos_locatario": "0",
@@ -29,12 +29,266 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "57193",
+   "Nombre": "FRANCO GABRIEL LOPEZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "36517",
+   "Nombre": "MANUEL MATIAS GONZALEZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "42722",
+   "Nombre": "LUCAS MORONI",
+   "camiseta": "3",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "39397",
+   "Nombre": "GERMAN VIERA",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "41121",
+   "Nombre": "ALVARO CANO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "49155",
+   "Nombre": "ANDRES FERNANDEZ",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "39323",
+   "Nombre": "IGNACIO MILLER",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "49048",
+   "Nombre": "EZEQUIEL ESTEFAN",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "52052",
+   "Nombre": "FEDERICO DUTRA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "34982",
+   "Nombre": "GUILLERMO BURGOS",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "53428",
+   "Nombre": "JUAN MANUEL BALSAS",
+   "camiseta": "20",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "44846",
+   "Nombre": "ANTONIO JOSE IRAZOQUI",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "53690",
+   "Nombre": "MARCOS DANIEL AREVALO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "47675",
+   "Nombre": "MAURICIO DIEZ",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "54617",
+   "Nombre": "TOMAS DIAZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "68952",
+   "Nombre": "MAXIMILIANO EZEQUIEL PIRIZ",
+   "camiseta": "89",
+   "Capitan": ""
+  },
+  {
+   "carne": "54868",
+   "Nombre": "MAXIMILIANO ROMAY",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "47116",
+   "Nombre": "SANTIAGO RODRIGUEZ",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "43124",
+   "Nombre": "MATIAS FERNANDEZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "47100",
+   "Nombre": "JOAQUIN PALABES",
+   "camiseta": "92",
+   "Capitan": ""
+  },
+  {
+   "carne": "56033",
+   "Nombre": "ALEXIS DAVID FLORES",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "66028",
+   "Nombre": "MATEO AGUSTIN CHAKIYIN",
+   "camiseta": "18",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "36517",
+   "Jug_Sale": "MANUEL MATIAS GONZALEZ",
+   "CarneEntra": "43891",
+   "Jug_Entra": "DIEGO LOPEZ",
+   "camiseta": "2",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "49155",
+   "Jug_Sale": "ANDRES FERNANDEZ",
+   "CarneEntra": "58028",
+   "Jug_Entra": "TOMAS VASSALLUCCI",
+   "camiseta": "28",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "34982",
+   "Jug_Sale": "GUILLERMO BURGOS",
+   "CarneEntra": "55499",
+   "Jug_Entra": "IGNACIO DANTE FERNANDEZ",
+   "camiseta": "32",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "42722",
+   "Jug_Sale": "LUCAS MORONI",
+   "CarneEntra": "36517",
+   "Jug_Entra": "MANUEL MATIAS GONZALEZ",
+   "camiseta": "23",
+   "minutos": "79"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "66028",
+   "Jug_Sale": "MATEO AGUSTIN CHAKIYIN",
+   "CarneEntra": "46518",
+   "Jug_Entra": "MAURO GERMAN GRECCO",
+   "camiseta": "44",
+   "minutos": "59"
+  },
+  {
+   "CarneSale": "54868",
+   "Jug_Sale": "MAXIMILIANO ROMAY",
+   "CarneEntra": "43121",
+   "Jug_Entra": "SIRO PIALI",
+   "camiseta": "5",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "53690",
+   "Jug_Sale": "MARCOS DANIEL AREVALO",
+   "CarneEntra": "48966",
+   "Jug_Entra": "IGNACIO FABIAN BOLLA",
+   "camiseta": "4",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "43124",
+   "Jug_Sale": "MATIAS FERNANDEZ",
+   "CarneEntra": "54068",
+   "Jug_Entra": "JOAQUIN SANTIAGO PERDOMO",
+   "camiseta": "33",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "56033",
+   "Jug_Sale": "ALEXIS DAVID FLORES",
+   "CarneEntra": "39128",
+   "Jug_Entra": "FEDERICO FURQUE",
+   "camiseta": "10",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "47116",
+   "Jug_Sale": "SANTIAGO RODRIGUEZ",
+   "CarneEntra": "55022",
+   "Jug_Entra": "ANDRES NAHUEL LAGOS",
+   "camiseta": "19",
+   "minutos": "80"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "49048",
+   "Nombre": "EZEQUIEL ESTEFAN",
+   "minutos": "65",
+   "EnContra": "0"
+  },
+  {
+   "carne": "52052",
+   "Nombre": "FEDERICO DUTRA",
+   "minutos": "52",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "47100",
+   "Nombre": "JOAQUIN PALABES",
+   "minutos": "18",
+   "EnContra": "1"
+  },
+  {
+   "carne": "47116",
+   "Nombre": "SANTIAGO RODRIGUEZ",
+   "minutos": "74",
+   "EnContra": "1"
+  },
+  {
+   "carne": "66028",
+   "Nombre": "MATEO AGUSTIN CHAKIYIN",
+   "minutos": "3",
+   "EnContra": "1"
+  },
+  {
+   "carne": "66028",
+   "Nombre": "MATEO AGUSTIN CHAKIYIN",
+   "minutos": "58",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

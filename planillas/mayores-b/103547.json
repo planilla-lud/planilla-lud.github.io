@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"B\" TIT. y ASC.",
   "Cancha": "LA MENNAIS",
-  "Fecha_Inicio": "2026-11-01 12:45:00",
-  "Fecha_fin": "2026-11-01 12:45:00",
+  "Fecha_Inicio": "2026-11-01 13:07:00",
+  "Fecha_fin": "2026-11-01 13:07:00",
   "Locatario": "J.M.L.M",
   "goles_locatario": "2",
   "puntos_locatario": "3",
@@ -29,12 +29,256 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "45776",
+   "Nombre": "NICOLAS DOMINGUEZ",
+   "camiseta": "1",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "24053",
+   "Nombre": "JUAN IGNACIO MORO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "51505",
+   "Nombre": "MATEO GIOSA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "45775",
+   "Nombre": "FRANCO GIOSA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "46923",
+   "Nombre": "MATEO PARPAL",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "47375",
+   "Nombre": "JOAQUIN MARQUEZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "46862",
+   "Nombre": "JUAN IGNACIO GARCIA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "51589",
+   "Nombre": "LUCAS TROVO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "43862",
+   "Nombre": "SANTIAGO TORRE",
+   "camiseta": "66",
+   "Capitan": ""
+  },
+  {
+   "carne": "47379",
+   "Nombre": "FEDERICO DANIEL GONZALEZ",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "46705",
+   "Nombre": "JUAN PABLO GONZALEZ",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "21036",
+   "Nombre": "JUAN AGUSTIN MURIAS",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "63398",
+   "Nombre": "BRUNO ANDRES CIAPPESONI",
+   "camiseta": "52",
+   "Capitan": ""
+  },
+  {
+   "carne": "41985",
+   "Nombre": "PABLO ANDRES GINARD",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "39879",
+   "Nombre": "IGNACIO ADINOLFI",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "49225",
+   "Nombre": "MATIAS LOPEZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "55434",
+   "Nombre": "DIEGO TOURON",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "53398",
+   "Nombre": "MARTINO RAIMONDO",
+   "camiseta": "43",
+   "Capitan": ""
+  },
+  {
+   "carne": "60013",
+   "Nombre": "JOAQUIN DI CAPRIO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "50131",
+   "Nombre": "LUCAS CALISTRO",
+   "camiseta": "11",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "36033",
+   "Nombre": "FEDERICO FENOCCHI",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "45303",
+   "Nombre": "SANTIAGO PETROCELLI",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "24053",
+   "Jug_Sale": "JUAN IGNACIO MORO",
+   "CarneEntra": "54192",
+   "Jug_Entra": "FEDERICO PEREZ",
+   "camiseta": "0",
+   "minutos": "46"
+  },
+  {
+   "CarneSale": "47379",
+   "Jug_Sale": "FEDERICO DANIEL GONZALEZ",
+   "CarneEntra": "52806",
+   "Jug_Entra": "SANTIAGO LUIS",
+   "camiseta": "25",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "47375",
+   "Jug_Sale": "JOAQUIN MARQUEZ",
+   "CarneEntra": "47817",
+   "Jug_Entra": "CAMILO GILI",
+   "camiseta": "7",
+   "minutos": "74"
+  },
+  {
+   "CarneSale": "46705",
+   "Jug_Sale": "JUAN PABLO GONZALEZ",
+   "CarneEntra": "63385",
+   "Jug_Entra": "JUAN IGNACIO DELGADO",
+   "camiseta": "14",
+   "minutos": "74"
+  },
+  {
+   "CarneSale": "51589",
+   "Jug_Sale": "LUCAS TROVO",
+   "CarneEntra": "41952",
+   "Jug_Entra": "JUAN IGNACIO SENATORE",
+   "camiseta": "80",
+   "minutos": "89"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "55434",
+   "Jug_Sale": "DIEGO TOURON",
+   "CarneEntra": "53390",
+   "Jug_Entra": "JUAN MANUEL ECHEVERRY",
+   "camiseta": "5",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "39879",
+   "Jug_Sale": "IGNACIO ADINOLFI",
+   "CarneEntra": "51443",
+   "Jug_Entra": "MATEO DAVID BONIFACIO",
+   "camiseta": "92",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "36033",
+   "Jug_Sale": "FEDERICO FENOCCHI",
+   "CarneEntra": "54067",
+   "Jug_Entra": "JUAN PABLO LOPEZ",
+   "camiseta": "25",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "45303",
+   "Jug_Sale": "SANTIAGO PETROCELLI",
+   "CarneEntra": "53428",
+   "Jug_Entra": "JUAN MANUEL BALSAS",
+   "camiseta": "20",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "41985",
+   "Jug_Sale": "PABLO ANDRES GINARD",
+   "CarneEntra": "51174",
+   "Jug_Entra": "LUCA MAXIMO AGGIO",
+   "camiseta": "15",
+   "minutos": "87"
+  },
+  {
+   "CarneSale": "50131",
+   "Jug_Sale": "LUCAS CALISTRO",
+   "CarneEntra": "51067",
+   "Jug_Entra": "MARTIN GAUDIO",
+   "camiseta": "80",
+   "minutos": "87"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "47379",
+   "Nombre": "FEDERICO DANIEL GONZALEZ",
+   "minutos": "55",
+   "EnContra": "0"
+  },
+  {
+   "carne": "51589",
+   "Nombre": "LUCAS TROVO",
+   "minutos": "80",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "36033",
+   "Nombre": "FEDERICO FENOCCHI",
+   "minutos": "68",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

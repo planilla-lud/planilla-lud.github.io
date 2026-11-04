@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"C\" PER. y DESC.",
   "Cancha": "COMPLEJO JUAN XXIII",
-  "Fecha_Inicio": "2026-10-31 12:45:00",
-  "Fecha_fin": "2026-10-31 12:45:00",
+  "Fecha_Inicio": "2026-10-31 13:10:00",
+  "Fecha_fin": "2026-10-31 13:10:00",
   "Locatario": "LA BLANQUEADA",
   "goles_locatario": "0",
   "puntos_locatario": "1",
@@ -29,12 +29,214 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "33302",
+   "Nombre": "EMILIANO MARTINS",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "54193",
+   "Nombre": "GASTON LOMBARDO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "68751",
+   "Nombre": "BRUNO MANUEL MENA",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "49915",
+   "Nombre": "GASTON GUTIERREZ",
+   "camiseta": "24",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "53316",
+   "Nombre": "SANTIAGO NAHUEL NUÑEZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "55228",
+   "Nombre": "CRISTIAN ADRIAN LEMOS",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "35220",
+   "Nombre": "LUCIANO LOPEZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "62312",
+   "Nombre": "MARCELO JAVIER SPANO",
+   "camiseta": "69",
+   "Capitan": ""
+  },
+  {
+   "carne": "50374",
+   "Nombre": "ADRIAN MANUEL FERNANDEZ",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "51381",
+   "Nombre": "DIEGO MARTIN SUAREZ",
+   "camiseta": "36",
+   "Capitan": ""
+  },
+  {
+   "carne": "49882",
+   "Nombre": "ALEJANDRO IGNACIO PEYRE",
+   "camiseta": "12",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "57434",
+   "Nombre": "GONZALO ANDRES SANGUINETTI",
+   "camiseta": "82",
+   "Capitan": ""
+  },
+  {
+   "carne": "66823",
+   "Nombre": "JOSE PABLO ANTUNEZ",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "45274",
+   "Nombre": "ALEJANDRO GABRIEL MORALES",
+   "camiseta": "9",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "67260",
+   "Nombre": "AGUSTIN TERMEZANA",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "55367",
+   "Nombre": "LEOPOLDO RIVA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "66607",
+   "Nombre": "ALEXIS COLO",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "55308",
+   "Nombre": "JUAN MARTIN MALDONADO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "66824",
+   "Nombre": "GABRIEL HERNANDEZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "55365",
+   "Nombre": "IGNACIO MANUEL MALLO",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "61300",
+   "Nombre": "LUCIANO DA SILVA",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "46318",
+   "Nombre": "FACUNDO DEBENEDETTI",
+   "camiseta": "92",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "35220",
+   "Jug_Sale": "LUCIANO LOPEZ",
+   "CarneEntra": "41360",
+   "Jug_Entra": "JUAN IGNACIO OLIVERA",
+   "camiseta": "37",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68751",
+   "Jug_Sale": "BRUNO MANUEL MENA",
+   "CarneEntra": "69189",
+   "Jug_Entra": "ALEXIS KUSTER",
+   "camiseta": "9",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "53316",
+   "Jug_Sale": "SANTIAGO NAHUEL NUÑEZ",
+   "CarneEntra": "54872",
+   "Jug_Entra": "LAUTARO EMILIANO MENDEZ",
+   "camiseta": "87",
+   "minutos": "89"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "66607",
+   "Jug_Sale": "ALEXIS COLO",
+   "CarneEntra": "56583",
+   "Jug_Entra": "MARCOS ARRASPIDE",
+   "camiseta": "22",
+   "minutos": "32"
+  },
+  {
+   "CarneSale": "55308",
+   "Jug_Sale": "JUAN MARTIN MALDONADO",
+   "CarneEntra": "56589",
+   "Jug_Entra": "DARIO EMANUEL ARCHONDO",
+   "camiseta": "99",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "66824",
+   "Jug_Sale": "GABRIEL HERNANDEZ",
+   "CarneEntra": "55308",
+   "Jug_Entra": "JUAN MARTIN MALDONADO",
+   "camiseta": "15",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "55308",
+   "Jug_Sale": "JUAN MARTIN MALDONADO",
+   "CarneEntra": "66824",
+   "Jug_Entra": "GABRIEL HERNANDEZ",
+   "camiseta": "18",
+   "minutos": "91"
+  }
+ ],
  "golesL": [],
  "golesV": [],
- "expulsadosL": [],
- "expulsadosV": []
+ "expulsadosL": [
+  {
+   "Nombre": "CRISTIAN ADRIAN LEMOS",
+   "observaciones": ""
+  }
+ ],
+ "expulsadosV": [
+  {
+   "Nombre": "JOSE PABLO ANTUNEZ",
+   "observaciones": ""
+  }
+ ]
 }

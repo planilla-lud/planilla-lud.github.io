@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"B\" PER. y DESC.",
   "Cancha": "COM. CLUB UNIVERSIDAD CATOLICA",
-  "Fecha_Inicio": "2026-10-31 12:45:00",
-  "Fecha_fin": "2026-10-31 12:45:00",
+  "Fecha_Inicio": "2026-10-31 13:15:00",
+  "Fecha_fin": "2026-10-31 13:15:00",
   "Locatario": "CLUB UNIVERSIDAD CATOLICA",
   "goles_locatario": "1",
   "puntos_locatario": "1",
@@ -29,12 +29,234 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "47663",
+   "Nombre": "ANTHONE IVAN MARTINEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "58896",
+   "Nombre": "JUAN ANTONIO GONZALEZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "61141",
+   "Nombre": "ADRIAN IGNACIO GALVAN",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "66696",
+   "Nombre": "RODRIGO CABRERA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "56909",
+   "Nombre": "JOAQUIN NICOLAS NAVAS",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "33319",
+   "Nombre": "JUAN CARLOS PINTOS",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "51756",
+   "Nombre": "JUAN IGNACIO PERTUSSO",
+   "camiseta": "17",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "64990",
+   "Nombre": "ISMAEL PUGLIA",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "53606",
+   "Nombre": "GUILLERMO ANDRES REBOLLO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "46926",
+   "Nombre": "MATIAS ANDRES MUNIZ",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "63608",
+   "Nombre": "PABLO MARI",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "43339",
+   "Nombre": "THIAGO MAHIA",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "66390",
+   "Nombre": "JOAQUIN SANTINO FERNANDEZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "47939",
+   "Nombre": "JUAN FRANCISCO DE LOS SANTOS",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "37327",
+   "Nombre": "FEDERICO DIEGO BAUZA",
+   "camiseta": "11",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56372",
+   "Nombre": "ALFONSO CARDELINO",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "45591",
+   "Nombre": "FEDERICO DEAKIN",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "54564",
+   "Nombre": "GUILLERMO CAMPOS",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "61341",
+   "Nombre": "MATEO SUBIRAN",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "47833",
+   "Nombre": "SANTIAGO ANGENSCHEDIT",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "57133",
+   "Nombre": "GUIDO MARTINO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "61383",
+   "Nombre": "MATIAS BENECH",
+   "camiseta": "15",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "46926",
+   "Jug_Sale": "MATIAS ANDRES MUNIZ",
+   "CarneEntra": "40445",
+   "Jug_Entra": "JUAN VICENTE CAVALLERI",
+   "camiseta": "18",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "33319",
+   "Jug_Sale": "JUAN CARLOS PINTOS",
+   "CarneEntra": "60895",
+   "Jug_Entra": "TOMAS ANDRES OTERO",
+   "camiseta": "2",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "63608",
+   "Jug_Sale": "PABLO MARI",
+   "CarneEntra": "58795",
+   "Jug_Entra": "THIAGO CACERES",
+   "camiseta": "28",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "66696",
+   "Jug_Sale": "RODRIGO CABRERA",
+   "CarneEntra": "33319",
+   "Jug_Entra": "JUAN CARLOS PINTOS",
+   "camiseta": "12",
+   "minutos": "77"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "66390",
+   "Jug_Sale": "JOAQUIN SANTINO FERNANDEZ",
+   "CarneEntra": "47834",
+   "Jug_Entra": "THOMAS DEAKIN",
+   "camiseta": "18",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "54564",
+   "Jug_Sale": "GUILLERMO CAMPOS",
+   "CarneEntra": "37264",
+   "Jug_Entra": "AGUSTIN ARTAGAVEYTIA",
+   "camiseta": "47",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "56372",
+   "Jug_Sale": "ALFONSO CARDELINO",
+   "CarneEntra": "45594",
+   "Jug_Entra": "SANTIAGO GUTIERREZ",
+   "camiseta": "3",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "47833",
+   "Jug_Sale": "SANTIAGO ANGENSCHEDIT",
+   "CarneEntra": "42664",
+   "Jug_Entra": "LUIS EDUARDO TOPOLANSKY",
+   "camiseta": "14",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "37327",
+   "Jug_Sale": "FEDERICO DIEGO BAUZA",
+   "CarneEntra": "48008",
+   "Jug_Entra": "SANTIAGO DABO",
+   "camiseta": "33",
+   "minutos": "80"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "63608",
+   "Nombre": "PABLO MARI",
+   "minutos": "68",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "57133",
+   "Nombre": "GUIDO MARTINO",
+   "minutos": "14",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"E\" TIT. y ASC.",
   "Cancha": "SANTA RITA",
-  "Fecha_Inicio": "2026-11-01 10:30:00",
-  "Fecha_fin": "2026-11-01 10:30:00",
+  "Fecha_Inicio": "2026-11-01 11:00:00",
+  "Fecha_fin": "2026-11-01 11:00:00",
   "Locatario": "SAN AGUSTIN",
   "goles_locatario": "4",
   "puntos_locatario": "3",
@@ -29,12 +29,250 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "59374",
+   "Nombre": "MATIAS CRISPINO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "47648",
+   "Nombre": "JOAQUIN GELABERT",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "43870",
+   "Nombre": "BRUNO FREGNI",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "41133",
+   "Nombre": "FEDERICO SERGIO GAZZANI",
+   "camiseta": "3",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "43869",
+   "Nombre": "SEBASTIAN BONANNI",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "59509",
+   "Nombre": "MATIAS URTARAN",
+   "camiseta": "90",
+   "Capitan": ""
+  },
+  {
+   "carne": "67940",
+   "Nombre": "SANTIAGO MATHEW SOSA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "51611",
+   "Nombre": "AGUSTIN BOERO",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "60838",
+   "Nombre": "MATIAS GRAJALES",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "54539",
+   "Nombre": "CRISTIAN FABIAN MADERA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "43868",
+   "Nombre": "NICOLAS LOGALDO",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "28295",
+   "Nombre": "MATHÌAS CAMBÒN",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "34257",
+   "Nombre": "JUAN FELIPE CARDINAL",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "40955",
+   "Nombre": "FABRIZIO NICOLAS ARMARIO",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "51670",
+   "Nombre": "RODRIGO BERGARA",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "51155",
+   "Nombre": "SANTIAGO FURMAN",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "61839",
+   "Nombre": "IGNACIO SEBASTIAN OVANDO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "49052",
+   "Nombre": "GIANLUCA COSTANTINI",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "62326",
+   "Nombre": "MANUEL LOPEZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "44754",
+   "Nombre": "PATRICIO LOPEZ",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "50459",
+   "Nombre": "DAMIAN CAO",
+   "camiseta": "27",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "38019",
+   "Nombre": "IGNACIO GUZMAN FERNANDEZ",
+   "camiseta": "35",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "43868",
+   "Jug_Sale": "NICOLAS LOGALDO",
+   "CarneEntra": "68725",
+   "Jug_Entra": "SEBASTIAN ALEXANDER AREVALO",
+   "camiseta": "6",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "47648",
+   "Jug_Sale": "JOAQUIN GELABERT",
+   "CarneEntra": "55788",
+   "Jug_Entra": "JUAN IGNACIO BECOÑA",
+   "camiseta": "71",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "60838",
+   "Jug_Sale": "MATIAS GRAJALES",
+   "CarneEntra": "53758",
+   "Jug_Entra": "MATEO CARDOZO",
+   "camiseta": "34",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "51611",
+   "Jug_Sale": "AGUSTIN BOERO",
+   "CarneEntra": "43868",
+   "Jug_Entra": "NICOLAS LOGALDO",
+   "camiseta": "9",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "43868",
+   "Jug_Sale": "NICOLAS LOGALDO",
+   "CarneEntra": "47646",
+   "Jug_Entra": "JUAN ANDRES NERVI",
+   "camiseta": "33",
+   "minutos": "83"
+  },
+  {
+   "CarneSale": "68725",
+   "Jug_Sale": "SEBASTIAN ALEXANDER AREVALO",
+   "CarneEntra": "60838",
+   "Jug_Entra": "MATIAS GRAJALES",
+   "camiseta": "7",
+   "minutos": "93"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "61839",
+   "Jug_Sale": "IGNACIO SEBASTIAN OVANDO",
+   "CarneEntra": "59273",
+   "Jug_Entra": "PEDRO MALOSETTI",
+   "camiseta": "17",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "34257",
+   "Jug_Sale": "JUAN FELIPE CARDINAL",
+   "CarneEntra": "59114",
+   "Jug_Entra": "MAXIMILAINO PARDIE",
+   "camiseta": "10",
+   "minutos": "90"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "41133",
+   "Nombre": "FEDERICO SERGIO GAZZANI",
+   "minutos": "74",
+   "EnContra": "0"
+  },
+  {
+   "carne": "43868",
+   "Nombre": "NICOLAS LOGALDO",
+   "minutos": "77",
+   "EnContra": "0"
+  },
+  {
+   "carne": "54539",
+   "Nombre": "CRISTIAN FABIAN MADERA",
+   "minutos": "27",
+   "EnContra": "0"
+  },
+  {
+   "carne": "54539",
+   "Nombre": "CRISTIAN FABIAN MADERA",
+   "minutos": "50",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "38019",
+   "Nombre": "IGNACIO GUZMAN FERNANDEZ",
+   "minutos": "25",
+   "EnContra": "1"
+  },
+  {
+   "carne": "50459",
+   "Nombre": "DAMIAN CAO",
+   "minutos": "85",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

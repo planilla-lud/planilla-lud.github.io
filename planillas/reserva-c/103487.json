@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"C\" TIT. y ASC.",
   "Cancha": "COMPLEJO JUAN XXIII",
-  "Fecha_Inicio": "2026-10-31 12:45:00",
-  "Fecha_fin": "2026-10-31 12:45:00",
+  "Fecha_Inicio": "2026-10-31 13:00:00",
+  "Fecha_fin": "2026-10-31 13:00:00",
   "Locatario": "JUAN XXIII BLANCO",
   "goles_locatario": "1",
   "puntos_locatario": "1",
@@ -29,12 +29,242 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "59263",
+   "Nombre": "MAURO ANDRES RUVERTONI",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "55283",
+   "Nombre": "IGNACIO ZABALETA",
+   "camiseta": "47",
+   "Capitan": ""
+  },
+  {
+   "carne": "59802",
+   "Nombre": "VALENTINO GORAN BARREIRO",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "49012",
+   "Nombre": "AGUSTIN SUPERVIELLE",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "58867",
+   "Nombre": "BRUNO MARASCO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "54665",
+   "Nombre": "SANTIAGO PRINA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "58861",
+   "Nombre": "SEBASTIAN RODRIGUEZ",
+   "camiseta": "50",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "61875",
+   "Nombre": "MARTIN VITABAR",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "46955",
+   "Nombre": "FRANCISCO ARTURO CACERES",
+   "camiseta": "87",
+   "Capitan": ""
+  },
+  {
+   "carne": "53772",
+   "Nombre": "GIULIANO GAZZOLA",
+   "camiseta": "64",
+   "Capitan": ""
+  },
+  {
+   "carne": "51708",
+   "Nombre": "AGUSTIN FERRES",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "54917",
+   "Nombre": "IGNACIO JOSE LUIS BRAGA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "61186",
+   "Nombre": "JOAQUIN MARIA FLORES",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "50906",
+   "Nombre": "IGNACION PEREZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "58663",
+   "Nombre": "JOAQUIN ETCHELAR",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "62073",
+   "Nombre": "JUAN IGNACIO PEVERELLI",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "49360",
+   "Nombre": "TOMAS JOSE TARIGO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "49450",
+   "Nombre": "AGUSTIN MATEO MACHADO",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "49452",
+   "Nombre": "VALENTIN ALGARE",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "68603",
+   "Nombre": "FELIPE ROUCO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "56341",
+   "Nombre": "FRANCISCO SOBRAL",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "39059",
+   "Nombre": "GUILLERMO JOSE BARREIRO",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "53772",
+   "Jug_Sale": "GIULIANO GAZZOLA",
+   "CarneEntra": "61867",
+   "Jug_Entra": "MATEO ALVAREZ",
+   "camiseta": "40",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "58867",
+   "Jug_Sale": "BRUNO MARASCO",
+   "CarneEntra": "62489",
+   "Jug_Entra": "FACUNDO PASSEGGI",
+   "camiseta": "69",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "61875",
+   "Jug_Sale": "MARTIN VITABAR",
+   "CarneEntra": "47130",
+   "Jug_Entra": "FRANCISCO ALVAREZ DE RON",
+   "camiseta": "51",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "59802",
+   "Jug_Sale": "VALENTINO GORAN BARREIRO",
+   "CarneEntra": "58842",
+   "Jug_Entra": "ISMAEL DE DIOS",
+   "camiseta": "92",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "49012",
+   "Jug_Sale": "AGUSTIN SUPERVIELLE",
+   "CarneEntra": "48876",
+   "Jug_Entra": "EZEQUIEL FERRARI",
+   "camiseta": "27",
+   "minutos": "91"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "62073",
+   "Jug_Sale": "JUAN IGNACIO PEVERELLI",
+   "CarneEntra": "49358",
+   "Jug_Entra": "JUAN ANDRES TORRES NEGREIRA",
+   "camiseta": "8",
+   "minutos": "49"
+  },
+  {
+   "CarneSale": "61186",
+   "Jug_Sale": "JOAQUIN MARIA FLORES",
+   "CarneEntra": "54674",
+   "Jug_Entra": "JUAN FRANCISCO TORRES NEGREIRA",
+   "camiseta": "20",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "54674",
+   "Jug_Sale": "JUAN FRANCISCO TORRES NEGREIRA",
+   "CarneEntra": "68638",
+   "Jug_Entra": "JUAN SANTIAGO QUINTERO",
+   "camiseta": "14",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "56341",
+   "Jug_Sale": "FRANCISCO SOBRAL",
+   "CarneEntra": "47807",
+   "Jug_Entra": "JUAN ANDRES BRATSCHI",
+   "camiseta": "40",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "58663",
+   "Jug_Sale": "JOAQUIN ETCHELAR",
+   "CarneEntra": "50908",
+   "Jug_Entra": "NICOLAS JOSE MOREIRA",
+   "camiseta": "15",
+   "minutos": "83"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "62489",
+   "Nombre": "FACUNDO PASSEGGI",
+   "minutos": "70",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "56341",
+   "Nombre": "FRANCISCO SOBRAL",
+   "minutos": "17",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

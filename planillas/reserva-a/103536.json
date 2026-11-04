@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"A\" TITULO",
   "Cancha": "OLD CHRISTIANS CLUB",
-  "Fecha_Inicio": "2026-10-31 10:30:00",
-  "Fecha_fin": "2026-10-31 10:30:00",
+  "Fecha_Inicio": "2026-10-31 11:00:00",
+  "Fecha_fin": "2026-10-31 11:00:00",
   "Locatario": "OLD CHRISTIANS AZUL",
   "goles_locatario": "1",
   "puntos_locatario": "3",
@@ -29,11 +29,242 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "55226",
+   "Nombre": "ALFONSO DEL CASTILLO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "54053",
+   "Nombre": "FRANCO BUYSAN",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "35068",
+   "Nombre": "MATEO DI LORENZO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "53219",
+   "Nombre": "JOAQUIN LARRAECHA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "41003",
+   "Nombre": "FEDERICO BARRIOS",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "42263",
+   "Nombre": "JUAN MARTIN ROMANIELLO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "52355",
+   "Nombre": "SANTIAGO PAZ RODRIGUEZ",
+   "camiseta": "47",
+   "Capitan": ""
+  },
+  {
+   "carne": "39601",
+   "Nombre": "NICOLAS OEHLER",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "63476",
+   "Nombre": "BAUTISTA MARIANO RODRIGUEZ ALEMPARTE",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "51886",
+   "Nombre": "LUCAS ALONSO",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "62462",
+   "Nombre": "JUAN GABRIEL ALVAREZ",
+   "camiseta": "97",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "59470",
+   "Nombre": "FABRICIO OLIVERA",
+   "camiseta": "1",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "38391",
+   "Nombre": "NICOLAS MARIA RODRIGUEZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "37258",
+   "Nombre": "LUIS PEDRO LENGUAS",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "33559",
+   "Nombre": "JULIO ALEXANDER GURIDI",
+   "camiseta": "87",
+   "Capitan": ""
+  },
+  {
+   "carne": "48390",
+   "Nombre": "GERONIMO ALVARES",
+   "camiseta": "70",
+   "Capitan": ""
+  },
+  {
+   "carne": "47503",
+   "Nombre": "FRANCO CHIAPPARA",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "39036",
+   "Nombre": "MANUEL LEIVA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "51827",
+   "Nombre": "PHILIPPE JUDE",
+   "camiseta": "53",
+   "Capitan": ""
+  },
+  {
+   "carne": "41575",
+   "Nombre": "MANUEL TERRA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "53930",
+   "Nombre": "MAXIMO RICARDO SEIZER",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "41581",
+   "Nombre": "ALFONSO SIMETO",
+   "camiseta": "33",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "63476",
+   "Jug_Sale": "BAUTISTA MARIANO RODRIGUEZ ALEMPARTE",
+   "CarneEntra": "37187",
+   "Jug_Entra": "GUILLERMO DEAL",
+   "camiseta": "11",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "54053",
+   "Jug_Sale": "FRANCO BUYSAN",
+   "CarneEntra": "39425",
+   "Jug_Entra": "SANTIAGO MARAFFI",
+   "camiseta": "31",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "52355",
+   "Jug_Sale": "SANTIAGO PAZ RODRIGUEZ",
+   "CarneEntra": "52396",
+   "Jug_Entra": "TOMAS DI LORENZO",
+   "camiseta": "96",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "39601",
+   "Jug_Sale": "NICOLAS OEHLER",
+   "CarneEntra": "54480",
+   "Jug_Entra": "FACUNDO BELO",
+   "camiseta": "30",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "51886",
+   "Jug_Sale": "LUCAS ALONSO",
+   "CarneEntra": "42262",
+   "Jug_Entra": "FELIPE LOPEZ",
+   "camiseta": "9",
+   "minutos": "96"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "51827",
+   "Jug_Sale": "PHILIPPE JUDE",
+   "CarneEntra": "54585",
+   "Jug_Entra": "TOMAS CABRAL",
+   "camiseta": "25",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "53930",
+   "Jug_Sale": "MAXIMO RICARDO SEIZER",
+   "CarneEntra": "48369",
+   "Jug_Entra": "LUCA BERTINI",
+   "camiseta": "14",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "37258",
+   "Jug_Sale": "LUIS PEDRO LENGUAS",
+   "CarneEntra": "47413",
+   "Jug_Entra": "LUCAS MARTIN VILLARONGA",
+   "camiseta": "32",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "47503",
+   "Jug_Sale": "FRANCO CHIAPPARA",
+   "CarneEntra": "54590",
+   "Jug_Entra": "ALFONSO MAILHOS",
+   "camiseta": "30",
+   "minutos": "83"
+  },
+  {
+   "CarneSale": "39036",
+   "Jug_Sale": "MANUEL LEIVA",
+   "CarneEntra": "49027",
+   "Jug_Entra": "BENJAMIN LOPEZ",
+   "camiseta": "21",
+   "minutos": "83"
+  },
+  {
+   "CarneSale": "48390",
+   "Jug_Sale": "GERONIMO ALVARES",
+   "CarneEntra": "34986",
+   "Jug_Entra": "FELIPE ANTONIO AZADIAN",
+   "camiseta": "17",
+   "minutos": "90"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "39601",
+   "Nombre": "NICOLAS OEHLER",
+   "minutos": "27",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

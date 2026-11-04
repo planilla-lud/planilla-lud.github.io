@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"C\" PERM. y DESC.",
   "Cancha": "PARQUE O.CESTAU (EX VELODROMO)",
-  "Fecha_Inicio": "2026-11-01 12:45:00",
-  "Fecha_fin": "2026-11-01 12:45:00",
+  "Fecha_Inicio": "2026-11-01 13:15:00",
+  "Fecha_fin": "2026-11-01 13:15:00",
   "Locatario": "C.A.L.I.",
   "goles_locatario": "1",
   "puntos_locatario": "3",
@@ -29,11 +29,218 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "20253",
+   "Nombre": "PABLO CARLEVARO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "20722",
+   "Nombre": "JUAN MANUEL GONZALEZ",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "49861",
+   "Nombre": "NICOLAS CARLOS ALTEZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "64641",
+   "Nombre": "LEANDRO DELGADO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "54565",
+   "Nombre": "SEBASTIAN FEDERICO ALTEZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "68955",
+   "Nombre": "LUIS FRANCO PERAZZA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "39442",
+   "Nombre": "GUZMAN GONZALEZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "44411",
+   "Nombre": "BRAHIAN ANDRES CRUZ",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "33831",
+   "Nombre": "FACUNDO MOREIRA",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "69066",
+   "Nombre": "JOAQUIN LOPEZ",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "60794",
+   "Nombre": "JUAN IGNACIO VIGLIONE",
+   "camiseta": "20",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "45571",
+   "Nombre": "JOSE MARIA NUÐEZ",
+   "camiseta": "39",
+   "Capitan": ""
+  },
+  {
+   "carne": "40852",
+   "Nombre": "JUAN IGNACIO BARREIRO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "62714",
+   "Nombre": "IGNACIO RODRIGUEZ",
+   "camiseta": "47",
+   "Capitan": ""
+  },
+  {
+   "carne": "56707",
+   "Nombre": "JUAN SANCHEZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "47377",
+   "Nombre": "MARCOS CAPRILE",
+   "camiseta": "8",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "52663",
+   "Nombre": "MARCOS VERNENGO",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "56704",
+   "Nombre": "FRANCO RODRIGUEZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "50763",
+   "Nombre": "IGNACIO MORENO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "37686",
+   "Nombre": "MARTIN ROMANIELLO",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "49707",
+   "Nombre": "FACUNDO DIAZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "59329",
+   "Nombre": "MATEO LAUTARO FERNANDEZ",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "64641",
+   "Jug_Sale": "LEANDRO DELGADO",
+   "CarneEntra": "20719",
+   "Jug_Entra": "DIEGO MARTIN PAEZ",
+   "camiseta": "6",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "60794",
+   "Jug_Sale": "JUAN IGNACIO VIGLIONE",
+   "CarneEntra": "64641",
+   "Jug_Entra": "LEANDRO DELGADO",
+   "camiseta": "10",
+   "minutos": "63"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "37686",
+   "Jug_Sale": "MARTIN ROMANIELLO",
+   "CarneEntra": "51861",
+   "Jug_Entra": "FRANCO CHIAZZARO",
+   "camiseta": "21",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "59329",
+   "Jug_Sale": "MATEO LAUTARO FERNANDEZ",
+   "CarneEntra": "63301",
+   "Jug_Entra": "LEANDRO ALEXIS PELUFFO",
+   "camiseta": "80",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "52663",
+   "Jug_Sale": "MARCOS VERNENGO",
+   "CarneEntra": "45170",
+   "Jug_Entra": "DANILO CHAVES",
+   "camiseta": "10",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "50763",
+   "Jug_Sale": "IGNACIO MORENO",
+   "CarneEntra": "62915",
+   "Jug_Entra": "MATEO RODRIGUEZ",
+   "camiseta": "79",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "62714",
+   "Jug_Sale": "IGNACIO RODRIGUEZ",
+   "CarneEntra": "50763",
+   "Jug_Entra": "IGNACIO MORENO",
+   "camiseta": "5",
+   "minutos": "69"
+  },
+  {
+   "CarneSale": "47377",
+   "Jug_Sale": "MARCOS CAPRILE",
+   "CarneEntra": "52663",
+   "Jug_Entra": "MARCOS VERNENGO",
+   "camiseta": "77",
+   "minutos": "88"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "33831",
+   "Nombre": "FACUNDO MOREIRA",
+   "minutos": "65",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

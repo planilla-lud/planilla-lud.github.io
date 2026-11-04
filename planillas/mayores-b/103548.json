@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"B\" PERM. y DESC.",
   "Cancha": "COMPLEJO LAS CASUARINAS",
-  "Fecha_Inicio": "2026-11-01 12:45:00",
-  "Fecha_fin": "2026-11-01 12:45:00",
+  "Fecha_Inicio": "2026-11-01 13:15:00",
+  "Fecha_fin": "2026-11-01 13:15:00",
   "Locatario": "CLUB JESUS MARIA",
   "goles_locatario": "3",
   "puntos_locatario": "3",
@@ -29,12 +29,251 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "35097",
+   "Nombre": "JUAN MANUEL CARRERO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "35549",
+   "Nombre": "NICOLAS ARTOLA",
+   "camiseta": "21",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "59059",
+   "Nombre": "TOMAS MENDEZ",
+   "camiseta": "36",
+   "Capitan": ""
+  },
+  {
+   "carne": "46450",
+   "Nombre": "JUAN IGANCIO CASTRO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "33924",
+   "Nombre": "ISMAEL SILVA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "41305",
+   "Nombre": "JOAQUIN JUAN VILLA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "48398",
+   "Nombre": "GASTON RAMA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "50659",
+   "Nombre": "IGNACIO TRONCOSO",
+   "camiseta": "47",
+   "Capitan": ""
+  },
+  {
+   "carne": "57658",
+   "Nombre": "IGNACIO MIERES",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "62069",
+   "Nombre": "SANTIAGO SILVA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "35266",
+   "Nombre": "ALAIN ELISSALDE",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "58494",
+   "Nombre": "LEANDRO XAVIER",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "43439",
+   "Nombre": "FACUNDO GARCIA",
+   "camiseta": "79",
+   "Capitan": ""
+  },
+  {
+   "carne": "40073",
+   "Nombre": "JOAQUIN AVEDISIAN",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "44034",
+   "Nombre": "HORACIO RODRIGUEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "68177",
+   "Nombre": "ENZO FACUNDO SOUZA",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "60709",
+   "Nombre": "LAUTARO DIAZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "42394",
+   "Nombre": "MARTINHO GABRIEL DA COSTA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "43774",
+   "Nombre": "FELIPE HEIN",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "51150",
+   "Nombre": "IGNACIO ARTIGAS FERREIRA",
+   "camiseta": "68",
+   "Capitan": ""
+  },
+  {
+   "carne": "53095",
+   "Nombre": "MARTIN PEZZATTI",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "46441",
+   "Nombre": "MARTIN PABLO RIVAS",
+   "camiseta": "4",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "57658",
+   "Jug_Sale": "IGNACIO MIERES",
+   "CarneEntra": "62062",
+   "Jug_Entra": "AFONSO COSTA",
+   "camiseta": "22",
+   "minutos": "47"
+  },
+  {
+   "CarneSale": "48398",
+   "Jug_Sale": "GASTON RAMA",
+   "CarneEntra": "51224",
+   "Jug_Entra": "DIEGO MARTINEZ",
+   "camiseta": "37",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "62069",
+   "Jug_Sale": "SANTIAGO SILVA",
+   "CarneEntra": "62063",
+   "Jug_Entra": "RODRIGO RUBIO",
+   "camiseta": "0",
+   "minutos": "80"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "46441",
+   "Jug_Sale": "MARTIN PABLO RIVAS",
+   "CarneEntra": "42358",
+   "Jug_Entra": "FABIO ENRIQUED DA COSTA",
+   "camiseta": "22",
+   "minutos": "44"
+  },
+  {
+   "CarneSale": "51150",
+   "Jug_Sale": "IGNACIO ARTIGAS FERREIRA",
+   "CarneEntra": "46217",
+   "Jug_Entra": "SIMON RODRIGUEZ",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "40073",
+   "Jug_Sale": "JOAQUIN AVEDISIAN",
+   "CarneEntra": "39168",
+   "Jug_Entra": "PIETRO BENITEZ",
+   "camiseta": "2",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "42394",
+   "Jug_Sale": "MARTINHO GABRIEL DA COSTA",
+   "CarneEntra": "62684",
+   "Jug_Entra": "JOAQUIN VARELA",
+   "camiseta": "6",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "60709",
+   "Jug_Sale": "LAUTARO DIAZ",
+   "CarneEntra": "45360",
+   "Jug_Entra": "IVO THIAGO PEREZ",
+   "camiseta": "29",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "68177",
+   "Jug_Sale": "ENZO FACUNDO SOUZA",
+   "CarneEntra": "40073",
+   "Jug_Entra": "JOAQUIN AVEDISIAN",
+   "camiseta": "10",
+   "minutos": "90"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "35266",
+   "Nombre": "ALAIN ELISSALDE",
+   "minutos": "17",
+   "EnContra": "0"
+  },
+  {
+   "carne": "35266",
+   "Nombre": "ALAIN ELISSALDE",
+   "minutos": "83",
+   "EnContra": "0"
+  },
+  {
+   "carne": "62062",
+   "Nombre": "AFONSO COSTA",
+   "minutos": "94",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "40073",
+   "Nombre": "JOAQUIN AVEDISIAN",
+   "minutos": "93",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
- "expulsadosV": []
+ "expulsadosV": [
+  {
+   "Nombre": "MARTIN PABLO RIVAS",
+   "observaciones": ""
+  }
+ ]
 }

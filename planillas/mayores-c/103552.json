@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"C\" TIT. y ASC.",
   "Cancha": "CAMPO DEP. INSTITUTO CRANDON",
-  "Fecha_Inicio": "2026-11-01 12:45:00",
-  "Fecha_fin": "2026-11-01 12:45:00",
+  "Fecha_Inicio": "2026-11-01 13:00:00",
+  "Fecha_fin": "2026-11-01 13:00:00",
   "Locatario": "CRANDON UNIVERSITARIO",
   "goles_locatario": "0",
   "puntos_locatario": "1",
@@ -29,10 +29,226 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "55466",
+   "Nombre": "RODRIGO ALEJANDRO ANIDO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "36857",
+   "Nombre": "GUILLERMO AMOZA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "64431",
+   "Nombre": "FRANCO JOSUE CASCALLARES",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "56199",
+   "Nombre": "MATIAS ANDRES MORAES",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "49151",
+   "Nombre": "LUCAS MOREIRA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "66886",
+   "Nombre": "MAXIMILIANO SILVERA",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "41107",
+   "Nombre": "MATIAS ANTONIO OXACELHAY",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56357",
+   "Nombre": "SEBASTIAN PARDO IRIONDO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "47609",
+   "Nombre": "VICENTE ALVAREZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "39029",
+   "Nombre": "FELIPE DIAZ ARNESTO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "58798",
+   "Nombre": "MATEO FRAGA",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "23480",
+   "Nombre": "IGNACIO GASTON BIDEGAIN",
+   "camiseta": "17",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "51477",
+   "Nombre": "VICTOR VIERA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "48515",
+   "Nombre": "KEVIN NICOLAS HERVADA",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "59249",
+   "Nombre": "AGUSTIN CAMPON",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "47632",
+   "Nombre": "SANTIAGO COLOMBO",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "51528",
+   "Nombre": "CARLOS ALFREDO DUARTE",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "54134",
+   "Nombre": "MARTIN CORTINAS",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "48353",
+   "Nombre": "TOMAS ARAMENDI",
+   "camiseta": "51",
+   "Capitan": ""
+  },
+  {
+   "carne": "61296",
+   "Nombre": "JOAQUIN LUCIANO NUÑEZ",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "56437",
+   "Nombre": "FEDERICO PAOLINO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "54922",
+   "Nombre": "FABIAN ANDRE IRISARRI",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "39029",
+   "Jug_Sale": "FELIPE DIAZ ARNESTO",
+   "CarneEntra": "41022",
+   "Jug_Entra": "SANTIAGO ROSSO",
+   "camiseta": "22",
+   "minutos": "51"
+  },
+  {
+   "CarneSale": "66886",
+   "Jug_Sale": "MAXIMILIANO SILVERA",
+   "CarneEntra": "39055",
+   "Jug_Entra": "LUCAS MARTIN CASTIGLIONI",
+   "camiseta": "9",
+   "minutos": "51"
+  },
+  {
+   "CarneSale": "58798",
+   "Jug_Sale": "MATEO FRAGA",
+   "CarneEntra": "52832",
+   "Jug_Entra": "FELIPE ROBATTO",
+   "camiseta": "14",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "36857",
+   "Jug_Sale": "GUILLERMO AMOZA",
+   "CarneEntra": "51113",
+   "Jug_Entra": "BRUNO CHELINI",
+   "camiseta": "20",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "56357",
+   "Jug_Sale": "SEBASTIAN PARDO IRIONDO",
+   "CarneEntra": "40627",
+   "Jug_Entra": "ALVARO JAVIER AMORENA",
+   "camiseta": "2",
+   "minutos": "81"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "47632",
+   "Jug_Sale": "SANTIAGO COLOMBO",
+   "CarneEntra": "51381",
+   "Jug_Entra": "DIEGO MARTIN SUAREZ",
+   "camiseta": "36",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "61296",
+   "Jug_Sale": "JOAQUIN LUCIANO NUÑEZ",
+   "CarneEntra": "55234",
+   "Jug_Entra": "LUCAS DO VALLE PEIXOTO",
+   "camiseta": "22",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "54134",
+   "Jug_Sale": "MARTIN CORTINAS",
+   "CarneEntra": "50374",
+   "Jug_Entra": "ADRIAN MANUEL FERNANDEZ",
+   "camiseta": "21",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "59249",
+   "Jug_Sale": "AGUSTIN CAMPON",
+   "CarneEntra": "38912",
+   "Jug_Entra": "CESAR LUIS PIEDRABUENA",
+   "camiseta": "30",
+   "minutos": "83"
+  },
+  {
+   "CarneSale": "54922",
+   "Jug_Sale": "FABIAN ANDRE IRISARRI",
+   "CarneEntra": "49882",
+   "Jug_Entra": "ALEJANDRO IGNACIO PEYRE",
+   "camiseta": "11",
+   "minutos": "93"
+  }
+ ],
  "golesL": [],
  "golesV": [],
  "expulsadosL": [],

@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB18 PLATA",
   "Cancha": "COMPLEJO URUNDAY UNIVERSITARIO",
-  "Fecha_Inicio": "2026-11-01 17:00:00",
-  "Fecha_fin": "2026-11-01 17:00:00",
+  "Fecha_Inicio": "2026-11-01 17:20:00",
+  "Fecha_fin": "2026-11-01 17:20:00",
   "Locatario": "URUNDAY UNIVERSITARIO",
   "goles_locatario": "2",
   "puntos_locatario": "3",
@@ -29,12 +29,229 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "61017",
+   "Nombre": "NAHUEL CRISTOBO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "68628",
+   "Nombre": "JOAQUIN ISMAEL CARDOZO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "67073",
+   "Nombre": "LUCAS EZEQUIEL SERPA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "57245",
+   "Nombre": "AGUSTIN EMMANUEL TORIJA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "68461",
+   "Nombre": "RENZO NAHUEL CEDRES",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "57237",
+   "Nombre": "ANGEL SEBASTIAN MARTINEZ",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "62213",
+   "Nombre": "NICOLAS FERNANDEZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "64611",
+   "Nombre": "FEDERICO PITA",
+   "camiseta": "66",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "60432",
+   "Nombre": "FELIPE CERONI",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "67074",
+   "Nombre": "TOMÀS CENTURIÒN",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "57583",
+   "Nombre": "KEVIN FACUNDO MAGURNO",
+   "camiseta": "21",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "61996",
+   "Nombre": "JUAN MATEO MAGUNA",
+   "camiseta": "1",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "68022",
+   "Nombre": "FACUNDO SEBASTIAN VILLAGRAN",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "58771",
+   "Nombre": "ALEJO RODRIGUEZ",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "57774",
+   "Nombre": "BRUNO SICA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "66249",
+   "Nombre": "FACUNDO DIAZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "58621",
+   "Nombre": "JUAN IGNACIO DUFFAU",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "58390",
+   "Nombre": "LUCAS EMILIANO MESSERE",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "57780",
+   "Nombre": "DIEGO BETTINELLI",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "61144",
+   "Nombre": "FACUNDO LUIS D’AMICO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "63643",
+   "Nombre": "MATEO FAULORD",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "64944",
+   "Nombre": "VALENTINO DECIA",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "68461",
+   "Jug_Sale": "RENZO NAHUEL CEDRES",
+   "CarneEntra": "58261",
+   "Jug_Entra": "NICOLAS ACUÑA",
+   "camiseta": "22",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "57583",
+   "Jug_Sale": "KEVIN FACUNDO MAGURNO",
+   "CarneEntra": "62302",
+   "Jug_Entra": "JUAN IGNACIO CABALLERO",
+   "camiseta": "9",
+   "minutos": "86"
+  },
+  {
+   "CarneSale": "68628",
+   "Jug_Sale": "JOAQUIN ISMAEL CARDOZO",
+   "CarneEntra": "57580",
+   "Jug_Entra": "FELIPE MATTHEY",
+   "camiseta": "8",
+   "minutos": "90"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "58621",
+   "Jug_Sale": "JUAN IGNACIO DUFFAU",
+   "CarneEntra": "59260",
+   "Jug_Entra": "ALFONSO VERDUN",
+   "camiseta": "7",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61144",
+   "Jug_Sale": "FACUNDO LUIS D’AMICO",
+   "CarneEntra": "68258",
+   "Jug_Entra": "MAXIMILIANO CUBA",
+   "camiseta": "21",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "68022",
+   "Jug_Sale": "FACUNDO SEBASTIAN VILLAGRAN",
+   "CarneEntra": "68658",
+   "Jug_Entra": "SANTINO GOMEZ",
+   "camiseta": "20",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "66249",
+   "Jug_Sale": "FACUNDO DIAZ",
+   "CarneEntra": "61144",
+   "Jug_Entra": "FACUNDO LUIS D’AMICO",
+   "camiseta": "5",
+   "minutos": "74"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "67074",
+   "Nombre": "TOMÀS CENTURIÒN",
+   "minutos": "50",
+   "EnContra": "0"
+  },
+  {
+   "carne": "68628",
+   "Nombre": "JOAQUIN ISMAEL CARDOZO",
+   "minutos": "75",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "64944",
+   "Nombre": "VALENTINO DECIA",
+   "minutos": "25",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
- "expulsadosV": []
+ "expulsadosV": [
+  {
+   "Nombre": "LUCAS EMILIANO MESSERE",
+   "observaciones": ""
+  }
+ ]
 }

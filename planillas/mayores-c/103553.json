@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"C\" TIT. y ASC.",
   "Cancha": "COMPLEJO JUAN XXIII",
-  "Fecha_Inicio": "2026-11-01 10:30:00",
-  "Fecha_fin": "2026-11-01 10:30:00",
+  "Fecha_Inicio": "2026-11-01 11:00:00",
+  "Fecha_fin": "2026-11-01 11:00:00",
   "Locatario": "MATURANA UNIVERSITARIO",
   "goles_locatario": "0",
   "puntos_locatario": "1",
@@ -29,10 +29,186 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "44518",
+   "Nombre": "MATIAS DA ROSA",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "54634",
+   "Nombre": "SANTIAGO PORLEY",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "63603",
+   "Nombre": "JOAQUIN VIDEGAIN",
+   "camiseta": "27",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "41765",
+   "Nombre": "NICOLAS LABAT",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "48968",
+   "Nombre": "LUCAS ALONSO",
+   "camiseta": "57",
+   "Capitan": ""
+  },
+  {
+   "carne": "63888",
+   "Nombre": "TOMAS NAHUEL AREOSA",
+   "camiseta": "92",
+   "Capitan": ""
+  },
+  {
+   "carne": "54633",
+   "Nombre": "MATEO GARCIA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "56633",
+   "Nombre": "GONZALO PINTADO",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "52597",
+   "Nombre": "JOAQUIN ZABALETA",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "50431",
+   "Nombre": "RODRIGO PELETEIRO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "54807",
+   "Nombre": "BRUNO ZARZAY",
+   "camiseta": "28",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "53288",
+   "Nombre": "MAIKOL JAVIER MIGLIACCIO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "43819",
+   "Nombre": "MARCOS GUGLIUCCI",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "68962",
+   "Nombre": "LEANDRO ANDRES ZEBALLOS",
+   "camiseta": "47",
+   "Capitan": ""
+  },
+  {
+   "carne": "39455",
+   "Nombre": "CARLOS ANDRES DIAZ",
+   "camiseta": "22",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "49538",
+   "Nombre": "NICOLAS FERREYRA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "47181",
+   "Nombre": "SANTIAGO QUIROGA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "41789",
+   "Nombre": "RODRIGO MARTIN IGLESIAS",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "53802",
+   "Nombre": "RODRIGO CUNEO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "47179",
+   "Nombre": "DIEGO HERNAN DELGADO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "37926",
+   "Nombre": "FRANCO NICOLAS CORROCHANO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "65595",
+   "Nombre": "EZEQUIEL ALEXANDRE ESCOBAR",
+   "camiseta": "80",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "52597",
+   "Jug_Sale": "JOAQUIN ZABALETA",
+   "CarneEntra": "60781",
+   "Jug_Entra": "JUAN JOSE NOGUEIRA",
+   "camiseta": "32",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "54633",
+   "Jug_Sale": "MATEO GARCIA",
+   "CarneEntra": "54695",
+   "Jug_Entra": "MARTIN ALONSO",
+   "camiseta": "30",
+   "minutos": "59"
+  },
+  {
+   "CarneSale": "56633",
+   "Jug_Sale": "GONZALO PINTADO",
+   "CarneEntra": "63574",
+   "Jug_Entra": "JUAN MANUEL CONDE",
+   "camiseta": "19",
+   "minutos": "85"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "41789",
+   "Jug_Sale": "RODRIGO MARTIN IGLESIAS",
+   "CarneEntra": "40923",
+   "Jug_Entra": "IGNACIO SILVA",
+   "camiseta": "21",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "37926",
+   "Jug_Sale": "FRANCO NICOLAS CORROCHANO",
+   "CarneEntra": "46794",
+   "Jug_Entra": "RAMIRO IVAN GONZALEZ",
+   "camiseta": "11",
+   "minutos": "82"
+  }
+ ],
  "golesL": [],
  "golesV": [],
  "expulsadosL": [],

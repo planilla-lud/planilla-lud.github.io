@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"E\" TIT. y ASC.",
   "Cancha": "COMPLEJO LAS CASUARINAS",
-  "Fecha_Inicio": "2026-11-01 10:30:00",
-  "Fecha_fin": "2026-11-01 10:30:00",
+  "Fecha_Inicio": "2026-11-01 11:00:00",
+  "Fecha_fin": "2026-11-01 11:00:00",
   "Locatario": "BODY FACTORY",
   "goles_locatario": "2",
   "puntos_locatario": "3",
@@ -29,11 +29,232 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "58335",
+   "Nombre": "IVAN LACHAISE",
+   "camiseta": "95",
+   "Capitan": ""
+  },
+  {
+   "carne": "44017",
+   "Nombre": "EDUARDO LUIS SUAREZ",
+   "camiseta": "48",
+   "Capitan": ""
+  },
+  {
+   "carne": "41743",
+   "Nombre": "LUCAS EXEQUIEL DIANESSI",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "47286",
+   "Nombre": "CLAUDIO MAXIMILIANO RODRIGUEZ",
+   "camiseta": "18",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "66188",
+   "Nombre": "JUAN DIEGO NOZAR",
+   "camiseta": "39",
+   "Capitan": ""
+  },
+  {
+   "carne": "52329",
+   "Nombre": "DIEGO ENRIQUE EMENS",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "44961",
+   "Nombre": "WALTER RENZO SERVETTI",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "60127",
+   "Nombre": "NAHUEL VIERA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "42480",
+   "Nombre": "FACUNDO ABAD",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "64072",
+   "Nombre": "CHARLES GASTON BORBAS",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "35440",
+   "Nombre": "DIEGO MARTIN BEGUE",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "47389",
+   "Nombre": "SEBASTIAN SILVA",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "65976",
+   "Nombre": "JOAN LUCAS ROSA",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "57270",
+   "Nombre": "MATEO BERTOLIO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "37963",
+   "Nombre": "GUZMAN STEGLICH",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "44077",
+   "Nombre": "AGUSTIN ANDRES OTERO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "62622",
+   "Nombre": "STEFANO ESPINOSA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "66857",
+   "Nombre": "JUAN ANDRES CRUJEIRA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "45966",
+   "Nombre": "SANTIAGO BENTACOR",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "25248",
+   "Nombre": "MATIAS BARREIRO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "53946",
+   "Nombre": "JUAN IGNACIO GODINO",
+   "camiseta": "6",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "68727",
+   "Nombre": "THEO DA SILVA",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "58335",
+   "Jug_Sale": "IVAN LACHAISE",
+   "CarneEntra": "61129",
+   "Jug_Entra": "LUIS MIGUEL MORA",
+   "camiseta": "1",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "44961",
+   "Jug_Sale": "WALTER RENZO SERVETTI",
+   "CarneEntra": "52122",
+   "Jug_Entra": "FRANCO GABRIEL PEREZ",
+   "camiseta": "2",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "35440",
+   "Jug_Sale": "DIEGO MARTIN BEGUE",
+   "CarneEntra": "43511",
+   "Jug_Entra": "FABIAN AUGUSTO SUAREZ",
+   "camiseta": "8",
+   "minutos": "59"
+  },
+  {
+   "CarneSale": "41743",
+   "Jug_Sale": "LUCAS EXEQUIEL DIANESSI",
+   "CarneEntra": "67711",
+   "Jug_Entra": "ISMAEL DESCALZI",
+   "camiseta": "33",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "64072",
+   "Jug_Sale": "CHARLES GASTON BORBAS",
+   "CarneEntra": "67303",
+   "Jug_Entra": "DANIEL ANDRES NOVO",
+   "camiseta": "12",
+   "minutos": "90"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "45966",
+   "Jug_Sale": "SANTIAGO BENTACOR",
+   "CarneEntra": "69158",
+   "Jug_Entra": "OSCAR ALEJANDRO CARDOSO",
+   "camiseta": "3",
+   "minutos": "20"
+  },
+  {
+   "CarneSale": "69158",
+   "Jug_Sale": "OSCAR ALEJANDRO CARDOSO",
+   "CarneEntra": "66400",
+   "Jug_Entra": "ESTEBAN ESPINOSA",
+   "camiseta": "13",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66857",
+   "Jug_Sale": "JUAN ANDRES CRUJEIRA",
+   "CarneEntra": "55740",
+   "Jug_Entra": "FACUNDO NAHUEL GONZALEZ",
+   "camiseta": "30",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "25248",
+   "Jug_Sale": "MATIAS BARREIRO",
+   "CarneEntra": "57732",
+   "Jug_Entra": "SANTIAGO NICOLAS ESTEVEZ",
+   "camiseta": "21",
+   "minutos": "77"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "42480",
+   "Nombre": "FACUNDO ABAD",
+   "minutos": "4",
+   "EnContra": "0"
+  },
+  {
+   "carne": "64072",
+   "Nombre": "CHARLES GASTON BORBAS",
+   "minutos": "40",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

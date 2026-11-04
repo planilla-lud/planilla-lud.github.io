@@ -1,0 +1,269 @@
+{
+ "id": "103604",
+ "categoria": "sub20-c",
+ "serie": "20CP",
+ "fecha": 6,
+ "fechaHora": "2026-10-31 15:30:00",
+ "cancha": "COMPLEJO DFC",
+ "local": "DFC",
+ "visitante": "MONTEVIDEO COLLEGE",
+ "gl": 2,
+ "gv": 0,
+ "detalle": {
+  "nro_partido": "522",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "2",
+  "Divisional": "SUB20 \"C\" COPA DE PLATA",
+  "Cancha": "COMPLEJO DFC",
+  "Fecha_Inicio": "2026-10-31 17:35:00",
+  "Fecha_fin": "2026-10-31 17:35:00",
+  "Locatario": "DFC",
+  "goles_locatario": "2",
+  "puntos_locatario": "3",
+  "Visitante": "MONTEVIDEO COLLEGE",
+  "goles_visitante": "0",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "63051",
+   "Nombre": "LUCIANO MONTAÑA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "67462",
+   "Nombre": "BLAZ DANCKAR LANGHAIN",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "68630",
+   "Nombre": "FACUNDO TOMAS GUEVARA",
+   "camiseta": "20",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "67609",
+   "Nombre": "NICOLAS RAUL PEREIRO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "67590",
+   "Nombre": "GASTON MATEO ALONSO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "67470",
+   "Nombre": "THIAGO JOEL DOS SANTOS",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "68183",
+   "Nombre": "JOAQUIN JOAQUIN",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "67466",
+   "Nombre": "FRANCO OTTONELLO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "67932",
+   "Nombre": "BAUTISTA PAZ",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "67602",
+   "Nombre": "VALENTINO LAUTARO DE ARMAS",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "67598",
+   "Nombre": "THIAGO ALEXANDER LOPEZ",
+   "camiseta": "3",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "66348",
+   "Nombre": "FELIPE DE BRITO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "67433",
+   "Nombre": "IGNACIO STANHAM",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "59185",
+   "Nombre": "MATEO GONZALEZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "64410",
+   "Nombre": "JUAN ANTONIO QUINTAS",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "66401",
+   "Nombre": "FACUNDO SUAREZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "58777",
+   "Nombre": "RODRIGO GONZALEZ",
+   "camiseta": "70",
+   "Capitan": ""
+  },
+  {
+   "carne": "62874",
+   "Nombre": "JUAN MANUEL CARBONE",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "63442",
+   "Nombre": "MATEO FONT",
+   "camiseta": "18",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "66020",
+   "Nombre": "FACUNDO DOMINGUEZ",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "62329",
+   "Nombre": "FACUNDO ABELENDA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "60227",
+   "Nombre": "FRANCISCO LUCIO DUPONT",
+   "camiseta": "21",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "67932",
+   "Jug_Sale": "BAUTISTA PAZ",
+   "CarneEntra": "67469",
+   "Jug_Entra": "SANTIAGO DANIEL DE LA LLANA",
+   "camiseta": "16",
+   "minutos": "38"
+  },
+  {
+   "CarneSale": "67466",
+   "Jug_Sale": "FRANCO OTTONELLO",
+   "CarneEntra": "67607",
+   "Jug_Entra": "LAUTARO ALEXANDER ALANIS",
+   "camiseta": "21",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67470",
+   "Jug_Sale": "THIAGO JOEL DOS SANTOS",
+   "CarneEntra": "67465",
+   "Jug_Entra": "IGANCIO CAMEJO",
+   "camiseta": "8",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67470",
+   "Jug_Sale": "THIAGO JOEL DOS SANTOS",
+   "CarneEntra": "67600",
+   "Jug_Entra": "BRUNO NICOLAS YACQUE",
+   "camiseta": "11",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "67607",
+   "Jug_Sale": "LAUTARO ALEXANDER ALANIS",
+   "CarneEntra": "67932",
+   "Jug_Entra": "BAUTISTA PAZ",
+   "camiseta": "4",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "67609",
+   "Jug_Sale": "NICOLAS RAUL PEREIRO",
+   "CarneEntra": "68451",
+   "Jug_Entra": "GUSTAVO ALEJANDRO ATENCIO",
+   "camiseta": "17",
+   "minutos": "88"
+  },
+  {
+   "CarneSale": "68630",
+   "Jug_Sale": "FACUNDO TOMAS GUEVARA",
+   "CarneEntra": "68911",
+   "Jug_Entra": "SANTIAGO AGUSTIN ESCARCENA",
+   "camiseta": "10",
+   "minutos": "88"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "62874",
+   "Jug_Sale": "JUAN MANUEL CARBONE",
+   "CarneEntra": "66402",
+   "Jug_Entra": "ANTONY DANIEL CARDOZO",
+   "camiseta": "9",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "62329",
+   "Jug_Sale": "FACUNDO ABELENDA",
+   "CarneEntra": "61650",
+   "Jug_Entra": "MATIAS MARQUEZ",
+   "camiseta": "16",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "60227",
+   "Jug_Sale": "FRANCISCO LUCIO DUPONT",
+   "CarneEntra": "64392",
+   "Jug_Entra": "MATIAS IVAÑEZ",
+   "camiseta": "22",
+   "minutos": "72"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "67590",
+   "Nombre": "GASTON MATEO ALONSO",
+   "minutos": "59",
+   "EnContra": "0"
+  },
+  {
+   "carne": "67590",
+   "Nombre": "GASTON MATEO ALONSO",
+   "minutos": "82",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

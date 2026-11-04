@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"B\" TIT. y ASC.",
   "Cancha": "SAN ISIDRO LOMAS",
-  "Fecha_Inicio": "2026-11-01 12:45:00",
-  "Fecha_fin": "2026-11-01 12:45:00",
+  "Fecha_Inicio": "2026-11-01 13:10:00",
+  "Fecha_fin": "2026-11-01 13:10:00",
   "Locatario": "SAN ISIDRO LOMAS UNIVERSITARIO",
   "goles_locatario": "3",
   "puntos_locatario": "3",
@@ -29,12 +29,283 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "67584",
+   "Nombre": "MATIAS SANTIAGO VILLAR",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "52357",
+   "Nombre": "BRUNO PASTORINI",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "52683",
+   "Nombre": "FRANCO CHEMELLO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "40527",
+   "Nombre": "SANTIAGO LARRALDE",
+   "camiseta": "22",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "60073",
+   "Nombre": "MAXIMILIANO CAMBON",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "57708",
+   "Nombre": "VALENTIN CUÑA",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "56507",
+   "Nombre": "LUCAS OLIVERA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "47677",
+   "Nombre": "JUAN PABLO SILVIO NICOLETTI",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "32028",
+   "Nombre": "FACUNDO RODRIGUEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "53965",
+   "Nombre": "BRUNO MICHELENA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "52991",
+   "Nombre": "FRANCO MICHELENA",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "41778",
+   "Nombre": "NICOLAS MACCIO",
+   "camiseta": "25",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "58680",
+   "Nombre": "JOAQUIN AISCAR",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "64055",
+   "Nombre": "LAUTHARO MANUEL GUGLIELMONE",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "41375",
+   "Nombre": "SANTIAGO FALERO",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "54162",
+   "Nombre": "FACUNDO ENRIQUE RAMIREZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "58946",
+   "Nombre": "AGUSTIN SEBASTIAN PIANO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "45424",
+   "Nombre": "ANDRES VALLARINO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "55634",
+   "Nombre": "SANTIAGO EMANUEL OJEDA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "68553",
+   "Nombre": "VALENTIN LEMA",
+   "camiseta": "90",
+   "Capitan": ""
+  },
+  {
+   "carne": "58943",
+   "Nombre": "MATIAS DIEGO MENDEZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "66465",
+   "Nombre": "HECTOR AGUSTIN VEGA",
+   "camiseta": "13",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "32028",
+   "Jug_Sale": "FACUNDO RODRIGUEZ",
+   "CarneEntra": "63027",
+   "Jug_Entra": "NICOLAS IÑAKY GUERRA",
+   "camiseta": "20",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "53965",
+   "Jug_Sale": "BRUNO MICHELENA",
+   "CarneEntra": "52781",
+   "Jug_Entra": "MAXIMILIANO ZUNINO",
+   "camiseta": "6",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "52357",
+   "Jug_Sale": "BRUNO PASTORINI",
+   "CarneEntra": "54357",
+   "Jug_Entra": "JUAN PEDRO GUERRA",
+   "camiseta": "29",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "57708",
+   "Jug_Sale": "VALENTIN CUÑA",
+   "CarneEntra": "43407",
+   "Jug_Entra": "LAUTARO GALINIANES",
+   "camiseta": "26",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "52991",
+   "Jug_Sale": "FRANCO MICHELENA",
+   "CarneEntra": "29926",
+   "Jug_Entra": "JOAQUIN TEJERIA",
+   "camiseta": "9",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "47677",
+   "Jug_Sale": "JUAN PABLO SILVIO NICOLETTI",
+   "CarneEntra": "55370",
+   "Jug_Entra": "BRIAN JOEL CORREA",
+   "camiseta": "23",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "56507",
+   "Jug_Sale": "LUCAS OLIVERA",
+   "CarneEntra": "52987",
+   "Jug_Entra": "RENZO GUZMAN RAMAGLI",
+   "camiseta": "3",
+   "minutos": "80"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "58943",
+   "Jug_Sale": "MATIAS DIEGO MENDEZ",
+   "CarneEntra": "55636",
+   "Jug_Entra": "IGNACIO IRISARRI",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "45424",
+   "Jug_Sale": "ANDRES VALLARINO",
+   "CarneEntra": "63138",
+   "Jug_Entra": "MATIAS RAFAEL CORREA",
+   "camiseta": "88",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58680",
+   "Jug_Sale": "JOAQUIN AISCAR",
+   "CarneEntra": "54783",
+   "Jug_Entra": "MARTIN SEBASTIAN GONZALEZ",
+   "camiseta": "60",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66465",
+   "Jug_Sale": "HECTOR AGUSTIN VEGA",
+   "CarneEntra": "53070",
+   "Jug_Entra": "JUAN IGNACIO MAGRINI",
+   "camiseta": "28",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "55634",
+   "Jug_Sale": "SANTIAGO EMANUEL OJEDA",
+   "CarneEntra": "65918",
+   "Jug_Entra": "XOSE PABLO JALIFE",
+   "camiseta": "11",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "54162",
+   "Jug_Sale": "FACUNDO ENRIQUE RAMIREZ",
+   "CarneEntra": "56678",
+   "Jug_Entra": "GUILLERMO GABRIEL STUART",
+   "camiseta": "82",
+   "minutos": "72"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "32028",
+   "Nombre": "FACUNDO RODRIGUEZ",
+   "minutos": "30",
+   "EnContra": "0"
+  },
+  {
+   "carne": "52683",
+   "Nombre": "FRANCO CHEMELLO",
+   "minutos": "60",
+   "EnContra": "0"
+  },
+  {
+   "carne": "60073",
+   "Nombre": "MAXIMILIANO CAMBON",
+   "minutos": "62",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "55636",
+   "Nombre": "IGNACIO IRISARRI",
+   "minutos": "50",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
- "expulsadosV": []
+ "expulsadosV": [
+  {
+   "Nombre": "AGUSTIN SEBASTIAN PIANO",
+   "observaciones": ""
+  }
+ ]
 }

@@ -1,0 +1,310 @@
+{
+ "id": "103622",
+ "categoria": "sub18",
+ "serie": "18O",
+ "fecha": 3,
+ "fechaHora": "2026-11-01 15:30:00",
+ "cancha": "OLD CHRISTIANS CLUB",
+ "local": "OLD CHRISTIANS CLUB",
+ "visitante": "SAN JUAN BAUTISTA",
+ "gl": 5,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "354",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 18 ",
+  "categoria": "SUB 18 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB18 ORO",
+  "Cancha": "OLD CHRISTIANS CLUB",
+  "Fecha_Inicio": "2026-11-01 17:25:00",
+  "Fecha_fin": "2026-11-01 17:25:00",
+  "Locatario": "OLD CHRISTIANS CLUB",
+  "goles_locatario": "5",
+  "puntos_locatario": "3",
+  "Visitante": "SAN JUAN BAUTISTA",
+  "goles_visitante": "1",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "68857",
+   "Nombre": "FRANCISCO PINTOS",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "60738",
+   "Nombre": "ALFONSO RUVIRA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "60581",
+   "Nombre": "JUAN IGNACIO PIRES",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "60574",
+   "Nombre": "AGUSTIN CASANOVA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "57500",
+   "Nombre": "TOMAS FESTA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "62469",
+   "Nombre": "TEO VALENTE",
+   "camiseta": "7",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "57492",
+   "Nombre": "SANTIAGO BELLO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "60556",
+   "Nombre": "JUAN FRANCISCO JUTGLA",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "60737",
+   "Nombre": "SANTIAGO ROSPIDE",
+   "camiseta": "71",
+   "Capitan": ""
+  },
+  {
+   "carne": "57496",
+   "Nombre": "TOMAS FERNANDEZ",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "57486",
+   "Nombre": "AGUSTIN TORRES",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "57785",
+   "Nombre": "JUAN CAPPELLINI",
+   "camiseta": "1",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "62110",
+   "Nombre": "IGNACIO PUPPO",
+   "camiseta": "95",
+   "Capitan": ""
+  },
+  {
+   "carne": "62898",
+   "Nombre": "IGNACIO MELENDRE",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "57781",
+   "Nombre": "JUAN PEDRO LANARO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "59257",
+   "Nombre": "MANUEL ARROYO",
+   "camiseta": "66",
+   "Capitan": ""
+  },
+  {
+   "carne": "64195",
+   "Nombre": "CAMILO CHIAPPARA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "61182",
+   "Nombre": "LUCAS CANOSA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "58908",
+   "Nombre": "MANUEL PONS",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "67411",
+   "Nombre": "SANTIAGO SERRANO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "57840",
+   "Nombre": "DIEGO BIDEGAIN",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "61694",
+   "Nombre": "SANTIAGO RIOS",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "57500",
+   "Jug_Sale": "TOMAS FESTA",
+   "CarneEntra": "60570",
+   "Jug_Entra": "ALFONSO PINTOS",
+   "camiseta": "45",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "60574",
+   "Jug_Sale": "AGUSTIN CASANOVA",
+   "CarneEntra": "57481",
+   "Jug_Entra": "FACUNDO CONEN",
+   "camiseta": "91",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "57492",
+   "Jug_Sale": "SANTIAGO BELLO",
+   "CarneEntra": "61201",
+   "Jug_Entra": "EMILIANO MAGLIONE",
+   "camiseta": "35",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "57486",
+   "Jug_Sale": "AGUSTIN TORRES",
+   "CarneEntra": "62999",
+   "Jug_Entra": "LUCAS GURMENDEZ",
+   "camiseta": "11",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "60556",
+   "Jug_Sale": "JUAN FRANCISCO JUTGLA",
+   "CarneEntra": "57483",
+   "Jug_Entra": "FRANCISCO YAÑEZ",
+   "camiseta": "20",
+   "minutos": "83"
+  },
+  {
+   "CarneSale": "60738",
+   "Jug_Sale": "ALFONSO RUVIRA",
+   "CarneEntra": "60203",
+   "Jug_Entra": "SANTINO PRATTO",
+   "camiseta": "28",
+   "minutos": "83"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "57840",
+   "Jug_Sale": "DIEGO BIDEGAIN",
+   "CarneEntra": "64874",
+   "Jug_Entra": "BRUNO NEBRIL",
+   "camiseta": "19",
+   "minutos": "24"
+  },
+  {
+   "CarneSale": "61182",
+   "Jug_Sale": "LUCAS CANOSA",
+   "CarneEntra": "62570",
+   "Jug_Entra": "JUAN BERNARDO HERNANDEZ",
+   "camiseta": "7",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "61182",
+   "Jug_Sale": "LUCAS CANOSA",
+   "CarneEntra": "62570",
+   "Jug_Entra": "JUAN BERNARDO HERNANDEZ",
+   "camiseta": "7",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "67411",
+   "Jug_Sale": "SANTIAGO SERRANO",
+   "CarneEntra": "68684",
+   "Jug_Entra": "IÑAKI IZUIBEJERES",
+   "camiseta": "25",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "61694",
+   "Jug_Sale": "SANTIAGO RIOS",
+   "CarneEntra": "64436",
+   "Jug_Entra": "FACUNDO FUENTES",
+   "camiseta": "17",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "62898",
+   "Jug_Sale": "IGNACIO MELENDRE",
+   "CarneEntra": "67801",
+   "Jug_Entra": "LORENZO SOBA",
+   "camiseta": "23",
+   "minutos": "80"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "57492",
+   "Nombre": "SANTIAGO BELLO",
+   "minutos": "11",
+   "EnContra": "0"
+  },
+  {
+   "carne": "60556",
+   "Nombre": "JUAN FRANCISCO JUTGLA",
+   "minutos": "4",
+   "EnContra": "0"
+  },
+  {
+   "carne": "60556",
+   "Nombre": "JUAN FRANCISCO JUTGLA",
+   "minutos": "23",
+   "EnContra": "0"
+  },
+  {
+   "carne": "62469",
+   "Nombre": "TEO VALENTE",
+   "minutos": "55",
+   "EnContra": "0"
+  },
+  {
+   "carne": "62999",
+   "Nombre": "LUCAS GURMENDEZ",
+   "minutos": "80",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "61182",
+   "Nombre": "LUCAS CANOSA",
+   "minutos": "42",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

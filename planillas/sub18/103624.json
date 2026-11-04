@@ -1,0 +1,183 @@
+{
+ "id": "103624",
+ "categoria": "sub18",
+ "serie": "18O",
+ "fecha": 3,
+ "fechaHora": "2026-11-01 15:30:00",
+ "cancha": "ST. BRENDANS",
+ "local": "OLD BRENDANS CLUB",
+ "visitante": "PELOTA AL MEDIO UNIVERSITARIO",
+ "gl": 0,
+ "gv": 0,
+ "detalle": {
+  "nro_partido": "355",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 18 ",
+  "categoria": "SUB 18 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB18 ORO",
+  "Cancha": "ST. BRENDANS",
+  "Fecha_Inicio": "2026-11-01 16:00:00",
+  "Fecha_fin": "2026-11-01 16:00:00",
+  "Locatario": "OLD BRENDANS CLUB",
+  "goles_locatario": "0",
+  "puntos_locatario": "1",
+  "Visitante": "PELOTA AL MEDIO UNIVERSITARIO",
+  "goles_visitante": "0",
+  "puntos_visitante": "1",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "57034",
+   "Nombre": "LUCA BURGHI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "60467",
+   "Nombre": "SIMON FABINI",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "57835",
+   "Nombre": "ALFONSO ZAMBRANO",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "58427",
+   "Nombre": "FACUNDO FIORE",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "63255",
+   "Nombre": "JOAQUIN YAGODA",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "56510",
+   "Nombre": "JULIO PATRICIO JAKOB",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "60472",
+   "Nombre": "SANCHO CONTI",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "65485",
+   "Nombre": "FRANCISCO CAYAFA",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "67762",
+   "Nombre": "JUAN MANUEL BERNAL",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "60012",
+   "Nombre": "RODRIGO JOSE CALDERON",
+   "camiseta": "90",
+   "Capitan": ""
+  },
+  {
+   "carne": "58479",
+   "Nombre": "TOMAS TELLERIA",
+   "camiseta": "26",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "59105",
+   "Nombre": "GABRIEL ALFREDO GAMARRA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "61465",
+   "Nombre": "GERMAN PINTOS",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "67803",
+   "Nombre": "ALAN EZEQUIEL BURGOS",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "64802",
+   "Nombre": "DILAN GALIANO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "67810",
+   "Nombre": "EFRAIN DANIEL TOLEDO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "58732",
+   "Nombre": "YUNIOR YULIANY LAGOS",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "61467",
+   "Nombre": "AMADEO LOPEZ",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "61475",
+   "Nombre": "ALAN VLADYMIR MEDIZA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "61480",
+   "Nombre": "MATIAS GASPAR ALBIN",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "67807",
+   "Nombre": "WASHINGTON NICOLAS ARIAS",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "67800",
+   "Nombre": "WELLINGTON JONATHAN DE SOUZA",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [],
+ "cambiosV": [
+  {
+   "CarneSale": "67810",
+   "Jug_Sale": "EFRAIN DANIEL TOLEDO",
+   "CarneEntra": "64511",
+   "Jug_Entra": "MATEO NAHUEL MUNIZ",
+   "camiseta": "20",
+   "minutos": "12"
+  }
+ ],
+ "golesL": [],
+ "golesV": [],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

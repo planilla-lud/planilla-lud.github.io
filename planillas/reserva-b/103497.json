@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"B\" TIT. y ASC.",
   "Cancha": "OLD CHRISTIANS CLUB",
-  "Fecha_Inicio": "2026-10-31 10:30:00",
-  "Fecha_fin": "2026-10-31 10:30:00",
+  "Fecha_Inicio": "2026-10-31 10:50:00",
+  "Fecha_fin": "2026-10-31 10:50:00",
   "Locatario": "OLD CHRISTIANS BLANCO",
   "goles_locatario": "3",
   "puntos_locatario": "3",
@@ -29,11 +29,270 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "68857",
+   "Nombre": "FRANCISCO PINTOS",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "67430",
+   "Nombre": "ANDRES VILLAR",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "51235",
+   "Nombre": "JUAN MARQUES",
+   "camiseta": "2",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "52820",
+   "Nombre": "SEBASTIAN CLEMENTE",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "44039",
+   "Nombre": "ALEJANDRO FYNN",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "42800",
+   "Nombre": "FEDERICO  IGNACIO HERMIDA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "67427",
+   "Nombre": "LUCAS DE ACHAVAL",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "52622",
+   "Nombre": "NICOLAS CLEMENTE",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "46844",
+   "Nombre": "JOSE ANTONIO GONZALEZ BERRO",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "51502",
+   "Nombre": "DIEGO VIGORITO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "54409",
+   "Nombre": "JOAQUIN IRULEGUY",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "61237",
+   "Nombre": "JOAQUIN HAYMES",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "42893",
+   "Nombre": "GABRIEL PEREYRA",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "57134",
+   "Nombre": "MATIAS EZEQUIEL PEREZ",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "68177",
+   "Nombre": "ENZO FACUNDO SOUZA",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "45742",
+   "Nombre": "NEHUEN EZEQUIEL BONIFAZI",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "66145",
+   "Nombre": "IGNACIO BERTHEL",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "48270",
+   "Nombre": "FRANCO MARTIN SANTORO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "62653",
+   "Nombre": "MATEO DIAZ",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "56420",
+   "Nombre": "LAUTARO SANCHEZ",
+   "camiseta": "79",
+   "Capitan": ""
+  },
+  {
+   "carne": "42358",
+   "Nombre": "FABIO ENRIQUED DA COSTA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "42394",
+   "Nombre": "MARTINHO GABRIEL DA COSTA",
+   "camiseta": "13",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "52622",
+   "Jug_Sale": "NICOLAS CLEMENTE",
+   "CarneEntra": "52607",
+   "Jug_Entra": "GUZMAN ARECHAVALETA",
+   "camiseta": "19",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "44039",
+   "Jug_Sale": "ALEJANDRO FYNN",
+   "CarneEntra": "58500",
+   "Jug_Entra": "FACUNDO LAFFITTE",
+   "camiseta": "17",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "67427",
+   "Jug_Sale": "LUCAS DE ACHAVAL",
+   "CarneEntra": "48918",
+   "Jug_Entra": "JUAN IGNACIO ROSPIDE",
+   "camiseta": "6",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "42800",
+   "Jug_Sale": "FEDERICO  IGNACIO HERMIDA",
+   "CarneEntra": "51134",
+   "Jug_Entra": "TOMAS LAFFITTE",
+   "camiseta": "21",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "51502",
+   "Jug_Sale": "DIEGO VIGORITO",
+   "CarneEntra": "46842",
+   "Jug_Entra": "JUAN MANUEL HERMIDA",
+   "camiseta": "91",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "52820",
+   "Jug_Sale": "SEBASTIAN CLEMENTE",
+   "CarneEntra": "46845",
+   "Jug_Entra": "BAUTISTA VINCENT",
+   "camiseta": "20",
+   "minutos": "89"
+  },
+  {
+   "CarneSale": "54409",
+   "Jug_Sale": "JOAQUIN IRULEGUY",
+   "CarneEntra": "67426",
+   "Jug_Entra": "JUAN MANUEL FERNANDEZ",
+   "camiseta": "13",
+   "minutos": "89"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "45742",
+   "Jug_Sale": "NEHUEN EZEQUIEL BONIFAZI",
+   "CarneEntra": "41598",
+   "Jug_Entra": "AGUSTIN TESTA",
+   "camiseta": "19",
+   "minutos": "20"
+  },
+  {
+   "CarneSale": "62653",
+   "Jug_Sale": "MATEO DIAZ",
+   "CarneEntra": "65734",
+   "Jug_Entra": "SANTIAGO FLORETTA",
+   "camiseta": "55",
+   "minutos": "32"
+  },
+  {
+   "CarneSale": "48270",
+   "Jug_Sale": "FRANCO MARTIN SANTORO",
+   "CarneEntra": "45360",
+   "Jug_Entra": "IVO THIAGO PEREZ",
+   "camiseta": "29",
+   "minutos": "59"
+  },
+  {
+   "CarneSale": "42358",
+   "Jug_Sale": "FABIO ENRIQUED DA COSTA",
+   "CarneEntra": "58968",
+   "Jug_Entra": "NICOLAS CAPECI",
+   "camiseta": "8",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "42394",
+   "Jug_Sale": "MARTINHO GABRIEL DA COSTA",
+   "CarneEntra": "58160",
+   "Jug_Entra": "BRANDON FARIAS",
+   "camiseta": "24",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "57134",
+   "Jug_Sale": "MATIAS EZEQUIEL PEREZ",
+   "CarneEntra": "45728",
+   "Jug_Entra": "DIEGO REY",
+   "camiseta": "28",
+   "minutos": "86"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "46842",
+   "Nombre": "JUAN MANUEL HERMIDA",
+   "minutos": "87",
+   "EnContra": "0"
+  },
+  {
+   "carne": "51502",
+   "Nombre": "DIEGO VIGORITO",
+   "minutos": "2",
+   "EnContra": "0"
+  },
+  {
+   "carne": "67430",
+   "Nombre": "ANDRES VILLAR",
+   "minutos": "14",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []
