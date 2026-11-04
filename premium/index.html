@@ -2965,7 +2965,7 @@ function avError(st, m = '') {
   if (st === 400 && /api key/i.test(m)) return 'La clave de Gemini no es válida. Revisala y probá de nuevo.';
   if (st === 401 || st === 403) return 'La clave de Gemini no tiene permiso para esto. Revisá que sea de un proyecto con la API de Gemini activada.';
   if (st === 404) return 'Ninguno de los modelos está disponible para tu clave. Probá con otra clave de AI Studio.';
-  if (st === 413) return 'Un video es demasiado grande para Gemini (el máximo es 2 GB por archivo).';
+  if (st === 413) return 'Un video es demasiado grande para la clave: con la gratis el máximo es 2 GB por archivo (20 GB con facturación activada). Cortalo en partes o activá la facturación en AI Studio.';
   if (st === 429) return 'Se pasó el límite de uso de la clave de Gemini. Esperá un rato y probá de nuevo.';
   if (st === 503 || st === 500) return 'Gemini está saturado en este momento (probamos varias veces y con otros modelos). Esperá unos minutos y probá de nuevo.';
   return `Gemini respondió con un error (${st})${m ? ': ' + m : ''}.`;
@@ -2975,31 +2975,53 @@ async function avPedir(ruta, op, clave) {
   let r;
   try { r = await fetch(AV_API + ruta, { ...op, headers: { 'x-goog-api-key': clave, ...op?.headers }, signal: op && 'signal' in op ? op.signal : AV_RUN?.ctl.signal }); }
   catch (e) { if (e.name === 'AbortError') throw e; throw new Error('No se pudo conectar con Gemini. Revisá la conexión.'); }
-  if (!r.ok) { let m = ''; try { m = (await r.json()).error?.message || ''; } catch {} const e = new Error(avError(r.status, m)); e.status = r.status; e.raw = m; throw e; }
+  if (!r.ok) {
+    let j = {}; try { j = await r.json(); } catch {}
+    const m = j.error?.message || '', det = j.error?.details || [], e = new Error(avError(r.status, m));
+    e.status = r.status; e.raw = m;
+    e.cuota = det.flatMap(d => d.violations || []).map(v => v.quotaId || '').join(',');
+    e.espera = parseInt(det.find(d => d.retryDelay)?.retryDelay) || 0;
+    throw e;
+  }
   return r;
 }
-// Un pedido de texto a Gemini (sin video), con los mismos reintentos y cambios de modelo que el análisis.
-async function avGenerar(partes, alNota) {
-  const clave = avClave(), modelo = avModelo();
-  if (!clave) throw new Error('Falta la clave de Gemini: pegala en Análisis > Videos, o pedile al administrador que cargue la del club en Ajustes.');
-  const cuerpo = JSON.stringify({ contents: [{ role: 'user', parts: partes }], generationConfig: { responseMimeType: 'application/json', temperature: 0.3 } });
-  const modelos = [modelo, ...AV_MODELOS.filter(m => m !== modelo)];
-  for (const m of modelos) for (let intento = 0; intento < 3; intento++) {
-    try {
-      const res = await (await avPedir(`/v1beta/models/${encodeURIComponent(m)}:generateContent`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: cuerpo, signal: null }, clave)).json();
-      const txt = (res.candidates?.[0]?.content?.parts || []).filter(x => !x.thought).map(x => x.text || '').join('').trim();
-      if (!txt) throw new Error('Gemini no devolvió nada. Probá de nuevo.');
-      try { return { json: JSON.parse(txt.replace(/^```(?:json)?\s*|\s*```$/g, '')), modelo: m }; } catch { throw new Error('Gemini devolvió algo que no se pudo leer. Probá de nuevo.'); }
-    } catch (e) {
-      if (![429, 500, 503, 404].includes(e.status)) throw e;
-      const sinCupo = e.status === 404 || (e.status === 429 && /quota|cuota/i.test(e.raw || ''));
-      if (m === modelos.at(-1) && (intento === 2 || sinCupo)) throw e;
-      if (sinCupo) break;
-      alNota?.(`${m} está saturado. ${intento < 2 ? 'Reintentando en unos segundos…' : 'Probando con otro modelo…'}`);
-      if (intento < 2) await new Promise(ok => setTimeout(ok, intento ? 12000 : 5000)); else break;
+// Con la clave gratis Google limita los pedidos por minuto y por día, por modelo. Un modelo que dice que agotó
+// el cupo se anota (por clave) y se saltea 20 minutos (en la práctica a veces vuelve a responder antes de lo que
+// dice Google); el límite por minuto se espera y se sigue.
+const AV_SIN_CUPO = 'Se terminó el cupo gratis de hoy de la clave de Gemini (Google limita cuántos análisis gratis se hacen por día). Se renueva mañana. Para no tener ese límite, activá la facturación de la clave en AI Studio: cada análisis cuesta unos centavos de dólar.';
+const avAgKey = clave => 'pm-gemini-agotados-' + String(clave).slice(-6);
+const avAgotados = clave => { try { const o = JSON.parse(leer(avAgKey(clave)) || '{}'), t = Date.now(); return Object.fromEntries(Object.entries(o).filter(([, v]) => v > t)); } catch { return {}; } };
+const avAgotar = (clave, m) => { const o = avAgotados(clave); o[m] = Date.now() + 20 * 60e3; guardar(avAgKey(clave), JSON.stringify(o)); };
+async function avLlamar(cuerpo, clave, alNota, dormir, signal) {
+  const elegido = avModelo(), ag = avAgotados(clave);
+  const todos = [elegido, ...AV_MODELOS.filter(m => m !== elegido)], libres = todos.filter(m => !ag[m]);
+  const modelos = libres.length ? libres : todos; // si todos están marcados, se prueba igual
+  let ultimo = null;
+  for (const m of modelos) for (let intento = 0; intento < 4; intento++) {
+    try { const res = await (await avPedir(`/v1beta/models/${encodeURIComponent(m)}:generateContent`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: cuerpo, signal }, clave)).json(); return { res, modelo: m }; }
+    catch (e) {
+      if (e.name === 'AbortError' || ![429, 500, 503, 404].includes(e.status)) throw e;
+      ultimo = e;
+      if (e.status === 404) break; // ese modelo no está para esta clave: el siguiente
+      if (e.status === 429 && (/PerDay/i.test(e.cuota) || (!/PerMinute/i.test(e.cuota) && e.espera > 120))) { avAgotar(clave, m); alNota?.(`Se terminó el cupo gratis de hoy de ${m}. Probando con otro modelo…`); break; }
+      if (intento === 3) { alNota?.(`${m} no responde. Probando con otro modelo…`); break; }
+      const ms = e.status === 429 ? Math.min(65, (e.espera || 20) + 2) * 1000 : [5000, 12000, 25000][intento];
+      alNota?.(e.status === 429 ? `Límite por minuto de la clave: espero ${Math.round(ms / 1000)} segundos y sigo…` : `${m} está saturado. Reintentando en unos segundos…`);
+      await dormir(ms);
     }
   }
-  throw new Error('Gemini está saturado. Probá en unos minutos.');
+  if (ultimo?.status === 429) throw Object.assign(new Error(AV_SIN_CUPO), { status: 429 });
+  throw ultimo || new Error('Gemini no respondió. Probá en unos minutos.');
+}
+// Un pedido de texto a Gemini (sin video): temporada y previa del rival.
+async function avGenerar(partes, alNota) {
+  const clave = avClave();
+  if (!clave) throw new Error('Falta la clave de Gemini: pegala en Análisis > Videos, o pedile al administrador que cargue la del club en Ajustes.');
+  const cuerpo = JSON.stringify({ contents: [{ role: 'user', parts: partes }], generationConfig: { responseMimeType: 'application/json', temperature: 0.3 } });
+  const { res, modelo } = await avLlamar(cuerpo, clave, alNota, ms => new Promise(ok => setTimeout(ok, ms)), null);
+  const txt = (res.candidates?.[0]?.content?.parts || []).filter(x => !x.thought).map(x => x.text || '').join('').trim();
+  if (!txt) throw new Error('Gemini no devolvió nada. Probá de nuevo.');
+  try { return { json: JSON.parse(txt.replace(/^```(?:json)?\s*|\s*```$/g, '')), modelo }; } catch { throw new Error('Gemini devolvió algo que no se pudo leer. Probá de nuevo.'); }
 }
 const avTxtL = l => (Array.isArray(l) ? l : []).map(x => typeof x === 'string' ? x.trim() : String(x?.texto || '').trim()).filter(Boolean);
 const avDormir = ms => new Promise((ok, mal) => {
@@ -3010,20 +3032,43 @@ const avDormir = ms => new Promise((ok, mal) => {
 async function avSubir(f, nombre, clave, alAvanzar) {
   const r = await avPedir('/upload/v1beta/files', { method: 'POST', headers: { 'X-Goog-Upload-Protocol': 'resumable', 'X-Goog-Upload-Command': 'start', 'X-Goog-Upload-Header-Content-Length': String(f.size), 'X-Goog-Upload-Header-Content-Type': avMime(f), 'Content-Type': 'application/json' }, body: JSON.stringify({ file: { display_name: nombre } }) }, clave);
   const url = r.headers.get('x-goog-upload-url'); if (!url) throw new Error('Gemini no devolvió dónde subir el video.');
+  // Se sube de a partes de unos 32 MB: si se corta el wifi, se reintenta esa parte y no todo el video.
+  const gran = Number(r.headers.get('x-goog-upload-chunk-granularity')) || 8 * 1024 * 1024;
+  const TAM = Math.max(gran, Math.floor(32 * 1024 * 1024 / gran) * gran);
+  let off = 0, fallos = 0;
+  for (;;) {
+    const fin = Math.min(f.size, off + TAM), ultimo = fin >= f.size;
+    try {
+      const j = await avTrozo(url, f.slice(off, fin), off, ultimo, p => alAvanzar((off + p * (fin - off)) / f.size));
+      if (ultimo) { if (!j?.file) throw new Error('Gemini respondió algo raro al subir el video.'); return j.file; }
+      off = fin; fallos = 0;
+    } catch (e) {
+      if (e.name === 'AbortError' || (e.status && e.status < 500 && e.status !== 408 && e.status !== 429)) throw e;
+      if (++fallos > 5) throw new Error('Se cortó la conexión varias veces mientras subía el video. Revisá el wifi y probá de nuevo.');
+      await avDormir(2000 * fallos);
+      try { // se pregunta cuánto llegó y se sigue desde ahí
+        const q = await fetch(url, { method: 'POST', headers: { 'X-Goog-Upload-Command': 'query' } });
+        const rec = Number(q.headers.get('x-goog-upload-size-received'));
+        if (q.ok && Number.isFinite(rec) && rec >= 0 && rec <= f.size) off = rec;
+      } catch {}
+    }
+  }
+}
+function avTrozo(url, blob, off, ultimo, prog) {
   return new Promise((ok, mal) => {
     const x = new XMLHttpRequest(), s = AV_RUN.ctl.signal;
     x.open('POST', url);
-    x.setRequestHeader('X-Goog-Upload-Offset', '0');
-    x.setRequestHeader('X-Goog-Upload-Command', 'upload, finalize');
-    x.upload.onprogress = e => { if (e.lengthComputable) alAvanzar(e.loaded / e.total); };
+    x.setRequestHeader('X-Goog-Upload-Offset', String(off));
+    x.setRequestHeader('X-Goog-Upload-Command', ultimo ? 'upload, finalize' : 'upload');
+    x.upload.onprogress = e => { if (e.lengthComputable) prog(e.loaded / e.total); };
     x.onload = () => {
-      if (x.status < 200 || x.status >= 300) { mal(new Error(avError(x.status))); return; }
-      try { ok(JSON.parse(x.responseText).file); } catch { mal(new Error('Gemini respondió algo raro al subir el video.')); }
+      if (x.status < 200 || x.status >= 300) { const e = new Error(avError(x.status)); e.status = x.status; mal(e); return; }
+      try { ok(ultimo ? JSON.parse(x.responseText) : {}); } catch { ok({}); }
     };
     x.onerror = () => mal(new Error('Se cortó la conexión mientras subía el video.'));
     x.onabort = () => mal(avCancelado());
     s.addEventListener('abort', () => x.abort(), { once: true });
-    x.send(f);
+    x.send(blob);
   });
 }
 // Gemini procesa cada video antes de poder usarlo: se espera a que quede ACTIVE.
@@ -3145,7 +3190,7 @@ async function avAnalizar() {
     : V && (!F.color.trim() || !F.colRival.trim()) ? 'Poné el color de las dos camisetas: así Gemini sabe quién es quién.'
     : V && !F.ataca ? `Elegí hacia dónde ataca ${PM.club.nombre} en el primer tiempo.`
     : F.modo === 'jugador' && !F.quien.trim() ? (V ? 'Poné cómo reconocer al jugador en el video (número y puesto).' : 'Poné el número de camiseta del jugador en Veo.')
-    : V && F.clips.some(c => c.f.size > 2e9) ? 'Hay un video de más de 2 GB, que es el máximo que acepta Gemini.'
+    : V && F.clips.some(c => c.f.size > 20e9) ? 'Hay un video de más de 20 GB, que es el máximo que acepta Gemini. Cortalo en partes (por ejemplo, un archivo por tiempo).'
     : F.capturas.reduce((n, f) => n + f.size, 0) > 15e6 ? 'Las capturas pesan demasiado (más de 15 MB en total). Quitá alguna.'
     : !clave ? 'Pegá la clave de API de Gemini.' : '';
   if (falta) { aviso(falta); return; }
@@ -3173,19 +3218,7 @@ async function avAnalizar() {
     const cfg = { responseMimeType: 'application/json', temperature: 0.3, mediaResolution: 'MEDIA_RESOLUTION_LOW' };
     // Si Gemini está saturado (503) se reintenta solo y, si sigue, se prueba con otro modelo. Los videos ya subidos se reusan.
     const cuerpo = JSON.stringify({ contents: [{ role: 'user', parts: partes }], generationConfig: cfg });
-    const modelos = [modelo, ...AV_MODELOS.filter(m => m !== modelo)];
-    let res = null, usado = modelo;
-    probar: for (const m of modelos) for (let intento = 0; intento < 3; intento++) {
-      try { res = await (await avPedir(`/v1beta/models/${encodeURIComponent(m)}:generateContent`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: cuerpo }, clave)).json(); usado = m; break probar; }
-      catch (e) {
-        if (e.name === 'AbortError' || ![429, 500, 503, 404].includes(e.status)) throw e;
-        const sinCupo = e.status === 404 || (e.status === 429 && /quota|cuota/i.test(e.raw || ''));
-        if (m === modelos.at(-1) && (intento === 2 || sinCupo)) throw e;
-        if (sinCupo) continue probar; // ese modelo no está para esta clave (o no tiene cupo): el siguiente
-        AV_RUN.nota = `${m} está saturado. ${intento < 2 ? 'Reintentando en unos segundos…' : 'Probando con otro modelo…'}`; avPintarRun();
-        if (intento < 2) await avDormir(intento ? 12000 : 5000); else break;
-      }
-    }
+    const { res, modelo: usado } = await avLlamar(cuerpo, clave, n => { AV_RUN.nota = n; avPintarRun(); }, avDormir);
     AV_RUN.nota = '';
     const txt = (res.candidates?.[0]?.content?.parts || []).filter(x => !x.thought).map(x => x.text || '').join('').trim();
     if (!txt) throw new Error(res.promptFeedback?.blockReason ? `Gemini no quiso analizar los videos (${res.promptFeedback.blockReason}).` : 'Gemini no devolvió el informe. Probá de nuevo.');
