@@ -3882,7 +3882,7 @@ function pmTecnicos() {
   const nuevo = PM_DT_NUEVO; PM_DT_NUEVO = null;
   const sinDt = PM.cats.filter(c => !dts.some(x => x.equipos?.includes(c)));
   return `${nuevo ? `<div class="panel pm-dt-nuevo"><div class="pm-r pm-r-col"><span class="pm-r-t"><b>Cuenta creada para ${esc(nuevo.n)}</b><small>Pasale estos datos. La primera vez que entre va a elegir su propia contraseña. Esta temporal se muestra una sola vez.</small></span>
-      <code class="pm-dt-cred">Usuario: ${esc(nuevo.u)}  ·  Contraseña temporal: ${esc(nuevo.temp)}</code><button type="button" class="share" id="pm-dt-copiar" data-t="${esc(`Planilla LUD · ${PM.club.nombre}\nhttps://planilla-lud.github.io/premium-real/\nUsuario: ${nuevo.u}\nContraseña temporal: ${nuevo.temp}`)}">Copiar para mandárselo</button></div></div>` : ''}
+      <code class="pm-dt-cred">Usuario: ${esc(nuevo.u)}  ·  Contraseña temporal: ${esc(nuevo.temp)}</code><button type="button" class="share" id="pm-dt-copiar" data-t="${esc(`Planilla LUD · ${PM.club.nombre}\nhttps://planilla-lud-premium.vercel.app\nUsuario: ${nuevo.u}\nContraseña temporal: ${nuevo.temp}`)}">Copiar para mandárselo</button></div></div>` : ''}
     <p class="lede">Cada técnico entra con su usuario y solo ve sus planteles: sus prácticas, su asistencia, sus minutos y sus jugadores. Vos, como administrador, ves todo el club.</p>
     <div class="panel">${dts.map(x => `<div class="pm-r pm-tec"><span class="pm-r-t"><b>${esc(x.nombre)}</b><small>Usuario <code>${esc(x.u)}</code></small></span>
       <div class="pm-dsem pm-pl">${PM.cats.map(c => `<button type="button" data-pm="asignar" data-u="${esc(x.u)}" data-v="${c}" aria-pressed="${!!x.equipos?.includes(c)}">${esc(pmCatN(c))}</button>`).join('')}</div>
