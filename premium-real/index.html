@@ -2692,7 +2692,7 @@ function pmLogin() {
     ${REAL.error ? `<p class="pm-err">${esc(REAL.error)}</p>` : ''}
     <div class="panel pm-ayuda-login"><div class="pm-r"><span class="pm-r-t"><b>¿Cómo entro?</b><small>Técnicos: con el usuario que te dio el club. Jugadores: con tu número de carné. La primera vez usás la contraseña que te pasaron y ahí elegís la tuya.</small></span></div>
       <div class="pm-r"><span class="pm-r-t"><b>¿Te olvidaste la contraseña?</b><small>Pedile a tu técnico que te la restablezca.</small></span></div></div>
-    <p class="pm-nota">¿Tu club todavía no tiene el plan? Que la comisión nos escriba.</p></div>`;
+    <p class="pm-nota">¿Tu club todavía no tiene el plan? Que la comisión nos escriba. · <a href="privacidad.html">Términos y privacidad</a></p></div>`;
 }
 function pmPausadoV() {
   const n = esc((REAL.miembro?.nombre || '').split(' ')[0]), h = REAL.plan?.pagado_hasta;
