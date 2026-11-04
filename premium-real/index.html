@@ -2327,7 +2327,7 @@ function pmDesdePlano(M) {
 }
 // Lo que un jugador puede escribir (igual que las reglas del servidor): sus marcas, su plantel principal y su ficha.
 function pmPuedo(k, sub) {
-  const M = REAL.miembro; if (!M) return false; if (M.rol !== 'jug') return true;
+  const M = REAL.miembro; if (!M) return false; if (M.rol !== 'jug') return true; // creador, administrador y técnicos
   return ((k === 'marcas' || k === 'resp') && sub[1] === M.carne) || ((k === 'principal' || k === 'fichas') && sub[0] === M.carne);
 }
 async function pmSubir() {
@@ -2362,7 +2362,7 @@ async function pmRealCargar() {
   if (error) throw error;
   if (!m) { await SBR.auth.signOut(); REAL.user = null; throw new Error('Tu usuario no pertenece a ningún club.'); }
   // Por ahora el plan es solo para el ELF: otra cuenta no entra.
-  if (m.club !== PM_CLUB) { await SBR.auth.signOut(); REAL.user = null; throw new Error('Por ahora el plan para clubes es solo para el ELF.'); }
+  if (m.club !== PM_CLUB && m.rol !== 'creador') { await SBR.auth.signOut(); REAL.user = null; throw new Error('Por ahora el plan para clubes es solo para el ELF.'); }
   REAL.miembro = m;
   // Primera vez de un jugador: hasta que elige su contraseña el servidor no le muestra nada del club.
   REAL.debeClave = m.rol === 'jug' && !m.clave_cambiada;
@@ -2585,7 +2585,7 @@ async function renderClubes(sub, rest = []) {
   if (!PM_CAT || !pmCV().includes(PM_CAT)) PM_CAT = pmCV().includes('sub20-a') ? 'sub20-a' : pmCV()[0];
   if (sub === 'ver') return pmVer(rest);
   const cab = `<div class="club-h">${crest(PM.club.equipos[0].equipo, true)}<div style="flex:1;min-width:0"><h2>${esc(PM.club.nombre)} <span class="tag pm-plan">Plan club</span></h2>
-    <div class="small muted">${esc(S.nombre)} · ${S.rol === 'admin' ? 'Administrador del club' : S.rol === 'dt' ? `DT de ${pmCV().map(pmCatN).join(', ') || 'ningún plantel todavía'}` : 'Jugador'}</div></div><span class="pm-red ok" id="pm-red" role="status">Conectado al servidor</span><button type="button" class="share" data-pm="salir">Salir</button></div>
+    <div class="small muted">${esc(S.nombre)} · ${S.creador ? 'Creador · ve todos los clubes' : S.rol === 'admin' ? 'Administrador del club' : S.rol === 'dt' ? `DT de ${pmCV().map(pmCatN).join(', ') || 'ningún plantel todavía'}` : 'Jugador'}</div></div><span class="pm-red ok" id="pm-red" role="status">Conectado al servidor</span><button type="button" class="share" data-pm="salir">Salir</button></div>
     ${S.rol !== 'jug' ? `<div class="seg pm-rol" role="group" aria-label="Ver como"><button type="button" data-pm="rol" data-v="dt" aria-pressed="${E.rol === 'dt'}">${S.rol === 'admin' ? 'Club' : 'Cuerpo técnico'}</button><button type="button" data-pm="rol" data-v="jug" aria-pressed="${E.rol === 'jug'}">Ver como jugador</button></div>` : ''}`;
   if (E.rol === 'jug') { main.innerHTML = cab + pmVistaJugador(S); pmEnlazar(); window.scrollTo({ top: 0 }); return; }
   if (S.rol === 'dt' && !pmCV().length) { main.innerHTML = cab.replace(/<div class="seg pm-rol"[\s\S]*$/, '') + '<div class="empty">Todavía no tenés planteles asignados. Pedile al administrador del club que te asigne los tuyos.</div>'; pmEnlazar(); return; }
@@ -2661,6 +2661,8 @@ const pmJug = c => (PM && typeof c === 'string' && Object.hasOwn(PM.jug, c)) ? P
 function pmSesion() {
   const M = REAL.miembro; if (!M) return null;
   if (M.rol === 'jug') return pmJug(M.carne) ? { rol: 'jug', c: M.carne, nombre: M.nombre } : null;
+  // El creador ve todo, de todos los clubes: adentro de un club funciona como su administrador.
+  if (M.rol === 'creador') return { rol: 'admin', u: M.usuario, nombre: M.nombre, creador: true };
   return { rol: M.rol, u: M.usuario, nombre: M.nombre };
 }
 function pmSesionDemo() {
@@ -3705,6 +3707,11 @@ function avIr(clip, seg) {
 }
 
 function avEnlazar() {
+  const pc = $('#pm-creador');
+  if (pc && !pc.dataset.ok) { pc.dataset.ok = '1'; SBR.rpc('pm_resumen_clubes').then(({ data, error }) => {
+    if (error) { pc.innerHTML = `<p class="pm-err">${esc(error.message)}</p>`; return; }
+    pc.innerHTML = (data || []).map(c => `<div class="pm-r"><span class="pm-r-t"><b>${esc(c.club.toUpperCase())}</b><small>${c.admins} admin · ${c.tecnicos} técnicos · ${c.jugadores_activos} de ${c.jugadores} jugadores ya entraron · ${c.informes} informes · ${c.previas} previas${c.ultima_actividad ? ' · último movimiento ' + new Date(c.ultima_actividad).toLocaleString('es-UY', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' }) : ''}</small></span></div>`).join('') || '<div class="empty">Todavía no hay clubes.</div>';
+  }); }
   const rg = $('#pm-reset-go');
   if (rg) rg.onclick = async () => {
     const c = $('#pm-reset-j').value, J = pmJug(c), ok = $('#pm-reset-ok');
@@ -3828,6 +3835,7 @@ function pmAjustes() {
     <section class="stack"><div class="sec-h"><div><h3>Partidos</h3></div></div><div class="panel">${pmSw('convocatoria', 'Convocatoria', 'Elegir los convocados de cada partido y mandar la lista')}</div></section>
     <section class="stack"><div class="sec-h"><div><h3>Días de práctica</h3><span class="sub">Se cambian en Prácticas, eligiendo el plantel.</span></div><a href="#/clubes/practicas">Cambiar</a></div>
       <div class="panel">${pmCV().map(c => `<div class="pm-r"><span class="pm-r-t"><b>${esc(pmCatN(c))}</b><small>${pmDiasTxt(c)} · ${esc(pmHorHoy(c).lugar)}</small></span></div>`).join('')}</div></section>
+    ${pmSesion()?.creador ? `<section class="stack"><div class="sec-h"><div><h3>Todos los clubes</h3><span class="sub">Solo lo ve tu cuenta de creador.</span></div></div><div class="panel" id="pm-creador"><p class="pm-nota pm-sin pm-av-pad">Cargando…</p></div></section>` : ''}
     <section class="stack"><div class="sec-h"><div><h3>Contraseñas de los jugadores</h3><span class="sub">Si un jugador se olvidó la suya, se la restablecés: vuelve a ser <code>${PM_CLAVE}</code> y al entrar elige una nueva.</span></div></div>
       <div class="panel"><div class="pm-r pm-r-col"><select class="pm-in" id="pm-reset-j" aria-label="Jugador">${pmDe(PM_CAT).sort((a, b) => a.nombre.localeCompare(b.nombre, 'es')).map(J => `<option value="${J.c}">${esc(J.nombre)} · ${J.c}</option>`).join('')}</select><button type="button" class="share" id="pm-reset-go">Restablecer contraseña</button><p class="pm-nota pm-sin" id="pm-reset-ok" hidden></p></div></div></section>
     ${pmSesion()?.rol !== 'admin' ? '' : `<section class="stack"><div class="sec-h"><div><h3>Plan</h3></div></div>
