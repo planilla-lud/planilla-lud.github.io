@@ -2750,7 +2750,9 @@ function pmVideos() {
 // jugada) y Gemini arma el informe. Los videos van directo del navegador a Gemini con la clave del club
 // y se borran de Gemini al terminar: acá se guarda solo el informe, con los mismos permisos que lo demás.
 const AV_API = 'https://generativelanguage.googleapis.com';
-const AV_MODELOS = ['gemini-3.5-flash', 'gemini-3.5-pro', 'gemini-2.5-flash', 'gemini-2.5-pro'];
+// El primero es el de siempre: estable y rápido. Si uno falla o está saturado, se prueba solo con el siguiente.
+const AV_MODELOS = ['gemini-2.5-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-2.5-pro'];
+const avModelo = () => { const m = leer('pm-gemini-modelo'); return AV_MODELOS.includes(m) ? m : AV_MODELOS[0]; };
 const AV_TIPOS = [['highlights', 'Highlights'], ['completo', 'Partido completo'], ['recorte', 'Recorte']];
 const AV_ZONAS = [['izquierda', 'Izquierda'], ['centro', 'Centro'], ['derecha', 'Derecha'], ['espalda', 'Espalda']];
 const AV_GRAV = { alta: 0, media: 1, baja: 2 };
@@ -2784,6 +2786,14 @@ const avVideos = lista => [...lista]
   .sort((a, b) => (a.webkitRelativePath || a.name).localeCompare(b.webkitRelativePath || b.name, 'es', { numeric: true }));
 const avMime = f => f.type || { mov: 'video/quicktime', mkv: 'video/x-matroska', avi: 'video/x-msvideo', webm: 'video/webm', '3gp': 'video/3gpp', wmv: 'video/x-ms-wmv', flv: 'video/x-flv', mpg: 'video/mpeg', mpeg: 'video/mpeg' }[f.name.split('.').pop().toLowerCase()] || 'video/mp4';
 
+// Veo nombra los highlights con el momento del partido y el tipo de jugada: "04 002018_-_Goal.mp4".
+const AV_VEO_TIPO = { goal: 'Gol', shot_on_goal: 'Tiro al arco', shot: 'Tiro', ataque: 'Ataque', corner: 'Córner', free_kick: 'Tiro libre', penalty: 'Penal' };
+function avVeo(nombre) {
+  const m = /(?:^|\s)(\d{2})(\d{2})(\d{2})_-_(.+?)\.[a-z0-9]+$/i.exec(nombre || ''); if (!m) return { ini: null, tipo: '' };
+  const t = m[4].replace(/_/g, ' ').trim();
+  return { ini: Number(m[1]) * 3600 + Number(m[2]) * 60 + Number(m[3]), tipo: AV_VEO_TIPO[m[4].toLowerCase()] || t };
+}
+let AV_INFO = []; // datos de Veo de los clips del informe que se está mostrando
 function avForm() {
   if (!AV_F) AV_F = { modo: 'equipo', cat: null, partido: '', rival: '', dia: '', color: pmLeerJ('pm-av-ult', {}).color || '', colRival: '', ataca: '', tipo: 'highlights', jugador: '', quien: '', notas: '', clips: [], capturas: [] };
   if (!pmCV().includes(AV_F.cat)) { AV_F.cat = pmCV().includes(PM_CAT) ? PM_CAT : pmCV()[0]; AV_F.partido = ''; AV_F.jugador = ''; }
@@ -2794,7 +2804,7 @@ function pmAnalisis() {
   const id = decodeURIComponent(location.hash.split('/')[3] || '');
   if (id) return avInforme(id);
   const F = avForm(), ps = avPartidos(F.cat), club = esc(PM.club.nombre);
-  const clave = avClave(), donde = avDonde(), modelo = leer('pm-gemini-modelo') || AV_MODELOS[0];
+  const clave = avClave(), donde = avDonde(), modelo = avModelo();
   const seg = (k, lista, nombre) => `<div class="seg pm-seg" role="group" aria-label="${nombre}">${lista.map(([v, n]) => `<button type="button" data-av="${k}" data-v="${v}" aria-pressed="${(k === 'donde' ? donde : F[k]) === v}">${n}</button>`).join('')}</div>`;
   const opt = (v, n, sel) => `<option value="${esc(v)}"${sel ? ' selected' : ''}>${esc(n)}</option>`;
   const campo = (k, n, ph, tipo = 'text') => `<label>${n}<input type="${tipo}" data-av="${k}" value="${esc(F[k])}"${ph ? ` placeholder="${esc(ph)}"` : ''}></label>`;
@@ -2826,7 +2836,7 @@ function pmAnalisis() {
       <div class="pm-campos">${campo('notas', 'Algo en lo que quieras que se fije (opcional)', 'Ej.: las pelotas paradas en contra')}</div>
       <div class="pm-campos">
         <label>Clave de API de Gemini<input type="password" data-av="clave" value="${esc(clave)}" autocomplete="off" spellcheck="false" placeholder="Pegá tu clave acá (empieza con AIza)"></label>
-        <label>Modelo<select data-av="modelo">${[...new Set([...AV_MODELOS, modelo])].map(m => opt(m, m, m === modelo)).join('')}</select></label>
+        <label>Modelo<select data-av="modelo">${AV_MODELOS.map(m => opt(m, m + (m === AV_MODELOS[0] ? ' (recomendado)' : ''), m === modelo)).join('')}</select></label>
       </div>
       <div class="pm-av-key">
         <span><b>¿No tenés clave?</b> Es gratis: entrá a Google AI Studio con tu cuenta de Google, tocá <b>Create API key</b> y copiala.</span>
@@ -2857,7 +2867,7 @@ function avRunHTML() {
   const est = { espera: 'En espera', sube: 'Subiendo', procesa: 'Gemini lo está procesando', listo: 'Listo' };
   const tit = R.fase === 'error' ? 'No se pudo analizar' : R.fase === 'analiza' ? 'Gemini está mirando los clips' : 'Subiendo los clips a Gemini';
   return `<section class="panel pm-av-run"><div class="panel-h"><b>${tit}</b>${R.fase === 'error' ? '<button type="button" class="share" data-pm="av-cerrar">Cerrar</button>' : '<button type="button" class="share" data-pm="av-cancelar">Cancelar</button>'}</div>
-    ${R.fase === 'error' ? `<p class="pm-err">${esc(R.error)}</p>` : R.fase === 'analiza' ? '<p class="pm-nota">Puede tardar unos minutos. No cierres esta pestaña.</p>' : ''}
+    ${R.fase === 'error' ? `<p class="pm-err">${esc(R.error)}</p>` : R.fase === 'analiza' ? `<p class="pm-nota">${R.nota ? esc(R.nota) : 'Puede tardar unos minutos. No cierres esta pestaña.'}</p>` : ''}
     ${R.clips.map((c, i) => `<div class="pm-r"><span class="pm-r-t"><b>Clip ${i + 1}</b><small>${esc(c.n)} · ${est[c.est]}</small><span class="bar"><span style="width:${Math.round(c.pct * 100)}%"></span></span></span><span class="pm-cnt"><b>${Math.round(c.pct * 100)}%</b></span></div>`).join('')}</section>`;
 }
 function avPintarRun() {
@@ -2872,6 +2882,7 @@ function avError(st, m = '') {
   if (st === 404) return 'Ese modelo no existe o tu clave no lo tiene habilitado. Probá con otro.';
   if (st === 413) return 'Un video es demasiado grande para Gemini (el máximo es 2 GB por archivo).';
   if (st === 429) return 'Se pasó el límite de uso de la clave de Gemini. Esperá un rato y probá de nuevo.';
+  if (st === 503 || st === 500) return 'Gemini está saturado en este momento (probamos varias veces y con otros modelos). Esperá unos minutos y probá de nuevo.';
   return `Gemini respondió con un error (${st})${m ? ': ' + m : ''}.`;
 }
 const avCancelado = () => new DOMException('cancelado', 'AbortError');
@@ -2879,7 +2890,7 @@ async function avPedir(ruta, op, clave) {
   let r;
   try { r = await fetch(AV_API + ruta, { ...op, headers: { 'x-goog-api-key': clave, ...op?.headers }, signal: AV_RUN?.ctl.signal }); }
   catch (e) { if (e.name === 'AbortError') throw e; throw new Error('No se pudo conectar con Gemini. Revisá la conexión.'); }
-  if (!r.ok) { let m = ''; try { m = (await r.json()).error?.message || ''; } catch {} throw new Error(avError(r.status, m)); }
+  if (!r.ok) { let m = ''; try { m = (await r.json()).error?.message || ''; } catch {} const e = new Error(avError(r.status, m)); e.status = r.status; throw e; }
   return r;
 }
 const avDormir = ms => new Promise((ok, mal) => {
@@ -2975,7 +2986,7 @@ function avNormalizar(x, n) {
 }
 
 async function avAnalizar() {
-  const F = avForm(), S = pmSesion(), clave = avClave(), modelo = leer('pm-gemini-modelo') || AV_MODELOS[0];
+  const F = avForm(), S = pmSesion(), clave = avClave(), modelo = avModelo();
   const p = avPartidos(F.cat).find(x => x.id === F.partido);
   const falta = !F.clips.length ? 'Elegí la carpeta o los videos del partido.'
     : !F.partido ? 'Elegí el partido.' : F.partido === 'otro' && !F.rival.trim() ? 'Poné el rival.'
@@ -3002,11 +3013,26 @@ async function avAnalizar() {
       R.est = 'listo'; avPintarRun();
     }).catch(e => { AV_RUN.ctl.abort(); throw e; });
     AV_RUN.fase = 'analiza'; avPintarRun();
-    const partes = clips.flatMap((c, i) => [{ text: `Clip ${i + 1} (${c.f.name}):` }, { file_data: { mime_type: subidos[i].mimeType, file_uri: subidos[i].uri } }]);
+    const veo = clips.map(c => avVeo(c.f.name));
+    const partes = clips.flatMap((c, i) => [{ text: `Clip ${i + 1} (${c.f.name})${veo[i].ini != null ? `: según Veo empieza en el ${avT(veo[i].ini)} del video del partido` : ''}${veo[i].tipo ? ` y Veo lo marcó como "${veo[i].tipo}"` : ''}. Revisá con la imagen de qué equipo es la jugada:` }, { file_data: { mime_type: subidos[i].mimeType, file_uri: subidos[i].uri } }]);
     for (const [i, f] of caps.entries()) partes.push({ text: `Captura ${i + 1} de Veo Analytics (${f.name}):` }, { inline_data: { mime_type: f.type || 'image/png', data: await avBase64(f) } });
     partes.push({ text: avPrompt(F, { club: PM.club.nombre, plantel: pmCatN(F.cat), rival, dia: dia ? fDia(dia) : '', res: p ? `${PM.club.nombre} ${p.gf}, ${rival} ${p.gc}` : '', n: clips.length, caps: caps.length, jugador: J?.nombre }) });
-    const cfg = { responseMimeType: 'application/json', temperature: 0.3, ...(F.tipo === 'completo' ? { mediaResolution: 'MEDIA_RESOLUTION_LOW' } : {}) };
-    const res = await (await avPedir(`/v1beta/models/${encodeURIComponent(modelo)}:generateContent`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ contents: [{ role: 'user', parts: partes }], generationConfig: cfg }) }, clave)).json();
+    const cfg = { responseMimeType: 'application/json', temperature: 0.3, mediaResolution: 'MEDIA_RESOLUTION_LOW' };
+    // Si Gemini está saturado (503) se reintenta solo y, si sigue, se prueba con otro modelo. Los videos ya subidos se reusan.
+    const cuerpo = JSON.stringify({ contents: [{ role: 'user', parts: partes }], generationConfig: cfg });
+    const modelos = [modelo, ...AV_MODELOS.filter(m => m !== modelo)];
+    let res = null, usado = modelo;
+    probar: for (const m of modelos) for (let intento = 0; intento < 3; intento++) {
+      try { res = await (await avPedir(`/v1beta/models/${encodeURIComponent(m)}:generateContent`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: cuerpo }, clave)).json(); usado = m; break probar; }
+      catch (e) {
+        if (e.name === 'AbortError' || ![429, 500, 503, 404].includes(e.status) || (e.status === 429 && /cuota|quota/i.test(e.message))) throw e;
+        if (m === modelos.at(-1) && (intento === 2 || e.status === 404)) throw e;
+        if (e.status === 404) continue probar; // ese modelo no está habilitado: el siguiente
+        AV_RUN.nota = `${m} está saturado. ${intento < 2 ? 'Reintentando en unos segundos…' : 'Probando con otro modelo…'}`; avPintarRun();
+        if (intento < 2) await avDormir(intento ? 12000 : 5000); else break;
+      }
+    }
+    AV_RUN.nota = '';
     const txt = (res.candidates?.[0]?.content?.parts || []).filter(x => !x.thought).map(x => x.text || '').join('').trim();
     if (!txt) throw new Error(res.promptFeedback?.blockReason ? `Gemini no quiso analizar los videos (${res.promptFeedback.blockReason}).` : 'Gemini no devolvió el informe. Probá de nuevo.');
     let crudo; try { crudo = JSON.parse(txt.replace(/^```(?:json)?\s*|\s*```$/g, '')); } catch { throw new Error('Gemini devolvió un informe que no se pudo leer. Probá de nuevo o con otro modelo.'); }
@@ -3014,8 +3040,8 @@ async function avAnalizar() {
       id: 'av' + Date.now().toString(36), div: F.cat, creado: new Date(Date.now() - 3 * 3600e3).toISOString().slice(0, 16), autor: S.u || S.c, autorN: S.nombre,
       modo: F.modo, jugador: F.modo === 'jugador' ? { c: J?.c || '', nombre: J?.nombre || '', quien: F.quien.trim() } : null,
       partido: { id: p?.id || '', dia: dia || '', rival, gf: p?.gf ?? null, gc: p?.gc ?? null },
-      datos: { color: F.color.trim(), colRival: F.colRival.trim(), ataca: F.ataca, tipo: F.tipo, modelo },
-      clips: clips.map(c => c.f.name), capturas: caps.length, informe: avNormalizar(crudo, clips.length),
+      datos: { color: F.color.trim(), colRival: F.colRival.trim(), ataca: F.ataca, tipo: F.tipo, modelo: usado },
+      clips: clips.map(c => c.f.name), veo, capturas: caps.length, informe: avNormalizar(crudo, clips.length),
     };
     pmEst().analisis.unshift(r); pmGuardar();
     AV_MEDIA[r.id] = clips; F.clips = []; F.capturas = []; AV_RUN = null;
@@ -3044,12 +3070,14 @@ function avMapa(ll) {
     <path class="ln dl" d="M${10 + w} 10V110 M${10 + 2 * w} 10V110 M10 110H290"/>
     <text class="zl" x="150" y="186">Nuestro arco</text></svg>`;
 }
-const avJ = j => `<button type="button" class="chip pm-av-j" data-pm="av-j" data-v="${j.clip}|${j.seg}">C${j.clip} · ${avT(j.seg)}</button>`;
+const avJ = j => { const v = AV_INFO[j.clip - 1], min = v?.ini != null ? Math.floor((v.ini + j.seg) / 60) : null;
+  return `<button type="button" class="chip pm-av-j" data-pm="av-j" data-v="${j.clip}|${j.seg}"${min != null ? ` title="Minuto ${min} del partido, según Veo"` : ''}>${min != null ? `<b>${min}'</b> · ` : ''}C${j.clip} · ${avT(j.seg)}</button>`; };
 const avJugadas = l => l.length ? `<div class="pm-av-js">${l.map(j => `<div class="pm-av-jl">${avJ(j)}${j.nota ? `<span>${esc(j.nota)}</span>` : ''}</div>`).join('')}</div>` : '';
 
 function avInforme(id) {
   const r = avVisibles().find(x => x.id === id), volver = atras('#/clubes/analisis', 'Volver a Análisis de video');
   if (!r) return volver + '<div class="empty">Ese informe no existe o no es de tus planteles.</div>';
+  AV_INFO = r.veo || r.clips.map(avVeo);
   const I = r.informe, M = AV_MEDIA[id], club = PM.club.nombre, mk = I.marcador, n = Object.values(I.llegadas).reduce((a, b) => a + b, 0);
   // Si el partido tiene planilla, manda el resultado oficial.
   const marc = r.partido.gf != null ? `${r.partido.gf} - ${r.partido.gc}` : mk.nosotros != null && mk.rival != null ? `${mk.nosotros} - ${mk.rival}` : '';
