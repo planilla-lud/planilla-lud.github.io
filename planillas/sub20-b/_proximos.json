@@ -1,24 +1,10 @@
 [
  {
   "serie": "20BPD",
-  "fechaHora": "2026-10-29 20:15:00",
-  "cancha": "COM. DEP. CLUB TROUVILLE",
-  "local": "TROUVILLE UNIVERSITARIO",
-  "visitante": "SEMINARIO UNIVERSITARIO"
- },
- {
-  "serie": "20BPD",
   "fechaHora": "2026-11-04 21:00:00",
   "cancha": "COMPLEJO DEPORTIVO ARRAYANES",
   "local": "SAN AGUSTIN",
   "visitante": "SANTA ELENA LAGOMAR"
- },
- {
-  "serie": "20BTA",
-  "fechaHora": "2026-11-07 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "ISASA UNIVERSITARIO",
-  "visitante": "CIRCULO DE TENIS MONTEVIDEO"
  },
  {
   "serie": "20BPD",
@@ -44,6 +30,13 @@
  {
   "serie": "20BTA",
   "fechaHora": "2026-11-07 15:30:00",
+  "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
+  "local": "ISASA UNIVERSITARIO",
+  "visitante": "CIRCULO DE TENIS MONTEVIDEO"
+ },
+ {
+  "serie": "20BTA",
+  "fechaHora": "2026-11-07 15:30:00",
   "cancha": "CIUDAD DEPORTIVA LS",
   "local": "DEPORTIVO LS UNIVERSITARIO",
   "visitante": "COLEGIO SANTA ELENA"
@@ -64,8 +57,8 @@
  },
  {
   "serie": "20BPD",
-  "fechaHora": "2026-11-07 15:30:00",
-  "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
+  "fechaHora": "2026-12-30 00:00:00",
+  "cancha": "NO SE JUEGA",
   "local": "SEMINARIO UNIVERSITARIO",
   "visitante": "ELBIO FERNANDEZ"
  }

@@ -1,0 +1,281 @@
+{
+ "id": "103643",
+ "categoria": "sub16",
+ "serie": "16O",
+ "fecha": 3,
+ "fechaHora": "2026-11-01 13:30:00",
+ "cancha": "ST. BRENDANS",
+ "local": "OLD BRENDANS CLUB",
+ "visitante": "THE BRITISH SCHOOL",
+ "gl": 0,
+ "gv": 4,
+ "detalle": {
+  "nro_partido": "290",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 16 ",
+  "categoria": "SUB 16 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB16 ORO",
+  "Cancha": "ST. BRENDANS",
+  "Fecha_Inicio": "2026-11-01 15:00:00",
+  "Fecha_fin": "2026-11-01 15:00:00",
+  "Locatario": "OLD BRENDANS CLUB",
+  "goles_locatario": "0",
+  "puntos_locatario": "0",
+  "Visitante": "THE BRITISH SCHOOL",
+  "goles_visitante": "4",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "60014",
+   "Nombre": "JERONIMO ORRICO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "68904",
+   "Nombre": "JUAN VICENTE NOGUES",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "61805",
+   "Nombre": "FEDERICO REYES",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "63168",
+   "Nombre": "TOMAS REY",
+   "camiseta": "22",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "65622",
+   "Nombre": "MATEO CAPRARIO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "61806",
+   "Nombre": "FELIPE MACHADO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "65623",
+   "Nombre": "BENJAMIN TROSTCHANSKY",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "61596",
+   "Nombre": "AGUSTIN BOZZOLO",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "67761",
+   "Nombre": "BRUNO TELLERIA",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "59200",
+   "Nombre": "MATEO BIDEGAIN",
+   "camiseta": "75",
+   "Capitan": ""
+  },
+  {
+   "carne": "65673",
+   "Nombre": "SANTIAGO CURBELO",
+   "camiseta": "6",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "61654",
+   "Nombre": "JUAN MANUEL MOREIRA",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "63186",
+   "Nombre": "JUAN SEBASTIAN JIMENEZ DE ARECHAGA",
+   "camiseta": "66",
+   "Capitan": ""
+  },
+  {
+   "carne": "65049",
+   "Nombre": "JUAN ALFONSO ODDONE",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "67992",
+   "Nombre": "JUAN IGNACIO RODRIGUEZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "62989",
+   "Nombre": "BENJAMIN RISSO",
+   "camiseta": "39",
+   "Capitan": ""
+  },
+  {
+   "carne": "65456",
+   "Nombre": "SANTOS SASHA BALUT",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "62239",
+   "Nombre": "ANDRES TERCERO PEREZ DEL CASTILLO",
+   "camiseta": "18",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "65058",
+   "Nombre": "IGNACIO AGUSTIN NOVEGIL",
+   "camiseta": "47",
+   "Capitan": ""
+  },
+  {
+   "carne": "65064",
+   "Nombre": "JUAN MARTIN FRECHOU",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "65053",
+   "Nombre": "JUAN BOSCH",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "62241",
+   "Nombre": "BENJAMIN ALBERTO BRAUSE",
+   "camiseta": "88",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "61805",
+   "Jug_Sale": "FEDERICO REYES",
+   "CarneEntra": "68484",
+   "Jug_Entra": "LORENZO TRUCCO",
+   "camiseta": "16",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "61596",
+   "Jug_Sale": "AGUSTIN BOZZOLO",
+   "CarneEntra": "61808",
+   "Jug_Entra": "LORENZO PAKCIARZ",
+   "camiseta": "13",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "63168",
+   "Jug_Sale": "TOMAS REY",
+   "CarneEntra": "62499",
+   "Jug_Entra": "BENITO BAQUERO",
+   "camiseta": "27",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "65673",
+   "Jug_Sale": "SANTIAGO CURBELO",
+   "CarneEntra": "65805",
+   "Jug_Entra": "BRUNO BENITES",
+   "camiseta": "17",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "65622",
+   "Jug_Sale": "MATEO CAPRARIO",
+   "CarneEntra": "62510",
+   "Jug_Entra": "LORENZO AUGUSTO BLANDI",
+   "camiseta": "38",
+   "minutos": "75"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "65058",
+   "Jug_Sale": "IGNACIO AGUSTIN NOVEGIL",
+   "CarneEntra": "65035",
+   "Jug_Entra": "FRANCISCO IÑAKI MARTINEZ",
+   "camiseta": "4",
+   "minutos": "13"
+  },
+  {
+   "CarneSale": "65049",
+   "Jug_Sale": "JUAN ALFONSO ODDONE",
+   "CarneEntra": "65036",
+   "Jug_Entra": "SANTIAGO TORRES",
+   "camiseta": "18",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "62241",
+   "Jug_Sale": "BENJAMIN ALBERTO BRAUSE",
+   "CarneEntra": "65060",
+   "Jug_Entra": "FRANZ SEDELMAYR",
+   "camiseta": "21",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "62239",
+   "Jug_Sale": "ANDRES TERCERO PEREZ DEL CASTILLO",
+   "CarneEntra": "61665",
+   "Jug_Entra": "JUAN MIGUEL AGUERRE",
+   "camiseta": "17",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "65456",
+   "Jug_Sale": "SANTOS SASHA BALUT",
+   "CarneEntra": "61599",
+   "Jug_Entra": "ALFONSO MAILHOS",
+   "camiseta": "11",
+   "minutos": "75"
+  }
+ ],
+ "golesL": [],
+ "golesV": [
+  {
+   "carne": "62241",
+   "Nombre": "BENJAMIN ALBERTO BRAUSE",
+   "minutos": "41",
+   "EnContra": "1"
+  },
+  {
+   "carne": "65060",
+   "Nombre": "FRANZ SEDELMAYR",
+   "minutos": "62",
+   "EnContra": "1"
+  },
+  {
+   "carne": "65064",
+   "Nombre": "JUAN MARTIN FRECHOU",
+   "minutos": "9",
+   "EnContra": "1"
+  },
+  {
+   "carne": "65456",
+   "Nombre": "SANTOS SASHA BALUT",
+   "minutos": "70",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

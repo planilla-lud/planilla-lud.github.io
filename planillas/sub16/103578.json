@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB16 PLATA",
   "Cancha": "PICHINCHA",
-  "Fecha_Inicio": "2026-11-01 15:00:00",
-  "Fecha_fin": "2026-11-01 15:00:00",
+  "Fecha_Inicio": "2026-11-01 17:15:00",
+  "Fecha_fin": "2026-11-01 17:15:00",
   "Locatario": "LA ESCALINATA",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,258 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "65090",
+   "Nombre": "SANTINO BERRUETA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "63557",
+   "Nombre": "MANUEL CANTERA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "63376",
+   "Nombre": "JOAQUIN BUSTOS",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "67911",
+   "Nombre": "JUAN BAUTISTA SCOTTI",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "65082",
+   "Nombre": "ALFONSO GERVAZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "65088",
+   "Nombre": "JUAN IGNACIO FONSECA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "65074",
+   "Nombre": "GERONIMO ROMERO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "62895",
+   "Nombre": "ALEK MOURADIAN",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "65089",
+   "Nombre": "IGNACIO VARELA",
+   "camiseta": "4",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "65087",
+   "Nombre": "GUILLERMO CACERES",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "65084",
+   "Nombre": "LORENZO BAUTISTA BERGALO",
+   "camiseta": "3",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "65247",
+   "Nombre": "VALENTINO MARADEI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "62746",
+   "Nombre": "FRANCISCO TABARE CAL",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "60428",
+   "Nombre": "BLAS TRAVERS",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "60696",
+   "Nombre": "CARLOS FIELITZ",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "63016",
+   "Nombre": "THIAGO ISMAEL VILLARES",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "63707",
+   "Nombre": "JUAN MARTIN BARTABURU",
+   "camiseta": "66",
+   "Capitan": ""
+  },
+  {
+   "carne": "63193",
+   "Nombre": "JUAN IGNACIO SANTOS",
+   "camiseta": "57",
+   "Capitan": ""
+  },
+  {
+   "carne": "68744",
+   "Nombre": "FRANCO SANTAMARIA",
+   "camiseta": "90",
+   "Capitan": ""
+  },
+  {
+   "carne": "60736",
+   "Nombre": "PEDRO ARQUERO",
+   "camiseta": "7",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "68190",
+   "Nombre": "RENATO ANDRADE",
+   "camiseta": "95",
+   "Capitan": ""
+  },
+  {
+   "carne": "63194",
+   "Nombre": "THIAGO SILVA",
+   "camiseta": "12",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "65089",
+   "Jug_Sale": "IGNACIO VARELA",
+   "CarneEntra": "65079",
+   "Jug_Entra": "BENJAMIN LICANDRO",
+   "camiseta": "10",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "65084",
+   "Jug_Sale": "LORENZO BAUTISTA BERGALO",
+   "CarneEntra": "65089",
+   "Jug_Entra": "IGNACIO VARELA",
+   "camiseta": "4",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "67911",
+   "Jug_Sale": "JUAN BAUTISTA SCOTTI",
+   "CarneEntra": "62887",
+   "Jug_Entra": "AGUSTIN VIERA",
+   "camiseta": "91",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "65088",
+   "Jug_Sale": "JUAN IGNACIO FONSECA",
+   "CarneEntra": "68789",
+   "Jug_Entra": "GUSTAVO ALEXANDER LOPEZ",
+   "camiseta": "22",
+   "minutos": "45"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "63194",
+   "Jug_Sale": "THIAGO SILVA",
+   "CarneEntra": "62749",
+   "Jug_Entra": "JOAQUIN ALEJANDRO GARAT",
+   "camiseta": "29",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "63193",
+   "Jug_Sale": "JUAN IGNACIO SANTOS",
+   "CarneEntra": "68486",
+   "Jug_Entra": "GERMAN PEREIRA",
+   "camiseta": "6",
+   "minutos": "69"
+  },
+  {
+   "CarneSale": "62746",
+   "Jug_Sale": "FRANCISCO TABARE CAL",
+   "CarneEntra": "68385",
+   "Jug_Entra": "LEANDRO JOAQUIN VECINO",
+   "camiseta": "12",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "63016",
+   "Jug_Sale": "THIAGO ISMAEL VILLARES",
+   "CarneEntra": "65146",
+   "Jug_Entra": "FELIPE VILLAR",
+   "camiseta": "8",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68744",
+   "Jug_Sale": "FRANCO SANTAMARIA",
+   "CarneEntra": "63019",
+   "Jug_Entra": "JUAN BAUTISTA MUÑOZ",
+   "camiseta": "23",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "65247",
+   "Jug_Sale": "VALENTINO MARADEI",
+   "CarneEntra": "65148",
+   "Jug_Entra": "SANTINO VEGA",
+   "camiseta": "5",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "63707",
+   "Jug_Sale": "JUAN MARTIN BARTABURU",
+   "CarneEntra": "65152",
+   "Jug_Entra": "JOAQUN REY",
+   "camiseta": "17",
+   "minutos": "45"
+  }
+ ],
  "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "golesV": [
+  {
+   "carne": "60736",
+   "Nombre": "PEDRO ARQUERO",
+   "minutos": "51",
+   "EnContra": "1"
+  },
+  {
+   "carne": "63019",
+   "Nombre": "JUAN BAUTISTA MUÑOZ",
+   "minutos": "80",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "ALEK MOURADIAN",
+   "observaciones": ""
+  },
+  {
+   "Nombre": "GUILLERMO CACERES",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

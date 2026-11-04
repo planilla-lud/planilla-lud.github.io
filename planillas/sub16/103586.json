@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB16 ORO",
   "Cancha": "COMPLEJO WOODLANDS SCHOOL",
-  "Fecha_Inicio": "2026-11-01 15:00:00",
-  "Fecha_fin": "2026-11-01 15:00:00",
+  "Fecha_Inicio": "2026-11-01 14:50:00",
+  "Fecha_fin": "2026-11-01 14:50:00",
   "Locatario": "OLD WOODLANDS CLUB",
   "goles_locatario": "0",
   "puntos_locatario": "1",
@@ -29,10 +29,210 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "63283",
+   "Nombre": "NICOLAS PINTOS",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "62248",
+   "Nombre": "FRANCISCO FERRARO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "62386",
+   "Nombre": "JUAN MARTIN HUGHES",
+   "camiseta": "3",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "68142",
+   "Nombre": "MAURO PIGNANELLI",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "66181",
+   "Nombre": "LUCAS PURTSCHER",
+   "camiseta": "81",
+   "Capitan": ""
+  },
+  {
+   "carne": "62600",
+   "Nombre": "VALENTINO SANTALLA",
+   "camiseta": "53",
+   "Capitan": ""
+  },
+  {
+   "carne": "62384",
+   "Nombre": "MATIAS FALLINI",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "62378",
+   "Nombre": "SANTINO FINOZZI",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "64676",
+   "Nombre": "PEDRO VECHIO",
+   "camiseta": "98",
+   "Capitan": ""
+  },
+  {
+   "carne": "60458",
+   "Nombre": "SANTIAGO SOTO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "65737",
+   "Nombre": "BENJAMIN PACHECO",
+   "camiseta": "18",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "62569",
+   "Nombre": "MATIAS GABRIEL COLOMBO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "62803",
+   "Nombre": "FRANCISCO RIVA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "68247",
+   "Nombre": "MATTEO TARTAGLIA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "65112",
+   "Nombre": "JUAN MARTIN LALUZ",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "62626",
+   "Nombre": "ALFONSO MARQUISA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "65165",
+   "Nombre": "FRANCO TAMBORINI",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "62946",
+   "Nombre": "MATIAS DOMINGUEZ",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "65318",
+   "Nombre": "JUAN PEDRO DAMONTE",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "66963",
+   "Nombre": "JUAN MARTIN GARCIA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "65111",
+   "Nombre": "FELIPE VIOLA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "65109",
+   "Nombre": "GONZALO ALEJANDRO CASSARINO",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "62600",
+   "Jug_Sale": "VALENTINO SANTALLA",
+   "CarneEntra": "68133",
+   "Jug_Entra": "JOAQUIN DORADO",
+   "camiseta": "5",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "60458",
+   "Jug_Sale": "SANTIAGO SOTO",
+   "CarneEntra": "64321",
+   "Jug_Entra": "MARTIN HEINEN",
+   "camiseta": "77",
+   "minutos": "74"
+  },
+  {
+   "CarneSale": "62248",
+   "Jug_Sale": "FRANCISCO FERRARO",
+   "CarneEntra": "61923",
+   "Jug_Entra": "FRANCO BERTULLO",
+   "camiseta": "11",
+   "minutos": "90"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "62626",
+   "Jug_Sale": "ALFONSO MARQUISA",
+   "CarneEntra": "67353",
+   "Jug_Entra": "JUAN MARTIN BIDEGAIN",
+   "camiseta": "14",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "65165",
+   "Jug_Sale": "FRANCO TAMBORINI",
+   "CarneEntra": "67340",
+   "Jug_Entra": "LUCAS CANDIA",
+   "camiseta": "6",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "65111",
+   "Jug_Sale": "FELIPE VIOLA",
+   "CarneEntra": "67731",
+   "Jug_Entra": "FRANCISCO ALLEGRI",
+   "camiseta": "11",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "65109",
+   "Jug_Sale": "GONZALO ALEJANDRO CASSARINO",
+   "CarneEntra": "65111",
+   "Jug_Entra": "FELIPE VIOLA",
+   "camiseta": "9",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "65112",
+   "Jug_Sale": "JUAN MARTIN LALUZ",
+   "CarneEntra": "65165",
+   "Jug_Entra": "FRANCO TAMBORINI",
+   "camiseta": "8",
+   "minutos": "45"
+  }
+ ],
  "golesL": [],
  "golesV": [],
  "expulsadosL": [],

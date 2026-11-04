@@ -1,6 +1,13 @@
 [
  {
   "serie": "PSDTA",
+  "fechaHora": "2026-11-05 22:00:00",
+  "cancha": "COMPLEJO INGENIERO DEL CAMPO",
+  "local": "DANUBIO FUTBOL CLUB",
+  "visitante": "BODY FACTORY"
+ },
+ {
+  "serie": "PSDTA",
   "fechaHora": "2026-11-07 09:00:00",
   "cancha": "COMPLEJO LAS CASUARINAS",
   "local": "DEPORTIVO MATADERO",
@@ -23,13 +30,6 @@
  {
   "serie": "PSDPD",
   "fechaHora": "2026-11-07 09:00:00",
-  "cancha": "COMPLEJO JUAN XXIII",
-  "local": "MATURANA UNIVERSITARIO",
-  "visitante": "JEAN PIAGET"
- },
- {
-  "serie": "PSDPD",
-  "fechaHora": "2026-11-07 09:00:00",
   "cancha": "Comp. \"LA REP. DE LIVERPOOL\"",
   "local": "LIVERPOOL UNIVERSITARIO",
   "visitante": "UT SERVIAM"
@@ -42,11 +42,11 @@
   "visitante": "MATECHA"
  },
  {
-  "serie": "PSDTA",
+  "serie": "PSDPD",
   "fechaHora": "2026-11-07 11:15:00",
-  "cancha": "COLEGIO PIO",
-  "local": "DANUBIO FUTBOL CLUB",
-  "visitante": "BODY FACTORY"
+  "cancha": "COMPLEJO JUAN XXIII",
+  "local": "MATURANA UNIVERSITARIO",
+  "visitante": "JEAN PIAGET"
  },
  {
   "serie": "PSDPD",

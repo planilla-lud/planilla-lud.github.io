@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"F\" TIT. y ASC.",
   "Cancha": "COLEGIO ARETEIA",
-  "Fecha_Inicio": "2026-11-01 12:45:00",
-  "Fecha_fin": "2026-11-01 12:45:00",
+  "Fecha_Inicio": "2026-11-01 13:05:00",
+  "Fecha_fin": "2026-11-01 13:05:00",
   "Locatario": "DEP.de la C. ARETEIA BIMBULLY",
   "goles_locatario": "3",
   "puntos_locatario": "3",
@@ -29,12 +29,256 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
- "expulsadosV": []
+ "titularesL": [
+  {
+   "carne": "66499",
+   "Nombre": "LEANDRO HORACIO SELVES",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "58394",
+   "Nombre": "JUAN PEDRO MONTAÑES",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "48961",
+   "Nombre": "MATIAS NICOLAS LOPEZ",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "66500",
+   "Nombre": "CESAR MANUEL GARCIA",
+   "camiseta": "71",
+   "Capitan": ""
+  },
+  {
+   "carne": "66498",
+   "Nombre": "FACUNDO ECHEVERRIA",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "57102",
+   "Nombre": "ISMAEL BUCHELI",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "57092",
+   "Nombre": "JOAQUIN DE LOS SANTOS",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "62869",
+   "Nombre": "IGNACIO GERMAN",
+   "camiseta": "80",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "58011",
+   "Nombre": "OCTAVIO GERONIMO CABRERA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "57883",
+   "Nombre": "ISMAEL SOTO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "58365",
+   "Nombre": "FEDERICO NAVARRO",
+   "camiseta": "36",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "40490",
+   "Nombre": "IGNACIO GUTIERREZ",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "67096",
+   "Nombre": "FRANCO AGUSTIN IRURETA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "62121",
+   "Nombre": "ALVARO SEBASTIAN CAWEN",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "63479",
+   "Nombre": "DIEGO MARTIN GODAY",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "42405",
+   "Nombre": "ALEJANDRO  SEBASTIAN GARCIA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "46440",
+   "Nombre": "ANDERSON JAURIBIGUERRI",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "66044",
+   "Nombre": "FAUSTO VELAZQUEZ",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "68011",
+   "Nombre": "DIOGO TRISTAN ALONSO",
+   "camiseta": "68",
+   "Capitan": ""
+  },
+  {
+   "carne": "47237",
+   "Nombre": "GUILLERMO VALENTINO ZAPATA",
+   "camiseta": "61",
+   "Capitan": ""
+  },
+  {
+   "carne": "53459",
+   "Nombre": "LUCIANO JAURIBIGUERRI",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "65779",
+   "Nombre": "CESAR AGUSTIN QUEVEDO",
+   "camiseta": "90",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "66498",
+   "Jug_Sale": "FACUNDO ECHEVERRIA",
+   "CarneEntra": "45228",
+   "Jug_Entra": "SEBASTIAN PACHECO",
+   "camiseta": "6",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58365",
+   "Jug_Sale": "FEDERICO NAVARRO",
+   "CarneEntra": "59893",
+   "Jug_Entra": "GERONIMO MANUEL ACOSTA",
+   "camiseta": "66",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "62869",
+   "Jug_Sale": "IGNACIO GERMAN",
+   "CarneEntra": "58366",
+   "Jug_Entra": "MARCO MARCELO BORDON",
+   "camiseta": "18",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "57883",
+   "Jug_Sale": "ISMAEL SOTO",
+   "CarneEntra": "59875",
+   "Jug_Entra": "FACUNDO RODRIGO BARITUSSIO",
+   "camiseta": "19",
+   "minutos": "87"
+  },
+  {
+   "CarneSale": "57102",
+   "Jug_Sale": "ISMAEL BUCHELI",
+   "CarneEntra": "69168",
+   "Jug_Entra": "VICTOR MANUEL BATALLA",
+   "camiseta": "22",
+   "minutos": "87"
+  },
+  {
+   "CarneSale": "59893",
+   "Jug_Sale": "GERONIMO MANUEL ACOSTA",
+   "CarneEntra": "58176",
+   "Jug_Entra": "LUCAS ALVAREZ",
+   "camiseta": "34",
+   "minutos": "90"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "68011",
+   "Jug_Sale": "DIOGO TRISTAN ALONSO",
+   "CarneEntra": "52148",
+   "Jug_Entra": "AGUSTIN CORBO",
+   "camiseta": "28",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "65779",
+   "Jug_Sale": "CESAR AGUSTIN QUEVEDO",
+   "CarneEntra": "55803",
+   "Jug_Entra": "FACUNDO JAMIL BENITEZ",
+   "camiseta": "38",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "46440",
+   "Jug_Sale": "ANDERSON JAURIBIGUERRI",
+   "CarneEntra": "46530",
+   "Jug_Entra": "ENRIQUE FLETCHER",
+   "camiseta": "41",
+   "minutos": "87"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "57092",
+   "Nombre": "JOAQUIN DE LOS SANTOS",
+   "minutos": "15",
+   "EnContra": "0"
+  },
+  {
+   "carne": "57883",
+   "Nombre": "ISMAEL SOTO",
+   "minutos": "85",
+   "EnContra": "0"
+  },
+  {
+   "carne": "62869",
+   "Nombre": "IGNACIO GERMAN",
+   "minutos": "10",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "47237",
+   "Nombre": "GUILLERMO VALENTINO ZAPATA",
+   "minutos": "69",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "OCTAVIO GERONIMO CABRERA",
+   "observaciones": ""
+  }
+ ],
+ "expulsadosV": [
+  {
+   "Nombre": "LUCIANO JAURIBIGUERRI",
+   "observaciones": ""
+  }
+ ]
 }

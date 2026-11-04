@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "DIVISIONAL \"G\" COPA PLATA",
   "Cancha": "COMPLEJO JUAN XXIII",
-  "Fecha_Inicio": "2026-11-01 10:30:00",
-  "Fecha_fin": "2026-11-01 10:30:00",
+  "Fecha_Inicio": "2026-11-01 11:00:00",
+  "Fecha_fin": "2026-11-01 11:00:00",
   "Locatario": "PAMPERO",
   "goles_locatario": "5",
   "puntos_locatario": "3",
@@ -29,12 +29,247 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
+ "titularesL": [
+  {
+   "carne": "63650",
+   "Nombre": "FRANCO JOSUE FILGUEIRA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "51064",
+   "Nombre": "LAUTARO DANIEL VILCHES",
+   "camiseta": "8",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "49553",
+   "Nombre": "AGUSTIN PERAZA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "64407",
+   "Nombre": "AGUSTIN RAUL RODRIGUEZ",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "45242",
+   "Nombre": "LUCAS ALEJO FERNANDEZ",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "46979",
+   "Nombre": "JOAQUIN DANIEL PISA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "45520",
+   "Nombre": "JOSE AGUSTIN MONZA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "50772",
+   "Nombre": "PATRICIO GINZO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "56652",
+   "Nombre": "AGUSTIN JAVIER ARTEAGA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "69044",
+   "Nombre": "DEMERIO NAWEL MARTINEZ",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "56813",
+   "Nombre": "JUAN MANUEL LUTHAR",
+   "camiseta": "27",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "51655",
+   "Nombre": "MANUEL FAUSTINO BARQUIN",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "54647",
+   "Nombre": "SEBASTIAN VIERA",
+   "camiseta": "7",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "46510",
+   "Nombre": "NICOLAS DE SANTA ANA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "54643",
+   "Nombre": "MARTIN CORRAL",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "52185",
+   "Nombre": "SANTIAGO BARQUIN",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "42994",
+   "Nombre": "GERONIMO PESCE",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "69176",
+   "Nombre": "CONRADO VEIGA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "42298",
+   "Nombre": "ANDRES FABIAN CARRASCO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "51582",
+   "Nombre": "ANDRES LAUTARO CARDARELLO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "67153",
+   "Nombre": "DIEGO AGORIO",
+   "camiseta": "13",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "56813",
+   "Jug_Sale": "JUAN MANUEL LUTHAR",
+   "CarneEntra": "49107",
+   "Jug_Entra": "NICOLAS MARTINEZ",
+   "camiseta": "11",
+   "minutos": "33"
+  },
+  {
+   "CarneSale": "51064",
+   "Jug_Sale": "LAUTARO DANIEL VILCHES",
+   "CarneEntra": "56659",
+   "Jug_Entra": "GIOVANNI VALENTIN MARTINEZ",
+   "camiseta": "31",
+   "minutos": "33"
+  },
+  {
+   "CarneSale": "56652",
+   "Jug_Sale": "AGUSTIN JAVIER ARTEAGA",
+   "CarneEntra": "51064",
+   "Jug_Entra": "LAUTARO DANIEL VILCHES",
+   "camiseta": "8",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "46979",
+   "Jug_Sale": "JOAQUIN DANIEL PISA",
+   "CarneEntra": "56813",
+   "Jug_Entra": "JUAN MANUEL LUTHAR",
+   "camiseta": "27",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "64407",
+   "Jug_Sale": "AGUSTIN RAUL RODRIGUEZ",
+   "CarneEntra": "56652",
+   "Jug_Entra": "AGUSTIN JAVIER ARTEAGA",
+   "camiseta": "15",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "45242",
+   "Jug_Sale": "LUCAS ALEJO FERNANDEZ",
+   "CarneEntra": "46979",
+   "Jug_Entra": "JOAQUIN DANIEL PISA",
+   "camiseta": "13",
+   "minutos": "74"
+  },
+  {
+   "CarneSale": "45520",
+   "Jug_Sale": "JOSE AGUSTIN MONZA",
+   "CarneEntra": "45242",
+   "Jug_Entra": "LUCAS ALEJO FERNANDEZ",
+   "camiseta": "21",
+   "minutos": "83"
+  }
+ ],
  "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "golesL": [
+  {
+   "carne": "45520",
+   "Nombre": "JOSE AGUSTIN MONZA",
+   "minutos": "33",
+   "EnContra": "0"
+  },
+  {
+   "carne": "45520",
+   "Nombre": "JOSE AGUSTIN MONZA",
+   "minutos": "61",
+   "EnContra": "0"
+  },
+  {
+   "carne": "45520",
+   "Nombre": "JOSE AGUSTIN MONZA",
+   "minutos": "70",
+   "EnContra": "0"
+  },
+  {
+   "carne": "69044",
+   "Nombre": "DEMERIO NAWEL MARTINEZ",
+   "minutos": "10",
+   "EnContra": "0"
+  },
+  {
+   "carne": "69044",
+   "Nombre": "DEMERIO NAWEL MARTINEZ",
+   "minutos": "11",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "42994",
+   "Nombre": "GERONIMO PESCE",
+   "minutos": "65",
+   "EnContra": "1"
+  },
+  {
+   "carne": "54643",
+   "Nombre": "MARTIN CORRAL",
+   "minutos": "67",
+   "EnContra": "1"
+  },
+  {
+   "carne": "54643",
+   "Nombre": "MARTIN CORRAL",
+   "minutos": "89",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

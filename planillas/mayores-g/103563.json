@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "DIVISIONAL \"G\" COPA PLATA",
   "Cancha": "COMPLEJO LOS ROJOS",
-  "Fecha_Inicio": "2026-11-01 10:30:00",
-  "Fecha_fin": "2026-11-01 10:30:00",
+  "Fecha_Inicio": "2026-11-01 11:15:00",
+  "Fecha_fin": "2026-11-01 11:15:00",
   "Locatario": "COLEGIO SALESIANO DE LA COSTA",
   "goles_locatario": "5",
   "puntos_locatario": "3",
@@ -29,12 +29,248 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "55323",
+   "Nombre": "DIEGO AGUSTIN FIRPO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "54692",
+   "Nombre": "AGUSTIN ISMAEL ALVAREZ",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "56833",
+   "Nombre": "FRANCISCO NICOLAS CARBON",
+   "camiseta": "62",
+   "Capitan": ""
+  },
+  {
+   "carne": "61419",
+   "Nombre": "JOAQUIN CARBON",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "67502",
+   "Nombre": "IGNACIO AREVALO",
+   "camiseta": "80",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "67507",
+   "Nombre": "SANTIAGO ELUTCHANZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "67700",
+   "Nombre": "JAMIR JEREMI FEBLES",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "64243",
+   "Nombre": "GONZALO ALONSO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "64274",
+   "Nombre": "JOAQUIN HERNANDEZ",
+   "camiseta": "90",
+   "Capitan": ""
+  },
+  {
+   "carne": "53375",
+   "Nombre": "JUAN NICOLAS MARTINEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "60144",
+   "Nombre": "SANTIAGO BETANCOR",
+   "camiseta": "8",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "66259",
+   "Nombre": "LUCIO GONZALEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "61909",
+   "Nombre": "AGUSTIN EXEQUIEL RODRIGUEZ",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "67041",
+   "Nombre": "IGNACIO RAUL BERGARA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "55311",
+   "Nombre": "LUCAS SIRIO",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "62162",
+   "Nombre": "LAUTARO RODRIGUEZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "67040",
+   "Nombre": "FACUNDO REDIN",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "67047",
+   "Nombre": "FRANCO GODOY",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "67280",
+   "Nombre": "SANTIAGO ORTIZ",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "56805",
+   "Nombre": "FACUNDO NAHUEL SILVA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "67278",
+   "Nombre": "JOEL NICOLAS CORREA",
+   "camiseta": "62",
+   "Capitan": ""
+  },
+  {
+   "carne": "52015",
+   "Nombre": "MARIO JAVIER BERGARA",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "60144",
+   "Jug_Sale": "SANTIAGO BETANCOR",
+   "CarneEntra": "67510",
+   "Jug_Entra": "CLEMENTE SILVA",
+   "camiseta": "33",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61419",
+   "Jug_Sale": "JOAQUIN CARBON",
+   "CarneEntra": "67503",
+   "Jug_Entra": "FRANCISCO REYES",
+   "camiseta": "4",
+   "minutos": "15"
+  },
+  {
+   "CarneSale": "64243",
+   "Jug_Sale": "GONZALO ALONSO",
+   "CarneEntra": "67508",
+   "Jug_Entra": "FRANCISCO GONZALEZ",
+   "camiseta": "17",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "53375",
+   "Jug_Sale": "JUAN NICOLAS MARTINEZ",
+   "CarneEntra": "64243",
+   "Jug_Entra": "GONZALO ALONSO",
+   "camiseta": "3",
+   "minutos": "84"
+  },
+  {
+   "CarneSale": "67507",
+   "Jug_Sale": "SANTIAGO ELUTCHANZ",
+   "CarneEntra": "64243",
+   "Jug_Entra": "GONZALO ALONSO",
+   "camiseta": "8",
+   "minutos": "68"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "52015",
+   "Jug_Sale": "MARIO JAVIER BERGARA",
+   "CarneEntra": "29363",
+   "Jug_Entra": "RAFAEL ENRIQUE PERDOMO",
+   "camiseta": "7",
+   "minutos": "19"
+  },
+  {
+   "CarneSale": "67041",
+   "Jug_Sale": "IGNACIO RAUL BERGARA",
+   "CarneEntra": "52015",
+   "Jug_Entra": "MARIO JAVIER BERGARA",
+   "camiseta": "19",
+   "minutos": "21"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "54692",
+   "Nombre": "AGUSTIN ISMAEL ALVAREZ",
+   "minutos": "78",
+   "EnContra": "0"
+  },
+  {
+   "carne": "64274",
+   "Nombre": "JOAQUIN HERNANDEZ",
+   "minutos": "31",
+   "EnContra": "0"
+  },
+  {
+   "carne": "67502",
+   "Nombre": "IGNACIO AREVALO",
+   "minutos": "40",
+   "EnContra": "0"
+  },
+  {
+   "carne": "67510",
+   "Nombre": "CLEMENTE SILVA",
+   "minutos": "60",
+   "EnContra": "0"
+  },
+  {
+   "carne": "67510",
+   "Nombre": "CLEMENTE SILVA",
+   "minutos": "70",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "62162",
+   "Nombre": "LAUTARO RODRIGUEZ",
+   "minutos": "46",
+   "EnContra": "1"
+  },
+  {
+   "carne": "62162",
+   "Nombre": "LAUTARO RODRIGUEZ",
+   "minutos": "52",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

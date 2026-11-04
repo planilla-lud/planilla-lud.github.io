@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"C\" PER. y DESC",
   "Cancha": "COMPLEJO DEPORTIVO ARRAYANES",
-  "Fecha_Inicio": "2026-10-31 10:30:00",
-  "Fecha_fin": "2026-10-31 10:30:00",
+  "Fecha_Inicio": "2026-10-31 10:55:00",
+  "Fecha_fin": "2026-10-31 10:55:00",
   "Locatario": "CLUB ESTUDIANTES INGENIERIA",
   "goles_locatario": "1",
   "puntos_locatario": "0",
@@ -29,12 +29,222 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "55641",
+   "Nombre": "ISAIAS ARIEL SOSA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "66822",
+   "Nombre": "DEYVIS ANDRES OROFINO",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "34745",
+   "Nombre": "LUIS ALFREDO LEON",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "56654",
+   "Nombre": "NICOLAS ADRIAN PEREZ",
+   "camiseta": "90",
+   "Capitan": ""
+  },
+  {
+   "carne": "43466",
+   "Nombre": "PABLO ARIEL FALERO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "33501",
+   "Nombre": "GERMAN CAL",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "38905",
+   "Nombre": "GABRIEL MARCELO ARCE",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "23106",
+   "Nombre": "GASTON ZABALZA",
+   "camiseta": "6",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "27294",
+   "Nombre": "LUCAS BROVETTO",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "44166",
+   "Nombre": "BRUNO GONZALEZ",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "36718",
+   "Nombre": "HECTOR NICOLAS CASTRO",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "61089",
+   "Nombre": "GASTON ROSANO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "27786",
+   "Nombre": "AGUSTIN IPAR",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "43766",
+   "Nombre": "NICOLAS JONATHAN CORREA",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "29736",
+   "Nombre": "ALEJANDRO BIANCO",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "54499",
+   "Nombre": "GUILLERMO LEDESMA",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "54050",
+   "Nombre": "DAMIAN IRAZABAL",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "20272",
+   "Nombre": "JOAQUIN NAZARENO OLASO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "31675",
+   "Nombre": "DANIEL ALMEDO SILVA",
+   "camiseta": "48",
+   "Capitan": ""
+  },
+  {
+   "carne": "61634",
+   "Nombre": "EDILBEN GERMAN FABRA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "42678",
+   "Nombre": "WILKER NOEL ARAUJO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "31602",
+   "Nombre": "DIEGO ENRIQUE SITYA",
+   "camiseta": "4",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "38905",
+   "Jug_Sale": "GABRIEL MARCELO ARCE",
+   "CarneEntra": "31029",
+   "Jug_Entra": "FELIPE SORHUET",
+   "camiseta": "4",
+   "minutos": "34"
+  },
+  {
+   "CarneSale": "43466",
+   "Jug_Sale": "PABLO ARIEL FALERO",
+   "CarneEntra": "40498",
+   "Jug_Entra": "FEDERICO AGUSTIN GARCIA",
+   "camiseta": "17",
+   "minutos": "54"
+  },
+  {
+   "CarneSale": "44166",
+   "Jug_Sale": "BRUNO GONZALEZ",
+   "CarneEntra": "54440",
+   "Jug_Entra": "RODRIGO SEBASTIAN CASTRO",
+   "camiseta": "27",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "66822",
+   "Jug_Sale": "DEYVIS ANDRES OROFINO",
+   "CarneEntra": "26357",
+   "Jug_Entra": "LUCAS FEDERICO DE OLARTE",
+   "camiseta": "19",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "56654",
+   "Jug_Sale": "NICOLAS ADRIAN PEREZ",
+   "CarneEntra": "31094",
+   "Jug_Entra": "MARCIO NICOLAS GRAÑA",
+   "camiseta": "11",
+   "minutos": "90"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "31602",
+   "Jug_Sale": "DIEGO ENRIQUE SITYA",
+   "CarneEntra": "39268",
+   "Jug_Entra": "ALVARO JAVIER ARDANS",
+   "camiseta": "11",
+   "minutos": "87"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "23106",
+   "Nombre": "GASTON ZABALZA",
+   "minutos": "1",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "31602",
+   "Nombre": "DIEGO ENRIQUE SITYA",
+   "minutos": "51",
+   "EnContra": "1"
+  },
+  {
+   "carne": "43766",
+   "Nombre": "NICOLAS JONATHAN CORREA",
+   "minutos": "23",
+   "EnContra": "1"
+  },
+  {
+   "carne": "54050",
+   "Nombre": "DAMIAN IRAZABAL",
+   "minutos": "96",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

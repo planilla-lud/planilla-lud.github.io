@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "PS DIV. E 2ªR COPA ORO",
   "Cancha": "COMPLEJO AZULGRANA",
-  "Fecha_Inicio": "2026-10-31 12:45:00",
-  "Fecha_fin": "2026-10-31 12:45:00",
+  "Fecha_Inicio": "2026-10-31 13:20:00",
+  "Fecha_fin": "2026-10-31 13:20:00",
   "Locatario": "CLUB ATLETICO AGUADA",
   "goles_locatario": "2",
   "puntos_locatario": "3",
@@ -29,12 +29,232 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "23497",
+   "Nombre": "GERARDO ANDRES BARINDELLI",
+   "camiseta": "1",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "32733",
+   "Nombre": "RAMIRO DE LA PUENTE",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "50541",
+   "Nombre": "MARCELO JUNIOR FERNANDEZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "39203",
+   "Nombre": "ANDRY WAY RUIZ DIAZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "36896",
+   "Nombre": "JUAN IGNACIO PEYRO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "24851",
+   "Nombre": "DANIEL ECHAGARAY",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "28132",
+   "Nombre": "MARTIN ECHEGARAY",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "32569",
+   "Nombre": "EDUARDO DANIEL SAURINA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "31934",
+   "Nombre": "JAVIER ANDRES GARCIA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "33312",
+   "Nombre": "HERNAN RUMBO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "54433",
+   "Nombre": "GONZALO GRILLE",
+   "camiseta": "8",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "67090",
+   "Nombre": "MICHEL VOULMINOT",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "26851",
+   "Nombre": "SANTIAGO STORACE",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "26195",
+   "Nombre": "NICOLAS DEL CAMPO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "24951",
+   "Nombre": "ALBERTO ARIEL RODRIGUEZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "43474",
+   "Nombre": "CAMILO OSORIO",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "29199",
+   "Nombre": "SANTIAGO RAUL MOLINARO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "27175",
+   "Nombre": "FEDERICO SALHON",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "23712",
+   "Nombre": "DANIEL MATIAS GARAT",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "30817",
+   "Nombre": "GUZMAN PERERA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "23969",
+   "Nombre": "ALFREDO OSCAR CAT",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "26849",
+   "Nombre": "SANTIAGO JAVIER HERBON",
+   "camiseta": "8",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "31934",
+   "Jug_Sale": "JAVIER ANDRES GARCIA",
+   "CarneEntra": "36896",
+   "Jug_Entra": "JUAN IGNACIO PEYRO",
+   "camiseta": "14",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "32569",
+   "Jug_Sale": "EDUARDO DANIEL SAURINA",
+   "CarneEntra": "65351",
+   "Jug_Entra": "CARLOS MAURICIO GONZALEZ",
+   "camiseta": "5",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "36896",
+   "Jug_Sale": "JUAN IGNACIO PEYRO",
+   "CarneEntra": "51188",
+   "Jug_Entra": "FACUNDO MARTIN DIAZ",
+   "camiseta": "4",
+   "minutos": "45"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "43474",
+   "Jug_Sale": "CAMILO OSORIO",
+   "CarneEntra": "26564",
+   "Jug_Entra": "DIEGO ABREU",
+   "camiseta": "13",
+   "minutos": "39"
+  },
+  {
+   "CarneSale": "24951",
+   "Jug_Sale": "ALBERTO ARIEL RODRIGUEZ",
+   "CarneEntra": "28124",
+   "Jug_Entra": "MARTIN JULIO NOGUES",
+   "camiseta": "18",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "23712",
+   "Jug_Sale": "DANIEL MATIAS GARAT",
+   "CarneEntra": "67010",
+   "Jug_Entra": "DIEGO JUAN CAT",
+   "camiseta": "45",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "26849",
+   "Jug_Sale": "SANTIAGO JAVIER HERBON",
+   "CarneEntra": "64997",
+   "Jug_Entra": "LUCAS PUIG",
+   "camiseta": "25",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "30817",
+   "Jug_Sale": "GUZMAN PERERA",
+   "CarneEntra": "34498",
+   "Jug_Entra": "FRANCISCO POLLIO",
+   "camiseta": "34",
+   "minutos": "80"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "33312",
+   "Nombre": "HERNAN RUMBO",
+   "minutos": "92",
+   "EnContra": "0"
+  },
+  {
+   "carne": "54433",
+   "Nombre": "GONZALO GRILLE",
+   "minutos": "42",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "26195",
+   "Nombre": "NICOLAS DEL CAMPO",
+   "minutos": "30",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

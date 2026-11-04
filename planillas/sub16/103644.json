@@ -1,0 +1,245 @@
+{
+ "id": "103644",
+ "categoria": "sub16",
+ "serie": "16P",
+ "fecha": 3,
+ "fechaHora": "2026-11-01 13:30:00",
+ "cancha": "COMPLEJO URUNDAY UNIVERSITARIO",
+ "local": "URUNDAY UNIVERSITARIO",
+ "visitante": "DEPORTIVO MORON",
+ "gl": 2,
+ "gv": 0,
+ "detalle": {
+  "nro_partido": "317",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 16 ",
+  "categoria": "SUB 16 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB16 PLATA",
+  "Cancha": "COMPLEJO URUNDAY UNIVERSITARIO",
+  "Fecha_Inicio": "2026-11-01 15:26:00",
+  "Fecha_fin": "2026-11-01 15:26:00",
+  "Locatario": "URUNDAY UNIVERSITARIO",
+  "goles_locatario": "2",
+  "puntos_locatario": "3",
+  "Visitante": "DEPORTIVO MORON",
+  "goles_visitante": "0",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "67901",
+   "Nombre": "MATEO CHAVES",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "65243",
+   "Nombre": "BAUTISTA LABORDE",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "62257",
+   "Nombre": "EMILIANO GARCIA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "62483",
+   "Nombre": "JUAN IGNACIO FREGUEIRO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "62250",
+   "Nombre": "JUSTINO QUINTERO",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "64456",
+   "Nombre": "GIANLUCA IORLANO",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "66828",
+   "Nombre": "JUAN MARTIN BELLO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "67900",
+   "Nombre": "NICOLAS CAPORALE",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "69072",
+   "Nombre": "JUAN MANUEL GOMEZ",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "64213",
+   "Nombre": "JULIAN WINTER",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "67897",
+   "Nombre": "SANTINO DE PATTI",
+   "camiseta": "29",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "66405",
+   "Nombre": "FRANCO CHIAPPE",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "61458",
+   "Nombre": "GERONIMO RODRIGUEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "62923",
+   "Nombre": "FRANCISCO CROSSA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "63588",
+   "Nombre": "JUAN IGNACIO RAIMONDO",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "67492",
+   "Nombre": "EZEQUIEL PERDOMO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "66816",
+   "Nombre": "IGNACIO GALIZIA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "61560",
+   "Nombre": "ANTONIO CARVALLIDO",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "66678",
+   "Nombre": "FABIO ALEXANDER SUREZ",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "67499",
+   "Nombre": "FRANCO SILVA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "61456",
+   "Nombre": "EMILIANO ANDRES OCAMPO",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "66814",
+   "Nombre": "LUCIO AGUSTIN BENITEZ",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "66828",
+   "Jug_Sale": "JUAN MARTIN BELLO",
+   "CarneEntra": "62268",
+   "Jug_Entra": "MATEO RULLO",
+   "camiseta": "22",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "69072",
+   "Jug_Sale": "JUAN MANUEL GOMEZ",
+   "CarneEntra": "65244",
+   "Jug_Entra": "FACUNDO SEBASTIAN GELABERT",
+   "camiseta": "21",
+   "minutos": "77"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "66816",
+   "Jug_Sale": "IGNACIO GALIZIA",
+   "CarneEntra": "68912",
+   "Jug_Entra": "JOHANN SANTIAGO FERNANDEZ",
+   "camiseta": "29",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "66678",
+   "Jug_Sale": "FABIO ALEXANDER SUREZ",
+   "CarneEntra": "67864",
+   "Jug_Entra": "TOMAS FERRANDO",
+   "camiseta": "25",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "66814",
+   "Jug_Sale": "LUCIO AGUSTIN BENITEZ",
+   "CarneEntra": "67497",
+   "Jug_Entra": "VALENTINO LOPEZ",
+   "camiseta": "77",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "61456",
+   "Jug_Sale": "EMILIANO ANDRES OCAMPO",
+   "CarneEntra": "66814",
+   "Jug_Entra": "LUCIO AGUSTIN BENITEZ",
+   "camiseta": "11",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "67492",
+   "Jug_Sale": "EZEQUIEL PERDOMO",
+   "CarneEntra": "66678",
+   "Jug_Entra": "FABIO ALEXANDER SUREZ",
+   "camiseta": "9",
+   "minutos": "78"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "65243",
+   "Nombre": "BAUTISTA LABORDE",
+   "minutos": "52",
+   "EnContra": "0"
+  },
+  {
+   "carne": "69072",
+   "Nombre": "JUAN MANUEL GOMEZ",
+   "minutos": "79",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

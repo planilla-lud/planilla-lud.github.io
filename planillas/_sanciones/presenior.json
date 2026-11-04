@@ -9995,5 +9995,31 @@
   "fechas": 1,
   "detalle": "F:1 - UR:0",
   "texto": "Sanción generada automáticamente por expulsión en el partido"
+ },
+ {
+  "tipo": "automatica",
+  "fecha": "2026-10-31",
+  "partido": "1019",
+  "serie": "PSET2",
+  "carne": "65351",
+  "nombre": "CARLOS MAURICIO GONZALEZ",
+  "club": "CLUB ATLETICO AGUADA",
+  "sancion": "SANCIÓN AUTOMÁTICA",
+  "fechas": 1,
+  "detalle": "F:1 - UR:0",
+  "texto": "Sanción generada automáticamente por expulsión en el partido"
+ },
+ {
+  "tipo": "automatica",
+  "fecha": "2026-10-31",
+  "partido": "1019",
+  "serie": "PSET2",
+  "carne": "67010",
+  "nombre": "DIEGO JUAN CAT",
+  "club": "OBC AZULGRANA",
+  "sancion": "SANCIÓN AUTOMÁTICA",
+  "fechas": 1,
+  "detalle": "F:1 - UR:0",
+  "texto": "Sanción generada automáticamente por expulsión en el partido"
  }
 ]

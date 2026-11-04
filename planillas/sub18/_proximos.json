@@ -7,13 +7,6 @@
   "visitante": "PERRY SEXTA UNIVERSITARIO"
  },
  {
-  "serie": "18C",
-  "fechaHora": "2026-11-01 15:30:00",
-  "cancha": "ELBIO FERNANDEZ",
-  "local": "ELBIO FERNANDEZ",
-  "visitante": "LATINO FUTBOL CLUB"
- },
- {
   "serie": "18F",
   "fechaHora": "2026-11-01 15:30:00",
   "cancha": "COMPLEJO LAS CASUARINAS",
@@ -264,6 +257,13 @@
   "cancha": "COMPLEJO JUAN XXIII",
   "local": "LA BLANQUEADA",
   "visitante": "NACIONAL UNIVERSITARIO"
+ },
+ {
+  "serie": "18C",
+  "fechaHora": "2026-11-10 19:00:00",
+  "cancha": "CIUDAD DEPORTIVA ZONA LAB",
+  "local": "ELBIO FERNANDEZ",
+  "visitante": "LATINO FUTBOL CLUB"
  },
  {
   "serie": "18A",

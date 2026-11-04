@@ -28,6 +28,13 @@
   "visitante": "CENTRO CRISTOBAL COLON"
  },
  {
+  "serie": "RSCPD",
+  "fechaHora": "2026-11-07 09:00:00",
+  "cancha": "CAMPO DEP. COLEGIO INGLES",
+  "local": "COLEGIO Y LICEO INGLES",
+  "visitante": "LA BLANQUEADA"
+ },
+ {
   "serie": "RSCTA",
   "fechaHora": "2026-11-07 11:15:00",
   "cancha": "MONTE VI \"LOS CEIBOS\"",
@@ -47,13 +54,6 @@
   "cancha": "ELF (LICEO FRANCES)",
   "local": "E.L.F.",
   "visitante": "JUAN XXIII BLANCO"
- },
- {
-  "serie": "RSCPD",
-  "fechaHora": "2026-11-07 11:15:00",
-  "cancha": "CAMPO DEP. COLEGIO INGLES",
-  "local": "COLEGIO Y LICEO INGLES",
-  "visitante": "LA BLANQUEADA"
  },
  {
   "serie": "RSCTA",

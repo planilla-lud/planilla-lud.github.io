@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-04T07:27:53.530Z",
+ "actualizado": "2026-11-04T18:39:26.758Z",
  "partidos": [
   {
    "div": "mayores-a",
@@ -62,7 +62,7 @@
    "hora": "09:00",
    "etapa": "Permanencia",
    "pl": 8,
-   "pv": 5,
+   "pv": 6,
    "n": 8,
    "base": 8,
    "tipo": "descenso",
@@ -458,7 +458,7 @@
    "base": 0,
    "tipo": "titulo",
    "altasL": 1,
-   "altasV": 0
+   "altasV": 1
   },
   {
    "div": "presenior-a",

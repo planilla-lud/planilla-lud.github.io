@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB16 ORO",
   "Cancha": "CIUDAD DEPORTIVA LS",
-  "Fecha_Inicio": "2026-11-01 15:00:00",
-  "Fecha_fin": "2026-11-01 15:00:00",
+  "Fecha_Inicio": "2026-11-01 15:10:00",
+  "Fecha_fin": "2026-11-01 15:10:00",
   "Locatario": "DLS CLUB",
   "goles_locatario": "2",
   "puntos_locatario": "1",
@@ -29,12 +29,238 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "61702",
+   "Nombre": "FRANCO MENDOZA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "61695",
+   "Nombre": "BRUNO GABRIEL PAZO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "64058",
+   "Nombre": "EMILIANO ANTELO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "68734",
+   "Nombre": "FABIO LEONARDO DE ARMAS",
+   "camiseta": "41",
+   "Capitan": ""
+  },
+  {
+   "carne": "67089",
+   "Nombre": "ALVARO BENJAMIN ROSEMBERG",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "61947",
+   "Nombre": "TIZIANO GAMBAROTTA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "61700",
+   "Nombre": "MATIAS GONZALEZ",
+   "camiseta": "21",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "67087",
+   "Nombre": "FELIPE PARDO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "64294",
+   "Nombre": "BENJAMIN ALVARO VILA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "61699",
+   "Nombre": "MATIAS DELGADO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "60704",
+   "Nombre": "ALAN GABRIEL CHAPARRO",
+   "camiseta": "27",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "68191",
+   "Nombre": "VALENTINO BRIOSI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "62532",
+   "Nombre": "AUGUSTO RODRIGUEZ",
+   "camiseta": "4",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "62523",
+   "Nombre": "GUILLERMO WARREN",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "67436",
+   "Nombre": "FACUNDO NICOLAS ROLIN",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "62828",
+   "Nombre": "FELIPE DUARTE",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "65837",
+   "Nombre": "MATIAS ALBE",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "68101",
+   "Nombre": "KEVIN SANTIAGO MONTES",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "62548",
+   "Nombre": "FACUNDO NICOLAS CASTAÑARES",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "64022",
+   "Nombre": "BENJAMIN MENDEZ",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "64345",
+   "Nombre": "ELIAS DAVID MARTINEZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "62829",
+   "Nombre": "MARTIN BRUNO LACUESTA",
+   "camiseta": "21",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "67087",
+   "Jug_Sale": "FELIPE PARDO",
+   "CarneEntra": "66007",
+   "Jug_Entra": "MARCELO ALESSANDRO CEPELLINI",
+   "camiseta": "8",
+   "minutos": "50"
+  },
+  {
+   "CarneSale": "67089",
+   "Jug_Sale": "ALVARO BENJAMIN ROSEMBERG",
+   "CarneEntra": "67079",
+   "Jug_Entra": "THIAGO MELGAREJO",
+   "camiseta": "6",
+   "minutos": "50"
+  },
+  {
+   "CarneSale": "61699",
+   "Jug_Sale": "MATIAS DELGADO",
+   "CarneEntra": "60631",
+   "Jug_Entra": "EMILIANO PEREZ",
+   "camiseta": "7",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "61695",
+   "Jug_Sale": "BRUNO GABRIEL PAZO",
+   "CarneEntra": "61698",
+   "Jug_Entra": "BENJAMIN MOREIRA",
+   "camiseta": "3",
+   "minutos": "61"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "68191",
+   "Jug_Sale": "VALENTINO BRIOSI",
+   "CarneEntra": "66830",
+   "Jug_Entra": "SANTINO MARTINEZ",
+   "camiseta": "1",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64022",
+   "Jug_Sale": "BENJAMIN MENDEZ",
+   "CarneEntra": "68191",
+   "Jug_Entra": "VALENTINO BRIOSI",
+   "camiseta": "17",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "62829",
+   "Jug_Sale": "MARTIN BRUNO LACUESTA",
+   "CarneEntra": "62831",
+   "Jug_Entra": "DYLAN   ALEXANDER FERNANDEZ",
+   "camiseta": "6",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "62523",
+   "Jug_Sale": "GUILLERMO WARREN",
+   "CarneEntra": "67439",
+   "Jug_Entra": "SANTIAGO NICOLAS HERRERA",
+   "camiseta": "16",
+   "minutos": "77"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "67079",
+   "Nombre": "THIAGO MELGAREJO",
+   "minutos": "83",
+   "EnContra": "0"
+  },
+  {
+   "carne": "68734",
+   "Nombre": "FABIO LEONARDO DE ARMAS",
+   "minutos": "12",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "62523",
+   "Nombre": "GUILLERMO WARREN",
+   "minutos": "47",
+   "EnContra": "1"
+  },
+  {
+   "carne": "67436",
+   "Nombre": "FACUNDO NICOLAS ROLIN",
+   "minutos": "11",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

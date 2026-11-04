@@ -14,27 +14,6 @@
   "visitante": "PELOTA AL MEDIO UNIVERSITARIO"
  },
  {
-  "serie": "16O",
-  "fechaHora": "2026-11-01 13:30:00",
-  "cancha": "ST. BRENDANS",
-  "local": "OLD BRENDANS CLUB",
-  "visitante": "THE BRITISH SCHOOL"
- },
- {
-  "serie": "16O",
-  "fechaHora": "2026-11-01 13:30:00",
-  "cancha": "OLD CHRISTIANS CLUB",
-  "local": "OLD CHRISTIANS CLUB",
-  "visitante": "CLUB NAUTICO"
- },
- {
-  "serie": "16P",
-  "fechaHora": "2026-11-01 13:30:00",
-  "cancha": "COMPLEJO URUNDAY UNIVERSITARIO",
-  "local": "URUNDAY UNIVERSITARIO",
-  "visitante": "DEPORTIVO MORON"
- },
- {
   "serie": "16C",
   "fechaHora": "2026-11-01 13:30:00",
   "cancha": "COMPLEJO SCHIAFFINO (LAVALLEJA",
@@ -54,6 +33,13 @@
   "cancha": "CAM. DEP. ASOC. HEBRAICA Y MAC",
   "local": "HEBRAICA UNIVERSITARIO",
   "visitante": "PERRY SEXTA UNIVERSITARIO"
+ },
+ {
+  "serie": "16O",
+  "fechaHora": "2026-11-05 18:00:00",
+  "cancha": "BRITISH SCHOOL",
+  "local": "THE BRITISH SCHOOL",
+  "visitante": "DLS CLUB"
  },
  {
   "serie": "16F",
@@ -133,20 +119,6 @@
   "visitante": "OLD BRENDANS CLUB"
  },
  {
-  "serie": "16O",
-  "fechaHora": "2026-11-08 13:30:00",
-  "cancha": "BRITISH SCHOOL",
-  "local": "THE BRITISH SCHOOL",
-  "visitante": "DLS CLUB"
- },
- {
-  "serie": "16O",
-  "fechaHora": "2026-11-08 13:30:00",
-  "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
-  "local": "CLUB SEMINARIO",
-  "visitante": "OLD CHRISTIANS CLUB"
- },
- {
   "serie": "16P",
   "fechaHora": "2026-11-08 13:30:00",
   "cancha": "VILLA MARIA",
@@ -194,6 +166,13 @@
   "cancha": "COMPLEJO JUAN XXIII",
   "local": "LA BLANQUEADA",
   "visitante": "CRANDON UNIVERSITARIO"
+ },
+ {
+  "serie": "16O",
+  "fechaHora": "2026-11-09 20:00:00",
+  "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
+  "local": "CLUB SEMINARIO",
+  "visitante": "OLD CHRISTIANS CLUB"
  },
  {
   "serie": "16B",
