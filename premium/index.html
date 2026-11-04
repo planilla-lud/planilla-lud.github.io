@@ -954,6 +954,8 @@ input.pm-in[type="text"]{flex:1;max-width:240px}
 /* análisis de video */
 .pm-av-f{display:flex;flex-direction:column;gap:6px;font-size:.82rem;font-weight:600;color:var(--muted);min-width:0}
 .pm-av-ayuda{font-weight:500}
+.pm-av-ul{margin:6px 0 0;padding-left:18px;display:flex;flex-direction:column;gap:4px}
+.pm-av-obj{color:var(--muted);font-size:.86rem}
 .pm-av-subs{max-width:320px}
 .pm-av-veo textarea,.pm-av-veo input{font:inherit;font-size:.9rem;color:var(--fg);background:var(--surface-2);border:1px solid var(--line);border-radius:var(--r-sm);padding:10px 12px;width:100%}
 .pm-av-veo textarea{min-height:96px;resize:vertical}
@@ -2763,6 +2765,7 @@ const avModelo = () => { const m = leer('pm-gemini-modelo'); return AV_MODELOS.i
 const AV_TIPOS = [['highlights', 'Highlights'], ['completo', 'Partido completo'], ['recorte', 'Recorte']];
 const AV_ZONAS = [['izquierda', 'Izquierda'], ['centro', 'Centro'], ['derecha', 'Derecha'], ['espalda', 'Espalda']];
 const AV_GRAV = { alta: 0, media: 1, baja: 2 };
+const AV_FASES = [['ataque', 'Ataque'], ['defensa', 'Defensa'], ['transiciones', 'Transiciones'], ['pelota_parada', 'Pelota parada']];
 const AV_EXT = /\.(mp4|m4v|mov|webm|mkv|avi|mpe?g|3gp|wmv|flv)$/i;
 let AV_F = null; // lo cargado en el formulario: sobrevive a los repintados
 let AV_RUN = null; // el análisis que está corriendo
@@ -2969,13 +2972,18 @@ INFORME DE VEO>>>
 ${ctx.caps ? `- También van ${ctx.caps} captura(s) de Veo Analytics (mapa de calor, estadísticas o ficha del jugador). Usalas como dato extra, pero lo que afirmes tiene que verse en los clips.\n` : ''}${F.modo === 'jugador' ? `- Foco: un jugador de ${ctx.club}${ctx.jugador ? `, ${ctx.jugador}` : ''}: ${F.quien}. Analizá sus acciones con y sin pelota, su posicionamiento y sus decisiones. Las debilidades, "bien" y "corregir" son de él; el resumen, el marcador, las llegadas y los goles siguen siendo del partido.\n` : `- Foco: cómo funcionó ${ctx.club} como equipo, sobre todo cómo defiende y por dónde le llegan.\n`}${F.notas ? `- El cuerpo técnico pide que te fijes en: ${F.notas}\n` : ''}
 Devolvé SOLO un JSON con esta forma:
 {
-  "resumen": "3 a 5 oraciones sobre el partido",
+  "resumen": "un párrafo de 5 a 8 oraciones: cómo fue el partido, qué lo definió y la conclusión principal para el cuerpo técnico",
   "marcador": {"nosotros": 0, "rival": 0, "nota": "de dónde sale el marcador o por qué no se sabe"},
   "llegadas": {"izquierda": 0, "centro": 0, "derecha": 0, "espalda": 0},
   "debilidades": [{"titulo": "frase corta", "gravedad": "alta", "patron": "qué se repite y por qué pasa", "jugadas": ${jug}}],
   "goles": {"favor": ${jug}, "contra": ${jug}},
   "bien": [{"texto": "", "jugadas": ${jug}}],
-  "corregir": [{"texto": "qué corregir y cómo", "jugadas": ${jug}}]${F.veo.trim() ? `,
+  "corregir": [{"texto": "qué corregir y cómo", "jugadas": ${jug}}],
+  "fases": {"ataque": {"texto": "cómo atacamos: salida, construcción, por dónde y cómo llegamos al área", "jugadas": ${jug}}, "defensa": {"texto": "cómo defendimos: bloque, presión, duelos, área", "jugadas": ${jug}}, "transiciones": {"texto": "qué pasó al recuperar y al perder la pelota", "jugadas": ${jug}}, "pelota_parada": {"texto": "córners, tiros libres y laterales a favor y en contra", "jugadas": ${jug}}},
+  "tiempos": {"primero": "cómo fue el primer tiempo", "segundo": "cómo fue el segundo tiempo y qué cambió"},
+  "rival": {"texto": "cómo jugó el rival: sistema, por dónde atacó, qué nos hizo daño", "peligros": ["sus armas a tener en cuenta"], "debilidades": ["dónde se le puede hacer daño"]},
+  "jugadores": [{"quien": "número de camiseta o puesto", "texto": "qué hizo, con datos si los hay", "tipo": "destacado o a mejorar", "jugadas": ${jug}}],
+  "entrenamiento": [{"ejercicio": "nombre corto del ejercicio o tarea", "como": "cómo se arma: espacio, jugadores, reglas", "objetivo": "qué problema del partido corrige"}]${F.veo.trim() ? `,
   "numeros": [{"dato": "el número de Veo, ej. 33 intercepciones (+13 vs. últimos 5)", "lectura": "qué significa para el equipo o el jugador"}]` : ''}
 }
 
@@ -2984,9 +2992,14 @@ Reglas:
 - "llegadas" cuenta las llegadas de ${ctx.rival} a nuestra mitad de cancha según por dónde entraron: "izquierda", "centro" y "derecha" son las de ${ctx.club} mirando hacia el arco rival, y "espalda" son pelotas a la espalda de nuestra última línea. Contá solo lo que se ve.
 - "marcador" son los goles del partido. Si con lo que se ve no se puede saber, usá null y explicalo en "nota".
 - "debilidades" van de la más grave a la menos grave. "gravedad" es "alta" (nos costó un gol o una situación clara), "media" o "baja". Cada una con todas las jugadas donde aparece.
-- "bien" y "corregir" tienen de 2 a 5 puntos cada uno, concretos y accionables, con sus jugadas.
+- Es un informe A FONDO para el cuerpo técnico: sé detallado y concreto, con lenguaje de fútbol. Nada genérico ("hay que mejorar la concentración" no sirve): cada punto dice qué pasó, dónde, quién y cómo se corrige.
+- "debilidades": de 3 a 6. "bien" y "corregir": de 3 a 6 puntos cada uno, con sus jugadas.
+- "fases": las cuatro, cada una con un párrafo de 3 a 5 oraciones. Si de una fase no hay nada en el material, decilo en el texto.
+- "tiempos": compará los dos tiempos (si el material no permite separarlos, decilo).
+- "jugadores": de 3 a 8 jugadores, destacados y a mejorar, identificados por número de camiseta (o por puesto si no se lee). No inventes números.
+- "entrenamiento": de 2 a 4 ejercicios para la semana, cada uno atado a un problema de este partido.
 - No inventes lo que no se ve en los videos.${F.veo.trim() ? `
-- "numeros" son de 3 a 6 datos del informe de Veo que más le sirven al cuerpo técnico, cada uno con su lectura. Usá los números exactos del informe, no los redondees ni inventes.` : ''}`;
+- "numeros" son de 5 a 10 datos del informe de Veo que más le sirven al cuerpo técnico, cada uno con su lectura. Usá los números exactos del informe, no los redondees ni inventes.` : ''}`;
 }
 
 // Lo que devuelve Gemini se acomoda a la forma del informe; lo que no cierra se descarta.
@@ -3006,7 +3019,12 @@ function avNormalizar(x, n) {
       .filter(d => d.titulo).sort((a, b) => AV_GRAV[a.gravedad] - AV_GRAV[b.gravedad] || b.jugadas.length - a.jugadas.length),
     goles: { favor: jugadas(o.goles?.favor), contra: jugadas(o.goles?.contra) },
     bien: puntos(o.bien), corregir: puntos(o.corregir),
-    numeros: (Array.isArray(o.numeros) ? o.numeros : []).map(x => ({ dato: txt(x?.dato), lectura: txt(x?.lectura) })).filter(x => x.dato).slice(0, 8),
+    numeros: (Array.isArray(o.numeros) ? o.numeros : []).map(x => ({ dato: txt(x?.dato), lectura: txt(x?.lectura) })).filter(x => x.dato).slice(0, 12),
+    fases: Object.fromEntries(AV_FASES.map(([k]) => { const f = o.fases?.[k]; return [k, typeof f === 'string' ? { texto: f.trim(), jugadas: [] } : { texto: txt(f?.texto), jugadas: jugadas(f?.jugadas) }]; })),
+    tiempos: { primero: txt(o.tiempos?.primero), segundo: txt(o.tiempos?.segundo) },
+    rival: { texto: txt(o.rival?.texto), peligros: (Array.isArray(o.rival?.peligros) ? o.rival.peligros : []).map(txt).filter(Boolean), debilidades: (Array.isArray(o.rival?.debilidades) ? o.rival.debilidades : []).map(txt).filter(Boolean) },
+    jugadores: (Array.isArray(o.jugadores) ? o.jugadores : []).map(x => ({ quien: txt(String(x?.quien ?? '')), texto: txt(x?.texto), tipo: /mejor/i.test(x?.tipo || '') ? 'mejorar' : 'destacado', jugadas: jugadas(x?.jugadas) })).filter(x => x.quien && x.texto).slice(0, 10),
+    entrenamiento: (Array.isArray(o.entrenamiento) ? o.entrenamiento : []).map(x => ({ ejercicio: txt(x?.ejercicio), como: txt(x?.como), objetivo: txt(x?.objetivo) })).filter(x => x.ejercicio).slice(0, 6),
   };
 }
 
@@ -3127,8 +3145,14 @@ function avInforme(id) {
         ${I.debilidades.length ? `<div class="side sola">${I.debilidades.map(d => `<div class="alert"><b>${esc(d.titulo)}</b><b class="lvl ${d.gravedad}">${d.gravedad}</b>${d.patron ? `<span>${esc(d.patron)}</span>` : ''}${avJugadas(d.jugadas)}</div>`).join('')}</div>` : '<div class="ok">No marcó debilidades.</div>'}</section>
       <section class="panel"><div class="panel-h"><b>Goles</b></div>${goles(I.goles.favor, 'A favor')}${goles(I.goles.contra, 'En contra')}</section>
       ${(I.numeros || []).length ? `<section class="panel"><div class="panel-h"><b>Lo que dicen los números de Veo</b>${/^https:\/\//.test(r.veoLink || '') ? `<a class="share" href="${esc(r.veoLink)}" target="_blank" rel="noopener">Ver en Veo</a>` : ''}</div><div class="side sola">${I.numeros.map(x => `<div class="alert"><b>${esc(x.dato)}</b>${x.lectura ? `<span>${esc(x.lectura)}</span>` : ''}</div>`).join('')}</div></section>` : ''}
+      ${AV_FASES.some(([k]) => I.fases?.[k]?.texto) ? `<section class="panel"><div class="panel-h"><b>Por fases del juego</b></div><div class="side sola">${AV_FASES.filter(([k]) => I.fases[k]?.texto).map(([k, n]) => `<div class="alert"><b>${n}</b><span>${esc(I.fases[k].texto)}</span>${avJugadas(I.fases[k].jugadas)}</div>`).join('')}</div></section>` : ''}
+      ${I.tiempos?.primero || I.tiempos?.segundo ? `<section class="panel"><div class="panel-h"><b>Primer y segundo tiempo</b></div><div class="side sola">${[['primero', 'Primer tiempo'], ['segundo', 'Segundo tiempo']].filter(([k]) => I.tiempos[k]).map(([k, n]) => `<div class="alert"><b>${n}</b><span>${esc(I.tiempos[k])}</span></div>`).join('')}</div></section>` : ''}
+      ${(I.jugadores || []).length ? `<section class="panel"><div class="panel-h"><b>Jugadores</b><span>Por número de camiseta</span></div><div class="side sola">${I.jugadores.map(x => `<div class="alert"><b>${esc(/^\d+$/.test(x.quien) ? '#' + x.quien : x.quien)}</b><b class="lvl ${x.tipo === 'mejorar' ? 'media' : 'baja'}">${x.tipo === 'mejorar' ? 'A mejorar' : 'Destacado'}</b><span>${esc(x.texto)}</span>${avJugadas(x.jugadas)}</div>`).join('')}</div></section>` : ''}
+      ${I.rival?.texto ? `<section class="panel"><div class="panel-h"><b>Cómo jugó ${esc(r.partido.rival)}</b></div><p class="pm-av-txt">${esc(I.rival.texto)}</p>${I.rival.peligros.length ? `<div class="pm-av-pad"><b>Sus armas</b><ul class="pm-av-ul">${I.rival.peligros.map(x => `<li>${esc(x)}</li>`).join('')}</ul></div>` : ''}${I.rival.debilidades.length ? `<div class="pm-av-pad"><b>Dónde hacerle daño</b><ul class="pm-av-ul">${I.rival.debilidades.map(x => `<li>${esc(x)}</li>`).join('')}</ul></div>` : ''}</section>` : ''}
       <section class="panel"><div class="panel-h"><b>Qué salió bien</b></div>${puntos(I.bien, true)}</section>
       <section class="panel"><div class="panel-h"><b>Qué corregir</b></div>${puntos(I.corregir, false)}</section>
+      ${(I.entrenamiento || []).length ? `<section class="panel"><div class="panel-h"><b>Para la semana de práctica</b><span>${I.entrenamiento.length} ${I.entrenamiento.length === 1 ? 'ejercicio' : 'ejercicios'}</span></div><div class="side sola">${I.entrenamiento.map(x => `<div class="alert"><b>${esc(x.ejercicio)}</b>${x.como ? `<span>${esc(x.como)}</span>` : ''}${x.objetivo ? `<span class="pm-av-obj">Para: ${esc(x.objetivo)}</span>` : ''}</div>`).join('')}</div></section>` : ''}
+      ${!r.clips.length && r.veoTexto && !(I.fases && AV_FASES.some(([k]) => I.fases[k]?.texto)) ? `<section class="panel pm-form"><div class="pm-av-f">¿Querés este informe más completo?<span class="pm-av-ayuda">Se vuelve a analizar el mismo informe de Veo, ahora a fondo: fases del juego, cada tiempo, jugadores, el rival y ejercicios para la semana. Queda como un informe nuevo.</span><div class="pm-av-btns"><button type="button" class="btn p" id="av-rehacer">Analizar de nuevo a fondo</button></div></div></section>` : ''}
       <p class="pm-nota pm-sin">Hecho con ${esc(r.datos.modelo)} el ${fDia(r.creado.slice(0, 10))} por ${esc(r.autorN)}, ${r.clips.length ? `con ${r.clips.length} ${r.clips.length === 1 ? 'clip' : 'clips'}` : 'sin video'}${r.veoTexto ? ', el informe de Veo' : ''}${r.capturas ? ` y ${r.capturas} ${r.capturas === 1 ? 'captura' : 'capturas'}` : ''}. Revisalo con el video: la IA se puede equivocar.</p>
     </div><aside class="pm-av-video">${video}</aside></div></div>`;
 }
@@ -3146,6 +3170,14 @@ function avIr(clip, seg) {
 }
 
 function avEnlazar() {
+  const rh = $('#av-rehacer');
+  if (rh) rh.onclick = () => {
+    const id = decodeURIComponent(location.hash.split('/')[3] || ''), r = pmEst().analisis.find(x => x.id === id); if (!r) return;
+    const F = avForm();
+    Object.assign(F, { sub: 'datos', cat: r.div, partido: r.partido.id || 'otro', rival: r.partido.id ? '' : r.partido.rival, dia: r.partido.id ? '' : r.partido.dia, modo: r.modo, jugador: r.jugador?.c || '', quien: r.jugador?.quien || '', veo: r.veoTexto, veoLink: r.veoLink || '', capturas: [] });
+    location.hash = '#/clubes/analisis/datos';
+    setTimeout(avAnalizar, 300);
+  };
   document.querySelectorAll('[data-avsub]').forEach(b => b.onclick = () => { location.hash = '#/clubes/analisis/' + b.dataset.avsub; });
   const repintar = () => { const y = scrollY; renderClubes('analisis').then(() => scrollTo({ top: y })); };
   const f = $('#pm-av'), F = AV_F;
