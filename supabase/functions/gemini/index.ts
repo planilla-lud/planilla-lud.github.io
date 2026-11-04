@@ -39,6 +39,11 @@ Deno.serve(async (req) => {
   if (!m) return err(403, "Tu cuenta no es de ningún club.");
   const club = m.rol === "creador" ? (req.headers.get("x-pm-club") || "") : m.club;
   if (!["admin", "dt", "creador"].includes(m.rol) || (m.rol !== "creador" && !m.clave_cambiada)) return err(403, "Solo los técnicos del club pueden analizar.");
+  if (m.rol !== "creador") { // con el plan pausado o vencido no se analiza
+    const { data: p } = await admin.from("pm_clubes").select("activo, pagado_hasta").eq("club", club).maybeSingle();
+    const hoy = new Date(Date.now() - 3 * 3600e3).toISOString().slice(0, 10); // Uruguay
+    if (!p?.activo || (p.pagado_hasta && p.pagado_hasta < hoy)) return err(402, "El plan del club está pausado.");
+  }
   const { data: s } = await admin.from("pm_secretos").select("gemini").eq("club", club).maybeSingle();
   const clave = (s?.gemini || "").trim();
   if (!clave) return err(412, "El club todavía no cargó su clave de Gemini.");

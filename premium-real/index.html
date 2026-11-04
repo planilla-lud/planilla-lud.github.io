@@ -955,6 +955,11 @@ input.pm-in[type="text"]{flex:1;max-width:240px}
 .pm-av-f{display:flex;flex-direction:column;gap:6px;font-size:.82rem;font-weight:600;color:var(--muted);min-width:0}
 .pm-av-ayuda{font-weight:500}
 .pm-red{font-size:.74rem;color:var(--muted);white-space:nowrap}
+.pm-aviso-plan{border:1px solid color-mix(in srgb,#f5a524 50%,transparent);background:color-mix(in srgb,#f5a524 12%,transparent);padding:8px 12px;border-radius:var(--r-sm)}
+.pm-cr-top{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.pm-cr-pago{display:flex;flex-wrap:wrap;align-items:end;gap:8px}
+.pm-cr-pago label{display:flex;flex-direction:column;gap:4px;font-size:.8rem;color:var(--muted)}
+.tag.pm-mal{background:color-mix(in srgb,#e5484d 18%,transparent);color:#e5484d}
 .pm-dt-cred{font-family:ui-monospace,Menlo,monospace;font-size:.9rem;background:var(--surface-2);padding:8px 10px;border-radius:var(--r-sm);user-select:all;overflow-wrap:anywhere}
 .pm-ayuda-login .pm-r{border-top:0}
 .pm-red.mal{color:var(--danger, #c33)}
@@ -2366,6 +2371,10 @@ async function pmRealCargar() {
   // Por ahora el plan es solo para el ELF: otra cuenta no entra.
   if (m.club !== PM_CLUB && m.rol !== 'creador') { await SBR.auth.signOut(); REAL.user = null; throw new Error('Por ahora el plan para clubes es solo para el ELF.'); }
   REAL.miembro = m;
+  // El plan del club: si está pausado o vencido, no se entra (el servidor tampoco muestra nada).
+  REAL.plan = null; REAL.pausado = false;
+  if (m.rol !== 'creador') { const { data: pl } = await SBR.rpc('pm_mi_plan'); REAL.plan = pl?.[0] || null; REAL.pausado = !REAL.plan?.activo; }
+  if (REAL.pausado) { PM_LAST = new Map(); REAL.estado = {}; PM_EST = null; return; }
   // Primera vez de un jugador: hasta que elige su contraseña el servidor no le muestra nada del club.
   REAL.debeClave = m.rol !== 'creador' && !m.clave_cambiada;
   if (REAL.debeClave) { PM_LAST = new Map(); REAL.estado = {}; PM_EST = null; return; }
@@ -2563,6 +2572,7 @@ async function renderClubes(sub, rest = []) {
     pmCargar().catch(() => {});
     return;
   }
+  if (REAL.pausado) { main.innerHTML = pmPausadoV(); pmEnlazarNuevaClave(); window.scrollTo({ top: 0 }); return; }
   if (REAL.debeClave) { main.innerHTML = pmNuevaClaveV(); pmEnlazarNuevaClave(); window.scrollTo({ top: 0 }); return; }
   if (!PM) main.innerHTML = SKELETON;
   try { await pmCargar(); } catch { main.innerHTML = '<div class="empty">No se pudieron cargar los datos del club. Probá recargar la página.</div>'; return; }
@@ -2581,6 +2591,7 @@ async function renderClubes(sub, rest = []) {
   if (sub === 'ver') return pmVer(rest);
   const cab = `<div class="club-h">${crest(PM.club.equipos[0].equipo, true)}<div style="flex:1;min-width:0"><h2>${esc(PM.club.nombre)} <span class="tag pm-plan">Plan club</span></h2>
     <div class="small muted">${esc(S.nombre)} · ${S.creador ? 'Creador · ve todos los clubes' : S.rol === 'admin' ? 'Administrador del club' : S.rol === 'dt' ? `DT de ${pmCV().map(pmCatN).join(', ') || 'ningún plantel todavía'}` : 'Jugador'}</div></div><span class="pm-red ok" id="pm-red" role="status">Conectado al servidor</span><button type="button" class="share" data-pm="salir">Salir</button></div>
+    ${S.rol === 'admin' && !S.creador && pmVence() && pmVence().d <= 7 ? `<p class="pm-nota pm-aviso-plan">El plan del club vence ${pmVence().d <= 0 ? 'hoy' : `el ${pmFecha(pmVence().h)}`}. Para que nadie se quede sin entrar, renovalo antes.</p>` : ''}
     ${S.rol !== 'jug' ? `<div class="seg pm-rol" role="group" aria-label="Ver como"><button type="button" data-pm="rol" data-v="dt" aria-pressed="${E.rol === 'dt'}">${S.rol === 'admin' ? 'Club' : 'Cuerpo técnico'}</button><button type="button" data-pm="rol" data-v="jug" aria-pressed="${E.rol === 'jug'}">Ver como jugador</button></div>` : ''}`;
   if (E.rol === 'jug') { main.innerHTML = cab + pmVistaJugador(S); pmEnlazar(); window.scrollTo({ top: 0 }); return; }
   if (S.rol === 'dt' && !pmCV().length) { main.innerHTML = cab.replace(/<div class="seg pm-rol"[\s\S]*$/, '') + '<div class="empty">Todavía no tenés planteles asignados. Pedile al administrador del club que te asigne los tuyos.</div>'; pmEnlazar(); return; }
@@ -2683,6 +2694,13 @@ function pmLogin() {
       <div class="pm-r"><span class="pm-r-t"><b>¿Te olvidaste la contraseña?</b><small>Pedile a tu técnico que te la restablezca.</small></span></div></div>
     <p class="pm-nota">¿Tu club todavía no tiene el plan? Que la comisión nos escriba.</p></div>`;
 }
+function pmPausadoV() {
+  const n = esc((REAL.miembro?.nombre || '').split(' ')[0]), h = REAL.plan?.pagado_hasta;
+  return `<div class="pm-login"><div class="pm-login-h">${crest('ELF', true)}<div><h2>Hola${n ? ', ' + n : ''}</h2><p class="small muted">${h ? `El plan del club venció el ${pmFecha(h)}.` : 'El plan del club está pausado.'} Todo lo cargado está guardado y vuelve a aparecer apenas se renueve.</p></div></div>
+    <form class="panel pm-form" id="pm-nueva"><p class="pm-nota pm-sin">${REAL.miembro?.rol === 'admin' ? 'Para renovarlo, escribinos.' : 'Hablá con la comisión del club para renovarlo.'}</p><button type="button" class="share" data-pm="salir">Salir</button></form></div>`;
+}
+// Aviso al administrador cuando el plan está por vencer.
+const pmVence = () => { const h = REAL.plan?.pagado_hasta; if (!h) return null; const d = Math.round((new Date(h + 'T12:00') - new Date(pmHoy() + 'T12:00')) / 864e5); return { h, d }; };
 // ----- Primera vez: el jugador elige su contraseña -----
 function pmNuevaClaveV() {
   const n = esc((REAL.miembro?.nombre || '').split(' ')[0]);
@@ -2699,6 +2717,7 @@ function pmNuevaClaveV() {
 function pmEnlazarNuevaClave() {
   const f = $('#pm-nueva'), err = $('#nc-err'); if (!f) return;
   f.querySelector('[data-pm="salir"]').onclick = async () => { await SBR.auth.signOut(); REAL = { listo: true, user: null, miembro: null, estado: {}, claveClub: '' }; PM_EST = null; renderClubes(); };
+  if (!$('#nc-1')) return;
   f.onsubmit = async ev => {
     ev.preventDefault();
     const a = $('#nc-1').value, b = $('#nc-2').value, btn = f.querySelector('button[type=submit]');
@@ -3726,7 +3745,28 @@ function avEnlazar() {
   const pc = $('#pm-creador');
   if (pc && !pc.dataset.ok) { pc.dataset.ok = '1'; SBR.rpc('pm_resumen_clubes').then(({ data, error }) => {
     if (error) { pc.innerHTML = `<p class="pm-err">${esc(error.message)}</p>`; return; }
-    pc.innerHTML = (data || []).map(c => `<div class="pm-r"><span class="pm-r-t"><b>${esc(c.club.toUpperCase())}</b><small>${c.admins} admin · ${c.tecnicos} técnicos · ${c.jugadores_activos} de ${c.jugadores} jugadores ya entraron · ${c.informes} informes · ${c.previas} previas${c.ultima_actividad ? ' · último movimiento ' + new Date(c.ultima_actividad).toLocaleString('es-UY', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' }) : ''}</small></span></div>`).join('') || '<div class="empty">Todavía no hay clubes.</div>';
+    pc.innerHTML = (data || []).map(c => `<div class="pm-r pm-r-col pm-cr-club"><div class="pm-cr-top"><b>${esc(c.club.toUpperCase())}</b><span class="tag ${c.al_dia ? 'pm-plan' : 'pm-mal'}">${c.al_dia ? 'Activo' : c.activo ? 'Vencido' : 'Pausado'}</span></div>
+      <div class="pm-cr-pago"><label>Pago hasta<input type="date" class="pm-in" data-cr-hasta="${esc(c.club)}" value="${c.pagado_hasta || ''}"></label>
+        <button type="button" class="share" data-cr-mes="${esc(c.club)}">+1 mes</button>
+        <button type="button" class="share" data-cr-act="${esc(c.club)}" data-v="${c.activo ? '0' : '1'}">${c.activo ? 'Pausar' : 'Activar'}</button></div>
+      <span class="pm-r-t"><small>${c.admins} admin · ${c.tecnicos} técnicos · ${c.jugadores_activos} de ${c.jugadores} jugadores ya entraron · ${c.informes} informes · ${c.previas} previas${c.ultima_actividad ? ' · último movimiento ' + new Date(c.ultima_actividad).toLocaleString('es-UY', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' }) : ''}</small></span></div>`).join('') || '<div class="empty">Todavía no hay clubes.</div>';
+    const fila = club => (data || []).find(x => x.club === club);
+    const plan = async (club, activo, hasta, msg) => {
+      const { error: e } = await SBR.rpc('pm_plan_club', { p_club: club, p_activo: activo, p_pagado_hasta: hasta || null });
+      if (e) { aviso('No se pudo: ' + e.message); return; }
+      aviso(msg); pc.dataset.ok = ''; avEnlazar();
+    };
+    pc.querySelectorAll('[data-cr-hasta]').forEach(i => i.onchange = () => { const c = fila(i.dataset.crHasta); plan(c.club, c.activo, i.value, i.value ? `${c.club.toUpperCase()}: pago hasta el ${pmFecha(i.value)}.` : `${c.club.toUpperCase()}: sin vencimiento.`); });
+    pc.querySelectorAll('[data-cr-mes]').forEach(b => b.onclick = () => {
+      const c = fila(b.dataset.crMes), base = c.pagado_hasta && c.pagado_hasta > pmHoy() ? c.pagado_hasta : pmHoy();
+      const d = new Date(base + 'T12:00'); d.setMonth(d.getMonth() + 1); const h = d.toISOString().slice(0, 10);
+      plan(c.club, true, h, `${c.club.toUpperCase()}: renovado hasta el ${pmFecha(h)}.`);
+    });
+    pc.querySelectorAll('[data-cr-act]').forEach(b => b.onclick = () => {
+      const c = fila(b.dataset.crAct), on = b.dataset.v === '1';
+      if (!on && b.dataset.ok !== '1') { b.dataset.ok = '1'; b.textContent = '¿Seguro? Nadie del club va a poder entrar'; return; }
+      plan(c.club, on, c.pagado_hasta, on ? `${c.club.toUpperCase()} activado.` : `${c.club.toUpperCase()} pausado: nadie del club puede entrar.`);
+    });
   }); }
   const dc = $('#pm-dt-copiar'); if (dc) dc.onclick = async () => { try { await navigator.clipboard.writeText(dc.dataset.t); aviso('Copiado: mandáselo por WhatsApp.'); } catch { aviso('No se pudo copiar: anotalo a mano.'); } };
   const rg = $('#pm-reset-go');
@@ -3867,7 +3907,7 @@ function pmAjustes() {
     <section class="stack"><div class="sec-h"><div><h3>Cuentas de los jugadores</h3><span class="sub">Si un jugador se olvidó la contraseña, o es nuevo y no puede entrar: elegilo y entra con su carné y <code>${PM_CLAVE}</code>, y elige la suya.</span></div></div>
       <div class="panel"><div class="pm-r pm-r-col"><select class="pm-in" id="pm-reset-j" aria-label="Jugador">${pmDe(PM_CAT).sort((a, b) => a.nombre.localeCompare(b.nombre, 'es')).map(J => `<option value="${J.c}">${esc(J.nombre)} · ${J.c}</option>`).join('')}</select><button type="button" class="share" id="pm-reset-go">Restablecer o crear su cuenta</button><p class="pm-nota pm-sin" id="pm-reset-ok" hidden></p></div></div></section>
     ${pmSesion()?.rol !== 'admin' ? '' : `<section class="stack"><div class="sec-h"><div><h3>Plan</h3></div></div>
-      <div class="panel"><div class="pm-r"><span class="pm-r-t"><b>Plan club · ELF</b><small>Todos los planteles del club.</small></span><span class="tag pm-plan">Activo</span></div>
+      <div class="panel"><div class="pm-r"><span class="pm-r-t"><b>Plan club · ELF</b><small>Todos los planteles del club.${pmVence() ? ` Pago hasta el ${pmFecha(pmVence().h)}${pmVence().d <= 7 ? ` · <b>vence en ${pmVence().d <= 0 ? 'hoy' : pmVence().d + ' día' + (pmVence().d === 1 ? '' : 's')}</b>` : ''}.` : ''}</small></span><span class="tag pm-plan">Activo</span></div>
       <div class="pm-r pm-r-col"><span class="pm-r-t"><b>Clave de Gemini del club</b><small>La usan todos los técnicos para el Análisis, así no necesitan una propia. Queda guardada en el servidor: nadie la puede ver, ni vos. ${pmEst().claveClub ? `<b>Cargada (termina en …${esc(pmEst().claveClub)}).</b> Para cambiarla, pegá la nueva.` : '<b>Todavía no está cargada.</b>'}</small></span>
         <input type="password" class="pm-in" id="pm-clave-club" value="" placeholder="${pmEst().claveClub ? 'Pegá una clave nueva para reemplazarla' : 'Pegá la clave de AI Studio'}" autocomplete="off" spellcheck="false" aria-label="Clave de Gemini del club">
         ${pmEst().claveClub ? '<button type="button" class="share" id="pm-clave-club-borrar">Borrar la clave del club</button>' : ''}</div>
