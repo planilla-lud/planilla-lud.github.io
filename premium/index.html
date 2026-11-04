@@ -954,6 +954,8 @@ input.pm-in[type="text"]{flex:1;max-width:240px}
 /* análisis de video */
 .pm-av-f{display:flex;flex-direction:column;gap:6px;font-size:.82rem;font-weight:600;color:var(--muted);min-width:0}
 .pm-av-ayuda{font-weight:500}
+.pm-av-key{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px 14px;padding:12px 14px;border:1px solid var(--line);border-radius:10px;background:var(--surface-2);font-size:.88rem}
+.pm-av-key > span{flex:1 1 240px;min-width:0}
 .pm-av-btns{display:flex;flex-wrap:wrap;gap:8px}
 .pm-form .pm-av-btns .btn{align-self:auto}
 .pm-av-lista,.pm-av-caps{margin-top:-6px;border:1px solid var(--line);border-radius:var(--r-sm)}
@@ -2760,6 +2762,17 @@ const AV_MEDIA = {}; // informe -> clips cargados en esta visita (los videos no 
 const avT = s => `${String(Math.floor(s / 60)).padStart(2, '0')}:${String(s % 60).padStart(2, '0')}`;
 const avMB = b => b >= 1e9 ? (b / 1e9).toFixed(1).replace('.', ',') + ' GB' : b >= 1e6 ? Math.round(b / 1e6) + ' MB' : Math.max(1, Math.round(b / 1e3)) + ' KB';
 const avURL = c => c.url ??= URL.createObjectURL(c.f);
+// La clave de Gemini se guarda en este navegador o en la cuenta de quien entró (para usarla desde otros navegadores).
+const avYo = () => { const S = pmSesion(); return S ? S.u || S.c : ''; };
+const avClaveCuenta = () => (pmEst().claves || {})[avYo()] || '';
+const avDonde = () => avClaveCuenta() ? 'cuenta' : (leer('pm-gemini-donde') || 'navegador');
+const avClave = () => (avClaveCuenta() || leer('pm-gemini-clave') || '').trim();
+function avGuardarClave(v, donde = avDonde()) {
+  const E = pmEst(), yo = avYo(); E.claves = E.claves || {};
+  if (donde === 'cuenta' && yo) { if (v) E.claves[yo] = v; else delete E.claves[yo]; try { localStorage.removeItem('pm-gemini-clave'); } catch {} }
+  else { delete E.claves[yo]; guardar('pm-gemini-clave', v); }
+  guardar('pm-gemini-donde', donde); pmGuardar();
+}
 const avVisibles = () => pmEst().analisis.filter(r => pmSesion()?.rol === 'admin' || pmCV().includes(r.div));
 // Los partidos jugados del plantel y los rivales de su divisional, de las planillas.
 const avPartidos = cat => pmEV().filter(e => e.div === cat).flatMap(e => (e.d.porEquipo[e.equipo] || []).filter(x => x.gf != null).map(x => ({ id: x.p.id, dia: x.p.dia, rival: x.rival, gf: x.gf, gc: x.gc }))).sort((a, b) => b.dia.localeCompare(a.dia));
@@ -2781,8 +2794,8 @@ function pmAnalisis() {
   const id = decodeURIComponent(location.hash.split('/')[3] || '');
   if (id) return avInforme(id);
   const F = avForm(), ps = avPartidos(F.cat), club = esc(PM.club.nombre);
-  const clave = leer('pm-gemini-clave') || '', modelo = leer('pm-gemini-modelo') || AV_MODELOS[0];
-  const seg = (k, lista, nombre) => `<div class="seg pm-seg" role="group" aria-label="${nombre}">${lista.map(([v, n]) => `<button type="button" data-av="${k}" data-v="${v}" aria-pressed="${F[k] === v}">${n}</button>`).join('')}</div>`;
+  const clave = avClave(), donde = avDonde(), modelo = leer('pm-gemini-modelo') || AV_MODELOS[0];
+  const seg = (k, lista, nombre) => `<div class="seg pm-seg" role="group" aria-label="${nombre}">${lista.map(([v, n]) => `<button type="button" data-av="${k}" data-v="${v}" aria-pressed="${(k === 'donde' ? donde : F[k]) === v}">${n}</button>`).join('')}</div>`;
   const opt = (v, n, sel) => `<option value="${esc(v)}"${sel ? ' selected' : ''}>${esc(n)}</option>`;
   const campo = (k, n, ph, tipo = 'text') => `<label>${n}<input type="${tipo}" data-av="${k}" value="${esc(F[k])}"${ph ? ` placeholder="${esc(ph)}"` : ''}></label>`;
   const total = F.clips.reduce((n, c) => n + c.f.size, 0);
@@ -2812,10 +2825,15 @@ function pmAnalisis() {
       ${caps ? `<div class="pm-av-caps">${caps}</div>` : ''}
       <div class="pm-campos">${campo('notas', 'Algo en lo que quieras que se fije (opcional)', 'Ej.: las pelotas paradas en contra')}</div>
       <div class="pm-campos">
-        <label>Clave de API de Gemini<input type="password" data-av="clave" value="${esc(clave)}" autocomplete="off" spellcheck="false" placeholder="La sacás en aistudio.google.com"></label>
+        <label>Clave de API de Gemini<input type="password" data-av="clave" value="${esc(clave)}" autocomplete="off" spellcheck="false" placeholder="Pegá tu clave acá (empieza con AIza)"></label>
         <label>Modelo<select data-av="modelo">${[...new Set([...AV_MODELOS, modelo])].map(m => opt(m, m, m === modelo)).join('')}</select></label>
       </div>
-      <p class="pm-nota pm-sin">La clave queda guardada solo en este navegador. Los videos van directo a Gemini y se borran de ahí cuando termina; acá se guarda solo el informe.</p>
+      <div class="pm-av-key">
+        <span><b>¿No tenés clave?</b> Es gratis: entrá a Google AI Studio con tu cuenta de Google, tocá <b>Create API key</b> y copiala.</span>
+        <a class="btn" href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">Sacar clave en AI Studio</a>
+      </div>
+      <div class="pm-av-f">Guardar la clave en${seg('donde', [['navegador', 'Este navegador'], ['cuenta', 'Mi cuenta']], 'Dónde guardar la clave')}<span class="pm-av-ayuda">${donde === 'cuenta' ? 'Queda en tu cuenta: la usás desde cualquier navegador en el que entres con tu usuario. En esta demo la cuenta todavía vive en este navegador.' : 'Queda solo en este navegador. Si entrás desde otra compu o desde el celular, la tenés que pegar de nuevo.'}</span></div>
+      <p class="pm-nota pm-sin">Los videos van directo a Gemini y se borran de ahí cuando termina; acá se guarda solo el informe.</p>
       <button class="btn p" type="submit" id="av-go"${corre ? ' disabled' : ''}>${F.clips.length ? `Analizar ${F.clips.length} ${F.clips.length === 1 ? 'clip' : 'clips'}` : 'Analizar'}</button>
     </form>
     <div id="av-run">${avRunHTML()}</div>
@@ -2957,7 +2975,7 @@ function avNormalizar(x, n) {
 }
 
 async function avAnalizar() {
-  const F = avForm(), S = pmSesion(), clave = (leer('pm-gemini-clave') || '').trim(), modelo = leer('pm-gemini-modelo') || AV_MODELOS[0];
+  const F = avForm(), S = pmSesion(), clave = avClave(), modelo = leer('pm-gemini-modelo') || AV_MODELOS[0];
   const p = avPartidos(F.cat).find(x => x.id === F.partido);
   const falta = !F.clips.length ? 'Elegí la carpeta o los videos del partido.'
     : !F.partido ? 'Elegí el partido.' : F.partido === 'otro' && !F.rival.trim() ? 'Poné el rival.'
@@ -3076,7 +3094,7 @@ function avEnlazar() {
   if (f) {
     f.oninput = ev => {
       const i = ev.target, k = i.dataset.av; if (!k || i.type === 'file' || i.tagName === 'SELECT') return;
-      if (k === 'clave') guardar('pm-gemini-clave', i.value.trim()); else F[k] = i.value;
+      if (k === 'clave') avGuardarClave(i.value.trim()); else F[k] = i.value;
     };
     f.onchange = ev => {
       const i = ev.target, k = i.dataset.av; if (!k) return;
@@ -3093,7 +3111,9 @@ function avEnlazar() {
     };
     f.onclick = ev => {
       const b = ev.target.closest('button[data-av]'); if (!b) return;
-      if (b.dataset.av === 'quitar-cap') F.capturas.splice(Number(b.dataset.v), 1); else F[b.dataset.av] = b.dataset.v;
+      if (b.dataset.av === 'quitar-cap') F.capturas.splice(Number(b.dataset.v), 1);
+      else if (b.dataset.av === 'donde') avGuardarClave(avClave(), b.dataset.v);
+      else F[b.dataset.av] = b.dataset.v;
       repintar();
     };
     f.onsubmit = ev => { ev.preventDefault(); avAnalizar(); };
