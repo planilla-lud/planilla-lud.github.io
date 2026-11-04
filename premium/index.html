@@ -951,6 +951,37 @@ input.pm-in[type="text"]{flex:1;max-width:240px}
 .cancha-l{color:inherit;text-decoration:underline;text-decoration-color:color-mix(in srgb,currentColor 40%,transparent);text-underline-offset:2px}
 .pm-r-sub{padding-top:10px;padding-bottom:2px}
 .pm-nuestro{margin:14px 0}
+/* análisis de video */
+.pm-av-f{display:flex;flex-direction:column;gap:6px;font-size:.82rem;font-weight:600;color:var(--muted);min-width:0}
+.pm-av-ayuda{font-weight:500}
+.pm-av-btns{display:flex;flex-wrap:wrap;gap:8px}
+.pm-form .pm-av-btns .btn{align-self:auto}
+.pm-av-lista,.pm-av-caps{margin-top:-6px;border:1px solid var(--line);border-radius:var(--r-sm)}
+.pm-av-lista summary{padding:10px 12px;font-size:.9rem}
+.pm-av-run .pm-err{padding:0 14px 10px}
+.pm-av-run .bar{margin-top:6px}
+.pm-av-marc{font-family:var(--font-score);font-weight:700;font-size:1.6rem;line-height:1;color:var(--fg);white-space:nowrap}
+.pm-av-txt{margin:0;padding:0 16px 14px}
+.pm-av-grid{display:grid;gap:18px;align-items:start}
+.pm-av-cuerpo{gap:18px;min-width:0}
+.pm-av-video{order:-1;min-width:0}
+.pm-av-cont{container-type:inline-size}
+@container (min-width:860px){.pm-av-grid{grid-template-columns:minmax(0,1fr) minmax(0,380px)}.pm-av-video{order:0;position:sticky;top:calc(var(--header-h) + var(--cats-h) + 72px)}}
+.pm-av-play video{display:block;width:100%;aspect-ratio:16/9;background:var(--top)}
+.pm-av-clips{padding:10px 14px 0;flex-wrap:wrap;overflow:visible}
+.pm-av-mapa{padding:4px 14px 8px}
+.pm-av-mapa svg{display:block;width:100%;max-width:420px;height:auto;margin:0 auto}
+.pm-av-mapa .ln{fill:none;stroke:var(--line-strong);stroke-width:1.5}
+.pm-av-mapa .dl{stroke-dasharray:4 4}
+.pm-av-mapa text{text-anchor:middle;font-family:var(--font)}
+.pm-av-mapa .zn{fill:var(--fg);font-family:var(--font-score);font-weight:700;font-size:22px}
+.pm-av-mapa .zl{fill:var(--muted);font-size:11px;font-weight:600}
+.alert > .pm-av-js{grid-column:1/-1;display:flex;flex-direction:column;gap:6px;margin-top:6px}
+.pm-av-jl{display:flex;align-items:baseline;gap:8px;font-size:.86rem;color:var(--muted)}
+.chip.pm-av-j{flex:none;padding:4px 10px;font-size:.84rem}
+.alert.pm-av-gol{grid-template-columns:auto minmax(0,1fr);align-items:baseline}
+.alert.pm-av-gol > span{grid-column:2;grid-row:1}
+.pm-av-pad{padding:0 16px 12px}
 </style>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
   <symbol id="i-home" viewBox="0 0 24 24"><path d="M4 10.5 12 4l8 6.5V20a1 1 0 0 1-1 1h-4.5v-6h-5v6H5a1 1 0 0 1-1-1z"/></symbol>
@@ -2214,7 +2245,7 @@ const PM_CFG0 = { verAsistencia: true, verRacha: true, verMinutos: true, verRank
   pasarLista: false, convocatoria: false, recordatorio: true, recCuando: 'noche',
   avPlanilla: true, avRival: true, avResultado: true, avPractica: true, avConvocatoria: true };
 const PM_TABS = [['resumen', 'Resumen'], ['practicas', 'Prácticas'], ['cruce', 'Asistencia y minutos'], ['minutos', 'Minutos'],
-  ['convocatoria', 'Convocatoria'], ['recordatorios', 'Recordatorios'], ['videos', 'Videos'], ['ajustes', 'Ajustes']];
+  ['convocatoria', 'Convocatoria'], ['recordatorios', 'Recordatorios'], ['videos', 'Videos'], ['analisis', 'Análisis de video'], ['ajustes', 'Ajustes']];
 let PM = null; // modelo armado con los datos reales
 let PM_EST = null; // lo que se marca en este navegador
 let PM_CAT = null, PM_PRAC = null;
@@ -2226,12 +2257,12 @@ const pmG = (k, v) => { PM_MEM[k] = v; guardar(k, v); };
 const pmLeerJ = (k, def) => { try { return JSON.parse(pmL(k)) ?? def; } catch { return def; } };
 function pmEst() {
   if (!PM_EST) {
-    PM_EST = { cfg: { ...PM_CFG0 }, hor: {}, susp: {}, extras: {}, marcas: {}, lista: {}, resp: {}, principal: {}, amistosos: [], videos: [], conv: {}, rol: 'dt', yo: null, ...pmLeerJ('pm-estado2', {}) };
+    PM_EST = { cfg: { ...PM_CFG0 }, hor: {}, susp: {}, extras: {}, marcas: {}, lista: {}, resp: {}, principal: {}, amistosos: [], videos: [], analisis: [], conv: {}, rol: 'dt', yo: null, ...pmLeerJ('pm-estado2', {}) };
     PM_EST.cfg = { ...PM_CFG0, ...PM_EST.cfg };
     // Si lo guardado tiene una forma rara, se arregla cada parte por separado.
     const obj = x => x && typeof x === 'object' && !Array.isArray(x), arr = Array.isArray;
     for (const k of ['hor', 'susp', 'extras', 'marcas', 'lista', 'resp', 'principal', 'conv', 'cfgP', 'fichas']) if (!obj(PM_EST[k])) PM_EST[k] = {};
-    for (const k of ['amistosos', 'videos']) if (!arr(PM_EST[k])) PM_EST[k] = [];
+    for (const k of ['amistosos', 'videos', 'analisis']) if (!arr(PM_EST[k])) PM_EST[k] = [];
     if (!arr(PM_EST.usuarios) || !PM_EST.usuarios.some(x => x?.rol === 'admin')) PM_EST.usuarios = JSON.parse(JSON.stringify(PM_USUARIOS0));
     PM_EST.usuarios = PM_EST.usuarios.filter(x => obj(x) && typeof x.u === 'string' && typeof x.nombre === 'string');
     for (const c of Object.keys(PM_EST.hor)) if (!arr(PM_EST.hor[c]) || PM_EST.hor[c].some(v => !obj(v) || !obj(v.dias) || typeof v.desde !== 'string')) delete PM_EST.hor[c];
@@ -2402,7 +2433,7 @@ async function renderClubes(sub, rest = []) {
   if (E.rol === 'jug') { main.innerHTML = cab + pmVistaJugador(S); pmEnlazar(); window.scrollTo({ top: 0 }); return; }
   if (S.rol === 'dt' && !pmCV().length) { main.innerHTML = cab.replace(/<div class="seg pm-rol"[\s\S]*$/, '') + '<div class="empty">Todavía no tenés planteles asignados. Pedile al administrador del club que te asigne los tuyos.</div>'; pmEnlazar(); return; }
   const tabs = `<div class="pm-tabsw"><button type="button" class="pm-fl izq" aria-label="Ver pestañas de la izquierda" hidden>${ic('i-atras')}</button><nav class="tabs pm-tabs" aria-label="Secciones del plan">${tabsV.map(([id, n]) => `<a href="#/clubes/${id}"${id === tab ? ' aria-current="page"' : ''}>${n}</a>`).join('')}</nav><button type="button" class="pm-fl der" aria-label="Ver pestañas de la derecha" hidden>${ic('i-atras')}</button></div>`;
-  const V = { resumen: pmResumen, practicas: pmPracticasV, cruce: pmCruce, minutos: pmMinutos, convocatoria: pmConvocatoria, recordatorios: pmRecordatorios, videos: pmVideos, ajustes: pmAjustes, tecnicos: pmTecnicos }[tab];
+  const V = { resumen: pmResumen, practicas: pmPracticasV, cruce: pmCruce, minutos: pmMinutos, convocatoria: pmConvocatoria, recordatorios: pmRecordatorios, videos: pmVideos, analisis: pmAnalisis, ajustes: pmAjustes, tecnicos: pmTecnicos }[tab];
   main.innerHTML = cab + tabs + `<div class="stack pm-cuerpo">${V()}</div>`;
   main.querySelectorAll('.pm-tabsw, .pm-desl').forEach(pmDeslizar);
   pmEnlazar();
@@ -2712,6 +2743,373 @@ function pmVideos() {
     ${vids.length ? `<div class="panel">${vids.map(v => `<div class="pm-r"><span class="pm-r-t"><b>${esc(v.titulo)}</b><small>${esc(v.url)}</small></span>${/^https?:\/\//i.test(v.url) ? `<a class="share" href="${esc(v.url)}" target="_blank" rel="noopener">Ver</a>` : ''}<button type="button" class="share" data-pm="borrar-vid" data-v="${v.id}">Borrar</button></div>`).join('')}</div>` : '<div class="empty">Todavía no hay videos guardados.</div>'}`;
 }
 
+// ----- Análisis de video -----
+// El cuerpo técnico sube los clips del partido (Veo deja bajar los highlights en un zip, un clip por
+// jugada) y Gemini arma el informe. Los videos van directo del navegador a Gemini con la clave del club
+// y se borran de Gemini al terminar: acá se guarda solo el informe, con los mismos permisos que lo demás.
+const AV_API = 'https://generativelanguage.googleapis.com';
+const AV_MODELOS = ['gemini-3.5-flash', 'gemini-3.5-pro', 'gemini-2.5-flash', 'gemini-2.5-pro'];
+const AV_TIPOS = [['highlights', 'Highlights'], ['completo', 'Partido completo'], ['recorte', 'Recorte']];
+const AV_ZONAS = [['izquierda', 'Izquierda'], ['centro', 'Centro'], ['derecha', 'Derecha'], ['espalda', 'Espalda']];
+const AV_GRAV = { alta: 0, media: 1, baja: 2 };
+const AV_EXT = /\.(mp4|m4v|mov|webm|mkv|avi|mpe?g|3gp|wmv|flv)$/i;
+let AV_F = null; // lo cargado en el formulario: sobrevive a los repintados
+let AV_RUN = null; // el análisis que está corriendo
+const AV_MEDIA = {}; // informe -> clips cargados en esta visita (los videos no se guardan)
+
+const avT = s => `${String(Math.floor(s / 60)).padStart(2, '0')}:${String(s % 60).padStart(2, '0')}`;
+const avMB = b => b >= 1e9 ? (b / 1e9).toFixed(1).replace('.', ',') + ' GB' : b >= 1e6 ? Math.round(b / 1e6) + ' MB' : Math.max(1, Math.round(b / 1e3)) + ' KB';
+const avURL = c => c.url ??= URL.createObjectURL(c.f);
+const avVisibles = () => pmEst().analisis.filter(r => pmSesion()?.rol === 'admin' || pmCV().includes(r.div));
+// Los partidos jugados del plantel y los rivales de su divisional, de las planillas.
+const avPartidos = cat => pmEV().filter(e => e.div === cat).flatMap(e => (e.d.porEquipo[e.equipo] || []).filter(x => x.gf != null).map(x => ({ id: x.p.id, dia: x.p.dia, rival: x.rival, gf: x.gf, gc: x.gc }))).sort((a, b) => b.dia.localeCompare(a.dia));
+const avRivales = cat => [...new Set(pmEV().filter(e => e.div === cat).flatMap(e => Object.keys(e.d.porEquipo).filter(x => x !== e.equipo)))].sort((a, b) => a.localeCompare(b, 'es'));
+// De lo que se elige (una carpeta entera o varios archivos) quedan solo los videos, ordenados por nombre.
+// Se saltean los archivos ocultos y la carpeta __MACOSX que deja el zip en la Mac.
+const avVideos = lista => [...lista]
+  .filter(f => !/(^|\/)(__MACOSX|\.)/.test(f.webkitRelativePath || f.name) && (f.type.startsWith('video/') || AV_EXT.test(f.name)))
+  .sort((a, b) => (a.webkitRelativePath || a.name).localeCompare(b.webkitRelativePath || b.name, 'es', { numeric: true }));
+const avMime = f => f.type || { mov: 'video/quicktime', mkv: 'video/x-matroska', avi: 'video/x-msvideo', webm: 'video/webm', '3gp': 'video/3gpp', wmv: 'video/x-ms-wmv', flv: 'video/x-flv', mpg: 'video/mpeg', mpeg: 'video/mpeg' }[f.name.split('.').pop().toLowerCase()] || 'video/mp4';
+
+function avForm() {
+  if (!AV_F) AV_F = { modo: 'equipo', cat: null, partido: '', rival: '', dia: '', color: pmLeerJ('pm-av-ult', {}).color || '', colRival: '', ataca: '', tipo: 'highlights', jugador: '', quien: '', notas: '', clips: [], capturas: [] };
+  if (!pmCV().includes(AV_F.cat)) { AV_F.cat = pmCV().includes(PM_CAT) ? PM_CAT : pmCV()[0]; AV_F.partido = ''; AV_F.jugador = ''; }
+  return AV_F;
+}
+
+function pmAnalisis() {
+  const id = decodeURIComponent(location.hash.split('/')[3] || '');
+  if (id) return avInforme(id);
+  const F = avForm(), ps = avPartidos(F.cat), club = esc(PM.club.nombre);
+  const clave = leer('pm-gemini-clave') || '', modelo = leer('pm-gemini-modelo') || AV_MODELOS[0];
+  const seg = (k, lista, nombre) => `<div class="seg pm-seg" role="group" aria-label="${nombre}">${lista.map(([v, n]) => `<button type="button" data-av="${k}" data-v="${v}" aria-pressed="${F[k] === v}">${n}</button>`).join('')}</div>`;
+  const opt = (v, n, sel) => `<option value="${esc(v)}"${sel ? ' selected' : ''}>${esc(n)}</option>`;
+  const campo = (k, n, ph, tipo = 'text') => `<label>${n}<input type="${tipo}" data-av="${k}" value="${esc(F[k])}"${ph ? ` placeholder="${esc(ph)}"` : ''}></label>`;
+  const total = F.clips.reduce((n, c) => n + c.f.size, 0);
+  const clips = F.clips.length ? `<details class="more pm-av-lista"><summary>${F.clips.length} ${F.clips.length === 1 ? 'clip' : 'clips'} · ${avMB(total)}</summary>${F.clips.map((c, i) => `<div class="pm-r"><span class="pm-r-t"><b>Clip ${i + 1}</b><small>${esc(c.f.webkitRelativePath || c.f.name)} · ${avMB(c.f.size)}</small></span></div>`).join('')}</details>` : '<p class="pm-nota pm-sin">Todavía no elegiste videos.</p>';
+  const caps = F.capturas.map((f, i) => `<div class="pm-r"><span class="pm-r-t"><b>${esc(f.name)}</b><small>${avMB(f.size)}</small></span><button type="button" class="share" data-av="quitar-cap" data-v="${i}">Quitar</button></div>`).join('');
+  const corre = AV_RUN && AV_RUN.fase !== 'error';
+  return `<p class="lede">Subí los clips del partido y Gemini arma el informe: por dónde nos llegan, qué se repite, los goles y qué corregir. Cada jugada te lleva al momento exacto del video.</p>
+    <form class="panel pm-form" id="pm-av" novalidate>
+      ${seg('modo', [['equipo', 'Equipo'], ['jugador', 'Jugador']], 'Qué analizar')}
+      <div class="pm-campos">
+        <label>Plantel<select data-av="cat">${pmCV().map(c => opt(c, pmCatN(c), c === F.cat)).join('')}</select></label>
+        <label>Partido<select data-av="partido">${opt('', ps.length ? 'Elegí el partido' : 'Todavía no hay partidos jugados', !F.partido)}${ps.map(x => opt(x.id, `${x.gf}-${x.gc} vs ${x.rival} (${fDia(x.dia)})`, x.id === F.partido)).join('')}${opt('otro', 'Otro partido (amistoso o sin planilla)', F.partido === 'otro')}</select></label>
+        ${F.partido === 'otro' ? `<label>Rival<input type="text" data-av="rival" list="av-rivales" value="${esc(F.rival)}" placeholder="Elegí o escribí el rival"></label><datalist id="av-rivales">${avRivales(F.cat).map(r => `<option value="${esc(r)}">`).join('')}</datalist>${campo('dia', 'Fecha', '', 'date')}` : ''}
+        ${campo('color', `Camiseta de ${club}`, 'Ej.: blanca con vivos azules')}
+        ${campo('colRival', 'Camiseta del rival', 'Ej.: roja')}
+      </div>
+      ${F.modo === 'jugador' ? `<div class="pm-campos">
+        <label>Jugador<select data-av="jugador">${opt('', 'Elegí el jugador', !F.jugador)}${pmDe(F.cat).sort((a, b) => a.nombre.localeCompare(b.nombre, 'es')).map(J => opt(J.c, J.nombre, J.c === F.jugador)).join('')}</select></label>
+        ${campo('quien', 'Cómo reconocerlo en el video', 'Ej.: soy el 7, extremo derecho')}</div>` : ''}
+      <div class="pm-av-f">En el primer tiempo ${club} ataca hacia la… (como se ve en la cámara)${seg('ataca', [['izq', 'Izquierda'], ['der', 'Derecha']], 'Hacia dónde ataca en el primer tiempo')}</div>
+      <div class="pm-av-f">Tipo de video${seg('tipo', AV_TIPOS, 'Tipo de video')}</div>
+      <div class="pm-av-f">Videos<span class="pm-av-ayuda">Con Veo se bajan los highlights en un zip con un clip por jugada: descomprimilo y elegí la carpeta. Se usan solo los videos, ordenados por nombre.</span>
+        <div class="pm-av-btns"><label class="btn">Elegir carpeta<input type="file" data-av="carpeta" webkitdirectory multiple hidden></label><label class="btn">Elegir videos<input type="file" data-av="videos" accept="video/*,.mov,.mkv" multiple hidden></label></div></div>
+      ${clips}
+      <div class="pm-av-f">Capturas de Veo Analytics (opcional)<span class="pm-av-ayuda">Mapa de calor, estadísticas o la ficha del jugador. Van como imágenes junto con los videos.</span>
+        <div class="pm-av-btns"><label class="btn">Agregar capturas<input type="file" data-av="capturas" accept="image/*" multiple hidden></label></div></div>
+      ${caps ? `<div class="pm-av-caps">${caps}</div>` : ''}
+      <div class="pm-campos">${campo('notas', 'Algo en lo que quieras que se fije (opcional)', 'Ej.: las pelotas paradas en contra')}</div>
+      <div class="pm-campos">
+        <label>Clave de API de Gemini<input type="password" data-av="clave" value="${esc(clave)}" autocomplete="off" spellcheck="false" placeholder="La sacás en aistudio.google.com"></label>
+        <label>Modelo<select data-av="modelo">${[...new Set([...AV_MODELOS, modelo])].map(m => opt(m, m, m === modelo)).join('')}</select></label>
+      </div>
+      <p class="pm-nota pm-sin">La clave queda guardada solo en este navegador. Los videos van directo a Gemini y se borran de ahí cuando termina; acá se guarda solo el informe.</p>
+      <button class="btn p" type="submit" id="av-go"${corre ? ' disabled' : ''}>${F.clips.length ? `Analizar ${F.clips.length} ${F.clips.length === 1 ? 'clip' : 'clips'}` : 'Analizar'}</button>
+    </form>
+    <div id="av-run">${avRunHTML()}</div>
+    ${avHistorial()}`;
+}
+
+// Informes guardados, agrupados por partido (el más nuevo arriba).
+function avHistorial() {
+  const G = new Map();
+  for (const r of avVisibles()) { const k = r.div + '|' + (r.partido.id || r.partido.rival + r.partido.dia); if (!G.has(k)) G.set(k, []); G.get(k).push(r); }
+  if (!G.size) return '<div class="empty">Todavía no hay informes guardados.</div>';
+  const S = pmSesion();
+  const fila = r => `<div class="pm-r"><span class="pm-r-t"><a href="#/clubes/analisis/${r.id}">${r.modo === 'jugador' ? 'Jugador · ' + esc(r.jugador?.nombre || r.jugador?.quien) : 'Equipo'}</a><small>${fDia(r.creado.slice(0, 10))} ${r.creado.slice(11, 16)} · ${esc(r.autorN)} · ${r.clips.length} ${r.clips.length === 1 ? 'clip' : 'clips'}</small></span>
+    <a class="share" href="#/clubes/analisis/${r.id}">Ver</a>${S?.rol === 'admin' || S?.u === r.autor ? `<button type="button" class="share" data-pm="av-borrar" data-v="${r.id}">Borrar</button>` : ''}</div>`;
+  return `<section class="stack"><div class="sec-h"><div><h3>Informes guardados</h3><span class="sub">Por partido. Los videos no se guardan: para ver las jugadas, se vuelven a cargar los clips.</span></div></div>
+    ${[...G.values()].sort((a, b) => (b[0].partido.dia || '').localeCompare(a[0].partido.dia || '')).map(L => { const p = L[0].partido; return `<section class="panel"><div class="panel-h"><span><b>vs ${esc(p.rival)}</b> · ${esc(pmCatN(L[0].div))}</span><span>${p.dia ? fDia(p.dia) : ''}${p.gf != null ? ` · ${p.gf}-${p.gc}` : ''}</span></div>${L.map(fila).join('')}</section>`; }).join('')}</section>`;
+}
+
+function avRunHTML() {
+  const R = AV_RUN; if (!R) return '';
+  const est = { espera: 'En espera', sube: 'Subiendo', procesa: 'Gemini lo está procesando', listo: 'Listo' };
+  const tit = R.fase === 'error' ? 'No se pudo analizar' : R.fase === 'analiza' ? 'Gemini está mirando los clips' : 'Subiendo los clips a Gemini';
+  return `<section class="panel pm-av-run"><div class="panel-h"><b>${tit}</b>${R.fase === 'error' ? '<button type="button" class="share" data-pm="av-cerrar">Cerrar</button>' : '<button type="button" class="share" data-pm="av-cancelar">Cancelar</button>'}</div>
+    ${R.fase === 'error' ? `<p class="pm-err">${esc(R.error)}</p>` : R.fase === 'analiza' ? '<p class="pm-nota">Puede tardar unos minutos. No cierres esta pestaña.</p>' : ''}
+    ${R.clips.map((c, i) => `<div class="pm-r"><span class="pm-r-t"><b>Clip ${i + 1}</b><small>${esc(c.n)} · ${est[c.est]}</small><span class="bar"><span style="width:${Math.round(c.pct * 100)}%"></span></span></span><span class="pm-cnt"><b>${Math.round(c.pct * 100)}%</b></span></div>`).join('')}</section>`;
+}
+function avPintarRun() {
+  const el = $('#av-run'); if (el) el.innerHTML = avRunHTML();
+  const b = $('#av-go'); if (b) b.disabled = !!AV_RUN && AV_RUN.fase !== 'error';
+}
+
+// ----- Gemini: Files API y generateContent -----
+function avError(st, m = '') {
+  if (st === 400 && /api key/i.test(m)) return 'La clave de Gemini no es válida. Revisala y probá de nuevo.';
+  if (st === 401 || st === 403) return 'La clave de Gemini no tiene permiso para esto. Revisá que sea de un proyecto con la API de Gemini activada.';
+  if (st === 404) return 'Ese modelo no existe o tu clave no lo tiene habilitado. Probá con otro.';
+  if (st === 413) return 'Un video es demasiado grande para Gemini (el máximo es 2 GB por archivo).';
+  if (st === 429) return 'Se pasó el límite de uso de la clave de Gemini. Esperá un rato y probá de nuevo.';
+  return `Gemini respondió con un error (${st})${m ? ': ' + m : ''}.`;
+}
+const avCancelado = () => new DOMException('cancelado', 'AbortError');
+async function avPedir(ruta, op, clave) {
+  let r;
+  try { r = await fetch(AV_API + ruta, { ...op, headers: { 'x-goog-api-key': clave, ...op?.headers }, signal: AV_RUN?.ctl.signal }); }
+  catch (e) { if (e.name === 'AbortError') throw e; throw new Error('No se pudo conectar con Gemini. Revisá la conexión.'); }
+  if (!r.ok) { let m = ''; try { m = (await r.json()).error?.message || ''; } catch {} throw new Error(avError(r.status, m)); }
+  return r;
+}
+const avDormir = ms => new Promise((ok, mal) => {
+  const s = AV_RUN.ctl.signal, t = setTimeout(ok, ms);
+  s.addEventListener('abort', () => { clearTimeout(t); mal(avCancelado()); }, { once: true });
+});
+// Subida resumable: se pide la dirección de subida y se manda el archivo entero, con el progreso.
+async function avSubir(f, nombre, clave, alAvanzar) {
+  const r = await avPedir('/upload/v1beta/files', { method: 'POST', headers: { 'X-Goog-Upload-Protocol': 'resumable', 'X-Goog-Upload-Command': 'start', 'X-Goog-Upload-Header-Content-Length': String(f.size), 'X-Goog-Upload-Header-Content-Type': avMime(f), 'Content-Type': 'application/json' }, body: JSON.stringify({ file: { display_name: nombre } }) }, clave);
+  const url = r.headers.get('x-goog-upload-url'); if (!url) throw new Error('Gemini no devolvió dónde subir el video.');
+  return new Promise((ok, mal) => {
+    const x = new XMLHttpRequest(), s = AV_RUN.ctl.signal;
+    x.open('POST', url);
+    x.setRequestHeader('X-Goog-Upload-Offset', '0');
+    x.setRequestHeader('X-Goog-Upload-Command', 'upload, finalize');
+    x.upload.onprogress = e => { if (e.lengthComputable) alAvanzar(e.loaded / e.total); };
+    x.onload = () => {
+      if (x.status < 200 || x.status >= 300) { mal(new Error(avError(x.status))); return; }
+      try { ok(JSON.parse(x.responseText).file); } catch { mal(new Error('Gemini respondió algo raro al subir el video.')); }
+    };
+    x.onerror = () => mal(new Error('Se cortó la conexión mientras subía el video.'));
+    x.onabort = () => mal(avCancelado());
+    s.addEventListener('abort', () => x.abort(), { once: true });
+    x.send(f);
+  });
+}
+// Gemini procesa cada video antes de poder usarlo: se espera a que quede ACTIVE.
+async function avActivo(f, clave) {
+  for (let i = 0; f.state !== 'ACTIVE'; i++) {
+    if (f.state === 'FAILED') throw new Error(`Gemini no pudo procesar ${f.displayName || 'un video'}. Probá con otro formato (mp4).`);
+    if (i > 240) throw new Error('Gemini tardó demasiado en procesar los videos. Probá de nuevo.');
+    await avDormir(i < 10 ? 2000 : 5000);
+    f = await (await avPedir('/v1beta/' + f.name, {}, clave)).json();
+  }
+  return f;
+}
+// Sin la señal del análisis: se borran aunque se haya cancelado.
+const avBorrar = (f, clave) => fetch(`${AV_API}/v1beta/${f.name}`, { method: 'DELETE', headers: { 'x-goog-api-key': clave }, keepalive: true }).catch(() => {});
+const avBase64 = f => new Promise((ok, mal) => { const r = new FileReader(); r.onload = () => ok(String(r.result).split(',')[1]); r.onerror = () => mal(new Error(`No se pudo leer ${f.name}.`)); r.readAsDataURL(f); });
+async function avDeA(lista, n, fn) {
+  let i = 0;
+  await Promise.all(Array.from({ length: Math.min(n, lista.length) }, async () => { while (i < lista.length) { const k = i++; await fn(lista[k], k); } }));
+}
+
+function avPrompt(F, ctx) {
+  const lado = F.ataca === 'izq' ? ['izquierda', 'derecha'] : ['derecha', 'izquierda'];
+  const jug = '[{"clip": 1, "seg": 0, "nota": "qué pasa en esa jugada"}]';
+  return `Sos analista de video de fútbol amateur (Liga Universitaria de Deportes, Uruguay). Escribí en español rioplatense, claro y concreto, para el cuerpo técnico.
+
+Partido: ${ctx.club} (${ctx.plantel}) contra ${ctx.rival}${ctx.dia ? `, ${ctx.dia}` : ''}${ctx.res ? `. Resultado según la planilla oficial: ${ctx.res}` : ''}.
+- ${ctx.club} juega con camiseta ${F.color}. ${ctx.rival} juega con camiseta ${F.colRival}.
+- En el primer tiempo ${ctx.club} ataca hacia la ${lado[0]} de la cámara; en el segundo tiempo, hacia la ${lado[1]}.
+- Tipo de video: ${AV_TIPOS.find(t => t[0] === F.tipo)[1].toLowerCase()}. Son ${ctx.n} clip(s), etiquetados "Clip 1" a "Clip ${ctx.n}" en orden.${F.tipo === 'highlights' ? ' Son highlights de Veo: cada clip es una jugada suelta y no está el partido entero.' : F.tipo === 'recorte' ? ' Es un recorte: solo una parte del partido.' : ''}
+${ctx.caps ? `- También van ${ctx.caps} captura(s) de Veo Analytics (mapa de calor, estadísticas o ficha del jugador). Usalas como dato extra, pero lo que afirmes tiene que verse en los clips.\n` : ''}${F.modo === 'jugador' ? `- Foco: un jugador de ${ctx.club}${ctx.jugador ? `, ${ctx.jugador}` : ''}: ${F.quien}. Analizá sus acciones con y sin pelota, su posicionamiento y sus decisiones. Las debilidades, "bien" y "corregir" son de él; el resumen, el marcador, las llegadas y los goles siguen siendo del partido.\n` : `- Foco: cómo funcionó ${ctx.club} como equipo, sobre todo cómo defiende y por dónde le llegan.\n`}${F.notas ? `- El cuerpo técnico pide que te fijes en: ${F.notas}\n` : ''}
+Devolvé SOLO un JSON con esta forma:
+{
+  "resumen": "3 a 5 oraciones sobre el partido",
+  "marcador": {"nosotros": 0, "rival": 0, "nota": "de dónde sale el marcador o por qué no se sabe"},
+  "llegadas": {"izquierda": 0, "centro": 0, "derecha": 0, "espalda": 0},
+  "debilidades": [{"titulo": "frase corta", "gravedad": "alta", "patron": "qué se repite y por qué pasa", "jugadas": ${jug}}],
+  "goles": {"favor": ${jug}, "contra": ${jug}},
+  "bien": [{"texto": "", "jugadas": ${jug}}],
+  "corregir": [{"texto": "qué corregir y cómo", "jugadas": ${jug}}]
+}
+
+Reglas:
+- Cada jugada se cita con el número de clip y "seg": el segundo dentro de ESE clip (desde su inicio, número entero) donde empieza la acción.
+- "llegadas" cuenta las llegadas de ${ctx.rival} a nuestra mitad de cancha según por dónde entraron: "izquierda", "centro" y "derecha" son las de ${ctx.club} mirando hacia el arco rival, y "espalda" son pelotas a la espalda de nuestra última línea. Contá solo lo que se ve.
+- "marcador" son los goles del partido. Si con lo que se ve no se puede saber, usá null y explicalo en "nota".
+- "debilidades" van de la más grave a la menos grave. "gravedad" es "alta" (nos costó un gol o una situación clara), "media" o "baja". Cada una con todas las jugadas donde aparece.
+- "bien" y "corregir" tienen de 2 a 5 puntos cada uno, concretos y accionables, con sus jugadas.
+- No inventes lo que no se ve en los videos.`;
+}
+
+// Lo que devuelve Gemini se acomoda a la forma del informe; lo que no cierra se descarta.
+function avNormalizar(x, n) {
+  const o = x && typeof x === 'object' ? x : {};
+  const txt = v => typeof v === 'string' ? v.trim() : '';
+  const num = v => v == null || v === '' || !Number.isFinite(Number(v)) ? null : Math.max(0, Math.round(Number(v)));
+  const seg = v => typeof v === 'string' && /^\d+(:\d+){1,2}$/.test(v.trim()) ? v.trim().split(':').reduce((a, b) => a * 60 + Number(b), 0) : num(v) ?? 0;
+  const jugadas = l => (Array.isArray(l) ? l : []).map(j => ({ clip: num(j?.clip), seg: seg(j?.seg), nota: txt(j?.nota || j?.descripcion) })).filter(j => j.clip >= 1 && j.clip <= n);
+  const puntos = l => (Array.isArray(l) ? l : []).map(b => typeof b === 'string' ? { texto: b.trim(), jugadas: [] } : { texto: txt(b?.texto), jugadas: jugadas(b?.jugadas) }).filter(b => b.texto);
+  return {
+    resumen: txt(o.resumen),
+    marcador: { nosotros: num(o.marcador?.nosotros), rival: num(o.marcador?.rival), nota: txt(o.marcador?.nota) },
+    llegadas: Object.fromEntries(AV_ZONAS.map(([k]) => [k, num(o.llegadas?.[k]) ?? 0])),
+    debilidades: (Array.isArray(o.debilidades) ? o.debilidades : [])
+      .map(d => ({ titulo: txt(d?.titulo), gravedad: d?.gravedad in AV_GRAV ? d.gravedad : 'media', patron: txt(d?.patron), jugadas: jugadas(d?.jugadas) }))
+      .filter(d => d.titulo).sort((a, b) => AV_GRAV[a.gravedad] - AV_GRAV[b.gravedad] || b.jugadas.length - a.jugadas.length),
+    goles: { favor: jugadas(o.goles?.favor), contra: jugadas(o.goles?.contra) },
+    bien: puntos(o.bien), corregir: puntos(o.corregir),
+  };
+}
+
+async function avAnalizar() {
+  const F = avForm(), S = pmSesion(), clave = (leer('pm-gemini-clave') || '').trim(), modelo = leer('pm-gemini-modelo') || AV_MODELOS[0];
+  const p = avPartidos(F.cat).find(x => x.id === F.partido);
+  const falta = !F.clips.length ? 'Elegí la carpeta o los videos del partido.'
+    : !F.partido ? 'Elegí el partido.' : F.partido === 'otro' && !F.rival.trim() ? 'Poné el rival.'
+    : !F.color.trim() || !F.colRival.trim() ? 'Poné el color de las dos camisetas: así Gemini sabe quién es quién.'
+    : !F.ataca ? `Elegí hacia dónde ataca ${PM.club.nombre} en el primer tiempo.`
+    : F.modo === 'jugador' && !F.quien.trim() ? 'Poné cómo reconocer al jugador en el video (número y puesto).'
+    : F.clips.some(c => c.f.size > 2e9) ? 'Hay un video de más de 2 GB, que es el máximo que acepta Gemini.'
+    : F.capturas.reduce((n, f) => n + f.size, 0) > 15e6 ? 'Las capturas pesan demasiado (más de 15 MB en total). Quitá alguna.'
+    : !clave ? 'Pegá la clave de API de Gemini.' : '';
+  if (falta) { aviso(falta); return; }
+  guardar('pm-av-ult', JSON.stringify({ color: F.color.trim() }));
+  const rival = p ? p.rival : F.rival.trim(), dia = p ? p.dia : F.dia;
+  const J = F.modo === 'jugador' ? pmJug(F.jugador) : null;
+  const clips = F.clips.slice(), caps = F.capturas.slice();
+  AV_RUN = { ctl: new AbortController(), fase: 'sube', clips: clips.map(c => ({ n: c.f.name, pct: 0, est: 'espera' })), error: '' };
+  avPintarRun(); $('#av-run')?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  const subidos = [];
+  try {
+    await avDeA(clips, 3, async (c, i) => {
+      const R = AV_RUN.clips[i]; R.est = 'sube'; avPintarRun();
+      subidos[i] = await avSubir(c.f, `Clip ${i + 1} · ${c.f.name}`, clave, x => { R.pct = x; avPintarRun(); });
+      R.est = 'procesa'; R.pct = 1; avPintarRun();
+      subidos[i] = await avActivo(subidos[i], clave);
+      R.est = 'listo'; avPintarRun();
+    }).catch(e => { AV_RUN.ctl.abort(); throw e; });
+    AV_RUN.fase = 'analiza'; avPintarRun();
+    const partes = clips.flatMap((c, i) => [{ text: `Clip ${i + 1} (${c.f.name}):` }, { file_data: { mime_type: subidos[i].mimeType, file_uri: subidos[i].uri } }]);
+    for (const [i, f] of caps.entries()) partes.push({ text: `Captura ${i + 1} de Veo Analytics (${f.name}):` }, { inline_data: { mime_type: f.type || 'image/png', data: await avBase64(f) } });
+    partes.push({ text: avPrompt(F, { club: PM.club.nombre, plantel: pmCatN(F.cat), rival, dia: dia ? fDia(dia) : '', res: p ? `${PM.club.nombre} ${p.gf}, ${rival} ${p.gc}` : '', n: clips.length, caps: caps.length, jugador: J?.nombre }) });
+    const cfg = { responseMimeType: 'application/json', temperature: 0.3, ...(F.tipo === 'completo' ? { mediaResolution: 'MEDIA_RESOLUTION_LOW' } : {}) };
+    const res = await (await avPedir(`/v1beta/models/${encodeURIComponent(modelo)}:generateContent`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ contents: [{ role: 'user', parts: partes }], generationConfig: cfg }) }, clave)).json();
+    const txt = (res.candidates?.[0]?.content?.parts || []).filter(x => !x.thought).map(x => x.text || '').join('').trim();
+    if (!txt) throw new Error(res.promptFeedback?.blockReason ? `Gemini no quiso analizar los videos (${res.promptFeedback.blockReason}).` : 'Gemini no devolvió el informe. Probá de nuevo.');
+    let crudo; try { crudo = JSON.parse(txt.replace(/^```(?:json)?\s*|\s*```$/g, '')); } catch { throw new Error('Gemini devolvió un informe que no se pudo leer. Probá de nuevo o con otro modelo.'); }
+    const r = {
+      id: 'av' + Date.now().toString(36), div: F.cat, creado: new Date(Date.now() - 3 * 3600e3).toISOString().slice(0, 16), autor: S.u || S.c, autorN: S.nombre,
+      modo: F.modo, jugador: F.modo === 'jugador' ? { c: J?.c || '', nombre: J?.nombre || '', quien: F.quien.trim() } : null,
+      partido: { id: p?.id || '', dia: dia || '', rival, gf: p?.gf ?? null, gc: p?.gc ?? null },
+      datos: { color: F.color.trim(), colRival: F.colRival.trim(), ataca: F.ataca, tipo: F.tipo, modelo },
+      clips: clips.map(c => c.f.name), capturas: caps.length, informe: avNormalizar(crudo, clips.length),
+    };
+    pmEst().analisis.unshift(r); pmGuardar();
+    AV_MEDIA[r.id] = clips; F.clips = []; F.capturas = []; AV_RUN = null;
+    aviso('Informe listo y guardado.');
+    if (location.hash.startsWith('#/clubes/analisis')) location.hash = '#/clubes/analisis/' + r.id; else avPintarRun();
+  } catch (e) {
+    AV_RUN.fase = 'error'; AV_RUN.error = e.name === 'AbortError' ? 'Cancelaste el análisis. Los videos que ya se habían subido se borran de Gemini.' : e.message;
+    avPintarRun();
+  } finally {
+    subidos.filter(Boolean).forEach(f => avBorrar(f, clave));
+  }
+}
+
+// ----- el informe -----
+function avMapa(ll) {
+  const max = Math.max(1, ...Object.values(ll)), w = 280 / 3;
+  const zona = (k, x, y, ancho, alto) => {
+    const n = ll[k] || 0, cx = x + ancho / 2, cy = y + alto / 2;
+    return `<rect x="${x}" y="${y}" width="${ancho}" height="${alto}" style="fill:${n ? `color-mix(in srgb,var(--danger) ${Math.round(12 + 58 * n / max)}%,var(--surface))` : 'var(--surface-2)'}"/>
+      <text class="zn" x="${cx}" y="${cy + (alto > 60 ? 10 : 2)}">${n}</text><text class="zl" x="${cx}" y="${cy + (alto > 60 ? 26 : 18)}">${AV_ZONAS.find(z => z[0] === k)[1]}</text>`;
+  };
+  return `<svg viewBox="0 0 300 236" role="img" aria-label="Llegadas del rival a nuestra mitad: ${AV_ZONAS.map(([k, n]) => `${n.toLowerCase()} ${ll[k] || 0}`).join(', ')}">
+    ${zona('izquierda', 10, 10, w, 100)}${zona('centro', 10 + w, 10, w, 100)}${zona('derecha', 10 + 2 * w, 10, w, 100)}${zona('espalda', 10, 110, 280, 44)}
+    <rect class="ln" x="10" y="154" width="280" height="66" style="fill:var(--surface-2)"/>
+    <path class="ln" d="M10 10H290V220H10Z M126 10A24 24 0 0 0 174 10 M67 154H233V220 M67 220V154 M112 198H188V220 M112 220V198 M128 220V226H172V220"/>
+    <path class="ln dl" d="M${10 + w} 10V110 M${10 + 2 * w} 10V110 M10 110H290"/>
+    <text class="zl" x="150" y="186">Nuestro arco</text></svg>`;
+}
+const avJ = j => `<button type="button" class="chip pm-av-j" data-pm="av-j" data-v="${j.clip}|${j.seg}">C${j.clip} · ${avT(j.seg)}</button>`;
+const avJugadas = l => l.length ? `<div class="pm-av-js">${l.map(j => `<div class="pm-av-jl">${avJ(j)}${j.nota ? `<span>${esc(j.nota)}</span>` : ''}</div>`).join('')}</div>` : '';
+
+function avInforme(id) {
+  const r = avVisibles().find(x => x.id === id), volver = atras('#/clubes/analisis', 'Volver a Análisis de video');
+  if (!r) return volver + '<div class="empty">Ese informe no existe o no es de tus planteles.</div>';
+  const I = r.informe, M = AV_MEDIA[id], club = PM.club.nombre, mk = I.marcador, n = Object.values(I.llegadas).reduce((a, b) => a + b, 0);
+  // Si el partido tiene planilla, manda el resultado oficial.
+  const marc = r.partido.gf != null ? `${r.partido.gf} - ${r.partido.gc}` : mk.nosotros != null && mk.rival != null ? `${mk.nosotros} - ${mk.rival}` : '';
+  const tipo = AV_TIPOS.find(t => t[0] === r.datos.tipo)?.[1] || '';
+  const goles = (l, t) => `<div class="panel-h sub"><b>${t}</b><span>${l.length}</span></div>${l.length ? `<div class="side sola">${l.map(j => `<div class="alert pm-av-gol">${avJ(j)}<span>${esc(j.nota) || 'Sin descripción.'}</span></div>`).join('')}</div>` : '<p class="pm-nota pm-sin pm-av-pad">Ninguno en los clips.</p>'}`;
+  const puntos = (l, bien) => l.length ? `<div class="side sola">${l.map(b => `<div class="alert${bien ? ' pm-al mas' : ''}"><b>${esc(b.texto)}</b><b class="lvl ${bien ? 'baja' : 'media'}">${bien ? 'Bien' : 'Corregir'}</b>${avJugadas(b.jugadas)}</div>`).join('')}</div>` : '<div class="ok">Nada para marcar.</div>';
+  const video = M ? `<section class="panel pm-av-play"><video id="av-v" controls playsinline preload="metadata" data-clip="1" src="${avURL(M[0])}"></video>
+      <div class="chips pm-av-clips">${M.map((c, i) => `<button type="button" class="chip" data-pm="av-clip" data-v="${i + 1}" aria-pressed="${i === 0}">C${i + 1}</button>`).join('')}</div>
+      <p class="pm-nota" id="av-cual">Clip 1 · ${esc(M[0].f.name)}</p></section>`
+    : `<section class="panel pm-form" id="av-recargar"><div class="pm-av-f">Cargá los clips para ver las jugadas<span class="pm-av-ayuda">Los videos no se guardan. Elegí la misma carpeta o los mismos ${r.clips.length} ${r.clips.length === 1 ? 'video' : 'videos'} que se analizaron.</span>
+      <div class="pm-av-btns"><label class="btn">Elegir carpeta<input type="file" data-av-re webkitdirectory multiple hidden></label><label class="btn">Elegir videos<input type="file" data-av-re accept="video/*,.mov,.mkv" multiple hidden></label></div></div></section>`;
+  return `${volver}
+    <section class="panel"><div class="panel-h"><span class="comp">${crest(PM.club.equipos[0].equipo)}<span class="t"><b>${esc(club)} vs ${esc(r.partido.rival)}</b><small>${esc(pmCatN(r.div))}${r.partido.dia ? ' · ' + fDia(r.partido.dia) : ''} · ${tipo} · ${r.modo === 'jugador' ? 'Jugador: ' + esc([r.jugador.nombre, r.jugador.quien].filter(Boolean).join(', ')) : 'Equipo'}</small></span></span>${marc ? `<span class="pm-av-marc">${marc}</span>` : ''}</div>
+      ${I.resumen ? `<p class="pm-av-txt">${esc(I.resumen)}</p>` : ''}${mk.nota ? `<p class="pm-nota">${esc(mk.nota)}</p>` : ''}</section>
+    <div class="pm-av-cont"><div class="pm-av-grid"><div class="stack pm-av-cuerpo">
+      <section class="panel"><div class="panel-h"><b>Por dónde nos llegaron</b><span>${n} ${n === 1 ? 'llegada' : 'llegadas'}</span></div><div class="pm-av-mapa">${avMapa(I.llegadas)}</div>
+        <p class="pm-nota">Nuestra mitad de cancha, con nuestro arco abajo. Izquierda y derecha son las nuestras, atacando hacia arriba; espalda son pelotas detrás de la última línea.</p></section>
+      <section class="panel"><div class="panel-h"><b>Debilidades</b><span>De la más grave a la menos</span></div>
+        ${I.debilidades.length ? `<div class="side sola">${I.debilidades.map(d => `<div class="alert"><b>${esc(d.titulo)}</b><b class="lvl ${d.gravedad}">${d.gravedad}</b>${d.patron ? `<span>${esc(d.patron)}</span>` : ''}${avJugadas(d.jugadas)}</div>`).join('')}</div>` : '<div class="ok">No marcó debilidades.</div>'}</section>
+      <section class="panel"><div class="panel-h"><b>Goles</b></div>${goles(I.goles.favor, 'A favor')}${goles(I.goles.contra, 'En contra')}</section>
+      <section class="panel"><div class="panel-h"><b>Qué salió bien</b></div>${puntos(I.bien, true)}</section>
+      <section class="panel"><div class="panel-h"><b>Qué corregir</b></div>${puntos(I.corregir, false)}</section>
+      <p class="pm-nota pm-sin">Hecho con ${esc(r.datos.modelo)} el ${fDia(r.creado.slice(0, 10))} por ${esc(r.autorN)}, con ${r.clips.length} ${r.clips.length === 1 ? 'clip' : 'clips'}${r.capturas ? ` y ${r.capturas} ${r.capturas === 1 ? 'captura' : 'capturas'}` : ''}. Revisalo con el video: la IA se puede equivocar.</p>
+    </div><aside class="pm-av-video">${video}</aside></div></div>`;
+}
+
+// Tocar una jugada: el reproductor cambia a ese clip y salta a ese segundo.
+function avIr(clip, seg) {
+  const M = AV_MEDIA[decodeURIComponent(location.hash.split('/')[3] || '')], v = $('#av-v');
+  if (!M || !v) { $('#av-recargar')?.scrollIntoView({ behavior: 'smooth', block: 'center' }); aviso('Cargá los clips para ver las jugadas.'); return; }
+  const c = M[clip - 1]; if (!c) return;
+  const ir = () => { if (seg != null) v.currentTime = Math.max(0, Math.min(seg, (v.duration || seg + 1) - 0.1)); v.play().catch(() => {}); };
+  if (v.dataset.clip !== String(clip)) { v.dataset.clip = clip; v.src = avURL(c); v.addEventListener('loadedmetadata', ir, { once: true }); } else ir();
+  document.querySelectorAll('.pm-av-clips .chip').forEach(b => b.setAttribute('aria-pressed', b.dataset.v === String(clip)));
+  $('#av-cual').textContent = `Clip ${clip} · ${c.f.name}`;
+  if (getComputedStyle(v.closest('.pm-av-video')).position !== 'sticky') v.scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+
+function avEnlazar() {
+  const repintar = () => { const y = scrollY; renderClubes('analisis').then(() => scrollTo({ top: y })); };
+  const f = $('#pm-av'), F = AV_F;
+  if (f) {
+    f.oninput = ev => {
+      const i = ev.target, k = i.dataset.av; if (!k || i.type === 'file' || i.tagName === 'SELECT') return;
+      if (k === 'clave') guardar('pm-gemini-clave', i.value.trim()); else F[k] = i.value;
+    };
+    f.onchange = ev => {
+      const i = ev.target, k = i.dataset.av; if (!k) return;
+      if (k === 'carpeta' || k === 'videos') {
+        const v = avVideos(i.files);
+        if (!v.length) { aviso(k === 'carpeta' ? 'En esa carpeta no hay videos.' : 'Eso no son videos.'); return; }
+        F.clips = v.map(x => ({ f: x })); aviso(`${v.length} ${v.length === 1 ? 'clip' : 'clips'}, ordenados por nombre.`);
+      } else if (k === 'capturas') F.capturas.push(...[...i.files].filter(x => x.type.startsWith('image/')));
+      else if (k === 'modelo') { guardar('pm-gemini-modelo', i.value); return; }
+      else if (k === 'cat') { F.cat = i.value; F.partido = ''; F.jugador = ''; }
+      else if (k === 'partido' || k === 'jugador') F[k] = i.value;
+      else return;
+      repintar();
+    };
+    f.onclick = ev => {
+      const b = ev.target.closest('button[data-av]'); if (!b) return;
+      if (b.dataset.av === 'quitar-cap') F.capturas.splice(Number(b.dataset.v), 1); else F[b.dataset.av] = b.dataset.v;
+      repintar();
+    };
+    f.onsubmit = ev => { ev.preventDefault(); avAnalizar(); };
+  }
+  // Volver a cargar los clips de un informe guardado: por nombre si están todos, si no por orden.
+  document.querySelectorAll('[data-av-re]').forEach(i => i.onchange = () => {
+    const id = decodeURIComponent(location.hash.split('/')[3] || ''), r = pmEst().analisis.find(x => x.id === id), v = avVideos(i.files);
+    if (!r || !v.length) { aviso('Ahí no hay videos.'); return; }
+    const porNombre = r.clips.map(n => v.find(x => x.name === n));
+    if (porNombre.every(Boolean)) AV_MEDIA[id] = porNombre.map(x => ({ f: x }));
+    else if (v.length === r.clips.length) { AV_MEDIA[id] = v.map(x => ({ f: x })); aviso('Los nombres no coinciden: se usan por orden.'); }
+    else { aviso(`El informe se hizo con ${r.clips.length} ${r.clips.length === 1 ? 'clip' : 'clips'} y elegiste ${v.length}.`); return; }
+    repintar();
+  });
+}
+
 // ----- Técnicos (solo el administrador) -----
 function pmTecnicos() {
   const E = pmEst(), dts = E.usuarios.filter(x => x.rol === 'dt');
@@ -2843,6 +3241,11 @@ function pmEnlazar() {
     else if (a === 'voy') { const c = $('#pm-yo-sel').value; (E.resp[b.dataset.p] ??= {})[c] = v; pmGuardar(); aviso(v === 'va' ? 'Anotado: vas.' : 'Anotado: no vas.'); }
     else if (a === 'borrar-am') { E.amistosos = E.amistosos.filter(x => x.id !== v); pmGuardar(); }
     else if (a === 'borrar-vid') { E.videos = E.videos.filter(x => x.id !== v); pmGuardar(); }
+    else if (a === 'av-j') { const [c, s] = v.split('|').map(Number); avIr(c, s); return; }
+    else if (a === 'av-clip') { avIr(Number(v), null); return; }
+    else if (a === 'av-cancelar') { AV_RUN?.ctl.abort(); return; }
+    else if (a === 'av-cerrar') AV_RUN = null;
+    else if (a === 'av-borrar') { if (!confirm('¿Borrar este informe? No se puede deshacer.')) return; E.analisis = E.analisis.filter(x => x.id !== v); delete AV_MEDIA[v]; pmGuardar(); aviso('Informe borrado.'); }
     else if (a === 'copiar') { const t = $('#' + v).textContent; navigator.clipboard?.writeText(t).then(() => aviso('Copiado.'), () => aviso('No se pudo copiar. Seleccioná el texto.')); return; }
     else if (a === 'asignar') { const x = pmUsuario(b.dataset.u); const s = new Set(x.equipos || []); s.has(v) ? s.delete(v) : s.add(v); x.equipos = PM.cats.filter(c => s.has(c)); pmGuardar(); }
     else if (a === 'quitar-dt') { E.usuarios = E.usuarios.filter(x => x.u !== v); pmGuardar(); aviso('Técnico quitado.'); }
@@ -2888,6 +3291,7 @@ function pmEnlazar() {
     const s = $('#vid-p'); if (!s || s.selectedIndex < 0) { aviso('Todavía no hay partidos jugados para asociar el video.'); return; }
     E.videos.unshift({ id: String(Date.now()), div: s.value.split('|')[0], titulo: s.options[s.selectedIndex].textContent, url }); pmGuardar(); aviso('Video guardado.'); repintar();
   };
+  avEnlazar();
 }
 
 // Resultados: una fila por partido, "Final" a la izquierda y los goles a la derecha (el ganador resaltado).
