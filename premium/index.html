@@ -954,6 +954,10 @@ input.pm-in[type="text"]{flex:1;max-width:240px}
 /* análisis de video */
 .pm-av-f{display:flex;flex-direction:column;gap:6px;font-size:.82rem;font-weight:600;color:var(--muted);min-width:0}
 .pm-av-ayuda{font-weight:500}
+.pm-av-veo textarea,.pm-av-veo input{font:inherit;font-size:.9rem;color:var(--fg);background:var(--surface-2);border:1px solid var(--line);border-radius:var(--r-sm);padding:10px 12px;width:100%}
+.pm-av-veo textarea{min-height:96px;resize:vertical}
+.pm-av-veo-t{display:flex;align-items:center;gap:8px}
+.pm-av-ok{color:var(--ok, inherit)}
 .pm-av-key{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px 14px;padding:12px 14px;border:1px solid var(--line);border-radius:10px;background:var(--surface-2);font-size:.88rem}
 .pm-av-key > span{flex:1 1 240px;min-width:0}
 .pm-av-btns{display:flex;flex-wrap:wrap;gap:8px}
@@ -2796,7 +2800,7 @@ function avVeo(nombre) {
 }
 let AV_INFO = []; // datos de Veo de los clips del informe que se está mostrando
 function avForm() {
-  if (!AV_F) AV_F = { modo: 'equipo', cat: null, partido: '', rival: '', dia: '', color: pmLeerJ('pm-av-ult', {}).color || '', colRival: '', ataca: '', tipo: 'highlights', jugador: '', quien: '', notas: '', clips: [], capturas: [] };
+  if (!AV_F) AV_F = { modo: 'equipo', cat: null, partido: '', rival: '', dia: '', color: pmLeerJ('pm-av-ult', {}).color || '', colRival: '', ataca: '', tipo: 'highlights', jugador: '', quien: '', notas: '', veo: '', veoLink: '', clips: [], capturas: [] };
   if (!pmCV().includes(AV_F.cat)) { AV_F.cat = pmCV().includes(PM_CAT) ? PM_CAT : pmCV()[0]; AV_F.partido = ''; AV_F.jugador = ''; }
   return AV_F;
 }
@@ -2831,7 +2835,11 @@ function pmAnalisis() {
       <div class="pm-av-f">Videos<span class="pm-av-ayuda">Con Veo se bajan los highlights en un zip con un clip por jugada: descomprimilo y elegí la carpeta. Se usan solo los videos, ordenados por nombre.</span>
         <div class="pm-av-btns"><label class="btn">Elegir carpeta<input type="file" data-av="carpeta" webkitdirectory multiple hidden></label><label class="btn">Elegir videos<input type="file" data-av="videos" accept="video/*,.mov,.mkv" multiple hidden></label></div></div>
       ${clips}
-      <div class="pm-av-f">Capturas de Veo Analytics (opcional)<span class="pm-av-ayuda">Mapa de calor, estadísticas o la ficha del jugador. Van como imágenes junto con los videos.</span>
+      <div class="pm-av-f pm-av-veo"><span class="pm-av-veo-t">Informe de Veo <b class="lvl baja">Con Veo</b></span><span class="pm-av-ayuda">Si el club tiene Veo Analytics, sumá el informe del partido: el análisis cruza los números con los clips (posesión, pases, duelos, tiros, y los números de cada jugador). Abrí el informe del partido en Veo, tocá <b>Cmd+A</b> (o Ctrl+A), <b>Cmd+C</b> y pegalo acá. Con el informe solo, sin clips, también se puede analizar.</span>
+        <textarea data-av="veo" rows="4" placeholder="Pegá acá el informe del partido de Veo">${esc(F.veo)}</textarea>
+        <input type="url" data-av="veoLink" value="${esc(F.veoLink)}" placeholder="Link del informe en Veo (opcional, para volver a abrirlo)">
+        ${F.veo.trim() ? `<span class="pm-av-ayuda pm-av-ok">✓ Informe de Veo cargado.</span>` : ''}</div>
+      <div class="pm-av-f">Capturas de Veo Analytics (opcional)<span class="pm-av-ayuda">Para lo que no se puede copiar como texto: mapa de calor, mapa de tiros, red de pases. Van como imágenes junto con los videos.</span>
         <div class="pm-av-btns"><label class="btn">Agregar capturas<input type="file" data-av="capturas" accept="image/*" multiple hidden></label></div></div>
       ${caps ? `<div class="pm-av-caps">${caps}</div>` : ''}
       <div class="pm-campos">${campo('notas', 'Algo en lo que quieras que se fije (opcional)', 'Ej.: las pelotas paradas en contra')}</div>
@@ -2944,7 +2952,12 @@ function avPrompt(F, ctx) {
 Partido: ${ctx.club} (${ctx.plantel}) contra ${ctx.rival}${ctx.dia ? `, ${ctx.dia}` : ''}${ctx.res ? `. Resultado según la planilla oficial: ${ctx.res}` : ''}.
 - ${ctx.club} juega con camiseta ${F.color}. ${ctx.rival} juega con camiseta ${F.colRival}.
 - En el primer tiempo ${ctx.club} ataca hacia la ${lado[0]} de la cámara; en el segundo tiempo, hacia la ${lado[1]}.
-- Tipo de video: ${AV_TIPOS.find(t => t[0] === F.tipo)[1].toLowerCase()}. Son ${ctx.n} clip(s), etiquetados "Clip 1" a "Clip ${ctx.n}" en orden.${F.tipo === 'highlights' ? ' Son highlights de Veo: cada clip es una jugada suelta y no está el partido entero.' : F.tipo === 'recorte' ? ' Es un recorte: solo una parte del partido.' : ''}
+${ctx.n ? `- Tipo de video: ${AV_TIPOS.find(t => t[0] === F.tipo)[1].toLowerCase()}. Son ${ctx.n} clip(s), etiquetados "Clip 1" a "Clip ${ctx.n}" en orden.${F.tipo === 'highlights' ? ' Son highlights de Veo: cada clip es una jugada suelta y no está el partido entero.' : F.tipo === 'recorte' ? ' Es un recorte: solo una parte del partido.' : ''}` : '- No hay video: trabajá solo con el informe de Veo. Todas las listas de "jugadas" van vacías ([]) y "llegadas" en 0 si el informe no permite saberlo.'}
+${F.veo.trim() ? `- Va el informe de Veo Analytics del partido, copiado de la web de Veo (texto desordenado: los números vienen de a pares, primero el rival y después ${ctx.club}, o por número de camiseta; en Veo ${ctx.club} puede aparecer como "ELF" o con el nombre del plantel y el rival como "Equipo rival"). Usá esos números para respaldar o matizar lo que ves en los clips; si no coinciden, decilo.${F.modo === 'jugador' ? ' Buscá la fila del jugador en "Player Stats" (por su número de camiseta) y usala.' : ''}
+<<<INFORME DE VEO
+${F.veo.trim().slice(0, 120000)}
+INFORME DE VEO>>>
+` : ''}
 ${ctx.caps ? `- También van ${ctx.caps} captura(s) de Veo Analytics (mapa de calor, estadísticas o ficha del jugador). Usalas como dato extra, pero lo que afirmes tiene que verse en los clips.\n` : ''}${F.modo === 'jugador' ? `- Foco: un jugador de ${ctx.club}${ctx.jugador ? `, ${ctx.jugador}` : ''}: ${F.quien}. Analizá sus acciones con y sin pelota, su posicionamiento y sus decisiones. Las debilidades, "bien" y "corregir" son de él; el resumen, el marcador, las llegadas y los goles siguen siendo del partido.\n` : `- Foco: cómo funcionó ${ctx.club} como equipo, sobre todo cómo defiende y por dónde le llegan.\n`}${F.notas ? `- El cuerpo técnico pide que te fijes en: ${F.notas}\n` : ''}
 Devolvé SOLO un JSON con esta forma:
 {
@@ -2954,7 +2967,8 @@ Devolvé SOLO un JSON con esta forma:
   "debilidades": [{"titulo": "frase corta", "gravedad": "alta", "patron": "qué se repite y por qué pasa", "jugadas": ${jug}}],
   "goles": {"favor": ${jug}, "contra": ${jug}},
   "bien": [{"texto": "", "jugadas": ${jug}}],
-  "corregir": [{"texto": "qué corregir y cómo", "jugadas": ${jug}}]
+  "corregir": [{"texto": "qué corregir y cómo", "jugadas": ${jug}}]${F.veo.trim() ? `,
+  "numeros": [{"dato": "el número de Veo, ej. 33 intercepciones (+13 vs. últimos 5)", "lectura": "qué significa para el equipo o el jugador"}]` : ''}
 }
 
 Reglas:
@@ -2963,7 +2977,8 @@ Reglas:
 - "marcador" son los goles del partido. Si con lo que se ve no se puede saber, usá null y explicalo en "nota".
 - "debilidades" van de la más grave a la menos grave. "gravedad" es "alta" (nos costó un gol o una situación clara), "media" o "baja". Cada una con todas las jugadas donde aparece.
 - "bien" y "corregir" tienen de 2 a 5 puntos cada uno, concretos y accionables, con sus jugadas.
-- No inventes lo que no se ve en los videos.`;
+- No inventes lo que no se ve en los videos.${F.veo.trim() ? `
+- "numeros" son de 3 a 6 datos del informe de Veo que más le sirven al cuerpo técnico, cada uno con su lectura. Usá los números exactos del informe, no los redondees ni inventes.` : ''}`;
 }
 
 // Lo que devuelve Gemini se acomoda a la forma del informe; lo que no cierra se descarta.
@@ -2983,13 +2998,15 @@ function avNormalizar(x, n) {
       .filter(d => d.titulo).sort((a, b) => AV_GRAV[a.gravedad] - AV_GRAV[b.gravedad] || b.jugadas.length - a.jugadas.length),
     goles: { favor: jugadas(o.goles?.favor), contra: jugadas(o.goles?.contra) },
     bien: puntos(o.bien), corregir: puntos(o.corregir),
+    numeros: (Array.isArray(o.numeros) ? o.numeros : []).map(x => ({ dato: txt(x?.dato), lectura: txt(x?.lectura) })).filter(x => x.dato).slice(0, 8),
   };
 }
 
 async function avAnalizar() {
   const F = avForm(), S = pmSesion(), clave = avClave(), modelo = avModelo();
   const p = avPartidos(F.cat).find(x => x.id === F.partido);
-  const falta = !F.clips.length ? 'Elegí la carpeta o los videos del partido.'
+  const falta = !F.clips.length && !F.veo.trim() ? 'Elegí la carpeta o los videos del partido, o pegá el informe de Veo.'
+    : F.veo.length > 120000 ? 'El informe de Veo es demasiado largo. Copiá solo la página del informe del partido.'
     : !F.partido ? 'Elegí el partido.' : F.partido === 'otro' && !F.rival.trim() ? 'Poné el rival.'
     : !F.color.trim() || !F.colRival.trim() ? 'Poné el color de las dos camisetas: así Gemini sabe quién es quién.'
     : !F.ataca ? `Elegí hacia dónde ataca ${PM.club.nombre} en el primer tiempo.`
@@ -3017,7 +3034,7 @@ async function avAnalizar() {
     const veo = clips.map(c => avVeo(c.f.name));
     const partes = clips.flatMap((c, i) => [{ text: `Clip ${i + 1} (${c.f.name})${veo[i].ini != null ? `: según Veo empieza en el ${avT(veo[i].ini)} del video del partido` : ''}${veo[i].tipo ? ` y Veo lo marcó como "${veo[i].tipo}"` : ''}. Revisá con la imagen de qué equipo es la jugada:` }, { file_data: { mime_type: subidos[i].mimeType, file_uri: subidos[i].uri } }]);
     for (const [i, f] of caps.entries()) partes.push({ text: `Captura ${i + 1} de Veo Analytics (${f.name}):` }, { inline_data: { mime_type: f.type || 'image/png', data: await avBase64(f) } });
-    partes.push({ text: avPrompt(F, { club: PM.club.nombre, plantel: pmCatN(F.cat), rival, dia: dia ? fDia(dia) : '', res: p ? `${PM.club.nombre} ${p.gf}, ${rival} ${p.gc}` : '', n: clips.length, caps: caps.length, jugador: J?.nombre }) });
+    partes.push({ text: avPrompt({ ...F }, { club: PM.club.nombre, plantel: pmCatN(F.cat), rival, dia: dia ? fDia(dia) : '', res: p ? `${PM.club.nombre} ${p.gf}, ${rival} ${p.gc}` : '', n: clips.length, caps: caps.length, jugador: J?.nombre }) });
     const cfg = { responseMimeType: 'application/json', temperature: 0.3, mediaResolution: 'MEDIA_RESOLUTION_LOW' };
     // Si Gemini está saturado (503) se reintenta solo y, si sigue, se prueba con otro modelo. Los videos ya subidos se reusan.
     const cuerpo = JSON.stringify({ contents: [{ role: 'user', parts: partes }], generationConfig: cfg });
@@ -3043,10 +3060,10 @@ async function avAnalizar() {
       modo: F.modo, jugador: F.modo === 'jugador' ? { c: J?.c || '', nombre: J?.nombre || '', quien: F.quien.trim() } : null,
       partido: { id: p?.id || '', dia: dia || '', rival, gf: p?.gf ?? null, gc: p?.gc ?? null },
       datos: { color: F.color.trim(), colRival: F.colRival.trim(), ataca: F.ataca, tipo: F.tipo, modelo: usado },
-      clips: clips.map(c => c.f.name), veo, capturas: caps.length, informe: avNormalizar(crudo, clips.length),
+      clips: clips.map(c => c.f.name), veo, veoTexto: F.veo.trim().slice(0, 120000), veoLink: F.veoLink.trim(), capturas: caps.length, informe: avNormalizar(crudo, clips.length),
     };
     pmEst().analisis.unshift(r); pmGuardar();
-    AV_MEDIA[r.id] = clips; F.clips = []; F.capturas = []; AV_RUN = null;
+    AV_MEDIA[r.id] = clips; F.clips = []; F.capturas = []; F.veo = ''; F.veoLink = ''; AV_RUN = null;
     aviso('Informe listo y guardado.');
     if (location.hash.startsWith('#/clubes/analisis')) location.hash = '#/clubes/analisis/' + r.id; else avPintarRun();
   } catch (e) {
@@ -3086,7 +3103,7 @@ function avInforme(id) {
   const tipo = AV_TIPOS.find(t => t[0] === r.datos.tipo)?.[1] || '';
   const goles = (l, t) => `<div class="panel-h sub"><b>${t}</b><span>${l.length}</span></div>${l.length ? `<div class="side sola">${l.map(j => `<div class="alert pm-av-gol">${avJ(j)}<span>${esc(j.nota) || 'Sin descripción.'}</span></div>`).join('')}</div>` : '<p class="pm-nota pm-sin pm-av-pad">Ninguno en los clips.</p>'}`;
   const puntos = (l, bien) => l.length ? `<div class="side sola">${l.map(b => `<div class="alert${bien ? ' pm-al mas' : ''}"><b>${esc(b.texto)}</b><b class="lvl ${bien ? 'baja' : 'media'}">${bien ? 'Bien' : 'Corregir'}</b>${avJugadas(b.jugadas)}</div>`).join('')}</div>` : '<div class="ok">Nada para marcar.</div>';
-  const video = M ? `<section class="panel pm-av-play"><video id="av-v" controls playsinline preload="metadata" data-clip="1" src="${avURL(M[0])}"></video>
+  const video = !r.clips.length ? '' : M ? `<section class="panel pm-av-play"><video id="av-v" controls playsinline preload="metadata" data-clip="1" src="${avURL(M[0])}"></video>
       <div class="chips pm-av-clips">${M.map((c, i) => `<button type="button" class="chip" data-pm="av-clip" data-v="${i + 1}" aria-pressed="${i === 0}">C${i + 1}</button>`).join('')}</div>
       <p class="pm-nota" id="av-cual">Clip 1 · ${esc(M[0].f.name)}</p></section>`
     : `<section class="panel pm-form" id="av-recargar"><div class="pm-av-f">Cargá los clips para ver las jugadas<span class="pm-av-ayuda">Los videos no se guardan. Elegí la misma carpeta o los mismos ${r.clips.length} ${r.clips.length === 1 ? 'video' : 'videos'} que se analizaron.</span>
@@ -3100,9 +3117,10 @@ function avInforme(id) {
       <section class="panel"><div class="panel-h"><b>Debilidades</b><span>De la más grave a la menos</span></div>
         ${I.debilidades.length ? `<div class="side sola">${I.debilidades.map(d => `<div class="alert"><b>${esc(d.titulo)}</b><b class="lvl ${d.gravedad}">${d.gravedad}</b>${d.patron ? `<span>${esc(d.patron)}</span>` : ''}${avJugadas(d.jugadas)}</div>`).join('')}</div>` : '<div class="ok">No marcó debilidades.</div>'}</section>
       <section class="panel"><div class="panel-h"><b>Goles</b></div>${goles(I.goles.favor, 'A favor')}${goles(I.goles.contra, 'En contra')}</section>
+      ${(I.numeros || []).length ? `<section class="panel"><div class="panel-h"><b>Lo que dicen los números de Veo</b>${/^https:\/\//.test(r.veoLink || '') ? `<a class="share" href="${esc(r.veoLink)}" target="_blank" rel="noopener">Ver en Veo</a>` : ''}</div><div class="side sola">${I.numeros.map(x => `<div class="alert"><b>${esc(x.dato)}</b>${x.lectura ? `<span>${esc(x.lectura)}</span>` : ''}</div>`).join('')}</div></section>` : ''}
       <section class="panel"><div class="panel-h"><b>Qué salió bien</b></div>${puntos(I.bien, true)}</section>
       <section class="panel"><div class="panel-h"><b>Qué corregir</b></div>${puntos(I.corregir, false)}</section>
-      <p class="pm-nota pm-sin">Hecho con ${esc(r.datos.modelo)} el ${fDia(r.creado.slice(0, 10))} por ${esc(r.autorN)}, con ${r.clips.length} ${r.clips.length === 1 ? 'clip' : 'clips'}${r.capturas ? ` y ${r.capturas} ${r.capturas === 1 ? 'captura' : 'capturas'}` : ''}. Revisalo con el video: la IA se puede equivocar.</p>
+      <p class="pm-nota pm-sin">Hecho con ${esc(r.datos.modelo)} el ${fDia(r.creado.slice(0, 10))} por ${esc(r.autorN)}, ${r.clips.length ? `con ${r.clips.length} ${r.clips.length === 1 ? 'clip' : 'clips'}` : 'sin video'}${r.veoTexto ? ', el informe de Veo' : ''}${r.capturas ? ` y ${r.capturas} ${r.capturas === 1 ? 'captura' : 'capturas'}` : ''}. Revisalo con el video: la IA se puede equivocar.</p>
     </div><aside class="pm-av-video">${video}</aside></div></div>`;
 }
 
@@ -3136,6 +3154,7 @@ function avEnlazar() {
       else if (k === 'modelo') { guardar('pm-gemini-modelo', i.value); return; }
       else if (k === 'cat') { F.cat = i.value; F.partido = ''; F.jugador = ''; }
       else if (k === 'partido' || k === 'jugador') F[k] = i.value;
+      else if (k === 'veo') F.veo = i.value;
       else return;
       repintar();
     };
