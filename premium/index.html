@@ -954,6 +954,7 @@ input.pm-in[type="text"]{flex:1;max-width:240px}
 /* análisis de video */
 .pm-av-f{display:flex;flex-direction:column;gap:6px;font-size:.82rem;font-weight:600;color:var(--muted);min-width:0}
 .pm-av-ayuda{font-weight:500}
+.pm-av-subs{max-width:320px}
 .pm-av-veo textarea,.pm-av-veo input{font:inherit;font-size:.9rem;color:var(--fg);background:var(--surface-2);border:1px solid var(--line);border-radius:var(--r-sm);padding:10px 12px;width:100%}
 .pm-av-veo textarea{min-height:96px;resize:vertical}
 .pm-av-veo-t{display:flex;align-items:center;gap:8px}
@@ -2251,7 +2252,7 @@ const PM_CFG0 = { verAsistencia: true, verRacha: true, verMinutos: true, verRank
   pasarLista: false, convocatoria: false, recordatorio: true, recCuando: 'noche',
   avPlanilla: true, avRival: true, avResultado: true, avPractica: true, avConvocatoria: true };
 const PM_TABS = [['resumen', 'Resumen'], ['practicas', 'Prácticas'], ['cruce', 'Asistencia y minutos'], ['minutos', 'Minutos'],
-  ['convocatoria', 'Convocatoria'], ['recordatorios', 'Recordatorios'], ['videos', 'Videos'], ['analisis', 'Análisis de video'], ['ajustes', 'Ajustes']];
+  ['convocatoria', 'Convocatoria'], ['recordatorios', 'Recordatorios'], ['analisis', 'Análisis'], ['ajustes', 'Ajustes']];
 let PM = null; // modelo armado con los datos reales
 let PM_EST = null; // lo que se marca en este navegador
 let PM_CAT = null, PM_PRAC = null;
@@ -2424,6 +2425,7 @@ async function renderClubes(sub, rest = []) {
   if (!location.hash.startsWith('#/clubes')) return;
   const E = pmEst();
   const tabsV = pmTabs(pmSesion());
+  if (sub === 'videos') { location.replace('#/clubes/analisis/videos'); return; } // la vieja pestaña Videos ahora vive en Análisis
   const tab = tabsV.some(t => t[0] === sub) ? sub : 'resumen';
   if (sub !== 'ver') PM_VOLVER = E.rol === 'jug' ? '' : tab;
   $('#actualizado').textContent = 'Demo del plan para clubes: prácticas y asistencia de ejemplo, guardadas en este navegador.';
@@ -2805,10 +2807,14 @@ function avForm() {
   return AV_F;
 }
 
+// Análisis tiene dos secciones: Videos (los clips del partido, con o sin el informe de Veo) y Datos (solo el informe de Veo).
+const AV_SUBS = [['videos', 'Videos'], ['datos', 'Datos']];
 function pmAnalisis() {
   const id = decodeURIComponent(location.hash.split('/')[3] || '');
-  if (id) return avInforme(id);
-  const F = avForm(), ps = avPartidos(F.cat), club = esc(PM.club.nombre);
+  if (id && !AV_SUBS.some(x => x[0] === id)) return avInforme(id);
+  const F = avForm(); F.sub = id || F.sub || 'videos';
+  const V = F.sub === 'videos', ps = avPartidos(F.cat), club = esc(PM.club.nombre);
+  const subs = `<div class="seg pm-seg pm-av-subs" role="tablist" aria-label="Sección de Análisis">${AV_SUBS.map(([v, n]) => `<button type="button" role="tab" data-avsub="${v}" aria-pressed="${F.sub === v}" aria-selected="${F.sub === v}">${n}</button>`).join('')}</div>`;
   const clave = avClave(), donde = avDonde(), modelo = avModelo();
   const seg = (k, lista, nombre) => `<div class="seg pm-seg" role="group" aria-label="${nombre}">${lista.map(([v, n]) => `<button type="button" data-av="${k}" data-v="${v}" aria-pressed="${(k === 'donde' ? donde : F[k]) === v}">${n}</button>`).join('')}</div>`;
   const opt = (v, n, sel) => `<option value="${esc(v)}"${sel ? ' selected' : ''}>${esc(n)}</option>`;
@@ -2817,25 +2823,26 @@ function pmAnalisis() {
   const clips = F.clips.length ? `<details class="more pm-av-lista"><summary>${F.clips.length} ${F.clips.length === 1 ? 'clip' : 'clips'} · ${avMB(total)}</summary>${F.clips.map((c, i) => `<div class="pm-r"><span class="pm-r-t"><b>Clip ${i + 1}</b><small>${esc(c.f.webkitRelativePath || c.f.name)} · ${avMB(c.f.size)}</small></span></div>`).join('')}</details>` : '<p class="pm-nota pm-sin">Todavía no elegiste videos.</p>';
   const caps = F.capturas.map((f, i) => `<div class="pm-r"><span class="pm-r-t"><b>${esc(f.name)}</b><small>${avMB(f.size)}</small></span><button type="button" class="share" data-av="quitar-cap" data-v="${i}">Quitar</button></div>`).join('');
   const corre = AV_RUN && AV_RUN.fase !== 'error';
-  return `<p class="lede">Subí los clips del partido y Gemini arma el informe: por dónde nos llegan, qué se repite, los goles y qué corregir. Cada jugada te lleva al momento exacto del video.</p>
+  return `${subs}${V ? `<p class="lede">Subí los clips del partido y Gemini arma el informe: por dónde nos llegan, qué se repite, los goles y qué corregir. Cada jugada te lleva al momento exacto del video.</p>`
+    : `<p class="lede">Pegá el informe del partido de Veo Analytics y Gemini lo lee como un analista: qué dicen los números del equipo o de un jugador, qué cambió y qué corregir. No hace falta video.</p>`}
     <form class="panel pm-form" id="pm-av" novalidate>
       ${seg('modo', [['equipo', 'Equipo'], ['jugador', 'Jugador']], 'Qué analizar')}
       <div class="pm-campos">
         <label>Plantel<select data-av="cat">${pmCV().map(c => opt(c, pmCatN(c), c === F.cat)).join('')}</select></label>
         <label>Partido<select data-av="partido">${opt('', ps.length ? 'Elegí el partido' : 'Todavía no hay partidos jugados', !F.partido)}${ps.map(x => opt(x.id, `${x.gf}-${x.gc} vs ${x.rival} (${fDia(x.dia)})`, x.id === F.partido)).join('')}${opt('otro', 'Otro partido (amistoso o sin planilla)', F.partido === 'otro')}</select></label>
         ${F.partido === 'otro' ? `<label>Rival<input type="text" data-av="rival" list="av-rivales" value="${esc(F.rival)}" placeholder="Elegí o escribí el rival"></label><datalist id="av-rivales">${avRivales(F.cat).map(r => `<option value="${esc(r)}">`).join('')}</datalist>${campo('dia', 'Fecha', '', 'date')}` : ''}
-        ${campo('color', `Camiseta de ${club}`, 'Ej.: blanca con vivos azules')}
-        ${campo('colRival', 'Camiseta del rival', 'Ej.: roja')}
+        ${V ? `${campo('color', `Camiseta de ${club}`, 'Ej.: blanca con vivos azules')}
+        ${campo('colRival', 'Camiseta del rival', 'Ej.: roja')}` : ''}
       </div>
       ${F.modo === 'jugador' ? `<div class="pm-campos">
         <label>Jugador<select data-av="jugador">${opt('', 'Elegí el jugador', !F.jugador)}${pmDe(F.cat).sort((a, b) => a.nombre.localeCompare(b.nombre, 'es')).map(J => opt(J.c, J.nombre, J.c === F.jugador)).join('')}</select></label>
-        ${campo('quien', 'Cómo reconocerlo en el video', 'Ej.: soy el 7, extremo derecho')}</div>` : ''}
-      <div class="pm-av-f">En el primer tiempo ${club} ataca hacia la… (como se ve en la cámara)${seg('ataca', [['izq', 'Izquierda'], ['der', 'Derecha']], 'Hacia dónde ataca en el primer tiempo')}</div>
+        ${V ? campo('quien', 'Cómo reconocerlo en el video', 'Ej.: soy el 7, extremo derecho') : campo('quien', 'Número de camiseta en Veo', 'Ej.: 7')}</div>` : ''}
+      ${V ? `      <div class="pm-av-f">En el primer tiempo ${club} ataca hacia la… (como se ve en la cámara)${seg('ataca', [['izq', 'Izquierda'], ['der', 'Derecha']], 'Hacia dónde ataca en el primer tiempo')}</div>
       <div class="pm-av-f">Tipo de video${seg('tipo', AV_TIPOS, 'Tipo de video')}</div>
       <div class="pm-av-f">Videos<span class="pm-av-ayuda">Con Veo se bajan los highlights en un zip con un clip por jugada: descomprimilo y elegí la carpeta. Se usan solo los videos, ordenados por nombre.</span>
         <div class="pm-av-btns"><label class="btn">Elegir carpeta<input type="file" data-av="carpeta" webkitdirectory multiple hidden></label><label class="btn">Elegir videos<input type="file" data-av="videos" accept="video/*,.mov,.mkv" multiple hidden></label></div></div>
-      ${clips}
-      <div class="pm-av-f pm-av-veo"><span class="pm-av-veo-t">Informe de Veo <b class="lvl baja">Con Veo</b></span><span class="pm-av-ayuda">Si el club tiene Veo Analytics, sumá el informe del partido: el análisis cruza los números con los clips (posesión, pases, duelos, tiros, y los números de cada jugador). Abrí el informe del partido en Veo, tocá <b>Cmd+A</b> (o Ctrl+A), <b>Cmd+C</b> y pegalo acá. Con el informe solo, sin clips, también se puede analizar.</span>
+      ${clips}` : ''}
+      <div class="pm-av-f pm-av-veo"><span class="pm-av-veo-t">Informe de Veo${V ? ' (opcional)' : ''} <b class="lvl baja">Con Veo</b></span><span class="pm-av-ayuda">${V ? 'Si el club tiene Veo Analytics, sumá el informe del partido y el análisis cruza los números con los clips (posesión, pases, duelos, tiros y los números de cada jugador). ' : ''}Abrí el informe del partido en Veo, tocá <b>Cmd+A</b> (o Ctrl+A), <b>Cmd+C</b> y pegalo acá.</span>
         <textarea data-av="veo" rows="4" placeholder="Pegá acá el informe del partido de Veo">${esc(F.veo)}</textarea>
         <input type="url" data-av="veoLink" value="${esc(F.veoLink)}" placeholder="Link del informe en Veo (opcional, para volver a abrirlo)">
         ${F.veo.trim() ? `<span class="pm-av-ayuda pm-av-ok">✓ Informe de Veo cargado.</span>` : ''}</div>
@@ -2852,11 +2859,12 @@ function pmAnalisis() {
         <a class="btn" href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">Sacar clave en AI Studio</a>
       </div>
       <div class="pm-av-f">Guardar la clave en${seg('donde', [['navegador', 'Este navegador'], ['cuenta', 'Mi cuenta']], 'Dónde guardar la clave')}<span class="pm-av-ayuda">${donde === 'cuenta' ? 'Queda en tu cuenta: la usás desde cualquier navegador en el que entres con tu usuario. En esta demo la cuenta todavía vive en este navegador.' : 'Queda solo en este navegador. Si entrás desde otra compu o desde el celular, la tenés que pegar de nuevo.'}</span></div>
-      <p class="pm-nota pm-sin">Los videos van directo a Gemini y se borran de ahí cuando termina; acá se guarda solo el informe.</p>
-      <button class="btn p" type="submit" id="av-go"${corre ? ' disabled' : ''}>${F.clips.length ? `Analizar ${F.clips.length} ${F.clips.length === 1 ? 'clip' : 'clips'}` : 'Analizar'}</button>
+      <p class="pm-nota pm-sin">${V ? 'Los videos van directo a Gemini y se borran de ahí cuando termina; acá se guarda solo el informe.' : 'El informe de Veo se manda a Gemini para analizarlo y queda guardado junto con el análisis, para comparar partidos.'}</p>
+      <button class="btn p" type="submit" id="av-go"${corre ? ' disabled' : ''}>${!V ? 'Analizar datos' : F.clips.length ? `Analizar ${F.clips.length} ${F.clips.length === 1 ? 'clip' : 'clips'}` : 'Analizar'}</button>
     </form>
     <div id="av-run">${avRunHTML()}</div>
-    ${avHistorial()}`;
+    ${avHistorial()}
+    ${V ? `<section class="stack"><div class="sec-h"><div><h3>Links de los partidos</h3><span class="sub">Para tener a mano el video de cada partido (Veo, YouTube, Drive).</span></div></div>${pmVideos().replace(/^<p class="lede">[\s\S]*?<\/p>/, '')}</section>` : ''}`;
 }
 
 // Informes guardados, agrupados por partido (el más nuevo arriba).
@@ -2865,7 +2873,7 @@ function avHistorial() {
   for (const r of avVisibles()) { const k = r.div + '|' + (r.partido.id || r.partido.rival + r.partido.dia); if (!G.has(k)) G.set(k, []); G.get(k).push(r); }
   if (!G.size) return '<div class="empty">Todavía no hay informes guardados.</div>';
   const S = pmSesion();
-  const fila = r => `<div class="pm-r"><span class="pm-r-t"><a href="#/clubes/analisis/${r.id}">${r.modo === 'jugador' ? 'Jugador · ' + esc(r.jugador?.nombre || r.jugador?.quien) : 'Equipo'}</a><small>${fDia(r.creado.slice(0, 10))} ${r.creado.slice(11, 16)} · ${esc(r.autorN)} · ${r.clips.length} ${r.clips.length === 1 ? 'clip' : 'clips'}</small></span>
+  const fila = r => `<div class="pm-r"><span class="pm-r-t"><a href="#/clubes/analisis/${r.id}">${r.clips.length ? 'Video' : 'Datos'} · ${r.modo === 'jugador' ? 'Jugador · ' + esc(r.jugador?.nombre || r.jugador?.quien) : 'Equipo'}</a><small>${fDia(r.creado.slice(0, 10))} ${r.creado.slice(11, 16)} · ${esc(r.autorN)} · ${r.clips.length ? `${r.clips.length} ${r.clips.length === 1 ? 'clip' : 'clips'}` : 'informe de Veo'}</small></span>
     <a class="share" href="#/clubes/analisis/${r.id}">Ver</a>${S?.rol === 'admin' || S?.u === r.autor ? `<button type="button" class="share" data-pm="av-borrar" data-v="${r.id}">Borrar</button>` : ''}</div>`;
   return `<section class="stack"><div class="sec-h"><div><h3>Informes guardados</h3><span class="sub">Por partido. Los videos no se guardan: para ver las jugadas, se vuelven a cargar los clips.</span></div></div>
     ${[...G.values()].sort((a, b) => (b[0].partido.dia || '').localeCompare(a[0].partido.dia || '')).map(L => { const p = L[0].partido; return `<section class="panel"><div class="panel-h"><span><b>vs ${esc(p.rival)}</b> · ${esc(pmCatN(L[0].div))}</span><span>${p.dia ? fDia(p.dia) : ''}${p.gf != null ? ` · ${p.gf}-${p.gc}` : ''}</span></div>${L.map(fila).join('')}</section>`; }).join('')}</section>`;
@@ -3005,20 +3013,21 @@ function avNormalizar(x, n) {
 async function avAnalizar() {
   const F = avForm(), S = pmSesion(), clave = avClave(), modelo = avModelo();
   const p = avPartidos(F.cat).find(x => x.id === F.partido);
-  const falta = !F.clips.length && !F.veo.trim() ? 'Elegí la carpeta o los videos del partido, o pegá el informe de Veo.'
+  const V = F.sub !== 'datos';
+  const falta = V && !F.clips.length ? 'Elegí la carpeta o los videos del partido.' : !V && !F.veo.trim() ? 'Pegá el informe del partido de Veo.'
     : F.veo.length > 120000 ? 'El informe de Veo es demasiado largo. Copiá solo la página del informe del partido.'
     : !F.partido ? 'Elegí el partido.' : F.partido === 'otro' && !F.rival.trim() ? 'Poné el rival.'
-    : !F.color.trim() || !F.colRival.trim() ? 'Poné el color de las dos camisetas: así Gemini sabe quién es quién.'
-    : !F.ataca ? `Elegí hacia dónde ataca ${PM.club.nombre} en el primer tiempo.`
-    : F.modo === 'jugador' && !F.quien.trim() ? 'Poné cómo reconocer al jugador en el video (número y puesto).'
-    : F.clips.some(c => c.f.size > 2e9) ? 'Hay un video de más de 2 GB, que es el máximo que acepta Gemini.'
+    : V && (!F.color.trim() || !F.colRival.trim()) ? 'Poné el color de las dos camisetas: así Gemini sabe quién es quién.'
+    : V && !F.ataca ? `Elegí hacia dónde ataca ${PM.club.nombre} en el primer tiempo.`
+    : F.modo === 'jugador' && !F.quien.trim() ? (V ? 'Poné cómo reconocer al jugador en el video (número y puesto).' : 'Poné el número de camiseta del jugador en Veo.')
+    : V && F.clips.some(c => c.f.size > 2e9) ? 'Hay un video de más de 2 GB, que es el máximo que acepta Gemini.'
     : F.capturas.reduce((n, f) => n + f.size, 0) > 15e6 ? 'Las capturas pesan demasiado (más de 15 MB en total). Quitá alguna.'
     : !clave ? 'Pegá la clave de API de Gemini.' : '';
   if (falta) { aviso(falta); return; }
   guardar('pm-av-ult', JSON.stringify({ color: F.color.trim() }));
   const rival = p ? p.rival : F.rival.trim(), dia = p ? p.dia : F.dia;
   const J = F.modo === 'jugador' ? pmJug(F.jugador) : null;
-  const clips = F.clips.slice(), caps = F.capturas.slice();
+  const clips = V ? F.clips.slice() : [], caps = F.capturas.slice();
   AV_RUN = { ctl: new AbortController(), fase: 'sube', clips: clips.map(c => ({ n: c.f.name, pct: 0, est: 'espera' })), error: '' };
   avPintarRun(); $('#av-run')?.scrollIntoView({ behavior: 'smooth', block: 'center' });
   const subidos = [];
@@ -3063,7 +3072,7 @@ async function avAnalizar() {
       clips: clips.map(c => c.f.name), veo, veoTexto: F.veo.trim().slice(0, 120000), veoLink: F.veoLink.trim(), capturas: caps.length, informe: avNormalizar(crudo, clips.length),
     };
     pmEst().analisis.unshift(r); pmGuardar();
-    AV_MEDIA[r.id] = clips; F.clips = []; F.capturas = []; F.veo = ''; F.veoLink = ''; AV_RUN = null;
+    AV_MEDIA[r.id] = clips; if (V) F.clips = []; F.capturas = []; F.veo = ''; F.veoLink = ''; AV_RUN = null;
     aviso('Informe listo y guardado.');
     if (location.hash.startsWith('#/clubes/analisis')) location.hash = '#/clubes/analisis/' + r.id; else avPintarRun();
   } catch (e) {
@@ -3094,7 +3103,7 @@ const avJ = j => { const v = AV_INFO[j.clip - 1], min = v?.ini != null ? Math.fl
 const avJugadas = l => l.length ? `<div class="pm-av-js">${l.map(j => `<div class="pm-av-jl">${avJ(j)}${j.nota ? `<span>${esc(j.nota)}</span>` : ''}</div>`).join('')}</div>` : '';
 
 function avInforme(id) {
-  const r = avVisibles().find(x => x.id === id), volver = atras('#/clubes/analisis', 'Volver a Análisis de video');
+  const r = avVisibles().find(x => x.id === id), volver = atras('#/clubes/analisis/' + (r && !r.clips.length ? 'datos' : 'videos'), 'Volver a Análisis');
   if (!r) return volver + '<div class="empty">Ese informe no existe o no es de tus planteles.</div>';
   AV_INFO = r.veo || r.clips.map(avVeo);
   const I = r.informe, M = AV_MEDIA[id], club = PM.club.nombre, mk = I.marcador, n = Object.values(I.llegadas).reduce((a, b) => a + b, 0);
@@ -3112,8 +3121,8 @@ function avInforme(id) {
     <section class="panel"><div class="panel-h"><span class="comp">${crest(PM.club.equipos[0].equipo)}<span class="t"><b>${esc(club)} vs ${esc(r.partido.rival)}</b><small>${esc(pmCatN(r.div))}${r.partido.dia ? ' · ' + fDia(r.partido.dia) : ''} · ${tipo} · ${r.modo === 'jugador' ? 'Jugador: ' + esc([r.jugador.nombre, r.jugador.quien].filter(Boolean).join(', ')) : 'Equipo'}</small></span></span>${marc ? `<span class="pm-av-marc">${marc}</span>` : ''}</div>
       ${I.resumen ? `<p class="pm-av-txt">${esc(I.resumen)}</p>` : ''}${mk.nota ? `<p class="pm-nota">${esc(mk.nota)}</p>` : ''}</section>
     <div class="pm-av-cont"><div class="pm-av-grid"><div class="stack pm-av-cuerpo">
-      <section class="panel"><div class="panel-h"><b>Por dónde nos llegaron</b><span>${n} ${n === 1 ? 'llegada' : 'llegadas'}</span></div><div class="pm-av-mapa">${avMapa(I.llegadas)}</div>
-        <p class="pm-nota">Nuestra mitad de cancha, con nuestro arco abajo. Izquierda y derecha son las nuestras, atacando hacia arriba; espalda son pelotas detrás de la última línea.</p></section>
+      ${!r.clips.length && !n ? '' : `<section class="panel"><div class="panel-h"><b>Por dónde nos llegaron</b><span>${n} ${n === 1 ? 'llegada' : 'llegadas'}</span></div><div class="pm-av-mapa">${avMapa(I.llegadas)}</div>
+        <p class="pm-nota">Nuestra mitad de cancha, con nuestro arco abajo. Izquierda y derecha son las nuestras, atacando hacia arriba; espalda son pelotas detrás de la última línea.</p></section>`}
       <section class="panel"><div class="panel-h"><b>Debilidades</b><span>De la más grave a la menos</span></div>
         ${I.debilidades.length ? `<div class="side sola">${I.debilidades.map(d => `<div class="alert"><b>${esc(d.titulo)}</b><b class="lvl ${d.gravedad}">${d.gravedad}</b>${d.patron ? `<span>${esc(d.patron)}</span>` : ''}${avJugadas(d.jugadas)}</div>`).join('')}</div>` : '<div class="ok">No marcó debilidades.</div>'}</section>
       <section class="panel"><div class="panel-h"><b>Goles</b></div>${goles(I.goles.favor, 'A favor')}${goles(I.goles.contra, 'En contra')}</section>
@@ -3137,6 +3146,7 @@ function avIr(clip, seg) {
 }
 
 function avEnlazar() {
+  document.querySelectorAll('[data-avsub]').forEach(b => b.onclick = () => { location.hash = '#/clubes/analisis/' + b.dataset.avsub; });
   const repintar = () => { const y = scrollY; renderClubes('analisis').then(() => scrollTo({ top: y })); };
   const f = $('#pm-av'), F = AV_F;
   if (f) {
