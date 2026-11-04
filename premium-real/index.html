@@ -955,6 +955,8 @@ input.pm-in[type="text"]{flex:1;max-width:240px}
 .pm-av-f{display:flex;flex-direction:column;gap:6px;font-size:.82rem;font-weight:600;color:var(--muted);min-width:0}
 .pm-av-ayuda{font-weight:500}
 .pm-red{font-size:.74rem;color:var(--muted);white-space:nowrap}
+.pm-dt-cred{font-family:ui-monospace,Menlo,monospace;font-size:.9rem;background:var(--surface-2);padding:8px 10px;border-radius:var(--r-sm);user-select:all;overflow-wrap:anywhere}
+.pm-ayuda-login .pm-r{border-top:0}
 .pm-red.mal{color:var(--danger, #c33)}
 @media (max-width:520px){.pm-red{display:none}}
 .pm-r-col{flex-direction:column;align-items:stretch;gap:8px}
@@ -2272,7 +2274,7 @@ function filaPrevia(href, f, op = {}) {
 // recordatorios son de ejemplo (generadas), y todo lo que se marca o se cambia queda guardado solo en
 // este navegador.
 const PM_CLUB = 'elf';
-const PM_INICIO = '2026-03-16';
+const PM_INICIO = '2026-11-04'; // desde cuándo el club usa el plan: las prácticas empiezan a contar acá
 const PM_VACACIONES = ['2026-06-29', '2026-07-19']; // vacaciones de julio: sin prácticas
 // Días de práctica de cada categoría (día de la semana -> hora). 0 = domingo.
 const PM_HORARIOS = {
@@ -2290,7 +2292,7 @@ const PM_CFG0 = { verAsistencia: true, verRacha: true, verMinutos: true, verRank
   pasarLista: false, convocatoria: false, recordatorio: true, recCuando: 'noche',
   avPlanilla: true, avRival: true, avResultado: true, avPractica: true, avConvocatoria: true };
 const PM_TABS = [['resumen', 'Resumen'], ['practicas', 'Prácticas'], ['cruce', 'Asistencia y minutos'], ['minutos', 'Minutos'],
-  ['convocatoria', 'Convocatoria'], ['recordatorios', 'Recordatorios'], ['analisis', 'Análisis'], ['ajustes', 'Ajustes']];
+  ['convocatoria', 'Convocatoria'], ['analisis', 'Análisis'], ['ajustes', 'Ajustes']];
 let PM = null; // modelo armado con los datos reales
 let PM_EST = null; // el estado del club (sale del servidor)
 // ===== Versión con servidor (Supabase) =====
@@ -2365,7 +2367,7 @@ async function pmRealCargar() {
   if (m.club !== PM_CLUB && m.rol !== 'creador') { await SBR.auth.signOut(); REAL.user = null; throw new Error('Por ahora el plan para clubes es solo para el ELF.'); }
   REAL.miembro = m;
   // Primera vez de un jugador: hasta que elige su contraseña el servidor no le muestra nada del club.
-  REAL.debeClave = m.rol === 'jug' && !m.clave_cambiada;
+  REAL.debeClave = m.rol !== 'creador' && !m.clave_cambiada;
   if (REAL.debeClave) { PM_LAST = new Map(); REAL.estado = {}; PM_EST = null; return; }
   const filas = [];
   for (let i = 0; ; i += 1000) { const { data, error: e2 } = await SBR.from('pm_estado').select('k,sub,valor').eq('club', PM_CLUB).range(i, i + 999); if (e2) throw e2; filas.push(...data); if (data.length < 1000) break; }
@@ -2515,20 +2517,12 @@ function pmFue(J, pr) {
   const E = pmEst();
   if (E.lista[pr.id]?.[J.c] != null) return E.lista[pr.id][J.c];
   if (E.marcas[pr.id]?.[J.c] != null) return E.marcas[pr.id][J.c];
-  if (!pr.pasada) return null;
-  const k = J.cats[pr.cat]; const parte = k.posibles ? Math.min(1, k.min / k.posibles) : 0;
-  const ganas = 0.3 + 0.42 * pmAzar('g' + J.c) + 0.26 * parte * (J.principal0 === pr.cat ? 1 : 0.6);
-  return pmAzar(J.c + pr.id) < ganas ? 1 : 0;
+  return pr.pasada ? 0 : null; // si nadie marcó que fue, no fue
 }
 // Respuesta al recordatorio de la próxima práctica.
 function pmResp(J, pr) {
   const r = pmEst().resp[pr.id]?.[J.c]; if (r) return r;
-  const C = pmCfg(pr.cat); if (!C.recordatorio) return 'sin';
-  // El recordatorio sale la noche anterior a las 20:00, o 3 horas antes; antes de eso nadie respondió.
-  const sale = C.recCuando === 'noche' ? `${pmSumar(pr.dia, -1)} 20:00` : (() => { const [hh, mm] = pr.hora.split(':').map(Number), m = hh * 60 + mm - 180; return m >= 0 ? `${pr.dia} ${String(Math.floor(m / 60)).padStart(2, '0')}:${String(m % 60).padStart(2, '0')}` : `${pmSumar(pr.dia, -1)} ${String(Math.floor((m + 1440) / 60)).padStart(2, '0')}:${String((m + 1440) % 60).padStart(2, '0')}`; })();
-  if (`${pmHoy()} ${pmAhora()}` < sale) return 'sin';
-  const x = pmAzar('r' + J.c + pr.id);
-  return x < 0.55 ? 'va' : x < 0.72 ? 'no' : 'sin';
+  return 'sin';
 }
 function pmCuentas(J, cat) {
   const ps = pmPracticas(cat).filter(p => p.pasada), hoy = pmHoy();
@@ -2563,9 +2557,9 @@ async function renderClubes(sub, rest = []) {
   if (!REAL.listo) { main.innerHTML = SKELETON; try { await pmRealCargar(); } catch (e) { REAL.error = e.message; } REAL.listo = true; }
   // Sin sesión, la pantalla de entrar aparece enseguida y los datos se cargan mientras tanto.
   if (!REAL.miembro) {
-    $('#actualizado').textContent = 'Versión de prueba con servidor: lo que se marca se guarda en la nube y lo ve todo el club al instante. Las prácticas anteriores al 04/11 traen asistencia de ejemplo.';
+    $('#actualizado').textContent = 'Plan para clubes · ELF';
     main.innerHTML = pmLogin(); pmEnlazarLogin(); window.scrollTo({ top: 0 });
-    pmCargar().then(() => { const el = $('#pm-ej'); if (el) { el.outerHTML = pmEjemplo(); pmEnlazarLogin(true); } }).catch(() => {});
+    pmCargar().catch(() => {});
     return;
   }
   if (REAL.debeClave) { main.innerHTML = pmNuevaClaveV(); pmEnlazarNuevaClave(); window.scrollTo({ top: 0 }); return; }
@@ -2577,7 +2571,7 @@ async function renderClubes(sub, rest = []) {
   if (sub === 'videos') { location.replace('#/clubes/analisis/videos'); return; } // la vieja pestaña Videos ahora vive en Análisis
   const tab = tabsV.some(t => t[0] === sub) ? sub : 'resumen';
   if (sub !== 'ver') PM_VOLVER = E.rol === 'jug' ? '' : tab;
-  $('#actualizado').textContent = 'Versión de prueba con servidor: lo que se marca se guarda en la nube y lo ve todo el club al instante. Las prácticas anteriores al 04/11 traen asistencia de ejemplo.';
+  $('#actualizado').textContent = 'Plan para clubes · ELF';
   const S = pmSesion();
   if (!S) { main.innerHTML = pmLogin(); pmEnlazarLogin(); window.scrollTo({ top: 0 }); return; }
   if (S.rol === 'jug') { E.rol = 'jug'; E.yo = S.c; }
@@ -2665,13 +2659,6 @@ function pmSesion() {
   if (M.rol === 'creador') return { rol: 'admin', u: M.usuario, nombre: M.nombre, creador: true };
   return { rol: M.rol, u: M.usuario, nombre: M.nombre };
 }
-function pmSesionDemo() {
-  try {
-    const s = JSON.parse(pmL('pm-sesion') || 'null'); if (!s) return null;
-    if (s.rol === 'jug') return pmJug(s.c) ? s : null;
-    const x = pmUsuario(s.u); return x ? { rol: x.rol, u: x.u, nombre: x.nombre } : null;
-  } catch { return null; }
-}
 // Planteles y equipos que ve la persona que entró.
 function pmCV() {
   const S = PM_SES || pmSesion(); if (!S) return [];
@@ -2683,13 +2670,7 @@ const pmDtDe = c => pmEst().usuarios.filter(x => x.rol === 'dt' && x.equipos?.in
 const pmDtTxt = c => { const n = pmDtDe(c); return n.length ? 'DT: ' + n.join(', ') : 'Sin DT'; };
 const pmEV = () => PM.equipos.filter(e => pmCV().includes(e.div));
 const pmTabs = S => S?.rol === 'admin' ? [...PM_TABS.slice(0, -1), ['tecnicos', 'Técnicos'], PM_TABS.at(-1)] : PM_TABS;
-const pmCuenta = (u, t, s) => `<div class="pm-r"><span class="pm-r-t"><b>${t}</b><small>${s}</small></span><button type="button" class="share" data-u="${esc(u)}">Entrar</button></div>`;
-function pmEjemplo() {
-  const ej = PM && Object.values(PM.jug).filter(J => J.cats['sub20-a']).sort((a, b) => b.cats['sub20-a'].min - a.cats['sub20-a'].min)[0];
-  return ej ? pmCuenta(ej.c, `Jugador · ${esc(ej.nombre)}`, `Usuario <code>${ej.c}</code> (su carné)`) : '<div class="pm-r" id="pm-ej"><span class="pm-r-t"><b>Jugador</b><small>Cargando un jugador de ejemplo…</small></span></div>';
-}
 function pmLogin() {
-  const cuenta = pmCuenta;
   return `<div class="pm-login"><div class="pm-login-h">${crest('ELF', true)}<div><h2>Para clubes</h2><p class="small muted">Entrá con la cuenta que te dio tu club.</p></div></div>
     <form class="panel pm-form" id="pm-login" autocomplete="on">
       <label for="lg-u">Usuario<input type="text" id="lg-u" autocomplete="username" autocapitalize="none" placeholder="Tu usuario o tu número de carné" required></label>
@@ -2697,15 +2678,14 @@ function pmLogin() {
       <p class="pm-err" id="lg-err" hidden></p>
       <button class="btn p" type="submit">Iniciar sesión</button></form>
     ${REAL.error ? `<p class="pm-err">${esc(REAL.error)}</p>` : ''}
-    <div class="panel pm-demo"><b>Cuentas de prueba</b><small class="pm-demo-s">Administrador y técnicos: contraseña privada. Jugadores: la primera vez, su número de carné y la contraseña <code>${PM_CLAVE}</code>; ahí eligen la suya.</small>
-      ${pmEst().usuarios.map(x => cuenta(x.u, x.rol === 'admin' ? `Administrador · ${esc(x.nombre)}` : `DT · ${esc(x.nombre)}`, `Usuario <code>${esc(x.u)}</code> · ${x.rol === 'admin' ? 've todo el club y asigna los técnicos' : (x.equipos || []).map(pmCatN).join(', ') || 'sin planteles'}`)).join('')}
-      ${pmEjemplo()}</div>
-    <p class="pm-nota">¿Tu club todavía no tiene el plan? Pedile a tu técnico o a la comisión que nos escriba.</p></div>`;
+    <div class="panel pm-ayuda-login"><div class="pm-r"><span class="pm-r-t"><b>¿Cómo entro?</b><small>Técnicos: con el usuario que te dio el club. Jugadores: con tu número de carné. La primera vez usás la contraseña que te pasaron y ahí elegís la tuya.</small></span></div>
+      <div class="pm-r"><span class="pm-r-t"><b>¿Te olvidaste la contraseña?</b><small>Pedile a tu técnico que te la restablezca.</small></span></div></div>
+    <p class="pm-nota">¿Tu club todavía no tiene el plan? Que la comisión nos escriba.</p></div>`;
 }
 // ----- Primera vez: el jugador elige su contraseña -----
 function pmNuevaClaveV() {
   const n = esc((REAL.miembro?.nombre || '').split(' ')[0]);
-  return `<div class="pm-login"><div class="pm-login-h">${crest('ELF', true)}<div><h2>Hola${n ? ', ' + n : ''}</h2><p class="small muted">Es la primera vez que entrás: elegí tu contraseña. Desde ahora entrás con tu carné y esta contraseña.</p></div></div>
+  return `<div class="pm-login"><div class="pm-login-h">${crest('ELF', true)}<div><h2>Hola${n ? ', ' + n : ''}</h2><p class="small muted">Es la primera vez que entrás: elegí tu contraseña. Desde ahora entrás con tu ${REAL.miembro?.rol === 'jug' ? 'carné' : 'usuario'} y esta contraseña.</p></div></div>
     <form class="panel pm-form" id="pm-nueva" autocomplete="on">
       <input type="text" autocomplete="username" value="${esc(REAL.miembro?.usuario || '')}" hidden readonly>
       <label for="nc-1">Contraseña nueva<input type="password" id="nc-1" autocomplete="new-password" minlength="8" required></label>
@@ -2721,7 +2701,7 @@ function pmEnlazarNuevaClave() {
   f.onsubmit = async ev => {
     ev.preventDefault();
     const a = $('#nc-1').value, b = $('#nc-2').value, btn = f.querySelector('button[type=submit]');
-    const mal = a.length < 8 ? 'Tiene que tener al menos 8 caracteres.' : a !== b ? 'Las dos contraseñas no son iguales.' : a === PM_CLAVE || a === REAL.miembro?.carne ? 'Elegí una distinta a tu carné y a la que te dieron.' : '';
+    const mal = a.length < 8 ? 'Tiene que tener al menos 8 caracteres.' : a !== b ? 'Las dos contraseñas no son iguales.' : a === PM_CLAVE || a === REAL.miembro?.carne ? 'Elegí una distinta a tu carné y a la que te dieron.' : /^Temp-/.test(a) ? 'Elegí una contraseña tuya, no la temporal.' : '';
     if (mal) { err.textContent = mal; err.hidden = false; return; }
     btn.disabled = true; btn.textContent = 'Guardando…'; err.hidden = true;
     const { error } = await SBR.auth.updateUser({ password: a });
@@ -2729,15 +2709,13 @@ function pmEnlazarNuevaClave() {
     const { error: e2 } = await SBR.rpc('pm_clave_lista');
     if (e2) { err.textContent = 'No se pudo guardar: ' + e2.message; err.hidden = false; btn.disabled = false; btn.textContent = 'Guardar y entrar'; return; }
     try { await pmRealCargar(); } catch (e) { err.textContent = e.message; err.hidden = false; btn.disabled = false; btn.textContent = 'Guardar y entrar'; return; }
-    const E = pmEst(); E.rol = 'jug'; E.yo = REAL.miembro.carne; pmGuardar();
+    const E = pmEst(); if (REAL.miembro.rol === 'jug') { E.rol = 'jug'; E.yo = REAL.miembro.carne; } else { E.rol = 'dt'; E.yo = null; } pmGuardar();
     aviso('Listo, contraseña guardada.'); renderClubes(location.hash.split('/')[2]);
   };
 }
 function pmEnlazarLogin(soloBotones) {
   const f = $('#pm-login'), err = $('#lg-err');
   if (!f) return;
-  document.querySelectorAll('.pm-demo [data-u]').forEach(b => b.onclick = () => { $('#lg-u').value = b.dataset.u; if (pmJug(b.dataset.u)) { $('#lg-p').value = PM_CLAVE; f.requestSubmit(); } else { $('#lg-p').value = ''; $('#lg-p').focus(); } });
-  if (soloBotones) return;
   f.onsubmit = async ev => {
     ev.preventDefault();
     const u = $('#lg-u').value.trim().toLowerCase(), pw = $('#lg-p').value;
@@ -2779,21 +2757,21 @@ const PM_FICHA_BASE = '2026-11-02';
 var PM_FICHAS_ABIERTO = false;
 function pmFicha(J) {
   const f = pmEst().fichas[J.c]; if (typeof f === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(f)) return f;
-  const x = pmAzar('f' + J.c);
-  return pmSumar(PM_FICHA_BASE, x < 0.07 ? -Math.round(5 + x * 600) : x < 0.16 ? Math.round((x - 0.07) * 330) : Math.round(40 + x * 330));
+  return ''; // todavía no la cargó nadie
 }
-const pmFichaEst = f => f < pmHoy() ? 'vencida' : f <= pmSumar(pmHoy(), 30) ? 'pronto' : 'ok';
+const pmFichaEst = f => !f ? 'sin' : f < pmHoy() ? 'vencida' : f <= pmSumar(pmHoy(), 30) ? 'pronto' : 'ok';
 const pmFecha = d => `${d.slice(8)}/${d.slice(5, 7)}/${d.slice(0, 4)}`;
 function pmFichasV() {
   const vistos = new Set(), L = [];
   for (const c of pmCV()) for (const J of pmDe(c)) if (!vistos.has(J.c)) { vistos.add(J.c); L.push({ J, c, f: pmFicha(J) }); }
   const venc = L.filter(x => pmFichaEst(x.f) === 'vencida').sort((a, b) => a.f.localeCompare(b.f));
   const pronto = L.filter(x => pmFichaEst(x.f) === 'pronto').sort((a, b) => a.f.localeCompare(b.f));
-  if (!venc.length && !pronto.length) return `<div class="pm-fichas-ok">Fichas médicas: todas al día.</div>`;
-  const fila = ({ J, c, f }) => `<div class="pm-r pm-ficha"><span class="pm-r-t"><b>${esc(J.nombre)}</b><small>${esc(pmCatN(pmPrincipal(J)))} · ${pmFichaEst(f) === 'vencida' ? `Venció el ${pmFecha(f)}` : `Vence el ${pmFecha(f)}`}</small></span>
+  const sin = L.filter(x => pmFichaEst(x.f) === 'sin').sort((a, b) => a.J.nombre.localeCompare(b.J.nombre, 'es'));
+  if (!venc.length && !pronto.length && !sin.length) return `<div class="pm-fichas-ok">Fichas médicas: todas al día.</div>`;
+  const fila = ({ J, c, f }) => `<div class="pm-r pm-ficha"><span class="pm-r-t"><b>${esc(J.nombre)}</b><small>${esc(pmCatN(pmPrincipal(J)))} · ${pmFichaEst(f) === 'sin' ? 'Sin cargar' : pmFichaEst(f) === 'vencida' ? `Venció el ${pmFecha(f)}` : `Vence el ${pmFecha(f)}`}</small></span>
     <input type="date" class="pm-in" id="ficha-${J.c}" data-pm="ficha" data-c="${J.c}" value="${f}" aria-label="Nuevo vencimiento de la ficha de ${esc(J.nombre)}"></div>`;
   return `<details class="panel pm-fichas"${PM_FICHAS_ABIERTO ? ' open' : ''} ontoggle="PM_FICHAS_ABIERTO = this.open"><summary><span><b>Fichas médicas</b>${venc.length ? ` <span class="pm-est no">${venc.length} vencida${venc.length > 1 ? 's' : ''}</span>` : ''}${pronto.length ? ` <span class="pm-est pronto">${pronto.length} vence${pronto.length > 1 ? 'n' : ''} en 30 días</span>` : ''}</span><svg class="i" aria-hidden="true"><use href="#i-atras"/></svg></summary>
-    <p class="pm-nota">Cuando un jugador la renueva, cambiá la fecha y listo.</p>${[...venc, ...pronto].map(fila).join('')}</details>`;
+    <p class="pm-nota">Cuando un jugador la renueva, cambiá la fecha y listo. Cada jugador también puede cargar la suya.</p>${[...venc, ...pronto, ...sin].map(fila).join('')}</details>`;
 }
 
 // ----- Resumen -----
@@ -3712,14 +3690,15 @@ function avEnlazar() {
     if (error) { pc.innerHTML = `<p class="pm-err">${esc(error.message)}</p>`; return; }
     pc.innerHTML = (data || []).map(c => `<div class="pm-r"><span class="pm-r-t"><b>${esc(c.club.toUpperCase())}</b><small>${c.admins} admin · ${c.tecnicos} técnicos · ${c.jugadores_activos} de ${c.jugadores} jugadores ya entraron · ${c.informes} informes · ${c.previas} previas${c.ultima_actividad ? ' · último movimiento ' + new Date(c.ultima_actividad).toLocaleString('es-UY', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' }) : ''}</small></span></div>`).join('') || '<div class="empty">Todavía no hay clubes.</div>';
   }); }
+  const dc = $('#pm-dt-copiar'); if (dc) dc.onclick = async () => { try { await navigator.clipboard.writeText(dc.dataset.t); aviso('Copiado: mandáselo por WhatsApp.'); } catch { aviso('No se pudo copiar: anotalo a mano.'); } };
   const rg = $('#pm-reset-go');
   if (rg) rg.onclick = async () => {
     const c = $('#pm-reset-j').value, J = pmJug(c), ok = $('#pm-reset-ok');
-    if (ok.dataset.c !== c) { ok.dataset.c = c; ok.hidden = false; ok.textContent = `¿Seguro? ${J?.nombre || c} va a tener que elegir una contraseña nueva. Tocá de nuevo para confirmar.`; return; }
+    if (ok.dataset.c !== c) { ok.dataset.c = c; ok.hidden = false; ok.textContent = `¿Seguro? Si ${J?.nombre || c} ya tenía contraseña, va a tener que elegir una nueva. Tocá de nuevo para confirmar.`; return; }
     rg.disabled = true;
-    const { data, error } = await SBR.rpc('pm_restablecer_clave', { p_carne: c });
+    const { data, error } = await SBR.rpc('pm_restablecer_clave', { p_carne: c, p_nombre: J?.nombre || null, p_club: PM_CLUB });
     rg.disabled = false; ok.dataset.c = '';
-    ok.textContent = error ? 'No se pudo: ' + error.message : data ? `Listo: ${J?.nombre || c} entra con su carné y ${PM_CLAVE}, y elige una nueva.` : 'Ese jugador no tiene cuenta en el club.';
+    ok.textContent = error ? 'No se pudo: ' + error.message : data === 'creada' ? `Cuenta creada: ${J?.nombre || c} entra con su carné (${c}) y ${PM_CLAVE}, y elige la suya.` : data === 'restablecida' ? `Listo: ${J?.nombre || c} entra con su carné y ${PM_CLAVE}, y elige una nueva.` : 'No se encontró a ese jugador.';
   };
   const cc = $('#pm-clave-club');
   if (cc) cc.onchange = async () => {
@@ -3809,10 +3788,14 @@ function avEnlazar() {
 }
 
 // ----- Técnicos (solo el administrador) -----
+let PM_DT_NUEVO = null; // el técnico recién creado, para mostrar su contraseña temporal una vez
 function pmTecnicos() {
   const E = pmEst(), dts = E.usuarios.filter(x => x.rol === 'dt');
+  const nuevo = PM_DT_NUEVO; PM_DT_NUEVO = null;
   const sinDt = PM.cats.filter(c => !dts.some(x => x.equipos?.includes(c)));
-  return `<p class="lede">Cada técnico entra con su usuario y solo ve sus planteles: sus prácticas, su asistencia, sus minutos y sus jugadores. Vos, como administrador, ves todo el club.</p>
+  return `${nuevo ? `<div class="panel pm-dt-nuevo"><div class="pm-r pm-r-col"><span class="pm-r-t"><b>Cuenta creada para ${esc(nuevo.n)}</b><small>Pasale estos datos. La primera vez que entre va a elegir su propia contraseña. Esta temporal se muestra una sola vez.</small></span>
+      <code class="pm-dt-cred">Usuario: ${esc(nuevo.u)}  ·  Contraseña temporal: ${esc(nuevo.temp)}</code><button type="button" class="share" id="pm-dt-copiar" data-t="${esc(`Planilla LUD · ${PM.club.nombre}\nhttps://planilla-lud.github.io/premium-real/\nUsuario: ${nuevo.u}\nContraseña temporal: ${nuevo.temp}`)}">Copiar para mandárselo</button></div></div>` : ''}
+    <p class="lede">Cada técnico entra con su usuario y solo ve sus planteles: sus prácticas, su asistencia, sus minutos y sus jugadores. Vos, como administrador, ves todo el club.</p>
     <div class="panel">${dts.map(x => `<div class="pm-r pm-tec"><span class="pm-r-t"><b>${esc(x.nombre)}</b><small>Usuario <code>${esc(x.u)}</code></small></span>
       <div class="pm-dsem pm-pl">${PM.cats.map(c => `<button type="button" data-pm="asignar" data-u="${esc(x.u)}" data-v="${c}" aria-pressed="${!!x.equipos?.includes(c)}">${esc(pmCatN(c))}</button>`).join('')}</div>
       <button type="button" class="lnk pm-quitar" data-pm="quitar-dt" data-v="${esc(x.u)}">Quitar</button></div>`).join('') || '<div class="ok">Todavía no hay técnicos.</div>'}</div>
@@ -3828,18 +3811,16 @@ function pmAjustes() {
   return pmChipsCat(PM_CAT) + `<p class="lede">Ajustes de ${esc(pmCatN(PM_CAT))}. Cada plantel tiene los suyos, así lo que cambia un técnico no toca a los otros.</p>
     <section class="stack"><div class="sec-h"><div><h3>Qué ven los jugadores</h3><span class="sub">Lo apagado no le aparece a ningún jugador de ${esc(pmCatN(PM_CAT))}.</span></div></div>
       <div class="panel">${pmSw('verAsistencia', 'Sus prácticas', 'A cuántas fue en la semana, el mes y el año')}${pmSw('verRacha', 'Su racha', 'Prácticas seguidas sin faltar')}${pmSw('verMinutos', 'Sus minutos', 'Lo que jugó en cada plantel')}${pmSw('verAnalisis', 'Sus análisis', 'Lo que dicen de él los informes de video y de Veo')}${pmSw('verCompaneros', 'Quién va a la próxima práctica', 'Las respuestas de sus compañeros al recordatorio')}${pmSw('verRanking', 'Ranking de asistencia', 'La tabla de todo el plantel ordenada por asistencia')}</div></section>
-    ${pmAvisosV()}
     <section class="stack"><div class="sec-h"><div><h3>Prácticas</h3><span class="sub">La asistencia la marca cada jugador.</span></div></div>
-      <div class="panel">${pmSw('pasarLista', 'Pasar lista', 'El técnico confirma quién fue. Si está apagado, vale lo que marca el jugador')}${pmSw('recordatorio', 'Recordatorio por WhatsApp', '"¿Vas a la práctica?" antes de cada una')}
-        <div class="pm-r"><span class="pm-r-t"><b>Cuándo se manda</b></span><div class="seg pm-seg"><button type="button" data-pm="rec" data-v="noche" aria-pressed="${pmCfg(PM_CAT).recCuando === 'noche'}">Noche anterior</button><button type="button" data-pm="rec" data-v="antes" aria-pressed="${pmCfg(PM_CAT).recCuando === 'antes'}">3 h antes</button></div></div></div></section>
+      <div class="panel">${pmSw('pasarLista', 'Pasar lista', 'El técnico confirma quién fue. Si está apagado, vale lo que marca el jugador')}</div></section>
     <section class="stack"><div class="sec-h"><div><h3>Partidos</h3></div></div><div class="panel">${pmSw('convocatoria', 'Convocatoria', 'Elegir los convocados de cada partido y mandar la lista')}</div></section>
     <section class="stack"><div class="sec-h"><div><h3>Días de práctica</h3><span class="sub">Se cambian en Prácticas, eligiendo el plantel.</span></div><a href="#/clubes/practicas">Cambiar</a></div>
       <div class="panel">${pmCV().map(c => `<div class="pm-r"><span class="pm-r-t"><b>${esc(pmCatN(c))}</b><small>${pmDiasTxt(c)} · ${esc(pmHorHoy(c).lugar)}</small></span></div>`).join('')}</div></section>
     ${pmSesion()?.creador ? `<section class="stack"><div class="sec-h"><div><h3>Todos los clubes</h3><span class="sub">Solo lo ve tu cuenta de creador.</span></div></div><div class="panel" id="pm-creador"><p class="pm-nota pm-sin pm-av-pad">Cargando…</p></div></section>` : ''}
-    <section class="stack"><div class="sec-h"><div><h3>Contraseñas de los jugadores</h3><span class="sub">Si un jugador se olvidó la suya, se la restablecés: vuelve a ser <code>${PM_CLAVE}</code> y al entrar elige una nueva.</span></div></div>
-      <div class="panel"><div class="pm-r pm-r-col"><select class="pm-in" id="pm-reset-j" aria-label="Jugador">${pmDe(PM_CAT).sort((a, b) => a.nombre.localeCompare(b.nombre, 'es')).map(J => `<option value="${J.c}">${esc(J.nombre)} · ${J.c}</option>`).join('')}</select><button type="button" class="share" id="pm-reset-go">Restablecer contraseña</button><p class="pm-nota pm-sin" id="pm-reset-ok" hidden></p></div></div></section>
+    <section class="stack"><div class="sec-h"><div><h3>Cuentas de los jugadores</h3><span class="sub">Si un jugador se olvidó la contraseña, o es nuevo y no puede entrar: elegilo y entra con su carné y <code>${PM_CLAVE}</code>, y elige la suya.</span></div></div>
+      <div class="panel"><div class="pm-r pm-r-col"><select class="pm-in" id="pm-reset-j" aria-label="Jugador">${pmDe(PM_CAT).sort((a, b) => a.nombre.localeCompare(b.nombre, 'es')).map(J => `<option value="${J.c}">${esc(J.nombre)} · ${J.c}</option>`).join('')}</select><button type="button" class="share" id="pm-reset-go">Restablecer o crear su cuenta</button><p class="pm-nota pm-sin" id="pm-reset-ok" hidden></p></div></div></section>
     ${pmSesion()?.rol !== 'admin' ? '' : `<section class="stack"><div class="sec-h"><div><h3>Plan</h3></div></div>
-      <div class="panel"><div class="pm-r"><span class="pm-r-t"><b>Prueba gratis · ELF</b><small>Después: 30 USD por mes cada plantel, o 100 USD por mes todo el club.</small></span><span class="tag pm-plan">Activo</span></div>
+      <div class="panel"><div class="pm-r"><span class="pm-r-t"><b>Plan club · ELF</b><small>Todos los planteles del club.</small></span><span class="tag pm-plan">Activo</span></div>
       <div class="pm-r pm-r-col"><span class="pm-r-t"><b>Clave de Gemini del club</b><small>La usan todos los técnicos para el Análisis, así no necesitan una propia. Si un técnico pone la suya, se usa la de él.</small></span>
         <input type="password" class="pm-in" id="pm-clave-club" value="${esc(pmEst().claveClub || '')}" placeholder="Pegá la clave de AI Studio" autocomplete="off" spellcheck="false" aria-label="Clave de Gemini del club"></div>
 </div></section>`}`;
@@ -3854,46 +3835,7 @@ function pmAvisosEstado() {
   const p = Notification.permission;
   return { ok: true, p, txt: p === 'granted' ? 'Activados en este celular.' : p === 'denied' ? 'Bloqueados: hay que permitirlos en los ajustes del navegador.' : 'Todavía no activados en este celular.' };
 }
-function pmAvisosV() {
-  const st = pmAvisosEstado(), C = pmCfg(PM_CAT);
-  const boton = !st.ok || st.p === 'denied' ? '' : st.p === 'granted'
-    ? '<button type="button" class="share" data-pm="avisos-probar">Probar</button>'
-    : '<button type="button" class="btn p" data-pm="avisos-activar">Activar</button>';
-  return `<section class="stack" id="pm-avisos"><div class="sec-h"><div><h3>Avisos al celular</h3><span class="sub">Notificaciones de la app para ${esc(pmCatN(PM_CAT))}, sin depender de WhatsApp.</span></div></div>
-      <div class="panel"><div class="pm-r"><span class="pm-r-t"><b>Este celular</b><small>${esc(st.txt)}</small></span>${boton}</div>
-        <div class="pm-r pm-r-sub"><span class="pm-r-t"><small><b>Al cuerpo técnico</b></small></span></div>
-        ${pmSw('avPlanilla', 'Planilla cargada', 'Cuando la Liga sube la planilla de un partido del plantel')}${pmSw('avRival', 'Bajas del próximo rival', 'Si tiene un suspendido o una baja de nivel alto')}${pmSw('avResultado', 'Resultado final', 'Apenas se carga el resultado')}
-        <div class="pm-r pm-r-sub"><span class="pm-r-t"><small><b>A los jugadores</b></small></span></div>
-        ${pmSw('avPractica', 'Recordatorio de práctica', '"¿Vas a la práctica?" con Voy / No voy, a la hora del recordatorio')}${C.convocatoria ? pmSw('avConvocatoria', 'Convocatoria', 'Cuando queda convocado, con día, hora y cancha') : ''}</div>
-      <p class="pm-nota">Demo: los avisos no salen solos. Con <b>Probar</b> te llega uno de ejemplo a este celular. En iPhone funcionan solo con la Planilla instalada en la pantalla de inicio.</p></section>`;
-}
-async function pmAvisoRegistro() {
-  try { return await navigator.serviceWorker.getRegistration('../') || await navigator.serviceWorker.register('../sw.js', { scope: '../' }); }
-  catch { return null; }
-}
-async function pmAvisosActivar() {
-  const st = pmAvisosEstado(); if (!st.ok) { aviso(st.txt); return; }
-  const r = await Notification.requestPermission();
-  aviso(r === 'granted' ? 'Avisos activados. Tocá Probar para ver uno.' : r === 'denied' ? 'Los bloqueaste: se cambian en los ajustes del navegador.' : 'No se activaron.');
-  if (r === 'granted') pmAvisoRegistro();
-}
-async function pmAvisosProbar() {
-  if (pmAvisosEstado().p !== 'granted') { aviso('Primero activá los avisos.'); return; }
-  const C = pmCfg(PM_CAT), e = pmEV().find(x => x.div === PM_CAT && x.proximo), pr = pmProx(PM_CAT);
-  const ejemplos = [];
-  if (C.avRival && e) { const n = e.proximo; ejemplos.push([`${pmCatN(PM_CAT)} vs ${n.rival}`, `${fDia(n.dia)}${n.hora !== '00:00' ? ' ' + n.hora : ''}: mirá sus bajas y suspendidos en el informe del rival.`]); }
-  if (C.avPractica && pr) ejemplos.push([`¿Vas a la práctica de ${pmCatN(PM_CAT)}?`, `${pmDiaH(pr)} · ${pmHorHoy(PM_CAT).lugar}. Tocá para responder.`]);
-  if (C.avPlanilla) ejemplos.push([`Planilla cargada · ${pmCatN(PM_CAT)}`, 'Ya están los minutos del último partido.']);
-  if (C.avResultado && e) ejemplos.push([`Final · ${pmCatN(PM_CAT)}`, `Se cargó el resultado del último partido.`]);
-  if (!ejemplos.length) { aviso('Prendé al menos un aviso.'); return; }
-  const [titulo, cuerpo] = ejemplos[Math.floor(Math.random() * ejemplos.length)];
-  const op = { body: cuerpo, icon: '../app/icono-192.png', badge: '../favicon.svg', tag: 'planilla-demo' };
-  const reg = await pmAvisoRegistro();
-  try { if (reg) { await navigator.serviceWorker.ready; await reg.showNotification(titulo, op); } else new Notification(titulo, op); aviso('Aviso de prueba mandado.'); }
-  catch { aviso('Este navegador no dejó mostrar el aviso.'); }
-}
 
-// ----- Vista del jugador -----
 function pmVistaJugador(S) {
   const E = pmEst(), mios = pmCV(), todos = Object.values(PM.jug).filter(x => S.rol === 'jug' || Object.keys(x.cats).some(c => mios.includes(c))).sort((a, b) => a.nombre.localeCompare(b.nombre));
   const J = (S.rol === 'jug' || todos.some(x => x.c === E.yo)) && pmJug(E.yo) || todos[0];
@@ -3915,10 +3857,10 @@ function pmVistaJugador(S) {
     ${CF.verMinutos ? `<section class="stack"><div class="sec-h"><div><h3>Mis minutos</h3></div></div><div class="panel">${Object.entries(J.cats).filter(([c]) => susCats.includes(c)).map(([c, x]) => `<div class="pm-r"><span class="pm-r-t"><a href="${pmJugLink(J, c)}"><b>${esc(pmCatN(c))}</b></a><small>${x.pj} PJ · ${x.tit} de titular${x.gol ? ` · ${x.gol} gol${x.gol > 1 ? 'es' : ''}` : ''}</small></span><span class="pm-cnt"><b>${x.min}'</b></span></div>`).join('')}</div></section>` : ''}
     ${pr && pmCfg(pr.cat).verCompaneros ? `<section class="stack"><div class="sec-h"><div><h3>Van a la próxima</h3><span class="sub">${esc(pmCatN(pr.cat))} · ${fDia(pr.dia)}</span></div></div><div class="panel"><div class="pm-rg"><span>${pmDe(pr.cat).filter(x => pmResp(x, pr) === 'va').map(x => esc(pmCorto(x.nombre))).join(', ')}</span></div></div></section>` : ''}
     ${rank.length ? `<section class="stack"><div class="sec-h"><div><h3>Asistencia del plantel</h3><span class="sub">Los 10 que más fueron en la temporada${rank.findIndex(r => r.x.c === J.c) >= 10 ? ', y vos' : ''}.</span></div></div><div class="panel">${rank.map((r, i) => ({ ...r, i })).filter(({ x, i }) => i < 10 || x.c === J.c).map(({ x, p, i }) => `${i >= 10 ? '<div class="pm-r pm-sep">…</div>' : ''}<div class="pm-r${x.c === J.c ? ' pm-mio' : ''}"><span class="pm-r-t"><b>${i + 1}. ${esc(x.nombre)}</b></span><span class="pm-cnt"><b>${p}%</b></span></div>`).join('')}</div></section>` : ''}
-    ${(() => { const f = pmFicha(J), e = pmFichaEst(f); return `<div class="panel pm-ficha-yo ${e}"><div class="pm-r"><span class="pm-r-t"><b>Ficha médica</b><small>${e === 'vencida' ? `Venció el ${pmFecha(f)}. Renovala para poder jugar.` : e === 'pronto' ? `Vence el ${pmFecha(f)}. Acordate de renovarla.` : `Al día, vence el ${pmFecha(f)}.`}</small></span>${e !== 'ok' ? '<span class="pm-est ' + (e === 'vencida' ? 'no' : 'pronto') + '">' + (e === 'vencida' ? 'Vencida' : 'Por vencer') + '</span>' : ''}</div>
-      ${e !== 'ok' ? `<label class="pm-r pm-ficha" for="ficha-${J.c}"><span class="pm-r-t"><b>¿Ya la renovaste?</b><small>Poné la nueva fecha de vencimiento.</small></span><input type="date" class="pm-in" id="ficha-${J.c}" data-pm="ficha" data-c="${J.c}" value="${f}"></label>` : ''}</div>`; })()}
+    ${(() => { const f = pmFicha(J), e = pmFichaEst(f); return `<div class="panel pm-ficha-yo ${e}"><div class="pm-r"><span class="pm-r-t"><b>Ficha médica</b><small>${e === 'sin' ? 'Cargá cuándo vence tu ficha médica.' : e === 'vencida' ? `Venció el ${pmFecha(f)}. Renovala para poder jugar.` : e === 'pronto' ? `Vence el ${pmFecha(f)}. Acordate de renovarla.` : `Al día, vence el ${pmFecha(f)}.`}</small></span>${e !== 'ok' ? '<span class="pm-est ' + (e === 'vencida' ? 'no' : 'pronto') + '">' + (e === 'vencida' ? 'Vencida' : 'Por vencer') + '</span>' : ''}</div>
+      ${e !== 'ok' ? `<label class="pm-r pm-ficha" for="ficha-${J.c}"><span class="pm-r-t"><b>${e === 'sin' ? 'Vencimiento' : '¿Ya la renovaste?'}</b><small>${e === 'sin' ? 'La fecha que figura en la ficha.' : 'Poné la nueva fecha de vencimiento.'}</small></span><input type="date" class="pm-in" id="ficha-${J.c}" data-pm="ficha" data-c="${J.c}" value="${f}"></label>` : ''}</div>`; })()}
     ${CF.verAnalisis ? avDelJugador(J, susCats) : ''}
-    <p class="pm-nota">Esto es lo que ve un jugador. Lo que aparece acá lo decide el cuerpo técnico en Ajustes.</p>`;
+    ${S.rol !== 'jug' ? '<p class="pm-nota">Esto es lo que ve un jugador. Lo que aparece acá lo decide el cuerpo técnico en Ajustes.</p>' : ''}`;
 }
 // Lo que dicen de un jugador los informes: los suyos (modo Jugador) y su parte en los del equipo (por su número en la planilla).
 function avDelJugador(J, cats) {
@@ -3964,7 +3906,7 @@ function pmEnlazar() {
     else if (a === 'av-borrar') { if (!confirm('¿Borrar este informe? No se puede deshacer.')) return; E.analisis = E.analisis.filter(x => x.id !== v); delete AV_MEDIA[v]; pmGuardar(); aviso('Informe borrado.'); }
     else if (a === 'copiar') { const t = $('#' + v).textContent; navigator.clipboard?.writeText(t).then(() => aviso('Copiado.'), () => aviso('No se pudo copiar. Seleccioná el texto.')); return; }
     else if (a === 'asignar') { const x = pmUsuario(b.dataset.u); const s = new Set(x.equipos || []); s.has(v) ? s.delete(v) : s.add(v); x.equipos = PM.cats.filter(c => s.has(c)); pmGuardar(); }
-    else if (a === 'quitar-dt') { E.usuarios = E.usuarios.filter(x => x.u !== v); pmGuardar(); aviso('Técnico quitado.'); }
+    else if (a === 'quitar-dt') { if (b.dataset.ok !== '1') { b.dataset.ok = '1'; b.textContent = '¿Seguro? Tocá de nuevo'; return; } SBR.rpc('pm_baja_tecnico', { p_club: PM_CLUB, p_usuario: v }).then(({ error }) => { if (error) { aviso('No se pudo quitar: ' + error.message); return; } E.usuarios = E.usuarios.filter(x => x.u !== v); pmGuardar(); aviso('Técnico quitado: ya no puede entrar.'); renderClubes('tecnicos'); }); return; }
     else if (a === 'reset') { PM_EST = null; pmG('pm-estado2', '{}'); aviso('Se borró lo marcado.'); }
     else return;
     repintar();
@@ -3997,7 +3939,12 @@ function pmEnlazar() {
     if (!/^[a-z0-9._-]{2,30}$/.test(u)) { aviso('El usuario puede tener letras, números, punto, guion o guion bajo (de 2 a 30).'); return; }
     if (!n) { aviso('Poné el nombre del técnico.'); return; }
     if (pmUsuario(u) || pmJug(u)) { aviso('Ese usuario ya existe. Probá con otro.'); return; }
-    E.usuarios.push({ u, nombre: n, rol: 'dt', equipos: [] }); pmGuardar(); aviso(`${n} puede entrar con el usuario ${u}.`); repintar();
+    const btn = fdt.querySelector('button[type=submit]'); btn.disabled = true; btn.textContent = 'Creando la cuenta…';
+    SBR.rpc('pm_alta_tecnico', { p_club: PM_CLUB, p_usuario: u, p_nombre: n }).then(({ data, error }) => {
+      btn.disabled = false; btn.textContent = 'Agregar';
+      if (error) { aviso(/existe/i.test(error.message) ? 'Ese usuario ya existe. Probá con otro.' : 'No se pudo crear: ' + error.message); return; }
+      E.usuarios.push({ u, nombre: n, rol: 'dt', equipos: [] }); pmGuardar(); PM_DT_NUEVO = { u, n, temp: data }; repintar();
+    });
   };
   const vid = $('#pm-vid');
   if (vid) vid.onsubmit = ev => {
