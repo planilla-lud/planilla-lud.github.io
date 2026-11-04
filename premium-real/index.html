@@ -2358,10 +2358,15 @@ async function pmRealCargar() {
   const { data: { session } } = await SBR.auth.getSession();
   REAL.user = session?.user || null; REAL.miembro = null;
   if (!REAL.user) return;
-  const { data: m, error } = await SBR.from('pm_miembros').select('rol,usuario,nombre,carne,club').eq('user_id', REAL.user.id).maybeSingle();
+  const { data: m, error } = await SBR.from('pm_miembros').select('rol,usuario,nombre,carne,club,clave_cambiada').eq('user_id', REAL.user.id).maybeSingle();
   if (error) throw error;
   if (!m) { await SBR.auth.signOut(); REAL.user = null; throw new Error('Tu usuario no pertenece a ningún club.'); }
+  // Por ahora el plan es solo para el ELF: otra cuenta no entra.
+  if (m.club !== PM_CLUB) { await SBR.auth.signOut(); REAL.user = null; throw new Error('Por ahora el plan para clubes es solo para el ELF.'); }
   REAL.miembro = m;
+  // Primera vez de un jugador: hasta que elige su contraseña el servidor no le muestra nada del club.
+  REAL.debeClave = m.rol === 'jug' && !m.clave_cambiada;
+  if (REAL.debeClave) { PM_LAST = new Map(); REAL.estado = {}; PM_EST = null; return; }
   const filas = [];
   for (let i = 0; ; i += 1000) { const { data, error: e2 } = await SBR.from('pm_estado').select('k,sub,valor').eq('club', PM_CLUB).range(i, i + 999); if (e2) throw e2; filas.push(...data); if (data.length < 1000) break; }
   PM_LAST = new Map(filas.map(f => [f.k + PM_SEP + f.sub, JSON.stringify(f.valor)]));
@@ -2563,6 +2568,7 @@ async function renderClubes(sub, rest = []) {
     pmCargar().then(() => { const el = $('#pm-ej'); if (el) { el.outerHTML = pmEjemplo(); pmEnlazarLogin(true); } }).catch(() => {});
     return;
   }
+  if (REAL.debeClave) { main.innerHTML = pmNuevaClaveV(); pmEnlazarNuevaClave(); window.scrollTo({ top: 0 }); return; }
   if (!PM) main.innerHTML = SKELETON;
   try { await pmCargar(); } catch { main.innerHTML = '<div class="empty">No se pudieron cargar los datos del club. Probá recargar la página.</div>'; return; }
   if (!location.hash.startsWith('#/clubes')) return;
@@ -2689,10 +2695,41 @@ function pmLogin() {
       <p class="pm-err" id="lg-err" hidden></p>
       <button class="btn p" type="submit">Iniciar sesión</button></form>
     ${REAL.error ? `<p class="pm-err">${esc(REAL.error)}</p>` : ''}
-    <div class="panel pm-demo"><b>Cuentas de prueba</b><small class="pm-demo-s">Administrador y técnicos: contraseña privada. Jugadores: su número de carné y la contraseña <code>${PM_CLAVE}</code>.</small>
+    <div class="panel pm-demo"><b>Cuentas de prueba</b><small class="pm-demo-s">Administrador y técnicos: contraseña privada. Jugadores: la primera vez, su número de carné y la contraseña <code>${PM_CLAVE}</code>; ahí eligen la suya.</small>
       ${pmEst().usuarios.map(x => cuenta(x.u, x.rol === 'admin' ? `Administrador · ${esc(x.nombre)}` : `DT · ${esc(x.nombre)}`, `Usuario <code>${esc(x.u)}</code> · ${x.rol === 'admin' ? 've todo el club y asigna los técnicos' : (x.equipos || []).map(pmCatN).join(', ') || 'sin planteles'}`)).join('')}
       ${pmEjemplo()}</div>
     <p class="pm-nota">¿Tu club todavía no tiene el plan? Pedile a tu técnico o a la comisión que nos escriba.</p></div>`;
+}
+// ----- Primera vez: el jugador elige su contraseña -----
+function pmNuevaClaveV() {
+  const n = esc((REAL.miembro?.nombre || '').split(' ')[0]);
+  return `<div class="pm-login"><div class="pm-login-h">${crest('ELF', true)}<div><h2>Hola${n ? ', ' + n : ''}</h2><p class="small muted">Es la primera vez que entrás: elegí tu contraseña. Desde ahora entrás con tu carné y esta contraseña.</p></div></div>
+    <form class="panel pm-form" id="pm-nueva" autocomplete="on">
+      <input type="text" autocomplete="username" value="${esc(REAL.miembro?.usuario || '')}" hidden readonly>
+      <label for="nc-1">Contraseña nueva<input type="password" id="nc-1" autocomplete="new-password" minlength="8" required></label>
+      <label for="nc-2">Repetila<input type="password" id="nc-2" autocomplete="new-password" minlength="8" required></label>
+      <p class="pm-nota pm-sin">Mínimo 8 caracteres. No uses tu carné ni la contraseña que te dieron.</p>
+      <p class="pm-err" id="nc-err" hidden></p>
+      <button class="btn p" type="submit">Guardar y entrar</button>
+      <button type="button" class="share" data-pm="salir">Salir</button></form></div>`;
+}
+function pmEnlazarNuevaClave() {
+  const f = $('#pm-nueva'), err = $('#nc-err'); if (!f) return;
+  f.querySelector('[data-pm="salir"]').onclick = async () => { await SBR.auth.signOut(); REAL = { listo: true, user: null, miembro: null, estado: {}, claveClub: '' }; PM_EST = null; renderClubes(); };
+  f.onsubmit = async ev => {
+    ev.preventDefault();
+    const a = $('#nc-1').value, b = $('#nc-2').value, btn = f.querySelector('button[type=submit]');
+    const mal = a.length < 8 ? 'Tiene que tener al menos 8 caracteres.' : a !== b ? 'Las dos contraseñas no son iguales.' : a === PM_CLAVE || a === REAL.miembro?.carne ? 'Elegí una distinta a tu carné y a la que te dieron.' : '';
+    if (mal) { err.textContent = mal; err.hidden = false; return; }
+    btn.disabled = true; btn.textContent = 'Guardando…'; err.hidden = true;
+    const { error } = await SBR.auth.updateUser({ password: a });
+    if (error) { err.textContent = /weak|short/i.test(error.message) ? 'Esa contraseña es muy fácil. Probá con otra más larga.' : 'No se pudo guardar: ' + error.message; err.hidden = false; btn.disabled = false; btn.textContent = 'Guardar y entrar'; return; }
+    const { error: e2 } = await SBR.rpc('pm_clave_lista');
+    if (e2) { err.textContent = 'No se pudo guardar: ' + e2.message; err.hidden = false; btn.disabled = false; btn.textContent = 'Guardar y entrar'; return; }
+    try { await pmRealCargar(); } catch (e) { err.textContent = e.message; err.hidden = false; btn.disabled = false; btn.textContent = 'Guardar y entrar'; return; }
+    const E = pmEst(); E.rol = 'jug'; E.yo = REAL.miembro.carne; pmGuardar();
+    aviso('Listo, contraseña guardada.'); renderClubes(location.hash.split('/')[2]);
+  };
 }
 function pmEnlazarLogin(soloBotones) {
   const f = $('#pm-login'), err = $('#lg-err');
@@ -3668,6 +3705,15 @@ function avIr(clip, seg) {
 }
 
 function avEnlazar() {
+  const rg = $('#pm-reset-go');
+  if (rg) rg.onclick = async () => {
+    const c = $('#pm-reset-j').value, J = pmJug(c), ok = $('#pm-reset-ok');
+    if (ok.dataset.c !== c) { ok.dataset.c = c; ok.hidden = false; ok.textContent = `¿Seguro? ${J?.nombre || c} va a tener que elegir una contraseña nueva. Tocá de nuevo para confirmar.`; return; }
+    rg.disabled = true;
+    const { data, error } = await SBR.rpc('pm_restablecer_clave', { p_carne: c });
+    rg.disabled = false; ok.dataset.c = '';
+    ok.textContent = error ? 'No se pudo: ' + error.message : data ? `Listo: ${J?.nombre || c} entra con su carné y ${PM_CLAVE}, y elige una nueva.` : 'Ese jugador no tiene cuenta en el club.';
+  };
   const cc = $('#pm-clave-club');
   if (cc) cc.onchange = async () => {
     const v = cc.value.trim();
@@ -3782,6 +3828,8 @@ function pmAjustes() {
     <section class="stack"><div class="sec-h"><div><h3>Partidos</h3></div></div><div class="panel">${pmSw('convocatoria', 'Convocatoria', 'Elegir los convocados de cada partido y mandar la lista')}</div></section>
     <section class="stack"><div class="sec-h"><div><h3>Días de práctica</h3><span class="sub">Se cambian en Prácticas, eligiendo el plantel.</span></div><a href="#/clubes/practicas">Cambiar</a></div>
       <div class="panel">${pmCV().map(c => `<div class="pm-r"><span class="pm-r-t"><b>${esc(pmCatN(c))}</b><small>${pmDiasTxt(c)} · ${esc(pmHorHoy(c).lugar)}</small></span></div>`).join('')}</div></section>
+    <section class="stack"><div class="sec-h"><div><h3>Contraseñas de los jugadores</h3><span class="sub">Si un jugador se olvidó la suya, se la restablecés: vuelve a ser <code>${PM_CLAVE}</code> y al entrar elige una nueva.</span></div></div>
+      <div class="panel"><div class="pm-r pm-r-col"><select class="pm-in" id="pm-reset-j" aria-label="Jugador">${pmDe(PM_CAT).sort((a, b) => a.nombre.localeCompare(b.nombre, 'es')).map(J => `<option value="${J.c}">${esc(J.nombre)} · ${J.c}</option>`).join('')}</select><button type="button" class="share" id="pm-reset-go">Restablecer contraseña</button><p class="pm-nota pm-sin" id="pm-reset-ok" hidden></p></div></div></section>
     ${pmSesion()?.rol !== 'admin' ? '' : `<section class="stack"><div class="sec-h"><div><h3>Plan</h3></div></div>
       <div class="panel"><div class="pm-r"><span class="pm-r-t"><b>Prueba gratis · ELF</b><small>Después: 30 USD por mes cada plantel, o 100 USD por mes todo el club.</small></span><span class="tag pm-plan">Activo</span></div>
       <div class="pm-r pm-r-col"><span class="pm-r-t"><b>Clave de Gemini del club</b><small>La usan todos los técnicos para el Análisis, así no necesitan una propia. Si un técnico pone la suya, se usa la de él.</small></span>
