@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-04T00:01:49.325Z",
+ "actualizado": "2026-11-04T07:27:53.530Z",
  "partidos": [
   {
    "div": "mayores-a",
@@ -50,23 +50,6 @@
    "base": 8,
    "tipo": "descenso",
    "altasL": 4,
-   "altasV": 2
-  },
-  {
-   "div": "mayores-a",
-   "divNombre": "Mayores A",
-   "k": "Old Ivy~Santa Elena",
-   "l": "Old Ivy",
-   "v": "Santa Elena",
-   "dia": "2026-11-03",
-   "hora": "21:30",
-   "etapa": "Permanencia",
-   "pl": 7,
-   "pv": 6,
-   "n": 8,
-   "base": 8,
-   "tipo": "descenso",
-   "altasL": 0,
    "altasV": 2
   },
   {
@@ -509,6 +492,23 @@
    "base": 8,
    "tipo": "descenso",
    "altasL": 1,
+   "altasV": 2
+  },
+  {
+   "div": "mas40-b",
+   "divNombre": "Más 40 B",
+   "k": "Sindicato Medico Del Uruguay~Club Estudiantes Ingenieria",
+   "l": "Sindicato Medico Del Uruguay",
+   "v": "Club Estudiantes Ingenieria",
+   "dia": "2026-11-07",
+   "hora": "09:00",
+   "etapa": "Permanencia",
+   "pl": 7,
+   "pv": 5,
+   "n": 8,
+   "base": 8,
+   "tipo": "descenso",
+   "altasL": 2,
    "altasV": 2
   }
  ]
