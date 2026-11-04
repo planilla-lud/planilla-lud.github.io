@@ -23,7 +23,10 @@ self.addEventListener('fetch', e => {
 });
 async function primeroLaRed(r, clave) {
   const cache = await caches.open(CACHE);
-  const red = fetch(r).then(res => { if (res.ok) cache.put(clave, res.clone()); return res; });
+  // Las páginas se piden revalidando (cache: 'no-cache'), si no el navegador muestra hasta 10 minutos la versión
+  // vieja después de publicar cambios. Si no cambió, GitHub responde 304 y no se baja de nuevo.
+  const pagina = r.mode === 'navigate' || /(\/|\.html)$/.test(new URL(r.url).pathname);
+  const red = fetch(pagina ? new Request(r.url, { cache: 'no-cache', credentials: 'same-origin' }) : r).then(res => { if (res.ok) cache.put(clave, res.clone()); return res; });
   const guardado = await cache.match(clave);
   if (!guardado) return red;
   return Promise.race([red.catch(() => guardado), new Promise(ok => setTimeout(() => ok(guardado), 4000))]);
