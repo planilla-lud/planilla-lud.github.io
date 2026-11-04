@@ -2803,6 +2803,18 @@ function avPlantel(cat, pid) {
   }
   return null;
 }
+// En qué tiempo fue cada gol, leído del informe de Veo: la lista de momentos viene separada en "1º TIEMPO" y
+// "2º TIEMPO" ("47’ · ELF / Gol"). Así un 47' de descuento queda en el primer tiempo y Gemini no lo tiene que adivinar.
+function avTiemposVeo(txt) {
+  const t = String(txt || ''), i1 = t.search(/1\s*[º°o]\s*tiempo/i), i2 = t.search(/2\s*[º°o]\s*tiempo/i), out = [];
+  if (i1 < 0) return out;
+  const fin = t.slice(i1).search(/estad[ií]sticas clave/i);
+  const zona = fin > 0 ? t.slice(i1, i1 + fin) : t.slice(i1);
+  for (const m of zona.matchAll(/(\d{1,3})\s*[’'′]\s*·\s*([^\n]+)\n\s*Gol\b/gi)) out.push({ m: Number(m[1]), equipo: m[2].trim(), t: i2 > 0 && i1 + m.index > i2 ? 2 : 1 });
+  return out;
+}
+// Tiempo de cada gol: lo que dice Veo; si Veo no lo tiene, hasta el 45 es primer tiempo, desde el 51 segundo, y en el medio no se sabe.
+function avTiempoGol(m, veo) { const v = veo.find(x => x.m === m); return v ? v.t : m <= 45 ? 1 : m >= 51 ? 2 : 0; }
 const avPorCam = (P, quien) => { const n = String(quien || '').match(/\d+/)?.[0]; return n && P ? P.jug.find(j => j.cam === n) : null; };
 const avRivales = cat => [...new Set(pmEV().filter(e => e.div === cat).flatMap(e => Object.keys(e.d.porEquipo).filter(x => x !== e.equipo)))].sort((a, b) => a.localeCompare(b, 'es'));
 // De lo que se elige (una carpeta entera o varios archivos) quedan solo los videos, ordenados por nombre.
@@ -2981,8 +2993,9 @@ Partido: ${ctx.club} (${ctx.plantel}) contra ${ctx.rival}${ctx.dia ? `, ${ctx.di
 - En el primer tiempo ${ctx.club} ataca hacia la ${lado[0]} de la cámara; en el segundo tiempo, hacia la ${lado[1]}.
 ${ctx.n ? `- Tipo de video: ${AV_TIPOS.find(t => t[0] === F.tipo)[1].toLowerCase()}. Son ${ctx.n} clip(s), etiquetados "Clip 1" a "Clip ${ctx.n}" en orden.${F.tipo === 'highlights' ? ' Son highlights de Veo: cada clip es una jugada suelta y no está el partido entero.' : F.tipo === 'recorte' ? ' Es un recorte: solo una parte del partido.' : ''}` : '- No hay video: trabajá solo con el informe de Veo. Todas las listas de "jugadas" van vacías ([]) y "llegadas" en 0 si el informe no permite saberlo.'}
 ${ctx.planilla ? `- Planilla oficial de la Liga para este partido. Jugadores de ${ctx.club} (número de camiseta, nombre, minutos, goles): ${ctx.planilla.jug.map(j => `#${j.cam} ${j.nombre} (${j.tit ? 'titular' : 'suplente'}, ${j.min}'${j.entra != null ? `, entró al ${j.entra}'` : ''}${j.sale != null ? `, salió al ${j.sale}'` : ''}${j.goles.length ? `, goles al ${j.goles.join("', ")}'` : ''})`).join('; ')}.
-  Goles del partido según la planilla: ${ctx.planilla.goles.map(g => `${g.m}' ${g.nuestro ? `${ctx.club} (#${g.cam} ${g.nombre})` : ctx.rival}`).join(', ') || 'ninguno'}. La planilla manda: si Veo o los clips dicen otra cosa sobre quién hizo un gol, usá la planilla. No afirmes en qué tiempo fue un gol si no está claro (un minuto 46 o 47 puede ser descuento del primer tiempo).
+  Goles del partido según la planilla, con el tiempo en que fueron (YA RESUELTO: no lo cambies ni lo deduzcas del minuto): ${ctx.planilla.goles.map(g => { const t = avTiempoGol(g.m, ctx.tiemposVeo); return `${g.m}' ${g.nuestro ? `${ctx.club} (#${g.cam} ${g.nombre})` : ctx.rival} [${t === 1 ? 'primer tiempo' : t === 2 ? 'segundo tiempo' : 'tiempo sin confirmar'}${t === 1 && g.m > 45 ? ', descuento' : ''}]`; }).join(', ') || 'ninguno'}. La planilla manda: si Veo o los clips dicen otra cosa sobre quién hizo un gol, usá la planilla. Un gol "tiempo sin confirmar" no lo ubiques en ningún tiempo.
   Cuando nombres a un jugador de ${ctx.club}, escribilo como "#número Nombre Apellido" (ej. "#${ctx.planilla.jug[0]?.cam} ${ctx.planilla.jug[0]?.nombre}"). En "jugadores", "quien" es solo el número.
+` : ''}${!ctx.planilla && ctx.tiemposVeo.length ? `- Goles según Veo, con el tiempo en que fueron (YA RESUELTO: no lo cambies): ${ctx.tiemposVeo.map(g => `${g.m}' ${g.equipo} [${g.t === 1 ? 'primer tiempo' : 'segundo tiempo'}${g.t === 1 && g.m > 45 ? ', descuento' : ''}]`).join(', ')}.
 ` : ''}${F.veo.trim() ? `- Va el informe de Veo Analytics del partido, copiado de la web de Veo (texto desordenado: los números vienen de a pares, primero el rival y después ${ctx.club}, o por número de camiseta; en Veo ${ctx.club} puede aparecer como "ELF" o con el nombre del plantel y el rival como "Equipo rival"). Usá esos números para respaldar o matizar lo que ves en los clips; si no coinciden, decilo.${F.modo === 'jugador' ? ' Buscá la fila del jugador en "Player Stats" (por su número de camiseta) y usala.' : ''}
 <<<INFORME DE VEO
 ${F.veo.trim().slice(0, 120000)}
@@ -3014,7 +3027,7 @@ Reglas:
 - Es un informe A FONDO para el cuerpo técnico: sé detallado y concreto, con lenguaje de fútbol. Nada genérico ("hay que mejorar la concentración" no sirve): cada punto dice qué pasó, dónde, quién y cómo se corrige.
 - "debilidades": de 3 a 6. "bien" y "corregir": de 3 a 6 puntos cada uno, con sus jugadas.
 - "fases": las cuatro, cada una con un párrafo de 3 a 5 oraciones. Si de una fase no hay nada en el material, decilo en el texto.
-- "tiempos": compará los dos tiempos (si el material no permite separarlos, decilo).
+- "tiempos": compará los dos tiempos (si el material no permite separarlos, decilo). Cada gol va en el tiempo que te pasé ya resuelto, aunque su minuto sea mayor a 45.
 - "jugadores": de 3 a 8 jugadores, destacados y a mejorar, identificados por número de camiseta (o por puesto si no se lee). No inventes números.
 - "entrenamiento": de 2 a 4 ejercicios para la semana, cada uno atado a un problema de este partido.
 - No inventes lo que no se ve en los videos.${F.veo.trim() ? `
@@ -3081,7 +3094,7 @@ async function avAnalizar() {
     const partes = clips.flatMap((c, i) => [{ text: `Clip ${i + 1} (${c.f.name})${veo[i].ini != null ? `: según Veo empieza en el ${avT(veo[i].ini)} del video del partido` : ''}${veo[i].tipo ? ` y Veo lo marcó como "${veo[i].tipo}"` : ''}. Revisá con la imagen de qué equipo es la jugada:` }, { file_data: { mime_type: subidos[i].mimeType, file_uri: subidos[i].uri } }]);
     for (const [i, f] of caps.entries()) partes.push({ text: `Captura ${i + 1} de Veo Analytics (${f.name}):` }, { inline_data: { mime_type: f.type || 'image/png', data: await avBase64(f) } });
     const plantel = avPlantel(F.cat, p?.id);
-    partes.push({ text: avPrompt({ ...F }, { planilla: plantel, club: PM.club.nombre, plantel: pmCatN(F.cat), rival, dia: dia ? fDia(dia) : '', res: p ? `${PM.club.nombre} ${p.gf}, ${rival} ${p.gc}` : '', n: clips.length, caps: caps.length, jugador: J?.nombre }) });
+    partes.push({ text: avPrompt({ ...F }, { planilla: plantel, tiemposVeo: avTiemposVeo(F.veo), club: PM.club.nombre, plantel: pmCatN(F.cat), rival, dia: dia ? fDia(dia) : '', res: p ? `${PM.club.nombre} ${p.gf}, ${rival} ${p.gc}` : '', n: clips.length, caps: caps.length, jugador: J?.nombre }) });
     const cfg = { responseMimeType: 'application/json', temperature: 0.3, mediaResolution: 'MEDIA_RESOLUTION_LOW' };
     // Si Gemini está saturado (503) se reintenta solo y, si sigue, se prueba con otro modelo. Los videos ya subidos se reusan.
     const cuerpo = JSON.stringify({ contents: [{ role: 'user', parts: partes }], generationConfig: cfg });
