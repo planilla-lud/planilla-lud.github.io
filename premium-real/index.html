@@ -2298,7 +2298,7 @@ let PM_EST = null; // el estado del club (sale del servidor)
 // ===== Versión con servidor (Supabase) =====
 // Cuentas reales, estado del club compartido y en vivo, y la clave de Gemini del club guardada en el servidor.
 // El estado se guarda en pedacitos (pm_estado: k + sub) para que dos personas que cambian cosas distintas no se pisen.
-const SBR = window.supabase ? window.supabase.createClient('https://qmjmolsnbwybgtohlnqm.supabase.co', 'sb_publishable_eB8zxpc42rmu0B7jdR6jVA_03TD3oz8', { auth: { persistSession: true, storageKey: 'pm-real-auth' } }) : null;
+const SBR = window.supabase ? window.supabase.createClient(SB_URL, SB_KEY, { auth: { persistSession: true, storageKey: 'pm-real-auth' } }) : null;
 let REAL = { listo: false, user: null, miembro: null, estado: {}, claveClub: '' };
 const PM_SEP = '\u0001';
 const PM_D2 = ['marcas', 'lista', 'resp'];
@@ -2374,7 +2374,8 @@ async function pmRealCargar() {
   PM_LAST = new Map(filas.map(f => [f.k + PM_SEP + f.sub, JSON.stringify(f.valor)]));
   REAL.estado = pmDesdePlano(PM_LAST);
   REAL.claveClub = '';
-  if (m.rol !== 'jug') { const { data: sec } = await SBR.from('pm_secretos').select('gemini').eq('club', PM_CLUB).maybeSingle(); REAL.claveClub = sec?.gemini || ''; }
+  // De la clave del club solo se sabe si está y cómo termina: la clave queda en el servidor y Gemini se usa a través de él.
+  if (m.rol !== 'jug') { const { data: fin } = await SBR.rpc('pm_hay_clave_club', { p_club: PM_CLUB }); REAL.claveClub = fin || ''; }
   PM_EST = null; pmEst();
   if (m.rol !== 'jug') pmGuardar(); // sube lo que falte (técnicos de ejemplo, ajustes por defecto)
   pmEnVivo();
@@ -2964,7 +2965,8 @@ const avClaveCuenta = () => String(REAL.user?.user_metadata?.gemini || '');
 const avDonde = () => avClaveCuenta() ? 'cuenta' : (leer('pm-gemini-donde') || 'navegador');
 const avClavePropia = () => (avClaveCuenta() || leer('pm-gemini-clave') || '').trim();
 // Si el DT no puso una clave suya, se usa la del club (la carga el administrador en Ajustes).
-const avClave = () => avClavePropia() || String(pmEst().claveClub || '').trim();
+const AV_CLUB = '@club'; // "usar la clave del club": los pedidos van por el servidor, que es el único que la tiene
+const avClave = () => avClavePropia() || (pmEst().claveClub ? AV_CLUB : '');
 function avGuardarClave(v, donde = avDonde()) {
   // "Mi cuenta": se guarda en la cuenta del usuario en el servidor (la ve solo él, desde cualquier navegador).
   if (donde === 'cuenta') { try { localStorage.removeItem('pm-gemini-clave'); } catch {} SBR.auth.updateUser({ data: { gemini: v || null } }).then(({ data }) => { if (data?.user) REAL.user = data.user; }); if (REAL.user) REAL.user.user_metadata = { ...(REAL.user.user_metadata || {}), gemini: v || null }; }
@@ -3114,6 +3116,8 @@ function avPintarRun() {
 
 // ----- Gemini: Files API y generateContent -----
 function avError(st, m = '') {
+  if (st === 412) return 'El club todavía no cargó su clave de Gemini. Pedile al administrador que la ponga en Ajustes.';
+  if (st === 401 && /sesi/i.test(m)) return m;
   if (st === 400 && /api key/i.test(m)) return 'La clave de Gemini no es válida. Revisala y probá de nuevo.';
   if (st === 401 || st === 403) return 'La clave de Gemini no tiene permiso para esto. Revisá que sea de un proyecto con la API de Gemini activada.';
   if (st === 404) return 'Ninguno de los modelos está disponible para tu clave. Probá con otra clave de AI Studio.';
@@ -3123,9 +3127,31 @@ function avError(st, m = '') {
   return `Gemini respondió con un error (${st})${m ? ': ' + m : ''}.`;
 }
 const avCancelado = () => new DOMException('cancelado', 'AbortError');
+// Con la clave del club, el pedido va a la función del servidor, que le agrega la clave y se lo pasa a Gemini.
+async function avPorClub(ruta, op) {
+  const { data } = await SBR.auth.getSession();
+  return fetch(`${SB_URL}/functions/v1/gemini${ruta}`, { ...op, headers: { ...op?.headers, Authorization: 'Bearer ' + (data?.session?.access_token || ''), apikey: SB_KEY, 'x-pm-club': PM_CLUB } });
+}
+// El análisis por el servidor llega de a pedazos (para que no se corte si Gemini tarda): se juntan en una respuesta.
+async function avJuntarSSE(r) {
+  const txt = (await r.text()).replace(/\r\n/g, '\n'), partes = [], res = { candidates: [{ content: { parts: partes } }] };
+  for (const bloque of txt.split(/\n\n/)) {
+    const ev = /^event: (\w+)/m.exec(bloque)?.[1], d = bloque.split('\n').filter(l => l.startsWith('data: ')).map(l => l.slice(6)).join('\n');
+    if (!d) continue;
+    let o; try { o = JSON.parse(d); } catch { continue; }
+    if (ev === 'error') return { error: o };
+    if (o.promptFeedback) res.promptFeedback = o.promptFeedback;
+    for (const x of o.candidates?.[0]?.content?.parts || []) {
+      const ult = partes.at(-1);
+      if (ult && 'text' in x && 'text' in ult && !!ult.thought === !!x.thought) ult.text += x.text; else partes.push({ ...x });
+    }
+  }
+  return { res };
+}
 async function avPedir(ruta, op, clave) {
   let r;
-  try { r = await fetch(AV_API + ruta, { ...op, headers: { 'x-goog-api-key': clave, ...op?.headers }, signal: op && 'signal' in op ? op.signal : AV_RUN?.ctl.signal }); }
+  const senal = op && 'signal' in op ? op.signal : AV_RUN?.ctl.signal;
+  try { r = clave === AV_CLUB ? await avPorClub(ruta, { ...op, signal: senal }) : await fetch(AV_API + ruta, { ...op, headers: { 'x-goog-api-key': clave, ...op?.headers }, signal: senal }); }
   catch (e) { if (e.name === 'AbortError') throw e; throw new Error('No se pudo conectar con Gemini. Revisá la conexión.'); }
   if (!r.ok) {
     let j = {}; try { j = await r.json(); } catch {}
@@ -3134,6 +3160,18 @@ async function avPedir(ruta, op, clave) {
     e.cuota = det.flatMap(d => d.violations || []).map(v => v.quotaId || '').join(',');
     e.espera = parseInt(det.find(d => d.retryDelay)?.retryDelay) || 0;
     throw e;
+  }
+  if (clave === AV_CLUB && /event-stream/.test(r.headers.get('content-type') || '')) {
+    const { res, error } = await avJuntarSSE(r);
+    if (error) { // el error de Gemini viene adentro del stream: se arma igual que si hubiera llegado directo
+      let j = {}; try { j = JSON.parse(error.body); } catch {}
+      const m = j.error?.message || '', det = j.error?.details || [], e = new Error(avError(error.status, m));
+      e.status = error.status; e.raw = m;
+      e.cuota = det.flatMap(d => d.violations || []).map(v => v.quotaId || '').join(',');
+      e.espera = parseInt(det.find(d => d.retryDelay)?.retryDelay) || 0;
+      throw e;
+    }
+    return { ok: true, headers: r.headers, json: async () => res };
   }
   return r;
 }
@@ -3234,7 +3272,7 @@ async function avActivo(f, clave) {
   return f;
 }
 // Sin la señal del análisis: se borran aunque se haya cancelado.
-const avBorrar = (f, clave) => fetch(`${AV_API}/v1beta/${f.name}`, { method: 'DELETE', headers: { 'x-goog-api-key': clave }, keepalive: true }).catch(() => {});
+const avBorrar = (f, clave) => (clave === AV_CLUB ? avPorClub('/v1beta/' + f.name, { method: 'DELETE', keepalive: true }) : fetch(`${AV_API}/v1beta/${f.name}`, { method: 'DELETE', headers: { 'x-goog-api-key': clave }, keepalive: true })).catch(() => {});
 const avBase64 = f => new Promise((ok, mal) => { const r = new FileReader(); r.onload = () => ok(String(r.result).split(',')[1]); r.onerror = () => mal(new Error(`No se pudo leer ${f.name}.`)); r.readAsDataURL(f); });
 async function avDeA(lista, n, fn) {
   let i = 0;
@@ -3700,12 +3738,21 @@ function avEnlazar() {
     rg.disabled = false; ok.dataset.c = '';
     ok.textContent = error ? 'No se pudo: ' + error.message : data === 'creada' ? `Cuenta creada: ${J?.nombre || c} entra con su carné (${c}) y ${PM_CLAVE}, y elige la suya.` : data === 'restablecida' ? `Listo: ${J?.nombre || c} entra con su carné y ${PM_CLAVE}, y elige una nueva.` : 'No se encontró a ese jugador.';
   };
+  const cb = $('#pm-clave-club-borrar');
+  if (cb) cb.onclick = async () => {
+    if (cb.dataset.ok !== '1') { cb.dataset.ok = '1'; cb.textContent = '¿Seguro? Los técnicos no van a poder analizar. Tocá de nuevo'; return; }
+    const { error } = await SBR.rpc('pm_guardar_clave_club', { p_club: PM_CLUB, p_clave: '' });
+    if (error) { aviso('No se pudo borrar: ' + error.message); return; }
+    REAL.claveClub = ''; pmEst().claveClub = ''; aviso('Se borró la clave del club.'); renderClubes('ajustes');
+  };
   const cc = $('#pm-clave-club');
   if (cc) cc.onchange = async () => {
     const v = cc.value.trim();
-    const { error } = await SBR.from('pm_secretos').upsert({ club: PM_CLUB, gemini: v || null, actualizado: new Date().toISOString() }, { onConflict: 'club' });
+    if (!v) return;
+    const { error } = await SBR.rpc('pm_guardar_clave_club', { p_club: PM_CLUB, p_clave: v });
     if (error) { aviso('No se pudo guardar la clave: ' + error.message); return; }
-    REAL.claveClub = v; pmEst().claveClub = v; aviso(v ? 'Clave del club guardada en el servidor.' : 'Se borró la clave del club.');
+    REAL.claveClub = v ? v.slice(-4) : ''; pmEst().claveClub = REAL.claveClub; cc.value = '';
+    aviso(v ? 'Clave del club guardada en el servidor. Desde ahora no se muestra más.' : 'Se borró la clave del club.'); renderClubes('ajustes');
   };
   const idInf = () => decodeURIComponent(location.hash.split('/')[3] || '');
   document.querySelectorAll('[data-avcopiar]').forEach(b => b.onclick = async () => {
@@ -3769,7 +3816,7 @@ function avEnlazar() {
     f.onclick = ev => {
       const b = ev.target.closest('button[data-av]'); if (!b) return;
       if (b.dataset.av === 'quitar-cap') F.capturas.splice(Number(b.dataset.v), 1);
-      else if (b.dataset.av === 'donde') avGuardarClave(avClave(), b.dataset.v);
+      else if (b.dataset.av === 'donde') avGuardarClave(avClavePropia(), b.dataset.v);
       else F[b.dataset.av] = b.dataset.v;
       repintar();
     };
@@ -3821,8 +3868,9 @@ function pmAjustes() {
       <div class="panel"><div class="pm-r pm-r-col"><select class="pm-in" id="pm-reset-j" aria-label="Jugador">${pmDe(PM_CAT).sort((a, b) => a.nombre.localeCompare(b.nombre, 'es')).map(J => `<option value="${J.c}">${esc(J.nombre)} · ${J.c}</option>`).join('')}</select><button type="button" class="share" id="pm-reset-go">Restablecer o crear su cuenta</button><p class="pm-nota pm-sin" id="pm-reset-ok" hidden></p></div></div></section>
     ${pmSesion()?.rol !== 'admin' ? '' : `<section class="stack"><div class="sec-h"><div><h3>Plan</h3></div></div>
       <div class="panel"><div class="pm-r"><span class="pm-r-t"><b>Plan club · ELF</b><small>Todos los planteles del club.</small></span><span class="tag pm-plan">Activo</span></div>
-      <div class="pm-r pm-r-col"><span class="pm-r-t"><b>Clave de Gemini del club</b><small>La usan todos los técnicos para el Análisis, así no necesitan una propia. Si un técnico pone la suya, se usa la de él.</small></span>
-        <input type="password" class="pm-in" id="pm-clave-club" value="${esc(pmEst().claveClub || '')}" placeholder="Pegá la clave de AI Studio" autocomplete="off" spellcheck="false" aria-label="Clave de Gemini del club"></div>
+      <div class="pm-r pm-r-col"><span class="pm-r-t"><b>Clave de Gemini del club</b><small>La usan todos los técnicos para el Análisis, así no necesitan una propia. Queda guardada en el servidor: nadie la puede ver, ni vos. ${pmEst().claveClub ? `<b>Cargada (termina en …${esc(pmEst().claveClub)}).</b> Para cambiarla, pegá la nueva.` : '<b>Todavía no está cargada.</b>'}</small></span>
+        <input type="password" class="pm-in" id="pm-clave-club" value="" placeholder="${pmEst().claveClub ? 'Pegá una clave nueva para reemplazarla' : 'Pegá la clave de AI Studio'}" autocomplete="off" spellcheck="false" aria-label="Clave de Gemini del club">
+        ${pmEst().claveClub ? '<button type="button" class="share" id="pm-clave-club-borrar">Borrar la clave del club</button>' : ''}</div>
 </div></section>`}`;
 }
 
