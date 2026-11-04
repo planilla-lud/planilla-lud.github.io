@@ -988,6 +988,27 @@ input.pm-in[type="text"]{flex:1;max-width:240px}
 .pm-av-cont{container-type:inline-size}
 @container (min-width:860px){.pm-av-grid{grid-template-columns:minmax(0,1fr) minmax(0,380px)}.pm-av-video{order:0;position:sticky;top:calc(var(--header-h) + var(--cats-h) + 72px)}}
 .pm-av-play video{display:block;width:100%;aspect-ratio:16/9;background:var(--top)}
+.pm-av-vw{position:relative}
+.pm-av-lienzo{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;touch-action:none}
+.pm-av-lienzo.on{pointer-events:auto;cursor:crosshair}
+.pm-av-tools{display:flex;flex-wrap:wrap;gap:6px;align-items:center;padding:10px 14px 0}
+.pm-av-dib{display:flex;gap:6px;flex-wrap:wrap}
+.pm-av-dib[hidden]{display:none}
+.pm-av-mandar{margin-left:auto}
+.pm-av-hd{display:flex;align-items:center;gap:10px}
+.pm-av-envio{display:flex;flex-direction:column;gap:8px;padding:10px 14px 14px}
+.pm-av-envio video{width:100%;border-radius:var(--r-sm);background:var(--top)}
+.pm-av-envio textarea{font:inherit;font-size:.9rem;color:var(--fg);background:var(--surface-2);border:1px solid var(--line);border-radius:var(--r-sm);padding:9px 11px;width:100%;min-height:70px;resize:vertical}
+.pm-av-envio .pm-av-btns{display:flex;gap:8px;flex-wrap:wrap}
+@media print{
+  .top,#cats,#divs,#hero,.lnav,.lado,.pie,.bnav,.fab-chat,.app-aviso,.sin-red,.club-h,.pm-rol,.pm-tabsw,.pm-av-video,.pm-av-noprint,.back,.toast,#av-run{display:none!important}
+  .layout{display:block!important;max-width:none!important}
+  body{background:#fff!important;color:#000!important}
+  .panel{break-inside:avoid;box-shadow:none!important;border:1px solid #ccc!important;background:#fff!important}
+  .pm-av-grid{display:block!important}
+  .chip,.pm-av-j{border:1px solid #bbb!important;background:#fff!important;color:#000!important}
+  a{color:#000!important;text-decoration:none!important}
+}
 .pm-av-clips{padding:10px 14px 0;flex-wrap:wrap;overflow:visible}
 .pm-av-mapa{padding:4px 14px 8px}
 .pm-av-mapa svg{display:block;width:100%;max-width:420px;height:auto;margin:0 auto}
@@ -3272,13 +3293,15 @@ function avInforme(id) {
   const tipo = AV_TIPOS.find(t => t[0] === r.datos.tipo)?.[1] || '';
   const goles = (l, t) => `<div class="panel-h sub"><b>${t}</b><span>${l.length}</span></div>${l.length ? `<div class="side sola">${l.map(j => `<div class="alert pm-av-gol">${avJ(j)}<span>${esc(j.nota) || 'Sin descripción.'}</span></div>`).join('')}</div>` : '<p class="pm-nota pm-sin pm-av-pad">Ninguno en los clips.</p>'}`;
   const puntos = (l, bien) => l.length ? `<div class="side sola">${l.map(b => `<div class="alert${bien ? ' pm-al mas' : ''}"><b>${esc(b.texto)}</b><b class="lvl ${bien ? 'baja' : 'media'}">${bien ? 'Bien' : 'Corregir'}</b>${avJugadas(b.jugadas)}</div>`).join('')}</div>` : '<div class="ok">Nada para marcar.</div>';
-  const video = !r.clips.length ? '' : M ? `<section class="panel pm-av-play"><video id="av-v" controls playsinline preload="metadata" data-clip="1" src="${avURL(M[0])}"></video>
+  const video = !r.clips.length ? '' : M ? `<section class="panel pm-av-play"><div class="pm-av-vw"><video id="av-v" controls playsinline preload="metadata" data-clip="1" src="${avURL(M[0])}"></video><canvas id="av-lienzo" class="pm-av-lienzo" width="1280" height="720" aria-label="Pizarra sobre el video"></canvas></div>
+      <div class="pm-av-tools"><button type="button" class="share" id="av-dibujar" aria-pressed="false">Dibujar</button><span class="pm-av-dib" id="av-dib-ops" hidden><button type="button" class="share" data-avherr="libre" aria-pressed="true">Trazo</button><button type="button" class="share" data-avherr="flecha" aria-pressed="false">Flecha</button><button type="button" class="share" id="av-borrar-dib">Borrar</button></span><button type="button" class="share pm-av-mandar" id="av-mandar">Mandar esta jugada</button></div>
+      <div id="av-envio" hidden></div>
       <div class="chips pm-av-clips">${M.map((c, i) => `<button type="button" class="chip" data-pm="av-clip" data-v="${i + 1}" aria-pressed="${i === 0}">C${i + 1}</button>`).join('')}</div>
       <p class="pm-nota" id="av-cual">Clip 1 · ${esc(M[0].f.name)}</p></section>`
     : `<section class="panel pm-form" id="av-recargar"><div class="pm-av-f">Cargá los clips para ver las jugadas<span class="pm-av-ayuda">Los videos no se guardan. Elegí la misma carpeta o los mismos ${r.clips.length} ${r.clips.length === 1 ? 'video' : 'videos'} que se analizaron.</span>
       <div class="pm-av-btns"><label class="btn">Elegir carpeta<input type="file" data-av-re webkitdirectory multiple hidden></label><label class="btn">Elegir videos<input type="file" data-av-re accept="video/*,.mov,.mkv" multiple hidden></label></div></div></section>`;
   return `${volver}
-    <section class="panel"><div class="panel-h"><span class="comp">${crest(PM.club.equipos[0].equipo)}<span class="t"><b>${esc(club)} vs ${esc(r.partido.rival)}</b><small>${esc(pmCatN(r.div))}${r.partido.dia ? ' · ' + fDia(r.partido.dia) : ''} · ${tipo} · ${r.modo === 'jugador' ? 'Jugador: ' + esc([r.jugador.nombre, r.jugador.quien].filter(Boolean).join(', ')) : 'Equipo'}</small></span></span>${marc ? `<span class="pm-av-marc">${marc}</span>` : ''}</div>
+    <section class="panel"><div class="panel-h"><span class="comp">${crest(PM.club.equipos[0].equipo)}<span class="t"><b>${esc(club)} vs ${esc(r.partido.rival)}</b><small>${esc(pmCatN(r.div))}${r.partido.dia ? ' · ' + fDia(r.partido.dia) : ''} · ${tipo} · ${r.modo === 'jugador' ? 'Jugador: ' + esc([r.jugador.nombre, r.jugador.quien].filter(Boolean).join(', ')) : 'Equipo'}</small></span></span><span class="pm-av-hd">${marc ? `<span class="pm-av-marc">${marc}</span>` : ''}<button type="button" class="share pm-av-noprint" id="av-pdf">PDF</button></span></div>
       ${I.resumen ? `<p class="pm-av-txt">${esc(I.resumen)}</p>` : ''}${mk.nota ? `<p class="pm-nota">${esc(mk.nota)}</p>` : ''}</section>
     <div class="pm-av-cont"><div class="pm-av-grid"><div class="stack pm-av-cuerpo">
       ${!r.clips.length && !n ? '' : `<section class="panel"><div class="panel-h"><b>Por dónde nos llegaron</b><span>${n} ${n === 1 ? 'llegada' : 'llegadas'}</span></div><div class="pm-av-mapa">${avMapa(I.llegadas)}</div>
@@ -3298,7 +3321,7 @@ function avInforme(id) {
       <section class="panel"><div class="panel-h"><b>Qué corregir</b></div>${puntos(I.corregir, false)}</section>
       ${(I.entrenamiento || []).length ? `<section class="panel"><div class="panel-h"><b>Para la semana de práctica</b>${(() => { const pr = pmProx(r.div); if (!pr) return `<span>${I.entrenamiento.length} ${I.entrenamiento.length === 1 ? 'ejercicio' : 'ejercicios'}</span>`; const ya = (pmEst().planes[pr.id] || []).some(x => x.de === r.id); return ya ? `<a class="share" href="#/clubes/practicas">En la práctica del ${fDia(pr.dia)} ✓</a>` : `<button type="button" class="share" data-avplan="${r.id}">Agregar a la práctica del ${fDia(pr.dia)}</button>`; })()}</div><div class="side sola">${I.entrenamiento.map(x => `<div class="alert"><b>${esc(x.ejercicio)}</b>${x.como ? `<span>${esc(x.como)}</span>` : ''}${x.objetivo ? `<span class="pm-av-obj">Para: ${esc(x.objetivo)}</span>` : ''}</div>`).join('')}</div></section>` : ''}
       ${avWhatsappV(r, P)}
-      ${!r.clips.length && r.veoTexto && !(I.fases && AV_FASES.some(([k]) => I.fases[k]?.texto)) ? `<section class="panel pm-form"><div class="pm-av-f">¿Querés este informe más completo?<span class="pm-av-ayuda">Se vuelve a analizar el mismo informe de Veo, ahora a fondo: fases del juego, cada tiempo, jugadores, el rival y ejercicios para la semana. Queda como un informe nuevo.</span><div class="pm-av-btns"><button type="button" class="btn p" id="av-rehacer">Analizar de nuevo a fondo</button></div></div></section>` : ''}
+      ${!r.clips.length && r.veoTexto && !(I.fases && AV_FASES.some(([k]) => I.fases[k]?.texto)) ? `<section class="panel pm-form pm-av-noprint"><div class="pm-av-f">¿Querés este informe más completo?<span class="pm-av-ayuda">Se vuelve a analizar el mismo informe de Veo, ahora a fondo: fases del juego, cada tiempo, jugadores, el rival y ejercicios para la semana. Queda como un informe nuevo.</span><div class="pm-av-btns"><button type="button" class="btn p" id="av-rehacer">Analizar de nuevo a fondo</button></div></div></section>` : ''}
       <p class="pm-nota pm-sin">Hecho con ${esc(r.datos.modelo)} el ${fDia(r.creado.slice(0, 10))} por ${esc(r.autorN)}, ${r.clips.length ? `con ${r.clips.length} ${r.clips.length === 1 ? 'clip' : 'clips'}` : 'sin video'}${r.veoTexto ? ', el informe de Veo' : ''}${r.capturas ? ` y ${r.capturas} ${r.capturas === 1 ? 'captura' : 'capturas'}` : ''}. Revisalo con el video: la IA se puede equivocar.</p>
     </div><aside class="pm-av-video">${video}</aside></div></div>`;
 }
@@ -3427,9 +3450,89 @@ function avTextoJugador(r, x, j) {
 const avWa = t => 'https://wa.me/?text=' + encodeURIComponent(t);
 function avWhatsappV(r, P) {
   const I = r.informe, js = I.jugadores || [];
-  return `<section class="panel"><div class="panel-h"><b>Mandar por WhatsApp</b><span>Copiá o abrí WhatsApp con el mensaje listo</span></div>
+  return `<section class="panel pm-av-noprint"><div class="panel-h"><b>Mandar por WhatsApp</b><span>Copiá o abrí WhatsApp con el mensaje listo</span></div>
     <div class="pm-r"><span class="pm-r-t"><b>Resumen para el grupo del plantel</b><small>Resultado, lo que salió bien, qué corregir y los ejercicios.</small></span><button type="button" class="share" data-avcopiar="grupo">Copiar</button><a class="share" href="${esc(avWa(avTextoGrupo(r)))}" target="_blank" rel="noopener">WhatsApp</a></div>
     ${js.map((x, i) => { const j = avPorCam(P, x.quien); return `<div class="pm-r"><span class="pm-r-t"><b>${esc(j ? `#${j.cam} ${j.nombre}` : x.quien)}</b><small>${x.tipo === 'mejorar' ? 'A mejorar' : 'Destacado'}: lo que dice el informe de él</small></span><button type="button" class="share" data-avcopiar="${i}">Copiar</button><a class="share" href="${esc(avWa(avTextoJugador(r, x, j)))}" target="_blank" rel="noopener">WhatsApp</a></div>`; }).join('')}</section>`;
+}
+
+// ----- Pizarra sobre el video -----
+// Se dibuja con el video en pausa: trazo libre o flecha. Lo dibujado sale también en el video de "Mandar esta jugada".
+let AV_DIB = { on: false, herr: 'libre', trazos: [], act: null };
+function avPintarLienzo() {
+  const c = $('#av-lienzo'); if (!c) return;
+  const g = c.getContext('2d'); g.clearRect(0, 0, c.width, c.height);
+  g.lineCap = 'round'; g.lineJoin = 'round'; g.lineWidth = 7; g.strokeStyle = g.fillStyle = '#ffd400';
+  for (const t of [...AV_DIB.trazos, AV_DIB.act].filter(Boolean)) {
+    if (t.tipo === 'libre') { g.beginPath(); t.p.forEach(([x, y], i) => i ? g.lineTo(x, y) : g.moveTo(x, y)); g.stroke(); continue; }
+    const [[x1, y1], [x2, y2]] = [t.p[0], t.p.at(-1)], a = Math.atan2(y2 - y1, x2 - x1), L = 30;
+    g.beginPath(); g.moveTo(x1, y1); g.lineTo(x2, y2); g.stroke();
+    g.beginPath(); g.moveTo(x2, y2); g.lineTo(x2 - L * Math.cos(a - 0.45), y2 - L * Math.sin(a - 0.45)); g.lineTo(x2 - L * Math.cos(a + 0.45), y2 - L * Math.sin(a + 0.45)); g.closePath(); g.fill();
+  }
+}
+function avEnlazarPizarra() {
+  const c = $('#av-lienzo'), v = $('#av-v'), b = $('#av-dibujar'); if (!c || !v || !b) return;
+  const ops = $('#av-dib-ops');
+  const poner = on => { AV_DIB.on = on; c.classList.toggle('on', on); b.setAttribute('aria-pressed', on); b.textContent = on ? 'Listo' : 'Dibujar'; ops.hidden = !on; if (on) v.pause(); };
+  poner(AV_DIB.on); avPintarLienzo();
+  b.onclick = () => poner(!AV_DIB.on);
+  document.querySelectorAll('[data-avherr]').forEach(x => x.onclick = () => { AV_DIB.herr = x.dataset.avherr; document.querySelectorAll('[data-avherr]').forEach(y => y.setAttribute('aria-pressed', y === x)); });
+  $('#av-borrar-dib').onclick = () => { AV_DIB.trazos = []; avPintarLienzo(); };
+  const pt = e => { const r = c.getBoundingClientRect(); return [(e.clientX - r.left) * c.width / r.width, (e.clientY - r.top) * c.height / r.height]; };
+  c.onpointerdown = e => { if (!AV_DIB.on) return; c.setPointerCapture(e.pointerId); AV_DIB.act = { tipo: AV_DIB.herr, p: [pt(e)] }; };
+  c.onpointermove = e => { if (!AV_DIB.act) return; const q = pt(e); if (AV_DIB.act.tipo === 'flecha') AV_DIB.act.p[1] = q; else AV_DIB.act.p.push(q); avPintarLienzo(); };
+  c.onpointerup = c.onpointercancel = () => { if (AV_DIB.act && AV_DIB.act.p.length > 1) AV_DIB.trazos.push(AV_DIB.act); AV_DIB.act = null; avPintarLienzo(); };
+  v.onplay = () => { if (AV_DIB.on) poner(false); };
+}
+
+// ----- Mandar esta jugada -----
+// Se graba en el navegador el pedazo del video alrededor de la jugada (3 segundos antes, 8 después), con lo
+// dibujado encima, y se manda con un texto armado del informe ("Vieron acá…").
+let AV_SEL = null; // la última jugada tocada en el informe
+function avTextoJugada(sel, r) {
+  const min = sel?.min != null ? ` (${sel.min}')` : '';
+  return `${PM.club.nombre} vs ${r.partido.rival}${min}\n\n${sel?.titulo ? sel.titulo + '. ' : ''}${sel?.nota ? 'Vieron acá: ' + sel.nota : 'Miren esta jugada.'}`;
+}
+async function avGrabarJugada() {
+  const v = $('#av-v'), envio = $('#av-envio'), btn = $('#av-mandar'); if (!v || !envio) return;
+  const r = pmEst().analisis.find(x => x.id === decodeURIComponent(location.hash.split('/')[3] || '')); if (!r) return;
+  if (!window.MediaRecorder || !HTMLCanvasElement.prototype.captureStream) { aviso('Este navegador no deja recortar video. Probá desde Chrome en la compu o en Android.'); return; }
+  const tipo = ['video/mp4;codecs=avc1', 'video/mp4', 'video/webm;codecs=vp9', 'video/webm'].find(t => MediaRecorder.isTypeSupported(t));
+  if (!tipo) { aviso('Este navegador no deja grabar video.'); return; }
+  const t = v.currentTime, ini = Math.max(0, t - 3), fin = Math.min(v.duration || t + 8, t + 8);
+  const W = 1280, H = 720, cv = document.createElement('canvas'); cv.width = W; cv.height = H;
+  const g = cv.getContext('2d'), dib = $('#av-lienzo');
+  btn.disabled = true; btn.textContent = 'Grabando la jugada…';
+  try {
+    v.pause(); v.currentTime = ini; await new Promise(ok => v.addEventListener('seeked', ok, { once: true }));
+    const rec = new MediaRecorder(cv.captureStream(30), { mimeType: tipo, videoBitsPerSecond: 4e6 }), partes = [];
+    rec.ondataavailable = e => e.data.size && partes.push(e.data);
+    const listo = new Promise(ok => rec.onstop = ok);
+    const pintar = () => { // el video entra entero (con franjas si no es 16:9) y arriba lo dibujado
+      const k = Math.min(W / v.videoWidth, H / v.videoHeight), w = v.videoWidth * k, h = v.videoHeight * k;
+      g.fillStyle = '#000'; g.fillRect(0, 0, W, H); g.drawImage(v, (W - w) / 2, (H - h) / 2, w, h);
+      if (dib && AV_DIB.trazos.length) g.drawImage(dib, 0, 0, W, H);
+    };
+    pintar(); rec.start(250); await v.play();
+    await new Promise(ok => { const paso = () => { pintar(); if (v.currentTime >= fin || v.ended || v.paused) ok(); else requestAnimationFrame(paso); }; requestAnimationFrame(paso); });
+    v.pause(); rec.stop(); await listo;
+    const ext = tipo.startsWith('video/mp4') ? 'mp4' : 'webm', blob = new Blob(partes, { type: tipo.split(';')[0] });
+    const file = new File([blob], `jugada-${AV_SEL?.min ?? Math.round(t)}-${r.partido.rival.replace(/\W+/g, '-').toLowerCase()}.${ext}`, { type: blob.type });
+    const url = URL.createObjectURL(blob);
+    envio.hidden = false;
+    envio.innerHTML = `<div class="pm-av-envio"><b>Jugada lista</b><video src="${url}" controls playsinline></video>
+      <label for="av-envio-txt" class="small muted">Mensaje</label><textarea id="av-envio-txt">${esc(avTextoJugada(AV_SEL, r))}</textarea>
+      <div class="pm-av-btns"><button type="button" class="btn p" id="av-compartir">Compartir</button><a class="share" id="av-bajar" href="${url}" download="${esc(file.name)}">Descargar</a><button type="button" class="share" id="av-envio-cerrar">Cerrar</button></div>
+      ${ext === 'webm' ? '<p class="pm-nota pm-sin">Este navegador lo graba en WebM: si WhatsApp no lo abre, descargalo y mandalo como documento.</p>' : ''}</div>`;
+    $('#av-envio-cerrar').onclick = () => { envio.hidden = true; envio.innerHTML = ''; URL.revokeObjectURL(url); };
+    $('#av-compartir').onclick = async () => {
+      const texto = $('#av-envio-txt').value;
+      if (navigator.canShare?.({ files: [file] })) { try { await navigator.share({ files: [file], text: texto }); return; } catch (e) { if (e.name === 'AbortError') return; } }
+      try { await navigator.clipboard.writeText(texto); } catch {}
+      $('#av-bajar').click(); aviso('Se descargó la jugada y se copió el mensaje: mandalos por WhatsApp.');
+    };
+    envio.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  } catch (e) { aviso('No se pudo grabar la jugada: ' + (e.message || 'probá de nuevo.')); }
+  btn.disabled = false; btn.textContent = 'Mandar esta jugada';
 }
 
 // Tocar una jugada: el reproductor cambia a ese clip y salta a ese segundo.
@@ -3438,7 +3541,7 @@ function avIr(clip, seg) {
   if (!M || !v) { $('#av-recargar')?.scrollIntoView({ behavior: 'smooth', block: 'center' }); aviso('Cargá los clips para ver las jugadas.'); return; }
   const c = M[clip - 1]; if (!c) return;
   const ir = () => { if (seg != null) v.currentTime = Math.max(0, Math.min(seg, (v.duration || seg + 1) - 0.1)); v.play().catch(() => {}); };
-  if (v.dataset.clip !== String(clip)) { v.dataset.clip = clip; v.src = avURL(c); v.addEventListener('loadedmetadata', ir, { once: true }); } else ir();
+  if (v.dataset.clip !== String(clip)) { AV_DIB.trazos = []; avPintarLienzo(); v.dataset.clip = clip; v.src = avURL(c); v.addEventListener('loadedmetadata', ir, { once: true }); } else ir();
   document.querySelectorAll('.pm-av-clips .chip').forEach(b => b.setAttribute('aria-pressed', b.dataset.v === String(clip)));
   $('#av-cual').textContent = `Clip ${clip} · ${c.f.name}`;
   if (getComputedStyle(v.closest('.pm-av-video')).position !== 'sticky') v.scrollIntoView({ behavior: 'smooth', block: 'center' });
@@ -3462,6 +3565,13 @@ function avEnlazar() {
     renderClubes('analisis');
   });
   avEnlazarTP();
+  avEnlazarPizarra();
+  document.querySelectorAll('.pm-av-j').forEach(b => b.addEventListener('pointerdown', () => {
+    const [c, sg] = b.dataset.v.split('|').map(Number), info = AV_INFO[c - 1];
+    AV_SEL = { clip: c, seg: sg, min: info?.ini != null ? Math.floor((info.ini + sg) / 60) : null, nota: b.closest('.pm-av-jl, .pm-av-gol')?.querySelector('span')?.textContent?.trim() || '', titulo: b.closest('.alert')?.querySelector('b')?.textContent?.trim() || '' };
+  }));
+  const md = $('#av-mandar'); if (md) md.onclick = avGrabarJugada;
+  const pdf = $('#av-pdf'); if (pdf) pdf.onclick = () => { aviso('En la ventana que se abre elegí "Guardar como PDF".'); setTimeout(() => window.print(), 300); };
   document.querySelectorAll('[data-pm-plan-add]').forEach(f => f.onsubmit = ev => {
     ev.preventDefault();
     const ej = f.ej.value.trim(), det = f.det.value.trim(); if (!ej) return;
