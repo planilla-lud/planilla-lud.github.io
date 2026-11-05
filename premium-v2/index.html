@@ -2686,6 +2686,10 @@ async function renderClubes(sub, rest = []) {
   PM_SES = S;
   if (!PM_CAT || !pmCV().includes(PM_CAT)) PM_CAT = pmCV().includes('sub20-a') ? 'sub20-a' : pmCV()[0];
   if (sub === 'ver') return pmVer(rest);
+  if (sub === 'sugerencias') {
+    main.innerHTML = pmxShell(S, E, '', 'Sugerencias', `<a class="pmx-volver" href="#/clubes">← Volver</a><div class="stack pm-cuerpo" id="pm-sug">${pmSugV(S)}</div>`);
+    pmxEnlazar(); pmSugEnlazar(S); window.scrollTo({ top: 0 }); return;
+  }
   if (E.rol === 'jug' && S.rol === 'jug' && tab === 'analisis' && pmAvCats().length) {
     if (!pmAvCats().includes(PM_CAT)) PM_CAT = pmAvCats()[0];
     main.innerHTML = pmxShell(S, E, '', 'Análisis', `<a class="pmx-volver" href="#/clubes">← Volver</a><div class="stack pm-cuerpo">${pmAnalisis()}</div>`);
@@ -2838,6 +2842,7 @@ function pmxCuenta(S, E, pie) {
   return `<details class="pmx-cuenta${pie ? ' lateral' : ''}"><summary aria-label="Mi cuenta">${cara}</summary><div class="pmx-menu">
     <div class="pmx-yo"><b>${esc(S.nombre)}</b><small>${S.creador ? 'Creador · ve todos los clubes' : S.rol === 'admin' ? 'Administrador del club' : S.rol === 'dt' ? `DT de ${esc(pmCV().map(pmCatN).join(', ') || 'ningún plantel')}` : 'Jugador'}</small></div>
     ${staff ? (E.rol === 'jug' ? '<button type="button" data-pm="rol" data-v="dt">Volver a la vista del club</button>' : '<button type="button" data-pm="rol" data-v="jug">Ver como jugador</button>') : ''}
+    <a href="#/clubes/sugerencias">${S.creador ? 'Sugerencias recibidas' : 'Mandar una sugerencia'}</a>
     <button type="button" onclick="alternarTema()">Cambiar claro / oscuro</button>
     <a href="privacidad.html">Términos y privacidad</a>
     <button type="button" data-pm="salir">Salir</button>
@@ -4095,6 +4100,46 @@ function pmTecnicos() {
         <button class="btn p" type="submit">Agregar</button></form></section>`;
 }
 
+// ----- Sugerencias: cualquiera con cuenta manda ideas para la app; solo el creador las lee -----
+let PM_SUGS = null;
+const PM_ROL_N = { creador: 'Creador', admin: 'Administrador', dt: 'DT', jug: 'Jugador' };
+function pmSugV(S) {
+  const form = `<p class="lede">¿Algo que mejorarías, que falta o que no anda? Contalo acá. Lo lee quien hace la app.</p>
+    <form class="panel pm-form" id="pm-sug-f"><label for="sug-t">Tu sugerencia<textarea id="sug-t" class="pm-in" rows="5" maxlength="2000" required placeholder="Ej.: que se pueda ver la asistencia por mes"></textarea></label>
+      <p class="pm-err" id="sug-err" hidden></p><button class="btn p" type="submit">Mandar</button></form>`;
+  if (!S.creador) return form;
+  if (!PM_SUGS) return form + '<div class="empty">Cargando las sugerencias…</div>';
+  const nuevas = PM_SUGS.filter(x => !x.leida).length;
+  return form + `<section class="stack"><div class="sec-h"><div><h3>Recibidas</h3><span class="sub">${PM_SUGS.length ? `${PM_SUGS.length} en total${nuevas ? ` · ${nuevas} sin leer` : ''}` : 'Todavía no llegó ninguna.'}</span></div></div>
+    ${PM_SUGS.length ? `<div class="panel">${PM_SUGS.map(x => `<div class="pm-r"><span class="pm-r-t"><b>${x.leida ? '' : '<span class="tag amber">Nueva</span> '}${esc(x.texto)}</b><small>${esc(x.nombre || 'Cuenta borrada')} · ${esc(PM_ROL_N[x.rol] || x.rol || '')}${x.club && x.club !== '*' ? ' · ' + esc(x.club.toUpperCase()) : ''} · ${fDia(x.creado.slice(0, 10))} ${new Date(x.creado).toLocaleTimeString('es-UY', { hour: '2-digit', minute: '2-digit', timeZone: 'America/Montevideo' })}</small></span>
+      ${x.leida ? '' : `<button type="button" class="share" data-sug="leida" data-v="${x.id}">Leída</button>`}<button type="button" class="share" data-sug="borrar" data-v="${x.id}">Borrar</button></div>`).join('')}</div>` : ''}</section>`;
+}
+async function pmSugCargar() {
+  const { data, error } = await SBR.from('pm_sugerencias').select('id,club,rol,nombre,texto,creado,leida').order('creado', { ascending: false }).limit(300);
+  PM_SUGS = error ? [] : data;
+}
+function pmSugPintar(S) { const el = $('#pm-sug'); if (el) { el.innerHTML = pmSugV(S); pmSugEnlazar(S, true); } }
+function pmSugEnlazar(S, yaCargado) {
+  if (S.creador && !yaCargado) pmSugCargar().then(() => pmSugPintar(S));
+  const f = $('#pm-sug-f'); if (!f) return;
+  f.onsubmit = async ev => {
+    ev.preventDefault();
+    const t = $('#sug-t'), err = $('#sug-err'), btn = f.querySelector('button[type=submit]'), texto = t.value.trim();
+    if (texto.length < 3) { err.textContent = 'Escribí un poco más.'; err.hidden = false; return; }
+    btn.disabled = true; btn.textContent = 'Mandando…'; err.hidden = true;
+    const { error } = await SBR.from('pm_sugerencias').insert({ texto });
+    btn.disabled = false; btn.textContent = 'Mandar';
+    if (error) { err.textContent = 'No se pudo mandar. Probá de nuevo en un rato.'; err.hidden = false; return; }
+    t.value = ''; aviso('¡Gracias! Tu sugerencia llegó.');
+    if (S.creador) { await pmSugCargar(); pmSugPintar(S); }
+  };
+  $('#pm-sug').querySelectorAll('[data-sug]').forEach(b => b.onclick = async () => {
+    const id = Number(b.dataset.v);
+    if (b.dataset.sug === 'borrar') { if (!confirm('¿Borrar esta sugerencia?')) return; await SBR.from('pm_sugerencias').delete().eq('id', id); }
+    else await SBR.from('pm_sugerencias').update({ leida: true }).eq('id', id);
+    await pmSugCargar(); pmSugPintar(S);
+  });
+}
 // ----- Ajustes -----
 function pmAjustes() {
   const E = pmEst();
