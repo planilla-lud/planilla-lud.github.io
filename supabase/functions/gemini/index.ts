@@ -38,7 +38,8 @@ Deno.serve(async (req) => {
   const { data: m } = await admin.from("pm_miembros").select("club, rol, clave_cambiada").eq("user_id", ud.user.id).maybeSingle();
   if (!m) return err(403, "Tu cuenta no es de ningún club.");
   const club = m.rol === "creador" ? (req.headers.get("x-pm-club") || "") : m.club;
-  if (!["admin", "dt", "creador"].includes(m.rol) || (m.rol !== "creador" && !m.clave_cambiada)) return err(403, "Solo los técnicos del club pueden analizar.");
+  // Los jugadores también pueden analizar (el cuerpo técnico decide en Ajustes en qué planteles se les muestra).
+  if (!["admin", "dt", "creador", "jug"].includes(m.rol) || (m.rol !== "creador" && !m.clave_cambiada)) return err(403, "Tu cuenta no puede analizar.");
   if (m.rol !== "creador") { // con el plan pausado o vencido no se analiza
     const { data: p } = await admin.from("pm_clubes").select("activo, pagado_hasta").eq("club", club).maybeSingle();
     const hoy = new Date(Date.now() - 3 * 3600e3).toISOString().slice(0, 10); // Uruguay

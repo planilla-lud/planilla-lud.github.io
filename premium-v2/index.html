@@ -985,6 +985,7 @@ body.pm-app #main{max-width:none}
 .pmx-cuenta summary{list-style:none;width:40px;height:40px;border-radius:50%;background:rgba(255,255,255,.15);display:grid;place-items:center;font-weight:700;cursor:pointer;color:#fff}
 .pmx-cuenta summary::-webkit-details-marker{display:none}
 .pmx-cuenta.pie{flex:1;min-width:0}
+.pmx-volver{font-weight:600;text-decoration:none;align-self:flex-start}
 .pmx-cuenta.pie summary{width:auto;height:auto;border-radius:12px;background:transparent;display:flex;align-items:center;gap:10px;padding:6px;font-weight:inherit;text-align:left}
 .pmx-cuenta.pie summary:hover,.pmx-cuenta.pie[open] summary{background:rgba(255,255,255,.1)}
 .pmx-ini{flex:none;width:40px;height:40px;border-radius:50%;background:rgba(255,255,255,.15);display:grid;place-items:center;font-weight:700}
@@ -2387,7 +2388,7 @@ const PM_HORARIOS = {
 const PM_SEMANA = [1, 2, 3, 4, 5, 6, 0];
 const PM_MESES = ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'set', 'oct', 'nov', 'dic'];
 const PM_DIAS_L = ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'];
-const PM_CFG0 = { verAsistencia: true, verRacha: true, verMinutos: true, verRanking: false, verCompaneros: false, verAnalisis: true,
+const PM_CFG0 = { verAsistencia: true, verRacha: true, verMinutos: true, verRanking: false, verCompaneros: false, verAnalisis: true, analisisJug: true,
   pasarLista: false, convocatoria: false, recordatorio: true, recCuando: 'noche',
   avPlanilla: true, avRival: true, avResultado: true, avPractica: true, avConvocatoria: true };
 const PM_TABS = [['resumen', 'Resumen'], ['practicas', 'Prácticas'], ['cruce', 'Asistencia y minutos'], ['minutos', 'Minutos'],
@@ -2427,9 +2428,10 @@ function pmDesdePlano(M) {
   return E;
 }
 // Lo que un jugador puede escribir (igual que las reglas del servidor): sus marcas, su plantel principal y su ficha.
-function pmPuedo(k, sub) {
+function pmPuedo(k, sub, v) {
   const M = REAL.miembro; if (!M) return false; if (M.rol !== 'jug') return true; // creador, administrador y técnicos
-  return ((k === 'marcas' || k === 'resp') && sub[1] === M.carne) || ((k === 'principal' || k === 'fichas') && sub[0] === M.carne);
+  return ((k === 'marcas' || k === 'resp') && sub[1] === M.carne) || ((k === 'principal' || k === 'fichas') && sub[0] === M.carne)
+    || (k === 'analisis' && v?.autor === M.carne); // los análisis que hizo él
 }
 async function pmSubir() {
   clearTimeout(PM_TIMER); PM_TIMER = null;
@@ -2438,8 +2440,8 @@ async function pmSubir() {
   for (const [key, v] of ahora) if (PM_LAST.get(key) !== v) sube.push(key);
   for (const key of PM_LAST.keys()) if (!ahora.has(key)) borra.push(key);
   const parte = key => { const [k, s] = key.split(PM_SEP); return { k, sub: s, arr: JSON.parse(s) }; };
-  const filas = sube.map(parte).filter(x => pmPuedo(x.k, x.arr)).map(x => ({ club: PM_CLUB, k: x.k, sub: x.sub, valor: JSON.parse(ahora.get(x.k + PM_SEP + x.sub)) }));
-  const fuera = borra.map(parte).filter(x => pmPuedo(x.k, x.arr));
+  const filas = sube.map(parte).filter(x => pmPuedo(x.k, x.arr, JSON.parse(ahora.get(x.k + PM_SEP + x.sub)))).map(x => ({ club: PM_CLUB, k: x.k, sub: x.sub, valor: JSON.parse(ahora.get(x.k + PM_SEP + x.sub)) }));
+  const fuera = borra.map(parte).filter(x => pmPuedo(x.k, x.arr, JSON.parse(PM_LAST.get(x.k + PM_SEP + x.sub) || 'null')));
   if (!filas.length && !fuera.length) return;
   const antes = PM_LAST; PM_LAST = new Map([...antes]);
   for (const f of filas) PM_LAST.set(f.k + PM_SEP + f.sub, JSON.stringify(f.valor));
@@ -2684,6 +2686,11 @@ async function renderClubes(sub, rest = []) {
   PM_SES = S;
   if (!PM_CAT || !pmCV().includes(PM_CAT)) PM_CAT = pmCV().includes('sub20-a') ? 'sub20-a' : pmCV()[0];
   if (sub === 'ver') return pmVer(rest);
+  if (E.rol === 'jug' && S.rol === 'jug' && tab === 'analisis' && pmAvCats().length) {
+    if (!pmAvCats().includes(PM_CAT)) PM_CAT = pmAvCats()[0];
+    main.innerHTML = pmxShell(S, E, '', 'Análisis', `<a class="pmx-volver" href="#/clubes">← Volver</a><div class="stack pm-cuerpo">${pmAnalisis()}</div>`);
+    main.querySelectorAll('.pm-tabsw, .pm-desl').forEach(pmDeslizar); pmxEnlazar(); return;
+  }
   if (E.rol === 'jug') { main.innerHTML = pmxShell(S, E, '', '', pmVistaJugador(S)); pmxEnlazar(); window.scrollTo({ top: 0 }); return; }
   if (S.rol === 'dt' && !pmCV().length) { main.innerHTML = pmxShell(S, E, '', '', '<div class="empty">Todavía no tenés planteles asignados. Pedile al administrador del club que te asigne los tuyos.</div>'); pmxEnlazar(); return; }
   const V = { hoy: pmHoyV, resumen: pmResumen, practicas: pmPracticasV, cruce: pmCruce, minutos: pmMinutos, convocatoria: pmConvocatoria, recordatorios: pmRecordatorios, videos: pmVideos, analisis: pmAnalisis, ajustes: pmAjustes, tecnicos: pmTecnicos }[tab];
@@ -3171,6 +3178,9 @@ const avMB = b => b >= 1e9 ? (b / 1e9).toFixed(1).replace('.', ',') + ' GB' : b 
 const avURL = c => c.url ??= URL.createObjectURL(c.f);
 // La clave de Gemini se guarda en este navegador o en la cuenta de quien entró (para usarla desde otros navegadores).
 const avYo = () => { const S = pmSesion(); return S ? S.u || S.c : ''; };
+// Los jugadores pueden hacer análisis en los planteles donde el cuerpo técnico lo dejó prendido (Ajustes).
+const pmEsJug = () => pmSesion()?.rol === 'jug';
+const pmAvCats = () => pmEsJug() ? pmCV().filter(c => pmCfg(c).analisisJug) : pmCV();
 const avClaveCuenta = () => String(REAL.user?.user_metadata?.gemini || '');
 const avDonde = () => avClaveCuenta() ? 'cuenta' : (leer('pm-gemini-donde') || 'navegador');
 const avClavePropia = () => (avClaveCuenta() || leer('pm-gemini-clave') || '').trim();
@@ -3183,7 +3193,8 @@ function avGuardarClave(v, donde = avDonde()) {
   else { if (avClaveCuenta()) { SBR.auth.updateUser({ data: { gemini: null } }); if (REAL.user) REAL.user.user_metadata = { ...(REAL.user.user_metadata || {}), gemini: null }; } guardar('pm-gemini-clave', v); }
   guardar('pm-gemini-donde', donde);
 }
-const avVisibles = () => pmEst().analisis.filter(r => pmSesion()?.rol === 'admin' || pmCV().includes(r.div));
+// El jugador ve solo los informes que hicieron jugadores de sus planteles; los del cuerpo técnico quedan para el cuerpo técnico.
+const avVisibles = () => pmEst().analisis.filter(r => pmEsJug() ? r.porJug && pmCV().includes(r.div) : pmSesion()?.rol === 'admin' || pmCV().includes(r.div));
 // Los partidos jugados del plantel y los rivales de su divisional, de las planillas.
 const avPartidos = cat => pmEV().filter(e => e.div === cat).flatMap(e => (e.d.porEquipo[e.equipo] || []).filter(x => x.gf != null).map(x => ({ id: x.p.id, dia: x.p.dia, rival: x.rival, gf: x.gf, gc: x.gc }))).sort((a, b) => b.dia.localeCompare(a.dia));
 // La planilla oficial del partido: número de camiseta, nombre, minutos y goles de cada jugador del club,
@@ -3243,7 +3254,8 @@ function pmAnalisis() {
   if (id && !AV_SUBS.some(x => x[0] === id)) return avInforme(id);
   const F = avForm(); F.sub = id || (['videos', 'datos'].includes(F.sub) ? F.sub : 'videos');
   const V = F.sub === 'videos', ps = avPartidos(F.cat), club = esc(PM.club.nombre);
-  const subs = `<div class="seg pm-seg pm-av-subs" role="tablist" aria-label="Sección de Análisis">${AV_SUBS.map(([v, n]) => `<button type="button" role="tab" data-avsub="${v}" aria-pressed="${F.sub === v}" aria-selected="${F.sub === v}">${n}</button>`).join('')}</div>`;
+  if (pmEsJug() && !['videos', 'datos'].includes(F.sub)) F.sub = 'videos';
+  const subs = `<div class="seg pm-seg pm-av-subs" role="tablist" aria-label="Sección de Análisis">${AV_SUBS.filter(([v]) => !pmEsJug() || v === 'videos' || v === 'datos').map(([v, n]) => `<button type="button" role="tab" data-avsub="${v}" aria-pressed="${F.sub === v}" aria-selected="${F.sub === v}">${n}</button>`).join('')}</div>`;
   if (F.sub === 'temporada') return subs + avTemporadaV();
   if (F.sub === 'rival') return subs + avPreviaV();
   const clave = avClavePropia(), donde = avDonde(), modelo = avModelo();
@@ -3259,7 +3271,7 @@ function pmAnalisis() {
     <form class="panel pm-form" id="pm-av" novalidate>
       ${seg('modo', [['equipo', 'Equipo'], ['jugador', 'Jugador']], 'Qué analizar')}
       <div class="pm-campos">
-        <label>Plantel<select data-av="cat">${pmCV().map(c => opt(c, pmCatN(c), c === F.cat)).join('')}</select></label>
+        <label>Plantel<select data-av="cat">${pmAvCats().map(c => opt(c, pmCatN(c), c === F.cat)).join('')}</select></label>
         <label>Partido<select data-av="partido">${opt('', ps.length ? 'Elegí el partido' : 'Todavía no hay partidos jugados', !F.partido)}${ps.map(x => opt(x.id, `${x.gf}-${x.gc} vs ${x.rival} (${fDia(x.dia)})`, x.id === F.partido)).join('')}${opt('otro', 'Otro partido (amistoso o sin planilla)', F.partido === 'otro')}</select></label>
         ${F.partido === 'otro' ? `<label>Rival<input type="text" data-av="rival" list="av-rivales" value="${esc(F.rival)}" placeholder="Elegí o escribí el rival"></label><datalist id="av-rivales">${avRivales(F.cat).map(r => `<option value="${esc(r)}">`).join('')}</datalist>${campo('dia', 'Fecha', '', 'date')}` : ''}
         ${V ? `${campo('color', `Camiseta de ${club}`, 'Ej.: blanca con vivos azules')}
@@ -3305,8 +3317,8 @@ function avHistorial() {
   for (const r of avVisibles()) { const k = r.div + '|' + (r.partido.id || r.partido.rival + r.partido.dia); if (!G.has(k)) G.set(k, []); G.get(k).push(r); }
   if (!G.size) return '<div class="empty">Todavía no hay informes guardados.</div>';
   const S = pmSesion();
-  const fila = r => `<div class="pm-r"><span class="pm-r-t"><a href="#/clubes/analisis/${r.id}">${r.clips.length ? 'Video' : 'Datos'} · ${r.modo === 'jugador' ? 'Jugador · ' + esc(r.jugador?.nombre || r.jugador?.quien) : 'Equipo'}</a><small>${fDia(r.creado.slice(0, 10))} ${r.creado.slice(11, 16)} · ${esc(r.autorN)} · ${r.clips.length ? `${r.clips.length} ${r.clips.length === 1 ? 'clip' : 'clips'}` : 'informe de Veo'}</small></span>
-    <a class="share" href="#/clubes/analisis/${r.id}">Ver</a>${S?.rol === 'admin' || S?.u === r.autor ? `<button type="button" class="share" data-pm="av-borrar" data-v="${r.id}">Borrar</button>` : ''}</div>`;
+  const fila = r => `<div class="pm-r"><span class="pm-r-t"><a href="#/clubes/analisis/${r.id}">${r.clips.length ? 'Video' : 'Datos'} · ${r.modo === 'jugador' ? 'Jugador · ' + esc(r.jugador?.nombre || r.jugador?.quien) : 'Equipo'}</a><small>${fDia(r.creado.slice(0, 10))} ${r.creado.slice(11, 16)} · ${esc(r.autorN)}${r.porJug ? ' (jugador)' : ''} · ${r.clips.length ? `${r.clips.length} ${r.clips.length === 1 ? 'clip' : 'clips'}` : 'informe de Veo'}</small></span>
+    <a class="share" href="#/clubes/analisis/${r.id}">Ver</a>${S?.rol === 'admin' || avYo() === r.autor ? `<button type="button" class="share" data-pm="av-borrar" data-v="${r.id}">Borrar</button>` : ''}</div>`;
   return `<section class="stack"><div class="sec-h"><div><h3>Informes guardados</h3><span class="sub">Por partido. Los videos no se guardan: para ver las jugadas, se vuelven a cargar los clips.</span></div></div>
     ${[...G.values()].sort((a, b) => (b[0].partido.dia || '').localeCompare(a[0].partido.dia || '')).map(L => { const p = L[0].partido; return `<section class="panel"><div class="panel-h"><span><b>vs ${esc(p.rival)}</b> · ${esc(pmCatN(L[0].div))}</span><span>${p.dia ? fDia(p.dia) : ''}${p.gf != null ? ` · ${p.gf}-${p.gc}` : ''}</span></div>${L.map(fila).join('')}</section>`; }).join('')}</section>`;
 }
@@ -3624,7 +3636,7 @@ async function avAnalizar() {
     if (!txt) throw new Error(res.promptFeedback?.blockReason ? `Gemini no quiso analizar los videos (${res.promptFeedback.blockReason}).` : 'Gemini no devolvió el informe. Probá de nuevo.');
     let crudo; try { crudo = JSON.parse(txt.replace(/^```(?:json)?\s*|\s*```$/g, '')); } catch { throw new Error('Gemini devolvió un informe que no se pudo leer. Probá de nuevo o con otro modelo.'); }
     const r = {
-      id: 'av' + Date.now().toString(36), div: F.cat, creado: new Date(Date.now() - 3 * 3600e3).toISOString().slice(0, 16), autor: S.u || S.c, autorN: S.nombre,
+      id: 'av' + Date.now().toString(36), div: F.cat, creado: new Date(Date.now() - 3 * 3600e3).toISOString().slice(0, 16), autor: S.u || S.c, autorN: S.nombre, ...(S.rol === 'jug' ? { porJug: true } : {}),
       modo: F.modo, jugador: F.modo === 'jugador' ? { c: J?.c || '', nombre: J?.nombre || '', quien: F.quien.trim() } : null,
       partido: { id: p?.id || '', dia: dia || '', rival, gf: p?.gf ?? null, gc: p?.gc ?? null },
       datos: { color: F.color.trim(), colRival: F.colRival.trim(), ataca: F.ataca, tipo: F.tipo, modelo: usado },
@@ -3698,7 +3710,7 @@ function avInforme(id) {
       ${I.rival?.texto ? `<section class="panel"><div class="panel-h"><b>Cómo jugó ${esc(r.partido.rival)}</b></div><p class="pm-av-txt">${esc(I.rival.texto)}</p>${I.rival.peligros.length ? `<div class="pm-av-pad"><b>Sus armas</b><ul class="pm-av-ul">${I.rival.peligros.map(x => `<li>${esc(x)}</li>`).join('')}</ul></div>` : ''}${I.rival.debilidades.length ? `<div class="pm-av-pad"><b>Dónde hacerle daño</b><ul class="pm-av-ul">${I.rival.debilidades.map(x => `<li>${esc(x)}</li>`).join('')}</ul></div>` : ''}</section>` : ''}
       <section class="panel"><div class="panel-h"><b>Qué salió bien</b></div>${puntos(I.bien, true)}</section>
       <section class="panel"><div class="panel-h"><b>Qué corregir</b></div>${puntos(I.corregir, false)}</section>
-      ${(I.entrenamiento || []).length ? `<section class="panel"><div class="panel-h"><b>Para la semana de práctica</b>${(() => { const pr = pmProx(r.div); if (!pr) return `<span>${I.entrenamiento.length} ${I.entrenamiento.length === 1 ? 'ejercicio' : 'ejercicios'}</span>`; const ya = (pmEst().planes[pr.id] || []).some(x => x.de === r.id); return ya ? `<a class="share" href="#/clubes/practicas">En la práctica del ${fDia(pr.dia)} ✓</a>` : `<button type="button" class="share" data-avplan="${r.id}">Agregar a la práctica del ${fDia(pr.dia)}</button>`; })()}</div><div class="side sola">${I.entrenamiento.map(x => `<div class="alert"><b>${esc(x.ejercicio)}</b>${x.como ? `<span>${esc(x.como)}</span>` : ''}${x.objetivo ? `<span class="pm-av-obj">Para: ${esc(x.objetivo)}</span>` : ''}</div>`).join('')}</div></section>` : ''}
+      ${(I.entrenamiento || []).length ? `<section class="panel"><div class="panel-h"><b>Para la semana de práctica</b>${(() => { const pr = pmEsJug() ? null : pmProx(r.div); if (!pr) return `<span>${I.entrenamiento.length} ${I.entrenamiento.length === 1 ? 'ejercicio' : 'ejercicios'}</span>`; const ya = (pmEst().planes[pr.id] || []).some(x => x.de === r.id); return ya ? `<a class="share" href="#/clubes/practicas">En la práctica del ${fDia(pr.dia)} ✓</a>` : `<button type="button" class="share" data-avplan="${r.id}">Agregar a la práctica del ${fDia(pr.dia)}</button>`; })()}</div><div class="side sola">${I.entrenamiento.map(x => `<div class="alert"><b>${esc(x.ejercicio)}</b>${x.como ? `<span>${esc(x.como)}</span>` : ''}${x.objetivo ? `<span class="pm-av-obj">Para: ${esc(x.objetivo)}</span>` : ''}</div>`).join('')}</div></section>` : ''}
       ${avWhatsappV(r, P)}
       ${!r.clips.length && r.veoTexto && !(I.fases && AV_FASES.some(([k]) => I.fases[k]?.texto)) ? `<section class="panel pm-form pm-av-noprint"><div class="pm-av-f">¿Querés este informe más completo?<span class="pm-av-ayuda">Se vuelve a analizar el mismo informe de Veo, ahora a fondo: fases del juego, cada tiempo, jugadores, el rival y ejercicios para la semana. Queda como un informe nuevo.</span><div class="pm-av-btns"><button type="button" class="btn p" id="av-rehacer">Analizar de nuevo a fondo</button></div></div></section>` : ''}
       <p class="pm-nota pm-sin">Hecho con ${esc(r.datos.modelo)} el ${fDia(r.creado.slice(0, 10))} por ${esc(r.autorN)}, ${r.clips.length ? `con ${r.clips.length} ${r.clips.length === 1 ? 'clip' : 'clips'}` : 'sin video'}${r.veoTexto ? ', el informe de Veo' : ''}${r.capturas ? ` y ${r.capturas} ${r.capturas === 1 ? 'captura' : 'capturas'}` : ''}. Revisalo con el video: la IA se puede equivocar.</p>
@@ -4088,7 +4100,7 @@ function pmAjustes() {
   const E = pmEst();
   return pmChipsCat(PM_CAT) + `<p class="lede">Ajustes de ${esc(pmCatN(PM_CAT))}. Cada plantel tiene los suyos, así lo que cambia un técnico no toca a los otros.</p>
     <section class="stack"><div class="sec-h"><div><h3>Qué ven los jugadores</h3><span class="sub">Lo apagado no le aparece a ningún jugador de ${esc(pmCatN(PM_CAT))}.</span></div></div>
-      <div class="panel">${pmSw('verAsistencia', 'Sus prácticas', 'A cuántas fue en la semana, el mes y el año')}${pmSw('verRacha', 'Su racha', 'Prácticas seguidas sin faltar')}${pmSw('verMinutos', 'Sus minutos', 'Lo que jugó en cada plantel')}${pmSw('verAnalisis', 'Sus análisis', 'Lo que dicen de él los informes de video y de Veo')}${pmSw('verCompaneros', 'Quién va a la próxima práctica', 'Las respuestas de sus compañeros al recordatorio')}${pmSw('verRanking', 'Ranking de asistencia', 'La tabla de todo el plantel ordenada por asistencia')}</div></section>
+      <div class="panel">${pmSw('verAsistencia', 'Sus prácticas', 'A cuántas fue en la semana, el mes y el año')}${pmSw('verRacha', 'Su racha', 'Prácticas seguidas sin faltar')}${pmSw('verMinutos', 'Sus minutos', 'Lo que jugó en cada plantel')}${pmSw('verAnalisis', 'Sus análisis', 'Lo que dicen de él los informes de video y de Veo')}${pmSw('analisisJug', 'Hacer análisis', 'Que puedan subir clips o el informe de Veo y armar un análisis del partido con la clave del club')}${pmSw('verCompaneros', 'Quién va a la próxima práctica', 'Las respuestas de sus compañeros al recordatorio')}${pmSw('verRanking', 'Ranking de asistencia', 'La tabla de todo el plantel ordenada por asistencia')}</div></section>
     <section class="stack"><div class="sec-h"><div><h3>Prácticas</h3><span class="sub">La asistencia la marca cada jugador.</span></div></div>
       <div class="panel">${pmSw('pasarLista', 'Pasar lista', 'El técnico confirma quién fue. Si está apagado, vale lo que marca el jugador')}</div></section>
     <section class="stack"><div class="sec-h"><div><h3>Partidos</h3></div></div><div class="panel">${pmSw('convocatoria', 'Convocatoria', 'Elegir los convocados de cada partido y mandar la lista')}</div></section>
@@ -4139,6 +4151,7 @@ function pmVistaJugador(S) {
     ${(() => { const f = pmFicha(J), e = pmFichaEst(f); return `<div class="panel pm-ficha-yo ${e}"><div class="pm-r"><span class="pm-r-t"><b>Ficha médica</b><small>${e === 'sin' ? 'Cargá cuándo vence tu ficha médica.' : e === 'vencida' ? `Venció el ${pmFecha(f)}. Renovala para poder jugar.` : e === 'pronto' ? `Vence el ${pmFecha(f)}. Acordate de renovarla.` : `Al día, vence el ${pmFecha(f)}.`}</small></span>${e === 'vencida' || e === 'pronto' ? '<span class="pm-est ' + (e === 'vencida' ? 'no' : 'pronto') + '">' + (e === 'vencida' ? 'Vencida' : 'Por vencer') + '</span>' : ''}</div>
       ${e !== 'ok' ? `<label class="pm-r pm-ficha" for="ficha-${J.c}"><span class="pm-r-t"><b>${e === 'sin' ? 'Vencimiento' : '¿Ya la renovaste?'}</b><small>${e === 'sin' ? 'La fecha que figura en la ficha.' : 'Poné la nueva fecha de vencimiento.'}</small></span><input type="date" class="pm-in" id="ficha-${J.c}" data-pm="ficha" data-c="${J.c}" value="${f}"></label>` : ''}</div>`; })()}
     ${CF.verAnalisis ? avDelJugador(J, susCats) : ''}
+    ${S.rol === 'jug' && pmAvCats().length ? `<div class="panel"><div class="pm-r"><span class="pm-r-t"><b>Analizá un partido</b><small>Subí los clips o el informe de Veo y Gemini arma el análisis. Lo ve el cuerpo técnico.</small></span><a class="share" href="#/clubes/analisis">Hacer un análisis</a></div></div>` : ''}
     ${S.rol !== 'jug' ? '<p class="pm-nota">Esto es lo que ve un jugador. Lo que aparece acá lo decide el cuerpo técnico en Ajustes.</p>' : ''}`;
 }
 // Lo que dicen de un jugador los informes: los suyos (modo Jugador) y su parte en los del equipo (por su número en la planilla).
