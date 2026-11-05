@@ -2522,7 +2522,7 @@ function pmEditorDias(cat) {
     <p class="pm-nota">Los cambios corren desde hoy: las prácticas que ya pasaron quedan como fueron.</p></div>`;
 }
 const pmPrincipal = J => pmEst().principal[J.c] || J.principal0;
-const pmDe = cat => Object.values(PM.jug).filter(J => J.cats[cat]);
+const pmDe = cat => Object.values(PM.jug).filter(J => J.cats[cat] && !J.prueba);
 // ¿Fue? Primero lo que marcó el jugador o el DT acá; si no, el dato de ejemplo.
 function pmFue(J, pr) {
   const E = pmEst();
@@ -2667,7 +2667,15 @@ const pmUsuario = u => pmEst().usuarios.find(x => x.u === u);
 const pmJug = c => (PM && typeof c === 'string' && Object.hasOwn(PM.jug, c)) ? PM.jug[c] : null;
 function pmSesion() {
   const M = REAL.miembro; if (!M) return null;
-  if (M.rol === 'jug') return pmJug(M.carne) ? { rol: 'jug', c: M.carne, nombre: M.nombre } : null;
+  if (M.rol === 'jug') {
+    // Cuentas de prueba (usuario que no es un carné, ej. alan4): como no están en la planilla de la Liga,
+    // se les arma un jugador vacío en el primer plantel, que no aparece en las listas del cuerpo técnico.
+    if (!pmJug(M.carne) && PM && M.carne && !/^[0-9]+$/.test(M.usuario || '') && PM.equipos.length) {
+      const e = PM.equipos[0];
+      PM.jug[M.carne] = { c: M.carne, nombre: M.nombre, prueba: true, principal0: e.cat, cats: { [e.cat]: { min: 0, pj: 0, tit: 0, gol: 0, posibles: 0, divs: [e.div] } } };
+    }
+    return pmJug(M.carne) ? { rol: 'jug', c: M.carne, nombre: M.nombre } : null;
+  }
   // El creador ve todo, de todos los clubes: adentro de un club funciona como su administrador.
   if (M.rol === 'creador') return { rol: 'admin', u: M.usuario, nombre: M.nombre, creador: true };
   return { rol: M.rol, u: M.usuario, nombre: M.nombre };
