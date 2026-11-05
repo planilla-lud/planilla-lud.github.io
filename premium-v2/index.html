@@ -984,10 +984,10 @@ body.pm-app #main{max-width:none}
 .pmx-cuenta{position:relative}
 .pmx-cuenta summary{list-style:none;width:40px;height:40px;border-radius:50%;background:rgba(255,255,255,.15);display:grid;place-items:center;font-weight:700;cursor:pointer;color:#fff}
 .pmx-cuenta summary::-webkit-details-marker{display:none}
-.pmx-cuenta.pie{flex:1;min-width:0}
+.pmx-cuenta.lateral{flex:1;min-width:0}
 .pmx-volver{font-weight:600;text-decoration:none;align-self:flex-start}
-.pmx-cuenta.pie summary{width:auto;height:auto;border-radius:12px;background:transparent;display:flex;align-items:center;gap:10px;padding:6px;font-weight:inherit;text-align:left}
-.pmx-cuenta.pie summary:hover,.pmx-cuenta.pie[open] summary{background:rgba(255,255,255,.1)}
+.pmx-cuenta.lateral summary{width:auto;height:auto;border-radius:12px;background:transparent;display:flex;align-items:center;gap:10px;padding:6px;font-weight:inherit;text-align:left}
+.pmx-cuenta.lateral summary:hover,.pmx-cuenta.lateral[open] summary{background:rgba(255,255,255,.1)}
 .pmx-ini{flex:none;width:40px;height:40px;border-radius:50%;background:rgba(255,255,255,.15);display:grid;place-items:center;font-weight:700}
 .pmx-menu{position:absolute;right:0;top:48px;z-index:40;background:var(--surface);color:var(--fg);border-radius:14px;box-shadow:var(--shadow-pop);min-width:230px;padding:6px;display:flex;flex-direction:column}
 .pmx-menu .pmx-yo{padding:10px 12px 8px;font-size:14px;line-height:1.3;border-bottom:1px solid var(--line);margin-bottom:4px}
@@ -2835,7 +2835,7 @@ function pmxCuenta(S, E, pie) {
   const staff = S.rol !== 'jug';
   // En la barra lateral, la foto y el nombre van juntos: tocar cualquiera de los dos abre el menú.
   const cara = pie ? `<span class="pmx-ini">${pmxIni(S.nombre)}</span><span class="pmx-club"><b style="font-size:15px">${esc(S.nombre)}</b><small>${S.creador ? 'Creador' : S.rol === 'admin' ? 'Administrador' : S.rol === 'dt' ? 'DT' : 'Jugador'}</small></span>` : pmxIni(S.nombre);
-  return `<details class="pmx-cuenta${pie ? ' pie' : ''}"><summary aria-label="Mi cuenta">${cara}</summary><div class="pmx-menu">
+  return `<details class="pmx-cuenta${pie ? ' lateral' : ''}"><summary aria-label="Mi cuenta">${cara}</summary><div class="pmx-menu">
     <div class="pmx-yo"><b>${esc(S.nombre)}</b><small>${S.creador ? 'Creador · ve todos los clubes' : S.rol === 'admin' ? 'Administrador del club' : S.rol === 'dt' ? `DT de ${esc(pmCV().map(pmCatN).join(', ') || 'ningún plantel')}` : 'Jugador'}</small></div>
     ${staff ? (E.rol === 'jug' ? '<button type="button" data-pm="rol" data-v="dt">Volver a la vista del club</button>' : '<button type="button" data-pm="rol" data-v="jug">Ver como jugador</button>') : ''}
     <button type="button" onclick="alternarTema()">Cambiar claro / oscuro</button>
