@@ -22,13 +22,6 @@
  },
  {
   "serie": "18A",
-  "fechaHora": "2026-11-04 19:00:00",
-  "cancha": "COMPLEJO LOS NOGALES",
-  "local": "NACIONAL UNIVERSITARIO",
-  "visitante": "COLEGIO Y LICEO INGLES"
- },
- {
-  "serie": "18A",
   "fechaHora": "2026-11-04 20:30:00",
   "cancha": "COM. DEP. CLUB TROUVILLE",
   "local": "TROUVILLE UNIVERSITARIO",
@@ -423,13 +416,6 @@
   "serie": "18A",
   "fechaHora": "2026-11-18 00:00:00",
   "cancha": "CANCHA A FIJAR",
-  "local": "ACADEMIA FRM",
-  "visitante": "LA BLANQUEADA"
- },
- {
-  "serie": "18A",
-  "fechaHora": "2026-11-18 00:00:00",
-  "cancha": "CANCHA A FIJAR",
   "local": "SANTA ELENA LAGOMAR",
   "visitante": "TROUVILLE UNIVERSITARIO"
  },
@@ -439,6 +425,13 @@
   "cancha": "CANCHA A FIJAR",
   "local": "COLEGIO Y LICEO INGLES",
   "visitante": "NUMA TURCATTI"
+ },
+ {
+  "serie": "18A",
+  "fechaHora": "2026-11-18 00:00:00",
+  "cancha": "CANCHA A FIJAR",
+  "local": "ACADEMIA FRM",
+  "visitante": "LA BLANQUEADA"
  },
  {
   "serie": "18A",
@@ -807,16 +800,16 @@
  {
   "serie": "18A",
   "fechaHora": "2026-11-29 15:30:00",
-  "cancha": "COMPLEJO ALCOBENDAS",
-  "local": "NACIONAL UNIVERSITARIO",
-  "visitante": "NUMA TURCATTI"
+  "cancha": "COMPLEJO JUAN XXIII",
+  "local": "LA BLANQUEADA",
+  "visitante": "SANTA ELENA LAGOMAR"
  },
  {
   "serie": "18A",
   "fechaHora": "2026-11-29 15:30:00",
-  "cancha": "COMPLEJO JUAN XXIII",
-  "local": "LA BLANQUEADA",
-  "visitante": "SANTA ELENA LAGOMAR"
+  "cancha": "COMPLEJO ALCOBENDAS",
+  "local": "NACIONAL UNIVERSITARIO",
+  "visitante": "NUMA TURCATTI"
  },
  {
   "serie": "18A",

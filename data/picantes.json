@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-04T22:55:02.181Z",
+ "actualizado": "2026-11-05T03:47:27.861Z",
  "partidos": [
   {
    "div": "mayores-a",
@@ -274,23 +274,6 @@
    "altasV": 1
   },
   {
-   "div": "sub20-a",
-   "divNombre": "Sub 20 A",
-   "k": "ELF~J.M.L.M",
-   "l": "ELF",
-   "v": "J.M.L.M",
-   "dia": "2026-11-04",
-   "hora": "21:00",
-   "etapa": "Título",
-   "pl": 3,
-   "pv": 4,
-   "n": 8,
-   "base": 0,
-   "tipo": "titulo",
-   "altasL": 2,
-   "altasV": 1
-  },
-  {
    "div": "reserva-a",
    "divNombre": "Reserva A",
    "k": "Carrasco Lawn Tennis~Old Christians",
@@ -325,23 +308,6 @@
    "altasV": 1
   },
   {
-   "div": "presenior-a",
-   "divNombre": "Pre Senior A",
-   "k": "Old Ivy~Hebraica y Macabi",
-   "l": "Old Ivy",
-   "v": "Hebraica y Macabi",
-   "dia": "2026-11-07",
-   "hora": "09:00",
-   "etapa": "Permanencia",
-   "pl": 7,
-   "pv": 6,
-   "n": 8,
-   "base": 8,
-   "tipo": "descenso",
-   "altasL": 1,
-   "altasV": 0
-  },
-  {
    "div": "presenior-b",
    "divNombre": "Pre Senior B",
    "k": "Perry Sexta Universitario~Argos",
@@ -357,6 +323,23 @@
    "tipo": "descenso",
    "altasL": 1,
    "altasV": 1
+  },
+  {
+   "div": "presenior-a",
+   "divNombre": "Pre Senior A",
+   "k": "Old Ivy~Hebraica y Macabi",
+   "l": "Old Ivy",
+   "v": "Hebraica y Macabi",
+   "dia": "2026-11-07",
+   "hora": "09:00",
+   "etapa": "Permanencia",
+   "pl": 7,
+   "pv": 5,
+   "n": 8,
+   "base": 8,
+   "tipo": "descenso",
+   "altasL": 1,
+   "altasV": 0
   },
   {
    "div": "mas40-a",
@@ -391,6 +374,23 @@
    "tipo": "descenso",
    "altasL": 2,
    "altasV": 1
+  },
+  {
+   "div": "presenior-b",
+   "divNombre": "Pre Senior B",
+   "k": "Carrasco Lawn Tennis~Resistencia",
+   "l": "Carrasco Lawn Tennis",
+   "v": "Resistencia",
+   "dia": "2026-11-14",
+   "hora": "09:00",
+   "etapa": "Título y ascenso",
+   "pl": 3,
+   "pv": 2,
+   "n": 8,
+   "base": 0,
+   "tipo": "titulo",
+   "altasL": 2,
+   "altasV": 2
   },
   {
    "div": "mas40-b",
@@ -461,23 +461,6 @@
    "altasV": 1
   },
   {
-   "div": "presenior-a",
-   "divNombre": "Pre Senior A",
-   "k": "Hebraica y Macabi~Playa Honda",
-   "l": "Hebraica y Macabi",
-   "v": "Playa Honda",
-   "dia": "2026-11-04",
-   "hora": "21:00",
-   "etapa": "Permanencia",
-   "pl": 6,
-   "pv": 5,
-   "n": 8,
-   "base": 8,
-   "tipo": "descenso",
-   "altasL": 0,
-   "altasV": 1
-  },
-  {
    "div": "presenior-b",
    "divNombre": "Pre Senior B",
    "k": "Wolframio~Pallotti Universitario",
@@ -509,6 +492,23 @@
    "base": 8,
    "tipo": "descenso",
    "altasL": 2,
+   "altasV": 2
+  },
+  {
+   "div": "presenior-c",
+   "divNombre": "Pre Senior C",
+   "k": "Tacuarembo Universitario~San Eugenio",
+   "l": "Tacuarembo Universitario",
+   "v": "San Eugenio",
+   "dia": "2026-11-07",
+   "hora": "11:15",
+   "etapa": "Permanencia",
+   "pl": 6,
+   "pv": 7,
+   "n": 8,
+   "base": 8,
+   "tipo": "descenso",
+   "altasL": 0,
    "altasV": 2
   }
  ]
