@@ -4925,5 +4925,31 @@
   "fechas": 1,
   "detalle": "F:1 - UR:0",
   "texto": "Sanción generada automáticamente por expulsión en el partido"
+ },
+ {
+  "tipo": "automatica",
+  "fecha": "2026-11-04",
+  "partido": "499",
+  "serie": "18A",
+  "carne": "67233",
+  "nombre": "RENZO SAMUEL GENTILIO",
+  "club": "NUMA TURCATTI",
+  "sancion": "SANCIÓN AUTOMÁTICA",
+  "fechas": 1,
+  "detalle": "F:1 - UR:0",
+  "texto": "Sanción generada automáticamente por expulsión en el partido"
+ },
+ {
+  "tipo": "automatica",
+  "fecha": "2026-11-04",
+  "partido": "499",
+  "serie": "18A",
+  "carne": "68232",
+  "nombre": "THIAGO MATEO FERREIRA",
+  "club": "NUMA TURCATTI",
+  "sancion": "SANCIÓN AUTOMÁTICA",
+  "fechas": 1,
+  "detalle": "F:1 - UR:0",
+  "texto": "Sanción generada automáticamente por expulsión en el partido"
  }
 ]

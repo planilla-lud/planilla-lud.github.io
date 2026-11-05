@@ -30,13 +30,6 @@
  {
   "serie": "CPD",
   "fechaHora": "2026-11-08 09:00:00",
-  "cancha": "COMPLEJO DEVOTO",
-  "local": "WANDERERS",
-  "visitante": "C.A.L.I."
- },
- {
-  "serie": "CPD",
-  "fechaHora": "2026-11-08 09:00:00",
   "cancha": "COM. CLUB UNIVERSIDAD CATOLICA",
   "local": "SAN PABLO UNIVERSITARIO",
   "visitante": "ARQUITECTURA JRS."
@@ -54,5 +47,12 @@
   "cancha": "ACADEMIA",
   "local": "A.E.B.U",
   "visitante": "POCO SITIO PLAYA VERDE"
+ },
+ {
+  "serie": "CPD",
+  "fechaHora": "2026-12-30 00:00:00",
+  "cancha": "NO SE JUEGA",
+  "local": "WANDERERS",
+  "visitante": "C.A.L.I."
  }
 ]

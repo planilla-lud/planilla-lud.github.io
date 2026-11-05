@@ -1,0 +1,268 @@
+{
+ "id": "103666",
+ "categoria": "presenior-a",
+ "serie": "PSAT",
+ "fecha": 5,
+ "fechaHora": "2026-11-04 22:00:00",
+ "cancha": "COMP. DEVOTO (NAUT. PICHINCHA)",
+ "local": "NAUTICO CARRASCO Y PUNTA GORDA",
+ "visitante": "OLD CHRISTIANS CLUB",
+ "gl": 1,
+ "gv": 2,
+ "detalle": {
+  "nro_partido": "796",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "PRE SENIOR",
+  "categoria": "PRE-SENIOR MASCULINO",
+  "rueda": "2",
+  "Divisional": "PRESENIOR \"A\" TITULO",
+  "Cancha": "COMP. DEVOTO (NAUT. PICHINCHA)",
+  "Fecha_Inicio": "2026-11-04 00:00:00",
+  "Fecha_fin": "2026-11-04 00:00:00",
+  "Locatario": "NAUTICO CARRASCO Y PUNTA GORDA",
+  "goles_locatario": "1",
+  "puntos_locatario": "0",
+  "Visitante": "OLD CHRISTIANS CLUB",
+  "goles_visitante": "2",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "30639",
+   "Nombre": "NICOLAS FERNANDO ALVAREZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "34261",
+   "Nombre": "MARTIN PESSANO",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "23989",
+   "Nombre": "MAURICIO SANTIAGO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "25020",
+   "Nombre": "GASTON MARCOS BIANCHI",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "35041",
+   "Nombre": "JOAQUIN GUERRA",
+   "camiseta": "51",
+   "Capitan": ""
+  },
+  {
+   "carne": "35358",
+   "Nombre": "GONZALO MARTIN RUSSO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "25769",
+   "Nombre": "FABRICIO RIANI",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "22414",
+   "Nombre": "RODRIGO OLAVE",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "23004",
+   "Nombre": "ANGEL URRABURU",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "29905",
+   "Nombre": "FELIPE SURRACO",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "20774",
+   "Nombre": "DIEGO ALEMAN",
+   "camiseta": "16",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "26015",
+   "Nombre": "GUILLERMO FEDERICO BRITOS",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "40060",
+   "Nombre": "MATEO LONG",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "33189",
+   "Nombre": "THOMAS SCHIMDT",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "37322",
+   "Nombre": "ANDRES ENRIQUE URIOSTE",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "22099",
+   "Nombre": "IGNACIO MARIA PEREZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "28899",
+   "Nombre": "IGNACIO MUÑOZ",
+   "camiseta": "3",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "28410",
+   "Nombre": "FELIPE JUAN URIOSTE",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "51231",
+   "Nombre": "ALEJO MAYORGA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "26729",
+   "Nombre": "LUIS IGNACIO CRISCI",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "27137",
+   "Nombre": "DIEGO PEDRO MARIÑO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "20036",
+   "Nombre": "MATIAS CROSTA",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "29905",
+   "Jug_Sale": "FELIPE SURRACO",
+   "CarneEntra": "22524",
+   "Jug_Entra": "FABRICIO UDAQUIOLA",
+   "camiseta": "20",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "25020",
+   "Jug_Sale": "GASTON MARCOS BIANCHI",
+   "CarneEntra": "21341",
+   "Jug_Entra": "MAURO GONZALO PAZOS",
+   "camiseta": "6",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "23004",
+   "Jug_Sale": "ANGEL URRABURU",
+   "CarneEntra": "26528",
+   "Jug_Entra": "MARIO SZLAFMYC",
+   "camiseta": "5",
+   "minutos": "83"
+  },
+  {
+   "CarneSale": "35358",
+   "Jug_Sale": "GONZALO MARTIN RUSSO",
+   "CarneEntra": "54075",
+   "Jug_Entra": "RODRIGO VIEIRA",
+   "camiseta": "19",
+   "minutos": "84"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "51231",
+   "Jug_Sale": "ALEJO MAYORGA",
+   "CarneEntra": "26727",
+   "Jug_Entra": "CARLOS EDUARDO SCHECK",
+   "camiseta": "23",
+   "minutos": "96"
+  },
+  {
+   "CarneSale": "28410",
+   "Jug_Sale": "FELIPE JUAN URIOSTE",
+   "CarneEntra": "21639",
+   "Jug_Entra": "EDUARDO GABRIEL PEIRANO",
+   "camiseta": "6",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "20036",
+   "Jug_Sale": "MATIAS CROSTA",
+   "CarneEntra": "24790",
+   "Jug_Entra": "IGNACIO NOGUEIRA",
+   "camiseta": "11",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "27137",
+   "Jug_Sale": "DIEGO PEDRO MARIÑO",
+   "CarneEntra": "33837",
+   "Jug_Entra": "MARTIN GUIDOBONO",
+   "camiseta": "68",
+   "minutos": "83"
+  },
+  {
+   "CarneSale": "33189",
+   "Jug_Sale": "THOMAS SCHIMDT",
+   "CarneEntra": "69143",
+   "Jug_Entra": "RAFAEL ALFONSO BLANCO",
+   "camiseta": "43",
+   "minutos": "87"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "29905",
+   "Nombre": "FELIPE SURRACO",
+   "minutos": "20",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "33189",
+   "Nombre": "THOMAS SCHIMDT",
+   "minutos": "65",
+   "EnContra": "1"
+  },
+  {
+   "carne": "40060",
+   "Nombre": "MATEO LONG",
+   "minutos": "85",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

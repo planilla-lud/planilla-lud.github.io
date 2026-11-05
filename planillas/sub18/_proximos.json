@@ -7,6 +7,13 @@
   "visitante": "PERRY SEXTA UNIVERSITARIO"
  },
  {
+  "serie": "18C",
+  "fechaHora": "2026-11-01 15:30:00",
+  "cancha": "SANTA RITA",
+  "local": "SAN AGUSTIN",
+  "visitante": "TENIS EL PINAR"
+ },
+ {
   "serie": "18F",
   "fechaHora": "2026-11-01 15:30:00",
   "cancha": "COMPLEJO LAS CASUARINAS",
@@ -19,20 +26,6 @@
   "cancha": "COMPLEJO DEPORTIVO ARRAYANES",
   "local": "SANTA ELENA LAGOMAR",
   "visitante": "ARQUITECTURA JRS."
- },
- {
-  "serie": "18A",
-  "fechaHora": "2026-11-04 20:30:00",
-  "cancha": "COM. DEP. CLUB TROUVILLE",
-  "local": "TROUVILLE UNIVERSITARIO",
-  "visitante": "ACADEMIA FRM"
- },
- {
-  "serie": "18C",
-  "fechaHora": "2026-11-05 15:30:00",
-  "cancha": "SANTA RITA",
-  "local": "SAN AGUSTIN",
-  "visitante": "TENIS EL PINAR"
  },
  {
   "serie": "18F",
@@ -75,13 +68,6 @@
   "cancha": "CANCHA A FIJAR",
   "local": "JUAN XXIII",
   "visitante": "LA ESCALINATA"
- },
- {
-  "serie": "18B",
-  "fechaHora": "2026-11-08 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "J.M.L.M",
-  "visitante": "OLD WOODLANDS CLUB"
  },
  {
   "serie": "18C",
@@ -243,6 +229,13 @@
   "cancha": "SCUOLA ITALIANA",
   "local": "SCUOLA PALERMO",
   "visitante": "NACIONAL UNIVERSITARIO"
+ },
+ {
+  "serie": "18B",
+  "fechaHora": "2026-11-13 20:00:00",
+  "cancha": "LA MENNAIS",
+  "local": "J.M.L.M",
+  "visitante": "OLD WOODLANDS CLUB"
  },
  {
   "serie": "18O",

@@ -4,7 +4,7 @@
  "serie": "20C2",
  "fecha": 7,
  "fechaHora": "2026-11-04 21:00:00",
- "cancha": "COMPLEJO INGENIERO DEL CAMPO",
+ "cancha": "()",
  "local": "DANUBIO FUTBOL CLUB",
  "visitante": "ANGLO SCHOOL UNIVERSITARIO",
  "gl": 2,
@@ -17,9 +17,9 @@
   "categoria": "SUB 20 MASCULINO",
   "rueda": "2",
   "Divisional": "SUB20 \"C\" TIT. y ASC.",
-  "Cancha": "COMPLEJO INGENIERO DEL CAMPO",
-  "Fecha_Inicio": "2026-11-04 22:30:00",
-  "Fecha_fin": "2026-11-04 22:30:00",
+  "Cancha": "()",
+  "Fecha_Inicio": "2026-11-04 22:55:00",
+  "Fecha_fin": "2026-11-04 22:55:00",
   "Locatario": "DANUBIO FUTBOL CLUB",
   "goles_locatario": "2",
   "puntos_locatario": "0",
@@ -29,12 +29,268 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "62320",
+   "Nombre": "JOAQUIN GABRIEL MEDEROS",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "69140",
+   "Nombre": "ANGEL RAUL ZAMBRANO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "69165",
+   "Nombre": "THIAGO GONZALEZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "67266",
+   "Nombre": "EZEQUIEL ACUÑA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "64473",
+   "Nombre": "GIANFRANCO MARCHIORO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "67360",
+   "Nombre": "JOAQUIN GURIDI",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "64043",
+   "Nombre": "ALEX FERNANDEZ",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "67453",
+   "Nombre": "ADRIAN STEVEN RAMIREZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "64282",
+   "Nombre": "FACUNDO BORCHE",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "64044",
+   "Nombre": "LORENZO RAVA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "60155",
+   "Nombre": "LUCAS JULIAN DIAZ",
+   "camiseta": "16",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "66339",
+   "Nombre": "MATEO MARCOS FAZIO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "59761",
+   "Nombre": "BRUNO LAVIE",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "59555",
+   "Nombre": "JUAN MANUEL BIA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "66528",
+   "Nombre": "LUCA CANZANI",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "62420",
+   "Nombre": "MATIAS LABORDE",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "60337",
+   "Nombre": "MATEO GLISENTI",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "66778",
+   "Nombre": "SANTIAGO MACEDO",
+   "camiseta": "50",
+   "Capitan": ""
+  },
+  {
+   "carne": "56305",
+   "Nombre": "FRANCO GLISENTI",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "60554",
+   "Nombre": "JUAN PATRICIO MOSCA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "62547",
+   "Nombre": "GUILERMO DIEGO POMI",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "54757",
+   "Nombre": "LUIS IGNACIO MATTERA",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "60155",
+   "Jug_Sale": "LUCAS JULIAN DIAZ",
+   "CarneEntra": "68948",
+   "Jug_Entra": "NICOLAS BERTIZ",
+   "camiseta": "7",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64282",
+   "Jug_Sale": "FACUNDO BORCHE",
+   "CarneEntra": "68894",
+   "Jug_Entra": "TOMAS RUA",
+   "camiseta": "14",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67360",
+   "Jug_Sale": "JOAQUIN GURIDI",
+   "CarneEntra": "68945",
+   "Jug_Entra": "JONATHAN NAHUEL ROMERO",
+   "camiseta": "19",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64473",
+   "Jug_Sale": "GIANFRANCO MARCHIORO",
+   "CarneEntra": "68946",
+   "Jug_Entra": "MATEO AGUSTIN CARVALLO",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "69165",
+   "Jug_Sale": "THIAGO GONZALEZ",
+   "CarneEntra": "60641",
+   "Jug_Entra": "JOAQUIN ABELLA",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "62320",
+   "Jug_Sale": "JOAQUIN GABRIEL MEDEROS",
+   "CarneEntra": "69011",
+   "Jug_Entra": "SANTIAGO DANILO GONZALEZ",
+   "camiseta": "1",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "69140",
+   "Jug_Sale": "ANGEL RAUL ZAMBRANO",
+   "CarneEntra": "58023",
+   "Jug_Entra": "MANUEL MENDEZ",
+   "camiseta": "20",
+   "minutos": "66"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "54757",
+   "Jug_Sale": "LUIS IGNACIO MATTERA",
+   "CarneEntra": "67887",
+   "Jug_Entra": "SANTINO DE COLA",
+   "camiseta": "14",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "62547",
+   "Jug_Sale": "GUILERMO DIEGO POMI",
+   "CarneEntra": "57343",
+   "Jug_Entra": "FEDERICO PELUFFO",
+   "camiseta": "25",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "60554",
+   "Jug_Sale": "JUAN PATRICIO MOSCA",
+   "CarneEntra": "66732",
+   "Jug_Entra": "FACUNDO GALLINO",
+   "camiseta": "91",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "66528",
+   "Jug_Sale": "LUCA CANZANI",
+   "CarneEntra": "54757",
+   "Jug_Entra": "LUIS IGNACIO MATTERA",
+   "camiseta": "9",
+   "minutos": "86"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "58023",
+   "Nombre": "MANUEL MENDEZ",
+   "minutos": "70",
+   "EnContra": "0"
+  },
+  {
+   "carne": "68946",
+   "Nombre": "MATEO AGUSTIN CARVALLO",
+   "minutos": "75",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "56305",
+   "Nombre": "FRANCO GLISENTI",
+   "minutos": "88",
+   "EnContra": "1"
+  },
+  {
+   "carne": "56305",
+   "Nombre": "FRANCO GLISENTI",
+   "minutos": "94",
+   "EnContra": "1"
+  },
+  {
+   "carne": "60337",
+   "Nombre": "MATEO GLISENTI",
+   "minutos": "54",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

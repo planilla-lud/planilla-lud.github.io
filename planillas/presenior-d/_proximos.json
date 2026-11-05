@@ -1,17 +1,17 @@
 [
  {
   "serie": "PSDTA",
+  "fechaHora": "2026-11-05 21:00:00",
+  "cancha": "SCUOLA ITALIANA",
+  "local": "DEPORTIVO MATADERO",
+  "visitante": "SCUOLA PALERMO"
+ },
+ {
+  "serie": "PSDTA",
   "fechaHora": "2026-11-05 22:00:00",
   "cancha": "COMPLEJO INGENIERO DEL CAMPO",
   "local": "DANUBIO FUTBOL CLUB",
   "visitante": "BODY FACTORY"
- },
- {
-  "serie": "PSDTA",
-  "fechaHora": "2026-11-07 09:00:00",
-  "cancha": "COMPLEJO LAS CASUARINAS",
-  "local": "DEPORTIVO MATADERO",
-  "visitante": "SCUOLA PALERMO"
  },
  {
   "serie": "PSDTA",
@@ -110,19 +110,5 @@
   "cancha": "COM. CLUB UNIVERSIDAD CATOLICA",
   "local": "ANGLO",
   "visitante": "NUMA TURCATTI"
- },
- {
-  "serie": "PSDPD",
-  "fechaHora": "2026-12-30 00:00:00",
-  "cancha": "WALKOVER",
-  "local": "UT SERVIAM",
-  "visitante": "NUMA TURCATTI"
- },
- {
-  "serie": "PSDPD",
-  "fechaHora": "2026-12-30 00:00:00",
-  "cancha": "WALKOVER",
-  "local": "TROUVILLE UNIVERSITARIO",
-  "visitante": "MATURANA UNIVERSITARIO"
  }
 ]

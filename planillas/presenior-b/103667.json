@@ -1,0 +1,279 @@
+{
+ "id": "103667",
+ "categoria": "presenior-b",
+ "serie": "PSBTA",
+ "fecha": 6,
+ "fechaHora": "2026-11-04 21:30:00",
+ "cancha": "CARRASCO LAWN TENIS (KM 23)",
+ "local": "CIRCULO DE TENIS MONTEVIDEO",
+ "visitante": "CARRASCO LAWN TENNIS",
+ "gl": 1,
+ "gv": 3,
+ "detalle": {
+  "nro_partido": "856",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "PRE SENIOR",
+  "categoria": "PRE-SENIOR MASCULINO",
+  "rueda": "2",
+  "Divisional": "PRESENIOR \"B\" TIT. y ASC",
+  "Cancha": "CARRASCO LAWN TENIS (KM 23)",
+  "Fecha_Inicio": "2026-11-04 23:15:00",
+  "Fecha_fin": "2026-11-04 23:15:00",
+  "Locatario": "CIRCULO DE TENIS MONTEVIDEO",
+  "goles_locatario": "1",
+  "puntos_locatario": "0",
+  "Visitante": "CARRASCO LAWN TENNIS",
+  "goles_visitante": "3",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "31382",
+   "Nombre": "NICOLAS VICENTE DE TORO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "64253",
+   "Nombre": "MATIAS EMMANUEL PUCCIARELLI",
+   "camiseta": "38",
+   "Capitan": ""
+  },
+  {
+   "carne": "25397",
+   "Nombre": "MARTIN ANDRES ROSSI",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "33773",
+   "Nombre": "JUAN ANDRES MOROSOFF",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "29950",
+   "Nombre": "DIEGO MUJICA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "21402",
+   "Nombre": "JUAN IGNACIO SECO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "41612",
+   "Nombre": "NICOLAS VARELA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "23921",
+   "Nombre": "JUAN ANDRES BOCCHIO",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "27967",
+   "Nombre": "NICOLAS IWANKA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "34891",
+   "Nombre": "NICOLAS CHAIA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "29861",
+   "Nombre": "SANTIAGO JOSE PEREZ",
+   "camiseta": "26",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "63411",
+   "Nombre": "MAURICIO MANASSI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "18137",
+   "Nombre": "MATIAS VALENTIN ROSENDE",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "22166",
+   "Nombre": "FEDERICO PUA",
+   "camiseta": "50",
+   "Capitan": ""
+  },
+  {
+   "carne": "48257",
+   "Nombre": "RODRIGO CABRAL",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "29289",
+   "Nombre": "ANKIN APRAHAMIAN",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "28144",
+   "Nombre": "ANDRES ANTONIO BESIO",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "34400",
+   "Nombre": "CARLOS MANUEL DE MELLO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "18574",
+   "Nombre": "PABLO AGUSTIN FERNANDEZ",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "26011",
+   "Nombre": "MAURO GIAMMARCHI",
+   "camiseta": "7",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "26719",
+   "Nombre": "MARTIN JOSE CRISTIANI",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "23201",
+   "Nombre": "JOSE IGNACIO MAIORANO",
+   "camiseta": "81",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "29861",
+   "Jug_Sale": "SANTIAGO JOSE PEREZ",
+   "CarneEntra": "24257",
+   "Jug_Entra": "SANTIAGO SILVEIRA DE ANDRADE",
+   "camiseta": "20",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "64253",
+   "Jug_Sale": "MATIAS EMMANUEL PUCCIARELLI",
+   "CarneEntra": "19586",
+   "Jug_Entra": "FEDERICO REYES",
+   "camiseta": "16",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "25397",
+   "Jug_Sale": "MARTIN ANDRES ROSSI",
+   "CarneEntra": "21536",
+   "Jug_Entra": "FRANCISCO SEBASTIAN FRONTINI",
+   "camiseta": "70",
+   "minutos": "74"
+  },
+  {
+   "CarneSale": "23921",
+   "Jug_Sale": "JUAN ANDRES BOCCHIO",
+   "CarneEntra": "29897",
+   "Jug_Entra": "ALFONSO MATIAS ARANDA",
+   "camiseta": "22",
+   "minutos": "76"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "23201",
+   "Jug_Sale": "JOSE IGNACIO MAIORANO",
+   "CarneEntra": "23708",
+   "Jug_Entra": "LEANDRO JOSE FERNANDEZ",
+   "camiseta": "46",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "26719",
+   "Jug_Sale": "MARTIN JOSE CRISTIANI",
+   "CarneEntra": "35975",
+   "Jug_Entra": "RODRIGO SCHRAMM",
+   "camiseta": "9",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "22166",
+   "Jug_Sale": "FEDERICO PUA",
+   "CarneEntra": "20439",
+   "Jug_Entra": "RODRIGO PABLO BAUBETA",
+   "camiseta": "8",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "18137",
+   "Jug_Sale": "MATIAS VALENTIN ROSENDE",
+   "CarneEntra": "18056",
+   "Jug_Entra": "FELIPE GARCIA",
+   "camiseta": "40",
+   "minutos": "81"
+  },
+  {
+   "CarneSale": "26011",
+   "Jug_Sale": "MAURO GIAMMARCHI",
+   "CarneEntra": "24212",
+   "Jug_Entra": "LUIGI PAOLO CONTIN",
+   "camiseta": "26",
+   "minutos": "81"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "23921",
+   "Nombre": "JUAN ANDRES BOCCHIO",
+   "minutos": "37",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "23201",
+   "Nombre": "JOSE IGNACIO MAIORANO",
+   "minutos": "4",
+   "EnContra": "1"
+  },
+  {
+   "carne": "23708",
+   "Nombre": "LEANDRO JOSE FERNANDEZ",
+   "minutos": "51",
+   "EnContra": "1"
+  },
+  {
+   "carne": "28144",
+   "Nombre": "ANDRES ANTONIO BESIO",
+   "minutos": "74",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "NICOLAS IWANKA",
+   "observaciones": ""
+  }
+ ],
+ "expulsadosV": []
+}

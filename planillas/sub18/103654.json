@@ -8,7 +8,7 @@
  "local": "NUMA TURCATTI",
  "visitante": "SCUOLA PALERMO",
  "gl": 3,
- "gv": 7,
+ "gv": 8,
  "detalle": {
   "nro_partido": "499",
   "temporada": "RAFAEL \"CANARIO\" GARCÍA",
@@ -18,23 +18,284 @@
   "rueda": "3",
   "Divisional": "SUB18 AMISTAD",
   "Cancha": "SCUOLA ITALIANA",
-  "Fecha_Inicio": "2026-11-04 20:00:00",
-  "Fecha_fin": "2026-11-04 20:00:00",
+  "Fecha_Inicio": "2026-11-04 20:10:00",
+  "Fecha_fin": "2026-11-04 20:10:00",
   "Locatario": "NUMA TURCATTI",
   "goles_locatario": "3",
   "puntos_locatario": "0",
   "Visitante": "SCUOLA PALERMO",
-  "goles_visitante": "7",
+  "goles_visitante": "8",
   "puntos_visitante": "3",
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "titularesL": [
+  {
+   "carne": "67233",
+   "Nombre": "RENZO SAMUEL GENTILIO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "65681",
+   "Nombre": "NICOLAS IGNACIO LARROSA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "57617",
+   "Nombre": "JUAN IGNACIO ARRILLAGA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "68490",
+   "Nombre": "NICOLAS ANTONIO DIAZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "67234",
+   "Nombre": "RODRIGO HERNAN MARTINEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "67175",
+   "Nombre": "FACUNDO AGUSTIN DUARTE",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "56571",
+   "Nombre": "SANTIAGO GUSTAVO ALVAREZ",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "68232",
+   "Nombre": "THIAGO MATEO FERREIRA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "69187",
+   "Nombre": "MATEO ISMAEL CHARLE FAGUNDEZ",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "63007",
+   "Nombre": "MARCELL AGUSTIN CRUZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "69074",
+   "Nombre": "LAUTARO NICOLAS RODRIGUEZ",
+   "camiseta": "3",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "60745",
+   "Nombre": "LUCIANO DELGADO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "62404",
+   "Nombre": "FRANCO DEMICHELI",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "62155",
+   "Nombre": "BENO QUARTARA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "59177",
+   "Nombre": "NICOLAS MARQUES",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "62129",
+   "Nombre": "LUCAS GUTIERREZ",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "63526",
+   "Nombre": "MATEO LABRADOR",
+   "camiseta": "12",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "67703",
+   "Nombre": "AGUSTIN NATTERO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "59173",
+   "Nombre": "AGUSTIN NICOLAS GANDINI",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "69105",
+   "Nombre": "TIZZIANO DALLORSO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "57868",
+   "Nombre": "LUCIANO VARELA",
+   "camiseta": "65",
+   "Capitan": ""
+  },
+  {
+   "carne": "59171",
+   "Nombre": "FRANCISCO BROCH",
+   "camiseta": "25",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "63007",
+   "Jug_Sale": "MARCELL AGUSTIN CRUZ",
+   "CarneEntra": "65479",
+   "Jug_Entra": "NAHUEL LUCIANO MONTENEGRO",
+   "camiseta": "19",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "65681",
+   "Jug_Sale": "NICOLAS IGNACIO LARROSA",
+   "CarneEntra": "67304",
+   "Jug_Entra": "JUAN MANUEL PAZOS",
+   "camiseta": "21",
+   "minutos": "60"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "59171",
+   "Jug_Sale": "FRANCISCO BROCH",
+   "CarneEntra": "68802",
+   "Jug_Entra": "THIAGO DEVITTA",
+   "camiseta": "73",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "69105",
+   "Jug_Sale": "TIZZIANO DALLORSO",
+   "CarneEntra": "61927",
+   "Jug_Entra": "SANTIAGO BRUN",
+   "camiseta": "2",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "59173",
+   "Jug_Sale": "AGUSTIN NICOLAS GANDINI",
+   "CarneEntra": "69105",
+   "Jug_Entra": "TIZZIANO DALLORSO",
+   "camiseta": "5",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "67703",
+   "Jug_Sale": "AGUSTIN NATTERO",
+   "CarneEntra": "59171",
+   "Jug_Entra": "FRANCISCO BROCH",
+   "camiseta": "25",
+   "minutos": "79"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "63007",
+   "Nombre": "MARCELL AGUSTIN CRUZ",
+   "minutos": "36",
+   "EnContra": "0"
+  },
+  {
+   "carne": "69074",
+   "Nombre": "LAUTARO NICOLAS RODRIGUEZ",
+   "minutos": "44",
+   "EnContra": "0"
+  },
+  {
+   "carne": "69074",
+   "Nombre": "LAUTARO NICOLAS RODRIGUEZ",
+   "minutos": "75",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "57868",
+   "Nombre": "LUCIANO VARELA",
+   "minutos": "32",
+   "EnContra": "1"
+  },
+  {
+   "carne": "59171",
+   "Nombre": "FRANCISCO BROCH",
+   "minutos": "41",
+   "EnContra": "1"
+  },
+  {
+   "carne": "61927",
+   "Nombre": "SANTIAGO BRUN",
+   "minutos": "51",
+   "EnContra": "1"
+  },
+  {
+   "carne": "61927",
+   "Nombre": "SANTIAGO BRUN",
+   "minutos": "89",
+   "EnContra": "1"
+  },
+  {
+   "carne": "63526",
+   "Nombre": "MATEO LABRADOR",
+   "minutos": "7",
+   "EnContra": "1"
+  },
+  {
+   "carne": "68802",
+   "Nombre": "THIAGO DEVITTA",
+   "minutos": "70",
+   "EnContra": "1"
+  },
+  {
+   "carne": "68802",
+   "Nombre": "THIAGO DEVITTA",
+   "minutos": "73",
+   "EnContra": "1"
+  },
+  {
+   "carne": "68802",
+   "Nombre": "THIAGO DEVITTA",
+   "minutos": "84",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "RENZO SAMUEL GENTILIO",
+   "observaciones": ""
+  },
+  {
+   "Nombre": "THIAGO MATEO FERREIRA",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

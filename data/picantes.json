@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-05T03:47:27.861Z",
+ "actualizado": "2026-11-05T18:44:51.915Z",
  "partidos": [
   {
    "div": "mayores-a",
@@ -15,7 +15,7 @@
    "n": 8,
    "base": 0,
    "tipo": "titulo",
-   "altasL": 0,
+   "altasL": 1,
    "altasV": 0
   },
   {
@@ -66,7 +66,7 @@
    "n": 8,
    "base": 8,
    "tipo": "descenso",
-   "altasL": 0,
+   "altasL": 1,
    "altasV": 1
   },
   {
@@ -117,7 +117,7 @@
    "n": 8,
    "base": 0,
    "tipo": "titulo",
-   "altasL": 1,
+   "altasL": 2,
    "altasV": 0
   },
   {
@@ -168,7 +168,7 @@
    "n": 8,
    "base": 0,
    "tipo": "titulo",
-   "altasL": 1,
+   "altasL": 2,
    "altasV": 0
   },
   {
@@ -219,23 +219,6 @@
    "n": 8,
    "base": 0,
    "tipo": "titulo",
-   "altasL": 1,
-   "altasV": 0
-  },
-  {
-   "div": "presenior-b",
-   "divNombre": "Pre Senior B",
-   "k": "Resistencia~Centro Cristobal Colon",
-   "l": "Resistencia",
-   "v": "Centro Cristobal Colon",
-   "dia": "2026-11-07",
-   "hora": "09:00",
-   "etapa": "Título y ascenso",
-   "pl": 2,
-   "pv": 1,
-   "n": 8,
-   "base": 0,
-   "tipo": "titulo",
    "altasL": 2,
    "altasV": 0
   },
@@ -271,7 +254,7 @@
    "base": 0,
    "tipo": "titulo",
    "altasL": 1,
-   "altasV": 1
+   "altasV": 2
   },
   {
    "div": "reserva-a",
@@ -306,6 +289,23 @@
    "tipo": "descenso",
    "altasL": 0,
    "altasV": 1
+  },
+  {
+   "div": "presenior-b",
+   "divNombre": "Pre Senior B",
+   "k": "Resistencia~Centro Cristobal Colon",
+   "l": "Resistencia",
+   "v": "Centro Cristobal Colon",
+   "dia": "2026-11-07",
+   "hora": "09:00",
+   "etapa": "Título y ascenso",
+   "pl": 3,
+   "pv": 1,
+   "n": 8,
+   "base": 0,
+   "tipo": "titulo",
+   "altasL": 2,
+   "altasV": 0
   },
   {
    "div": "presenior-b",
@@ -372,7 +372,7 @@
    "n": 8,
    "base": 8,
    "tipo": "descenso",
-   "altasL": 2,
+   "altasL": 3,
    "altasV": 1
   },
   {
@@ -384,12 +384,12 @@
    "dia": "2026-11-14",
    "hora": "09:00",
    "etapa": "Título y ascenso",
-   "pl": 3,
-   "pv": 2,
+   "pl": 2,
+   "pv": 3,
    "n": 8,
    "base": 0,
    "tipo": "titulo",
-   "altasL": 2,
+   "altasL": 1,
    "altasV": 2
   },
   {
@@ -458,7 +458,7 @@
    "base": 0,
    "tipo": "titulo",
    "altasL": 1,
-   "altasV": 1
+   "altasV": 3
   },
   {
    "div": "presenior-b",

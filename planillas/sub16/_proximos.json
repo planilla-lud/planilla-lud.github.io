@@ -58,13 +58,6 @@
  {
   "serie": "16P",
   "fechaHora": "2026-11-08 13:30:00",
-  "cancha": "COMPLEJO JUAN XXIII",
-  "local": "CIRCULO DE TENIS MONTEVIDEO",
-  "visitante": "TACUAREMBO UNIVERSITARIO"
- },
- {
-  "serie": "16P",
-  "fechaHora": "2026-11-08 13:30:00",
   "cancha": "CARRASCO LAWN TENIS (KM 23)",
   "local": "CARRASCO LAWN TENNIS",
   "visitante": "DEPORTIVO LS UNIVERSITARIO"
@@ -159,6 +152,13 @@
   "cancha": "COLEGIO ARETEIA",
   "local": "DEP.de la C. ARETEIA BIMBULLY",
   "visitante": "ALEMAN UNIVERSITARIO"
+ },
+ {
+  "serie": "16P",
+  "fechaHora": "2026-11-12 19:30:00",
+  "cancha": "COMPLEJO NORTHFIELD",
+  "local": "CIRCULO DE TENIS MONTEVIDEO",
+  "visitante": "TACUAREMBO UNIVERSITARIO"
  },
  {
   "serie": "16B",

@@ -1,0 +1,298 @@
+{
+ "id": "103665",
+ "categoria": "sub18",
+ "serie": "18A",
+ "fecha": 3,
+ "fechaHora": "2026-11-04 20:30:00",
+ "cancha": "COM. DEP. CLUB TROUVILLE",
+ "local": "TROUVILLE UNIVERSITARIO",
+ "visitante": "ACADEMIA FRM",
+ "gl": 1,
+ "gv": 3,
+ "detalle": {
+  "nro_partido": "498",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 18 ",
+  "categoria": "SUB 18 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB18 AMISTAD",
+  "Cancha": "COM. DEP. CLUB TROUVILLE",
+  "Fecha_Inicio": "2026-11-04 22:10:00",
+  "Fecha_fin": "2026-11-04 22:10:00",
+  "Locatario": "TROUVILLE UNIVERSITARIO",
+  "goles_locatario": "1",
+  "puntos_locatario": "0",
+  "Visitante": "ACADEMIA FRM",
+  "goles_visitante": "3",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "65733",
+   "Nombre": "IGNACIO BERRUTTI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "61112",
+   "Nombre": "GUILLERMO BALDOVINO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "64954",
+   "Nombre": "ENZO LAUTARO DADOMO",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "59764",
+   "Nombre": "SANTIAGO IRIARTE",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "61490",
+   "Nombre": "IGNACIO RODRIGUEZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "59195",
+   "Nombre": "AGUSTIN CERUELO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "68285",
+   "Nombre": "IGNACIO FONTES",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "63830",
+   "Nombre": "GERMAN VEGA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "66441",
+   "Nombre": "EZEQUIEL ADRIAN GOMEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "64698",
+   "Nombre": "LORENZO GALEANO",
+   "camiseta": "9",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "61628",
+   "Nombre": "TOMAS VAZQUEZ",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "61085",
+   "Nombre": "FABRIZIO PERRONE",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "65657",
+   "Nombre": "MATIAS OXANDABARAT",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "62963",
+   "Nombre": "VALENTIN MANUEL RODRIGUEZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "61372",
+   "Nombre": "BRYAN ALEXANDER BAGNASCO",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "68595",
+   "Nombre": "LAUTARO MARTINEZ",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "64806",
+   "Nombre": "JOAQUIN NAHUEL AQUINO",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "60306",
+   "Nombre": "BRUNO ANTONIO TORRES",
+   "camiseta": "8",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "65530",
+   "Nombre": "JUAN PABLO ORREGO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "62765",
+   "Nombre": "BENJAMIN DELGADO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "61729",
+   "Nombre": "ALFONSO CAMPOS",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "68601",
+   "Nombre": "LUCIANO ANTONIO SILVERA",
+   "camiseta": "54",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "61490",
+   "Jug_Sale": "IGNACIO RODRIGUEZ",
+   "CarneEntra": "66224",
+   "Jug_Entra": "BENJAMIN JORGE ROCHA",
+   "camiseta": "15",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "63830",
+   "Jug_Sale": "GERMAN VEGA",
+   "CarneEntra": "64690",
+   "Jug_Entra": "ANTONY URIEL FERNANDEZ",
+   "camiseta": "13",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "59764",
+   "Jug_Sale": "SANTIAGO IRIARTE",
+   "CarneEntra": "68575",
+   "Jug_Entra": "MANUEL GUGIATO",
+   "camiseta": "4",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68575",
+   "Jug_Sale": "MANUEL GUGIATO",
+   "CarneEntra": "68283",
+   "Jug_Entra": "JULIAN CHARLO",
+   "camiseta": "19",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "59195",
+   "Jug_Sale": "AGUSTIN CERUELO",
+   "CarneEntra": "63830",
+   "Jug_Entra": "GERMAN VEGA",
+   "camiseta": "8",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68285",
+   "Jug_Sale": "IGNACIO FONTES",
+   "CarneEntra": "59294",
+   "Jug_Entra": "THIAGO COITIÑO",
+   "camiseta": "17",
+   "minutos": "75"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "61372",
+   "Jug_Sale": "BRYAN ALEXANDER BAGNASCO",
+   "CarneEntra": "64940",
+   "Jug_Entra": "FACUNDO EMANUEL PEGORRARO",
+   "camiseta": "23",
+   "minutos": "23"
+  },
+  {
+   "CarneSale": "61372",
+   "Jug_Sale": "BRYAN ALEXANDER BAGNASCO",
+   "CarneEntra": "68596",
+   "Jug_Entra": "MARCOS BRIAN",
+   "camiseta": "24",
+   "minutos": "23"
+  },
+  {
+   "CarneSale": "61729",
+   "Jug_Sale": "ALFONSO CAMPOS",
+   "CarneEntra": "69017",
+   "Jug_Entra": "FEDERICO ROBERTO RECOBA",
+   "camiseta": "49",
+   "minutos": "22"
+  },
+  {
+   "CarneSale": "65657",
+   "Jug_Sale": "MATIAS OXANDABARAT",
+   "CarneEntra": "68122",
+   "Jug_Entra": "MARKO SANTINO MARTINEZ",
+   "camiseta": "7",
+   "minutos": "41"
+  },
+  {
+   "CarneSale": "62963",
+   "Jug_Sale": "VALENTIN MANUEL RODRIGUEZ",
+   "CarneEntra": "68602",
+   "Jug_Entra": "NATHAN JOAQUIN HERNANDEZ",
+   "camiseta": "26",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68601",
+   "Jug_Sale": "LUCIANO ANTONIO SILVERA",
+   "CarneEntra": "68127",
+   "Jug_Entra": "ALEJO EZEQUIEL LEFKO",
+   "camiseta": "22",
+   "minutos": "45"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "66441",
+   "Nombre": "EZEQUIEL ADRIAN GOMEZ",
+   "minutos": "30",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "61372",
+   "Nombre": "BRYAN ALEXANDER BAGNASCO",
+   "minutos": "60",
+   "EnContra": "1"
+  },
+  {
+   "carne": "68595",
+   "Nombre": "LAUTARO MARTINEZ",
+   "minutos": "20",
+   "EnContra": "1"
+  },
+  {
+   "carne": "68596",
+   "Nombre": "MARCOS BRIAN",
+   "minutos": "70",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}
