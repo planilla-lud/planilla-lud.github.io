@@ -1,7 +1,6 @@
 {
-  "rewrites": [
-    { "source": "/", "destination": "/prueba/index.html" },
-    { "source": "/index.html", "destination": "/prueba/index.html" },
-    { "source": "/privacidad.html", "destination": "/prueba/privacidad.html" }
+  "routes": [
+    { "src": "/(index\\.html)?", "dest": "/prueba/index.html" },
+    { "src": "/privacidad\\.html", "dest": "/prueba/privacidad.html" }
   ]
 }
