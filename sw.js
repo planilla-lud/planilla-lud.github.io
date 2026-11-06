@@ -18,6 +18,8 @@ self.addEventListener('fetch', e => {
   if (FUENTES.test(r.url)) { e.respondWith(primeroLoGuardado(r)); return; }
   const u = new URL(r.url);
   if (u.origin !== location.origin) return;
+  // La página se fija si hay una versión nueva: eso va directo a la red, sin lo guardado.
+  if (u.searchParams.has('chequeo')) return;
   // Sin el ?v=... que cambia cada 10 minutos: una sola copia por archivo.
   e.respondWith(primeroLaRed(r, u.origin + u.pathname));
 });

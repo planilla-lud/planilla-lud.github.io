@@ -365,6 +365,8 @@ input.search:focus{outline:2px solid var(--accent);outline-offset:-1px}
 .share:hover{border-color:var(--fg);text-decoration:none}
 .share svg{width:16px;height:16px}
 .share.solo{width:34px;padding:0;justify-content:center}
+.nueva-ver{position:fixed;left:50%;top:calc(env(safe-area-inset-top,0px) + 10px);transform:translateX(-50%);z-index:60;display:flex;align-items:center;gap:12px;background:var(--fg);color:var(--surface);padding:10px 10px 10px 16px;border-radius:var(--r-sm);font-size:.92rem;font-weight:600;box-shadow:var(--shadow-pop);white-space:nowrap}
+.nueva-ver button{all:unset;cursor:pointer;background:var(--surface);color:var(--fg);padding:7px 12px;border-radius:8px;font-weight:700}
 .toast{position:fixed;left:50%;bottom:calc(var(--bottom-h) + 14px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--fg);color:var(--surface);padding:11px 16px;border-radius:var(--r-sm);font-size:.92rem;font-weight:600;z-index:40;box-shadow:var(--shadow-pop);animation:subir .2s ease-out;max-width:calc(100vw - 32px)}
 @media (min-width:900px){.toast{bottom:24px}}
 .tag{display:inline-block;font-size:.72rem;font-weight:600;line-height:1.3;padding:1px 6px;border-radius:var(--r-xs);background:var(--surface-2);color:var(--muted);border:1px solid var(--line);margin-left:4px;vertical-align:1px;white-space:nowrap}
@@ -2302,6 +2304,33 @@ function pintarSinRed() {
 addEventListener('online', pintarSinRed);
 addEventListener('offline', pintarSinRed);
 if ('serviceWorker' in navigator && window.isSecureContext) addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));
+// Versión nueva publicada: si la página quedó abierta (app en segundo plano) o salió de lo guardado sin
+// señal, se compara el código de esta página con el publicado y, si cambió, se ofrece actualizar.
+const codigoDe = doc => [...doc.querySelectorAll('script:not([src])')].map(x => x.textContent).join('').length + '|' + [...doc.querySelectorAll('script:not([src])')].map(x => x.textContent).join('').slice(-400);
+const MI_CODIGO = codigoDe(document);
+let chequeando = false, oculta = 0;
+async function chequearVersion() {
+  if (chequeando || document.querySelector('.nueva-ver') || !navigator.onLine) return;
+  chequeando = true;
+  try {
+    const r = await fetch(location.pathname + '?chequeo=' + Date.now(), { cache: 'no-store' });
+    if (!r.ok) return;
+    const nuevo = codigoDe(new DOMParser().parseFromString(await r.text(), 'text/html'));
+    if (nuevo === MI_CODIGO) return;
+    const e = document.createElement('div');
+    e.className = 'nueva-ver';
+    e.innerHTML = '<span>Hay una versión nueva</span><button type="button">Actualizar</button>';
+    e.querySelector('button').onclick = () => location.reload();
+    document.body.append(e);
+  } catch {} finally { chequeando = false; }
+}
+if (location.protocol.startsWith('http')) {
+  addEventListener('load', () => setTimeout(chequearVersion, 5000));
+  document.addEventListener('visibilitychange', () => {
+    if (document.hidden) oculta = Date.now();
+    else if (oculta && Date.now() - oculta > 60e3) chequearVersion();
+  });
+}
 
 // El botón del chat: chico mientras se baja (no tapa), con el texto al subir o arriba de todo.
 let scrollAntes = 0;
