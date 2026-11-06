@@ -8,17 +8,17 @@
  },
  {
   "serie": "20BTA",
-  "fechaHora": "2026-11-07 15:30:00",
-  "cancha": "CAMPO DEP. INSTITUTO CRANDON",
-  "local": "CRANDON UNIVERSITARIO",
-  "visitante": "URUNDAY UNIVERSITARIO"
+  "fechaHora": "2026-11-07 14:00:00",
+  "cancha": "CARRASCO POLO",
+  "local": "CARRASCO POLO CLUB",
+  "visitante": "OLD IVY"
  },
  {
   "serie": "20BTA",
   "fechaHora": "2026-11-07 15:30:00",
-  "cancha": "CARRASCO POLO",
-  "local": "CARRASCO POLO CLUB",
-  "visitante": "OLD IVY"
+  "cancha": "CAMPO DEP. INSTITUTO CRANDON",
+  "local": "CRANDON UNIVERSITARIO",
+  "visitante": "URUNDAY UNIVERSITARIO"
  },
  {
   "serie": "20BTA",
@@ -33,13 +33,6 @@
   "cancha": "CIUDAD DEPORTIVA LS",
   "local": "DEPORTIVO LS UNIVERSITARIO",
   "visitante": "COLEGIO SANTA ELENA"
- },
- {
-  "serie": "20BPD",
-  "fechaHora": "2026-11-07 15:30:00",
-  "cancha": "COM. DEP. CLUB TROUVILLE",
-  "local": "TROUVILLE UNIVERSITARIO",
-  "visitante": "SAN AGUSTIN"
  },
  {
   "serie": "20BPD",

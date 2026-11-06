@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"C\" TIT. y ASC.",
   "Cancha": "COMPLEJO NORTHFIELD",
-  "Fecha_Inicio": "2026-11-04 22:30:00",
-  "Fecha_fin": "2026-11-04 22:30:00",
+  "Fecha_Inicio": "2026-11-04 23:10:00",
+  "Fecha_fin": "2026-11-04 23:10:00",
   "Locatario": "SAN EUGENIO",
   "goles_locatario": "1",
   "puntos_locatario": "3",
@@ -29,11 +29,234 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "61746",
+   "Nombre": "SANTIAGO BRAZEIRO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "61743",
+   "Nombre": "KAWE ALAMON",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "37566",
+   "Nombre": "FELIPE CARBALLO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "53079",
+   "Nombre": "TOMAS FRANCISCO DE LOS SANTOS",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "64443",
+   "Nombre": "ENZO JESUS RODRIGUEZ",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "53118",
+   "Nombre": "ALVARO MARTIN PINTOS",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "68963",
+   "Nombre": "FACUNDO NICOLAS MORALES",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "59342",
+   "Nombre": "MATIAS MARTINS",
+   "camiseta": "80",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "49859",
+   "Nombre": "ALFREDO SUAREZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "59846",
+   "Nombre": "QUEVIN MACHADO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "62046",
+   "Nombre": "MAURICIO LAPORTE",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "41722",
+   "Nombre": "NICOLAS FREYER",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "43242",
+   "Nombre": "FRANCO PASARISA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "45411",
+   "Nombre": "MAXIMILIANO PARODI",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "52276",
+   "Nombre": "SANTIAGO CARAVIA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "56280",
+   "Nombre": "SEBASTIAN MACHIN",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "48949",
+   "Nombre": "IGNACIO JOSE PALLAS",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "43672",
+   "Nombre": "ALEJO CORRADI",
+   "camiseta": "11",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "40768",
+   "Nombre": "GERMAN PAZOS",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "42786",
+   "Nombre": "MATEO CORRADI",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "47572",
+   "Nombre": "FACUNDO MACRI",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "46858",
+   "Nombre": "SANTIAGO RODRIGUEZ",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "64443",
+   "Jug_Sale": "ENZO JESUS RODRIGUEZ",
+   "CarneEntra": "63708",
+   "Jug_Entra": "ANTHONY YAEL BRITOS",
+   "camiseta": "69",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "49859",
+   "Jug_Sale": "ALFREDO SUAREZ",
+   "CarneEntra": "49973",
+   "Jug_Entra": "ELIAS DANIEL PIEGAS",
+   "camiseta": "6",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "62046",
+   "Jug_Sale": "MAURICIO LAPORTE",
+   "CarneEntra": "62047",
+   "Jug_Entra": "RAMIRO SALVADOR",
+   "camiseta": "10",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "61743",
+   "Jug_Sale": "KAWE ALAMON",
+   "CarneEntra": "62993",
+   "Jug_Entra": "JUAN CARLOS MEDINA",
+   "camiseta": "34",
+   "minutos": "84"
+  },
+  {
+   "CarneSale": "59342",
+   "Jug_Sale": "MATIAS MARTINS",
+   "CarneEntra": "62696",
+   "Jug_Entra": "MATEO NAHUEL COSTA",
+   "camiseta": "11",
+   "minutos": "90"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "52276",
+   "Jug_Sale": "SANTIAGO CARAVIA",
+   "CarneEntra": "49456",
+   "Jug_Entra": "IGNACIO ANTONIO CARNEIRO",
+   "camiseta": "13",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "47572",
+   "Jug_Sale": "FACUNDO MACRI",
+   "CarneEntra": "44457",
+   "Jug_Entra": "BRUNO GIORDANO",
+   "camiseta": "7",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "40768",
+   "Jug_Sale": "GERMAN PAZOS",
+   "CarneEntra": "42784",
+   "Jug_Entra": "JOSE NICOLAS ROSA",
+   "camiseta": "17",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "42786",
+   "Jug_Sale": "MATEO CORRADI",
+   "CarneEntra": "49458",
+   "Jug_Entra": "GUZMAN RODRIGUEZ",
+   "camiseta": "26",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "44457",
+   "Jug_Sale": "BRUNO GIORDANO",
+   "CarneEntra": "47483",
+   "Jug_Entra": "EMMANUEL KAKLOUK",
+   "camiseta": "28",
+   "minutos": "79"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "59846",
+   "Nombre": "QUEVIN MACHADO",
+   "minutos": "95",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

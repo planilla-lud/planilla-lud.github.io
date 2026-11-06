@@ -2,6 +2,13 @@
  {
   "serie": "RSCTA",
   "fechaHora": "2026-11-07 09:00:00",
+  "cancha": "MONTE VI \"LOS CEIBOS\"",
+  "local": "CEIBOS CLUB VERDE",
+  "visitante": "SAN PABLO UNIVERSITARIO"
+ },
+ {
+  "serie": "RSCTA",
+  "fechaHora": "2026-11-07 09:00:00",
   "cancha": "COLEGIO PIO",
   "local": "DANUBIO FUTBOL CLUB",
   "visitante": "CENTRO CRISTOBAL COLON"
@@ -12,13 +19,6 @@
   "cancha": "CAMPO DEP. COLEGIO INGLES",
   "local": "COLEGIO Y LICEO INGLES",
   "visitante": "LA BLANQUEADA"
- },
- {
-  "serie": "RSCTA",
-  "fechaHora": "2026-11-07 11:15:00",
-  "cancha": "MONTE VI \"LOS CEIBOS\"",
-  "local": "CEIBOS CLUB VERDE",
-  "visitante": "SAN PABLO UNIVERSITARIO"
  },
  {
   "serie": "RSCTA",

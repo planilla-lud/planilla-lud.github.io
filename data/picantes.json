@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-06T03:42:18.244Z",
+ "actualizado": "2026-11-06T17:58:07.679Z",
  "partidos": [
   {
    "div": "mayores-a",
@@ -25,7 +25,7 @@
    "l": "Ceibos Club",
    "v": "Obc Azulgrana.",
    "dia": "2026-11-07",
-   "hora": "09:00",
+   "hora": "11:15",
    "etapa": "Permanencia",
    "pl": 7,
    "pv": 8,
@@ -119,40 +119,6 @@
    "tipo": "descenso",
    "altasL": 2,
    "altasV": 1
-  },
-  {
-   "div": "mayores-b",
-   "divNombre": "Mayores B",
-   "k": "Elbio Fernandez~J.M.L.M",
-   "l": "Elbio Fernandez",
-   "v": "J.M.L.M",
-   "dia": "2026-11-08",
-   "hora": "11:15",
-   "etapa": "Título y ascenso",
-   "pl": 1,
-   "pv": 4,
-   "n": 8,
-   "base": 0,
-   "tipo": "titulo",
-   "altasL": 2,
-   "altasV": 0
-  },
-  {
-   "div": "mayores-b",
-   "divNombre": "Mayores B",
-   "k": "San Isidro Lomas Universitario~Náutico",
-   "l": "San Isidro Lomas Universitario",
-   "v": "Náutico",
-   "dia": "2026-11-08",
-   "hora": "11:15",
-   "etapa": "Título y ascenso",
-   "pl": 2,
-   "pv": 3,
-   "n": 8,
-   "base": 0,
-   "tipo": "titulo",
-   "altasL": 3,
-   "altasV": 0
   },
   {
    "div": "sub20-b",
@@ -255,6 +221,23 @@
    "tipo": "descenso",
    "altasL": 0,
    "altasV": 1
+  },
+  {
+   "div": "mayores-b",
+   "divNombre": "Mayores B",
+   "k": "San Isidro Lomas Universitario~Náutico",
+   "l": "San Isidro Lomas Universitario",
+   "v": "Náutico",
+   "dia": "2026-11-08",
+   "hora": "11:15",
+   "etapa": "Título y ascenso",
+   "pl": 2,
+   "pv": 4,
+   "n": 8,
+   "base": 0,
+   "tipo": "titulo",
+   "altasL": 3,
+   "altasV": 0
   },
   {
    "div": "presenior-b",
@@ -510,6 +493,23 @@
    "tipo": "descenso",
    "altasL": 0,
    "altasV": 2
+  },
+  {
+   "div": "mayores-g",
+   "divNombre": "Mayores G",
+   "k": "Nuestra Señora De Lourdes~Familiar Universitario",
+   "l": "Nuestra Señora De Lourdes",
+   "v": "Familiar Universitario",
+   "dia": "2026-11-08",
+   "hora": "09:00",
+   "etapa": "Título y ascenso",
+   "pl": 1,
+   "pv": 2,
+   "n": 8,
+   "base": 0,
+   "tipo": "titulo",
+   "altasL": 1,
+   "altasV": 1
   }
  ]
 }
