@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"D\" TIT. y ASC.",
   "Cancha": "CIUDAD DEPORTIVA ZONA LAB",
-  "Fecha_Inicio": "2026-11-04 22:30:00",
-  "Fecha_fin": "2026-11-04 22:30:00",
+  "Fecha_Inicio": "2026-11-04 22:55:00",
+  "Fecha_fin": "2026-11-04 22:55:00",
   "Locatario": "YOUNG UNIVERSITARIO",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,263 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "67431",
+   "Nombre": "EMILIANO ACOSTA",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "66169",
+   "Nombre": "ALEJO ANDRES AIZPUN",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "52893",
+   "Nombre": "EZEQUIEL FRANCO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "69191",
+   "Nombre": "VALENTINO DORADOR",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "64245",
+   "Nombre": "THIAGO RUPPEL",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "66136",
+   "Nombre": "ALFONSO MEDINA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "69118",
+   "Nombre": "JUAN IGNACIO OLIVERA",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "64599",
+   "Nombre": "CRISTIANO MATIAS PIGNATA",
+   "camiseta": "24",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "60311",
+   "Nombre": "ROMAN JOSE SCREMINI",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "62225",
+   "Nombre": "FELIPE GONZALEZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "59693",
+   "Nombre": "TOMAS CONSTANTIN",
+   "camiseta": "26",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "56171",
+   "Nombre": "MARIANO DANIEL OTTONELLI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "57966",
+   "Nombre": "FRANCISCO LOURTET",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "52628",
+   "Nombre": "JOAQUIN NUÑEZ",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "52625",
+   "Nombre": "MATEO GONZALEZ",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "51804",
+   "Nombre": "JUAN IGNACIO LEIVA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "52634",
+   "Nombre": "JUAN IGNACIO QUINTANA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "52640",
+   "Nombre": "VALENTIN COLOMINAS",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "58083",
+   "Nombre": "IGNACIO FACUNDO RICOBALDI",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "61528",
+   "Nombre": "SANTIAGO DAMIAN PEREIRA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "52633",
+   "Nombre": "BENICIO BERTIN",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "53357",
+   "Nombre": "JUAN MANUEL TRUJILLO",
+   "camiseta": "21",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "62225",
+   "Jug_Sale": "FELIPE GONZALEZ",
+   "CarneEntra": "58823",
+   "Jug_Entra": "JUSTINO LAFLUF",
+   "camiseta": "23",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "60311",
+   "Jug_Sale": "ROMAN JOSE SCREMINI",
+   "CarneEntra": "67559",
+   "Jug_Entra": "BRUNO CAMPOPIANO",
+   "camiseta": "15",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "52893",
+   "Jug_Sale": "EZEQUIEL FRANCO",
+   "CarneEntra": "56157",
+   "Jug_Entra": "JEREMIAS SILVEIRA",
+   "camiseta": "17",
+   "minutos": "53"
+  },
+  {
+   "CarneSale": "64245",
+   "Jug_Sale": "THIAGO RUPPEL",
+   "CarneEntra": "29823",
+   "Jug_Entra": "JOVAN ANDRES KLARIC",
+   "camiseta": "99",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "67431",
+   "Jug_Sale": "EMILIANO ACOSTA",
+   "CarneEntra": "52353",
+   "Jug_Entra": "JUAN MARTIN TERRA",
+   "camiseta": "22",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "69191",
+   "Jug_Sale": "VALENTINO DORADOR",
+   "CarneEntra": "69117",
+   "Jug_Entra": "FRANCISCO MENENDEZ",
+   "camiseta": "8",
+   "minutos": "70"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "61528",
+   "Jug_Sale": "SANTIAGO DAMIAN PEREIRA",
+   "CarneEntra": "52632",
+   "Jug_Entra": "AGUSTIN FIRPO",
+   "camiseta": "10",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "52633",
+   "Jug_Sale": "BENICIO BERTIN",
+   "CarneEntra": "53418",
+   "Jug_Entra": "FACUNDO VARIO",
+   "camiseta": "7",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "53357",
+   "Jug_Sale": "JUAN MANUEL TRUJILLO",
+   "CarneEntra": "66514",
+   "Jug_Entra": "MARTIN DIAZ",
+   "camiseta": "11",
+   "minutos": "57"
+  }
+ ],
  "golesL": [],
- "golesV": [],
+ "golesV": [
+  {
+   "carne": "51804",
+   "Nombre": "JUAN IGNACIO LEIVA",
+   "minutos": "34",
+   "EnContra": "1"
+  },
+  {
+   "carne": "51804",
+   "Nombre": "JUAN IGNACIO LEIVA",
+   "minutos": "75",
+   "EnContra": "1"
+  },
+  {
+   "carne": "52625",
+   "Nombre": "MATEO GONZALEZ",
+   "minutos": "53",
+   "EnContra": "1"
+  },
+  {
+   "carne": "52633",
+   "Nombre": "BENICIO BERTIN",
+   "minutos": "57",
+   "EnContra": "1"
+  },
+  {
+   "carne": "52634",
+   "Nombre": "JUAN IGNACIO QUINTANA",
+   "minutos": "68",
+   "EnContra": "1"
+  },
+  {
+   "carne": "52640",
+   "Nombre": "VALENTIN COLOMINAS",
+   "minutos": "37",
+   "EnContra": "1"
+  },
+  {
+   "carne": "58083",
+   "Nombre": "IGNACIO FACUNDO RICOBALDI",
+   "minutos": "18",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

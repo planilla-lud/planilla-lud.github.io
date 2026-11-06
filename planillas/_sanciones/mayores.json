@@ -14937,6 +14937,19 @@
   "texto": "SANCIÓN GENERADA AUTOMÁTICAMENTE."
  },
  {
+  "tipo": "automatica",
+  "fecha": "2026-11-04",
+  "partido": "952",
+  "serie": "BPD",
+  "carne": "38087",
+  "nombre": "MARIANO CORTIZAS",
+  "club": "CLUB UNIVERSIDAD CATOLICA",
+  "sancion": "SANCIÓN AUTOMÁTICA",
+  "fechas": 1,
+  "detalle": "F:1 - UR:0",
+  "texto": "Sanción generada automáticamente por expulsión en el partido"
+ },
+ {
   "tipo": "fallo",
   "fecha": "2026-11-04",
   "partido": "940",
@@ -14946,7 +14959,7 @@
   "club": "SAN JUAN BAUTISTA",
   "sancion": "EXPULSIÓN",
   "fechas": 0,
-  "detalle": "F:0 - UR:0 - FC:2028-11-04",
+  "detalle": "F:0 - UR:0 - FC:2099-11-04",
   "texto": "Art. 33, 34, 63, 67, 71 (num. 2,4 y 7), 72 (num. 5 y 6,), 87 (num.2) , 98 del C.P."
  },
  {
@@ -15013,6 +15026,19 @@
   "fechas": 1,
   "detalle": "F:1 - UR:1",
   "texto": "Art. 151 del C.P"
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-11-05",
+  "partido": "860",
+  "serie": "AT",
+  "carne": "44449",
+  "nombre": "MARTIN PIANGELUA",
+  "club": "CARRASCO POLO CLUB",
+  "sancion": "SUSPENDIDO",
+  "fechas": 4,
+  "detalle": "F:4 - UR:0",
+  "texto": "Art. 148 del C.P. Que cumpla en todas las categorías de la disciplina deportiva."
  },
  {
   "tipo": "fallo",

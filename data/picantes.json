@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-05T18:44:51.915Z",
+ "actualizado": "2026-11-06T00:08:45.533Z",
  "partidos": [
   {
    "div": "mayores-a",
@@ -59,7 +59,7 @@
    "l": "Juan XXIII",
    "v": "Carrasco Lawn Tennis",
    "dia": "2026-11-08",
-   "hora": "09:00",
+   "hora": "11:15",
    "etapa": "Permanencia",
    "pl": 8,
    "pv": 6,
@@ -84,7 +84,7 @@
    "base": 8,
    "tipo": "descenso",
    "altasL": 1,
-   "altasV": 4
+   "altasV": 5
   },
   {
    "div": "sub20-a",
@@ -100,7 +100,7 @@
    "n": 8,
    "base": 0,
    "tipo": "titulo",
-   "altasL": 1,
+   "altasL": 0,
    "altasV": 1
   },
   {
@@ -144,7 +144,7 @@
    "l": "Tacuarembo Universitario",
    "v": "Matecha",
    "dia": "2026-11-07",
-   "hora": "09:00",
+   "hora": "11:15",
    "etapa": "Permanencia",
    "pl": 6,
    "pv": 8,
@@ -339,7 +339,7 @@
    "base": 8,
    "tipo": "descenso",
    "altasL": 1,
-   "altasV": 0
+   "altasV": 1
   },
   {
    "div": "mas40-a",
@@ -365,7 +365,7 @@
    "l": "Independiente",
    "v": "Centro Cristobal Colon",
    "dia": "2026-11-08",
-   "hora": "11:15",
+   "hora": "09:00",
    "etapa": "Permanencia",
    "pl": 5,
    "pv": 6,
@@ -501,7 +501,7 @@
    "l": "Tacuarembo Universitario",
    "v": "San Eugenio",
    "dia": "2026-11-07",
-   "hora": "11:15",
+   "hora": "09:00",
    "etapa": "Permanencia",
    "pl": 6,
    "pv": 7,

@@ -30,6 +30,13 @@
  {
   "serie": "PSCPD",
   "fechaHora": "2026-11-07 09:00:00",
+  "cancha": "COMPLEJO LOS ROJOS",
+  "local": "TACUAREMBO UNIVERSITARIO",
+  "visitante": "SAN EUGENIO"
+ },
+ {
+  "serie": "PSCPD",
+  "fechaHora": "2026-11-07 09:00:00",
   "cancha": "COMPLEJO DEPORTIVO H3O",
   "local": "CLARA JACKSON UNIVERSITARIO",
   "visitante": "FLORES UNIVERSITARIO"
@@ -37,7 +44,7 @@
  {
   "serie": "PSCPD",
   "fechaHora": "2026-11-07 11:15:00",
-  "cancha": "SAN ISIDRO LOMAS",
+  "cancha": "PQUE. ELLIS - COL. SAN ISIDRO",
   "local": "SAN ISIDRO LOMAS UNIVERSITARIO",
   "visitante": "ARQUITECTURA JRS."
  },
@@ -47,13 +54,6 @@
   "cancha": "COMPLEJO DEPORTIVO ARRAYANES",
   "local": "DEPORTIVO MITRE",
   "visitante": "CLUB ESTUDIANTES INGENIERIA"
- },
- {
-  "serie": "PSCPD",
-  "fechaHora": "2026-11-07 11:15:00",
-  "cancha": "COMPLEJO LOS ROJOS",
-  "local": "TACUAREMBO UNIVERSITARIO",
-  "visitante": "SAN EUGENIO"
  },
  {
   "serie": "PSCTA",

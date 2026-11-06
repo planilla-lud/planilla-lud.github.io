@@ -4493,8 +4493,8 @@
   "nombre": "FRANCO EMANUEL NUÑEZ",
   "club": "E.L.F.",
   "sancion": "SANCIÓN AUTOMÁTICA",
-  "fechas": 1,
-  "detalle": "F:1 - UR:0",
+  "fechas": 0,
+  "detalle": "F:0 - UR:0",
   "texto": "Sanción generada automáticamente por expulsión en el partido"
  },
  {
@@ -4506,8 +4506,8 @@
   "nombre": "GUILERMO DIEGO POMI",
   "club": "ANGLO SCHOOL UNIVERSITARIO",
   "sancion": "SANCIÓN AUTOMÁTICA",
-  "fechas": 1,
-  "detalle": "F:1 - UR:0",
+  "fechas": 0,
+  "detalle": "F:0 - UR:0",
   "texto": "Sanción generada automáticamente por expulsión en el partido"
  },
  {
@@ -4532,8 +4532,8 @@
   "nombre": "JOAQUIN SILVANO FLORES",
   "club": "HEBRAICA UNIVERSITARIO",
   "sancion": "SANCIÓN AUTOMÁTICA",
-  "fechas": 1,
-  "detalle": "F:1 - UR:0",
+  "fechas": 0,
+  "detalle": "F:0 - UR:0",
   "texto": "Sanción generada automáticamente por expulsión en el partido"
  },
  {
@@ -4558,8 +4558,8 @@
   "nombre": "FRANCESCO GIOVANELLI",
   "club": "SAN PABLO UNIVERSITARIO",
   "sancion": "SANCIÓN AUTOMÁTICA",
-  "fechas": 1,
-  "detalle": "F:1 - UR:0",
+  "fechas": 0,
+  "detalle": "F:0 - UR:0",
   "texto": "Sanción generada automáticamente por expulsión en el partido"
  },
  {
@@ -4584,8 +4584,8 @@
   "nombre": "LAUTARO EZEQUIEL VELAZQUEZ",
   "club": "PERRY SEXTA UNIVERSITARIO",
   "sancion": "SANCIÓN AUTOMÁTICA",
-  "fechas": 1,
-  "detalle": "F:1 - UR:0",
+  "fechas": 0,
+  "detalle": "F:0 - UR:0",
   "texto": "Sanción generada automáticamente por expulsión en el partido"
  },
  {
@@ -4597,8 +4597,8 @@
   "nombre": "RENZO SANTIAGO CANZANI",
   "club": "LA BLANQUEADA",
   "sancion": "SANCIÓN AUTOMÁTICA",
-  "fechas": 1,
-  "detalle": "F:1 - UR:0",
+  "fechas": 0,
+  "detalle": "F:0 - UR:0",
   "texto": "Sanción generada automáticamente por expulsión en el partido"
  },
  {
@@ -4623,8 +4623,8 @@
   "nombre": "LUCAS CIMIRRO",
   "club": "LA BLANQUEADA",
   "sancion": "SANCIÓN AUTOMÁTICA",
-  "fechas": 1,
-  "detalle": "F:1 - UR:0",
+  "fechas": 0,
+  "detalle": "F:0 - UR:0",
   "texto": "Sanción generada automáticamente por expulsión en el partido"
  },
  {
@@ -4643,19 +4643,6 @@
  {
   "tipo": "fallo",
   "fecha": "2026-10-29",
-  "partido": "351",
-  "serie": "18O",
-  "carne": "48286",
-  "nombre": "FRANCISCO AMEIGENDA",
-  "club": "CLUB SEMINARIO",
-  "sancion": "SUSP.PREVENTIVA",
-  "fechas": 0,
-  "detalle": "F:0 - UR:0 - FC:2026-11-19",
-  "texto": "Inhabilitación por medida cautelar"
- },
- {
-  "tipo": "fallo",
-  "fecha": "2026-10-29",
   "partido": "346",
   "serie": "18O",
   "carne": "57682",
@@ -4665,19 +4652,6 @@
   "fechas": 1,
   "detalle": "F:1 - UR:1",
   "texto": "Art. 147 del C.P"
- },
- {
-  "tipo": "fallo",
-  "fecha": "2026-10-29",
-  "partido": "351",
-  "serie": "18O",
-  "carne": "59053",
-  "nombre": "EZEQUIEL SILVERA",
-  "club": "MARISTAS DEPORTIVO",
-  "sancion": "SUSP.PREVENTIVA",
-  "fechas": 0,
-  "detalle": "F:0 - UR:0 - FC:2026-11-19",
-  "texto": "Inhabilitación por medida cautelar"
  },
  {
   "tipo": "fallo",
@@ -4951,5 +4925,161 @@
   "fechas": 1,
   "detalle": "F:1 - UR:0",
   "texto": "Sanción generada automáticamente por expulsión en el partido"
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-11-05",
+  "partido": "351",
+  "serie": "18O",
+  "carne": "48286",
+  "nombre": "FRANCISCO AMEIGENDA",
+  "club": "CLUB SEMINARIO",
+  "sancion": "SUSPENDIDO",
+  "fechas": 1,
+  "detalle": "F:1 - UR:0",
+  "texto": "Art. 146 del C.P"
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-11-05",
+  "partido": "352",
+  "serie": "18O",
+  "carne": "57612",
+  "nombre": "TOMAS ANTUÑA",
+  "club": "CARRASCO LAWN TENNIS",
+  "sancion": "SUSPENDIDO",
+  "fechas": 1,
+  "detalle": "F:1 - UR:1",
+  "texto": "Art. 147 del C.P"
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-11-05",
+  "partido": "406",
+  "serie": "18B",
+  "carne": "58855",
+  "nombre": "JOAQUIN MARTINEZ",
+  "club": "ALEMAN UNIVERSITARIO",
+  "sancion": "SUSPENDIDO",
+  "fechas": 2,
+  "detalle": "F:2 - UR:0",
+  "texto": "Art. 147 del C.P"
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-11-05",
+  "partido": "351",
+  "serie": "18O",
+  "carne": "59053",
+  "nombre": "EZEQUIEL SILVERA",
+  "club": "MARISTAS DEPORTIVO",
+  "sancion": "SUSPENDIDO",
+  "fechas": 5,
+  "detalle": "F:5 - UR:0",
+  "texto": "Art. 150 del C.P"
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-11-05",
+  "partido": "379",
+  "serie": "18P",
+  "carne": "59812",
+  "nombre": "FRANCO EMANUEL NUÑEZ",
+  "club": "E.L.F.",
+  "sancion": "SUSPENDIDO",
+  "fechas": 2,
+  "detalle": "F:2 - UR:2",
+  "texto": "Art. 132 del C.P"
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-11-05",
+  "partido": "436",
+  "serie": "18C",
+  "carne": "62567",
+  "nombre": "SANTINO MONTES DE OCA",
+  "club": "UNIVERSITARIO VERONES",
+  "sancion": "SUSPENDIDO",
+  "fechas": 1,
+  "detalle": "F:1 - UR:0",
+  "texto": "Art. 151 del C.P"
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-11-05",
+  "partido": "462",
+  "serie": "18F",
+  "carne": "62961",
+  "nombre": "JOAQUIN SILVANO FLORES",
+  "club": "HEBRAICA UNIVERSITARIO",
+  "sancion": "SUSPENDIDO",
+  "fechas": 3,
+  "detalle": "F:3 - UR:3",
+  "texto": "Art. 132 del C.P"
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-11-05",
+  "partido": "407",
+  "serie": "18B",
+  "carne": "64482",
+  "nombre": "FRANCESCO GIOVANELLI",
+  "club": "SAN PABLO UNIVERSITARIO",
+  "sancion": "SUSPENDIDO",
+  "fechas": 2,
+  "detalle": "F:2 - UR:2",
+  "texto": "Art. 132 del C.P"
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-11-05",
+  "partido": "492",
+  "serie": "18A",
+  "carne": "66906",
+  "nombre": "RENZO SANTIAGO CANZANI",
+  "club": "LA BLANQUEADA",
+  "sancion": "SUSPENDIDO",
+  "fechas": 3,
+  "detalle": "F:3 - UR:3",
+  "texto": "Art. 148 del C.P"
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-11-05",
+  "partido": "492",
+  "serie": "18A",
+  "carne": "67174",
+  "nombre": "MARTIN TIAGO LIMA",
+  "club": "NUMA TURCATTI",
+  "sancion": "SUSPENDIDO",
+  "fechas": 2,
+  "detalle": "F:2 - UR:2",
+  "texto": "Art. 147 del C.P"
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-11-05",
+  "partido": "492",
+  "serie": "18A",
+  "carne": "67428",
+  "nombre": "LUCAS CIMIRRO",
+  "club": "LA BLANQUEADA",
+  "sancion": "SUSPENDIDO",
+  "fechas": 1,
+  "detalle": "F:1 - UR:1",
+  "texto": "Art. 147 del C.P"
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-11-05",
+  "partido": "494",
+  "serie": "18A",
+  "carne": "69205",
+  "nombre": "THIAGO SANTO",
+  "club": "ACADEMIA FRM",
+  "sancion": "SUSPENDIDO",
+  "fechas": 3,
+  "detalle": "F:3 - UR:3",
+  "texto": "Art. 148 del C.P"
  }
 ]

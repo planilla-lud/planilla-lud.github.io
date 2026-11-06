@@ -7,6 +7,13 @@
   "visitante": "CEIBOS CLUB"
  },
  {
+  "serie": "BPD",
+  "fechaHora": "2026-11-08 09:00:00",
+  "cancha": "COMPLEJO INDEPENDIENTE UNIV.",
+  "local": "INDEPENDIENTE",
+  "visitante": "CENTRO CRISTOBAL COLON"
+ },
+ {
   "serie": "BTA",
   "fechaHora": "2026-11-08 11:15:00",
   "cancha": "SAN ISIDRO LOMAS",
@@ -19,13 +26,6 @@
   "cancha": "ELBIO FERNANDEZ",
   "local": "ELBIO FERNANDEZ",
   "visitante": "J.M.L.M"
- },
- {
-  "serie": "BPD",
-  "fechaHora": "2026-11-08 11:15:00",
-  "cancha": "COMPLEJO INDEPENDIENTE UNIV.",
-  "local": "INDEPENDIENTE",
-  "visitante": "CENTRO CRISTOBAL COLON"
  },
  {
   "serie": "BPD",

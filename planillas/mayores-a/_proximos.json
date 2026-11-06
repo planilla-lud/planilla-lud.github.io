@@ -14,13 +14,6 @@
   "visitante": "E.L.F."
  },
  {
-  "serie": "APD",
-  "fechaHora": "2026-11-08 09:00:00",
-  "cancha": "COMPLEJO JUAN XXIII",
-  "local": "JUAN XXIII",
-  "visitante": "CARRASCO LAWN TENNIS"
- },
- {
   "serie": "AT",
   "fechaHora": "2026-11-08 11:15:00",
   "cancha": "TENIS EL PINAR",
@@ -54,5 +47,12 @@
   "cancha": "COMPLEJO DEPORTIVO ARRAYANES",
   "local": "SANTA ELENA LAGOMAR",
   "visitante": "CLUB SEMINARIO"
+ },
+ {
+  "serie": "APD",
+  "fechaHora": "2026-11-08 11:15:00",
+  "cancha": "COMPLEJO JUAN XXIII",
+  "local": "JUAN XXIII",
+  "visitante": "CARRASCO LAWN TENNIS"
  }
 ]

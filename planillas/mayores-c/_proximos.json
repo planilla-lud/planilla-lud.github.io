@@ -28,18 +28,18 @@
   "visitante": "DEFENSOR SPORTING"
  },
  {
-  "serie": "CPD",
-  "fechaHora": "2026-11-08 09:00:00",
-  "cancha": "COM. CLUB UNIVERSIDAD CATOLICA",
-  "local": "SAN PABLO UNIVERSITARIO",
-  "visitante": "ARQUITECTURA JRS."
- },
- {
   "serie": "CTA",
   "fechaHora": "2026-11-08 11:15:00",
   "cancha": "CAMPO DEP. INSTITUTO CRANDON",
   "local": "CRANDON UNIVERSITARIO",
   "visitante": "MATURANA UNIVERSITARIO"
+ },
+ {
+  "serie": "CPD",
+  "fechaHora": "2026-11-08 11:15:00",
+  "cancha": "COM. CLUB UNIVERSIDAD CATOLICA",
+  "local": "SAN PABLO UNIVERSITARIO",
+  "visitante": "ARQUITECTURA JRS."
  },
  {
   "serie": "CPD",

@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"B\" PERM. y DESC.",
   "Cancha": "COMPLEJO LOS CARDALES",
-  "Fecha_Inicio": "2026-11-04 22:30:00",
-  "Fecha_fin": "2026-11-04 22:30:00",
+  "Fecha_Inicio": "2026-11-04 22:50:00",
+  "Fecha_fin": "2026-11-04 22:50:00",
   "Locatario": "CLUB UNIVERSIDAD CATOLICA",
   "goles_locatario": "3",
   "puntos_locatario": "3",
@@ -29,12 +29,257 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "titularesL": [
+  {
+   "carne": "58893",
+   "Nombre": "LUCAS AGUSTIN RODRIGUEZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "54369",
+   "Nombre": "JONATHAN AGUSTÌN REY",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "34600",
+   "Nombre": "STEFANO VITTORIO CAMAROTE",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "39855",
+   "Nombre": "MARTIN CAMPOS",
+   "camiseta": "19",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "58413",
+   "Nombre": "GONZALO DUVOS",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "63597",
+   "Nombre": "SANTIAGO ECHEVERRIA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "38087",
+   "Nombre": "MARIANO CORTIZAS",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "34231",
+   "Nombre": "SEBASTIAN NICOLAS RODRIGUEZ",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "53606",
+   "Nombre": "GUILLERMO ANDRES REBOLLO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "33252",
+   "Nombre": "GASTON SANCHEZ",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "62289",
+   "Nombre": "JEREMIAS RUIZ DIAZ",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "35097",
+   "Nombre": "JUAN MANUEL CARRERO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "35549",
+   "Nombre": "NICOLAS ARTOLA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "46450",
+   "Nombre": "JUAN IGANCIO CASTRO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "59059",
+   "Nombre": "TOMAS MENDEZ",
+   "camiseta": "36",
+   "Capitan": ""
+  },
+  {
+   "carne": "33924",
+   "Nombre": "ISMAEL SILVA",
+   "camiseta": "2",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "41305",
+   "Nombre": "JOAQUIN JUAN VILLA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "47033",
+   "Nombre": "PAUL OURTHE CABALE",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "50659",
+   "Nombre": "IGNACIO TRONCOSO",
+   "camiseta": "47",
+   "Capitan": ""
+  },
+  {
+   "carne": "37662",
+   "Nombre": "FELIPE MARCOS CASAROTTI",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "35266",
+   "Nombre": "ALAIN ELISSALDE",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "62069",
+   "Nombre": "SANTIAGO SILVA",
+   "camiseta": "8",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "62289",
+   "Jug_Sale": "JEREMIAS RUIZ DIAZ",
+   "CarneEntra": "40253",
+   "Jug_Entra": "FACUNDO MARTINEZ",
+   "camiseta": "23",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "33252",
+   "Jug_Sale": "GASTON SANCHEZ",
+   "CarneEntra": "46926",
+   "Jug_Entra": "MATIAS ANDRES MUNIZ",
+   "camiseta": "7",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "58413",
+   "Jug_Sale": "GONZALO DUVOS",
+   "CarneEntra": "34367",
+   "Jug_Entra": "JUAN MARTIN LEMA",
+   "camiseta": "9",
+   "minutos": "88"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "47033",
+   "Jug_Sale": "PAUL OURTHE CABALE",
+   "CarneEntra": "62063",
+   "Jug_Entra": "RODRIGO RUBIO",
+   "camiseta": "10",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "37662",
+   "Jug_Sale": "FELIPE MARCOS CASAROTTI",
+   "CarneEntra": "50884",
+   "Jug_Entra": "SANTIAGO RUBIO",
+   "camiseta": "77",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "35549",
+   "Jug_Sale": "NICOLAS ARTOLA",
+   "CarneEntra": "60835",
+   "Jug_Entra": "SEBASTIAN DANILO BAZZINO",
+   "camiseta": "22",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "41305",
+   "Jug_Sale": "JOAQUIN JUAN VILLA",
+   "CarneEntra": "49110",
+   "Jug_Entra": "CAMILO BALIAN",
+   "camiseta": "33",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "62069",
+   "Jug_Sale": "SANTIAGO SILVA",
+   "CarneEntra": "51610",
+   "Jug_Entra": "PABLO VALDOMIR",
+   "camiseta": "99",
+   "minutos": "81"
+  },
+  {
+   "CarneSale": "33924",
+   "Jug_Sale": "ISMAEL SILVA",
+   "CarneEntra": "55254",
+   "Jug_Entra": "ANDRES GUILLERMO COITO",
+   "camiseta": "66",
+   "minutos": "83"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "33252",
+   "Nombre": "GASTON SANCHEZ",
+   "minutos": "32",
+   "EnContra": "0"
+  },
+  {
+   "carne": "33252",
+   "Nombre": "GASTON SANCHEZ",
+   "minutos": "39",
+   "EnContra": "0"
+  },
+  {
+   "carne": "62289",
+   "Nombre": "JEREMIAS RUIZ DIAZ",
+   "minutos": "17",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "35266",
+   "Nombre": "ALAIN ELISSALDE",
+   "minutos": "62",
+   "EnContra": "1"
+  },
+  {
+   "carne": "59059",
+   "Nombre": "TOMAS MENDEZ",
+   "minutos": "31",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "MARIANO CORTIZAS",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

@@ -1,0 +1,267 @@
+{
+ "id": "103668",
+ "categoria": "mas40-a",
+ "serie": "40CP",
+ "fecha": 5,
+ "fechaHora": "2026-11-04 22:00:00",
+ "cancha": "COMP. DEVOTO (NAUT. PICHINCHA)",
+ "local": "NAUTICO CARRASCO Y PUNTA GORDA",
+ "visitante": "X - 13 UNIVERSITARIO",
+ "gl": 3,
+ "gv": 0,
+ "detalle": {
+  "nro_partido": "447",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "MAS 40",
+  "categoria": "MÁS 40 MASCULINO",
+  "rueda": "2",
+  "Divisional": "MAS40 \"A\" PERM. y DESC.",
+  "Cancha": "COMP. DEVOTO (NAUT. PICHINCHA)",
+  "Fecha_Inicio": "2026-11-04 23:50:00",
+  "Fecha_fin": "2026-11-04 23:50:00",
+  "Locatario": "NAUTICO CARRASCO Y PUNTA GORDA",
+  "goles_locatario": "3",
+  "puntos_locatario": "3",
+  "Visitante": "X - 13 UNIVERSITARIO",
+  "goles_visitante": "0",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "19892",
+   "Nombre": "ULISES DANIEL VARELA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "42446",
+   "Nombre": "ALEJANDRO PERETTI",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "15649",
+   "Nombre": "DIEGO MONTADO",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "23788",
+   "Nombre": "NICOLAS JAVIER MORO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "19499",
+   "Nombre": "NICOLAS DANIEL MUNIZ",
+   "camiseta": "41",
+   "Capitan": ""
+  },
+  {
+   "carne": "17068",
+   "Nombre": "RAFAEL FEDERICO MORATO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "14737",
+   "Nombre": "JOSE MARIA GALLINAL",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "12928",
+   "Nombre": "JAVIER ANDRES LUSSICH",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "18239",
+   "Nombre": "CESAR ANDRES SANGUINETTI",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "18210",
+   "Nombre": "DIEGO RIVAS",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "35842",
+   "Nombre": "STEPHEN MCCARTHY",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "23492",
+   "Nombre": "SANTIAGO MATIAS ORTIZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "29678",
+   "Nombre": "OSCAR WILLIAM PEREYRA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "19072",
+   "Nombre": "NICOLAS MAXIMILIANO IVANOVICH",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "54450",
+   "Nombre": "BERNARDO GABRIEL BACCINO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "26156",
+   "Nombre": "PABLO IGNACIO COLL",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "39630",
+   "Nombre": "JAVIER ISAAC SCOTTI",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "18938",
+   "Nombre": "CARLOS FEDERICO GHIO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "67179",
+   "Nombre": "SEBASTIAN ALBERTO BALIÑO",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "16070",
+   "Nombre": "SIMON MATEO RODRIGUEZ",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "15215",
+   "Nombre": "DANIEL CHAVES",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "16526",
+   "Nombre": "GONZALO DANIEL RIQUERO",
+   "camiseta": "4",
+   "Capitan": "(C)"
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "35842",
+   "Jug_Sale": "STEPHEN MCCARTHY",
+   "CarneEntra": "15973",
+   "Jug_Entra": "JUAN AGUSTIN ORTIZ",
+   "camiseta": "26",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "18210",
+   "Jug_Sale": "DIEGO RIVAS",
+   "CarneEntra": "18909",
+   "Jug_Entra": "HECTOR DANIEL EROSA",
+   "camiseta": "24",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "12928",
+   "Jug_Sale": "JAVIER ANDRES LUSSICH",
+   "CarneEntra": "13973",
+   "Jug_Entra": "MARTIN FUENTES",
+   "camiseta": "19",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "14737",
+   "Jug_Sale": "JOSE MARIA GALLINAL",
+   "CarneEntra": "18911",
+   "Jug_Entra": "MARCELO ANDRES DREWS",
+   "camiseta": "7",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "18239",
+   "Jug_Sale": "CESAR ANDRES SANGUINETTI",
+   "CarneEntra": "17650",
+   "Jug_Entra": "NICOLAS GERMAN FERNANDEZ",
+   "camiseta": "20",
+   "minutos": "80"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "15215",
+   "Jug_Sale": "DANIEL CHAVES",
+   "CarneEntra": "26702",
+   "Jug_Entra": "JOSE LUIS LOMBARDO",
+   "camiseta": "81",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "16070",
+   "Jug_Sale": "SIMON MATEO RODRIGUEZ",
+   "CarneEntra": "22140",
+   "Jug_Entra": "HUMBERTO NICOLAS SALAZAR",
+   "camiseta": "84",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67179",
+   "Jug_Sale": "SEBASTIAN ALBERTO BALIÑO",
+   "CarneEntra": "54287",
+   "Jug_Entra": "JOAQUIN LOPEZ",
+   "camiseta": "19",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "18938",
+   "Jug_Sale": "CARLOS FEDERICO GHIO",
+   "CarneEntra": "21138",
+   "Jug_Entra": "MARCELO DANIEL MULLER",
+   "camiseta": "5",
+   "minutos": "65"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "12928",
+   "Nombre": "JAVIER ANDRES LUSSICH",
+   "minutos": "38",
+   "EnContra": "0"
+  },
+  {
+   "carne": "23788",
+   "Nombre": "NICOLAS JAVIER MORO",
+   "minutos": "12",
+   "EnContra": "0"
+  },
+  {
+   "carne": "35842",
+   "Nombre": "STEPHEN MCCARTHY",
+   "minutos": "3",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

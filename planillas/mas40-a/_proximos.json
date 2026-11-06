@@ -1,12 +1,5 @@
 [
  {
-  "serie": "40CP",
-  "fechaHora": "2026-11-04 22:00:00",
-  "cancha": "COMP. DEVOTO (NAUT. PICHINCHA)",
-  "local": "NAUTICO CARRASCO Y PUNTA GORDA",
-  "visitante": "X - 13 UNIVERSITARIO"
- },
- {
   "serie": "40CO",
   "fechaHora": "2026-11-07 09:00:00",
   "cancha": "COMPLEJO JUAN XXIII",
@@ -43,17 +36,17 @@
  },
  {
   "serie": "40CP",
-  "fechaHora": "2026-11-07 09:00:00",
-  "cancha": "COMPLEJO LOS ROJOS",
-  "local": "TACUAREMBO UNIVERSITARIO",
-  "visitante": "MATECHA"
- },
- {
-  "serie": "40CP",
   "fechaHora": "2026-11-07 11:15:00",
   "cancha": "COLEGIO PIO",
   "local": "X - 13 UNIVERSITARIO",
   "visitante": "HEBRAICA UNIVERSITARIO"
+ },
+ {
+  "serie": "40CP",
+  "fechaHora": "2026-11-07 11:15:00",
+  "cancha": "COMPLEJO LOS ROJOS",
+  "local": "TACUAREMBO UNIVERSITARIO",
+  "visitante": "MATECHA"
  },
  {
   "serie": "40CP",

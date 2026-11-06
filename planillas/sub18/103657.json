@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB18 AMISTAD",
   "Cancha": "COMPLEJO LOS NOGALES",
-  "Fecha_Inicio": "2026-11-04 20:30:00",
-  "Fecha_fin": "2026-11-04 20:30:00",
+  "Fecha_Inicio": "2026-11-04 21:00:00",
+  "Fecha_fin": "2026-11-04 21:00:00",
   "Locatario": "NACIONAL UNIVERSITARIO",
   "goles_locatario": "3",
   "puntos_locatario": "3",
@@ -29,11 +29,230 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "59057",
+   "Nombre": "LAUTARO ROMAN GALARRAGA",
+   "camiseta": "1",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "64368",
+   "Nombre": "MATHIAS JOAQUIN LOPEZ",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "69106",
+   "Nombre": "JUAN PABLO VIERA",
+   "camiseta": "37",
+   "Capitan": ""
+  },
+  {
+   "carne": "63621",
+   "Nombre": "RAUL ERNESTO GONZALEZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "64541",
+   "Nombre": "VALENTINO SANCHEZ",
+   "camiseta": "52",
+   "Capitan": ""
+  },
+  {
+   "carne": "68108",
+   "Nombre": "GAEL MARQUEZ",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "60545",
+   "Nombre": "TADEO ELIAS ORLANDO",
+   "camiseta": "47",
+   "Capitan": ""
+  },
+  {
+   "carne": "64528",
+   "Nombre": "SANTIAGO COPATTI",
+   "camiseta": "43",
+   "Capitan": ""
+  },
+  {
+   "carne": "68674",
+   "Nombre": "SANTIAGO VIERA",
+   "camiseta": "41",
+   "Capitan": ""
+  },
+  {
+   "carne": "68428",
+   "Nombre": "FRANCISCO VIDIELLA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "66333",
+   "Nombre": "EMILIANO SANCHEZ",
+   "camiseta": "59",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "64433",
+   "Nombre": "SANTIAGO LUCAS RODRIGUEZ",
+   "camiseta": "1",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "64512",
+   "Nombre": "LUCAS LLUIS",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "68008",
+   "Nombre": "LUCAS ANTONIO RUIZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "64437",
+   "Nombre": "MATEO NUÑEZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "64733",
+   "Nombre": "MATEO ALMADA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "66105",
+   "Nombre": "FELIPE CEBAS",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "64235",
+   "Nombre": "PEDRO RAMOS",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "62971",
+   "Nombre": "FACUNDO GABRIEL FRAGA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "60491",
+   "Nombre": "TOMAS LENZI",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "64421",
+   "Nombre": "FAUSTINO SALVO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "65996",
+   "Nombre": "MATEO EYHERALDE",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "64368",
+   "Jug_Sale": "MATHIAS JOAQUIN LOPEZ",
+   "CarneEntra": "62764",
+   "Jug_Entra": "PATRICIO TADEO LARROSA",
+   "camiseta": "26",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "60545",
+   "Jug_Sale": "TADEO ELIAS ORLANDO",
+   "CarneEntra": "64543",
+   "Jug_Entra": "SEBASTIAN RODRIGUEZ",
+   "camiseta": "51",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "68108",
+   "Jug_Sale": "GAEL MARQUEZ",
+   "CarneEntra": "60539",
+   "Jug_Entra": "MATEO EZEQUIEL RODRIGUEZ",
+   "camiseta": "50",
+   "minutos": "70"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "64512",
+   "Jug_Sale": "LUCAS LLUIS",
+   "CarneEntra": "57671",
+   "Jug_Entra": "VALENTINO SILVA",
+   "camiseta": "20",
+   "minutos": "30"
+  },
+  {
+   "CarneSale": "62971",
+   "Jug_Sale": "FACUNDO GABRIEL FRAGA",
+   "CarneEntra": "68237",
+   "Jug_Entra": "SANTIAGO LEONCINI",
+   "camiseta": "19",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "60491",
+   "Jug_Sale": "TOMAS LENZI",
+   "CarneEntra": "60763",
+   "Jug_Entra": "JUAN ALFONSO FREIRE",
+   "camiseta": "9",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68008",
+   "Jug_Sale": "LUCAS ANTONIO RUIZ",
+   "CarneEntra": "62971",
+   "Jug_Entra": "FACUNDO GABRIEL FRAGA",
+   "camiseta": "5",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "57671",
+   "Jug_Sale": "VALENTINO SILVA",
+   "CarneEntra": "60491",
+   "Jug_Entra": "TOMAS LENZI",
+   "camiseta": "13",
+   "minutos": "65"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "68428",
+   "Nombre": "FRANCISCO VIDIELLA",
+   "minutos": "14",
+   "EnContra": "0"
+  },
+  {
+   "carne": "68674",
+   "Nombre": "SANTIAGO VIERA",
+   "minutos": "24",
+   "EnContra": "0"
+  },
+  {
+   "carne": "68674",
+   "Nombre": "SANTIAGO VIERA",
+   "minutos": "51",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

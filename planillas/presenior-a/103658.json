@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"A\" PER. y DESC",
   "Cancha": "CAM. DEP. ASOC. HEBRAICA Y MAC",
-  "Fecha_Inicio": "2026-11-04 22:30:00",
-  "Fecha_fin": "2026-11-04 22:30:00",
+  "Fecha_Inicio": "2026-11-04 23:20:00",
+  "Fecha_fin": "2026-11-04 23:20:00",
   "Locatario": "HEBRAICA UNIVERSITARIO",
   "goles_locatario": "4",
   "puntos_locatario": "3",
@@ -29,12 +29,281 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "titularesL": [
+  {
+   "carne": "29860",
+   "Nombre": "JUAN IGNACIO MARTINEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "32888",
+   "Nombre": "DIEGO DAVID SONSOL",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "35360",
+   "Nombre": "ALBERTO BENTANCUR",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "30530",
+   "Nombre": "PABLO DULCINI",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "24718",
+   "Nombre": "NICOLAS OPER",
+   "camiseta": "11",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "21338",
+   "Nombre": "ALAN PAUL MIZRAJI",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "37102",
+   "Nombre": "NICOLAS DIEGO MARIÑANSKY",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "35701",
+   "Nombre": "EMILIANO SEBASTIAN ACUÑA",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "40919",
+   "Nombre": "DIEGO GONZALEZ",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "30253",
+   "Nombre": "SANTIAGO SAUL",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "22778",
+   "Nombre": "ALAN GRAUSER",
+   "camiseta": "20",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "37674",
+   "Nombre": "DIEGO MARCEL DOPICO",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "38797",
+   "Nombre": "LORENZO VEGA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "21043",
+   "Nombre": "MATIAS BERENGUER",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "46097",
+   "Nombre": "ADRIAN IGNACIO RIOS",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "23462",
+   "Nombre": "ANDRES FRANCISCO OLIVERA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "44561",
+   "Nombre": "MATHIAS GABRIEL ALZA",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "21044",
+   "Nombre": "SANTIAGO DECIA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "27794",
+   "Nombre": "GUZMAN TELESCA",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "61841",
+   "Nombre": "MAURO ANTONIO ROSTAN",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "31787",
+   "Nombre": "FABIAN AICARDI",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "27229",
+   "Nombre": "MARTIN HEBER GARCIA",
+   "camiseta": "26",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "21338",
+   "Jug_Sale": "ALAN PAUL MIZRAJI",
+   "CarneEntra": "44950",
+   "Jug_Entra": "DIEGO LIPATIN",
+   "camiseta": "33",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "35701",
+   "Jug_Sale": "EMILIANO SEBASTIAN ACUÑA",
+   "CarneEntra": "46051",
+   "Jug_Entra": "JOAQUIN RAMA",
+   "camiseta": "16",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "30530",
+   "Jug_Sale": "PABLO DULCINI",
+   "CarneEntra": "20057",
+   "Jug_Entra": "DIEGO MARCEL KACOWICZ",
+   "camiseta": "7",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "40919",
+   "Jug_Sale": "DIEGO GONZALEZ",
+   "CarneEntra": "28079",
+   "Jug_Entra": "NICOLAS MENDELSHON",
+   "camiseta": "14",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "37102",
+   "Jug_Sale": "NICOLAS DIEGO MARIÑANSKY",
+   "CarneEntra": "35082",
+   "Jug_Entra": "AXEL ZAIDENSZTAT",
+   "camiseta": "4",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "22778",
+   "Jug_Sale": "ALAN GRAUSER",
+   "CarneEntra": "35701",
+   "Jug_Entra": "EMILIANO SEBASTIAN ACUÑA",
+   "camiseta": "27",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "22778",
+   "Jug_Sale": "ALAN GRAUSER",
+   "CarneEntra": "21338",
+   "Jug_Entra": "ALAN PAUL MIZRAJI",
+   "camiseta": "15",
+   "minutos": "82"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "21044",
+   "Jug_Sale": "SANTIAGO DECIA",
+   "CarneEntra": "31163",
+   "Jug_Entra": "RODRIGO DURANTE",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "44561",
+   "Jug_Sale": "MATHIAS GABRIEL ALZA",
+   "CarneEntra": "21156",
+   "Jug_Entra": "SEBASTIAN NICOLAS MANEIRO",
+   "camiseta": "9",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "46097",
+   "Jug_Sale": "ADRIAN IGNACIO RIOS",
+   "CarneEntra": "26554",
+   "Jug_Entra": "SEBASTIAN TUBINO",
+   "camiseta": "18",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61841",
+   "Jug_Sale": "MAURO ANTONIO ROSTAN",
+   "CarneEntra": "59686",
+   "Jug_Entra": "MARCELO MELIAN",
+   "camiseta": "17",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "27794",
+   "Jug_Sale": "GUZMAN TELESCA",
+   "CarneEntra": "46097",
+   "Jug_Entra": "ADRIAN IGNACIO RIOS",
+   "camiseta": "47",
+   "minutos": "65"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "32888",
+   "Nombre": "DIEGO DAVID SONSOL",
+   "minutos": "54",
+   "EnContra": "0"
+  },
+  {
+   "carne": "40919",
+   "Nombre": "DIEGO GONZALEZ",
+   "minutos": "41",
+   "EnContra": "0"
+  },
+  {
+   "carne": "40919",
+   "Nombre": "DIEGO GONZALEZ",
+   "minutos": "45",
+   "EnContra": "0"
+  },
+  {
+   "carne": "44950",
+   "Nombre": "DIEGO LIPATIN",
+   "minutos": "66",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "23462",
+   "Nombre": "ANDRES FRANCISCO OLIVERA",
+   "minutos": "11",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "EMILIANO SEBASTIAN ACUÑA",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

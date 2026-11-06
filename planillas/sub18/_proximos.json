@@ -21,13 +21,6 @@
   "visitante": "CLUB SOCIAL PIEDRAS BLANCAS"
  },
  {
-  "serie": "18A",
-  "fechaHora": "2026-11-04 19:00:00",
-  "cancha": "COMPLEJO DEPORTIVO ARRAYANES",
-  "local": "SANTA ELENA LAGOMAR",
-  "visitante": "ARQUITECTURA JRS."
- },
- {
   "serie": "18F",
   "fechaHora": "2026-11-05 20:00:00",
   "cancha": "COLEGIO ARETEIA",
@@ -54,69 +47,6 @@
   "cancha": "LA MENNAIS",
   "local": "SAN PABLO UNIVERSITARIO",
   "visitante": "J.M.L.M"
- },
- {
-  "serie": "18P",
-  "fechaHora": "2026-11-08 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "E.L.F.",
-  "visitante": "URUNDAY UNIVERSITARIO"
- },
- {
-  "serie": "18B",
-  "fechaHora": "2026-11-08 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "JUAN XXIII",
-  "visitante": "LA ESCALINATA"
- },
- {
-  "serie": "18C",
-  "fechaHora": "2026-11-08 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "TENIS EL PINAR",
-  "visitante": "ELBIO FERNANDEZ"
- },
- {
-  "serie": "18C",
-  "fechaHora": "2026-11-08 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "UNIVERSITARIO VERONES",
-  "visitante": "CLUB JESUS MARIA"
- },
- {
-  "serie": "18C",
-  "fechaHora": "2026-11-08 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "PERRY SEXTA UNIVERSITARIO",
-  "visitante": "SAN AGUSTIN"
- },
- {
-  "serie": "18F",
-  "fechaHora": "2026-11-08 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "DEP.de la C. ARETEIA BIMBULLY",
-  "visitante": "CRANDON UNIVERSITARIO"
- },
- {
-  "serie": "18A",
-  "fechaHora": "2026-11-08 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "COLEGIO Y LICEO INGLES",
-  "visitante": "SANTA ELENA LAGOMAR"
- },
- {
-  "serie": "18A",
-  "fechaHora": "2026-11-08 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "ACADEMIA FRM",
-  "visitante": "NUMA TURCATTI"
- },
- {
-  "serie": "18A",
-  "fechaHora": "2026-11-08 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "SCUOLA PALERMO",
-  "visitante": "FECHA LIBRE"
  },
  {
   "serie": "18O",
@@ -154,6 +84,20 @@
   "visitante": "SAGRADA FAMILIA UNIVERSITARIO"
  },
  {
+  "serie": "18P",
+  "fechaHora": "2026-11-08 15:30:00",
+  "cancha": "ELF (LICEO FRANCES)",
+  "local": "E.L.F.",
+  "visitante": "URUNDAY UNIVERSITARIO"
+ },
+ {
+  "serie": "18B",
+  "fechaHora": "2026-11-08 15:30:00",
+  "cancha": "COMPLEJO JUAN XXIII",
+  "local": "JUAN XXIII",
+  "visitante": "LA ESCALINATA"
+ },
+ {
   "serie": "18B",
   "fechaHora": "2026-11-08 15:30:00",
   "cancha": "COMPLEJO JUAN XXIII",
@@ -170,9 +114,30 @@
  {
   "serie": "18C",
   "fechaHora": "2026-11-08 15:30:00",
+  "cancha": "TENIS EL PINAR",
+  "local": "TENIS EL PINAR",
+  "visitante": "ELBIO FERNANDEZ"
+ },
+ {
+  "serie": "18C",
+  "fechaHora": "2026-11-08 15:30:00",
   "cancha": "COMPLEJO LOS ROJOS",
   "local": "LATINO FUTBOL CLUB",
   "visitante": "SEMINARIO UNIVERSITARIO"
+ },
+ {
+  "serie": "18C",
+  "fechaHora": "2026-11-08 15:30:00",
+  "cancha": "COMPLEJO DEP. y SAL, EL RINCON",
+  "local": "UNIVERSITARIO VERONES",
+  "visitante": "CLUB JESUS MARIA"
+ },
+ {
+  "serie": "18C",
+  "fechaHora": "2026-11-08 15:30:00",
+  "cancha": "MICROSULES",
+  "local": "PERRY SEXTA UNIVERSITARIO",
+  "visitante": "SAN AGUSTIN"
  },
  {
   "serie": "18F",
@@ -196,11 +161,32 @@
   "visitante": "HEBRAICA UNIVERSITARIO"
  },
  {
+  "serie": "18F",
+  "fechaHora": "2026-11-08 15:30:00",
+  "cancha": "COLEGIO ARETEIA",
+  "local": "DEP.de la C. ARETEIA BIMBULLY",
+  "visitante": "CRANDON UNIVERSITARIO"
+ },
+ {
   "serie": "18A",
   "fechaHora": "2026-11-08 15:30:00",
-  "cancha": "POLIDEPORTIVO FAUQUET",
+  "cancha": "CAMPO DEP. COLEGIO INGLES",
+  "local": "COLEGIO Y LICEO INGLES",
+  "visitante": "SANTA ELENA LAGOMAR"
+ },
+ {
+  "serie": "18A",
+  "fechaHora": "2026-11-08 15:30:00",
+  "cancha": "SPORT 11",
   "local": "ARQUITECTURA JRS.",
   "visitante": "TROUVILLE UNIVERSITARIO"
+ },
+ {
+  "serie": "18A",
+  "fechaHora": "2026-11-08 15:30:00",
+  "cancha": "POLIDEPORTIVO CARRASCO",
+  "local": "ACADEMIA FRM",
+  "visitante": "NUMA TURCATTI"
  },
  {
   "serie": "18A",
@@ -803,6 +789,13 @@
   "cancha": "COMPLEJO ALCOBENDAS",
   "local": "NACIONAL UNIVERSITARIO",
   "visitante": "NUMA TURCATTI"
+ },
+ {
+  "serie": "18A",
+  "fechaHora": "2026-12-30 00:00:00",
+  "cancha": "NO SE JUEGA",
+  "local": "SCUOLA PALERMO",
+  "visitante": "FECHA LIBRE"
  },
  {
   "serie": "18A",
