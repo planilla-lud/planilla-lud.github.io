@@ -25,7 +25,9 @@ En el celular hay barra de navegación abajo (Inicio, Bajas, Partidos, Tabla y M
 elige desde el botón del encabezado; arriba a la derecha están Preguntale y Mi equipo. En la compu las
 secciones van en una fila arriba. La previa y Partidos se ordenan en pestañas. El contador de entradas
 está adentro de Más. `#/clubes` es el lugar reservado para la versión para clubes (informe del rival y
-gestión del plantel), todavía como "Próximamente". `og.png` es la imagen que aparece al compartir el
+gestión del plantel), todavía como "Próximamente". El premium con servidor (Supabase) está en `premium-v2/` y se publica
+en https://planilla-lud-premium.vercel.app con `scripts/premium-vercel.sh` (`premium-real/` es la versión
+anterior y `premium/` la demo). `og.png` es la imagen que aparece al compartir el
 link por WhatsApp.
 
 ## Qué muestra
