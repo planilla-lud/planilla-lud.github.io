@@ -9,5 +9,7 @@ rm -rf dist-premium
 mkdir -p dist-premium
 cp -r premium-v2/. dist-premium/
 cp -r data escudos dist-premium/
+# La versión final (la misma que planilla-lud.vercel.app): vercel.json la sirve en la raíz.
+cp -r prueba dist-premium/
 cp favicon.svg og.png apple-touch-icon.png chat-config.json dist-premium/
 echo "Listo: dist-premium"
