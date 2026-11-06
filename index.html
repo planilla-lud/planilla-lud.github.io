@@ -393,6 +393,7 @@ input.search:focus{outline:2px solid var(--accent);outline-offset:-1px}
 .mr{display:grid;grid-template-columns:52px minmax(0,1fr) auto;gap:12px;align-items:center;padding:9px 16px;border-top:1px solid var(--line);color:inherit;position:relative}
 .panel-h + .mr,.mr:first-child{border-top:0}
 .mr:hover{background:var(--hover);text-decoration:none}
+div.mr:hover{background:none}
 .mr[hidden]{display:none}
 .mr.hot::before{content:"";position:absolute;left:0;top:10px;bottom:10px;width:3px;border-radius:0 3px 3px 0;background:var(--accent)}
 .mr.hot.dn::before{background:var(--danger)}
@@ -1195,6 +1196,7 @@ function vEquipo(d, cat, eq) {
   <div class="cab"><div class="ficha-h">${crest(eq, true)}<div style="flex:1;min-width:0"><h2>${esc(eq)}</h2><div class="small muted">${pu ? `<a href="${link(cat, 'tabla', pu.etapa)}"><b>${pu.puesto}° en ${esc(pu.etapa)}</b> · ${pu.pts} pts</a> · ` : ''}${todos.length} PJ · ${g}G ${e}E ${todos.length - g - e}P · GF ${todos.reduce((s, x) => s + x.gf, 0)} · GC ${todos.reduce((s, x) => s + x.gc, 0)}</div></div></div>
   <div class="row acc-f">${b?.proximo ? `<a class="share" href="${link(cat, 'previa', (b.proximo.local ? eq + '~' + b.proximo.rival : b.proximo.rival + '~' + eq))}">Previa vs ${esc(b.proximo.rival)} · ${fDia(b.proximo.dia)}</a>` : ''}<button class="share" id="seguir" onclick="seguir('${cat}', ${esc(JSON.stringify(eq))})">${ic('i-star')}<span>Hacer mi equipo</span></button></div></div>${P.barra}
   ${P.panel('resumen', `${b?.alertas.length || b?.pendientes?.length ? `<section class="panel"><div class="panel-h"><b>Posibles bajas</b><span>${b.proximo ? 'Próximo: vs ' + esc(b.proximo.rival) + ' · ' + fDia(b.proximo.dia) : ''}</span></div><div class="side sola">${pend(b)}${b.alertas.map(a => `<div class="alert"><b class="lvl ${a.nivel}">${a.nivel}</b>${a.carne ? `<a href="${link(cat, 'jugador', a.carne)}">${esc(a.nombre)}</a>` : `<b>${esc(a.nombre)}</b>`}<span>${esc(a.texto)}</span></div>`).join('')}</div></section>` : ''}
+  ${(d.siguientes || []).some(f => f.l === eq || f.v === eq) ? `<div class="sec-h"><div><h2>Fechas siguientes</h2></div></div>${vSiguientes(d, cat, eq)}` : ''}
   <div class="panel"><div class="panel-h"><b>Partidos</b></div>${filaPartidos(cat, todos.map(x => x.p).slice().reverse())}</div>`)}
   ${P.panel('plantel', `<div class="sec-h"><div><h2>Plantel</h2><span class="sub">Tocá un encabezado para ordenar. En los últimos 5, la barra es el tiempo jugado: oscura si fue titular, clara si entró desde el banco, vacía si no jugó; la esquina roja es una expulsión.</span></div></div>
   <div class="tablewrap"><table id="plantel"><thead><tr>${th('nombre', 'Jugador')}${th('pj', 'PJ')}${th('tit', 'Tit')}${th('min', 'Min')}${th('gol', 'Gol')}<th>Últimos 5</th></tr></thead><tbody>
@@ -1293,11 +1295,14 @@ function vPartidos(d, cat) {
     grupos.get(k).push(p);
   }
   const L = previasOrden(d);
-  const P = pestanas('partidos', [...(L.length ? [['proxima', 'Próxima fecha']] : []), ['resultados', 'Resultados']]);
+  const S = (d.siguientes || []).length;
+  const P = pestanas('partidos', [...(L.length ? [['proxima', 'Próxima fecha']] : []), ...(S ? [['siguientes', 'Siguientes']] : []), ['resultados', 'Resultados']]);
   const fila = ([k, f]) => filaPrevia(link(cat, 'previa', k), f, { pos: general(d, f), tipo: picante(d, f), d });
   const proxima = L.length ? P.panel('proxima', `<p class="lede">Tocá un partido para ver el once probable, las bajas, cómo vienen y el cara a cara.</p>
     ${porEtapa(L, fila, cat)}`) : '';
-  return `<div class="page-h"><h2>Partidos</h2></div>${P.barra}${proxima}
+  const siguientes = S ? P.panel('siguientes', `<p class="lede">Lo que la Liga ya programó para las fechas que vienen. Puede cambiar: la Liga confirma días, horas y canchas sobre la marcha.</p>
+    ${vSiguientes(d, cat)}`) : '';
+  return `<div class="page-h"><h2>Partidos</h2></div>${P.barra}${proxima}${siguientes}
   ${P.panel('resultados', `${notaVivo(d)}${vSinCargar(d)}
   ${[...grupos].map(([k, ps]) => `<div class="panel">${cabezaTorneo(cat, ps[0].etapa, ` · Fecha ${ps[0].fecha} · ${fDia(ps[0].dia)}`)}${filaPartidos(cat, ps)}</div>`).join('')}`)}`;
 }
@@ -2003,10 +2008,18 @@ function filaPrevia(href, f, op = {}) {
   const p = op.pos || {}, al = op.altas || [];
   const lado = (eq, pos, n) => `<span class="mr-t">${crest(eq)}<span class="n">${esc(eq)}</span>${pos ? `<span class="ps">${pos}°</span>` : ''}${n ? `<span class="bj">${n} baja${n > 1 ? 's' : ''}</span>` : ''}</span>`;
   const tipo = op.tipo ? tagPicante(op.tipo) : '';
-  return `<a class="mr${op.tipo ? ' hot' + (op.tipo === 'descenso' ? ' dn' : '') : ''}" href="${href}">
+  const tag = href ? 'a' : 'div';
+  return `<${tag} class="mr${op.tipo ? ' hot' + (op.tipo === 'descenso' ? ' dn' : '') : ''}"${href ? ` href="${href}"` : ''}>
     <span class="mr-w">${f.hora !== '00:00' ? `<b>${f.hora}</b>` : '<b>A conf.</b>'}${fDia(f.dia)}${op.div ? `<span class="dv">${esc(op.div)}</span>` : ''}${tipo}</span>
     <span class="mr-tt">${lado(f.l, p.l, al[0])}${lado(f.v, p.v, al[1])}</span>
-    ${op.d ? `<span class="mr-m">${formaHtml(op.d, f.l, true)}${formaHtml(op.d, f.v, true)}</span>` : ''}</a>`;
+    ${op.d ? `<span class="mr-m">${formaHtml(op.d, f.l, true)}${formaHtml(op.d, f.v, true)}</span>` : ''}</${tag}>`;
+}
+// Fechas siguientes (lo programado después de la próxima fecha), por día y torneo. eq: solo las de ese equipo.
+function vSiguientes(d, cat, eq) {
+  const L = (d.siguientes || []).filter(f => !eq || f.l === eq || f.v === eq);
+  const g = new Map();
+  for (const f of L) { const k = `${f.dia}|${f.etapa || ''}`; if (!g.has(k)) g.set(k, []); g.get(k).push(f); }
+  return [...g].map(([k, fs]) => `<div class="panel">${cabezaTorneo(cat, fs[0].etapa || "", `${fs[0].etapa ? " · " : ""}${fDia(fs[0].dia)}`)}${fs.map(f => filaPrevia('', f, { pos: general(d, f), d })).join('')}</div>`).join('');
 }
 // ---------- para clubes ----------
 // La versión para clubes todavía no está: esta página deja el lugar y dice qué va a traer. Cada parte

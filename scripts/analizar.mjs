@@ -452,7 +452,7 @@ function cargar(cat) {
   const proximo = {};
   for (const f of proximos) {
     const k = new Date(f.fechaHora.replace(' ', 'T') + '-03:00');
-    if (k < new Date(ahora.getTime() - 3 * 3600e3)) continue;
+    if (k < new Date(ahora.getTime() - 3 * 3600e3) || noSeJuega(f)) continue;
     for (const [yo, rival, esLocal] of [[corto(f.local), corto(f.visitante), true], [corto(f.visitante), corto(f.local), false]])
       if (!proximo[yo]) proximo[yo] = { rival, dia: f.fechaHora.slice(0, 10), hora: f.fechaHora.slice(11, 16), local: esLocal, cancha: lindo(f.cancha || ''), etapa: cat.series[f.serie] };
   }
@@ -667,6 +667,9 @@ function caraACara(G, l, v) {
     .sort((x, y) => y.dia.localeCompare(x.dia));
 }
 
+// La Liga deja en el fixture, con fecha 30/12, los partidos que no se van a jugar ("NO SE JUEGA", "WALKOVER").
+function noSeJuega(f) { return /NO SE JUEGA|WALKOVER/i.test(f.cancha || ''); }
+
 // ---------- una divisional: alertas, cruces y sanciones, con lo de toda la Liga a mano ----------
 function terminar(st, G) {
   const { cat, partidos, porEquipo, jugadores, sinPlanilla, proximo, calidad } = st;
@@ -698,6 +701,14 @@ function terminar(st, G) {
     previas[`${l}~${v}`] ??= { l, v, dia: b.proximo.dia, hora: b.proximo.hora, cancha: b.proximo.cancha, etapa: b.proximo.etapa, caraACara: caraACara(G, l, v) };
   }
 
+  // Fechas siguientes: todo lo que ya está programado después de la próxima fecha de cada equipo.
+  const desde = Date.now() - 3 * 3600e3, yaEnPrevia = new Set(Object.values(previas).map(f => `${f.dia}|${f.l}|${f.v}`));
+  const siguientes = st.proximosCrudos
+    .filter(f => new Date(f.fechaHora.replace(' ', 'T') + '-03:00').getTime() >= desde && !noSeJuega(f))
+    .map(f => ({ l: corto(f.local), v: corto(f.visitante), dia: f.fechaHora.slice(0, 10), hora: f.fechaHora.slice(11, 16),
+      cancha: /A FIJAR/i.test(f.cancha || '') ? '' : lindo(f.cancha || ''), etapa: cat.series[f.serie] || null }))
+    .filter(f => !yaEnPrevia.has(`${f.dia}|${f.l}|${f.v}`));
+
   // Partidos que ya se jugaron (empezaron hace más de 2 horas, en los últimos 10 días) y la Liga todavía no
   // cargó: siguen en el fixture sin resultado. La tabla los muestra como "sin cargar" y se les puede poner un
   // resultado provisorio a mano (worker/, /provisorios).
@@ -711,7 +722,7 @@ function terminar(st, G) {
     equipos: Object.keys(porEquipo).sort((a, b) => a.localeCompare(b)),
     jugadores, partidos, bajas, calidad, sinResultado,
     cruces: crucesDeDivisional(cat, porEquipo, jugadores, G),
-    previas,
+    previas, siguientes,
     sanciones: sancionesDeDivisional(cat, jugadores, G),
     resumen: {
       partidos: partidos.length,
@@ -767,6 +778,7 @@ function partirEnCopas(st, salida) {
       previas: Object.fromEntries(Object.entries(salida.previas).filter(([, f]) => es(f.l) || es(f.v))),
       sanciones: salida.sanciones.filter(x => es(x.equipo)), calidad,
       sinResultado: (salida.sinResultado || []).filter(f => es(f.l) || es(f.v)),
+      siguientes: (salida.siguientes || []).filter(f => es(f.l) || es(f.v)),
       resumen: { partidos: partidos.length, conPlanilla: partidos.filter(p => p.planilla).length, conProblemas: calidad.length },
     };
     delete out.copas;
