@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-06T00:08:45.533Z",
+ "actualizado": "2026-11-06T03:42:18.244Z",
  "partidos": [
   {
    "div": "mayores-a",
@@ -17,23 +17,6 @@
    "tipo": "titulo",
    "altasL": 1,
    "altasV": 0
-  },
-  {
-   "div": "sub20-a",
-   "divNombre": "Sub 20 A",
-   "k": "Náutico~Playa Honda",
-   "l": "Náutico",
-   "v": "Playa Honda",
-   "dia": "2026-11-05",
-   "hora": "20:00",
-   "etapa": "Permanencia",
-   "pl": 7,
-   "pv": 8,
-   "n": 8,
-   "base": 8,
-   "tipo": "descenso",
-   "altasL": 1,
-   "altasV": 2
   },
   {
    "div": "reserva-a",
@@ -119,23 +102,6 @@
    "tipo": "titulo",
    "altasL": 2,
    "altasV": 0
-  },
-  {
-   "div": "reserva-c",
-   "divNombre": "Reserva C",
-   "k": "Numa Turcatti~San Isidro Lomas Universitario",
-   "l": "Numa Turcatti",
-   "v": "San Isidro Lomas Universitario",
-   "dia": "2026-11-14",
-   "hora": "11:15",
-   "etapa": "Permanencia",
-   "pl": 7,
-   "pv": 8,
-   "n": 8,
-   "base": 8,
-   "tipo": "descenso",
-   "altasL": 0,
-   "altasV": 1
   },
   {
    "div": "mas40-a",
@@ -427,6 +393,23 @@
    "altasV": 0
   },
   {
+   "div": "reserva-c",
+   "divNombre": "Reserva C",
+   "k": "Old Brendans Verde~Old Christians Naranja",
+   "l": "Old Brendans Verde",
+   "v": "Old Christians Naranja",
+   "dia": "2026-11-14",
+   "hora": "11:15",
+   "etapa": "Permanencia",
+   "pl": 7,
+   "pv": 5,
+   "n": 8,
+   "base": 8,
+   "tipo": "descenso",
+   "altasL": 3,
+   "altasV": 2
+  },
+  {
    "div": "mayores-d",
    "divNombre": "Mayores D",
    "k": "Numa Turcatti~La 12 Universitaria",
@@ -442,6 +425,23 @@
    "tipo": "titulo",
    "altasL": 0,
    "altasV": 0
+  },
+  {
+   "div": "presenior-d",
+   "divNombre": "Pre Senior D",
+   "k": "Old Brendans~Scuola Palermo",
+   "l": "Old Brendans",
+   "v": "Scuola Palermo",
+   "dia": "2026-11-14",
+   "hora": "09:00",
+   "etapa": "Título y ascenso",
+   "pl": 1,
+   "pv": 2,
+   "n": 8,
+   "base": 0,
+   "tipo": "titulo",
+   "altasL": 1,
+   "altasV": 3
   },
   {
    "div": "mayores-f",
