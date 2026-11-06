@@ -1,0 +1,297 @@
+{
+ "id": "103687",
+ "categoria": "sub20-a",
+ "serie": "20APD",
+ "fecha": 7,
+ "fechaHora": "2026-11-05 20:00:00",
+ "cancha": "CARRASCO LAWN TENIS (KM 23)",
+ "local": "TENIS EL PINAR",
+ "visitante": "CARRASCO LAWN TENNIS",
+ "gl": 0,
+ "gv": 4,
+ "detalle": {
+  "nro_partido": "415",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "2",
+  "Divisional": "SUB20 \"A\" PERM. y DESC.",
+  "Cancha": "CARRASCO LAWN TENIS (KM 23)",
+  "Fecha_Inicio": "2026-11-05 22:00:00",
+  "Fecha_fin": "2026-11-05 22:00:00",
+  "Locatario": "TENIS EL PINAR",
+  "goles_locatario": "0",
+  "puntos_locatario": "0",
+  "Visitante": "CARRASCO LAWN TENNIS",
+  "goles_visitante": "4",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "54831",
+   "Nombre": "JOAQUÌN GOLDARACENA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "66515",
+   "Nombre": "FELIPE ANTONIO REGUEIRO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "56831",
+   "Nombre": "JUAN MARTIN ABO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "64246",
+   "Nombre": "FELIPE RAFFETTO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "62853",
+   "Nombre": "GUILLERMO BAROFFIO",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "56188",
+   "Nombre": "THIAGO NAHUEL ROLAND",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "54594",
+   "Nombre": "JUAN DIEGO ZORRILLA DE SAN M",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "56164",
+   "Nombre": "GUZMAN COSTEMALLE",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "54596",
+   "Nombre": "HERNAN FERNANDEZ",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "58654",
+   "Nombre": "MATIAS NICOLAS BARRIOS",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "61622",
+   "Nombre": "MATEO OMAR ROLAND",
+   "camiseta": "14",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "61771",
+   "Nombre": "FILIPPO DE MORI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "56134",
+   "Nombre": "FELIPE MIGUEL WAS",
+   "camiseta": "23",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56131",
+   "Nombre": "SEBASTIAN OLAVE",
+   "camiseta": "60",
+   "Capitan": ""
+  },
+  {
+   "carne": "59063",
+   "Nombre": "FRANCISCO RODRIGUEZ",
+   "camiseta": "39",
+   "Capitan": ""
+  },
+  {
+   "carne": "59551",
+   "Nombre": "FELIPE ACOSTA Y LARA",
+   "camiseta": "49",
+   "Capitan": ""
+  },
+  {
+   "carne": "56869",
+   "Nombre": "NICOLAS PODESTA",
+   "camiseta": "36",
+   "Capitan": ""
+  },
+  {
+   "carne": "56868",
+   "Nombre": "MAXIMO NICOLAS BAGNARDI",
+   "camiseta": "50",
+   "Capitan": ""
+  },
+  {
+   "carne": "58673",
+   "Nombre": "ALEJO FERRES",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "57067",
+   "Nombre": "JUAN BAUTISTA ALGORTA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "58916",
+   "Nombre": "FELIPE BORDOLI",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "56132",
+   "Nombre": "SEBASTIAN VARGAS",
+   "camiseta": "28",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "56164",
+   "Jug_Sale": "GUZMAN COSTEMALLE",
+   "CarneEntra": "61625",
+   "Jug_Entra": "FACUNDO GOLDARACENA",
+   "camiseta": "12",
+   "minutos": "34"
+  },
+  {
+   "CarneSale": "64246",
+   "Jug_Sale": "FELIPE RAFFETTO",
+   "CarneEntra": "64786",
+   "Jug_Entra": "THIAGO  DANILO SOUTO",
+   "camiseta": "7",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61622",
+   "Jug_Sale": "MATEO OMAR ROLAND",
+   "CarneEntra": "56834",
+   "Jug_Entra": "JOAQUIN QUINTANA",
+   "camiseta": "4",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56188",
+   "Jug_Sale": "THIAGO NAHUEL ROLAND",
+   "CarneEntra": "68569",
+   "Jug_Entra": "JUAN PEDRO PANASCO",
+   "camiseta": "18",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "54831",
+   "Jug_Sale": "JOAQUÌN GOLDARACENA",
+   "CarneEntra": "60339",
+   "Jug_Entra": "MATEO LACO",
+   "camiseta": "25",
+   "minutos": "75"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "59551",
+   "Jug_Sale": "FELIPE ACOSTA Y LARA",
+   "CarneEntra": "61096",
+   "Jug_Entra": "TOMAS ARRIETA",
+   "camiseta": "27",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56868",
+   "Jug_Sale": "MAXIMO NICOLAS BAGNARDI",
+   "CarneEntra": "60773",
+   "Jug_Entra": "ALFONSO SCHAICH",
+   "camiseta": "14",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "56132",
+   "Jug_Sale": "SEBASTIAN VARGAS",
+   "CarneEntra": "56879",
+   "Jug_Entra": "JERONIMO CODARI",
+   "camiseta": "55",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "57067",
+   "Jug_Sale": "JUAN BAUTISTA ALGORTA",
+   "CarneEntra": "57593",
+   "Jug_Entra": "GENARO DE MORI",
+   "camiseta": "38",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "58673",
+   "Jug_Sale": "ALEJO FERRES",
+   "CarneEntra": "62744",
+   "Jug_Entra": "FELIPE SARACCO",
+   "camiseta": "53",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "56134",
+   "Jug_Sale": "FELIPE MIGUEL WAS",
+   "CarneEntra": "56127",
+   "Jug_Entra": "FELIPE CROCI",
+   "camiseta": "33",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "58916",
+   "Jug_Sale": "FELIPE BORDOLI",
+   "CarneEntra": "63410",
+   "Jug_Entra": "TOMAS GRUDZIEN",
+   "camiseta": "34",
+   "minutos": "80"
+  }
+ ],
+ "golesL": [],
+ "golesV": [
+  {
+   "carne": "58673",
+   "Nombre": "ALEJO FERRES",
+   "minutos": "47",
+   "EnContra": "1"
+  },
+  {
+   "carne": "58673",
+   "Nombre": "ALEJO FERRES",
+   "minutos": "67",
+   "EnContra": "1"
+  },
+  {
+   "carne": "58916",
+   "Nombre": "FELIPE BORDOLI",
+   "minutos": "42",
+   "EnContra": "1"
+  },
+  {
+   "carne": "60773",
+   "Nombre": "ALFONSO SCHAICH",
+   "minutos": "88",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

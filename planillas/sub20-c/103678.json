@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "SUB20 \"C\" TIT. y ASC.",
   "Cancha": "CLUB ALEMAN",
-  "Fecha_Inicio": "2026-11-05 21:30:00",
-  "Fecha_fin": "2026-11-05 21:30:00",
+  "Fecha_Inicio": "2026-11-05 21:55:00",
+  "Fecha_fin": "2026-11-05 21:55:00",
   "Locatario": "ALEMAN UNIVERSITARIO",
   "goles_locatario": "2",
   "puntos_locatario": "3",
@@ -29,12 +29,240 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "56600",
+   "Nombre": "SANTIAGO REYES",
+   "camiseta": "97",
+   "Capitan": ""
+  },
+  {
+   "carne": "62637",
+   "Nombre": "AGUSTIN GAVEL",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "62631",
+   "Nombre": "JOAQUIN ARMANDO PIRIZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "55355",
+   "Nombre": "FACUNDO BELTRAN",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "62952",
+   "Nombre": "JUAN PEDRO ANGENSCHEIDT",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "56606",
+   "Nombre": "MATIAS GONZALEZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "56156",
+   "Nombre": "FRANCO SANTIAGO BOTTINI",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "56841",
+   "Nombre": "FELIPE NICOLAS LOPEZ",
+   "camiseta": "9",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56201",
+   "Nombre": "MATEO BONFIGLIO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "55187",
+   "Nombre": "IGNACIO ANDRES ALVAREZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "55191",
+   "Nombre": "FEDERICO SAINTAGNE",
+   "camiseta": "14",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "63266",
+   "Nombre": "JUAN MANUEL LOPEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "56788",
+   "Nombre": "TOMAS ANGLADA",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "66003",
+   "Nombre": "MANUEL BECERRA",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "62822",
+   "Nombre": "JOAQUIN LARREA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "64901",
+   "Nombre": "TOMAS BELTRAN",
+   "camiseta": "22",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "66149",
+   "Nombre": "NICOLAS JESUS NUÑEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "60473",
+   "Nombre": "JUAN AGUSTIN LOPEZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "58819",
+   "Nombre": "GERONIMO ACUÑA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "69150",
+   "Nombre": "MARTIN GUTIERREZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "57870",
+   "Nombre": "SANTINO BARATE",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "62063",
+   "Nombre": "RODRIGO RUBIO",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "55355",
+   "Jug_Sale": "FACUNDO BELTRAN",
+   "CarneEntra": "54996",
+   "Jug_Entra": "AGUSTIN VOLKER RESTANO",
+   "camiseta": "16",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "62952",
+   "Jug_Sale": "JUAN PEDRO ANGENSCHEIDT",
+   "CarneEntra": "58855",
+   "Jug_Entra": "JOAQUIN MARTINEZ",
+   "camiseta": "11",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "56201",
+   "Jug_Sale": "MATEO BONFIGLIO",
+   "CarneEntra": "59109",
+   "Jug_Entra": "SANTIAGO ALVAREZ",
+   "camiseta": "6",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "56156",
+   "Jug_Sale": "FRANCO SANTIAGO BOTTINI",
+   "CarneEntra": "59473",
+   "Jug_Entra": "SANTIAGO OUTERELO",
+   "camiseta": "13",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "56841",
+   "Jug_Sale": "FELIPE NICOLAS LOPEZ",
+   "CarneEntra": "54749",
+   "Jug_Entra": "MARKO HEINZ SCHWARZ",
+   "camiseta": "19",
+   "minutos": "83"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "66149",
+   "Jug_Sale": "NICOLAS JESUS NUÑEZ",
+   "CarneEntra": "62069",
+   "Jug_Entra": "SANTIAGO SILVA",
+   "camiseta": "81",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "69150",
+   "Jug_Sale": "MARTIN GUTIERREZ",
+   "CarneEntra": "64097",
+   "Jug_Entra": "JUAN IGNACIO ESTIBEN",
+   "camiseta": "77",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "66003",
+   "Jug_Sale": "MANUEL BECERRA",
+   "CarneEntra": "61918",
+   "Jug_Entra": "LORENZO SILVA",
+   "camiseta": "5",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "56788",
+   "Jug_Sale": "TOMAS ANGLADA",
+   "CarneEntra": "56092",
+   "Jug_Entra": "AGUSTIN TELLECHEA",
+   "camiseta": "99",
+   "minutos": "87"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "56841",
+   "Nombre": "FELIPE NICOLAS LOPEZ",
+   "minutos": "10",
+   "EnContra": "0"
+  },
+  {
+   "carne": "56841",
+   "Nombre": "FELIPE NICOLAS LOPEZ",
+   "minutos": "17",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "62063",
+   "Nombre": "RODRIGO RUBIO",
+   "minutos": "56",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

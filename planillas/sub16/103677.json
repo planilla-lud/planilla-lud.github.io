@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB16 CONFRATERNIDAD",
   "Cancha": "LANDIA",
-  "Fecha_Inicio": "2026-11-05 20:30:00",
-  "Fecha_fin": "2026-11-05 20:30:00",
+  "Fecha_Inicio": "2026-11-05 20:40:00",
+  "Fecha_fin": "2026-11-05 20:40:00",
   "Locatario": "ESTUDIANTES DEL PLATA",
   "goles_locatario": "1",
   "puntos_locatario": "3",
@@ -29,11 +29,266 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "67763",
+   "Nombre": "LAUTARO FACUNDO BANEGA",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "67754",
+   "Nombre": "IGNACIO BASQUADE DIAZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "65282",
+   "Nombre": "AGUSTIN GRECO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "65287",
+   "Nombre": "JOAQUIN NICOLAS ANDRIOLI",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "67767",
+   "Nombre": "LEON FELIPE DAL MONTE",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "67745",
+   "Nombre": "LUCIANO NICOLAS BOGAO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "68799",
+   "Nombre": "AXEL MATHIAS ESCARCENA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "68049",
+   "Nombre": "FRANCO LESCANO",
+   "camiseta": "24",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "67765",
+   "Nombre": "VALENTIN BAUTISTA CARBONELL",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "60482",
+   "Nombre": "DIEGO AZAMBUJA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "65281",
+   "Nombre": "ALEJANDRO MARTIN COSTA",
+   "camiseta": "15",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "61085",
+   "Nombre": "FABRIZIO PERRONE",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "68602",
+   "Nombre": "NATHAN JOAQUIN HERNANDEZ",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "65506",
+   "Nombre": "BENJAMIN MARQUICIO",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "69018",
+   "Nombre": "AARON NICOLAS GARCIA",
+   "camiseta": "99",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "65499",
+   "Nombre": "STEFANO ROVIRA",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "64946",
+   "Nombre": "MATEO NODAR",
+   "camiseta": "91",
+   "Capitan": ""
+  },
+  {
+   "carne": "65502",
+   "Nombre": "MAXIMO CANO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "65504",
+   "Nombre": "THIAGO ALVAREZ",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "65655",
+   "Nombre": "DAVID NICOLAS MORENO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "61168",
+   "Nombre": "LAUTARO BASTOS",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "64940",
+   "Nombre": "FACUNDO EMANUEL PEGORRARO",
+   "camiseta": "23",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "67767",
+   "Jug_Sale": "LEON FELIPE DAL MONTE",
+   "CarneEntra": "68547",
+   "Jug_Entra": "TIHAGO SEBASTIAN PACHECO",
+   "camiseta": "8",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67765",
+   "Jug_Sale": "VALENTIN BAUTISTA CARBONELL",
+   "CarneEntra": "65471",
+   "Jug_Entra": "GUILLERMO LAUTARO URETA",
+   "camiseta": "4",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68049",
+   "Jug_Sale": "FRANCO LESCANO",
+   "CarneEntra": "67779",
+   "Jug_Entra": "NOAH RAMA SCATRAGLI",
+   "camiseta": "16",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67754",
+   "Jug_Sale": "IGNACIO BASQUADE DIAZ",
+   "CarneEntra": "67770",
+   "Jug_Entra": "SANTIAGO AGUSTIN GARCIA",
+   "camiseta": "47",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68799",
+   "Jug_Sale": "AXEL MATHIAS ESCARCENA",
+   "CarneEntra": "65294",
+   "Jug_Entra": "MARIANO ARAMIS SARINA",
+   "camiseta": "5",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "65282",
+   "Jug_Sale": "AGUSTIN GRECO",
+   "CarneEntra": "67752",
+   "Jug_Entra": "FRANCISCO JOSE ZAS LIZARRAGA",
+   "camiseta": "13",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67745",
+   "Jug_Sale": "LUCIANO NICOLAS BOGAO",
+   "CarneEntra": "68679",
+   "Jug_Entra": "JUAN DIEGO BRUM",
+   "camiseta": "6",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "65287",
+   "Jug_Sale": "JOAQUIN NICOLAS ANDRIOLI",
+   "CarneEntra": "67742",
+   "Jug_Entra": "JUAN MANUEL ASHFIELD",
+   "camiseta": "21",
+   "minutos": "57"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "69018",
+   "Jug_Sale": "AARON NICOLAS GARCIA",
+   "CarneEntra": "62765",
+   "Jug_Entra": "BENJAMIN DELGADO",
+   "camiseta": "6",
+   "minutos": "30"
+  },
+  {
+   "CarneSale": "65655",
+   "Jug_Sale": "DAVID NICOLAS MORENO",
+   "CarneEntra": "61725",
+   "Jug_Entra": "IGNACIO RIVERO",
+   "camiseta": "7",
+   "minutos": "40"
+  },
+  {
+   "CarneSale": "61168",
+   "Jug_Sale": "LAUTARO BASTOS",
+   "CarneEntra": "63498",
+   "Jug_Entra": "BRUNO SOUZA",
+   "camiseta": "43",
+   "minutos": "52"
+  },
+  {
+   "CarneSale": "64946",
+   "Jug_Sale": "MATEO NODAR",
+   "CarneEntra": "68598",
+   "Jug_Entra": "MATEO ABREU",
+   "camiseta": "28",
+   "minutos": "69"
+  },
+  {
+   "CarneSale": "65499",
+   "Jug_Sale": "STEFANO ROVIRA",
+   "CarneEntra": "69207",
+   "Jug_Entra": "VALENTINO CICCHINI",
+   "camiseta": "22",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "65502",
+   "Jug_Sale": "MAXIMO CANO",
+   "CarneEntra": "68965",
+   "Jug_Entra": "THIAGO CORBO",
+   "camiseta": "19",
+   "minutos": "71"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "67745",
+   "Nombre": "LUCIANO NICOLAS BOGAO",
+   "minutos": "39",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

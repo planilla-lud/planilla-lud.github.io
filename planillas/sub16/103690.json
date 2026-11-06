@@ -1,0 +1,260 @@
+{
+ "id": "103690",
+ "categoria": "sub16",
+ "serie": "16O",
+ "fecha": 4,
+ "fechaHora": "2026-11-05 18:00:00",
+ "cancha": "BRITISH SCHOOL",
+ "local": "THE BRITISH SCHOOL",
+ "visitante": "DLS CLUB",
+ "gl": 2,
+ "gv": 2,
+ "detalle": {
+  "nro_partido": "295",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 16 ",
+  "categoria": "SUB 16 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB16 ORO",
+  "Cancha": "BRITISH SCHOOL",
+  "Fecha_Inicio": "2026-11-05 20:00:00",
+  "Fecha_fin": "2026-11-05 20:00:00",
+  "Locatario": "THE BRITISH SCHOOL",
+  "goles_locatario": "2",
+  "puntos_locatario": "1",
+  "Visitante": "DLS CLUB",
+  "goles_visitante": "2",
+  "puntos_visitante": "1",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "61654",
+   "Nombre": "JUAN MANUEL MOREIRA",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "63186",
+   "Nombre": "JUAN SEBASTIAN JIMENEZ DE ARECHAGA",
+   "camiseta": "66",
+   "Capitan": ""
+  },
+  {
+   "carne": "65049",
+   "Nombre": "JUAN ALFONSO ODDONE",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "67992",
+   "Nombre": "JUAN IGNACIO RODRIGUEZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "62989",
+   "Nombre": "BENJAMIN RISSO",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "65456",
+   "Nombre": "SANTOS SASHA BALUT",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "62239",
+   "Nombre": "ANDRES TERCERO PEREZ DEL CASTILLO",
+   "camiseta": "48",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "65064",
+   "Nombre": "JUAN MARTIN FRECHOU",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "65060",
+   "Nombre": "FRANZ SEDELMAYR",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "62241",
+   "Nombre": "BENJAMIN ALBERTO BRAUSE",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "65053",
+   "Nombre": "JUAN BOSCH",
+   "camiseta": "14",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "61702",
+   "Nombre": "FRANCO MENDOZA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "61695",
+   "Nombre": "BRUNO GABRIEL PAZO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "65473",
+   "Nombre": "FACUNDO RODRIGUEZ",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "68734",
+   "Nombre": "FABIO LEONARDO DE ARMAS",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "64058",
+   "Nombre": "EMILIANO ANTELO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "61947",
+   "Nombre": "TIZIANO GAMBAROTTA",
+   "camiseta": "18",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "66007",
+   "Nombre": "MARCELO ALESSANDRO CEPELLINI",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "67087",
+   "Nombre": "FELIPE PARDO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "64294",
+   "Nombre": "BENJAMIN ALVARO VILA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "61699",
+   "Nombre": "MATIAS DELGADO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "60704",
+   "Nombre": "ALAN GABRIEL CHAPARRO",
+   "camiseta": "27",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "62239",
+   "Jug_Sale": "ANDRES TERCERO PEREZ DEL CASTILLO",
+   "CarneEntra": "65413",
+   "Jug_Entra": "ISIDORO ALBERTO JAIME",
+   "camiseta": "10",
+   "minutos": "54"
+  },
+  {
+   "CarneSale": "62241",
+   "Jug_Sale": "BENJAMIN ALBERTO BRAUSE",
+   "CarneEntra": "61665",
+   "Jug_Entra": "JUAN MIGUEL AGUERRE",
+   "camiseta": "17",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "65060",
+   "Jug_Sale": "FRANZ SEDELMAYR",
+   "CarneEntra": "65036",
+   "Jug_Entra": "SANTIAGO TORRES",
+   "camiseta": "18",
+   "minutos": "40"
+  },
+  {
+   "CarneSale": "65064",
+   "Jug_Sale": "JUAN MARTIN FRECHOU",
+   "CarneEntra": "65035",
+   "Jug_Entra": "FRANCISCO IÑAKI MARTINEZ",
+   "camiseta": "4",
+   "minutos": "40"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "64058",
+   "Jug_Sale": "EMILIANO ANTELO",
+   "CarneEntra": "60631",
+   "Jug_Entra": "EMILIANO PEREZ",
+   "camiseta": "7",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "67087",
+   "Jug_Sale": "FELIPE PARDO",
+   "CarneEntra": "67079",
+   "Jug_Entra": "THIAGO MELGAREJO",
+   "camiseta": "9",
+   "minutos": "62"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "62241",
+   "Nombre": "BENJAMIN ALBERTO BRAUSE",
+   "minutos": "54",
+   "EnContra": "0"
+  },
+  {
+   "carne": "65053",
+   "Nombre": "JUAN BOSCH",
+   "minutos": "73",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "60631",
+   "Nombre": "EMILIANO PEREZ",
+   "minutos": "76",
+   "EnContra": "1"
+  },
+  {
+   "carne": "61699",
+   "Nombre": "MATIAS DELGADO",
+   "minutos": "80",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "SANTOS SASHA BALUT",
+   "observaciones": ""
+  }
+ ],
+ "expulsadosV": [
+  {
+   "Nombre": "FELIPE PARDO",
+   "observaciones": ""
+  }
+ ]
+}

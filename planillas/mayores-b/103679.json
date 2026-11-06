@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"B\" TIT. y ASC.",
   "Cancha": "CLUB ALEMAN",
-  "Fecha_Inicio": "2026-11-05 23:30:00",
-  "Fecha_fin": "2026-11-05 23:30:00",
+  "Fecha_Inicio": "2026-11-05 23:53:00",
+  "Fecha_fin": "2026-11-05 23:53:00",
   "Locatario": "ALEMAN UNIVERSITARIO",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,219 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "40708",
+   "Nombre": "MARTIN GABRIEL COURTOISIE",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "41908",
+   "Nombre": "JUAN MARTIN AZADIAN",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "40714",
+   "Nombre": "PIERRE WYAUX",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "53196",
+   "Nombre": "JOAQUIN RESTANO",
+   "camiseta": "66",
+   "Capitan": ""
+  },
+  {
+   "carne": "42681",
+   "Nombre": "SEBASTIAN ANTONIO CURA",
+   "camiseta": "17",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "43219",
+   "Nombre": "GUZMAN LORENZO",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "52646",
+   "Nombre": "JUAN MARTIN BONFIGLIO",
+   "camiseta": "95",
+   "Capitan": ""
+  },
+  {
+   "carne": "48650",
+   "Nombre": "JUAN IGNACIO CERULLO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "48685",
+   "Nombre": "MAURICIO IHARA",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "49156",
+   "Nombre": "MATHIAS SOARES DE LIMA",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "48649",
+   "Nombre": "MATEO MANDIA",
+   "camiseta": "29",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "54917",
+   "Nombre": "IGNACIO JOSE LUIS BRAGA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "57406",
+   "Nombre": "JUAN MARTIN SZELAGOWSKI",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "56580",
+   "Nombre": "RODRIGO FERNANDEZ",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "56663",
+   "Nombre": "IGNACIO SERE",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "60669",
+   "Nombre": "ISMAEL MAESO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "67223",
+   "Nombre": "MARIANO DIAZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "58164",
+   "Nombre": "SANTIAGO PONS",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "67617",
+   "Nombre": "RODRIGO LOPEZ",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "43266",
+   "Nombre": "FERNANDO INTHAMOUSSU",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "55123",
+   "Nombre": "RAFAEL MARIANO BERAMENDI",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "43260",
+   "Nombre": "JUAN DIEGO TORRES NEGREIRA",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "48685",
+   "Jug_Sale": "MAURICIO IHARA",
+   "CarneEntra": "58855",
+   "Jug_Entra": "JOAQUIN MARTINEZ",
+   "camiseta": "3",
+   "minutos": "25"
+  },
+  {
+   "CarneSale": "43219",
+   "Jug_Sale": "GUZMAN LORENZO",
+   "CarneEntra": "39089",
+   "Jug_Entra": "GONZALO PASQUET",
+   "camiseta": "9",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "48650",
+   "Jug_Sale": "JUAN IGNACIO CERULLO",
+   "CarneEntra": "40039",
+   "Jug_Entra": "ANDRES FORTE",
+   "camiseta": "8",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "52646",
+   "Jug_Sale": "JUAN MARTIN BONFIGLIO",
+   "CarneEntra": "39151",
+   "Jug_Entra": "PEDRO SANTIAGO HERRERA",
+   "camiseta": "16",
+   "minutos": "60"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "43266",
+   "Jug_Sale": "FERNANDO INTHAMOUSSU",
+   "CarneEntra": "56664",
+   "Jug_Entra": "SANTIAGO MIGUEL ROCCA",
+   "camiseta": "13",
+   "minutos": "59"
+  },
+  {
+   "CarneSale": "43260",
+   "Jug_Sale": "JUAN DIEGO TORRES NEGREIRA",
+   "CarneEntra": "60875",
+   "Jug_Entra": "ALFONSO FERBER",
+   "camiseta": "11",
+   "minutos": "59"
+  },
+  {
+   "CarneSale": "55123",
+   "Jug_Sale": "RAFAEL MARIANO BERAMENDI",
+   "CarneEntra": "55182",
+   "Jug_Entra": "JUAN IGNACIO CABRERA",
+   "camiseta": "21",
+   "minutos": "82"
+  },
+  {
+   "CarneSale": "67617",
+   "Jug_Sale": "RODRIGO LOPEZ",
+   "CarneEntra": "49452",
+   "Jug_Entra": "VALENTIN ALGARE",
+   "camiseta": "16",
+   "minutos": "86"
+  }
+ ],
  "golesL": [],
- "golesV": [],
+ "golesV": [
+  {
+   "carne": "56663",
+   "Nombre": "IGNACIO SERE",
+   "minutos": "37",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

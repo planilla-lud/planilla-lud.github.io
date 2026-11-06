@@ -1,0 +1,266 @@
+{
+ "id": "103696",
+ "categoria": "sub16",
+ "serie": "16C",
+ "fecha": 3,
+ "fechaHora": "2026-11-03 20:30:00",
+ "cancha": "CAM. DEP. ASOC. HEBRAICA Y MAC",
+ "local": "HEBRAICA UNIVERSITARIO",
+ "visitante": "PERRY SEXTA UNIVERSITARIO",
+ "gl": 3,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "376",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 16 ",
+  "categoria": "SUB 16 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB16 COMPETENCIA",
+  "Cancha": "CAM. DEP. ASOC. HEBRAICA Y MAC",
+  "Fecha_Inicio": "2026-11-03 22:10:00",
+  "Fecha_fin": "2026-11-03 22:10:00",
+  "Locatario": "HEBRAICA UNIVERSITARIO",
+  "goles_locatario": "3",
+  "puntos_locatario": "3",
+  "Visitante": "PERRY SEXTA UNIVERSITARIO",
+  "goles_visitante": "1",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "68271",
+   "Nombre": "EMILIANO KLEIMAN",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "68219",
+   "Nombre": "FELIPE VALENTIN CANIAS",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "67220",
+   "Nombre": "FERNANDO TROSTCHANSKY",
+   "camiseta": "7",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "63971",
+   "Nombre": "DAN BRONSTEIN",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "66959",
+   "Nombre": "MATIAS RODY ALBOJER",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "63970",
+   "Nombre": "TOBIAS EIDELMAN",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "62775",
+   "Nombre": "ALAN BARILAS",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "66922",
+   "Nombre": "ALAN BENCHOA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "68409",
+   "Nombre": "SANTIAGO STEIN",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "66955",
+   "Nombre": "THIAGO BERENSTEIN",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "65775",
+   "Nombre": "FACUNDO KOLENDER",
+   "camiseta": "17",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "67663",
+   "Nombre": "NICOLAS MATEO SANTA MARIA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "68909",
+   "Nombre": "MATEO AGUSTIN RODRIGUEZ",
+   "camiseta": "51",
+   "Capitan": ""
+  },
+  {
+   "carne": "65998",
+   "Nombre": "LIAN SUAREZ",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "68076",
+   "Nombre": "DAMIAN EZEQUIEL NASTASI",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "65755",
+   "Nombre": "LAUTARO EZEQUIEL VELAZQUEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "68087",
+   "Nombre": "NAHUEL EZEQUIEL ALFONSO",
+   "camiseta": "99",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "68086",
+   "Nombre": "EZEQUIEL RODRIGUEZ",
+   "camiseta": "52",
+   "Capitan": ""
+  },
+  {
+   "carne": "67659",
+   "Nombre": "MARTIN MAGALLANES",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "68185",
+   "Nombre": "LUCIANO CASTRO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "68910",
+   "Nombre": "ARAGON EZEQUIEL APARICIO",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "68813",
+   "Nombre": "THIAGO FRANCOIS ALFONSO",
+   "camiseta": "53",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "66955",
+   "Jug_Sale": "THIAGO BERENSTEIN",
+   "CarneEntra": "66960",
+   "Jug_Entra": "FEDERICO GYURCSEK",
+   "camiseta": "80",
+   "minutos": "75"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "68813",
+   "Jug_Sale": "THIAGO FRANCOIS ALFONSO",
+   "CarneEntra": "64466",
+   "Jug_Entra": "BENSHAMIN DA ROSA",
+   "camiseta": "42",
+   "minutos": "40"
+  },
+  {
+   "CarneSale": "67659",
+   "Jug_Sale": "MARTIN MAGALLANES",
+   "CarneEntra": "68077",
+   "Jug_Entra": "FRANCO BELLINI",
+   "camiseta": "6",
+   "minutos": "40"
+  },
+  {
+   "CarneSale": "68910",
+   "Jug_Sale": "ARAGON EZEQUIEL APARICIO",
+   "CarneEntra": "68082",
+   "Jug_Entra": "RAMIRO MARTIN SILVA",
+   "camiseta": "8",
+   "minutos": "48"
+  },
+  {
+   "CarneSale": "68086",
+   "Jug_Sale": "EZEQUIEL RODRIGUEZ",
+   "CarneEntra": "68085",
+   "Jug_Entra": "ZIRALDO TECHERA",
+   "camiseta": "17",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "68082",
+   "Jug_Sale": "RAMIRO MARTIN SILVA",
+   "CarneEntra": "69124",
+   "Jug_Entra": "FACUNDO MARTIN VARELA",
+   "camiseta": "50",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "68185",
+   "Jug_Sale": "LUCIANO CASTRO",
+   "CarneEntra": "68813",
+   "Jug_Entra": "THIAGO FRANCOIS ALFONSO",
+   "camiseta": "53",
+   "minutos": "74"
+  },
+  {
+   "CarneSale": "64466",
+   "Jug_Sale": "BENSHAMIN DA ROSA",
+   "CarneEntra": "68910",
+   "Jug_Entra": "ARAGON EZEQUIEL APARICIO",
+   "camiseta": "19",
+   "minutos": "79"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "65775",
+   "Nombre": "FACUNDO KOLENDER",
+   "minutos": "15",
+   "EnContra": "0"
+  },
+  {
+   "carne": "65775",
+   "Nombre": "FACUNDO KOLENDER",
+   "minutos": "25",
+   "EnContra": "0"
+  },
+  {
+   "carne": "65775",
+   "Nombre": "FACUNDO KOLENDER",
+   "minutos": "70",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "68076",
+   "Nombre": "DAMIAN EZEQUIEL NASTASI",
+   "minutos": "37",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

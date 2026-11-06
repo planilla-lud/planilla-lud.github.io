@@ -4331,19 +4331,6 @@
  {
   "tipo": "automatica",
   "fecha": "2026-10-18",
-  "partido": "431",
-  "serie": "18C",
-  "carne": "66346",
-  "nombre": "FELIPE PACHECO",
-  "club": "TENIS EL PINAR",
-  "sancion": "SANCIÓN AUTOMÁTICA",
-  "fechas": 0,
-  "detalle": "F:0 - UR:0",
-  "texto": "Sanción generada automáticamente por expulsión en el partido"
- },
- {
-  "tipo": "automatica",
-  "fecha": "2026-10-18",
   "partido": "404",
   "serie": "18B",
   "carne": "66732",
@@ -4769,19 +4756,6 @@
   "fechas": 1,
   "detalle": "F:1 - UR:1",
   "texto": "Art. 135 del C.P"
- },
- {
-  "tipo": "fallo",
-  "fecha": "2026-10-29",
-  "partido": "431",
-  "serie": "18C",
-  "carne": "66346",
-  "nombre": "FELIPE PACHECO",
-  "club": "TENIS EL PINAR",
-  "sancion": "SUSPENDIDO",
-  "fechas": 3,
-  "detalle": "F:3 - UR:3",
-  "texto": "Art. 148, 146 del C.P"
  },
  {
   "tipo": "fallo",

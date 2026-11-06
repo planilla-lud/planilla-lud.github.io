@@ -1,0 +1,281 @@
+{
+ "id": "103685",
+ "categoria": "presenior-d",
+ "serie": "PSDTA",
+ "fecha": 6,
+ "fechaHora": "2026-11-05 21:00:00",
+ "cancha": "SCUOLA ITALIANA",
+ "local": "DEPORTIVO MATADERO",
+ "visitante": "SCUOLA PALERMO",
+ "gl": 1,
+ "gv": 2,
+ "detalle": {
+  "nro_partido": "942",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "PRE SENIOR",
+  "categoria": "PRE-SENIOR MASCULINO",
+  "rueda": "2",
+  "Divisional": "PRESENIOR \"D\" TIT. y ASC.",
+  "Cancha": "SCUOLA ITALIANA",
+  "Fecha_Inicio": "2026-11-05 23:00:00",
+  "Fecha_fin": "2026-11-05 23:00:00",
+  "Locatario": "DEPORTIVO MATADERO",
+  "goles_locatario": "1",
+  "puntos_locatario": "0",
+  "Visitante": "SCUOLA PALERMO",
+  "goles_visitante": "2",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "21379",
+   "Nombre": "AGUSTIN FRAGA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "28654",
+   "Nombre": "FEDERICO ISLAS",
+   "camiseta": "25",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "26930",
+   "Nombre": "ANDRES NICOLAS PALMA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "21208",
+   "Nombre": "ARTURO KEUSHKERIAN",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "19824",
+   "Nombre": "FEDERICO BRUSCHI",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "18823",
+   "Nombre": "SANTIAGO ADOLFO DIAZ",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "30561",
+   "Nombre": "FLAVIO STEFANO PALOMBO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "29431",
+   "Nombre": "FRANCISCO JORGE AGUERRE",
+   "camiseta": "90",
+   "Capitan": ""
+  },
+  {
+   "carne": "33411",
+   "Nombre": "MARTIN ASADURIAN",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "28853",
+   "Nombre": "MARCIO NICOLAS ARAUJO",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "41699",
+   "Nombre": "FEDERICO AGUSTIN CORES",
+   "camiseta": "63",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "27630",
+   "Nombre": "SANTIAGO IRIGOYEN",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "37936",
+   "Nombre": "ALEJANDRO MONETTI",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "67780",
+   "Nombre": "CRISTIAN CANOSA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "64370",
+   "Nombre": "FACUNDO ANDRADA",
+   "camiseta": "12",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "32769",
+   "Nombre": "GONZALO MATIAS AMARO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "56003",
+   "Nombre": "MARTIN DUMAS RODRIGUEZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "21647",
+   "Nombre": "HERNAN NOVICK",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "30599",
+   "Nombre": "JUAN MARTIN VEIGA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "29165",
+   "Nombre": "JOSE LUIS DUCRET",
+   "camiseta": "87",
+   "Capitan": ""
+  },
+  {
+   "carne": "31871",
+   "Nombre": "GIANCARLO RAFAEL DIPAULO",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "20987",
+   "Nombre": "MAXIMILIANO SANTIAGO",
+   "camiseta": "28",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "26930",
+   "Jug_Sale": "ANDRES NICOLAS PALMA",
+   "CarneEntra": "31617",
+   "Jug_Entra": "SANTIAGO MATO",
+   "camiseta": "22",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "18823",
+   "Jug_Sale": "SANTIAGO ADOLFO DIAZ",
+   "CarneEntra": "26923",
+   "Jug_Entra": "MATHIAS MAURENTE",
+   "camiseta": "15",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "19824",
+   "Jug_Sale": "FEDERICO BRUSCHI",
+   "CarneEntra": "62903",
+   "Jug_Entra": "PEDRO GULARTE",
+   "camiseta": "19",
+   "minutos": "74"
+  },
+  {
+   "CarneSale": "41699",
+   "Jug_Sale": "FEDERICO AGUSTIN CORES",
+   "CarneEntra": "23894",
+   "Jug_Entra": "FERNANDO JAVIER ORDOÑEZ",
+   "camiseta": "7",
+   "minutos": "74"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "56003",
+   "Jug_Sale": "MARTIN DUMAS RODRIGUEZ",
+   "CarneEntra": "62799",
+   "Jug_Entra": "BRUNO FEDERICO BARRETO",
+   "camiseta": "88",
+   "minutos": "35"
+  },
+  {
+   "CarneSale": "29165",
+   "Jug_Sale": "JOSE LUIS DUCRET",
+   "CarneEntra": "39983",
+   "Jug_Entra": "DAMIAN BARES",
+   "camiseta": "23",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67780",
+   "Jug_Sale": "CRISTIAN CANOSA",
+   "CarneEntra": "56003",
+   "Jug_Entra": "MARTIN DUMAS RODRIGUEZ",
+   "camiseta": "15",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "37936",
+   "Jug_Sale": "ALEJANDRO MONETTI",
+   "CarneEntra": "61258",
+   "Jug_Entra": "ULISES LACUESTA",
+   "camiseta": "80",
+   "minutos": "18"
+  },
+  {
+   "CarneSale": "30599",
+   "Jug_Sale": "JUAN MARTIN VEIGA",
+   "CarneEntra": "30428",
+   "Jug_Entra": "MARIANO FEDERICO LEONI",
+   "camiseta": "10",
+   "minutos": "36"
+  },
+  {
+   "CarneSale": "31871",
+   "Jug_Sale": "GIANCARLO RAFAEL DIPAULO",
+   "CarneEntra": "29694",
+   "Jug_Entra": "SANTIAGO BRUM",
+   "camiseta": "70",
+   "minutos": "85"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "33411",
+   "Nombre": "MARTIN ASADURIAN",
+   "minutos": "47",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "61258",
+   "Nombre": "ULISES LACUESTA",
+   "minutos": "68",
+   "EnContra": "1"
+  },
+  {
+   "carne": "67780",
+   "Nombre": "CRISTIAN CANOSA",
+   "minutos": "43",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "FEDERICO ISLAS",
+   "observaciones": ""
+  }
+ ],
+ "expulsadosV": []
+}

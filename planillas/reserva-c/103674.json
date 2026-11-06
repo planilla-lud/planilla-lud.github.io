@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"C\" PER. y DESC.",
   "Cancha": "ST. BRENDANS",
-  "Fecha_Inicio": "2026-11-05 22:00:00",
-  "Fecha_fin": "2026-11-05 22:00:00",
+  "Fecha_Inicio": "2026-11-05 22:30:00",
+  "Fecha_fin": "2026-11-05 22:30:00",
   "Locatario": "WANDERERS",
   "goles_locatario": "2",
   "puntos_locatario": "3",
@@ -29,12 +29,264 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "57434",
+   "Nombre": "GONZALO ANDRES SANGUINETTI",
+   "camiseta": "82",
+   "Capitan": ""
+  },
+  {
+   "carne": "55367",
+   "Nombre": "LEOPOLDO RIVA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "44673",
+   "Nombre": "SANTIAGO ISAIAS SOLE",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "45274",
+   "Nombre": "ALEJANDRO GABRIEL MORALES",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "68863",
+   "Nombre": "VALENTIN RIVERO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "43616",
+   "Nombre": "SANTIAGO VEGLIO",
+   "camiseta": "8",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56585",
+   "Nombre": "TADEO IBAÑEZ",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "68421",
+   "Nombre": "RINO CASTRO",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "46318",
+   "Nombre": "FACUNDO DEBENEDETTI",
+   "camiseta": "92",
+   "Capitan": ""
+  },
+  {
+   "carne": "56589",
+   "Nombre": "DARIO EMANUEL ARCHONDO",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "61865",
+   "Nombre": "NAZARENO PINTOS",
+   "camiseta": "31",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "21036",
+   "Nombre": "JUAN AGUSTIN MURIAS",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "55605",
+   "Nombre": "BAUTISTA PARODI",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "41985",
+   "Nombre": "PABLO ANDRES GINARD",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "49150",
+   "Nombre": "GASTON SCHMIDT",
+   "camiseta": "2",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56688",
+   "Nombre": "TOMAS PASSADORE",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "51067",
+   "Nombre": "MARTIN GAUDIO",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "64017",
+   "Nombre": "JUAN IGNACIO MENENDEZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "60013",
+   "Nombre": "JOAQUIN DI CAPRIO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "55930",
+   "Nombre": "BRYAN EZEQUIEL GIOVINAZZO",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "51443",
+   "Nombre": "MATEO DAVID BONIFACIO",
+   "camiseta": "92",
+   "Capitan": ""
+  },
+  {
+   "carne": "51174",
+   "Nombre": "LUCA MAXIMO AGGIO",
+   "camiseta": "15",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "56589",
+   "Jug_Sale": "DARIO EMANUEL ARCHONDO",
+   "CarneEntra": "55365",
+   "Jug_Entra": "IGNACIO MANUEL MALLO",
+   "camiseta": "30",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56585",
+   "Jug_Sale": "TADEO IBAÑEZ",
+   "CarneEntra": "68676",
+   "Jug_Entra": "JOAQUIN NICOLAS REZZANO",
+   "camiseta": "66",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "45274",
+   "Jug_Sale": "ALEJANDRO GABRIEL MORALES",
+   "CarneEntra": "66607",
+   "Jug_Entra": "ALEXIS COLO",
+   "camiseta": "88",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "46318",
+   "Jug_Sale": "FACUNDO DEBENEDETTI",
+   "CarneEntra": "51001",
+   "Jug_Entra": "FELIPE PEREZ",
+   "camiseta": "4",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "61865",
+   "Jug_Sale": "NAZARENO PINTOS",
+   "CarneEntra": "55308",
+   "Jug_Entra": "JUAN MARTIN MALDONADO",
+   "camiseta": "15",
+   "minutos": "81"
+  },
+  {
+   "CarneSale": "55367",
+   "Jug_Sale": "LEOPOLDO RIVA",
+   "CarneEntra": "66824",
+   "Jug_Entra": "GABRIEL HERNANDEZ",
+   "camiseta": "60",
+   "minutos": "81"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "55605",
+   "Jug_Sale": "BAUTISTA PARODI",
+   "CarneEntra": "55434",
+   "Jug_Entra": "DIEGO TOURON",
+   "camiseta": "7",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "51443",
+   "Jug_Sale": "MATEO DAVID BONIFACIO",
+   "CarneEntra": "53390",
+   "Jug_Entra": "JUAN MANUEL ECHEVERRY",
+   "camiseta": "5",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "55930",
+   "Jug_Sale": "BRYAN EZEQUIEL GIOVINAZZO",
+   "CarneEntra": "53397",
+   "Jug_Entra": "ELIAS GOMOLINSKY",
+   "camiseta": "29",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "51067",
+   "Jug_Sale": "MARTIN GAUDIO",
+   "CarneEntra": "53398",
+   "Jug_Entra": "MARTINO RAIMONDO",
+   "camiseta": "43",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "51067",
+   "Jug_Sale": "MARTIN GAUDIO",
+   "CarneEntra": "55708",
+   "Jug_Entra": "GONZALO BARTESAGHI",
+   "camiseta": "22",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "51174",
+   "Jug_Sale": "LUCA MAXIMO AGGIO",
+   "CarneEntra": "53395",
+   "Jug_Entra": "MAURO MASENA",
+   "camiseta": "11",
+   "minutos": "73"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "68676",
+   "Nombre": "JOAQUIN NICOLAS REZZANO",
+   "minutos": "54",
+   "EnContra": "0"
+  },
+  {
+   "carne": "68676",
+   "Nombre": "JOAQUIN NICOLAS REZZANO",
+   "minutos": "90",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "41985",
+   "Nombre": "PABLO ANDRES GINARD",
+   "minutos": "17",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

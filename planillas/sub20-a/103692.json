@@ -1,0 +1,312 @@
+{
+ "id": "103692",
+ "categoria": "sub20-a",
+ "serie": "20APD",
+ "fecha": 6,
+ "fechaHora": "2026-10-31 15:30:00",
+ "cancha": "COMPLEJO LOS CARDALES",
+ "local": "SAN JUAN BAUTISTA",
+ "visitante": "TENIS EL PINAR",
+ "gl": 0,
+ "gv": 5,
+ "detalle": {
+  "nro_partido": "410",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "2",
+  "Divisional": "SUB20 \"A\" PERM. y DESC.",
+  "Cancha": "COMPLEJO LOS CARDALES",
+  "Fecha_Inicio": "2026-10-31 17:30:00",
+  "Fecha_fin": "2026-10-31 17:30:00",
+  "Locatario": "SAN JUAN BAUTISTA",
+  "goles_locatario": "0",
+  "puntos_locatario": "0",
+  "Visitante": "TENIS EL PINAR",
+  "goles_visitante": "5",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "59094",
+   "Nombre": "SEBASTIAN CHAPPER",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "61871",
+   "Nombre": "FRANCO DI GIOVANNI",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "59224",
+   "Nombre": "MATIAS LEMBO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "61182",
+   "Nombre": "LUCAS CANOSA",
+   "camiseta": "81",
+   "Capitan": ""
+  },
+  {
+   "carne": "57785",
+   "Nombre": "JUAN CAPPELLINI",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "64195",
+   "Nombre": "CAMILO CHIAPPARA",
+   "camiseta": "75",
+   "Capitan": ""
+  },
+  {
+   "carne": "59102",
+   "Nombre": "AGUSTIN CAZET",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "58908",
+   "Nombre": "MANUEL PONS",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "61694",
+   "Nombre": "SANTIAGO RIOS",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "59100",
+   "Nombre": "VALENTINO PIERI",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "57840",
+   "Nombre": "DIEGO BIDEGAIN",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "56185",
+   "Nombre": "JUAN ANDRES BAYARDI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "64786",
+   "Nombre": "THIAGO  DANILO SOUTO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "56831",
+   "Nombre": "JUAN MARTIN ABO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "56834",
+   "Nombre": "JOAQUIN QUINTANA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "54596",
+   "Nombre": "HERNAN FERNANDEZ",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "56164",
+   "Nombre": "GUZMAN COSTEMALLE",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "66599",
+   "Nombre": "FACUNDO ALVAREZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "54831",
+   "Nombre": "JOAQUÌN GOLDARACENA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "67917",
+   "Nombre": "SANTIAGO CASTRO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "58654",
+   "Nombre": "MATIAS NICOLAS BARRIOS",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "56188",
+   "Nombre": "THIAGO NAHUEL ROLAND",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "57785",
+   "Jug_Sale": "JUAN CAPPELLINI",
+   "CarneEntra": "59596",
+   "Jug_Entra": "JOAQUIN PEREDA",
+   "camiseta": "4",
+   "minutos": "51"
+  },
+  {
+   "CarneSale": "59102",
+   "Jug_Sale": "AGUSTIN CAZET",
+   "CarneEntra": "63242",
+   "Jug_Entra": "VLADIMIR CASTRO",
+   "camiseta": "80",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "61694",
+   "Jug_Sale": "SANTIAGO RIOS",
+   "CarneEntra": "57231",
+   "Jug_Entra": "EMILIANO IFER",
+   "camiseta": "17",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "61182",
+   "Jug_Sale": "LUCAS CANOSA",
+   "CarneEntra": "59103",
+   "Jug_Entra": "MATEO AGUSTIN PETILLO",
+   "camiseta": "6",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "57840",
+   "Jug_Sale": "DIEGO BIDEGAIN",
+   "CarneEntra": "65258",
+   "Jug_Entra": "GASTON OMAR VANNI",
+   "camiseta": "99",
+   "minutos": "75"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "58654",
+   "Jug_Sale": "MATIAS NICOLAS BARRIOS",
+   "CarneEntra": "62853",
+   "Jug_Entra": "GUILLERMO BAROFFIO",
+   "camiseta": "26",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "56188",
+   "Jug_Sale": "THIAGO NAHUEL ROLAND",
+   "CarneEntra": "64246",
+   "Jug_Entra": "FELIPE RAFFETTO",
+   "camiseta": "12",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "64786",
+   "Jug_Sale": "THIAGO  DANILO SOUTO",
+   "CarneEntra": "61625",
+   "Jug_Entra": "FACUNDO GOLDARACENA",
+   "camiseta": "13",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "54831",
+   "Jug_Sale": "JOAQUÌN GOLDARACENA",
+   "CarneEntra": "66515",
+   "Jug_Entra": "FELIPE ANTONIO REGUEIRO",
+   "camiseta": "15",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "67917",
+   "Jug_Sale": "SANTIAGO CASTRO",
+   "CarneEntra": "68569",
+   "Jug_Entra": "JUAN PEDRO PANASCO",
+   "camiseta": "18",
+   "minutos": "88"
+  },
+  {
+   "CarneSale": "66599",
+   "Jug_Sale": "FACUNDO ALVAREZ",
+   "CarneEntra": "60339",
+   "Jug_Entra": "MATEO LACO",
+   "camiseta": "14",
+   "minutos": "88"
+  },
+  {
+   "CarneSale": "56164",
+   "Jug_Sale": "GUZMAN COSTEMALLE",
+   "CarneEntra": "54594",
+   "Jug_Entra": "JUAN DIEGO ZORRILLA DE SAN M",
+   "camiseta": "74",
+   "minutos": "88"
+  }
+ ],
+ "golesL": [],
+ "golesV": [
+  {
+   "carne": "56188",
+   "Nombre": "THIAGO NAHUEL ROLAND",
+   "minutos": "60",
+   "EnContra": "1"
+  },
+  {
+   "carne": "56188",
+   "Nombre": "THIAGO NAHUEL ROLAND",
+   "minutos": "75",
+   "EnContra": "1"
+  },
+  {
+   "carne": "64786",
+   "Nombre": "THIAGO  DANILO SOUTO",
+   "minutos": "1",
+   "EnContra": "1"
+  },
+  {
+   "carne": "64786",
+   "Nombre": "THIAGO  DANILO SOUTO",
+   "minutos": "65",
+   "EnContra": "1"
+  },
+  {
+   "carne": "64786",
+   "Nombre": "THIAGO  DANILO SOUTO",
+   "minutos": "64",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "FRANCO DI GIOVANNI",
+   "observaciones": ""
+  },
+  {
+   "Nombre": "MATIAS LEMBO",
+   "observaciones": ""
+  }
+ ],
+ "expulsadosV": []
+}

@@ -1,0 +1,288 @@
+{
+ "id": "103688",
+ "categoria": "mayores-c",
+ "serie": "CTA",
+ "fecha": 7,
+ "fechaHora": "2026-11-05 21:00:00",
+ "cancha": "CAMPO DEP. COLEGIO INGLES",
+ "local": "LA BLANQUEADA",
+ "visitante": "COLEGIO Y LICEO INGLES",
+ "gl": 2,
+ "gv": 3,
+ "detalle": {
+  "nro_partido": "977",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "MAYORES",
+  "categoria": "MAYORES MASCULINO",
+  "rueda": "2",
+  "Divisional": "MAYORES \"C\" TIT. y ASC.",
+  "Cancha": "CAMPO DEP. COLEGIO INGLES",
+  "Fecha_Inicio": "2026-11-05 23:00:00",
+  "Fecha_fin": "2026-11-05 23:00:00",
+  "Locatario": "LA BLANQUEADA",
+  "goles_locatario": "2",
+  "puntos_locatario": "0",
+  "Visitante": "COLEGIO Y LICEO INGLES",
+  "goles_visitante": "3",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "23480",
+   "Nombre": "IGNACIO GASTON BIDEGAIN",
+   "camiseta": "17",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "49882",
+   "Nombre": "ALEJANDRO IGNACIO PEYRE",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "48353",
+   "Nombre": "TOMAS ARAMENDI",
+   "camiseta": "51",
+   "Capitan": ""
+  },
+  {
+   "carne": "38912",
+   "Nombre": "CESAR LUIS PIEDRABUENA",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "51477",
+   "Nombre": "VICTOR VIERA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "48515",
+   "Nombre": "KEVIN NICOLAS HERVADA",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "54134",
+   "Nombre": "MARTIN CORTINAS",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "51381",
+   "Nombre": "DIEGO MARTIN SUAREZ",
+   "camiseta": "36",
+   "Capitan": ""
+  },
+  {
+   "carne": "35220",
+   "Nombre": "LUCIANO LOPEZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "41360",
+   "Nombre": "JUAN IGNACIO OLIVERA",
+   "camiseta": "37",
+   "Capitan": ""
+  },
+  {
+   "carne": "56437",
+   "Nombre": "FEDERICO PAOLINO",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "44112",
+   "Nombre": "FRANCO RUSSO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "37162",
+   "Nombre": "VALENTIN VAZQUEZ",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "49834",
+   "Nombre": "FEDERICO GALUSSO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "45570",
+   "Nombre": "PEDRO MILAT",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "46109",
+   "Nombre": "JOAQUIN REBUFFO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "56019",
+   "Nombre": "JUAN MANUEL BAZZINO",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "46227",
+   "Nombre": "JOAQUIN MUÑOZ",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "39141",
+   "Nombre": "GASTON BURGHI",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "59398",
+   "Nombre": "ALFONSO IBARRA",
+   "camiseta": "75",
+   "Capitan": ""
+  },
+  {
+   "carne": "47635",
+   "Nombre": "MATEO BURGHI",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "45992",
+   "Nombre": "SANTIAGO CAUBARRERE",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "48353",
+   "Jug_Sale": "TOMAS ARAMENDI",
+   "CarneEntra": "51528",
+   "Jug_Entra": "CARLOS ALFREDO DUARTE",
+   "camiseta": "20",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "41360",
+   "Jug_Sale": "JUAN IGNACIO OLIVERA",
+   "CarneEntra": "61296",
+   "Jug_Entra": "JOAQUIN LUCIANO NUÑEZ",
+   "camiseta": "29",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56437",
+   "Jug_Sale": "FEDERICO PAOLINO",
+   "CarneEntra": "54922",
+   "Jug_Entra": "FABIAN ANDRE IRISARRI",
+   "camiseta": "7",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "51477",
+   "Jug_Sale": "VICTOR VIERA",
+   "CarneEntra": "55234",
+   "Jug_Entra": "LUCAS DO VALLE PEIXOTO",
+   "camiseta": "22",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "49882",
+   "Jug_Sale": "ALEJANDRO IGNACIO PEYRE",
+   "CarneEntra": "33639",
+   "Jug_Entra": "RICARDO ANDRES BAYARDI",
+   "camiseta": "12",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "51381",
+   "Jug_Sale": "DIEGO MARTIN SUAREZ",
+   "CarneEntra": "41360",
+   "Jug_Entra": "JUAN IGNACIO OLIVERA",
+   "camiseta": "37",
+   "minutos": "59"
+  },
+  {
+   "CarneSale": "54134",
+   "Jug_Sale": "MARTIN CORTINAS",
+   "CarneEntra": "51477",
+   "Jug_Entra": "VICTOR VIERA",
+   "camiseta": "85",
+   "minutos": "71"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "49834",
+   "Jug_Sale": "FEDERICO GALUSSO",
+   "CarneEntra": "53131",
+   "Jug_Entra": "JUAN CRUZ CAFFERATTA",
+   "camiseta": "61",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "59398",
+   "Jug_Sale": "ALFONSO IBARRA",
+   "CarneEntra": "49342",
+   "Jug_Entra": "MATEO JOAQUIN FERNANDEZ",
+   "camiseta": "44",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "46227",
+   "Jug_Sale": "JOAQUIN MUÑOZ",
+   "CarneEntra": "47463",
+   "Jug_Entra": "AGUSTIN ONETTO",
+   "camiseta": "12",
+   "minutos": "93"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "48515",
+   "Nombre": "KEVIN NICOLAS HERVADA",
+   "minutos": "50",
+   "EnContra": "0"
+  },
+  {
+   "carne": "55234",
+   "Nombre": "LUCAS DO VALLE PEIXOTO",
+   "minutos": "57",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "47635",
+   "Nombre": "MATEO BURGHI",
+   "minutos": "35",
+   "EnContra": "1"
+  },
+  {
+   "carne": "47635",
+   "Nombre": "MATEO BURGHI",
+   "minutos": "38",
+   "EnContra": "1"
+  },
+  {
+   "carne": "59398",
+   "Nombre": "ALFONSO IBARRA",
+   "minutos": "26",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

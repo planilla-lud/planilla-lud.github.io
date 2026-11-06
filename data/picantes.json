@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-06T17:58:07.679Z",
+ "actualizado": "2026-11-06T23:46:57.207Z",
  "partidos": [
   {
    "div": "mayores-a",
@@ -17,6 +17,23 @@
    "tipo": "titulo",
    "altasL": 1,
    "altasV": 0
+  },
+  {
+   "div": "sub20-a",
+   "divNombre": "Sub 20 A",
+   "k": "Náutico~San Juan Bautista",
+   "l": "Náutico",
+   "v": "San Juan Bautista",
+   "dia": "2026-11-07",
+   "hora": "15:30",
+   "etapa": "Permanencia",
+   "pl": 8,
+   "pv": 7,
+   "n": 8,
+   "base": 8,
+   "tipo": "descenso",
+   "altasL": 0,
+   "altasV": 4
   },
   {
    "div": "reserva-a",
@@ -51,23 +68,6 @@
    "tipo": "descenso",
    "altasL": 1,
    "altasV": 1
-  },
-  {
-   "div": "sub20-a",
-   "divNombre": "Sub 20 A",
-   "k": "Náutico~San Juan Bautista",
-   "l": "Náutico",
-   "v": "San Juan Bautista",
-   "dia": "2026-11-07",
-   "hora": "15:30",
-   "etapa": "Permanencia",
-   "pl": 7,
-   "pv": 6,
-   "n": 8,
-   "base": 8,
-   "tipo": "descenso",
-   "altasL": 1,
-   "altasV": 5
   },
   {
    "div": "sub20-a",
@@ -153,23 +153,6 @@
    "tipo": "titulo",
    "altasL": 2,
    "altasV": 0
-  },
-  {
-   "div": "mayores-c",
-   "divNombre": "Mayores C",
-   "k": "Isasa Universitario~Colegio Santa Elena",
-   "l": "Isasa Universitario",
-   "v": "Colegio Santa Elena",
-   "dia": "2026-11-08",
-   "hora": "09:00",
-   "etapa": "Título y ascenso",
-   "pl": 3,
-   "pv": 1,
-   "n": 8,
-   "base": 0,
-   "tipo": "titulo",
-   "altasL": 1,
-   "altasV": 3
   },
   {
    "div": "reserva-c",
@@ -272,6 +255,23 @@
    "tipo": "descenso",
    "altasL": 1,
    "altasV": 1
+  },
+  {
+   "div": "mayores-c",
+   "divNombre": "Mayores C",
+   "k": "Isasa Universitario~Colegio Santa Elena",
+   "l": "Isasa Universitario",
+   "v": "Colegio Santa Elena",
+   "dia": "2026-11-08",
+   "hora": "09:00",
+   "etapa": "Título y ascenso",
+   "pl": 4,
+   "pv": 1,
+   "n": 8,
+   "base": 0,
+   "tipo": "titulo",
+   "altasL": 1,
+   "altasV": 3
   },
   {
    "div": "presenior-a",
@@ -424,7 +424,7 @@
    "base": 0,
    "tipo": "titulo",
    "altasL": 1,
-   "altasV": 3
+   "altasV": 1
   },
   {
    "div": "mayores-f",
@@ -442,6 +442,23 @@
    "tipo": "titulo",
    "altasL": 1,
    "altasV": 3
+  },
+  {
+   "div": "sub18-oro",
+   "divNombre": "Sub 18 Oro",
+   "k": "Seminario~Old Christians",
+   "l": "Seminario",
+   "v": "Old Christians",
+   "dia": "2026-11-08",
+   "hora": "15:30",
+   "etapa": "Copa de Oro",
+   "pl": 1,
+   "pv": 2,
+   "n": 8,
+   "base": 0,
+   "tipo": "titulo",
+   "altasL": 3,
+   "altasV": 1
   },
   {
    "div": "presenior-b",
@@ -493,23 +510,6 @@
    "tipo": "descenso",
    "altasL": 0,
    "altasV": 2
-  },
-  {
-   "div": "mayores-g",
-   "divNombre": "Mayores G",
-   "k": "Nuestra Señora De Lourdes~Familiar Universitario",
-   "l": "Nuestra Señora De Lourdes",
-   "v": "Familiar Universitario",
-   "dia": "2026-11-08",
-   "hora": "09:00",
-   "etapa": "Título y ascenso",
-   "pl": 1,
-   "pv": 2,
-   "n": 8,
-   "base": 0,
-   "tipo": "titulo",
-   "altasL": 1,
-   "altasV": 1
   }
  ]
 }

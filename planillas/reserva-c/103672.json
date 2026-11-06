@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"C\" PER. y DESC.",
   "Cancha": "CIUDAD DEPORTIVA ZONA LAB",
-  "Fecha_Inicio": "2026-11-05 22:30:00",
-  "Fecha_fin": "2026-11-05 22:30:00",
+  "Fecha_Inicio": "2026-11-05 22:55:00",
+  "Fecha_fin": "2026-11-05 22:55:00",
   "Locatario": "PEÑAROL UNIVERSITARIO",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,243 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "68431",
+   "Nombre": "ISMAEL MATIAS PALLEIRO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "51998",
+   "Nombre": "VICTOR EDUARDO FERREIRA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "68775",
+   "Nombre": "JOAQUIN ALTIVO ESTEVES",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "66630",
+   "Nombre": "FRANCISCO PEREZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "57112",
+   "Nombre": "LUCAS MATTEO ANCHETA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "68868",
+   "Nombre": "EZEQUIEL ENRIQUE LUBARA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "55028",
+   "Nombre": "JUAN RODRIGUEZ",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "66631",
+   "Nombre": "DAVID ALEJANDRO SILVA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "66691",
+   "Nombre": "BRUNO ALEXIS ARAUJO",
+   "camiseta": "23",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "61101",
+   "Nombre": "MATIAS NICOLAS GARCIA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "46778",
+   "Nombre": "FRANCO MANUEL FIGUEREDO",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "37679",
+   "Nombre": "JORGE ANTONIO PONS",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "57177",
+   "Nombre": "IGNACIO GUERRERO",
+   "camiseta": "30",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "55412",
+   "Nombre": "DIEGO OTAÑO",
+   "camiseta": "46",
+   "Capitan": ""
+  },
+  {
+   "carne": "48317",
+   "Nombre": "THIAGO DA SILVA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "39680",
+   "Nombre": "FELIX ANDRES FORASTIER",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "64351",
+   "Nombre": "BRUNO SIMON",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "54928",
+   "Nombre": "ISMAEL IMPERIAL",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "55052",
+   "Nombre": "AGUSTIN RODRIGUEZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "51082",
+   "Nombre": "IGNACIO LUIS JAUNSOLO",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "69059",
+   "Nombre": "JAIME RUIZ",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "52654",
+   "Nombre": "CRISTHIAN ALEXANDER TABEIRA",
+   "camiseta": "21",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "66631",
+   "Jug_Sale": "DAVID ALEJANDRO SILVA",
+   "CarneEntra": "51755",
+   "Jug_Entra": "IGNACIO BARRALES",
+   "camiseta": "5",
+   "minutos": "24"
+  },
+  {
+   "CarneSale": "51755",
+   "Jug_Sale": "IGNACIO BARRALES",
+   "CarneEntra": "68897",
+   "Jug_Entra": "MATHIAS ANDRES LOPEZ",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "55028",
+   "Jug_Sale": "JUAN RODRIGUEZ",
+   "CarneEntra": "64480",
+   "Jug_Entra": "MAXIMO FABRICIO NIEVAS",
+   "camiseta": "3",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68775",
+   "Jug_Sale": "JOAQUIN ALTIVO ESTEVES",
+   "CarneEntra": "55028",
+   "Jug_Entra": "JUAN RODRIGUEZ",
+   "camiseta": "30",
+   "minutos": "65"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "52654",
+   "Jug_Sale": "CRISTHIAN ALEXANDER TABEIRA",
+   "CarneEntra": "42774",
+   "Jug_Entra": "LUIS ESTEBAN FERMER",
+   "camiseta": "12",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "55052",
+   "Jug_Sale": "AGUSTIN RODRIGUEZ",
+   "CarneEntra": "56571",
+   "Jug_Entra": "SANTIAGO GUSTAVO ALVAREZ",
+   "camiseta": "36",
+   "minutos": "50"
+  },
+  {
+   "CarneSale": "69059",
+   "Jug_Sale": "JAIME RUIZ",
+   "CarneEntra": "39900",
+   "Jug_Entra": "BRUNO BRUZZONE",
+   "camiseta": "11",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "51082",
+   "Jug_Sale": "IGNACIO LUIS JAUNSOLO",
+   "CarneEntra": "66777",
+   "Jug_Entra": "SANTIAGO DAVRIEUX",
+   "camiseta": "17",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "54928",
+   "Jug_Sale": "ISMAEL IMPERIAL",
+   "CarneEntra": "54090",
+   "Jug_Entra": "HERNAN ARIEL CAÑETE",
+   "camiseta": "8",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "55412",
+   "Jug_Sale": "DIEGO OTAÑO",
+   "CarneEntra": "51090",
+   "Jug_Entra": "JUAN IGNACIO RUSSO",
+   "camiseta": "7",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "48317",
+   "Jug_Sale": "THIAGO DA SILVA",
+   "CarneEntra": "51208",
+   "Jug_Entra": "JOAQUIN ALFONSO BECERRA",
+   "camiseta": "80",
+   "minutos": "88"
+  }
+ ],
  "golesL": [],
- "golesV": [],
+ "golesV": [
+  {
+   "carne": "48317",
+   "Nombre": "THIAGO DA SILVA",
+   "minutos": "73",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

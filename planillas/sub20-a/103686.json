@@ -1,0 +1,258 @@
+{
+ "id": "103686",
+ "categoria": "sub20-a",
+ "serie": "20APD",
+ "fecha": 6,
+ "fechaHora": "2026-11-05 20:00:00",
+ "cancha": "COMP. DEVOTO (NAUT. PICHINCHA)",
+ "local": "NAUTICO CARRASCO Y PUNTA GORDA",
+ "visitante": "PLAYA HONDA UNIVERSITARIO",
+ "gl": 0,
+ "gv": 2,
+ "detalle": {
+  "nro_partido": "409",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "2",
+  "Divisional": "SUB20 \"A\" PERM. y DESC.",
+  "Cancha": "COMP. DEVOTO (NAUT. PICHINCHA)",
+  "Fecha_Inicio": "2026-11-05 21:54:00",
+  "Fecha_fin": "2026-11-05 21:54:00",
+  "Locatario": "NAUTICO CARRASCO Y PUNTA GORDA",
+  "goles_locatario": "0",
+  "puntos_locatario": "0",
+  "Visitante": "PLAYA HONDA UNIVERSITARIO",
+  "goles_visitante": "2",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "56966",
+   "Nombre": "MARTIN GOMEZ",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "54736",
+   "Nombre": "HERNAN DE FREITAS",
+   "camiseta": "67",
+   "Capitan": ""
+  },
+  {
+   "carne": "56547",
+   "Nombre": "JUAN FRANCISCO PEREIRO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "68685",
+   "Nombre": "BRUNO ALVAREZ",
+   "camiseta": "93",
+   "Capitan": ""
+  },
+  {
+   "carne": "57996",
+   "Nombre": "FRNCISCO GUZMAN BICA",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "59547",
+   "Nombre": "FEDERICO MARTINEZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "59549",
+   "Nombre": "SANTIAGO MARTINEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "51094",
+   "Nombre": "DAMIAN ALMIRON",
+   "camiseta": "86",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "60443",
+   "Nombre": "SANTINO ABBATE",
+   "camiseta": "82",
+   "Capitan": ""
+  },
+  {
+   "carne": "57690",
+   "Nombre": "JUAN PABLO ROCHE",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "67319",
+   "Nombre": "FACUNDO LAPROVITERA",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "52916",
+   "Nombre": "GUZMAN ESTOUP",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "58934",
+   "Nombre": "IGNACIO AGUIAR",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "69184",
+   "Nombre": "SANTINO JOSUE VELAZQUEZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "58940",
+   "Nombre": "MARTIN LANGONE",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "57053",
+   "Nombre": "JUAN MATTOS",
+   "camiseta": "70",
+   "Capitan": ""
+  },
+  {
+   "carne": "56235",
+   "Nombre": "MANUEL SEBASTIAN BURGOS",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "58540",
+   "Nombre": "TOMAS BERTINAT",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "67537",
+   "Nombre": "BAUTISTA GARRE",
+   "camiseta": "38",
+   "Capitan": ""
+  },
+  {
+   "carne": "57776",
+   "Nombre": "EMILIANO DIAZ",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "62024",
+   "Nombre": "JUAN MANUEL BOCCHI",
+   "camiseta": "41",
+   "Capitan": ""
+  },
+  {
+   "carne": "66242",
+   "Nombre": "JUAN MANUEL RIVAS",
+   "camiseta": "50",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "54736",
+   "Jug_Sale": "HERNAN DE FREITAS",
+   "CarneEntra": "57720",
+   "Jug_Entra": "FELIPE GALLO",
+   "camiseta": "14",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "60443",
+   "Jug_Sale": "SANTINO ABBATE",
+   "CarneEntra": "61249",
+   "Jug_Entra": "AGUSTIN PALOMINO",
+   "camiseta": "13",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "67319",
+   "Jug_Sale": "FACUNDO LAPROVITERA",
+   "CarneEntra": "60967",
+   "Jug_Entra": "JUAN FRANCISCO ARRETCHE",
+   "camiseta": "11",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "51094",
+   "Jug_Sale": "DAMIAN ALMIRON",
+   "CarneEntra": "65858",
+   "Jug_Entra": "DYLAN JOAQUIN PITTAMEGLIO",
+   "camiseta": "69",
+   "minutos": "82"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "67537",
+   "Jug_Sale": "BAUTISTA GARRE",
+   "CarneEntra": "59931",
+   "Jug_Entra": "JUAN MANUEL TOUYA",
+   "camiseta": "4",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "57776",
+   "Jug_Sale": "EMILIANO DIAZ",
+   "CarneEntra": "62051",
+   "Jug_Entra": "LUCA MORALES",
+   "camiseta": "26",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "66242",
+   "Jug_Sale": "JUAN MANUEL RIVAS",
+   "CarneEntra": "62052",
+   "Jug_Entra": "MANUEL MOREIRA",
+   "camiseta": "28",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "58934",
+   "Jug_Sale": "IGNACIO AGUIAR",
+   "CarneEntra": "67537",
+   "Jug_Entra": "BAUTISTA GARRE",
+   "camiseta": "38",
+   "minutos": "95"
+  }
+ ],
+ "golesL": [],
+ "golesV": [
+  {
+   "carne": "58934",
+   "Nombre": "IGNACIO AGUIAR",
+   "minutos": "41",
+   "EnContra": "1"
+  },
+  {
+   "carne": "66242",
+   "Nombre": "JUAN MANUEL RIVAS",
+   "minutos": "9",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": [
+  {
+   "Nombre": "JUAN MATTOS",
+   "observaciones": ""
+  }
+ ]
+}

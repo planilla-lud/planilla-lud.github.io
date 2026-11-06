@@ -1,0 +1,301 @@
+{
+ "id": "103689",
+ "categoria": "mayores-d",
+ "serie": "DTA",
+ "fecha": 7,
+ "fechaHora": "2026-11-05 21:00:00",
+ "cancha": "CIUDAD DEPORTIVA LS",
+ "local": "YAGUARI",
+ "visitante": "DEPORTIVO LS UNIVERSITARIO",
+ "gl": 0,
+ "gv": 2,
+ "detalle": {
+  "nro_partido": "1035",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "MAYORES",
+  "categoria": "MAYORES MASCULINO",
+  "rueda": "2",
+  "Divisional": "MAYORES \"D\" TIT. y ASC.",
+  "Cancha": "CIUDAD DEPORTIVA LS",
+  "Fecha_Inicio": "2026-11-05 22:50:00",
+  "Fecha_fin": "2026-11-05 22:50:00",
+  "Locatario": "YAGUARI",
+  "goles_locatario": "0",
+  "puntos_locatario": "0",
+  "Visitante": "DEPORTIVO LS UNIVERSITARIO",
+  "goles_visitante": "2",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "45647",
+   "Nombre": "FEDERICO ROCCO",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "39047",
+   "Nombre": "MAXIMILIANO ALEXIS ROSE",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "39046",
+   "Nombre": "RAFAEL FERREIRA",
+   "camiseta": "28",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "51070",
+   "Nombre": "NICOLAS MARCELO PALERMO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "52482",
+   "Nombre": "JUAN AGUSTIN CARBONE",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "31503",
+   "Nombre": "SANTIAGO GALLINAL",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "30116",
+   "Nombre": "JUAN PEDRO CAVIGLIA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "37406",
+   "Nombre": "NICOLAS VARESE",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "55079",
+   "Nombre": "EMILIANO CARDOZO",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "51078",
+   "Nombre": "FRANCISCO AMOZA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "28114",
+   "Nombre": "SEBASTIAN EASTMAN",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "44677",
+   "Nombre": "CARLOS FACUNDO MORENO",
+   "camiseta": "12",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "65354",
+   "Nombre": "JULIAN COHENAR",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "69130",
+   "Nombre": "JUAN IGNACIO RODRIGUEZ",
+   "camiseta": "36",
+   "Capitan": ""
+  },
+  {
+   "carne": "45466",
+   "Nombre": "AGUSTIN CALABUIG",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "59389",
+   "Nombre": "RODRIGO GERMAN FERNANDEZ",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "63846",
+   "Nombre": "JUAN GONZALO JIMENEZ",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "66727",
+   "Nombre": "DIEGO JAVIER MONTIGLIO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "57072",
+   "Nombre": "ANGELO GIOVANNI OTTONELLO",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "31995",
+   "Nombre": "JORGE IGNACIO DIAZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "43621",
+   "Nombre": "DIEGO MARTIN BOUZAS",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "54846",
+   "Nombre": "JUAN IGNACIO VAZ",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "28114",
+   "Jug_Sale": "SEBASTIAN EASTMAN",
+   "CarneEntra": "68653",
+   "Jug_Entra": "CARLOS CABALLERO",
+   "camiseta": "99",
+   "minutos": "36"
+  },
+  {
+   "CarneSale": "51078",
+   "Jug_Sale": "FRANCISCO AMOZA",
+   "CarneEntra": "39438",
+   "Jug_Entra": "MARTIN FONT",
+   "camiseta": "2",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "30116",
+   "Jug_Sale": "JUAN PEDRO CAVIGLIA",
+   "CarneEntra": "34284",
+   "Jug_Entra": "NICOLAS MAXILIANO VAZQUEZ",
+   "camiseta": "22",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "45647",
+   "Jug_Sale": "FEDERICO ROCCO",
+   "CarneEntra": "39264",
+   "Jug_Entra": "BRUNO MARTINEZ",
+   "camiseta": "32",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "39047",
+   "Jug_Sale": "MAXIMILIANO ALEXIS ROSE",
+   "CarneEntra": "64265",
+   "Jug_Entra": "DIEGO CALLEROS",
+   "camiseta": "70",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "37406",
+   "Jug_Sale": "NICOLAS VARESE",
+   "CarneEntra": "39081",
+   "Jug_Entra": "IGNACIO EASTMAN",
+   "camiseta": "44",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "31503",
+   "Jug_Sale": "SANTIAGO GALLINAL",
+   "CarneEntra": "55076",
+   "Jug_Entra": "SIMON RUSSI",
+   "camiseta": "47",
+   "minutos": "75"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "57072",
+   "Jug_Sale": "ANGELO GIOVANNI OTTONELLO",
+   "CarneEntra": "65879",
+   "Jug_Entra": "NAHUEL OLIVETTO",
+   "camiseta": "6",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "63846",
+   "Jug_Sale": "JUAN GONZALO JIMENEZ",
+   "CarneEntra": "64768",
+   "Jug_Entra": "DIEGO ANDRES PERDOMO",
+   "camiseta": "13",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66727",
+   "Jug_Sale": "DIEGO JAVIER MONTIGLIO",
+   "CarneEntra": "57829",
+   "Jug_Entra": "FRANCO ALESSANDRO BARROSO",
+   "camiseta": "32",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "43621",
+   "Jug_Sale": "DIEGO MARTIN BOUZAS",
+   "CarneEntra": "59766",
+   "Jug_Entra": "JOSE ANDRES MARQUEZ",
+   "camiseta": "30",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "31995",
+   "Jug_Sale": "JORGE IGNACIO DIAZ",
+   "CarneEntra": "50237",
+   "Jug_Entra": "ADRIAN LUIS PEREIRA",
+   "camiseta": "7",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "54846",
+   "Jug_Sale": "JUAN IGNACIO VAZ",
+   "CarneEntra": "54847",
+   "Jug_Entra": "FRANCO GONZALEZ",
+   "camiseta": "19",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "59389",
+   "Jug_Sale": "RODRIGO GERMAN FERNANDEZ",
+   "CarneEntra": "54839",
+   "Jug_Entra": "NICOLAS ANTELO",
+   "camiseta": "5",
+   "minutos": "76"
+  }
+ ],
+ "golesL": [],
+ "golesV": [
+  {
+   "carne": "45466",
+   "Nombre": "AGUSTIN CALABUIG",
+   "minutos": "42",
+   "EnContra": "1"
+  },
+  {
+   "carne": "54846",
+   "Nombre": "JUAN IGNACIO VAZ",
+   "minutos": "45",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

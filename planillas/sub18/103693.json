@@ -1,0 +1,392 @@
+{
+ "id": "103693",
+ "categoria": "sub18",
+ "serie": "18F",
+ "fecha": 3,
+ "fechaHora": "2026-11-05 20:00:00",
+ "cancha": "COLEGIO ARETEIA",
+ "local": "HEBRAICA UNIVERSITARIO",
+ "visitante": "DEP.de la C. ARETEIA BIMBULLY",
+ "gl": 3,
+ "gv": 9,
+ "detalle": {
+  "nro_partido": "469",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 18 ",
+  "categoria": "SUB 18 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB18 CONFRATERNIDAD",
+  "Cancha": "COLEGIO ARETEIA",
+  "Fecha_Inicio": "2026-11-05 22:00:00",
+  "Fecha_fin": "2026-11-05 22:00:00",
+  "Locatario": "HEBRAICA UNIVERSITARIO",
+  "goles_locatario": "3",
+  "puntos_locatario": "0",
+  "Visitante": "DEP.de la C. ARETEIA BIMBULLY",
+  "goles_visitante": "9",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": "Partido no disputado debido a las condiciones climáticas."
+ },
+ "titularesL": [
+  {
+   "carne": "68565",
+   "Nombre": "MATEO VEIROJ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "59822",
+   "Nombre": "NICOLAS APOJ",
+   "camiseta": "69",
+   "Capitan": ""
+  },
+  {
+   "carne": "59292",
+   "Nombre": "EZEQUIEL SKORKA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "61576",
+   "Nombre": "FRANCO WAINBERG",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "62778",
+   "Nombre": "TOMAS MADERO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "61575",
+   "Nombre": "RONY GANDELMAN",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "59814",
+   "Nombre": "SHAI ELENTER",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "61577",
+   "Nombre": "RODRIGO BIDERMAN",
+   "camiseta": "66",
+   "Capitan": ""
+  },
+  {
+   "carne": "57693",
+   "Nombre": "BENJAMIN LOBLOWITZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "59820",
+   "Nombre": "MATIAS KAPLAN",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "62782",
+   "Nombre": "BENICIO GERSTENFELD",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "61571",
+   "Nombre": "URIEL CYJON",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "61131",
+   "Nombre": "GONZALO FRANCISCO RIVERO",
+   "camiseta": "49",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "63416",
+   "Nombre": "FRANCO CELLA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "59892",
+   "Nombre": "MARTIN COITIÑO",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "61308",
+   "Nombre": "DIEGO MARTIN EZQUERRA",
+   "camiseta": "64",
+   "Capitan": ""
+  },
+  {
+   "carne": "61408",
+   "Nombre": "FACUNDO FERNANDO VEGA",
+   "camiseta": "20",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "59884",
+   "Nombre": "MATEO PASTORIN",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "61352",
+   "Nombre": "FACUNDO LEANDRO MARTIARENA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "61132",
+   "Nombre": "IAN FRANCO CAUTERUCCI",
+   "camiseta": "36",
+   "Capitan": ""
+  },
+  {
+   "carne": "59881",
+   "Nombre": "FRANCO MARA",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "63541",
+   "Nombre": "FACUNDO TILVE",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "61406",
+   "Nombre": "TADEO CABRERA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "64276",
+   "Nombre": "FELIPE NOCETTI",
+   "camiseta": "78",
+   "Capitan": ""
+  },
+  {
+   "carne": "60705",
+   "Nombre": "THIAGO BAZAN",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "58365",
+   "Nombre": "FEDERICO NAVARRO",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "64271",
+   "Nombre": "THIAGO OTERO",
+   "camiseta": "65",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "59814",
+   "Jug_Sale": "SHAI ELENTER",
+   "CarneEntra": "62775",
+   "Jug_Entra": "ALAN BARILAS",
+   "camiseta": "1",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "62778",
+   "Jug_Sale": "TOMAS MADERO",
+   "CarneEntra": "59814",
+   "Jug_Entra": "SHAI ELENTER",
+   "camiseta": "8",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "61576",
+   "Jug_Sale": "FRANCO WAINBERG",
+   "CarneEntra": "59288",
+   "Jug_Entra": "NICOLAS COSAC",
+   "camiseta": "0",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "62782",
+   "Jug_Sale": "BENICIO GERSTENFELD",
+   "CarneEntra": "61571",
+   "Jug_Entra": "URIEL CYJON",
+   "camiseta": "1",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61577",
+   "Jug_Sale": "RODRIGO BIDERMAN",
+   "CarneEntra": "59817",
+   "Jug_Entra": "THIAGO MARTINEZ",
+   "camiseta": "0",
+   "minutos": "45"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "61308",
+   "Jug_Sale": "DIEGO MARTIN EZQUERRA",
+   "CarneEntra": "61408",
+   "Jug_Entra": "FACUNDO FERNANDO VEGA",
+   "camiseta": "46",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "64276",
+   "Jug_Sale": "FELIPE NOCETTI",
+   "CarneEntra": "56017",
+   "Jug_Entra": "TIAGO PERDOMO",
+   "camiseta": "2",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64271",
+   "Jug_Sale": "THIAGO OTERO",
+   "CarneEntra": "57804",
+   "Jug_Entra": "MAXIMILIANO MALDONADO",
+   "camiseta": "24",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58365",
+   "Jug_Sale": "FEDERICO NAVARRO",
+   "CarneEntra": "60705",
+   "Jug_Entra": "THIAGO BAZAN",
+   "camiseta": "20",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "63541",
+   "Jug_Sale": "FACUNDO TILVE",
+   "CarneEntra": "61406",
+   "Jug_Entra": "TADEO CABRERA",
+   "camiseta": "18",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61352",
+   "Jug_Sale": "FACUNDO LEANDRO MARTIARENA",
+   "CarneEntra": "66237",
+   "Jug_Entra": "TOMAS POGGI",
+   "camiseta": "90",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "59892",
+   "Jug_Sale": "MARTIN COITIÑO",
+   "CarneEntra": "61409",
+   "Jug_Entra": "MARTIN ALVAREZ",
+   "camiseta": "33",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "61132",
+   "Jug_Sale": "IAN FRANCO CAUTERUCCI",
+   "CarneEntra": "61405",
+   "Jug_Entra": "LUCIANO LUGO",
+   "camiseta": "49",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "60705",
+   "Jug_Sale": "THIAGO BAZAN",
+   "CarneEntra": "69215",
+   "Jug_Entra": "LUCAS CASTRO",
+   "camiseta": "66",
+   "minutos": "75"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "57693",
+   "Nombre": "BENJAMIN LOBLOWITZ",
+   "minutos": "27",
+   "EnContra": "0"
+  },
+  {
+   "carne": "61131",
+   "Nombre": "GONZALO FRANCISCO RIVERO",
+   "minutos": "54",
+   "EnContra": "0"
+  },
+  {
+   "carne": "61131",
+   "Nombre": "GONZALO FRANCISCO RIVERO",
+   "minutos": "65",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "56017",
+   "Nombre": "TIAGO PERDOMO",
+   "minutos": "62",
+   "EnContra": "1"
+  },
+  {
+   "carne": "57804",
+   "Nombre": "MAXIMILIANO MALDONADO",
+   "minutos": "79",
+   "EnContra": "1"
+  },
+  {
+   "carne": "57804",
+   "Nombre": "MAXIMILIANO MALDONADO",
+   "minutos": "82",
+   "EnContra": "1"
+  },
+  {
+   "carne": "58365",
+   "Nombre": "FEDERICO NAVARRO",
+   "minutos": "13",
+   "EnContra": "1"
+  },
+  {
+   "carne": "58365",
+   "Nombre": "FEDERICO NAVARRO",
+   "minutos": "43",
+   "EnContra": "1"
+  },
+  {
+   "carne": "59892",
+   "Nombre": "MARTIN COITIÑO",
+   "minutos": "22",
+   "EnContra": "1"
+  },
+  {
+   "carne": "60705",
+   "Nombre": "THIAGO BAZAN",
+   "minutos": "78",
+   "EnContra": "1"
+  },
+  {
+   "carne": "61132",
+   "Nombre": "IAN FRANCO CAUTERUCCI",
+   "minutos": "55",
+   "EnContra": "1"
+  },
+  {
+   "carne": "64271",
+   "Nombre": "THIAGO OTERO",
+   "minutos": "26",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

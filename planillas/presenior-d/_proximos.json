@@ -1,13 +1,6 @@
 [
  {
   "serie": "PSDTA",
-  "fechaHora": "2026-11-05 21:00:00",
-  "cancha": "SCUOLA ITALIANA",
-  "local": "DEPORTIVO MATADERO",
-  "visitante": "SCUOLA PALERMO"
- },
- {
-  "serie": "PSDTA",
   "fechaHora": "2026-11-07 09:00:00",
   "cancha": "FUERZA AEREA",
   "local": "CLUB FUERZA AEREA",
@@ -40,13 +33,6 @@
   "cancha": "COMPLEJO JUAN XXIII",
   "local": "MATURANA UNIVERSITARIO",
   "visitante": "JEAN PIAGET"
- },
- {
-  "serie": "PSDPD",
-  "fechaHora": "2026-11-07 11:15:00",
-  "cancha": "COM. CLUB UNIVERSIDAD CATOLICA",
-  "local": "ANGLO",
-  "visitante": "TROUVILLE UNIVERSITARIO"
  },
  {
   "serie": "PSDTA",

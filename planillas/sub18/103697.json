@@ -1,0 +1,234 @@
+{
+ "id": "103697",
+ "categoria": "sub18",
+ "serie": "18O",
+ "fecha": 3,
+ "fechaHora": "2026-11-05 20:01:00",
+ "cancha": "MONTE VI \"LOS CEIBOS\"",
+ "local": "CEIBOS CLUB",
+ "visitante": "CLUB SEMINARIO",
+ "gl": 2,
+ "gv": 3,
+ "detalle": {
+  "nro_partido": "357",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 18 ",
+  "categoria": "SUB 18 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB18 ORO",
+  "Cancha": "MONTE VI \"LOS CEIBOS\"",
+  "Fecha_Inicio": "2026-11-05 21:30:00",
+  "Fecha_fin": "2026-11-05 21:30:00",
+  "Locatario": "CEIBOS CLUB",
+  "goles_locatario": "2",
+  "puntos_locatario": "0",
+  "Visitante": "CLUB SEMINARIO",
+  "goles_visitante": "3",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": "Partido suspendido a los 23 minutos del primer tiempo por tormenta eléctrica."
+ },
+ "titularesL": [
+  {
+   "carne": "62865",
+   "Nombre": "BENJAMIN FERNANDEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "62224",
+   "Nombre": "PEDRO NARANCIO",
+   "camiseta": "13",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "64697",
+   "Nombre": "FRANCISCO GIMENEZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "60333",
+   "Nombre": "MANUEL LLORENTE",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "68046",
+   "Nombre": "CAMILO VERA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "62671",
+   "Nombre": "JOAQUIN CURBELO",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "64870",
+   "Nombre": "JUAN PONS",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "65335",
+   "Nombre": "JUAN BAUTISTA RODRIGUEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "62071",
+   "Nombre": "JOAQUIN MARIA BARTOL",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "61039",
+   "Nombre": "FELIPE SOBRAL",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "66147",
+   "Nombre": "LEANDRO CAMBÒN",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "58598",
+   "Nombre": "NICOLAS MAZZILLI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "59082",
+   "Nombre": "MARTIN JOSE DIAZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "57297",
+   "Nombre": "FACUNDO SAPELLO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "62137",
+   "Nombre": "FRANCISCO BARROS",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "62030",
+   "Nombre": "FRANCO TORTEROLO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "62948",
+   "Nombre": "JOAQUIN CAPPUCCIO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "60868",
+   "Nombre": "IGNACIO ANDRES LEGARRA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "58599",
+   "Nombre": "FACUNDO MOSCA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "59080",
+   "Nombre": "MATIAS GOSSWEILER",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "63872",
+   "Nombre": "MANUEL DE LA PEÑA",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "66147",
+   "Jug_Sale": "LEANDRO CAMBÒN",
+   "CarneEntra": "60875",
+   "Jug_Entra": "ALFONSO FERBER",
+   "camiseta": "10",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "62224",
+   "Jug_Sale": "PEDRO NARANCIO",
+   "CarneEntra": "58003",
+   "Jug_Entra": "JOAQUIN PILONI",
+   "camiseta": "11",
+   "minutos": "45"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "63872",
+   "Jug_Sale": "MANUEL DE LA PEÑA",
+   "CarneEntra": "62946",
+   "Jug_Entra": "MATIAS DOMINGUEZ",
+   "camiseta": "21",
+   "minutos": "52"
+  },
+  {
+   "CarneSale": "60868",
+   "Jug_Sale": "IGNACIO ANDRES LEGARRA",
+   "CarneEntra": "62166",
+   "Jug_Entra": "FELIPE AMARO LACASSY",
+   "camiseta": "11",
+   "minutos": "89"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "68046",
+   "Nombre": "CAMILO VERA",
+   "minutos": "20",
+   "EnContra": "0"
+  },
+  {
+   "carne": "68046",
+   "Nombre": "CAMILO VERA",
+   "minutos": "20",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "60868",
+   "Nombre": "IGNACIO ANDRES LEGARRA",
+   "minutos": "2",
+   "EnContra": "1"
+  },
+  {
+   "carne": "60868",
+   "Nombre": "IGNACIO ANDRES LEGARRA",
+   "minutos": "2",
+   "EnContra": "1"
+  },
+  {
+   "carne": "60868",
+   "Nombre": "IGNACIO ANDRES LEGARRA",
+   "minutos": "61",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}
