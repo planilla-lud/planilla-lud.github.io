@@ -4602,3 +4602,8 @@ render();
 </script>
 
 </html>
+
+<script>
+// Sin señal (en la cancha): el mismo sw.js de siempre, desde la raíz.
+if ('serviceWorker' in navigator && window.isSecureContext) addEventListener('load', () => navigator.serviceWorker.register('../sw.js', { scope: '../' }).catch(() => {}));
+</script>
