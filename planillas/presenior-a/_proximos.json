@@ -1,26 +1,5 @@
 [
  {
-  "serie": "PSAT",
-  "fechaHora": "2026-11-07 09:00:00",
-  "cancha": "COMPLEJO AZULGRANA",
-  "local": "OLD BOYS CLUB",
-  "visitante": "NAUTICO CARRASCO Y PUNTA GORDA"
- },
- {
-  "serie": "PSAT",
-  "fechaHora": "2026-11-07 09:00:00",
-  "cancha": "COMPLEJO JUAN XXIII",
-  "local": "JUAN XXIII",
-  "visitante": "LA BLANQUEADA"
- },
- {
-  "serie": "PSAT",
-  "fechaHora": "2026-11-07 09:00:00",
-  "cancha": "COMPLEJO INDEPENDIENTE UNIV.",
-  "local": "INDEPENDIENTE",
-  "visitante": "URUNDAY UNIVERSITARIO"
- },
- {
   "serie": "PSAPD",
   "fechaHora": "2026-11-07 09:00:00",
   "cancha": "OLD IVY",
@@ -40,20 +19,6 @@
   "cancha": "OLD CHRISTIANS CLUB",
   "local": "OLD CHRISTIANS CLUB",
   "visitante": "NACIONAL UNIVERSITARIO"
- },
- {
-  "serie": "PSAPD",
-  "fechaHora": "2026-11-07 11:15:00",
-  "cancha": "ELBIO FERNANDEZ",
-  "local": "ELBIO FERNANDEZ",
-  "visitante": "TENIS EL PINAR"
- },
- {
-  "serie": "PSAPD",
-  "fechaHora": "2026-11-07 11:15:00",
-  "cancha": "ESCUELA NAVAL",
-  "local": "PLAYA HONDA UNIVERSITARIO",
-  "visitante": "UNIVERSITARIO VERONES"
  },
  {
   "serie": "PSAT",

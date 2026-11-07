@@ -1,13 +1,6 @@
 [
  {
   "serie": "RSDTA",
-  "fechaHora": "2026-11-07 09:00:00",
-  "cancha": "COLEGIO ARETEIA",
-  "local": "DEP.de la C. ARETEIA BIMBULLY",
-  "visitante": "CERVANTES UNIVERSITARIO"
- },
- {
-  "serie": "RSDTA",
   "fechaHora": "2026-11-07 11:15:00",
   "cancha": "COMPLEJO LAS CASUARINAS",
   "local": "TENIS EL PINAR SUB22",
@@ -19,34 +12,6 @@
   "cancha": "COMPLEJO NORTHFIELD",
   "local": "CLUB SOCIAL PIEDRAS BLANCAS",
   "visitante": "ISASA UNIVERSITARIO"
- },
- {
-  "serie": "RSDTA",
-  "fechaHora": "2026-11-07 11:15:00",
-  "cancha": "SPORT 11",
-  "local": "ARQUITECTURA JRS.",
-  "visitante": "ELF BLANCO"
- },
- {
-  "serie": "RSDTA",
-  "fechaHora": "2026-11-07 11:15:00",
-  "cancha": "SANTA RITA",
-  "local": "SAN AGUSTIN",
-  "visitante": "MATURANA UNIVERSITARIO"
- },
- {
-  "serie": "RSDTA",
-  "fechaHora": "2026-11-07 11:15:00",
-  "cancha": "COMPLEJO COLEGIO JESÚS MARÍA",
-  "local": "CLUB JESUS MARIA",
-  "visitante": "YOUNG UNIVERSITARIO"
- },
- {
-  "serie": "RSDPD",
-  "fechaHora": "2026-11-07 11:15:00",
-  "cancha": "COMPLEJO DEPORTIVO H3O",
-  "local": "NUESTRA SEÑORA DE LOURDES",
-  "visitante": "CLUB ATLETICO LIMBURGO"
  },
  {
   "serie": "RSDPD",
@@ -61,20 +26,6 @@
   "cancha": "FUERZA AEREA",
   "local": "CLUB FUERZA AEREA",
   "visitante": "C. U. CATOLICA AZUL"
- },
- {
-  "serie": "RSDPD",
-  "fechaHora": "2026-11-07 11:15:00",
-  "cancha": "CIUDAD DEPORTIVA ZONA LAB",
-  "local": "SAN CONO",
-  "visitante": "LATINO FUTBOL CLUB"
- },
- {
-  "serie": "RSDPD",
-  "fechaHora": "2026-11-07 11:15:00",
-  "cancha": "COM. DEP. CLUB TROUVILLE",
-  "local": "TROUVILLE UNIVERSITARIO",
-  "visitante": "ANGLO SCHOOL UNIVERSITARIO"
  },
  {
   "serie": "RSDPD",

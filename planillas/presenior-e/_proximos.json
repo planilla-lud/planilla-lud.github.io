@@ -2,23 +2,9 @@
  {
   "serie": "PSET2",
   "fechaHora": "2026-11-07 09:00:00",
-  "cancha": "COMPLEJO ABUA",
-  "local": "BELLA UNION UNIVERSITARIO",
-  "visitante": "WANDERERS"
- },
- {
-  "serie": "PSET2",
-  "fechaHora": "2026-11-07 09:00:00",
   "cancha": "COMPLEJO AZULGRANA",
   "local": "OBC AZULGRANA",
   "visitante": "LA CUEVA DEL LOBIZON"
- },
- {
-  "serie": "PSET2",
-  "fechaHora": "2026-11-07 11:15:00",
-  "cancha": "CAMPO DEP. COLEGIO INGLES",
-  "local": "COLEGIO Y LICEO INGLES",
-  "visitante": "CLUB ATLETICO AGUADA"
  },
  {
   "serie": "PSET2",

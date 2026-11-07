@@ -1,12 +1,5 @@
 [
  {
-  "serie": "PSBTA",
-  "fechaHora": "2026-11-07 09:00:00",
-  "cancha": "SANDY FUTBOL",
-  "local": "RESISTENCIA",
-  "visitante": "CENTRO CRISTOBAL COLON"
- },
- {
   "serie": "PSBPD",
   "fechaHora": "2026-11-07 09:00:00",
   "cancha": "COMPLEJO LA CORUÑA(MALVAREZ)",
@@ -16,30 +9,9 @@
  {
   "serie": "PSBPD",
   "fechaHora": "2026-11-07 09:00:00",
-  "cancha": "COMPLEJO DEPORTIVO ARRAYANES",
-  "local": "ESTUDIANTIL SALTEÑO",
-  "visitante": "OLD SAMPA CLUB"
- },
- {
-  "serie": "PSBPD",
-  "fechaHora": "2026-11-07 09:00:00",
   "cancha": "COMPLEJO ARACHAN",
   "local": "WOLFRAMIO",
   "visitante": "PALLOTTI UNIVERSITARIO"
- },
- {
-  "serie": "PSBPD",
-  "fechaHora": "2026-11-07 09:00:00",
-  "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
-  "local": "CENTRO GALLEGO",
-  "visitante": "CLUB SEMINARIO"
- },
- {
-  "serie": "PSBTA",
-  "fechaHora": "2026-11-07 11:15:00",
-  "cancha": "CAMPO DEP. INSTITUTO CRANDON",
-  "local": "CRANDON UNIVERSITARIO",
-  "visitante": "CLUB SOCIAL PIEDRAS BLANCAS"
  },
  {
   "serie": "PSBTA",

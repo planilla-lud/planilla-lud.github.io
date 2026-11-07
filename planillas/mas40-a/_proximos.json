@@ -1,59 +1,10 @@
 [
  {
-  "serie": "40CO",
-  "fechaHora": "2026-11-07 09:00:00",
-  "cancha": "COMPLEJO JUAN XXIII",
-  "local": "MATURANA UNIVERSITARIO",
-  "visitante": "OLD BOYS CLUB"
- },
- {
-  "serie": "40CO",
-  "fechaHora": "2026-11-07 09:00:00",
-  "cancha": "OLD CHRISTIANS CLUB",
-  "local": "OLD CHRISTIANS CLUB",
-  "visitante": "DEPORTIVO MATADERO"
- },
- {
-  "serie": "40CO",
-  "fechaHora": "2026-11-07 09:00:00",
-  "cancha": "COMPLEJO DEPORTIVO H3O",
-  "local": "CIRCULO DE TENIS MONTEVIDEO",
-  "visitante": "UNIVERSITARIO VERONES"
- },
- {
-  "serie": "40CO",
-  "fechaHora": "2026-11-07 09:00:00",
-  "cancha": "COM. DEP. CLUB TROUVILLE",
-  "local": "GOMENSORO",
-  "visitante": "LA BLANQUEADA"
- },
- {
   "serie": "40CP",
   "fechaHora": "2026-11-07 09:00:00",
   "cancha": "CAMPO DEP. INSTITUTO CRANDON",
   "local": "CRANDON UNIVERSITARIO",
   "visitante": "NAUTICO CARRASCO Y PUNTA GORDA"
- },
- {
-  "serie": "40CP",
-  "fechaHora": "2026-11-07 11:15:00",
-  "cancha": "COLEGIO PIO",
-  "local": "X - 13 UNIVERSITARIO",
-  "visitante": "HEBRAICA UNIVERSITARIO"
- },
- {
-  "serie": "40CP",
-  "fechaHora": "2026-11-07 11:15:00",
-  "cancha": "COMPLEJO LOS ROJOS",
-  "local": "TACUAREMBO UNIVERSITARIO",
-  "visitante": "MATECHA"
- },
- {
-  "serie": "40CP",
-  "fechaHora": "2026-11-07 11:15:00",
-  "cancha": "CENTRO GALLEGO",
-  "local": "CENTRO GALLEGO",
-  "visitante": "URUNDAY UNIVERSITARIO"
  },
  {
   "serie": "40CO",
