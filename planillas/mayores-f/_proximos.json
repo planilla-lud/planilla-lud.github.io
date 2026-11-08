@@ -5,54 +5,5 @@
   "cancha": "COMPLEJO DEPORTIVO ARRAYANES",
   "local": "PALLOTTI UNIVERSITARIO",
   "visitante": "FLORES UNIVERSITARIO"
- },
- {
-  "serie": "FTA",
-  "fechaHora": "2026-11-08 09:00:00",
-  "cancha": "COMPLEJO LOS ROJOS",
-  "local": "TACUAREMBO UNIVERSITARIO",
-  "visitante": "ESCUELA MILITAR"
- },
- {
-  "serie": "FPD",
-  "fechaHora": "2026-11-08 09:00:00",
-  "cancha": "COMPLEJO LAS CASUARINAS",
-  "local": "LA CUEVA DEL LOBIZON",
-  "visitante": "KENNEDY UNIVERSITARIO"
- },
- {
-  "serie": "FPD",
-  "fechaHora": "2026-11-08 09:00:00",
-  "cancha": "COMPLEJO LAS CASUARINAS",
-  "local": "PAYSANDU UNVERSITARIO",
-  "visitante": "ESPARTA UNIVERSITARIO"
- },
- {
-  "serie": "FPD",
-  "fechaHora": "2026-11-08 09:00:00",
-  "cancha": "VILLA MARIA",
-  "local": "AMERICA UNIVERSITARIO",
-  "visitante": "ESCUELA NAVAL"
- },
- {
-  "serie": "FTA",
-  "fechaHora": "2026-11-08 11:15:00",
-  "cancha": "SAN EUGENIO",
-  "local": "BELLA UNION UNIVERSITARIO",
-  "visitante": "DEP.de la C. ARETEIA BIMBULLY"
- },
- {
-  "serie": "FTA",
-  "fechaHora": "2026-11-08 11:15:00",
-  "cancha": "MICROSULES",
-  "local": "VETERINARIA UNIVERSITARIO",
-  "visitante": "SAN JOSE DE LA PROVIDENCIA uni"
- },
- {
-  "serie": "FPD",
-  "fechaHora": "2026-11-08 11:15:00",
-  "cancha": "THE ANGLO SCHOOL",
-  "local": "ANGLO SCHOOL UNIVERSITARIO",
-  "visitante": "CLUB FUERZA AEREA"
  }
 ]
