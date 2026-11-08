@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-08T00:26:48.624Z",
+ "actualizado": "2026-11-08T03:34:32.575Z",
  "partidos": [
   {
    "div": "mayores-a",
@@ -223,23 +223,6 @@
    "altasV": 2
   },
   {
-   "div": "reserva-d",
-   "divNombre": "Reserva D",
-   "k": "Club Jesus Maria~San Agustin",
-   "l": "Club Jesus Maria",
-   "v": "San Agustin",
-   "dia": "2026-11-14",
-   "hora": "11:15",
-   "etapa": "Título y ascenso",
-   "pl": 3,
-   "pv": 1,
-   "n": 12,
-   "base": 0,
-   "tipo": "titulo",
-   "altasL": 0,
-   "altasV": 0
-  },
-  {
    "div": "mas40-a",
    "divNombre": "Más 40 A",
    "k": "Gomensoro~Circulo De Tenis Montevideo",
@@ -319,6 +302,23 @@
    "pl": 2,
    "pv": 3,
    "n": 8,
+   "base": 0,
+   "tipo": "titulo",
+   "altasL": 0,
+   "altasV": 0
+  },
+  {
+   "div": "reserva-d",
+   "divNombre": "Reserva D",
+   "k": "Club Jesus Maria~San Agustin",
+   "l": "Club Jesus Maria",
+   "v": "San Agustin",
+   "dia": "2026-11-14",
+   "hora": "11:15",
+   "etapa": "Título y ascenso",
+   "pl": 4,
+   "pv": 1,
+   "n": 12,
    "base": 0,
    "tipo": "titulo",
    "altasL": 0,
