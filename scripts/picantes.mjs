@@ -72,16 +72,19 @@ const aPos = filas => Object.fromEntries(filas.map((f, i) => [f[0], i + 1]));
 function posiciones(d) {
   return Object.fromEntries(Object.entries(grupos(d)).map(([et, g]) => [et, aPos(filasCalculadas(d, et, g))]));
 }
-// Grupos que muestra la sección Tabla: los de la fecha que viene (o los del último partido jugado, si no
+// Grupos que muestra la sección Tabla: los de la fecha que viene y los jugados en los últimos 10 días (si no
 // hay fecha programada) y, en las divisionales de verdad (no las copas de Sub 18 y Sub 16), la primera fase.
 // Misma regla que etapasTabla() en index.html.
 export function etapasTabla(d, letra) {
   const g = grupos(d);
+  // En las divisionales con letra, además de las de la fecha que viene, las que se jugaron en los últimos
+  // 10 días: si un grupo (título, por ejemplo) no tiene partido programado todavía o se jugó entre semana,
+  // su tabla no desaparece. Sin fecha programada, en Sub 18 y Sub 16 quedan las del último día jugado.
+  const ult = d.partidos.map(p => p.dia).sort().at(-1);
+  const desde = !ult ? '' : letra?.length === 1 ? new Date(Date.parse(ult) - 10 * 864e5).toISOString().slice(0, 10) : ult;
   let actuales = [...new Set(Object.values(d.previas || {}).map(f => f.etapa))];
-  if (!actuales.length) {
-    const ult = d.partidos.map(p => p.dia).sort().at(-1);
-    actuales = [...new Set(d.partidos.filter(p => p.dia === ult).map(p => p.etapa))];
-  }
+  if (!actuales.length || letra?.length === 1)
+    actuales = [...new Set([...actuales, ...d.partidos.filter(p => p.dia >= desde).map(p => p.etapa)])];
   actuales.sort((a, b) => primeraFase(a) - primeraFase(b) || pesoEtapa(a) - pesoEtapa(b));
   const primeras = letra?.length === 1 ? Object.keys(g).filter(primeraFase).sort() : actuales.filter(primeraFase);
   return [...actuales.filter(et => !primeraFase(et)), ...primeras].filter(et => g[et]);
