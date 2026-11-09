@@ -845,6 +845,10 @@ button.pm-pos:hover i,button.pm-pos:focus-visible i{outline:3px solid #ffd54a;ou
 .pm-once-sup{flex-wrap:wrap}
 .pm-elegir{width:100%;background:none;border:0;border-top:1px solid var(--line);color:inherit;font:inherit;text-align:left;cursor:pointer}
 .pm-elegir:first-child{border-top:0}
+.pm-once-res{font-variant-numeric:tabular-nums;padding:2px 8px;border-radius:6px;background:var(--surface-2)}
+.pm-once-res.g{background:var(--win);color:#fff}
+.pm-once-res.p{background:var(--loss);color:#fff}
+.pm-once-res.e{background:var(--draw);color:#fff}
 .pm-once-h{font-weight:600;background:var(--surface-2)}
 .pm-once-h:first-child{border-top:0}
 .pm-elegir:hover{background:var(--hover)}
@@ -3226,7 +3230,7 @@ function onceClave(cat) {
 }
 function onceDe(key) {
   const o = pmEst().onces[key], p = Array.isArray(o?.p) ? o.p : [];
-  return { f: onceForm(o?.f), p: Array.from({ length: 11 }, (_, i) => typeof p[i] === 'string' && pmJug(p[i]) ? p[i] : null),
+  return { ...(typeof o?.r === 'string' ? { r: o.r } : {}), f: onceForm(o?.f), p: Array.from({ length: 11 }, (_, i) => typeof p[i] === 'string' && pmJug(p[i]) ? p[i] : null),
     s: Array.isArray(o?.s) ? o.s.filter(c => typeof c === 'string' && pmJug(c) && !p.includes(c)) : [] };
 }
 const onceVacio = o => !o.p.some(Boolean);
@@ -3248,8 +3252,34 @@ function onceTexto(o, titulo, sub) {
   const cab = [titulo, sub, `Formación ${o.f}`].filter(Boolean), once = [fila('Arquero', [0]), fila('Defensa', [1]), fila('Medio', medio), fila('Adelante', [L])].filter(Boolean);
   return [cab.join('\n'), once.join('\n'), o.s.length ? `Suplentes: ${o.s.map(nom).join(', ')}` : ''].filter(Boolean).join('\n\n');
 }
+let ONCE_VER = null; // el once anterior que se está mirando
+// El partido de un once guardado (rival y resultado), buscándolo en las planillas por el día.
+function onceInfo(key) {
+  const [div, dia] = key.split('|'), o = pmEst().onces[key] || {};
+  const x = dia === 'sin-partido' ? null : pmEV().filter(e => e.div === div).flatMap(e => e.d?.porEquipo?.[e.equipo] || []).find(x => x.p?.dia === dia);
+  return { div, dia, rival: x?.rival || o.r || '', res: x && x.gf != null ? `${x.gf}-${x.gc}` : '', g: x && x.gf != null ? (x.gf > x.gc ? 'g' : x.gf < x.gc ? 'p' : 'e') : '' };
+}
+function onceAnteriores(cat, actual) {
+  return Object.keys(pmEst().onces).filter(k => k !== actual && k.split('|')[0] === cat && !onceVacio(onceDe(k)) && k.split('|')[1] !== 'sin-partido')
+    .sort((a, b) => b.split('|')[1].localeCompare(a.split('|')[1]));
+}
+function pmOnceViejo(key, actual) {
+  const o = onceDe(key), I = onceInfo(key);
+  const titulo = `Once ${PM.club.nombre} · ${DIVS[I.div]?.nombre || pmCatN(I.div)}${I.rival ? ' vs ' + I.rival : ''}`;
+  const txt = onceTexto(o, titulo, `${fDia(I.dia)}${I.res ? ` · terminó ${I.res}` : ''}`);
+  return `<a class="pmx-volver" href="#/clubes/once" data-pm="once-ver" data-v="">← Volver al once del próximo partido</a>
+    <div class="panel"><div class="panel-h"><span><b>${I.rival ? 'vs ' + esc(I.rival) : esc(DIVS[I.div]?.nombre || '')}</b></span><span>${fDia(I.dia)}${I.res ? ` · <b class="pm-once-res ${I.g}">${I.res}</b>` : ''}</span></div>
+      <div class="pm-r"><span class="pm-r-t"><b>Formación ${o.f}</b><small>${o.p.filter(Boolean).length} titulares${o.s.length ? ` · ${o.s.length} suplentes` : ''}</small></span><button type="button" class="share" data-pm="once-usar" data-v="${esc(key)}">Usar para el próximo</button></div></div>
+    ${onceCancha(o, false)}
+    ${o.s.length ? `<div class="panel"><div class="pm-rg"><b>Suplentes</b><span>${o.s.map(c => esc(pmCorto(pmJug(c).nombre))).join(', ')}</span></div></div>` : ''}
+    <div class="panel pm-msg"><div class="panel-h"><span><b>Como texto</b></span></div><pre id="once-txt">${esc(txt)}</pre>
+      <div class="row pm-acc"><button type="button" class="share" data-pm="copiar" data-v="once-txt">Copiar</button></div></div>`;
+}
 function pmOnce() {
   const E = pmEst(), cat = PM_CAT, { e, n, key } = onceClave(cat), o = onceDe(key);
+  if (ONCE_VER && (ONCE_VER.split('|')[0] !== cat || !E.onces[ONCE_VER])) ONCE_VER = null;
+  if (ONCE_VER) return pmOnceViejo(ONCE_VER, key);
+  const ant = onceAnteriores(cat, key);
   const pj = o.p.filter(Boolean).length;
   const titulo = n ? `Once ${PM.club.nombre} · ${DIVS[e.div].nombre} vs ${n.rival}` : `Once ${PM.club.nombre} · ${pmCatN(cat)}`;
   const sub = n ? `${fDia(n.dia)}${n.hora !== '00:00' ? ' ' + n.hora : ''}${canchaOk(n.cancha) ? ` · ${n.cancha}` : ''}` : '';
@@ -3262,7 +3292,9 @@ function pmOnce() {
     <section class="stack"><div class="sec-h"><div><h3>Suplentes</h3><span class="sub">Tocá a los que van al banco.</span></div></div>
       ${resto.length ? `<div class="chips pm-once-sup">${resto.map(J => `<button type="button" class="chip" data-pm="once-sup" data-v="${J.c}" aria-pressed="${o.s.includes(J.c)}">${esc(pmCorto(J.nombre))}</button>`).join('')}</div>` : '<div class="empty">Todo el plantel está en el once.</div>'}</section>
     ${pj ? `<div class="panel pm-msg"><div class="panel-h"><span><b>Mensaje para el grupo</b></span><span>${pj} titulares${o.s.length ? ` · ${o.s.length} suplentes` : ''}</span></div><pre id="once-txt">${esc(txt)}</pre>
-      <div class="row pm-acc"><button type="button" class="share" data-pm="copiar" data-v="once-txt">Copiar</button><a class="share" target="_blank" rel="noopener" href="https://wa.me/?text=${encodeURIComponent(txt)}">Mandar por WhatsApp</a><button type="button" class="share" data-pm="once-borrar" data-v="${esc(key)}">Borrar el once</button></div></div>` : ''}`;
+      <div class="row pm-acc"><button type="button" class="share" data-pm="copiar" data-v="once-txt">Copiar</button><a class="share" target="_blank" rel="noopener" href="https://wa.me/?text=${encodeURIComponent(txt)}">Mandar por WhatsApp</a><button type="button" class="share" data-pm="once-borrar" data-v="${esc(key)}">Borrar el once</button></div></div>` : ''}
+    <section class="stack"><div class="sec-h"><div><h3>Onces anteriores</h3><span class="sub">Lo que pusiste en cada partido, para preparar el próximo.</span></div></div>
+      ${ant.length ? `<div class="panel">${ant.map(k => { const I = onceInfo(k), O = onceDe(k); return `<button type="button" class="pm-r pm-elegir" data-pm="once-ver" data-v="${esc(k)}"><span class="pm-r-t"><b>${I.rival ? 'vs ' + esc(I.rival) : 'Partido'}</b><small>${fDia(I.dia)} · ${O.f}</small></span>${I.res ? `<b class="pm-once-res ${I.g}">${I.res}</b>` : ''}</button>`; }).join('')}</div>` : '<div class="empty">Todavía no hay onces de partidos anteriores. Cada once que armes queda guardado acá.</div>'}</section>`;
 }
 // En qué puestos jugó cada uno, sacado de todos los onces guardados del plantel.
 function onceHist(cat) {
@@ -3276,7 +3308,7 @@ function onceHist(cat) {
 }
 // La lista para elegir al jugador de un puesto (en una hoja que sube desde abajo).
 function onceElegir(i) {
-  const cat = PM_CAT, { e, key } = onceClave(cat), o = onceDe(key), x = oncePuestos(o.f)[i]; if (!x) return;
+  const cat = PM_CAT, { e, n, key } = onceClave(cat), o = onceDe(key), x = oncePuestos(o.f)[i]; if (!x) return;
   ONCE_SEL = i;
   const susp = new Set((e?.alertas || []).filter(a => a.tipo === 'suspendido' && a.nivel === 'alta').map(a => a.carne));
   const conv = pmCfg(cat).convocatoria ? new Set(pmEst().conv[key] || []) : null;
@@ -3294,6 +3326,7 @@ function onceElegir(i) {
     const E = pmEst(), O = onceDe(key), c = b.dataset.once;
     if (c === 'vaciar') O.p[i] = null;
     else { const j = O.p.indexOf(c); if (j >= 0) O.p[j] = O.p[i]; O.p[i] = c; O.s = O.s.filter(x => x !== c); }
+    if (n) O.r = n.rival;
     E.onces[key] = O; pmGuardar(); cerrar('sheet-once');
     const y = scrollY; renderClubes('once').then(() => scrollTo({ top: y }));
   };
@@ -4397,6 +4430,8 @@ function pmEnlazar() {
     else if (a === 'reactivar') { delete E.susp[v]; pmGuardar(); }
     else if (a === 'fui') { const c = $('#pm-yo-sel').value; (E.marcas[v] ??= {})[c] = 1; if (!pmCfg(v.split('|')[0]).pasarLista && E.lista[v]) delete E.lista[v][c]; pmGuardar(); aviso('Listo, quedó marcado.'); }
     else if (a === 'voy') { const c = $('#pm-yo-sel').value; (E.resp[b.dataset.p] ??= {})[c] = v; pmGuardar(); aviso(v === 'va' ? 'Anotado: vas.' : 'Anotado: no vas.'); }
+    else if (a === 'once-ver') { ev.preventDefault(); ONCE_VER = v || null; const r = renderClubes('once'); if (v) r.then(() => scrollTo({ top: 0 })); return; }
+    else if (a === 'once-usar') { const k = onceClave(PM_CAT).key, cur = onceDe(k); if (!onceVacio(cur) && b.dataset.ok !== '1') { b.dataset.ok = '1'; b.textContent = 'Reemplaza el que armaste. ¿Seguro?'; return; } const O = onceDe(v), { n } = onceClave(PM_CAT); E.onces[k] = { f: O.f, p: O.p, s: O.s, ...(n ? { r: n.rival } : {}) }; pmGuardar(); ONCE_VER = null; aviso('Listo: lo podés cambiar para el próximo.'); }
     else if (a === 'once-pos') { onceElegir(Number(v)); return; }
     else if (a === 'once-sup') { const k = onceClave(PM_CAT).key, O = onceDe(k); O.s = O.s.includes(v) ? O.s.filter(x => x !== v) : [...O.s, v]; E.onces[k] = O; pmGuardar(); }
     else if (a === 'once-borrar') { if (b.dataset.ok !== '1') { b.dataset.ok = '1'; b.textContent = '¿Seguro? Tocá de nuevo'; return; } delete E.onces[v]; pmGuardar(); aviso('Once borrado.'); }
