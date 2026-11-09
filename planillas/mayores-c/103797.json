@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"C\" PERM. y DESC.",
   "Cancha": "COMPLEJO NORTHFIELD",
-  "Fecha_Inicio": "2026-11-08 10:30:00",
-  "Fecha_fin": "2026-11-08 10:30:00",
+  "Fecha_Inicio": "2026-11-08 10:51:00",
+  "Fecha_fin": "2026-11-08 10:51:00",
   "Locatario": "CLUB SOCIAL PIEDRAS BLANCAS",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,257 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "59338",
+   "Nombre": "LEANDRO SOZZO",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "59324",
+   "Nombre": "ANTHONY EZEQUIEL MASITY",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "56544",
+   "Nombre": "GASTON SEBASTIAN OVIEDO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "64065",
+   "Nombre": "EMANUEL DIAZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "35404",
+   "Nombre": "SANTIAGO GASTON POMBO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "28987",
+   "Nombre": "JONATHAN CAJARAVILLA",
+   "camiseta": "30",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56546",
+   "Nombre": "MATEO ALEJANDRO BONFANTINI",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "69090",
+   "Nombre": "BRUNO CHARLONE",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "61423",
+   "Nombre": "ALAN EZEQUIEL DE LOS SANTOS",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "63712",
+   "Nombre": "LUCAS GABRIEL DE BRUN",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "33653",
+   "Nombre": "MAICOL ALEXIS COMAS",
+   "camiseta": "21",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "63615",
+   "Nombre": "SANTIAGO EMILIANO SILVERA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "54483",
+   "Nombre": "BRAIAN SUAREZ",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "67165",
+   "Nombre": "BRIAN ISMAEL FERREIRA",
+   "camiseta": "66",
+   "Capitan": ""
+  },
+  {
+   "carne": "60320",
+   "Nombre": "FACUNDO MARTIN FERNANDEZ",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "68568",
+   "Nombre": "RENZO BARBOZA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "54048",
+   "Nombre": "LUCAS AMIGO",
+   "camiseta": "70",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "66575",
+   "Nombre": "FACUNDO FERRER",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "68502",
+   "Nombre": "IGNACIO AGUSTIN DEFACIO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "42963",
+   "Nombre": "NAHUEL ETCHEBARNE",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "69042",
+   "Nombre": "DORIAN MIJHAEL MADRUGA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "68567",
+   "Nombre": "MATIAS ALEJO PEREZ",
+   "camiseta": "28",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "61423",
+   "Jug_Sale": "ALAN EZEQUIEL DE LOS SANTOS",
+   "CarneEntra": "65763",
+   "Jug_Entra": "JESSE JOEL BATISTA",
+   "camiseta": "22",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "35404",
+   "Jug_Sale": "SANTIAGO GASTON POMBO",
+   "CarneEntra": "33350",
+   "Jug_Entra": "SEBASTIAN ANDRES PEÑA",
+   "camiseta": "28",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "69090",
+   "Jug_Sale": "BRUNO CHARLONE",
+   "CarneEntra": "54623",
+   "Jug_Entra": "CHRISTIAN LEONARDO SANGUINETTI",
+   "camiseta": "91",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "56546",
+   "Jug_Sale": "MATEO ALEJANDRO BONFANTINI",
+   "CarneEntra": "49841",
+   "Jug_Entra": "ALEXIS DANIEL TROTTA",
+   "camiseta": "9",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "59324",
+   "Jug_Sale": "ANTHONY EZEQUIEL MASITY",
+   "CarneEntra": "64061",
+   "Jug_Entra": "NESTOR RAEL VIDELA",
+   "camiseta": "12",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "64065",
+   "Jug_Sale": "EMANUEL DIAZ",
+   "CarneEntra": "56557",
+   "Jug_Entra": "FRANCO LA BARBERA",
+   "camiseta": "91",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "63712",
+   "Jug_Sale": "LUCAS GABRIEL DE BRUN",
+   "CarneEntra": "61423",
+   "Jug_Entra": "ALAN EZEQUIEL DE LOS SANTOS",
+   "camiseta": "8",
+   "minutos": "76"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "68568",
+   "Jug_Sale": "RENZO BARBOZA",
+   "CarneEntra": "54049",
+   "Jug_Entra": "NAHUEL AMIGO",
+   "camiseta": "15",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66575",
+   "Jug_Sale": "FACUNDO FERRER",
+   "CarneEntra": "38030",
+   "Jug_Entra": "EMILIO GASTON BARAIBAR",
+   "camiseta": "9",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "42963",
+   "Jug_Sale": "NAHUEL ETCHEBARNE",
+   "CarneEntra": "67164",
+   "Jug_Entra": "GABRIEL CURBELO",
+   "camiseta": "41",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "69042",
+   "Jug_Sale": "DORIAN MIJHAEL MADRUGA",
+   "CarneEntra": "52505",
+   "Jug_Entra": "HEBER ANDRES LOPEZ",
+   "camiseta": "7",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "54483",
+   "Jug_Sale": "BRAIAN SUAREZ",
+   "CarneEntra": "52648",
+   "Jug_Entra": "DIEGO FERNANDO LABUS",
+   "camiseta": "24",
+   "minutos": "80"
+  }
+ ],
  "golesL": [],
- "golesV": [],
+ "golesV": [
+  {
+   "carne": "38030",
+   "Nombre": "EMILIO GASTON BARAIBAR",
+   "minutos": "86",
+   "EnContra": "1"
+  },
+  {
+   "carne": "52505",
+   "Nombre": "HEBER ANDRES LOPEZ",
+   "minutos": "77",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

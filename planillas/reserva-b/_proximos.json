@@ -2,13 +2,6 @@
  {
   "serie": "RSBTA",
   "fechaHora": "2026-11-07 11:15:00",
-  "cancha": "OLD CHRISTIANS CLUB",
-  "local": "OLD CHRISTIANS VERDE",
-  "visitante": "ELBIO FERNANDEZ"
- },
- {
-  "serie": "RSBTA",
-  "fechaHora": "2026-11-07 11:15:00",
   "cancha": "CAM. DEP. ASOC. HEBRAICA Y MAC",
   "local": "HEBRAICA UNIVERSITARIO",
   "visitante": "OLD BRENDANS CLUB"
@@ -23,27 +16,13 @@
  {
   "serie": "RSBPD",
   "fechaHora": "2026-11-07 11:15:00",
-  "cancha": "CAMPO DEP. SAN JUAN BAUTISTA",
-  "local": "SAN JUAN BAUTISTA",
-  "visitante": "CLUB UNIVERSIDAD CATOLICA"
- },
- {
-  "serie": "RSBPD",
-  "fechaHora": "2026-11-07 11:15:00",
   "cancha": "OLD IVY",
   "local": "OLD IVY",
   "visitante": "SANTA ELENA LAGOMAR"
  },
  {
-  "serie": "RSBPD",
-  "fechaHora": "2026-11-14 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "COLEGIO SANTA ELENA",
-  "visitante": "CIRCULO DE TENIS MONTEVIDEO"
- },
- {
   "serie": "RSBTA",
-  "fechaHora": "2026-11-14 09:00:00",
+  "fechaHora": "2026-11-11 21:00:00",
   "cancha": "OLD CHRISTIANS CLUB",
   "local": "OLD CHRISTIANS BLANCO",
   "visitante": "HEBRAICA UNIVERSITARIO"
@@ -75,6 +54,13 @@
   "cancha": "LA MENNAIS",
   "local": "J.M.L.M",
   "visitante": "ELBIO FERNANDEZ"
+ },
+ {
+  "serie": "RSBPD",
+  "fechaHora": "2026-11-14 11:15:00",
+  "cancha": "COMPLEJO DEPORTIVO ARRAYANES",
+  "local": "COLEGIO SANTA ELENA",
+  "visitante": "CIRCULO DE TENIS MONTEVIDEO"
  },
  {
   "serie": "RSBPD",

@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"C\" TIT. y ASC.",
   "Cancha": "ELF (LICEO FRANCES)",
-  "Fecha_Inicio": "2026-11-07 12:45:00",
-  "Fecha_fin": "2026-11-07 12:45:00",
+  "Fecha_Inicio": "2026-11-07 13:10:00",
+  "Fecha_fin": "2026-11-07 13:10:00",
   "Locatario": "E.L.F.",
   "goles_locatario": "1",
   "puntos_locatario": "0",
@@ -29,12 +29,256 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "41722",
+   "Nombre": "NICOLAS FREYER",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "38084",
+   "Nombre": "GUILLERMO RODRIGUEZ",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "45411",
+   "Nombre": "MAXIMILIANO PARODI",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "43242",
+   "Nombre": "FRANCO PASARISA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "56280",
+   "Nombre": "SEBASTIAN MACHIN",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "43672",
+   "Nombre": "ALEJO CORRADI",
+   "camiseta": "11",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "49456",
+   "Nombre": "IGNACIO ANTONIO CARNEIRO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "49458",
+   "Nombre": "GUZMAN RODRIGUEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "42784",
+   "Nombre": "JOSE NICOLAS ROSA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "47572",
+   "Nombre": "FACUNDO MACRI",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "46858",
+   "Nombre": "SANTIAGO RODRIGUEZ",
+   "camiseta": "22",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "59263",
+   "Nombre": "MAURO ANDRES RUVERTONI",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "59802",
+   "Nombre": "VALENTINO GORAN BARREIRO",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "49012",
+   "Nombre": "AGUSTIN SUPERVIELLE",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "58842",
+   "Nombre": "ISMAEL DE DIOS",
+   "camiseta": "92",
+   "Capitan": ""
+  },
+  {
+   "carne": "55283",
+   "Nombre": "IGNACIO ZABALETA",
+   "camiseta": "47",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "54665",
+   "Nombre": "SANTIAGO PRINA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "46955",
+   "Nombre": "FRANCISCO ARTURO CACERES",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "58861",
+   "Nombre": "SEBASTIAN RODRIGUEZ",
+   "camiseta": "50",
+   "Capitan": ""
+  },
+  {
+   "carne": "61875",
+   "Nombre": "MARTIN VITABAR",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "53772",
+   "Nombre": "GIULIANO GAZZOLA",
+   "camiseta": "64",
+   "Capitan": ""
+  },
+  {
+   "carne": "51708",
+   "Nombre": "AGUSTIN FERRES",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "49458",
+   "Jug_Sale": "GUZMAN RODRIGUEZ",
+   "CarneEntra": "34958",
+   "Jug_Entra": "FEDERICO CAMPOS",
+   "camiseta": "9",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "47572",
+   "Jug_Sale": "FACUNDO MACRI",
+   "CarneEntra": "42786",
+   "Jug_Entra": "MATEO CORRADI",
+   "camiseta": "10",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "46858",
+   "Jug_Sale": "SANTIAGO RODRIGUEZ",
+   "CarneEntra": "47483",
+   "Jug_Entra": "EMMANUEL KAKLOUK",
+   "camiseta": "21",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "43672",
+   "Jug_Sale": "ALEJO CORRADI",
+   "CarneEntra": "40768",
+   "Jug_Entra": "GERMAN PAZOS",
+   "camiseta": "28",
+   "minutos": "70"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "49012",
+   "Jug_Sale": "AGUSTIN SUPERVIELLE",
+   "CarneEntra": "58867",
+   "Jug_Entra": "BRUNO MARASCO",
+   "camiseta": "15",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58861",
+   "Jug_Sale": "SEBASTIAN RODRIGUEZ",
+   "CarneEntra": "54720",
+   "Jug_Entra": "FRANCISCO ROBAINA",
+   "camiseta": "32",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61875",
+   "Jug_Sale": "MARTIN VITABAR",
+   "CarneEntra": "59101",
+   "Jug_Entra": "JULIAN RIVERON",
+   "camiseta": "66",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "53772",
+   "Jug_Sale": "GIULIANO GAZZOLA",
+   "CarneEntra": "49276",
+   "Jug_Entra": "MATEO TECHEIRA",
+   "camiseta": "12",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "51708",
+   "Jug_Sale": "AGUSTIN FERRES",
+   "CarneEntra": "50344",
+   "Jug_Entra": "FELIPE MANUEL NIETO",
+   "camiseta": "17",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "46955",
+   "Jug_Sale": "FRANCISCO ARTURO CACERES",
+   "CarneEntra": "62489",
+   "Jug_Entra": "FACUNDO PASSEGGI",
+   "camiseta": "69",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "58861",
+   "Jug_Sale": "SEBASTIAN RODRIGUEZ",
+   "CarneEntra": "52477",
+   "Jug_Entra": "MATEO FRANCISCO GONZALEZ",
+   "camiseta": "23",
+   "minutos": "85"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "46858",
+   "Nombre": "SANTIAGO RODRIGUEZ",
+   "minutos": "27",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "46955",
+   "Nombre": "FRANCISCO ARTURO CACERES",
+   "minutos": "11",
+   "EnContra": "1"
+  },
+  {
+   "carne": "58842",
+   "Nombre": "ISMAEL DE DIOS",
+   "minutos": "4",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

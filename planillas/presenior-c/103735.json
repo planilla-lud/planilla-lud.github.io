@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"C\" PER. y DESC",
   "Cancha": "PQUE. ELLIS - COL. SAN ISIDRO",
-  "Fecha_Inicio": "2026-11-07 12:45:00",
-  "Fecha_fin": "2026-11-07 12:45:00",
+  "Fecha_Inicio": "2026-11-07 13:15:00",
+  "Fecha_fin": "2026-11-07 13:15:00",
   "Locatario": "SAN ISIDRO LOMAS UNIVERSITARIO",
   "goles_locatario": "3",
   "puntos_locatario": "3",
@@ -29,12 +29,276 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "25589",
+   "Nombre": "MARCOS BRAHIAN FRANCO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "38777",
+   "Nombre": "LADARIO MARCELO DA ROSA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "66189",
+   "Nombre": "MARTIN BAGNASCO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "18291",
+   "Nombre": "LEONARDO DANIEL FERNANDEZ",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "65126",
+   "Nombre": "GONZALO JOEL ARANDA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "28600",
+   "Nombre": "SEBASTIAN RUIZ",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "27331",
+   "Nombre": "ALEJANDRO FABIAN GADEA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "63687",
+   "Nombre": "NICOLAS OMAR MICHELENA",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "64847",
+   "Nombre": "GASTON LEMA",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "24802",
+   "Nombre": "MARCELO INFANTE",
+   "camiseta": "3",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "43177",
+   "Nombre": "JUAN EDUARDO GOMEZ",
+   "camiseta": "22",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "10253",
+   "Nombre": "ANDRES MAURICIO ALVES",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "25949",
+   "Nombre": "FEDERICO MARTIN MALOMO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "35454",
+   "Nombre": "GUILLERMO MATTOS",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "48986",
+   "Nombre": "GUILLERMO GERARDO MELGAREJO",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "40466",
+   "Nombre": "CARLOS ANDRES FERNANDEZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "29550",
+   "Nombre": "PABLO SERGIO FERREIRA",
+   "camiseta": "20",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "21480",
+   "Nombre": "MARCO GASTON GENTINI",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "47052",
+   "Nombre": "MANUEL SAVIOZ",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "19451",
+   "Nombre": "DIEGO MARTIN GIGENA",
+   "camiseta": "66",
+   "Capitan": ""
+  },
+  {
+   "carne": "40505",
+   "Nombre": "MARTIN BALBI",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "41010",
+   "Nombre": "DAMIAN PEREZ",
+   "camiseta": "16",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "64847",
+   "Jug_Sale": "GASTON LEMA",
+   "CarneEntra": "33056",
+   "Jug_Entra": "PABLO PANTIN",
+   "camiseta": "16",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "27331",
+   "Jug_Sale": "ALEJANDRO FABIAN GADEA",
+   "CarneEntra": "55370",
+   "Jug_Entra": "BRIAN JOEL CORREA",
+   "camiseta": "7",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "18291",
+   "Jug_Sale": "LEONARDO DANIEL FERNANDEZ",
+   "CarneEntra": "66437",
+   "Jug_Entra": "CHRISTIAN MAURICIO PORRAS",
+   "camiseta": "26",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "63687",
+   "Jug_Sale": "NICOLAS OMAR MICHELENA",
+   "CarneEntra": "19472",
+   "Jug_Entra": "RODOLFO GASTON GRAÑA",
+   "camiseta": "19",
+   "minutos": "90"
+  },
+  {
+   "CarneSale": "28600",
+   "Jug_Sale": "SEBASTIAN RUIZ",
+   "CarneEntra": "29928",
+   "Jug_Entra": "AGUSTIN CURBELO",
+   "camiseta": "13",
+   "minutos": "90"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "48986",
+   "Jug_Sale": "GUILLERMO GERARDO MELGAREJO",
+   "CarneEntra": "50997",
+   "Jug_Entra": "MARTIN FERREIRA",
+   "camiseta": "14",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "40505",
+   "Jug_Sale": "MARTIN BALBI",
+   "CarneEntra": "36406",
+   "Jug_Entra": "MATHIAS FEDERICO GONZALEZ",
+   "camiseta": "21",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "21480",
+   "Jug_Sale": "MARCO GASTON GENTINI",
+   "CarneEntra": "42751",
+   "Jug_Entra": "MATIAS QUIROGA",
+   "camiseta": "24",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "25949",
+   "Jug_Sale": "FEDERICO MARTIN MALOMO",
+   "CarneEntra": "68726",
+   "Jug_Entra": "ERNESTO FIDEL SARLI",
+   "camiseta": "22",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "41010",
+   "Jug_Sale": "DAMIAN PEREZ",
+   "CarneEntra": "18044",
+   "Jug_Entra": "FEDERICO PEREZ",
+   "camiseta": "22",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "47052",
+   "Jug_Sale": "MANUEL SAVIOZ",
+   "CarneEntra": "40505",
+   "Jug_Entra": "MARTIN BALBI",
+   "camiseta": "2",
+   "minutos": "86"
+  },
+  {
+   "CarneSale": "35454",
+   "Jug_Sale": "GUILLERMO MATTOS",
+   "CarneEntra": "47052",
+   "Jug_Entra": "MANUEL SAVIOZ",
+   "camiseta": "24",
+   "minutos": "90"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "43177",
+   "Nombre": "JUAN EDUARDO GOMEZ",
+   "minutos": "65",
+   "EnContra": "0"
+  },
+  {
+   "carne": "63687",
+   "Nombre": "NICOLAS OMAR MICHELENA",
+   "minutos": "51",
+   "EnContra": "0"
+  },
+  {
+   "carne": "66189",
+   "Nombre": "MARTIN BAGNASCO",
+   "minutos": "87",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "42751",
+   "Nombre": "MATIAS QUIROGA",
+   "minutos": "71",
+   "EnContra": "1"
+  },
+  {
+   "carne": "68726",
+   "Nombre": "ERNESTO FIDEL SARLI",
+   "minutos": "93",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

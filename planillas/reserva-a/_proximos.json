@@ -8,13 +8,6 @@
  },
  {
   "serie": "RSAT",
-  "fechaHora": "2026-11-14 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "CARRASCO POLO CLUB",
-  "visitante": "CARRASCO LAWN TENNIS"
- },
- {
-  "serie": "RSAT",
   "fechaHora": "2026-11-14 09:00:00",
   "cancha": "COMP. DEVOTO (NAUT. PICHINCHA)",
   "local": "NAUTICO CARRASCO Y PUNTA GORDA",
@@ -33,6 +26,13 @@
   "cancha": "COM. DEP. CLUB TROUVILLE",
   "local": "NACIONAL UNIVERSITARIO",
   "visitante": "CEIBOS CLUB"
+ },
+ {
+  "serie": "RSAT",
+  "fechaHora": "2026-11-14 11:15:00",
+  "cancha": "CARRASCO POLO",
+  "local": "CARRASCO POLO CLUB",
+  "visitante": "CARRASCO LAWN TENNIS"
  },
  {
   "serie": "RSAT",

@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-09T15:34:40.147Z",
+ "actualizado": "2026-11-09T21:28:50.077Z",
  "partidos": [
   {
    "div": "reserva-a",
@@ -67,7 +67,7 @@
    "base": 8,
    "tipo": "descenso",
    "altasL": 1,
-   "altasV": 2
+   "altasV": 1
   },
   {
    "div": "presenior-a",
@@ -101,7 +101,7 @@
    "base": 0,
    "tipo": "titulo",
    "altasL": 0,
-   "altasV": 1
+   "altasV": 2
   },
   {
    "div": "reserva-c",
@@ -121,40 +121,6 @@
    "altasV": 2
   },
   {
-   "div": "reserva-c",
-   "divNombre": "Reserva C",
-   "k": "Numa Turcatti~San Isidro Lomas Universitario",
-   "l": "Numa Turcatti",
-   "v": "San Isidro Lomas Universitario",
-   "dia": "2026-11-14",
-   "hora": "11:15",
-   "etapa": "Permanencia",
-   "pl": 5,
-   "pv": 8,
-   "n": 8,
-   "base": 8,
-   "tipo": "descenso",
-   "altasL": 0,
-   "altasV": 1
-  },
-  {
-   "div": "presenior-c",
-   "divNombre": "Pre Senior C",
-   "k": "San Juan Bautista~Old Woodlands",
-   "l": "San Juan Bautista",
-   "v": "Old Woodlands",
-   "dia": "2026-11-14",
-   "hora": "09:00",
-   "etapa": "Título y ascenso",
-   "pl": 1,
-   "pv": 2,
-   "n": 8,
-   "base": 0,
-   "tipo": "titulo",
-   "altasL": 0,
-   "altasV": 2
-  },
-  {
    "div": "presenior-c",
    "divNombre": "Pre Senior C",
    "k": "San Eugenio~Deportivo Mitre",
@@ -169,23 +135,6 @@
    "base": 8,
    "tipo": "descenso",
    "altasL": 2,
-   "altasV": 2
-  },
-  {
-   "div": "mas40-a",
-   "divNombre": "Más 40 A",
-   "k": "Gomensoro~Circulo De Tenis Montevideo",
-   "l": "Gomensoro",
-   "v": "Circulo De Tenis Montevideo",
-   "dia": "2026-11-14",
-   "hora": "09:00",
-   "etapa": "Título",
-   "pl": 2,
-   "pv": 4,
-   "n": 8,
-   "base": 0,
-   "tipo": "titulo",
-   "altasL": 0,
    "altasV": 2
   },
   {
@@ -253,7 +202,7 @@
    "n": 8,
    "base": 0,
    "tipo": "titulo",
-   "altasL": 1,
+   "altasL": 2,
    "altasV": 1
   },
   {

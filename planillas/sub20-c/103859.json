@@ -1,0 +1,318 @@
+{
+ "id": "103859",
+ "categoria": "sub20-c",
+ "serie": "20C2",
+ "fecha": 7,
+ "fechaHora": "2026-11-07 13:00:00",
+ "cancha": "COMPLEJO COLEGIO JESÚS MARÍA",
+ "local": "CLUB JESUS MARIA",
+ "visitante": "SAGRADA FAMILIA UNIVERSITARIO",
+ "gl": 1,
+ "gv": 5,
+ "detalle": {
+  "nro_partido": "499",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "2",
+  "Divisional": "SUB20 \"C\" TIT. y ASC.",
+  "Cancha": "COMPLEJO COLEGIO JESÚS MARÍA",
+  "Fecha_Inicio": "2026-11-07 14:50:00",
+  "Fecha_fin": "2026-11-07 14:50:00",
+  "Locatario": "CLUB JESUS MARIA",
+  "goles_locatario": "1",
+  "puntos_locatario": "0",
+  "Visitante": "SAGRADA FAMILIA UNIVERSITARIO",
+  "goles_visitante": "5",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "63266",
+   "Nombre": "JUAN MANUEL LOPEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "64901",
+   "Nombre": "TOMAS BELTRAN",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "65555",
+   "Nombre": "JOAQUIN MEDINA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "66003",
+   "Nombre": "MANUEL BECERRA",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "62921",
+   "Nombre": "JOAQUIN CAO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "58819",
+   "Nombre": "GERONIMO ACUÑA",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "64102",
+   "Nombre": "FEDERICO ARIZTI",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "61918",
+   "Nombre": "LORENZO SILVA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "64097",
+   "Nombre": "JUAN IGNACIO ESTIBEN",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "62069",
+   "Nombre": "SANTIAGO SILVA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "62063",
+   "Nombre": "RODRIGO RUBIO",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "57025",
+   "Nombre": "FACUNDO AGUSTIN DA ROSA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "58693",
+   "Nombre": "NICOLAS SANTIAGO ALVAREZ",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "59749",
+   "Nombre": "FACUNDO SORIA HORNOS",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "59731",
+   "Nombre": "LUCA SPERANZA",
+   "camiseta": "55",
+   "Capitan": ""
+  },
+  {
+   "carne": "56678",
+   "Nombre": "GUILLERMO GABRIEL STUART",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "58680",
+   "Nombre": "JOAQUIN AISCAR",
+   "camiseta": "45",
+   "Capitan": ""
+  },
+  {
+   "carne": "68551",
+   "Nombre": "NICOLAS GARCIA",
+   "camiseta": "76",
+   "Capitan": ""
+  },
+  {
+   "carne": "68553",
+   "Nombre": "VALENTIN LEMA",
+   "camiseta": "84",
+   "Capitan": ""
+  },
+  {
+   "carne": "55791",
+   "Nombre": "NAHUEL AGUSTIN ALVAREZ",
+   "camiseta": "11",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "58676",
+   "Nombre": "JUAN MANUEL VALDEZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "55728",
+   "Nombre": "JOAQUIN KUDLIK",
+   "camiseta": "14",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "62921",
+   "Jug_Sale": "JOAQUIN CAO",
+   "CarneEntra": "62058",
+   "Jug_Entra": "FACUNDO BARRIOS",
+   "camiseta": "3",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64102",
+   "Jug_Sale": "FEDERICO ARIZTI",
+   "CarneEntra": "64096",
+   "Jug_Entra": "NICOLAS ANDRES ESTIBEN",
+   "camiseta": "15",
+   "minutos": "59"
+  },
+  {
+   "CarneSale": "64097",
+   "Jug_Sale": "JUAN IGNACIO ESTIBEN",
+   "CarneEntra": "66149",
+   "Jug_Entra": "NICOLAS JESUS NUÑEZ",
+   "camiseta": "8",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "66003",
+   "Jug_Sale": "MANUEL BECERRA",
+   "CarneEntra": "68763",
+   "Jug_Entra": "JUAN MANUEL RODRIGUEZ",
+   "camiseta": "27",
+   "minutos": "81"
+  },
+  {
+   "CarneSale": "64901",
+   "Jug_Sale": "TOMAS BELTRAN",
+   "CarneEntra": "68790",
+   "Jug_Entra": "BRUNO JORBA",
+   "camiseta": "39",
+   "minutos": "22"
+  },
+  {
+   "CarneSale": "58819",
+   "Jug_Sale": "GERONIMO ACUÑA",
+   "CarneEntra": "64102",
+   "Jug_Entra": "FEDERICO ARIZTI",
+   "camiseta": "21",
+   "minutos": "90"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "59749",
+   "Jug_Sale": "FACUNDO SORIA HORNOS",
+   "CarneEntra": "66808",
+   "Jug_Entra": "BRUNO MARTIN BENTANCUR",
+   "camiseta": "21",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "59731",
+   "Jug_Sale": "LUCA SPERANZA",
+   "CarneEntra": "58755",
+   "Jug_Entra": "FELIPE RODRIGUEZ",
+   "camiseta": "28",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "55728",
+   "Jug_Sale": "JOAQUIN KUDLIK",
+   "CarneEntra": "58952",
+   "Jug_Entra": "MARTIN CARZOGLIO",
+   "camiseta": "24",
+   "minutos": "54"
+  },
+  {
+   "CarneSale": "58680",
+   "Jug_Sale": "JOAQUIN AISCAR",
+   "CarneEntra": "64409",
+   "Jug_Entra": "LUCIANO SALVADOR ARISMENDI",
+   "camiseta": "25",
+   "minutos": "54"
+  },
+  {
+   "CarneSale": "68553",
+   "Jug_Sale": "VALENTIN LEMA",
+   "CarneEntra": "58954",
+   "Jug_Entra": "JOAQUIN BERMUDEZ",
+   "camiseta": "77",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "56678",
+   "Jug_Sale": "GUILLERMO GABRIEL STUART",
+   "CarneEntra": "63845",
+   "Jug_Entra": "VITO SANTINO MALAGUEZ",
+   "camiseta": "65",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "68551",
+   "Jug_Sale": "NICOLAS GARCIA",
+   "CarneEntra": "58936",
+   "Jug_Entra": "FRANCESCO EMILIO PIZARRO",
+   "camiseta": "88",
+   "minutos": "67"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "62063",
+   "Nombre": "RODRIGO RUBIO",
+   "minutos": "27",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "55791",
+   "Nombre": "NAHUEL AGUSTIN ALVAREZ",
+   "minutos": "36",
+   "EnContra": "1"
+  },
+  {
+   "carne": "58693",
+   "Nombre": "NICOLAS SANTIAGO ALVAREZ",
+   "minutos": "7",
+   "EnContra": "1"
+  },
+  {
+   "carne": "59731",
+   "Nombre": "LUCA SPERANZA",
+   "minutos": "77",
+   "EnContra": "1"
+  },
+  {
+   "carne": "68551",
+   "Nombre": "NICOLAS GARCIA",
+   "minutos": "10",
+   "EnContra": "1"
+  },
+  {
+   "carne": "68553",
+   "Nombre": "VALENTIN LEMA",
+   "minutos": "14",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAS40 \"A\" PERM. y DESC.",
   "Cancha": "CAMPO DEP. INSTITUTO CRANDON",
-  "Fecha_Inicio": "2026-11-07 10:30:00",
-  "Fecha_fin": "2026-11-07 10:30:00",
+  "Fecha_Inicio": "2026-11-07 10:45:00",
+  "Fecha_fin": "2026-11-07 10:45:00",
   "Locatario": "CRANDON UNIVERSITARIO",
   "goles_locatario": "6",
   "puntos_locatario": "3",
@@ -29,12 +29,272 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "9823",
+   "Nombre": "DIEGO MARTIN TABAKIAN",
+   "camiseta": "1",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "20245",
+   "Nombre": "MATIAS AGUSTIN GONZALEZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "47565",
+   "Nombre": "JUAN RAMIRO PERADOTTO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "19902",
+   "Nombre": "SEBASTIAN MOTTA",
+   "camiseta": "79",
+   "Capitan": ""
+  },
+  {
+   "carne": "19298",
+   "Nombre": "GERMAN FEDERICO MOTTOLA",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "10683",
+   "Nombre": "GABRIEL ENRIQUE MEDINA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "32875",
+   "Nombre": "LEANDRO SEBASTIAN ALEGRE",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "46961",
+   "Nombre": "GERARDO FRANCISCO ALCIATURI",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "20022",
+   "Nombre": "ALFONSO PRADERIO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "36335",
+   "Nombre": "JORGE LUIS SEIJAS",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "13983",
+   "Nombre": "MARCELO DANIEL MAUTTONI",
+   "camiseta": "88",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "14032",
+   "Nombre": "MARIANO MALLO",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "23788",
+   "Nombre": "NICOLAS JAVIER MORO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "19499",
+   "Nombre": "NICOLAS DANIEL MUNIZ",
+   "camiseta": "41",
+   "Capitan": ""
+  },
+  {
+   "carne": "18911",
+   "Nombre": "MARCELO ANDRES DREWS",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "15649",
+   "Nombre": "DIEGO MONTADO",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "14737",
+   "Nombre": "JOSE MARIA GALLINAL",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "12928",
+   "Nombre": "JAVIER ANDRES LUSSICH",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "13973",
+   "Nombre": "MARTIN FUENTES",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "18909",
+   "Nombre": "HECTOR DANIEL EROSA",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "18210",
+   "Nombre": "DIEGO RIVAS",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "13395",
+   "Nombre": "ANDRES FROMMEL",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "32875",
+   "Jug_Sale": "LEANDRO SEBASTIAN ALEGRE",
+   "CarneEntra": "18358",
+   "Jug_Entra": "RODRIGO CASTRO",
+   "camiseta": "26",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "19298",
+   "Jug_Sale": "GERMAN FEDERICO MOTTOLA",
+   "CarneEntra": "20028",
+   "Jug_Entra": "MARTIN OLIVERA",
+   "camiseta": "15",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "46961",
+   "Jug_Sale": "GERARDO FRANCISCO ALCIATURI",
+   "CarneEntra": "11221",
+   "Jug_Entra": "MARIO SERGIO BADANO",
+   "camiseta": "28",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "47565",
+   "Jug_Sale": "JUAN RAMIRO PERADOTTO",
+   "CarneEntra": "13276",
+   "Jug_Entra": "JUAN MIGUEL KEUSHKERIAN",
+   "camiseta": "17",
+   "minutos": "69"
+  },
+  {
+   "CarneSale": "19298",
+   "Jug_Sale": "GERMAN FEDERICO MOTTOLA",
+   "CarneEntra": "12575",
+   "Jug_Entra": "SERGIO JAVIER FARAVELLI",
+   "camiseta": "10",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "36335",
+   "Jug_Sale": "JORGE LUIS SEIJAS",
+   "CarneEntra": "13805",
+   "Jug_Entra": "SERGIO JAVIER VIDAL",
+   "camiseta": "30",
+   "minutos": "78"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "13973",
+   "Jug_Sale": "MARTIN FUENTES",
+   "CarneEntra": "16308",
+   "Jug_Entra": "JAVIER JORGE FERNANDEZ",
+   "camiseta": "22",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "16308",
+   "Jug_Sale": "JAVIER JORGE FERNANDEZ",
+   "CarneEntra": "17650",
+   "Jug_Entra": "NICOLAS GERMAN FERNANDEZ",
+   "camiseta": "2",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "12928",
+   "Jug_Sale": "JAVIER ANDRES LUSSICH",
+   "CarneEntra": "51811",
+   "Jug_Entra": "JULIO CESAR SALVATORE",
+   "camiseta": "65",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "13395",
+   "Jug_Sale": "ANDRES FROMMEL",
+   "CarneEntra": "12928",
+   "Jug_Entra": "JAVIER ANDRES LUSSICH",
+   "camiseta": "10",
+   "minutos": "85"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "20022",
+   "Nombre": "ALFONSO PRADERIO",
+   "minutos": "13",
+   "EnContra": "0"
+  },
+  {
+   "carne": "20022",
+   "Nombre": "ALFONSO PRADERIO",
+   "minutos": "15",
+   "EnContra": "0"
+  },
+  {
+   "carne": "20022",
+   "Nombre": "ALFONSO PRADERIO",
+   "minutos": "30",
+   "EnContra": "0"
+  },
+  {
+   "carne": "20022",
+   "Nombre": "ALFONSO PRADERIO",
+   "minutos": "65",
+   "EnContra": "0"
+  },
+  {
+   "carne": "20022",
+   "Nombre": "ALFONSO PRADERIO",
+   "minutos": "85",
+   "EnContra": "0"
+  },
+  {
+   "carne": "32875",
+   "Nombre": "LEANDRO SEBASTIAN ALEGRE",
+   "minutos": "40",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "18210",
+   "Nombre": "DIEGO RIVAS",
+   "minutos": "54",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

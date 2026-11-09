@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "SUB20 \"B\" TITULO",
   "Cancha": "CIUDAD DEPORTIVA LS",
-  "Fecha_Inicio": "2026-11-07 17:00:00",
-  "Fecha_fin": "2026-11-07 17:00:00",
+  "Fecha_Inicio": "2026-11-07 17:25:00",
+  "Fecha_fin": "2026-11-07 17:25:00",
   "Locatario": "DEPORTIVO LS UNIVERSITARIO",
   "goles_locatario": "1",
   "puntos_locatario": "1",
@@ -29,12 +29,226 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "60866",
+   "Nombre": "SANTINO SALAVERRY",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "56930",
+   "Nombre": "LAUTARO PERDOMO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "59424",
+   "Nombre": "FACUNDO TOMAS GARCIA",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "59396",
+   "Nombre": "KEVIN NICOLAS BARRERA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "57849",
+   "Nombre": "FEDERICO MANUEL BOGAO",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "59545",
+   "Nombre": "EMILIANO JOAQUIN PAREDES",
+   "camiseta": "18",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56800",
+   "Nombre": "ELIAS LAUTARO IOVINE",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "63545",
+   "Nombre": "GONZALO DANIEL GRECIET",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "59419",
+   "Nombre": "IMANOL FYNN",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "59409",
+   "Nombre": "FRANCO LARROSA",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "56173",
+   "Nombre": "MATHIAS NAHUEL PEREIRA",
+   "camiseta": "17",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "62694",
+   "Nombre": "NOAH ELIAS LEFKARITIS",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "64476",
+   "Nombre": "BRUNO ALFARO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "56319",
+   "Nombre": "CRISTIAN LOPEZ",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "63760",
+   "Nombre": "JUAN MANUEL RODRIGUEZ",
+   "camiseta": "81",
+   "Capitan": ""
+  },
+  {
+   "carne": "64978",
+   "Nombre": "FELIPE DOS SANTOS",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "58136",
+   "Nombre": "MATEO BENSASSON",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "65966",
+   "Nombre": "FELIPE LEGUISAMO",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "58169",
+   "Nombre": "LUCA MATEO CIPILIANO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "56315",
+   "Nombre": "RODRIGO BEISSO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "62457",
+   "Nombre": "JUAN MANUEL NOCERINO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "58031",
+   "Nombre": "MATEO NICOLAS CODINA",
+   "camiseta": "8",
+   "Capitan": "(C)"
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "59419",
+   "Jug_Sale": "IMANOL FYNN",
+   "CarneEntra": "56419",
+   "Jug_Entra": "JUAN MANUEL VERA",
+   "camiseta": "14",
+   "minutos": "52"
+  },
+  {
+   "CarneSale": "63545",
+   "Jug_Sale": "GONZALO DANIEL GRECIET",
+   "CarneEntra": "61020",
+   "Jug_Entra": "GONZALO HUERTAS",
+   "camiseta": "13",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "59409",
+   "Jug_Sale": "FRANCO LARROSA",
+   "CarneEntra": "56421",
+   "Jug_Entra": "DAMIAN DENES",
+   "camiseta": "31",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "59545",
+   "Jug_Sale": "EMILIANO JOAQUIN PAREDES",
+   "CarneEntra": "58225",
+   "Jug_Entra": "GASTON PRILIAC",
+   "camiseta": "48",
+   "minutos": "82"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "58169",
+   "Jug_Sale": "LUCA MATEO CIPILIANO",
+   "CarneEntra": "57679",
+   "Jug_Entra": "JUAN MANUEL BELLO",
+   "camiseta": "6",
+   "minutos": "32"
+  },
+  {
+   "CarneSale": "62457",
+   "Jug_Sale": "JUAN MANUEL NOCERINO",
+   "CarneEntra": "62530",
+   "Jug_Entra": "ELIAN SHARIM TEJERIA",
+   "camiseta": "7",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58136",
+   "Jug_Sale": "MATEO BENSASSON",
+   "CarneEntra": "68956",
+   "Jug_Entra": "LUCAS ROMAN",
+   "camiseta": "15",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "64978",
+   "Jug_Sale": "FELIPE DOS SANTOS",
+   "CarneEntra": "58409",
+   "Jug_Entra": "LUCIANO CABRERA",
+   "camiseta": "71",
+   "minutos": "85"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "57849",
+   "Nombre": "FEDERICO MANUEL BOGAO",
+   "minutos": "19",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "57679",
+   "Nombre": "JUAN MANUEL BELLO",
+   "minutos": "70",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

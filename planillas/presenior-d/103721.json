@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"D\" TIT. y ASC.",
   "Cancha": "FUERZA AEREA",
-  "Fecha_Inicio": "2026-11-07 10:30:00",
-  "Fecha_fin": "2026-11-07 10:30:00",
+  "Fecha_Inicio": "2026-11-07 11:00:00",
+  "Fecha_fin": "2026-11-07 11:00:00",
   "Locatario": "CLUB FUERZA AEREA",
   "goles_locatario": "1",
   "puntos_locatario": "1",
@@ -29,12 +29,242 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "46851",
+   "Nombre": "GASTON RAFAEL MOIRANO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "20859",
+   "Nombre": "IGNACIO OTASU",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "27122",
+   "Nombre": "LEANDRO MIGUEL GONZALEZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "17537",
+   "Nombre": "ANGEL SEBASTIAN MOREIRA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "25991",
+   "Nombre": "FEDERICO BARDIER",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "19790",
+   "Nombre": "GUSTAVO JAVIER GONZALEZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "32198",
+   "Nombre": "DIEGO MARTIN ACOSTA",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "36916",
+   "Nombre": "SANTIAGO NICOLAS RUGLIO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "20772",
+   "Nombre": "IGNACIO GONZALEZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "27563",
+   "Nombre": "ALVARO MARTIN BARDIER",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "17844",
+   "Nombre": "YAMANDU SEBASTIAN SILVA",
+   "camiseta": "28",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "39628",
+   "Nombre": "FERNANDO DE POI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "56450",
+   "Nombre": "FEDERICO HERMIDA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "37016",
+   "Nombre": "JUAN ANDRES CASTRO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "26283",
+   "Nombre": "RAFAEL DELLA TORRE",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "34916",
+   "Nombre": "MARCOS ALEJO SANCHEZ",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "52449",
+   "Nombre": "FACUNDO FIERRO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "33691",
+   "Nombre": "GONZALO SUCAZES",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "34914",
+   "Nombre": "SANTIAGO FERNANDEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "44615",
+   "Nombre": "JOAQUIN FARIÑA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "21819",
+   "Nombre": "IGNACIO RODRIGUEZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "51694",
+   "Nombre": "JUAN PABLO LEYTON",
+   "camiseta": "9",
+   "Capitan": "(C)"
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "20772",
+   "Jug_Sale": "IGNACIO GONZALEZ",
+   "CarneEntra": "25130",
+   "Jug_Entra": "FABRIZIO APELLANIZ",
+   "camiseta": "35",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "20859",
+   "Jug_Sale": "IGNACIO OTASU",
+   "CarneEntra": "33251",
+   "Jug_Entra": "NICOLAS UMBERTO MARTINEZ",
+   "camiseta": "13",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "27122",
+   "Jug_Sale": "LEANDRO MIGUEL GONZALEZ",
+   "CarneEntra": "24285",
+   "Jug_Entra": "ALBERTO DE MEDINA",
+   "camiseta": "89",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "17844",
+   "Jug_Sale": "YAMANDU SEBASTIAN SILVA",
+   "CarneEntra": "20772",
+   "Jug_Entra": "IGNACIO GONZALEZ",
+   "camiseta": "15",
+   "minutos": "85"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "34914",
+   "Jug_Sale": "SANTIAGO FERNANDEZ",
+   "CarneEntra": "56453",
+   "Jug_Entra": "DANIEL SEBASTIAN VARELA",
+   "camiseta": "35",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "33691",
+   "Jug_Sale": "GONZALO SUCAZES",
+   "CarneEntra": "37034",
+   "Jug_Entra": "LEANDRO GERMAN TARANTO",
+   "camiseta": "32",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "34916",
+   "Jug_Sale": "MARCOS ALEJO SANCHEZ",
+   "CarneEntra": "37036",
+   "Jug_Entra": "IGNACIO GONZALO PAOLILLO",
+   "camiseta": "26",
+   "minutos": "69"
+  },
+  {
+   "CarneSale": "52449",
+   "Jug_Sale": "FACUNDO FIERRO",
+   "CarneEntra": "31035",
+   "Jug_Entra": "GIANFRANCO AMADO POSE",
+   "camiseta": "11",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "37016",
+   "Jug_Sale": "JUAN ANDRES CASTRO",
+   "CarneEntra": "33744",
+   "Jug_Entra": "NICOLAS MOREIRA",
+   "camiseta": "28",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "21819",
+   "Jug_Sale": "IGNACIO RODRIGUEZ",
+   "CarneEntra": "30416",
+   "Jug_Entra": "MANOEL CASTRO",
+   "camiseta": "14",
+   "minutos": "89"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "36916",
+   "Nombre": "SANTIAGO NICOLAS RUGLIO",
+   "minutos": "35",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "44615",
+   "Nombre": "JOAQUIN FARIÑA",
+   "minutos": "27",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

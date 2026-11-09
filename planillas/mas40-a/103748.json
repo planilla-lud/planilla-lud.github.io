@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAS40 \"A\" PERM. y DESC.",
   "Cancha": "CENTRO GALLEGO",
-  "Fecha_Inicio": "2026-11-07 12:45:00",
-  "Fecha_fin": "2026-11-07 12:45:00",
+  "Fecha_Inicio": "2026-11-07 13:05:00",
+  "Fecha_fin": "2026-11-07 13:05:00",
   "Locatario": "CENTRO GALLEGO",
   "goles_locatario": "2",
   "puntos_locatario": "0",
@@ -29,12 +29,306 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "23721",
+   "Nombre": "RODRIGO ALVAREZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "17905",
+   "Nombre": "GUILLERMO FEDERICO FUENTES",
+   "camiseta": "3",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "14946",
+   "Nombre": "JUAN PEDRO LARROUTUROU",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "25625",
+   "Nombre": "DIEGO WALTER ROCHA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "22483",
+   "Nombre": "EMILIO MANUEL RODRIGUEZ",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "23266",
+   "Nombre": "ANDRES NICOLAS FACAL",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "17816",
+   "Nombre": "CARLOS LEANDRO MARTINEZ",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "47888",
+   "Nombre": "MARTIN ANSELMO PACINI",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "60114",
+   "Nombre": "SERGIO EDGARDO PERRONE",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "42268",
+   "Nombre": "LUIS EMILIO OLIARI",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "32161",
+   "Nombre": "DIEGO SEBASTIAN ROSSI",
+   "camiseta": "8",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "13146",
+   "Nombre": "DIEGO RODRIGO BRESCIANI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "22309",
+   "Nombre": "MARTIN GOYEN",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "15707",
+   "Nombre": "GABRIEL MARTIN DIAZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "33509",
+   "Nombre": "HORACIO CORUJO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "65179",
+   "Nombre": "MARCELO LOPEZ",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "18675",
+   "Nombre": "GERMAN AGUSTIN PEREZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "64158",
+   "Nombre": "FEDERICO GABRIEL GRANDILLO",
+   "camiseta": "39",
+   "Capitan": ""
+  },
+  {
+   "carne": "14997",
+   "Nombre": "RODRIGO FERNANDO PEREZ",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "30395",
+   "Nombre": "DANIEL LIBER CASTRO",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "22237",
+   "Nombre": "WALTER WILLIAMS BRADFORD",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "21150",
+   "Nombre": "MARTIN SEBASTIAN SANCHEZ",
+   "camiseta": "37",
+   "Capitan": "(C)"
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "25625",
+   "Jug_Sale": "DIEGO WALTER ROCHA",
+   "CarneEntra": "21130",
+   "Jug_Entra": "DIEGO ARTIGAS OLAZABAL",
+   "camiseta": "13",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "47888",
+   "Jug_Sale": "MARTIN ANSELMO PACINI",
+   "CarneEntra": "25979",
+   "Jug_Entra": "SERGIO GUZMAN SCUTARI",
+   "camiseta": "90",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "23266",
+   "Jug_Sale": "ANDRES NICOLAS FACAL",
+   "CarneEntra": "23466",
+   "Jug_Entra": "DIEGO FERNANDO PASTORIZA",
+   "camiseta": "82",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "17816",
+   "Jug_Sale": "CARLOS LEANDRO MARTINEZ",
+   "CarneEntra": "58918",
+   "Jug_Entra": "JOSE  LUIS SMITH",
+   "camiseta": "80",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "60114",
+   "Jug_Sale": "SERGIO EDGARDO PERRONE",
+   "CarneEntra": "48318",
+   "Jug_Entra": "BORIS SANTIAGO DURAN",
+   "camiseta": "22",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "42268",
+   "Jug_Sale": "LUIS EMILIO OLIARI",
+   "CarneEntra": "22333",
+   "Jug_Entra": "LEANDRO GASTON NUÑEZ",
+   "camiseta": "7",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "14946",
+   "Jug_Sale": "JUAN PEDRO LARROUTUROU",
+   "CarneEntra": "20965",
+   "Jug_Entra": "RODRIGO AUGUSTO MARTINEZ",
+   "camiseta": "69",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "22483",
+   "Jug_Sale": "EMILIO MANUEL RODRIGUEZ",
+   "CarneEntra": "17397",
+   "Jug_Entra": "FERNANDO MIGUEL MARENGO",
+   "camiseta": "5",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "17905",
+   "Jug_Sale": "GUILLERMO FEDERICO FUENTES",
+   "CarneEntra": "23266",
+   "Jug_Entra": "ANDRES NICOLAS FACAL",
+   "camiseta": "5",
+   "minutos": "77"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "18675",
+   "Jug_Sale": "GERMAN AGUSTIN PEREZ",
+   "CarneEntra": "38037",
+   "Jug_Entra": "ERNESTO FABIAN BAZZANO",
+   "camiseta": "41",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "65179",
+   "Jug_Sale": "MARCELO LOPEZ",
+   "CarneEntra": "33120",
+   "Jug_Entra": "GABRIEL HERNAN PEZZANO",
+   "camiseta": "20",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "14997",
+   "Jug_Sale": "RODRIGO FERNANDO PEREZ",
+   "CarneEntra": "30421",
+   "Jug_Entra": "JAVIER FEDERICO RODRIGUEZ",
+   "camiseta": "21",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "22237",
+   "Jug_Sale": "WALTER WILLIAMS BRADFORD",
+   "CarneEntra": "13585",
+   "Jug_Entra": "DANIEL ALEJANDRO MARTIN",
+   "camiseta": "51",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "22309",
+   "Jug_Sale": "MARTIN GOYEN",
+   "CarneEntra": "50552",
+   "Jug_Entra": "ORIBE SEBASTIAN RIOS",
+   "camiseta": "20",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "21150",
+   "Jug_Sale": "MARTIN SEBASTIAN SANCHEZ",
+   "CarneEntra": "22373",
+   "Jug_Entra": "WALTER LEANDRO BLARDONI",
+   "camiseta": "82",
+   "minutos": "75"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "22333",
+   "Nombre": "LEANDRO GASTON NUÑEZ",
+   "minutos": "66",
+   "EnContra": "0"
+  },
+  {
+   "carne": "23266",
+   "Nombre": "ANDRES NICOLAS FACAL",
+   "minutos": "30",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "14997",
+   "Nombre": "RODRIGO FERNANDO PEREZ",
+   "minutos": "42",
+   "EnContra": "1"
+  },
+  {
+   "carne": "30395",
+   "Nombre": "DANIEL LIBER CASTRO",
+   "minutos": "28",
+   "EnContra": "1"
+  },
+  {
+   "carne": "30395",
+   "Nombre": "DANIEL LIBER CASTRO",
+   "minutos": "70",
+   "EnContra": "1"
+  },
+  {
+   "carne": "64158",
+   "Nombre": "FEDERICO GABRIEL GRANDILLO",
+   "minutos": "3",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

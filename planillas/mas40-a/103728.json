@@ -8,7 +8,7 @@
  "local": "X - 13 UNIVERSITARIO",
  "visitante": "HEBRAICA UNIVERSITARIO",
  "gl": 3,
- "gv": 7,
+ "gv": 8,
  "detalle": {
   "nro_partido": "452",
   "temporada": "RAFAEL \"CANARIO\" GARCÍA",
@@ -18,23 +18,299 @@
   "rueda": "2",
   "Divisional": "MAS40 \"A\" PERM. y DESC.",
   "Cancha": "COLEGIO PIO",
-  "Fecha_Inicio": "2026-11-07 12:45:00",
-  "Fecha_fin": "2026-11-07 12:45:00",
+  "Fecha_Inicio": "2026-11-07 13:00:00",
+  "Fecha_fin": "2026-11-07 13:00:00",
   "Locatario": "X - 13 UNIVERSITARIO",
   "goles_locatario": "3",
   "puntos_locatario": "0",
   "Visitante": "HEBRAICA UNIVERSITARIO",
-  "goles_visitante": "7",
+  "goles_visitante": "8",
   "puntos_visitante": "3",
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "16070",
+   "Nombre": "SIMON MATEO RODRIGUEZ",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "15796",
+   "Nombre": "DAMIAN DIAZ",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "16526",
+   "Nombre": "GONZALO DANIEL RIQUERO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "23492",
+   "Nombre": "SANTIAGO MATIAS ORTIZ",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "15215",
+   "Nombre": "DANIEL CHAVES",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "19072",
+   "Nombre": "NICOLAS MAXIMILIANO IVANOVICH",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "39630",
+   "Nombre": "JAVIER ISAAC SCOTTI",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "67179",
+   "Nombre": "SEBASTIAN ALBERTO BALIÑO",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "54450",
+   "Nombre": "BERNARDO GABRIEL BACCINO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "26156",
+   "Nombre": "PABLO IGNACIO COLL",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "21138",
+   "Nombre": "MARCELO DANIEL MULLER",
+   "camiseta": "5",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "21670",
+   "Nombre": "ELI PERELMUTER",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "38265",
+   "Nombre": "GABRIEL MANUEL YAÑEZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "18965",
+   "Nombre": "STEPHEN JAKTER",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "15031",
+   "Nombre": "JULIO HERMAN BANEWUR",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "16457",
+   "Nombre": "WILLIAM IGNACIO KRIZ",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "26078",
+   "Nombre": "FEDERICO WOLF CHEBI",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "23109",
+   "Nombre": "MAURICIO ALBERICO MARQUEZ",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "28249",
+   "Nombre": "MAURO RADZINSKI",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "19096",
+   "Nombre": "ARI KACZKA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "20627",
+   "Nombre": "MARTIN BERENSTEIN",
+   "camiseta": "13",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "44994",
+   "Nombre": "GUSTAVO RODZEWICZ",
+   "camiseta": "24",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "67179",
+   "Jug_Sale": "SEBASTIAN ALBERTO BALIÑO",
+   "CarneEntra": "21241",
+   "Jug_Entra": "NICOLAS VALLVERDU",
+   "camiseta": "14",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "15215",
+   "Jug_Sale": "DANIEL CHAVES",
+   "CarneEntra": "29678",
+   "Jug_Entra": "OSCAR WILLIAM PEREYRA",
+   "camiseta": "18",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "16526",
+   "Jug_Sale": "GONZALO DANIEL RIQUERO",
+   "CarneEntra": "23492",
+   "Jug_Entra": "SANTIAGO MATIAS ORTIZ",
+   "camiseta": "26",
+   "minutos": "68"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "15031",
+   "Jug_Sale": "JULIO HERMAN BANEWUR",
+   "CarneEntra": "17086",
+   "Jug_Entra": "OSCAR DIEGO FALERO",
+   "camiseta": "7",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "21670",
+   "Jug_Sale": "ELI PERELMUTER",
+   "CarneEntra": "19947",
+   "Jug_Entra": "DENNY LIAM BRECHNER",
+   "camiseta": "88",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "38265",
+   "Jug_Sale": "GABRIEL MANUEL YAÑEZ",
+   "CarneEntra": "36064",
+   "Jug_Entra": "DIEGO GONZALO CIAPPESONI",
+   "camiseta": "12",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "21670",
+   "Jug_Sale": "ELI PERELMUTER",
+   "CarneEntra": "14307",
+   "Jug_Entra": "GUILLERMO DANIEL VERA",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "26078",
+   "Jug_Sale": "FEDERICO WOLF CHEBI",
+   "CarneEntra": "15418",
+   "Jug_Entra": "ALEX MICHEL DICHTENBERG",
+   "camiseta": "5",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "26078",
+   "Jug_Sale": "FEDERICO WOLF CHEBI",
+   "CarneEntra": "36753",
+   "Jug_Entra": "BORIS CARLOS SILVA",
+   "camiseta": "18",
+   "minutos": "63"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "54450",
+   "Nombre": "BERNARDO GABRIEL BACCINO",
+   "minutos": "46",
+   "EnContra": "0"
+  },
+  {
+   "carne": "54450",
+   "Nombre": "BERNARDO GABRIEL BACCINO",
+   "minutos": "76",
+   "EnContra": "0"
+  },
+  {
+   "carne": "54450",
+   "Nombre": "BERNARDO GABRIEL BACCINO",
+   "minutos": "78",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "19096",
+   "Nombre": "ARI KACZKA",
+   "minutos": "70",
+   "EnContra": "1"
+  },
+  {
+   "carne": "20627",
+   "Nombre": "MARTIN BERENSTEIN",
+   "minutos": "19",
+   "EnContra": "1"
+  },
+  {
+   "carne": "20627",
+   "Nombre": "MARTIN BERENSTEIN",
+   "minutos": "47",
+   "EnContra": "1"
+  },
+  {
+   "carne": "23109",
+   "Nombre": "MAURICIO ALBERICO MARQUEZ",
+   "minutos": "60",
+   "EnContra": "1"
+  },
+  {
+   "carne": "28249",
+   "Nombre": "MAURO RADZINSKI",
+   "minutos": "16",
+   "EnContra": "1"
+  },
+  {
+   "carne": "28249",
+   "Nombre": "MAURO RADZINSKI",
+   "minutos": "37",
+   "EnContra": "1"
+  },
+  {
+   "carne": "28249",
+   "Nombre": "MAURO RADZINSKI",
+   "minutos": "67",
+   "EnContra": "1"
+  },
+  {
+   "carne": "28249",
+   "Nombre": "MAURO RADZINSKI",
+   "minutos": "90",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

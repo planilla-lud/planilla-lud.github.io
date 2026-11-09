@@ -7642,5 +7642,83 @@
   "fechas": 2,
   "detalle": "F:2 - UR:2",
   "texto": "Art. 132 del C.P"
+ },
+ {
+  "tipo": "automatica",
+  "fecha": "2026-11-07",
+  "partido": "442",
+  "serie": "20BTA",
+  "carne": "54790",
+  "nombre": "EMILIANO MARTIN PEREZ",
+  "club": "CIRCULO DE TENIS MONTEVIDEO",
+  "sancion": "SANCIÓN AUTOMÁTICA",
+  "fechas": 1,
+  "detalle": "F:1 - UR:0",
+  "texto": "Sanción generada automáticamente por expulsión en el partido"
+ },
+ {
+  "tipo": "automatica",
+  "fecha": "2026-11-07",
+  "partido": "525",
+  "serie": "20CP",
+  "carne": "60655",
+  "nombre": "MATTHIAS SEBASTIAN LAUBE",
+  "club": "FLORES UNIVERSITARIO",
+  "sancion": "SANCIÓN AUTOMÁTICA",
+  "fechas": 1,
+  "detalle": "F:1 - UR:0",
+  "texto": "Sanción generada automáticamente por expulsión en el partido"
+ },
+ {
+  "tipo": "automatica",
+  "fecha": "2026-11-07",
+  "partido": "525",
+  "serie": "20CP",
+  "carne": "62586",
+  "nombre": "LEANDRO MOCCIA",
+  "club": "VARELA UNIVERSITARIO",
+  "sancion": "SANCIÓN AUTOMÁTICA",
+  "fechas": 1,
+  "detalle": "F:1 - UR:0",
+  "texto": "Sanción generada automáticamente por expulsión en el partido"
+ },
+ {
+  "tipo": "automatica",
+  "fecha": "2026-11-07",
+  "partido": "442",
+  "serie": "20BTA",
+  "carne": "62732",
+  "nombre": "JOAQUIN AFONSO",
+  "club": "CIRCULO DE TENIS MONTEVIDEO",
+  "sancion": "SANCIÓN AUTOMÁTICA",
+  "fechas": 1,
+  "detalle": "F:1 - UR:0",
+  "texto": "Sanción generada automáticamente por expulsión en el partido"
+ },
+ {
+  "tipo": "automatica",
+  "fecha": "2026-11-07",
+  "partido": "497",
+  "serie": "20C2",
+  "carne": "67528",
+  "nombre": "NICOLAS SAAVEDRA",
+  "club": "CLUB SOC. y DEP. LA CHISPA",
+  "sancion": "SANCIÓN AUTOMÁTICA",
+  "fechas": 1,
+  "detalle": "F:1 - UR:0",
+  "texto": "Sanción generada automáticamente por expulsión en el partido"
+ },
+ {
+  "tipo": "automatica",
+  "fecha": "2026-11-07",
+  "partido": "442",
+  "serie": "20BTA",
+  "carne": "68482",
+  "nombre": "MATTEO GIUDICE",
+  "club": "CIRCULO DE TENIS MONTEVIDEO",
+  "sancion": "SANCIÓN AUTOMÁTICA",
+  "fechas": 1,
+  "detalle": "F:1 - UR:0",
+  "texto": "Sanción generada automáticamente por expulsión en el partido"
  }
 ]

@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "SUB20 \"C\" COPA DE PLATA",
   "Cancha": "PARQUE CUPRA - CLUB SEMINARIO",
-  "Fecha_Inicio": "2026-11-07 17:00:00",
-  "Fecha_fin": "2026-11-07 17:00:00",
+  "Fecha_Inicio": "2026-11-07 17:15:00",
+  "Fecha_fin": "2026-11-07 17:15:00",
   "Locatario": "FLORES UNIVERSITARIO",
   "goles_locatario": "4",
   "puntos_locatario": "3",
@@ -29,12 +29,231 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "titularesL": [
+  {
+   "carne": "62142",
+   "Nombre": "GAEL LERCARI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "59231",
+   "Nombre": "FACUNDO FABINI",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "62152",
+   "Nombre": "LUCAS POLLERO",
+   "camiseta": "7",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "61527",
+   "Nombre": "MATIAS URIOSTE",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "65219",
+   "Nombre": "GASPAR SWINDEN",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "59234",
+   "Nombre": "CAMILO RIVAS",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "62134",
+   "Nombre": "EZEQUIEL COLINA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "68542",
+   "Nombre": "DIEGO ROMAN GONZALEZ",
+   "camiseta": "47",
+   "Capitan": ""
+  },
+  {
+   "carne": "60655",
+   "Nombre": "MATTHIAS SEBASTIAN LAUBE",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "63030",
+   "Nombre": "FRANCO BERRUTTI",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "68345",
+   "Nombre": "FACUNDO BELEN",
+   "camiseta": "33",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "63543",
+   "Nombre": "MATEO RODRIGUEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "62587",
+   "Nombre": "MATEO ALONSO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "58704",
+   "Nombre": "IGNACIO JAVIER ROMERO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "68858",
+   "Nombre": "THIAGO COGOY",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "62577",
+   "Nombre": "ORI MARTIN FERREIRA",
+   "camiseta": "11",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "67273",
+   "Nombre": "SANTIAGO ROMAN DALIA",
+   "camiseta": "36",
+   "Capitan": ""
+  },
+  {
+   "carne": "62582",
+   "Nombre": "SEBASTIAN ENZO STRATTA",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "64173",
+   "Nombre": "SANTIAGO MIRANDA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "67476",
+   "Nombre": "NICOLAS RIVERO",
+   "camiseta": "49",
+   "Capitan": ""
+  },
+  {
+   "carne": "55413",
+   "Nombre": "LUCAS OTAÑO",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "68623",
+   "Nombre": "GUILLERMO MARTINEZ",
+   "camiseta": "76",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "68345",
+   "Jug_Sale": "FACUNDO BELEN",
+   "CarneEntra": "57672",
+   "Jug_Entra": "SANTIAGO DIEGO OLAZABAL",
+   "camiseta": "11",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "63030",
+   "Jug_Sale": "FRANCO BERRUTTI",
+   "CarneEntra": "68870",
+   "Jug_Entra": "NICOLAS FERNANDEZ",
+   "camiseta": "16",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "68542",
+   "Jug_Sale": "DIEGO ROMAN GONZALEZ",
+   "CarneEntra": "62300",
+   "Jug_Entra": "AGUSTIN MENENDEZ",
+   "camiseta": "10",
+   "minutos": "70"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "67273",
+   "Jug_Sale": "SANTIAGO ROMAN DALIA",
+   "CarneEntra": "62586",
+   "Jug_Entra": "LEANDRO MOCCIA",
+   "camiseta": "2",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68623",
+   "Jug_Sale": "GUILLERMO MARTINEZ",
+   "CarneEntra": "67273",
+   "Jug_Entra": "SANTIAGO ROMAN DALIA",
+   "camiseta": "36",
+   "minutos": "67"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "57672",
+   "Nombre": "SANTIAGO DIEGO OLAZABAL",
+   "minutos": "69",
+   "EnContra": "0"
+  },
+  {
+   "carne": "62152",
+   "Nombre": "LUCAS POLLERO",
+   "minutos": "37",
+   "EnContra": "0"
+  },
+  {
+   "carne": "68345",
+   "Nombre": "FACUNDO BELEN",
+   "minutos": "20",
+   "EnContra": "0"
+  },
+  {
+   "carne": "68870",
+   "Nombre": "NICOLAS FERNANDEZ",
+   "minutos": "84",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "62582",
+   "Nombre": "SEBASTIAN ENZO STRATTA",
+   "minutos": "86",
+   "EnContra": "1"
+  },
+  {
+   "carne": "67273",
+   "Nombre": "SANTIAGO ROMAN DALIA",
+   "minutos": "76",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "MATTHIAS SEBASTIAN LAUBE",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

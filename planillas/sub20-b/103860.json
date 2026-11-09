@@ -1,0 +1,238 @@
+{
+ "id": "103860",
+ "categoria": "sub20-b",
+ "serie": "20BPD",
+ "fecha": 7,
+ "fechaHora": "2026-11-07 15:30:00",
+ "cancha": "()",
+ "local": "SANTA ELENA LAGOMAR",
+ "visitante": "SAN JOSE DE LA PROVIDENCIA uni",
+ "gl": 5,
+ "gv": 0,
+ "detalle": {
+  "nro_partido": "471",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "2",
+  "Divisional": "SUB20 \"B\" PERM. y DESC.",
+  "Cancha": "()",
+  "Fecha_Inicio": "2026-11-07 17:15:00",
+  "Fecha_fin": "2026-11-07 17:15:00",
+  "Locatario": "SANTA ELENA LAGOMAR",
+  "goles_locatario": "5",
+  "puntos_locatario": "3",
+  "Visitante": "SAN JOSE DE LA PROVIDENCIA uni",
+  "goles_visitante": "0",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "55249",
+   "Nombre": "MATEO ENRICH",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "65117",
+   "Nombre": "MATEO FEDERICO GALVEZ",
+   "camiseta": "59",
+   "Capitan": ""
+  },
+  {
+   "carne": "56496",
+   "Nombre": "MANUEL MULA",
+   "camiseta": "15",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56497",
+   "Nombre": "LORENZO ILLIONE",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "55645",
+   "Nombre": "GASTON VIERA",
+   "camiseta": "39",
+   "Capitan": ""
+  },
+  {
+   "carne": "55586",
+   "Nombre": "IGNACIO MOREIRA",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "55737",
+   "Nombre": "AGUSTIN MONZA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "55248",
+   "Nombre": "MARCOS RADMILOVICH",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "58300",
+   "Nombre": "GUILLERMO MAICHE",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "63091",
+   "Nombre": "TOMAS BAUTISTA RUMBO",
+   "camiseta": "90",
+   "Capitan": ""
+  },
+  {
+   "carne": "58671",
+   "Nombre": "FELIPE LOPEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "59906",
+   "Nombre": "MATEO FRANCO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "59218",
+   "Nombre": "AGUSTIN GRAJALES",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "65926",
+   "Nombre": "JUAN MANUEL CORREA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "63070",
+   "Nombre": "MATIAS GABRIEL TEIJEIRO",
+   "camiseta": "2",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "68985",
+   "Nombre": "TADEO ASUAGA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "67295",
+   "Nombre": "IVAN GONZALEZ",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "67299",
+   "Nombre": "FRANCO NICOLAS PURTSCHER",
+   "camiseta": "38",
+   "Capitan": ""
+  },
+  {
+   "carne": "63069",
+   "Nombre": "JOAQUIN MADERNI",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "64354",
+   "Nombre": "MATEO NARTALLO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "65324",
+   "Nombre": "SANTINO MENENDEZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "67391",
+   "Nombre": "SANTIAGO SEBASTIAN RDORIGUEZ",
+   "camiseta": "17",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "55645",
+   "Jug_Sale": "GASTON VIERA",
+   "CarneEntra": "55587",
+   "Jug_Entra": "IGNACIO KAPITAN",
+   "camiseta": "16",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "55248",
+   "Jug_Sale": "MARCOS RADMILOVICH",
+   "CarneEntra": "63086",
+   "Jug_Entra": "FELIPE PELLEGRINO",
+   "camiseta": "17",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58300",
+   "Jug_Sale": "GUILLERMO MAICHE",
+   "CarneEntra": "55645",
+   "Jug_Entra": "GASTON VIERA",
+   "camiseta": "39",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "65117",
+   "Jug_Sale": "MATEO FEDERICO GALVEZ",
+   "CarneEntra": "55248",
+   "Jug_Entra": "MARCOS RADMILOVICH",
+   "camiseta": "7",
+   "minutos": "70"
+  }
+ ],
+ "cambiosV": [],
+ "golesL": [
+  {
+   "carne": "55587",
+   "Nombre": "IGNACIO KAPITAN",
+   "minutos": "54",
+   "EnContra": "0"
+  },
+  {
+   "carne": "55737",
+   "Nombre": "AGUSTIN MONZA",
+   "minutos": "36",
+   "EnContra": "0"
+  },
+  {
+   "carne": "58300",
+   "Nombre": "GUILLERMO MAICHE",
+   "minutos": "62",
+   "EnContra": "0"
+  },
+  {
+   "carne": "58671",
+   "Nombre": "FELIPE LOPEZ",
+   "minutos": "80",
+   "EnContra": "0"
+  },
+  {
+   "carne": "63091",
+   "Nombre": "TOMAS BAUTISTA RUMBO",
+   "minutos": "24",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

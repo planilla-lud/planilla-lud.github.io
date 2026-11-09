@@ -2,13 +2,6 @@
  {
   "serie": "18C",
   "fechaHora": "2026-11-01 15:30:00",
-  "cancha": "COMPLEJO COLEGIO JESÚS MARÍA",
-  "local": "CLUB JESUS MARIA",
-  "visitante": "PERRY SEXTA UNIVERSITARIO"
- },
- {
-  "serie": "18C",
-  "fechaHora": "2026-11-01 15:30:00",
   "cancha": "SANTA RITA",
   "local": "SAN AGUSTIN",
   "visitante": "TENIS EL PINAR"
@@ -110,6 +103,13 @@
   "cancha": "SCUOLA ITALIANA",
   "local": "SCUOLA PALERMO",
   "visitante": "NACIONAL UNIVERSITARIO"
+ },
+ {
+  "serie": "18C",
+  "fechaHora": "2026-11-12 20:30:00",
+  "cancha": "CAMPUS JESUS MARIA (S. GOMEZ)",
+  "local": "CLUB JESUS MARIA",
+  "visitante": "PERRY SEXTA UNIVERSITARIO"
  },
  {
   "serie": "18B",

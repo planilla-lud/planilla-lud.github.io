@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"A\" PER. y DESC",
   "Cancha": "ELBIO FERNANDEZ",
-  "Fecha_Inicio": "2026-11-07 12:45:00",
-  "Fecha_fin": "2026-11-07 12:45:00",
+  "Fecha_Inicio": "2026-11-07 13:20:00",
+  "Fecha_fin": "2026-11-07 13:20:00",
   "Locatario": "ELBIO FERNANDEZ",
   "goles_locatario": "2",
   "puntos_locatario": "3",
@@ -29,12 +29,229 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "titularesL": [
+  {
+   "carne": "37846",
+   "Nombre": "CHRISTIAN DEL CASTILLO",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "28083",
+   "Nombre": "JUAN PEDRO BALBI",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "20401",
+   "Nombre": "JUAN PEDRO QUAGLIATA",
+   "camiseta": "2",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "25260",
+   "Nombre": "DIEGO THEODOSOPOULOS",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "35597",
+   "Nombre": "FABIAN CHIRIBAO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "27192",
+   "Nombre": "JULIAN ALBERTO SPENCER",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "33785",
+   "Nombre": "ALEJANDRO RAYMOND",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "34126",
+   "Nombre": "ALEXIS GERMAN GARRO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "65023",
+   "Nombre": "BRUNO MATIAS SOSA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "40793",
+   "Nombre": "FERNANDO ABDO",
+   "camiseta": "70",
+   "Capitan": ""
+  },
+  {
+   "carne": "27042",
+   "Nombre": "MAXIMILIANO ALBERTO CHIRIBAO",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "34543",
+   "Nombre": "HERNAN GOMEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "26514",
+   "Nombre": "JUAN PEDRO CHIAPPARA",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "34110",
+   "Nombre": "RODRIGO CARSIN",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "29901",
+   "Nombre": "CAMILO LAGUNA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "22028",
+   "Nombre": "JHONATAN RICARDO MARTINEZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "35037",
+   "Nombre": "FEDERICO CARSIN",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "38595",
+   "Nombre": "PABLO FERNANDEZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "34812",
+   "Nombre": "FELIPE MOTTA",
+   "camiseta": "50",
+   "Capitan": ""
+  },
+  {
+   "carne": "30511",
+   "Nombre": "BRUNO ERNESTO MILAN",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "30998",
+   "Nombre": "NICOLAS OYENARD",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "39911",
+   "Nombre": "LORENZO RAUL TENCA",
+   "camiseta": "29",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "35597",
+   "Jug_Sale": "FABIAN CHIRIBAO",
+   "CarneEntra": "28073",
+   "Jug_Entra": "CHRISTIAN FERNANDO VIGORITO",
+   "camiseta": "23",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "27192",
+   "Jug_Sale": "JULIAN ALBERTO SPENCER",
+   "CarneEntra": "19450",
+   "Jug_Entra": "MARTIN CIAPPESONI",
+   "camiseta": "29",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "27042",
+   "Jug_Sale": "MAXIMILIANO ALBERTO CHIRIBAO",
+   "CarneEntra": "27192",
+   "Jug_Entra": "JULIAN ALBERTO SPENCER",
+   "camiseta": "7",
+   "minutos": "93"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "39911",
+   "Jug_Sale": "LORENZO RAUL TENCA",
+   "CarneEntra": "25409",
+   "Jug_Entra": "SANTIAGO ALMEIDA",
+   "camiseta": "30",
+   "minutos": "48"
+  },
+  {
+   "CarneSale": "39911",
+   "Jug_Sale": "LORENZO RAUL TENCA",
+   "CarneEntra": "23869",
+   "Jug_Entra": "SANTIAGO ESTEVEZ",
+   "camiseta": "13",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "30511",
+   "Jug_Sale": "BRUNO ERNESTO MILAN",
+   "CarneEntra": "34815",
+   "Jug_Entra": "IGNACIO MEDERO",
+   "camiseta": "18",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "22028",
+   "Jug_Sale": "JHONATAN RICARDO MARTINEZ",
+   "CarneEntra": "15264",
+   "Jug_Entra": "FEDERICO SCHOL",
+   "camiseta": "10",
+   "minutos": "75"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "27042",
+   "Nombre": "MAXIMILIANO ALBERTO CHIRIBAO",
+   "minutos": "55",
+   "EnContra": "0"
+  },
+  {
+   "carne": "34126",
+   "Nombre": "ALEXIS GERMAN GARRO",
+   "minutos": "18",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "30511",
+   "Nombre": "BRUNO ERNESTO MILAN",
+   "minutos": "11",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "JUAN PEDRO QUAGLIATA",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"A\" PERM. y DESC.",
   "Cancha": "COMPLEJO JUAN XXIII",
-  "Fecha_Inicio": "2026-11-08 12:45:00",
-  "Fecha_fin": "2026-11-08 12:45:00",
+  "Fecha_Inicio": "2026-11-08 13:00:00",
+  "Fecha_fin": "2026-11-08 13:00:00",
   "Locatario": "JUAN XXIII",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,300 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "36530",
+   "Nombre": "MATIAS IROLDI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "49012",
+   "Nombre": "AGUSTIN SUPERVIELLE",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "64095",
+   "Nombre": "JUAN ANDRES GARCIA",
+   "camiseta": "51",
+   "Capitan": ""
+  },
+  {
+   "carne": "40859",
+   "Nombre": "JUAN MANUEL FERREIRA",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "47130",
+   "Nombre": "FRANCISCO ALVAREZ DE RON",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "67671",
+   "Nombre": "JUAN IGNACIO SÀNCHEZ",
+   "camiseta": "96",
+   "Capitan": ""
+  },
+  {
+   "carne": "58711",
+   "Nombre": "GERMAN MANGARELLI",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "45693",
+   "Nombre": "PEDRO BENZO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "63347",
+   "Nombre": "VALENTIN ROBKIN",
+   "camiseta": "70",
+   "Capitan": ""
+  },
+  {
+   "carne": "52645",
+   "Nombre": "AGUSTIN QUARTINO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "41174",
+   "Nombre": "JUAN PABLO PASTORINO",
+   "camiseta": "8",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "41005",
+   "Nombre": "NICOLAS RAFFO",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "31952",
+   "Nombre": "JOAQUIN REBELLATO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "40246",
+   "Nombre": "LUCAS NERY CALCAGNO",
+   "camiseta": "31",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "22166",
+   "Nombre": "FEDERICO PUA",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "44809",
+   "Nombre": "TOMAS JOSE SANZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "28144",
+   "Nombre": "ANDRES ANTONIO BESIO",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "39086",
+   "Nombre": "MATHIAS GASTON CASTIÑEIRA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "66422",
+   "Nombre": "RODRIGO ARIAS",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "67649",
+   "Nombre": "FEDERICO TELLECHEA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "50239",
+   "Nombre": "FRANCISCO AGUSTIN PERTUSSO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "29653",
+   "Nombre": "MARTIN MUSETTI",
+   "camiseta": "21",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "40859",
+   "Jug_Sale": "JUAN MANUEL FERREIRA",
+   "CarneEntra": "51518",
+   "Jug_Entra": "SANTIAGO BRANCATO",
+   "camiseta": "6",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58711",
+   "Jug_Sale": "GERMAN MANGARELLI",
+   "CarneEntra": "51708",
+   "Jug_Entra": "AGUSTIN FERRES",
+   "camiseta": "9",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "41174",
+   "Jug_Sale": "JUAN PABLO PASTORINO",
+   "CarneEntra": "59101",
+   "Jug_Entra": "JULIAN RIVERON",
+   "camiseta": "68",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "63347",
+   "Jug_Sale": "VALENTIN ROBKIN",
+   "CarneEntra": "46955",
+   "Jug_Entra": "FRANCISCO ARTURO CACERES",
+   "camiseta": "87",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "64095",
+   "Jug_Sale": "JUAN ANDRES GARCIA",
+   "CarneEntra": "58847",
+   "Jug_Entra": "JUAN DIEGO FAGNONI",
+   "camiseta": "27",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "67671",
+   "Jug_Sale": "JUAN IGNACIO SÀNCHEZ",
+   "CarneEntra": "48876",
+   "Jug_Entra": "EZEQUIEL FERRARI",
+   "camiseta": "91",
+   "minutos": "77"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "40246",
+   "Jug_Sale": "LUCAS NERY CALCAGNO",
+   "CarneEntra": "34400",
+   "Jug_Entra": "CARLOS MANUEL DE MELLO",
+   "camiseta": "17",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "39086",
+   "Jug_Sale": "MATHIAS GASTON CASTIÑEIRA",
+   "CarneEntra": "48826",
+   "Jug_Entra": "JOAQUIN PODESTA",
+   "camiseta": "33",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "44809",
+   "Jug_Sale": "TOMAS JOSE SANZ",
+   "CarneEntra": "23708",
+   "Jug_Entra": "LEANDRO JOSE FERNANDEZ",
+   "camiseta": "7",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "50239",
+   "Jug_Sale": "FRANCISCO AGUSTIN PERTUSSO",
+   "CarneEntra": "44291",
+   "Jug_Entra": "IGNACIO GEISINGER",
+   "camiseta": "37",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "29653",
+   "Jug_Sale": "MARTIN MUSETTI",
+   "CarneEntra": "44291",
+   "Jug_Entra": "IGNACIO GEISINGER",
+   "camiseta": "37",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "67649",
+   "Jug_Sale": "FEDERICO TELLECHEA",
+   "CarneEntra": "48915",
+   "Jug_Entra": "FACUNDO CURT GEISINGER",
+   "camiseta": "4",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "22166",
+   "Jug_Sale": "FEDERICO PUA",
+   "CarneEntra": "58673",
+   "Jug_Entra": "ALEJO FERRES",
+   "camiseta": "11",
+   "minutos": "73"
+  }
+ ],
  "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "golesV": [
+  {
+   "carne": "29653",
+   "Nombre": "MARTIN MUSETTI",
+   "minutos": "8",
+   "EnContra": "1"
+  },
+  {
+   "carne": "29653",
+   "Nombre": "MARTIN MUSETTI",
+   "minutos": "61",
+   "EnContra": "1"
+  },
+  {
+   "carne": "29653",
+   "Nombre": "MARTIN MUSETTI",
+   "minutos": "71",
+   "EnContra": "1"
+  },
+  {
+   "carne": "44291",
+   "Nombre": "IGNACIO GEISINGER",
+   "minutos": "82",
+   "EnContra": "1"
+  },
+  {
+   "carne": "50239",
+   "Nombre": "FRANCISCO AGUSTIN PERTUSSO",
+   "minutos": "9",
+   "EnContra": "1"
+  },
+  {
+   "carne": "50239",
+   "Nombre": "FRANCISCO AGUSTIN PERTUSSO",
+   "minutos": "57",
+   "EnContra": "1"
+  },
+  {
+   "carne": "58673",
+   "Nombre": "ALEJO FERRES",
+   "minutos": "77",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "AGUSTIN SUPERVIELLE",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

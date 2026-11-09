@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"E\" PERM. y DESC.",
   "Cancha": "COMPLEJO DEPORTIVO H3O",
-  "Fecha_Inicio": "2026-11-08 10:30:00",
-  "Fecha_fin": "2026-11-08 10:30:00",
+  "Fecha_Inicio": "2026-11-08 11:00:00",
+  "Fecha_fin": "2026-11-08 11:00:00",
   "Locatario": "CLARA JACKSON UNIVERSITARIO",
   "goles_locatario": "3",
   "puntos_locatario": "0",
@@ -29,12 +29,242 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
- "expulsadosV": []
+ "titularesL": [
+  {
+   "carne": "26280",
+   "Nombre": "DIEGO ALVEZ",
+   "camiseta": "72",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "57230",
+   "Nombre": "AGUSTIN LEAL",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "49756",
+   "Nombre": "DARIO MONSERRAT",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "66681",
+   "Nombre": "DIEGO RODRIGUEZ",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "43112",
+   "Nombre": "MATHIAS CABRERA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "35829",
+   "Nombre": "FEDERICO MARTIN LAITANO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "35291",
+   "Nombre": "ADRIAN MONTOLI",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "55342",
+   "Nombre": "JUAN ANDRES RODRIGUEZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "58446",
+   "Nombre": "NICOLAS DEGUGLIELMI",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "69041",
+   "Nombre": "ALBERTO VALENTINO ORPI",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "51292",
+   "Nombre": "SANTIAGO NICOLAS CUÑETTI",
+   "camiseta": "29",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "59037",
+   "Nombre": "WILDER NAHUEL RODRIGUEZ",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "65824",
+   "Nombre": "MATHIAS ALEXIS TRAJTENBERG",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "43425",
+   "Nombre": "JUAN IGNACIO CARRION",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "67424",
+   "Nombre": "LUCAS MIGUEL MESTRE",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "16030",
+   "Nombre": "CARLOS MAURO MATHIEU",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "41193",
+   "Nombre": "JUAN IGNACIO AYALA",
+   "camiseta": "7",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "66226",
+   "Nombre": "FEDERICO MARTIN RAMOS",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "66227",
+   "Nombre": "ALEXANDER CASTELLI",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "67872",
+   "Nombre": "HUMBERTO GAUDIER BRICEÑO",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "56281",
+   "Nombre": "PABLO RAUL LUCAS",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "62360",
+   "Nombre": "MATHIAS NAHUEL MORALES",
+   "camiseta": "21",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "58446",
+   "Jug_Sale": "NICOLAS DEGUGLIELMI",
+   "CarneEntra": "60932",
+   "Jug_Entra": "JOAQUIN FEDERICO CASTRO",
+   "camiseta": "25",
+   "minutos": "53"
+  },
+  {
+   "CarneSale": "57230",
+   "Jug_Sale": "AGUSTIN LEAL",
+   "CarneEntra": "41109",
+   "Jug_Entra": "FERNANDO ALVEZ",
+   "camiseta": "23",
+   "minutos": "53"
+  },
+  {
+   "CarneSale": "51292",
+   "Jug_Sale": "SANTIAGO NICOLAS CUÑETTI",
+   "CarneEntra": "58446",
+   "Jug_Entra": "NICOLAS DEGUGLIELMI",
+   "camiseta": "18",
+   "minutos": "62"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "67872",
+   "Jug_Sale": "HUMBERTO GAUDIER BRICEÑO",
+   "CarneEntra": "66204",
+   "Jug_Entra": "OSCAR MICHEL MOLINA",
+   "camiseta": "19",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56281",
+   "Jug_Sale": "PABLO RAUL LUCAS",
+   "CarneEntra": "67872",
+   "Jug_Entra": "HUMBERTO GAUDIER BRICEÑO",
+   "camiseta": "26",
+   "minutos": "90"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "58446",
+   "Nombre": "NICOLAS DEGUGLIELMI",
+   "minutos": "31",
+   "EnContra": "0"
+  },
+  {
+   "carne": "58446",
+   "Nombre": "NICOLAS DEGUGLIELMI",
+   "minutos": "81",
+   "EnContra": "0"
+  },
+  {
+   "carne": "69041",
+   "Nombre": "ALBERTO VALENTINO ORPI",
+   "minutos": "87",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "41193",
+   "Nombre": "JUAN IGNACIO AYALA",
+   "minutos": "55",
+   "EnContra": "1"
+  },
+  {
+   "carne": "41193",
+   "Nombre": "JUAN IGNACIO AYALA",
+   "minutos": "67",
+   "EnContra": "1"
+  },
+  {
+   "carne": "62360",
+   "Nombre": "MATHIAS NAHUEL MORALES",
+   "minutos": "61",
+   "EnContra": "1"
+  },
+  {
+   "carne": "66227",
+   "Nombre": "ALEXANDER CASTELLI",
+   "minutos": "51",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "DARIO MONSERRAT",
+   "observaciones": ""
+  }
+ ],
+ "expulsadosV": [
+  {
+   "Nombre": "ALEXANDER CASTELLI",
+   "observaciones": ""
+  }
+ ]
 }

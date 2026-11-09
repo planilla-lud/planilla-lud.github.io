@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAS40 \"A\" TITULO",
   "Cancha": "COM. DEP. CLUB TROUVILLE",
-  "Fecha_Inicio": "2026-11-07 10:30:00",
-  "Fecha_fin": "2026-11-07 10:30:00",
+  "Fecha_Inicio": "2026-11-07 10:52:00",
+  "Fecha_fin": "2026-11-07 10:52:00",
   "Locatario": "GOMENSORO",
   "goles_locatario": "4",
   "puntos_locatario": "3",
@@ -29,12 +29,263 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "23296",
+   "Nombre": "WASHINGTON RICARDO SANTANA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "17096",
+   "Nombre": "JULIAN CARVE",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "15792",
+   "Nombre": "JUAN RAMON PAEZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "17443",
+   "Nombre": "JAVIER FISCHER",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "24555",
+   "Nombre": "DIEGO TARAMASCO",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "17030",
+   "Nombre": "JUAN DIEGO LARROQUE",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "14903",
+   "Nombre": "TAZIO SCALDAFERRI",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "14231",
+   "Nombre": "RODRIGO RECOBA",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "28905",
+   "Nombre": "BRUNO NICOLAS LAGOMARSINO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "40476",
+   "Nombre": "JOSE MANUEL CAYAFFA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "13368",
+   "Nombre": "MARTIN ANDRES OLIVERA",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "19994",
+   "Nombre": "GERMAN FRAQUIA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "16333",
+   "Nombre": "MARTIN EDUARDO RODRIGUEZ",
+   "camiseta": "23",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "39923",
+   "Nombre": "JUAN IGNACIO RODRÌGUEZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "22821",
+   "Nombre": "ERNESTO MARTIN CALLERIZA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "16181",
+   "Nombre": "PABLO ANGERIZ",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "14701",
+   "Nombre": "PABLO SANTIAGO CASTRO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "17908",
+   "Nombre": "JESUS SOSA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "19196",
+   "Nombre": "SANTIAGO VILARDEBO",
+   "camiseta": "75",
+   "Capitan": ""
+  },
+  {
+   "carne": "20380",
+   "Nombre": "RAFAEL EDUARDO RENAU",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "22143",
+   "Nombre": "ALDOLFO BENITO MACHIN",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "30356",
+   "Nombre": "JOAQUIN DE LA SOVERA",
+   "camiseta": "28",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "13368",
+   "Jug_Sale": "MARTIN ANDRES OLIVERA",
+   "CarneEntra": "17425",
+   "Jug_Entra": "DIEGO SCLEIDOROVICH",
+   "camiseta": "8",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "24555",
+   "Jug_Sale": "DIEGO TARAMASCO",
+   "CarneEntra": "30341",
+   "Jug_Entra": "GUILLERMO LARROQUE",
+   "camiseta": "23",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "14231",
+   "Jug_Sale": "RODRIGO RECOBA",
+   "CarneEntra": "22061",
+   "Jug_Entra": "MARCELO ARIEL AMARAL",
+   "camiseta": "14",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "28905",
+   "Jug_Sale": "BRUNO NICOLAS LAGOMARSINO",
+   "CarneEntra": "23588",
+   "Jug_Entra": "ANTONIO MARIA SERRENTINO",
+   "camiseta": "33",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "17030",
+   "Jug_Sale": "JUAN DIEGO LARROQUE",
+   "CarneEntra": "13368",
+   "Jug_Entra": "MARTIN ANDRES OLIVERA",
+   "camiseta": "11",
+   "minutos": "93"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "14701",
+   "Jug_Sale": "PABLO SANTIAGO CASTRO",
+   "CarneEntra": "14703",
+   "Jug_Entra": "MARCEL AZZARINI",
+   "camiseta": "10",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "22821",
+   "Jug_Sale": "ERNESTO MARTIN CALLERIZA",
+   "CarneEntra": "19188",
+   "Jug_Entra": "GUSTAVO ANTONIO JACQUES",
+   "camiseta": "40",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "16333",
+   "Jug_Sale": "MARTIN EDUARDO RODRIGUEZ",
+   "CarneEntra": "19184",
+   "Jug_Entra": "CAMILO ROMAN BALVERDE",
+   "camiseta": "44",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "20380",
+   "Jug_Sale": "RAFAEL EDUARDO RENAU",
+   "CarneEntra": "17899",
+   "Jug_Entra": "PEDRO FEDERICO LESCOULIE",
+   "camiseta": "7",
+   "minutos": "96"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "13368",
+   "Nombre": "MARTIN ANDRES OLIVERA",
+   "minutos": "24",
+   "EnContra": "0"
+  },
+  {
+   "carne": "14903",
+   "Nombre": "TAZIO SCALDAFERRI",
+   "minutos": "93",
+   "EnContra": "0"
+  },
+  {
+   "carne": "28905",
+   "Nombre": "BRUNO NICOLAS LAGOMARSINO",
+   "minutos": "30",
+   "EnContra": "0"
+  },
+  {
+   "carne": "40476",
+   "Nombre": "JOSE MANUEL CAYAFFA",
+   "minutos": "44",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "22143",
+   "Nombre": "ALDOLFO BENITO MACHIN",
+   "minutos": "48",
+   "EnContra": "1"
+  },
+  {
+   "carne": "22143",
+   "Nombre": "ALDOLFO BENITO MACHIN",
+   "minutos": "52",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
- "expulsadosV": []
+ "expulsadosV": [
+  {
+   "Nombre": "SANTIAGO VILARDEBO",
+   "observaciones": ""
+  }
+ ]
 }

@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "SUB20 \"A\" TITULO",
   "Cancha": "ELF (LICEO FRANCES)",
-  "Fecha_Inicio": "2026-11-07 17:00:00",
-  "Fecha_fin": "2026-11-07 17:00:00",
+  "Fecha_Inicio": "2026-11-07 17:15:00",
+  "Fecha_fin": "2026-11-07 17:15:00",
   "Locatario": "E.L.F.",
   "goles_locatario": "2",
   "puntos_locatario": "3",
@@ -29,11 +29,240 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "56750",
+   "Nombre": "JOAQUIN BLANCO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "56266",
+   "Nombre": "JUAN FRANCISCO CASTELLANOS",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "54773",
+   "Nombre": "JUAN IGNACIO PODESTA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "55273",
+   "Nombre": "JUAN SARACCO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "57687",
+   "Nombre": "RAMIRO MENDEZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "62703",
+   "Nombre": "MATIAS AGUSTIN RIPOLL",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "60555",
+   "Nombre": "MARCOS TRIGO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "56768",
+   "Nombre": "MATIAS DUPUY",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "54658",
+   "Nombre": "JUAN MANUEL DUPUY",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "67158",
+   "Nombre": "LUCIANO DOS SANTOS",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "56764",
+   "Nombre": "IGNACIO VERANO",
+   "camiseta": "9",
+   "Capitan": "(C)"
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "58598",
+   "Nombre": "NICOLAS MAZZILLI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "56208",
+   "Nombre": "LORENZO MANDIA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "62949",
+   "Nombre": "JUAN IGNACIO PEDROZO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "56647",
+   "Nombre": "JOAQUIN EMILIANO SOLOGAISTOA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "56195",
+   "Nombre": "SANTIAGO ALFREDO CAFFA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "56639",
+   "Nombre": "BENJAMIN MORALES",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "56643",
+   "Nombre": "FEDERICO MOSCA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "58217",
+   "Nombre": "LUCA TORTEROLO",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56645",
+   "Nombre": "MAXIMO BERTOLA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "56642",
+   "Nombre": "MATEO PEREZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "54965",
+   "Nombre": "JOAQUIN EMILIO VOLA",
+   "camiseta": "17",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "54658",
+   "Jug_Sale": "JUAN MANUEL DUPUY",
+   "CarneEntra": "61161",
+   "Jug_Entra": "FACUNDO CORREA",
+   "camiseta": "12",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56764",
+   "Jug_Sale": "IGNACIO VERANO",
+   "CarneEntra": "63089",
+   "Jug_Entra": "FELIPE FERLAT",
+   "camiseta": "14",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "67158",
+   "Jug_Sale": "LUCIANO DOS SANTOS",
+   "CarneEntra": "59828",
+   "Jug_Entra": "IGNACIO RAMO",
+   "camiseta": "19",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "56768",
+   "Jug_Sale": "MATIAS DUPUY",
+   "CarneEntra": "57955",
+   "Jug_Entra": "MATIAS VIÑAR",
+   "camiseta": "7",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "54773",
+   "Jug_Sale": "JUAN IGNACIO PODESTA",
+   "CarneEntra": "63240",
+   "Jug_Entra": "NICOLAS PERAZZO",
+   "camiseta": "5",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "60555",
+   "Jug_Sale": "MARCOS TRIGO",
+   "CarneEntra": "56758",
+   "Jug_Entra": "IVAN ORDOÑEZ",
+   "camiseta": "15",
+   "minutos": "84"
+  },
+  {
+   "CarneSale": "55273",
+   "Jug_Sale": "JUAN SARACCO",
+   "CarneEntra": "57969",
+   "Jug_Entra": "FRANCO MAZZUCCHELLI",
+   "camiseta": "20",
+   "minutos": "85"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "54965",
+   "Jug_Sale": "JOAQUIN EMILIO VOLA",
+   "CarneEntra": "68563",
+   "Jug_Entra": "BENICIO CUEVAS",
+   "camiseta": "20",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58217",
+   "Jug_Sale": "LUCA TORTEROLO",
+   "CarneEntra": "55503",
+   "Jug_Entra": "SALVADOR DI CANDIA",
+   "camiseta": "9",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56195",
+   "Jug_Sale": "SANTIAGO ALFREDO CAFFA",
+   "CarneEntra": "60869",
+   "Jug_Entra": "AGUSTIN SANTAMARINA",
+   "camiseta": "22",
+   "minutos": "58"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "56750",
+   "Nombre": "JOAQUIN BLANCO",
+   "minutos": "1",
+   "EnContra": "0"
+  },
+  {
+   "carne": "56750",
+   "Nombre": "JOAQUIN BLANCO",
+   "minutos": "2",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

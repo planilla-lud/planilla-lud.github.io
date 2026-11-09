@@ -4,7 +4,7 @@
  "serie": "RSDTA",
  "fecha": 10,
  "fechaHora": "2026-11-07 11:15:00",
- "cancha": "COMPLEJO LAS CASUARINAS",
+ "cancha": "()",
  "local": "TENIS EL PINAR SUB22",
  "visitante": "MARISTAS DEPORTIVO",
  "gl": 4,
@@ -17,9 +17,9 @@
   "categoria": "RESERVA MASCULINO",
   "rueda": "2",
   "Divisional": "RESERVA \"D\" TIT. y ASC.",
-  "Cancha": "COMPLEJO LAS CASUARINAS",
-  "Fecha_Inicio": "2026-11-07 12:45:00",
-  "Fecha_fin": "2026-11-07 12:45:00",
+  "Cancha": "()",
+  "Fecha_Inicio": "2026-11-07 13:00:00",
+  "Fecha_fin": "2026-11-07 13:00:00",
   "Locatario": "TENIS EL PINAR SUB22",
   "goles_locatario": "4",
   "puntos_locatario": "3",
@@ -29,12 +29,226 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "56171",
+   "Nombre": "MARIANO DANIEL OTTONELLI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "57966",
+   "Nombre": "FRANCISCO LOURTET",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "52628",
+   "Nombre": "JOAQUIN NUÑEZ",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "51804",
+   "Nombre": "JUAN IGNACIO LEIVA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "52625",
+   "Nombre": "MATEO GONZALEZ",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "52640",
+   "Nombre": "VALENTIN COLOMINAS",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "52634",
+   "Nombre": "JUAN IGNACIO QUINTANA",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "58083",
+   "Nombre": "IGNACIO FACUNDO RICOBALDI",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "52632",
+   "Nombre": "AGUSTIN FIRPO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "53357",
+   "Nombre": "JUAN MANUEL TRUJILLO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "61528",
+   "Nombre": "SANTIAGO DAMIAN PEREIRA",
+   "camiseta": "16",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "59350",
+   "Nombre": "GASTON NUÑEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "66164",
+   "Nombre": "NICOLAS AYESTARAN",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "56682",
+   "Nombre": "DIEGO RAHI",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "69053",
+   "Nombre": "IVAN ARIEL MELO",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "56508",
+   "Nombre": "MATEO GARCIA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "66624",
+   "Nombre": "VALENTIN HUGO MENDIZABAL",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "59908",
+   "Nombre": "EZEQUIEL VALLARI",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "66232",
+   "Nombre": "LUCAS MAURICIO CARTAGENA",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "55117",
+   "Nombre": "GUILLERMO VALLE LISBOA",
+   "camiseta": "18",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "47999",
+   "Nombre": "DIEGO BOUZON",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "53961",
+   "Nombre": "FRANCISCO SCARRONE",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "61528",
+   "Jug_Sale": "SANTIAGO DAMIAN PEREIRA",
+   "CarneEntra": "52444",
+   "Jug_Entra": "SEBASTIAN CARBAJAL",
+   "camiseta": "18",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "53357",
+   "Jug_Sale": "JUAN MANUEL TRUJILLO",
+   "CarneEntra": "53418",
+   "Jug_Entra": "FACUNDO VARIO",
+   "camiseta": "7",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "52632",
+   "Jug_Sale": "AGUSTIN FIRPO",
+   "CarneEntra": "53641",
+   "Jug_Entra": "FACUNDO ROCHA",
+   "camiseta": "15",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "58083",
+   "Jug_Sale": "IGNACIO FACUNDO RICOBALDI",
+   "CarneEntra": "66514",
+   "Jug_Entra": "MARTIN DIAZ",
+   "camiseta": "17",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "52640",
+   "Jug_Sale": "VALENTIN COLOMINAS",
+   "CarneEntra": "49397",
+   "Jug_Entra": "JOAQUIN CHAVEZ",
+   "camiseta": "6",
+   "minutos": "77"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "55117",
+   "Jug_Sale": "GUILLERMO VALLE LISBOA",
+   "CarneEntra": "55077",
+   "Jug_Entra": "EMANUEL DA LUZ",
+   "camiseta": "14",
+   "minutos": "45"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "52640",
+   "Nombre": "VALENTIN COLOMINAS",
+   "minutos": "53",
+   "EnContra": "0"
+  },
+  {
+   "carne": "53641",
+   "Nombre": "FACUNDO ROCHA",
+   "minutos": "75",
+   "EnContra": "0"
+  },
+  {
+   "carne": "58083",
+   "Nombre": "IGNACIO FACUNDO RICOBALDI",
+   "minutos": "65",
+   "EnContra": "0"
+  },
+  {
+   "carne": "61528",
+   "Nombre": "SANTIAGO DAMIAN PEREIRA",
+   "minutos": "23",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
- "expulsadosL": [],
+ "expulsadosL": [
+  {
+   "Nombre": "JOAQUIN NUÑEZ",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

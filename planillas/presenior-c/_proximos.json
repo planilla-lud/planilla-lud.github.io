@@ -14,13 +14,6 @@
   "visitante": "EL CHORRO FUTBOL CLUB"
  },
  {
-  "serie": "PSCTA",
-  "fechaHora": "2026-11-14 09:00:00",
-  "cancha": "COMPLEJO LOS CARDALES",
-  "local": "SAN JUAN BAUTISTA",
-  "visitante": "OLD WOODLANDS CLUB"
- },
- {
   "serie": "PSCPD",
   "fechaHora": "2026-11-14 09:00:00",
   "cancha": "COMPLEJO DEPORTIVO H3O",
@@ -54,5 +47,12 @@
   "cancha": "COMPLEJO LAS CASUARINAS",
   "local": "FLORES UNIVERSITARIO",
   "visitante": "ARQUITECTURA JRS."
+ },
+ {
+  "serie": "PSCTA",
+  "fechaHora": "2026-12-30 00:00:00",
+  "cancha": "NO SE JUEGA",
+  "local": "SAN JUAN BAUTISTA",
+  "visitante": "OLD WOODLANDS CLUB"
  }
 ]

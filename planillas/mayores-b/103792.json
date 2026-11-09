@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"B\" PERM. y DESC.",
   "Cancha": "COLEGIO PIO",
-  "Fecha_Inicio": "2026-11-08 12:45:00",
-  "Fecha_fin": "2026-11-08 12:45:00",
+  "Fecha_Inicio": "2026-11-08 13:15:00",
+  "Fecha_fin": "2026-11-08 13:15:00",
   "Locatario": "OLIMAR",
   "goles_locatario": "1",
   "puntos_locatario": "1",
@@ -29,12 +29,242 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "57165",
+   "Nombre": "LEANDRO MARTIN BOLDRINI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "38803",
+   "Nombre": "MAURO LAGOMARSINO",
+   "camiseta": "15",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "33338",
+   "Nombre": "IGNACIO INDA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "29643",
+   "Nombre": "DARIO CAMPELO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "58535",
+   "Nombre": "JOAQUIN ALMEIDA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "63395",
+   "Nombre": "DIEGO DANIEL DOS SANTOS",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "56979",
+   "Nombre": "MAURO DANIEL MIRABALLES",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "52242",
+   "Nombre": "AGUSTIN BICA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "47177",
+   "Nombre": "BRUNO BRUM",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "52565",
+   "Nombre": "NAHUEL AGUSTIN VIGNOLO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "57724",
+   "Nombre": "GONZALO MARTIN MESPOLET",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "65017",
+   "Nombre": "DIEGO GUSTAVO VERA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "52859",
+   "Nombre": "ALEN DOMINGUEZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "41550",
+   "Nombre": "SEBASTIAN EIRALDI",
+   "camiseta": "11",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "53726",
+   "Nombre": "IVAN ANDRES GARCIA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "26404",
+   "Nombre": "FEDERICO DE LEON",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "35178",
+   "Nombre": "ANDRES GARCIA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "51058",
+   "Nombre": "TADEO SOBA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "50625",
+   "Nombre": "IGNACIO GARCIA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "45724",
+   "Nombre": "NICOLAS POLLERO",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "47801",
+   "Nombre": "FACUNDO GAMBETTA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "50993",
+   "Nombre": "SANTIAGO DURAN",
+   "camiseta": "24",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "58535",
+   "Jug_Sale": "JOAQUIN ALMEIDA",
+   "CarneEntra": "52547",
+   "Jug_Entra": "BRAIAN ANDRES FIERRO",
+   "camiseta": "17",
+   "minutos": "44"
+  },
+  {
+   "CarneSale": "52242",
+   "Jug_Sale": "AGUSTIN BICA",
+   "CarneEntra": "58424",
+   "Jug_Entra": "ALFONSO DARIO GIMENEZ",
+   "camiseta": "19",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "47177",
+   "Jug_Sale": "BRUNO BRUM",
+   "CarneEntra": "65333",
+   "Jug_Entra": "LUCAS DIEGO ALVARIZA",
+   "camiseta": "5",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "29643",
+   "Jug_Sale": "DARIO CAMPELO",
+   "CarneEntra": "60969",
+   "Jug_Entra": "STEVEN LARROSA",
+   "camiseta": "11",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "52565",
+   "Jug_Sale": "NAHUEL AGUSTIN VIGNOLO",
+   "CarneEntra": "28832",
+   "Jug_Entra": "FEDERICO LARRIERA",
+   "camiseta": "2",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "56979",
+   "Jug_Sale": "MAURO DANIEL MIRABALLES",
+   "CarneEntra": "21560",
+   "Jug_Entra": "SANTIAGO AMARO",
+   "camiseta": "8",
+   "minutos": "80"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "50625",
+   "Jug_Sale": "IGNACIO GARCIA",
+   "CarneEntra": "49505",
+   "Jug_Entra": "JUAN MANUEL SALA",
+   "camiseta": "20",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "52859",
+   "Jug_Sale": "ALEN DOMINGUEZ",
+   "CarneEntra": "57840",
+   "Jug_Entra": "DIEGO BIDEGAIN",
+   "camiseta": "10",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "35178",
+   "Jug_Sale": "ANDRES GARCIA",
+   "CarneEntra": "50725",
+   "Jug_Entra": "JUAN IGNACIO ROSSI",
+   "camiseta": "19",
+   "minutos": "81"
+  },
+  {
+   "CarneSale": "26404",
+   "Jug_Sale": "FEDERICO DE LEON",
+   "CarneEntra": "37683",
+   "Jug_Entra": "PABLO GASTON OLIVERA",
+   "camiseta": "30",
+   "minutos": "88"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "56979",
+   "Nombre": "MAURO DANIEL MIRABALLES",
+   "minutos": "76",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "50993",
+   "Nombre": "SANTIAGO DURAN",
+   "minutos": "36",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

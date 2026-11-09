@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"D\" TIT. y ASC.",
   "Cancha": "SCUOLA ITALIANA",
-  "Fecha_Inicio": "2026-11-06 22:30:00",
-  "Fecha_fin": "2026-11-06 22:30:00",
+  "Fecha_Inicio": "2026-11-06 22:45:00",
+  "Fecha_fin": "2026-11-06 22:45:00",
   "Locatario": "SCUOLA PALERMO",
   "goles_locatario": "2",
   "puntos_locatario": "0",
@@ -29,12 +29,292 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "48909",
+   "Nombre": "RAFAEL MATEO FARINA",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "49240",
+   "Nombre": "MATIAS TIZIANO MORENA",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "48907",
+   "Nombre": "JUAN IGNACIO CABRERA",
+   "camiseta": "21",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "45287",
+   "Nombre": "MATIAS CAMBON",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "68937",
+   "Nombre": "TOMAS ALVAREZ",
+   "camiseta": "41",
+   "Capitan": ""
+  },
+  {
+   "carne": "56929",
+   "Nombre": "SANTIAGO GABRIEL MORALES",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "53493",
+   "Nombre": "MATIAS PIRIZ",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "54012",
+   "Nombre": "JOAQUIN POMBO",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "48901",
+   "Nombre": "FRANCO ARCARI",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "49176",
+   "Nombre": "PEDRO AGUERRONDO",
+   "camiseta": "95",
+   "Capitan": ""
+  },
+  {
+   "carne": "49753",
+   "Nombre": "AGUSTIN BENEDETTI",
+   "camiseta": "4",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "51640",
+   "Nombre": "FRANCO LOMBARDI",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "41152",
+   "Nombre": "TOMAS PAPARIELLO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "45209",
+   "Nombre": "JUAN MARTIN SUEIRO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "45008",
+   "Nombre": "GASTON ANTUNEZ",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "36388",
+   "Nombre": "GUZMAN ALEJANDRO PEREIRA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "43194",
+   "Nombre": "LUCAS MARTINEZ",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "45386",
+   "Nombre": "TOMAS BETTANIN",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "40634",
+   "Nombre": "JUAN MANUEL MONTERO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "45372",
+   "Nombre": "DAVID ROBIDO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "51441",
+   "Nombre": "SANTIAGO DERGAZARIAN",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "27124",
+   "Nombre": "SEBASTIAN PEREZ",
+   "camiseta": "9",
+   "Capitan": "(C)"
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "68937",
+   "Jug_Sale": "TOMAS ALVAREZ",
+   "CarneEntra": "56827",
+   "Jug_Entra": "AGUSTIN FACUNDO ANTUNA",
+   "camiseta": "25",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "49240",
+   "Jug_Sale": "MATIAS TIZIANO MORENA",
+   "CarneEntra": "54441",
+   "Jug_Entra": "GIANLUCA GANDOLFO",
+   "camiseta": "22",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "45287",
+   "Jug_Sale": "MATIAS CAMBON",
+   "CarneEntra": "49240",
+   "Jug_Entra": "MATIAS TIZIANO MORENA",
+   "camiseta": "24",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "48907",
+   "Jug_Sale": "JUAN IGNACIO CABRERA",
+   "CarneEntra": "68937",
+   "Jug_Entra": "TOMAS ALVAREZ",
+   "camiseta": "41",
+   "minutos": "71"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "40634",
+   "Jug_Sale": "JUAN MANUEL MONTERO",
+   "CarneEntra": "52642",
+   "Jug_Entra": "TOMAS MARTINEZ",
+   "camiseta": "6",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "36388",
+   "Jug_Sale": "GUZMAN ALEJANDRO PEREIRA",
+   "CarneEntra": "35286",
+   "Jug_Entra": "NICOLAS CRAVIOTTO",
+   "camiseta": "16",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "27124",
+   "Jug_Sale": "SEBASTIAN PEREZ",
+   "CarneEntra": "47345",
+   "Jug_Entra": "JOAQUIN GABRIEL VARELA",
+   "camiseta": "26",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "45372",
+   "Jug_Sale": "DAVID ROBIDO",
+   "CarneEntra": "48955",
+   "Jug_Entra": "IGNACIO LOPEZ",
+   "camiseta": "80",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "43194",
+   "Jug_Sale": "LUCAS MARTINEZ",
+   "CarneEntra": "62033",
+   "Jug_Entra": "SANTIAGO SUEIRO",
+   "camiseta": "20",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "41152",
+   "Jug_Sale": "TOMAS PAPARIELLO",
+   "CarneEntra": "42809",
+   "Jug_Entra": "EMILIANO WALTER FERREYRA",
+   "camiseta": "5",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "51441",
+   "Jug_Sale": "SANTIAGO DERGAZARIAN",
+   "CarneEntra": "46385",
+   "Jug_Entra": "FERNANDO EMANUEL FAGALDES",
+   "camiseta": "33",
+   "minutos": "76"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "48907",
+   "Nombre": "JUAN IGNACIO CABRERA",
+   "minutos": "15",
+   "EnContra": "0"
+  },
+  {
+   "carne": "68937",
+   "Nombre": "TOMAS ALVAREZ",
+   "minutos": "81",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "27124",
+   "Nombre": "SEBASTIAN PEREZ",
+   "minutos": "39",
+   "EnContra": "1"
+  },
+  {
+   "carne": "35286",
+   "Nombre": "NICOLAS CRAVIOTTO",
+   "minutos": "65",
+   "EnContra": "1"
+  },
+  {
+   "carne": "45372",
+   "Nombre": "DAVID ROBIDO",
+   "minutos": "56",
+   "EnContra": "1"
+  },
+  {
+   "carne": "51441",
+   "Nombre": "SANTIAGO DERGAZARIAN",
+   "minutos": "13",
+   "EnContra": "1"
+  },
+  {
+   "carne": "51441",
+   "Nombre": "SANTIAGO DERGAZARIAN",
+   "minutos": "58",
+   "EnContra": "1"
+  },
+  {
+   "carne": "51441",
+   "Nombre": "SANTIAGO DERGAZARIAN",
+   "minutos": "75",
+   "EnContra": "1"
+  },
+  {
+   "carne": "52642",
+   "Nombre": "TOMAS MARTINEZ",
+   "minutos": "69",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

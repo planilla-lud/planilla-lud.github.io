@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"D\" TIT. y ASC.",
   "Cancha": "SANTA RITA",
-  "Fecha_Inicio": "2026-11-07 12:45:00",
-  "Fecha_fin": "2026-11-07 12:45:00",
+  "Fecha_Inicio": "2026-11-07 13:05:00",
+  "Fecha_fin": "2026-11-07 13:05:00",
   "Locatario": "SAN AGUSTIN",
   "goles_locatario": "3",
   "puntos_locatario": "3",
@@ -29,12 +29,252 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "59374",
+   "Nombre": "MATIAS CRISPINO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "49157",
+   "Nombre": "SEBASTIAN CHEBI",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "55271",
+   "Nombre": "IGNACIO BORETTO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "47401",
+   "Nombre": "FELIPE SEXENIAN",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "45699",
+   "Nombre": "IGNACIO FEDERICO ALESINA",
+   "camiseta": "79",
+   "Capitan": ""
+  },
+  {
+   "carne": "55788",
+   "Nombre": "JUAN IGNACIO BECOÑA",
+   "camiseta": "71",
+   "Capitan": ""
+  },
+  {
+   "carne": "48900",
+   "Nombre": "AGUSTIN DECIA",
+   "camiseta": "92",
+   "Capitan": ""
+  },
+  {
+   "carne": "51336",
+   "Nombre": "SEBASTIAN ROCHA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "50991",
+   "Nombre": "MAXIMILIANO GAGLIAMONE",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "25240",
+   "Nombre": "JUAN ALEJO REINOSO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "54167",
+   "Nombre": "JOAQUIN DECIA",
+   "camiseta": "77",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "40068",
+   "Nombre": "SANTIAGO BOUSO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "52985",
+   "Nombre": "FACUNDO AGUSTIN MARTINEZ",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "50975",
+   "Nombre": "NICOLAS BARCHIESI",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "41716",
+   "Nombre": "MATEO CASTAGNA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "48268",
+   "Nombre": "ERNESTO MATIAS PEREYRA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "55560",
+   "Nombre": "JUAN MATEO PELUFO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "52971",
+   "Nombre": "JUAN PABLO FERRARI",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "51163",
+   "Nombre": "MATIAS IVANCICH",
+   "camiseta": "38",
+   "Capitan": ""
+  },
+  {
+   "carne": "47098",
+   "Nombre": "JUAN IGNACIO COITO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "54861",
+   "Nombre": "FEDERICO GARCIA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "57542",
+   "Nombre": "DIEGO SEBASTIAN DUSIO",
+   "camiseta": "24",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "25240",
+   "Jug_Sale": "JUAN ALEJO REINOSO",
+   "CarneEntra": "54759",
+   "Jug_Entra": "AGUSTIN GALINDEZ",
+   "camiseta": "42",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "55788",
+   "Jug_Sale": "JUAN IGNACIO BECOÑA",
+   "CarneEntra": "43944",
+   "Jug_Entra": "SANTIAGO TECHEIRA",
+   "camiseta": "13",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "51336",
+   "Jug_Sale": "SEBASTIAN ROCHA",
+   "CarneEntra": "47398",
+   "Jug_Entra": "FELIPE GALINDEZ",
+   "camiseta": "28",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "49157",
+   "Jug_Sale": "SEBASTIAN CHEBI",
+   "CarneEntra": "48999",
+   "Jug_Entra": "FEDERICO CHOCHO",
+   "camiseta": "20",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "54167",
+   "Jug_Sale": "JOAQUIN DECIA",
+   "CarneEntra": "50985",
+   "Jug_Entra": "SANTIAGO MOCHETTI",
+   "camiseta": "24",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "47401",
+   "Jug_Sale": "FELIPE SEXENIAN",
+   "CarneEntra": "47603",
+   "Jug_Entra": "DANILO LUMACA",
+   "camiseta": "19",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "45699",
+   "Jug_Sale": "IGNACIO FEDERICO ALESINA",
+   "CarneEntra": "54126",
+   "Jug_Entra": "ALEJANDRO DIAZ",
+   "camiseta": "44",
+   "minutos": "79"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "50975",
+   "Jug_Sale": "NICOLAS BARCHIESI",
+   "CarneEntra": "55202",
+   "Jug_Entra": "SANTIAGO OLIVERA",
+   "camiseta": "29",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "48268",
+   "Jug_Sale": "ERNESTO MATIAS PEREYRA",
+   "CarneEntra": "52619",
+   "Jug_Entra": "LUCAS GUERRI",
+   "camiseta": "11",
+   "minutos": "52"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "50991",
+   "Nombre": "MAXIMILIANO GAGLIAMONE",
+   "minutos": "13",
+   "EnContra": "0"
+  },
+  {
+   "carne": "50991",
+   "Nombre": "MAXIMILIANO GAGLIAMONE",
+   "minutos": "18",
+   "EnContra": "0"
+  },
+  {
+   "carne": "54167",
+   "Nombre": "JOAQUIN DECIA",
+   "minutos": "59",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "57542",
+   "Nombre": "DIEGO SEBASTIAN DUSIO",
+   "minutos": "11",
+   "EnContra": "1"
+  },
+  {
+   "carne": "57542",
+   "Nombre": "DIEGO SEBASTIAN DUSIO",
+   "minutos": "90",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

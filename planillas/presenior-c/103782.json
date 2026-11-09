@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"C\" PER. y DESC",
   "Cancha": "COMPLEJO DEPORTIVO ARRAYANES",
-  "Fecha_Inicio": "2026-11-07 12:45:00",
-  "Fecha_fin": "2026-11-07 12:45:00",
+  "Fecha_Inicio": "2026-11-07 13:00:00",
+  "Fecha_fin": "2026-11-07 13:00:00",
   "Locatario": "DEPORTIVO MITRE",
   "goles_locatario": "1",
   "puntos_locatario": "0",
@@ -29,12 +29,276 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "20274",
+   "Nombre": "ALEJANDRO BRUBACHER",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "38740",
+   "Nombre": "FEDERICO BRANDA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "33110",
+   "Nombre": "GABRIEL ARBIZA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "20277",
+   "Nombre": "LUIS ENRIQUE LOZANO",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "50049",
+   "Nombre": "DIEGO MARTIN ALBANO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "27464",
+   "Nombre": "MAURICIO GASTON ARAMBILLET",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "54923",
+   "Nombre": "SANTIAGO ANDRES AVIERO",
+   "camiseta": "45",
+   "Capitan": ""
+  },
+  {
+   "carne": "23889",
+   "Nombre": "ANDRES BAUDO",
+   "camiseta": "24",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "20621",
+   "Nombre": "MATEO IGNACIO CABRAL",
+   "camiseta": "47",
+   "Capitan": ""
+  },
+  {
+   "carne": "20276",
+   "Nombre": "GASTON LUIS MENENDEZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "28604",
+   "Nombre": "MARCELO MARTIN SOSA",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "55641",
+   "Nombre": "ISAIAS ARIEL SOSA",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "40498",
+   "Nombre": "FEDERICO AGUSTIN GARCIA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "34745",
+   "Nombre": "LUIS ALFREDO LEON",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "61597",
+   "Nombre": "ENZO RAUL VIERA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "56654",
+   "Nombre": "NICOLAS ADRIAN PEREZ",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "33501",
+   "Nombre": "GERMAN CAL",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "60850",
+   "Nombre": "RUBEN GONZALEZ",
+   "camiseta": "43",
+   "Capitan": ""
+  },
+  {
+   "carne": "23106",
+   "Nombre": "GASTON ZABALZA",
+   "camiseta": "6",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "31029",
+   "Nombre": "FELIPE SORHUET",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "27294",
+   "Nombre": "LUCAS BROVETTO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "36718",
+   "Nombre": "HECTOR NICOLAS CASTRO",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "38740",
+   "Jug_Sale": "FEDERICO BRANDA",
+   "CarneEntra": "33279",
+   "Jug_Entra": "FEDERICO JAVIER PESELEWITZ",
+   "camiseta": "32",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "20277",
+   "Jug_Sale": "LUIS ENRIQUE LOZANO",
+   "CarneEntra": "20275",
+   "Jug_Entra": "GABRIEL OTEGUI",
+   "camiseta": "5",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "28604",
+   "Jug_Sale": "MARCELO MARTIN SOSA",
+   "CarneEntra": "32418",
+   "Jug_Entra": "JOSE IGNACIO OLASCOAGA",
+   "camiseta": "9",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "20621",
+   "Jug_Sale": "MATEO IGNACIO CABRAL",
+   "CarneEntra": "63759",
+   "Jug_Entra": "GASTON BUBE",
+   "camiseta": "26",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "20276",
+   "Jug_Sale": "GASTON LUIS MENENDEZ",
+   "CarneEntra": "20725",
+   "Jug_Entra": "SANTIAGO JOAQUIN DOS SANTOS",
+   "camiseta": "6",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "54923",
+   "Jug_Sale": "SANTIAGO ANDRES AVIERO",
+   "CarneEntra": "20621",
+   "Jug_Entra": "MATEO IGNACIO CABRAL",
+   "camiseta": "47",
+   "minutos": "86"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "36718",
+   "Jug_Sale": "HECTOR NICOLAS CASTRO",
+   "CarneEntra": "26357",
+   "Jug_Entra": "LUCAS FEDERICO DE OLARTE",
+   "camiseta": "19",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "31029",
+   "Jug_Sale": "FELIPE SORHUET",
+   "CarneEntra": "44166",
+   "Jug_Entra": "BRUNO GONZALEZ",
+   "camiseta": "22",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56654",
+   "Jug_Sale": "NICOLAS ADRIAN PEREZ",
+   "CarneEntra": "52690",
+   "Jug_Entra": "MATHIAS VILLAVERDE",
+   "camiseta": "30",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "60850",
+   "Jug_Sale": "RUBEN GONZALEZ",
+   "CarneEntra": "54440",
+   "Jug_Entra": "RODRIGO SEBASTIAN CASTRO",
+   "camiseta": "27",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "40498",
+   "Jug_Sale": "FEDERICO AGUSTIN GARCIA",
+   "CarneEntra": "36363",
+   "Jug_Entra": "GONZALO MARTIN ABEIRO",
+   "camiseta": "12",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "27294",
+   "Jug_Sale": "LUCAS BROVETTO",
+   "CarneEntra": "67250",
+   "Jug_Entra": "ALVARO DANIEL LENS",
+   "camiseta": "29",
+   "minutos": "82"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "23889",
+   "Nombre": "ANDRES BAUDO",
+   "minutos": "79",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "26357",
+   "Nombre": "LUCAS FEDERICO DE OLARTE",
+   "minutos": "90",
+   "EnContra": "1"
+  },
+  {
+   "carne": "31029",
+   "Nombre": "FELIPE SORHUET",
+   "minutos": "25",
+   "EnContra": "1"
+  },
+  {
+   "carne": "34745",
+   "Nombre": "LUIS ALFREDO LEON",
+   "minutos": "60",
+   "EnContra": "1"
+  },
+  {
+   "carne": "60850",
+   "Nombre": "RUBEN GONZALEZ",
+   "minutos": "5",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

@@ -8,7 +8,7 @@
  "local": "CRANDON UNIVERSITARIO",
  "visitante": "CLUB SOCIAL PIEDRAS BLANCAS",
  "gl": 0,
- "gv": 8,
+ "gv": 7,
  "detalle": {
   "nro_partido": "858",
   "temporada": "RAFAEL \"CANARIO\" GARCÍA",
@@ -18,23 +18,268 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"B\" TIT. y ASC",
   "Cancha": "CAMPO DEP. INSTITUTO CRANDON",
-  "Fecha_Inicio": "2026-11-07 12:45:00",
-  "Fecha_fin": "2026-11-07 12:45:00",
+  "Fecha_Inicio": "2026-11-07 13:10:00",
+  "Fecha_fin": "2026-11-07 13:10:00",
   "Locatario": "CRANDON UNIVERSITARIO",
   "goles_locatario": "0",
   "puntos_locatario": "0",
   "Visitante": "CLUB SOCIAL PIEDRAS BLANCAS",
-  "goles_visitante": "8",
+  "goles_visitante": "7",
   "puntos_visitante": "3",
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "14749",
+   "Nombre": "MARCELO FABIAN DE LEON",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "30103",
+   "Nombre": "JUAN PEDRO CABRERA",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "35742",
+   "Nombre": "AGUSTIN ANTONIO CERVIÑO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "20022",
+   "Nombre": "ALFONSO PRADERIO",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "31631",
+   "Nombre": "GUILLERMO LUIS PASTORINI",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "48397",
+   "Nombre": "CLAUDIO JUAREZ",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "19902",
+   "Nombre": "SEBASTIAN MOTTA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "29781",
+   "Nombre": "EMANUEL BURGUEZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "34591",
+   "Nombre": "GUILLERMO PINO",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "27517",
+   "Nombre": "GONZALO BORGES",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "61432",
+   "Nombre": "MATIAS ACOSTA",
+   "camiseta": "29",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "27616",
+   "Nombre": "FEDERICO ANDRES LANZA",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "50012",
+   "Nombre": "PABLO SERGIO MARTINEZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "34966",
+   "Nombre": "DIEGO RODOLFO DO AMARAL",
+   "camiseta": "15",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "33737",
+   "Nombre": "GUSTAVO DANIEL TARAMASCO",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "58815",
+   "Nombre": "WLATER DIEGO AYALA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "53960",
+   "Nombre": "FERNANDO MARTIN BUDEZ",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "33675",
+   "Nombre": "RICARDO FABIAN PEREYRA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "50185",
+   "Nombre": "NICOLAS GERMAN MUCHA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "36581",
+   "Nombre": "MARTIN ROBERTO BUENO",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "33668",
+   "Nombre": "MATIAS NICOLAS DUARTE",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "26796",
+   "Nombre": "IGNACIO CURTI",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "30103",
+   "Jug_Sale": "JUAN PEDRO CABRERA",
+   "CarneEntra": "29948",
+   "Jug_Entra": "ENRRICO ROSSI",
+   "camiseta": "35",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "19902",
+   "Jug_Sale": "SEBASTIAN MOTTA",
+   "CarneEntra": "28624",
+   "Jug_Entra": "MARTIN GUERRA",
+   "camiseta": "43",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "20022",
+   "Jug_Sale": "ALFONSO PRADERIO",
+   "CarneEntra": "47565",
+   "Jug_Entra": "JUAN RAMIRO PERADOTTO",
+   "camiseta": "2",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "29781",
+   "Jug_Sale": "EMANUEL BURGUEZ",
+   "CarneEntra": "30103",
+   "Jug_Entra": "JUAN PEDRO CABRERA",
+   "camiseta": "26",
+   "minutos": "63"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "53960",
+   "Jug_Sale": "FERNANDO MARTIN BUDEZ",
+   "CarneEntra": "43644",
+   "Jug_Entra": "ALFREDO PAIVA",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58815",
+   "Jug_Sale": "WLATER DIEGO AYALA",
+   "CarneEntra": "35047",
+   "Jug_Entra": "LUIS MARCELO PEREIRA",
+   "camiseta": "99",
+   "minutos": "59"
+  },
+  {
+   "CarneSale": "50012",
+   "Jug_Sale": "PABLO SERGIO MARTINEZ",
+   "CarneEntra": "53960",
+   "Jug_Entra": "FERNANDO MARTIN BUDEZ",
+   "camiseta": "14",
+   "minutos": "80"
+  }
+ ],
  "golesL": [],
- "golesV": [],
- "expulsadosL": [],
- "expulsadosV": []
+ "golesV": [
+  {
+   "carne": "26796",
+   "Nombre": "IGNACIO CURTI",
+   "minutos": "55",
+   "EnContra": "1"
+  },
+  {
+   "carne": "26796",
+   "Nombre": "IGNACIO CURTI",
+   "minutos": "63",
+   "EnContra": "1"
+  },
+  {
+   "carne": "26796",
+   "Nombre": "IGNACIO CURTI",
+   "minutos": "83",
+   "EnContra": "1"
+  },
+  {
+   "carne": "33737",
+   "Nombre": "GUSTAVO DANIEL TARAMASCO",
+   "minutos": "6",
+   "EnContra": "1"
+  },
+  {
+   "carne": "33737",
+   "Nombre": "GUSTAVO DANIEL TARAMASCO",
+   "minutos": "29",
+   "EnContra": "1"
+  },
+  {
+   "carne": "53960",
+   "Nombre": "FERNANDO MARTIN BUDEZ",
+   "minutos": "22",
+   "EnContra": "1"
+  },
+  {
+   "carne": "58815",
+   "Nombre": "WLATER DIEGO AYALA",
+   "minutos": "54",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "AGUSTIN ANTONIO CERVIÑO",
+   "observaciones": ""
+  }
+ ],
+ "expulsadosV": [
+  {
+   "Nombre": "MARTIN ROBERTO BUENO",
+   "observaciones": ""
+  }
+ ]
 }

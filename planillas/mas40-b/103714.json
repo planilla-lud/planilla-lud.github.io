@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAS40 \"B\" PER. y DESC,",
   "Cancha": "COM. CLUB UNIVERSIDAD CATOLICA",
-  "Fecha_Inicio": "2026-11-07 10:30:00",
-  "Fecha_fin": "2026-11-07 10:30:00",
+  "Fecha_Inicio": "2026-11-07 11:00:00",
+  "Fecha_fin": "2026-11-07 11:00:00",
   "Locatario": "RIVER PLATE UNIVERSITARIO",
   "goles_locatario": "1",
   "puntos_locatario": "1",
@@ -29,12 +29,250 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "46389",
+   "Nombre": "JAVIER FERNANDO PUIG",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "40771",
+   "Nombre": "NICOLAS PERDOMO",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "21571",
+   "Nombre": "GABRIEL SUAREZ",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "33349",
+   "Nombre": "GUSTAVO ELOY DELGADO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "24427",
+   "Nombre": "MARTIN FERNANDO PUERTO",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "64148",
+   "Nombre": "ROBERTO EKKER",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "55272",
+   "Nombre": "GASTON RAFAEL PERGOLA",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "12545",
+   "Nombre": "GERARDO DIEGO SEOANE",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "29363",
+   "Nombre": "RAFAEL ENRIQUE PERDOMO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "31158",
+   "Nombre": "MATIAS DANIEL BARBOSA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "61035",
+   "Nombre": "DIEGO NICOLAS GUASTAVINO",
+   "camiseta": "18",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "11179",
+   "Nombre": "ALVARO DANIEL SIERRA",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "64696",
+   "Nombre": "MARCELO MADJARIAN",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "18826",
+   "Nombre": "DANIEL FEDERICO FOLABELLA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "16871",
+   "Nombre": "NICOLAS GABRIEL CAMPANELLA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "22324",
+   "Nombre": "FERNANDO DIEGO DELLEPIANE",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "21414",
+   "Nombre": "GERMAN DEVITTA",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "45102",
+   "Nombre": "ESTEBAN ANDRES FERNANDEZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "29279",
+   "Nombre": "FEDERICO MEDINA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "35024",
+   "Nombre": "GERARDO LUCAS PAGANI",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "16310",
+   "Nombre": "IGNACIO POSADA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "23561",
+   "Nombre": "GERMAN NICOLAS CHEBATAROFF",
+   "camiseta": "15",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "40771",
+   "Jug_Sale": "NICOLAS PERDOMO",
+   "CarneEntra": "19490",
+   "Jug_Entra": "PABLO ANDRES GONZALEZ",
+   "camiseta": "17",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "21571",
+   "Jug_Sale": "GABRIEL SUAREZ",
+   "CarneEntra": "52517",
+   "Jug_Entra": "MARCELO EDUARDO PEREZ",
+   "camiseta": "23",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "29363",
+   "Jug_Sale": "RAFAEL ENRIQUE PERDOMO",
+   "CarneEntra": "59168",
+   "Jug_Entra": "FERNANDO IGNACIO SILVA",
+   "camiseta": "22",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "55272",
+   "Jug_Sale": "GASTON RAFAEL PERGOLA",
+   "CarneEntra": "22451",
+   "Jug_Entra": "JUAN PABLO BUELA",
+   "camiseta": "9",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "31158",
+   "Jug_Sale": "MATIAS DANIEL BARBOSA",
+   "CarneEntra": "35758",
+   "Jug_Entra": "MARTIN ALTAMIRANO",
+   "camiseta": "10",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "12545",
+   "Jug_Sale": "GERARDO DIEGO SEOANE",
+   "CarneEntra": "26052",
+   "Jug_Entra": "PABLO SEBASTIAN FERNANDEZ",
+   "camiseta": "31",
+   "minutos": "85"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "16871",
+   "Jug_Sale": "NICOLAS GABRIEL CAMPANELLA",
+   "CarneEntra": "16925",
+   "Jug_Entra": "HENRY MAURICIO ACUÑA",
+   "camiseta": "4",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "18826",
+   "Jug_Sale": "DANIEL FEDERICO FOLABELLA",
+   "CarneEntra": "28168",
+   "Jug_Entra": "EDGARDO FABIAN ALVAREZ",
+   "camiseta": "18",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "64696",
+   "Jug_Sale": "MARCELO MADJARIAN",
+   "CarneEntra": "19849",
+   "Jug_Entra": "GASTON FERNANDEZ",
+   "camiseta": "10",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "21414",
+   "Jug_Sale": "GERMAN DEVITTA",
+   "CarneEntra": "37800",
+   "Jug_Entra": "JOSE RAUL RODRIGUEZ",
+   "camiseta": "9",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "29279",
+   "Jug_Sale": "FEDERICO MEDINA",
+   "CarneEntra": "18944",
+   "Jug_Entra": "JUAN MANUEL ELOSEGUI",
+   "camiseta": "24",
+   "minutos": "75"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "31158",
+   "Nombre": "MATIAS DANIEL BARBOSA",
+   "minutos": "4",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "64696",
+   "Nombre": "MARCELO MADJARIAN",
+   "minutos": "60",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

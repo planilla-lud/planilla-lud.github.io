@@ -3,7 +3,7 @@
  "categoria": "reserva-d",
  "serie": "RSDPD",
  "fecha": 10,
- "fechaHora": "2026-11-07 11:15:00",
+ "fechaHora": "2026-11-07 11:20:00",
  "cancha": "CIUDAD DEPORTIVA ZONA LAB",
  "local": "SAN CONO",
  "visitante": "LATINO FUTBOL CLUB",
@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"D\" COPA DE PLATA",
   "Cancha": "CIUDAD DEPORTIVA ZONA LAB",
-  "Fecha_Inicio": "2026-11-07 12:45:00",
-  "Fecha_fin": "2026-11-07 12:45:00",
+  "Fecha_Inicio": "2026-11-07 13:15:00",
+  "Fecha_fin": "2026-11-07 13:15:00",
   "Locatario": "SAN CONO",
   "goles_locatario": "1",
   "puntos_locatario": "3",
@@ -29,12 +29,272 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "69085",
+   "Nombre": "FRANCO DANERI",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "61524",
+   "Nombre": "SEBASTIAN ENZO GUISADO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "61099",
+   "Nombre": "AGUSTIN BARRIOS",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "66467",
+   "Nombre": "DIEGO LOTTI",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "64654",
+   "Nombre": "GASTON ZAMBRAN",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "60354",
+   "Nombre": "MANUEL MAGNIN",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "69163",
+   "Nombre": "LUCIANO NAHUEL BARCEL",
+   "camiseta": "65",
+   "Capitan": ""
+  },
+  {
+   "carne": "61532",
+   "Nombre": "JUAN IGNACIO OLIVERA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "63753",
+   "Nombre": "ESTEBAN MAXIMILIANO SASTRE",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "61531",
+   "Nombre": "GONZALO GABRIEL BERRUTTI",
+   "camiseta": "11",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "53885",
+   "Nombre": "GUILLERMO OSVALDO DOLIVEIRA",
+   "camiseta": "69",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "59728",
+   "Nombre": "ALEJANDRO BOTTO",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "54728",
+   "Nombre": "GUILLERMO VIÑAS",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "40984",
+   "Nombre": "MATHIAS GABRIEL ORTIZ",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "57069",
+   "Nombre": "FRANCO TERPOLILLI",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "49193",
+   "Nombre": "JUAN PEREZ",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "62075",
+   "Nombre": "SANTIAGO SOSA",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "62907",
+   "Nombre": "IGNACIO TELESCA",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "59765",
+   "Nombre": "SANTIAGO TRIAS",
+   "camiseta": "49",
+   "Capitan": ""
+  },
+  {
+   "carne": "52794",
+   "Nombre": "MAURO LARRROSA",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "46887",
+   "Nombre": "TOMAS MACHADO",
+   "camiseta": "45",
+   "Capitan": ""
+  },
+  {
+   "carne": "44390",
+   "Nombre": "LEANDRO AGUIAR",
+   "camiseta": "32",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "60354",
+   "Jug_Sale": "MANUEL MAGNIN",
+   "CarneEntra": "61320",
+   "Jug_Entra": "JONATAN NAHUEL MORA",
+   "camiseta": "20",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61099",
+   "Jug_Sale": "AGUSTIN BARRIOS",
+   "CarneEntra": "55354",
+   "Jug_Entra": "JAIRO ALI ARAQUE",
+   "camiseta": "77",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "53885",
+   "Jug_Sale": "GUILLERMO OSVALDO DOLIVEIRA",
+   "CarneEntra": "63261",
+   "Jug_Entra": "NICOLAS SANGUINE",
+   "camiseta": "18",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "63753",
+   "Jug_Sale": "ESTEBAN MAXIMILIANO SASTRE",
+   "CarneEntra": "66469",
+   "Jug_Entra": "DANIEL ANDRES LAUREANO",
+   "camiseta": "34",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "69163",
+   "Jug_Sale": "LUCIANO NAHUEL BARCEL",
+   "CarneEntra": "61942",
+   "Jug_Entra": "AGUSTIN EZEQUIEL DE LOS REYES",
+   "camiseta": "24",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "61531",
+   "Jug_Sale": "GONZALO GABRIEL BERRUTTI",
+   "CarneEntra": "65386",
+   "Jug_Entra": "RAMIRO MOREIRA",
+   "camiseta": "20",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "63753",
+   "Jug_Sale": "ESTEBAN MAXIMILIANO SASTRE",
+   "CarneEntra": "23009",
+   "Jug_Entra": "RODRIGO DE PAULA",
+   "camiseta": "10",
+   "minutos": "80"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "54728",
+   "Jug_Sale": "GUILLERMO VIÑAS",
+   "CarneEntra": "62821",
+   "Jug_Entra": "JOAQUIN CHIAPPE",
+   "camiseta": "18",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "49193",
+   "Jug_Sale": "JUAN PEREZ",
+   "CarneEntra": "39543",
+   "Jug_Entra": "RAFAEL VELAZCO",
+   "camiseta": "42",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "62907",
+   "Jug_Sale": "IGNACIO TELESCA",
+   "CarneEntra": "67196",
+   "Jug_Entra": "MANUEL SOUZA",
+   "camiseta": "56",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "46887",
+   "Jug_Sale": "TOMAS MACHADO",
+   "CarneEntra": "62061",
+   "Jug_Entra": "MAURO CARRERA",
+   "camiseta": "41",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "57069",
+   "Jug_Sale": "FRANCO TERPOLILLI",
+   "CarneEntra": "61189",
+   "Jug_Entra": "RODOLFO CABRERA",
+   "camiseta": "16",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "62075",
+   "Jug_Sale": "SANTIAGO SOSA",
+   "CarneEntra": "62679",
+   "Jug_Entra": "JUAN VICENTE GRISTO",
+   "camiseta": "59",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "40984",
+   "Jug_Sale": "MATHIAS GABRIEL ORTIZ",
+   "CarneEntra": "42311",
+   "Jug_Entra": "DIEGO MATIAS VIZCARRA",
+   "camiseta": "57",
+   "minutos": "79"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "66467",
+   "Nombre": "DIEGO LOTTI",
+   "minutos": "86",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
- "expulsadosL": [],
+ "expulsadosL": [
+  {
+   "Nombre": "JUAN IGNACIO OLIVERA",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

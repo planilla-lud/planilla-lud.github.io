@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"D\" PER. y DESC",
   "Cancha": "Comp. \"LA REP. DE LIVERPOOL\"",
-  "Fecha_Inicio": "2026-11-07 10:30:00",
-  "Fecha_fin": "2026-11-07 10:30:00",
+  "Fecha_Inicio": "2026-11-07 10:50:00",
+  "Fecha_fin": "2026-11-07 10:50:00",
   "Locatario": "LIVERPOOL UNIVERSITARIO",
   "goles_locatario": "3",
   "puntos_locatario": "3",
@@ -29,11 +29,262 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "24813",
+   "Nombre": "DANILO SEBASTIAN PUGLISI",
+   "camiseta": "1",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "27084",
+   "Nombre": "MAXIMILIANO ALBERTI",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "33231",
+   "Nombre": "SANTIAGO ANTUNEZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "30588",
+   "Nombre": "PABLO GERMAN AMARILLO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "22552",
+   "Nombre": "MAURICIO DI NITTO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "31175",
+   "Nombre": "MATHIAS VIERA",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "50308",
+   "Nombre": "LUIS ANTONIO SIMOES",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "33219",
+   "Nombre": "MATIAS SANTIAGO DEVINCENZI",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "62591",
+   "Nombre": "MATHIAS DEMATTE",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "59321",
+   "Nombre": "ALFONSO BRITOS",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "40586",
+   "Nombre": "BIAGIO MONZILLO",
+   "camiseta": "17",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "52060",
+   "Nombre": "SANTIAGO MARTIN PERALTA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "25334",
+   "Nombre": "ALBERTO JONATAN DUARTE",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "26064",
+   "Nombre": "NICOLAS GLAUSIUSS",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "30308",
+   "Nombre": "GONZALO COSTA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "31891",
+   "Nombre": "JUAN FRANCISCO IRRAZABAL",
+   "camiseta": "25",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "29251",
+   "Nombre": "SANTIAGO JOSE MARTINEZ",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "37514",
+   "Nombre": "MARTIN BARBAGELATA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "36244",
+   "Nombre": "LUIS IGNACIO CAMPON",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "30114",
+   "Nombre": "GONZALO FELIPE IRRAZABAL",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "35916",
+   "Nombre": "RODRIGO LUIS CUBRIA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "37523",
+   "Nombre": "JOSE HERNAN OLIVET",
+   "camiseta": "16",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "30588",
+   "Jug_Sale": "PABLO GERMAN AMARILLO",
+   "CarneEntra": "66360",
+   "Jug_Entra": "AGUSTIN PAUL GALVAN",
+   "camiseta": "33",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "33231",
+   "Jug_Sale": "SANTIAGO ANTUNEZ",
+   "CarneEntra": "30966",
+   "Jug_Entra": "MARTIN ALEXIS RIPOLL",
+   "camiseta": "9",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "62591",
+   "Jug_Sale": "MATHIAS DEMATTE",
+   "CarneEntra": "18532",
+   "Jug_Entra": "JORGE LUIS VAZQUEZ",
+   "camiseta": "19",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "22552",
+   "Jug_Sale": "MAURICIO DI NITTO",
+   "CarneEntra": "48888",
+   "Jug_Entra": "BRUNO GONZALEZ",
+   "camiseta": "12",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "50308",
+   "Jug_Sale": "LUIS ANTONIO SIMOES",
+   "CarneEntra": "20971",
+   "Jug_Entra": "ROBERTO LAMAS",
+   "camiseta": "20",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "27084",
+   "Jug_Sale": "MAXIMILIANO ALBERTI",
+   "CarneEntra": "59321",
+   "Jug_Entra": "ALFONSO BRITOS",
+   "camiseta": "22",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "33219",
+   "Jug_Sale": "MATIAS SANTIAGO DEVINCENZI",
+   "CarneEntra": "50308",
+   "Jug_Entra": "LUIS ANTONIO SIMOES",
+   "camiseta": "11",
+   "minutos": "86"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "29251",
+   "Jug_Sale": "SANTIAGO JOSE MARTINEZ",
+   "CarneEntra": "42325",
+   "Jug_Entra": "NICOLAS RODRIGUEZ",
+   "camiseta": "17",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "36244",
+   "Jug_Sale": "LUIS IGNACIO CAMPON",
+   "CarneEntra": "36852",
+   "Jug_Entra": "JUAN ANDRES BERTELLI",
+   "camiseta": "96",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "35916",
+   "Jug_Sale": "RODRIGO LUIS CUBRIA",
+   "CarneEntra": "67336",
+   "Jug_Entra": "DIEGO REZK",
+   "camiseta": "36",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "31891",
+   "Jug_Sale": "JUAN FRANCISCO IRRAZABAL",
+   "CarneEntra": "28828",
+   "Jug_Entra": "DIEGO FEDERICO ROSELLI",
+   "camiseta": "10",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "25334",
+   "Jug_Sale": "ALBERTO JONATAN DUARTE",
+   "CarneEntra": "38233",
+   "Jug_Entra": "GASTON MOLINELLI",
+   "camiseta": "8",
+   "minutos": "81"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "40586",
+   "Nombre": "BIAGIO MONZILLO",
+   "minutos": "44",
+   "EnContra": "0"
+  },
+  {
+   "carne": "40586",
+   "Nombre": "BIAGIO MONZILLO",
+   "minutos": "93",
+   "EnContra": "0"
+  },
+  {
+   "carne": "59321",
+   "Nombre": "ALFONSO BRITOS",
+   "minutos": "91",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

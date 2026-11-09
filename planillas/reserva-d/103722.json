@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"D\" TIT. y ASC.",
   "Cancha": "COLEGIO ARETEIA",
-  "Fecha_Inicio": "2026-11-07 10:30:00",
-  "Fecha_fin": "2026-11-07 10:30:00",
+  "Fecha_Inicio": "2026-11-07 10:45:00",
+  "Fecha_fin": "2026-11-07 10:45:00",
   "Locatario": "DEP.de la C. ARETEIA BIMBULLY",
   "goles_locatario": "6",
   "puntos_locatario": "3",
@@ -29,11 +29,172 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
+ "titularesL": [
+  {
+   "carne": "57095",
+   "Nombre": "ENZO NAHUEL MOLITERNO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "69087",
+   "Nombre": "MATEO APOLITO",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "67161",
+   "Nombre": "RODRIGO DURAN",
+   "camiseta": "29",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "69167",
+   "Nombre": "NICOLAS MATIAS SALVO",
+   "camiseta": "90",
+   "Capitan": ""
+  },
+  {
+   "carne": "62868",
+   "Nombre": "TOMAS LICIO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "58366",
+   "Nombre": "MARCO MARCELO BORDON",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "58013",
+   "Nombre": "IÑAKI GUDE",
+   "camiseta": "69",
+   "Capitan": ""
+  },
+  {
+   "carne": "57080",
+   "Nombre": "NICOLAS GEREZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "58298",
+   "Nombre": "DAVID ILUTOVICH",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "64271",
+   "Nombre": "THIAGO OTERO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "56017",
+   "Nombre": "TIAGO PERDOMO",
+   "camiseta": "38",
+   "Capitan": ""
+  }
+ ],
  "titularesV": [],
- "cambiosL": [],
+ "cambiosL": [
+  {
+   "CarneSale": "67161",
+   "Jug_Sale": "RODRIGO DURAN",
+   "CarneEntra": "58055",
+   "Jug_Entra": "GONZALO FABRICIO BASSO",
+   "camiseta": "22",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "57080",
+   "Jug_Sale": "NICOLAS GEREZ",
+   "CarneEntra": "57107",
+   "Jug_Entra": "ALARIC IAN ROJAS",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64271",
+   "Jug_Sale": "THIAGO OTERO",
+   "CarneEntra": "49114",
+   "Jug_Entra": "ALVARO DANIEL CHILDE",
+   "camiseta": "33",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56017",
+   "Jug_Sale": "TIAGO PERDOMO",
+   "CarneEntra": "59875",
+   "Jug_Entra": "FACUNDO RODRIGO BARITUSSIO",
+   "camiseta": "19",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58013",
+   "Jug_Sale": "IÑAKI GUDE",
+   "CarneEntra": "58237",
+   "Jug_Entra": "VALENTINO LORENZI",
+   "camiseta": "20",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "58298",
+   "Jug_Sale": "DAVID ILUTOVICH",
+   "CarneEntra": "57079",
+   "Jug_Entra": "DIEGO DANIEL SANCHEZ",
+   "camiseta": "8",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "62868",
+   "Jug_Sale": "TOMAS LICIO",
+   "CarneEntra": "54073",
+   "Jug_Entra": "JUAN MANUEL FERNANDEZ",
+   "camiseta": "23",
+   "minutos": "65"
+  }
+ ],
  "cambiosV": [],
- "golesL": [],
+ "golesL": [
+  {
+   "carne": "57080",
+   "Nombre": "NICOLAS GEREZ",
+   "minutos": "41",
+   "EnContra": "0"
+  },
+  {
+   "carne": "58013",
+   "Nombre": "IÑAKI GUDE",
+   "minutos": "30",
+   "EnContra": "0"
+  },
+  {
+   "carne": "58013",
+   "Nombre": "IÑAKI GUDE",
+   "minutos": "44",
+   "EnContra": "0"
+  },
+  {
+   "carne": "62868",
+   "Nombre": "TOMAS LICIO",
+   "minutos": "61",
+   "EnContra": "0"
+  },
+  {
+   "carne": "64271",
+   "Nombre": "THIAGO OTERO",
+   "minutos": "38",
+   "EnContra": "0"
+  },
+  {
+   "carne": "67161",
+   "Nombre": "RODRIGO DURAN",
+   "minutos": "12",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

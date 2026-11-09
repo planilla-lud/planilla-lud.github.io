@@ -8,7 +8,7 @@
  "local": "TACUAREMBO UNIVERSITARIO",
  "visitante": "MATECHA",
  "gl": 3,
- "gv": 5,
+ "gv": 6,
  "detalle": {
   "nro_partido": "451",
   "temporada": "RAFAEL \"CANARIO\" GARCÍA",
@@ -18,23 +18,268 @@
   "rueda": "2",
   "Divisional": "MAS40 \"A\" PERM. y DESC.",
   "Cancha": "COMPLEJO LOS ROJOS",
-  "Fecha_Inicio": "2026-11-07 12:45:00",
-  "Fecha_fin": "2026-11-07 12:45:00",
+  "Fecha_Inicio": "2026-11-07 13:30:00",
+  "Fecha_fin": "2026-11-07 13:30:00",
   "Locatario": "TACUAREMBO UNIVERSITARIO",
   "goles_locatario": "3",
   "puntos_locatario": "0",
   "Visitante": "MATECHA",
-  "goles_visitante": "5",
+  "goles_visitante": "6",
   "puntos_visitante": "3",
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "titularesL": [
+  {
+   "carne": "61089",
+   "Nombre": "GASTON ROSANO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "38043",
+   "Nombre": "JOSE RAFAEL AIRALA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "31853",
+   "Nombre": "JAVIER IGNACIO GUERRERO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "39822",
+   "Nombre": "ALEJANDRO MARTIN BAZZI",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "19440",
+   "Nombre": "SANTIAGO CASTELLS",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "20706",
+   "Nombre": "JAVIER NICOLAS ALMADA",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "26326",
+   "Nombre": "LUIS IGNACIO ABUD",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "26855",
+   "Nombre": "MARCELO ENRIQUE DAVILA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "21704",
+   "Nombre": "GERARDO HUGO GONZALEZ",
+   "camiseta": "11",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "16875",
+   "Nombre": "MAURICIO DIGENOVA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "27790",
+   "Nombre": "DIEGO ERNESTO CORREA",
+   "camiseta": "50",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "67396",
+   "Nombre": "ALEJANDRO REYES",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "31743",
+   "Nombre": "ROBERT DANIEL ANTIVERO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "35696",
+   "Nombre": "JUAN MANUEL GIRIBONI",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "19658",
+   "Nombre": "DANIEL EDUARDO COSTA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "48328",
+   "Nombre": "ALAR AUGUSTO DUARTE",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "15407",
+   "Nombre": "IGNACIO IBARRA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "45665",
+   "Nombre": "SEBASTIAN EVERGISTO FRANCA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "24882",
+   "Nombre": "DIEGO FRANCISCO FYNN",
+   "camiseta": "27",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "35595",
+   "Nombre": "JORGE EDUARDO BELLO",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "49424",
+   "Nombre": "DAMIAN BIDEGAIN",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "29711",
+   "Nombre": "SEBASTIAN SCITTI",
+   "camiseta": "54",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "26855",
+   "Jug_Sale": "MARCELO ENRIQUE DAVILA",
+   "CarneEntra": "61089",
+   "Jug_Entra": "GASTON ROSANO",
+   "camiseta": "99",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "27790",
+   "Jug_Sale": "DIEGO ERNESTO CORREA",
+   "CarneEntra": "26855",
+   "Jug_Entra": "MARCELO ENRIQUE DAVILA",
+   "camiseta": "78",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61089",
+   "Jug_Sale": "GASTON ROSANO",
+   "CarneEntra": "22311",
+   "Jug_Entra": "JUAN GONZALO LEVRATTO",
+   "camiseta": "12",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "21704",
+   "Jug_Sale": "GERARDO HUGO GONZALEZ",
+   "CarneEntra": "12915",
+   "Jug_Entra": "MARCOS ADRIAN GONZALEZ",
+   "camiseta": "5",
+   "minutos": "60"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "35595",
+   "Jug_Sale": "JORGE EDUARDO BELLO",
+   "CarneEntra": "11596",
+   "Jug_Entra": "IGNACIO AMESPIL",
+   "camiseta": "11",
+   "minutos": "88"
+  },
+  {
+   "CarneSale": "29711",
+   "Jug_Sale": "SEBASTIAN SCITTI",
+   "CarneEntra": "33686",
+   "Jug_Entra": "DIEGO VISCONTI",
+   "camiseta": "18",
+   "minutos": "45"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "26855",
+   "Nombre": "MARCELO ENRIQUE DAVILA",
+   "minutos": "22",
+   "EnContra": "0"
+  },
+  {
+   "carne": "26855",
+   "Nombre": "MARCELO ENRIQUE DAVILA",
+   "minutos": "50",
+   "EnContra": "0"
+  },
+  {
+   "carne": "31853",
+   "Nombre": "JAVIER IGNACIO GUERRERO",
+   "minutos": "17",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "24882",
+   "Nombre": "DIEGO FRANCISCO FYNN",
+   "minutos": "14",
+   "EnContra": "1"
+  },
+  {
+   "carne": "24882",
+   "Nombre": "DIEGO FRANCISCO FYNN",
+   "minutos": "30",
+   "EnContra": "1"
+  },
+  {
+   "carne": "31743",
+   "Nombre": "ROBERT DANIEL ANTIVERO",
+   "minutos": "86",
+   "EnContra": "1"
+  },
+  {
+   "carne": "35696",
+   "Nombre": "JUAN MANUEL GIRIBONI",
+   "minutos": "89",
+   "EnContra": "1"
+  },
+  {
+   "carne": "35696",
+   "Nombre": "JUAN MANUEL GIRIBONI",
+   "minutos": "90",
+   "EnContra": "1"
+  },
+  {
+   "carne": "49424",
+   "Nombre": "DAMIAN BIDEGAIN",
+   "minutos": "66",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "JAVIER NICOLAS ALMADA",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"D\" COPA DE PLATA",
   "Cancha": "COMPLEJO DEPORTIVO H3O",
-  "Fecha_Inicio": "2026-11-07 12:45:00",
-  "Fecha_fin": "2026-11-07 12:45:00",
+  "Fecha_Inicio": "2026-11-07 13:05:00",
+  "Fecha_fin": "2026-11-07 13:05:00",
   "Locatario": "NUESTRA SEÑORA DE LOURDES",
   "goles_locatario": "1",
   "puntos_locatario": "1",
@@ -29,12 +29,258 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "69221",
+   "Nombre": "SANTIAGO PAJARES",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "61998",
+   "Nombre": "GUZMAN COUSELO",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "69095",
+   "Nombre": "LUCAS EZEQUIEL ARAMBILLETE",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "54946",
+   "Nombre": "FRANCO VICENTE CIFUENTES",
+   "camiseta": "2",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "66025",
+   "Nombre": "MANUEL ARTURO MACERO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "68663",
+   "Nombre": "ARIEL ACOSTA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "61515",
+   "Nombre": "ALAN ACOSTA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "64817",
+   "Nombre": "SANTIAGO DIAS",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "27059",
+   "Nombre": "RODRIGO WALTER NIETO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "30973",
+   "Nombre": "MAXIMILIANO PEREYRA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "67455",
+   "Nombre": "ADRIAN DAVID ACOSTA",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "53417",
+   "Nombre": "MARCOS FERNANDEZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "50891",
+   "Nombre": "DIEGO MARCENARO",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "48988",
+   "Nombre": "ALEJANDRO GUILLERMO ROCCA",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "67009",
+   "Nombre": "MATIAS EDUARDO SANCHEZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "53721",
+   "Nombre": "MATEO APPA",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "53151",
+   "Nombre": "DIEGO RODRIGUEZ",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "31775",
+   "Nombre": "JOAQUIN GUTIERREZ",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "50881",
+   "Nombre": "THOMAS JESKE",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "40189",
+   "Nombre": "FEDERICO PEREZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "59742",
+   "Nombre": "MATEO JOSE ONETTO",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "68905",
+   "Nombre": "MATEO IGUINI",
+   "camiseta": "88",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "66025",
+   "Jug_Sale": "MANUEL ARTURO MACERO",
+   "CarneEntra": "66679",
+   "Jug_Entra": "FACUNDO DAVID POMBO",
+   "camiseta": "9",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67455",
+   "Jug_Sale": "ADRIAN DAVID ACOSTA",
+   "CarneEntra": "69222",
+   "Jug_Entra": "JUAN PABLO MARTINEZ",
+   "camiseta": "14",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64817",
+   "Jug_Sale": "SANTIAGO DIAS",
+   "CarneEntra": "61192",
+   "Jug_Entra": "FEDERICO MESA",
+   "camiseta": "17",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "30973",
+   "Jug_Sale": "MAXIMILIANO PEREYRA",
+   "CarneEntra": "68876",
+   "Jug_Entra": "THIAGO BENJAMIN VERA",
+   "camiseta": "5",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "27059",
+   "Jug_Sale": "RODRIGO WALTER NIETO",
+   "CarneEntra": "67455",
+   "Jug_Entra": "ADRIAN DAVID ACOSTA",
+   "camiseta": "11",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "61998",
+   "Jug_Sale": "GUZMAN COUSELO",
+   "CarneEntra": "30973",
+   "Jug_Entra": "MAXIMILIANO PEREYRA",
+   "camiseta": "10",
+   "minutos": "80"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "53721",
+   "Jug_Sale": "MATEO APPA",
+   "CarneEntra": "56504",
+   "Jug_Entra": "THIAGO PELLEGRINO",
+   "camiseta": "17",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "67009",
+   "Jug_Sale": "MATIAS EDUARDO SANCHEZ",
+   "CarneEntra": "69141",
+   "Jug_Entra": "FACUNDO SANTISO",
+   "camiseta": "88",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "68905",
+   "Jug_Sale": "MATEO IGUINI",
+   "CarneEntra": "44079",
+   "Jug_Entra": "FRANCISCO BARRE",
+   "camiseta": "12",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "48988",
+   "Jug_Sale": "ALEJANDRO GUILLERMO ROCCA",
+   "CarneEntra": "67009",
+   "Jug_Entra": "MATIAS EDUARDO SANCHEZ",
+   "camiseta": "2",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "59742",
+   "Jug_Sale": "MATEO JOSE ONETTO",
+   "CarneEntra": "68905",
+   "Jug_Entra": "MATEO IGUINI",
+   "camiseta": "88",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "50891",
+   "Jug_Sale": "DIEGO MARCENARO",
+   "CarneEntra": "48988",
+   "Jug_Entra": "ALEJANDRO GUILLERMO ROCCA",
+   "camiseta": "0",
+   "minutos": "32"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "54946",
+   "Nombre": "FRANCO VICENTE CIFUENTES",
+   "minutos": "85",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "50881",
+   "Nombre": "THOMAS JESKE",
+   "minutos": "70",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

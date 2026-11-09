@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"C\" PER. y DESC",
   "Cancha": "COMPLEJO LOS ROJOS",
-  "Fecha_Inicio": "2026-11-07 10:30:00",
-  "Fecha_fin": "2026-11-07 10:30:00",
+  "Fecha_Inicio": "2026-11-07 11:00:00",
+  "Fecha_fin": "2026-11-07 11:00:00",
   "Locatario": "TACUAREMBO UNIVERSITARIO",
   "goles_locatario": "3",
   "puntos_locatario": "3",
@@ -29,12 +29,276 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "61089",
+   "Nombre": "GASTON ROSANO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "54050",
+   "Nombre": "DAMIAN IRAZABAL",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "61633",
+   "Nombre": "JORGE DANIEL PRESA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "20272",
+   "Nombre": "JOAQUIN NAZARENO OLASO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "54499",
+   "Nombre": "GUILLERMO LEDESMA",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "61634",
+   "Nombre": "EDILBEN GERMAN FABRA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "31675",
+   "Nombre": "DANIEL ALMEDO SILVA",
+   "camiseta": "48",
+   "Capitan": ""
+  },
+  {
+   "carne": "42678",
+   "Nombre": "WILKER NOEL ARAUJO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "60519",
+   "Nombre": "MATIAS GAMBOA",
+   "camiseta": "92",
+   "Capitan": ""
+  },
+  {
+   "carne": "29736",
+   "Nombre": "ALEJANDRO BIANCO",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "43766",
+   "Nombre": "NICOLAS JONATHAN CORREA",
+   "camiseta": "33",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "52801",
+   "Nombre": "GABRIEL DE LAS LLANAS",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "27853",
+   "Nombre": "ISRAEL LIBSCHITZ",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "59380",
+   "Nombre": "CRISTIAN FLEITAS",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "47960",
+   "Nombre": "FERNANDO DE LAS  LLANAS",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "47307",
+   "Nombre": "LUIS ALEJANDRO AYALA",
+   "camiseta": "55",
+   "Capitan": ""
+  },
+  {
+   "carne": "46919",
+   "Nombre": "CESAR AUGUSTO MOROSOLES",
+   "camiseta": "96",
+   "Capitan": ""
+  },
+  {
+   "carne": "59348",
+   "Nombre": "MAURICIO TRAVERS",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "38266",
+   "Nombre": "ESTEBAN JAVIER GURUCEAGA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "20494",
+   "Nombre": "ANDRES GERMAN FERNANDEZ",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "51342",
+   "Nombre": "GONZALO MARTINEZ",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "57854",
+   "Nombre": "LEONARDO BOVE",
+   "camiseta": "33",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "29736",
+   "Jug_Sale": "ALEJANDRO BIANCO",
+   "CarneEntra": "31602",
+   "Jug_Entra": "DIEGO ENRIQUE SITYA",
+   "camiseta": "4",
+   "minutos": "14"
+  },
+  {
+   "CarneSale": "43766",
+   "Jug_Sale": "NICOLAS JONATHAN CORREA",
+   "CarneEntra": "61866",
+   "Jug_Entra": "MAICOL ALEXANDER MARTINEZ",
+   "camiseta": "19",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "31675",
+   "Jug_Sale": "DANIEL ALMEDO SILVA",
+   "CarneEntra": "36979",
+   "Jug_Entra": "JOAQUIN ZILLI",
+   "camiseta": "12",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "42678",
+   "Jug_Sale": "WILKER NOEL ARAUJO",
+   "CarneEntra": "35387",
+   "Jug_Entra": "MAURICIO ANDRES RODRIGUEZ",
+   "camiseta": "37",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "54050",
+   "Jug_Sale": "DAMIAN IRAZABAL",
+   "CarneEntra": "27786",
+   "Jug_Entra": "AGUSTIN IPAR",
+   "camiseta": "2",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "54499",
+   "Jug_Sale": "GUILLERMO LEDESMA",
+   "CarneEntra": "69154",
+   "Jug_Entra": "HORACIO SEBASTIAN GODOY",
+   "camiseta": "70",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "20272",
+   "Jug_Sale": "JOAQUIN NAZARENO OLASO",
+   "CarneEntra": "41386",
+   "Jug_Entra": "MARIO ANDRES DIAZ",
+   "camiseta": "14",
+   "minutos": "77"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "38266",
+   "Jug_Sale": "ESTEBAN JAVIER GURUCEAGA",
+   "CarneEntra": "47173",
+   "Jug_Entra": "VICTOR SAMUEL VERA",
+   "camiseta": "26",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "51342",
+   "Jug_Sale": "GONZALO MARTINEZ",
+   "CarneEntra": "23065",
+   "Jug_Entra": "LUIS EDUARDO SANGUINETTI",
+   "camiseta": "15",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "27853",
+   "Jug_Sale": "ISRAEL LIBSCHITZ",
+   "CarneEntra": "45452",
+   "Jug_Entra": "MAURICIO NICOLAS BAUTISTA",
+   "camiseta": "3",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "46919",
+   "Jug_Sale": "CESAR AUGUSTO MOROSOLES",
+   "CarneEntra": "39725",
+   "Jug_Entra": "PABLO MARTIN SILVA",
+   "camiseta": "24",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "59380",
+   "Jug_Sale": "CRISTIAN FLEITAS",
+   "CarneEntra": "38266",
+   "Jug_Entra": "ESTEBAN JAVIER GURUCEAGA",
+   "camiseta": "23",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "57854",
+   "Jug_Sale": "LEONARDO BOVE",
+   "CarneEntra": "51342",
+   "Jug_Entra": "GONZALO MARTINEZ",
+   "camiseta": "77",
+   "minutos": "85"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "31602",
+   "Nombre": "DIEGO ENRIQUE SITYA",
+   "minutos": "75",
+   "EnContra": "0"
+  },
+  {
+   "carne": "31602",
+   "Nombre": "DIEGO ENRIQUE SITYA",
+   "minutos": "89",
+   "EnContra": "0"
+  },
+  {
+   "carne": "61634",
+   "Nombre": "EDILBEN GERMAN FABRA",
+   "minutos": "85",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
- "expulsadosV": []
+ "expulsadosV": [
+  {
+   "Nombre": "LUIS ALEJANDRO AYALA",
+   "observaciones": ""
+  }
+ ]
 }

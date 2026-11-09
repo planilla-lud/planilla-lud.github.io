@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"D\" PER. y DESC",
   "Cancha": "LIMBURGO -DR.J.L.PISCIOTTANO-",
-  "Fecha_Inicio": "2026-11-07 10:30:00",
-  "Fecha_fin": "2026-11-07 10:30:00",
+  "Fecha_Inicio": "2026-11-07 11:00:00",
+  "Fecha_fin": "2026-11-07 11:00:00",
   "Locatario": "NUMA TURCATTI",
   "goles_locatario": "1",
   "puntos_locatario": "3",
@@ -29,11 +29,194 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "20844",
+   "Nombre": "MARCELO EDUARDO ORTIZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "24411",
+   "Nombre": "ENRIQUE CARLOS DELGADO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "35379",
+   "Nombre": "FEDERICO LA LAINA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "24412",
+   "Nombre": "RODRIGO CADENAS",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "66270",
+   "Nombre": "RODRIGO GONCALVEZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "28544",
+   "Nombre": "PABLO ENRIQUE MARTINEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "46800",
+   "Nombre": "VICTOR DIEGO MOREIRA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "22165",
+   "Nombre": "BRUNO LUIS VARALDO",
+   "camiseta": "20",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "27715",
+   "Nombre": "OSCAR MARTIN BASSO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "37679",
+   "Nombre": "JORGE ANTONIO PONS",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "25051",
+   "Nombre": "EDMUNDO MIGUEL GRIFFIN",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "34858",
+   "Nombre": "DARDO LUIS ARISMENDI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "26640",
+   "Nombre": "JUAN DIEGO ZUNINO",
+   "camiseta": "3",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "68758",
+   "Nombre": "NICOLAS LES",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "37324",
+   "Nombre": "LUIS ALEJANDRO SUAREZ",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "41343",
+   "Nombre": "DARIO DANIEL GAZZO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "46137",
+   "Nombre": "EDUARDO MATIAS PEREZ",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "41332",
+   "Nombre": "CHRISTIAN ADRIAN COUSILLAS",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "61724",
+   "Nombre": "LEANDRO REYES",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "30693",
+   "Nombre": "SANTIAGO FORD",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "59836",
+   "Nombre": "EMILIANO ZOCCOLINI",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "65962",
+   "Nombre": "IGNACIO PEREIRA",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "28544",
+   "Jug_Sale": "PABLO ENRIQUE MARTINEZ",
+   "CarneEntra": "64670",
+   "Jug_Entra": "ADRIAN SILVEIRA",
+   "camiseta": "61",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "66270",
+   "Jug_Sale": "RODRIGO GONCALVEZ",
+   "CarneEntra": "42925",
+   "Jug_Entra": "MARTIN LA LAINA",
+   "camiseta": "15",
+   "minutos": "73"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "65962",
+   "Jug_Sale": "IGNACIO PEREIRA",
+   "CarneEntra": "45816",
+   "Jug_Entra": "FERNANDO ANDRES CERDA",
+   "camiseta": "8",
+   "minutos": "5"
+  },
+  {
+   "CarneSale": "61724",
+   "Jug_Sale": "LEANDRO REYES",
+   "CarneEntra": "66341",
+   "Jug_Entra": "SERGIO GABRIEL GUTIERREZ",
+   "camiseta": "17",
+   "minutos": "42"
+  },
+  {
+   "CarneSale": "61724",
+   "Jug_Sale": "LEANDRO REYES",
+   "CarneEntra": "46137",
+   "Jug_Entra": "EDUARDO MATIAS PEREZ",
+   "camiseta": "27",
+   "minutos": "77"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "27715",
+   "Nombre": "OSCAR MARTIN BASSO",
+   "minutos": "5",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

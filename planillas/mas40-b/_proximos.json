@@ -1,24 +1,10 @@
 [
  {
-  "serie": "40CB",
-  "fechaHora": "2026-11-07 09:00:00",
-  "cancha": "ESCUELA NAVAL",
-  "local": "ESPARTA UNIVERSITARIO",
-  "visitante": "CARRASCO LAWN TENNIS"
- },
- {
   "serie": "40CC",
   "fechaHora": "2026-11-07 09:00:00",
   "cancha": "COM.SINDICATO MEDICO",
   "local": "SINDICATO MEDICO DEL URUGUAY",
   "visitante": "CLUB ESTUDIANTES INGENIERIA"
- },
- {
-  "serie": "40CC",
-  "fechaHora": "2026-11-14 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "SA.FE.MA",
-  "visitante": "RIVER PLATE UNIVERSITARIO"
  },
  {
   "serie": "40CB",
@@ -44,16 +30,16 @@
  {
   "serie": "40CC",
   "fechaHora": "2026-11-14 09:00:00",
-  "cancha": "COMPLEJO ARACHAN",
-  "local": "OLIMAR",
-  "visitante": "SINDICATO MEDICO DEL URUGUAY"
+  "cancha": "COMPLEJO DEPORTIVO ARRAYANES",
+  "local": "SA.FE.MA",
+  "visitante": "RIVER PLATE UNIVERSITARIO"
  },
  {
   "serie": "40CC",
   "fechaHora": "2026-11-14 09:00:00",
-  "cancha": "VILLA MARIA",
-  "local": "CLUB ATLETICO BRAZO ORIENTAL",
-  "visitante": "FAMILIAR UNIVERSITARIO"
+  "cancha": "COMPLEJO ARACHAN",
+  "local": "OLIMAR",
+  "visitante": "SINDICATO MEDICO DEL URUGUAY"
  },
  {
   "serie": "40CB",

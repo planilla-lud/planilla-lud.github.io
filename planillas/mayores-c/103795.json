@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"C\" PERM. y DESC.",
   "Cancha": "ACADEMIA",
-  "Fecha_Inicio": "2026-11-08 12:45:00",
-  "Fecha_fin": "2026-11-08 12:45:00",
+  "Fecha_Inicio": "2026-11-08 13:00:00",
+  "Fecha_fin": "2026-11-08 13:00:00",
   "Locatario": "A.E.B.U",
   "goles_locatario": "1",
   "puntos_locatario": "0",
@@ -29,12 +29,290 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "48225",
+   "Nombre": "GERMAN CORREA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "54662",
+   "Nombre": "VALENTINO BELATTI",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "35508",
+   "Nombre": "AGUSTIN CORNU",
+   "camiseta": "28",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "57314",
+   "Nombre": "IGNACIO CHOCHO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "51008",
+   "Nombre": "TOMAS GOMEZ",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "67655",
+   "Nombre": "MATIAS ALEJANDRO BRAIDA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "59845",
+   "Nombre": "IGNACIOB SOSA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "38570",
+   "Nombre": "JAVIER NICOLAS CLERICI",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "66174",
+   "Nombre": "RODRIGO EZEQUIEL VENIER",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "37229",
+   "Nombre": "MATIAS JOSE RIESTRA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "67656",
+   "Nombre": "GUILLERMO ALPUIN",
+   "camiseta": "13",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "50792",
+   "Nombre": "LUCA BARCELO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "43678",
+   "Nombre": "GONZALO ALBA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "50788",
+   "Nombre": "JUAN ANDRES VARELA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "50790",
+   "Nombre": "JOAQUIN ANDRES GARCIA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "48913",
+   "Nombre": "FEDERICO JOAQUIN OCAMPO",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "45240",
+   "Nombre": "JOSE MAURO COSENTINO",
+   "camiseta": "16",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "44983",
+   "Nombre": "JUAN IGNACIO PIN",
+   "camiseta": "37",
+   "Capitan": ""
+  },
+  {
+   "carne": "56209",
+   "Nombre": "EMILIANO DI LASCIO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "47787",
+   "Nombre": "JUAN PEDRO DOMINGUEZ",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "41351",
+   "Nombre": "GONZALO RUBEN YIZMEYIAN",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "40179",
+   "Nombre": "AGUSTIN FERNANDO GARABEDIAN",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "51008",
+   "Jug_Sale": "TOMAS GOMEZ",
+   "CarneEntra": "51167",
+   "Jug_Entra": "FRANCISCO MENDEZ",
+   "camiseta": "22",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66174",
+   "Jug_Sale": "RODRIGO EZEQUIEL VENIER",
+   "CarneEntra": "43521",
+   "Jug_Entra": "PABLO JOAQUIN COLINET",
+   "camiseta": "7",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "67656",
+   "Jug_Sale": "GUILLERMO ALPUIN",
+   "CarneEntra": "68591",
+   "Jug_Entra": "FRANCO VERA",
+   "camiseta": "27",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "35508",
+   "Jug_Sale": "AGUSTIN CORNU",
+   "CarneEntra": "51005",
+   "Jug_Entra": "ALEKSY CHWASTEK",
+   "camiseta": "3",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "54662",
+   "Jug_Sale": "VALENTINO BELATTI",
+   "CarneEntra": "55950",
+   "Jug_Entra": "BRANDON NAHUEL RAMOS",
+   "camiseta": "45",
+   "minutos": "82"
+  },
+  {
+   "CarneSale": "66174",
+   "Jug_Sale": "RODRIGO EZEQUIEL VENIER",
+   "CarneEntra": "51008",
+   "Jug_Entra": "TOMAS GOMEZ",
+   "camiseta": "32",
+   "minutos": "85"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "47787",
+   "Jug_Sale": "JUAN PEDRO DOMINGUEZ",
+   "CarneEntra": "39100",
+   "Jug_Entra": "TOMAS IGNACIO MANGGIAROTTI",
+   "camiseta": "8",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56209",
+   "Jug_Sale": "EMILIANO DI LASCIO",
+   "CarneEntra": "49274",
+   "Jug_Entra": "DIEGO RODRIGUEZ",
+   "camiseta": "15",
+   "minutos": "51"
+  },
+  {
+   "CarneSale": "41351",
+   "Jug_Sale": "GONZALO RUBEN YIZMEYIAN",
+   "CarneEntra": "36872",
+   "Jug_Entra": "FEDERICO LUIS BISCARDI",
+   "camiseta": "14",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "44983",
+   "Jug_Sale": "JUAN IGNACIO PIN",
+   "CarneEntra": "67011",
+   "Jug_Entra": "FACUNDO SORIA",
+   "camiseta": "2",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "40179",
+   "Jug_Sale": "AGUSTIN FERNANDO GARABEDIAN",
+   "CarneEntra": "41070",
+   "Jug_Entra": "MATEO BIQUE",
+   "camiseta": "23",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "50788",
+   "Jug_Sale": "JUAN ANDRES VARELA",
+   "CarneEntra": "47787",
+   "Jug_Entra": "JUAN PEDRO DOMINGUEZ",
+   "camiseta": "21",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "43678",
+   "Jug_Sale": "GONZALO ALBA",
+   "CarneEntra": "26183",
+   "Jug_Entra": "ANDRES DARIO SPOSITO",
+   "camiseta": "7",
+   "minutos": "80"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "37229",
+   "Nombre": "MATIAS JOSE RIESTRA",
+   "minutos": "2",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "39100",
+   "Nombre": "TOMAS IGNACIO MANGGIAROTTI",
+   "minutos": "65",
+   "EnContra": "1"
+  },
+  {
+   "carne": "39100",
+   "Nombre": "TOMAS IGNACIO MANGGIAROTTI",
+   "minutos": "67",
+   "EnContra": "1"
+  },
+  {
+   "carne": "41351",
+   "Nombre": "GONZALO RUBEN YIZMEYIAN",
+   "minutos": "7",
+   "EnContra": "1"
+  },
+  {
+   "carne": "41351",
+   "Nombre": "GONZALO RUBEN YIZMEYIAN",
+   "minutos": "38",
+   "EnContra": "1"
+  },
+  {
+   "carne": "41351",
+   "Nombre": "GONZALO RUBEN YIZMEYIAN",
+   "minutos": "42",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"F\" TIT. y ASC.",
   "Cancha": "MICROSULES",
-  "Fecha_Inicio": "2026-11-08 12:45:00",
-  "Fecha_fin": "2026-11-08 12:45:00",
+  "Fecha_Inicio": "2026-11-08 13:15:00",
+  "Fecha_fin": "2026-11-08 13:15:00",
   "Locatario": "VETERINARIA UNIVERSITARIO",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,245 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "40490",
+   "Nombre": "IGNACIO GUTIERREZ",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "54399",
+   "Nombre": "LEANDRO EMANUEL PLA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "62121",
+   "Nombre": "ALVARO SEBASTIAN CAWEN",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "67096",
+   "Nombre": "FRANCO AGUSTIN IRURETA",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "42405",
+   "Nombre": "ALEJANDRO  SEBASTIAN GARCIA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "65727",
+   "Nombre": "CESAR ALTINO NUÑEZ",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "62120",
+   "Nombre": "CRISTIAN SANCHEZ",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "66044",
+   "Nombre": "FAUSTO VELAZQUEZ",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "47237",
+   "Nombre": "GUILLERMO VALENTINO ZAPATA",
+   "camiseta": "64",
+   "Capitan": ""
+  },
+  {
+   "carne": "46929",
+   "Nombre": "CARLOS DANIEL OCAMPO",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "38891",
+   "Nombre": "RODRIGO MARTIN LOPEZ",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "59906",
+   "Nombre": "MATEO FRANCO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "59018",
+   "Nombre": "GONZALO GALEANO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "57278",
+   "Nombre": "LUCAS REINOSO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "44999",
+   "Nombre": "GABRIEL GEYMONAT",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "56465",
+   "Nombre": "EZEQUIEL MONTIEL",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "61822",
+   "Nombre": "LUCAS PEREIRA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "47551",
+   "Nombre": "PATRICIO COLLAZO",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "62488",
+   "Nombre": "JOAQUIN SEBASTIAN CASAL",
+   "camiseta": "76",
+   "Capitan": ""
+  },
+  {
+   "carne": "60958",
+   "Nombre": "FEDERICO MANUELIAN",
+   "camiseta": "99",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "59036",
+   "Nombre": "FACUNDO ROSADO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "60652",
+   "Nombre": "MATIAS VARELA",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "54399",
+   "Jug_Sale": "LEANDRO EMANUEL PLA",
+   "CarneEntra": "54029",
+   "Jug_Entra": "MANUEL ALEJANDRO GALIANI",
+   "camiseta": "20",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66044",
+   "Jug_Sale": "FAUSTO VELAZQUEZ",
+   "CarneEntra": "68011",
+   "Jug_Entra": "DIOGO TRISTAN ALONSO",
+   "camiseta": "23",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "62120",
+   "Jug_Sale": "CRISTIAN SANCHEZ",
+   "CarneEntra": "51900",
+   "Jug_Entra": "PABLO SEBASTIAN PEREZ",
+   "camiseta": "8",
+   "minutos": "62"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "59036",
+   "Jug_Sale": "FACUNDO ROSADO",
+   "CarneEntra": "54465",
+   "Jug_Entra": "BRUNO POUND",
+   "camiseta": "17",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "44999",
+   "Jug_Sale": "GABRIEL GEYMONAT",
+   "CarneEntra": "67299",
+   "Jug_Entra": "FRANCO NICOLAS PURTSCHER",
+   "camiseta": "38",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "60652",
+   "Jug_Sale": "MATIAS VARELA",
+   "CarneEntra": "62487",
+   "Jug_Entra": "ALEJO RAMIREZ",
+   "camiseta": "41",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "56465",
+   "Jug_Sale": "EZEQUIEL MONTIEL",
+   "CarneEntra": "36368",
+   "Jug_Entra": "MARCOS MANUEL QUEIROZ",
+   "camiseta": "54",
+   "minutos": "81"
+  },
+  {
+   "CarneSale": "61822",
+   "Jug_Sale": "LUCAS PEREIRA",
+   "CarneEntra": "54931",
+   "Jug_Entra": "GENARO VALENTIN COLOMBO",
+   "camiseta": "76",
+   "minutos": "81"
+  },
+  {
+   "CarneSale": "62488",
+   "Jug_Sale": "JOAQUIN SEBASTIAN CASAL",
+   "CarneEntra": "58238",
+   "Jug_Entra": "ALEJANDRO RODRIGUEZ",
+   "camiseta": "77",
+   "minutos": "81"
+  }
+ ],
  "golesL": [],
- "golesV": [],
+ "golesV": [
+  {
+   "carne": "56465",
+   "Nombre": "EZEQUIEL MONTIEL",
+   "minutos": "67",
+   "EnContra": "1"
+  },
+  {
+   "carne": "60652",
+   "Nombre": "MATIAS VARELA",
+   "minutos": "38",
+   "EnContra": "1"
+  },
+  {
+   "carne": "60652",
+   "Nombre": "MATIAS VARELA",
+   "minutos": "78",
+   "EnContra": "1"
+  },
+  {
+   "carne": "60958",
+   "Nombre": "FEDERICO MANUELIAN",
+   "minutos": "19",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"C\" TIT. y ASC.",
   "Cancha": "PARQUE CUPRA - CLUB SEMINARIO",
-  "Fecha_Inicio": "2026-11-07 12:45:00",
-  "Fecha_fin": "2026-11-07 12:45:00",
+  "Fecha_Inicio": "2026-11-07 13:00:00",
+  "Fecha_fin": "2026-11-07 13:00:00",
   "Locatario": "SEMINARIO UNIVERSITARIO",
   "goles_locatario": "1",
   "puntos_locatario": "3",
@@ -29,11 +29,242 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "52841",
+   "Nombre": "ALFONSO LEMA",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "50779",
+   "Nombre": "JUAN IGNACIO FERREIRA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "50784",
+   "Nombre": "FRANCO PASCALE",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "51012",
+   "Nombre": "JUAN JOSE GENTILE",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "56835",
+   "Nombre": "JUAN IGNACIO URRETAVIZCAYA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "62273",
+   "Nombre": "SANTIAGO CABRERA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "52955",
+   "Nombre": "VALENTIN IGNACIO GONZALEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "51014",
+   "Nombre": "FANCISCO QUIJANO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "50807",
+   "Nombre": "JOSE DOMINGO MARTINELLI",
+   "camiseta": "9",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "50860",
+   "Nombre": "JUAN IGNACIO SAPELLO",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "52843",
+   "Nombre": "JUAN ANDRES RAMIREZ",
+   "camiseta": "14",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "61746",
+   "Nombre": "SANTIAGO BRAZEIRO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "61743",
+   "Nombre": "KAWE ALAMON",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "64443",
+   "Nombre": "ENZO JESUS RODRIGUEZ",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "49859",
+   "Nombre": "ALFREDO SUAREZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "59342",
+   "Nombre": "MATIAS MARTINS",
+   "camiseta": "80",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "68963",
+   "Nombre": "FACUNDO NICOLAS MORALES",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "53118",
+   "Nombre": "ALVARO MARTIN PINTOS",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "37566",
+   "Nombre": "FELIPE CARBALLO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "62046",
+   "Nombre": "MAURICIO LAPORTE",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "63708",
+   "Nombre": "ANTHONY YAEL BRITOS",
+   "camiseta": "69",
+   "Capitan": ""
+  },
+  {
+   "carne": "62839",
+   "Nombre": "IRVIN FACUNDO SOSA",
+   "camiseta": "97",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "50860",
+   "Jug_Sale": "JUAN IGNACIO SAPELLO",
+   "CarneEntra": "53657",
+   "Jug_Entra": "MATEO PERTUSSO",
+   "camiseta": "10",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "62273",
+   "Jug_Sale": "SANTIAGO CABRERA",
+   "CarneEntra": "50796",
+   "Jug_Entra": "JUAN MARTIN MACHADO",
+   "camiseta": "17",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "50807",
+   "Jug_Sale": "JOSE DOMINGO MARTINELLI",
+   "CarneEntra": "50860",
+   "Jug_Entra": "JUAN IGNACIO SAPELLO",
+   "camiseta": "19",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "51014",
+   "Jug_Sale": "FANCISCO QUIJANO",
+   "CarneEntra": "62273",
+   "Jug_Entra": "SANTIAGO CABRERA",
+   "camiseta": "16",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "52955",
+   "Jug_Sale": "VALENTIN IGNACIO GONZALEZ",
+   "CarneEntra": "50800",
+   "Jug_Entra": "FELIPE MIGUEL GIRO",
+   "camiseta": "6",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "56835",
+   "Jug_Sale": "JUAN IGNACIO URRETAVIZCAYA",
+   "CarneEntra": "50774",
+   "Jug_Entra": "FELIPE IGNACIO SOLOGAISTOA",
+   "camiseta": "22",
+   "minutos": "80"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "64443",
+   "Jug_Sale": "ENZO JESUS RODRIGUEZ",
+   "CarneEntra": "48025",
+   "Jug_Entra": "RODRIGO PRUNELL",
+   "camiseta": "9",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "61743",
+   "Jug_Sale": "KAWE ALAMON",
+   "CarneEntra": "62047",
+   "Jug_Entra": "RAMIRO SALVADOR",
+   "camiseta": "10",
+   "minutos": "69"
+  },
+  {
+   "CarneSale": "62839",
+   "Jug_Sale": "IRVIN FACUNDO SOSA",
+   "CarneEntra": "49999",
+   "Jug_Entra": "LEONARDO NICOLAS RIBEIRO",
+   "camiseta": "20",
+   "minutos": "69"
+  },
+  {
+   "CarneSale": "49859",
+   "Jug_Sale": "ALFREDO SUAREZ",
+   "CarneEntra": "56001",
+   "Jug_Entra": "GERMAN NICOLAS DEL PINO",
+   "camiseta": "11",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "63708",
+   "Jug_Sale": "ANTHONY YAEL BRITOS",
+   "CarneEntra": "68839",
+   "Jug_Entra": "LAUTARO LARZABAL",
+   "camiseta": "40",
+   "minutos": "80"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "52841",
+   "Nombre": "ALFONSO LEMA",
+   "minutos": "12",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"C\" TIT. y ASC.",
   "Cancha": "CAMPO DEP. INSTITUTO CRANDON",
-  "Fecha_Inicio": "2026-11-08 12:45:00",
-  "Fecha_fin": "2026-11-08 12:45:00",
+  "Fecha_Inicio": "2026-11-08 13:00:00",
+  "Fecha_fin": "2026-11-08 13:00:00",
   "Locatario": "CRANDON UNIVERSITARIO",
   "goles_locatario": "1",
   "puntos_locatario": "0",
@@ -29,12 +29,246 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "51110",
+   "Nombre": "GUILLERMO LOPEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "56199",
+   "Nombre": "MATIAS ANDRES MORAES",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "41022",
+   "Nombre": "SANTIAGO ROSSO",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "36857",
+   "Nombre": "GUILLERMO AMOZA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "64431",
+   "Nombre": "FRANCO JOSUE CASCALLARES",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "51113",
+   "Nombre": "BRUNO CHELINI",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "41107",
+   "Nombre": "MATIAS ANTONIO OXACELHAY",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56357",
+   "Nombre": "SEBASTIAN PARDO IRIONDO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "52832",
+   "Nombre": "FELIPE ROBATTO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "44984",
+   "Nombre": "NICOLAS TOMAS GALANTE",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "58798",
+   "Nombre": "MATEO FRAGA",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "44518",
+   "Nombre": "MATIAS DA ROSA",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "54634",
+   "Nombre": "SANTIAGO PORLEY",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "63603",
+   "Nombre": "JOAQUIN VIDEGAIN",
+   "camiseta": "27",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "41765",
+   "Nombre": "NICOLAS LABAT",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "48968",
+   "Nombre": "LUCAS ALONSO",
+   "camiseta": "57",
+   "Capitan": ""
+  },
+  {
+   "carne": "54633",
+   "Nombre": "MATEO GARCIA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "59289",
+   "Nombre": "VALENTIN HARETCHE",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "56633",
+   "Nombre": "GONZALO PINTADO",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "50431",
+   "Nombre": "RODRIGO PELETEIRO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "54807",
+   "Nombre": "BRUNO ZARZAY",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "63888",
+   "Nombre": "TOMAS NAHUEL AREOSA",
+   "camiseta": "92",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "64431",
+   "Jug_Sale": "FRANCO JOSUE CASCALLARES",
+   "CarneEntra": "53951",
+   "Jug_Entra": "THIAGO NERGUIZIAN",
+   "camiseta": "5",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "41107",
+   "Jug_Sale": "MATIAS ANTONIO OXACELHAY",
+   "CarneEntra": "60493",
+   "Jug_Entra": "GERMAN LOPEZ",
+   "camiseta": "16",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "44984",
+   "Jug_Sale": "NICOLAS TOMAS GALANTE",
+   "CarneEntra": "47609",
+   "Jug_Entra": "VICENTE ALVAREZ",
+   "camiseta": "7",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "58798",
+   "Jug_Sale": "MATEO FRAGA",
+   "CarneEntra": "39029",
+   "Jug_Entra": "FELIPE DIAZ ARNESTO",
+   "camiseta": "24",
+   "minutos": "0"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "41765",
+   "Jug_Sale": "NICOLAS LABAT",
+   "CarneEntra": "41716",
+   "Jug_Entra": "MATEO CASTAGNA",
+   "camiseta": "23",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "54807",
+   "Jug_Sale": "BRUNO ZARZAY",
+   "CarneEntra": "55870",
+   "Jug_Entra": "MAURO ORONA",
+   "camiseta": "13",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "56633",
+   "Jug_Sale": "GONZALO PINTADO",
+   "CarneEntra": "60781",
+   "Jug_Entra": "JUAN JOSE NOGUEIRA",
+   "camiseta": "34",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "59289",
+   "Jug_Sale": "VALENTIN HARETCHE",
+   "CarneEntra": "52985",
+   "Jug_Entra": "FACUNDO AGUSTIN MARTINEZ",
+   "camiseta": "32",
+   "minutos": "90"
+  },
+  {
+   "CarneSale": "50431",
+   "Jug_Sale": "RODRIGO PELETEIRO",
+   "CarneEntra": "52597",
+   "Jug_Entra": "JOAQUIN ZABALETA",
+   "camiseta": "80",
+   "minutos": "92"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "41022",
+   "Nombre": "SANTIAGO ROSSO",
+   "minutos": "70",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "59289",
+   "Nombre": "VALENTIN HARETCHE",
+   "minutos": "41",
+   "EnContra": "1"
+  },
+  {
+   "carne": "59289",
+   "Nombre": "VALENTIN HARETCHE",
+   "minutos": "71",
+   "EnContra": "1"
+  },
+  {
+   "carne": "63888",
+   "Nombre": "TOMAS NAHUEL AREOSA",
+   "minutos": "15",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }
