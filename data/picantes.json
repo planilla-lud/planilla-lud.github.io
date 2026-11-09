@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-09T00:49:02.833Z",
+ "actualizado": "2026-11-09T15:34:40.147Z",
  "partidos": [
   {
    "div": "reserva-a",
@@ -10,8 +10,8 @@
    "dia": "2026-11-14",
    "hora": "09:00",
    "etapa": "Título",
-   "pl": 1,
-   "pv": 3,
+   "pl": 2,
+   "pv": 1,
    "n": 8,
    "base": 0,
    "tipo": "titulo",

@@ -8,7 +8,7 @@
      "id": "mayores-a",
      "letra": "A",
      "nombre": "Mayores A",
-     "actualizado": "2026-11-09T00:48:31.500Z",
+     "actualizado": "2026-11-09T15:34:08.722Z",
      "partidos": 176,
      "conPlanilla": 168,
      "conProblemas": 33,
@@ -18,7 +18,7 @@
      "id": "mayores-b",
      "letra": "B",
      "nombre": "Mayores B",
-     "actualizado": "2026-11-09T00:48:31.541Z",
+     "actualizado": "2026-11-09T15:34:08.768Z",
      "partidos": 174,
      "conPlanilla": 170,
      "conProblemas": 32,
@@ -58,7 +58,7 @@
      "id": "mayores-f",
      "letra": "F",
      "nombre": "Mayores F",
-     "actualizado": "2026-11-09T05:11:27.950Z",
+     "actualizado": "2026-11-09T15:34:08.906Z",
      "partidos": 176,
      "conPlanilla": 168,
      "conProblemas": 50,
@@ -84,7 +84,7 @@
      "id": "sub20-a",
      "letra": "A",
      "nombre": "Sub 20 A",
-     "actualizado": "2026-11-09T05:11:28.009Z",
+     "actualizado": "2026-11-09T15:34:08.964Z",
      "partidos": 172,
      "conPlanilla": 168,
      "conProblemas": 42,
@@ -94,7 +94,7 @@
      "id": "sub20-b",
      "letra": "B",
      "nombre": "Sub 20 B",
-     "actualizado": "2026-11-09T05:11:28.041Z",
+     "actualizado": "2026-11-09T15:34:08.997Z",
      "partidos": 175,
      "conPlanilla": 162,
      "conProblemas": 45,
@@ -120,10 +120,10 @@
      "id": "reserva-a",
      "letra": "A",
      "nombre": "Reserva A",
-     "actualizado": "2026-11-09T00:48:31.850Z",
-     "partidos": 166,
+     "actualizado": "2026-11-09T15:34:09.056Z",
+     "partidos": 167,
      "conPlanilla": 161,
-     "conProblemas": 30,
+     "conProblemas": 31,
      "equipos": 16
     },
     {
@@ -150,10 +150,10 @@
      "id": "reserva-d",
      "letra": "D",
      "nombre": "Reserva D",
-     "actualizado": "2026-11-09T05:11:28.223Z",
-     "partidos": 240,
+     "actualizado": "2026-11-09T15:34:09.163Z",
+     "partidos": 241,
      "conPlanilla": 221,
-     "conProblemas": 87,
+     "conProblemas": 88,
      "equipos": 23
     }
    ]
@@ -303,10 +303,10 @@
      "letra": "Confrat.",
      "nombre": "Sub 18 Confraternidad",
      "copa": "18F",
-     "actualizado": "2026-11-09T05:11:28.503Z",
-     "partidos": 118,
+     "actualizado": "2026-11-09T15:34:09.458Z",
+     "partidos": 119,
      "conPlanilla": 114,
-     "conProblemas": 45,
+     "conProblemas": 46,
      "equipos": 8
     },
     {
@@ -314,10 +314,10 @@
      "letra": "Amistad",
      "nombre": "Sub 18 Amistad",
      "copa": "18A",
-     "actualizado": "2026-11-09T00:48:32.314Z",
-     "partidos": 130,
+     "actualizado": "2026-11-09T15:34:09.458Z",
+     "partidos": 131,
      "conPlanilla": 121,
-     "conProblemas": 67,
+     "conProblemas": 68,
      "equipos": 9
     },
     {
@@ -325,10 +325,10 @@
      "letra": "Todas",
      "nombre": "Sub 18",
      "oculta": 1,
-     "actualizado": "2026-11-09T05:11:28.503Z",
-     "partidos": 427,
+     "actualizado": "2026-11-09T15:34:09.458Z",
+     "partidos": 429,
      "conPlanilla": 396,
-     "conProblemas": 185,
+     "conProblemas": 187,
      "equipos": 50
     }
    ]
@@ -375,7 +375,7 @@
      "letra": "Compet.",
      "nombre": "Sub 16 Competencia",
      "copa": "16C",
-     "actualizado": "2026-11-09T05:11:28.703Z",
+     "actualizado": "2026-11-09T15:34:09.659Z",
      "partidos": 117,
      "conPlanilla": 110,
      "conProblemas": 62,
@@ -386,10 +386,10 @@
      "letra": "Confrat.",
      "nombre": "Sub 16 Confraternidad",
      "copa": "16F",
-     "actualizado": "2026-11-09T00:48:32.509Z",
-     "partidos": 104,
+     "actualizado": "2026-11-09T15:34:09.659Z",
+     "partidos": 105,
      "conPlanilla": 99,
-     "conProblemas": 51,
+     "conProblemas": 52,
      "equipos": 7
     },
     {
@@ -397,10 +397,10 @@
      "letra": "Todas",
      "nombre": "Sub 16",
      "oculta": 1,
-     "actualizado": "2026-11-09T05:11:28.703Z",
-     "partidos": 334,
+     "actualizado": "2026-11-09T15:34:09.659Z",
+     "partidos": 335,
      "conPlanilla": 316,
-     "conProblemas": 161,
+     "conProblemas": 162,
      "equipos": 39
     }
    ]
