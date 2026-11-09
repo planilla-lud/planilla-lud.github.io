@@ -2443,7 +2443,7 @@ const PM_SEMANA = [1, 2, 3, 4, 5, 6, 0];
 const PM_MESES = ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'set', 'oct', 'nov', 'dic'];
 const PM_DIAS_L = ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'];
 const PM_CFG0 = { verAsistencia: true, verRacha: true, verMinutos: true, verRanking: false, verCompaneros: false, verAnalisis: true, analisisJug: true,
-  pasarLista: false, convocatoria: false, verOnce: false, recordatorio: true, recCuando: 'noche',
+  pasarLista: false, convocatoria: false, recordatorio: true, recCuando: 'noche',
   avPlanilla: true, avRival: true, avResultado: true, avPractica: true, avConvocatoria: true };
 const PM_TABS = [['resumen', 'Resumen'], ['practicas', 'Prácticas'], ['cruce', 'Asistencia y minutos'], ['minutos', 'Minutos'],
   ['convocatoria', 'Convocatoria'], ['analisis', 'Análisis'], ['ajustes', 'Ajustes']];
@@ -3193,7 +3193,7 @@ function pmConvocatoria() {
 // ----- Once inicial -----
 // El DT elige la formación y pone a cada jugador en su puesto de la cancha. Se guarda por partido
 // (onces["div|día"], o "plantel|sin-partido" si todavía no hay partido) con la formación, los 11 (un carné o
-// nada por puesto, en el orden de oncePuestos) y los suplentes. Los jugadores lo ven si se prende en Ajustes.
+// nada por puesto, en el orden de oncePuestos) y los suplentes. Solo lo ve el cuerpo técnico (admin y DT).
 const ONCE_F = {
   '4-4-2': [['ARQ'], ['LI', 'ZAG', 'ZAG', 'LD'], ['VI', 'VOL', 'VOL', 'VD'], ['DEL', 'DEL']],
   '4-3-3': [['ARQ'], ['LI', 'ZAG', 'ZAG', 'LD'], ['VOL', 'VC', 'VOL'], ['EI', 'DEL', 'ED']],
@@ -3256,7 +3256,7 @@ function pmOnce() {
   return pmChipsCat(cat) + `<div class="panel"><div class="panel-h"><span><b>${n ? `${esc(DIVS[e.div].nombre)} vs ${esc(n.rival)}` : esc(pmCatN(cat))}</b></span><span>${n ? esc(sub) : 'Sin partido programado'}</span></div>
       <label class="pm-r"><span class="pm-r-t"><b>Formación</b><small>${pj} de 11 puestos con jugador</small></span><select class="pm-in pm-once-f" data-pm="once-f" data-k="${esc(key)}" aria-label="Formación">${Object.keys(ONCE_F).map(f => `<option${f === o.f ? ' selected' : ''}>${f}</option>`).join('')}</select></label></div>
     ${onceCancha(o, true)}
-    <p class="pm-nota pm-sin" style="text-align:center">Tocá un puesto para elegir al jugador. ${pmCfg(cat).verOnce ? 'Los jugadores lo ven en su pantalla.' : 'Los jugadores no lo ven (se prende en <a href="#/clubes/ajustes">Ajustes</a>).'}</p>
+    <p class="pm-nota pm-sin" style="text-align:center">Tocá un puesto para elegir al jugador. Solo lo ve el cuerpo técnico.</p>
     <section class="stack"><div class="sec-h"><div><h3>Suplentes</h3><span class="sub">Tocá a los que van al banco.</span></div></div>
       ${resto.length ? `<div class="chips pm-once-sup">${resto.map(J => `<button type="button" class="chip" data-pm="once-sup" data-v="${J.c}" aria-pressed="${o.s.includes(J.c)}">${esc(pmCorto(J.nombre))}</button>`).join('')}</div>` : '<div class="empty">Todo el plantel está en el once.</div>'}</section>
     ${pj ? `<div class="panel pm-msg"><div class="panel-h"><span><b>Mensaje para el grupo</b></span><span>${pj} titulares${o.s.length ? ` · ${o.s.length} suplentes` : ''}</span></div><pre id="once-txt">${esc(txt)}</pre>
@@ -3283,21 +3283,6 @@ function onceElegir(i) {
   };
   abrir('sheet-once');
 }
-// Lo que ve el jugador: el once de su próximo partido, si el DT lo armó y lo dejó ver.
-function onceDelJugador(J, cats) {
-  for (const cat of cats) {
-    if (!pmCfg(cat).verOnce) continue;
-    const { e, n, key } = onceClave(cat); if (!n) continue;
-    const o = onceDe(key); if (onceVacio(o)) continue;
-    const i = o.p.indexOf(J.c), P = oncePuestos(o.f);
-    const yo = i >= 0 ? `Vas de titular, de ${ONCE_NOM[P[i].p]}.` : o.s.includes(J.c) ? 'Vas al banco.' : '';
-    return `<section class="stack"><div class="sec-h"><div><h3>El once vs ${esc(n.rival)}</h3><span class="sub">${esc(DIVS[e.div].nombre)} · ${fDia(n.dia)}${n.hora !== '00:00' ? ' ' + n.hora : ''} · ${o.f}</span></div></div>
-      ${yo ? `<div class="panel"><div class="pm-r"><span class="pm-r-t"><b>${yo}</b></span></div></div>` : ''}${onceCancha(o, false, J.c)}
-      ${o.s.length ? `<div class="panel"><div class="pm-rg"><b>Suplentes</b><span>${o.s.map(c => esc(pmCorto(pmJug(c).nombre))).join(', ')}</span></div></div>` : ''}</section>`;
-  }
-  return '';
-}
-
 // ----- Recordatorios -----
 function pmRecordatorios() {
   const E = pmEst(), cat = PM_CAT, p = pmProx(cat), L = pmDe(cat);
@@ -4310,7 +4295,7 @@ function pmAjustes() {
       <div class="panel">${pmSw('verAsistencia', 'Sus prácticas', 'A cuántas fue en la semana, el mes y el año')}${pmSw('verRacha', 'Su racha', 'Prácticas seguidas sin faltar')}${pmSw('verMinutos', 'Sus minutos', 'Lo que jugó en cada plantel')}${pmSw('verAnalisis', 'Sus análisis', 'Lo que dicen de él los informes de video y de Veo')}${pmSw('analisisJug', 'Hacer análisis', 'Que puedan subir clips o el informe de Veo y armar un análisis del partido con la clave del club')}${pmSw('verCompaneros', 'Quién va a la próxima práctica', 'Las respuestas de sus compañeros al recordatorio')}${pmSw('verRanking', 'Ranking de asistencia', 'La tabla de todo el plantel ordenada por asistencia')}</div></section>
     <section class="stack"><div class="sec-h"><div><h3>Prácticas</h3><span class="sub">La asistencia la marca cada jugador.</span></div></div>
       <div class="panel">${pmSw('pasarLista', 'Pasar lista', 'El técnico confirma quién fue. Si está apagado, vale lo que marca el jugador')}</div></section>
-    <section class="stack"><div class="sec-h"><div><h3>Partidos</h3></div></div><div class="panel">${pmSw('convocatoria', 'Convocatoria', 'Elegir los convocados de cada partido y mandar la lista')}${pmSw('verOnce', 'Los jugadores ven el once', 'La formación, los titulares y los suplentes del próximo partido, apenas lo armás')}</div></section>
+    <section class="stack"><div class="sec-h"><div><h3>Partidos</h3></div></div><div class="panel">${pmSw('convocatoria', 'Convocatoria', 'Elegir los convocados de cada partido y mandar la lista')}</div></section>
     <section class="stack"><div class="sec-h"><div><h3>Días de práctica</h3><span class="sub">Se cambian en Prácticas, eligiendo el plantel.</span></div><a href="#/clubes/practicas">Cambiar</a></div>
       <div class="panel">${pmCV().map(c => `<div class="pm-r"><span class="pm-r-t"><b>${esc(pmCatN(c))}</b><small>${pmDiasTxt(c)} · ${esc(pmHorHoy(c).lugar)}</small></span></div>`).join('')}</div></section>
     ${pmSesion()?.creador ? `<section class="stack"><div class="sec-h"><div><h3>Todos los clubes</h3><span class="sub">Solo lo ve tu cuenta de creador.</span></div></div><div class="panel" id="pm-creador"><p class="pm-nota pm-sin pm-av-pad">Cargando…</p></div></section>` : ''}
@@ -4357,7 +4342,6 @@ function pmVistaJugador(S) {
     ${rank.length ? `<section class="stack"><div class="sec-h"><div><h3>Asistencia del plantel</h3><span class="sub">Los 10 que más fueron en la temporada${rank.findIndex(r => r.x.c === J.c) >= 10 ? ', y vos' : ''}.</span></div></div><div class="panel">${rank.map((r, i) => ({ ...r, i })).filter(({ x, i }) => i < 10 || x.c === J.c).map(({ x, p, i }) => `${i >= 10 ? '<div class="pm-r pm-sep">…</div>' : ''}<div class="pm-r${x.c === J.c ? ' pm-mio' : ''}"><span class="pm-r-t"><b>${i + 1}. ${esc(x.nombre)}</b></span><span class="pm-cnt"><b>${p}%</b></span></div>`).join('')}</div></section>` : ''}
     ${(() => { const f = pmFicha(J), e = pmFichaEst(f); return `<div class="panel pm-ficha-yo ${e}"><div class="pm-r"><span class="pm-r-t"><b>Ficha médica</b><small>${e === 'sin' ? 'Cargá cuándo vence tu ficha médica.' : e === 'vencida' ? `Venció el ${pmFecha(f)}. Renovala para poder jugar.` : e === 'pronto' ? `Vence el ${pmFecha(f)}. Acordate de renovarla.` : `Al día, vence el ${pmFecha(f)}.`}</small></span>${e === 'vencida' || e === 'pronto' ? '<span class="pm-est ' + (e === 'vencida' ? 'no' : 'pronto') + '">' + (e === 'vencida' ? 'Vencida' : 'Por vencer') + '</span>' : ''}</div>
       ${e !== 'ok' ? `<label class="pm-r pm-ficha" for="ficha-${J.c}"><span class="pm-r-t"><b>${e === 'sin' ? 'Vencimiento' : '¿Ya la renovaste?'}</b><small>${e === 'sin' ? 'La fecha que figura en la ficha.' : 'Poné la nueva fecha de vencimiento.'}</small></span><input type="date" class="pm-in" id="ficha-${J.c}" data-pm="ficha" data-c="${J.c}" value="${f}"></label>` : ''}</div>`; })()}
-    ${onceDelJugador(J, susCats)}
     ${CF.verAnalisis ? avDelJugador(J, susCats) : ''}
     ${S.rol === 'jug' && pmAvCats().length ? `<div class="panel"><div class="pm-r"><span class="pm-r-t"><b>Analizá un partido</b><small>Subí los clips o el informe de Veo y Gemini arma el análisis. Lo ve el cuerpo técnico.</small></span><a class="share" href="#/clubes/analisis">Hacer un análisis</a></div></div>` : ''}
     ${S.rol !== 'jug' ? '<p class="pm-nota">Esto es lo que ve un jugador. Lo que aparece acá lo decide el cuerpo técnico en Ajustes.</p>' : ''}`;
