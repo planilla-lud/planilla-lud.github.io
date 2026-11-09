@@ -845,6 +845,8 @@ button.pm-pos:hover i,button.pm-pos:focus-visible i{outline:3px solid #ffd54a;ou
 .pm-once-sup{flex-wrap:wrap}
 .pm-elegir{width:100%;background:none;border:0;border-top:1px solid var(--line);color:inherit;font:inherit;text-align:left;cursor:pointer}
 .pm-elegir:first-child{border-top:0}
+.pm-once-h{font-weight:600;background:var(--surface-2)}
+.pm-once-h:first-child{border-top:0}
 .pm-elegir:hover{background:var(--hover)}
 .pm-elegir.actual{background:var(--accent-soft)}
 .pm-elegir:disabled{opacity:.5;cursor:not-allowed}
@@ -3262,6 +3264,16 @@ function pmOnce() {
     ${pj ? `<div class="panel pm-msg"><div class="panel-h"><span><b>Mensaje para el grupo</b></span><span>${pj} titulares${o.s.length ? ` · ${o.s.length} suplentes` : ''}</span></div><pre id="once-txt">${esc(txt)}</pre>
       <div class="row pm-acc"><button type="button" class="share" data-pm="copiar" data-v="once-txt">Copiar</button><a class="share" target="_blank" rel="noopener" href="https://wa.me/?text=${encodeURIComponent(txt)}">Mandar por WhatsApp</a><button type="button" class="share" data-pm="once-borrar" data-v="${esc(key)}">Borrar el once</button></div></div>` : ''}`;
 }
+// Cuántas veces jugó cada uno en cada puesto, sacado de todos los onces guardados del plantel.
+function onceHist(cat) {
+  const H = new Map();
+  for (const [k, raw] of Object.entries(pmEst().onces)) {
+    if (k.split('|')[0] !== cat) continue;
+    const o = onceDe(k), P = oncePuestos(o.f);
+    o.p.forEach((c, i) => { if (!c) return; const h = H.get(c) || {}; h[P[i].p] = (h[P[i].p] || 0) + 1; H.set(c, h); });
+  }
+  return H;
+}
 // La lista para elegir al jugador de un puesto (en una hoja que sube desde abajo).
 function onceElegir(i) {
   const cat = PM_CAT, { e, key } = onceClave(cat), o = onceDe(key), x = oncePuestos(o.f)[i]; if (!x) return;
@@ -3269,10 +3281,14 @@ function onceElegir(i) {
   const susp = new Set((e?.alertas || []).filter(a => a.tipo === 'suspendido' && a.nivel === 'alta').map(a => a.carne));
   const conv = pmCfg(cat).convocatoria ? new Set(pmEst().conv[key] || []) : null;
   const P = oncePuestos(o.f);
-  const L = pmDe(cat).map(J => ({ J, en: o.p.indexOf(J.c) })).sort((a, b) => (conv ? conv.has(b.J.c) - conv.has(a.J.c) : 0) || b.J.cats[cat].min - a.J.cats[cat].min);
+  // Primero los que ya jugaron en este puesto (los que más veces, arriba), después el resto por minutos.
+  const H = onceHist(cat), veces = J => H.get(J.c)?.[x.p] || 0;
+  const L = pmDe(cat).map(J => ({ J, en: o.p.indexOf(J.c), v: veces(J) })).sort((a, b) => b.v - a.v || b.J.cats[cat].min - a.J.cats[cat].min);
+  const nYa = L.filter(y => y.v).length;
+  const fila = ({ J, en, v }) => `<button type="button" class="pm-r pm-elegir${en === i ? ' actual' : ''}" data-once="${J.c}"${susp.has(J.c) ? ' disabled' : ''}><span class="pm-r-t"><b>${esc(J.nombre)}${susp.has(J.c) ? '<span class="tag red">Suspendido</span>' : ''}${pmFichaEst(pmFicha(J)) === 'vencida' ? '<span class="tag amber">Ficha vencida</span>' : ''}${conv && !conv.has(J.c) ? '<span class="tag">No convocado</span>' : ''}</b><small>${en === i ? 'Está en este puesto' : en >= 0 ? `Ahora de ${P[en].p} · se cambian de lugar` : v ? `Jugó de ${x.p} ${v === 1 ? '1 vez' : v + ' veces'} · ${J.cats[cat].min}' en la temporada` : `${J.cats[cat].min}' en la temporada · ${J.cats[cat].tit} de titular`}</small></span></button>`;
   $('#so-t').textContent = `Elegí al ${ONCE_NOM[x.p]}`;
   $('#so-b').innerHTML = `<div class="panel">${o.p[i] ? `<button type="button" class="pm-r pm-elegir" data-once="vaciar"><span class="pm-r-t"><b>Dejar el puesto vacío</b><small>Sacar a ${esc(pmJug(o.p[i]).nombre)}</small></span></button>` : ''}
-    ${L.map(({ J, en }) => `<button type="button" class="pm-r pm-elegir${en === i ? ' actual' : ''}" data-once="${J.c}"${susp.has(J.c) ? ' disabled' : ''}><span class="pm-r-t"><b>${esc(J.nombre)}${susp.has(J.c) ? '<span class="tag red">Suspendido</span>' : ''}${pmFichaEst(pmFicha(J)) === 'vencida' ? '<span class="tag amber">Ficha vencida</span>' : ''}${conv && !conv.has(J.c) ? '<span class="tag">No convocado</span>' : ''}</b><small>${en === i ? 'Está en este puesto' : en >= 0 ? `Ahora de ${P[en].p} · se cambian de lugar` : `${J.cats[cat].min}' en la temporada · ${J.cats[cat].tit} de titular`}</small></span></button>`).join('')}</div>`;
+    ${nYa ? `<p class="pm-nota pm-once-h">Ya jugaron de ${x.p}</p>${L.slice(0, nYa).map(fila).join('')}<p class="pm-nota pm-once-h">El resto, por minutos</p>` : ''}${L.slice(nYa).map(fila).join('')}</div>`;
   $('#so-b').onclick = ev => {
     const b = ev.target.closest('[data-once]'); if (!b || b.disabled) return;
     const E = pmEst(), O = onceDe(key), c = b.dataset.once;
