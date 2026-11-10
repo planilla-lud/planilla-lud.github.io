@@ -1165,6 +1165,16 @@ body.pm-app #main:not(:has(> .pmx)):not(:has(> .pm-login)){max-width:980px;margi
 }
 .pm-av-clips{padding:10px 14px 0;flex-wrap:wrap;overflow:visible}
 .pm-av-mapa{padding:4px 14px 8px}
+.pm-tb-lista{padding:10px 14px 4px;display:flex;flex-wrap:wrap;gap:6px}
+.pm-tb-lista .chip{display:inline-flex;align-items:center;gap:6px;text-align:left}
+.pm-tb-dot{width:8px;height:8px;border-radius:50%;background:var(--danger);flex:none}.pm-tb-dot.bien{background:#2e9d55}
+.pm-tb-box{padding:8px 14px 4px;display:flex;flex-direction:column;gap:8px}
+.pm-tb-head{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.pm-tb-cancha{display:block;width:100%;height:auto;border-radius:10px;background:#2e7d3c}
+.pm-tb-ley{display:flex;flex-wrap:wrap;gap:14px;font-size:12px;color:var(--muted)}
+.pm-tb-ley span{display:inline-flex;align-items:center;gap:6px}.pm-tb-ley i{width:11px;height:11px;border-radius:50%;border:1px solid var(--line-strong);display:inline-block}.pm-tb-ley i.pel{background:#fff;width:8px;height:8px}
+.pm-tb-ctrl{display:flex;align-items:center;flex-wrap:wrap;gap:8px}.pm-tb-k{font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+.pm-tb-nota{font-weight:600;margin:0;min-height:1.4em}
 .pm-av-mapa svg{display:block;width:100%;max-width:420px;height:auto;margin:0 auto}
 .pm-av-mapa .ln{fill:none;stroke:var(--line-strong);stroke-width:1.5}
 .pm-av-mapa .dl{stroke-dasharray:4 4}
@@ -3808,7 +3818,8 @@ Devolvé SOLO un JSON con esta forma:
   "jugadores": [{"quien": "número de camiseta o puesto", "texto": "qué hizo, con datos si los hay", "tipo": "destacado o a mejorar", "jugadas": ${jug}}],
   "entrenamiento": [{"ejercicio": "nombre corto del ejercicio o tarea", "como": "cómo se arma: espacio, jugadores, reglas", "objetivo": "qué problema del partido corrige"}],
   "seguimiento": [{"tema": "el problema o punto de los partidos anteriores", "estado": "corregido, sigue o nuevo", "texto": "qué cambió respecto a antes, con datos", "jugadas": ${jug}}]${F.veo.trim() ? `,
-  "numeros": [{"dato": "el número de Veo, ej. 33 intercepciones (+13 vs. últimos 5)", "lectura": "qué significa para el equipo o el jugador"}]` : ''}
+  "numeros": [{"dato": "el número de Veo, ej. 33 intercepciones (+13 vs. últimos 5)", "lectura": "qué significa para el equipo o el jugador"}]` : ''}${ctx.n ? `,
+  "pizarras": [{"titulo": "frase corta de la jugada", "tipo": "mal o bien", "clip": 1, "seg": 0, "explicacion": "qué pasó, paso a paso, quién hizo qué", "correccion": "qué había que hacer y quién (si salió mal)", "cuadros": [{"nota": "qué pasa en este momento", "pelota": {"x": 50, "y": 50}, "jugadores": [{"e": "n", "num": "7", "x": 40, "y": 30}]}], "corregido": [{"nota": "", "pelota": {"x": 50, "y": 50}, "jugadores": [{"e": "n", "num": "7", "x": 40, "y": 30}]}]}]` : ''}
 }
 
 Reglas:
@@ -3817,13 +3828,19 @@ Reglas:
 - "marcador" son los goles del partido. Si con lo que se ve no se puede saber, usá null y explicalo en "nota".
 - "debilidades" van de la más grave a la menos grave. "gravedad" es "alta" (nos costó un gol o una situación clara), "media" o "baja". Cada una con todas las jugadas donde aparece.
 - Es un informe A FONDO para el cuerpo técnico: sé detallado y concreto, con lenguaje de fútbol. Nada genérico ("hay que mejorar la concentración" no sirve): cada punto dice qué pasó, dónde, quién y cómo se corrige.
-- "debilidades": de 3 a 6. "bien" y "corregir": de 3 a 6 puntos cada uno, con sus jugadas.
-- "fases": las cuatro, cada una con un párrafo de 3 a 5 oraciones. Si de una fase no hay nada en el material, decilo en el texto.
+- Queremos un informe LARGO y completo, como el de un analista profesional después de mirar el partido entero: más vale de más que de menos. Si el material da para más puntos de los que se piden abajo, ponelos.
+- "debilidades": de 4 a 8. "bien": de 4 a 8 puntos. "corregir": de 5 a 10 puntos, cada uno con qué pasó, quién, en qué zona y cómo se corrige en concreto (movimiento, perfil, distancia, comunicación). Todos con sus jugadas.
+- "fases": las cuatro, cada una con un párrafo de 5 a 8 oraciones. Si de una fase no hay nada en el material, decilo en el texto.
 - "tiempos": compará los dos tiempos (si el material no permite separarlos, decilo). Cada gol va en el tiempo que te pasé ya resuelto, aunque su minuto sea mayor a 45.
-- "jugadores": de 3 a 8 jugadores, destacados y a mejorar, identificados por número de camiseta (o por puesto si no se lee). No inventes números.
-- "entrenamiento": de 2 a 4 ejercicios para la semana, cada uno atado a un problema de este partido.
+- "jugadores": de 6 a 14 jugadores (todos los que se puedan evaluar), destacados y a mejorar, identificados por número de camiseta (o por puesto si no se lee). No inventes números.
+- "entrenamiento": de 3 a 5 ejercicios para la semana, cada uno atado a un problema de este partido.
 - "seguimiento": ${ctx.previos?.length ? 'de 2 a 5 puntos comparando con los informes anteriores: "corregido" (un problema de antes que hoy no apareció o mejoró), "sigue" (se repite) o "nuevo" (no estaba antes). Si el material de hoy no alcanza para saber si algo se corrigió (por ejemplo, son solo highlights), decilo en el texto en vez de darlo por corregido.' : 'lista vacía ([]): no hay informes anteriores.'}
-- No inventes lo que no se ve en los videos.${F.veo.trim() ? `
+- No inventes lo que no se ve en los videos.${ctx.n ? `
+- "pizarras": de 4 a 8 jugadas clave para mostrar en una pizarra táctica animada: los goles, las llegadas más claras de los dos equipos y los errores que se repiten, con al menos 2 que salieron bien. Para cada una:
+  · "clip" y "seg": dónde empieza la jugada (igual que en "jugadas").
+  · "cuadros": de 3 a 6 momentos de la jugada, en orden, separados 1 a 3 segundos, con la posición aproximada de la pelota y de los 6 a 14 jugadores que participan (no hace falta poner a los 22). Cada jugador con "e": "n" si es de ${ctx.club} o "r" si es de ${ctx.rival}, y "num": su número de camiseta si se lee (si no, un número que lo identifique y que sea el mismo en todos los momentos). Un mismo jugador lleva siempre el mismo "e" y "num" en todos los cuadros, así se ve cómo se mueve.
+  · Coordenadas de una cancha vista desde arriba, de 0 a 100, con ${ctx.club} atacando SIEMPRE hacia la derecha: "x" va de 0 (nuestro arco) a 100 (el arco rival) y "y" de 0 (la banda que queda a la izquierda de ${ctx.club} cuando ataca) a 100 (la banda de su derecha). Pasá lo que ves en la cámara a esa cancha: acordate de para qué lado ataca ${ctx.club} en cada tiempo y, si en la cámara ataca hacia la izquierda, dalo vuelta.
+  · "explicacion": la jugada contada paso a paso, con jugadores y movimientos. Si salió mal, "correccion" dice qué había que hacer, y "corregido" son los mismos momentos con las posiciones que tendrían que haber tenido (mismos jugadores) para que saliera bien. Si salió bien, "corregido" va vacío ([]).` : ''}${F.veo.trim() ? `
 - "numeros" son de 5 a 10 datos del informe de Veo que más le sirven al cuerpo técnico, cada uno con su lectura. Usá los números exactos del informe, no los redondees ni inventes.` : ''}`;
 }
 
@@ -3848,8 +3865,15 @@ function avNormalizar(x, n) {
     fases: Object.fromEntries(AV_FASES.map(([k]) => { const f = o.fases?.[k]; return [k, typeof f === 'string' ? { texto: f.trim(), jugadas: [] } : { texto: txt(f?.texto), jugadas: jugadas(f?.jugadas) }]; })),
     tiempos: { primero: txt(o.tiempos?.primero), segundo: txt(o.tiempos?.segundo) },
     rival: { texto: txt(o.rival?.texto), peligros: (Array.isArray(o.rival?.peligros) ? o.rival.peligros : []).map(txt).filter(Boolean), debilidades: (Array.isArray(o.rival?.debilidades) ? o.rival.debilidades : []).map(txt).filter(Boolean) },
-    jugadores: (Array.isArray(o.jugadores) ? o.jugadores : []).map(x => ({ quien: txt(String(x?.quien ?? '')), texto: txt(x?.texto), tipo: /mejor/i.test(x?.tipo || '') ? 'mejorar' : 'destacado', jugadas: jugadas(x?.jugadas) })).filter(x => x.quien && x.texto).slice(0, 10),
-    entrenamiento: (Array.isArray(o.entrenamiento) ? o.entrenamiento : []).map(x => ({ ejercicio: txt(x?.ejercicio), como: txt(x?.como), objetivo: txt(x?.objetivo) })).filter(x => x.ejercicio).slice(0, 6),
+    jugadores: (Array.isArray(o.jugadores) ? o.jugadores : []).map(x => ({ quien: txt(String(x?.quien ?? '')), texto: txt(x?.texto), tipo: /mejor/i.test(x?.tipo || '') ? 'mejorar' : 'destacado', jugadas: jugadas(x?.jugadas) })).filter(x => x.quien && x.texto).slice(0, 16),
+    entrenamiento: (Array.isArray(o.entrenamiento) ? o.entrenamiento : []).map(x => ({ ejercicio: txt(x?.ejercicio), como: txt(x?.como), objetivo: txt(x?.objetivo) })).filter(x => x.ejercicio).slice(0, 8),
+    pizarras: (Array.isArray(o.pizarras) ? o.pizarras : []).map(p => {
+      const cl = v => Math.max(0, Math.min(100, Number(v))), ok = q => q && Number.isFinite(Number(q.x)) && Number.isFinite(Number(q.y));
+      const cuad = l => (Array.isArray(l) ? l : []).map(c => ({ nota: txt(c?.nota), pelota: ok(c?.pelota) ? { x: cl(c.pelota.x), y: cl(c.pelota.y) } : null,
+        jugadores: (Array.isArray(c?.jugadores) ? c.jugadores : []).filter(ok).map(j => ({ e: /^r/i.test(String(j.e || '')) ? 'r' : 'n', num: String(j.num ?? '').replace(/[^\w]/g, '').slice(0, 3), x: cl(j.x), y: cl(j.y) })).slice(0, 22) })).filter(c => c.jugadores.length).slice(0, 8);
+      const clip = num(p?.clip);
+      return { titulo: txt(p?.titulo), tipo: /bien/i.test(String(p?.tipo || '')) ? 'bien' : 'mal', clip: clip >= 1 && clip <= n ? clip : null, seg: seg(p?.seg), explicacion: txt(p?.explicacion), correccion: txt(p?.correccion), cuadros: cuad(p?.cuadros), corregido: cuad(p?.corregido) };
+    }).filter(p => p.titulo && p.cuadros.length >= 2).slice(0, 10),
     seguimiento: (Array.isArray(o.seguimiento) ? o.seguimiento : []).map(x => ({ tema: txt(x?.tema), estado: /correg/i.test(x?.estado || '') ? 'corregido' : /nuev/i.test(x?.estado || '') ? 'nuevo' : 'sigue', texto: txt(x?.texto), jugadas: jugadas(x?.jugadas) })).filter(x => x.tema).slice(0, 8),
   };
 }
@@ -4035,7 +4059,7 @@ async function avAnalizar() {
     for (const [i, f] of caps.entries()) partes.push({ text: `Captura ${i + 1} de Veo Analytics (${f.name}):` }, { inline_data: { mime_type: f.type || 'image/png', data: await avBase64(f) } });
     const plantel = avPlantel(F.cat, p?.id);
     partes.push({ text: avPrompt({ ...F }, { planilla: plantel, tiemposVeo: avTiemposVeo(F.veo), previos: avPrevios(F.cat, dia, p?.id), club: PM.club.nombre, plantel: pmCatN(F.cat), rival, dia: dia ? fDia(dia) : '', res: p ? `${PM.club.nombre} ${p.gf}, ${rival} ${p.gc}` : '', n: clips.length, caps: caps.length, jugador: J?.nombre }) });
-    const cfg = { responseMimeType: 'application/json', temperature: 0.3, mediaResolution: 'MEDIA_RESOLUTION_LOW' };
+    const cfg = { responseMimeType: 'application/json', temperature: 0.3, mediaResolution: 'MEDIA_RESOLUTION_LOW', maxOutputTokens: 60000 };
     // Si Gemini está saturado (503) se reintenta solo y, si sigue, se prueba con otro modelo. Los videos ya subidos se reusan.
     let resp;
     for (;;) {
@@ -4118,6 +4142,7 @@ function avInforme(id) {
         <p class="pm-nota">Nuestra mitad de cancha, con nuestro arco abajo. Izquierda y derecha son las nuestras, atacando hacia arriba; espalda son pelotas detrás de la última línea.</p></section>`}
       <section class="panel"><div class="panel-h"><b>Debilidades</b><span>De la más grave a la menos</span></div>
         ${I.debilidades.length ? `<div class="side sola">${I.debilidades.map(d => `<div class="alert"><b>${esc(d.titulo)}</b><b class="lvl ${d.gravedad}">${d.gravedad}</b>${d.patron ? `<span>${esc(d.patron)}</span>` : ''}${avJugadas(d.jugadas)}</div>`).join('')}</div>` : '<div class="ok">No marcó debilidades.</div>'}</section>
+      ${avTableroSec(r)}
       <section class="panel"><div class="panel-h"><b>Goles</b></div>${goles(I.goles.favor, 'A favor')}${goles(I.goles.contra, 'En contra')}</section>
       ${(I.numeros || []).length ? `<section class="panel"><div class="panel-h"><b>Lo que dicen los números de Veo</b>${/^https:\/\//.test(r.veoLink || '') ? `<a class="share" href="${esc(r.veoLink)}" target="_blank" rel="noopener">Ver en Veo</a>` : ''}</div><div class="side sola">${I.numeros.map(x => `<div class="alert"><b>${esc(x.dato)}</b>${x.lectura ? `<span>${esc(x.lectura)}</span>` : ''}</div>`).join('')}</div></section>` : ''}
       ${(I.seguimiento || []).length ? `<section class="panel"><div class="panel-h"><b>Respecto a los partidos anteriores</b><a class="share" href="#/clubes/analisis/temporada">Temporada</a></div><div class="side sola">${I.seguimiento.map(x => `<div class="alert"><b>${esc(x.tema)}</b><b class="lvl ${x.estado === 'corregido' ? 'baja' : x.estado === 'sigue' ? 'alta' : 'media'}">${x.estado === 'corregido' ? 'Corregido' : x.estado === 'sigue' ? 'Sigue pasando' : 'Nuevo'}</b>${x.texto ? `<span>${esc(x.texto)}</span>` : ''}${avJugadas(x.jugadas)}</div>`).join('')}</div></section>` : ''}
@@ -4134,6 +4159,118 @@ function avInforme(id) {
       ${!r.clips.length && r.veoTexto && !(I.fases && AV_FASES.some(([k]) => I.fases[k]?.texto)) ? `<section class="panel pm-form pm-av-noprint"><div class="pm-av-f">¿Querés este informe más completo?<span class="pm-av-ayuda">Se vuelve a analizar el mismo informe de Veo, ahora a fondo: fases del juego, cada tiempo, jugadores, el rival y ejercicios para la semana. Queda como un informe nuevo.</span><div class="pm-av-btns"><button type="button" class="btn p" id="av-rehacer">Analizar de nuevo a fondo</button></div></div></section>` : ''}
       <p class="pm-nota pm-sin">Hecho con ${esc(r.datos.modelo)} el ${fDia(r.creado.slice(0, 10))} por ${esc(r.autorN)}, ${r.clips.length ? `con ${r.clips.length} ${r.clips.length === 1 ? 'clip' : 'clips'}` : 'sin video'}${r.veoTexto ? ', el informe de Veo' : ''}${r.capturas ? ` y ${r.capturas} ${r.capturas === 1 ? 'captura' : 'capturas'}` : ''}. Revisalo con el video: la IA se puede equivocar.</p>
     </div><aside class="pm-av-video">${video}</aside></div></div>`;
+}
+
+// ----- Pizarra táctica: las jugadas clave animadas -----
+// Gemini devuelve, para cada jugada clave, la posición aproximada de los jugadores y la pelota en 3 a 6 momentos (cancha
+// de 100 x 100, con nosotros atacando siempre hacia la derecha), y si la jugada salió mal, cómo tendría que haber sido.
+// Acá se dibuja la cancha vista desde arriba y se mueven los jugadores de un momento al siguiente.
+const AV_COLORES = [[/celest/, '#6cc4f0'], [/azul|marino/, '#1f4fbf'], [/blanc/, '#f4f4f4'], [/negr/, '#1b1b1b'], [/bord[oó]|granate|vino/, '#7a1f2b'], [/roj|colorad/, '#d73a3a'], [/amarill|dorad/, '#f2c919'], [/naranj/, '#f28c1b'], [/verde/, '#1e9e4a'], [/violet|morad|lila/, '#7b4bc4'], [/gris/, '#8a8f98'], [/rosa|fucsia/, '#f07fb0']];
+function avColor(t, def) {
+  const s = String(t || '').toLowerCase(); let mejor = null, at = 1e9;
+  for (const [re, c] of AV_COLORES) { const m = re.exec(s); if (m && m.index < at) { at = m.index; mejor = c; } }
+  return mejor || def;
+}
+const avClaro = hex => { const n = parseInt(hex.slice(1), 16); return (0.299 * (n >> 16) + 0.587 * (n >> 8 & 255) + 0.114 * (n & 255)) > 160; };
+let AV_TB = null; // { r, i, ver, k, play, raf, t0, k0 }
+const AV_TB_SEG = 1.5; // segundos de animación entre un momento y el siguiente
+
+function avTableroSec(r) {
+  const L = r.informe.pizarras || []; if (!L.length) return '';
+  return `<section class="panel pm-tb" id="tb-sec"><div class="panel-h"><b>Pizarra de las jugadas clave</b><span>${L.length} ${L.length === 1 ? 'jugada' : 'jugadas'}</span></div>
+    <div class="chips pm-tb-lista">${L.map((p, i) => `<button type="button" class="chip" data-tb="${i}" aria-pressed="${i === 0}"><b class="pm-tb-dot ${p.tipo}"></b>${esc(p.titulo)}</button>`).join('')}</div>
+    <div class="pm-tb-box" id="tb"></div>
+    <p class="pm-nota pm-sin pm-av-pad">Es una reconstrucción de la IA mirando el video: las posiciones son aproximadas. Para lo fino, mirá la jugada en el video.</p></section>`;
+}
+// Las posiciones de cada jugador momento a momento (se lo sigue por equipo y número; si no tiene número, por orden).
+function avTbPistas(cuadros) {
+  const P = new Map();
+  cuadros.forEach((c, k) => { const cont = { n: 0, r: 0 }; c.jugadores.forEach(j => { const id = j.e + (j.num || '#' + cont[j.e]++); if (!P.has(id)) P.set(id, { e: j.e, num: j.num, pos: Array(cuadros.length).fill(null) }); P.get(id).pos[k] = j; }); });
+  for (const t of P.values()) { // quien no aparece en un momento queda donde estaba (o donde va a estar)
+    for (let k = 1; k < t.pos.length; k++) t.pos[k] ??= t.pos[k - 1];
+    for (let k = t.pos.length - 2; k >= 0; k--) t.pos[k] ??= t.pos[k + 1];
+  }
+  const pel = cuadros.map(c => c.pelota); for (let k = 1; k < pel.length; k++) pel[k] ??= pel[k - 1]; for (let k = pel.length - 2; k >= 0; k--) pel[k] ??= pel[k + 1];
+  return { jug: [...P.values()], pel };
+}
+const avTbX = x => x * 1.05, avTbY = y => y * 0.68;
+function avTbCancha() {
+  const l = 'fill:none;stroke:rgba(255,255,255,.85);stroke-width:.35';
+  const franjas = Array.from({ length: 10 }, (_, i) => i % 2 ? `<rect x="${i * 10.5}" y="0" width="10.5" height="68" fill="rgba(255,255,255,.05)"/>` : '').join('');
+  return `<rect x="0" y="0" width="105" height="68" fill="#2e7d3c"/>${franjas}
+    <g style="${l}"><rect x="1" y="1" width="103" height="66"/><path d="M52.5 1V67"/><circle cx="52.5" cy="34" r="9.15"/>
+    <rect x="1" y="13.85" width="16.5" height="40.3"/><rect x="87.5" y="13.85" width="16.5" height="40.3"/><rect x="1" y="24.85" width="5.5" height="18.3"/><rect x="98.5" y="24.85" width="5.5" height="18.3"/>
+    <path d="M17.5 26.7A9.15 9.15 0 0 1 17.5 41.3M87.5 26.7A9.15 9.15 0 0 0 87.5 41.3"/><path d="M1 30.35H-.6V37.65H1M104 30.35H105.6V37.65H104" style="stroke-width:.6"/></g>
+    <circle cx="52.5" cy="34" r=".45" fill="#fff"/><circle cx="12" cy="34" r=".45" fill="#fff"/><circle cx="93" cy="34" r=".45" fill="#fff"/>`;
+}
+function avTbPintar() {
+  const T = AV_TB, el = $('#tb'); if (!T || !el) return;
+  const p = T.r.informe.pizarras[T.i]; if (!p) return;
+  const corr = T.ver === 'corr' && p.corregido.length >= 2, cuadros = corr ? p.corregido : p.cuadros, n = cuadros.length;
+  const nos = avColor(T.r.datos.color, '#1f4fbf'); let riv = avColor(T.r.datos.colRival, '#f4f4f4'); if (riv === nos) riv = nos === '#d73a3a' ? '#f4f4f4' : '#d73a3a';
+  const { jug, pel } = avTbPistas(cuadros);
+  const k = Math.max(0, Math.min(n - 1, T.k)), a = Math.floor(k), b = Math.min(n - 1, a + 1), f0 = k - a, f = f0 * f0 * (3 - 2 * f0); // suavizado
+  const mez = (u, v) => u && v ? { x: u.x + (v.x - u.x) * f, y: u.y + (v.y - u.y) * f } : u || v;
+  const rastro = l => l.filter(Boolean).map(q => `${avTbX(q.x).toFixed(1)},${avTbY(q.y).toFixed(1)}`).join(' ');
+  const huellas = jug.map(t => `<polyline points="${rastro(t.pos)}" style="fill:none;stroke:${t.e === 'n' ? nos : riv};stroke-width:.4;stroke-dasharray:1 1;opacity:.55"/>`).join('')
+    + (pel.some(Boolean) ? `<polyline points="${rastro(pel)}" style="fill:none;stroke:#ffe14a;stroke-width:.35;stroke-dasharray:.6 .9;opacity:.8"/>` : '');
+  const fichas = jug.map(t => { const q = mez(t.pos[a], t.pos[b]); if (!q) return ''; const c = t.e === 'n' ? nos : riv;
+    return `<g transform="translate(${avTbX(q.x).toFixed(2)} ${avTbY(q.y).toFixed(2)})"><circle r="1.9" fill="${c}" stroke="${avClaro(c) ? '#222' : '#fff'}" stroke-width=".3"/>${t.num ? `<text y=".65" text-anchor="middle" style="font:700 1.8px Barlow,sans-serif;fill:${avClaro(c) ? '#111' : '#fff'}">${esc(t.num)}</text>` : ''}</g>`; }).join('');
+  const qb = mez(pel[a], pel[b]);
+  const pelota = qb ? `<circle cx="${avTbX(qb.x).toFixed(2)}" cy="${avTbY(qb.y).toFixed(2)}" r=".95" fill="#fff" stroke="#111" stroke-width=".25"/>` : '';
+  const svg = el.querySelector('svg');
+  if (svg && svg.dataset.v === `${T.i}|${T.ver}`) { $('#tb-din').innerHTML = fichas + pelota; }
+  else {
+    const club = esc(PM.club.nombre), rival = esc(T.r.partido.rival);
+    el.innerHTML = `<div class="pm-tb-head"><b>${esc(p.titulo)}</b><b class="lvl ${p.tipo === 'bien' ? 'baja' : 'alta'}">${p.tipo === 'bien' ? 'Salió bien' : 'Salió mal'}</b></div>
+      ${p.corregido.length >= 2 ? `<div class="seg pm-seg" role="group" aria-label="Qué mostrar"><button type="button" data-tbver="real" aria-pressed="${!corr}">Lo que pasó</button><button type="button" data-tbver="corr" aria-pressed="${corr}">Cómo debió ser</button></div>` : ''}
+      <svg class="pm-tb-cancha" viewBox="-1 -1 107 70" data-v="${T.i}|${T.ver}" role="img" aria-label="Pizarra: ${esc(p.titulo)}">${avTbCancha()}<g id="tb-huellas">${huellas}</g><g id="tb-din">${fichas}${pelota}</g></svg>
+      <div class="pm-tb-ley"><span><i style="background:${nos}"></i>${club} (ataca →)</span><span><i style="background:${riv}"></i>${rival}</span><span><i class="pel"></i>Pelota</span></div>
+      <div class="pm-tb-ctrl"><button type="button" class="share" data-tbpaso="-1" aria-label="Momento anterior">◀</button><button type="button" class="btn p" id="tb-play"></button><button type="button" class="share" data-tbpaso="1" aria-label="Momento siguiente">▶</button><span class="pm-tb-k" id="tb-k"></span>
+        ${p.clip ? `<button type="button" class="share" data-pm="av-j" data-v="${p.clip}|${p.seg}">Ver en el video</button>` : ''}</div>
+      <p class="pm-tb-nota" id="tb-nota"></p>
+      ${corr ? (p.correccion ? `<p class="pm-av-txt"><b>Qué había que hacer:</b> ${esc(p.correccion)}</p>` : '') : `${p.explicacion ? `<p class="pm-av-txt">${esc(p.explicacion)}</p>` : ''}${p.correccion ? `<p class="pm-av-txt"><b>Qué había que hacer:</b> ${esc(p.correccion)}</p>` : ''}`}`;
+  }
+  const m = Math.round(k);
+  $('#tb-nota').textContent = cuadros[m].nota || '';
+  $('#tb-k').textContent = `Momento ${m + 1} de ${n}`;
+  $('#tb-play').textContent = T.play ? 'Pausa' : k >= n - 1 ? 'Ver de nuevo' : 'Reproducir';
+}
+function avTbIr(i, ver = 'real') {
+  if (AV_TB?.raf) cancelAnimationFrame(AV_TB.raf);
+  const r = pmEst().analisis.find(x => x.id === decodeURIComponent(location.hash.split('/')[3] || '')); if (!r) return;
+  AV_TB = { r, i, ver, k: 0, play: false, raf: 0 };
+  document.querySelectorAll('[data-tb]').forEach(b => b.setAttribute('aria-pressed', b.dataset.tb === String(i)));
+  avTbPintar();
+}
+function avTbPlay(on) {
+  const T = AV_TB; if (!T) return;
+  const p = T.r.informe.pizarras[T.i], n = (T.ver === 'corr' && p.corregido.length >= 2 ? p.corregido : p.cuadros).length;
+  if (T.raf) cancelAnimationFrame(T.raf);
+  T.play = on;
+  if (on) {
+    if (T.k >= n - 1) T.k = 0;
+    T.t0 = performance.now(); T.k0 = T.k;
+    const paso = ahora => {
+      if (!$('#tb') || AV_TB !== T) return;
+      T.k = Math.min(n - 1, T.k0 + (ahora - T.t0) / 1000 / AV_TB_SEG);
+      // Una pausa corta en cada momento, para leer la nota.
+      if (T.k >= n - 1) { T.play = false; avTbPintar(); return; }
+      avTbPintar(); T.raf = requestAnimationFrame(paso);
+    };
+    T.raf = requestAnimationFrame(paso);
+  } else avTbPintar();
+}
+function avEnlazarTablero() {
+  const s = $('#tb-sec'); if (!s) return;
+  avTbIr(0);
+  s.onclick = ev => {
+    const b = ev.target.closest('[data-tb],[data-tbver],[data-tbpaso],#tb-play'); if (!b) return;
+    if (b.dataset.tb != null) { avTbIr(Number(b.dataset.tb)); avTbPlay(true); }
+    else if (b.dataset.tbver) { avTbIr(AV_TB.i, b.dataset.tbver); avTbPlay(true); }
+    else if (b.dataset.tbpaso) { avTbPlay(false); const p = AV_TB.r.informe.pizarras[AV_TB.i], n = (AV_TB.ver === 'corr' && p.corregido.length >= 2 ? p.corregido : p.cuadros).length; AV_TB.k = Math.max(0, Math.min(n - 1, Math.round(AV_TB.k) + Number(b.dataset.tbpaso))); avTbPintar(); }
+    else avTbPlay(!AV_TB.play);
+  };
 }
 
 // ----- Temporada y previa del rival -----
@@ -4434,6 +4571,7 @@ function avEnlazar() {
   });
   avEnlazarTP();
   avEnlazarPizarra();
+  avEnlazarTablero();
   document.querySelectorAll('.pm-av-j').forEach(b => b.addEventListener('pointerdown', () => {
     const [c, sg] = b.dataset.v.split('|').map(Number), info = AV_INFO[c - 1];
     AV_SEL = { clip: c, seg: sg, min: info?.ini != null ? Math.floor((info.ini + sg) / 60) : null, nota: b.closest('.pm-av-jl, .pm-av-gol')?.querySelector('span')?.textContent?.trim() || '', titulo: b.closest('.alert')?.querySelector('b')?.textContent?.trim() || '' };
