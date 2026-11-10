@@ -1,0 +1,292 @@
+{
+ "id": "103864",
+ "categoria": "reserva-b",
+ "serie": "RSBTA",
+ "fecha": 6,
+ "fechaHora": "2026-11-07 11:15:00",
+ "cancha": "CAM. DEP. ASOC. HEBRAICA Y MAC",
+ "local": "HEBRAICA UNIVERSITARIO",
+ "visitante": "OLD BRENDANS CLUB",
+ "gl": 1,
+ "gv": 2,
+ "detalle": {
+  "nro_partido": "692",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "RESERVA",
+  "categoria": "RESERVA MASCULINO",
+  "rueda": "2",
+  "Divisional": "RESERVA \"B\" TIT. y ASC.",
+  "Cancha": "CAM. DEP. ASOC. HEBRAICA Y MAC",
+  "Fecha_Inicio": "2026-11-07 13:10:00",
+  "Fecha_fin": "2026-11-07 13:10:00",
+  "Locatario": "HEBRAICA UNIVERSITARIO",
+  "goles_locatario": "1",
+  "puntos_locatario": "0",
+  "Visitante": "OLD BRENDANS CLUB",
+  "goles_visitante": "2",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "45517",
+   "Nombre": "MATIAS WAPNIARSKY",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "61200",
+   "Nombre": "ARY GUSTAVO RABINO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "45841",
+   "Nombre": "MATIAS TROSTCHANSKY",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "45511",
+   "Nombre": "LUCAS LEVIN",
+   "camiseta": "4",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "64338",
+   "Nombre": "LUCAS DICHTENBERG",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "47421",
+   "Nombre": "NICOLAS JAKOB",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "47255",
+   "Nombre": "ALAN SKORKA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "56384",
+   "Nombre": "MATIAS SZAFRAN",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "59245",
+   "Nombre": "AGUSTIN JUSTITZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "53835",
+   "Nombre": "MATEO NAHMIAS",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "37317",
+   "Nombre": "MAURICIO WAITER",
+   "camiseta": "33",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "57193",
+   "Nombre": "FRANCO GABRIEL LOPEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "42722",
+   "Nombre": "LUCAS MORONI",
+   "camiseta": "3",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "55499",
+   "Nombre": "IGNACIO DANTE FERNANDEZ",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "36517",
+   "Nombre": "MANUEL MATIAS GONZALEZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "57611",
+   "Nombre": "EZEQUIEL VILLANUEVA",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "39323",
+   "Nombre": "IGNACIO MILLER",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "41121",
+   "Nombre": "ALVARO CANO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "49048",
+   "Nombre": "EZEQUIEL ESTEFAN",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "52052",
+   "Nombre": "FEDERICO DUTRA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "34982",
+   "Nombre": "GUILLERMO BURGOS",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "54067",
+   "Nombre": "JUAN PABLO LOPEZ",
+   "camiseta": "25",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "53835",
+   "Jug_Sale": "MATEO NAHMIAS",
+   "CarneEntra": "48732",
+   "Jug_Entra": "ILAN CAMONA",
+   "camiseta": "10",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "37317",
+   "Jug_Sale": "MAURICIO WAITER",
+   "CarneEntra": "47247",
+   "Jug_Entra": "ARIEL SOBOL",
+   "camiseta": "8",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "47255",
+   "Jug_Sale": "ALAN SKORKA",
+   "CarneEntra": "45526",
+   "Jug_Entra": "EITAN WUHL",
+   "camiseta": "80",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "61200",
+   "Jug_Sale": "ARY GUSTAVO RABINO",
+   "CarneEntra": "54753",
+   "Jug_Entra": "JOAQUIN BANEWUR",
+   "camiseta": "25",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "47421",
+   "Jug_Sale": "NICOLAS JAKOB",
+   "CarneEntra": "54688",
+   "Jug_Entra": "FEDERICO BONOMO",
+   "camiseta": "18",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "56384",
+   "Jug_Sale": "MATIAS SZAFRAN",
+   "CarneEntra": "43458",
+   "Jug_Entra": "MATIAS WILNER",
+   "camiseta": "17",
+   "minutos": "80"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "57611",
+   "Jug_Sale": "EZEQUIEL VILLANUEVA",
+   "CarneEntra": "50131",
+   "Jug_Entra": "LUCAS CALISTRO",
+   "camiseta": "11",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "36517",
+   "Jug_Sale": "MANUEL MATIAS GONZALEZ",
+   "CarneEntra": "63398",
+   "Jug_Entra": "BRUNO ANDRES CIAPPESONI",
+   "camiseta": "52",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "34982",
+   "Jug_Sale": "GUILLERMO BURGOS",
+   "CarneEntra": "47391",
+   "Jug_Entra": "SEBASTIAN ESTEBAN BRITOS",
+   "camiseta": "15",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "55499",
+   "Jug_Sale": "IGNACIO DANTE FERNANDEZ",
+   "CarneEntra": "39397",
+   "Jug_Entra": "GERMAN VIERA",
+   "camiseta": "34",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "41121",
+   "Jug_Sale": "ALVARO CANO",
+   "CarneEntra": "55499",
+   "Jug_Entra": "IGNACIO DANTE FERNANDEZ",
+   "camiseta": "32",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "39323",
+   "Jug_Sale": "IGNACIO MILLER",
+   "CarneEntra": "36517",
+   "Jug_Entra": "MANUEL MATIAS GONZALEZ",
+   "camiseta": "23",
+   "minutos": "83"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "37317",
+   "Nombre": "MAURICIO WAITER",
+   "minutos": "69",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "52052",
+   "Nombre": "FEDERICO DUTRA",
+   "minutos": "95",
+   "EnContra": "1"
+  },
+  {
+   "carne": "54067",
+   "Nombre": "JUAN PABLO LOPEZ",
+   "minutos": "93",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

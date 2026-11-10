@@ -1,5 +1,12 @@
 [
  {
+  "serie": "PSCPD",
+  "fechaHora": "2026-11-12 20:15:00",
+  "cancha": "SAN EUGENIO",
+  "local": "SAN EUGENIO",
+  "visitante": "DEPORTIVO MITRE"
+ },
+ {
   "serie": "PSCTA",
   "fechaHora": "2026-11-14 09:00:00",
   "cancha": "COMPLEJO EL ENCUENTRO",
@@ -19,13 +26,6 @@
   "cancha": "COMPLEJO DEPORTIVO H3O",
   "local": "CLARA JACKSON UNIVERSITARIO",
   "visitante": "TACUAREMBO UNIVERSITARIO"
- },
- {
-  "serie": "PSCPD",
-  "fechaHora": "2026-11-14 09:00:00",
-  "cancha": "SAN EUGENIO",
-  "local": "SAN EUGENIO",
-  "visitante": "DEPORTIVO MITRE"
  },
  {
   "serie": "PSCPD",

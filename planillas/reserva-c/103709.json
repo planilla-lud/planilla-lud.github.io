@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"C\" PER. y DESC.",
   "Cancha": "CAMPO DEP. COLEGIO INGLES",
-  "Fecha_Inicio": "2026-11-07 10:30:00",
-  "Fecha_fin": "2026-11-07 10:30:00",
+  "Fecha_Inicio": "2026-11-07 11:00:00",
+  "Fecha_fin": "2026-11-07 11:00:00",
   "Locatario": "COLEGIO Y LICEO INGLES",
   "goles_locatario": "1",
   "puntos_locatario": "0",
@@ -29,12 +29,240 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "64433",
+   "Nombre": "SANTIAGO LUCAS RODRIGUEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "59406",
+   "Nombre": "FEDERICO CANDAU",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "45633",
+   "Nombre": "PABLO AGUIAR",
+   "camiseta": "55",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "59413",
+   "Nombre": "TIAGO MAIORANO",
+   "camiseta": "73",
+   "Capitan": ""
+  },
+  {
+   "carne": "48798",
+   "Nombre": "MATIAS ONANDI",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "51043",
+   "Nombre": "JOAQUIN BARDINO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "39406",
+   "Nombre": "AGUSTIN FELIPEZ",
+   "camiseta": "50",
+   "Capitan": ""
+  },
+  {
+   "carne": "59416",
+   "Nombre": "PEDRO BAUTISTA RODRIGUEZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "59398",
+   "Nombre": "ALFONSO IBARRA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "39287",
+   "Nombre": "NICOLAS MONTERO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "59393",
+   "Nombre": "SEBASTIAN MACHADO",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "54360",
+   "Nombre": "MARCOS NICOLAS ERNANDEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "54193",
+   "Nombre": "GASTON LOMBARDO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "51477",
+   "Nombre": "VICTOR VIERA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "68751",
+   "Nombre": "BRUNO MANUEL MENA",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "62312",
+   "Nombre": "MARCELO JAVIER SPANO",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "49915",
+   "Nombre": "GASTON GUTIERREZ",
+   "camiseta": "24",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "51528",
+   "Nombre": "CARLOS ALFREDO DUARTE",
+   "camiseta": "90",
+   "Capitan": ""
+  },
+  {
+   "carne": "53316",
+   "Nombre": "SANTIAGO NAHUEL NUÑEZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "41360",
+   "Nombre": "JUAN IGNACIO OLIVERA",
+   "camiseta": "37",
+   "Capitan": ""
+  },
+  {
+   "carne": "55234",
+   "Nombre": "LUCAS DO VALLE PEIXOTO",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "38912",
+   "Nombre": "CESAR LUIS PIEDRABUENA",
+   "camiseta": "30",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "59406",
+   "Jug_Sale": "FEDERICO CANDAU",
+   "CarneEntra": "45570",
+   "Jug_Entra": "PEDRO MILAT",
+   "camiseta": "6",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "48798",
+   "Jug_Sale": "MATIAS ONANDI",
+   "CarneEntra": "39479",
+   "Jug_Entra": "GASTON MUIÑO",
+   "camiseta": "13",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "51043",
+   "Jug_Sale": "JOAQUIN BARDINO",
+   "CarneEntra": "46227",
+   "Jug_Entra": "JOAQUIN MUÑOZ",
+   "camiseta": "32",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "59416",
+   "Jug_Sale": "PEDRO BAUTISTA RODRIGUEZ",
+   "CarneEntra": "48882",
+   "Jug_Entra": "JUAN IGNACIO APOLO",
+   "camiseta": "90",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "39287",
+   "Jug_Sale": "NICOLAS MONTERO",
+   "CarneEntra": "49096",
+   "Jug_Entra": "SANTIAGO BRUM",
+   "camiseta": "19",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "64433",
+   "Jug_Sale": "SANTIAGO LUCAS RODRIGUEZ",
+   "CarneEntra": "59406",
+   "Jug_Entra": "FEDERICO CANDAU",
+   "camiseta": "30",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "59413",
+   "Jug_Sale": "TIAGO MAIORANO",
+   "CarneEntra": "48798",
+   "Jug_Entra": "MATIAS ONANDI",
+   "camiseta": "15",
+   "minutos": "77"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "41360",
+   "Jug_Sale": "JUAN IGNACIO OLIVERA",
+   "CarneEntra": "35220",
+   "Jug_Entra": "LUCIANO LOPEZ",
+   "camiseta": "11",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "68751",
+   "Jug_Sale": "BRUNO MANUEL MENA",
+   "CarneEntra": "47468",
+   "Jug_Entra": "IGNACIO ANIDAPE",
+   "camiseta": "22",
+   "minutos": "75"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "59393",
+   "Nombre": "SEBASTIAN MACHADO",
+   "minutos": "56",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "38912",
+   "Nombre": "CESAR LUIS PIEDRABUENA",
+   "minutos": "13",
+   "EnContra": "1"
+  },
+  {
+   "carne": "55234",
+   "Nombre": "LUCAS DO VALLE PEIXOTO",
+   "minutos": "48",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

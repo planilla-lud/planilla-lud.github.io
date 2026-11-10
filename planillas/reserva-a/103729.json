@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"A\" TITULO",
   "Cancha": "CARRASCO LAWN TENIS (KM 23)",
-  "Fecha_Inicio": "2026-11-07 12:45:00",
-  "Fecha_fin": "2026-11-07 12:45:00",
+  "Fecha_Inicio": "2026-11-07 13:05:00",
+  "Fecha_fin": "2026-11-07 13:05:00",
   "Locatario": "CARRASCO LAWN TENNIS",
   "goles_locatario": "0",
   "puntos_locatario": "1",
@@ -29,12 +29,241 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "49084",
+   "Nombre": "GIULIANO CARDOZO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "46325",
+   "Nombre": "FRANCO SUBIRAN",
+   "camiseta": "46",
+   "Capitan": ""
+  },
+  {
+   "carne": "41007",
+   "Nombre": "GERARDO SACCO",
+   "camiseta": "4",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "39903",
+   "Nombre": "MANUEL FERNANDEZ",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "46708",
+   "Nombre": "AGUSTIN RAUL RODRIGUEZ",
+   "camiseta": "43",
+   "Capitan": ""
+  },
+  {
+   "carne": "44291",
+   "Nombre": "IGNACIO GEISINGER",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "48917",
+   "Nombre": "FRANCISCO ALGORTA",
+   "camiseta": "38",
+   "Capitan": ""
+  },
+  {
+   "carne": "47764",
+   "Nombre": "BRUNO ZEFFERINO",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "47761",
+   "Nombre": "JUAN IGNACIO POTRIE",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "48915",
+   "Nombre": "FACUNDO CURT GEISINGER",
+   "camiseta": "54",
+   "Capitan": ""
+  },
+  {
+   "carne": "41534",
+   "Nombre": "DIEGO NICOLAS CHIJANE",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "48037",
+   "Nombre": "MATEO FABREGAT",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "67291",
+   "Nombre": "AUGUSTO PAULLIER",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "38310",
+   "Nombre": "FEDERICO PONTE",
+   "camiseta": "95",
+   "Capitan": ""
+  },
+  {
+   "carne": "52819",
+   "Nombre": "IÑAKI LARRAECHEA",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "51135",
+   "Nombre": "JOAQUIN FABREGAT",
+   "camiseta": "64",
+   "Capitan": ""
+  },
+  {
+   "carne": "30724",
+   "Nombre": "FEDERICO RICARDO MOLINS",
+   "camiseta": "93",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "50902",
+   "Nombre": "SANTIAGO VINCENT",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "46771",
+   "Nombre": "SANTIAGO HAM",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "56908",
+   "Nombre": "GUILLERMO HOUNIE",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "55118",
+   "Nombre": "JUAN PABLO MOREIRA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "66722",
+   "Nombre": "JOAQUIN RODRIGUEZ",
+   "camiseta": "38",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "48915",
+   "Jug_Sale": "FACUNDO CURT GEISINGER",
+   "CarneEntra": "41009",
+   "Jug_Entra": "BRUNO NICOLAS RAVERA",
+   "camiseta": "52",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "47764",
+   "Jug_Sale": "BRUNO ZEFFERINO",
+   "CarneEntra": "49620",
+   "Jug_Entra": "ALEJO ZEFFERINO",
+   "camiseta": "17",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "48917",
+   "Jug_Sale": "FRANCISCO ALGORTA",
+   "CarneEntra": "31878",
+   "Jug_Entra": "MAXIMILIANO SALA",
+   "camiseta": "47",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "47761",
+   "Jug_Sale": "JUAN IGNACIO POTRIE",
+   "CarneEntra": "44810",
+   "Jug_Entra": "SANTIAGO GONZALEZ",
+   "camiseta": "24",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "44291",
+   "Jug_Sale": "IGNACIO GEISINGER",
+   "CarneEntra": "58673",
+   "Jug_Entra": "ALEJO FERRES",
+   "camiseta": "10",
+   "minutos": "79"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "46771",
+   "Jug_Sale": "SANTIAGO HAM",
+   "CarneEntra": "42069",
+   "Jug_Entra": "MATEO GIOIA",
+   "camiseta": "30",
+   "minutos": "39"
+  },
+  {
+   "CarneSale": "51135",
+   "Jug_Sale": "JOAQUIN FABREGAT",
+   "CarneEntra": "53214",
+   "Jug_Entra": "MANUEL PARODI",
+   "camiseta": "17",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "56908",
+   "Jug_Sale": "GUILLERMO HOUNIE",
+   "CarneEntra": "64683",
+   "Jug_Entra": "ALBERTO FELIPE ROSSO",
+   "camiseta": "62",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "52819",
+   "Jug_Sale": "IÑAKI LARRAECHEA",
+   "CarneEntra": "39599",
+   "Jug_Entra": "MATIAS HAM",
+   "camiseta": "21",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "50902",
+   "Jug_Sale": "SANTIAGO VINCENT",
+   "CarneEntra": "44918",
+   "Jug_Entra": "JOAQUIN BLANCO",
+   "camiseta": "29",
+   "minutos": "83"
+  },
+  {
+   "CarneSale": "30724",
+   "Jug_Sale": "FEDERICO RICARDO MOLINS",
+   "CarneEntra": "37259",
+   "Jug_Entra": "IGNACIO MACHADO",
+   "camiseta": "41",
+   "minutos": "83"
+  }
+ ],
  "golesL": [],
  "golesV": [],
  "expulsadosL": [],
- "expulsadosV": []
+ "expulsadosV": [
+  {
+   "Nombre": "GUILLERMO HOUNIE",
+   "observaciones": ""
+  }
+ ]
 }

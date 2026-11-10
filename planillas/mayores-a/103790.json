@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"A\" TITULO",
   "Cancha": "COMPLEJO URUNDAY UNIVERSITARIO",
-  "Fecha_Inicio": "2026-11-08 10:30:00",
-  "Fecha_fin": "2026-11-08 10:30:00",
+  "Fecha_Inicio": "2026-11-08 11:00:00",
+  "Fecha_fin": "2026-11-08 11:00:00",
   "Locatario": "URUNDAY UNIVERSITARIO",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,259 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "52399",
+   "Nombre": "FEDERICO JOAQUIN GARCIA",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "66692",
+   "Nombre": "FACUNDO MOLINA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "54332",
+   "Nombre": "AGUSTIN PENELA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "36910",
+   "Nombre": "GERMAN CAYON",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "54532",
+   "Nombre": "MANUEL AGUSTIN DURE",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "62165",
+   "Nombre": "JUAN IGNACIO AFFONSO",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "41285",
+   "Nombre": "RODRIGO FERNANDEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "56470",
+   "Nombre": "BRUNO AGUSTIN FANTONI",
+   "camiseta": "7",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "62723",
+   "Nombre": "TOMAS GABRIEL ERRECARTT",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "36942",
+   "Nombre": "NICOLAS LOPEZ",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "52533",
+   "Nombre": "GUZMAN FERNANDEZ",
+   "camiseta": "77",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "47611",
+   "Nombre": "FERNAN BZUROVSKI",
+   "camiseta": "73",
+   "Capitan": ""
+  },
+  {
+   "carne": "36816",
+   "Nombre": "MARTIN COLELLA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "41519",
+   "Nombre": "MATEO ROLDOS",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "49214",
+   "Nombre": "FELIPE HERNANDEZ",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "40030",
+   "Nombre": "ALEJO BZUROVSKI",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "49206",
+   "Nombre": "TOMAS PONCE DE LEON",
+   "camiseta": "91",
+   "Capitan": ""
+  },
+  {
+   "carne": "36481",
+   "Nombre": "JUAN PABLO VIANA",
+   "camiseta": "4",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "35145",
+   "Nombre": "IGNACIO COLELLA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "35584",
+   "Nombre": "LUCAS GUIMARAES",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "52842",
+   "Nombre": "TIZIANO GUIGOU",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "41117",
+   "Nombre": "LUIS FERNANDO HERBIN",
+   "camiseta": "30",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "62165",
+   "Jug_Sale": "JUAN IGNACIO AFFONSO",
+   "CarneEntra": "55417",
+   "Jug_Entra": "DIEGO HERNAN TABORDA",
+   "camiseta": "21",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "62723",
+   "Jug_Sale": "TOMAS GABRIEL ERRECARTT",
+   "CarneEntra": "50454",
+   "Jug_Entra": "RENZO LEMMO",
+   "camiseta": "23",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "66692",
+   "Jug_Sale": "FACUNDO MOLINA",
+   "CarneEntra": "50071",
+   "Jug_Entra": "AGUSTIN SANTURIO",
+   "camiseta": "29",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "52533",
+   "Jug_Sale": "GUZMAN FERNANDEZ",
+   "CarneEntra": "58206",
+   "Jug_Entra": "TOMAS ARAGUSTO",
+   "camiseta": "92",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "36910",
+   "Jug_Sale": "GERMAN CAYON",
+   "CarneEntra": "52411",
+   "Jug_Entra": "CHRISTIAN NICOLAS DONALEY",
+   "camiseta": "33",
+   "minutos": "83"
+  },
+  {
+   "CarneSale": "41285",
+   "Jug_Sale": "RODRIGO FERNANDEZ",
+   "CarneEntra": "49704",
+   "Jug_Entra": "SANTIAGO DEARMAS",
+   "camiseta": "80",
+   "minutos": "87"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "36816",
+   "Jug_Sale": "MARTIN COLELLA",
+   "CarneEntra": "53488",
+   "Jug_Entra": "FRANCO FONTANAROSSA",
+   "camiseta": "55",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "52842",
+   "Jug_Sale": "TIZIANO GUIGOU",
+   "CarneEntra": "45789",
+   "Jug_Entra": "JUAN PABLO COLELLA",
+   "camiseta": "33",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "49214",
+   "Jug_Sale": "FELIPE HERNANDEZ",
+   "CarneEntra": "55772",
+   "Jug_Entra": "IGNACIO ETCHEVERS",
+   "camiseta": "96",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "41117",
+   "Jug_Sale": "LUIS FERNANDO HERBIN",
+   "CarneEntra": "45433",
+   "Jug_Entra": "FELIPE BENZANO",
+   "camiseta": "23",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "35584",
+   "Jug_Sale": "LUCAS GUIMARAES",
+   "CarneEntra": "48077",
+   "Jug_Entra": "AGUSTIN MARTINEZ",
+   "camiseta": "10",
+   "minutos": "91"
+  },
+  {
+   "CarneSale": "36481",
+   "Jug_Sale": "JUAN PABLO VIANA",
+   "CarneEntra": "39927",
+   "Jug_Entra": "MARTIN HERNANDEZ",
+   "camiseta": "26",
+   "minutos": "91"
+  },
+  {
+   "CarneSale": "53488",
+   "Jug_Sale": "FRANCO FONTANAROSSA",
+   "CarneEntra": "28996",
+   "Jug_Entra": "FRANCISCO INCIARTE",
+   "camiseta": "40",
+   "minutos": "93"
+  }
+ ],
  "golesL": [],
- "golesV": [],
+ "golesV": [
+  {
+   "carne": "52842",
+   "Nombre": "TIZIANO GUIGOU",
+   "minutos": "64",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

@@ -1,0 +1,292 @@
+{
+ "id": "103863",
+ "categoria": "reserva-b",
+ "serie": "RSBTA",
+ "fecha": 6,
+ "fechaHora": "2026-11-07 11:15:00",
+ "cancha": "COMPLEJO INDEPENDIENTE UNIV.",
+ "local": "INDEPENDIENTE",
+ "visitante": "J.M.L.M",
+ "gl": 1,
+ "gv": 2,
+ "detalle": {
+  "nro_partido": "690",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "RESERVA",
+  "categoria": "RESERVA MASCULINO",
+  "rueda": "2",
+  "Divisional": "RESERVA \"B\" TIT. y ASC.",
+  "Cancha": "COMPLEJO INDEPENDIENTE UNIV.",
+  "Fecha_Inicio": "2026-11-07 13:15:00",
+  "Fecha_fin": "2026-11-07 13:15:00",
+  "Locatario": "INDEPENDIENTE",
+  "goles_locatario": "1",
+  "puntos_locatario": "0",
+  "Visitante": "J.M.L.M",
+  "goles_visitante": "2",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "61237",
+   "Nombre": "JOAQUIN HAYMES",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "42358",
+   "Nombre": "FABIO ENRIQUED DA COSTA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "66145",
+   "Nombre": "IGNACIO BERTHEL",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "68177",
+   "Nombre": "ENZO FACUNDO SOUZA",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "41598",
+   "Nombre": "AGUSTIN TESTA",
+   "camiseta": "19",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56420",
+   "Nombre": "LAUTARO SANCHEZ",
+   "camiseta": "79",
+   "Capitan": ""
+  },
+  {
+   "carne": "65734",
+   "Nombre": "SANTIAGO FLORETTA",
+   "camiseta": "55",
+   "Capitan": ""
+  },
+  {
+   "carne": "48270",
+   "Nombre": "FRANCO MARTIN SANTORO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "42893",
+   "Nombre": "GABRIEL PEREYRA",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "59998",
+   "Nombre": "BRAHUDER LEONEL ALARCON",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "45742",
+   "Nombre": "NEHUEN EZEQUIEL BONIFAZI",
+   "camiseta": "33",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "41531",
+   "Nombre": "JOAQUIN BELTRAN",
+   "camiseta": "1",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "54001",
+   "Nombre": "AGUSTIN DANIEL LLUBERAS",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "49895",
+   "Nombre": "AGUSTIN GONZALEZ",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "53190",
+   "Nombre": "SANTINO CARASSALE",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "49924",
+   "Nombre": "FELIPE BAYARDO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "47534",
+   "Nombre": "SANTIAGO FLEGINSKY",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "50933",
+   "Nombre": "SANTIAGO NICOLAS TIZON",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "49501",
+   "Nombre": "TOMAS PARPAL",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "47184",
+   "Nombre": "NICOLAS FLEGINSKY",
+   "camiseta": "37",
+   "Capitan": ""
+  },
+  {
+   "carne": "54192",
+   "Nombre": "FEDERICO PEREZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "50448",
+   "Nombre": "JUAN FERNANDO COMPANY",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "41598",
+   "Jug_Sale": "AGUSTIN TESTA",
+   "CarneEntra": "58968",
+   "Jug_Entra": "NICOLAS CAPECI",
+   "camiseta": "8",
+   "minutos": "24"
+  },
+  {
+   "CarneSale": "56420",
+   "Jug_Sale": "LAUTARO SANCHEZ",
+   "CarneEntra": "58160",
+   "Jug_Entra": "BRANDON FARIAS",
+   "camiseta": "24",
+   "minutos": "37"
+  },
+  {
+   "CarneSale": "65734",
+   "Jug_Sale": "SANTIAGO FLORETTA",
+   "CarneEntra": "43314",
+   "Jug_Entra": "CONRADO GAMBETTA",
+   "camiseta": "6",
+   "minutos": "53"
+  },
+  {
+   "CarneSale": "66145",
+   "Jug_Sale": "IGNACIO BERTHEL",
+   "CarneEntra": "57134",
+   "Jug_Entra": "MATIAS EZEQUIEL PEREZ",
+   "camiseta": "28",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "48270",
+   "Jug_Sale": "FRANCO MARTIN SANTORO",
+   "CarneEntra": "45360",
+   "Jug_Entra": "IVO THIAGO PEREZ",
+   "camiseta": "29",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "42358",
+   "Jug_Sale": "FABIO ENRIQUED DA COSTA",
+   "CarneEntra": "62653",
+   "Jug_Entra": "MATEO DIAZ",
+   "camiseta": "99",
+   "minutos": "88"
+  },
+  {
+   "CarneSale": "41598",
+   "Jug_Sale": "AGUSTIN TESTA",
+   "CarneEntra": "45728",
+   "Jug_Entra": "DIEGO REY",
+   "camiseta": "79",
+   "minutos": "88"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "54001",
+   "Jug_Sale": "AGUSTIN DANIEL LLUBERAS",
+   "CarneEntra": "53105",
+   "Jug_Entra": "FELIPE FRIGERIO",
+   "camiseta": "88",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "47184",
+   "Jug_Sale": "NICOLAS FLEGINSKY",
+   "CarneEntra": "52806",
+   "Jug_Entra": "SANTIAGO LUIS",
+   "camiseta": "25",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "54192",
+   "Jug_Sale": "FEDERICO PEREZ",
+   "CarneEntra": "53189",
+   "Jug_Entra": "FEDERICO VIDAL",
+   "camiseta": "17",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "50933",
+   "Jug_Sale": "SANTIAGO NICOLAS TIZON",
+   "CarneEntra": "47817",
+   "Jug_Entra": "CAMILO GILI",
+   "camiseta": "7",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "50448",
+   "Jug_Sale": "JUAN FERNANDO COMPANY",
+   "CarneEntra": "46923",
+   "Jug_Entra": "MATEO PARPAL",
+   "camiseta": "23",
+   "minutos": "89"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "58968",
+   "Nombre": "NICOLAS CAPECI",
+   "minutos": "40",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "53189",
+   "Nombre": "FEDERICO VIDAL",
+   "minutos": "66",
+   "EnContra": "1"
+  },
+  {
+   "carne": "54001",
+   "Nombre": "AGUSTIN DANIEL LLUBERAS",
+   "minutos": "26",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

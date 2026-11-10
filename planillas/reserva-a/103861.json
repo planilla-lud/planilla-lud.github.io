@@ -1,0 +1,306 @@
+{
+ "id": "103861",
+ "categoria": "reserva-a",
+ "serie": "RSAPD",
+ "fecha": 6,
+ "fechaHora": "2026-11-07 11:15:00",
+ "cancha": "TENIS EL PINAR",
+ "local": "TENIS EL PINAR",
+ "visitante": "CLUB SEMINARIO",
+ "gl": 2,
+ "gv": 2,
+ "detalle": {
+  "nro_partido": "662",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "RESERVA",
+  "categoria": "RESERVA MASCULINO",
+  "rueda": "2",
+  "Divisional": "RESERVA \"A\" PER. y DESC.",
+  "Cancha": "TENIS EL PINAR",
+  "Fecha_Inicio": "2026-11-07 13:10:00",
+  "Fecha_fin": "2026-11-07 13:10:00",
+  "Locatario": "TENIS EL PINAR",
+  "goles_locatario": "2",
+  "puntos_locatario": "1",
+  "Visitante": "CLUB SEMINARIO",
+  "goles_visitante": "2",
+  "puntos_visitante": "1",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "52627",
+   "Nombre": "JOAQUIN BERRO",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "48653",
+   "Nombre": "MATIAS  BERNARDO VAZQUEZ",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "49076",
+   "Nombre": "SANTIAGO NICOLAS D’ANGELO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "48657",
+   "Nombre": "BRUNO CABRERA",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "48656",
+   "Nombre": "LEANDRO GABRIEL TABEIRA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "54831",
+   "Nombre": "JOAQUÌN GOLDARACENA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "48654",
+   "Nombre": "JUAN PABLO LOCATELLI",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "46830",
+   "Nombre": "JULIAN NESTOR MUHA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "45505",
+   "Nombre": "SANTIAGO DANIEL TORRES",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "51806",
+   "Nombre": "MATHIAS SEBASTIAN BARRETO",
+   "camiseta": "47",
+   "Capitan": ""
+  },
+  {
+   "carne": "48796",
+   "Nombre": "MARTIN JAVIER DIAZ",
+   "camiseta": "18",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "52755",
+   "Nombre": "JOAQUIN MIRANDA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "37424",
+   "Nombre": "SANTIAGO PEREZ",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "42555",
+   "Nombre": "RODRIGO VAZQUEZ",
+   "camiseta": "19",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "59121",
+   "Nombre": "ARIEL YONHATAN PACHECO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "47683",
+   "Nombre": "JUAN IGNACIO VIOLA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "64647",
+   "Nombre": "FABRIZIO OSCAR PAGLIA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "52764",
+   "Nombre": "DIEGO BUELA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "57157",
+   "Nombre": "FACUNDO PIRIS",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "47176",
+   "Nombre": "SANTIAGO BENZANO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "52746",
+   "Nombre": "IMANOL JIMENEZ DE ARECHAGA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "52457",
+   "Nombre": "SANTIAGO RAUL MAY",
+   "camiseta": "20",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "48657",
+   "Jug_Sale": "BRUNO CABRERA",
+   "CarneEntra": "58654",
+   "Jug_Entra": "MATIAS NICOLAS BARRIOS",
+   "camiseta": "30",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "48656",
+   "Jug_Sale": "LEANDRO GABRIEL TABEIRA",
+   "CarneEntra": "50666",
+   "Jug_Entra": "FACUNDO LAGO",
+   "camiseta": "7",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "46830",
+   "Jug_Sale": "JULIAN NESTOR MUHA",
+   "CarneEntra": "67917",
+   "Jug_Entra": "SANTIAGO CASTRO",
+   "camiseta": "10",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "49076",
+   "Jug_Sale": "SANTIAGO NICOLAS D’ANGELO",
+   "CarneEntra": "46848",
+   "Jug_Entra": "FACUNDO BERGARA",
+   "camiseta": "17",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "54831",
+   "Jug_Sale": "JOAQUÌN GOLDARACENA",
+   "CarneEntra": "66599",
+   "Jug_Entra": "FACUNDO ALVAREZ",
+   "camiseta": "15",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "48796",
+   "Jug_Sale": "MARTIN JAVIER DIAZ",
+   "CarneEntra": "38029",
+   "Jug_Entra": "NICOLAS AMOEDO",
+   "camiseta": "0",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "45505",
+   "Jug_Sale": "SANTIAGO DANIEL TORRES",
+   "CarneEntra": "64786",
+   "Jug_Entra": "THIAGO  DANILO SOUTO",
+   "camiseta": "9",
+   "minutos": "85"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "52746",
+   "Jug_Sale": "IMANOL JIMENEZ DE ARECHAGA",
+   "CarneEntra": "47680",
+   "Jug_Entra": "JUAN FELIPE LUCAS",
+   "camiseta": "21",
+   "minutos": "18"
+  },
+  {
+   "CarneSale": "52457",
+   "Jug_Sale": "SANTIAGO RAUL MAY",
+   "CarneEntra": "47673",
+   "Jug_Entra": "FRANCISCO JAVIER CAMPON",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "42555",
+   "Jug_Sale": "RODRIGO VAZQUEZ",
+   "CarneEntra": "50839",
+   "Jug_Entra": "FABRIZIO JORGE GRAJALES",
+   "camiseta": "15",
+   "minutos": "50"
+  },
+  {
+   "CarneSale": "52764",
+   "Jug_Sale": "DIEGO BUELA",
+   "CarneEntra": "50866",
+   "Jug_Entra": "JOSE SANTIAGO LUCAS",
+   "camiseta": "8",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "64647",
+   "Jug_Sale": "FABRIZIO OSCAR PAGLIA",
+   "CarneEntra": "53659",
+   "Jug_Entra": "ANDRES HERRERA",
+   "camiseta": "14",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "47683",
+   "Jug_Sale": "JUAN IGNACIO VIOLA",
+   "CarneEntra": "47800",
+   "Jug_Entra": "MATIAS GARRIDO",
+   "camiseta": "7",
+   "minutos": "75"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "48653",
+   "Nombre": "MATIAS  BERNARDO VAZQUEZ",
+   "minutos": "43",
+   "EnContra": "0"
+  },
+  {
+   "carne": "48653",
+   "Nombre": "MATIAS  BERNARDO VAZQUEZ",
+   "minutos": "64",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "47176",
+   "Nombre": "SANTIAGO BENZANO",
+   "minutos": "75",
+   "EnContra": "1"
+  },
+  {
+   "carne": "47176",
+   "Nombre": "SANTIAGO BENZANO",
+   "minutos": "85",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

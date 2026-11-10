@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"B\" TIT. y ASC.",
   "Cancha": "COMPLEJO URUNDAY UNIVERSITARIO",
-  "Fecha_Inicio": "2026-11-07 12:45:00",
-  "Fecha_fin": "2026-11-07 12:45:00",
+  "Fecha_Inicio": "2026-11-07 13:15:00",
+  "Fecha_fin": "2026-11-07 13:15:00",
   "Locatario": "URUNDAY UNIVERSITARIO",
   "goles_locatario": "4",
   "puntos_locatario": "3",
@@ -29,12 +29,264 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "44846",
+   "Nombre": "ANTONIO JOSE IRAZOQUI",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "53690",
+   "Nombre": "MARCOS DANIEL AREVALO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "47675",
+   "Nombre": "MAURICIO DIEZ",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "68952",
+   "Nombre": "MAXIMILIANO EZEQUIEL PIRIZ",
+   "camiseta": "89",
+   "Capitan": ""
+  },
+  {
+   "carne": "54617",
+   "Nombre": "TOMAS DIAZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "54868",
+   "Nombre": "MAXIMILIANO ROMAY",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "47116",
+   "Nombre": "SANTIAGO RODRIGUEZ",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "46518",
+   "Nombre": "MAURO GERMAN GRECCO",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "43124",
+   "Nombre": "MATIAS FERNANDEZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "47100",
+   "Nombre": "JOAQUIN PALABES",
+   "camiseta": "92",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "66028",
+   "Nombre": "MATEO AGUSTIN CHAKIYIN",
+   "camiseta": "18",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "68857",
+   "Nombre": "FRANCISCO PINTOS",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "67430",
+   "Nombre": "ANDRES VILLAR",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "51235",
+   "Nombre": "JUAN MARQUES",
+   "camiseta": "2",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "52820",
+   "Nombre": "SEBASTIAN CLEMENTE",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "44039",
+   "Nombre": "ALEJANDRO FYNN",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "42800",
+   "Nombre": "FEDERICO  IGNACIO HERMIDA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "67427",
+   "Nombre": "LUCAS DE ACHAVAL",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "52622",
+   "Nombre": "NICOLAS CLEMENTE",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "46844",
+   "Nombre": "JOSE ANTONIO GONZALEZ BERRO",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "51502",
+   "Nombre": "DIEGO VIGORITO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "54409",
+   "Nombre": "JOAQUIN IRULEGUY",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "54868",
+   "Jug_Sale": "MAXIMILIANO ROMAY",
+   "CarneEntra": "64611",
+   "Jug_Entra": "FEDERICO PITA",
+   "camiseta": "33",
+   "minutos": "41"
+  },
+  {
+   "CarneSale": "43124",
+   "Jug_Sale": "MATIAS FERNANDEZ",
+   "CarneEntra": "52411",
+   "Jug_Entra": "CHRISTIAN NICOLAS DONALEY",
+   "camiseta": "4",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "66028",
+   "Jug_Sale": "MATEO AGUSTIN CHAKIYIN",
+   "CarneEntra": "46466",
+   "Jug_Entra": "PABLO JOAQUIN GATTO",
+   "camiseta": "30",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "47116",
+   "Jug_Sale": "SANTIAGO RODRIGUEZ",
+   "CarneEntra": "48966",
+   "Jug_Entra": "IGNACIO FABIAN BOLLA",
+   "camiseta": "19",
+   "minutos": "78"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "44039",
+   "Jug_Sale": "ALEJANDRO FYNN",
+   "CarneEntra": "53249",
+   "Jug_Entra": "JUAN FRANCISCO FERREIRA",
+   "camiseta": "16",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "67427",
+   "Jug_Sale": "LUCAS DE ACHAVAL",
+   "CarneEntra": "52607",
+   "Jug_Entra": "GUZMAN ARECHAVALETA",
+   "camiseta": "14",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "51502",
+   "Jug_Sale": "DIEGO VIGORITO",
+   "CarneEntra": "51134",
+   "Jug_Entra": "TOMAS LAFFITTE",
+   "camiseta": "21",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "42800",
+   "Jug_Sale": "FEDERICO  IGNACIO HERMIDA",
+   "CarneEntra": "46842",
+   "Jug_Entra": "JUAN MANUEL HERMIDA",
+   "camiseta": "19",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "67430",
+   "Jug_Sale": "ANDRES VILLAR",
+   "CarneEntra": "48918",
+   "Jug_Entra": "JUAN IGNACIO ROSPIDE",
+   "camiseta": "6",
+   "minutos": "85"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "47675",
+   "Nombre": "MAURICIO DIEZ",
+   "minutos": "84",
+   "EnContra": "0"
+  },
+  {
+   "carne": "66028",
+   "Nombre": "MATEO AGUSTIN CHAKIYIN",
+   "minutos": "24",
+   "EnContra": "0"
+  },
+  {
+   "carne": "66028",
+   "Nombre": "MATEO AGUSTIN CHAKIYIN",
+   "minutos": "46",
+   "EnContra": "0"
+  },
+  {
+   "carne": "66028",
+   "Nombre": "MATEO AGUSTIN CHAKIYIN",
+   "minutos": "49",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "46844",
+   "Nombre": "JOSE ANTONIO GONZALEZ BERRO",
+   "minutos": "32",
+   "EnContra": "1"
+  },
+  {
+   "carne": "53249",
+   "Nombre": "JUAN FRANCISCO FERREIRA",
+   "minutos": "86",
+   "EnContra": "1"
+  },
+  {
+   "carne": "54409",
+   "Nombre": "JOAQUIN IRULEGUY",
+   "minutos": "75",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

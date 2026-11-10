@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"B\" PERM. y DESC.",
   "Cancha": "COMPLEJO INDEPENDIENTE UNIV.",
-  "Fecha_Inicio": "2026-11-08 10:30:00",
-  "Fecha_fin": "2026-11-08 10:30:00",
+  "Fecha_Inicio": "2026-11-08 11:00:00",
+  "Fecha_fin": "2026-11-08 11:00:00",
   "Locatario": "INDEPENDIENTE",
   "goles_locatario": "1",
   "puntos_locatario": "1",
@@ -29,12 +29,218 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "58494",
+   "Nombre": "LEANDRO XAVIER",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "68877",
+   "Nombre": "EMILIANO FACUNDO AIRES",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "53095",
+   "Nombre": "MARTIN PEZZATTI",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "42394",
+   "Nombre": "MARTINHO GABRIEL DA COSTA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "44034",
+   "Nombre": "HORACIO RODRIGUEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "46217",
+   "Nombre": "SIMON RODRIGUEZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "51150",
+   "Nombre": "IGNACIO ARTIGAS FERREIRA",
+   "camiseta": "68",
+   "Capitan": ""
+  },
+  {
+   "carne": "43774",
+   "Nombre": "FELIPE HEIN",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "40073",
+   "Nombre": "JOAQUIN AVEDISIAN",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "57134",
+   "Nombre": "MATIAS EZEQUIEL PEREZ",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "43439",
+   "Nombre": "FACUNDO GARCIA",
+   "camiseta": "79",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "44959",
+   "Nombre": "FEDERICO NICOLAS COLMAN",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "44627",
+   "Nombre": "PABLO FEDERICO MONDINO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "37953",
+   "Nombre": "NICOLAS JORGE CANER",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "50099",
+   "Nombre": "ISMAEL LUZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "63570",
+   "Nombre": "JUAN SEBASTIAN CORONEL",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "50424",
+   "Nombre": "AGUSTIN CLARO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "45345",
+   "Nombre": "JOAQUIN EASTMAN",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "59519",
+   "Nombre": "THOMAS EZEQUIEL MENDIBERRE",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "58770",
+   "Nombre": "MATEO EASTMAN",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "28478",
+   "Nombre": "MATIAS LOVESIO",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "67324",
+   "Nombre": "FRANCO VALIENTE",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "51150",
+   "Jug_Sale": "IGNACIO ARTIGAS FERREIRA",
+   "CarneEntra": "45742",
+   "Jug_Entra": "NEHUEN EZEQUIEL BONIFAZI",
+   "camiseta": "33",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "43774",
+   "Jug_Sale": "FELIPE HEIN",
+   "CarneEntra": "62684",
+   "Jug_Entra": "JOAQUIN VARELA",
+   "camiseta": "6",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "43439",
+   "Jug_Sale": "FACUNDO GARCIA",
+   "CarneEntra": "45360",
+   "Jug_Entra": "IVO THIAGO PEREZ",
+   "camiseta": "29",
+   "minutos": "83"
+  },
+  {
+   "CarneSale": "46217",
+   "Jug_Sale": "SIMON RODRIGUEZ",
+   "CarneEntra": "42358",
+   "Jug_Entra": "FABIO ENRIQUED DA COSTA",
+   "camiseta": "20",
+   "minutos": "83"
+  },
+  {
+   "CarneSale": "57134",
+   "Jug_Sale": "MATIAS EZEQUIEL PEREZ",
+   "CarneEntra": "66145",
+   "Jug_Entra": "IGNACIO BERTHEL",
+   "camiseta": "25",
+   "minutos": "85"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "67324",
+   "Jug_Sale": "FRANCO VALIENTE",
+   "CarneEntra": "45350",
+   "Jug_Entra": "BRUNO GASTON DIAZ",
+   "camiseta": "11",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "50424",
+   "Jug_Sale": "AGUSTIN CLARO",
+   "CarneEntra": "58336",
+   "Jug_Entra": "SANTIAGO SANDER",
+   "camiseta": "37",
+   "minutos": "84"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "53095",
+   "Nombre": "MARTIN PEZZATTI",
+   "minutos": "70",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "50424",
+   "Nombre": "AGUSTIN CLARO",
+   "minutos": "38",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

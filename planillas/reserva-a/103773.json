@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"A\" PER. y DESC.",
   "Cancha": "CLUB ALEMAN",
-  "Fecha_Inicio": "2026-11-07 12:45:00",
-  "Fecha_fin": "2026-11-07 12:45:00",
+  "Fecha_Inicio": "2026-11-07 13:05:00",
+  "Fecha_fin": "2026-11-07 13:05:00",
   "Locatario": "ALEMAN UNIVERSITARIO",
   "goles_locatario": "3",
   "puntos_locatario": "0",
@@ -29,12 +29,269 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "58980",
+   "Nombre": "MATEO PONCE DE LEON",
+   "camiseta": "78",
+   "Capitan": ""
+  },
+  {
+   "carne": "48647",
+   "Nombre": "LEANDRO PASQUET",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "40978",
+   "Nombre": "FEDERICO TOMAS MARTINEZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "37177",
+   "Nombre": "DIEGO GARRONE",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "50128",
+   "Nombre": "JUAN ANDRES GIL",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "50929",
+   "Nombre": "JUAN MANUEL CASELLA",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "39007",
+   "Nombre": "IGNACIO ESTEVES",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "40039",
+   "Nombre": "ANDRES FORTE",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "28952",
+   "Nombre": "SASHA ALEXANDER ANEFF",
+   "camiseta": "91",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "39089",
+   "Nombre": "GONZALO PASQUET",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "55358",
+   "Nombre": "MATTEO REICHERT",
+   "camiseta": "99",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "45549",
+   "Nombre": "JOSE FACUNDO FONSECA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "61063",
+   "Nombre": "NICOLAS DORAO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "56344",
+   "Nombre": "JUAN PEDRO ECHEGUIA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "55125",
+   "Nombre": "JUAN GURMENDEZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "66855",
+   "Nombre": "SEBASTIAN MARTINEZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "60720",
+   "Nombre": "MATEO FERRERE",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "49165",
+   "Nombre": "GUILLERMO PONS",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "65012",
+   "Nombre": "JUAN MARTIN IFRAN",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "56348",
+   "Nombre": "FELIPE SICALO",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "63592",
+   "Nombre": "JUAN ANDRES ERRANONDEA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "31774",
+   "Nombre": "MARTIN INCIARTE",
+   "camiseta": "18",
+   "Capitan": "(C)"
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "55358",
+   "Jug_Sale": "MATTEO REICHERT",
+   "CarneEntra": "48650",
+   "Jug_Entra": "JUAN IGNACIO CERULLO",
+   "camiseta": "11",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "50929",
+   "Jug_Sale": "JUAN MANUEL CASELLA",
+   "CarneEntra": "49156",
+   "Jug_Entra": "MATHIAS SOARES DE LIMA",
+   "camiseta": "28",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "50128",
+   "Jug_Sale": "JUAN ANDRES GIL",
+   "CarneEntra": "53442",
+   "Jug_Entra": "JUAN RAMON ARBILLA",
+   "camiseta": "45",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "37177",
+   "Jug_Sale": "DIEGO GARRONE",
+   "CarneEntra": "52852",
+   "Jug_Entra": "DIEGO LOPEZ",
+   "camiseta": "71",
+   "minutos": "77"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "56348",
+   "Jug_Sale": "FELIPE SICALO",
+   "CarneEntra": "39600",
+   "Jug_Entra": "JAVIER ANDRES ZAFFARONI",
+   "camiseta": "22",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "31774",
+   "Jug_Sale": "MARTIN INCIARTE",
+   "CarneEntra": "52968",
+   "Jug_Entra": "JUAN PEDRO SAINZ-RASINES",
+   "camiseta": "10",
+   "minutos": "53"
+  },
+  {
+   "CarneSale": "56344",
+   "Jug_Sale": "JUAN PEDRO ECHEGUIA",
+   "CarneEntra": "53801",
+   "Jug_Entra": "JUAN MANUEL VILDOZOLA",
+   "camiseta": "12",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "63592",
+   "Jug_Sale": "JUAN ANDRES ERRANONDEA",
+   "CarneEntra": "65008",
+   "Jug_Entra": "JUAN DIEGO JACQUES",
+   "camiseta": "11",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "39600",
+   "Jug_Sale": "JAVIER ANDRES ZAFFARONI",
+   "CarneEntra": "53410",
+   "Jug_Entra": "SANTIAGO FEDERICO CAETANO",
+   "camiseta": "13",
+   "minutos": "95"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "28952",
+   "Nombre": "SASHA ALEXANDER ANEFF",
+   "minutos": "80",
+   "EnContra": "0"
+  },
+  {
+   "carne": "39089",
+   "Nombre": "GONZALO PASQUET",
+   "minutos": "8",
+   "EnContra": "0"
+  },
+  {
+   "carne": "39089",
+   "Nombre": "GONZALO PASQUET",
+   "minutos": "65",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "52968",
+   "Nombre": "JUAN PEDRO SAINZ-RASINES",
+   "minutos": "12",
+   "EnContra": "1"
+  },
+  {
+   "carne": "52968",
+   "Nombre": "JUAN PEDRO SAINZ-RASINES",
+   "minutos": "90",
+   "EnContra": "1"
+  },
+  {
+   "carne": "55125",
+   "Nombre": "JUAN GURMENDEZ",
+   "minutos": "70",
+   "EnContra": "1"
+  },
+  {
+   "carne": "60720",
+   "Nombre": "MATEO FERRERE",
+   "minutos": "75",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
- "expulsadosV": []
+ "expulsadosV": [
+  {
+   "Nombre": "SEBASTIAN MARTINEZ",
+   "observaciones": ""
+  }
+ ]
 }

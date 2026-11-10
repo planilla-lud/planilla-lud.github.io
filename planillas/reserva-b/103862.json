@@ -1,0 +1,279 @@
+{
+ "id": "103862",
+ "categoria": "reserva-b",
+ "serie": "RSBPD",
+ "fecha": 6,
+ "fechaHora": "2026-11-07 11:15:00",
+ "cancha": "OLD IVY",
+ "local": "OLD IVY",
+ "visitante": "SANTA ELENA LAGOMAR",
+ "gl": 1,
+ "gv": 0,
+ "detalle": {
+  "nro_partido": "720",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "RESERVA",
+  "categoria": "RESERVA MASCULINO",
+  "rueda": "2",
+  "Divisional": "RESERVA \"B\" PER. y DESC.",
+  "Cancha": "OLD IVY",
+  "Fecha_Inicio": "2026-11-07 13:00:00",
+  "Fecha_fin": "2026-11-07 13:00:00",
+  "Locatario": "OLD IVY",
+  "goles_locatario": "1",
+  "puntos_locatario": "3",
+  "Visitante": "SANTA ELENA LAGOMAR",
+  "goles_visitante": "0",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "43339",
+   "Nombre": "THIAGO MAHIA",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "66390",
+   "Nombre": "JOAQUIN SANTINO FERNANDEZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "45594",
+   "Nombre": "SANTIAGO GUTIERREZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "37327",
+   "Nombre": "FEDERICO DIEGO BAUZA",
+   "camiseta": "11",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56372",
+   "Nombre": "ALFONSO CARDELINO",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "47833",
+   "Nombre": "SANTIAGO ANGENSCHEDIT",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "66871",
+   "Nombre": "JUAN MANUEL COLMAN",
+   "camiseta": "75",
+   "Capitan": ""
+  },
+  {
+   "carne": "42664",
+   "Nombre": "LUIS EDUARDO TOPOLANSKY",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "61341",
+   "Nombre": "MATEO SUBIRAN",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "61383",
+   "Nombre": "MATIAS BENECH",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "34996",
+   "Nombre": "GASTON VAREIKA",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "61170",
+   "Nombre": "THIAGO HANDERSSON",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "47333",
+   "Nombre": "JOAQUIN GAI",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "47523",
+   "Nombre": "IVAN NICOLAS PASTORINO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "47329",
+   "Nombre": "OCTAVIO SUM",
+   "camiseta": "2",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "49209",
+   "Nombre": "FEDERICO JOSE ERDOS",
+   "camiseta": "75",
+   "Capitan": ""
+  },
+  {
+   "carne": "49388",
+   "Nombre": "FRANCO GONZALEZ",
+   "camiseta": "76",
+   "Capitan": ""
+  },
+  {
+   "carne": "49231",
+   "Nombre": "AGUSTIN MATEO",
+   "camiseta": "74",
+   "Capitan": ""
+  },
+  {
+   "carne": "49243",
+   "Nombre": "IGNACIO JAVIER GONZALEZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "47586",
+   "Nombre": "JUAN BAUTISTA NOVO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "58300",
+   "Nombre": "GUILLERMO MAICHE",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "56495",
+   "Nombre": "BAUTISTA MATEO",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "56372",
+   "Jug_Sale": "ALFONSO CARDELINO",
+   "CarneEntra": "37264",
+   "Jug_Entra": "AGUSTIN ARTAGAVEYTIA",
+   "camiseta": "69",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "34996",
+   "Jug_Sale": "GASTON VAREIKA",
+   "CarneEntra": "61114",
+   "Jug_Entra": "ALFONSO TOPOLANSKY",
+   "camiseta": "77",
+   "minutos": "69"
+  },
+  {
+   "CarneSale": "66871",
+   "Jug_Sale": "JUAN MANUEL COLMAN",
+   "CarneEntra": "67379",
+   "Jug_Entra": "JUAN PEDRO LUQUE",
+   "camiseta": "25",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "61383",
+   "Jug_Sale": "MATIAS BENECH",
+   "CarneEntra": "64391",
+   "Jug_Entra": "JUAN BAUTISTA IRIARTE",
+   "camiseta": "18",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "47833",
+   "Jug_Sale": "SANTIAGO ANGENSCHEDIT",
+   "CarneEntra": "49105",
+   "Jug_Entra": "NICOLAS CASAMAYOU",
+   "camiseta": "8",
+   "minutos": "88"
+  },
+  {
+   "CarneSale": "37264",
+   "Jug_Sale": "AGUSTIN ARTAGAVEYTIA",
+   "CarneEntra": "45601",
+   "Jug_Entra": "JUAN BAUTISTA VILLARONGA",
+   "camiseta": "16",
+   "minutos": "90"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "47523",
+   "Jug_Sale": "IVAN NICOLAS PASTORINO",
+   "CarneEntra": "56496",
+   "Jug_Entra": "MANUEL MULA",
+   "camiseta": "15",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56495",
+   "Jug_Sale": "BAUTISTA MATEO",
+   "CarneEntra": "49581",
+   "Jug_Entra": "FACUNDO EZEQUIEL CORICA",
+   "camiseta": "35",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "49209",
+   "Jug_Sale": "FEDERICO JOSE ERDOS",
+   "CarneEntra": "46160",
+   "Jug_Entra": "MATIAS GABRIEL BERNADA",
+   "camiseta": "13",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "47586",
+   "Jug_Sale": "JUAN BAUTISTA NOVO",
+   "CarneEntra": "58163",
+   "Jug_Entra": "FACUNDO IGNACIO LARROSA",
+   "camiseta": "87",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "49388",
+   "Jug_Sale": "FRANCO GONZALEZ",
+   "CarneEntra": "50198",
+   "Jug_Entra": "MATHIAS RAMILO",
+   "camiseta": "10",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "49243",
+   "Jug_Sale": "IGNACIO JAVIER GONZALEZ",
+   "CarneEntra": "45379",
+   "Jug_Entra": "LUIS MATIAS BELDERRAIN",
+   "camiseta": "17",
+   "minutos": "78"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "61114",
+   "Nombre": "ALFONSO TOPOLANSKY",
+   "minutos": "75",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

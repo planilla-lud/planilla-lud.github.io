@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"B\" PER. y DESC.",
   "Cancha": "COMPLEJO JUAN XXIII",
-  "Fecha_Inicio": "2026-11-07 12:45:00",
-  "Fecha_fin": "2026-11-07 12:45:00",
+  "Fecha_Inicio": "2026-11-07 13:15:00",
+  "Fecha_fin": "2026-11-07 13:15:00",
   "Locatario": "CIRCULO DE TENIS MONTEVIDEO",
   "goles_locatario": "2",
   "puntos_locatario": "1",
@@ -29,12 +29,262 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "55015",
+   "Nombre": "FRANCISCO GRAMPIN",
+   "camiseta": "1",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "59323",
+   "Nombre": "MARCOS DA SILVA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "55138",
+   "Nombre": "SANTIAGO RODRIGUEZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "64208",
+   "Nombre": "JOAQUIN REPETTO",
+   "camiseta": "79",
+   "Capitan": ""
+  },
+  {
+   "carne": "51734",
+   "Nombre": "NAHUEL JAVIER BALSAS",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "55021",
+   "Nombre": "TOMAS BICA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "54819",
+   "Nombre": "FACUNDO FERRARI",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "60774",
+   "Nombre": "MATEO COMBA",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "47766",
+   "Nombre": "MARCOS SANTIAGO HOLLANDER",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "56291",
+   "Nombre": "GUILLERMO CABALLERO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "64209",
+   "Nombre": "AGUSTIN MORALES",
+   "camiseta": "8",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "58657",
+   "Nombre": "SANTIAGO CID DE LA PAZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "55660",
+   "Nombre": "THIAGO FURTADO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "44088",
+   "Nombre": "FACUNDO DELGADO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "45038",
+   "Nombre": "IGNACIO RODRIGUEZ",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "51112",
+   "Nombre": "MATEO AGUSTIN MARTINEZ",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "39418",
+   "Nombre": "RODRIGO BONSIGNORE",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "59694",
+   "Nombre": "FELIPE CASTRO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "47728",
+   "Nombre": "FELIPE RAMA",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "41107",
+   "Nombre": "MATIAS ANTONIO OXACELHAY",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "49151",
+   "Nombre": "LUCAS MOREIRA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "39055",
+   "Nombre": "LUCAS MARTIN CASTIGLIONI",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "56291",
+   "Jug_Sale": "GUILLERMO CABALLERO",
+   "CarneEntra": "47590",
+   "Jug_Entra": "IGNACIO SILVA",
+   "camiseta": "90",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "47766",
+   "Jug_Sale": "MARCOS SANTIAGO HOLLANDER",
+   "CarneEntra": "56290",
+   "Jug_Entra": "DENIS RODRIGO RAMA",
+   "camiseta": "28",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "51734",
+   "Jug_Sale": "NAHUEL JAVIER BALSAS",
+   "CarneEntra": "59146",
+   "Jug_Entra": "FACUNDO RODRIGUEZ",
+   "camiseta": "16",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "55021",
+   "Jug_Sale": "TOMAS BICA",
+   "CarneEntra": "41225",
+   "Jug_Entra": "MARCOS CONSTANTINO DUTRENIT",
+   "camiseta": "33",
+   "minutos": "90"
+  },
+  {
+   "CarneSale": "60774",
+   "Jug_Sale": "MATEO COMBA",
+   "CarneEntra": "53476",
+   "Jug_Entra": "LUCAS EZEQUIEL SCHANZLIN",
+   "camiseta": "41",
+   "minutos": "45"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "45038",
+   "Jug_Sale": "IGNACIO RODRIGUEZ",
+   "CarneEntra": "51113",
+   "Jug_Entra": "BRUNO CHELINI",
+   "camiseta": "23",
+   "minutos": "49"
+  },
+  {
+   "CarneSale": "47728",
+   "Jug_Sale": "FELIPE RAMA",
+   "CarneEntra": "52832",
+   "Jug_Entra": "FELIPE ROBATTO",
+   "camiseta": "11",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "55660",
+   "Jug_Sale": "THIAGO FURTADO",
+   "CarneEntra": "43684",
+   "Jug_Entra": "JUAN PEDRO CORREA",
+   "camiseta": "13",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "44088",
+   "Jug_Sale": "FACUNDO DELGADO",
+   "CarneEntra": "46937",
+   "Jug_Entra": "MARTIN ROBATTO",
+   "camiseta": "7",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "39055",
+   "Jug_Sale": "LUCAS MARTIN CASTIGLIONI",
+   "CarneEntra": "38502",
+   "Jug_Entra": "JUAN PABLO MASLLORENS",
+   "camiseta": "18",
+   "minutos": "87"
+  },
+  {
+   "CarneSale": "51112",
+   "Jug_Sale": "MATEO AGUSTIN MARTINEZ",
+   "CarneEntra": "36857",
+   "Jug_Entra": "GUILLERMO AMOZA",
+   "camiseta": "17",
+   "minutos": "87"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "55138",
+   "Nombre": "SANTIAGO RODRIGUEZ",
+   "minutos": "97",
+   "EnContra": "0"
+  },
+  {
+   "carne": "60774",
+   "Nombre": "MATEO COMBA",
+   "minutos": "81",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "39055",
+   "Nombre": "LUCAS MARTIN CASTIGLIONI",
+   "minutos": "4",
+   "EnContra": "1"
+  },
+  {
+   "carne": "39418",
+   "Nombre": "RODRIGO BONSIGNORE",
+   "minutos": "62",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

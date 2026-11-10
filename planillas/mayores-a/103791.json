@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"A\" TITULO",
   "Cancha": "TENIS EL PINAR",
-  "Fecha_Inicio": "2026-11-08 12:45:00",
-  "Fecha_fin": "2026-11-08 12:45:00",
+  "Fecha_Inicio": "2026-11-08 13:10:00",
+  "Fecha_fin": "2026-11-08 13:10:00",
   "Locatario": "TENIS EL PINAR",
   "goles_locatario": "2",
   "puntos_locatario": "3",
@@ -29,11 +29,248 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "46449",
+   "Nombre": "AGUSTIN LOMBARDO",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "36994",
+   "Nombre": "AGUSTIN BAROFFIO",
+   "camiseta": "2",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "46828",
+   "Nombre": "CIPRIANO BAROFFIO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "23904",
+   "Nombre": "GASTON ANDRES SUAREZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "38349",
+   "Nombre": "JUAN PABLO ECHEVERRIARZA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "40761",
+   "Nombre": "MAXIMILIANO SIENRA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "39703",
+   "Nombre": "GUILLERMO DANIEL TENCA",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "34528",
+   "Nombre": "JOAQUIN ANDRES AMOEDO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "54830",
+   "Nombre": "GUILLERMO NIETO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "45225",
+   "Nombre": "LAUTARO PEREZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "26339",
+   "Nombre": "JUAN MARTIN OYENARD",
+   "camiseta": "15",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "59008",
+   "Nombre": "GERONIMO FEDERICO ALONSO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "37275",
+   "Nombre": "JOSE MARIA MAÑE",
+   "camiseta": "2",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "54579",
+   "Nombre": "JAVIER CIVETTA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "29671",
+   "Nombre": "MARTIN GUSTAVO GUERRA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "38391",
+   "Nombre": "NICOLAS MARIA RODRIGUEZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "56273",
+   "Nombre": "ALEXIS BRUCE",
+   "camiseta": "79",
+   "Capitan": ""
+  },
+  {
+   "carne": "54585",
+   "Nombre": "TOMAS CABRAL",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "47513",
+   "Nombre": "MAXIMO VARGAS",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "49786",
+   "Nombre": "JUAN IGNACIO HARDOY",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "58231",
+   "Nombre": "FACUNDO VALENTTI",
+   "camiseta": "91",
+   "Capitan": ""
+  },
+  {
+   "carne": "41581",
+   "Nombre": "ALFONSO SIMETO",
+   "camiseta": "88",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "39703",
+   "Jug_Sale": "GUILLERMO DANIEL TENCA",
+   "CarneEntra": "48870",
+   "Jug_Entra": "RENZO FORTI",
+   "camiseta": "30",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "34528",
+   "Jug_Sale": "JOAQUIN ANDRES AMOEDO",
+   "CarneEntra": "58083",
+   "Jug_Entra": "IGNACIO FACUNDO RICOBALDI",
+   "camiseta": "29",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "45225",
+   "Jug_Sale": "LAUTARO PEREZ",
+   "CarneEntra": "34818",
+   "Jug_Entra": "JUAN MANUEL FRANZOSI",
+   "camiseta": "10",
+   "minutos": "86"
+  },
+  {
+   "CarneSale": "54830",
+   "Jug_Sale": "GUILLERMO NIETO",
+   "CarneEntra": "52640",
+   "Jug_Entra": "VALENTIN COLOMINAS",
+   "camiseta": "24",
+   "minutos": "86"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "49786",
+   "Jug_Sale": "JUAN IGNACIO HARDOY",
+   "CarneEntra": "53930",
+   "Jug_Entra": "MAXIMO RICARDO SEIZER",
+   "camiseta": "23",
+   "minutos": "40"
+  },
+  {
+   "CarneSale": "47513",
+   "Jug_Sale": "MAXIMO VARGAS",
+   "CarneEntra": "29955",
+   "Jug_Entra": "NICOLAS CASAROTTI",
+   "camiseta": "9",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "41581",
+   "Jug_Sale": "ALFONSO SIMETO",
+   "CarneEntra": "45241",
+   "Jug_Entra": "JUAN FERMIN REMEDI",
+   "camiseta": "7",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "58231",
+   "Jug_Sale": "FACUNDO VALENTTI",
+   "CarneEntra": "57945",
+   "Jug_Entra": "BAUTISTA ESTEFANELL",
+   "camiseta": "95",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "56273",
+   "Jug_Sale": "ALEXIS BRUCE",
+   "CarneEntra": "56262",
+   "Jug_Entra": "FRANCISCO NAVARRO",
+   "camiseta": "17",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "38391",
+   "Jug_Sale": "NICOLAS MARIA RODRIGUEZ",
+   "CarneEntra": "55700",
+   "Jug_Entra": "MANUEL LACALLE",
+   "camiseta": "14",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "29671",
+   "Jug_Sale": "MARTIN GUSTAVO GUERRA",
+   "CarneEntra": "56265",
+   "Jug_Entra": "JUAN MARTIN HRILJAC",
+   "camiseta": "3",
+   "minutos": "81"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "45225",
+   "Nombre": "LAUTARO PEREZ",
+   "minutos": "72",
+   "EnContra": "0"
+  },
+  {
+   "carne": "54830",
+   "Nombre": "GUILLERMO NIETO",
+   "minutos": "15",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-09T21:28:50.077Z",
+ "actualizado": "2026-11-10T04:39:20.934Z",
  "partidos": [
   {
    "div": "reserva-a",
@@ -15,25 +15,8 @@
    "n": 8,
    "base": 0,
    "tipo": "titulo",
-   "altasL": 0,
-   "altasV": 1
-  },
-  {
-   "div": "reserva-a",
-   "divNombre": "Reserva A",
-   "k": "Seminario~Obc Azulgrana.",
-   "l": "Seminario",
-   "v": "Obc Azulgrana.",
-   "dia": "2026-11-14",
-   "hora": "11:15",
-   "etapa": "Permanencia",
-   "pl": 5,
-   "pv": 8,
-   "n": 8,
-   "base": 8,
-   "tipo": "descenso",
    "altasL": 1,
-   "altasV": 2
+   "altasV": 0
   },
   {
    "div": "presenior-a",
@@ -49,7 +32,7 @@
    "n": 8,
    "base": 0,
    "tipo": "titulo",
-   "altasL": 2,
+   "altasL": 1,
    "altasV": 1
   },
   {
@@ -126,8 +109,8 @@
    "k": "San Eugenio~Deportivo Mitre",
    "l": "San Eugenio",
    "v": "Deportivo Mitre",
-   "dia": "2026-11-14",
-   "hora": "09:00",
+   "dia": "2026-11-12",
+   "hora": "20:15",
    "etapa": "Permanencia",
    "pl": 7,
    "pv": 8,
@@ -151,7 +134,7 @@
    "n": 8,
    "base": 8,
    "tipo": "descenso",
-   "altasL": 1,
+   "altasL": 0,
    "altasV": 2
   },
   {

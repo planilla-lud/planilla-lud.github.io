@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"D\" TIT. y ASC.",
   "Cancha": "SPORT 11",
-  "Fecha_Inicio": "2026-11-07 12:45:00",
-  "Fecha_fin": "2026-11-07 12:45:00",
+  "Fecha_Inicio": "2026-11-07 13:15:00",
+  "Fecha_fin": "2026-11-07 13:15:00",
   "Locatario": "ARQUITECTURA JRS.",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,249 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "67481",
+   "Nombre": "DYLAN IVAN VALLE",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "61430",
+   "Nombre": "GASTON NICOLAS DE OLIVEIRA",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "69020",
+   "Nombre": "ADRIAN ESTEBAN RIBAS",
+   "camiseta": "87",
+   "Capitan": ""
+  },
+  {
+   "carne": "62016",
+   "Nombre": "MARCO TADEO CRISTINO",
+   "camiseta": "90",
+   "Capitan": ""
+  },
+  {
+   "carne": "61751",
+   "Nombre": "NAHUEL PEREZ",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "48790",
+   "Nombre": "JOAQUIN BORUCKI",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "52388",
+   "Nombre": "SANTIAGO GONZALEZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "68518",
+   "Nombre": "AGUSTIN EMANUEL ORTIZ",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "56535",
+   "Nombre": "FRANCO NICOLAS BARCELO",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "58911",
+   "Nombre": "NICOLAS MOSQUEIRA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "58075",
+   "Nombre": "AGUSTIN PEREYRA",
+   "camiseta": "81",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "62388",
+   "Nombre": "GONZALO VERANO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "36828",
+   "Nombre": "JUAN GIBERT",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "48897",
+   "Nombre": "FRANCISCO BARAIBAR",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "51919",
+   "Nombre": "SANTIAGO GRAU PEREZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "54929",
+   "Nombre": "MARTIN TALMON",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "57205",
+   "Nombre": "DIAGO COSTA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "69213",
+   "Nombre": "MATEO MIGUELEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "48529",
+   "Nombre": "MATHEUS FRANCISCO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "61002",
+   "Nombre": "PEDRO RAINERI",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "51154",
+   "Nombre": "JUAN JOSE RAMON SCANDROGLIO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "45874",
+   "Nombre": "LUCAS BURGHI",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "56535",
+   "Jug_Sale": "FRANCO NICOLAS BARCELO",
+   "CarneEntra": "69195",
+   "Jug_Entra": "AGUSTIN ETCHEVERRY",
+   "camiseta": "99",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58075",
+   "Jug_Sale": "AGUSTIN PEREYRA",
+   "CarneEntra": "57707",
+   "Jug_Entra": "JUAN MATEO NIEVAS",
+   "camiseta": "23",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61430",
+   "Jug_Sale": "GASTON NICOLAS DE OLIVEIRA",
+   "CarneEntra": "58675",
+   "Jug_Entra": "CARMELO COCCO",
+   "camiseta": "81",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "68518",
+   "Jug_Sale": "AGUSTIN EMANUEL ORTIZ",
+   "CarneEntra": "56535",
+   "Jug_Entra": "FRANCO NICOLAS BARCELO",
+   "camiseta": "77",
+   "minutos": "76"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "54929",
+   "Jug_Sale": "MARTIN TALMON",
+   "CarneEntra": "55866",
+   "Jug_Entra": "FEDERICO BUHL",
+   "camiseta": "20",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "51154",
+   "Jug_Sale": "JUAN JOSE RAMON SCANDROGLIO",
+   "CarneEntra": "45878",
+   "Jug_Entra": "NICOLAS PEREZ",
+   "camiseta": "7",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "57205",
+   "Jug_Sale": "DIAGO COSTA",
+   "CarneEntra": "38746",
+   "Jug_Entra": "JUAN MANUEL PAGOLA",
+   "camiseta": "4",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "48529",
+   "Jug_Sale": "MATHEUS FRANCISCO",
+   "CarneEntra": "47715",
+   "Jug_Entra": "PHILIPPE CHAPT",
+   "camiseta": "13",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "45874",
+   "Jug_Sale": "LUCAS BURGHI",
+   "CarneEntra": "42785",
+   "Jug_Entra": "MARTIN DANIEL PEREZ",
+   "camiseta": "19",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "61002",
+   "Jug_Sale": "PEDRO RAINERI",
+   "CarneEntra": "50709",
+   "Jug_Entra": "LORENZO MAZZUCCHELLI",
+   "camiseta": "18",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "48897",
+   "Jug_Sale": "FRANCISCO BARAIBAR",
+   "CarneEntra": "46857",
+   "Jug_Entra": "GABRIEL MARTINEZ",
+   "camiseta": "24",
+   "minutos": "75"
+  }
+ ],
  "golesL": [],
- "golesV": [],
+ "golesV": [
+  {
+   "carne": "45874",
+   "Nombre": "LUCAS BURGHI",
+   "minutos": "72",
+   "EnContra": "1"
+  },
+  {
+   "carne": "51919",
+   "Nombre": "SANTIAGO GRAU PEREZ",
+   "minutos": "56",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

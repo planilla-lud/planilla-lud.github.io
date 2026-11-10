@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"A\" TITULO",
   "Cancha": "COMP. DEVOTO (NAUT. PICHINCHA)",
-  "Fecha_Inicio": "2026-11-07 10:30:00",
-  "Fecha_fin": "2026-11-07 10:30:00",
+  "Fecha_Inicio": "2026-11-07 11:00:00",
+  "Fecha_fin": "2026-11-07 11:00:00",
   "Locatario": "NAUTICO CARRASCO Y PUNTA GORDA",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,248 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "55007",
+   "Nombre": "FACUNDO SERGIO RIGOLI",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "53624",
+   "Nombre": "MATEO OURTHE",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "42059",
+   "Nombre": "RODRIGO FERREIRO",
+   "camiseta": "3",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "53595",
+   "Nombre": "CARLOS GONZALO DANERS",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "49414",
+   "Nombre": "DIEGO GABRIEL HANDALIAN",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "48896",
+   "Nombre": "FACUNDO ALPUIN",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "55476",
+   "Nombre": "IGNACIO MELLO",
+   "camiseta": "52",
+   "Capitan": ""
+  },
+  {
+   "carne": "54738",
+   "Nombre": "THIAGO MORLAN",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "55719",
+   "Nombre": "NICOLAS REY",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "55602",
+   "Nombre": "CAETANO MARRONE",
+   "camiseta": "92",
+   "Capitan": ""
+  },
+  {
+   "carne": "61249",
+   "Nombre": "AGUSTIN PALOMINO",
+   "camiseta": "13",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "55226",
+   "Nombre": "ALFONSO DEL CASTILLO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "54053",
+   "Nombre": "FRANCO BUYSAN",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "35068",
+   "Nombre": "MATEO DI LORENZO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "53219",
+   "Nombre": "JOAQUIN LARRAECHA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "41003",
+   "Nombre": "FEDERICO BARRIOS",
+   "camiseta": "12",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "42263",
+   "Nombre": "JUAN MARTIN ROMANIELLO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "52355",
+   "Nombre": "SANTIAGO PAZ RODRIGUEZ",
+   "camiseta": "47",
+   "Capitan": ""
+  },
+  {
+   "carne": "39601",
+   "Nombre": "NICOLAS OEHLER",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "63476",
+   "Nombre": "BAUTISTA MARIANO RODRIGUEZ ALEMPARTE",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "51886",
+   "Nombre": "LUCAS ALONSO",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "62462",
+   "Nombre": "JUAN GABRIEL ALVAREZ",
+   "camiseta": "97",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "55719",
+   "Jug_Sale": "NICOLAS REY",
+   "CarneEntra": "47736",
+   "Jug_Entra": "TOMAS CONDE",
+   "camiseta": "16",
+   "minutos": "45"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "51886",
+   "Jug_Sale": "LUCAS ALONSO",
+   "CarneEntra": "54480",
+   "Jug_Entra": "FACUNDO BELO",
+   "camiseta": "30",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "42263",
+   "Jug_Sale": "JUAN MARTIN ROMANIELLO",
+   "CarneEntra": "52606",
+   "Jug_Entra": "JUAN DIEGO CALABUIG",
+   "camiseta": "5",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "52355",
+   "Jug_Sale": "SANTIAGO PAZ RODRIGUEZ",
+   "CarneEntra": "52396",
+   "Jug_Entra": "TOMAS DI LORENZO",
+   "camiseta": "96",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "39601",
+   "Jug_Sale": "NICOLAS OEHLER",
+   "CarneEntra": "39425",
+   "Jug_Entra": "SANTIAGO MARAFFI",
+   "camiseta": "39",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "63476",
+   "Jug_Sale": "BAUTISTA MARIANO RODRIGUEZ ALEMPARTE",
+   "CarneEntra": "42262",
+   "Jug_Entra": "FELIPE LOPEZ",
+   "camiseta": "9",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "53219",
+   "Jug_Sale": "JOAQUIN LARRAECHA",
+   "CarneEntra": "52688",
+   "Jug_Entra": "FRANCO RAUL CORREA",
+   "camiseta": "22",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "35068",
+   "Jug_Sale": "MATEO DI LORENZO",
+   "CarneEntra": "37171",
+   "Jug_Entra": "MATEO DIEGO BLENGIO",
+   "camiseta": "18",
+   "minutos": "65"
+  }
+ ],
  "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "golesV": [
+  {
+   "carne": "54053",
+   "Nombre": "FRANCO BUYSAN",
+   "minutos": "41",
+   "EnContra": "1"
+  },
+  {
+   "carne": "62462",
+   "Nombre": "JUAN GABRIEL ALVAREZ",
+   "minutos": "10",
+   "EnContra": "1"
+  },
+  {
+   "carne": "62462",
+   "Nombre": "JUAN GABRIEL ALVAREZ",
+   "minutos": "27",
+   "EnContra": "1"
+  },
+  {
+   "carne": "62462",
+   "Nombre": "JUAN GABRIEL ALVAREZ",
+   "minutos": "52",
+   "EnContra": "1"
+  },
+  {
+   "carne": "62462",
+   "Nombre": "JUAN GABRIEL ALVAREZ",
+   "minutos": "85",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "FACUNDO ALPUIN",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

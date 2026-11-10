@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"A\" PER. y DESC.",
   "Cancha": "MONTE VI \"LOS CEIBOS\"",
-  "Fecha_Inicio": "2026-11-07 12:45:00",
-  "Fecha_fin": "2026-11-07 12:45:00",
+  "Fecha_Inicio": "2026-11-07 13:00:00",
+  "Fecha_fin": "2026-11-07 13:00:00",
   "Locatario": "CEIBOS CLUB",
   "goles_locatario": "3",
   "puntos_locatario": "3",
@@ -29,12 +29,268 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "53017",
+   "Nombre": "ALFONSO GIMENEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "43274",
+   "Nombre": "RAFAEL MONESTIER",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "41605",
+   "Nombre": "NICOLAS MURO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "41897",
+   "Nombre": "IGNACIO CABRERA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "41651",
+   "Nombre": "JOSE MIGUEL MARTIRENA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "53505",
+   "Nombre": "SANTIAGO LOPEZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "54403",
+   "Nombre": "IGNACIO GIMENEZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "41411",
+   "Nombre": "JOAQUIN ALEJANDRO GOMEZ",
+   "camiseta": "8",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "43266",
+   "Nombre": "FERNANDO INTHAMOUSSU",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "43260",
+   "Nombre": "JUAN DIEGO TORRES NEGREIRA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "58393",
+   "Nombre": "MANUEL ECHEVARRIA",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "56248",
+   "Nombre": "FACUNDO JOSE QUINTELA",
+   "camiseta": "1",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "57214",
+   "Nombre": "IGNACIO DENIS",
+   "camiseta": "55",
+   "Capitan": ""
+  },
+  {
+   "carne": "37267",
+   "Nombre": "SANTIAGO CABALLERO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "49021",
+   "Nombre": "JUAN IGNACIO CANESSA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "51137",
+   "Nombre": "JULIO FERMIN BLANCO",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "33845",
+   "Nombre": "CARLOS IGNACIO GRILLO",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "45119",
+   "Nombre": "MATEO BANDIRALI",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "37519",
+   "Nombre": "DARIO VECCHIO",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "35445",
+   "Nombre": "SANTIAGO FELIPE MICHELINI",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "51960",
+   "Nombre": "FEDERICO VAREIKA",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "55469",
+   "Nombre": "ALFONSO ALVAREZ",
+   "camiseta": "28",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "41605",
+   "Jug_Sale": "NICOLAS MURO",
+   "CarneEntra": "55124",
+   "Jug_Entra": "JOSE MARIA BARRABINO",
+   "camiseta": "13",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "41411",
+   "Jug_Sale": "JOAQUIN ALEJANDRO GOMEZ",
+   "CarneEntra": "63231",
+   "Jug_Entra": "ALFREDO NAVARRO",
+   "camiseta": "14",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "58393",
+   "Jug_Sale": "MANUEL ECHEVARRIA",
+   "CarneEntra": "57312",
+   "Jug_Entra": "JOAQUIN ARAMBERRI",
+   "camiseta": "17",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "54403",
+   "Jug_Sale": "IGNACIO GIMENEZ",
+   "CarneEntra": "53018",
+   "Jug_Entra": "JOSEMARIA JUAN PABLO GARI",
+   "camiseta": "3",
+   "minutos": "88"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "51960",
+   "Jug_Sale": "FEDERICO VAREIKA",
+   "CarneEntra": "44982",
+   "Jug_Entra": "FEDERICO RUIZ",
+   "camiseta": "9",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "55469",
+   "Jug_Sale": "ALFONSO ALVAREZ",
+   "CarneEntra": "55154",
+   "Jug_Entra": "IÑAKI ESTABLE",
+   "camiseta": "77",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "33845",
+   "Jug_Sale": "CARLOS IGNACIO GRILLO",
+   "CarneEntra": "55159",
+   "Jug_Entra": "JUAN IGNACIO REICH",
+   "camiseta": "23",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "37519",
+   "Jug_Sale": "DARIO VECCHIO",
+   "CarneEntra": "68462",
+   "Jug_Entra": "DANIEL JOSE GUANI",
+   "camiseta": "26",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "35445",
+   "Jug_Sale": "SANTIAGO FELIPE MICHELINI",
+   "CarneEntra": "39033",
+   "Jug_Entra": "IGNACIO TALVI",
+   "camiseta": "98",
+   "minutos": "81"
+  },
+  {
+   "CarneSale": "45119",
+   "Jug_Sale": "MATEO BANDIRALI",
+   "CarneEntra": "40998",
+   "Jug_Entra": "FELIPE FRUGONE",
+   "camiseta": "22",
+   "minutos": "51"
+  },
+  {
+   "CarneSale": "37267",
+   "Jug_Sale": "SANTIAGO CABALLERO",
+   "CarneEntra": "33722",
+   "Jug_Entra": "JUAN IGNACIO MOLINARO",
+   "camiseta": "14",
+   "minutos": "83"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "43260",
+   "Nombre": "JUAN DIEGO TORRES NEGREIRA",
+   "minutos": "39",
+   "EnContra": "0"
+  },
+  {
+   "carne": "43260",
+   "Nombre": "JUAN DIEGO TORRES NEGREIRA",
+   "minutos": "63",
+   "EnContra": "0"
+  },
+  {
+   "carne": "58393",
+   "Nombre": "MANUEL ECHEVARRIA",
+   "minutos": "6",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "35445",
+   "Nombre": "SANTIAGO FELIPE MICHELINI",
+   "minutos": "51",
+   "EnContra": "1"
+  },
+  {
+   "carne": "44982",
+   "Nombre": "FEDERICO RUIZ",
+   "minutos": "56",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }
