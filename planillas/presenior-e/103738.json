@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "PS DIV. E 2ªR COPA ORO",
   "Cancha": "COMPLEJO ABUA",
-  "Fecha_Inicio": "2026-11-07 10:30:00",
-  "Fecha_fin": "2026-11-07 10:30:00",
+  "Fecha_Inicio": "2026-11-07 10:50:00",
+  "Fecha_fin": "2026-11-07 10:50:00",
   "Locatario": "BELLA UNION UNIVERSITARIO",
   "goles_locatario": "1",
   "puntos_locatario": "0",
@@ -29,12 +29,262 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "67674",
+   "Nombre": "JUAN JOSE ANCHIETA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "45482",
+   "Nombre": "JOSE MIGUEL SOMACAL",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "53051",
+   "Nombre": "AGUSTIN MAIOCHI",
+   "camiseta": "69",
+   "Capitan": ""
+  },
+  {
+   "carne": "57376",
+   "Nombre": "ANDRES SEBASTIAN ROVETTA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "58245",
+   "Nombre": "JOSE EMILIO VILLAR",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "60341",
+   "Nombre": "JONATHAN ALVEZ",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "45583",
+   "Nombre": "JUAN IGNACIO BRYSK",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "45449",
+   "Nombre": "MANUEL QUINTANA",
+   "camiseta": "50",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "41311",
+   "Nombre": "LEONARDO DANIEL GARCIA",
+   "camiseta": "92",
+   "Capitan": ""
+  },
+  {
+   "carne": "57873",
+   "Nombre": "MATIAS ARIEL DE LOS SANTOS",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "51431",
+   "Nombre": "VICTOR EDUARDO ARBIZA",
+   "camiseta": "86",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "40145",
+   "Nombre": "KEVIN SANTIAGO LUZARDO",
+   "camiseta": "45",
+   "Capitan": ""
+  },
+  {
+   "carne": "54723",
+   "Nombre": "MICHAEL ANDRES MARTINEZ",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "35393",
+   "Nombre": "MATIAS NICOLAS SOMMA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "48560",
+   "Nombre": "HERNAN FABRICIO DI MATTIA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "32102",
+   "Nombre": "MAURICIO NICOLAS WURTH",
+   "camiseta": "69",
+   "Capitan": ""
+  },
+  {
+   "carne": "41786",
+   "Nombre": "MATHIAS EZEQUIEL BONILLA",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "37182",
+   "Nombre": "SANTIAGO MALLO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "32667",
+   "Nombre": "AGUSTIN IGNACIO FLIELLER",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "38957",
+   "Nombre": "FEDERICO ANDRES GRANDE",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "44958",
+   "Nombre": "FERNANDO GONZALEZ",
+   "camiseta": "41",
+   "Capitan": ""
+  },
+  {
+   "carne": "66785",
+   "Nombre": "RODRIGO ARCE",
+   "camiseta": "37",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "58245",
+   "Jug_Sale": "JOSE EMILIO VILLAR",
+   "CarneEntra": "38804",
+   "Jug_Entra": "JUAN JOSE PAGLIASSO",
+   "camiseta": "31",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "41311",
+   "Jug_Sale": "LEONARDO DANIEL GARCIA",
+   "CarneEntra": "58388",
+   "Jug_Entra": "DAMIAN LATORRE",
+   "camiseta": "80",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "60341",
+   "Jug_Sale": "JONATHAN ALVEZ",
+   "CarneEntra": "31733",
+   "Jug_Entra": "ANIBAL MORAES",
+   "camiseta": "7",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "51431",
+   "Jug_Sale": "VICTOR EDUARDO ARBIZA",
+   "CarneEntra": "40578",
+   "Jug_Entra": "SANTIAGO DUARTE",
+   "camiseta": "33",
+   "minutos": "82"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "44958",
+   "Jug_Sale": "FERNANDO GONZALEZ",
+   "CarneEntra": "49734",
+   "Jug_Entra": "MAXIMILIANO TEJERA",
+   "camiseta": "13",
+   "minutos": "21"
+  },
+  {
+   "CarneSale": "37182",
+   "Jug_Sale": "SANTIAGO MALLO",
+   "CarneEntra": "51999",
+   "Jug_Entra": "DIEGO GODOY",
+   "camiseta": "9",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66785",
+   "Jug_Sale": "RODRIGO ARCE",
+   "CarneEntra": "44673",
+   "Jug_Entra": "SANTIAGO ISAIAS SOLE",
+   "camiseta": "73",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "41786",
+   "Jug_Sale": "MATHIAS EZEQUIEL BONILLA",
+   "CarneEntra": "46824",
+   "Jug_Entra": "ERNESTO FERNANDEZ",
+   "camiseta": "12",
+   "minutos": "28"
+  },
+  {
+   "CarneSale": "48560",
+   "Jug_Sale": "HERNAN FABRICIO DI MATTIA",
+   "CarneEntra": "44857",
+   "Jug_Entra": "FRANCO SORMANI",
+   "camiseta": "33",
+   "minutos": "28"
+  },
+  {
+   "CarneSale": "38957",
+   "Jug_Sale": "FEDERICO ANDRES GRANDE",
+   "CarneEntra": "50234",
+   "Jug_Entra": "LEANDRO SILVA",
+   "camiseta": "23",
+   "minutos": "81"
+  },
+  {
+   "CarneSale": "32102",
+   "Jug_Sale": "MAURICIO NICOLAS WURTH",
+   "CarneEntra": "34913",
+   "Jug_Entra": "MICHEL EDUARDO YERPO",
+   "camiseta": "15",
+   "minutos": "41"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "45449",
+   "Nombre": "MANUEL QUINTANA",
+   "minutos": "34",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "32667",
+   "Nombre": "AGUSTIN IGNACIO FLIELLER",
+   "minutos": "60",
+   "EnContra": "1"
+  },
+  {
+   "carne": "38957",
+   "Nombre": "FEDERICO ANDRES GRANDE",
+   "minutos": "26",
+   "EnContra": "1"
+  },
+  {
+   "carne": "44958",
+   "Nombre": "FERNANDO GONZALEZ",
+   "minutos": "52",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

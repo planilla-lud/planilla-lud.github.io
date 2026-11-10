@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"C\" TIT. y ASC.",
   "Cancha": "COLEGIO PIO",
-  "Fecha_Inicio": "2026-11-08 10:30:00",
-  "Fecha_fin": "2026-11-08 10:30:00",
+  "Fecha_Inicio": "2026-11-08 11:00:00",
+  "Fecha_fin": "2026-11-08 11:00:00",
   "Locatario": "WOLFRAMIO",
   "goles_locatario": "4",
   "puntos_locatario": "3",
@@ -29,11 +29,276 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "54125",
+   "Nombre": "MATIAS FEDERICO AREVALO",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "56034",
+   "Nombre": "AGUSTIN MENDES",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "64859",
+   "Nombre": "GONZALO FERREIRA",
+   "camiseta": "43",
+   "Capitan": ""
+  },
+  {
+   "carne": "54706",
+   "Nombre": "JUAN DIEGO SUNDBERG",
+   "camiseta": "6",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "51268",
+   "Nombre": "SANTIAGO RODRIGUEZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "67261",
+   "Nombre": "MARTIN PAZ",
+   "camiseta": "67",
+   "Capitan": ""
+  },
+  {
+   "carne": "62391",
+   "Nombre": "JOAQUIN TECHERA SAMPAYO",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "63364",
+   "Nombre": "MATEO MADRUGA",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "41585",
+   "Nombre": "ALVARO FRANCISCO MARTINEZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "52078",
+   "Nombre": "JUAN IGNACIO MENDEZ",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "67001",
+   "Nombre": "GERVASIO MUÑOZ",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "62320",
+   "Nombre": "JOAQUIN GABRIEL MEDEROS",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "47195",
+   "Nombre": "SANTIAGO RODRIGUEZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "67591",
+   "Nombre": "JOSE LUIS MONTAÑES",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "58614",
+   "Nombre": "DIEGO ALLENDE",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "44534",
+   "Nombre": "FRANCO DE GREGORIO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "56712",
+   "Nombre": "RENZO LESCANO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "40962",
+   "Nombre": "JUAN MANUEL MARQUES",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "61843",
+   "Nombre": "JUAN ANDRES BARRIOS",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "59163",
+   "Nombre": "FEDERICO ISMAEL MENDOZA",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "63586",
+   "Nombre": "EMILIANO ARREGUI",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "64473",
+   "Nombre": "GIANFRANCO MARCHIORO",
+   "camiseta": "21",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "63364",
+   "Jug_Sale": "MATEO MADRUGA",
+   "CarneEntra": "66379",
+   "Jug_Entra": "MARTIN FALCON",
+   "camiseta": "69",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "52078",
+   "Jug_Sale": "JUAN IGNACIO MENDEZ",
+   "CarneEntra": "58707",
+   "Jug_Entra": "GUZMAN MAZZEI",
+   "camiseta": "11",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "41585",
+   "Jug_Sale": "ALVARO FRANCISCO MARTINEZ",
+   "CarneEntra": "46445",
+   "Jug_Entra": "GERMAN ODONNELL MORALES",
+   "camiseta": "10",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "67261",
+   "Jug_Sale": "MARTIN PAZ",
+   "CarneEntra": "45611",
+   "Jug_Entra": "FRANCISCO FERREIRA",
+   "camiseta": "8",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "67001",
+   "Jug_Sale": "GERVASIO MUÑOZ",
+   "CarneEntra": "36328",
+   "Jug_Entra": "MARTIN BRUSCHERA",
+   "camiseta": "21",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "51268",
+   "Jug_Sale": "SANTIAGO RODRIGUEZ",
+   "CarneEntra": "52741",
+   "Jug_Entra": "MATEO SORRIBAS",
+   "camiseta": "4",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "62391",
+   "Jug_Sale": "JOAQUIN TECHERA SAMPAYO",
+   "CarneEntra": "42746",
+   "Jug_Entra": "SANTIAGO SORRIBAS",
+   "camiseta": "44",
+   "minutos": "77"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "59163",
+   "Jug_Sale": "FEDERICO ISMAEL MENDOZA",
+   "CarneEntra": "68948",
+   "Jug_Entra": "NICOLAS BERTIZ",
+   "camiseta": "19",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "63586",
+   "Jug_Sale": "EMILIANO ARREGUI",
+   "CarneEntra": "58023",
+   "Jug_Entra": "MANUEL MENDEZ",
+   "camiseta": "20",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61843",
+   "Jug_Sale": "JUAN ANDRES BARRIOS",
+   "CarneEntra": "63586",
+   "Jug_Entra": "EMILIANO ARREGUI",
+   "camiseta": "9",
+   "minutos": "50"
+  },
+  {
+   "CarneSale": "67591",
+   "Jug_Sale": "JOSE LUIS MONTAÑES",
+   "CarneEntra": "51293",
+   "Jug_Entra": "JUAN MARTIN CABALLERO",
+   "camiseta": "29",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "47195",
+   "Jug_Sale": "SANTIAGO RODRIGUEZ",
+   "CarneEntra": "59163",
+   "Jug_Entra": "FEDERICO ISMAEL MENDOZA",
+   "camiseta": "5",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "44534",
+   "Jug_Sale": "FRANCO DE GREGORIO",
+   "CarneEntra": "47195",
+   "Jug_Entra": "SANTIAGO RODRIGUEZ",
+   "camiseta": "7",
+   "minutos": "72"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "41585",
+   "Nombre": "ALVARO FRANCISCO MARTINEZ",
+   "minutos": "46",
+   "EnContra": "0"
+  },
+  {
+   "carne": "58707",
+   "Nombre": "GUZMAN MAZZEI",
+   "minutos": "62",
+   "EnContra": "0"
+  },
+  {
+   "carne": "66379",
+   "Nombre": "MARTIN FALCON",
+   "minutos": "71",
+   "EnContra": "0"
+  },
+  {
+   "carne": "67001",
+   "Nombre": "GERVASIO MUÑOZ",
+   "minutos": "31",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

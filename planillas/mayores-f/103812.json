@@ -4,7 +4,7 @@
  "serie": "FTA",
  "fecha": 7,
  "fechaHora": "2026-11-08 11:15:00",
- "cancha": "SAN EUGENIO",
+ "cancha": "COMPLEJO DEPORTIVO ARRAYANES",
  "local": "BELLA UNION UNIVERSITARIO",
  "visitante": "DEP.de la C. ARETEIA BIMBULLY",
  "gl": 2,
@@ -17,9 +17,9 @@
   "categoria": "MAYORES MASCULINO",
   "rueda": "2",
   "Divisional": "MAYORES \"F\" TIT. y ASC.",
-  "Cancha": "SAN EUGENIO",
-  "Fecha_Inicio": "2026-11-08 12:45:00",
-  "Fecha_fin": "2026-11-08 12:45:00",
+  "Cancha": "COMPLEJO DEPORTIVO ARRAYANES",
+  "Fecha_Inicio": "2026-11-08 13:05:00",
+  "Fecha_fin": "2026-11-08 13:05:00",
   "Locatario": "BELLA UNION UNIVERSITARIO",
   "goles_locatario": "2",
   "puntos_locatario": "1",
@@ -29,12 +29,270 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "60893",
+   "Nombre": "LEONARDO GABRIEL PEREIRA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "60851",
+   "Nombre": "IGNACIO DUARTE",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "68480",
+   "Nombre": "MAIKOL MACIEL",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "66284",
+   "Nombre": "JUAN IGNACIO BARCELLOS",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "64725",
+   "Nombre": "JUAN ROBERTO CAPIZAN",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "49701",
+   "Nombre": "CRISTIAN CARBALLO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "51809",
+   "Nombre": "ALEXANDRE GABRIEL DIAZ",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "56169",
+   "Nombre": "MAXIMILIANO LOPEZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "47980",
+   "Nombre": "HERNAN OXANDABARAT",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "45449",
+   "Nombre": "MANUEL QUINTANA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "41775",
+   "Nombre": "MARIANO GABRIEL MARQUEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "66499",
+   "Nombre": "LEANDRO HORACIO SELVES",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "58394",
+   "Nombre": "JUAN PEDRO MONTAÑES",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "48961",
+   "Nombre": "MATIAS NICOLAS LOPEZ",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "66500",
+   "Nombre": "CESAR MANUEL GARCIA",
+   "camiseta": "71",
+   "Capitan": ""
+  },
+  {
+   "carne": "66498",
+   "Nombre": "FACUNDO ECHEVERRIA",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "59893",
+   "Nombre": "GERONIMO MANUEL ACOSTA",
+   "camiseta": "66",
+   "Capitan": ""
+  },
+  {
+   "carne": "57092",
+   "Nombre": "JOAQUIN DE LOS SANTOS",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "62869",
+   "Nombre": "IGNACIO GERMAN",
+   "camiseta": "80",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "58365",
+   "Nombre": "FEDERICO NAVARRO",
+   "camiseta": "36",
+   "Capitan": ""
+  },
+  {
+   "carne": "57883",
+   "Nombre": "ISMAEL SOTO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "57109",
+   "Nombre": "MATEO DE LOS SANTOS",
+   "camiseta": "72",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "60851",
+   "Jug_Sale": "IGNACIO DUARTE",
+   "CarneEntra": "57139",
+   "Jug_Entra": "ELBIO YONATAN FERREIRA",
+   "camiseta": "12",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66284",
+   "Jug_Sale": "JUAN IGNACIO BARCELLOS",
+   "CarneEntra": "50135",
+   "Jug_Entra": "FABRICIO NICOLAS MARENCO",
+   "camiseta": "33",
+   "minutos": "69"
+  },
+  {
+   "CarneSale": "45449",
+   "Jug_Sale": "MANUEL QUINTANA",
+   "CarneEntra": "61006",
+   "Jug_Entra": "MAICKOL GABRIEL MACHADO",
+   "camiseta": "27",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "56169",
+   "Jug_Sale": "MAXIMILIANO LOPEZ",
+   "CarneEntra": "49457",
+   "Jug_Entra": "FACUNDO PEREIRA",
+   "camiseta": "2",
+   "minutos": "86"
+  },
+  {
+   "CarneSale": "41775",
+   "Jug_Sale": "MARIANO GABRIEL MARQUEZ",
+   "CarneEntra": "61892",
+   "Jug_Entra": "LEANDRO RODRIGUEZ",
+   "camiseta": "24",
+   "minutos": "86"
+  },
+  {
+   "CarneSale": "47980",
+   "Jug_Sale": "HERNAN OXANDABARAT",
+   "CarneEntra": "49700",
+   "Jug_Entra": "LEANDRO MARTIN SARASUA",
+   "camiseta": "20",
+   "minutos": "92"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "57109",
+   "Jug_Sale": "MATEO DE LOS SANTOS",
+   "CarneEntra": "45228",
+   "Jug_Entra": "SEBASTIAN PACHECO",
+   "camiseta": "6",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "59893",
+   "Jug_Sale": "GERONIMO MANUEL ACOSTA",
+   "CarneEntra": "69168",
+   "Jug_Entra": "VICTOR MANUEL BATALLA",
+   "camiseta": "37",
+   "minutos": "49"
+  },
+  {
+   "CarneSale": "57092",
+   "Jug_Sale": "JOAQUIN DE LOS SANTOS",
+   "CarneEntra": "58366",
+   "Jug_Entra": "MARCO MARCELO BORDON",
+   "camiseta": "18",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "58365",
+   "Jug_Sale": "FEDERICO NAVARRO",
+   "CarneEntra": "64271",
+   "Jug_Entra": "THIAGO OTERO",
+   "camiseta": "38",
+   "minutos": "74"
+  },
+  {
+   "CarneSale": "48961",
+   "Jug_Sale": "MATIAS NICOLAS LOPEZ",
+   "CarneEntra": "58237",
+   "Jug_Entra": "VALENTINO LORENZI",
+   "camiseta": "2",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "57883",
+   "Jug_Sale": "ISMAEL SOTO",
+   "CarneEntra": "58013",
+   "Jug_Entra": "IÑAKI GUDE",
+   "camiseta": "19",
+   "minutos": "60"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "51809",
+   "Nombre": "ALEXANDRE GABRIEL DIAZ",
+   "minutos": "55",
+   "EnContra": "0"
+  },
+  {
+   "carne": "56169",
+   "Nombre": "MAXIMILIANO LOPEZ",
+   "minutos": "28",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "58365",
+   "Nombre": "FEDERICO NAVARRO",
+   "minutos": "7",
+   "EnContra": "1"
+  },
+  {
+   "carne": "58365",
+   "Nombre": "FEDERICO NAVARRO",
+   "minutos": "37",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

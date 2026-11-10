@@ -1,17 +1,17 @@
 [
  {
   "serie": "RSDTA",
-  "fechaHora": "2026-11-07 11:15:00",
-  "cancha": "COMPLEJO NORTHFIELD",
-  "local": "CLUB SOCIAL PIEDRAS BLANCAS",
-  "visitante": "ISASA UNIVERSITARIO"
+  "fechaHora": "2026-11-12 21:00:00",
+  "cancha": "COMPLEJO LAS CASUARINAS",
+  "local": "ISASA UNIVERSITARIO",
+  "visitante": "TENIS EL PINAR SUB22"
  },
  {
   "serie": "RSDPD",
-  "fechaHora": "2026-11-07 11:15:00",
+  "fechaHora": "2026-11-12 21:00:00",
   "cancha": "COMPLEJO LAS CASUARINAS",
-  "local": "YAGUARI",
-  "visitante": "VARELA UNIVERSITARIO"
+  "local": "CLUB ATLETICO LIMBURGO",
+  "visitante": "SAN JOSE DE LA PROVIDENCIA uni"
  },
  {
   "serie": "RSDTA",
@@ -26,13 +26,6 @@
   "cancha": "COM. CLUB UNIVERSIDAD CATOLICA",
   "local": "C. U. CATOLICA AZUL",
   "visitante": "YAGUARI"
- },
- {
-  "serie": "RSDPD",
-  "fechaHora": "2026-11-14 09:00:00",
-  "cancha": "LIMBURGO -DR.J.L.PISCIOTTANO-",
-  "local": "CLUB ATLETICO LIMBURGO",
-  "visitante": "SAN JOSE DE LA PROVIDENCIA uni"
  },
  {
   "serie": "RSDTA",
@@ -54,13 +47,6 @@
   "cancha": "COMPLEJO 1GOL",
   "local": "CERVANTES UNIVERSITARIO",
   "visitante": "CLUB SOCIAL PIEDRAS BLANCAS"
- },
- {
-  "serie": "RSDTA",
-  "fechaHora": "2026-11-14 11:15:00",
-  "cancha": "COMPLEJO LAS CASUARINAS",
-  "local": "ISASA UNIVERSITARIO",
-  "visitante": "TENIS EL PINAR SUB22"
  },
  {
   "serie": "RSDTA",

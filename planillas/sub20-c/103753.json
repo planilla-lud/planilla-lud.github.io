@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "SUB20 \"C\" COPA DE PLATA",
   "Cancha": "PQUE. ELLIS - COL. SAN ISIDRO",
-  "Fecha_Inicio": "2026-11-07 17:00:00",
-  "Fecha_fin": "2026-11-07 17:00:00",
+  "Fecha_Inicio": "2026-11-07 17:15:00",
+  "Fecha_fin": "2026-11-07 17:15:00",
   "Locatario": "COLEGIO SAN ISIDRO",
   "goles_locatario": "2",
   "puntos_locatario": "1",
@@ -29,12 +29,262 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "69092",
+   "Nombre": "ALAN GUZMAN GONZALEZ",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "68015",
+   "Nombre": "GUILLERMO NICOLAS MOREIRA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "61557",
+   "Nombre": "IGNACIO PEREZ",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "67500",
+   "Nombre": "IGNACIO SPINOGLIO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "66240",
+   "Nombre": "FELIPE ROMAN BOVIO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "61124",
+   "Nombre": "BENJAMIN LOPEZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "62219",
+   "Nombre": "MATEO BERRIEL",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "66710",
+   "Nombre": "ENZO MIGUES",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "64522",
+   "Nombre": "MATIAS GATTI",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "67017",
+   "Nombre": "FELIPE PISANO",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "63499",
+   "Nombre": "JUAN FRANCISCO ARISPE",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "63051",
+   "Nombre": "LUCIANO MONTAÑA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "67932",
+   "Nombre": "BAUTISTA PAZ",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "67598",
+   "Nombre": "THIAGO ALEXANDER LOPEZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "67470",
+   "Nombre": "THIAGO JOEL DOS SANTOS",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "68184",
+   "Nombre": "SANTIAGO FONTOURA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "68630",
+   "Nombre": "FACUNDO TOMAS GUEVARA",
+   "camiseta": "20",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "68183",
+   "Nombre": "JOAQUIN JOAQUIN",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "67590",
+   "Nombre": "GASTON MATEO ALONSO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "67602",
+   "Nombre": "VALENTINO LAUTARO DE ARMAS",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "67462",
+   "Nombre": "BLAZ DANCKAR LANGHAIN",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "67607",
+   "Nombre": "LAUTARO ALEXANDER ALANIS",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "66240",
+   "Jug_Sale": "FELIPE ROMAN BOVIO",
+   "CarneEntra": "67016",
+   "Jug_Entra": "MARTIN NAHUEL AMARAL",
+   "camiseta": "42",
+   "minutos": "24"
+  },
+  {
+   "CarneSale": "64522",
+   "Jug_Sale": "MATIAS GATTI",
+   "CarneEntra": "59215",
+   "Jug_Entra": "SANTIAGO GABRIEL SOSA",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67500",
+   "Jug_Sale": "IGNACIO SPINOGLIO",
+   "CarneEntra": "61123",
+   "Jug_Entra": "GONZALO NAHUEL MELO",
+   "camiseta": "2",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "61557",
+   "Jug_Sale": "IGNACIO PEREZ",
+   "CarneEntra": "68355",
+   "Jug_Entra": "GERMAN DONATO LUCAS",
+   "camiseta": "23",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "63499",
+   "Jug_Sale": "JUAN FRANCISCO ARISPE",
+   "CarneEntra": "59228",
+   "Jug_Entra": "EMILIANO MAESTRO",
+   "camiseta": "16",
+   "minutos": "90"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "67602",
+   "Jug_Sale": "VALENTINO LAUTARO DE ARMAS",
+   "CarneEntra": "67469",
+   "Jug_Entra": "SANTIAGO DANIEL DE LA LLANA",
+   "camiseta": "16",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67607",
+   "Jug_Sale": "LAUTARO ALEXANDER ALANIS",
+   "CarneEntra": "67466",
+   "Jug_Entra": "FRANCO OTTONELLO",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67462",
+   "Jug_Sale": "BLAZ DANCKAR LANGHAIN",
+   "CarneEntra": "67607",
+   "Jug_Entra": "LAUTARO ALEXANDER ALANIS",
+   "camiseta": "7",
+   "minutos": "54"
+  },
+  {
+   "CarneSale": "67466",
+   "Jug_Sale": "FRANCO OTTONELLO",
+   "CarneEntra": "67600",
+   "Jug_Entra": "BRUNO NICOLAS YACQUE",
+   "camiseta": "11",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "67607",
+   "Jug_Sale": "LAUTARO ALEXANDER ALANIS",
+   "CarneEntra": "67465",
+   "Jug_Entra": "IGANCIO CAMEJO",
+   "camiseta": "8",
+   "minutos": "83"
+  },
+  {
+   "CarneSale": "68184",
+   "Jug_Sale": "SANTIAGO FONTOURA",
+   "CarneEntra": "67604",
+   "Jug_Entra": "IGNACIO GARCIA",
+   "camiseta": "27",
+   "minutos": "83"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "61123",
+   "Nombre": "GONZALO NAHUEL MELO",
+   "minutos": "89",
+   "EnContra": "0"
+  },
+  {
+   "carne": "66710",
+   "Nombre": "ENZO MIGUES",
+   "minutos": "50",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "67462",
+   "Nombre": "BLAZ DANCKAR LANGHAIN",
+   "minutos": "43",
+   "EnContra": "1"
+  },
+  {
+   "carne": "68630",
+   "Nombre": "FACUNDO TOMAS GUEVARA",
+   "minutos": "64",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

@@ -1,0 +1,260 @@
+{
+ "id": "103872",
+ "categoria": "mas40-b",
+ "serie": "40CC",
+ "fecha": 6,
+ "fechaHora": "2026-11-07 09:00:00",
+ "cancha": "COM.SINDICATO MEDICO",
+ "local": "SINDICATO MEDICO DEL URUGUAY",
+ "visitante": "CLUB ESTUDIANTES INGENIERIA",
+ "gl": 2,
+ "gv": 5,
+ "detalle": {
+  "nro_partido": "508",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "MAS 40",
+  "categoria": "MÁS 40 MASCULINO",
+  "rueda": "2",
+  "Divisional": "MAS40 \"B\" PER. y DESC,",
+  "Cancha": "COM.SINDICATO MEDICO",
+  "Fecha_Inicio": "2026-11-07 11:00:00",
+  "Fecha_fin": "2026-11-07 11:00:00",
+  "Locatario": "SINDICATO MEDICO DEL URUGUAY",
+  "goles_locatario": "2",
+  "puntos_locatario": "0",
+  "Visitante": "CLUB ESTUDIANTES INGENIERIA",
+  "goles_visitante": "5",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "16606",
+   "Nombre": "ALVARO CHIRICO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "24174",
+   "Nombre": "MARTIN HORACIO ZOLESSI",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "11999",
+   "Nombre": "JUAN MARCELO PAHOR",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "26918",
+   "Nombre": "PABLO RENATO ATAIDES",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "62618",
+   "Nombre": "GERMAN GIL",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "33140",
+   "Nombre": "DIEGO GASTON MACHADO",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "19035",
+   "Nombre": "STEVEN GABRIEL STOLFI",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "30779",
+   "Nombre": "FABRICIO JORDAN LUCERO",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "21110",
+   "Nombre": "ALEX ROBERTO BELLONI",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "13778",
+   "Nombre": "MARCELO SERGIO ICASURIAGA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "43128",
+   "Nombre": "LUIS MARCELO JURADO",
+   "camiseta": "34",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "36878",
+   "Nombre": "DARIO ALBERTO DE LEON",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "38770",
+   "Nombre": "ANTONIO MANUEL RODRIGUEZ",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "14351",
+   "Nombre": "CARLOS ANDRES ROMANO",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "66344",
+   "Nombre": "MARTIN CATTONI",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "46546",
+   "Nombre": "MARCELO JAVIER CASAVIEJA",
+   "camiseta": "36",
+   "Capitan": ""
+  },
+  {
+   "carne": "32307",
+   "Nombre": "RAMIRO VICENTE MOYANO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "25364",
+   "Nombre": "LEANDRO APARICIO GALETTA",
+   "camiseta": "48",
+   "Capitan": ""
+  },
+  {
+   "carne": "51305",
+   "Nombre": "PABLO ANDRES NAVARRETE",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "15132",
+   "Nombre": "ALEJANDRO ALVARO BELLERATI",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "17392",
+   "Nombre": "JOSE PEDRO RAMIREZ",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "61104",
+   "Nombre": "FABIAN ACOSTA",
+   "camiseta": "90",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "30779",
+   "Jug_Sale": "FABRICIO JORDAN LUCERO",
+   "CarneEntra": "35376",
+   "Jug_Entra": "CARLOS ALBERTO FERREIRA",
+   "camiseta": "21",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "21110",
+   "Jug_Sale": "ALEX ROBERTO BELLONI",
+   "CarneEntra": "14857",
+   "Jug_Entra": "ROLANDO SANTANA",
+   "camiseta": "36",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "24174",
+   "Jug_Sale": "MARTIN HORACIO ZOLESSI",
+   "CarneEntra": "30779",
+   "Jug_Entra": "FABRICIO JORDAN LUCERO",
+   "camiseta": "24",
+   "minutos": "45"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "25364",
+   "Jug_Sale": "LEANDRO APARICIO GALETTA",
+   "CarneEntra": "13943",
+   "Jug_Entra": "JUAN JOSE CIARAN",
+   "camiseta": "87",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61104",
+   "Jug_Sale": "FABIAN ACOSTA",
+   "CarneEntra": "66613",
+   "Jug_Entra": "ALEJANDRO JAVIER POSES",
+   "camiseta": "12",
+   "minutos": "46"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "13778",
+   "Nombre": "MARCELO SERGIO ICASURIAGA",
+   "minutos": "20",
+   "EnContra": "0"
+  },
+  {
+   "carne": "43128",
+   "Nombre": "LUIS MARCELO JURADO",
+   "minutos": "30",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "17392",
+   "Nombre": "JOSE PEDRO RAMIREZ",
+   "minutos": "36",
+   "EnContra": "1"
+  },
+  {
+   "carne": "25364",
+   "Nombre": "LEANDRO APARICIO GALETTA",
+   "minutos": "70",
+   "EnContra": "1"
+  },
+  {
+   "carne": "32307",
+   "Nombre": "RAMIRO VICENTE MOYANO",
+   "minutos": "89",
+   "EnContra": "1"
+  },
+  {
+   "carne": "32307",
+   "Nombre": "RAMIRO VICENTE MOYANO",
+   "minutos": "90",
+   "EnContra": "1"
+  },
+  {
+   "carne": "61104",
+   "Nombre": "FABIAN ACOSTA",
+   "minutos": "72",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

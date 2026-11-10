@@ -4,7 +4,7 @@
  "serie": "RSDPD",
  "fecha": 10,
  "fechaHora": "2026-11-07 11:15:00",
- "cancha": "FUERZA AEREA",
+ "cancha": "()",
  "local": "CLUB FUERZA AEREA",
  "visitante": "C. U. CATOLICA AZUL",
  "gl": 0,
@@ -17,9 +17,9 @@
   "categoria": "RESERVA MASCULINO",
   "rueda": "2",
   "Divisional": "RESERVA \"D\" COPA DE PLATA",
-  "Cancha": "FUERZA AEREA",
-  "Fecha_Inicio": "2026-11-07 12:45:00",
-  "Fecha_fin": "2026-11-07 12:45:00",
+  "Cancha": "()",
+  "Fecha_Inicio": "2026-11-07 13:00:00",
+  "Fecha_fin": "2026-11-07 13:00:00",
   "Locatario": "CLUB FUERZA AEREA",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,291 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "50053",
+   "Nombre": "DAMIAN BARBITTA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "65781",
+   "Nombre": "AXEL NAHUEL PIMENTEL",
+   "camiseta": "16",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "24285",
+   "Nombre": "ALBERTO DE MEDINA",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "30093",
+   "Nombre": "FERNANDO GABRIEL DE MEDINA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "46851",
+   "Nombre": "GASTON RAFAEL MOIRANO",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "67300",
+   "Nombre": "BENJAMIN PEREIRA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "63480",
+   "Nombre": "SERGI YONATAN FERNANDEZ",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "63083",
+   "Nombre": "DIEGO NICOLAS GRACES",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "47191",
+   "Nombre": "CARLOS FACUNDO CABRERA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "57856",
+   "Nombre": "MAXIMO TOLEDO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "51915",
+   "Nombre": "EMILIANO DESEVO",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "58465",
+   "Nombre": "SANTIAGO MEYER",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "62786",
+   "Nombre": "AGUSTIN DEL PRESTITO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "65984",
+   "Nombre": "ALFONSO BACCINO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "67486",
+   "Nombre": "RODRIGO MAZZOLINI",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "66908",
+   "Nombre": "LUCIANO NICOLAS BUZON",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "68242",
+   "Nombre": "VALENTINO ISMAEL GOLLY",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "49235",
+   "Nombre": "SEBASTIAN PEDEMONTE",
+   "camiseta": "81",
+   "Capitan": ""
+  },
+  {
+   "carne": "45212",
+   "Nombre": "TOMAS BERRETA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "58900",
+   "Nombre": "MATIAS DUHALDE",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "66698",
+   "Nombre": "CONRADO DIAZ",
+   "camiseta": "50",
+   "Capitan": ""
+  },
+  {
+   "carne": "67483",
+   "Nombre": "OCTAVIO ALVEZ",
+   "camiseta": "15",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "30093",
+   "Jug_Sale": "FERNANDO GABRIEL DE MEDINA",
+   "CarneEntra": "67252",
+   "Jug_Entra": "ROBERT MARCELO MEHARU",
+   "camiseta": "20",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "63083",
+   "Jug_Sale": "DIEGO NICOLAS GRACES",
+   "CarneEntra": "60718",
+   "Jug_Entra": "ALEXANDER ENRIQUE LOPEZ",
+   "camiseta": "69",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "47191",
+   "Jug_Sale": "CARLOS FACUNDO CABRERA",
+   "CarneEntra": "68313",
+   "Jug_Entra": "MAURICIO JAVIER VIERA",
+   "camiseta": "24",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67300",
+   "Jug_Sale": "BENJAMIN PEREIRA",
+   "CarneEntra": "30083",
+   "Jug_Entra": "MATHIAS AYRTON FUIDIO",
+   "camiseta": "94",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "51915",
+   "Jug_Sale": "EMILIANO DESEVO",
+   "CarneEntra": "67300",
+   "Jug_Entra": "BENJAMIN PEREIRA",
+   "camiseta": "10",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "46851",
+   "Jug_Sale": "GASTON RAFAEL MOIRANO",
+   "CarneEntra": "30093",
+   "Jug_Entra": "FERNANDO GABRIEL DE MEDINA",
+   "camiseta": "8",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "65781",
+   "Jug_Sale": "AXEL NAHUEL PIMENTEL",
+   "CarneEntra": "63083",
+   "Jug_Entra": "DIEGO NICOLAS GRACES",
+   "camiseta": "21",
+   "minutos": "60"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "67486",
+   "Jug_Sale": "RODRIGO MAZZOLINI",
+   "CarneEntra": "67482",
+   "Jug_Entra": "DANILO LUCAS",
+   "camiseta": "14",
+   "minutos": "17"
+  },
+  {
+   "CarneSale": "68242",
+   "Jug_Sale": "VALENTINO ISMAEL GOLLY",
+   "CarneEntra": "59313",
+   "Jug_Entra": "SEBASTIAN ALEXIS JORAJURIA",
+   "camiseta": "26",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "62786",
+   "Jug_Sale": "AGUSTIN DEL PRESTITO",
+   "CarneEntra": "59797",
+   "Jug_Entra": "SEBASTIAN MARTINEZ",
+   "camiseta": "18",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "66698",
+   "Jug_Sale": "CONRADO DIAZ",
+   "CarneEntra": "66694",
+   "Jug_Entra": "BRAYAN MAXIMILIANO GALARZA",
+   "camiseta": "17",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "67483",
+   "Jug_Sale": "OCTAVIO ALVEZ",
+   "CarneEntra": "57934",
+   "Jug_Entra": "PABLO FERNANDEZ",
+   "camiseta": "99",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "45212",
+   "Jug_Sale": "TOMAS BERRETA",
+   "CarneEntra": "61906",
+   "Jug_Entra": "FRANCESCO GALLUCCI",
+   "camiseta": "9",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "49235",
+   "Jug_Sale": "SEBASTIAN PEDEMONTE",
+   "CarneEntra": "64129",
+   "Jug_Entra": "MATEO FURTADO",
+   "camiseta": "21",
+   "minutos": "73"
+  }
+ ],
  "golesL": [],
- "golesV": [],
+ "golesV": [
+  {
+   "carne": "66698",
+   "Nombre": "CONRADO DIAZ",
+   "minutos": "24",
+   "EnContra": "1"
+  },
+  {
+   "carne": "66698",
+   "Nombre": "CONRADO DIAZ",
+   "minutos": "25",
+   "EnContra": "1"
+  },
+  {
+   "carne": "66698",
+   "Nombre": "CONRADO DIAZ",
+   "minutos": "57",
+   "EnContra": "1"
+  },
+  {
+   "carne": "67483",
+   "Nombre": "OCTAVIO ALVEZ",
+   "minutos": "65",
+   "EnContra": "1"
+  },
+  {
+   "carne": "67483",
+   "Nombre": "OCTAVIO ALVEZ",
+   "minutos": "67",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

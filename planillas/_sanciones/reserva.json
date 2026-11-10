@@ -9115,6 +9115,19 @@
  {
   "tipo": "automatica",
   "fecha": "2026-11-07",
+  "partido": "721",
+  "serie": "RSBPD",
+  "carne": "41837",
+  "nombre": "FRANCISCO DOMINGO COSCO",
+  "club": "SAN JUAN BAUTISTA",
+  "sancion": "SANCIÓN AUTOMÁTICA",
+  "fechas": 1,
+  "detalle": "F:1 - UR:0",
+  "texto": "Sanción generada automáticamente por expulsión en el partido"
+ },
+ {
+  "tipo": "automatica",
+  "fecha": "2026-11-07",
   "partido": "719",
   "serie": "RSBPD",
   "carne": "46937",
@@ -9280,5 +9293,18 @@
   "fechas": 1,
   "detalle": "F:1 - UR:0",
   "texto": "Sanción generada automáticamente por expulsión en el partido"
+ },
+ {
+  "tipo": "automatica",
+  "fecha": "2026-11-10",
+  "partido": "721",
+  "serie": "RSBPD",
+  "carne": "42677",
+  "nombre": "DIEGO ALBERTO CLAVIJO",
+  "club": "",
+  "sancion": "SANCIÓN AUTOMÁTICA",
+  "fechas": 1,
+  "detalle": "F:1 - UR:0",
+  "texto": "SANCIÓN GENERADA AUTOMÁTICAMENTE."
  }
 ]

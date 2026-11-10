@@ -3,7 +3,7 @@
  "categoria": "mayores-d",
  "serie": "DTA",
  "fecha": 7,
- "fechaHora": "2026-11-08 11:15:00",
+ "fechaHora": "2026-11-08 11:30:00",
  "cancha": "COM. DEP. CLUB TROUVILLE",
  "local": "NUMA TURCATTI",
  "visitante": "LA 12 UNIVERSITARIA",
@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"D\" TIT. y ASC.",
   "Cancha": "COM. DEP. CLUB TROUVILLE",
-  "Fecha_Inicio": "2026-11-08 12:45:00",
-  "Fecha_fin": "2026-11-08 12:45:00",
+  "Fecha_Inicio": "2026-11-08 13:30:00",
+  "Fecha_fin": "2026-11-08 13:30:00",
   "Locatario": "NUMA TURCATTI",
   "goles_locatario": "1",
   "puntos_locatario": "3",
@@ -29,11 +29,218 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "37679",
+   "Nombre": "JORGE ANTONIO PONS",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "55052",
+   "Nombre": "AGUSTIN RODRIGUEZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "54622",
+   "Nombre": "JUAN MANUEL CADENAS",
+   "camiseta": "33",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "47895",
+   "Nombre": "TOMAS BAZAN",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "48317",
+   "Nombre": "THIAGO DA SILVA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "39900",
+   "Nombre": "BRUNO BRUZZONE",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "64138",
+   "Nombre": "DILAN NAHUEL GARCIA",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "64351",
+   "Nombre": "BRUNO SIMON",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "55412",
+   "Nombre": "DIEGO OTAÑO",
+   "camiseta": "46",
+   "Capitan": ""
+  },
+  {
+   "carne": "61334",
+   "Nombre": "ALAN JAVIER VALERA",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "39467",
+   "Nombre": "MATEO YUVET",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "33323",
+   "Nombre": "RICARDO NICOLAS FACAL",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "64340",
+   "Nombre": "ALEX ALFONSO",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "53887",
+   "Nombre": "IGNACIO RAUL ALVAREZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "38683",
+   "Nombre": "BRUNO CRISTIAN PEREYRA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "60785",
+   "Nombre": "JEREMY SEBASTIAN MORENO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "50527",
+   "Nombre": "FACUNDO TALAGORRIA",
+   "camiseta": "21",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "66938",
+   "Nombre": "MAURICIO ERNESTO PEREYRA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "52908",
+   "Nombre": "AGUSTIN SALVADOR ROSSELLO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "58016",
+   "Nombre": "MAURO MEDRANO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "55135",
+   "Nombre": "MATIAS MEDRANO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "60118",
+   "Nombre": "DIEGO VICENTE CESAR",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "55412",
+   "Jug_Sale": "DIEGO OTAÑO",
+   "CarneEntra": "42774",
+   "Jug_Entra": "LUIS ESTEBAN FERMER",
+   "camiseta": "12",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "61334",
+   "Jug_Sale": "ALAN JAVIER VALERA",
+   "CarneEntra": "54090",
+   "Jug_Entra": "HERNAN ARIEL CAÑETE",
+   "camiseta": "8",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "39900",
+   "Jug_Sale": "BRUNO BRUZZONE",
+   "CarneEntra": "57177",
+   "Jug_Entra": "IGNACIO GUERRERO",
+   "camiseta": "30",
+   "minutos": "94"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "58016",
+   "Jug_Sale": "MAURO MEDRANO",
+   "CarneEntra": "54654",
+   "Jug_Entra": "MARTIN BERASAIN",
+   "camiseta": "19",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "60118",
+   "Jug_Sale": "DIEGO VICENTE CESAR",
+   "CarneEntra": "43707",
+   "Jug_Entra": "FACUNDO MARIANO MUÑOZ",
+   "camiseta": "32",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "64340",
+   "Jug_Sale": "ALEX ALFONSO",
+   "CarneEntra": "41167",
+   "Jug_Entra": "MATEO TECHERA",
+   "camiseta": "18",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "60785",
+   "Jug_Sale": "JEREMY SEBASTIAN MORENO",
+   "CarneEntra": "60083",
+   "Jug_Entra": "GIANFRANCO CIMINO",
+   "camiseta": "27",
+   "minutos": "83"
+  },
+  {
+   "CarneSale": "55135",
+   "Jug_Sale": "MATIAS MEDRANO",
+   "CarneEntra": "53888",
+   "Jug_Entra": "JOAQUIN SOROKINS",
+   "camiseta": "30",
+   "minutos": "86"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "39467",
+   "Nombre": "MATEO YUVET",
+   "minutos": "70",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

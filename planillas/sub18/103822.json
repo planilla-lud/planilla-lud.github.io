@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB18 ORO",
   "Cancha": "PARQUE CUPRA - CLUB SEMINARIO",
-  "Fecha_Inicio": "2026-11-08 17:00:00",
-  "Fecha_fin": "2026-11-08 17:00:00",
+  "Fecha_Inicio": "2026-11-08 17:20:00",
+  "Fecha_fin": "2026-11-08 17:20:00",
   "Locatario": "CLUB SEMINARIO",
   "goles_locatario": "2",
   "puntos_locatario": "1",
@@ -29,12 +29,238 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "58598",
+   "Nombre": "NICOLAS MAZZILLI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "59082",
+   "Nombre": "MARTIN JOSE DIAZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "63871",
+   "Nombre": "JUAN ANDRES DELGADO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "57297",
+   "Nombre": "FACUNDO SAPELLO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "62137",
+   "Nombre": "FRANCISCO BARROS",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "62030",
+   "Nombre": "FRANCO TORTEROLO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "62948",
+   "Nombre": "JOAQUIN CAPPUCCIO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "60868",
+   "Nombre": "IGNACIO ANDRES LEGARRA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "59080",
+   "Nombre": "MATIAS GOSSWEILER",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "62946",
+   "Nombre": "MATIAS DOMINGUEZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "58599",
+   "Nombre": "FACUNDO MOSCA",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "68857",
+   "Nombre": "FRANCISCO PINTOS",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "60738",
+   "Nombre": "ALFONSO RUVIRA",
+   "camiseta": "91",
+   "Capitan": ""
+  },
+  {
+   "carne": "60209",
+   "Nombre": "BAUTISTA COSTA",
+   "camiseta": "96",
+   "Capitan": ""
+  },
+  {
+   "carne": "60574",
+   "Nombre": "AGUSTIN CASANOVA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "57500",
+   "Nombre": "TOMAS FESTA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "62469",
+   "Nombre": "TEO VALENTE",
+   "camiseta": "7",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "60556",
+   "Nombre": "JUAN FRANCISCO JUTGLA",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "61201",
+   "Nombre": "EMILIANO MAGLIONE",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "57496",
+   "Nombre": "TOMAS FERNANDEZ",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "57486",
+   "Nombre": "AGUSTIN TORRES",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "56128",
+   "Nombre": "FRANCESCO SETTIN",
+   "camiseta": "23",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "59080",
+   "Jug_Sale": "MATIAS GOSSWEILER",
+   "CarneEntra": "62166",
+   "Jug_Entra": "FELIPE AMARO LACASSY",
+   "camiseta": "13",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "62946",
+   "Jug_Sale": "MATIAS DOMINGUEZ",
+   "CarneEntra": "69183",
+   "Jug_Entra": "ANDRES ESIS",
+   "camiseta": "21",
+   "minutos": "88"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "60738",
+   "Jug_Sale": "ALFONSO RUVIRA",
+   "CarneEntra": "60737",
+   "Jug_Entra": "SANTIAGO ROSPIDE",
+   "camiseta": "7",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "60574",
+   "Jug_Sale": "AGUSTIN CASANOVA",
+   "CarneEntra": "60581",
+   "Jug_Entra": "JUAN IGNACIO PIRES",
+   "camiseta": "2",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61201",
+   "Jug_Sale": "EMILIANO MAGLIONE",
+   "CarneEntra": "66443",
+   "Jug_Entra": "MATEO AGUSTIN GRIGNOLA",
+   "camiseta": "99",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "57496",
+   "Jug_Sale": "TOMAS FERNANDEZ",
+   "CarneEntra": "60570",
+   "Jug_Entra": "ALFONSO PINTOS",
+   "camiseta": "45",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "62469",
+   "Jug_Sale": "TEO VALENTE",
+   "CarneEntra": "60563",
+   "Jug_Entra": "LORENZO HUGHES",
+   "camiseta": "11",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "56128",
+   "Jug_Sale": "FRANCESCO SETTIN",
+   "CarneEntra": "62094",
+   "Jug_Entra": "JUAN MARTIN MAGRI",
+   "camiseta": "5",
+   "minutos": "77"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "58599",
+   "Nombre": "FACUNDO MOSCA",
+   "minutos": "74",
+   "EnContra": "0"
+  },
+  {
+   "carne": "60868",
+   "Nombre": "IGNACIO ANDRES LEGARRA",
+   "minutos": "47",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "60209",
+   "Nombre": "BAUTISTA COSTA",
+   "minutos": "88",
+   "EnContra": "1"
+  },
+  {
+   "carne": "60556",
+   "Nombre": "JUAN FRANCISCO JUTGLA",
+   "minutos": "60",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

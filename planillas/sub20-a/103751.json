@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "SUB20 \"A\" PERM. y DESC.",
   "Cancha": "PARQUE CUPRA - CLUB SEMINARIO",
-  "Fecha_Inicio": "2026-11-07 15:00:00",
-  "Fecha_fin": "2026-11-07 15:00:00",
+  "Fecha_Inicio": "2026-11-07 15:30:00",
+  "Fecha_fin": "2026-11-07 15:30:00",
   "Locatario": "PLAYA HONDA UNIVERSITARIO",
   "goles_locatario": "2",
   "puntos_locatario": "3",
@@ -29,12 +29,237 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "52916",
+   "Nombre": "GUZMAN ESTOUP",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "58744",
+   "Nombre": "AGUSTIN SANTIAGO LUCERO",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "66242",
+   "Nombre": "JUAN MANUEL RIVAS",
+   "camiseta": "50",
+   "Capitan": ""
+  },
+  {
+   "carne": "62565",
+   "Nombre": "LORENZO RODRIGUEZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "58934",
+   "Nombre": "IGNACIO AGUIAR",
+   "camiseta": "2",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "66091",
+   "Nombre": "AGUSTIN VALLARINO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "58940",
+   "Nombre": "MARTIN LANGONE",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "64032",
+   "Nombre": "FRANCESCO BRUNO STAGNO",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "56235",
+   "Nombre": "MANUEL SEBASTIAN BURGOS",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "58540",
+   "Nombre": "TOMAS BERTINAT",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "62024",
+   "Nombre": "JUAN MANUEL BOCCHI",
+   "camiseta": "41",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "59711",
+   "Nombre": "BASTIAN KOWALCZYK",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "55821",
+   "Nombre": "FACUNDO JOEL SANDMAN",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "64482",
+   "Nombre": "FRANCESCO GIOVANELLI",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "62714",
+   "Nombre": "IGNACIO RODRIGUEZ",
+   "camiseta": "47",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "59963",
+   "Nombre": "NICOLAS PROCHNAU",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "62915",
+   "Nombre": "MATEO RODRIGUEZ",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "56773",
+   "Nombre": "SANTIAGO DANIEL VERGARA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "64484",
+   "Nombre": "PABLO RODRIGUEZ",
+   "camiseta": "79",
+   "Capitan": ""
+  },
+  {
+   "carne": "56707",
+   "Nombre": "JUAN SANCHEZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "57407",
+   "Nombre": "LUCAS GAMBETTA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "64826",
+   "Nombre": "SEBASTIAN DANIEL URETA",
+   "camiseta": "70",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "62565",
+   "Jug_Sale": "LORENZO RODRIGUEZ",
+   "CarneEntra": "67127",
+   "Jug_Entra": "FEDERICO SORIA",
+   "camiseta": "6",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66242",
+   "Jug_Sale": "JUAN MANUEL RIVAS",
+   "CarneEntra": "67537",
+   "Jug_Entra": "BAUTISTA GARRE",
+   "camiseta": "38",
+   "minutos": "83"
+  },
+  {
+   "CarneSale": "58744",
+   "Jug_Sale": "AGUSTIN SANTIAGO LUCERO",
+   "CarneEntra": "68239",
+   "Jug_Entra": "AGUSTIN ALEJANDRO ARTAGAVEYTIA",
+   "camiseta": "16",
+   "minutos": "86"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "64482",
+   "Jug_Sale": "FRANCESCO GIOVANELLI",
+   "CarneEntra": "65764",
+   "Jug_Entra": "JOAQUIN CARRASCO",
+   "camiseta": "18",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "59963",
+   "Jug_Sale": "NICOLAS PROCHNAU",
+   "CarneEntra": "64490",
+   "Jug_Entra": "FACUNDO MORENO",
+   "camiseta": "21",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "57407",
+   "Jug_Sale": "LUCAS GAMBETTA",
+   "CarneEntra": "64828",
+   "Jug_Entra": "JUAN AGUSTIN PUPPO",
+   "camiseta": "97",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "55821",
+   "Jug_Sale": "FACUNDO JOEL SANDMAN",
+   "CarneEntra": "64488",
+   "Jug_Entra": "JOAQUIN HECTOR CERRUDO",
+   "camiseta": "80",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "57407",
+   "Jug_Sale": "LUCAS GAMBETTA",
+   "CarneEntra": "57379",
+   "Jug_Entra": "MANUEL CACERES",
+   "camiseta": "6",
+   "minutos": "85"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "58744",
+   "Nombre": "AGUSTIN SANTIAGO LUCERO",
+   "minutos": "25",
+   "EnContra": "0"
+  },
+  {
+   "carne": "62024",
+   "Nombre": "JUAN MANUEL BOCCHI",
+   "minutos": "40",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "62714",
+   "Nombre": "IGNACIO RODRIGUEZ",
+   "minutos": "73",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
- "expulsadosV": []
+ "expulsadosV": [
+  {
+   "Nombre": "FRANCESCO GIOVANELLI",
+   "observaciones": ""
+  }
+ ]
 }

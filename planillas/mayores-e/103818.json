@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"E\" PERM. y DESC.",
   "Cancha": "ST PATRICKS",
-  "Fecha_Inicio": "2026-11-08 12:45:00",
-  "Fecha_fin": "2026-11-08 12:45:00",
+  "Fecha_Inicio": "2026-11-08 13:15:00",
+  "Fecha_fin": "2026-11-08 13:15:00",
   "Locatario": "OLD SAMPA CLUB",
   "goles_locatario": "1",
   "puntos_locatario": "0",
@@ -29,12 +29,278 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "49163",
+   "Nombre": "RAMON PINTOS",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "69139",
+   "Nombre": "SANTIAGO LOTITO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "69171",
+   "Nombre": "JUAN PABLO ROVIRA",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "21634",
+   "Nombre": "MATIAS CALACHA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "67715",
+   "Nombre": "TOMAS GONZALO MARQUEZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "64910",
+   "Nombre": "MARCOS GIMENEZ",
+   "camiseta": "55",
+   "Capitan": ""
+  },
+  {
+   "carne": "24728",
+   "Nombre": "MATIAS LARRIQUE",
+   "camiseta": "26",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "62689",
+   "Nombre": "DYLAN SANTIAGO CORREA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "53207",
+   "Nombre": "CAMILO NICOLAS ROSA",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "24792",
+   "Nombre": "VALENTIN LLANO",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "51059",
+   "Nombre": "RODRIGO MENDEZ",
+   "camiseta": "23",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "60685",
+   "Nombre": "MATEO HEROSA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "66942",
+   "Nombre": "JOAQUIN SILVA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "40273",
+   "Nombre": "JUAN IGNACIO GUERRERO",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "48329",
+   "Nombre": "ANDRES SEBASTIAN CHANG",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "51878",
+   "Nombre": "MATHIAS SCHWARZ",
+   "camiseta": "67",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "55770",
+   "Nombre": "JUAN IGNACIO RIPOLL",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "52789",
+   "Nombre": "FRANCISCO MARTIN",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "68035",
+   "Nombre": "AGUSTIN ANDRES GEBELIN",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "45790",
+   "Nombre": "PEDRO BARBARO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "43462",
+   "Nombre": "JUAN IGNACIO GUADALUPE",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "51022",
+   "Nombre": "SANTIAGO FORTEZA",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "24792",
+   "Jug_Sale": "VALENTIN LLANO",
+   "CarneEntra": "51978",
+   "Jug_Entra": "FACUNDO BURGO",
+   "camiseta": "6",
+   "minutos": "32"
+  },
+  {
+   "CarneSale": "69139",
+   "Jug_Sale": "SANTIAGO LOTITO",
+   "CarneEntra": "27933",
+   "Jug_Entra": "ENRIQUE CALACHA",
+   "camiseta": "3",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "67715",
+   "Jug_Sale": "TOMAS GONZALO MARQUEZ",
+   "CarneEntra": "22544",
+   "Jug_Entra": "JUAN GABRIEL BASSO",
+   "camiseta": "30",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "51059",
+   "Jug_Sale": "RODRIGO MENDEZ",
+   "CarneEntra": "23371",
+   "Jug_Entra": "EDUARDO ANDRES CUÑARRO",
+   "camiseta": "1",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "21634",
+   "Jug_Sale": "MATIAS CALACHA",
+   "CarneEntra": "66409",
+   "Jug_Entra": "TOMAS ROMERO",
+   "camiseta": "30",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "62689",
+   "Jug_Sale": "DYLAN SANTIAGO CORREA",
+   "CarneEntra": "67713",
+   "Jug_Entra": "ALAN ZEBALLOS",
+   "camiseta": "7",
+   "minutos": "77"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "48329",
+   "Jug_Sale": "ANDRES SEBASTIAN CHANG",
+   "CarneEntra": "49668",
+   "Jug_Entra": "GERONIMO ROMERO",
+   "camiseta": "20",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66942",
+   "Jug_Sale": "JOAQUIN SILVA",
+   "CarneEntra": "52862",
+   "Jug_Entra": "FACUNDO ROMERO",
+   "camiseta": "26",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "52789",
+   "Jug_Sale": "FRANCISCO MARTIN",
+   "CarneEntra": "44103",
+   "Jug_Entra": "RODRIGO LOPEZ",
+   "camiseta": "27",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "51878",
+   "Jug_Sale": "MATHIAS SCHWARZ",
+   "CarneEntra": "44154",
+   "Jug_Entra": "GASTON BERRIEL",
+   "camiseta": "15",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "40273",
+   "Jug_Sale": "JUAN IGNACIO GUERRERO",
+   "CarneEntra": "60346",
+   "Jug_Entra": "SEBASTIAN DANTON SOUBERBIELLE",
+   "camiseta": "25",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "68035",
+   "Jug_Sale": "AGUSTIN ANDRES GEBELIN",
+   "CarneEntra": "31253",
+   "Jug_Entra": "ADRIAN IGNACIO CAFFARELLI",
+   "camiseta": "72",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "60346",
+   "Jug_Sale": "SEBASTIAN DANTON SOUBERBIELLE",
+   "CarneEntra": "49361",
+   "Jug_Entra": "ALDO CENTANARO",
+   "camiseta": "85",
+   "minutos": "78"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "53207",
+   "Nombre": "CAMILO NICOLAS ROSA",
+   "minutos": "29",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "43462",
+   "Nombre": "JUAN IGNACIO GUADALUPE",
+   "minutos": "75",
+   "EnContra": "1"
+  },
+  {
+   "carne": "45790",
+   "Nombre": "PEDRO BARBARO",
+   "minutos": "40",
+   "EnContra": "1"
+  },
+  {
+   "carne": "51022",
+   "Nombre": "SANTIAGO FORTEZA",
+   "minutos": "11",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

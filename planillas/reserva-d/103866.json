@@ -1,0 +1,286 @@
+{
+ "id": "103866",
+ "categoria": "reserva-d",
+ "serie": "RSDPD",
+ "fecha": 10,
+ "fechaHora": "2026-11-07 11:15:00",
+ "cancha": "COMPLEJO LAS CASUARINAS",
+ "local": "YAGUARI",
+ "visitante": "VARELA UNIVERSITARIO",
+ "gl": 1,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "607",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "RESERVA",
+  "categoria": "RESERVA MASCULINO",
+  "rueda": "2",
+  "Divisional": "RESERVA \"D\" COPA DE PLATA",
+  "Cancha": "COMPLEJO LAS CASUARINAS",
+  "Fecha_Inicio": "2026-11-07 13:15:00",
+  "Fecha_fin": "2026-11-07 13:15:00",
+  "Locatario": "YAGUARI",
+  "goles_locatario": "1",
+  "puntos_locatario": "1",
+  "Visitante": "VARELA UNIVERSITARIO",
+  "goles_visitante": "1",
+  "puntos_visitante": "1",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "51070",
+   "Nombre": "NICOLAS MARCELO PALERMO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "55076",
+   "Nombre": "SIMON RUSSI",
+   "camiseta": "47",
+   "Capitan": ""
+  },
+  {
+   "carne": "68653",
+   "Nombre": "CARLOS CABALLERO",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "47708",
+   "Nombre": "GASTON PINTOS",
+   "camiseta": "36",
+   "Capitan": ""
+  },
+  {
+   "carne": "51075",
+   "Nombre": "TOMAS AMEIXEIRAS",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "39081",
+   "Nombre": "IGNACIO EASTMAN",
+   "camiseta": "44",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "45639",
+   "Nombre": "PATRICIO CORREA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "40963",
+   "Nombre": "JUAN DIEGO GOMEZ",
+   "camiseta": "49",
+   "Capitan": ""
+  },
+  {
+   "carne": "64265",
+   "Nombre": "DIEGO CALLEROS",
+   "camiseta": "70",
+   "Capitan": ""
+  },
+  {
+   "carne": "48065",
+   "Nombre": "FACUNDO ESPASANDIN",
+   "camiseta": "55",
+   "Capitan": ""
+  },
+  {
+   "carne": "58191",
+   "Nombre": "SANTINO AMOZA",
+   "camiseta": "12",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "63304",
+   "Nombre": "FRANCO MANUEL ROZINCHIN",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "67474",
+   "Nombre": "MATIAS FRANCO",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "53826",
+   "Nombre": "JUAN IGNACIO SOSA DIAS",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "51002",
+   "Nombre": "JUAN MANUEL PEREZ",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "51803",
+   "Nombre": "SEBASTIAN TRONCOSO",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "50127",
+   "Nombre": "SANTIAGO CALVETE",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "64765",
+   "Nombre": "FRANCISCO JAVIER RIVERO",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "55484",
+   "Nombre": "GUILLERMO URIA",
+   "camiseta": "87",
+   "Capitan": ""
+  },
+  {
+   "carne": "64777",
+   "Nombre": "IVAN VEGOVICH",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "67275",
+   "Nombre": "MATEO MORALES",
+   "camiseta": "92",
+   "Capitan": ""
+  },
+  {
+   "carne": "55669",
+   "Nombre": "MATEO PINTOS",
+   "camiseta": "17",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "51075",
+   "Jug_Sale": "TOMAS AMEIXEIRAS",
+   "CarneEntra": "51078",
+   "Jug_Entra": "FRANCISCO AMOZA",
+   "camiseta": "7",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58191",
+   "Jug_Sale": "SANTINO AMOZA",
+   "CarneEntra": "63110",
+   "Jug_Entra": "VICENTE MARTINEZ HAEDO",
+   "camiseta": "65",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68653",
+   "Jug_Sale": "CARLOS CABALLERO",
+   "CarneEntra": "55063",
+   "Jug_Entra": "FELIPE VELAZQUEZ",
+   "camiseta": "27",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "64265",
+   "Jug_Sale": "DIEGO CALLEROS",
+   "CarneEntra": "55079",
+   "Jug_Entra": "EMILIANO CARDOZO",
+   "camiseta": "19",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "40963",
+   "Jug_Sale": "JUAN DIEGO GOMEZ",
+   "CarneEntra": "54376",
+   "Jug_Entra": "MATIAS CRAI",
+   "camiseta": "10",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "47708",
+   "Jug_Sale": "GASTON PINTOS",
+   "CarneEntra": "68653",
+   "Jug_Entra": "CARLOS CABALLERO",
+   "camiseta": "99",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "54376",
+   "Jug_Sale": "MATIAS CRAI",
+   "CarneEntra": "64265",
+   "Jug_Entra": "DIEGO CALLEROS",
+   "camiseta": "70",
+   "minutos": "82"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "64765",
+   "Jug_Sale": "FRANCISCO JAVIER RIVERO",
+   "CarneEntra": "64252",
+   "Jug_Entra": "SANTIAGO BORRELLI",
+   "camiseta": "28",
+   "minutos": "50"
+  },
+  {
+   "CarneSale": "67474",
+   "Jug_Sale": "MATIAS FRANCO",
+   "CarneEntra": "64764",
+   "Jug_Entra": "SANTIAGO SANCHEZ",
+   "camiseta": "42",
+   "minutos": "50"
+  },
+  {
+   "CarneSale": "51803",
+   "Jug_Sale": "SEBASTIAN TRONCOSO",
+   "CarneEntra": "53351",
+   "Jug_Entra": "IGNACIO GIL",
+   "camiseta": "3",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "67275",
+   "Jug_Sale": "MATEO MORALES",
+   "CarneEntra": "67475",
+   "Jug_Entra": "BRUNO MATEOS",
+   "camiseta": "70",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "55669",
+   "Jug_Sale": "MATEO PINTOS",
+   "CarneEntra": "69186",
+   "Jug_Entra": "DIONISIO MATIAS VIQUE",
+   "camiseta": "35",
+   "minutos": "65"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "63110",
+   "Nombre": "VICENTE MARTINEZ HAEDO",
+   "minutos": "90",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "67475",
+   "Nombre": "BRUNO MATEOS",
+   "minutos": "70",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

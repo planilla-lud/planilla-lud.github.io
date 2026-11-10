@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"A\" PER. y DESC",
   "Cancha": "COMPLEJO DEPORTIVO ARRAYANES",
-  "Fecha_Inicio": "2026-11-07 10:30:00",
-  "Fecha_fin": "2026-11-07 10:30:00",
+  "Fecha_Inicio": "2026-11-07 11:00:00",
+  "Fecha_fin": "2026-11-07 11:00:00",
   "Locatario": "MADRUGADA F.C",
   "goles_locatario": "3",
   "puntos_locatario": "3",
@@ -29,11 +29,222 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "31925",
+   "Nombre": "PEDRO NICOLAS GARCIA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "34213",
+   "Nombre": "MATEO MARQUES",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "22757",
+   "Nombre": "SEBASTIAN CORREA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "29114",
+   "Nombre": "JOSE SEBASTIAN GRATTAROLA",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "34340",
+   "Nombre": "FEDERICO VARGHA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "21347",
+   "Nombre": "GUILLERMO FERNANDO TORIJA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "30158",
+   "Nombre": "MATIAS LIVCHICH",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "35976",
+   "Nombre": "FEDERICO GARCIA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "40268",
+   "Nombre": "FABIAN RODRIGUEZ",
+   "camiseta": "63",
+   "Capitan": ""
+  },
+  {
+   "carne": "28237",
+   "Nombre": "MARCELO DAMIAN CASTRILLEJO",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "26412",
+   "Nombre": "DIEGO ALDEBAR TILLIMAN",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "40434",
+   "Nombre": "JUAN PABLO DEUS",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "33051",
+   "Nombre": "JUAN MARCELO DUTRA",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "25136",
+   "Nombre": "EDUARDO MARCELO FRANCO",
+   "camiseta": "0",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "25135",
+   "Nombre": "RODRIGO CAMPOAMOR",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "26202",
+   "Nombre": "AGUSTIN SANTIAGO DAGUERRE",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "23159",
+   "Nombre": "NICOLAS LOPEZ",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "31819",
+   "Nombre": "NICOLAS ALEJANDRO FIORDELMONDO",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "23475",
+   "Nombre": "RODRIGO LUIS AZNAREZ",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "27444",
+   "Nombre": "FERNANDO RUBEN MATO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "37662",
+   "Nombre": "FELIPE MARCOS CASAROTTI",
+   "camiseta": "91",
+   "Capitan": ""
+  },
+  {
+   "carne": "25027",
+   "Nombre": "SANTIAGO MATIAS RAMA",
+   "camiseta": "21",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "35976",
+   "Jug_Sale": "FEDERICO GARCIA",
+   "CarneEntra": "39060",
+   "Jug_Entra": "FRANCISCO DANIEL BENTANCOR",
+   "camiseta": "47",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "28237",
+   "Jug_Sale": "MARCELO DAMIAN CASTRILLEJO",
+   "CarneEntra": "31517",
+   "Jug_Entra": "ALEJANDRO BAUDO",
+   "camiseta": "31",
+   "minutos": "84"
+  },
+  {
+   "CarneSale": "26412",
+   "Jug_Sale": "DIEGO ALDEBAR TILLIMAN",
+   "CarneEntra": "51373",
+   "Jug_Entra": "SERGIO MAXIMILIANO PEREZ",
+   "camiseta": "24",
+   "minutos": "45"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "23475",
+   "Jug_Sale": "RODRIGO LUIS AZNAREZ",
+   "CarneEntra": "28582",
+   "Jug_Entra": "DARIO DI GIOVANNI",
+   "camiseta": "24",
+   "minutos": "53"
+  },
+  {
+   "CarneSale": "23159",
+   "Jug_Sale": "NICOLAS LOPEZ",
+   "CarneEntra": "22062",
+   "Jug_Entra": "AGUSTIN VERNASSA",
+   "camiseta": "11",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "37662",
+   "Jug_Sale": "FELIPE MARCOS CASAROTTI",
+   "CarneEntra": "16831",
+   "Jug_Entra": "MARTIN EDUARDO AMORELLI",
+   "camiseta": "10",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "16831",
+   "Jug_Sale": "MARTIN EDUARDO AMORELLI",
+   "CarneEntra": "37662",
+   "Jug_Entra": "FELIPE MARCOS CASAROTTI",
+   "camiseta": "91",
+   "minutos": "75"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "26412",
+   "Nombre": "DIEGO ALDEBAR TILLIMAN",
+   "minutos": "87",
+   "EnContra": "0"
+  },
+  {
+   "carne": "26412",
+   "Nombre": "DIEGO ALDEBAR TILLIMAN",
+   "minutos": "90",
+   "EnContra": "0"
+  },
+  {
+   "carne": "40268",
+   "Nombre": "FABIAN RODRIGUEZ",
+   "minutos": "82",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

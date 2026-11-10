@@ -1,0 +1,263 @@
+{
+ "id": "103875",
+ "categoria": "presenior-b",
+ "serie": "PSBPD",
+ "fecha": 6,
+ "fechaHora": "2026-11-07 09:00:00",
+ "cancha": "COMPLEJO LA CORUÑA(MALVAREZ)",
+ "local": "PERRY SEXTA UNIVERSITARIO",
+ "visitante": "ARGOS ",
+ "gl": 0,
+ "gv": 7,
+ "detalle": {
+  "nro_partido": "886",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "PRE SENIOR",
+  "categoria": "PRE-SENIOR MASCULINO",
+  "rueda": "2",
+  "Divisional": "PRESENIOR \"B\" PER. y DESC",
+  "Cancha": "COMPLEJO LA CORUÑA(MALVAREZ)",
+  "Fecha_Inicio": "2026-11-07 11:00:00",
+  "Fecha_fin": "2026-11-07 11:00:00",
+  "Locatario": "PERRY SEXTA UNIVERSITARIO",
+  "goles_locatario": "0",
+  "puntos_locatario": "0",
+  "Visitante": "ARGOS ",
+  "goles_visitante": "7",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "19566",
+   "Nombre": "IGNACIO RIVAROLA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "24867",
+   "Nombre": "GUILLERMO RUIZ",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "24836",
+   "Nombre": "AGUSTIN ROLDAN",
+   "camiseta": "25",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "32042",
+   "Nombre": "RODRIGO ERNESTO CAPRARIO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "37677",
+   "Nombre": "GABRIEL CANTERA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "52556",
+   "Nombre": "RODRIGO ANDRES GONZALEZ",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "30203",
+   "Nombre": "MAXIMILIANO MATEAUDA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "42883",
+   "Nombre": "AGUSTIN LAZARO",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "25013",
+   "Nombre": "ISMAEL LUJAN",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "64241",
+   "Nombre": "PAOLO BALDUINI",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "26146",
+   "Nombre": "HORACIO ALDO MONTORO",
+   "camiseta": "18",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "27339",
+   "Nombre": "RODRIGO LEONEL GONZALEZ",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "66159",
+   "Nombre": "JHONY ALEXANDER BARCIA",
+   "camiseta": "90",
+   "Capitan": ""
+  },
+  {
+   "carne": "32868",
+   "Nombre": "GUILLERMO SILVA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "38008",
+   "Nombre": "JOSE MAURO RODRIGUEZ",
+   "camiseta": "0",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "47946",
+   "Nombre": "FABRIZIO JAVIER GONZALEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "38103",
+   "Nombre": "FACUNDO PEREYRA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "33380",
+   "Nombre": "GERARDO MENDEZ",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "67473",
+   "Nombre": "JUAN FERNANDEZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "62845",
+   "Nombre": "ANDRES CATALANO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "64831",
+   "Nombre": "DARIO MARTIN SANCHEZ",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "22222",
+   "Nombre": "RAMIRO FRANCISCO OLMOS",
+   "camiseta": "46",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "37677",
+   "Jug_Sale": "GABRIEL CANTERA",
+   "CarneEntra": "36490",
+   "Jug_Entra": "LUIS ALBERTO CROSA",
+   "camiseta": "20",
+   "minutos": "54"
+  },
+  {
+   "CarneSale": "52556",
+   "Jug_Sale": "RODRIGO ANDRES GONZALEZ",
+   "CarneEntra": "47661",
+   "Jug_Entra": "EMILIANO MIELS SANTOS",
+   "camiseta": "15",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "26146",
+   "Jug_Sale": "HORACIO ALDO MONTORO",
+   "CarneEntra": "38941",
+   "Jug_Entra": "CHRISTIAN NICOLAS ALVERNAZ",
+   "camiseta": "9",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "25013",
+   "Jug_Sale": "ISMAEL LUJAN",
+   "CarneEntra": "52556",
+   "Jug_Entra": "RODRIGO ANDRES GONZALEZ",
+   "camiseta": "19",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "64241",
+   "Jug_Sale": "PAOLO BALDUINI",
+   "CarneEntra": "26146",
+   "Jug_Entra": "HORACIO ALDO MONTORO",
+   "camiseta": "78",
+   "minutos": "67"
+  }
+ ],
+ "cambiosV": [],
+ "golesL": [],
+ "golesV": [
+  {
+   "carne": "32868",
+   "Nombre": "GUILLERMO SILVA",
+   "minutos": "53",
+   "EnContra": "1"
+  },
+  {
+   "carne": "38008",
+   "Nombre": "JOSE MAURO RODRIGUEZ",
+   "minutos": "80",
+   "EnContra": "1"
+  },
+  {
+   "carne": "38103",
+   "Nombre": "FACUNDO PEREYRA",
+   "minutos": "29",
+   "EnContra": "1"
+  },
+  {
+   "carne": "38103",
+   "Nombre": "FACUNDO PEREYRA",
+   "minutos": "51",
+   "EnContra": "1"
+  },
+  {
+   "carne": "38103",
+   "Nombre": "FACUNDO PEREYRA",
+   "minutos": "73",
+   "EnContra": "1"
+  },
+  {
+   "carne": "38103",
+   "Nombre": "FACUNDO PEREYRA",
+   "minutos": "84",
+   "EnContra": "1"
+  },
+  {
+   "carne": "67473",
+   "Nombre": "JUAN FERNANDEZ",
+   "minutos": "71",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "GUILLERMO RUIZ",
+   "observaciones": ""
+  }
+ ],
+ "expulsadosV": []
+}

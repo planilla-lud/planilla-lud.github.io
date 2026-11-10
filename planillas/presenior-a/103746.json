@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"A\" PER. y DESC",
   "Cancha": "ESCUELA NAVAL",
-  "Fecha_Inicio": "2026-11-07 12:45:00",
-  "Fecha_fin": "2026-11-07 12:45:00",
+  "Fecha_Inicio": "2026-11-07 13:15:00",
+  "Fecha_fin": "2026-11-07 13:15:00",
   "Locatario": "PLAYA HONDA UNIVERSITARIO",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,232 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "28648",
+   "Nombre": "JUAN PABLO ROLDAN",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "26199",
+   "Nombre": "MATHIAS PERDOMO",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "22718",
+   "Nombre": "SANTIAGO ABOAL",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "38797",
+   "Nombre": "LORENZO VEGA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "21044",
+   "Nombre": "SANTIAGO DECIA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "31163",
+   "Nombre": "RODRIGO DURANTE",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "59686",
+   "Nombre": "MARCELO MELIAN",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "26947",
+   "Nombre": "BRUNO EDUARDO DI MARTINO",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "43898",
+   "Nombre": "BRUNO ANDRES MARTINEZ",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "31787",
+   "Nombre": "FABIAN AICARDI",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "27229",
+   "Nombre": "MARTIN HEBER GARCIA",
+   "camiseta": "26",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "22553",
+   "Nombre": "GONZALO DANIEL PALAU",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "28265",
+   "Nombre": "SANTIAGO GASTON GIUFFRA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "49719",
+   "Nombre": "SERGIO ADRIAN ABALO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "24949",
+   "Nombre": "MARTIN MARIO MERA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "22077",
+   "Nombre": "CESAR AUGUSTO CAVALLI",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "32130",
+   "Nombre": "JUAN MANUEL TARALLO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "57706",
+   "Nombre": "EMILIANO ALBIN",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "33390",
+   "Nombre": "MAURIZIO ADINOLFI",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "35044",
+   "Nombre": "EDISON ANDRES DOMINGUEZ",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "19034",
+   "Nombre": "MATIAS SURRA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "29845",
+   "Nombre": "HORACIO DAMIAN CASANOVA",
+   "camiseta": "14",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "26199",
+   "Jug_Sale": "MATHIAS PERDOMO",
+   "CarneEntra": "61841",
+   "Jug_Entra": "MAURO ANTONIO ROSTAN",
+   "camiseta": "42",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "21044",
+   "Jug_Sale": "SANTIAGO DECIA",
+   "CarneEntra": "21156",
+   "Jug_Entra": "SEBASTIAN NICOLAS MANEIRO",
+   "camiseta": "18",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "43898",
+   "Jug_Sale": "BRUNO ANDRES MARTINEZ",
+   "CarneEntra": "26554",
+   "Jug_Entra": "SEBASTIAN TUBINO",
+   "camiseta": "11",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "27229",
+   "Jug_Sale": "MARTIN HEBER GARCIA",
+   "CarneEntra": "46097",
+   "Jug_Entra": "ADRIAN IGNACIO RIOS",
+   "camiseta": "4",
+   "minutos": "85"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "24949",
+   "Jug_Sale": "MARTIN MARIO MERA",
+   "CarneEntra": "21518",
+   "Jug_Entra": "RAUL MAXIMILIANO QUINTANA",
+   "camiseta": "10",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "28265",
+   "Jug_Sale": "SANTIAGO GASTON GIUFFRA",
+   "CarneEntra": "38946",
+   "Jug_Entra": "SANTIAGO ANTONELLI",
+   "camiseta": "21",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "22553",
+   "Jug_Sale": "GONZALO DANIEL PALAU",
+   "CarneEntra": "16642",
+   "Jug_Entra": "SEBASTIAN COUTO",
+   "camiseta": "18",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "35044",
+   "Jug_Sale": "EDISON ANDRES DOMINGUEZ",
+   "CarneEntra": "62200",
+   "Jug_Entra": "SEBASTIAN ALVAREZ",
+   "camiseta": "25",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "22077",
+   "Jug_Sale": "CESAR AUGUSTO CAVALLI",
+   "CarneEntra": "35143",
+   "Jug_Entra": "DAVIS STEVEN SANCHEZ",
+   "camiseta": "19",
+   "minutos": "77"
+  }
+ ],
  "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "golesV": [
+  {
+   "carne": "29845",
+   "Nombre": "HORACIO DAMIAN CASANOVA",
+   "minutos": "25",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "BRUNO EDUARDO DI MARTINO",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"C\" TIT. y ASC.",
   "Cancha": "COLEGIO PIO",
-  "Fecha_Inicio": "2026-11-07 10:30:00",
-  "Fecha_fin": "2026-11-07 10:30:00",
+  "Fecha_Inicio": "2026-11-07 10:50:00",
+  "Fecha_fin": "2026-11-07 10:50:00",
   "Locatario": "DANUBIO FUTBOL CLUB",
   "goles_locatario": "1",
   "puntos_locatario": "0",
@@ -29,12 +29,232 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "60950",
+   "Nombre": "JOAQUIN ALONSO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "42691",
+   "Nombre": "MAXIMILIANO MUNDIN",
+   "camiseta": "21",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "59163",
+   "Nombre": "FEDERICO ISMAEL MENDOZA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "51293",
+   "Nombre": "JUAN MARTIN CABALLERO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "61832",
+   "Nombre": "AGUSTIN FRANCA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "63923",
+   "Nombre": "ADRIAN MOREIRA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "55067",
+   "Nombre": "NICOLAS MAURO RODRIGUEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "58023",
+   "Nombre": "MANUEL MENDEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "39619",
+   "Nombre": "CRISTHIAN AGUSTIN ANADON",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "54780",
+   "Nombre": "ESTEBAN DANIEL VAZQUEZ",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "63586",
+   "Nombre": "EMILIANO ARREGUI",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "64261",
+   "Nombre": "SANTIAGO HERRERA",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "50423",
+   "Nombre": "MARTIN GARCIA",
+   "camiseta": "24",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "63850",
+   "Nombre": "FACUNDO NAHUEL VIDAL",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "62352",
+   "Nombre": "SANTIAGO RICCONE",
+   "camiseta": "51",
+   "Capitan": ""
+  },
+  {
+   "carne": "55027",
+   "Nombre": "FERNANDO RIQUEL",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "67324",
+   "Nombre": "FRANCO VALIENTE",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "50976",
+   "Nombre": "NICOLAS EZEQUIEL GUTIERREZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "57654",
+   "Nombre": "DONATO NOCETTI",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "62131",
+   "Nombre": "GONZALO RICCONE",
+   "camiseta": "41",
+   "Capitan": ""
+  },
+  {
+   "carne": "45350",
+   "Nombre": "BRUNO GASTON DIAZ",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "55648",
+   "Nombre": "DIEGO MONTERO",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "39619",
+   "Jug_Sale": "CRISTHIAN AGUSTIN ANADON",
+   "CarneEntra": "56712",
+   "Jug_Entra": "RENZO LESCANO",
+   "camiseta": "22",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "63586",
+   "Jug_Sale": "EMILIANO ARREGUI",
+   "CarneEntra": "62542",
+   "Jug_Entra": "FERNANDO ISMAEL MARTINEZ",
+   "camiseta": "20",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58023",
+   "Jug_Sale": "MANUEL MENDEZ",
+   "CarneEntra": "39775",
+   "Jug_Entra": "MARTIN REY",
+   "camiseta": "17",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "61832",
+   "Jug_Sale": "AGUSTIN FRANCA",
+   "CarneEntra": "44534",
+   "Jug_Entra": "FRANCO DE GREGORIO",
+   "camiseta": "19",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "63923",
+   "Jug_Sale": "ADRIAN MOREIRA",
+   "CarneEntra": "64473",
+   "Jug_Entra": "GIANFRANCO MARCHIORO",
+   "camiseta": "13",
+   "minutos": "77"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "63850",
+   "Jug_Sale": "FACUNDO NAHUEL VIDAL",
+   "CarneEntra": "56887",
+   "Jug_Entra": "JUAN MANUEL MASEDA",
+   "camiseta": "4",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "67324",
+   "Jug_Sale": "FRANCO VALIENTE",
+   "CarneEntra": "61897",
+   "Jug_Entra": "MATIAS MARCELO VERO",
+   "camiseta": "18",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "45350",
+   "Jug_Sale": "BRUNO GASTON DIAZ",
+   "CarneEntra": "50424",
+   "Jug_Entra": "AGUSTIN CLARO",
+   "camiseta": "20",
+   "minutos": "87"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "54780",
+   "Nombre": "ESTEBAN DANIEL VAZQUEZ",
+   "minutos": "60",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "45350",
+   "Nombre": "BRUNO GASTON DIAZ",
+   "minutos": "29",
+   "EnContra": "1"
+  },
+  {
+   "carne": "62352",
+   "Nombre": "SANTIAGO RICCONE",
+   "minutos": "81",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

@@ -1,0 +1,291 @@
+{
+ "id": "103870",
+ "categoria": "sub20-a",
+ "serie": "20APD",
+ "fecha": 7,
+ "fechaHora": "2026-11-07 15:30:00",
+ "cancha": "()",
+ "local": "NAUTICO CARRASCO Y PUNTA GORDA",
+ "visitante": "SAN JUAN BAUTISTA",
+ "gl": 3,
+ "gv": 3,
+ "detalle": {
+  "nro_partido": "416",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "2",
+  "Divisional": "SUB20 \"A\" PERM. y DESC.",
+  "Cancha": "()",
+  "Fecha_Inicio": "2026-11-07 17:15:00",
+  "Fecha_fin": "2026-11-07 17:15:00",
+  "Locatario": "NAUTICO CARRASCO Y PUNTA GORDA",
+  "goles_locatario": "3",
+  "puntos_locatario": "1",
+  "Visitante": "SAN JUAN BAUTISTA",
+  "goles_visitante": "3",
+  "puntos_visitante": "1",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "56966",
+   "Nombre": "MARTIN GOMEZ",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "54736",
+   "Nombre": "HERNAN DE FREITAS",
+   "camiseta": "67",
+   "Capitan": ""
+  },
+  {
+   "carne": "56547",
+   "Nombre": "JUAN FRANCISCO PEREIRO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "68685",
+   "Nombre": "BRUNO ALVAREZ",
+   "camiseta": "93",
+   "Capitan": ""
+  },
+  {
+   "carne": "57929",
+   "Nombre": "JUAN MANUEL LAGO",
+   "camiseta": "81",
+   "Capitan": ""
+  },
+  {
+   "carne": "59547",
+   "Nombre": "FEDERICO MARTINEZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "51094",
+   "Nombre": "DAMIAN ALMIRON",
+   "camiseta": "86",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "61249",
+   "Nombre": "AGUSTIN PALOMINO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "60967",
+   "Nombre": "JUAN FRANCISCO ARRETCHE",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "57720",
+   "Nombre": "FELIPE GALLO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "59740",
+   "Nombre": "IGNACIO LOPEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "57840",
+   "Nombre": "DIEGO BIDEGAIN",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "61182",
+   "Nombre": "LUCAS CANOSA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "59596",
+   "Nombre": "JOAQUIN PEREDA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "57785",
+   "Nombre": "JUAN CAPPELLINI",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "57231",
+   "Nombre": "EMILIANO IFER",
+   "camiseta": "6",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "59103",
+   "Nombre": "MATEO AGUSTIN PETILLO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "59102",
+   "Nombre": "AGUSTIN CAZET",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "58908",
+   "Nombre": "MANUEL PONS",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "64195",
+   "Nombre": "CAMILO CHIAPPARA",
+   "camiseta": "75",
+   "Capitan": ""
+  },
+  {
+   "carne": "61694",
+   "Nombre": "SANTIAGO RIOS",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "59100",
+   "Nombre": "VALENTINO PIERI",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "59740",
+   "Jug_Sale": "IGNACIO LOPEZ",
+   "CarneEntra": "59549",
+   "Jug_Entra": "SANTIAGO MARTINEZ",
+   "camiseta": "8",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "57929",
+   "Jug_Sale": "JUAN MANUEL LAGO",
+   "CarneEntra": "57996",
+   "Jug_Entra": "FRNCISCO GUZMAN BICA",
+   "camiseta": "77",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "59547",
+   "Jug_Sale": "FEDERICO MARTINEZ",
+   "CarneEntra": "60443",
+   "Jug_Entra": "SANTINO ABBATE",
+   "camiseta": "82",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "60967",
+   "Jug_Sale": "JUAN FRANCISCO ARRETCHE",
+   "CarneEntra": "67319",
+   "Jug_Entra": "FACUNDO LAPROVITERA",
+   "camiseta": "19",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56966",
+   "Jug_Sale": "MARTIN GOMEZ",
+   "CarneEntra": "59933",
+   "Jug_Entra": "AGUSTIN MARTINEZ",
+   "camiseta": "24",
+   "minutos": "45"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "59100",
+   "Jug_Sale": "VALENTINO PIERI",
+   "CarneEntra": "59094",
+   "Jug_Entra": "SEBASTIAN CHAPPER",
+   "camiseta": "51",
+   "minutos": "51"
+  },
+  {
+   "CarneSale": "58908",
+   "Jug_Sale": "MANUEL PONS",
+   "CarneEntra": "62570",
+   "Jug_Entra": "JUAN BERNARDO HERNANDEZ",
+   "camiseta": "71",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "61694",
+   "Jug_Sale": "SANTIAGO RIOS",
+   "CarneEntra": "64188",
+   "Jug_Entra": "TOMAS ARAUJO",
+   "camiseta": "91",
+   "minutos": "69"
+  },
+  {
+   "CarneSale": "57231",
+   "Jug_Sale": "EMILIANO IFER",
+   "CarneEntra": "58908",
+   "Jug_Entra": "MANUEL PONS",
+   "camiseta": "11",
+   "minutos": "74"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "57720",
+   "Nombre": "FELIPE GALLO",
+   "minutos": "82",
+   "EnContra": "0"
+  },
+  {
+   "carne": "57720",
+   "Nombre": "FELIPE GALLO",
+   "minutos": "89",
+   "EnContra": "0"
+  },
+  {
+   "carne": "57996",
+   "Nombre": "FRNCISCO GUZMAN BICA",
+   "minutos": "90",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "59103",
+   "Nombre": "MATEO AGUSTIN PETILLO",
+   "minutos": "68",
+   "EnContra": "1"
+  },
+  {
+   "carne": "61182",
+   "Nombre": "LUCAS CANOSA",
+   "minutos": "51",
+   "EnContra": "1"
+  },
+  {
+   "carne": "61694",
+   "Nombre": "SANTIAGO RIOS",
+   "minutos": "63",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": [
+  {
+   "Nombre": "JUAN CAPPELLINI",
+   "observaciones": ""
+  }
+ ]
+}

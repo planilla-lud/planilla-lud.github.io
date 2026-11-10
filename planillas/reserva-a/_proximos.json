@@ -1,10 +1,17 @@
 [
  {
   "serie": "RSAT",
-  "fechaHora": "2026-11-14 09:00:00",
+  "fechaHora": "2026-11-11 21:00:00",
   "cancha": "COMP. DEVOTO (NAUT. PICHINCHA)",
   "local": "NAUTICO CARRASCO Y PUNTA GORDA",
   "visitante": "PLAYA HONDA UNIVERSITARIO"
+ },
+ {
+  "serie": "RSAT",
+  "fechaHora": "2026-11-12 20:00:00",
+  "cancha": "COMPLEJO AZULGRANA",
+  "local": "OLD CHRISTIANS CLUB",
+  "visitante": "OLD BOYS CLUB"
  },
  {
   "serie": "RSAT",
@@ -26,13 +33,6 @@
   "cancha": "CARRASCO POLO",
   "local": "CARRASCO POLO CLUB",
   "visitante": "CARRASCO LAWN TENNIS"
- },
- {
-  "serie": "RSAT",
-  "fechaHora": "2026-11-14 11:15:00",
-  "cancha": "OLD CHRISTIANS CLUB",
-  "local": "OLD CHRISTIANS CLUB",
-  "visitante": "OLD BOYS CLUB"
  },
  {
   "serie": "RSAPD",

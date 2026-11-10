@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAS40 \"B\" TIT. y ASC.",
   "Cancha": "COLEGIO PIO",
-  "Fecha_Inicio": "2026-11-07 10:30:00",
-  "Fecha_fin": "2026-11-07 10:30:00",
+  "Fecha_Inicio": "2026-11-07 11:00:00",
+  "Fecha_fin": "2026-11-07 11:00:00",
   "Locatario": "DANUBIO FUTBOL CLUB",
   "goles_locatario": "2",
   "puntos_locatario": "1",
@@ -29,12 +29,262 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "14645",
+   "Nombre": "PABLO ALBERTO FERNANDEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "12721",
+   "Nombre": "FABIAN HERNAN CORTES",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "61118",
+   "Nombre": "RUBEN DARIO GEREZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "18843",
+   "Nombre": "WILLIAM GONZALEZ",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "27591",
+   "Nombre": "ROBERT MILTON ESPEL",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "66926",
+   "Nombre": "PABLO SEBASTIAN RADÜNZ",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "19281",
+   "Nombre": "GABRIEL COPELOTTI",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "29411",
+   "Nombre": "ALFONSO MICHEL MARQUEZ",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "13451",
+   "Nombre": "OSCAR ALEJANDRO ARRUDA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "66325",
+   "Nombre": "JUAN CARLOS MARTINS",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "66193",
+   "Nombre": "LUIS MAYORGA",
+   "camiseta": "8",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "28787",
+   "Nombre": "GABRIEL OSVALDO CHAVES",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "54620",
+   "Nombre": "HAMILTON BERNARDO TOURON",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "15663",
+   "Nombre": "JUAN FRANCISCO FRUGONI",
+   "camiseta": "17",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "67322",
+   "Nombre": "SANTIAGO ENRIQUE BARRETO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "11891",
+   "Nombre": "RAFAEL ALVARO MANCINI",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "20532",
+   "Nombre": "DIEGO LIBER GONZALEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "29009",
+   "Nombre": "WALTER ALEJANDRO SEGOVIA",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "19015",
+   "Nombre": "PABLO ANDRES ALDAYA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "27238",
+   "Nombre": "MAURICIO ACOSTA",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "39726",
+   "Nombre": "FEDERICO ROBERTO CHAVES",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "14898",
+   "Nombre": "HECTOR ADRIAN CEDRES",
+   "camiseta": "53",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "66325",
+   "Jug_Sale": "JUAN CARLOS MARTINS",
+   "CarneEntra": "58590",
+   "Jug_Entra": "DIEGO FERREIRA",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66926",
+   "Jug_Sale": "PABLO SEBASTIAN RADÜNZ",
+   "CarneEntra": "23153",
+   "Jug_Entra": "FABIAN VICTOR CORE",
+   "camiseta": "13",
+   "minutos": "52"
+  },
+  {
+   "CarneSale": "29411",
+   "Jug_Sale": "ALFONSO MICHEL MARQUEZ",
+   "CarneEntra": "17384",
+   "Jug_Entra": "DIEGO PERDOMO",
+   "camiseta": "3",
+   "minutos": "59"
+  },
+  {
+   "CarneSale": "66193",
+   "Jug_Sale": "LUIS MAYORGA",
+   "CarneEntra": "58932",
+   "Jug_Entra": "JULIO MARTIN FIGUEREDO",
+   "camiseta": "4",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "13451",
+   "Jug_Sale": "OSCAR ALEJANDRO ARRUDA",
+   "CarneEntra": "29411",
+   "Jug_Entra": "ALFONSO MICHEL MARQUEZ",
+   "camiseta": "12",
+   "minutos": "88"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "67322",
+   "Jug_Sale": "SANTIAGO ENRIQUE BARRETO",
+   "CarneEntra": "9934",
+   "Jug_Entra": "MARTIN ALEJANDRO MENDEZ",
+   "camiseta": "21",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "54620",
+   "Jug_Sale": "HAMILTON BERNARDO TOURON",
+   "CarneEntra": "42067",
+   "Jug_Entra": "GUILLERMO NICOLAS FOSSA",
+   "camiseta": "15",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "20532",
+   "Jug_Sale": "DIEGO LIBER GONZALEZ",
+   "CarneEntra": "38406",
+   "Jug_Entra": "JOEL EDUARDO PEIRANO",
+   "camiseta": "52",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "14898",
+   "Jug_Sale": "HECTOR ADRIAN CEDRES",
+   "CarneEntra": "26491",
+   "Jug_Entra": "MARTIN HUMBERTO GUIGOU",
+   "camiseta": "55",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "39726",
+   "Jug_Sale": "FEDERICO ROBERTO CHAVES",
+   "CarneEntra": "19073",
+   "Jug_Entra": "MARTIN DEFFES",
+   "camiseta": "16",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "54620",
+   "Jug_Sale": "HAMILTON BERNARDO TOURON",
+   "CarneEntra": "12416",
+   "Jug_Entra": "CHRISTIAN ANDRES ALCORTA",
+   "camiseta": "5",
+   "minutos": "83"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "58590",
+   "Nombre": "DIEGO FERREIRA",
+   "minutos": "59",
+   "EnContra": "0"
+  },
+  {
+   "carne": "58590",
+   "Nombre": "DIEGO FERREIRA",
+   "minutos": "74",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "14898",
+   "Nombre": "HECTOR ADRIAN CEDRES",
+   "minutos": "29",
+   "EnContra": "1"
+  },
+  {
+   "carne": "26491",
+   "Nombre": "MARTIN HUMBERTO GUIGOU",
+   "minutos": "49",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

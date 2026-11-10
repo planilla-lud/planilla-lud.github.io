@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"F\" TIT. y ASC.",
   "Cancha": "COMPLEJO LOS ROJOS",
-  "Fecha_Inicio": "2026-11-08 10:30:00",
-  "Fecha_fin": "2026-11-08 10:30:00",
+  "Fecha_Inicio": "2026-11-08 11:05:00",
+  "Fecha_fin": "2026-11-08 11:05:00",
   "Locatario": "TACUAREMBO UNIVERSITARIO",
   "goles_locatario": "1",
   "puntos_locatario": "0",
@@ -29,12 +29,216 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "58891",
+   "Nombre": "ALEJO ARRIOLA",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "38875",
+   "Nombre": "MARIO RAFAEL CASTILLO",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "49594",
+   "Nombre": "VALENTIN IRIARTE",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "64715",
+   "Nombre": "RODRIGO CALDAS",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "65784",
+   "Nombre": "WASHINGTON NAUHEL MENCAHCA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "64714",
+   "Nombre": "GONZALO CALDAS",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "65189",
+   "Nombre": "ANDERSON NAUEL JARA",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "65787",
+   "Nombre": "LAUTARO GUZMAN SEGREDO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "53798",
+   "Nombre": "GREGG DELBONO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "64574",
+   "Nombre": "CLEMENT AURELIEN R HOUDELINE",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "53839",
+   "Nombre": "GONZALO CAMILO LEAL",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "64893",
+   "Nombre": "JUAN PEREZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "59126",
+   "Nombre": "MATEO PIANZZOLA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "68942",
+   "Nombre": "LORENZO ALONSO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "64897",
+   "Nombre": "AGUSTIN GULARTE",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "59449",
+   "Nombre": "FRANCO ARAUJO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "64895",
+   "Nombre": "GUILLERMO RODRIGUEZ",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "51353",
+   "Nombre": "JORGE MONTERO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "46964",
+   "Nombre": "VALENTIN ARANCET",
+   "camiseta": "15",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "63159",
+   "Nombre": "ISMAEL EMILIANO VIEGA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "59450",
+   "Nombre": "ENZO OTEGUI",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "63113",
+   "Nombre": "AGUSTIN DIAZ",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "65787",
+   "Jug_Sale": "LAUTARO GUZMAN SEGREDO",
+   "CarneEntra": "49474",
+   "Jug_Entra": "JUAN IGNACIO DOELLO",
+   "camiseta": "2",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "49594",
+   "Jug_Sale": "VALENTIN IRIARTE",
+   "CarneEntra": "63569",
+   "Jug_Entra": "PAUL DAVID ALLO",
+   "camiseta": "26",
+   "minutos": "60"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "68942",
+   "Jug_Sale": "LORENZO ALONSO",
+   "CarneEntra": "63704",
+   "Jug_Entra": "LUIS DIAZ",
+   "camiseta": "14",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "59449",
+   "Jug_Sale": "FRANCO ARAUJO",
+   "CarneEntra": "62007",
+   "Jug_Entra": "LAUREANO CASTILLO",
+   "camiseta": "7",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "59126",
+   "Jug_Sale": "MATEO PIANZZOLA",
+   "CarneEntra": "66803",
+   "Jug_Entra": "GONZALO RODRIGUEZ",
+   "camiseta": "21",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "63113",
+   "Jug_Sale": "AGUSTIN DIAZ",
+   "CarneEntra": "68943",
+   "Jug_Entra": "MAURO CORBO",
+   "camiseta": "13",
+   "minutos": "90"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "53839",
+   "Nombre": "GONZALO CAMILO LEAL",
+   "minutos": "55",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "46964",
+   "Nombre": "VALENTIN ARANCET",
+   "minutos": "43",
+   "EnContra": "1"
+  },
+  {
+   "carne": "63159",
+   "Nombre": "ISMAEL EMILIANO VIEGA",
+   "minutos": "50",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

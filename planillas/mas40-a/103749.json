@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAS40 \"A\" TITULO",
   "Cancha": "COMPLEJO JUAN XXIII",
-  "Fecha_Inicio": "2026-11-07 10:30:00",
-  "Fecha_fin": "2026-11-07 10:30:00",
+  "Fecha_Inicio": "2026-11-07 10:53:00",
+  "Fecha_fin": "2026-11-07 10:53:00",
   "Locatario": "MATURANA UNIVERSITARIO",
   "goles_locatario": "2",
   "puntos_locatario": "3",
@@ -29,12 +29,232 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "19371",
+   "Nombre": "JOSE IGNACIO LAMANNA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "33263",
+   "Nombre": "ALEJANDRO NICOLAS FRIGERIO",
+   "camiseta": "55",
+   "Capitan": ""
+  },
+  {
+   "carne": "26401",
+   "Nombre": "GONZALO DANIEL ROMITTI",
+   "camiseta": "27",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "30484",
+   "Nombre": "DIEGO LOPEZ",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "20513",
+   "Nombre": "RODRIGO NICOLAS NEVES",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "24529",
+   "Nombre": "MARTIN MARTINEZ",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "17355",
+   "Nombre": "LUIS GUZMAN PEREZ",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "27144",
+   "Nombre": "FERNANDO EDUARDO RUBINO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "22401",
+   "Nombre": "GUILLERMO RAFFO",
+   "camiseta": "37",
+   "Capitan": ""
+  },
+  {
+   "carne": "21261",
+   "Nombre": "FEDERICO JOSE MORGADE",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "58329",
+   "Nombre": "FEDERICO DAMIAN RODRIGUEZ",
+   "camiseta": "20",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "29630",
+   "Nombre": "GUILLERMO ALTMANN",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "21640",
+   "Nombre": "FEDERICO VILASECA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "20192",
+   "Nombre": "MARTIN RAFAEL CARDOSO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "18770",
+   "Nombre": "MATIAS JOSE RACHETTI",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "18136",
+   "Nombre": "RODNEY CARLOS BRUCE",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "21016",
+   "Nombre": "DIEGO CUENCA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "19571",
+   "Nombre": "GABRIEL PAYSSE",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "16225",
+   "Nombre": "NICOLAS JUAN BRAUSE",
+   "camiseta": "6",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "16467",
+   "Nombre": "FERNANDO JIMENEZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "19656",
+   "Nombre": "JUAN MARTIN GORTARI",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "16410",
+   "Nombre": "JUAN PEDRO SABELLA",
+   "camiseta": "30",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "33263",
+   "Jug_Sale": "ALEJANDRO NICOLAS FRIGERIO",
+   "CarneEntra": "62023",
+   "Jug_Entra": "GONZALO VALLE",
+   "camiseta": "25",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "30484",
+   "Jug_Sale": "DIEGO LOPEZ",
+   "CarneEntra": "61374",
+   "Jug_Entra": "ALVARO RAFAEL GONZALEZ",
+   "camiseta": "26",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "20513",
+   "Jug_Sale": "RODRIGO NICOLAS NEVES",
+   "CarneEntra": "22982",
+   "Jug_Entra": "JUAN ANDRES LAMANNA",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "22401",
+   "Jug_Sale": "GUILLERMO RAFFO",
+   "CarneEntra": "22563",
+   "Jug_Entra": "LUIS ALFREDO CIDRAS",
+   "camiseta": "5",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "21261",
+   "Jug_Sale": "FEDERICO JOSE MORGADE",
+   "CarneEntra": "57381",
+   "Jug_Entra": "GERARDO BARBIERI",
+   "camiseta": "90",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "17355",
+   "Jug_Sale": "LUIS GUZMAN PEREZ",
+   "CarneEntra": "19590",
+   "Jug_Entra": "GONZALO RAUL MANGADO",
+   "camiseta": "17",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "22982",
+   "Jug_Sale": "JUAN ANDRES LAMANNA",
+   "CarneEntra": "62022",
+   "Jug_Entra": "MAURICIO ANTONIO DURAND",
+   "camiseta": "4",
+   "minutos": "87"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "16467",
+   "Jug_Sale": "FERNANDO JIMENEZ",
+   "CarneEntra": "18057",
+   "Jug_Entra": "GUSTAVO CHIARINO",
+   "camiseta": "16",
+   "minutos": "23"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "58329",
+   "Nombre": "FEDERICO DAMIAN RODRIGUEZ",
+   "minutos": "47",
+   "EnContra": "0"
+  },
+  {
+   "carne": "61374",
+   "Nombre": "ALVARO RAFAEL GONZALEZ",
+   "minutos": "81",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "16410",
+   "Nombre": "JUAN PEDRO SABELLA",
+   "minutos": "31",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

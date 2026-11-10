@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"E\" TIT. y ASC.",
   "Cancha": "COM. CLUB UNIVERSIDAD CATOLICA",
-  "Fecha_Inicio": "2026-11-08 12:45:00",
-  "Fecha_fin": "2026-11-08 12:45:00",
+  "Fecha_Inicio": "2026-11-08 13:10:00",
+  "Fecha_fin": "2026-11-08 13:10:00",
   "Locatario": "ESTUDIANTES ESPAÑOLES",
   "goles_locatario": "2",
   "puntos_locatario": "0",
@@ -29,12 +29,270 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "56099",
+   "Nombre": "FEDERICO GURT",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "29802",
+   "Nombre": "PABLO ANDRES VOITURET",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "30147",
+   "Nombre": "SANTIAGO SORAVILLA",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "31759",
+   "Nombre": "GUILLERMO LA ROSA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "37323",
+   "Nombre": "BRUNO TONCOPI",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "53068",
+   "Nombre": "ANGEL AGUSTIN FRIONI",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "59785",
+   "Nombre": "ALVARO MARTIN FIGUEREDO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "37522",
+   "Nombre": "GASTON ZAUGG",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "37520",
+   "Nombre": "EMILIANO SELVA",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "37483",
+   "Nombre": "SEBASTIAN GARCIA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "41852",
+   "Nombre": "GASTON FEDERICO VAURO",
+   "camiseta": "20",
+   "Capitan": "(C)"
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "58335",
+   "Nombre": "IVAN LACHAISE",
+   "camiseta": "95",
+   "Capitan": ""
+  },
+  {
+   "carne": "44017",
+   "Nombre": "EDUARDO LUIS SUAREZ",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "41743",
+   "Nombre": "LUCAS EXEQUIEL DIANESSI",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "66188",
+   "Nombre": "JUAN DIEGO NOZAR",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "43506",
+   "Nombre": "IGNACIO PAIS",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "47286",
+   "Nombre": "CLAUDIO MAXIMILIANO RODRIGUEZ",
+   "camiseta": "18",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "42480",
+   "Nombre": "FACUNDO ABAD",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "39998",
+   "Nombre": "BRANDON MAVERINO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "60127",
+   "Nombre": "NAHUEL VIERA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "44961",
+   "Nombre": "WALTER RENZO SERVETTI",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "52329",
+   "Nombre": "DIEGO ENRIQUE EMENS",
+   "camiseta": "17",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "41852",
+   "Jug_Sale": "GASTON FEDERICO VAURO",
+   "CarneEntra": "56596",
+   "Jug_Entra": "ESTEBAN ROSAS",
+   "camiseta": "17",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "37483",
+   "Jug_Sale": "SEBASTIAN GARCIA",
+   "CarneEntra": "63171",
+   "Jug_Entra": "RODRIGO ODRIOZOLA",
+   "camiseta": "9",
+   "minutos": "69"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "47286",
+   "Jug_Sale": "CLAUDIO MAXIMILIANO RODRIGUEZ",
+   "CarneEntra": "69153",
+   "Jug_Entra": "DENIS NAHUEL MARTIRENA",
+   "camiseta": "2",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58335",
+   "Jug_Sale": "IVAN LACHAISE",
+   "CarneEntra": "61129",
+   "Jug_Entra": "LUIS MIGUEL MORA",
+   "camiseta": "1",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "44017",
+   "Jug_Sale": "EDUARDO LUIS SUAREZ",
+   "CarneEntra": "52122",
+   "Jug_Entra": "FRANCO GABRIEL PEREZ",
+   "camiseta": "3",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "43506",
+   "Jug_Sale": "IGNACIO PAIS",
+   "CarneEntra": "43511",
+   "Jug_Entra": "FABIAN AUGUSTO SUAREZ",
+   "camiseta": "8",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "44961",
+   "Jug_Sale": "WALTER RENZO SERVETTI",
+   "CarneEntra": "35440",
+   "Jug_Entra": "DIEGO MARTIN BEGUE",
+   "camiseta": "74",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "42480",
+   "Jug_Sale": "FACUNDO ABAD",
+   "CarneEntra": "54413",
+   "Jug_Entra": "NICOLAS EMANUEL GOMEZ",
+   "camiseta": "21",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "52329",
+   "Jug_Sale": "DIEGO ENRIQUE EMENS",
+   "CarneEntra": "42480",
+   "Jug_Entra": "FACUNDO ABAD",
+   "camiseta": "11",
+   "minutos": "73"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "37522",
+   "Nombre": "GASTON ZAUGG",
+   "minutos": "73",
+   "EnContra": "0"
+  },
+  {
+   "carne": "53068",
+   "Nombre": "ANGEL AGUSTIN FRIONI",
+   "minutos": "40",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "35440",
+   "Nombre": "DIEGO MARTIN BEGUE",
+   "minutos": "81",
+   "EnContra": "1"
+  },
+  {
+   "carne": "41743",
+   "Nombre": "LUCAS EXEQUIEL DIANESSI",
+   "minutos": "36",
+   "EnContra": "1"
+  },
+  {
+   "carne": "41743",
+   "Nombre": "LUCAS EXEQUIEL DIANESSI",
+   "minutos": "87",
+   "EnContra": "1"
+  },
+  {
+   "carne": "42480",
+   "Nombre": "FACUNDO ABAD",
+   "minutos": "6",
+   "EnContra": "1"
+  },
+  {
+   "carne": "42480",
+   "Nombre": "FACUNDO ABAD",
+   "minutos": "56",
+   "EnContra": "1"
+  },
+  {
+   "carne": "44017",
+   "Nombre": "EDUARDO LUIS SUAREZ",
+   "minutos": "78",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

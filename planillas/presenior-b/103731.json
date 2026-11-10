@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"B\" TIT. y ASC",
   "Cancha": "SANDY FUTBOL",
-  "Fecha_Inicio": "2026-11-07 10:30:00",
-  "Fecha_fin": "2026-11-07 10:30:00",
+  "Fecha_Inicio": "2026-11-07 11:00:00",
+  "Fecha_fin": "2026-11-07 11:00:00",
   "Locatario": "RESISTENCIA",
   "goles_locatario": "2",
   "puntos_locatario": "3",
@@ -29,12 +29,237 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "titularesL": [
+  {
+   "carne": "32833",
+   "Nombre": "JUAN JAVIER CARBALLO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "23452",
+   "Nombre": "IGNACIO SPANGENBERG",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "23456",
+   "Nombre": "SERGIO SEBASTIAN MATTOS",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "31507",
+   "Nombre": "JOAQUIN BADO",
+   "camiseta": "2",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "26846",
+   "Nombre": "RODRIGO ROCHA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "28541",
+   "Nombre": "IGNACIO BONINO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "25142",
+   "Nombre": "ADRIAN RODRIGO SILVA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "23532",
+   "Nombre": "RODRIGO IBACETA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "27066",
+   "Nombre": "SANTIAGO JULIAN LAGOMARSINO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "25651",
+   "Nombre": "CRISTIAN AROCHA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "24879",
+   "Nombre": "DIEGO NICOLAS RIOLFO",
+   "camiseta": "14",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "29107",
+   "Nombre": "FABRIZIO DANIEL BORSANI",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "35668",
+   "Nombre": "MATTIAS JOAN ALVEZ",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "45399",
+   "Nombre": "MATIAS DANIEL AGUIRREZABAL",
+   "camiseta": "22",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "24898",
+   "Nombre": "MATIAS SENTANARO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "31583",
+   "Nombre": "ADRIAN MAYOR",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "40038",
+   "Nombre": "EMILIANO DARIO WUNSCH",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "25465",
+   "Nombre": "MARCELO MAYOR",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "31424",
+   "Nombre": "DIEGO ALBERTO LOPEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "59789",
+   "Nombre": "DANIEL LUZ",
+   "camiseta": "70",
+   "Capitan": ""
+  },
+  {
+   "carne": "30355",
+   "Nombre": "SEBASTIAN SANTOS",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "28194",
+   "Nombre": "CHRISTIAN GABRIEL QUINTERO",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "28541",
+   "Jug_Sale": "IGNACIO BONINO",
+   "CarneEntra": "22462",
+   "Jug_Entra": "PEDRO CAPRANI",
+   "camiseta": "4",
+   "minutos": "8"
+  },
+  {
+   "CarneSale": "27066",
+   "Jug_Sale": "SANTIAGO JULIAN LAGOMARSINO",
+   "CarneEntra": "23840",
+   "Jug_Entra": "RODRIGO AÑON",
+   "camiseta": "11",
+   "minutos": "73"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "31424",
+   "Jug_Sale": "DIEGO ALBERTO LOPEZ",
+   "CarneEntra": "28194",
+   "Jug_Entra": "CHRISTIAN GABRIEL QUINTERO",
+   "camiseta": "10",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "24898",
+   "Jug_Sale": "MATIAS SENTANARO",
+   "CarneEntra": "68895",
+   "Jug_Entra": "DIEGO FERNANDO QUINTERO",
+   "camiseta": "4",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "59789",
+   "Jug_Sale": "DANIEL LUZ",
+   "CarneEntra": "31424",
+   "Jug_Entra": "DIEGO ALBERTO LOPEZ",
+   "camiseta": "8",
+   "minutos": "89"
+  },
+  {
+   "CarneSale": "30355",
+   "Jug_Sale": "SEBASTIAN SANTOS",
+   "CarneEntra": "36351",
+   "Jug_Entra": "DANIEL ALEJANDRO TUCUNA",
+   "camiseta": "99",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "28194",
+   "Jug_Sale": "CHRISTIAN GABRIEL QUINTERO",
+   "CarneEntra": "30822",
+   "Jug_Entra": "MAXIMILIANO GABRIEL CODEVILA",
+   "camiseta": "92",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "35668",
+   "Jug_Sale": "MATTIAS JOAN ALVEZ",
+   "CarneEntra": "27306",
+   "Jug_Entra": "FABRICIO GASTON BONILLA",
+   "camiseta": "17",
+   "minutos": "45"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "22462",
+   "Nombre": "PEDRO CAPRANI",
+   "minutos": "29",
+   "EnContra": "0"
+  },
+  {
+   "carne": "24879",
+   "Nombre": "DIEGO NICOLAS RIOLFO",
+   "minutos": "22",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "30822",
+   "Nombre": "MAXIMILIANO GABRIEL CODEVILA",
+   "minutos": "52",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "ADRIAN RODRIGO SILVA",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

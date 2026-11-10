@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"E\" TIT. y ASC.",
   "Cancha": "COMPLEJO 1GOL",
-  "Fecha_Inicio": "2026-11-08 10:30:00",
-  "Fecha_fin": "2026-11-08 10:30:00",
+  "Fecha_Inicio": "2026-11-08 11:00:00",
+  "Fecha_fin": "2026-11-08 11:00:00",
   "Locatario": "CERVANTES UNIVERSITARIO",
   "goles_locatario": "3",
   "puntos_locatario": "3",
@@ -29,12 +29,254 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "45494",
+   "Nombre": "RODRIGO CARLOS BARLA",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "34257",
+   "Nombre": "JUAN FELIPE CARDINAL",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "51670",
+   "Nombre": "RODRIGO BERGARA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "40955",
+   "Nombre": "FABRIZIO NICOLAS ARMARIO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "51155",
+   "Nombre": "SANTIAGO FURMAN",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "49052",
+   "Nombre": "GIANLUCA COSTANTINI",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "62326",
+   "Nombre": "MANUEL LOPEZ",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "31726",
+   "Nombre": "DIEGO MARTIN RODRIGUEZ",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "50459",
+   "Nombre": "DAMIAN CAO",
+   "camiseta": "27",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "38019",
+   "Nombre": "IGNACIO GUZMAN FERNANDEZ",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "44754",
+   "Nombre": "PATRICIO LOPEZ",
+   "camiseta": "22",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "34347",
+   "Nombre": "DIEGO MARTIN BALDRIZ",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "49275",
+   "Nombre": "ALEJO DE GIOBBI",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "59138",
+   "Nombre": "EMILIANO ROQUERO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "67333",
+   "Nombre": "GASTON EXEQUIEL SARMIENTO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "51990",
+   "Nombre": "LUCAS JOAQUIN DORTA",
+   "camiseta": "4",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "61281",
+   "Nombre": "LUCAS OLIVERA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "47089",
+   "Nombre": "GUSTAVO ISMAEL DUARTE",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "67159",
+   "Nombre": "BRUNO CORREA",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "59011",
+   "Nombre": "NAHUEL ACOSTA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "51146",
+   "Nombre": "JOSE IGNACIO PIZZINI",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "66332",
+   "Nombre": "BRUNO DANIEL TODARO",
+   "camiseta": "25",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "31726",
+   "Jug_Sale": "DIEGO MARTIN RODRIGUEZ",
+   "CarneEntra": "67255",
+   "Jug_Entra": "MATIAS TEJEIRA",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "34257",
+   "Jug_Sale": "JUAN FELIPE CARDINAL",
+   "CarneEntra": "63167",
+   "Jug_Entra": "LUCAS BORGES",
+   "camiseta": "13",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "40955",
+   "Jug_Sale": "FABRIZIO NICOLAS ARMARIO",
+   "CarneEntra": "45764",
+   "Jug_Entra": "MATIAS BUGARIN",
+   "camiseta": "18",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "44754",
+   "Jug_Sale": "PATRICIO LOPEZ",
+   "CarneEntra": "67438",
+   "Jug_Entra": "BRUNO MUSETTI",
+   "camiseta": "25",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "62326",
+   "Jug_Sale": "MANUEL LOPEZ",
+   "CarneEntra": "61839",
+   "Jug_Entra": "IGNACIO SEBASTIAN OVANDO",
+   "camiseta": "20",
+   "minutos": "66"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "61281",
+   "Jug_Sale": "LUCAS OLIVERA",
+   "CarneEntra": "60768",
+   "Jug_Entra": "BRADLEY JESUS COLLAZO",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "47089",
+   "Jug_Sale": "GUSTAVO ISMAEL DUARTE",
+   "CarneEntra": "61532",
+   "Jug_Entra": "JUAN IGNACIO OLIVERA",
+   "camiseta": "13",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "51146",
+   "Jug_Sale": "JOSE IGNACIO PIZZINI",
+   "CarneEntra": "63261",
+   "Jug_Entra": "NICOLAS SANGUINE",
+   "camiseta": "18",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "59011",
+   "Jug_Sale": "NAHUEL ACOSTA",
+   "CarneEntra": "61531",
+   "Jug_Entra": "GONZALO GABRIEL BERRUTTI",
+   "camiseta": "11",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "66332",
+   "Jug_Sale": "BRUNO DANIEL TODARO",
+   "CarneEntra": "23009",
+   "Jug_Entra": "RODRIGO DE PAULA",
+   "camiseta": "10",
+   "minutos": "82"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "50459",
+   "Nombre": "DAMIAN CAO",
+   "minutos": "45",
+   "EnContra": "0"
+  },
+  {
+   "carne": "50459",
+   "Nombre": "DAMIAN CAO",
+   "minutos": "47",
+   "EnContra": "0"
+  },
+  {
+   "carne": "50459",
+   "Nombre": "DAMIAN CAO",
+   "minutos": "79",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "51990",
+   "Nombre": "LUCAS JOAQUIN DORTA",
+   "minutos": "4",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

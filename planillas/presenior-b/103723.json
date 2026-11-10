@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"B\" PER. y DESC",
   "Cancha": "COMPLEJO DEPORTIVO ARRAYANES",
-  "Fecha_Inicio": "2026-11-07 10:30:00",
-  "Fecha_fin": "2026-11-07 10:30:00",
+  "Fecha_Inicio": "2026-11-07 11:00:00",
+  "Fecha_fin": "2026-11-07 11:00:00",
   "Locatario": "ESTUDIANTIL SALTEÑO",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,249 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "54038",
+   "Nombre": "CHRISTIAN COMPTON",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "38949",
+   "Nombre": "OSCAR SEBASTIAN ALBRECH",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "31404",
+   "Nombre": "AGUSTIN GABRIEL GONZALEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "22273",
+   "Nombre": "CARLOS JOAQUIN ELLIOT",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "28961",
+   "Nombre": "RODRIGO COLLAZO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "31738",
+   "Nombre": "FACUNDO FABIAN GOMEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "31557",
+   "Nombre": "SERGIO GABRIEL MARTIRENA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "19202",
+   "Nombre": "MARTIN FACUNDO LEITES",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "23039",
+   "Nombre": "ANDRES ALEJANDRO PERALTA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "30595",
+   "Nombre": "GUSTAVO ENRIQUE MATTOS",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "55245",
+   "Nombre": "JUAN PABLO ROSAS",
+   "camiseta": "90",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "36104",
+   "Nombre": "SANTIAGO JAUME",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "23557",
+   "Nombre": "IGNACIO IRURETA GOYENA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "24932",
+   "Nombre": "RAFAEL ETCHEBARNE",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "22544",
+   "Nombre": "JUAN GABRIEL BASSO",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "21634",
+   "Nombre": "MATIAS CALACHA",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "51059",
+   "Nombre": "RODRIGO MENDEZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "23372",
+   "Nombre": "JUAN IGNACIO LOPEZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "35873",
+   "Nombre": "LEONARDO BERHAU",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "29965",
+   "Nombre": "ALEJANDRO MAZZOLI",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "63323",
+   "Nombre": "MATIAS BATTRO",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "33875",
+   "Nombre": "ENRIQUE LEGARIA",
+   "camiseta": "27",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "55245",
+   "Jug_Sale": "JUAN PABLO ROSAS",
+   "CarneEntra": "61521",
+   "Jug_Entra": "SEBASTIAN HAGOBIAN",
+   "camiseta": "21",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "28961",
+   "Jug_Sale": "RODRIGO COLLAZO",
+   "CarneEntra": "55245",
+   "Jug_Entra": "JUAN PABLO ROSAS",
+   "camiseta": "90",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "38949",
+   "Jug_Sale": "OSCAR SEBASTIAN ALBRECH",
+   "CarneEntra": "36897",
+   "Jug_Entra": "VICTOR MARTIN MARIN",
+   "camiseta": "22",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "23039",
+   "Jug_Sale": "ANDRES ALEJANDRO PERALTA",
+   "CarneEntra": "19819",
+   "Jug_Entra": "ALVARO GABRIEL LOPEZ",
+   "camiseta": "9",
+   "minutos": "77"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "24932",
+   "Jug_Sale": "RAFAEL ETCHEBARNE",
+   "CarneEntra": "23361",
+   "Jug_Entra": "ALEJANDRO REYES",
+   "camiseta": "88",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "63323",
+   "Jug_Sale": "MATIAS BATTRO",
+   "CarneEntra": "39512",
+   "Jug_Entra": "JAVIER FRANCISCO MONTANS",
+   "camiseta": "18",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "23372",
+   "Jug_Sale": "JUAN IGNACIO LOPEZ",
+   "CarneEntra": "27933",
+   "Jug_Entra": "ENRIQUE CALACHA",
+   "camiseta": "3",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "51059",
+   "Jug_Sale": "RODRIGO MENDEZ",
+   "CarneEntra": "24729",
+   "Jug_Entra": "ANDRES IRURETA",
+   "camiseta": "8",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "24729",
+   "Jug_Sale": "ANDRES IRURETA",
+   "CarneEntra": "23371",
+   "Jug_Entra": "EDUARDO ANDRES CUÑARRO",
+   "camiseta": "11",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "33875",
+   "Jug_Sale": "ENRIQUE LEGARIA",
+   "CarneEntra": "44279",
+   "Jug_Entra": "GUILLERMO NICOLAS CARDOZO",
+   "camiseta": "36",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "22544",
+   "Jug_Sale": "JUAN GABRIEL BASSO",
+   "CarneEntra": "33230",
+   "Jug_Entra": "TOMAS GARCIA PINTOS",
+   "camiseta": "88",
+   "minutos": "75"
+  }
+ ],
  "golesL": [],
- "golesV": [],
+ "golesV": [
+  {
+   "carne": "23372",
+   "Nombre": "JUAN IGNACIO LOPEZ",
+   "minutos": "19",
+   "EnContra": "1"
+  },
+  {
+   "carne": "24729",
+   "Nombre": "ANDRES IRURETA",
+   "minutos": "70",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

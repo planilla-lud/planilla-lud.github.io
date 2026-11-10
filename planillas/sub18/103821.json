@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB18 ORO",
   "Cancha": "CARRASCO LAWN TENIS (KM 23)",
-  "Fecha_Inicio": "2026-11-08 17:00:00",
-  "Fecha_fin": "2026-11-08 17:00:00",
+  "Fecha_Inicio": "2026-11-08 12:00:00",
+  "Fecha_fin": "2026-11-08 12:00:00",
   "Locatario": "CARRASCO LAWN TENNIS",
   "goles_locatario": "5",
   "puntos_locatario": "3",
@@ -29,12 +29,255 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "57786",
+   "Nombre": "FAUSTINO ARDITTI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "56869",
+   "Nombre": "NICOLAS PODESTA",
+   "camiseta": "36",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "62744",
+   "Nombre": "FELIPE SARACCO",
+   "camiseta": "53",
+   "Capitan": ""
+  },
+  {
+   "carne": "62737",
+   "Nombre": "VALENTINO SPOSITO",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "62734",
+   "Nombre": "BALTAZAR FERRARO",
+   "camiseta": "48",
+   "Capitan": ""
+  },
+  {
+   "carne": "61096",
+   "Nombre": "TOMAS ARRIETA",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "56127",
+   "Nombre": "FELIPE CROCI",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "67652",
+   "Nombre": "FACUNDO PEREZ",
+   "camiseta": "61",
+   "Capitan": ""
+  },
+  {
+   "carne": "61859",
+   "Nombre": "JUAN SEGUNDO RODRIGUEZ",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "63410",
+   "Nombre": "TOMAS GRUDZIEN",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "57593",
+   "Nombre": "GENARO DE MORI",
+   "camiseta": "38",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "62865",
+   "Nombre": "BENJAMIN FERNANDEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "58003",
+   "Nombre": "JOAQUIN PILONI",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "62671",
+   "Nombre": "JOAQUIN CURBELO",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "68046",
+   "Nombre": "CAMILO VERA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "60333",
+   "Nombre": "MANUEL LLORENTE",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "64697",
+   "Nombre": "FRANCISCO GIMENEZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "57924",
+   "Nombre": "FACUNDO IMANOL OLARREAGA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "64870",
+   "Nombre": "JUAN PONS",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "65335",
+   "Nombre": "JUAN BAUTISTA RODRIGUEZ",
+   "camiseta": "8",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "61039",
+   "Nombre": "FELIPE SOBRAL",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "66147",
+   "Nombre": "LEANDRO CAMBÒN",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "62737",
+   "Jug_Sale": "VALENTINO SPOSITO",
+   "CarneEntra": "65044",
+   "Jug_Entra": "NICOLAS CUELLO",
+   "camiseta": "40",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67652",
+   "Jug_Sale": "FACUNDO PEREZ",
+   "CarneEntra": "63144",
+   "Jug_Entra": "DIEGO RAFAEL DECARLINI",
+   "camiseta": "23",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "57593",
+   "Jug_Sale": "GENARO DE MORI",
+   "CarneEntra": "57605",
+   "Jug_Entra": "SANTIAGO GONZALEZ",
+   "camiseta": "51",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "56127",
+   "Jug_Sale": "FELIPE CROCI",
+   "CarneEntra": "67652",
+   "Jug_Entra": "FACUNDO PEREZ",
+   "camiseta": "61",
+   "minutos": "60"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "57924",
+   "Jug_Sale": "FACUNDO IMANOL OLARREAGA",
+   "CarneEntra": "67622",
+   "Jug_Entra": "FRANCISCO FYNN",
+   "camiseta": "4",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66147",
+   "Jug_Sale": "LEANDRO CAMBÒN",
+   "CarneEntra": "64871",
+   "Jug_Entra": "TIMOTEO PERRIER",
+   "camiseta": "19",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64870",
+   "Jug_Sale": "JUAN PONS",
+   "CarneEntra": "66147",
+   "Jug_Entra": "LEANDRO CAMBÒN",
+   "camiseta": "7",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "64697",
+   "Jug_Sale": "FRANCISCO GIMENEZ",
+   "CarneEntra": "57924",
+   "Jug_Entra": "FACUNDO IMANOL OLARREAGA",
+   "camiseta": "17",
+   "minutos": "82"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "56127",
+   "Nombre": "FELIPE CROCI",
+   "minutos": "10",
+   "EnContra": "0"
+  },
+  {
+   "carne": "56869",
+   "Nombre": "NICOLAS PODESTA",
+   "minutos": "67",
+   "EnContra": "0"
+  },
+  {
+   "carne": "57593",
+   "Nombre": "GENARO DE MORI",
+   "minutos": "20",
+   "EnContra": "0"
+  },
+  {
+   "carne": "57593",
+   "Nombre": "GENARO DE MORI",
+   "minutos": "47",
+   "EnContra": "0"
+  },
+  {
+   "carne": "61859",
+   "Nombre": "JUAN SEGUNDO RODRIGUEZ",
+   "minutos": "50",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "68046",
+   "Nombre": "CAMILO VERA",
+   "minutos": "55",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
- "expulsadosV": []
+ "expulsadosV": [
+  {
+   "Nombre": "CAMILO VERA",
+   "observaciones": ""
+  }
+ ]
 }

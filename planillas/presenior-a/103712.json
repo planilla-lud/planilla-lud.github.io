@@ -4,7 +4,7 @@
  "serie": "PSAT",
  "fecha": 6,
  "fechaHora": "2026-11-07 09:00:00",
- "cancha": "COMPLEJO AZULGRANA",
+ "cancha": "OLD CHRISTIANS CLUB",
  "local": "OLD BOYS CLUB",
  "visitante": "NAUTICO CARRASCO Y PUNTA GORDA",
  "gl": 5,
@@ -17,9 +17,9 @@
   "categoria": "PRE-SENIOR MASCULINO",
   "rueda": "2",
   "Divisional": "PRESENIOR \"A\" TITULO",
-  "Cancha": "COMPLEJO AZULGRANA",
-  "Fecha_Inicio": "2026-11-07 10:30:00",
-  "Fecha_fin": "2026-11-07 10:30:00",
+  "Cancha": "OLD CHRISTIANS CLUB",
+  "Fecha_Inicio": "2026-11-07 11:00:00",
+  "Fecha_fin": "2026-11-07 11:00:00",
   "Locatario": "OLD BOYS CLUB",
   "goles_locatario": "5",
   "puntos_locatario": "3",
@@ -29,12 +29,256 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "22548",
+   "Nombre": "FRANCISCO MARIA BOSCH",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "26389",
+   "Nombre": "MARTIN JOSE DONAGARAY",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "26390",
+   "Nombre": "ROBERTO MATIAS GIMENEZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "26980",
+   "Nombre": "SANTIAGO NIELS SHAW",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "33900",
+   "Nombre": "SANTIAGO ARANCIBIA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "36432",
+   "Nombre": "ALBERTO FELIZ INCIARTE",
+   "camiseta": "23",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "32038",
+   "Nombre": "LUCAS MARIA GARCIA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "29662",
+   "Nombre": "SANTIAGO JUAN ALBANELL",
+   "camiseta": "38",
+   "Capitan": ""
+  },
+  {
+   "carne": "49522",
+   "Nombre": "MATEO PEREIRA",
+   "camiseta": "94",
+   "Capitan": ""
+  },
+  {
+   "carne": "29672",
+   "Nombre": "JUAN MARIA OREGGIA",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "28182",
+   "Nombre": "ALFREDO AROCENA",
+   "camiseta": "18",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "30639",
+   "Nombre": "NICOLAS FERNANDO ALVAREZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "34261",
+   "Nombre": "MARTIN PESSANO",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "23989",
+   "Nombre": "MAURICIO SANTIAGO",
+   "camiseta": "2",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "25020",
+   "Nombre": "GASTON MARCOS BIANCHI",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "35041",
+   "Nombre": "JOAQUIN GUERRA",
+   "camiseta": "51",
+   "Capitan": ""
+  },
+  {
+   "carne": "35358",
+   "Nombre": "GONZALO MARTIN RUSSO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "22414",
+   "Nombre": "RODRIGO OLAVE",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "26528",
+   "Nombre": "MARIO SZLAFMYC",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "27240",
+   "Nombre": "CARLOS GABRIEL SCHOPF",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "30849",
+   "Nombre": "MANUEL BARBOZA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "20774",
+   "Nombre": "DIEGO ALEMAN",
+   "camiseta": "16",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "29662",
+   "Jug_Sale": "SANTIAGO JUAN ALBANELL",
+   "CarneEntra": "28292",
+   "Jug_Entra": "FRANCISCO CEA",
+   "camiseta": "10",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "28182",
+   "Jug_Sale": "ALFREDO AROCENA",
+   "CarneEntra": "29672",
+   "Jug_Entra": "JUAN MARIA OREGGIA",
+   "camiseta": "16",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "36432",
+   "Jug_Sale": "ALBERTO FELIZ INCIARTE",
+   "CarneEntra": "25060",
+   "Jug_Entra": "NICOLAS RUEDA",
+   "camiseta": "8",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "33900",
+   "Jug_Sale": "SANTIAGO ARANCIBIA",
+   "CarneEntra": "31896",
+   "Jug_Entra": "ALFONSO GUZMAN GALLO",
+   "camiseta": "9",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "49522",
+   "Jug_Sale": "MATEO PEREIRA",
+   "CarneEntra": "34613",
+   "Jug_Entra": "DIEGO MARIA CROSA",
+   "camiseta": "15",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "26980",
+   "Jug_Sale": "SANTIAGO NIELS SHAW",
+   "CarneEntra": "26591",
+   "Jug_Entra": "FELIPE DE SANTIAGO",
+   "camiseta": "22",
+   "minutos": "78"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "23989",
+   "Jug_Sale": "MAURICIO SANTIAGO",
+   "CarneEntra": "54075",
+   "Jug_Entra": "RODRIGO VIEIRA",
+   "camiseta": "19",
+   "minutos": "20"
+  },
+  {
+   "CarneSale": "25020",
+   "Jug_Sale": "GASTON MARCOS BIANCHI",
+   "CarneEntra": "23004",
+   "Jug_Entra": "ANGEL URRABURU",
+   "camiseta": "25",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "27240",
+   "Jug_Sale": "CARLOS GABRIEL SCHOPF",
+   "CarneEntra": "25769",
+   "Jug_Entra": "FABRICIO RIANI",
+   "camiseta": "31",
+   "minutos": "75"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "29672",
+   "Nombre": "JUAN MARIA OREGGIA",
+   "minutos": "46",
+   "EnContra": "0"
+  },
+  {
+   "carne": "29672",
+   "Nombre": "JUAN MARIA OREGGIA",
+   "minutos": "49",
+   "EnContra": "0"
+  },
+  {
+   "carne": "29672",
+   "Nombre": "JUAN MARIA OREGGIA",
+   "minutos": "78",
+   "EnContra": "0"
+  },
+  {
+   "carne": "31896",
+   "Nombre": "ALFONSO GUZMAN GALLO",
+   "minutos": "80",
+   "EnContra": "0"
+  },
+  {
+   "carne": "32038",
+   "Nombre": "LUCAS MARIA GARCIA",
+   "minutos": "37",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
- "expulsadosV": []
+ "expulsadosV": [
+  {
+   "Nombre": "RODRIGO OLAVE",
+   "observaciones": ""
+  }
+ ]
 }

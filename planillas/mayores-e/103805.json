@@ -4,7 +4,7 @@
  "serie": "EPD",
  "fecha": 7,
  "fechaHora": "2026-11-08 09:00:00",
- "cancha": "VILLA MARIA",
+ "cancha": "()",
  "local": "SUDAMERICA UNIVERSITARIO",
  "visitante": "CLUB RICHARD ANDERSON UNIV.",
  "gl": 1,
@@ -17,9 +17,9 @@
   "categoria": "MAYORES MASCULINO",
   "rueda": "2",
   "Divisional": "MAYORES \"E\" PERM. y DESC.",
-  "Cancha": "VILLA MARIA",
-  "Fecha_Inicio": "2026-11-08 10:30:00",
-  "Fecha_fin": "2026-11-08 10:30:00",
+  "Cancha": "()",
+  "Fecha_Inicio": "2026-11-08 11:00:00",
+  "Fecha_fin": "2026-11-08 11:00:00",
   "Locatario": "SUDAMERICA UNIVERSITARIO",
   "goles_locatario": "1",
   "puntos_locatario": "0",
@@ -29,12 +29,256 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "49733",
+   "Nombre": "DIEGO OLASO",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "64590",
+   "Nombre": "FAUSTINO VALIENTE",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "56528",
+   "Nombre": "SANTIAGO NICOLAS BARRIOS",
+   "camiseta": "38",
+   "Capitan": ""
+  },
+  {
+   "carne": "62441",
+   "Nombre": "BRIAN ANTHONY PEREZ",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "40236",
+   "Nombre": "SANTIAGO MARTINEZ",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "61873",
+   "Nombre": "JUAN MARTIN FUMERO",
+   "camiseta": "50",
+   "Capitan": ""
+  },
+  {
+   "carne": "63102",
+   "Nombre": "BENJAMIN ACOSTA",
+   "camiseta": "39",
+   "Capitan": ""
+  },
+  {
+   "carne": "64961",
+   "Nombre": "JUAN PABLO ALVAREZ",
+   "camiseta": "37",
+   "Capitan": ""
+  },
+  {
+   "carne": "40257",
+   "Nombre": "ROQUE MARTIN ANDRADA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "54089",
+   "Nombre": "PABLO GOROSO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "54112",
+   "Nombre": "ARIEL FRANCISCO ACOSTA",
+   "camiseta": "18",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "63308",
+   "Nombre": "FELIPE MONAGAS",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "44089",
+   "Nombre": "JUAN IGNACIO GONZALEZ",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "64612",
+   "Nombre": "SANTIAGO CAPRARIO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "64625",
+   "Nombre": "FEDERICO CAPRARIO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "67268",
+   "Nombre": "MATEO BACHEV",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "37175",
+   "Nombre": "JUAN O´NEILL",
+   "camiseta": "26",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "43895",
+   "Nombre": "JOAQUIN BARBE",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "54915",
+   "Nombre": "MARTIN HORACIO MONAGAS",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "43166",
+   "Nombre": "BRUNO ALCANTARA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "37117",
+   "Nombre": "AGUSTIN MALO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "62785",
+   "Nombre": "FELIPE ARRUABARRENA",
+   "camiseta": "32",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "61873",
+   "Jug_Sale": "JUAN MARTIN FUMERO",
+   "CarneEntra": "69022",
+   "Jug_Entra": "JUAN MARTIN PATRON",
+   "camiseta": "49",
+   "minutos": "8"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "64625",
+   "Jug_Sale": "FEDERICO CAPRARIO",
+   "CarneEntra": "50591",
+   "Jug_Entra": "JUAN IGNACIO TARIGO",
+   "camiseta": "21",
+   "minutos": "42"
+  },
+  {
+   "CarneSale": "44089",
+   "Jug_Sale": "JUAN IGNACIO GONZALEZ",
+   "CarneEntra": "50588",
+   "Jug_Entra": "IGNACIO YACI",
+   "camiseta": "2",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "43895",
+   "Jug_Sale": "JOAQUIN BARBE",
+   "CarneEntra": "51377",
+   "Jug_Entra": "FRANCISCO VARELA",
+   "camiseta": "19",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "54915",
+   "Jug_Sale": "MARTIN HORACIO MONAGAS",
+   "CarneEntra": "51379",
+   "Jug_Entra": "JUAN JOSE RODRIGUEZ",
+   "camiseta": "5",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "37117",
+   "Jug_Sale": "AGUSTIN MALO",
+   "CarneEntra": "53607",
+   "Jug_Entra": "LAUTARO FEDERICO SATRANO",
+   "camiseta": "36",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "67268",
+   "Jug_Sale": "MATEO BACHEV",
+   "CarneEntra": "42141",
+   "Jug_Entra": "GIANFRANCO SIENRA",
+   "camiseta": "16",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "43166",
+   "Jug_Sale": "BRUNO ALCANTARA",
+   "CarneEntra": "63424",
+   "Jug_Entra": "FEDERICO OTERO",
+   "camiseta": "69",
+   "minutos": "75"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "56528",
+   "Nombre": "SANTIAGO NICOLAS BARRIOS",
+   "minutos": "38",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "37117",
+   "Nombre": "AGUSTIN MALO",
+   "minutos": "53",
+   "EnContra": "1"
+  },
+  {
+   "carne": "37117",
+   "Nombre": "AGUSTIN MALO",
+   "minutos": "56",
+   "EnContra": "1"
+  },
+  {
+   "carne": "37175",
+   "Nombre": "JUAN O´NEILL",
+   "minutos": "72",
+   "EnContra": "1"
+  },
+  {
+   "carne": "53607",
+   "Nombre": "LAUTARO FEDERICO SATRANO",
+   "minutos": "86",
+   "EnContra": "1"
+  },
+  {
+   "carne": "62785",
+   "Nombre": "FELIPE ARRUABARRENA",
+   "minutos": "19",
+   "EnContra": "1"
+  },
+  {
+   "carne": "62785",
+   "Nombre": "FELIPE ARRUABARRENA",
+   "minutos": "62",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

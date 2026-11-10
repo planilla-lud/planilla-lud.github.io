@@ -1,0 +1,303 @@
+{
+ "id": "103874",
+ "categoria": "presenior-b",
+ "serie": "PSBPD",
+ "fecha": 6,
+ "fechaHora": "2026-11-07 09:00:00",
+ "cancha": "COMPLEJO ARACHAN",
+ "local": "WOLFRAMIO",
+ "visitante": "PALLOTTI UNIVERSITARIO",
+ "gl": 1,
+ "gv": 7,
+ "detalle": {
+  "nro_partido": "884",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "PRE SENIOR",
+  "categoria": "PRE-SENIOR MASCULINO",
+  "rueda": "2",
+  "Divisional": "PRESENIOR \"B\" PER. y DESC",
+  "Cancha": "COMPLEJO ARACHAN",
+  "Fecha_Inicio": "2026-11-07 10:50:00",
+  "Fecha_fin": "2026-11-07 10:50:00",
+  "Locatario": "WOLFRAMIO",
+  "goles_locatario": "1",
+  "puntos_locatario": "0",
+  "Visitante": "PALLOTTI UNIVERSITARIO",
+  "goles_visitante": "7",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "18734",
+   "Nombre": "PABLO MARTIN AREVALO",
+   "camiseta": "79",
+   "Capitan": ""
+  },
+  {
+   "carne": "26387",
+   "Nombre": "BERNARDO ALARCON",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "38807",
+   "Nombre": "JAVIER MALAN",
+   "camiseta": "86",
+   "Capitan": ""
+  },
+  {
+   "carne": "31372",
+   "Nombre": "JUAN NICOLAS MOSCOSO",
+   "camiseta": "74",
+   "Capitan": ""
+  },
+  {
+   "carne": "24978",
+   "Nombre": "ALEJANDRO BRUSONI",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "13316",
+   "Nombre": "RICARDO FABIAN SOSA",
+   "camiseta": "99",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "54342",
+   "Nombre": "SANTIAGO MARTIN RODRIGUEZ",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "33546",
+   "Nombre": "JUAN EDUARDO GUTIERREZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "65283",
+   "Nombre": "MARCELO FRANCISCO ALVES",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "35006",
+   "Nombre": "JOSE PABLO SOUZA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "59524",
+   "Nombre": "TILSO RAMON LOZANO",
+   "camiseta": "21",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "67586",
+   "Nombre": "DIEGO GASTON MUIÑA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "38888",
+   "Nombre": "ANDRES RICARDO SOSA",
+   "camiseta": "43",
+   "Capitan": ""
+  },
+  {
+   "carne": "28849",
+   "Nombre": "EMILIANO SOSA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "27222",
+   "Nombre": "PABLO MARTIN HERNANDEZ",
+   "camiseta": "8",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "62798",
+   "Nombre": "RODRIGO GONNZALEZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "68668",
+   "Nombre": "ALVARO DANIEL NOBLE",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "25286",
+   "Nombre": "MATIAS SOSA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "33224",
+   "Nombre": "MARCIO MAÑANA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "37650",
+   "Nombre": "GONZALO SEBASTIAN MARTINICORENA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "38358",
+   "Nombre": "NICOLAS ALVAREZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "40814",
+   "Nombre": "AGUSTIN ALVEZ",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "54342",
+   "Jug_Sale": "SANTIAGO MARTIN RODRIGUEZ",
+   "CarneEntra": "68940",
+   "Jug_Entra": "FRANCISCO FABIAN PERDOMO",
+   "camiseta": "24",
+   "minutos": "30"
+  },
+  {
+   "CarneSale": "24978",
+   "Jug_Sale": "ALEJANDRO BRUSONI",
+   "CarneEntra": "44040",
+   "Jug_Entra": "JUAN IGNACIO SALGADO",
+   "camiseta": "87",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "26387",
+   "Jug_Sale": "BERNARDO ALARCON",
+   "CarneEntra": "68925",
+   "Jug_Entra": "FEDERICO MATIAS FERREIRA",
+   "camiseta": "35",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "65283",
+   "Jug_Sale": "MARCELO FRANCISCO ALVES",
+   "CarneEntra": "54342",
+   "Jug_Entra": "SANTIAGO MARTIN RODRIGUEZ",
+   "camiseta": "28",
+   "minutos": "57"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "62798",
+   "Jug_Sale": "RODRIGO GONNZALEZ",
+   "CarneEntra": "25424",
+   "Jug_Entra": "FEDERICO ANDRES RABELINO",
+   "camiseta": "23",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "67586",
+   "Jug_Sale": "DIEGO GASTON MUIÑA",
+   "CarneEntra": "23385",
+   "Jug_Entra": "ALEJANDRO MARROCHE",
+   "camiseta": "12",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "27222",
+   "Jug_Sale": "PABLO MARTIN HERNANDEZ",
+   "CarneEntra": "27654",
+   "Jug_Entra": "ISMAEL NADAL",
+   "camiseta": "19",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "33224",
+   "Jug_Sale": "MARCIO MAÑANA",
+   "CarneEntra": "37505",
+   "Jug_Entra": "ANDRES DENES",
+   "camiseta": "25",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68668",
+   "Jug_Sale": "ALVARO DANIEL NOBLE",
+   "CarneEntra": "67586",
+   "Jug_Entra": "DIEGO GASTON MUIÑA",
+   "camiseta": "1",
+   "minutos": "84"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "59524",
+   "Nombre": "TILSO RAMON LOZANO",
+   "minutos": "73",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "25286",
+   "Nombre": "MATIAS SOSA",
+   "minutos": "9",
+   "EnContra": "1"
+  },
+  {
+   "carne": "25286",
+   "Nombre": "MATIAS SOSA",
+   "minutos": "27",
+   "EnContra": "1"
+  },
+  {
+   "carne": "25286",
+   "Nombre": "MATIAS SOSA",
+   "minutos": "33",
+   "EnContra": "1"
+  },
+  {
+   "carne": "25286",
+   "Nombre": "MATIAS SOSA",
+   "minutos": "75",
+   "EnContra": "1"
+  },
+  {
+   "carne": "25286",
+   "Nombre": "MATIAS SOSA",
+   "minutos": "85",
+   "EnContra": "1"
+  },
+  {
+   "carne": "28849",
+   "Nombre": "EMILIANO SOSA",
+   "minutos": "40",
+   "EnContra": "1"
+  },
+  {
+   "carne": "28849",
+   "Nombre": "EMILIANO SOSA",
+   "minutos": "64",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "PABLO MARTIN AREVALO",
+   "observaciones": ""
+  }
+ ],
+ "expulsadosV": []
+}

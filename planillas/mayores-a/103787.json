@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"A\" PERM. y DESC.",
   "Cancha": "COMPLEJO DEPORTIVO ARRAYANES",
-  "Fecha_Inicio": "2026-11-08 12:45:00",
-  "Fecha_fin": "2026-11-08 12:45:00",
+  "Fecha_Inicio": "2026-11-08 13:15:00",
+  "Fecha_fin": "2026-11-08 13:15:00",
   "Locatario": "SANTA ELENA LAGOMAR",
   "goles_locatario": "2",
   "puntos_locatario": "3",
@@ -29,12 +29,224 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "61170",
+   "Nombre": "THIAGO HANDERSSON",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "61154",
+   "Nombre": "FACUNDO SOLER",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "49228",
+   "Nombre": "SANTIAGO QUINTANS",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "39354",
+   "Nombre": "FEDERICO COMBA",
+   "camiseta": "3",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "50407",
+   "Nombre": "FELIPE PONS",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "41027",
+   "Nombre": "FELIPE ESTEVEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "53426",
+   "Nombre": "JUAN MANUEL BELLO",
+   "camiseta": "48",
+   "Capitan": ""
+  },
+  {
+   "carne": "54416",
+   "Nombre": "JOAQUIN FALCON",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "41326",
+   "Nombre": "FRANCO POLACCHINI",
+   "camiseta": "96",
+   "Capitan": ""
+  },
+  {
+   "carne": "53269",
+   "Nombre": "JUAN MANUEL RODRIGUEZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "45379",
+   "Nombre": "LUIS MATIAS BELDERRAIN",
+   "camiseta": "17",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "45817",
+   "Nombre": "MATIAS ESTAPE",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "55503",
+   "Nombre": "SALVADOR DI CANDIA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "42555",
+   "Nombre": "RODRIGO VAZQUEZ",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "39147",
+   "Nombre": "SEBASTIAN ECHEVERZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "37424",
+   "Nombre": "SANTIAGO PEREZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "47678",
+   "Nombre": "PEDRO MACKINNON",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "39017",
+   "Nombre": "GERMAN FRAGA",
+   "camiseta": "17",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "50839",
+   "Nombre": "FABRIZIO JORGE GRAJALES",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "46261",
+   "Nombre": "BRUNO MARTIN MINASIAN",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "54784",
+   "Nombre": "FACUNDO EMILIANO PAGANI",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "47673",
+   "Nombre": "FRANCISCO JAVIER CAMPON",
+   "camiseta": "20",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "61154",
+   "Jug_Sale": "FACUNDO SOLER",
+   "CarneEntra": "47333",
+   "Jug_Entra": "JOAQUIN GAI",
+   "camiseta": "6",
+   "minutos": "45"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "46261",
+   "Jug_Sale": "BRUNO MARTIN MINASIAN",
+   "CarneEntra": "47176",
+   "Jug_Entra": "SANTIAGO BENZANO",
+   "camiseta": "7",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "37424",
+   "Jug_Sale": "SANTIAGO PEREZ",
+   "CarneEntra": "56643",
+   "Jug_Entra": "FEDERICO MOSCA",
+   "camiseta": "6",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "42555",
+   "Jug_Sale": "RODRIGO VAZQUEZ",
+   "CarneEntra": "57157",
+   "Jug_Entra": "FACUNDO PIRIS",
+   "camiseta": "8",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "47678",
+   "Jug_Sale": "PEDRO MACKINNON",
+   "CarneEntra": "54598",
+   "Jug_Entra": "LUCA SIVORI",
+   "camiseta": "9",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "55503",
+   "Jug_Sale": "SALVADOR DI CANDIA",
+   "CarneEntra": "62166",
+   "Jug_Entra": "FELIPE AMARO LACASSY",
+   "camiseta": "13",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "39017",
+   "Jug_Sale": "GERMAN FRAGA",
+   "CarneEntra": "42555",
+   "Jug_Entra": "RODRIGO VAZQUEZ",
+   "camiseta": "19",
+   "minutos": "90"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "41326",
+   "Nombre": "FRANCO POLACCHINI",
+   "minutos": "47",
+   "EnContra": "0"
+  },
+  {
+   "carne": "53269",
+   "Nombre": "JUAN MANUEL RODRIGUEZ",
+   "minutos": "50",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "47176",
+   "Nombre": "SANTIAGO BENZANO",
+   "minutos": "52",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

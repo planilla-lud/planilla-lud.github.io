@@ -1,0 +1,283 @@
+{
+ "id": "103876",
+ "categoria": "presenior-d",
+ "serie": "PSDPD",
+ "fecha": 6,
+ "fechaHora": "2026-11-07 11:15:00",
+ "cancha": "COMPLEJO JUAN XXIII",
+ "local": "MATURANA UNIVERSITARIO",
+ "visitante": "JEAN PIAGET",
+ "gl": 0,
+ "gv": 3,
+ "detalle": {
+  "nro_partido": "970",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "PRE SENIOR",
+  "categoria": "PRE-SENIOR MASCULINO",
+  "rueda": "2",
+  "Divisional": "PRESENIOR \"D\" PER. y DESC",
+  "Cancha": "COMPLEJO JUAN XXIII",
+  "Fecha_Inicio": "2026-11-07 13:05:00",
+  "Fecha_fin": "2026-11-07 13:05:00",
+  "Locatario": "MATURANA UNIVERSITARIO",
+  "goles_locatario": "0",
+  "puntos_locatario": "0",
+  "Visitante": "JEAN PIAGET",
+  "goles_visitante": "3",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "31313",
+   "Nombre": "LUIS DANIEL ROSSANO",
+   "camiseta": "30",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "64581",
+   "Nombre": "ALVARO MONTELONGO",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "24842",
+   "Nombre": "ALEJANDRO ANDRES SOCA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "67695",
+   "Nombre": "JUAN ANTONIO ALVAREZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "41680",
+   "Nombre": "MATEO GUZMAN BERGARA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "54392",
+   "Nombre": "RODRIGO ALBANO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "37588",
+   "Nombre": "JOSE IGNACIO SAN MARTIN",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "30135",
+   "Nombre": "ADRIAN INFANTINI",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "28071",
+   "Nombre": "SEBASTIAN PENA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "59690",
+   "Nombre": "GONZALO GABRIEL",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "34097",
+   "Nombre": "PABLO SEBASTIAN MOREIRA",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "17702",
+   "Nombre": "DANIEL WARD",
+   "camiseta": "1",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "57047",
+   "Nombre": "SERGIO GASTON MARTINEZ",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "37124",
+   "Nombre": "RICHARD ALEJANDRO ROCCO",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "41052",
+   "Nombre": "VALENTIN MATEO PEÑALVA",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "36908",
+   "Nombre": "MARTIN GEJER",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "21009",
+   "Nombre": "MAXIMILIANO AUGUSTO PEÑALVA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "23874",
+   "Nombre": "GAI BOROVIK",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "21189",
+   "Nombre": "SEBASTIAN CAREDIO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "45283",
+   "Nombre": "DIEGO GAURONAS",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "18049",
+   "Nombre": "ALAN TURNIANSKY",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "41805",
+   "Nombre": "DIEGO AUGUSTO LORENZO",
+   "camiseta": "2",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "41680",
+   "Jug_Sale": "MATEO GUZMAN BERGARA",
+   "CarneEntra": "28287",
+   "Jug_Entra": "MARTIN CASTAGNA",
+   "camiseta": "32",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "37588",
+   "Jug_Sale": "JOSE IGNACIO SAN MARTIN",
+   "CarneEntra": "38025",
+   "Jug_Entra": "TOMAS DIEGO CURBELO",
+   "camiseta": "10",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "30135",
+   "Jug_Sale": "ADRIAN INFANTINI",
+   "CarneEntra": "62023",
+   "Jug_Entra": "GONZALO VALLE",
+   "camiseta": "14",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "67695",
+   "Jug_Sale": "JUAN ANTONIO ALVAREZ",
+   "CarneEntra": "37588",
+   "Jug_Entra": "JOSE IGNACIO SAN MARTIN",
+   "camiseta": "25",
+   "minutos": "65"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "36908",
+   "Jug_Sale": "MARTIN GEJER",
+   "CarneEntra": "54346",
+   "Jug_Entra": "DIEGO JAVIER GORTAIRE",
+   "camiseta": "89",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "21009",
+   "Jug_Sale": "MAXIMILIANO AUGUSTO PEÑALVA",
+   "CarneEntra": "44952",
+   "Jug_Entra": "ANDRES BURCATOVSKY",
+   "camiseta": "32",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "37124",
+   "Jug_Sale": "RICHARD ALEJANDRO ROCCO",
+   "CarneEntra": "28277",
+   "Jug_Entra": "LUCAS JUAN PUIG",
+   "camiseta": "23",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "18049",
+   "Jug_Sale": "ALAN TURNIANSKY",
+   "CarneEntra": "31632",
+   "Jug_Entra": "JUAN PEDRO IZQUIERDO",
+   "camiseta": "21",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "23874",
+   "Jug_Sale": "GAI BOROVIK",
+   "CarneEntra": "43847",
+   "Jug_Entra": "JOAQUIN STIRLING",
+   "camiseta": "6",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "54346",
+   "Jug_Sale": "DIEGO JAVIER GORTAIRE",
+   "CarneEntra": "36908",
+   "Jug_Entra": "MARTIN GEJER",
+   "camiseta": "13",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "41052",
+   "Jug_Sale": "VALENTIN MATEO PEÑALVA",
+   "CarneEntra": "37124",
+   "Jug_Entra": "RICHARD ALEJANDRO ROCCO",
+   "camiseta": "22",
+   "minutos": "8"
+  }
+ ],
+ "golesL": [],
+ "golesV": [
+  {
+   "carne": "28277",
+   "Nombre": "LUCAS JUAN PUIG",
+   "minutos": "65",
+   "EnContra": "1"
+  },
+  {
+   "carne": "41052",
+   "Nombre": "VALENTIN MATEO PEÑALVA",
+   "minutos": "58",
+   "EnContra": "1"
+  },
+  {
+   "carne": "45283",
+   "Nombre": "DIEGO GAURONAS",
+   "minutos": "52",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

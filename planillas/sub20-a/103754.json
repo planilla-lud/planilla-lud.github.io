@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "SUB20 \"A\" PERM. y DESC.",
   "Cancha": "COMPLEJO JUAN XXIII",
-  "Fecha_Inicio": "2026-11-07 17:00:00",
-  "Fecha_fin": "2026-11-07 17:00:00",
+  "Fecha_Inicio": "2026-11-07 17:20:00",
+  "Fecha_fin": "2026-11-07 17:20:00",
   "Locatario": "MATURANA UNIVERSITARIO",
   "goles_locatario": "1",
   "puntos_locatario": "3",
@@ -29,11 +29,186 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "57897",
+   "Nombre": "FACUNDO TORRES",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "69052",
+   "Nombre": "BAUTISTA CONDE",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "56787",
+   "Nombre": "IGNACIO GONZALEZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "56098",
+   "Nombre": "MATIAS MARTIRENA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "64807",
+   "Nombre": "FRANCO GONZALEZ",
+   "camiseta": "51",
+   "Capitan": ""
+  },
+  {
+   "carne": "56778",
+   "Nombre": "FRANCISCO GOMEZ",
+   "camiseta": "30",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "52597",
+   "Nombre": "JOAQUIN ZABALETA",
+   "camiseta": "90",
+   "Capitan": ""
+  },
+  {
+   "carne": "63203",
+   "Nombre": "JOAQUIN RODRIGUEZ",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "63574",
+   "Nombre": "JUAN MANUEL CONDE",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "59293",
+   "Nombre": "AGUSTIN ALMEIDA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "64808",
+   "Nombre": "MANUEL TIAGO LIARD",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "58840",
+   "Nombre": "BENJAMIN VALERIANI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "57005",
+   "Nombre": "IGNACIO IBARBURU",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "57000",
+   "Nombre": "ANDRES ARTAGAVEYTIA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "57010",
+   "Nombre": "FELIPE SUAREZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "56749",
+   "Nombre": "FRANCISCO SOJO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "57004",
+   "Nombre": "ALBERTO HERRERA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "56265",
+   "Nombre": "JUAN MARTIN HRILJAC",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "67654",
+   "Nombre": "BAUTISTA RISSO",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "55700",
+   "Nombre": "MANUEL LACALLE",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "58844",
+   "Nombre": "NICOLAS MONTERO",
+   "camiseta": "45",
+   "Capitan": ""
+  },
+  {
+   "carne": "55218",
+   "Nombre": "THIAGO ESTEVEZ",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "59293",
+   "Jug_Sale": "AGUSTIN ALMEIDA",
+   "CarneEntra": "64798",
+   "Jug_Entra": "SANTIAGO BIDONDO",
+   "camiseta": "6",
+   "minutos": "50"
+  },
+  {
+   "CarneSale": "52597",
+   "Jug_Sale": "JOAQUIN ZABALETA",
+   "CarneEntra": "58751",
+   "Jug_Entra": "FRANCISCO ANTONIO VILLAGRAN",
+   "camiseta": "80",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "63574",
+   "Jug_Sale": "JUAN MANUEL CONDE",
+   "CarneEntra": "56775",
+   "Jug_Entra": "MARIO AGUSTIN ANDRIOLO",
+   "camiseta": "18",
+   "minutos": "84"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "56749",
+   "Jug_Sale": "FRANCISCO SOJO",
+   "CarneEntra": "56262",
+   "Jug_Entra": "FRANCISCO NAVARRO",
+   "camiseta": "17",
+   "minutos": "45"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "63203",
+   "Nombre": "JOAQUIN RODRIGUEZ",
+   "minutos": "91",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

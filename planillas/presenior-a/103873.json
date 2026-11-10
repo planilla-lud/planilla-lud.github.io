@@ -1,0 +1,284 @@
+{
+ "id": "103873",
+ "categoria": "presenior-a",
+ "serie": "PSAPD",
+ "fecha": 6,
+ "fechaHora": "2026-11-07 09:00:00",
+ "cancha": "OLD IVY",
+ "local": "OLD IVY",
+ "visitante": "HEBRAICA UNIVERSITARIO",
+ "gl": 1,
+ "gv": 2,
+ "detalle": {
+  "nro_partido": "829",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "PRE SENIOR",
+  "categoria": "PRE-SENIOR MASCULINO",
+  "rueda": "2",
+  "Divisional": "PRESENIOR \"A\" PER. y DESC",
+  "Cancha": "OLD IVY",
+  "Fecha_Inicio": "2026-11-07 11:00:00",
+  "Fecha_fin": "2026-11-07 11:00:00",
+  "Locatario": "OLD IVY",
+  "goles_locatario": "1",
+  "puntos_locatario": "0",
+  "Visitante": "HEBRAICA UNIVERSITARIO",
+  "goles_visitante": "2",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "26695",
+   "Nombre": "AGUSTIN RIANI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "23949",
+   "Nombre": "SANTIAGO MUXI",
+   "camiseta": "20",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "28649",
+   "Nombre": "AGUSTIN LECUEDER",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "22430",
+   "Nombre": "RODRIGO DANIEL PUJOL",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "54472",
+   "Nombre": "FEDERICO LUIS BUA",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "27079",
+   "Nombre": "JUAN MATEO BAGNULO",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "35860",
+   "Nombre": "IGNACIO GORTARI",
+   "camiseta": "50",
+   "Capitan": ""
+  },
+  {
+   "carne": "23218",
+   "Nombre": "CARLOS ANDRES BOSCH",
+   "camiseta": "83",
+   "Capitan": ""
+  },
+  {
+   "carne": "20308",
+   "Nombre": "BRUNO CROSTA",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "34714",
+   "Nombre": "ALEXIS LANDAUER",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "20335",
+   "Nombre": "JUAN MUXI",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "29860",
+   "Nombre": "JUAN IGNACIO MARTINEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "32888",
+   "Nombre": "DIEGO DAVID SONSOL",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "35360",
+   "Nombre": "ALBERTO BENTANCUR",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "20057",
+   "Nombre": "DIEGO MARCEL KACOWICZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "24718",
+   "Nombre": "NICOLAS OPER",
+   "camiseta": "11",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "21338",
+   "Nombre": "ALAN PAUL MIZRAJI",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "37102",
+   "Nombre": "NICOLAS DIEGO MARIÑANSKY",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "30530",
+   "Nombre": "PABLO DULCINI",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "40919",
+   "Nombre": "DIEGO GONZALEZ",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "30253",
+   "Nombre": "SANTIAGO SAUL",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "22778",
+   "Nombre": "ALAN GRAUSER",
+   "camiseta": "20",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "20308",
+   "Jug_Sale": "BRUNO CROSTA",
+   "CarneEntra": "27612",
+   "Jug_Entra": "JUAN CARLOS GOMEZ",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "34714",
+   "Jug_Sale": "ALEXIS LANDAUER",
+   "CarneEntra": "31539",
+   "Jug_Entra": "CARLOS SANGUINETTI",
+   "camiseta": "95",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "20335",
+   "Jug_Sale": "JUAN MUXI",
+   "CarneEntra": "21327",
+   "Jug_Entra": "FELIPE LECUEDER",
+   "camiseta": "25",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "54472",
+   "Jug_Sale": "FEDERICO LUIS BUA",
+   "CarneEntra": "20294",
+   "Jug_Entra": "SANTIAGO RIANI",
+   "camiseta": "6",
+   "minutos": "99"
+  },
+  {
+   "CarneSale": "23218",
+   "Jug_Sale": "CARLOS ANDRES BOSCH",
+   "CarneEntra": "22426",
+   "Jug_Entra": "GUZMAN VIDAL",
+   "camiseta": "17",
+   "minutos": "23"
+  },
+  {
+   "CarneSale": "20294",
+   "Jug_Sale": "SANTIAGO RIANI",
+   "CarneEntra": "20308",
+   "Jug_Entra": "BRUNO CROSTA",
+   "camiseta": "28",
+   "minutos": "40"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "20057",
+   "Jug_Sale": "DIEGO MARCEL KACOWICZ",
+   "CarneEntra": "44950",
+   "Jug_Entra": "DIEGO LIPATIN",
+   "camiseta": "33",
+   "minutos": "41"
+  },
+  {
+   "CarneSale": "30253",
+   "Jug_Sale": "SANTIAGO SAUL",
+   "CarneEntra": "23290",
+   "Jug_Entra": "DIEGO ISRAEL POZIOMEK",
+   "camiseta": "17",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "21338",
+   "Jug_Sale": "ALAN PAUL MIZRAJI",
+   "CarneEntra": "32001",
+   "Jug_Entra": "GIOVANNI ZEOLI",
+   "camiseta": "32",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "22778",
+   "Jug_Sale": "ALAN GRAUSER",
+   "CarneEntra": "28079",
+   "Jug_Entra": "NICOLAS MENDELSHON",
+   "camiseta": "14",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "24718",
+   "Jug_Sale": "NICOLAS OPER",
+   "CarneEntra": "20057",
+   "Jug_Entra": "DIEGO MARCEL KACOWICZ",
+   "camiseta": "7",
+   "minutos": "85"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "22426",
+   "Nombre": "GUZMAN VIDAL",
+   "minutos": "53",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "22778",
+   "Nombre": "ALAN GRAUSER",
+   "minutos": "45",
+   "EnContra": "1"
+  },
+  {
+   "carne": "32888",
+   "Nombre": "DIEGO DAVID SONSOL",
+   "minutos": "12",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

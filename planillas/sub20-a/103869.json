@@ -1,0 +1,271 @@
+{
+ "id": "103869",
+ "categoria": "sub20-a",
+ "serie": "20AT",
+ "fecha": 7,
+ "fechaHora": "2026-11-06 20:00:00",
+ "cancha": "MONTE VI \"LOS CEIBOS\"",
+ "local": "CEIBOS CLUB",
+ "visitante": "OLD CHRISTIANS CLUB",
+ "gl": 0,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "387",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "2",
+  "Divisional": "SUB20 \"A\" TITULO",
+  "Cancha": "MONTE VI \"LOS CEIBOS\"",
+  "Fecha_Inicio": "2026-11-06 21:49:00",
+  "Fecha_fin": "2026-11-06 21:49:00",
+  "Locatario": "CEIBOS CLUB",
+  "goles_locatario": "0",
+  "puntos_locatario": "0",
+  "Visitante": "OLD CHRISTIANS CLUB",
+  "goles_visitante": "1",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "65418",
+   "Nombre": "AGUSTIN ALVEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "56664",
+   "Nombre": "SANTIAGO MIGUEL ROCCA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "55182",
+   "Nombre": "JUAN IGNACIO CABRERA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "64873",
+   "Nombre": "FELIPE LESCARBOURA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "19431",
+   "Nombre": "ALFREDO HECTOR NAVARRO",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "58049",
+   "Nombre": "FELIPE GARCIA PINTOS",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "58164",
+   "Nombre": "SANTIAGO PONS",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "57352",
+   "Nombre": "SEBASTIAN FERBER",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "57461",
+   "Nombre": "SANTIAGO ROSSIGNUOLO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "56663",
+   "Nombre": "IGNACIO SERE",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "57406",
+   "Nombre": "JUAN MARTIN SZELAGOWSKI",
+   "camiseta": "15",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "55226",
+   "Nombre": "ALFONSO DEL CASTILLO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "56856",
+   "Nombre": "JOAQUIN FLEURQUIN",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "56863",
+   "Nombre": "JUAN PEDRO TORRES",
+   "camiseta": "54",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "59504",
+   "Nombre": "BAUTISTA RAUL FERNANDEZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "56866",
+   "Nombre": "MATEO AGUIRRE",
+   "camiseta": "37",
+   "Capitan": ""
+  },
+  {
+   "carne": "56859",
+   "Nombre": "AGUSTIN FERNANDEZ",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "59506",
+   "Nombre": "AGUSTIN HOUNIE",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "64835",
+   "Nombre": "FACUNDO MARQUEZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "55216",
+   "Nombre": "GASPAR HUGHES",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "55609",
+   "Nombre": "THEO CORTABARRIA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "64681",
+   "Nombre": "FACUNDO TOPOLANSKI",
+   "camiseta": "25",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "55182",
+   "Jug_Sale": "JUAN IGNACIO CABRERA",
+   "CarneEntra": "56015",
+   "Jug_Entra": "NICOLAS PERERA",
+   "camiseta": "16",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "57406",
+   "Jug_Sale": "JUAN MARTIN SZELAGOWSKI",
+   "CarneEntra": "62073",
+   "Jug_Entra": "JUAN IGNACIO PEVERELLI",
+   "camiseta": "14",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "58164",
+   "Jug_Sale": "SANTIAGO PONS",
+   "CarneEntra": "61506",
+   "Jug_Entra": "JUAN O REILLY",
+   "camiseta": "20",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "57352",
+   "Jug_Sale": "SEBASTIAN FERBER",
+   "CarneEntra": "62865",
+   "Jug_Entra": "BENJAMIN FERNANDEZ",
+   "camiseta": "13",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "56664",
+   "Jug_Sale": "SANTIAGO MIGUEL ROCCA",
+   "CarneEntra": "56329",
+   "Jug_Entra": "RAFAEL FERBER",
+   "camiseta": "2",
+   "minutos": "76"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "55216",
+   "Jug_Sale": "GASPAR HUGHES",
+   "CarneEntra": "52688",
+   "Jug_Entra": "FRANCO RAUL CORREA",
+   "camiseta": "22",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56866",
+   "Jug_Sale": "MATEO AGUIRRE",
+   "CarneEntra": "54771",
+   "Jug_Entra": "MARTIN MIHALIK",
+   "camiseta": "28",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "64835",
+   "Jug_Sale": "FACUNDO MARQUEZ",
+   "CarneEntra": "56004",
+   "Jug_Entra": "JOAQUIN BARBOSA",
+   "camiseta": "15",
+   "minutos": "81"
+  },
+  {
+   "CarneSale": "55609",
+   "Jug_Sale": "THEO CORTABARRIA",
+   "CarneEntra": "67547",
+   "Jug_Entra": "PEDRO ALEJO AROCENA",
+   "camiseta": "96",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "56859",
+   "Jug_Sale": "AGUSTIN FERNANDEZ",
+   "CarneEntra": "55211",
+   "Jug_Entra": "SANTIAGO BOUTMY",
+   "camiseta": "8",
+   "minutos": "87"
+  },
+  {
+   "CarneSale": "59506",
+   "Jug_Sale": "AGUSTIN HOUNIE",
+   "CarneEntra": "65751",
+   "Jug_Entra": "SANTIAGO GOSSWEILER",
+   "camiseta": "42",
+   "minutos": "90"
+  }
+ ],
+ "golesL": [],
+ "golesV": [
+  {
+   "carne": "59506",
+   "Nombre": "AGUSTIN HOUNIE",
+   "minutos": "73",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

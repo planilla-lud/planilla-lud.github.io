@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"B\" TIT. y ASC.",
   "Cancha": "ELBIO FERNANDEZ",
-  "Fecha_Inicio": "2026-11-08 12:45:00",
-  "Fecha_fin": "2026-11-08 12:45:00",
+  "Fecha_Inicio": "2026-11-08 13:15:00",
+  "Fecha_fin": "2026-11-08 13:15:00",
   "Locatario": "ELBIO FERNANDEZ",
   "goles_locatario": "1",
   "puntos_locatario": "1",
@@ -29,12 +29,242 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "50489",
+   "Nombre": "AGUSTIN FERREIRA",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "40793",
+   "Nombre": "FERNANDO ABDO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "52196",
+   "Nombre": "JOAQUIN ARTIA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "63551",
+   "Nombre": "ENZO FEDERICO BADIA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "65714",
+   "Nombre": "KEVIN FAVIO GOMEZ",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "62271",
+   "Nombre": "MATHIAS NICOLAS SOSA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "59302",
+   "Nombre": "TOMAS LEANDRO CESAR",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "52048",
+   "Nombre": "SANTIAGO ARANCO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "50490",
+   "Nombre": "PATRICIO EMANUEL BRITOS",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "48575",
+   "Nombre": "DANIEL OSCAR CABRERA",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "50437",
+   "Nombre": "MARTIN ALEJANDRO COSTA",
+   "camiseta": "9",
+   "Capitan": "(C)"
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "45776",
+   "Nombre": "NICOLAS DOMINGUEZ",
+   "camiseta": "1",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "24053",
+   "Nombre": "JUAN IGNACIO MORO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "51505",
+   "Nombre": "MATEO GIOSA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "45775",
+   "Nombre": "FRANCO GIOSA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "46923",
+   "Nombre": "MATEO PARPAL",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "47375",
+   "Nombre": "JOAQUIN MARQUEZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "46862",
+   "Nombre": "JUAN IGNACIO GARCIA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "51589",
+   "Nombre": "LUCAS TROVO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "43862",
+   "Nombre": "SANTIAGO TORRE",
+   "camiseta": "66",
+   "Capitan": ""
+  },
+  {
+   "carne": "47379",
+   "Nombre": "FEDERICO DANIEL GONZALEZ",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "46705",
+   "Nombre": "JUAN PABLO GONZALEZ",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "65714",
+   "Jug_Sale": "KEVIN FAVIO GOMEZ",
+   "CarneEntra": "47466",
+   "Jug_Entra": "IGNACIO SUAREZ",
+   "camiseta": "4",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "50490",
+   "Jug_Sale": "PATRICIO EMANUEL BRITOS",
+   "CarneEntra": "63022",
+   "Jug_Entra": "SANTINO GALEANDRO",
+   "camiseta": "47",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "52196",
+   "Jug_Sale": "JOAQUIN ARTIA",
+   "CarneEntra": "58271",
+   "Jug_Entra": "SANTIAGO CAMPANELLA",
+   "camiseta": "19",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "59302",
+   "Jug_Sale": "TOMAS LEANDRO CESAR",
+   "CarneEntra": "55348",
+   "Jug_Entra": "PEDRO SPENCER",
+   "camiseta": "10",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "40793",
+   "Jug_Sale": "FERNANDO ABDO",
+   "CarneEntra": "34889",
+   "Jug_Entra": "LORENZO HELGUERA",
+   "camiseta": "42",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "48575",
+   "Jug_Sale": "DANIEL OSCAR CABRERA",
+   "CarneEntra": "47461",
+   "Jug_Entra": "AGUSTIN DE LOS SALNTOS",
+   "camiseta": "26",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "52048",
+   "Jug_Sale": "SANTIAGO ARANCO",
+   "CarneEntra": "56014",
+   "Jug_Entra": "JUAN FRANCISCO MARQUEZ",
+   "camiseta": "19",
+   "minutos": "90"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "47379",
+   "Jug_Sale": "FEDERICO DANIEL GONZALEZ",
+   "CarneEntra": "52806",
+   "Jug_Entra": "SANTIAGO LUIS",
+   "camiseta": "25",
+   "minutos": "39"
+  },
+  {
+   "CarneSale": "24053",
+   "Jug_Sale": "JUAN IGNACIO MORO",
+   "CarneEntra": "53981",
+   "Jug_Entra": "JUAN MANUEL JORGE",
+   "camiseta": "17",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "46705",
+   "Jug_Sale": "JUAN PABLO GONZALEZ",
+   "CarneEntra": "54192",
+   "Jug_Entra": "FEDERICO PEREZ",
+   "camiseta": "8",
+   "minutos": "85"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "63551",
+   "Nombre": "ENZO FEDERICO BADIA",
+   "minutos": "78",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "53981",
+   "Nombre": "JUAN MANUEL JORGE",
+   "minutos": "66",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "PS DIV. E 2ªR COPA ORO",
   "Cancha": "CAMPO DEP. COLEGIO INGLES",
-  "Fecha_Inicio": "2026-11-07 12:45:00",
-  "Fecha_fin": "2026-11-07 12:45:00",
+  "Fecha_Inicio": "2026-11-07 13:10:00",
+  "Fecha_fin": "2026-11-07 13:10:00",
   "Locatario": "COLEGIO Y LICEO INGLES",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,227 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "37158",
+   "Nombre": "STEFANO ANGELERO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "29931",
+   "Nombre": "GERMAN SUAREZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "30328",
+   "Nombre": "FACUNDO KACHELE",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "28272",
+   "Nombre": "SERGIO IGNACIO VICO",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "36150",
+   "Nombre": "JUAN MANUEL PUIG",
+   "camiseta": "74",
+   "Capitan": ""
+  },
+  {
+   "carne": "26262",
+   "Nombre": "NICOLAS AGUIRREGARAY",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "26911",
+   "Nombre": "BRUNO GIANCARLO GENTILE",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "37163",
+   "Nombre": "FELIPE VAZQUEZ",
+   "camiseta": "81",
+   "Capitan": ""
+  },
+  {
+   "carne": "24146",
+   "Nombre": "FEDERICO GUAYMALLEN CAMBLOR",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "30184",
+   "Nombre": "PEDRO BOADO",
+   "camiseta": "37",
+   "Capitan": ""
+  },
+  {
+   "carne": "24727",
+   "Nombre": "JORGE LUIS NICOLETTI",
+   "camiseta": "21",
+   "Capitan": "(C)"
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "47759",
+   "Nombre": "JORGE ALEJANDRO ANTONIOLI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "39203",
+   "Nombre": "ANDRY WAY RUIZ DIAZ",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "36896",
+   "Nombre": "JUAN IGNACIO PEYRO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "24851",
+   "Nombre": "DANIEL ECHAGARAY",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "28132",
+   "Nombre": "MARTIN ECHEGARAY",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "54433",
+   "Nombre": "GONZALO GRILLE",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "32733",
+   "Nombre": "RAMIRO DE LA PUENTE",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "50541",
+   "Nombre": "MARCELO JUNIOR FERNANDEZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "51188",
+   "Nombre": "FACUNDO MARTIN DIAZ",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "33312",
+   "Nombre": "HERNAN RUMBO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "31934",
+   "Nombre": "JAVIER ANDRES GARCIA",
+   "camiseta": "5",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "24146",
+   "Jug_Sale": "FEDERICO GUAYMALLEN CAMBLOR",
+   "CarneEntra": "30835",
+   "Jug_Entra": "RODRIGO LUIS PASTOR",
+   "camiseta": "0",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "24727",
+   "Jug_Sale": "JORGE LUIS NICOLETTI",
+   "CarneEntra": "36954",
+   "Jug_Entra": "JOAQUIN SANSBERRO",
+   "camiseta": "80",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "36150",
+   "Jug_Sale": "JUAN MANUEL PUIG",
+   "CarneEntra": "30770",
+   "Jug_Entra": "GUILLERMO LUIS GALAIN",
+   "camiseta": "5",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "26911",
+   "Jug_Sale": "BRUNO GIANCARLO GENTILE",
+   "CarneEntra": "26534",
+   "Jug_Entra": "GUILLERMO ADOLFO VIGNOLO",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "37163",
+   "Jug_Sale": "FELIPE VAZQUEZ",
+   "CarneEntra": "37206",
+   "Jug_Entra": "LEONARDO GONZALEZ",
+   "camiseta": "42",
+   "minutos": "45"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "32733",
+   "Jug_Sale": "RAMIRO DE LA PUENTE",
+   "CarneEntra": "31934",
+   "Jug_Entra": "JAVIER ANDRES GARCIA",
+   "camiseta": "5",
+   "minutos": "81"
+  },
+  {
+   "CarneSale": "51188",
+   "Jug_Sale": "FACUNDO MARTIN DIAZ",
+   "CarneEntra": "36896",
+   "Jug_Entra": "JUAN IGNACIO PEYRO",
+   "camiseta": "14",
+   "minutos": "88"
+  },
+  {
+   "CarneSale": "31934",
+   "Jug_Sale": "JAVIER ANDRES GARCIA",
+   "CarneEntra": "39202",
+   "Jug_Entra": "MATIAS ALEJANDRO PEDROZO",
+   "camiseta": "17",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "36896",
+   "Jug_Sale": "JUAN IGNACIO PEYRO",
+   "CarneEntra": "32569",
+   "Jug_Entra": "EDUARDO DANIEL SAURINA",
+   "camiseta": "20",
+   "minutos": "45"
+  }
+ ],
  "golesL": [],
- "golesV": [],
+ "golesV": [
+  {
+   "carne": "54433",
+   "Nombre": "GONZALO GRILLE",
+   "minutos": "68",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

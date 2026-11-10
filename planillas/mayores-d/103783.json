@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"D\" PERM. y DESC.",
   "Cancha": "COMPLEJO DEPORTIVO H3O",
-  "Fecha_Inicio": "2026-11-08 12:45:00",
-  "Fecha_fin": "2026-11-08 12:45:00",
+  "Fecha_Inicio": "2026-11-08 13:05:00",
+  "Fecha_fin": "2026-11-08 13:05:00",
   "Locatario": "PERRY SEXTA UNIVERSITARIO",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,269 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "67007",
+   "Nombre": "FELIPE EMILIANO RODRIGUEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "66797",
+   "Nombre": "VLADIMIR MAKSIMCHUK",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "44208",
+   "Nombre": "MANUEL AGUSTIN TRAVERSO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "61893",
+   "Nombre": "RAMIRO GARCIA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "63421",
+   "Nombre": "LUIS ALFONSO ALMADA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "42885",
+   "Nombre": "NICOLAS FALERO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "67325",
+   "Nombre": "NICOLAS VAZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "63132",
+   "Nombre": "FACUNDO GARCIA",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "51244",
+   "Nombre": "SANTIAGO REYNALDO ACEVEDO",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "46197",
+   "Nombre": "JUAN MANUEL PEREYRA",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "63233",
+   "Nombre": "IGNACIO DUARTE",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "64709",
+   "Nombre": "MATIAS EDUARDO CASULLO",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "39596",
+   "Nombre": "DIEGO MANUEL BALADAS",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "23471",
+   "Nombre": "MICHEL PRONK",
+   "camiseta": "18",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "58177",
+   "Nombre": "LAUTARO ROCHA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "68652",
+   "Nombre": "ENZO CRAIGDALLIE",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "56829",
+   "Nombre": "LUCAS JOAQUIN PERA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "63521",
+   "Nombre": "FRANCO NAHUEL CLAVIJO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "43826",
+   "Nombre": "GABRIEL PAREDES",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "58258",
+   "Nombre": "FACUNDO MARTIN BORGES",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "26467",
+   "Nombre": "KRISTIAN MAURICIO RODRIGUEZ",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "33591",
+   "Nombre": "ENZO FERNANDO DE MELLO",
+   "camiseta": "15",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "51244",
+   "Jug_Sale": "SANTIAGO REYNALDO ACEVEDO",
+   "CarneEntra": "59311",
+   "Jug_Entra": "HUGO YANOS GARCIA",
+   "camiseta": "20",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "42885",
+   "Jug_Sale": "NICOLAS FALERO",
+   "CarneEntra": "38298",
+   "Jug_Entra": "PATRICIO MARCELO COSTAS",
+   "camiseta": "2",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "63233",
+   "Jug_Sale": "IGNACIO DUARTE",
+   "CarneEntra": "60068",
+   "Jug_Entra": "LEANDRO APARICIO MONTALDO",
+   "camiseta": "30",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "63132",
+   "Jug_Sale": "FACUNDO GARCIA",
+   "CarneEntra": "50525",
+   "Jug_Entra": "SEBASTIAN ANDRES FLORES",
+   "camiseta": "22",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67325",
+   "Jug_Sale": "NICOLAS VAZ",
+   "CarneEntra": "66796",
+   "Jug_Entra": "JOAQUIN ANDRES FRENKEL",
+   "camiseta": "25",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "46197",
+   "Jug_Sale": "JUAN MANUEL PEREYRA",
+   "CarneEntra": "68926",
+   "Jug_Entra": "MAYCOL HARO",
+   "camiseta": "6",
+   "minutos": "66"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "56829",
+   "Jug_Sale": "LUCAS JOAQUIN PERA",
+   "CarneEntra": "64994",
+   "Jug_Entra": "NICOLAS MARTIN PETITO",
+   "camiseta": "17",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "26467",
+   "Jug_Sale": "KRISTIAN MAURICIO RODRIGUEZ",
+   "CarneEntra": "48265",
+   "Jug_Entra": "EMILIANO SEBASTIAN MEDEIROS",
+   "camiseta": "16",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "23471",
+   "Jug_Sale": "MICHEL PRONK",
+   "CarneEntra": "26560",
+   "Jug_Entra": "MATIAS NICOLAS MORALES",
+   "camiseta": "14",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "58177",
+   "Jug_Sale": "LAUTARO ROCHA",
+   "CarneEntra": "43829",
+   "Jug_Entra": "RICHARD NICOLAS VIÑA",
+   "camiseta": "10",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "43826",
+   "Jug_Sale": "GABRIEL PAREDES",
+   "CarneEntra": "41438",
+   "Jug_Entra": "FACUNDO GRAU",
+   "camiseta": "19",
+   "minutos": "86"
+  },
+  {
+   "CarneSale": "33591",
+   "Jug_Sale": "ENZO FERNANDO DE MELLO",
+   "CarneEntra": "37204",
+   "Jug_Entra": "FACUNDO LIENCRES",
+   "camiseta": "11",
+   "minutos": "86"
+  }
+ ],
  "golesL": [],
- "golesV": [],
+ "golesV": [
+  {
+   "carne": "33591",
+   "Nombre": "ENZO FERNANDO DE MELLO",
+   "minutos": "66",
+   "EnContra": "1"
+  },
+  {
+   "carne": "37204",
+   "Nombre": "FACUNDO LIENCRES",
+   "minutos": "89",
+   "EnContra": "1"
+  },
+  {
+   "carne": "43826",
+   "Nombre": "GABRIEL PAREDES",
+   "minutos": "45",
+   "EnContra": "1"
+  },
+  {
+   "carne": "43826",
+   "Nombre": "GABRIEL PAREDES",
+   "minutos": "70",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

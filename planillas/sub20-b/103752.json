@@ -4,7 +4,7 @@
  "serie": "20BTA",
  "fecha": 7,
  "fechaHora": "2026-11-07 15:30:00",
- "cancha": "CAMPO DEP. INSTITUTO CRANDON",
+ "cancha": "()",
  "local": "CRANDON UNIVERSITARIO",
  "visitante": "URUNDAY UNIVERSITARIO",
  "gl": 0,
@@ -17,9 +17,9 @@
   "categoria": "SUB 20 MASCULINO",
   "rueda": "2",
   "Divisional": "SUB20 \"B\" TITULO",
-  "Cancha": "CAMPO DEP. INSTITUTO CRANDON",
-  "Fecha_Inicio": "2026-11-07 17:00:00",
-  "Fecha_fin": "2026-11-07 17:00:00",
+  "Cancha": "()",
+  "Fecha_Inicio": "2026-11-07 17:34:00",
+  "Fecha_fin": "2026-11-07 17:34:00",
   "Locatario": "CRANDON UNIVERSITARIO",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,249 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "58657",
+   "Nombre": "SANTIAGO CID DE LA PAZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "58600",
+   "Nombre": "JUAN IGNACIO ACOSTA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "57602",
+   "Nombre": "SANTIAGO BOGGIA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "58995",
+   "Nombre": "JOAQUIN MANTERO",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "58607",
+   "Nombre": "MATEO PRESSA",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "57342",
+   "Nombre": "FABRIZIO TIERI",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "58502",
+   "Nombre": "TIZIANO VILA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "58601",
+   "Nombre": "LUCAS LENZI",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "61256",
+   "Nombre": "FRANCO CHELINI",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "58609",
+   "Nombre": "PATRICIO GIOVANNI GAROFOLO",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "57631",
+   "Nombre": "JUAN IGNACIO DIAZ",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "63317",
+   "Nombre": "NICOLAS GONZALEZ",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "56733",
+   "Nombre": "MATEO SILVIO RODRIGUEZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "67201",
+   "Nombre": "RAMIRO OLIVERA",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "63253",
+   "Nombre": "THIAGO MARMISSOLLE",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "58756",
+   "Nombre": "FABRICIO MAGLIANO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "56734",
+   "Nombre": "JOAQUIN CABRERA",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56111",
+   "Nombre": "SANTIAGO CANOURA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "58752",
+   "Nombre": "LUCIANO JOAQUIN BAICA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "64614",
+   "Nombre": "FACUNDO AGUSTIN PELUFFO",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "56113",
+   "Nombre": "JUAN FRANCISCO VOMERO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "63734",
+   "Nombre": "BENJAMIN LABORDE",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "58607",
+   "Jug_Sale": "MATEO PRESSA",
+   "CarneEntra": "58604",
+   "Jug_Entra": "JUAN MARTIN VERZERI",
+   "camiseta": "20",
+   "minutos": "53"
+  },
+  {
+   "CarneSale": "58600",
+   "Jug_Sale": "JUAN IGNACIO ACOSTA",
+   "CarneEntra": "56199",
+   "Jug_Entra": "MATIAS ANDRES MORAES",
+   "camiseta": "23",
+   "minutos": "53"
+  },
+  {
+   "CarneSale": "58609",
+   "Jug_Sale": "PATRICIO GIOVANNI GAROFOLO",
+   "CarneEntra": "57601",
+   "Jug_Entra": "RODRIGO INFANTOZZI",
+   "camiseta": "26",
+   "minutos": "69"
+  },
+  {
+   "CarneSale": "61256",
+   "Jug_Sale": "FRANCO CHELINI",
+   "CarneEntra": "58798",
+   "Jug_Entra": "MATEO FRAGA",
+   "camiseta": "9",
+   "minutos": "69"
+  },
+  {
+   "CarneSale": "57342",
+   "Jug_Sale": "FABRIZIO TIERI",
+   "CarneEntra": "57632",
+   "Jug_Entra": "AGUSTIN MANTERO",
+   "camiseta": "22",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "58995",
+   "Jug_Sale": "JOAQUIN MANTERO",
+   "CarneEntra": "55501",
+   "Jug_Entra": "SEBASTIAN RODRIGUEZ",
+   "camiseta": "7",
+   "minutos": "81"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "58756",
+   "Jug_Sale": "FABRICIO MAGLIANO",
+   "CarneEntra": "67108",
+   "Jug_Entra": "FRANCO PECCOTIELLO",
+   "camiseta": "69",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56113",
+   "Jug_Sale": "JUAN FRANCISCO VOMERO",
+   "CarneEntra": "65694",
+   "Jug_Entra": "ALEJANDRO CAFFARO",
+   "camiseta": "10",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "64614",
+   "Jug_Sale": "FACUNDO AGUSTIN PELUFFO",
+   "CarneEntra": "64622",
+   "Jug_Entra": "TEO FELIPE SOCA",
+   "camiseta": "20",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "56733",
+   "Jug_Sale": "MATEO SILVIO RODRIGUEZ",
+   "CarneEntra": "62709",
+   "Jug_Entra": "LUCAS PARADA",
+   "camiseta": "33",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "63734",
+   "Jug_Sale": "BENJAMIN LABORDE",
+   "CarneEntra": "64614",
+   "Jug_Entra": "FACUNDO AGUSTIN PELUFFO",
+   "camiseta": "80",
+   "minutos": "87"
+  }
+ ],
  "golesL": [],
- "golesV": [],
+ "golesV": [
+  {
+   "carne": "63734",
+   "Nombre": "BENJAMIN LABORDE",
+   "minutos": "31",
+   "EnContra": "1"
+  },
+  {
+   "carne": "63734",
+   "Nombre": "BENJAMIN LABORDE",
+   "minutos": "73",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

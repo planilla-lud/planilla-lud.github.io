@@ -1,12 +1,5 @@
 [
  {
-  "serie": "PSAPD",
-  "fechaHora": "2026-11-07 09:00:00",
-  "cancha": "OLD IVY",
-  "local": "OLD IVY",
-  "visitante": "HEBRAICA UNIVERSITARIO"
- },
- {
   "serie": "PSAT",
   "fechaHora": "2026-11-07 11:15:00",
   "cancha": "OLD CHRISTIANS CLUB",
@@ -28,6 +21,13 @@
   "visitante": "JUAN XXIII"
  },
  {
+  "serie": "PSAT",
+  "fechaHora": "2026-11-14 09:00:00",
+  "cancha": "COMPLEJO URUNDAY UNIVERSITARIO",
+  "local": "URUNDAY UNIVERSITARIO",
+  "visitante": "NAUTICO CARRASCO Y PUNTA GORDA"
+ },
+ {
   "serie": "PSAPD",
   "fechaHora": "2026-11-14 09:00:00",
   "cancha": "COMPLEJO DEPORTIVO ARRAYANES",
@@ -47,13 +47,6 @@
   "cancha": "COM. DEP. CLUB TROUVILLE",
   "local": "NACIONAL UNIVERSITARIO",
   "visitante": "OLD BOYS CLUB"
- },
- {
-  "serie": "PSAT",
-  "fechaHora": "2026-11-14 11:15:00",
-  "cancha": "COMPLEJO URUNDAY UNIVERSITARIO",
-  "local": "URUNDAY UNIVERSITARIO",
-  "visitante": "NAUTICO CARRASCO Y PUNTA GORDA"
  },
  {
   "serie": "PSAPD",

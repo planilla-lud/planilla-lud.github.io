@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAS40 \"B\" TIT. y ASC.",
   "Cancha": "TENIS EL PINAR",
-  "Fecha_Inicio": "2026-11-07 10:30:00",
-  "Fecha_fin": "2026-11-07 10:30:00",
+  "Fecha_Inicio": "2026-11-07 11:00:00",
+  "Fecha_fin": "2026-11-07 11:00:00",
   "Locatario": "TENIS EL PINAR",
   "goles_locatario": "1",
   "puntos_locatario": "3",
@@ -29,11 +29,234 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "68999",
+   "Nombre": "JUAN EMILIO MARROCO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "17928",
+   "Nombre": "AGUSTIN MAGNONE",
+   "camiseta": "18",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "16738",
+   "Nombre": "RAMIRO AROCENA",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "15264",
+   "Nombre": "FEDERICO SCHOL",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "18357",
+   "Nombre": "MANUEL CAUBARRERE",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "20891",
+   "Nombre": "AGUSTIN MANUEL CASAROTTI",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "22174",
+   "Nombre": "FEDERICO MONTANS MONTANS",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "19332",
+   "Nombre": "MARTIN ALVAREZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "18393",
+   "Nombre": "GERARDO GABRIEL MONZON",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "21923",
+   "Nombre": "RAFAEL MONZON",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "16699",
+   "Nombre": "JUAN LUIS CAUBARRERE",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "22701",
+   "Nombre": "MATIAS AGUSTIN RODRIGUEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "22321",
+   "Nombre": "JOSE IGNACIO GERVAZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "18937",
+   "Nombre": "RAFAEL GONZALEZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "17253",
+   "Nombre": "RAUL NICOLAS FLORIO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "26537",
+   "Nombre": "GONZALO LANGONI",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "20146",
+   "Nombre": "PABLO JAVIER VIERA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "22225",
+   "Nombre": "ENRIQUE DANIEL PADIAL",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "17153",
+   "Nombre": "JUAN IGNACIO HERMIDA",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "20634",
+   "Nombre": "AGUSTIN CHIAZZARO",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "16210",
+   "Nombre": "JOSE GABRIEL SUAREZ",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "18444",
+   "Nombre": "JOAQUIN BORBONET",
+   "camiseta": "15",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "22174",
+   "Jug_Sale": "FEDERICO MONTANS MONTANS",
+   "CarneEntra": "19295",
+   "Jug_Entra": "JUAN ANDRES REY",
+   "camiseta": "33",
+   "minutos": "38"
+  },
+  {
+   "CarneSale": "21923",
+   "Jug_Sale": "RAFAEL MONZON",
+   "CarneEntra": "22873",
+   "Jug_Entra": "PEDRO MARCO TURTURIELLO",
+   "camiseta": "17",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "19332",
+   "Jug_Sale": "MARTIN ALVAREZ",
+   "CarneEntra": "65494",
+   "Jug_Entra": "ALEJANDRO DOMINGUEZ",
+   "camiseta": "8",
+   "minutos": "74"
+  },
+  {
+   "CarneSale": "16699",
+   "Jug_Sale": "JUAN LUIS CAUBARRERE",
+   "CarneEntra": "16934",
+   "Jug_Entra": "DAVID ARIEL BURGUEÑO",
+   "camiseta": "29",
+   "minutos": "91"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "17253",
+   "Jug_Sale": "RAUL NICOLAS FLORIO",
+   "CarneEntra": "43482",
+   "Jug_Entra": "ALEXIS MARTIN ARENAZA",
+   "camiseta": "28",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "20634",
+   "Jug_Sale": "AGUSTIN CHIAZZARO",
+   "CarneEntra": "43073",
+   "Jug_Entra": "ALEJANDRO RAFAEL DELUCA",
+   "camiseta": "8",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "18444",
+   "Jug_Sale": "JOAQUIN BORBONET",
+   "CarneEntra": "16856",
+   "Jug_Entra": "CLAUDIO VENANCIO VIERA",
+   "camiseta": "10",
+   "minutos": "42"
+  },
+  {
+   "CarneSale": "43073",
+   "Jug_Sale": "ALEJANDRO RAFAEL DELUCA",
+   "CarneEntra": "18594",
+   "Jug_Entra": "SEBASTIAN ANDRES PESCE",
+   "camiseta": "20",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "22225",
+   "Jug_Sale": "ENRIQUE DANIEL PADIAL",
+   "CarneEntra": "19543",
+   "Jug_Entra": "NICOLAS RENATO BALDRIZ",
+   "camiseta": "25",
+   "minutos": "81"
+  },
+  {
+   "CarneSale": "43482",
+   "Jug_Sale": "ALEXIS MARTIN ARENAZA",
+   "CarneEntra": "17253",
+   "Jug_Entra": "RAUL NICOLAS FLORIO",
+   "camiseta": "23",
+   "minutos": "86"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "18357",
+   "Nombre": "MANUEL CAUBARRERE",
+   "minutos": "95",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

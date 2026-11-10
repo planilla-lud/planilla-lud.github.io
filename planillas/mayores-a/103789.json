@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"A\" PERM. y DESC.",
   "Cancha": "OLD CHRISTIANS CLUB",
-  "Fecha_Inicio": "2026-11-08 12:45:00",
-  "Fecha_fin": "2026-11-08 12:45:00",
+  "Fecha_Inicio": "2026-11-08 13:05:00",
+  "Fecha_fin": "2026-11-08 13:05:00",
   "Locatario": "OLD CHRISTIANS CLUB",
   "goles_locatario": "1",
   "puntos_locatario": "0",
@@ -29,12 +29,264 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "55226",
+   "Nombre": "ALFONSO DEL CASTILLO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "52602",
+   "Nombre": "JUAN DIEGO DE CASTRO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "53249",
+   "Nombre": "JUAN FRANCISCO FERREIRA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "39599",
+   "Nombre": "MATIAS HAM",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "48884",
+   "Nombre": "JUAN GUILLERMO ARROSPIDE",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "51886",
+   "Nombre": "LUCAS ALONSO",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "42070",
+   "Nombre": "FRANCISCO GUADALUPE",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "6222",
+   "Nombre": "AUGUSTO CARLOS PAULLIER",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "37187",
+   "Nombre": "GUILLERMO DEAL",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "26432",
+   "Nombre": "SANTIAGO LOPEZ",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "37735",
+   "Nombre": "FRANCO MASCIA",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "35658",
+   "Nombre": "JOAQUIN ZEINAL",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "37385",
+   "Nombre": "FEDERICO BRENER",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "39124",
+   "Nombre": "DARIO SZTERMAN",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "43323",
+   "Nombre": "MATIAS LIJTENSTEIN",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "43899",
+   "Nombre": "MATIAS KOHN",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "35085",
+   "Nombre": "IONATAN ISZAKOVITS",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "35104",
+   "Nombre": "MARTIN OPPENHEIMER",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "43319",
+   "Nombre": "ALAN GARFINKEL",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "44310",
+   "Nombre": "LUCAS ARON NAHMIAS",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "35092",
+   "Nombre": "NICOLAS POZIOMEK",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "34651",
+   "Nombre": "MARCEL POZIOMEK",
+   "camiseta": "0",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "6222",
+   "Jug_Sale": "AUGUSTO CARLOS PAULLIER",
+   "CarneEntra": "35115",
+   "Jug_Entra": "JUAN PEDRO BELO",
+   "camiseta": "23",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "48884",
+   "Jug_Sale": "JUAN GUILLERMO ARROSPIDE",
+   "CarneEntra": "37067",
+   "Jug_Entra": "TOMAS BERRO",
+   "camiseta": "93",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "51886",
+   "Jug_Sale": "LUCAS ALONSO",
+   "CarneEntra": "12361",
+   "Jug_Entra": "FACUNDO MARQUEZ",
+   "camiseta": "23",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "37187",
+   "Jug_Sale": "GUILLERMO DEAL",
+   "CarneEntra": "54409",
+   "Jug_Entra": "JOAQUIN IRULEGUY",
+   "camiseta": "9",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "52602",
+   "Jug_Sale": "JUAN DIEGO DE CASTRO",
+   "CarneEntra": "50902",
+   "Jug_Entra": "SANTIAGO VINCENT",
+   "camiseta": "99",
+   "minutos": "83"
+  },
+  {
+   "CarneSale": "53249",
+   "Jug_Sale": "JUAN FRANCISCO FERREIRA",
+   "CarneEntra": "30724",
+   "Jug_Entra": "FEDERICO RICARDO MOLINS",
+   "camiseta": "93",
+   "minutos": "83"
+  },
+  {
+   "CarneSale": "26432",
+   "Jug_Sale": "SANTIAGO LOPEZ",
+   "CarneEntra": "66722",
+   "Jug_Entra": "JOAQUIN RODRIGUEZ",
+   "camiseta": "38",
+   "minutos": "92"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "44310",
+   "Jug_Sale": "LUCAS ARON NAHMIAS",
+   "CarneEntra": "28319",
+   "Jug_Entra": "MIKAEL LIJTENSTEIN",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "37385",
+   "Jug_Sale": "FEDERICO BRENER",
+   "CarneEntra": "59245",
+   "Jug_Entra": "AGUSTIN JUSTITZ",
+   "camiseta": "15",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "34651",
+   "Jug_Sale": "MARCEL POZIOMEK",
+   "CarneEntra": "39120",
+   "Jug_Entra": "NURIEL LEWIN",
+   "camiseta": "13",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "35092",
+   "Jug_Sale": "NICOLAS POZIOMEK",
+   "CarneEntra": "56384",
+   "Jug_Entra": "MATIAS SZAFRAN",
+   "camiseta": "99",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "43319",
+   "Jug_Sale": "ALAN GARFINKEL",
+   "CarneEntra": "35360",
+   "Jug_Entra": "ALBERTO BENTANCUR",
+   "camiseta": "3",
+   "minutos": "93"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "26432",
+   "Nombre": "SANTIAGO LOPEZ",
+   "minutos": "2",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "43319",
+   "Nombre": "ALAN GARFINKEL",
+   "minutos": "5",
+   "EnContra": "1"
+  },
+  {
+   "carne": "56384",
+   "Nombre": "MATIAS SZAFRAN",
+   "minutos": "90",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

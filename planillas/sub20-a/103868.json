@@ -1,0 +1,304 @@
+{
+ "id": "103868",
+ "categoria": "sub20-a",
+ "serie": "20AT",
+ "fecha": 7,
+ "fechaHora": "2026-11-07 13:30:00",
+ "cancha": "ST. BRENDANS",
+ "local": "OLD BRENDANS CLUB",
+ "visitante": "NACIONAL UNIVERSITARIO",
+ "gl": 3,
+ "gv": 0,
+ "detalle": {
+  "nro_partido": "386",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "2",
+  "Divisional": "SUB20 \"A\" TITULO",
+  "Cancha": "ST. BRENDANS",
+  "Fecha_Inicio": "2026-11-07 15:30:00",
+  "Fecha_fin": "2026-11-07 15:30:00",
+  "Locatario": "OLD BRENDANS CLUB",
+  "goles_locatario": "3",
+  "puntos_locatario": "3",
+  "Visitante": "NACIONAL UNIVERSITARIO",
+  "goles_visitante": "0",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "58285",
+   "Nombre": "RODRIGO BROTONS",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "61164",
+   "Nombre": "MATEO CAPLIVSCHI",
+   "camiseta": "48",
+   "Capitan": ""
+  },
+  {
+   "carne": "66331",
+   "Nombre": "JUAN BARRANDEGUY",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "59207",
+   "Nombre": "IGNACIO RODRIGUEZ",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "53397",
+   "Nombre": "ELIAS GOMOLINSKY",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "53395",
+   "Nombre": "MAURO MASENA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "55708",
+   "Nombre": "GONZALO BARTESAGHI",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "53390",
+   "Nombre": "JUAN MANUEL ECHEVERRY",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "56477",
+   "Nombre": "SEBASTIAN GRATADOUX",
+   "camiseta": "47",
+   "Capitan": ""
+  },
+  {
+   "carne": "55434",
+   "Nombre": "DIEGO TOURON",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "53875",
+   "Nombre": "ALFONSO ABELLA",
+   "camiseta": "20",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "62299",
+   "Nombre": "FACUNDO GONZALEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "63621",
+   "Nombre": "RAUL ERNESTO GONZALEZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "69106",
+   "Nombre": "JUAN PABLO VIERA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "68674",
+   "Nombre": "SANTIAGO VIERA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "57415",
+   "Nombre": "IÑAKI ETCHEVERRIA",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "67309",
+   "Nombre": "GUZMAN DUFOUR",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "58009",
+   "Nombre": "SEBASTIAN FARIAS",
+   "camiseta": "21",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "53307",
+   "Nombre": "LUCA GIUSEPPE MARRONE",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "67310",
+   "Nombre": "FACUNDO PEREZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "66558",
+   "Nombre": "CONSTANTINO BENTANCUR",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "57960",
+   "Nombre": "LUCAS GABRIEL GRAÑA",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "53390",
+   "Jug_Sale": "JUAN MANUEL ECHEVERRY",
+   "CarneEntra": "58833",
+   "Jug_Entra": "MARCOS ERRECART CARRATU",
+   "camiseta": "50",
+   "minutos": "51"
+  },
+  {
+   "CarneSale": "59207",
+   "Jug_Sale": "IGNACIO RODRIGUEZ",
+   "CarneEntra": "58830",
+   "Jug_Entra": "JOAQUÌN ROMERO",
+   "camiseta": "32",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "53395",
+   "Jug_Sale": "MAURO MASENA",
+   "CarneEntra": "59205",
+   "Jug_Entra": "MATEO WIBMER",
+   "camiseta": "51",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "55434",
+   "Jug_Sale": "DIEGO TOURON",
+   "CarneEntra": "54756",
+   "Jug_Entra": "ADRIANO MARTIN AGGIO",
+   "camiseta": "22",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "53875",
+   "Jug_Sale": "ALFONSO ABELLA",
+   "CarneEntra": "56689",
+   "Jug_Entra": "DIEGO ANDRE MENDOZA",
+   "camiseta": "57",
+   "minutos": "82"
+  },
+  {
+   "CarneSale": "53397",
+   "Jug_Sale": "ELIAS GOMOLINSKY",
+   "CarneEntra": "56472",
+   "Jug_Entra": "FACUNDO ASTIAZARAN",
+   "camiseta": "8",
+   "minutos": "82"
+  },
+  {
+   "CarneSale": "56477",
+   "Jug_Sale": "SEBASTIAN GRATADOUX",
+   "CarneEntra": "58816",
+   "Jug_Entra": "GUILLERMO SOTO",
+   "camiseta": "45",
+   "minutos": "82"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "58009",
+   "Jug_Sale": "SEBASTIAN FARIAS",
+   "CarneEntra": "68981",
+   "Jug_Entra": "IGNACIO FACUNDO ISNARDI",
+   "camiseta": "14",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "57960",
+   "Jug_Sale": "LUCAS GABRIEL GRAÑA",
+   "CarneEntra": "68428",
+   "Jug_Entra": "FRANCISCO VIDIELLA",
+   "camiseta": "22",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "69106",
+   "Jug_Sale": "JUAN PABLO VIERA",
+   "CarneEntra": "58538",
+   "Jug_Entra": "PATRICIO BULA",
+   "camiseta": "4",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "67309",
+   "Jug_Sale": "GUZMAN DUFOUR",
+   "CarneEntra": "57960",
+   "Jug_Entra": "LUCAS GABRIEL GRAÑA",
+   "camiseta": "7",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "66558",
+   "Jug_Sale": "CONSTANTINO BENTANCUR",
+   "CarneEntra": "58539",
+   "Jug_Entra": "SEBASTIAN BULA",
+   "camiseta": "27",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "67310",
+   "Jug_Sale": "FACUNDO PEREZ",
+   "CarneEntra": "60148",
+   "Jug_Entra": "GASPAR GUARISCO",
+   "camiseta": "20",
+   "minutos": "80"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "53397",
+   "Nombre": "ELIAS GOMOLINSKY",
+   "minutos": "21",
+   "EnContra": "0"
+  },
+  {
+   "carne": "55708",
+   "Nombre": "GONZALO BARTESAGHI",
+   "minutos": "7",
+   "EnContra": "0"
+  },
+  {
+   "carne": "55708",
+   "Nombre": "GONZALO BARTESAGHI",
+   "minutos": "55",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [],
+ "expulsadosL": [],
+ "expulsadosV": [
+  {
+   "Nombre": "LUCAS GABRIEL GRAÑA",
+   "observaciones": ""
+  }
+ ]
+}

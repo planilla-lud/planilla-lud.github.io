@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"F\" PERM. y DESC.",
   "Cancha": "COMPLEJO LAS CASUARINAS",
-  "Fecha_Inicio": "2026-11-08 10:30:00",
-  "Fecha_fin": "2026-11-08 10:30:00",
+  "Fecha_Inicio": "2026-11-08 10:47:00",
+  "Fecha_fin": "2026-11-08 10:47:00",
   "Locatario": "PAYSANDU UNVERSITARIO",
   "goles_locatario": "4",
   "puntos_locatario": "3",
@@ -29,12 +29,210 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "67282",
+   "Nombre": "SANTIAGO DE VASCONCELLOS",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "55343",
+   "Nombre": "MATEO SCHOLDERLE",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "51744",
+   "Nombre": "JUAN PEDRO GONZALEZ",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "60936",
+   "Nombre": "CIRO AGESTA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "53227",
+   "Nombre": "JUAN MANUEL ESPINDOLA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "57013",
+   "Nombre": "GASTON PASARELLO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "62088",
+   "Nombre": "AGUSTIN GONZALEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "45774",
+   "Nombre": "JUAN PABLO URRUTY",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "58186",
+   "Nombre": "GUSTAVO SEBASTIAN OTATTI",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "46307",
+   "Nombre": "CARLOS MARCELO GIANOTTI",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "33082",
+   "Nombre": "LUCIANO GASTON MONTERO",
+   "camiseta": "14",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "37571",
+   "Nombre": "ANDRES FRANCO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "61792",
+   "Nombre": "HERNAN ARAUJO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "66097",
+   "Nombre": "FEDERICO LEMA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "53456",
+   "Nombre": "AGUSTIN SANDE",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "58161",
+   "Nombre": "THIAGO FRANCISCO GONZALEZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "67670",
+   "Nombre": "LAUREANO LARROSA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "59713",
+   "Nombre": "BENJAZMIN PEREZ",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "42973",
+   "Nombre": "NICOLAS MARCIO RODAO",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "62301",
+   "Nombre": "LAUTARO TOMAS PUMAR",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "66223",
+   "Nombre": "FACUNDO CHIAZZARO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "49284",
+   "Nombre": "FELIPE ARRICAR",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "53227",
+   "Jug_Sale": "JUAN MANUEL ESPINDOLA",
+   "CarneEntra": "68231",
+   "Jug_Entra": "WALTER ZOE SALAZAR",
+   "camiseta": "23",
+   "minutos": "45"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "49284",
+   "Jug_Sale": "FELIPE ARRICAR",
+   "CarneEntra": "69200",
+   "Jug_Entra": "MATEO PEREZ",
+   "camiseta": "18",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "62301",
+   "Jug_Sale": "LAUTARO TOMAS PUMAR",
+   "CarneEntra": "59397",
+   "Jug_Entra": "HUGO ATILIO TRIUNFO",
+   "camiseta": "16",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "66097",
+   "Jug_Sale": "FEDERICO LEMA",
+   "CarneEntra": "67169",
+   "Jug_Entra": "NICLAS SANTIAGO AVELLANEDA",
+   "camiseta": "9",
+   "minutos": "80"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "46307",
+   "Nombre": "CARLOS MARCELO GIANOTTI",
+   "minutos": "27",
+   "EnContra": "0"
+  },
+  {
+   "carne": "51744",
+   "Nombre": "JUAN PEDRO GONZALEZ",
+   "minutos": "14",
+   "EnContra": "0"
+  },
+  {
+   "carne": "58186",
+   "Nombre": "GUSTAVO SEBASTIAN OTATTI",
+   "minutos": "66",
+   "EnContra": "0"
+  },
+  {
+   "carne": "60936",
+   "Nombre": "CIRO AGESTA",
+   "minutos": "52",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
- "expulsadosV": []
+ "expulsadosV": [
+  {
+   "Nombre": "FACUNDO CHIAZZARO",
+   "observaciones": ""
+  }
+ ]
 }

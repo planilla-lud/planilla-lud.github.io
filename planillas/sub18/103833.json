@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB18 COMPETENCIA",
   "Cancha": "MICROSULES",
-  "Fecha_Inicio": "2026-11-08 17:00:00",
-  "Fecha_fin": "2026-11-08 17:00:00",
+  "Fecha_Inicio": "2026-11-08 17:20:00",
+  "Fecha_fin": "2026-11-08 17:20:00",
   "Locatario": "PERRY SEXTA UNIVERSITARIO",
   "goles_locatario": "3",
   "puntos_locatario": "0",
@@ -29,12 +29,328 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "64585",
+   "Nombre": "FRANCISCO JOSE BOTTA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "65755",
+   "Nombre": "LAUTARO EZEQUIEL VELAZQUEZ",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "68681",
+   "Nombre": "BRIAN SEBASTIAN CABRERA",
+   "camiseta": "37",
+   "Capitan": ""
+  },
+  {
+   "carne": "65377",
+   "Nombre": "JUAN MANUEL RAMOS",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "61520",
+   "Nombre": "MATHIAS ACOSTA",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "65998",
+   "Nombre": "LIAN SUAREZ",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "68075",
+   "Nombre": "JOAQUIN SEBASTIAN BRITOS",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "65648",
+   "Nombre": "CESAR ENRIQUE CASTRO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "61894",
+   "Nombre": "BAUTISTA MENDEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "61453",
+   "Nombre": "LAUTARO AMORIN",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "68815",
+   "Nombre": "DYLAN DANIEL SILVA",
+   "camiseta": "18",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "68331",
+   "Nombre": "FEDERICO FONTELA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "60440",
+   "Nombre": "RODRIGO EMILIANO ARANCIO",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "60378",
+   "Nombre": "FRANCO PATRONE",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "62660",
+   "Nombre": "JUAN MARTIN RICARDI",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "67879",
+   "Nombre": "JUAN BAUTISTA MENENDEZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "67880",
+   "Nombre": "FELIPE RIVERO",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "67878",
+   "Nombre": "JUAN IGNACIO LEDESMA",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "63230",
+   "Nombre": "FAUSTO CORES",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "62158",
+   "Nombre": "SANTIAGO PECHIAR",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "62144",
+   "Nombre": "MATEO GONZALEZ",
+   "camiseta": "95",
+   "Capitan": ""
+  },
+  {
+   "carne": "62130",
+   "Nombre": "FRANCO FOFONKA",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "64585",
+   "Jug_Sale": "FRANCISCO JOSE BOTTA",
+   "CarneEntra": "68340",
+   "Jug_Entra": "ANDRES LEPORE",
+   "camiseta": "12",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "65755",
+   "Jug_Sale": "LAUTARO EZEQUIEL VELAZQUEZ",
+   "CarneEntra": "64466",
+   "Jug_Entra": "BENSHAMIN DA ROSA",
+   "camiseta": "42",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68075",
+   "Jug_Sale": "JOAQUIN SEBASTIAN BRITOS",
+   "CarneEntra": "67099",
+   "Jug_Entra": "FRANCO ALLEEN SCHMIT",
+   "camiseta": "15",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61894",
+   "Jug_Sale": "BAUTISTA MENDEZ",
+   "CarneEntra": "68087",
+   "Jug_Entra": "NAHUEL EZEQUIEL ALFONSO",
+   "camiseta": "99",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61520",
+   "Jug_Sale": "MATHIAS ACOSTA",
+   "CarneEntra": "68086",
+   "Jug_Entra": "EZEQUIEL RODRIGUEZ",
+   "camiseta": "52",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "65998",
+   "Jug_Sale": "LIAN SUAREZ",
+   "CarneEntra": "68682",
+   "Jug_Entra": "AARON JOEL MONTERO",
+   "camiseta": "33",
+   "minutos": "21"
+  },
+  {
+   "CarneSale": "67099",
+   "Jug_Sale": "FRANCO ALLEEN SCHMIT",
+   "CarneEntra": "61894",
+   "Jug_Entra": "BAUTISTA MENDEZ",
+   "camiseta": "10",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "68815",
+   "Jug_Sale": "DYLAN DANIEL SILVA",
+   "CarneEntra": "68075",
+   "Jug_Entra": "JOAQUIN SEBASTIAN BRITOS",
+   "camiseta": "21",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "61453",
+   "Jug_Sale": "LAUTARO AMORIN",
+   "CarneEntra": "68815",
+   "Jug_Entra": "DYLAN DANIEL SILVA",
+   "camiseta": "18",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "68682",
+   "Jug_Sale": "AARON JOEL MONTERO",
+   "CarneEntra": "64585",
+   "Jug_Entra": "FRANCISCO JOSE BOTTA",
+   "camiseta": "50",
+   "minutos": "78"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "60440",
+   "Jug_Sale": "RODRIGO EMILIANO ARANCIO",
+   "CarneEntra": "65361",
+   "Jug_Entra": "NICOLAS SOTO",
+   "camiseta": "14",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67879",
+   "Jug_Sale": "JUAN BAUTISTA MENENDEZ",
+   "CarneEntra": "62156",
+   "Jug_Entra": "JUAN JOSE CABILLON",
+   "camiseta": "22",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "62158",
+   "Jug_Sale": "SANTIAGO PECHIAR",
+   "CarneEntra": "62660",
+   "Jug_Entra": "JUAN MARTIN RICARDI",
+   "camiseta": "77",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "62660",
+   "Jug_Sale": "JUAN MARTIN RICARDI",
+   "CarneEntra": "67883",
+   "Jug_Entra": "ALEJO PEZZOLANO",
+   "camiseta": "8",
+   "minutos": "15"
+  },
+  {
+   "CarneSale": "60378",
+   "Jug_Sale": "FRANCO PATRONE",
+   "CarneEntra": "60440",
+   "Jug_Entra": "RODRIGO EMILIANO ARANCIO",
+   "camiseta": "16",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "67880",
+   "Jug_Sale": "FELIPE RIVERO",
+   "CarneEntra": "62158",
+   "Jug_Entra": "SANTIAGO PECHIAR",
+   "camiseta": "3",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "63230",
+   "Jug_Sale": "FAUSTO CORES",
+   "CarneEntra": "67879",
+   "Jug_Entra": "JUAN BAUTISTA MENENDEZ",
+   "camiseta": "3",
+   "minutos": "83"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "61894",
+   "Nombre": "BAUTISTA MENDEZ",
+   "minutos": "89",
+   "EnContra": "0"
+  },
+  {
+   "carne": "61894",
+   "Nombre": "BAUTISTA MENDEZ",
+   "minutos": "92",
+   "EnContra": "0"
+  },
+  {
+   "carne": "68075",
+   "Nombre": "JOAQUIN SEBASTIAN BRITOS",
+   "minutos": "20",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "60378",
+   "Nombre": "FRANCO PATRONE",
+   "minutos": "45",
+   "EnContra": "1"
+  },
+  {
+   "carne": "62130",
+   "Nombre": "FRANCO FOFONKA",
+   "minutos": "88",
+   "EnContra": "1"
+  },
+  {
+   "carne": "63230",
+   "Nombre": "FAUSTO CORES",
+   "minutos": "34",
+   "EnContra": "1"
+  },
+  {
+   "carne": "67883",
+   "Nombre": "ALEJO PEZZOLANO",
+   "minutos": "72",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

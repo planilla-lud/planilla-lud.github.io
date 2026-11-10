@@ -1,0 +1,312 @@
+{
+ "id": "103871",
+ "categoria": "sub20-c",
+ "serie": "20C2",
+ "fecha": 7,
+ "fechaHora": "2026-11-07 15:30:00",
+ "cancha": "COLEGIO PIO",
+ "local": "CENTRO CRISTOBAL COLON",
+ "visitante": "ALEMAN UNIVERSITARIO",
+ "gl": 1,
+ "gv": 8,
+ "detalle": {
+  "nro_partido": "500",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "2",
+  "Divisional": "SUB20 \"C\" TIT. y ASC.",
+  "Cancha": "COLEGIO PIO",
+  "Fecha_Inicio": "2026-11-07 17:15:00",
+  "Fecha_fin": "2026-11-07 17:15:00",
+  "Locatario": "CENTRO CRISTOBAL COLON",
+  "goles_locatario": "1",
+  "puntos_locatario": "0",
+  "Visitante": "ALEMAN UNIVERSITARIO",
+  "goles_visitante": "8",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "69203",
+   "Nombre": "RODRIGO CHAGAS",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "61299",
+   "Nombre": "FRANCO CROCCO",
+   "camiseta": "35",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "64261",
+   "Nombre": "SANTIAGO HERRERA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "65353",
+   "Nombre": "VALENTIN BARRIOS",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "68832",
+   "Nombre": "LEANDRO AGUSTIN PASANANTE",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "67328",
+   "Nombre": "UZIEL GIMENEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "61216",
+   "Nombre": "JUAN FRANCISCO PASSADORE",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "61215",
+   "Nombre": "JOAQUIN PASSADORE",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "63435",
+   "Nombre": "MATEO ADOLFO OXEHUFWUD",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "62356",
+   "Nombre": "AGUSTIN DA ROSA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "62354",
+   "Nombre": "MATEO NOVAS",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "56600",
+   "Nombre": "SANTIAGO REYES",
+   "camiseta": "37",
+   "Capitan": ""
+  },
+  {
+   "carne": "62631",
+   "Nombre": "JOAQUIN ARMANDO PIRIZ",
+   "camiseta": "52",
+   "Capitan": ""
+  },
+  {
+   "carne": "55355",
+   "Nombre": "FACUNDO BELTRAN",
+   "camiseta": "57",
+   "Capitan": ""
+  },
+  {
+   "carne": "59109",
+   "Nombre": "SANTIAGO ALVAREZ",
+   "camiseta": "82",
+   "Capitan": ""
+  },
+  {
+   "carne": "55191",
+   "Nombre": "FEDERICO SAINTAGNE",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "56606",
+   "Nombre": "MATIAS GONZALEZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "56156",
+   "Nombre": "FRANCO SANTIAGO BOTTINI",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "55187",
+   "Nombre": "IGNACIO ANDRES ALVAREZ",
+   "camiseta": "89",
+   "Capitan": ""
+  },
+  {
+   "carne": "62637",
+   "Nombre": "AGUSTIN GAVEL",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "56201",
+   "Nombre": "MATEO BONFIGLIO",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "56841",
+   "Nombre": "FELIPE NICOLAS LOPEZ",
+   "camiseta": "97",
+   "Capitan": "(C)"
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "62356",
+   "Jug_Sale": "AGUSTIN DA ROSA",
+   "CarneEntra": "64958",
+   "Jug_Entra": "LUCA AFONZO",
+   "camiseta": "20",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "62354",
+   "Jug_Sale": "MATEO NOVAS",
+   "CarneEntra": "64628",
+   "Jug_Entra": "ANDRES SEBASTIAN DIAZ",
+   "camiseta": "78",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68832",
+   "Jug_Sale": "LEANDRO AGUSTIN PASANANTE",
+   "CarneEntra": "61603",
+   "Jug_Entra": "IGNACIO GUERRERO",
+   "camiseta": "17",
+   "minutos": "73"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "62637",
+   "Jug_Sale": "AGUSTIN GAVEL",
+   "CarneEntra": "54749",
+   "Jug_Entra": "MARKO HEINZ SCHWARZ",
+   "camiseta": "41",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "55187",
+   "Jug_Sale": "IGNACIO ANDRES ALVAREZ",
+   "CarneEntra": "55887",
+   "Jug_Entra": "ANDRES VIDAL",
+   "camiseta": "54",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56606",
+   "Jug_Sale": "MATIAS GONZALEZ",
+   "CarneEntra": "58066",
+   "Jug_Entra": "NICOLAS VAN CLEEF",
+   "camiseta": "48",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56841",
+   "Jug_Sale": "FELIPE NICOLAS LOPEZ",
+   "CarneEntra": "56598",
+   "Jug_Entra": "MATEO AZADIAN",
+   "camiseta": "31",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "62631",
+   "Jug_Sale": "JOAQUIN ARMANDO PIRIZ",
+   "CarneEntra": "59110",
+   "Jug_Entra": "FACUNDO VILENSKY",
+   "camiseta": "56",
+   "minutos": "50"
+  },
+  {
+   "CarneSale": "56156",
+   "Jug_Sale": "FRANCO SANTIAGO BOTTINI",
+   "CarneEntra": "66255",
+   "Jug_Entra": "GUILLERMO ADOLPH",
+   "camiseta": "15",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "59109",
+   "Jug_Sale": "SANTIAGO ALVAREZ",
+   "CarneEntra": "68750",
+   "Jug_Entra": "EMILIANO OLIVERA",
+   "camiseta": "21",
+   "minutos": "55"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "65353",
+   "Nombre": "VALENTIN BARRIOS",
+   "minutos": "68",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "55191",
+   "Nombre": "FEDERICO SAINTAGNE",
+   "minutos": "40",
+   "EnContra": "1"
+  },
+  {
+   "carne": "55355",
+   "Nombre": "FACUNDO BELTRAN",
+   "minutos": "33",
+   "EnContra": "1"
+  },
+  {
+   "carne": "56156",
+   "Nombre": "FRANCO SANTIAGO BOTTINI",
+   "minutos": "2",
+   "EnContra": "1"
+  },
+  {
+   "carne": "56201",
+   "Nombre": "MATEO BONFIGLIO",
+   "minutos": "15",
+   "EnContra": "1"
+  },
+  {
+   "carne": "56201",
+   "Nombre": "MATEO BONFIGLIO",
+   "minutos": "42",
+   "EnContra": "1"
+  },
+  {
+   "carne": "56606",
+   "Nombre": "MATIAS GONZALEZ",
+   "minutos": "20",
+   "EnContra": "1"
+  },
+  {
+   "carne": "56841",
+   "Nombre": "FELIPE NICOLAS LOPEZ",
+   "minutos": "36",
+   "EnContra": "1"
+  },
+  {
+   "carne": "66255",
+   "Nombre": "GUILLERMO ADOLPH",
+   "minutos": "89",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

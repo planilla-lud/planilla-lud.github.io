@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"C\" PER. y DESC",
   "Cancha": "COMPLEJO DEPORTIVO H3O",
-  "Fecha_Inicio": "2026-11-07 10:30:00",
-  "Fecha_fin": "2026-11-07 10:30:00",
+  "Fecha_Inicio": "2026-11-07 10:50:00",
+  "Fecha_fin": "2026-11-07 10:50:00",
   "Locatario": "CLARA JACKSON UNIVERSITARIO",
   "goles_locatario": "3",
   "puntos_locatario": "0",
@@ -29,12 +29,281 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "titularesL": [
+  {
+   "carne": "26280",
+   "Nombre": "DIEGO ALVEZ",
+   "camiseta": "72",
+   "Capitan": ""
+  },
+  {
+   "carne": "35096",
+   "Nombre": "AGUSTIN OSVALDO MIRO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "42789",
+   "Nombre": "DIEGO GABRIEL DEL PO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "34406",
+   "Nombre": "FRANCO ANTONIO RICARDI",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "57636",
+   "Nombre": "FACUNDO RUBEN MANZI",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "30276",
+   "Nombre": "KLAVDIO AGUSTIN MARTINEZ",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "40042",
+   "Nombre": "AGUSTIN GILI",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "35291",
+   "Nombre": "ADRIAN MONTOLI",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "27327",
+   "Nombre": "GERMAN RODRIGO SANTAMARIA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "34628",
+   "Nombre": "SANTIAGO PATRICIO IGLESIAS",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "48326",
+   "Nombre": "FEDERICO RODRIGUEZ",
+   "camiseta": "19",
+   "Capitan": "(C)"
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "51777",
+   "Nombre": "FEDERICO BLANCO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "68325",
+   "Nombre": "ADRIAN MAXIMILIANO BRAIN",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "17156",
+   "Nombre": "ERNESTO GABRIEL FERREIRA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "40343",
+   "Nombre": "DIEGO CEA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "54381",
+   "Nombre": "MARTIN GONZALO GOÑI",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "41475",
+   "Nombre": "DANIEL TORRES",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "45436",
+   "Nombre": "RAMIRO GABRIEL SOCA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "22126",
+   "Nombre": "ALDO MARTIN LAZAR",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "42447",
+   "Nombre": "SEBASTIAN ISMAEL DA COSTA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "40342",
+   "Nombre": "BRAIAN JAVIER CABRERA",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "29488",
+   "Nombre": "JUAN IGNACIO VIERA",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "42789",
+   "Jug_Sale": "DIEGO GABRIEL DEL PO",
+   "CarneEntra": "33810",
+   "Jug_Entra": "RODRIGO SOBRADO",
+   "camiseta": "68",
+   "minutos": "31"
+  },
+  {
+   "CarneSale": "35096",
+   "Jug_Sale": "AGUSTIN OSVALDO MIRO",
+   "CarneEntra": "46032",
+   "Jug_Entra": "IGNACIO GABRIEL GARCILAZO",
+   "camiseta": "16",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "30276",
+   "Jug_Sale": "KLAVDIO AGUSTIN MARTINEZ",
+   "CarneEntra": "26291",
+   "Jug_Entra": "MARCELO ALVEZ",
+   "camiseta": "5",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "57636",
+   "Jug_Sale": "FACUNDO RUBEN MANZI",
+   "CarneEntra": "61414",
+   "Jug_Entra": "BRUNO TRIGO",
+   "camiseta": "11",
+   "minutos": "75"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "42447",
+   "Jug_Sale": "SEBASTIAN ISMAEL DA COSTA",
+   "CarneEntra": "37074",
+   "Jug_Entra": "BRUNO SANTIAGO ARBIA",
+   "camiseta": "7",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "22126",
+   "Jug_Sale": "ALDO MARTIN LAZAR",
+   "CarneEntra": "29591",
+   "Jug_Entra": "MAXIMILIANO RUSSO",
+   "camiseta": "9",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "41475",
+   "Jug_Sale": "DANIEL TORRES",
+   "CarneEntra": "46292",
+   "Jug_Entra": "DIEGO ISMAEL FERREIRA",
+   "camiseta": "4",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "40343",
+   "Jug_Sale": "DIEGO CEA",
+   "CarneEntra": "42447",
+   "Jug_Entra": "SEBASTIAN ISMAEL DA COSTA",
+   "camiseta": "20",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "40342",
+   "Jug_Sale": "BRAIAN JAVIER CABRERA",
+   "CarneEntra": "22126",
+   "Jug_Entra": "ALDO MARTIN LAZAR",
+   "camiseta": "11",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "54381",
+   "Jug_Sale": "MARTIN GONZALO GOÑI",
+   "CarneEntra": "40342",
+   "Jug_Entra": "BRAIAN JAVIER CABRERA",
+   "camiseta": "12",
+   "minutos": "92"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "34628",
+   "Nombre": "SANTIAGO PATRICIO IGLESIAS",
+   "minutos": "36",
+   "EnContra": "0"
+  },
+  {
+   "carne": "46032",
+   "Nombre": "IGNACIO GABRIEL GARCILAZO",
+   "minutos": "85",
+   "EnContra": "0"
+  },
+  {
+   "carne": "48326",
+   "Nombre": "FEDERICO RODRIGUEZ",
+   "minutos": "25",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "29488",
+   "Nombre": "JUAN IGNACIO VIERA",
+   "minutos": "20",
+   "EnContra": "1"
+  },
+  {
+   "carne": "29488",
+   "Nombre": "JUAN IGNACIO VIERA",
+   "minutos": "33",
+   "EnContra": "1"
+  },
+  {
+   "carne": "29488",
+   "Nombre": "JUAN IGNACIO VIERA",
+   "minutos": "37",
+   "EnContra": "1"
+  },
+  {
+   "carne": "29591",
+   "Nombre": "MAXIMILIANO RUSSO",
+   "minutos": "83",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "DIEGO ALVEZ",
+   "observaciones": ""
+  },
+  {
+   "Nombre": "ADRIAN MONTOLI",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

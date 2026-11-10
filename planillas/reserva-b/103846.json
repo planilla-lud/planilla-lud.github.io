@@ -3,7 +3,7 @@
  "categoria": "reserva-b",
  "serie": "RSBPD",
  "fecha": 6,
- "fechaHora": "2026-11-07 11:15:00",
+ "fechaHora": "2026-11-07 12:00:00",
  "cancha": "CAMPO DEP. SAN JUAN BAUTISTA",
  "local": "SAN JUAN BAUTISTA",
  "visitante": "CLUB UNIVERSIDAD CATOLICA",
@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"B\" PER. y DESC.",
   "Cancha": "CAMPO DEP. SAN JUAN BAUTISTA",
-  "Fecha_Inicio": "2026-11-07 12:45:00",
-  "Fecha_fin": "2026-11-07 12:45:00",
+  "Fecha_Inicio": "2026-11-07 14:00:00",
+  "Fecha_fin": "2026-11-07 14:00:00",
   "Locatario": "SAN JUAN BAUTISTA",
   "goles_locatario": "2",
   "puntos_locatario": "1",
@@ -29,12 +29,275 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "titularesL": [
+  {
+   "carne": "61816",
+   "Nombre": "MATEO RAFAEL BRANAA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "50631",
+   "Nombre": "LORENZO ALTAMIRANO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "55157",
+   "Nombre": "DIEGO YAQUINTA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "55158",
+   "Nombre": "LAUTARO LUJAN",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "41837",
+   "Nombre": "FRANCISCO DOMINGO COSCO",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "50725",
+   "Nombre": "JUAN IGNACIO ROSSI",
+   "camiseta": "20",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "50627",
+   "Nombre": "VICENTE MARTI",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "52792",
+   "Nombre": "PABLO TOMAS SILVA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "54936",
+   "Nombre": "CARLOS PEDRO MENDIVE",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "44167",
+   "Nombre": "FEDERICO ERNESTO CHIESA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "55340",
+   "Nombre": "AGUSTIN MARTINEZ",
+   "camiseta": "0",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "47663",
+   "Nombre": "ANTHONE IVAN MARTINEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "58896",
+   "Nombre": "JUAN ANTONIO GONZALEZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "61141",
+   "Nombre": "ADRIAN IGNACIO GALVAN",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "60895",
+   "Nombre": "TOMAS ANDRES OTERO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "56909",
+   "Nombre": "JOAQUIN NICOLAS NAVAS",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "51756",
+   "Nombre": "JUAN IGNACIO PERTUSSO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "33319",
+   "Nombre": "JUAN CARLOS PINTOS",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "53606",
+   "Nombre": "GUILLERMO ANDRES REBOLLO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "64990",
+   "Nombre": "ISMAEL PUGLIA",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "51402",
+   "Nombre": "JUAN PEDRO PERDOMO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "46926",
+   "Nombre": "MATIAS ANDRES MUNIZ",
+   "camiseta": "27",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "55340",
+   "Jug_Sale": "AGUSTIN MARTINEZ",
+   "CarneEntra": "55155",
+   "Jug_Entra": "MATIAS DURAN",
+   "camiseta": "15",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "52792",
+   "Jug_Sale": "PABLO TOMAS SILVA",
+   "CarneEntra": "47801",
+   "Jug_Entra": "FACUNDO GAMBETTA",
+   "camiseta": "81",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "50725",
+   "Jug_Sale": "JUAN IGNACIO ROSSI",
+   "CarneEntra": "51058",
+   "Jug_Entra": "TADEO SOBA",
+   "camiseta": "18",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "50627",
+   "Jug_Sale": "VICENTE MARTI",
+   "CarneEntra": "55134",
+   "Jug_Entra": "NICOLAS COSTANTE",
+   "camiseta": "87",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "50631",
+   "Jug_Sale": "LORENZO ALTAMIRANO",
+   "CarneEntra": "62298",
+   "Jug_Entra": "FRANCO RUSSOMANO",
+   "camiseta": "71",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "44167",
+   "Jug_Sale": "FEDERICO ERNESTO CHIESA",
+   "CarneEntra": "50624",
+   "Jug_Entra": "FACUNDO GALBARINI",
+   "camiseta": "79",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "55157",
+   "Jug_Sale": "DIEGO YAQUINTA",
+   "CarneEntra": "59100",
+   "Jug_Entra": "VALENTINO PIERI",
+   "camiseta": "9",
+   "minutos": "85"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "46926",
+   "Jug_Sale": "MATIAS ANDRES MUNIZ",
+   "CarneEntra": "62289",
+   "Jug_Entra": "JEREMIAS RUIZ DIAZ",
+   "camiseta": "99",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "51402",
+   "Jug_Sale": "JUAN PEDRO PERDOMO",
+   "CarneEntra": "63608",
+   "Jug_Entra": "PABLO MARI",
+   "camiseta": "11",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "33319",
+   "Jug_Sale": "JUAN CARLOS PINTOS",
+   "CarneEntra": "33299",
+   "Jug_Entra": "GUILLERMO BRUNO",
+   "camiseta": "13",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "64990",
+   "Jug_Sale": "ISMAEL PUGLIA",
+   "CarneEntra": "40445",
+   "Jug_Entra": "JUAN VICENTE CAVALLERI",
+   "camiseta": "18",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "53606",
+   "Jug_Sale": "GUILLERMO ANDRES REBOLLO",
+   "CarneEntra": "53198",
+   "Jug_Entra": "DIEGO LAGAZETA",
+   "camiseta": "7",
+   "minutos": "84"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "44167",
+   "Nombre": "FEDERICO ERNESTO CHIESA",
+   "minutos": "20",
+   "EnContra": "0"
+  },
+  {
+   "carne": "54936",
+   "Nombre": "CARLOS PEDRO MENDIVE",
+   "minutos": "31",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "51402",
+   "Nombre": "JUAN PEDRO PERDOMO",
+   "minutos": "53",
+   "EnContra": "1"
+  },
+  {
+   "carne": "53606",
+   "Nombre": "GUILLERMO ANDRES REBOLLO",
+   "minutos": "62",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "FRANCISCO DOMINGO COSCO",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

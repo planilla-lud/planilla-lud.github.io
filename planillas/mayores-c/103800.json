@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"C\" TIT. y ASC.",
   "Cancha": "PARQUE CUPRA - CLUB SEMINARIO",
-  "Fecha_Inicio": "2026-11-08 10:30:00",
-  "Fecha_fin": "2026-11-08 10:30:00",
+  "Fecha_Inicio": "2026-11-08 11:00:00",
+  "Fecha_fin": "2026-11-08 11:00:00",
   "Locatario": "ISASA UNIVERSITARIO",
   "goles_locatario": "1",
   "puntos_locatario": "3",
@@ -29,12 +29,232 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "53288",
+   "Nombre": "MAIKOL JAVIER MIGLIACCIO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "49538",
+   "Nombre": "NICOLAS FERREYRA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "39455",
+   "Nombre": "CARLOS ANDRES DIAZ",
+   "camiseta": "22",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "50211",
+   "Nombre": "SEBASTIAN RODRIGUEZ",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "59627",
+   "Nombre": "NICOLAS GARCIA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "68962",
+   "Nombre": "LEANDRO ANDRES ZEBALLOS",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "47181",
+   "Nombre": "SANTIAGO QUIROGA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "53802",
+   "Nombre": "RODRIGO CUNEO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "65595",
+   "Nombre": "EZEQUIEL ALEXANDRE ESCOBAR",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "47179",
+   "Nombre": "DIEGO HERNAN DELGADO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "37926",
+   "Nombre": "FRANCO NICOLAS CORROCHANO",
+   "camiseta": "13",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "60725",
+   "Nombre": "ALESSANDRO EZEQUIEL PEREIRA",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "42937",
+   "Nombre": "DIEGO PENINO",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "66258",
+   "Nombre": "LEANDRO PEREZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "32390",
+   "Nombre": "JUAN PABLO HERRERO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "32328",
+   "Nombre": "PEDRO NICOLAS HERRERO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "51604",
+   "Nombre": "JUAN GABRIEL RUSSO",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "33869",
+   "Nombre": "JOAQUIN DANIEL GARCIA",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "49318",
+   "Nombre": "FABRIZIO BEIROA",
+   "camiseta": "92",
+   "Capitan": ""
+  },
+  {
+   "carne": "41791",
+   "Nombre": "SANTIAGO MARTIN GONZALEZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "32511",
+   "Nombre": "MATHIAS TORRES",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "44549",
+   "Nombre": "SANTIAGO MARTIN RIBEIRO",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "50211",
+   "Jug_Sale": "SEBASTIAN RODRIGUEZ",
+   "CarneEntra": "41789",
+   "Jug_Entra": "RODRIGO MARTIN IGLESIAS",
+   "camiseta": "28",
+   "minutos": "19"
+  },
+  {
+   "CarneSale": "53802",
+   "Jug_Sale": "RODRIGO CUNEO",
+   "CarneEntra": "40923",
+   "Jug_Entra": "IGNACIO SILVA",
+   "camiseta": "21",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "47179",
+   "Jug_Sale": "DIEGO HERNAN DELGADO",
+   "CarneEntra": "46794",
+   "Jug_Entra": "RAMIRO IVAN GONZALEZ",
+   "camiseta": "71",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "65595",
+   "Jug_Sale": "EZEQUIEL ALEXANDRE ESCOBAR",
+   "CarneEntra": "53802",
+   "Jug_Entra": "RODRIGO CUNEO",
+   "camiseta": "9",
+   "minutos": "88"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "49318",
+   "Jug_Sale": "FABRIZIO BEIROA",
+   "CarneEntra": "58031",
+   "Jug_Entra": "MATEO NICOLAS CODINA",
+   "camiseta": "8",
+   "minutos": "81"
+  },
+  {
+   "CarneSale": "32511",
+   "Jug_Sale": "MATHIAS TORRES",
+   "CarneEntra": "57202",
+   "Jug_Entra": "JUAN DIEGO VARELA",
+   "camiseta": "71",
+   "minutos": "81"
+  },
+  {
+   "CarneSale": "32390",
+   "Jug_Sale": "JUAN PABLO HERRERO",
+   "CarneEntra": "26828",
+   "Jug_Entra": "JUAN IGNACIO MANERA",
+   "camiseta": "5",
+   "minutos": "89"
+  },
+  {
+   "CarneSale": "41791",
+   "Jug_Sale": "SANTIAGO MARTIN GONZALEZ",
+   "CarneEntra": "53403",
+   "Jug_Entra": "DIEGO FERNANDO AGUILERA",
+   "camiseta": "20",
+   "minutos": "88"
+  },
+  {
+   "CarneSale": "66258",
+   "Jug_Sale": "LEANDRO PEREZ",
+   "CarneEntra": "34051",
+   "Jug_Entra": "DANIEL MATIAS CASTRO",
+   "camiseta": "81",
+   "minutos": "92"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "37926",
+   "Nombre": "FRANCO NICOLAS CORROCHANO",
+   "minutos": "85",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
- "expulsadosL": [],
+ "expulsadosL": [
+  {
+   "Nombre": "NICOLAS GARCIA",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

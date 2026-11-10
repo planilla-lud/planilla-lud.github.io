@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"A\" PERM. y DESC.",
   "Cancha": "PARQUE CUPRA - CLUB SEMINARIO",
-  "Fecha_Inicio": "2026-11-08 12:45:00",
-  "Fecha_fin": "2026-11-08 12:45:00",
+  "Fecha_Inicio": "2026-11-08 13:15:00",
+  "Fecha_fin": "2026-11-08 13:15:00",
   "Locatario": "PLAYA HONDA UNIVERSITARIO",
   "goles_locatario": "4",
   "puntos_locatario": "3",
@@ -29,11 +29,260 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "54947",
+   "Nombre": "SANTIAGO HERNAN RAMIREZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "54303",
+   "Nombre": "RODRIGO LEON",
+   "camiseta": "7",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "57182",
+   "Nombre": "JOAQUIN PABLO BAUTISTA",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "58714",
+   "Nombre": "LUCIANO LAUDICIO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "55198",
+   "Nombre": "CAMILO JOAQUIN CABRERA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "58638",
+   "Nombre": "SANTINO TORTORELLA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "57539",
+   "Nombre": "MARTIN ANDRES RODRIGUEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "68646",
+   "Nombre": "MARTIN GUADALUPE",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "40183",
+   "Nombre": "FERNANDO MICHEL CHACON",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "53111",
+   "Nombre": "JUAN PEDRO TAFERNABERRY",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "58944",
+   "Nombre": "IGNACIO ALGORTA",
+   "camiseta": "29",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "47827",
+   "Nombre": "AGUSTIN ARIASI",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "56372",
+   "Nombre": "ALFONSO CARDELINO",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "42664",
+   "Nombre": "LUIS EDUARDO TOPOLANSKY",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "45594",
+   "Nombre": "SANTIAGO GUTIERREZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "59182",
+   "Nombre": "MATEO DENIS",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "66871",
+   "Nombre": "JUAN MANUEL COLMAN",
+   "camiseta": "75",
+   "Capitan": ""
+  },
+  {
+   "carne": "61341",
+   "Nombre": "MATEO SUBIRAN",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "55486",
+   "Nombre": "ISMAEL CASTRO",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "59614",
+   "Nombre": "TOMAS HORJALES",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "47833",
+   "Nombre": "SANTIAGO ANGENSCHEDIT",
+   "camiseta": "7",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "47834",
+   "Nombre": "THOMAS DEAKIN",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "53111",
+   "Jug_Sale": "JUAN PEDRO TAFERNABERRY",
+   "CarneEntra": "31696",
+   "Jug_Entra": "JAVIER TAIS",
+   "camiseta": "19",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "55198",
+   "Jug_Sale": "CAMILO JOAQUIN CABRERA",
+   "CarneEntra": "68936",
+   "Jug_Entra": "EZEQUIEL ACOSTA",
+   "camiseta": "2",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58714",
+   "Jug_Sale": "LUCIANO LAUDICIO",
+   "CarneEntra": "67539",
+   "Jug_Entra": "MATIAS NICOLAS RODRIGUEZ",
+   "camiseta": "46",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58638",
+   "Jug_Sale": "SANTINO TORTORELLA",
+   "CarneEntra": "53845",
+   "Jug_Entra": "MARTIN CURUTCHAGUE",
+   "camiseta": "25",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "57182",
+   "Jug_Sale": "JOAQUIN PABLO BAUTISTA",
+   "CarneEntra": "52880",
+   "Jug_Entra": "RODOLFO RODRIGUEZ",
+   "camiseta": "43",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "57539",
+   "Jug_Sale": "MARTIN ANDRES RODRIGUEZ",
+   "CarneEntra": "68323",
+   "Jug_Entra": "FEDERICO SOLDEVILA",
+   "camiseta": "48",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "40183",
+   "Jug_Sale": "FERNANDO MICHEL CHACON",
+   "CarneEntra": "56147",
+   "Jug_Entra": "MAURO MATEO NAVARRINE",
+   "camiseta": "15",
+   "minutos": "72"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "56372",
+   "Jug_Sale": "ALFONSO CARDELINO",
+   "CarneEntra": "18671",
+   "Jug_Entra": "SANTIAGO COTELO",
+   "camiseta": "18",
+   "minutos": "20"
+  },
+  {
+   "CarneSale": "59614",
+   "Jug_Sale": "TOMAS HORJALES",
+   "CarneEntra": "54763",
+   "Jug_Entra": "JUAN BAUTISTA CROSA",
+   "camiseta": "14",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "55486",
+   "Jug_Sale": "ISMAEL CASTRO",
+   "CarneEntra": "60663",
+   "Jug_Entra": "ALFONSO PORRAS",
+   "camiseta": "80",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "45594",
+   "Jug_Sale": "SANTIAGO GUTIERREZ",
+   "CarneEntra": "47831",
+   "Jug_Entra": "SANTIAGO ARIASI",
+   "camiseta": "76",
+   "minutos": "80"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "53111",
+   "Nombre": "JUAN PEDRO TAFERNABERRY",
+   "minutos": "16",
+   "EnContra": "0"
+  },
+  {
+   "carne": "57539",
+   "Nombre": "MARTIN ANDRES RODRIGUEZ",
+   "minutos": "1",
+   "EnContra": "0"
+  },
+  {
+   "carne": "58944",
+   "Nombre": "IGNACIO ALGORTA",
+   "minutos": "39",
+   "EnContra": "0"
+  },
+  {
+   "carne": "58944",
+   "Nombre": "IGNACIO ALGORTA",
+   "minutos": "55",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

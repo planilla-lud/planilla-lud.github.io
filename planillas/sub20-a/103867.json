@@ -1,0 +1,313 @@
+{
+ "id": "103867",
+ "categoria": "sub20-a",
+ "serie": "20AT",
+ "fecha": 7,
+ "fechaHora": "2026-11-07 15:30:00",
+ "cancha": "LA MENNAIS",
+ "local": "J.M.L.M",
+ "visitante": "OLD WOODLANDS CLUB",
+ "gl": 0,
+ "gv": 4,
+ "detalle": {
+  "nro_partido": "385",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "2",
+  "Divisional": "SUB20 \"A\" TITULO",
+  "Cancha": "LA MENNAIS",
+  "Fecha_Inicio": "2026-11-07 17:21:00",
+  "Fecha_fin": "2026-11-07 17:21:00",
+  "Locatario": "J.M.L.M",
+  "goles_locatario": "0",
+  "puntos_locatario": "0",
+  "Visitante": "OLD WOODLANDS CLUB",
+  "goles_visitante": "4",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "64169",
+   "Nombre": "PEDRO RAVECA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "55785",
+   "Nombre": "MATEO LAUTARO RODRIGUEZ",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "57046",
+   "Nombre": "FRANCISCO MATTOS",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "53175",
+   "Nombre": "MATEO GILI",
+   "camiseta": "7",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56241",
+   "Nombre": "GUILLERMO FERRARI",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "55150",
+   "Nombre": "MANUEL MAZZILLI",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "56176",
+   "Nombre": "SANTIAGO LUCAS",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "56238",
+   "Nombre": "THIAGO GONZALEZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "58174",
+   "Nombre": "MATEO MARTINEZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "66739",
+   "Nombre": "RENZO BARBIERI",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "55662",
+   "Nombre": "FEDERICO GASTON DOLIVO",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "65071",
+   "Nombre": "MANUEL FELIPE DOMINGUEZ",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "65736",
+   "Nombre": "CONSTANTINO JUAN SOTO",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "63286",
+   "Nombre": "ENZO PIGNANELLI",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "55243",
+   "Nombre": "FELIPE LYONNET",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "55093",
+   "Nombre": "TIMOTEO MORELLI",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "52997",
+   "Nombre": "FELIX MARTIN ALVAREZ",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "62361",
+   "Nombre": "FACUNDO GONZALEZ",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "55084",
+   "Nombre": "FRANCO PIGNANELLI",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "59187",
+   "Nombre": "FACUNDO FERNANDEZ",
+   "camiseta": "47",
+   "Capitan": ""
+  },
+  {
+   "carne": "57168",
+   "Nombre": "PEDRO ROMERO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "52677",
+   "Nombre": "JUAN MARTIN CANAN",
+   "camiseta": "15",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "55150",
+   "Jug_Sale": "MANUEL MAZZILLI",
+   "CarneEntra": "64171",
+   "Jug_Entra": "FRANCISCO GOLDBERG",
+   "camiseta": "71",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66739",
+   "Jug_Sale": "RENZO BARBIERI",
+   "CarneEntra": "64263",
+   "Jug_Entra": "JUAN MANUEL DUPONT",
+   "camiseta": "77",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58174",
+   "Jug_Sale": "MATEO MARTINEZ",
+   "CarneEntra": "64165",
+   "Jug_Entra": "BENJAMIN MONTES",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "57046",
+   "Jug_Sale": "FRANCISCO MATTOS",
+   "CarneEntra": "58002",
+   "Jug_Entra": "FELIPE MONTEMURRO",
+   "camiseta": "3",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56238",
+   "Jug_Sale": "THIAGO GONZALEZ",
+   "CarneEntra": "59539",
+   "Jug_Entra": "AGUSTIN ROBERTO",
+   "camiseta": "8",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "56176",
+   "Jug_Sale": "SANTIAGO LUCAS",
+   "CarneEntra": "55679",
+   "Jug_Entra": "TOMAS RODRIGUEZ",
+   "camiseta": "20",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "55785",
+   "Jug_Sale": "MATEO LAUTARO RODRIGUEZ",
+   "CarneEntra": "56237",
+   "Jug_Entra": "JOAQUIN PLATERO",
+   "camiseta": "80",
+   "minutos": "70"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "55084",
+   "Jug_Sale": "FRANCO PIGNANELLI",
+   "CarneEntra": "55065",
+   "Jug_Entra": "FELIPE SONEIRA",
+   "camiseta": "8",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "62361",
+   "Jug_Sale": "FACUNDO GONZALEZ",
+   "CarneEntra": "57430",
+   "Jug_Entra": "JUAN BAUTISTA MARTINEZ",
+   "camiseta": "88",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "55243",
+   "Jug_Sale": "FELIPE LYONNET",
+   "CarneEntra": "55081",
+   "Jug_Entra": "GUILLERMO DI BELLO",
+   "camiseta": "85",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "65071",
+   "Jug_Sale": "MANUEL FELIPE DOMINGUEZ",
+   "CarneEntra": "57170",
+   "Jug_Entra": "JUAN MANUEL BACHINO",
+   "camiseta": "0",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "52997",
+   "Jug_Sale": "FELIX MARTIN ALVAREZ",
+   "CarneEntra": "57450",
+   "Jug_Entra": "NICOLAS FOTI",
+   "camiseta": "10",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "57168",
+   "Jug_Sale": "PEDRO ROMERO",
+   "CarneEntra": "55094",
+   "Jug_Entra": "THIAGO NICOLAS TEJERA",
+   "camiseta": "7",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "59187",
+   "Jug_Sale": "FACUNDO FERNANDEZ",
+   "CarneEntra": "57171",
+   "Jug_Entra": "IGNACIO IRAZUSTA",
+   "camiseta": "17",
+   "minutos": "80"
+  }
+ ],
+ "golesL": [],
+ "golesV": [
+  {
+   "carne": "57168",
+   "Nombre": "PEDRO ROMERO",
+   "minutos": "25",
+   "EnContra": "1"
+  },
+  {
+   "carne": "59187",
+   "Nombre": "FACUNDO FERNANDEZ",
+   "minutos": "64",
+   "EnContra": "1"
+  },
+  {
+   "carne": "62361",
+   "Nombre": "FACUNDO GONZALEZ",
+   "minutos": "33",
+   "EnContra": "1"
+  },
+  {
+   "carne": "62361",
+   "Nombre": "FACUNDO GONZALEZ",
+   "minutos": "48",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

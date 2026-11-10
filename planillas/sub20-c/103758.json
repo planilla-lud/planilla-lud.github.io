@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "SUB20 \"C\" COPA DE PLATA",
   "Cancha": "COMPLEJO LOS NOGALES",
-  "Fecha_Inicio": "2026-11-07 17:00:00",
-  "Fecha_fin": "2026-11-07 17:00:00",
+  "Fecha_Inicio": "2026-11-07 17:20:00",
+  "Fecha_fin": "2026-11-07 17:20:00",
   "Locatario": "MONTEVIDEO COLLEGE",
   "goles_locatario": "2",
   "puntos_locatario": "3",
@@ -29,12 +29,216 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "66348",
+   "Nombre": "FELIPE DE BRITO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "67433",
+   "Nombre": "IGNACIO STANHAM",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "59185",
+   "Nombre": "MATEO GONZALEZ",
+   "camiseta": "2",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "64410",
+   "Nombre": "JUAN ANTONIO QUINTAS",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "62329",
+   "Nombre": "FACUNDO ABELENDA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "58777",
+   "Nombre": "RODRIGO GONZALEZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "62874",
+   "Nombre": "JUAN MANUEL CARBONE",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "66020",
+   "Nombre": "FACUNDO DOMINGUEZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "66401",
+   "Nombre": "FACUNDO SUAREZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "63442",
+   "Nombre": "MATEO FONT",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "66402",
+   "Nombre": "ANTONY DANIEL CARDOZO",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "54102",
+   "Nombre": "THIAGO ENRIQUE ROMERO",
+   "camiseta": "36",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "64635",
+   "Nombre": "JOAQUIN DUARTE",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "68767",
+   "Nombre": "FRANCISCO MIGUEL LOPEZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "59028",
+   "Nombre": "JUAN MARTIN RIOLFO",
+   "camiseta": "98",
+   "Capitan": ""
+  },
+  {
+   "carne": "57441",
+   "Nombre": "SANTIAGO RIUS",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "62811",
+   "Nombre": "TOMAS SULCA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "63486",
+   "Nombre": "FEDERICO DAISSON",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "56448",
+   "Nombre": "SANTIAGO PEREIRA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "64637",
+   "Nombre": "THIAGO ANDRES SOUTO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "64640",
+   "Nombre": "FACUNDO VAZQUEZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "66783",
+   "Nombre": "JUAN MANUEL RODRIGUEZ",
+   "camiseta": "18",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "66402",
+   "Jug_Sale": "ANTONY DANIEL CARDOZO",
+   "CarneEntra": "60227",
+   "Jug_Entra": "FRANCISCO LUCIO DUPONT",
+   "camiseta": "17",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64410",
+   "Jug_Sale": "JUAN ANTONIO QUINTAS",
+   "CarneEntra": "67434",
+   "Jug_Entra": "BRUNO ECHENIQUE",
+   "camiseta": "3",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "62329",
+   "Jug_Sale": "FACUNDO ABELENDA",
+   "CarneEntra": "64392",
+   "Jug_Entra": "MATIAS IVAÑEZ",
+   "camiseta": "16",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "62874",
+   "Jug_Sale": "JUAN MANUEL CARBONE",
+   "CarneEntra": "66402",
+   "Jug_Entra": "ANTONY DANIEL CARDOZO",
+   "camiseta": "7",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "66020",
+   "Jug_Sale": "FACUNDO DOMINGUEZ",
+   "CarneEntra": "62874",
+   "Jug_Entra": "JUAN MANUEL CARBONE",
+   "camiseta": "8",
+   "minutos": "90"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "64637",
+   "Jug_Sale": "THIAGO ANDRES SOUTO",
+   "CarneEntra": "65462",
+   "Jug_Entra": "VALENTINO MARTIN BONILLA",
+   "camiseta": "27",
+   "minutos": "76"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "66402",
+   "Nombre": "ANTONY DANIEL CARDOZO",
+   "minutos": "3",
+   "EnContra": "0"
+  },
+  {
+   "carne": "66402",
+   "Nombre": "ANTONY DANIEL CARDOZO",
+   "minutos": "24",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "66783",
+   "Nombre": "JUAN MANUEL RODRIGUEZ",
+   "minutos": "63",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

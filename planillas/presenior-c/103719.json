@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"C\" TIT. y ASC.",
   "Cancha": "LOS TEROS",
-  "Fecha_Inicio": "2026-11-07 10:30:00",
-  "Fecha_fin": "2026-11-07 10:30:00",
+  "Fecha_Inicio": "2026-11-07 11:00:00",
+  "Fecha_fin": "2026-11-07 11:00:00",
   "Locatario": "EL CHORRO FUTBOL CLUB",
   "goles_locatario": "2",
   "puntos_locatario": "0",
@@ -29,12 +29,282 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "26931",
+   "Nombre": "FEDERICO ROVELLA",
+   "camiseta": "1",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "25837",
+   "Nombre": "VALENTIN MOSCONE",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "27948",
+   "Nombre": "FEDERICO BRUN",
+   "camiseta": "51",
+   "Capitan": ""
+  },
+  {
+   "carne": "31095",
+   "Nombre": "RODRIGO MIGUEL GOMEZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "29760",
+   "Nombre": "SANTIAGO QUEIROLO",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "33524",
+   "Nombre": "NICOLAS CHIANCONE",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "27940",
+   "Nombre": "JOAQUIN GARAYALDE",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "24512",
+   "Nombre": "ALVARO MARCELO BONILLA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "33095",
+   "Nombre": "MAURICIO BINNEWIES",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "30391",
+   "Nombre": "JUAN MIGUEL JAUME",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "59525",
+   "Nombre": "MARTIN IGNACIO MARIUS",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "29386",
+   "Nombre": "MAURICIO FABIAN COSTA",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "25658",
+   "Nombre": "FERNANDO POSADA",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "22467",
+   "Nombre": "GONZALO RODRIGUEZ",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "32969",
+   "Nombre": "FEDERICO NAVILIAT",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "29959",
+   "Nombre": "JUAN MANUEL MACHADO",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "28832",
+   "Nombre": "FEDERICO LARRIERA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "26306",
+   "Nombre": "JUAN ANDRES SITYA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "28054",
+   "Nombre": "PEDRO SITYA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "26174",
+   "Nombre": "GASTON FREIGEDO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "21560",
+   "Nombre": "SANTIAGO AMARO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "21510",
+   "Nombre": "GUSTAVO WELKER",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "24512",
+   "Jug_Sale": "ALVARO MARCELO BONILLA",
+   "CarneEntra": "24545",
+   "Jug_Entra": "GUZMAN NION",
+   "camiseta": "52",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "33524",
+   "Jug_Sale": "NICOLAS CHIANCONE",
+   "CarneEntra": "31253",
+   "Jug_Entra": "ADRIAN IGNACIO CAFFARELLI",
+   "camiseta": "23",
+   "minutos": "42"
+  },
+  {
+   "CarneSale": "31095",
+   "Jug_Sale": "RODRIGO MIGUEL GOMEZ",
+   "CarneEntra": "25395",
+   "Jug_Entra": "FEDERICO MATIAS BONILLA",
+   "camiseta": "20",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "59525",
+   "Jug_Sale": "MARTIN IGNACIO MARIUS",
+   "CarneEntra": "29666",
+   "Jug_Entra": "CARLOS AUGUSTO RYDSTROM",
+   "camiseta": "17",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "29760",
+   "Jug_Sale": "SANTIAGO QUEIROLO",
+   "CarneEntra": "31446",
+   "Jug_Entra": "NICOLAS ANANIA",
+   "camiseta": "54",
+   "minutos": "80"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "26306",
+   "Jug_Sale": "JUAN ANDRES SITYA",
+   "CarneEntra": "58424",
+   "Jug_Entra": "ALFONSO DARIO GIMENEZ",
+   "camiseta": "19",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "25658",
+   "Jug_Sale": "FERNANDO POSADA",
+   "CarneEntra": "21063",
+   "Jug_Entra": "MAURICIO MORSI",
+   "camiseta": "3",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "29959",
+   "Jug_Sale": "JUAN MANUEL MACHADO",
+   "CarneEntra": "45719",
+   "Jug_Entra": "CRISTIAN ANDRES GONZALEZ",
+   "camiseta": "13",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "26306",
+   "Jug_Sale": "JUAN ANDRES SITYA",
+   "CarneEntra": "18313",
+   "Jug_Entra": "PABLO CRISTIANI",
+   "camiseta": "15",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "26174",
+   "Jug_Sale": "GASTON FREIGEDO",
+   "CarneEntra": "41871",
+   "Jug_Entra": "DANILO RODRIGUEZ",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "21560",
+   "Jug_Sale": "SANTIAGO AMARO",
+   "CarneEntra": "49715",
+   "Jug_Entra": "ERNESTO AGUSTIN LUCAS",
+   "camiseta": "17",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "21510",
+   "Jug_Sale": "GUSTAVO WELKER",
+   "CarneEntra": "45717",
+   "Jug_Entra": "DIEGO MARTIN RIVERO",
+   "camiseta": "41",
+   "minutos": "78"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "24512",
+   "Nombre": "ALVARO MARCELO BONILLA",
+   "minutos": "7",
+   "EnContra": "0"
+  },
+  {
+   "carne": "59525",
+   "Nombre": "MARTIN IGNACIO MARIUS",
+   "minutos": "91",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "21510",
+   "Nombre": "GUSTAVO WELKER",
+   "minutos": "72",
+   "EnContra": "1"
+  },
+  {
+   "carne": "21560",
+   "Nombre": "SANTIAGO AMARO",
+   "minutos": "38",
+   "EnContra": "1"
+  },
+  {
+   "carne": "28054",
+   "Nombre": "PEDRO SITYA",
+   "minutos": "1",
+   "EnContra": "1"
+  },
+  {
+   "carne": "58424",
+   "Nombre": "ALFONSO DARIO GIMENEZ",
+   "minutos": "75",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

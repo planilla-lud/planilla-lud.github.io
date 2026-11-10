@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"A\" TITULO",
   "Cancha": "COMPLEJO INDEPENDIENTE UNIV.",
-  "Fecha_Inicio": "2026-11-07 10:30:00",
-  "Fecha_fin": "2026-11-07 10:30:00",
+  "Fecha_Inicio": "2026-11-07 10:55:00",
+  "Fecha_fin": "2026-11-07 10:55:00",
   "Locatario": "INDEPENDIENTE",
   "goles_locatario": "0",
   "puntos_locatario": "1",
@@ -29,10 +29,234 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "26091",
+   "Nombre": "JESUS MORALES",
+   "camiseta": "89",
+   "Capitan": ""
+  },
+  {
+   "carne": "26209",
+   "Nombre": "FEDERICO ISMAEL OLIVERA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "26963",
+   "Nombre": "MATIAS PEREZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "40122",
+   "Nombre": "HUGO FERNANDO DONATTO",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "40282",
+   "Nombre": "DIEGO FERNANDO VARINI",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "22901",
+   "Nombre": "JUAN IGNACIO LOZANO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "30261",
+   "Nombre": "JOAQUIN MURARA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "31037",
+   "Nombre": "JOHN CHRISTOPHER AYALA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "32123",
+   "Nombre": "AGUSTIN ANANIA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "24833",
+   "Nombre": "PABLO SASIAIN",
+   "camiseta": "20",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "24773",
+   "Nombre": "DIEGO KSIAZENICKI",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "36841",
+   "Nombre": "JUAN MANUEL RIVERO",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "35042",
+   "Nombre": "GUILLERMO SEBASTIAN SUAREZ",
+   "camiseta": "3",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "49591",
+   "Nombre": "YONATAN GONZALEZ",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "63605",
+   "Nombre": "JAVIER ADRIAN GUERRA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "41163",
+   "Nombre": "JUAN IGNACIO GOMEZ",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "24222",
+   "Nombre": "FEDERICO SALDIAS",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "52326",
+   "Nombre": "ALEXIS BAYON",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "21795",
+   "Nombre": "MAXIMILIANO PEREZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "57337",
+   "Nombre": "LEONARDO DAMIAN PANZARIELLO",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "66202",
+   "Nombre": "MAURICIO ANTONIO DE LOS SANTOS",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "38368",
+   "Nombre": "JUAN MANUEL BOGADO",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "40122",
+   "Jug_Sale": "HUGO FERNANDO DONATTO",
+   "CarneEntra": "27693",
+   "Jug_Entra": "JUAN GABRIEL BALSAMO",
+   "camiseta": "14",
+   "minutos": "49"
+  },
+  {
+   "CarneSale": "26091",
+   "Jug_Sale": "JESUS MORALES",
+   "CarneEntra": "31467",
+   "Jug_Entra": "RODRIGO HUGO OLIVERA",
+   "camiseta": "1",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "26963",
+   "Jug_Sale": "MATIAS PEREZ",
+   "CarneEntra": "29449",
+   "Jug_Entra": "JAVIER MAGNONE",
+   "camiseta": "13",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "24773",
+   "Jug_Sale": "DIEGO KSIAZENICKI",
+   "CarneEntra": "21386",
+   "Jug_Entra": "EMILIANO PEDRAGOSA",
+   "camiseta": "7",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "30261",
+   "Jug_Sale": "JOAQUIN MURARA",
+   "CarneEntra": "26525",
+   "Jug_Entra": "JOAQUIN ROSSI",
+   "camiseta": "18",
+   "minutos": "78"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "21795",
+   "Jug_Sale": "MAXIMILIANO PEREZ",
+   "CarneEntra": "23868",
+   "Jug_Entra": "GONZALO ANDRES GUTIERREZ",
+   "camiseta": "14",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "38368",
+   "Jug_Sale": "JUAN MANUEL BOGADO",
+   "CarneEntra": "31137",
+   "Jug_Entra": "PABLO DANIEL SCALONE",
+   "camiseta": "32",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "52326",
+   "Jug_Sale": "ALEXIS BAYON",
+   "CarneEntra": "42139",
+   "Jug_Entra": "RODRIGO DANIEL SIRIANI",
+   "camiseta": "30",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "66202",
+   "Jug_Sale": "MAURICIO ANTONIO DE LOS SANTOS",
+   "CarneEntra": "33442",
+   "Jug_Entra": "ANTONIO GABRIEL BERMUDEZ",
+   "camiseta": "51",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "41163",
+   "Jug_Sale": "JUAN IGNACIO GOMEZ",
+   "CarneEntra": "54316",
+   "Jug_Entra": "JUAN MANUEL SORIA",
+   "camiseta": "40",
+   "minutos": "81"
+  },
+  {
+   "CarneSale": "63605",
+   "Jug_Sale": "JAVIER ADRIAN GUERRA",
+   "CarneEntra": "32218",
+   "Jug_Entra": "IGNACIO DANIEL SIRIANI",
+   "camiseta": "27",
+   "minutos": "90"
+  }
+ ],
  "golesL": [],
  "golesV": [],
  "expulsadosL": [],

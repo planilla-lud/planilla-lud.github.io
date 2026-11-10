@@ -1,0 +1,294 @@
+{
+ "id": "103877",
+ "categoria": "presenior-e",
+ "serie": "PSET2",
+ "fecha": 6,
+ "fechaHora": "2026-11-07 09:00:00",
+ "cancha": "()",
+ "local": "OBC AZULGRANA",
+ "visitante": "LA CUEVA DEL LOBIZON",
+ "gl": 2,
+ "gv": 3,
+ "detalle": {
+  "nro_partido": "1023",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "PRE SENIOR",
+  "categoria": "PRE-SENIOR MASCULINO",
+  "rueda": "3",
+  "Divisional": "PS DIV. E 2ªR COPA ORO",
+  "Cancha": "()",
+  "Fecha_Inicio": "2026-11-07 11:00:00",
+  "Fecha_fin": "2026-11-07 11:00:00",
+  "Locatario": "OBC AZULGRANA",
+  "goles_locatario": "2",
+  "puntos_locatario": "0",
+  "Visitante": "LA CUEVA DEL LOBIZON",
+  "goles_visitante": "3",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "67090",
+   "Nombre": "MICHEL VOULMINOT",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "26195",
+   "Nombre": "NICOLAS DEL CAMPO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "26851",
+   "Nombre": "SANTIAGO STORACE",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "28124",
+   "Nombre": "MARTIN JULIO NOGUES",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "56579",
+   "Nombre": "SANTIAGO GORTARI",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "29199",
+   "Nombre": "SANTIAGO RAUL MOLINARO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "30817",
+   "Nombre": "GUZMAN PERERA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "27175",
+   "Nombre": "FEDERICO SALHON",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "26564",
+   "Nombre": "DIEGO ABREU",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "23712",
+   "Nombre": "DANIEL MATIAS GARAT",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "23969",
+   "Nombre": "ALFREDO OSCAR CAT",
+   "camiseta": "20",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "42159",
+   "Nombre": "SIGFRIDO VETTORAZZI",
+   "camiseta": "1",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "49909",
+   "Nombre": "PABLO MAYOBRE",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "62180",
+   "Nombre": "AGUSTIN LAVENTURE",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "33725",
+   "Nombre": "JUAN OHOLEGUY",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "37332",
+   "Nombre": "FEDERICO ISPER",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "24199",
+   "Nombre": "CARLOS EDUARDO KEOSSEIAN",
+   "camiseta": "55",
+   "Capitan": ""
+  },
+  {
+   "carne": "30916",
+   "Nombre": "MATIAS LA CAVA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "38201",
+   "Nombre": "NICOLAS RODRIGUEZ",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "31219",
+   "Nombre": "MARCIO ADRIAN SERRA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "35129",
+   "Nombre": "PABLO FARIAS",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "28805",
+   "Nombre": "FEDERICO ROSSO",
+   "camiseta": "14",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "30817",
+   "Jug_Sale": "GUZMAN PERERA",
+   "CarneEntra": "28441",
+   "Jug_Entra": "ALFONSO HEBER",
+   "camiseta": "4",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "23712",
+   "Jug_Sale": "DANIEL MATIAS GARAT",
+   "CarneEntra": "48486",
+   "Jug_Entra": "SANTIAGO MARIA FILIPPELLI",
+   "camiseta": "9",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "26564",
+   "Jug_Sale": "DIEGO ABREU",
+   "CarneEntra": "42094",
+   "Jug_Entra": "MATIAS SANTIAGO BORDABERRY",
+   "camiseta": "3",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "28124",
+   "Jug_Sale": "MARTIN JULIO NOGUES",
+   "CarneEntra": "24951",
+   "Jug_Entra": "ALBERTO ARIEL RODRIGUEZ",
+   "camiseta": "16",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "26851",
+   "Jug_Sale": "SANTIAGO STORACE",
+   "CarneEntra": "64997",
+   "Jug_Entra": "LUCAS PUIG",
+   "camiseta": "25",
+   "minutos": "73"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "38201",
+   "Jug_Sale": "NICOLAS RODRIGUEZ",
+   "CarneEntra": "60806",
+   "Jug_Entra": "RODRIGO DAMIAN KAHRS",
+   "camiseta": "7",
+   "minutos": "46"
+  },
+  {
+   "CarneSale": "37332",
+   "Jug_Sale": "FEDERICO ISPER",
+   "CarneEntra": "32032",
+   "Jug_Entra": "SANTIAGO BORGIA",
+   "camiseta": "31",
+   "minutos": "69"
+  },
+  {
+   "CarneSale": "33725",
+   "Jug_Sale": "JUAN OHOLEGUY",
+   "CarneEntra": "36207",
+   "Jug_Entra": "AGUSTIN CLEFFI",
+   "camiseta": "3",
+   "minutos": "83"
+  },
+  {
+   "CarneSale": "32032",
+   "Jug_Sale": "SANTIAGO BORGIA",
+   "CarneEntra": "32033",
+   "Jug_Entra": "ENRIQUE MARTINEZ",
+   "camiseta": "15",
+   "minutos": "96"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "42094",
+   "Nombre": "MATIAS SANTIAGO BORDABERRY",
+   "minutos": "59",
+   "EnContra": "0"
+  },
+  {
+   "carne": "64997",
+   "Nombre": "LUCAS PUIG",
+   "minutos": "76",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "28805",
+   "Nombre": "FEDERICO ROSSO",
+   "minutos": "75",
+   "EnContra": "1"
+  },
+  {
+   "carne": "28805",
+   "Nombre": "FEDERICO ROSSO",
+   "minutos": "92",
+   "EnContra": "1"
+  },
+  {
+   "carne": "35129",
+   "Nombre": "PABLO FARIAS",
+   "minutos": "41",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "SANTIAGO GORTARI",
+   "observaciones": ""
+  },
+  {
+   "Nombre": "ALFREDO OSCAR CAT",
+   "observaciones": ""
+  }
+ ],
+ "expulsadosV": [
+  {
+   "Nombre": "JUAN OHOLEGUY",
+   "observaciones": ""
+  }
+ ]
+}

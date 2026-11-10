@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"A\" TITULO",
   "Cancha": "COM. DEP. CLUB TROUVILLE",
-  "Fecha_Inicio": "2026-11-08 10:30:00",
-  "Fecha_fin": "2026-11-08 10:30:00",
+  "Fecha_Inicio": "2026-11-08 11:01:00",
+  "Fecha_fin": "2026-11-08 11:01:00",
   "Locatario": "NACIONAL UNIVERSITARIO",
   "goles_locatario": "2",
   "puntos_locatario": "3",
@@ -29,11 +29,232 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "48534",
+   "Nombre": "LEANDRO LOBELCHO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "28307",
+   "Nombre": "ALEJANDRO DA CUNHA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "40727",
+   "Nombre": "RODRIGO YAMANDU TISCORNIA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "42913",
+   "Nombre": "MARTIN MASLLORENS",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "46942",
+   "Nombre": "IGNACIO REGUEIRO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "54680",
+   "Nombre": "GUILLERMO GUERRICO",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "33218",
+   "Nombre": "FACUNDO MARQUES",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "52667",
+   "Nombre": "ENZO GALEANO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "35011",
+   "Nombre": "FEDERICO MANUEL ALFARO",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "62452",
+   "Nombre": "FRANCISCO ARRUA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "56666",
+   "Nombre": "FACUNDO JAVIER GODOY",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "39321",
+   "Nombre": "JUAN ESTEBAN LUKETICH",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "35841",
+   "Nombre": "ADOLFO SAEZ",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "48958",
+   "Nombre": "MARCOS TUZMAN",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "43243",
+   "Nombre": "LUIS OMAR CASTAGNINO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "56768",
+   "Nombre": "MATIAS DUPUY",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "45408",
+   "Nombre": "IGNACIO CANEPA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "27123",
+   "Nombre": "AGUSTIN GABUS",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "47497",
+   "Nombre": "FEDERICO TUZMAN",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "59826",
+   "Nombre": "ALFONSO BADANO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "40561",
+   "Nombre": "AGUSTIN ETCHEGARAY",
+   "camiseta": "9",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "41113",
+   "Nombre": "FACUNDO CANEPA",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "33218",
+   "Jug_Sale": "FACUNDO MARQUES",
+   "CarneEntra": "58507",
+   "Jug_Entra": "VALENTINO MUYANO",
+   "camiseta": "20",
+   "minutos": "37"
+  },
+  {
+   "CarneSale": "52667",
+   "Jug_Sale": "ENZO GALEANO",
+   "CarneEntra": "50717",
+   "Jug_Entra": "SANTIAGO VEIGA",
+   "camiseta": "80",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "35011",
+   "Jug_Sale": "FEDERICO MANUEL ALFARO",
+   "CarneEntra": "56667",
+   "Jug_Entra": "JUAN DIEGO GODOY",
+   "camiseta": "23",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "54680",
+   "Jug_Sale": "GUILLERMO GUERRICO",
+   "CarneEntra": "56963",
+   "Jug_Entra": "LUCAS BERTIN",
+   "camiseta": "22",
+   "minutos": "89"
+  },
+  {
+   "CarneSale": "58507",
+   "Jug_Sale": "VALENTINO MUYANO",
+   "CarneEntra": "50718",
+   "Jug_Entra": "MATEO JOSE QUINTELA",
+   "camiseta": "21",
+   "minutos": "95"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "43243",
+   "Jug_Sale": "LUIS OMAR CASTAGNINO",
+   "CarneEntra": "38540",
+   "Jug_Entra": "JOAQUIN SAEZ",
+   "camiseta": "20",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "45408",
+   "Jug_Sale": "IGNACIO CANEPA",
+   "CarneEntra": "55273",
+   "Jug_Entra": "JUAN SARACCO",
+   "camiseta": "2",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "56768",
+   "Jug_Sale": "MATIAS DUPUY",
+   "CarneEntra": "49456",
+   "Jug_Entra": "IGNACIO ANTONIO CARNEIRO",
+   "camiseta": "10",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "59826",
+   "Jug_Sale": "ALFONSO BADANO",
+   "CarneEntra": "36849",
+   "Jug_Entra": "LUCAS RICARDO VITOLA",
+   "camiseta": "3",
+   "minutos": "77"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "46942",
+   "Nombre": "IGNACIO REGUEIRO",
+   "minutos": "23",
+   "EnContra": "0"
+  },
+  {
+   "carne": "56667",
+   "Nombre": "JUAN DIEGO GODOY",
+   "minutos": "92",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-10T04:39:20.934Z",
+ "actualizado": "2026-11-10T18:41:56.329Z",
  "partidos": [
   {
    "div": "reserva-a",
@@ -32,7 +32,7 @@
    "n": 8,
    "base": 0,
    "tipo": "titulo",
-   "altasL": 1,
+   "altasL": 0,
    "altasV": 1
   },
   {
@@ -67,7 +67,7 @@
    "base": 8,
    "tipo": "descenso",
    "altasL": 0,
-   "altasV": 2
+   "altasV": 3
   },
   {
    "div": "mas40-b",
@@ -83,7 +83,7 @@
    "n": 8,
    "base": 0,
    "tipo": "titulo",
-   "altasL": 0,
+   "altasL": 1,
    "altasV": 2
   },
   {
@@ -152,7 +152,7 @@
    "base": 0,
    "tipo": "titulo",
    "altasL": 1,
-   "altasV": 0
+   "altasV": 2
   },
   {
    "div": "reserva-d",
@@ -189,23 +189,6 @@
    "altasV": 1
   },
   {
-   "div": "presenior-d",
-   "divNombre": "Pre Senior D",
-   "k": "Trouville Universitario~Jean Piaget",
-   "l": "Trouville Universitario",
-   "v": "Jean Piaget",
-   "dia": "2026-11-14",
-   "hora": "09:00",
-   "etapa": "Permanencia",
-   "pl": 8,
-   "pv": 5,
-   "n": 8,
-   "base": 8,
-   "tipo": "descenso",
-   "altasL": 0,
-   "altasV": 0
-  },
-  {
    "div": "presenior-e",
    "divNombre": "Pre Senior E",
    "k": "Wanderers~La Cueva Del Lobizon",
@@ -219,8 +202,8 @@
    "n": 7,
    "base": 0,
    "tipo": "titulo",
-   "altasL": 1,
-   "altasV": 1
+   "altasL": 3,
+   "altasV": 2
   },
   {
    "div": "sub16-oro",
@@ -253,7 +236,7 @@
    "n": 8,
    "base": 0,
    "tipo": "titulo",
-   "altasL": 1,
+   "altasL": 0,
    "altasV": 0
   }
  ]

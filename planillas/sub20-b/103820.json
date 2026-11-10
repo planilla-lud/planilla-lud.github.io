@@ -4,7 +4,7 @@
  "serie": "20BTA",
  "fecha": 7,
  "fechaHora": "2026-11-07 14:00:00",
- "cancha": "CARRASCO POLO",
+ "cancha": "()",
  "local": "CARRASCO POLO CLUB",
  "visitante": "OLD IVY",
  "gl": 6,
@@ -17,9 +17,9 @@
   "categoria": "SUB 20 MASCULINO",
   "rueda": "2",
   "Divisional": "SUB20 \"B\" TITULO",
-  "Cancha": "CARRASCO POLO",
-  "Fecha_Inicio": "2026-11-07 15:30:00",
-  "Fecha_fin": "2026-11-07 15:30:00",
+  "Cancha": "()",
+  "Fecha_Inicio": "2026-11-07 16:00:00",
+  "Fecha_fin": "2026-11-07 16:00:00",
   "Locatario": "CARRASCO POLO CLUB",
   "goles_locatario": "6",
   "puntos_locatario": "3",
@@ -29,12 +29,294 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "68944",
+   "Nombre": "MANUEL EMILIANO RODRIGUEZ",
+   "camiseta": "70",
+   "Capitan": ""
+  },
+  {
+   "carne": "56795",
+   "Nombre": "JUAN BENJAMIN STIRLING",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "56790",
+   "Nombre": "JUAN BAUTISTA GUEDES",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "62037",
+   "Nombre": "JOAQUIN ROLDAN",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "62036",
+   "Nombre": "FRANCO COLMAN",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "55483",
+   "Nombre": "IGNACIO PAGES",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56802",
+   "Nombre": "SANTIAGO CARDELINO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "67160",
+   "Nombre": "AGUSTIN GARI",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "60513",
+   "Nombre": "GONZALO DE ALMEIDA",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "63595",
+   "Nombre": "TIAGO LAZO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "56798",
+   "Nombre": "TOMAS BENITEZ",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "57163",
+   "Nombre": "SANTIAGO FOLONIER",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "67380",
+   "Nombre": "JUAN PEDRO MENINI",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "57951",
+   "Nombre": "JUAN GUILLERMO MARTINEZ",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "60663",
+   "Nombre": "ALFONSO PORRAS",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "59182",
+   "Nombre": "MATEO DENIS",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "66623",
+   "Nombre": "IGNACIO CUMELLAS",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "59614",
+   "Nombre": "TOMAS HORJALES",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "55486",
+   "Nombre": "ISMAEL CASTRO",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "59609",
+   "Nombre": "FRANCISCO RUBIO",
+   "camiseta": "47",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "57162",
+   "Nombre": "PHILIP MC GREGOR",
+   "camiseta": "70",
+   "Capitan": ""
+  },
+  {
+   "carne": "66565",
+   "Nombre": "IGNACIO CETRANGOLO",
+   "camiseta": "0",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "56790",
+   "Jug_Sale": "JUAN BAUTISTA GUEDES",
+   "CarneEntra": "59058",
+   "Jug_Entra": "VALENTIN MANGINI",
+   "camiseta": "3",
+   "minutos": "27"
+  },
+  {
+   "CarneSale": "56802",
+   "Jug_Sale": "SANTIAGO CARDELINO",
+   "CarneEntra": "56786",
+   "Jug_Entra": "JUAN DIEGO CASTELLS",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "55483",
+   "Jug_Sale": "IGNACIO PAGES",
+   "CarneEntra": "60516",
+   "Jug_Entra": "ENZO BARIZO",
+   "camiseta": "80",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "62036",
+   "Jug_Sale": "FRANCO COLMAN",
+   "CarneEntra": "57347",
+   "Jug_Entra": "FACUNDO COSTA",
+   "camiseta": "7",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "63595",
+   "Jug_Sale": "TIAGO LAZO",
+   "CarneEntra": "65253",
+   "Jug_Entra": "MANUEL EDUARDO MENDEZ",
+   "camiseta": "28",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "56798",
+   "Jug_Sale": "TOMAS BENITEZ",
+   "CarneEntra": "65460",
+   "Jug_Entra": "JUAN SANTIAGO RADO",
+   "camiseta": "99",
+   "minutos": "67"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "66565",
+   "Jug_Sale": "IGNACIO CETRANGOLO",
+   "CarneEntra": "67379",
+   "Jug_Entra": "JUAN PEDRO LUQUE",
+   "camiseta": "25",
+   "minutos": "10"
+  },
+  {
+   "CarneSale": "57163",
+   "Jug_Sale": "SANTIAGO FOLONIER",
+   "CarneEntra": "57161",
+   "Jug_Entra": "JUAN FRANCISCO SONEIRA",
+   "camiseta": "17",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67379",
+   "Jug_Sale": "JUAN PEDRO LUQUE",
+   "CarneEntra": "64391",
+   "Jug_Entra": "JUAN BAUTISTA IRIARTE",
+   "camiseta": "18",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "59614",
+   "Jug_Sale": "TOMAS HORJALES",
+   "CarneEntra": "61114",
+   "Jug_Entra": "ALFONSO TOPOLANSKY",
+   "camiseta": "77",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "60663",
+   "Jug_Sale": "ALFONSO PORRAS",
+   "CarneEntra": "59614",
+   "Jug_Entra": "TOMAS HORJALES",
+   "camiseta": "8",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "57951",
+   "Jug_Sale": "JUAN GUILLERMO MARTINEZ",
+   "CarneEntra": "60663",
+   "Jug_Entra": "ALFONSO PORRAS",
+   "camiseta": "80",
+   "minutos": "78"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "56798",
+   "Nombre": "TOMAS BENITEZ",
+   "minutos": "30",
+   "EnContra": "0"
+  },
+  {
+   "carne": "62036",
+   "Nombre": "FRANCO COLMAN",
+   "minutos": "2",
+   "EnContra": "0"
+  },
+  {
+   "carne": "65253",
+   "Nombre": "MANUEL EDUARDO MENDEZ",
+   "minutos": "68",
+   "EnContra": "0"
+  },
+  {
+   "carne": "65253",
+   "Nombre": "MANUEL EDUARDO MENDEZ",
+   "minutos": "77",
+   "EnContra": "0"
+  },
+  {
+   "carne": "65253",
+   "Nombre": "MANUEL EDUARDO MENDEZ",
+   "minutos": "87",
+   "EnContra": "0"
+  },
+  {
+   "carne": "67160",
+   "Nombre": "AGUSTIN GARI",
+   "minutos": "65",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "64391",
+   "Nombre": "JUAN BAUTISTA IRIARTE",
+   "minutos": "74",
+   "EnContra": "1"
+  },
+  {
+   "carne": "67379",
+   "Nombre": "JUAN PEDRO LUQUE",
+   "minutos": "9",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

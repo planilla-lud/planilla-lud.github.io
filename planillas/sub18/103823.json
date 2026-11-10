@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB18 ORO",
   "Cancha": "CAMPO DEP. SAN JUAN BAUTISTA",
-  "Fecha_Inicio": "2026-11-08 17:00:00",
-  "Fecha_fin": "2026-11-08 17:00:00",
+  "Fecha_Inicio": "2026-11-08 17:05:00",
+  "Fecha_fin": "2026-11-08 17:05:00",
   "Locatario": "SAN JUAN BAUTISTA",
   "goles_locatario": "1",
   "puntos_locatario": "1",
@@ -29,12 +29,218 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "57785",
+   "Nombre": "JUAN CAPPELLINI",
+   "camiseta": "1",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "59257",
+   "Nombre": "MANUEL ARROYO",
+   "camiseta": "60",
+   "Capitan": ""
+  },
+  {
+   "carne": "57781",
+   "Nombre": "JUAN PEDRO LANARO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "62670",
+   "Nombre": "LORENZO MONTERO",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "64195",
+   "Nombre": "CAMILO CHIAPPARA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "61182",
+   "Nombre": "LUCAS CANOSA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "62570",
+   "Nombre": "JUAN BERNARDO HERNANDEZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "58908",
+   "Nombre": "MANUEL PONS",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "61694",
+   "Nombre": "SANTIAGO RIOS",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "57840",
+   "Nombre": "DIEGO BIDEGAIN",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "68684",
+   "Nombre": "IÑAKI IZUIBEJERES",
+   "camiseta": "25",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "57034",
+   "Nombre": "LUCA BURGHI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "60467",
+   "Nombre": "SIMON FABINI",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "57835",
+   "Nombre": "ALFONSO ZAMBRANO",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "58427",
+   "Nombre": "FACUNDO FIORE",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "63255",
+   "Nombre": "JOAQUIN YAGODA",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "56510",
+   "Nombre": "JULIO PATRICIO JAKOB",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "60472",
+   "Nombre": "SANCHO CONTI",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "65485",
+   "Nombre": "FRANCISCO CAYAFA",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "65624",
+   "Nombre": "LORENZO RODRIGUEZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "67762",
+   "Nombre": "JUAN MANUEL BERNAL",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "58479",
+   "Nombre": "TOMAS TELLERIA",
+   "camiseta": "26",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "57840",
+   "Jug_Sale": "DIEGO BIDEGAIN",
+   "CarneEntra": "64874",
+   "Jug_Entra": "BRUNO NEBRIL",
+   "camiseta": "19",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "62670",
+   "Jug_Sale": "LORENZO MONTERO",
+   "CarneEntra": "62898",
+   "Jug_Entra": "IGNACIO MELENDRE",
+   "camiseta": "4",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "58908",
+   "Jug_Sale": "MANUEL PONS",
+   "CarneEntra": "64436",
+   "Jug_Entra": "FACUNDO FUENTES",
+   "camiseta": "17",
+   "minutos": "85"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "67762",
+   "Jug_Sale": "JUAN MANUEL BERNAL",
+   "CarneEntra": "57838",
+   "Jug_Entra": "SANTINO DANTONIO",
+   "camiseta": "6",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "65624",
+   "Jug_Sale": "LORENZO RODRIGUEZ",
+   "CarneEntra": "57834",
+   "Jug_Entra": "GIULIANO MARCOS AGGIO",
+   "camiseta": "8",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "60472",
+   "Jug_Sale": "SANCHO CONTI",
+   "CarneEntra": "60012",
+   "Jug_Entra": "RODRIGO JOSE CALDERON",
+   "camiseta": "90",
+   "minutos": "69"
+  },
+  {
+   "CarneSale": "58479",
+   "Jug_Sale": "TOMAS TELLERIA",
+   "CarneEntra": "62978",
+   "Jug_Entra": "LUCAS CAPLIVSCHI",
+   "camiseta": "29",
+   "minutos": "87"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "64874",
+   "Nombre": "BRUNO NEBRIL",
+   "minutos": "91",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "58479",
+   "Nombre": "TOMAS TELLERIA",
+   "minutos": "67",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

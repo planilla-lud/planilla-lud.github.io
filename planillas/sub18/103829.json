@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB18 ORO",
   "Cancha": "COMPLEJO AZULGRANA",
-  "Fecha_Inicio": "2026-11-08 17:00:00",
-  "Fecha_fin": "2026-11-08 17:00:00",
+  "Fecha_Inicio": "2026-11-08 17:30:00",
+  "Fecha_fin": "2026-11-08 17:30:00",
   "Locatario": "PELOTA AL MEDIO UNIVERSITARIO",
   "goles_locatario": "2",
   "puntos_locatario": "3",
@@ -29,11 +29,240 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "59105",
+   "Nombre": "GABRIEL ALFREDO GAMARRA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "61465",
+   "Nombre": "GERMAN PINTOS",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "67803",
+   "Nombre": "ALAN EZEQUIEL BURGOS",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "57682",
+   "Nombre": "FELIPE VALENTIN FAGUNDEZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "61475",
+   "Nombre": "ALAN VLADYMIR MEDIZA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "64802",
+   "Nombre": "DILAN GALIANO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "58732",
+   "Nombre": "YUNIOR YULIANY LAGOS",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "64511",
+   "Nombre": "MATEO NAHUEL MUNIZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "67800",
+   "Nombre": "WELLINGTON JONATHAN DE SOUZA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "67807",
+   "Nombre": "WASHINGTON NICOLAS ARIAS",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "61467",
+   "Nombre": "AMADEO LOPEZ",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "61315",
+   "Nombre": "IGNACIO CAETANO MACCHI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "67545",
+   "Nombre": "JOAQUIN TEO FUSTES",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "62908",
+   "Nombre": "MATHEUS JOSE DE MORAES",
+   "camiseta": "6",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "59055",
+   "Nombre": "JUAN PABLO MIGUEZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "66011",
+   "Nombre": "FRANCO MARTIN REY",
+   "camiseta": "90",
+   "Capitan": ""
+  },
+  {
+   "carne": "60829",
+   "Nombre": "SANTIAGO MORALES",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "62890",
+   "Nombre": "BAUTISTA ALBERTO SPENCER",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "59049",
+   "Nombre": "SANTIAGO CABRERA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "68593",
+   "Nombre": "FACUNDO DANIEL ESNAL",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "66431",
+   "Nombre": "IGNACIO CAILLABET",
+   "camiseta": "71",
+   "Capitan": ""
+  },
+  {
+   "carne": "62933",
+   "Nombre": "JUAN DIEGO ACOSTA",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "59105",
+   "Jug_Sale": "GABRIEL ALFREDO GAMARRA",
+   "CarneEntra": "67802",
+   "Jug_Entra": "JUAN IGNACIO CARDOZO",
+   "camiseta": "12",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61467",
+   "Jug_Sale": "AMADEO LOPEZ",
+   "CarneEntra": "64513",
+   "Jug_Entra": "THIAGO MARTIN RAMIREZ",
+   "camiseta": "19",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "61475",
+   "Jug_Sale": "ALAN VLADYMIR MEDIZA",
+   "CarneEntra": "61466",
+   "Jug_Entra": "SANTIAGO JOAQUIN RODRIGUEZ",
+   "camiseta": "6",
+   "minutos": "88"
+  },
+  {
+   "CarneSale": "64511",
+   "Jug_Sale": "MATEO NAHUEL MUNIZ",
+   "CarneEntra": "64503",
+   "Jug_Entra": "SANTIAGO NICOLAS ALCANTARA",
+   "camiseta": "33",
+   "minutos": "90"
+  },
+  {
+   "CarneSale": "64802",
+   "Jug_Sale": "DILAN GALIANO",
+   "CarneEntra": "61469",
+   "Jug_Entra": "MATHIAS NAHUEL DA SILVEIRA",
+   "camiseta": "18",
+   "minutos": "90"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "59049",
+   "Jug_Sale": "SANTIAGO CABRERA",
+   "CarneEntra": "68860",
+   "Jug_Entra": "IGNACIO DUARTE",
+   "camiseta": "19",
+   "minutos": "15"
+  },
+  {
+   "CarneSale": "62890",
+   "Jug_Sale": "BAUTISTA ALBERTO SPENCER",
+   "CarneEntra": "68381",
+   "Jug_Entra": "FRANCO VALENTIN LIMA",
+   "camiseta": "77",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "59055",
+   "Jug_Sale": "JUAN PABLO MIGUEZ",
+   "CarneEntra": "58923",
+   "Jug_Entra": "MATEO CORREA",
+   "camiseta": "16",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "66431",
+   "Jug_Sale": "IGNACIO CAILLABET",
+   "CarneEntra": "68722",
+   "Jug_Entra": "FABRICIO MANUEL RABELA",
+   "camiseta": "79",
+   "minutos": "91"
+  },
+  {
+   "CarneSale": "60829",
+   "Jug_Sale": "SANTIAGO MORALES",
+   "CarneEntra": "62890",
+   "Jug_Entra": "BAUTISTA ALBERTO SPENCER",
+   "camiseta": "5",
+   "minutos": "91"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "67800",
+   "Nombre": "WELLINGTON JONATHAN DE SOUZA",
+   "minutos": "85",
+   "EnContra": "0"
+  },
+  {
+   "carne": "67803",
+   "Nombre": "ALAN EZEQUIEL BURGOS",
+   "minutos": "39",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

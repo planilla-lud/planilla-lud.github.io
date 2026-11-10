@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"D\" COPA DE PLATA",
   "Cancha": "COM. DEP. CLUB TROUVILLE",
-  "Fecha_Inicio": "2026-11-07 12:45:00",
-  "Fecha_fin": "2026-11-07 12:45:00",
+  "Fecha_Inicio": "2026-11-07 13:30:00",
+  "Fecha_fin": "2026-11-07 13:30:00",
   "Locatario": "TROUVILLE UNIVERSITARIO",
   "goles_locatario": "2",
   "puntos_locatario": "3",
@@ -29,11 +29,264 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "50871",
+   "Nombre": "FEDERICO BRUGNOLI",
+   "camiseta": "1",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "48893",
+   "Nombre": "EMILIANO TELLECHEA",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "54905",
+   "Nombre": "SANTIAGO LIMA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "57068",
+   "Nombre": "JUAN IGNACIO RODRIGUEZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "54111",
+   "Nombre": "FACUNDO ALVAREZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "50596",
+   "Nombre": "SANTIAGO VINAGRE",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "58541",
+   "Nombre": "RODRIGO SEBABSTIAN CABRERA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "54908",
+   "Nombre": "JOAQUIN BROMBAUER",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "55179",
+   "Nombre": "SANTIAGO COUTO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "61834",
+   "Nombre": "MATHIAS ALEXANDER RAMIREZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "53294",
+   "Nombre": "AGUSTIN SANTIÑAQUE",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "65853",
+   "Nombre": "JUAN PEREIRA",
+   "camiseta": "1",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "49636",
+   "Nombre": "AGUSTIN ALGORTA",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "53171",
+   "Nombre": "FRANCISCO ACUÑA",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "64740",
+   "Nombre": "EMILIANO VANZINI",
+   "camiseta": "69",
+   "Capitan": ""
+  },
+  {
+   "carne": "52402",
+   "Nombre": "PEDRO SCHELOTTO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "53267",
+   "Nombre": "MAXIMO TORNONI",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "66610",
+   "Nombre": "FRANCO MAISSONAVE",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "54722",
+   "Nombre": "LUCAS SCAFARELLI",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "53386",
+   "Nombre": "AGUSTIN CALVO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "53378",
+   "Nombre": "NICOLAS SILVA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "56911",
+   "Nombre": "JUAN IGNACIO BACHINI",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "61834",
+   "Jug_Sale": "MATHIAS ALEXANDER RAMIREZ",
+   "CarneEntra": "55296",
+   "Jug_Entra": "MATEO VAZQUEZ",
+   "camiseta": "9",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "54905",
+   "Jug_Sale": "SANTIAGO LIMA",
+   "CarneEntra": "66628",
+   "Jug_Entra": "GERMAN BENTOS",
+   "camiseta": "4",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "54908",
+   "Jug_Sale": "JOAQUIN BROMBAUER",
+   "CarneEntra": "50343",
+   "Jug_Entra": "TOMAS PEREZ",
+   "camiseta": "7",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "53294",
+   "Jug_Sale": "AGUSTIN SANTIÑAQUE",
+   "CarneEntra": "62218",
+   "Jug_Entra": "BAUTISTA COLLAZO",
+   "camiseta": "19",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "58541",
+   "Jug_Sale": "RODRIGO SEBABSTIAN CABRERA",
+   "CarneEntra": "54908",
+   "Jug_Entra": "JOAQUIN BROMBAUER",
+   "camiseta": "20",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "55179",
+   "Jug_Sale": "SANTIAGO COUTO",
+   "CarneEntra": "61834",
+   "Jug_Entra": "MATHIAS ALEXANDER RAMIREZ",
+   "camiseta": "10",
+   "minutos": "88"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "53267",
+   "Jug_Sale": "MAXIMO TORNONI",
+   "CarneEntra": "66778",
+   "Jug_Entra": "SANTIAGO MACEDO",
+   "camiseta": "50",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "56911",
+   "Jug_Sale": "JUAN IGNACIO BACHINI",
+   "CarneEntra": "54757",
+   "Jug_Entra": "LUIS IGNACIO MATTERA",
+   "camiseta": "9",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "53386",
+   "Jug_Sale": "AGUSTIN CALVO",
+   "CarneEntra": "59555",
+   "Jug_Entra": "JUAN MANUEL BIA",
+   "camiseta": "2",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "64740",
+   "Jug_Sale": "EMILIANO VANZINI",
+   "CarneEntra": "49279",
+   "Jug_Entra": "MATEO PATRONE",
+   "camiseta": "41",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "52402",
+   "Jug_Sale": "PEDRO SCHELOTTO",
+   "CarneEntra": "57343",
+   "Jug_Entra": "FEDERICO PELUFFO",
+   "camiseta": "25",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "49636",
+   "Jug_Sale": "AGUSTIN ALGORTA",
+   "CarneEntra": "68844",
+   "Jug_Entra": "IGNACIO BLAISTEN",
+   "camiseta": "24",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "53171",
+   "Jug_Sale": "FRANCISCO ACUÑA",
+   "CarneEntra": "56611",
+   "Jug_Entra": "SEBASTIAN SAR",
+   "camiseta": "99",
+   "minutos": "75"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "53294",
+   "Nombre": "AGUSTIN SANTIÑAQUE",
+   "minutos": "27",
+   "EnContra": "0"
+  },
+  {
+   "carne": "55179",
+   "Nombre": "SANTIAGO COUTO",
+   "minutos": "60",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

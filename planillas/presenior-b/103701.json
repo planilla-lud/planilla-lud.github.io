@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"B\" TIT. y ASC",
   "Cancha": "ELF (LICEO FRANCES)",
-  "Fecha_Inicio": "2026-11-06 22:00:00",
-  "Fecha_fin": "2026-11-06 22:00:00",
+  "Fecha_Inicio": "2026-11-06 22:30:00",
+  "Fecha_fin": "2026-11-06 22:30:00",
   "Locatario": "E.L.F.",
   "goles_locatario": "1",
   "puntos_locatario": "3",
@@ -29,11 +29,258 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "62001",
+   "Nombre": "ANTONIO SANTIAGO PEREYRA",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "24317",
+   "Nombre": "DIEGO IGNACIO PUPPO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "23793",
+   "Nombre": "IGNACIO ILDEFONSO PEREZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "27935",
+   "Nombre": "NICOLAS MARTIN PARDO",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "26340",
+   "Nombre": "AGUSTIN CAÑADAS",
+   "camiseta": "6",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "50274",
+   "Nombre": "SANTIAGO ESPAÑA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "22081",
+   "Nombre": "GUILLERMO GROSS",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "66157",
+   "Nombre": "FABIAN GASTON BLANCO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "28383",
+   "Nombre": "AGUSTIN JOSE SARNO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "34958",
+   "Nombre": "FEDERICO CAMPOS",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "26925",
+   "Nombre": "SANTIAGO GASTON SILVA",
+   "camiseta": "23",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "55276",
+   "Nombre": "MATTIA GIACOMETTI",
+   "camiseta": "12",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "27121",
+   "Nombre": "JUAN JOSE CASTRO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "26579",
+   "Nombre": "JUAN PABLO DELOR",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "32286",
+   "Nombre": "GONZALO VICTOR VEGA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "37709",
+   "Nombre": "GONZALO GUBITOSI",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "27534",
+   "Nombre": "SANTIAGO MORO",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "24864",
+   "Nombre": "FACUNDO ALVAREZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "27261",
+   "Nombre": "DIEGO MATIAS RODRIGUEZ",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "38848",
+   "Nombre": "FEDERICO FERRO",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "42933",
+   "Nombre": "RODRIGO GONZALO SICA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "31624",
+   "Nombre": "JUAN MANUEL VIQUE",
+   "camiseta": "26",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "50274",
+   "Jug_Sale": "SANTIAGO ESPAÑA",
+   "CarneEntra": "63904",
+   "Jug_Entra": "FACUNDO MAURICIO ESTEVEZ",
+   "camiseta": "22",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "26925",
+   "Jug_Sale": "SANTIAGO GASTON SILVA",
+   "CarneEntra": "26824",
+   "Jug_Entra": "MATHIAS PENSATORI",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "23793",
+   "Jug_Sale": "IGNACIO ILDEFONSO PEREZ",
+   "CarneEntra": "33595",
+   "Jug_Entra": "FACUNDO CALVI",
+   "camiseta": "18",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "28383",
+   "Jug_Sale": "AGUSTIN JOSE SARNO",
+   "CarneEntra": "26741",
+   "Jug_Entra": "FRANCO CROTTI",
+   "camiseta": "12",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "24317",
+   "Jug_Sale": "DIEGO IGNACIO PUPPO",
+   "CarneEntra": "49515",
+   "Jug_Entra": "JUAN MATHIAS FURTADO",
+   "camiseta": "2",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "22081",
+   "Jug_Sale": "GUILLERMO GROSS",
+   "CarneEntra": "25621",
+   "Jug_Entra": "FABRICE ALBERT DESMULLIER",
+   "camiseta": "16",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "33595",
+   "Jug_Sale": "FACUNDO CALVI",
+   "CarneEntra": "24317",
+   "Jug_Entra": "DIEGO IGNACIO PUPPO",
+   "camiseta": "7",
+   "minutos": "93"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "31624",
+   "Jug_Sale": "JUAN MANUEL VIQUE",
+   "CarneEntra": "27760",
+   "Jug_Entra": "MARTIN ERNESTO TRAMBAUER",
+   "camiseta": "17",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "38848",
+   "Jug_Sale": "FEDERICO FERRO",
+   "CarneEntra": "39051",
+   "Jug_Entra": "CARLOS GANDULIA",
+   "camiseta": "25",
+   "minutos": "69"
+  },
+  {
+   "CarneSale": "27261",
+   "Jug_Sale": "DIEGO MATIAS RODRIGUEZ",
+   "CarneEntra": "31624",
+   "Jug_Entra": "JUAN MANUEL VIQUE",
+   "camiseta": "26",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "27121",
+   "Jug_Sale": "JUAN JOSE CASTRO",
+   "CarneEntra": "33275",
+   "Jug_Entra": "MATIAS ERNESTO RANIERI",
+   "camiseta": "38",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "27534",
+   "Jug_Sale": "SANTIAGO MORO",
+   "CarneEntra": "27993",
+   "Jug_Entra": "FEDERICO PIANO",
+   "camiseta": "40",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "38848",
+   "Jug_Sale": "FEDERICO FERRO",
+   "CarneEntra": "41242",
+   "Jug_Entra": "JUAN PABLO PEREZ",
+   "camiseta": "60",
+   "minutos": "45"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "26824",
+   "Nombre": "MATHIAS PENSATORI",
+   "minutos": "72",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

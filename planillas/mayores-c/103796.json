@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"C\" PERM. y DESC.",
   "Cancha": "COM. CLUB UNIVERSIDAD CATOLICA",
-  "Fecha_Inicio": "2026-11-08 12:45:00",
-  "Fecha_fin": "2026-11-08 12:45:00",
+  "Fecha_Inicio": "2026-11-08 13:15:00",
+  "Fecha_fin": "2026-11-08 13:15:00",
   "Locatario": "SAN PABLO UNIVERSITARIO",
   "goles_locatario": "3",
   "puntos_locatario": "0",
@@ -29,12 +29,299 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "titularesL": [
+  {
+   "carne": "45571",
+   "Nombre": "JOSE MARIA NUÐEZ",
+   "camiseta": "39",
+   "Capitan": ""
+  },
+  {
+   "carne": "40852",
+   "Nombre": "JUAN IGNACIO BARREIRO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "51780",
+   "Nombre": "JOSE PEDRO TERRA",
+   "camiseta": "90",
+   "Capitan": ""
+  },
+  {
+   "carne": "56704",
+   "Nombre": "FRANCO RODRIGUEZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "47377",
+   "Nombre": "MARCOS CAPRILE",
+   "camiseta": "8",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "50763",
+   "Nombre": "IGNACIO MORENO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "51332",
+   "Nombre": "RENZO ROVEGNO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "45170",
+   "Nombre": "DANILO CHAVES",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "49707",
+   "Nombre": "FACUNDO DIAZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "37686",
+   "Nombre": "MARTIN ROMANIELLO",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "47151",
+   "Nombre": "THIAGO QUINTAS",
+   "camiseta": "64",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "48791",
+   "Nombre": "JOAQUIN ALFREDO ALVES",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "52536",
+   "Nombre": "ROBERT FEDERICO AGUIAR",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "43841",
+   "Nombre": "FACUNDO SEQUEIRA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "58643",
+   "Nombre": "MATEO ESPIGA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "68519",
+   "Nombre": "FELIPE MACHADO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "59558",
+   "Nombre": "ENZO AGUSTIN BARTOLIC",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "53302",
+   "Nombre": "FEDERICO MONTGOMERY",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "46916",
+   "Nombre": "MATIAS BERNI",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "64076",
+   "Nombre": "AGUSTIN GRACIA",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "52220",
+   "Nombre": "GABRIEL OLIVERA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "42751",
+   "Nombre": "MATIAS QUIROGA",
+   "camiseta": "24",
+   "Capitan": "(C)"
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "47151",
+   "Jug_Sale": "THIAGO QUINTAS",
+   "CarneEntra": "59329",
+   "Jug_Entra": "MATEO LAUTARO FERNANDEZ",
+   "camiseta": "19",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "37686",
+   "Jug_Sale": "MARTIN ROMANIELLO",
+   "CarneEntra": "56490",
+   "Jug_Entra": "PABLO ANDRES SCOFFONE",
+   "camiseta": "20",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "45170",
+   "Jug_Sale": "DANILO CHAVES",
+   "CarneEntra": "56493",
+   "Jug_Entra": "SEBASTIAN MANGANELLI",
+   "camiseta": "22",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "50763",
+   "Jug_Sale": "IGNACIO MORENO",
+   "CarneEntra": "36741",
+   "Jug_Entra": "RODRIGO LEONEL DE LA FUENTE",
+   "camiseta": "12",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "49707",
+   "Jug_Sale": "FACUNDO DIAZ",
+   "CarneEntra": "45170",
+   "Jug_Entra": "DANILO CHAVES",
+   "camiseta": "10",
+   "minutos": "80"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "52536",
+   "Jug_Sale": "ROBERT FEDERICO AGUIAR",
+   "CarneEntra": "66540",
+   "Jug_Entra": "GUILLERMO EMANUEL SILVERA",
+   "camiseta": "6",
+   "minutos": "21"
+  },
+  {
+   "CarneSale": "64076",
+   "Jug_Sale": "AGUSTIN GRACIA",
+   "CarneEntra": "41010",
+   "Jug_Entra": "DAMIAN PEREZ",
+   "camiseta": "16",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58643",
+   "Jug_Sale": "MATEO ESPIGA",
+   "CarneEntra": "51914",
+   "Jug_Entra": "JOAQUIN GARCIA",
+   "camiseta": "25",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "59558",
+   "Jug_Sale": "ENZO AGUSTIN BARTOLIC",
+   "CarneEntra": "52391",
+   "Jug_Entra": "MATIAS PIÑEYRUA",
+   "camiseta": "9",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "46916",
+   "Jug_Sale": "MATIAS BERNI",
+   "CarneEntra": "50997",
+   "Jug_Entra": "MARTIN FERREIRA",
+   "camiseta": "14",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "68519",
+   "Jug_Sale": "FELIPE MACHADO",
+   "CarneEntra": "55921",
+   "Jug_Entra": "SEBASTIAN CAMPOS",
+   "camiseta": "20",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "52220",
+   "Jug_Sale": "GABRIEL OLIVERA",
+   "CarneEntra": "57707",
+   "Jug_Entra": "JUAN MATEO NIEVAS",
+   "camiseta": "23",
+   "minutos": "95"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "47151",
+   "Nombre": "THIAGO QUINTAS",
+   "minutos": "22",
+   "EnContra": "0"
+  },
+  {
+   "carne": "49707",
+   "Nombre": "FACUNDO DIAZ",
+   "minutos": "51",
+   "EnContra": "0"
+  },
+  {
+   "carne": "49707",
+   "Nombre": "FACUNDO DIAZ",
+   "minutos": "68",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "42751",
+   "Nombre": "MATIAS QUIROGA",
+   "minutos": "25",
+   "EnContra": "1"
+  },
+  {
+   "carne": "42751",
+   "Nombre": "MATIAS QUIROGA",
+   "minutos": "85",
+   "EnContra": "1"
+  },
+  {
+   "carne": "52220",
+   "Nombre": "GABRIEL OLIVERA",
+   "minutos": "90",
+   "EnContra": "1"
+  },
+  {
+   "carne": "52391",
+   "Nombre": "MATIAS PIÑEYRUA",
+   "minutos": "93",
+   "EnContra": "1"
+  },
+  {
+   "carne": "53302",
+   "Nombre": "FEDERICO MONTGOMERY",
+   "minutos": "54",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "FRANCO RODRIGUEZ",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }
