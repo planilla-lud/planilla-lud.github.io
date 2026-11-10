@@ -830,6 +830,38 @@ label.pm-lista{cursor:pointer}
 .pm-off{display:flex;flex-direction:column;align-items:center;gap:10px}
 .pm-off b{color:var(--fg);font-size:1.02rem}
 .pm-off span{max-width:460px}
+.pm-cancha{position:relative;width:100%;max-width:440px;margin:0 auto;aspect-ratio:68/96;border-radius:14px;overflow:hidden;background:repeating-linear-gradient(180deg,#2e8b4b 0 12.5%,#2a8046 12.5% 25%);container-type:inline-size}
+.pm-cancha svg{position:absolute;inset:0;width:100%;height:100%;fill:none;stroke:rgba(255,255,255,.55);stroke-width:.35}
+.pm-pos{position:absolute;transform:translate(-50%,-50%);display:flex;flex-direction:column;align-items:center;gap:3px;width:21%;padding:0;border:0;background:none;color:#fff;font:inherit;cursor:default}
+button.pm-pos{cursor:pointer}
+.pm-pos i{display:grid;place-items:center;width:40px;height:40px;border-radius:50%;background:#fff;color:#111;font-style:normal;font-weight:700;font-size:.7rem;box-shadow:0 2px 6px rgba(0,0,0,.35)}
+.pm-pos.vacio i{background:rgba(255,255,255,.14);color:#fff;border:2px dashed rgba(255,255,255,.75);box-shadow:none}
+.pm-pos.yo i{background:#ffd54a}
+.pm-pos span{max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:.74rem;font-weight:600;line-height:1.3;padding:1px 6px;border-radius:6px;background:rgba(0,0,0,.4)}
+.pm-pos.vacio span{background:none;opacity:.85}
+button.pm-pos:hover i,button.pm-pos:focus-visible i{outline:3px solid #ffd54a;outline-offset:1px}
+@container (max-width:340px){.pm-pos i{width:34px;height:34px;font-size:.64rem}.pm-pos span{font-size:.68rem;padding:1px 4px}}
+.pm-once-f{width:auto;min-width:96px}
+.pm-once-sup{flex-wrap:wrap}
+.pm-elegir{width:100%;background:none;border:0;border-top:1px solid var(--line);color:inherit;font:inherit;text-align:left;cursor:pointer}
+.pm-elegir:first-child{border-top:0}
+.pm-once-zona{display:flex;flex-direction:column;gap:14px}
+@media (min-width:900px){.pm-once-zona{display:grid;grid-template-columns:minmax(320px,440px) 1fr;gap:24px;align-items:start}.pm-once-c{position:sticky;top:16px}}
+.pm-once-zona [data-drag]{cursor:grab;-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
+.pm-once-zona .levantado{opacity:.4}
+.pm-pos.sobre i{outline:3px solid #ffd54a;outline-offset:2px;transform:scale(1.15)}
+.pm-pos i{transition:transform .12s}
+body.pm-arrastrando,body.pm-arrastrando *{cursor:grabbing!important;-webkit-user-select:none;user-select:none}
+.pm-fantasma{position:fixed;left:0;top:0;z-index:1000;pointer-events:none;padding:7px 14px;border-radius:999px;background:#111;color:#fff;font-weight:700;font-size:.82rem;white-space:nowrap;box-shadow:0 6px 18px rgba(0,0,0,.35)}
+.pm-once-res{font-variant-numeric:tabular-nums;padding:2px 8px;border-radius:6px;background:var(--surface-2)}
+.pm-once-res.g{background:var(--win);color:#fff}
+.pm-once-res.p{background:var(--loss);color:#fff}
+.pm-once-res.e{background:var(--draw);color:#fff}
+.pm-once-h{font-weight:600;background:var(--surface-2)}
+.pm-once-h:first-child{border-top:0}
+.pm-elegir:hover{background:var(--hover)}
+.pm-elegir.actual{background:var(--accent-soft)}
+.pm-elegir:disabled{opacity:.5;cursor:not-allowed}
 .pm-msg pre{margin:0;padding:12px 14px;font-family:var(--font);font-size:.92rem;white-space:pre-wrap;line-height:1.45;border-top:1px solid var(--line)}
 .pm-acc{padding:0 14px 14px;flex-wrap:wrap}
 .pm-wpp{padding:16px 14px;background:var(--surface-2);border-top:1px solid var(--line)}
@@ -1217,6 +1249,7 @@ body.pm-app #main:not(:has(> .pmx)):not(:has(> .pm-login)){max-width:980px;margi
   <div class="chat-msgs" id="chat-msgs" aria-live="polite"></div>
   <form class="chat-form" id="chat-form" autocomplete="off"><input id="chat-q" maxlength="400" placeholder="¿Quién falta en el ELF el domingo?" aria-label="Tu pregunta"><button type="submit" aria-label="Enviar"><svg class="i"><use href="#i-enviar"/></svg></button></form>
   <p class="chat-pie">Contesta con los datos de la página, con una IA gratis. Puede equivocarse.</p></dialog>
+<dialog class="sheet" id="sheet-once" aria-labelledby="so-t"><div class="sheet-h"><h2 id="so-t">Elegí al jugador</h2><button class="x" data-cerrar aria-label="Cerrar"><svg class="i"><use href="#i-x"/></svg></button></div><div class="sheet-b" id="so-b"></div></dialog>
 <dialog class="sheet" id="sheet-div" aria-labelledby="sd-t"><div class="sheet-h"><h2 id="sd-t">Divisional</h2><button class="x" data-cerrar aria-label="Cerrar"><svg class="i"><use href="#i-x"/></svg></button></div><div class="sheet-b" id="sd-b"></div></dialog>
 <dialog class="sheet" id="sheet-app" aria-labelledby="sa-t"><div class="sheet-h"><h2 id="sa-t">Instalar la app</h2><button class="x" data-cerrar aria-label="Cerrar"><svg class="i"><use href="#i-x"/></svg></button></div><div class="sheet-b" id="sa-b"></div></dialog>
 <dialog class="sheet" id="sheet-mas" aria-labelledby="sm-t"><div class="sheet-h"><h2 id="sm-t">Más</h2><button class="x" data-cerrar aria-label="Cerrar"><svg class="i"><use href="#i-x"/></svg></button></div><div class="sheet-b"><div class="menu" id="sm-b"></div><div class="contador" id="contador" hidden></div></div></dialog>
@@ -2437,7 +2470,7 @@ const SBR = window.supabase ? window.supabase.createClient(SB_URL, SB_KEY, { aut
 let REAL = { listo: false, user: null, miembro: null, estado: {}, claveClub: '' };
 const PM_SEP = '\u0001';
 const PM_D2 = ['marcas', 'lista', 'resp'];
-const PM_D1 = ['hor', 'susp', 'extras', 'principal', 'conv', 'cfgP', 'fichas', 'temporadas', 'planes', 'cfg'];
+const PM_D1 = ['hor', 'susp', 'extras', 'principal', 'conv', 'onces', 'cfgP', 'fichas', 'temporadas', 'planes', 'cfg'];
 const PM_ARR = { amistosos: 'id', videos: 'id', analisis: 'id', previas: 'id', usuarios: 'u' };
 let PM_LAST = new Map(), PM_TIMER = null, PM_CANAL = null, PM_REMOTO = null;
 const pmCorreo = u => u.includes('@') ? u : `${u.trim().toLowerCase()}@${PM_CLUB}.planillalud.test`;
@@ -2550,13 +2583,13 @@ const pmG = (k, v) => { PM_MEM[k] = v; guardar(k, v); };
 const pmLeerJ = (k, def) => { try { return JSON.parse(pmL(k)) ?? def; } catch { return def; } };
 function pmEst() {
   if (!PM_EST) {
-    PM_EST = { cfg: { ...PM_CFG0 }, hor: {}, susp: {}, extras: {}, marcas: {}, lista: {}, resp: {}, principal: {}, amistosos: [], videos: [], analisis: [], previas: [], temporadas: {}, planes: {}, conv: {}, ...JSON.parse(JSON.stringify(REAL.estado || {})), rol: 'dt', yo: null, ...pmVista() };
+    PM_EST = { cfg: { ...PM_CFG0 }, hor: {}, susp: {}, extras: {}, marcas: {}, lista: {}, resp: {}, principal: {}, amistosos: [], videos: [], analisis: [], previas: [], temporadas: {}, planes: {}, conv: {}, onces: {}, ...JSON.parse(JSON.stringify(REAL.estado || {})), rol: 'dt', yo: null, ...pmVista() };
     PM_EST.claveClub = REAL.claveClub || '';
     if (REAL.miembro?.rol === 'jug') { PM_EST.rol = 'jug'; PM_EST.yo = REAL.miembro.carne; }
     PM_EST.cfg = { ...PM_CFG0, ...PM_EST.cfg };
     // Si lo guardado tiene una forma rara, se arregla cada parte por separado.
     const obj = x => x && typeof x === 'object' && !Array.isArray(x), arr = Array.isArray;
-    for (const k of ['hor', 'susp', 'extras', 'marcas', 'lista', 'resp', 'principal', 'conv', 'cfgP', 'fichas', 'temporadas', 'planes']) if (!obj(PM_EST[k])) PM_EST[k] = {};
+    for (const k of ['hor', 'susp', 'extras', 'marcas', 'lista', 'resp', 'principal', 'conv', 'onces', 'cfgP', 'fichas', 'temporadas', 'planes']) if (!obj(PM_EST[k])) PM_EST[k] = {};
     for (const k of ['amistosos', 'videos', 'analisis', 'previas']) if (!arr(PM_EST[k])) PM_EST[k] = [];
     if (!arr(PM_EST.usuarios) || !PM_EST.usuarios.some(x => x?.rol === 'admin')) PM_EST.usuarios = JSON.parse(JSON.stringify(PM_USUARIOS0));
     PM_EST.usuarios = PM_EST.usuarios.filter(x => obj(x) && typeof x.u === 'string' && typeof x.nombre === 'string');
@@ -2732,7 +2765,7 @@ async function renderClubes(sub, rest = []) {
   }
   if (E.rol === 'jug') { main.innerHTML = pmxShell(S, E, '', '', pmVistaJugador(S)); pmxEnlazar(); window.scrollTo({ top: 0 }); return; }
   if (S.rol === 'dt' && !pmCV().length) { main.innerHTML = pmxShell(S, E, '', '', '<div class="empty">Todavía no tenés planteles asignados. Pedile al administrador del club que te asigne los tuyos.</div>'); pmxEnlazar(); return; }
-  const V = { hoy: pmHoyV, resumen: pmResumen, practicas: pmPracticasV, cruce: pmCruce, minutos: pmMinutos, convocatoria: pmConvocatoria, recordatorios: pmRecordatorios, videos: pmVideos, analisis: pmAnalisis, ajustes: pmAjustes, tecnicos: pmTecnicos }[tab];
+  const V = { hoy: pmHoyV, resumen: pmResumen, practicas: pmPracticasV, cruce: pmCruce, minutos: pmMinutos, convocatoria: pmConvocatoria, once: pmOnce, recordatorios: pmRecordatorios, videos: pmVideos, analisis: pmAnalisis, ajustes: pmAjustes, tecnicos: pmTecnicos }[tab];
   const titulo = { hoy: 'Hoy', resumen: 'Todo el club', analisis: 'Análisis', tecnicos: 'Técnicos', ajustes: 'Ajustes' }[tab] || '';
   main.innerHTML = pmxShell(S, E, tab, titulo, `<div class="stack pm-cuerpo">${V()}</div>`);
   main.querySelectorAll('.pm-tabsw, .pm-desl').forEach(pmDeslizar);
@@ -2865,7 +2898,7 @@ const PMX_IC = {
 };
 const pmxGrupos = S => [
   ['hoy', 'Hoy', [['hoy', 'Hoy']]],
-  ['plantel', 'Plantel', [['practicas', 'Prácticas'], ['cruce', 'Asistencia'], ['minutos', 'Minutos'], ['convocatoria', 'Convocatoria']]],
+  ['plantel', 'Plantel', [['practicas', 'Prácticas'], ['cruce', 'Asistencia'], ['minutos', 'Minutos'], ['convocatoria', 'Convocatoria'], ['once', 'Once']]],
   ['analisis', 'Análisis', [['analisis', 'Análisis']]],
   ['club', 'Club', [['resumen', 'Todo el club'], ...(S?.rol === 'admin' ? [['tecnicos', 'Técnicos']] : []), ['ajustes', 'Ajustes']]],
 ];
@@ -2917,7 +2950,7 @@ function pmHoyV() {
   const part = `<section class="pmx-card"><span class="pmx-et">Próximo partido</span>
     ${n ? `<div class="pmx-cab" style="align-items:center"><span class="pmx-big">vs ${esc(n.rival)}</span><span class="pmx-tag">${n.local ? 'Local' : 'Visitante'}</span></div>
       <span class="pmx-sub">${esc(fDia(n.dia))}${n.hora !== '00:00' ? ' · ' + esc(n.hora) : ''}${canchaOk(n.cancha) ? ' · ' + esc(n.cancha) : ''}</span>
-      <div class="pmx-btns" style="margin-top:auto"><a class="pmx-btn sec" href="#/clubes/ver/${link(e.div, 'previa', n.local ? `${e.equipo}~${n.rival}` : `${n.rival}~${e.equipo}`).slice(2)}">Informe del rival</a></div>`
+      <div class="pmx-btns" style="margin-top:auto"><a class="pmx-btn sec" href="#/clubes/ver/${link(e.div, 'previa', n.local ? `${e.equipo}~${n.rival}` : `${n.rival}~${e.equipo}`).slice(2)}">Informe del rival</a><a class="pmx-btn sec" href="#/clubes/once">${onceVacio(onceDe(onceClave(cat).key)) ? 'Armar el once' : 'Ver el once'}</a></div>`
       : `<span class="pmx-vacio">Todavía no está el próximo partido en las planillas.</span>`}</section>`;
   const av = [];
   for (const a of (e?.alertas || pmEV().find(x => x.div === cat)?.alertas || []).filter(a => a.nivel === 'alta')) av.push(`<a class="pmx-av" href="#/clubes/ver/${link(cat, 'jugador', a.carne || '').slice(2)}"><i class="alta"></i><span><b>${esc(a.nombre)}</b>: ${esc(a.texto)}</span></a>`);
@@ -3171,6 +3204,192 @@ function pmConvocatoria() {
       <div class="row pm-acc"><button type="button" class="share" data-pm="copiar" data-v="conv-txt">Copiar</button><a class="share" target="_blank" rel="noopener" href="https://wa.me/?text=${encodeURIComponent(txt)}">Mandar por WhatsApp</a></div></div>`;
 }
 
+// ----- Once inicial -----
+// El DT elige la formación y pone a cada jugador en su puesto de la cancha. Se guarda por partido
+// (onces["div|día"], o "plantel|sin-partido" si todavía no hay partido) con la formación, los 11 (un carné o
+// nada por puesto, en el orden de oncePuestos) y los suplentes. Solo lo ve el cuerpo técnico (admin y DT).
+const ONCE_F = {
+  '4-4-2': [['ARQ'], ['LI', 'ZAG', 'ZAG', 'LD'], ['VI', 'VOL', 'VOL', 'VD'], ['DEL', 'DEL']],
+  '4-3-3': [['ARQ'], ['LI', 'ZAG', 'ZAG', 'LD'], ['VOL', 'VC', 'VOL'], ['EI', 'DEL', 'ED']],
+  '4-2-3-1': [['ARQ'], ['LI', 'ZAG', 'ZAG', 'LD'], ['VC', 'VC'], ['EI', 'ENG', 'ED'], ['DEL']],
+  '4-1-4-1': [['ARQ'], ['LI', 'ZAG', 'ZAG', 'LD'], ['VC'], ['VI', 'VOL', 'VOL', 'VD'], ['DEL']],
+  '4-3-1-2': [['ARQ'], ['LI', 'ZAG', 'ZAG', 'LD'], ['VOL', 'VC', 'VOL'], ['ENG'], ['DEL', 'DEL']],
+  '3-5-2': [['ARQ'], ['ZAG', 'ZAG', 'ZAG'], ['CAI', 'VOL', 'VC', 'VOL', 'CAD'], ['DEL', 'DEL']],
+  '3-4-3': [['ARQ'], ['ZAG', 'ZAG', 'ZAG'], ['CAI', 'VOL', 'VOL', 'CAD'], ['EI', 'DEL', 'ED']],
+  '5-3-2': [['ARQ'], ['CAI', 'ZAG', 'ZAG', 'ZAG', 'CAD'], ['VOL', 'VC', 'VOL'], ['DEL', 'DEL']],
+};
+const ONCE_NOM = { ARQ: 'arquero', LI: 'lateral izquierdo', LD: 'lateral derecho', ZAG: 'zaguero', CAI: 'carrilero izquierdo', CAD: 'carrilero derecho',
+  VC: 'volante central', VOL: 'volante', VI: 'volante izquierdo', VD: 'volante derecho', ENG: 'enganche', EI: 'extremo izquierdo', ED: 'extremo derecho', DEL: 'delantero' };
+let ONCE_SEL = null; // el puesto (0 a 10) al que se le está eligiendo jugador
+const onceForm = f => Object.hasOwn(ONCE_F, f) ? f : '4-4-2';
+// Puesto, línea y lugar en la cancha (en %, el arco propio abajo) de cada uno de los 11.
+function oncePuestos(f) {
+  const F = ONCE_F[onceForm(f)], L = F.length - 1, out = [];
+  F.forEach((fila, k) => fila.forEach((p, i) => {
+    const n = fila.length, m = { 2: 30, 3: 19, 4: 12, 5: 10.5 }[n];
+    out.push({ p, k, x: n === 1 ? 50 : m + i * (100 - 2 * m) / (n - 1), y: k === 0 ? 90 : 72 - (k - 1) * (L > 1 ? 56 / (L - 1) : 0) });
+  }));
+  return out;
+}
+const onceNom = J => { const p = J.nombre.trim().split(/\s+/); return p.length > 1 ? `${p[0][0]}. ${p.at(-1)}` : p[0]; };
+function onceClave(cat) {
+  const e = pmEV().find(x => x.div === cat && x.proximo);
+  return { e, n: e?.proximo, key: e ? `${e.div}|${e.proximo.dia}` : `${cat}|sin-partido` };
+}
+function onceDe(key) {
+  const o = pmEst().onces[key], p = Array.isArray(o?.p) ? o.p : [];
+  return { ...(typeof o?.r === 'string' ? { r: o.r } : {}), f: onceForm(o?.f), p: Array.from({ length: 11 }, (_, i) => typeof p[i] === 'string' && pmJug(p[i]) ? p[i] : null),
+    s: Array.isArray(o?.s) ? o.s.filter(c => typeof c === 'string' && pmJug(c) && !p.includes(c)) : [] };
+}
+const onceVacio = o => !o.p.some(Boolean);
+// La cancha con los 11. Con edit, cada puesto es un botón para elegir al jugador.
+function onceCancha(o, edit, yo) {
+  const lineas = `<rect x="2" y="2" width="64" height="92" rx="1"/><line x1="2" y1="48" x2="66" y2="48"/><circle cx="34" cy="48" r="8"/>
+    <rect x="15" y="2" width="38" height="15"/><rect x="25" y="2" width="18" height="5"/><rect x="15" y="79" width="38" height="15"/><rect x="25" y="89" width="18" height="5"/>`;
+  return `<div class="pm-cancha"><svg viewBox="0 0 68 96" aria-hidden="true">${lineas}</svg>
+    ${oncePuestos(o.f).map((x, i) => {
+      const J = pmJug(o.p[i]), t = edit ? 'button' : 'div';
+      const attr = edit ? ` type="button" data-pm="once-pos" data-v="${i}"${J ? ` data-drag="${J.c}" data-nom="${esc(pmCorto(J.nombre))}"` : ''} aria-label="${ONCE_NOM[x.p]}: ${J ? esc(J.nombre) : 'elegir jugador'}"` : '';
+      return `<${t}${attr} class="pm-pos${J ? '' : ' vacio'}${yo && o.p[i] === yo ? ' yo' : ''}" style="left:${x.x}%;top:${x.y}%"><i>${x.p}</i><span>${J ? esc(onceNom(J)) : edit ? 'Elegir' : '-'}</span></${t}>`;
+    }).join('')}</div>`;
+}
+function onceTexto(o, titulo, sub) {
+  const P = oncePuestos(o.f), L = Math.max(...P.map(x => x.k)), nom = c => pmJug(c) ? pmCorto(pmJug(c).nombre) : '?';
+  const fila = (h, ks) => { const xs = P.map((x, i) => ({ x, c: o.p[i] })).filter(({ x, c }) => ks.includes(x.k) && c); return xs.length ? `${h}: ${xs.map(({ c }) => nom(c)).join(', ')}` : ''; };
+  const medio = Array.from({ length: Math.max(0, L - 2) }, (_, i) => i + 2);
+  const cab = [titulo, sub, `Formación ${o.f}`].filter(Boolean), once = [fila('Arquero', [0]), fila('Defensa', [1]), fila('Medio', medio), fila('Adelante', [L])].filter(Boolean);
+  return [cab.join('\n'), once.join('\n'), o.s.length ? `Suplentes: ${o.s.map(nom).join(', ')}` : ''].filter(Boolean).join('\n\n');
+}
+// Arrastrar jugadores: de la lista a un puesto, de un puesto a otro (se cambian) o de la cancha a la lista (lo saca).
+// Con mouse arranca al moverlo; con el dedo, dejándolo apretado un momento (así se sigue pudiendo scrollear).
+let ONCE_DRAG = null;
+function onceSoltar(c, de, a, fuera) {
+  const { n, key } = onceClave(PM_CAT), O = onceDe(key);
+  if (a != null) {
+    if (de != null) [O.p[a], O.p[de]] = [O.p[de], O.p[a]];
+    else { const j = O.p.indexOf(c); if (j >= 0) O.p[j] = O.p[a]; O.p[a] = c; O.s = O.s.filter(x => x !== c); }
+  } else if (fuera && de != null) O.p[de] = null;
+  else return;
+  if (n) O.r = n.rival;
+  pmEst().onces[key] = O; pmGuardar();
+  const y = scrollY; renderClubes('once').then(() => scrollTo({ top: y }));
+}
+function onceArrastre() {
+  if (window.__onceDrag) return; window.__onceDrag = true;
+  const destino = (x, y) => document.elementFromPoint(x, y)?.closest('.pm-pos[data-pm="once-pos"]');
+  const fin = () => { const D = ONCE_DRAG; if (!D) return; clearTimeout(D.t); cancelAnimationFrame(D.raf); D.g?.remove(); D.el.classList.remove('levantado');
+    document.querySelectorAll('.pm-pos.sobre').forEach(x => x.classList.remove('sobre')); document.body.classList.remove('pm-arrastrando'); };
+  const mover = () => { const D = ONCE_DRAG; D.g.style.transform = `translate(${D.x}px,${D.y}px) translate(-50%,-140%)`;
+    const t = destino(D.x, D.y); document.querySelectorAll('.pm-pos.sobre').forEach(x => x !== t && x.classList.remove('sobre')); t?.classList.add('sobre'); };
+  const auto = () => { const D = ONCE_DRAG; if (!D?.on) return; if (D.y < 70) scrollBy(0, -12); else if (D.y > innerHeight - 70) scrollBy(0, 12); mover(); D.raf = requestAnimationFrame(auto); };
+  const arrancar = () => { const D = ONCE_DRAG; D.on = true; D.g = Object.assign(document.createElement('div'), { className: 'pm-fantasma', textContent: D.nom });
+    document.body.append(D.g); document.body.classList.add('pm-arrastrando'); D.el.classList.add('levantado'); navigator.vibrate?.(15); auto(); };
+  document.addEventListener('pointerdown', ev => {
+    if (ev.button > 0) return; const el = ev.target.closest('.pm-once-zona [data-drag]'); if (!el) return;
+    fin(); ONCE_DRAG = { el, c: el.dataset.drag, de: el.matches('.pm-pos') ? Number(el.dataset.v) : null, nom: el.dataset.nom, x0: ev.clientX, y0: ev.clientY, x: ev.clientX, y: ev.clientY, id: ev.pointerId, touch: ev.pointerType !== 'mouse', on: false };
+    if (ONCE_DRAG.touch) ONCE_DRAG.t = setTimeout(() => ONCE_DRAG && !ONCE_DRAG.on && arrancar(), 280);
+  });
+  document.addEventListener('pointermove', ev => {
+    const D = ONCE_DRAG; if (!D || ev.pointerId !== D.id) return;
+    D.x = ev.clientX; D.y = ev.clientY;
+    if (D.on) { ev.preventDefault(); return; }
+    const d = Math.hypot(D.x - D.x0, D.y - D.y0);
+    if (D.touch) { if (d > 10) { clearTimeout(D.t); ONCE_DRAG = null; } } else if (d > 6) arrancar();
+  }, { passive: false });
+  document.addEventListener('touchmove', ev => { if (ONCE_DRAG?.on) ev.preventDefault(); }, { passive: false });
+  const soltar = ev => {
+    const D = ONCE_DRAG; if (!D || ev.pointerId !== D.id) return; fin(); ONCE_DRAG = null;
+    if (!D.on) return;
+    window.__onceSinClick = Date.now();
+    if (ev.type === 'pointercancel') return;
+    const t = destino(ev.clientX, ev.clientY), fuera = !document.elementFromPoint(ev.clientX, ev.clientY)?.closest('.pm-cancha');
+    onceSoltar(D.c, D.de, t ? Number(t.dataset.v) : null, fuera);
+  };
+  document.addEventListener('pointerup', soltar); document.addEventListener('pointercancel', soltar);
+  document.addEventListener('click', ev => { if (Date.now() - (window.__onceSinClick || 0) < 400) { ev.stopPropagation(); ev.preventDefault(); } }, true);
+  document.addEventListener('contextmenu', ev => { if (ev.target.closest('.pm-once-zona [data-drag]')) ev.preventDefault(); });
+}
+let ONCE_VER = null; // el once anterior que se está mirando
+// El partido de un once guardado (rival y resultado), buscándolo en las planillas por el día.
+function onceInfo(key) {
+  const [div, dia] = key.split('|'), o = pmEst().onces[key] || {};
+  const x = dia === 'sin-partido' ? null : pmEV().filter(e => e.div === div).flatMap(e => e.d?.porEquipo?.[e.equipo] || []).find(x => x.p?.dia === dia);
+  return { div, dia, rival: x?.rival || o.r || '', res: x && x.gf != null ? `${x.gf}-${x.gc}` : '', g: x && x.gf != null ? (x.gf > x.gc ? 'g' : x.gf < x.gc ? 'p' : 'e') : '' };
+}
+function onceAnteriores(cat, actual) {
+  return Object.keys(pmEst().onces).filter(k => k !== actual && k.split('|')[0] === cat && !onceVacio(onceDe(k)) && k.split('|')[1] !== 'sin-partido')
+    .sort((a, b) => b.split('|')[1].localeCompare(a.split('|')[1]));
+}
+function pmOnceViejo(key, actual) {
+  const o = onceDe(key), I = onceInfo(key);
+  const titulo = `Once ${PM.club.nombre} · ${DIVS[I.div]?.nombre || pmCatN(I.div)}${I.rival ? ' vs ' + I.rival : ''}`;
+  const txt = onceTexto(o, titulo, `${fDia(I.dia)}${I.res ? ` · terminó ${I.res}` : ''}`);
+  return `<a class="pmx-volver" href="#/clubes/once" data-pm="once-ver" data-v="">← Volver al once del próximo partido</a>
+    <div class="panel"><div class="panel-h"><span><b>${I.rival ? 'vs ' + esc(I.rival) : esc(DIVS[I.div]?.nombre || '')}</b></span><span>${fDia(I.dia)}${I.res ? ` · <b class="pm-once-res ${I.g}">${I.res}</b>` : ''}</span></div>
+      <div class="pm-r"><span class="pm-r-t"><b>Formación ${o.f}</b><small>${o.p.filter(Boolean).length} titulares${o.s.length ? ` · ${o.s.length} suplentes` : ''}</small></span><button type="button" class="share" data-pm="once-usar" data-v="${esc(key)}">Usar para el próximo</button></div></div>
+    ${onceCancha(o, false)}
+    ${o.s.length ? `<div class="panel"><div class="pm-rg"><b>Suplentes</b><span>${o.s.map(c => esc(pmCorto(pmJug(c).nombre))).join(', ')}</span></div></div>` : ''}
+    <div class="panel pm-msg"><div class="panel-h"><span><b>Como texto</b></span></div><pre id="once-txt">${esc(txt)}</pre>
+      <div class="row pm-acc"><button type="button" class="share" data-pm="copiar" data-v="once-txt">Copiar</button></div></div>`;
+}
+function pmOnce() {
+  const E = pmEst(), cat = PM_CAT, { e, n, key } = onceClave(cat), o = onceDe(key);
+  onceArrastre();
+  if (ONCE_VER && (ONCE_VER.split('|')[0] !== cat || !E.onces[ONCE_VER])) ONCE_VER = null;
+  if (ONCE_VER) return pmOnceViejo(ONCE_VER, key);
+  const ant = onceAnteriores(cat, key);
+  const pj = o.p.filter(Boolean).length;
+  const titulo = n ? `Once ${PM.club.nombre} · ${DIVS[e.div].nombre} vs ${n.rival}` : `Once ${PM.club.nombre} · ${pmCatN(cat)}`;
+  const sub = n ? `${fDia(n.dia)}${n.hora !== '00:00' ? ' ' + n.hora : ''}${canchaOk(n.cancha) ? ` · ${n.cancha}` : ''}` : '';
+  const txt = onceTexto(o, titulo, sub);
+  const resto = pmDe(cat).filter(J => !o.p.includes(J.c)).sort((a, b) => b.cats[cat].min - a.cats[cat].min);
+  return pmChipsCat(cat) + `<div class="panel"><div class="panel-h"><span><b>${n ? `${esc(DIVS[e.div].nombre)} vs ${esc(n.rival)}` : esc(pmCatN(cat))}</b></span><span>${n ? esc(sub) : 'Sin partido programado'}</span></div>
+      <label class="pm-r"><span class="pm-r-t"><b>Formación</b><small>${pj} de 11 puestos con jugador</small></span><select class="pm-in pm-once-f" data-pm="once-f" data-k="${esc(key)}" aria-label="Formación">${Object.keys(ONCE_F).map(f => `<option${f === o.f ? ' selected' : ''}>${f}</option>`).join('')}</select></label></div>
+    <div class="pm-once-zona"><div class="pm-once-c">${onceCancha(o, true)}
+    <p class="pm-nota pm-sin" style="text-align:center">Arrastrá un jugador a un puesto, o tocá el puesto para elegirlo. Solo lo ve el cuerpo técnico.</p></div>
+    <section class="stack"><div class="sec-h"><div><h3>Plantel</h3><span class="sub">Arrastralo a la cancha${matchMedia('(pointer: coarse)').matches ? ' (dejalo apretado y movelo)' : ''}. Tocalo para mandarlo al banco: los marcados son los suplentes. Para sacar a uno del once, arrastralo fuera de la cancha.</span></div></div>
+      ${resto.length ? `<div class="chips pm-once-sup">${resto.map(J => `<button type="button" class="chip" data-pm="once-sup" data-v="${J.c}" data-drag="${J.c}" data-nom="${esc(pmCorto(J.nombre))}" aria-pressed="${o.s.includes(J.c)}">${esc(pmCorto(J.nombre))}</button>`).join('')}</div>` : '<div class="empty">Todo el plantel está en el once.</div>'}</section></div>
+    ${pj ? `<div class="panel pm-msg"><div class="panel-h"><span><b>Mensaje para el grupo</b></span><span>${pj} titulares${o.s.length ? ` · ${o.s.length} suplentes` : ''}</span></div><pre id="once-txt">${esc(txt)}</pre>
+      <div class="row pm-acc"><button type="button" class="share" data-pm="copiar" data-v="once-txt">Copiar</button><a class="share" target="_blank" rel="noopener" href="https://wa.me/?text=${encodeURIComponent(txt)}">Mandar por WhatsApp</a><button type="button" class="share" data-pm="once-borrar" data-v="${esc(key)}">Borrar el once</button></div></div>` : ''}
+    <section class="stack"><div class="sec-h"><div><h3>Onces anteriores</h3><span class="sub">Lo que pusiste en cada partido, para preparar el próximo.</span></div></div>
+      ${ant.length ? `<div class="panel">${ant.map(k => { const I = onceInfo(k), O = onceDe(k); return `<button type="button" class="pm-r pm-elegir" data-pm="once-ver" data-v="${esc(k)}"><span class="pm-r-t"><b>${I.rival ? 'vs ' + esc(I.rival) : 'Partido'}</b><small>${fDia(I.dia)} · ${O.f}</small></span>${I.res ? `<b class="pm-once-res ${I.g}">${I.res}</b>` : ''}</button>`; }).join('')}</div>` : '<div class="empty">Todavía no hay onces de partidos anteriores. Cada once que armes queda guardado acá.</div>'}</section>`;
+}
+// En qué puestos jugó cada uno, sacado de todos los onces guardados del plantel.
+function onceHist(cat) {
+  const H = new Map();
+  for (const [k, raw] of Object.entries(pmEst().onces)) {
+    if (k.split('|')[0] !== cat) continue;
+    const o = onceDe(k), P = oncePuestos(o.f);
+    o.p.forEach((c, i) => { if (!c) return; const h = H.get(c) || {}; h[P[i].p] = (h[P[i].p] || 0) + 1; H.set(c, h); });
+  }
+  return H;
+}
+// La lista para elegir al jugador de un puesto (en una hoja que sube desde abajo).
+function onceElegir(i) {
+  const cat = PM_CAT, { e, n, key } = onceClave(cat), o = onceDe(key), x = oncePuestos(o.f)[i]; if (!x) return;
+  ONCE_SEL = i;
+  const susp = new Set((e?.alertas || []).filter(a => a.tipo === 'suspendido' && a.nivel === 'alta').map(a => a.carne));
+  const conv = pmCfg(cat).convocatoria ? new Set(pmEst().conv[key] || []) : null;
+  const P = oncePuestos(o.f);
+  // Primero los que ya jugaron en este puesto, después el resto; en los dos grupos, por minutos.
+  const H = onceHist(cat), pos = J => Object.keys(H.get(J.c) || {});
+  const L = pmDe(cat).map(J => ({ J, en: o.p.indexOf(J.c), v: pos(J).includes(x.p) ? 1 : 0 })).sort((a, b) => b.v - a.v || b.J.cats[cat].min - a.J.cats[cat].min);
+  const nYa = L.filter(y => y.v).length;
+  const fila = ({ J, en, v }) => `<button type="button" class="pm-r pm-elegir${en === i ? ' actual' : ''}" data-once="${J.c}"${susp.has(J.c) ? ' disabled' : ''}><span class="pm-r-t"><b>${esc(J.nombre)}${susp.has(J.c) ? '<span class="tag red">Suspendido</span>' : ''}${pmFichaEst(pmFicha(J)) === 'vencida' ? '<span class="tag amber">Ficha vencida</span>' : ''}${conv && !conv.has(J.c) ? '<span class="tag">No convocado</span>' : ''}</b><small>${en === i ? 'Está en este puesto' : en >= 0 ? `Ahora de ${P[en].p} · se cambian de lugar` : `${pos(J).length ? `Posiciones: ${pos(J).join(', ')} · ` : ''}${J.cats[cat].min}' en la temporada`}</small></span></button>`;
+  $('#so-t').textContent = `Elegí al ${ONCE_NOM[x.p]}`;
+  $('#so-b').innerHTML = `<div class="panel">${o.p[i] ? `<button type="button" class="pm-r pm-elegir" data-once="vaciar"><span class="pm-r-t"><b>Dejar el puesto vacío</b><small>Sacar a ${esc(pmJug(o.p[i]).nombre)}</small></span></button>` : ''}
+    ${nYa ? `<p class="pm-nota pm-once-h">Ya jugaron de ${x.p}</p>${L.slice(0, nYa).map(fila).join('')}<p class="pm-nota pm-once-h">El resto, por minutos</p>` : ''}${L.slice(nYa).map(fila).join('')}</div>`;
+  $('#so-b').onclick = ev => {
+    const b = ev.target.closest('[data-once]'); if (!b || b.disabled) return;
+    const E = pmEst(), O = onceDe(key), c = b.dataset.once;
+    if (c === 'vaciar') O.p[i] = null;
+    else { const j = O.p.indexOf(c); if (j >= 0) O.p[j] = O.p[i]; O.p[i] = c; O.s = O.s.filter(x => x !== c); }
+    if (n) O.r = n.rival;
+    E.onces[key] = O; pmGuardar(); cerrar('sheet-once');
+    const y = scrollY; renderClubes('once').then(() => scrollTo({ top: y }));
+  };
+  abrir('sheet-once');
+}
 // ----- Recordatorios -----
 function pmRecordatorios() {
   const E = pmEst(), cat = PM_CAT, p = pmProx(cat), L = pmDe(cat);
@@ -4269,6 +4488,11 @@ function pmEnlazar() {
     else if (a === 'reactivar') { delete E.susp[v]; pmGuardar(); }
     else if (a === 'fui') { const c = $('#pm-yo-sel').value; (E.marcas[v] ??= {})[c] = 1; if (!pmCfg(v.split('|')[0]).pasarLista && E.lista[v]) delete E.lista[v][c]; pmGuardar(); aviso('Listo, quedó marcado.'); }
     else if (a === 'voy') { const c = $('#pm-yo-sel').value; (E.resp[b.dataset.p] ??= {})[c] = v; pmGuardar(); aviso(v === 'va' ? 'Anotado: vas.' : 'Anotado: no vas.'); }
+    else if (a === 'once-ver') { ev.preventDefault(); ONCE_VER = v || null; const r = renderClubes('once'); if (v) r.then(() => scrollTo({ top: 0 })); return; }
+    else if (a === 'once-usar') { const k = onceClave(PM_CAT).key, cur = onceDe(k); if (!onceVacio(cur) && b.dataset.ok !== '1') { b.dataset.ok = '1'; b.textContent = 'Reemplaza el que armaste. ¿Seguro?'; return; } const O = onceDe(v), { n } = onceClave(PM_CAT); E.onces[k] = { f: O.f, p: O.p, s: O.s, ...(n ? { r: n.rival } : {}) }; pmGuardar(); ONCE_VER = null; aviso('Listo: lo podés cambiar para el próximo.'); }
+    else if (a === 'once-pos') { onceElegir(Number(v)); return; }
+    else if (a === 'once-sup') { const k = onceClave(PM_CAT).key, O = onceDe(k); O.s = O.s.includes(v) ? O.s.filter(x => x !== v) : [...O.s, v]; E.onces[k] = O; pmGuardar(); }
+    else if (a === 'once-borrar') { if (b.dataset.ok !== '1') { b.dataset.ok = '1'; b.textContent = '¿Seguro? Tocá de nuevo'; return; } delete E.onces[v]; pmGuardar(); aviso('Once borrado.'); }
     else if (a === 'borrar-am') { E.amistosos = E.amistosos.filter(x => x.id !== v); pmGuardar(); }
     else if (a === 'borrar-vid') { E.videos = E.videos.filter(x => x.id !== v); pmGuardar(); }
     else if (a === 'av-j') { const [c, s] = v.split('|').map(Number); avIr(c, s); return; }
@@ -4289,6 +4513,7 @@ function pmEnlazar() {
     if (a === 'lista') { (E.lista[i.dataset.p] ??= {})[i.dataset.c] = i.checked ? 1 : 0; pmGuardar(); }
     else if (a === 'conv') { const s = new Set(E.conv[i.dataset.k] || []); i.checked ? s.add(i.dataset.c) : s.delete(i.dataset.c); E.conv[i.dataset.k] = [...s]; pmGuardar(); }
     else if (a === 'yo') { E.yo = i.value; pmGuardar(); }
+    else if (a === 'once-f') { const O = onceDe(i.dataset.k); O.f = onceForm(i.value); E.onces[i.dataset.k] = O; pmGuardar(); aviso(`Formación ${O.f}.`); }
     else if (a === 'ficha') { if (!/^\d{4}-\d{2}-\d{2}$/.test(i.value)) return; E.fichas[i.dataset.c] = i.value; pmGuardar(); aviso(`Ficha médica: vence el ${pmFecha(i.value)}.`); if (document.activeElement === i) { i.addEventListener('blur', repintar, { once: true }); return; } }
     else if (a === 'principal') { E.principal[$('#pm-yo-sel').value] = i.value; pmGuardar(); aviso('Plantel principal cambiado.'); }
     else if (a === 'hora') { if (!i.value) return; pmHorEditar(i.dataset.cat, x => { x.dias[i.dataset.d] = i.value; }); clearTimeout(pmEnlazar.t); pmEnlazar.t = setTimeout(() => { aviso('Horario guardado.'); if (document.activeElement === i) i.addEventListener('blur', repintar, { once: true }); else repintar(); }, 900); return; }
