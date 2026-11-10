@@ -845,6 +845,14 @@ button.pm-pos:hover i,button.pm-pos:focus-visible i{outline:3px solid #ffd54a;ou
 .pm-once-sup{flex-wrap:wrap}
 .pm-elegir{width:100%;background:none;border:0;border-top:1px solid var(--line);color:inherit;font:inherit;text-align:left;cursor:pointer}
 .pm-elegir:first-child{border-top:0}
+.pm-once-zona{display:flex;flex-direction:column;gap:14px}
+@media (min-width:900px){.pm-once-zona{display:grid;grid-template-columns:minmax(320px,440px) 1fr;gap:24px;align-items:start}.pm-once-c{position:sticky;top:16px}}
+.pm-once-zona [data-drag]{cursor:grab;-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
+.pm-once-zona .levantado{opacity:.4}
+.pm-pos.sobre i{outline:3px solid #ffd54a;outline-offset:2px;transform:scale(1.15)}
+.pm-pos i{transition:transform .12s}
+body.pm-arrastrando,body.pm-arrastrando *{cursor:grabbing!important;-webkit-user-select:none;user-select:none}
+.pm-fantasma{position:fixed;left:0;top:0;z-index:1000;pointer-events:none;padding:7px 14px;border-radius:999px;background:#111;color:#fff;font-weight:700;font-size:.82rem;white-space:nowrap;box-shadow:0 6px 18px rgba(0,0,0,.35)}
 .pm-once-res{font-variant-numeric:tabular-nums;padding:2px 8px;border-radius:6px;background:var(--surface-2)}
 .pm-once-res.g{background:var(--win);color:#fff}
 .pm-once-res.p{background:var(--loss);color:#fff}
@@ -3241,7 +3249,7 @@ function onceCancha(o, edit, yo) {
   return `<div class="pm-cancha"><svg viewBox="0 0 68 96" aria-hidden="true">${lineas}</svg>
     ${oncePuestos(o.f).map((x, i) => {
       const J = pmJug(o.p[i]), t = edit ? 'button' : 'div';
-      const attr = edit ? ` type="button" data-pm="once-pos" data-v="${i}" aria-label="${ONCE_NOM[x.p]}: ${J ? esc(J.nombre) : 'elegir jugador'}"` : '';
+      const attr = edit ? ` type="button" data-pm="once-pos" data-v="${i}"${J ? ` data-drag="${J.c}" data-nom="${esc(pmCorto(J.nombre))}"` : ''} aria-label="${ONCE_NOM[x.p]}: ${J ? esc(J.nombre) : 'elegir jugador'}"` : '';
       return `<${t}${attr} class="pm-pos${J ? '' : ' vacio'}${yo && o.p[i] === yo ? ' yo' : ''}" style="left:${x.x}%;top:${x.y}%"><i>${x.p}</i><span>${J ? esc(onceNom(J)) : edit ? 'Elegir' : '-'}</span></${t}>`;
     }).join('')}</div>`;
 }
@@ -3251,6 +3259,55 @@ function onceTexto(o, titulo, sub) {
   const medio = Array.from({ length: Math.max(0, L - 2) }, (_, i) => i + 2);
   const cab = [titulo, sub, `Formación ${o.f}`].filter(Boolean), once = [fila('Arquero', [0]), fila('Defensa', [1]), fila('Medio', medio), fila('Adelante', [L])].filter(Boolean);
   return [cab.join('\n'), once.join('\n'), o.s.length ? `Suplentes: ${o.s.map(nom).join(', ')}` : ''].filter(Boolean).join('\n\n');
+}
+// Arrastrar jugadores: de la lista a un puesto, de un puesto a otro (se cambian) o de la cancha a la lista (lo saca).
+// Con mouse arranca al moverlo; con el dedo, dejándolo apretado un momento (así se sigue pudiendo scrollear).
+let ONCE_DRAG = null;
+function onceSoltar(c, de, a, fuera) {
+  const { n, key } = onceClave(PM_CAT), O = onceDe(key);
+  if (a != null) {
+    if (de != null) [O.p[a], O.p[de]] = [O.p[de], O.p[a]];
+    else { const j = O.p.indexOf(c); if (j >= 0) O.p[j] = O.p[a]; O.p[a] = c; O.s = O.s.filter(x => x !== c); }
+  } else if (fuera && de != null) O.p[de] = null;
+  else return;
+  if (n) O.r = n.rival;
+  pmEst().onces[key] = O; pmGuardar();
+  const y = scrollY; renderClubes('once').then(() => scrollTo({ top: y }));
+}
+function onceArrastre() {
+  if (window.__onceDrag) return; window.__onceDrag = true;
+  const destino = (x, y) => document.elementFromPoint(x, y)?.closest('.pm-pos[data-pm="once-pos"]');
+  const fin = () => { const D = ONCE_DRAG; if (!D) return; clearTimeout(D.t); cancelAnimationFrame(D.raf); D.g?.remove(); D.el.classList.remove('levantado');
+    document.querySelectorAll('.pm-pos.sobre').forEach(x => x.classList.remove('sobre')); document.body.classList.remove('pm-arrastrando'); };
+  const mover = () => { const D = ONCE_DRAG; D.g.style.transform = `translate(${D.x}px,${D.y}px) translate(-50%,-140%)`;
+    const t = destino(D.x, D.y); document.querySelectorAll('.pm-pos.sobre').forEach(x => x !== t && x.classList.remove('sobre')); t?.classList.add('sobre'); };
+  const auto = () => { const D = ONCE_DRAG; if (!D?.on) return; if (D.y < 70) scrollBy(0, -12); else if (D.y > innerHeight - 70) scrollBy(0, 12); mover(); D.raf = requestAnimationFrame(auto); };
+  const arrancar = () => { const D = ONCE_DRAG; D.on = true; D.g = Object.assign(document.createElement('div'), { className: 'pm-fantasma', textContent: D.nom });
+    document.body.append(D.g); document.body.classList.add('pm-arrastrando'); D.el.classList.add('levantado'); navigator.vibrate?.(15); auto(); };
+  document.addEventListener('pointerdown', ev => {
+    if (ev.button > 0) return; const el = ev.target.closest('.pm-once-zona [data-drag]'); if (!el) return;
+    fin(); ONCE_DRAG = { el, c: el.dataset.drag, de: el.matches('.pm-pos') ? Number(el.dataset.v) : null, nom: el.dataset.nom, x0: ev.clientX, y0: ev.clientY, x: ev.clientX, y: ev.clientY, id: ev.pointerId, touch: ev.pointerType !== 'mouse', on: false };
+    if (ONCE_DRAG.touch) ONCE_DRAG.t = setTimeout(() => ONCE_DRAG && !ONCE_DRAG.on && arrancar(), 280);
+  });
+  document.addEventListener('pointermove', ev => {
+    const D = ONCE_DRAG; if (!D || ev.pointerId !== D.id) return;
+    D.x = ev.clientX; D.y = ev.clientY;
+    if (D.on) { ev.preventDefault(); return; }
+    const d = Math.hypot(D.x - D.x0, D.y - D.y0);
+    if (D.touch) { if (d > 10) { clearTimeout(D.t); ONCE_DRAG = null; } } else if (d > 6) arrancar();
+  }, { passive: false });
+  document.addEventListener('touchmove', ev => { if (ONCE_DRAG?.on) ev.preventDefault(); }, { passive: false });
+  const soltar = ev => {
+    const D = ONCE_DRAG; if (!D || ev.pointerId !== D.id) return; fin(); ONCE_DRAG = null;
+    if (!D.on) return;
+    window.__onceSinClick = Date.now();
+    if (ev.type === 'pointercancel') return;
+    const t = destino(ev.clientX, ev.clientY), fuera = !document.elementFromPoint(ev.clientX, ev.clientY)?.closest('.pm-cancha');
+    onceSoltar(D.c, D.de, t ? Number(t.dataset.v) : null, fuera);
+  };
+  document.addEventListener('pointerup', soltar); document.addEventListener('pointercancel', soltar);
+  document.addEventListener('click', ev => { if (Date.now() - (window.__onceSinClick || 0) < 400) { ev.stopPropagation(); ev.preventDefault(); } }, true);
+  document.addEventListener('contextmenu', ev => { if (ev.target.closest('.pm-once-zona [data-drag]')) ev.preventDefault(); });
 }
 let ONCE_VER = null; // el once anterior que se está mirando
 // El partido de un once guardado (rival y resultado), buscándolo en las planillas por el día.
@@ -3277,6 +3334,7 @@ function pmOnceViejo(key, actual) {
 }
 function pmOnce() {
   const E = pmEst(), cat = PM_CAT, { e, n, key } = onceClave(cat), o = onceDe(key);
+  onceArrastre();
   if (ONCE_VER && (ONCE_VER.split('|')[0] !== cat || !E.onces[ONCE_VER])) ONCE_VER = null;
   if (ONCE_VER) return pmOnceViejo(ONCE_VER, key);
   const ant = onceAnteriores(cat, key);
@@ -3287,10 +3345,10 @@ function pmOnce() {
   const resto = pmDe(cat).filter(J => !o.p.includes(J.c)).sort((a, b) => b.cats[cat].min - a.cats[cat].min);
   return pmChipsCat(cat) + `<div class="panel"><div class="panel-h"><span><b>${n ? `${esc(DIVS[e.div].nombre)} vs ${esc(n.rival)}` : esc(pmCatN(cat))}</b></span><span>${n ? esc(sub) : 'Sin partido programado'}</span></div>
       <label class="pm-r"><span class="pm-r-t"><b>Formación</b><small>${pj} de 11 puestos con jugador</small></span><select class="pm-in pm-once-f" data-pm="once-f" data-k="${esc(key)}" aria-label="Formación">${Object.keys(ONCE_F).map(f => `<option${f === o.f ? ' selected' : ''}>${f}</option>`).join('')}</select></label></div>
-    ${onceCancha(o, true)}
-    <p class="pm-nota pm-sin" style="text-align:center">Tocá un puesto para elegir al jugador. Solo lo ve el cuerpo técnico.</p>
-    <section class="stack"><div class="sec-h"><div><h3>Suplentes</h3><span class="sub">Tocá a los que van al banco.</span></div></div>
-      ${resto.length ? `<div class="chips pm-once-sup">${resto.map(J => `<button type="button" class="chip" data-pm="once-sup" data-v="${J.c}" aria-pressed="${o.s.includes(J.c)}">${esc(pmCorto(J.nombre))}</button>`).join('')}</div>` : '<div class="empty">Todo el plantel está en el once.</div>'}</section>
+    <div class="pm-once-zona"><div class="pm-once-c">${onceCancha(o, true)}
+    <p class="pm-nota pm-sin" style="text-align:center">Arrastrá un jugador a un puesto, o tocá el puesto para elegirlo. Solo lo ve el cuerpo técnico.</p></div>
+    <section class="stack"><div class="sec-h"><div><h3>Plantel</h3><span class="sub">Arrastralo a la cancha${matchMedia('(pointer: coarse)').matches ? ' (dejalo apretado y movelo)' : ''}. Tocalo para mandarlo al banco: los marcados son los suplentes. Para sacar a uno del once, arrastralo fuera de la cancha.</span></div></div>
+      ${resto.length ? `<div class="chips pm-once-sup">${resto.map(J => `<button type="button" class="chip" data-pm="once-sup" data-v="${J.c}" data-drag="${J.c}" data-nom="${esc(pmCorto(J.nombre))}" aria-pressed="${o.s.includes(J.c)}">${esc(pmCorto(J.nombre))}</button>`).join('')}</div>` : '<div class="empty">Todo el plantel está en el once.</div>'}</section></div>
     ${pj ? `<div class="panel pm-msg"><div class="panel-h"><span><b>Mensaje para el grupo</b></span><span>${pj} titulares${o.s.length ? ` · ${o.s.length} suplentes` : ''}</span></div><pre id="once-txt">${esc(txt)}</pre>
       <div class="row pm-acc"><button type="button" class="share" data-pm="copiar" data-v="once-txt">Copiar</button><a class="share" target="_blank" rel="noopener" href="https://wa.me/?text=${encodeURIComponent(txt)}">Mandar por WhatsApp</a><button type="button" class="share" data-pm="once-borrar" data-v="${esc(key)}">Borrar el once</button></div></div>` : ''}
     <section class="stack"><div class="sec-h"><div><h3>Onces anteriores</h3><span class="sub">Lo que pusiste en cada partido, para preparar el próximo.</span></div></div>
