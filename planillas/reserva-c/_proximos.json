@@ -8,24 +8,17 @@
  },
  {
   "serie": "RSCPD",
-  "fechaHora": "2026-11-10 20:30:00",
-  "cancha": "CAMPO DEP. COLEGIO INGLES",
-  "local": "WANDERERS",
-  "visitante": "COLEGIO Y LICEO INGLES"
- },
- {
-  "serie": "RSCPD",
   "fechaHora": "2026-11-12 20:30:00",
   "cancha": "COMPLEJO INVICTUS (INCIARTE)",
   "local": "OLD BRENDANS VERDE",
   "visitante": "OLD CHRISTIANS NARANJA"
  },
  {
-  "serie": "RSCTA",
-  "fechaHora": "2026-11-14 11:15:00",
-  "cancha": "ELF (LICEO FRANCES)",
-  "local": "E.L.F.",
-  "visitante": "SEMINARIO UNIVERSITARIO"
+  "serie": "RSCPD",
+  "fechaHora": "2026-11-14 09:00:00",
+  "cancha": "COMPLEJO JUAN XXIII",
+  "local": "LA BLANQUEADA",
+  "visitante": "PEÑAROL UNIVERSITARIO"
  },
  {
   "serie": "RSCTA",
@@ -47,13 +40,6 @@
   "cancha": "COMPLEJO JUAN XXIII",
   "local": "JUAN XXIII BLANCO",
   "visitante": "SAN PABLO UNIVERSITARIO"
- },
- {
-  "serie": "RSCPD",
-  "fechaHora": "2026-11-14 11:15:00",
-  "cancha": "COMPLEJO JUAN XXIII",
-  "local": "LA BLANQUEADA",
-  "visitante": "PEÑAROL UNIVERSITARIO"
  },
  {
   "serie": "RSCPD",

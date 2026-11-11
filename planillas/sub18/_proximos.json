@@ -7,13 +7,6 @@
   "visitante": "TENIS EL PINAR"
  },
  {
-  "serie": "18F",
-  "fechaHora": "2026-11-01 15:30:00",
-  "cancha": "COMPLEJO LAS CASUARINAS",
-  "local": "ISASA UNIVERSITARIO",
-  "visitante": "CLUB SOCIAL PIEDRAS BLANCAS"
- },
- {
   "serie": "18P",
   "fechaHora": "2026-11-10 20:30:00",
   "cancha": "CIUDAD DEPORTIVA LS",
@@ -28,6 +21,13 @@
   "visitante": "NACIONAL UNIVERSITARIO"
  },
  {
+  "serie": "18A",
+  "fechaHora": "2026-11-12 20:00:00",
+  "cancha": "SPORT 11",
+  "local": "LA BLANQUEADA",
+  "visitante": "ARQUITECTURA JRS."
+ },
+ {
   "serie": "18C",
   "fechaHora": "2026-11-12 20:30:00",
   "cancha": "CAMPUS JESUS MARIA (S. GOMEZ)",
@@ -40,6 +40,13 @@
   "cancha": "LA MENNAIS",
   "local": "J.M.L.M",
   "visitante": "OLD WOODLANDS CLUB"
+ },
+ {
+  "serie": "18F",
+  "fechaHora": "2026-11-13 20:00:00",
+  "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
+  "local": "ISASA UNIVERSITARIO",
+  "visitante": "CLUB SOCIAL PIEDRAS BLANCAS"
  },
  {
   "serie": "18A",
@@ -390,13 +397,6 @@
   "cancha": "SAGRADA FAMILIA",
   "local": "CLUB SOCIAL PIEDRAS BLANCAS",
   "visitante": "CRANDON UNIVERSITARIO"
- },
- {
-  "serie": "18A",
-  "fechaHora": "2026-11-22 15:30:00",
-  "cancha": "COMPLEJO JUAN XXIII",
-  "local": "LA BLANQUEADA",
-  "visitante": "ARQUITECTURA JRS."
  },
  {
   "serie": "18A",

@@ -21,13 +21,6 @@
   "visitante": "CRANDON UNIVERSITARIO"
  },
  {
-  "serie": "PSBTA",
-  "fechaHora": "2026-11-14 09:00:00",
-  "cancha": "LA MENNAIS",
-  "local": "J.M.L.M",
-  "visitante": "CLUB SOCIAL PIEDRAS BLANCAS"
- },
- {
   "serie": "PSBPD",
   "fechaHora": "2026-11-14 09:00:00",
   "cancha": "COMPLEJO DEPORTIVO ARRAYANES",
@@ -54,5 +47,12 @@
   "cancha": "CENTRO GALLEGO",
   "local": "CENTRO GALLEGO",
   "visitante": "WOLFRAMIO"
+ },
+ {
+  "serie": "PSBTA",
+  "fechaHora": "2026-12-30 00:00:00",
+  "cancha": "WALKOVER",
+  "local": "J.M.L.M",
+  "visitante": "CLUB SOCIAL PIEDRAS BLANCAS"
  }
 ]

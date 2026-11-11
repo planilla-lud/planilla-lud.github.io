@@ -1,0 +1,317 @@
+{
+ "id": "103906",
+ "categoria": "reserva-c",
+ "serie": "RSCPD",
+ "fecha": 7,
+ "fechaHora": "2026-11-10 20:30:00",
+ "cancha": "CAMPO DEP. COLEGIO INGLES",
+ "local": "WANDERERS",
+ "visitante": "COLEGIO Y LICEO INGLES",
+ "gl": 0,
+ "gv": 3,
+ "detalle": {
+  "nro_partido": "781",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "RESERVA",
+  "categoria": "RESERVA MASCULINO",
+  "rueda": "2",
+  "Divisional": "RESERVA \"C\" PER. y DESC.",
+  "Cancha": "CAMPO DEP. COLEGIO INGLES",
+  "Fecha_Inicio": "2026-11-10 22:30:00",
+  "Fecha_fin": "2026-11-10 22:30:00",
+  "Locatario": "WANDERERS",
+  "goles_locatario": "0",
+  "puntos_locatario": "0",
+  "Visitante": "COLEGIO Y LICEO INGLES",
+  "goles_visitante": "3",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "45708",
+   "Nombre": "GUILLERMO ANDREOLI",
+   "camiseta": "92",
+   "Capitan": ""
+  },
+  {
+   "carne": "45274",
+   "Nombre": "ALEJANDRO GABRIEL MORALES",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "66823",
+   "Nombre": "JOSE PABLO ANTUNEZ",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "44857",
+   "Nombre": "FRANCO SORMANI",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "56583",
+   "Nombre": "MARCOS ARRASPIDE",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "68421",
+   "Nombre": "RINO CASTRO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "59917",
+   "Nombre": "LUCAS BALTAZAR GARCIA",
+   "camiseta": "61",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "43616",
+   "Nombre": "SANTIAGO VEGLIO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "69077",
+   "Nombre": "FACUNDO NICOLAS MACHADO",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "61865",
+   "Nombre": "NAZARENO PINTOS",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "56589",
+   "Nombre": "DARIO EMANUEL ARCHONDO",
+   "camiseta": "99",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "64433",
+   "Nombre": "SANTIAGO LUCAS RODRIGUEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "59406",
+   "Nombre": "FEDERICO CANDAU",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "45633",
+   "Nombre": "PABLO AGUIAR",
+   "camiseta": "55",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "39479",
+   "Nombre": "GASTON MUIÑO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "45570",
+   "Nombre": "PEDRO MILAT",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "39406",
+   "Nombre": "AGUSTIN FELIPEZ",
+   "camiseta": "50",
+   "Capitan": ""
+  },
+  {
+   "carne": "59416",
+   "Nombre": "PEDRO BAUTISTA RODRIGUEZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "59393",
+   "Nombre": "SEBASTIAN MACHADO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "59398",
+   "Nombre": "ALFONSO IBARRA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "51043",
+   "Nombre": "JOAQUIN BARDINO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "52049",
+   "Nombre": "AGUSTIN LAMAS",
+   "camiseta": "18",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "44857",
+   "Jug_Sale": "FRANCO SORMANI",
+   "CarneEntra": "68863",
+   "Jug_Entra": "VALENTIN RIVERO",
+   "camiseta": "23",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "59917",
+   "Jug_Sale": "LUCAS BALTAZAR GARCIA",
+   "CarneEntra": "44673",
+   "Jug_Entra": "SANTIAGO ISAIAS SOLE",
+   "camiseta": "73",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "69077",
+   "Jug_Sale": "FACUNDO NICOLAS MACHADO",
+   "CarneEntra": "51001",
+   "Jug_Entra": "FELIPE PEREZ",
+   "camiseta": "4",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56589",
+   "Jug_Sale": "DARIO EMANUEL ARCHONDO",
+   "CarneEntra": "67260",
+   "Jug_Entra": "AGUSTIN TERMEZANA",
+   "camiseta": "77",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56583",
+   "Jug_Sale": "MARCOS ARRASPIDE",
+   "CarneEntra": "55367",
+   "Jug_Entra": "LEOPOLDO RIVA",
+   "camiseta": "20",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61865",
+   "Jug_Sale": "NAZARENO PINTOS",
+   "CarneEntra": "55308",
+   "Jug_Entra": "JUAN MARTIN MALDONADO",
+   "camiseta": "12",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "43616",
+   "Jug_Sale": "SANTIAGO VEGLIO",
+   "CarneEntra": "63183",
+   "Jug_Entra": "MATEO REDIN",
+   "camiseta": "12",
+   "minutos": "57"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "59406",
+   "Jug_Sale": "FEDERICO CANDAU",
+   "CarneEntra": "43061",
+   "Jug_Entra": "JUAN MANUEL MILAT",
+   "camiseta": "75",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "51043",
+   "Jug_Sale": "JOAQUIN BARDINO",
+   "CarneEntra": "56019",
+   "Jug_Entra": "JUAN MANUEL BAZZINO",
+   "camiseta": "76",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "59416",
+   "Jug_Sale": "PEDRO BAUTISTA RODRIGUEZ",
+   "CarneEntra": "48798",
+   "Jug_Entra": "MATIAS ONANDI",
+   "camiseta": "15",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "52049",
+   "Jug_Sale": "AGUSTIN LAMAS",
+   "CarneEntra": "39287",
+   "Jug_Entra": "NICOLAS MONTERO",
+   "camiseta": "20",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "59398",
+   "Jug_Sale": "ALFONSO IBARRA",
+   "CarneEntra": "59406",
+   "Jug_Entra": "FEDERICO CANDAU",
+   "camiseta": "30",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "45633",
+   "Jug_Sale": "PABLO AGUIAR",
+   "CarneEntra": "59416",
+   "Jug_Entra": "PEDRO BAUTISTA RODRIGUEZ",
+   "camiseta": "16",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "59406",
+   "Jug_Sale": "FEDERICO CANDAU",
+   "CarneEntra": "60060",
+   "Jug_Entra": "NICOLAS LARRALDE",
+   "camiseta": "22",
+   "minutos": "80"
+  }
+ ],
+ "golesL": [],
+ "golesV": [
+  {
+   "carne": "59393",
+   "Nombre": "SEBASTIAN MACHADO",
+   "minutos": "19",
+   "EnContra": "1"
+  },
+  {
+   "carne": "59398",
+   "Nombre": "ALFONSO IBARRA",
+   "minutos": "51",
+   "EnContra": "1"
+  },
+  {
+   "carne": "59398",
+   "Nombre": "ALFONSO IBARRA",
+   "minutos": "62",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "ALEJANDRO GABRIEL MORALES",
+   "observaciones": ""
+  }
+ ],
+ "expulsadosV": [
+  {
+   "Nombre": "FEDERICO CANDAU",
+   "observaciones": ""
+  }
+ ]
+}
