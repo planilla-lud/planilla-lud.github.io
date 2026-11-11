@@ -7,55 +7,6 @@
   "visitante": "THE BRITISH SCHOOL"
  },
  {
-  "serie": "16O",
-  "fechaHora": "2026-11-08 13:30:00",
-  "cancha": "COMPLEJO SCHIAFFINO (LAVALLEJA",
-  "local": "CLUB NAUTICO",
-  "visitante": "OLD BRENDANS CLUB"
- },
- {
-  "serie": "16P",
-  "fechaHora": "2026-11-08 13:30:00",
-  "cancha": "ELF (LICEO FRANCES)",
-  "local": "E.L.F.",
-  "visitante": "URUNDAY UNIVERSITARIO"
- },
- {
-  "serie": "16B",
-  "fechaHora": "2026-11-08 13:30:00",
-  "cancha": "TENIS EL PINAR",
-  "local": "TENIS EL PINAR",
-  "visitante": "DFC"
- },
- {
-  "serie": "16B",
-  "fechaHora": "2026-11-08 13:30:00",
-  "cancha": "LA MENNAIS",
-  "local": "J.M.L.M",
-  "visitante": "POCO SITIO PLAYA VERDE"
- },
- {
-  "serie": "16C",
-  "fechaHora": "2026-11-08 13:30:00",
-  "cancha": "COMPLEJO SCHIAFFINO (LAVALLEJA",
-  "local": "NAUTICO CARRASCO Y PUNTA GORDA",
-  "visitante": "SEMINARIO UNIVERSITARIO"
- },
- {
-  "serie": "16F",
-  "fechaHora": "2026-11-08 13:30:00",
-  "cancha": "COMPLEJO DEPORTIVO ARRAYANES",
-  "local": "COLEGIO SANTA ELENA",
-  "visitante": "CLUB JESUS MARIA"
- },
- {
-  "serie": "16O",
-  "fechaHora": "2026-11-09 20:00:00",
-  "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
-  "local": "CLUB SEMINARIO",
-  "visitante": "OLD CHRISTIANS CLUB"
- },
- {
   "serie": "16B",
   "fechaHora": "2026-11-10 19:30:00",
   "cancha": "COLEGIO ARETEIA",
@@ -75,62 +26,6 @@
   "cancha": "LA MENNAIS",
   "local": "J.M.L.M",
   "visitante": "ALEMAN UNIVERSITARIO"
- },
- {
-  "serie": "16O",
-  "fechaHora": "2026-11-15 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "OLD CHRISTIANS CLUB",
-  "visitante": "OLD BRENDANS CLUB"
- },
- {
-  "serie": "16P",
-  "fechaHora": "2026-11-15 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "E.L.F.",
-  "visitante": "CARRASCO LAWN TENNIS"
- },
- {
-  "serie": "16B",
-  "fechaHora": "2026-11-15 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "DEP.de la C. ARETEIA BIMBULLY",
-  "visitante": "J.M.L.M"
- },
- {
-  "serie": "16B",
-  "fechaHora": "2026-11-15 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "POCO SITIO PLAYA VERDE",
-  "visitante": "PELOTA AL MEDIO UNIVERSITARIO"
- },
- {
-  "serie": "16C",
-  "fechaHora": "2026-11-15 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "PERRY SEXTA UNIVERSITARIO",
-  "visitante": "SCUOLA PALERMO"
- },
- {
-  "serie": "16C",
-  "fechaHora": "2026-11-15 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "SEMINARIO UNIVERSITARIO",
-  "visitante": "ESCUELA L.P."
- },
- {
-  "serie": "16F",
-  "fechaHora": "2026-11-15 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "CLUB JESUS MARIA",
-  "visitante": "ACADEMIA FRM"
- },
- {
-  "serie": "16F",
-  "fechaHora": "2026-11-15 10:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "FECHA LIBRE",
-  "visitante": "ARQUITECTURA JRS."
  },
  {
   "serie": "16O",
@@ -154,6 +49,20 @@
   "visitante": "CLUB NAUTICO"
  },
  {
+  "serie": "16O",
+  "fechaHora": "2026-11-15 13:30:00",
+  "cancha": "OLD CHRISTIANS CLUB",
+  "local": "OLD CHRISTIANS CLUB",
+  "visitante": "OLD BRENDANS CLUB"
+ },
+ {
+  "serie": "16P",
+  "fechaHora": "2026-11-15 13:30:00",
+  "cancha": "ELF (LICEO FRANCES)",
+  "local": "E.L.F.",
+  "visitante": "CARRASCO LAWN TENNIS"
+ },
+ {
   "serie": "16P",
   "fechaHora": "2026-11-15 13:30:00",
   "cancha": "CIUDAD DEPORTIVA LS",
@@ -166,6 +75,27 @@
   "cancha": "COMPLEJO LOS ROJOS",
   "local": "TACUAREMBO UNIVERSITARIO",
   "visitante": "DEPORTIVO MORON"
+ },
+ {
+  "serie": "16P",
+  "fechaHora": "2026-11-15 13:30:00",
+  "cancha": "COMPLEJO URUNDAY UNIVERSITARIO",
+  "local": "URUNDAY UNIVERSITARIO",
+  "visitante": "LA ESCALINATA"
+ },
+ {
+  "serie": "16B",
+  "fechaHora": "2026-11-15 13:30:00",
+  "cancha": "COLEGIO ARETEIA",
+  "local": "DEP.de la C. ARETEIA BIMBULLY",
+  "visitante": "J.M.L.M"
+ },
+ {
+  "serie": "16B",
+  "fechaHora": "2026-11-15 13:30:00",
+  "cancha": "COM. CLUB UNIVERSIDAD CATOLICA",
+  "local": "POCO SITIO PLAYA VERDE",
+  "visitante": "PELOTA AL MEDIO UNIVERSITARIO"
  },
  {
   "serie": "16B",
@@ -184,6 +114,13 @@
  {
   "serie": "16C",
   "fechaHora": "2026-11-15 13:30:00",
+  "cancha": "MICROSULES",
+  "local": "PERRY SEXTA UNIVERSITARIO",
+  "visitante": "SCUOLA PALERMO"
+ },
+ {
+  "serie": "16C",
+  "fechaHora": "2026-11-15 13:30:00",
   "cancha": "CAM. DEP. ASOC. HEBRAICA Y MAC",
   "local": "HEBRAICA UNIVERSITARIO",
   "visitante": "NAUTICO CARRASCO Y PUNTA GORDA"
@@ -191,7 +128,14 @@
  {
   "serie": "16C",
   "fechaHora": "2026-11-15 13:30:00",
-  "cancha": "COMPLEJO ALCOBENDAS",
+  "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
+  "local": "SEMINARIO UNIVERSITARIO",
+  "visitante": "ESCUELA L.P."
+ },
+ {
+  "serie": "16C",
+  "fechaHora": "2026-11-15 13:30:00",
+  "cancha": "COMPLEJO LOS NOGALES",
   "local": "NACIONAL UNIVERSITARIO",
   "visitante": "A.E.B.U"
  },
@@ -205,16 +149,16 @@
  {
   "serie": "16F",
   "fechaHora": "2026-11-15 13:30:00",
+  "cancha": "COMPLEJO COLEGIO JESÚS MARÍA",
+  "local": "CLUB JESUS MARIA",
+  "visitante": "ACADEMIA FRM"
+ },
+ {
+  "serie": "16F",
+  "fechaHora": "2026-11-15 13:30:00",
   "cancha": "CAMPO DEP. INSTITUTO CRANDON",
   "local": "CRANDON UNIVERSITARIO",
   "visitante": "ESTUDIANTES DEL PLATA"
- },
- {
-  "serie": "16P",
-  "fechaHora": "2026-11-15 15:30:00",
-  "cancha": "COMPLEJO URUNDAY UNIVERSITARIO",
-  "local": "URUNDAY UNIVERSITARIO",
-  "visitante": "LA ESCALINATA"
  },
  {
   "serie": "16O",
@@ -579,6 +523,13 @@
   "cancha": "NO SE JUEGA",
   "local": "DLS CLUB",
   "visitante": "FECHA LIBRE"
+ },
+ {
+  "serie": "16F",
+  "fechaHora": "2026-12-30 00:00:00",
+  "cancha": "NO SE JUEGA",
+  "local": "FECHA LIBRE",
+  "visitante": "ARQUITECTURA JRS."
  },
  {
   "serie": "16F",

@@ -1,0 +1,281 @@
+{
+ "id": "103880",
+ "categoria": "mayores-g",
+ "serie": "GPD",
+ "fecha": 7,
+ "fechaHora": "2026-11-08 11:30:00",
+ "cancha": "COMPLEJO JUAN XXIII",
+ "local": "MARISCAL NASAZZI",
+ "visitante": "CENTRO GALLEGO",
+ "gl": 0,
+ "gv": 4,
+ "detalle": {
+  "nro_partido": "1257",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "MAYORES",
+  "categoria": "MAYORES MASCULINO",
+  "rueda": "2",
+  "Divisional": "DIVISIONAL \"G\" COPA PLATA",
+  "Cancha": "COMPLEJO JUAN XXIII",
+  "Fecha_Inicio": "2026-11-08 13:20:00",
+  "Fecha_fin": "2026-11-08 13:20:00",
+  "Locatario": "MARISCAL NASAZZI",
+  "goles_locatario": "0",
+  "puntos_locatario": "0",
+  "Visitante": "CENTRO GALLEGO",
+  "goles_visitante": "4",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "44190",
+   "Nombre": "GUZMAN ANDRES LERENA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "42298",
+   "Nombre": "ANDRES FABIAN CARRASCO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "40623",
+   "Nombre": "FRANCISCO PEREIRA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "58573",
+   "Nombre": "GONZALO SALVETTI",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "54638",
+   "Nombre": "THIAGO GONZALEZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "69176",
+   "Nombre": "CONRADO VEIGA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "42994",
+   "Nombre": "GERONIMO PESCE",
+   "camiseta": "9",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "52185",
+   "Nombre": "SANTIAGO BARQUIN",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "54647",
+   "Nombre": "SEBASTIAN VIERA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "51993",
+   "Nombre": "MATIAS MAURIN",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "43688",
+   "Nombre": "LUIS ALVAREZ",
+   "camiseta": "8",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "52050",
+   "Nombre": "DIEGO SEBASTIAN HERNANDEZ",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "37587",
+   "Nombre": "GUILLERMO TOMAS RODRIGUEZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "64778",
+   "Nombre": "IGNACIO TABARE CLAVIJO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "46319",
+   "Nombre": "SERGIO MATIAS MARTINEZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "37457",
+   "Nombre": "GERMAN AUGUSTO FRASCHINI",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "68699",
+   "Nombre": "FACUNDO CASTRO",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "66263",
+   "Nombre": "JOAQUIN MANUEL MUÑOZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "69114",
+   "Nombre": "IHOJAN EZEQUIEL ORTIZ",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "64477",
+   "Nombre": "DONATTO PAOLO RODRIGUEZ",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "63976",
+   "Nombre": "THIAGO ESCUDERO",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "46504",
+   "Nombre": "KEVIN RAFAEL JAURETCHE",
+   "camiseta": "23",
+   "Capitan": "(C)"
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "54638",
+   "Jug_Sale": "THIAGO GONZALEZ",
+   "CarneEntra": "46510",
+   "Jug_Entra": "NICOLAS DE SANTA ANA",
+   "camiseta": "6",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "51993",
+   "Jug_Sale": "MATIAS MAURIN",
+   "CarneEntra": "52674",
+   "Jug_Entra": "JOAQUIN BELLO",
+   "camiseta": "16",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "42298",
+   "Jug_Sale": "ANDRES FABIAN CARRASCO",
+   "CarneEntra": "51993",
+   "Jug_Entra": "MATIAS MAURIN",
+   "camiseta": "19",
+   "minutos": "66"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "37457",
+   "Jug_Sale": "GERMAN AUGUSTO FRASCHINI",
+   "CarneEntra": "49913",
+   "Jug_Entra": "SEBASTIAN PAZOS",
+   "camiseta": "92",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "64477",
+   "Jug_Sale": "DONATTO PAOLO RODRIGUEZ",
+   "CarneEntra": "63497",
+   "Jug_Entra": "FABRIZIO DONATO GIANNECCHINI",
+   "camiseta": "7",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "68699",
+   "Jug_Sale": "FACUNDO CASTRO",
+   "CarneEntra": "65650",
+   "Jug_Entra": "SANTIAGO LAMA",
+   "camiseta": "14",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "46504",
+   "Jug_Sale": "KEVIN RAFAEL JAURETCHE",
+   "CarneEntra": "51283",
+   "Jug_Entra": "JOSE IGNACIO AVELLANAL",
+   "camiseta": "84",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "66263",
+   "Jug_Sale": "JOAQUIN MANUEL MUÑOZ",
+   "CarneEntra": "51991",
+   "Jug_Entra": "CRISTIAN ANTONY BRITO",
+   "camiseta": "12",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "46319",
+   "Jug_Sale": "SERGIO MATIAS MARTINEZ",
+   "CarneEntra": "39957",
+   "Jug_Entra": "MATIAS ROCCO",
+   "camiseta": "30",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "37587",
+   "Jug_Sale": "GUILLERMO TOMAS RODRIGUEZ",
+   "CarneEntra": "49768",
+   "Jug_Entra": "CESAR MARTIN PEREZ",
+   "camiseta": "6",
+   "minutos": "80"
+  }
+ ],
+ "golesL": [],
+ "golesV": [
+  {
+   "carne": "63976",
+   "Nombre": "THIAGO ESCUDERO",
+   "minutos": "10",
+   "EnContra": "1"
+  },
+  {
+   "carne": "63976",
+   "Nombre": "THIAGO ESCUDERO",
+   "minutos": "70",
+   "EnContra": "1"
+  },
+  {
+   "carne": "65650",
+   "Nombre": "SANTIAGO LAMA",
+   "minutos": "84",
+   "EnContra": "1"
+  },
+  {
+   "carne": "69114",
+   "Nombre": "IHOJAN EZEQUIEL ORTIZ",
+   "minutos": "90",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

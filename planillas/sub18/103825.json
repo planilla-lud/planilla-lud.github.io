@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB18 AMISTAD",
   "Cancha": "SPORT 11",
-  "Fecha_Inicio": "2026-11-08 17:00:00",
-  "Fecha_fin": "2026-11-08 17:00:00",
+  "Fecha_Inicio": "2026-11-08 17:20:00",
+  "Fecha_fin": "2026-11-08 17:20:00",
   "Locatario": "ARQUITECTURA JRS.",
   "goles_locatario": "4",
   "puntos_locatario": "3",
@@ -29,12 +29,224 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
+ "titularesL": [
+  {
+   "carne": "66090",
+   "Nombre": "TEO CASAS",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "66335",
+   "Nombre": "AGUSTIN CUÑA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "59461",
+   "Nombre": "FEDERICO MAIORANA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "63154",
+   "Nombre": "FELIPE GARZINA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "56059",
+   "Nombre": "MARTIN REYES",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "61802",
+   "Nombre": "MATEO ZOLESSI",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "68957",
+   "Nombre": "SANTIAGO TRIAS",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "66051",
+   "Nombre": "GUILLERMO SANTIAGO RUSSO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "60882",
+   "Nombre": "SANTIAGO PEREIRA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "63363",
+   "Nombre": "NICOLAS OTERO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "64584",
+   "Nombre": "MANUEL SUAREZ",
+   "camiseta": "15",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "68283",
+   "Nombre": "JULIAN CHARLO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "59764",
+   "Nombre": "SANTIAGO IRIARTE",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "64956",
+   "Nombre": "TOMAS GONZALEZ",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "61112",
+   "Nombre": "GUILLERMO BALDOVINO",
+   "camiseta": "20",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "61490",
+   "Nombre": "IGNACIO RODRIGUEZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "68285",
+   "Nombre": "IGNACIO FONTES",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "63830",
+   "Nombre": "GERMAN VEGA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "61628",
+   "Nombre": "TOMAS VAZQUEZ",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "58050",
+   "Nombre": "AGUSTIN RIVERA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "61436",
+   "Nombre": "ENZO BESOZZI",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "59294",
+   "Nombre": "THIAGO COITIÑO",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "66090",
+   "Jug_Sale": "TEO CASAS",
+   "CarneEntra": "66534",
+   "Jug_Entra": "GONZALO MARTIN LLOVET",
+   "camiseta": "1",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "59461",
+   "Jug_Sale": "FEDERICO MAIORANA",
+   "CarneEntra": "68935",
+   "Jug_Entra": "THIAGO FRANCESCO PACIELLO",
+   "camiseta": "3",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "64584",
+   "Jug_Sale": "MANUEL SUAREZ",
+   "CarneEntra": "65989",
+   "Jug_Entra": "BENJAMIN EZEQUIEL MENDEZ",
+   "camiseta": "19",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "68957",
+   "Jug_Sale": "SANTIAGO TRIAS",
+   "CarneEntra": "66535",
+   "Jug_Entra": "PABLO CAPUTI",
+   "camiseta": "16",
+   "minutos": "82"
+  },
+  {
+   "CarneSale": "60882",
+   "Jug_Sale": "SANTIAGO PEREIRA",
+   "CarneEntra": "59461",
+   "Jug_Entra": "FEDERICO MAIORANA",
+   "camiseta": "2",
+   "minutos": "77"
+  }
+ ],
  "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "golesL": [
+  {
+   "carne": "60882",
+   "Nombre": "SANTIAGO PEREIRA",
+   "minutos": "53",
+   "EnContra": "0"
+  },
+  {
+   "carne": "64584",
+   "Nombre": "MANUEL SUAREZ",
+   "minutos": "50",
+   "EnContra": "0"
+  },
+  {
+   "carne": "64584",
+   "Nombre": "MANUEL SUAREZ",
+   "minutos": "51",
+   "EnContra": "0"
+  },
+  {
+   "carne": "68957",
+   "Nombre": "SANTIAGO TRIAS",
+   "minutos": "40",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "58050",
+   "Nombre": "AGUSTIN RIVERA",
+   "minutos": "20",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "AGUSTIN CUÑA",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

@@ -1,0 +1,317 @@
+{
+ "id": "103896",
+ "categoria": "sub18",
+ "serie": "18A",
+ "fecha": 4,
+ "fechaHora": "2026-11-08 15:30:00",
+ "cancha": "POLIDEPORTIVO CARRASCO",
+ "local": "ACADEMIA FRM",
+ "visitante": "NUMA TURCATTI",
+ "gl": 0,
+ "gv": 6,
+ "detalle": {
+  "nro_partido": "503",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 18 ",
+  "categoria": "SUB 18 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB18 AMISTAD",
+  "Cancha": "POLIDEPORTIVO CARRASCO",
+  "Fecha_Inicio": "2026-11-08 17:30:00",
+  "Fecha_fin": "2026-11-08 17:30:00",
+  "Locatario": "ACADEMIA FRM",
+  "goles_locatario": "0",
+  "puntos_locatario": "0",
+  "Visitante": "NUMA TURCATTI",
+  "goles_visitante": "6",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "68704",
+   "Nombre": "FABIAN SANTINO LOPEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "68127",
+   "Nombre": "ALEJO EZEQUIEL LEFKO",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "65530",
+   "Nombre": "JUAN PABLO ORREGO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "68967",
+   "Nombre": "PABLO GABRIEL RODRIGUEZ",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "68595",
+   "Nombre": "LAUTARO MARTINEZ",
+   "camiseta": "92",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "62765",
+   "Nombre": "BENJAMIN DELGADO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "65657",
+   "Nombre": "MATIAS OXANDABARAT",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "64940",
+   "Nombre": "FACUNDO EMANUEL PEGORRARO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "62963",
+   "Nombre": "VALENTIN MANUEL RODRIGUEZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "64806",
+   "Nombre": "JOAQUIN NAHUEL AQUINO",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "65771",
+   "Nombre": "SANTIAGO MATEO VENTURELLI",
+   "camiseta": "32",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "56571",
+   "Nombre": "SANTIAGO GUSTAVO ALVAREZ",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "65468",
+   "Nombre": "IVAN LAUTARO MORALES",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "67175",
+   "Nombre": "FACUNDO AGUSTIN DUARTE",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "67304",
+   "Nombre": "JUAN MANUEL PAZOS",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "57617",
+   "Nombre": "JUAN IGNACIO ARRILLAGA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "68029",
+   "Nombre": "MARCO VERNASSA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "69074",
+   "Nombre": "LAUTARO NICOLAS RODRIGUEZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "69187",
+   "Nombre": "MATEO ISMAEL CHARLE FAGUNDEZ",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "65681",
+   "Nombre": "NICOLAS IGNACIO LARROSA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "67234",
+   "Nombre": "RODRIGO HERNAN MARTINEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "67738",
+   "Nombre": "IGNACIO MIGUEL LOPEZ",
+   "camiseta": "1",
+   "Capitan": "(C)"
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "65771",
+   "Jug_Sale": "SANTIAGO MATEO VENTURELLI",
+   "CarneEntra": "68602",
+   "Jug_Entra": "NATHAN JOAQUIN HERNANDEZ",
+   "camiseta": "26",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64806",
+   "Jug_Sale": "JOAQUIN NAHUEL AQUINO",
+   "CarneEntra": "61729",
+   "Jug_Entra": "ALFONSO CAMPOS",
+   "camiseta": "16",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "65657",
+   "Jug_Sale": "MATIAS OXANDABARAT",
+   "CarneEntra": "68601",
+   "Jug_Entra": "LUCIANO ANTONIO SILVERA",
+   "camiseta": "54",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "62963",
+   "Jug_Sale": "VALENTIN MANUEL RODRIGUEZ",
+   "CarneEntra": "69017",
+   "Jug_Entra": "FEDERICO ROBERTO RECOBA",
+   "camiseta": "49",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "65530",
+   "Jug_Sale": "JUAN PABLO ORREGO",
+   "CarneEntra": "68596",
+   "Jug_Entra": "MARCOS BRIAN",
+   "camiseta": "24",
+   "minutos": "11"
+  },
+  {
+   "CarneSale": "61729",
+   "Jug_Sale": "ALFONSO CAMPOS",
+   "CarneEntra": "65657",
+   "Jug_Entra": "MATIAS OXANDABARAT",
+   "camiseta": "28",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "64940",
+   "Jug_Sale": "FACUNDO EMANUEL PEGORRARO",
+   "CarneEntra": "61372",
+   "Jug_Entra": "BRYAN ALEXANDER BAGNASCO",
+   "camiseta": "82",
+   "minutos": "0"
+  },
+  {
+   "CarneSale": "68704",
+   "Jug_Sale": "FABIAN SANTINO LOPEZ",
+   "CarneEntra": "69206",
+   "Jug_Entra": "GUZMAN RUBIO",
+   "camiseta": "12",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "68967",
+   "Jug_Sale": "PABLO GABRIEL RODRIGUEZ",
+   "CarneEntra": "60548",
+   "Jug_Entra": "JOAQUIN SCHICKE",
+   "camiseta": "90",
+   "minutos": "63"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "67304",
+   "Jug_Sale": "JUAN MANUEL PAZOS",
+   "CarneEntra": "67233",
+   "Jug_Entra": "RENZO SAMUEL GENTILIO",
+   "camiseta": "11",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "57617",
+   "Jug_Sale": "JUAN IGNACIO ARRILLAGA",
+   "CarneEntra": "65479",
+   "Jug_Entra": "NAHUEL LUCIANO MONTENEGRO",
+   "camiseta": "19",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "69187",
+   "Jug_Sale": "MATEO ISMAEL CHARLE FAGUNDEZ",
+   "CarneEntra": "67236",
+   "Jug_Entra": "FACUNDO DUARTE",
+   "camiseta": "12",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "65681",
+   "Jug_Sale": "NICOLAS IGNACIO LARROSA",
+   "CarneEntra": "68621",
+   "Jug_Entra": "NICOLAS ONIRA DEVITTA",
+   "camiseta": "15",
+   "minutos": "84"
+  }
+ ],
+ "golesL": [],
+ "golesV": [
+  {
+   "carne": "68029",
+   "Nombre": "MARCO VERNASSA",
+   "minutos": "10",
+   "EnContra": "1"
+  },
+  {
+   "carne": "68029",
+   "Nombre": "MARCO VERNASSA",
+   "minutos": "12",
+   "EnContra": "1"
+  },
+  {
+   "carne": "68029",
+   "Nombre": "MARCO VERNASSA",
+   "minutos": "81",
+   "EnContra": "1"
+  },
+  {
+   "carne": "69074",
+   "Nombre": "LAUTARO NICOLAS RODRIGUEZ",
+   "minutos": "14",
+   "EnContra": "1"
+  },
+  {
+   "carne": "69074",
+   "Nombre": "LAUTARO NICOLAS RODRIGUEZ",
+   "minutos": "50",
+   "EnContra": "1"
+  },
+  {
+   "carne": "69187",
+   "Nombre": "MATEO ISMAEL CHARLE FAGUNDEZ",
+   "minutos": "60",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

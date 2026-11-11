@@ -1,0 +1,275 @@
+{
+ "id": "103881",
+ "categoria": "sub16",
+ "serie": "16O",
+ "fecha": 4,
+ "fechaHora": "2026-11-09 20:00:00",
+ "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
+ "local": "CLUB SEMINARIO",
+ "visitante": "OLD CHRISTIANS CLUB",
+ "gl": 0,
+ "gv": 3,
+ "detalle": {
+  "nro_partido": "293",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 16 ",
+  "categoria": "SUB 16 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB16 ORO",
+  "Cancha": "PARQUE CUPRA - CLUB SEMINARIO",
+  "Fecha_Inicio": "2026-11-09 21:30:00",
+  "Fecha_fin": "2026-11-09 21:30:00",
+  "Locatario": "CLUB SEMINARIO",
+  "goles_locatario": "0",
+  "puntos_locatario": "0",
+  "Visitante": "OLD CHRISTIANS CLUB",
+  "goles_visitante": "3",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "62569",
+   "Nombre": "MATIAS GABRIEL COLOMBO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "62803",
+   "Nombre": "FRANCISCO RIVA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "68247",
+   "Nombre": "MATTEO TARTAGLIA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "65112",
+   "Nombre": "JUAN MARTIN LALUZ",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "62626",
+   "Nombre": "ALFONSO MARQUISA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "65165",
+   "Nombre": "FRANCO TAMBORINI",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "65318",
+   "Nombre": "JUAN PEDRO DAMONTE",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "65365",
+   "Nombre": "JUAN VALENTI",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "65109",
+   "Nombre": "GONZALO ALEJANDRO CASSARINO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "65111",
+   "Nombre": "FELIPE VIOLA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "65173",
+   "Nombre": "ANTONIO XALAMBRI",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "61958",
+   "Nombre": "EUGENIO RESTANO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "65271",
+   "Nombre": "PEDRO JOSE LAPETINA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "61959",
+   "Nombre": "JUAN IGNACIO RISSO",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "60379",
+   "Nombre": "JUAN FRANCISCO MILA",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "62854",
+   "Nombre": "JUAN IGNACIO PIVEL",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "62229",
+   "Nombre": "FRANCISCO CARDOSO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "65264",
+   "Nombre": "JUANCRUZ STORACE",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "68039",
+   "Nombre": "SANTINO BORRAZAS",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "62093",
+   "Nombre": "JUAN MANUEL BELLO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "63325",
+   "Nombre": "JUAN MIGUEL REGUSCI",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "62091",
+   "Nombre": "ALEJO TELLERIA",
+   "camiseta": "17",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "65165",
+   "Jug_Sale": "FRANCO TAMBORINI",
+   "CarneEntra": "67340",
+   "Jug_Entra": "LUCAS CANDIA",
+   "camiseta": "21",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "62626",
+   "Jug_Sale": "ALFONSO MARQUISA",
+   "CarneEntra": "67353",
+   "Jug_Entra": "JUAN MARTIN BIDEGAIN",
+   "camiseta": "8",
+   "minutos": "96"
+  },
+  {
+   "CarneSale": "68247",
+   "Jug_Sale": "MATTEO TARTAGLIA",
+   "CarneEntra": "65165",
+   "Jug_Entra": "FRANCO TAMBORINI",
+   "camiseta": "18",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "62803",
+   "Jug_Sale": "FRANCISCO RIVA",
+   "CarneEntra": "62626",
+   "Jug_Entra": "ALFONSO MARQUISA",
+   "camiseta": "20",
+   "minutos": "70"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "62093",
+   "Jug_Sale": "JUAN MANUEL BELLO",
+   "CarneEntra": "65265",
+   "Jug_Entra": "BAUTISTA SHAW",
+   "camiseta": "46",
+   "minutos": "50"
+  },
+  {
+   "CarneSale": "63325",
+   "Jug_Sale": "JUAN MIGUEL REGUSCI",
+   "CarneEntra": "63326",
+   "Jug_Entra": "JOAQUIN MENAFRA",
+   "camiseta": "90",
+   "minutos": "40"
+  },
+  {
+   "CarneSale": "65264",
+   "Jug_Sale": "JUANCRUZ STORACE",
+   "CarneEntra": "67541",
+   "Jug_Entra": "ALEJO STORACE",
+   "camiseta": "19",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "62091",
+   "Jug_Sale": "ALEJO TELLERIA",
+   "CarneEntra": "61957",
+   "Jug_Entra": "JUAN BAUTISTA MARTINEZ",
+   "camiseta": "22",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "62093",
+   "Jug_Sale": "JUAN MANUEL BELLO",
+   "CarneEntra": "67543",
+   "Jug_Entra": "FRANCISCO MARTINEZ",
+   "camiseta": "47",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "62854",
+   "Jug_Sale": "JUAN IGNACIO PIVEL",
+   "CarneEntra": "62095",
+   "Jug_Entra": "BAUTISTA MAULION",
+   "camiseta": "17",
+   "minutos": "66"
+  }
+ ],
+ "golesL": [],
+ "golesV": [
+  {
+   "carne": "62093",
+   "Nombre": "JUAN MANUEL BELLO",
+   "minutos": "28",
+   "EnContra": "1"
+  },
+  {
+   "carne": "62093",
+   "Nombre": "JUAN MANUEL BELLO",
+   "minutos": "50",
+   "EnContra": "1"
+  },
+  {
+   "carne": "63325",
+   "Nombre": "JUAN MIGUEL REGUSCI",
+   "minutos": "20",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

@@ -1,0 +1,270 @@
+{
+ "id": "103900",
+ "categoria": "sub18",
+ "serie": "18A",
+ "fecha": 4,
+ "fechaHora": "2026-11-08 15:30:00",
+ "cancha": "CAMPO DEP. COLEGIO INGLES",
+ "local": "COLEGIO Y LICEO INGLES",
+ "visitante": "SANTA ELENA LAGOMAR",
+ "gl": 1,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "505",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 18 ",
+  "categoria": "SUB 18 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB18 AMISTAD",
+  "Cancha": "CAMPO DEP. COLEGIO INGLES",
+  "Fecha_Inicio": "2026-11-08 17:30:00",
+  "Fecha_fin": "2026-11-08 17:30:00",
+  "Locatario": "COLEGIO Y LICEO INGLES",
+  "goles_locatario": "1",
+  "puntos_locatario": "1",
+  "Visitante": "SANTA ELENA LAGOMAR",
+  "goles_visitante": "1",
+  "puntos_visitante": "1",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "64433",
+   "Nombre": "SANTIAGO LUCAS RODRIGUEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "64421",
+   "Nombre": "FAUSTINO SALVO",
+   "camiseta": "8",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "64437",
+   "Nombre": "MATEO NUÑEZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "65996",
+   "Nombre": "MATEO EYHERALDE",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "64235",
+   "Nombre": "PEDRO RAMOS",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "64733",
+   "Nombre": "MATEO ALMADA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "68008",
+   "Nombre": "LUCAS ANTONIO RUIZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "64512",
+   "Nombre": "LUCAS LLUIS",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "68237",
+   "Nombre": "SANTIAGO LEONCINI",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "60763",
+   "Nombre": "JUAN ALFONSO FREIRE",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "62971",
+   "Nombre": "FACUNDO GABRIEL FRAGA",
+   "camiseta": "5",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "57824",
+   "Nombre": "JOAQUIN DE AVILA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "60617",
+   "Nombre": "MATEO SCARONE",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "57817",
+   "Nombre": "SANTIAGO PALO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "57806",
+   "Nombre": "TOMAS ELIZEIRE",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "57807",
+   "Nombre": "BENJAMIN BARLOCCI",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "60632",
+   "Nombre": "LEANDRO FERNANDEZ",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "60633",
+   "Nombre": "MIRKO ANGEL IBARBURU",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "57813",
+   "Nombre": "BRUNO CAMADINI",
+   "camiseta": "92",
+   "Capitan": ""
+  },
+  {
+   "carne": "57797",
+   "Nombre": "JUAN CRUZ GÜENA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "60635",
+   "Nombre": "ALEX FERRER",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "68856",
+   "Nombre": "JUAN VALENTINO BERRUTTI",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "68008",
+   "Jug_Sale": "LUCAS ANTONIO RUIZ",
+   "CarneEntra": "57671",
+   "Jug_Entra": "VALENTINO SILVA",
+   "camiseta": "20",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68237",
+   "Jug_Sale": "SANTIAGO LEONCINI",
+   "CarneEntra": "67823",
+   "Jug_Entra": "FEDERICO ORTIZ",
+   "camiseta": "81",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64437",
+   "Jug_Sale": "MATEO NUÑEZ",
+   "CarneEntra": "60491",
+   "Jug_Entra": "TOMAS LENZI",
+   "camiseta": "13",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "60763",
+   "Jug_Sale": "JUAN ALFONSO FREIRE",
+   "CarneEntra": "68008",
+   "Jug_Entra": "LUCAS ANTONIO RUIZ",
+   "camiseta": "15",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "62971",
+   "Jug_Sale": "FACUNDO GABRIEL FRAGA",
+   "CarneEntra": "68237",
+   "Jug_Entra": "SANTIAGO LEONCINI",
+   "camiseta": "19",
+   "minutos": "82"
+  },
+  {
+   "CarneSale": "65996",
+   "Jug_Sale": "MATEO EYHERALDE",
+   "CarneEntra": "68234",
+   "Jug_Entra": "FELIPE ANDRES DOMINGUEZ",
+   "camiseta": "14",
+   "minutos": "87"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "68856",
+   "Jug_Sale": "JUAN VALENTINO BERRUTTI",
+   "CarneEntra": "65911",
+   "Jug_Entra": "SANTINO MERINGOLO",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "60635",
+   "Jug_Sale": "ALEX FERRER",
+   "CarneEntra": "69055",
+   "Jug_Entra": "DIEGO LEANDRO FERNANDEZ",
+   "camiseta": "94",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "60617",
+   "Jug_Sale": "MATEO SCARONE",
+   "CarneEntra": "60635",
+   "Jug_Entra": "ALEX FERRER",
+   "camiseta": "80",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "57806",
+   "Jug_Sale": "TOMAS ELIZEIRE",
+   "CarneEntra": "66424",
+   "Jug_Entra": "JUAN GUICHON",
+   "camiseta": "97",
+   "minutos": "72"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "67823",
+   "Nombre": "FEDERICO ORTIZ",
+   "minutos": "80",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "57797",
+   "Nombre": "JUAN CRUZ GÜENA",
+   "minutos": "90",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

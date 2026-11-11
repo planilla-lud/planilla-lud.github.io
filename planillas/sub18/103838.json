@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB18 CONFRATERNIDAD",
   "Cancha": "PARQUE CUPRA - CLUB SEMINARIO",
-  "Fecha_Inicio": "2026-11-08 17:00:00",
-  "Fecha_fin": "2026-11-08 17:00:00",
+  "Fecha_Inicio": "2026-11-08 17:30:00",
+  "Fecha_fin": "2026-11-08 17:30:00",
   "Locatario": "PLAYA HONDA UNIVERSITARIO",
   "goles_locatario": "1",
   "puntos_locatario": "3",
@@ -29,12 +29,232 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "62544",
+   "Nombre": "ISMAEL SARASUA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "62932",
+   "Nombre": "MARCIO EZEQUIEL SILVEIRA",
+   "camiseta": "37",
+   "Capitan": ""
+  },
+  {
+   "carne": "57574",
+   "Nombre": "BRUNO MACHADO",
+   "camiseta": "41",
+   "Capitan": ""
+  },
+  {
+   "carne": "60269",
+   "Nombre": "LUIS IGNACIO BALLEFIN",
+   "camiseta": "36",
+   "Capitan": ""
+  },
+  {
+   "carne": "59716",
+   "Nombre": "JUAN MANUEL BORCA",
+   "camiseta": "7",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "62148",
+   "Nombre": "MARTIN VILLAAMIL",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "61846",
+   "Nombre": "IGNACIO FERRARI",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "62550",
+   "Nombre": "LORENZO GREIF",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "63152",
+   "Nombre": "AGUSTIN LOPEZ",
+   "camiseta": "43",
+   "Capitan": ""
+  },
+  {
+   "carne": "62565",
+   "Nombre": "LORENZO RODRIGUEZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "66242",
+   "Nombre": "JUAN MANUEL RIVAS",
+   "camiseta": "50",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "56488",
+   "Nombre": "MATEO SICINIO SOLARI",
+   "camiseta": "1",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "60302",
+   "Nombre": "VALENTINO COLINET",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "58700",
+   "Nombre": "DIEGO FERNANDO PERONE",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "65427",
+   "Nombre": "MATEO MONROY",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "68783",
+   "Nombre": "TAMIR SCOCOZZA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "67152",
+   "Nombre": "THIAGO MONGE",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "68280",
+   "Nombre": "ERDIBE CASAMAYOR",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "62000",
+   "Nombre": "SANTINO DEL VALLE",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "67148",
+   "Nombre": "ANTHONY CRISTOPHE REYES",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "67151",
+   "Nombre": "FELIPE MEDEROS",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "68627",
+   "Nombre": "FRANCISCO MENDES",
+   "camiseta": "30",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "63152",
+   "Jug_Sale": "AGUSTIN LOPEZ",
+   "CarneEntra": "62959",
+   "Jug_Entra": "PIERO PISANO",
+   "camiseta": "5",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "60269",
+   "Jug_Sale": "LUIS IGNACIO BALLEFIN",
+   "CarneEntra": "62649",
+   "Jug_Entra": "MATIAS CANAVEIS",
+   "camiseta": "31",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66242",
+   "Jug_Sale": "JUAN MANUEL RIVAS",
+   "CarneEntra": "64497",
+   "Jug_Entra": "JUAN IGNACIO ZABALA",
+   "camiseta": "9",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "57574",
+   "Jug_Sale": "BRUNO MACHADO",
+   "CarneEntra": "61717",
+   "Jug_Entra": "JUAN MARTIN SAAVEDRA",
+   "camiseta": "2",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "62565",
+   "Jug_Sale": "LORENZO RODRIGUEZ",
+   "CarneEntra": "63152",
+   "Jug_Entra": "AGUSTIN LOPEZ",
+   "camiseta": "13",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "62550",
+   "Jug_Sale": "LORENZO GREIF",
+   "CarneEntra": "66242",
+   "Jug_Entra": "JUAN MANUEL RIVAS",
+   "camiseta": "50",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "66242",
+   "Jug_Sale": "JUAN MANUEL RIVAS",
+   "CarneEntra": "60269",
+   "Jug_Entra": "LUIS IGNACIO BALLEFIN",
+   "camiseta": "36",
+   "minutos": "88"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "68627",
+   "Jug_Sale": "FRANCISCO MENDES",
+   "CarneEntra": "67783",
+   "Jug_Entra": "NAHUEL MONGE",
+   "camiseta": "25",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "60302",
+   "Jug_Sale": "VALENTINO COLINET",
+   "CarneEntra": "68627",
+   "Jug_Entra": "FRANCISCO MENDES",
+   "camiseta": "30",
+   "minutos": "85"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "62932",
+   "Nombre": "MARCIO EZEQUIEL SILVEIRA",
+   "minutos": "84",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
- "expulsadosV": []
+ "expulsadosV": [
+  {
+   "Nombre": "MATEO MONROY",
+   "observaciones": ""
+  }
+ ]
 }

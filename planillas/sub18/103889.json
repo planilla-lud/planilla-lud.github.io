@@ -1,0 +1,267 @@
+{
+ "id": "103889",
+ "categoria": "sub18",
+ "serie": "18C",
+ "fecha": 4,
+ "fechaHora": "2026-11-08 15:30:00",
+ "cancha": "COMPLEJO LOS ROJOS",
+ "local": "LATINO FUTBOL CLUB",
+ "visitante": "SEMINARIO UNIVERSITARIO",
+ "gl": 3,
+ "gv": 0,
+ "detalle": {
+  "nro_partido": "444",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 18 ",
+  "categoria": "SUB 18 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB18 COMPETENCIA",
+  "Cancha": "COMPLEJO LOS ROJOS",
+  "Fecha_Inicio": "2026-11-08 17:40:00",
+  "Fecha_fin": "2026-11-08 17:40:00",
+  "Locatario": "LATINO FUTBOL CLUB",
+  "goles_locatario": "3",
+  "puntos_locatario": "3",
+  "Visitante": "SEMINARIO UNIVERSITARIO",
+  "goles_visitante": "0",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "68615",
+   "Nombre": "MATIAS EZEQUIEL PROFUMO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "62679",
+   "Nombre": "JUAN VICENTE GRISTO",
+   "camiseta": "4",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "58826",
+   "Nombre": "FACUNDO SOTO",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "58398",
+   "Nombre": "PEDRO LA ROSA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "60065",
+   "Nombre": "CIRO LENCI",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "58832",
+   "Nombre": "IVAN PFEIFENKOPF",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "67190",
+   "Nombre": "FRANCISCO JONES",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "67202",
+   "Nombre": "MANUEL IGNACIO NUÑEZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "60071",
+   "Nombre": "MANUEL DENIS",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "67196",
+   "Nombre": "MANUEL SOUZA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "67200",
+   "Nombre": "TOMAS DEGRANDI",
+   "camiseta": "49",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "64440",
+   "Nombre": "JUAN MANUEL CHIRIBAO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "62031",
+   "Nombre": "JUAN PEDRO GARCIA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "58835",
+   "Nombre": "MATEO NAOR",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "67728",
+   "Nombre": "EMILIANO MASSAFERRO",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "62032",
+   "Nombre": "PEDRO NOVOA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "63297",
+   "Nombre": "ALFONSO MONTESERIN",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "58834",
+   "Nombre": "FEDERICO ELISSALDE",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "68243",
+   "Nombre": "APARICIO OLIVERA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "59084",
+   "Nombre": "JUAN CRUZ ALVAREZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "62034",
+   "Nombre": "FELIPE ALEJANDRO MORALES",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "63299",
+   "Nombre": "JOAQUIN SANTIAGO",
+   "camiseta": "9",
+   "Capitan": "(C)"
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "67190",
+   "Jug_Sale": "FRANCISCO JONES",
+   "CarneEntra": "67195",
+   "Jug_Entra": "NICOLAS CERNADAS",
+   "camiseta": "27",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58832",
+   "Jug_Sale": "IVAN PFEIFENKOPF",
+   "CarneEntra": "67192",
+   "Jug_Entra": "JUAN FELIPE CORRADI",
+   "camiseta": "22",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "60071",
+   "Jug_Sale": "MANUEL DENIS",
+   "CarneEntra": "67194",
+   "Jug_Entra": "TOMAS CORREA",
+   "camiseta": "21",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "67202",
+   "Jug_Sale": "MANUEL IGNACIO NUÑEZ",
+   "CarneEntra": "67198",
+   "Jug_Entra": "MATIAS GERMAN COLOTUZZO",
+   "camiseta": "10",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "67200",
+   "Jug_Sale": "TOMAS DEGRANDI",
+   "CarneEntra": "67558",
+   "Jug_Entra": "LORENZO CASTRO",
+   "camiseta": "3",
+   "minutos": "84"
+  },
+  {
+   "CarneSale": "60065",
+   "Jug_Sale": "CIRO LENCI",
+   "CarneEntra": "67560",
+   "Jug_Entra": "FEDERICO RODRIGUEZ",
+   "camiseta": "23",
+   "minutos": "84"
+  },
+  {
+   "CarneSale": "58398",
+   "Jug_Sale": "PEDRO LA ROSA",
+   "CarneEntra": "67205",
+   "Jug_Entra": "DAMIAN ROSENBAUM",
+   "camiseta": "14",
+   "minutos": "84"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "68243",
+   "Jug_Sale": "APARICIO OLIVERA",
+   "CarneEntra": "63122",
+   "Jug_Entra": "PEDRO SANCHEZ",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "63299",
+   "Jug_Sale": "JOAQUIN SANTIAGO",
+   "CarneEntra": "63120",
+   "Jug_Entra": "MANUEL LORENZO",
+   "camiseta": "15",
+   "minutos": "58"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "60065",
+   "Nombre": "CIRO LENCI",
+   "minutos": "55",
+   "EnContra": "0"
+  },
+  {
+   "carne": "62679",
+   "Nombre": "JUAN VICENTE GRISTO",
+   "minutos": "13",
+   "EnContra": "0"
+  },
+  {
+   "carne": "67200",
+   "Nombre": "TOMAS DEGRANDI",
+   "minutos": "29",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

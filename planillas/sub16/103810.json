@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB16 COMPETENCIA",
   "Cancha": "SCUOLA ITALIANA",
-  "Fecha_Inicio": "2026-11-08 15:00:00",
-  "Fecha_fin": "2026-11-08 15:00:00",
+  "Fecha_Inicio": "2026-11-08 15:20:00",
+  "Fecha_fin": "2026-11-08 15:20:00",
   "Locatario": "SCUOLA PALERMO",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,209 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "64377",
+   "Nombre": "LUCAS DI MAURO",
+   "camiseta": "13",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "60475",
+   "Nombre": "AGUSTIN ANTELO",
+   "camiseta": "56",
+   "Capitan": ""
+  },
+  {
+   "carne": "60764",
+   "Nombre": "FACUNDO CARAMBULA",
+   "camiseta": "37",
+   "Capitan": ""
+  },
+  {
+   "carne": "64380",
+   "Nombre": "FRANCO MOLFINO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "64381",
+   "Nombre": "FACUNDO POTENZA",
+   "camiseta": "79",
+   "Capitan": ""
+  },
+  {
+   "carne": "68376",
+   "Nombre": "JUAN IGNACIO MUÑOZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "65718",
+   "Nombre": "VICENTE VALENTIN VIERA",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "61927",
+   "Nombre": "SANTIAGO BRUN",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "61437",
+   "Nombre": "MARTIN BREGSTEIN",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "65887",
+   "Nombre": "FABRIZIO BISOGNO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "65610",
+   "Nombre": "LUCA GONZALEZ",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "68271",
+   "Nombre": "EMILIANO KLEIMAN",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "67220",
+   "Nombre": "FERNANDO TROSTCHANSKY",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "69109",
+   "Nombre": "ILAN PROBST",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "63971",
+   "Nombre": "DAN BRONSTEIN",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "63970",
+   "Nombre": "TOBIAS EIDELMAN",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "68219",
+   "Nombre": "FELIPE VALENTIN CANIAS",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "66959",
+   "Nombre": "MATIAS RODY ALBOJER",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "62775",
+   "Nombre": "ALAN BARILAS",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "65326",
+   "Nombre": "TOMAS PIVEN",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "65775",
+   "Nombre": "FACUNDO KOLENDER",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "66922",
+   "Nombre": "ALAN BENCHOA",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "65610",
+   "Jug_Sale": "LUCA GONZALEZ",
+   "CarneEntra": "65602",
+   "Jug_Entra": "MATIAS GESTO",
+   "camiseta": "16",
+   "minutos": "51"
+  },
+  {
+   "CarneSale": "64381",
+   "Jug_Sale": "FACUNDO POTENZA",
+   "CarneEntra": "68377",
+   "Jug_Entra": "THIAN BAUTISTA MORALES",
+   "camiseta": "35",
+   "minutos": "51"
+  },
+  {
+   "CarneSale": "61437",
+   "Jug_Sale": "MARTIN BREGSTEIN",
+   "CarneEntra": "64862",
+   "Jug_Entra": "THIAGO PORTEIRO",
+   "camiseta": "47",
+   "minutos": "51"
+  },
+  {
+   "CarneSale": "61927",
+   "Jug_Sale": "SANTIAGO BRUN",
+   "CarneEntra": "64160",
+   "Jug_Entra": "ALFONSO BROCH",
+   "camiseta": "23",
+   "minutos": "74"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "66922",
+   "Jug_Sale": "ALAN BENCHOA",
+   "CarneEntra": "66923",
+   "Jug_Entra": "SANTIAGO CHEBI",
+   "camiseta": "3",
+   "minutos": "25"
+  },
+  {
+   "CarneSale": "66923",
+   "Jug_Sale": "SANTIAGO CHEBI",
+   "CarneEntra": "66922",
+   "Jug_Entra": "ALAN BENCHOA",
+   "camiseta": "10",
+   "minutos": "45"
+  }
+ ],
  "golesL": [],
- "golesV": [],
+ "golesV": [
+  {
+   "carne": "62775",
+   "Nombre": "ALAN BARILAS",
+   "minutos": "72",
+   "EnContra": "1"
+  },
+  {
+   "carne": "65775",
+   "Nombre": "FACUNDO KOLENDER",
+   "minutos": "35",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

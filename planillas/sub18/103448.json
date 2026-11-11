@@ -3,7 +3,7 @@
  "categoria": "sub18",
  "serie": "18B",
  "fecha": 3,
- "fechaHora": "2026-10-29 20:00:00",
+ "fechaHora": "2026-10-29 00:00:00",
  "cancha": "COMPLEJO LA MASIA",
  "local": "OLD WOODLANDS CLUB",
  "visitante": "ANGLO SCHOOL UNIVERSITARIO",
@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB18 BRONCE",
   "Cancha": "COMPLEJO LA MASIA",
-  "Fecha_Inicio": "2026-10-29 21:30:00",
-  "Fecha_fin": "2026-10-29 21:30:00",
+  "Fecha_Inicio": "2026-10-29 22:00:00",
+  "Fecha_fin": "2026-10-29 22:00:00",
   "Locatario": "OLD WOODLANDS CLUB",
   "goles_locatario": "2",
   "puntos_locatario": "1",
@@ -29,12 +29,259 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "titularesL": [
+  {
+   "carne": "63283",
+   "Nombre": "NICOLAS PINTOS",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "64676",
+   "Nombre": "PEDRO VECHIO",
+   "camiseta": "98",
+   "Capitan": ""
+  },
+  {
+   "carne": "62248",
+   "Nombre": "FRANCISCO FERRARO",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "68142",
+   "Nombre": "MAURO PIGNANELLI",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "62205",
+   "Nombre": "FRANCISCO AGUIRRE",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "60819",
+   "Nombre": "RODRIGO DI BELLO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "62184",
+   "Nombre": "JUAN BODEGA",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "62378",
+   "Nombre": "SANTINO FINOZZI",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "62384",
+   "Nombre": "MATIAS FALLINI",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "62204",
+   "Nombre": "JUAN MARTIN GALINDEZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "62195",
+   "Nombre": "FRANCO MORELLI",
+   "camiseta": "29",
+   "Capitan": "(C)"
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "66339",
+   "Nombre": "MATEO MARCOS FAZIO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "60481",
+   "Nombre": "IGNACIO MARTIN GOMEZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "69156",
+   "Nombre": "LUCAS OREILLY",
+   "camiseta": "48",
+   "Capitan": ""
+  },
+  {
+   "carne": "63040",
+   "Nombre": "LORENZO PEREIRA DA FONSECA",
+   "camiseta": "3",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "60487",
+   "Nombre": "SANTIAGO LUVIZIO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "60337",
+   "Nombre": "MATEO GLISENTI",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "66732",
+   "Nombre": "FACUNDO GALLINO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "66778",
+   "Nombre": "SANTIAGO MACEDO",
+   "camiseta": "50",
+   "Capitan": ""
+  },
+  {
+   "carne": "67128",
+   "Nombre": "FRANCISCO VERNASSA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "60554",
+   "Nombre": "JUAN PATRICIO MOSCA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "64236",
+   "Nombre": "NICOLAS KRUL",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "68142",
+   "Jug_Sale": "MAURO PIGNANELLI",
+   "CarneEntra": "60450",
+   "Jug_Entra": "MATEO AURRECOCHEA",
+   "camiseta": "0",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "62378",
+   "Jug_Sale": "SANTINO FINOZZI",
+   "CarneEntra": "66128",
+   "Jug_Entra": "FRANCISCO MARTINEZ",
+   "camiseta": "13",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "62384",
+   "Jug_Sale": "MATIAS FALLINI",
+   "CarneEntra": "62189",
+   "Jug_Entra": "FELIPE MONTERROSO",
+   "camiseta": "20",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64676",
+   "Jug_Sale": "PEDRO VECHIO",
+   "CarneEntra": "62191",
+   "Jug_Entra": "NICOLAS PIRIZ",
+   "camiseta": "27",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "62184",
+   "Jug_Sale": "JUAN BODEGA",
+   "CarneEntra": "62206",
+   "Jug_Entra": "MATEO ALONSO",
+   "camiseta": "60",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "62248",
+   "Jug_Sale": "FRANCISCO FERRARO",
+   "CarneEntra": "63669",
+   "Jug_Entra": "FRANCISCO ROMERO",
+   "camiseta": "11",
+   "minutos": "85"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "67128",
+   "Jug_Sale": "FRANCISCO VERNASSA",
+   "CarneEntra": "68430",
+   "Jug_Entra": "ENZO MIRABALLES",
+   "camiseta": "77",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "69156",
+   "Jug_Sale": "LUCAS OREILLY",
+   "CarneEntra": "60461",
+   "Jug_Entra": "BAUTISTA LOPEZ",
+   "camiseta": "15",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "63040",
+   "Jug_Sale": "LORENZO PEREIRA DA FONSECA",
+   "CarneEntra": "60840",
+   "Jug_Entra": "EZEQUIEL MORALES",
+   "camiseta": "51",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "60481",
+   "Jug_Sale": "IGNACIO MARTIN GOMEZ",
+   "CarneEntra": "67131",
+   "Jug_Entra": "JAVIER CARBAJALES",
+   "camiseta": "12",
+   "minutos": "65"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "60819",
+   "Nombre": "RODRIGO DI BELLO",
+   "minutos": "93",
+   "EnContra": "0"
+  },
+  {
+   "carne": "62195",
+   "Nombre": "FRANCO MORELLI",
+   "minutos": "9",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "64236",
+   "Nombre": "NICOLAS KRUL",
+   "minutos": "83",
+   "EnContra": "1"
+  },
+  {
+   "carne": "66732",
+   "Nombre": "FACUNDO GALLINO",
+   "minutos": "44",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "JUAN MARTIN GALINDEZ",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

@@ -1,0 +1,287 @@
+{
+ "id": "103894",
+ "categoria": "sub18",
+ "serie": "18P",
+ "fecha": 4,
+ "fechaHora": "2026-11-06 20:00:00",
+ "cancha": "COMPLEJO NORTHFIELD",
+ "local": "DEPORTIVO MORON",
+ "visitante": "HCA UNIVERSITARIO",
+ "gl": 3,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "389",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 18 ",
+  "categoria": "SUB 18 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB18 PLATA",
+  "Cancha": "COMPLEJO NORTHFIELD",
+  "Fecha_Inicio": "2026-11-06 21:50:00",
+  "Fecha_fin": "2026-11-06 21:50:00",
+  "Locatario": "DEPORTIVO MORON",
+  "goles_locatario": "3",
+  "puntos_locatario": "3",
+  "Visitante": "HCA UNIVERSITARIO",
+  "goles_visitante": "1",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "61996",
+   "Nombre": "JUAN MATEO MAGUNA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "58771",
+   "Nombre": "ALEJO RODRIGUEZ",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "66249",
+   "Nombre": "FACUNDO DIAZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "57779",
+   "Nombre": "NICOLAS LLANES",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "63643",
+   "Nombre": "MATEO FAULORD",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "61144",
+   "Nombre": "FACUNDO LUIS D’AMICO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "57780",
+   "Nombre": "DIEGO BETTINELLI",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "57790",
+   "Nombre": "FELIPE VALENTIN GARI",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "59260",
+   "Nombre": "ALFONSO VERDUN",
+   "camiseta": "76",
+   "Capitan": ""
+  },
+  {
+   "carne": "64944",
+   "Nombre": "VALENTINO DECIA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "57778",
+   "Nombre": "MANUEL CAMPOS",
+   "camiseta": "14",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "64610",
+   "Nombre": "JUAN PEDRO CASANOVA",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "64613",
+   "Nombre": "FELIPE DE MEDINA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "64607",
+   "Nombre": "FACUNDO ZEITOUNLIAN",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "64598",
+   "Nombre": "JOAQUIN MANUEL VAZQUEZ",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "65374",
+   "Nombre": "JUAN MATIAS PEREIRA",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "66079",
+   "Nombre": "SANTIAGO CROSSA",
+   "camiseta": "13",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "64606",
+   "Nombre": "FACUNDO FEDERICO PATTETA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "64617",
+   "Nombre": "MATEO EMILIANO MARRERO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "68164",
+   "Nombre": "FACUNDO RAMOS",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "64918",
+   "Nombre": "FACUNDO JESUS CESAR",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "64602",
+   "Nombre": "JOAQUIN ALEJANDRO RODRIGUEZ",
+   "camiseta": "23",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "66249",
+   "Jug_Sale": "FACUNDO DIAZ",
+   "CarneEntra": "61178",
+   "Jug_Entra": "BENJAMIN OLIVERA",
+   "camiseta": "30",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "57778",
+   "Jug_Sale": "MANUEL CAMPOS",
+   "CarneEntra": "57774",
+   "Jug_Entra": "BRUNO SICA",
+   "camiseta": "2",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "57790",
+   "Jug_Sale": "FELIPE VALENTIN GARI",
+   "CarneEntra": "68658",
+   "Jug_Entra": "SANTINO GOMEZ",
+   "camiseta": "20",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61144",
+   "Jug_Sale": "FACUNDO LUIS D’AMICO",
+   "CarneEntra": "68258",
+   "Jug_Entra": "MAXIMILIANO CUBA",
+   "camiseta": "21",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "59260",
+   "Jug_Sale": "ALFONSO VERDUN",
+   "CarneEntra": "68022",
+   "Jug_Entra": "FACUNDO SEBASTIAN VILLAGRAN",
+   "camiseta": "26",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "64944",
+   "Jug_Sale": "VALENTINO DECIA",
+   "CarneEntra": "66813",
+   "Jug_Entra": "EXCER JOSE MONTILLA",
+   "camiseta": "13",
+   "minutos": "82"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "68164",
+   "Jug_Sale": "FACUNDO RAMOS",
+   "CarneEntra": "56771",
+   "Jug_Entra": "SANTIAGO MARTIN ARREGIN",
+   "camiseta": "73",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64602",
+   "Jug_Sale": "JOAQUIN ALEJANDRO RODRIGUEZ",
+   "CarneEntra": "68166",
+   "Jug_Entra": "RODRIGO GARCIA",
+   "camiseta": "18",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "64613",
+   "Jug_Sale": "FELIPE DE MEDINA",
+   "CarneEntra": "64603",
+   "Jug_Entra": "MANUEL MEDERO",
+   "camiseta": "41",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "64598",
+   "Jug_Sale": "JOAQUIN MANUEL VAZQUEZ",
+   "CarneEntra": "65724",
+   "Jug_Entra": "THIAGO ALTEZ",
+   "camiseta": "5",
+   "minutos": "75"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "57779",
+   "Nombre": "NICOLAS LLANES",
+   "minutos": "72",
+   "EnContra": "0"
+  },
+  {
+   "carne": "64944",
+   "Nombre": "VALENTINO DECIA",
+   "minutos": "34",
+   "EnContra": "0"
+  },
+  {
+   "carne": "68258",
+   "Nombre": "MAXIMILIANO CUBA",
+   "minutos": "53",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "64602",
+   "Nombre": "JOAQUIN ALEJANDRO RODRIGUEZ",
+   "minutos": "14",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": [
+  {
+   "Nombre": "SANTIAGO CROSSA",
+   "observaciones": ""
+  }
+ ]
+}

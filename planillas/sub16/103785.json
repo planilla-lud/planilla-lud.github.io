@@ -8,7 +8,7 @@
  "local": "PERRY SEXTA UNIVERSITARIO",
  "visitante": "NACIONAL UNIVERSITARIO",
  "gl": 1,
- "gv": 5,
+ "gv": 6,
  "detalle": {
   "nro_partido": "377",
   "temporada": "RAFAEL \"CANARIO\" GARCÍA",
@@ -18,23 +18,267 @@
   "rueda": "3",
   "Divisional": "SUB16 COMPETENCIA",
   "Cancha": "MICROSULES",
-  "Fecha_Inicio": "2026-11-08 15:00:00",
-  "Fecha_fin": "2026-11-08 15:00:00",
+  "Fecha_Inicio": "2026-11-08 15:15:00",
+  "Fecha_fin": "2026-11-08 15:15:00",
   "Locatario": "PERRY SEXTA UNIVERSITARIO",
   "goles_locatario": "1",
   "puntos_locatario": "0",
   "Visitante": "NACIONAL UNIVERSITARIO",
-  "goles_visitante": "5",
+  "goles_visitante": "6",
   "puntos_visitante": "3",
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "67663",
+   "Nombre": "NICOLAS MATEO SANTA MARIA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "69124",
+   "Nombre": "FACUNDO MARTIN VARELA",
+   "camiseta": "50",
+   "Capitan": ""
+  },
+  {
+   "carne": "68077",
+   "Nombre": "FRANCO BELLINI",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "68185",
+   "Nombre": "LUCIANO CASTRO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "67659",
+   "Nombre": "MARTIN MAGALLANES",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "68813",
+   "Nombre": "THIAGO FRANCOIS ALFONSO",
+   "camiseta": "53",
+   "Capitan": ""
+  },
+  {
+   "carne": "64466",
+   "Nombre": "BENSHAMIN DA ROSA",
+   "camiseta": "42",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "65755",
+   "Nombre": "LAUTARO EZEQUIEL VELAZQUEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "68087",
+   "Nombre": "NAHUEL EZEQUIEL ALFONSO",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "68085",
+   "Nombre": "ZIRALDO TECHERA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "68082",
+   "Nombre": "RAMIRO MARTIN SILVA",
+   "camiseta": "8",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "64544",
+   "Nombre": "JOAQUIN SEBASTIAN MEDINA",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "62764",
+   "Nombre": "PATRICIO TADEO LARROSA",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "64841",
+   "Nombre": "THIAGO DOMINGUEZ",
+   "camiseta": "67",
+   "Capitan": ""
+  },
+  {
+   "carne": "69024",
+   "Nombre": "NAHUEL ORTIZ",
+   "camiseta": "56",
+   "Capitan": ""
+  },
+  {
+   "carne": "63362",
+   "Nombre": "TOMAS VALENTINO MARRONE",
+   "camiseta": "45",
+   "Capitan": ""
+  },
+  {
+   "carne": "60538",
+   "Nombre": "RODRIGO BIANCO",
+   "camiseta": "63",
+   "Capitan": ""
+  },
+  {
+   "carne": "67314",
+   "Nombre": "SEBASTIAN FALERO",
+   "camiseta": "61",
+   "Capitan": ""
+  },
+  {
+   "carne": "64528",
+   "Nombre": "SANTIAGO COPATTI",
+   "camiseta": "43",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "67313",
+   "Nombre": "LAUTARO SALVARREY",
+   "camiseta": "66",
+   "Capitan": ""
+  },
+  {
+   "carne": "69025",
+   "Nombre": "BRUNO MELIAN",
+   "camiseta": "57",
+   "Capitan": ""
+  },
+  {
+   "carne": "64496",
+   "Nombre": "NICOLAS MARTINEZ",
+   "camiseta": "15",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "68082",
+   "Jug_Sale": "RAMIRO MARTIN SILVA",
+   "CarneEntra": "65998",
+   "Jug_Entra": "LIAN SUAREZ",
+   "camiseta": "30",
+   "minutos": "40"
+  },
+  {
+   "CarneSale": "68077",
+   "Jug_Sale": "FRANCO BELLINI",
+   "CarneEntra": "68086",
+   "Jug_Entra": "EZEQUIEL RODRIGUEZ",
+   "camiseta": "52",
+   "minutos": "24"
+  },
+  {
+   "CarneSale": "69124",
+   "Jug_Sale": "FACUNDO MARTIN VARELA",
+   "CarneEntra": "68910",
+   "Jug_Entra": "ARAGON EZEQUIEL APARICIO",
+   "camiseta": "19",
+   "minutos": "24"
+  },
+  {
+   "CarneSale": "68085",
+   "Jug_Sale": "ZIRALDO TECHERA",
+   "CarneEntra": "69124",
+   "Jug_Entra": "FACUNDO MARTIN VARELA",
+   "camiseta": "50",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "68910",
+   "Jug_Sale": "ARAGON EZEQUIEL APARICIO",
+   "CarneEntra": "68082",
+   "Jug_Entra": "RAMIRO MARTIN SILVA",
+   "camiseta": "8",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "67659",
+   "Jug_Sale": "MARTIN MAGALLANES",
+   "CarneEntra": "68085",
+   "Jug_Entra": "ZIRALDO TECHERA",
+   "camiseta": "17",
+   "minutos": "69"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "67314",
+   "Jug_Sale": "SEBASTIAN FALERO",
+   "CarneEntra": "65792",
+   "Jug_Entra": "JOAQUIN NICOLAS RECAETA",
+   "camiseta": "63",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "62764",
+   "Jug_Sale": "PATRICIO TADEO LARROSA",
+   "CarneEntra": "65250",
+   "Jug_Entra": "MARIANO ESTRELLA",
+   "camiseta": "44",
+   "minutos": "45"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "68086",
+   "Nombre": "EZEQUIEL RODRIGUEZ",
+   "minutos": "66",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "64496",
+   "Nombre": "NICOLAS MARTINEZ",
+   "minutos": "4",
+   "EnContra": "1"
+  },
+  {
+   "carne": "64496",
+   "Nombre": "NICOLAS MARTINEZ",
+   "minutos": "50",
+   "EnContra": "1"
+  },
+  {
+   "carne": "64496",
+   "Nombre": "NICOLAS MARTINEZ",
+   "minutos": "80",
+   "EnContra": "1"
+  },
+  {
+   "carne": "67313",
+   "Nombre": "LAUTARO SALVARREY",
+   "minutos": "25",
+   "EnContra": "1"
+  },
+  {
+   "carne": "67314",
+   "Nombre": "SEBASTIAN FALERO",
+   "minutos": "75",
+   "EnContra": "1"
+  },
+  {
+   "carne": "69025",
+   "Nombre": "BRUNO MELIAN",
+   "minutos": "13",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

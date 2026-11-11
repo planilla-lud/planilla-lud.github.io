@@ -1,0 +1,301 @@
+{
+ "id": "103885",
+ "categoria": "sub18",
+ "serie": "18B",
+ "fecha": 4,
+ "fechaHora": "2026-11-08 15:30:00",
+ "cancha": "COMPLEJO JUAN XXIII",
+ "local": "CIRCULO DE TENIS MONTEVIDEO",
+ "visitante": "SAN PABLO UNIVERSITARIO",
+ "gl": 3,
+ "gv": 2,
+ "detalle": {
+  "nro_partido": "416",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 18 ",
+  "categoria": "SUB 18 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB18 BRONCE",
+  "Cancha": "COMPLEJO JUAN XXIII",
+  "Fecha_Inicio": "2026-11-08 17:30:00",
+  "Fecha_fin": "2026-11-08 17:30:00",
+  "Locatario": "CIRCULO DE TENIS MONTEVIDEO",
+  "goles_locatario": "3",
+  "puntos_locatario": "3",
+  "Visitante": "SAN PABLO UNIVERSITARIO",
+  "goles_visitante": "2",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "60419",
+   "Nombre": "JOAQUIN EMANUEL CASALAS",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "57625",
+   "Nombre": "LORENZO MORANDI",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "68099",
+   "Nombre": "ALAN JEAN ROSANO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "65181",
+   "Nombre": "VALENTIN MAÑANA",
+   "camiseta": "2",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "57630",
+   "Nombre": "FRANCISCO PONCE",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "63013",
+   "Nombre": "VALENTIN CARBALLO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "68498",
+   "Nombre": "MATIAS MENDOZA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "60424",
+   "Nombre": "AGUSTIN NICOLAS CASALAS",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "63077",
+   "Nombre": "MATIAS SALABERRI",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "66095",
+   "Nombre": "MATIAS VILLAR",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "59362",
+   "Nombre": "ALEJO SILVEIRA",
+   "camiseta": "8",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "64484",
+   "Nombre": "PABLO RODRIGUEZ",
+   "camiseta": "1",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "64488",
+   "Nombre": "JOAQUIN HECTOR CERRUDO",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "65436",
+   "Nombre": "SANTINO ROMAGNOLI",
+   "camiseta": "92",
+   "Capitan": ""
+  },
+  {
+   "carne": "67402",
+   "Nombre": "MARTINO FRANCESCOLI",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "60280",
+   "Nombre": "MATIAS MENDOZA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "64490",
+   "Nombre": "FACUNDO MORENO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "64823",
+   "Nombre": "SAID YAPOR",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "65764",
+   "Nombre": "JOAQUIN CARRASCO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "63701",
+   "Nombre": "IGNACIO DANGLADA",
+   "camiseta": "69",
+   "Capitan": ""
+  },
+  {
+   "carne": "64826",
+   "Nombre": "SEBASTIAN DANIEL URETA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "64487",
+   "Nombre": "HUGO FELIPE CASAL",
+   "camiseta": "88",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "59362",
+   "Jug_Sale": "ALEJO SILVEIRA",
+   "CarneEntra": "61379",
+   "Jug_Entra": "SEBASTIAN DEL CAMPO",
+   "camiseta": "3",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "57625",
+   "Jug_Sale": "LORENZO MORANDI",
+   "CarneEntra": "57623",
+   "Jug_Entra": "FABRICIO MACHADO",
+   "camiseta": "81",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "66095",
+   "Jug_Sale": "MATIAS VILLAR",
+   "CarneEntra": "60343",
+   "Jug_Entra": "FRANCISCO GORGA",
+   "camiseta": "7",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "63013",
+   "Jug_Sale": "VALENTIN CARBALLO",
+   "CarneEntra": "60544",
+   "Jug_Entra": "SANTIAGO CABALLERO",
+   "camiseta": "19",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "68099",
+   "Jug_Sale": "ALAN JEAN ROSANO",
+   "CarneEntra": "66326",
+   "Jug_Entra": "LUCAS DIEGO GONZALEZ",
+   "camiseta": "20",
+   "minutos": "87"
+  },
+  {
+   "CarneSale": "63077",
+   "Jug_Sale": "MATIAS SALABERRI",
+   "CarneEntra": "65992",
+   "Jug_Entra": "MATEO RODRIGUEZ",
+   "camiseta": "21",
+   "minutos": "87"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "64823",
+   "Jug_Sale": "SAID YAPOR",
+   "CarneEntra": "68042",
+   "Jug_Entra": "OCTAVIO ESQUIBEL",
+   "camiseta": "30",
+   "minutos": "41"
+  },
+  {
+   "CarneSale": "65436",
+   "Jug_Sale": "SANTINO ROMAGNOLI",
+   "CarneEntra": "68885",
+   "Jug_Entra": "TOMAS GAMBETTA",
+   "camiseta": "11",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "67402",
+   "Jug_Sale": "MARTINO FRANCESCOLI",
+   "CarneEntra": "64825",
+   "Jug_Entra": "LORENZO MARTINEZ",
+   "camiseta": "5",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "64487",
+   "Jug_Sale": "HUGO FELIPE CASAL",
+   "CarneEntra": "64486",
+   "Jug_Entra": "SANTINO OROÑA",
+   "camiseta": "9",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "63701",
+   "Jug_Sale": "IGNACIO DANGLADA",
+   "CarneEntra": "67400",
+   "Jug_Entra": "JOAQUIN PEÑA",
+   "camiseta": "15",
+   "minutos": "79"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "60424",
+   "Nombre": "AGUSTIN NICOLAS CASALAS",
+   "minutos": "56",
+   "EnContra": "0"
+  },
+  {
+   "carne": "60544",
+   "Nombre": "SANTIAGO CABALLERO",
+   "minutos": "85",
+   "EnContra": "0"
+  },
+  {
+   "carne": "61379",
+   "Nombre": "SEBASTIAN DEL CAMPO",
+   "minutos": "54",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "63701",
+   "Nombre": "IGNACIO DANGLADA",
+   "minutos": "21",
+   "EnContra": "1"
+  },
+  {
+   "carne": "64490",
+   "Nombre": "FACUNDO MORENO",
+   "minutos": "53",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": [
+  {
+   "Nombre": "JOAQUIN HECTOR CERRUDO",
+   "observaciones": ""
+  }
+ ]
+}

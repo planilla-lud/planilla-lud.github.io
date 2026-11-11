@@ -1,0 +1,265 @@
+{
+ "id": "103890",
+ "categoria": "sub16",
+ "serie": "16C",
+ "fecha": 4,
+ "fechaHora": "2026-11-08 13:30:00",
+ "cancha": "COMPLEJO SCHIAFFINO (LAVALLEJA",
+ "local": "NAUTICO CARRASCO Y PUNTA GORDA",
+ "visitante": "SEMINARIO UNIVERSITARIO",
+ "gl": 0,
+ "gv": 4,
+ "detalle": {
+  "nro_partido": "379",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 16 ",
+  "categoria": "SUB 16 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB16 COMPETENCIA",
+  "Cancha": "COMPLEJO SCHIAFFINO (LAVALLEJA",
+  "Fecha_Inicio": "2026-11-08 15:05:00",
+  "Fecha_fin": "2026-11-08 15:05:00",
+  "Locatario": "NAUTICO CARRASCO Y PUNTA GORDA",
+  "goles_locatario": "0",
+  "puntos_locatario": "0",
+  "Visitante": "SEMINARIO UNIVERSITARIO",
+  "goles_visitante": "4",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "66775",
+   "Nombre": "NATHANIEL GARAY",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "68854",
+   "Nombre": "FRANCISCO SANTORO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "67925",
+   "Nombre": "SEBASTIAN OMAR PERALTA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "61690",
+   "Nombre": "FACUNDO JORGE DEMARCO",
+   "camiseta": "27",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "68354",
+   "Nombre": "MATIAS AICARDI",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "66209",
+   "Nombre": "SANTINO SCOSERIA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "65903",
+   "Nombre": "SEBASTIAN BORCA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "68347",
+   "Nombre": "BENJAMIN GONZALEZ",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "65498",
+   "Nombre": "FRANCISCO PAULOS",
+   "camiseta": "85",
+   "Capitan": ""
+  },
+  {
+   "carne": "60480",
+   "Nombre": "FELIPE CUYAS",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "65541",
+   "Nombre": "CAMILO RODRIGUEZ",
+   "camiseta": "51",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "65368",
+   "Nombre": "JUAN IGNACIO ROURE",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "63298",
+   "Nombre": "JUAN MANUEL URRUTIA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "65108",
+   "Nombre": "JUSTINO OLASCOAGA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "65110",
+   "Nombre": "IGNACIO DALLA",
+   "camiseta": "3",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "62561",
+   "Nombre": "FACUNDO MOSCA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "62575",
+   "Nombre": "MATIAS ROBOTTI",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "62953",
+   "Nombre": "JOAQUIN MORAES",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "65169",
+   "Nombre": "FACUNDO ESTRAGO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "62556",
+   "Nombre": "FACUNDO LUCERO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "65167",
+   "Nombre": "JUAN MIGUEL COBAS",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "62566",
+   "Nombre": "ALFONSO LORENZO",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "65498",
+   "Jug_Sale": "FRANCISCO PAULOS",
+   "CarneEntra": "65574",
+   "Jug_Entra": "IGNACIO BORRELLI",
+   "camiseta": "77",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66209",
+   "Jug_Sale": "SANTINO SCOSERIA",
+   "CarneEntra": "65546",
+   "Jug_Entra": "AGUSTIN RODRIGUEZ",
+   "camiseta": "24",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68854",
+   "Jug_Sale": "FRANCISCO SANTORO",
+   "CarneEntra": "66209",
+   "Jug_Entra": "SANTINO SCOSERIA",
+   "camiseta": "5",
+   "minutos": "58"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "63298",
+   "Jug_Sale": "JUAN MANUEL URRUTIA",
+   "CarneEntra": "65172",
+   "Jug_Entra": "FACUNDO GUTIERREZ",
+   "camiseta": "20",
+   "minutos": "50"
+  },
+  {
+   "CarneSale": "62566",
+   "Jug_Sale": "ALFONSO LORENZO",
+   "CarneEntra": "65106",
+   "Jug_Entra": "TIAGO LEBOGNE",
+   "camiseta": "14",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "65167",
+   "Jug_Sale": "JUAN MIGUEL COBAS",
+   "CarneEntra": "62951",
+   "Jug_Entra": "JUAN IGNACIO CALVO",
+   "camiseta": "11",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "62556",
+   "Jug_Sale": "FACUNDO LUCERO",
+   "CarneEntra": "62556",
+   "Jug_Entra": "FACUNDO LUCERO",
+   "camiseta": "99",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "65169",
+   "Jug_Sale": "FACUNDO ESTRAGO",
+   "CarneEntra": "62556",
+   "Jug_Entra": "FACUNDO LUCERO",
+   "camiseta": "10",
+   "minutos": "71"
+  }
+ ],
+ "golesL": [],
+ "golesV": [
+  {
+   "carne": "65167",
+   "Nombre": "JUAN MIGUEL COBAS",
+   "minutos": "10",
+   "EnContra": "1"
+  },
+  {
+   "carne": "65169",
+   "Nombre": "FACUNDO ESTRAGO",
+   "minutos": "33",
+   "EnContra": "1"
+  },
+  {
+   "carne": "65169",
+   "Nombre": "FACUNDO ESTRAGO",
+   "minutos": "37",
+   "EnContra": "1"
+  },
+  {
+   "carne": "65169",
+   "Nombre": "FACUNDO ESTRAGO",
+   "minutos": "39",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

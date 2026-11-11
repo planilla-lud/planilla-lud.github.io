@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"G\" TIT. y ASC",
   "Cancha": "PQUE. ELLIS - COL. SAN ISIDRO",
-  "Fecha_Inicio": "2026-11-08 10:30:00",
-  "Fecha_fin": "2026-11-08 10:30:00",
+  "Fecha_Inicio": "2026-11-08 11:00:00",
+  "Fecha_fin": "2026-11-08 11:00:00",
   "Locatario": "COLEGIO SAN ISIDRO",
   "goles_locatario": "3",
   "puntos_locatario": "3",
@@ -29,12 +29,268 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "58981",
+   "Nombre": "AGUSTIN NICOLAS HEREDIA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "56512",
+   "Nombre": "MATIAS VILA",
+   "camiseta": "16",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "61123",
+   "Nombre": "GONZALO NAHUEL MELO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "67512",
+   "Nombre": "AGUSTIN POMBO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "59217",
+   "Nombre": "FEDERICO PIERO GELMINI",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "59219",
+   "Nombre": "JUAN ANDRES COLOMBO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "57472",
+   "Nombre": "AGUSTIN PISANO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "56516",
+   "Nombre": "FELIPE VERO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "54828",
+   "Nombre": "FEDERICO TOMAS BARRIOS",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "59215",
+   "Nombre": "SANTIAGO GABRIEL SOSA",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "48540",
+   "Nombre": "CARLOS ANDRES SEGREDO",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "66171",
+   "Nombre": "LAUTARO RIVERO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "43792",
+   "Nombre": "SEBASTIAN ALEJANDRO MEDINA",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "68423",
+   "Nombre": "VALENTINO RODRIGUEZ",
+   "camiseta": "4",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "34081",
+   "Nombre": "MARTIN SEBASTIAN DESPAUX",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "66392",
+   "Nombre": "AGUSTIN PEREYRA",
+   "camiseta": "95",
+   "Capitan": ""
+  },
+  {
+   "carne": "64155",
+   "Nombre": "GONZALO DIAZ",
+   "camiseta": "81",
+   "Capitan": ""
+  },
+  {
+   "carne": "38767",
+   "Nombre": "PAUL MARCEL BERRIEL",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "64452",
+   "Nombre": "BRUNO MATHIAS AIRES",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "46121",
+   "Nombre": "ANTONY MICHELL GALLI",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "66403",
+   "Nombre": "GHIAN FRANCO SILVEIRA",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "58014",
+   "Nombre": "FELIPE ALBIN",
+   "camiseta": "26",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "54828",
+   "Jug_Sale": "FEDERICO TOMAS BARRIOS",
+   "CarneEntra": "56511",
+   "Jug_Entra": "MAURO PISANO",
+   "camiseta": "5",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "57472",
+   "Jug_Sale": "AGUSTIN PISANO",
+   "CarneEntra": "53862",
+   "Jug_Entra": "MANUEL ALEJANDRO MAYO",
+   "camiseta": "12",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "59215",
+   "Jug_Sale": "SANTIAGO GABRIEL SOSA",
+   "CarneEntra": "60120",
+   "Jug_Entra": "FELIPE SIERRA",
+   "camiseta": "19",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "48540",
+   "Jug_Sale": "CARLOS ANDRES SEGREDO",
+   "CarneEntra": "59215",
+   "Jug_Entra": "SANTIAGO GABRIEL SOSA",
+   "camiseta": "14",
+   "minutos": "86"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "38767",
+   "Jug_Sale": "PAUL MARCEL BERRIEL",
+   "CarneEntra": "69093",
+   "Jug_Entra": "EDGAR JAVIER GRILLO",
+   "camiseta": "33",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68423",
+   "Jug_Sale": "VALENTINO RODRIGUEZ",
+   "CarneEntra": "63692",
+   "Jug_Entra": "TOMAS ANGELO LATRONICO",
+   "camiseta": "99",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "34081",
+   "Jug_Sale": "MARTIN SEBASTIAN DESPAUX",
+   "CarneEntra": "37503",
+   "Jug_Entra": "NICOLAS RODRIGO BRANDI",
+   "camiseta": "10",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "46121",
+   "Jug_Sale": "ANTONY MICHELL GALLI",
+   "CarneEntra": "39310",
+   "Jug_Entra": "GASTON RODRIGUEZ",
+   "camiseta": "17",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "66403",
+   "Jug_Sale": "GHIAN FRANCO SILVEIRA",
+   "CarneEntra": "63979",
+   "Jug_Entra": "AGUSTIN ARBIZA",
+   "camiseta": "50",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "64155",
+   "Jug_Sale": "GONZALO DIAZ",
+   "CarneEntra": "66929",
+   "Jug_Entra": "SANTIAGO ANDRES CALCAGNO",
+   "camiseta": "7",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "66392",
+   "Jug_Sale": "AGUSTIN PEREYRA",
+   "CarneEntra": "52659",
+   "Jug_Entra": "ALEJANDRO SOSA",
+   "camiseta": "11",
+   "minutos": "75"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "48540",
+   "Nombre": "CARLOS ANDRES SEGREDO",
+   "minutos": "43",
+   "EnContra": "0"
+  },
+  {
+   "carne": "56516",
+   "Nombre": "FELIPE VERO",
+   "minutos": "45",
+   "EnContra": "0"
+  },
+  {
+   "carne": "59217",
+   "Nombre": "FEDERICO PIERO GELMINI",
+   "minutos": "69",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "58014",
+   "Nombre": "FELIPE ALBIN",
+   "minutos": "70",
+   "EnContra": "1"
+  },
+  {
+   "carne": "63692",
+   "Nombre": "TOMAS ANGELO LATRONICO",
+   "minutos": "86",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

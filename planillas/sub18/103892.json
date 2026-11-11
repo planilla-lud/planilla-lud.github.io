@@ -1,0 +1,282 @@
+{
+ "id": "103892",
+ "categoria": "sub18",
+ "serie": "18C",
+ "fecha": 4,
+ "fechaHora": "2026-11-08 15:30:00",
+ "cancha": "TENIS EL PINAR",
+ "local": "TENIS EL PINAR",
+ "visitante": "ELBIO FERNANDEZ",
+ "gl": 1,
+ "gv": 3,
+ "detalle": {
+  "nro_partido": "445",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 18 ",
+  "categoria": "SUB 18 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB18 COMPETENCIA",
+  "Cancha": "TENIS EL PINAR",
+  "Fecha_Inicio": "2026-11-08 17:30:00",
+  "Fecha_fin": "2026-11-08 17:30:00",
+  "Locatario": "TENIS EL PINAR",
+  "goles_locatario": "1",
+  "puntos_locatario": "0",
+  "Visitante": "ELBIO FERNANDEZ",
+  "goles_visitante": "3",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "56185",
+   "Nombre": "JUAN ANDRES BAYARDI",
+   "camiseta": "1",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "67913",
+   "Nombre": "ISAIAS ANDRES MACEIRA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "61620",
+   "Nombre": "FACUNDO PORRAS",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "61614",
+   "Nombre": "GERONIMO  ARTURO MUÑOZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "61615",
+   "Nombre": "SEBASTIAN VAITKEVICIUS",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "61856",
+   "Nombre": "TOMAS AICARDI",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "60889",
+   "Nombre": "MATEO OLIVEIRA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "61625",
+   "Nombre": "FACUNDO GOLDARACENA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "62853",
+   "Nombre": "GUILLERMO BAROFFIO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "66346",
+   "Nombre": "FELIPE PACHECO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "63725",
+   "Nombre": "MANUEL ALVAREZ",
+   "camiseta": "24",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "58389",
+   "Nombre": "JERONIMO MARTINEZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "64372",
+   "Nombre": "AGUSTIN VALSANGIACOMO",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "68974",
+   "Nombre": "LORENZO SILVERA",
+   "camiseta": "36",
+   "Capitan": ""
+  },
+  {
+   "carne": "66347",
+   "Nombre": "LEONIDAS ALEJANDRO VARELA",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "69003",
+   "Nombre": "MARIANO DIAZ",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "64434",
+   "Nombre": "SANTIAGO LAPENTE",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "64537",
+   "Nombre": "GIULIANO FRANCO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "64432",
+   "Nombre": "FEDERICO GASTELUMENDI",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "64532",
+   "Nombre": "GUILLERMO NALERIO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "65873",
+   "Nombre": "FEDERICO GOÑI",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "64530",
+   "Nombre": "EMILIANO DOS SANTOS",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "67913",
+   "Jug_Sale": "ISAIAS ANDRES MACEIRA",
+   "CarneEntra": "61091",
+   "Jug_Entra": "GERMAN AGUSTIN LEAL",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "63725",
+   "Jug_Sale": "MANUEL ALVAREZ",
+   "CarneEntra": "61617",
+   "Jug_Entra": "LUCIO  JOSE MORENO",
+   "camiseta": "15",
+   "minutos": "31"
+  },
+  {
+   "CarneSale": "66346",
+   "Jug_Sale": "FELIPE PACHECO",
+   "CarneEntra": "63948",
+   "Jug_Entra": "MATIAS FERNANDEZ",
+   "camiseta": "27",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "60889",
+   "Jug_Sale": "MATEO OLIVEIRA",
+   "CarneEntra": "58649",
+   "Jug_Entra": "IVAN MILDAZIS",
+   "camiseta": "61",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "61856",
+   "Jug_Sale": "TOMAS AICARDI",
+   "CarneEntra": "66598",
+   "Jug_Entra": "SANTINO DURAND",
+   "camiseta": "17",
+   "minutos": "75"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "69003",
+   "Jug_Sale": "MARIANO DIAZ",
+   "CarneEntra": "68372",
+   "Jug_Entra": "FELIPE CORREA",
+   "camiseta": "45",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64537",
+   "Jug_Sale": "GIULIANO FRANCO",
+   "CarneEntra": "64536",
+   "Jug_Entra": "JOAQUIN RODRIGUEZ",
+   "camiseta": "14",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "65873",
+   "Jug_Sale": "FEDERICO GOÑI",
+   "CarneEntra": "66411",
+   "Jug_Entra": "JOAQUIN MOSQUERA",
+   "camiseta": "87",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66347",
+   "Jug_Sale": "LEONIDAS ALEJANDRO VARELA",
+   "CarneEntra": "64537",
+   "Jug_Entra": "GIULIANO FRANCO",
+   "camiseta": "18",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "64530",
+   "Jug_Sale": "EMILIANO DOS SANTOS",
+   "CarneEntra": "69003",
+   "Jug_Entra": "MARIANO DIAZ",
+   "camiseta": "22",
+   "minutos": "79"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "61625",
+   "Nombre": "FACUNDO GOLDARACENA",
+   "minutos": "15",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "64530",
+   "Nombre": "EMILIANO DOS SANTOS",
+   "minutos": "37",
+   "EnContra": "1"
+  },
+  {
+   "carne": "64536",
+   "Nombre": "JOAQUIN RODRIGUEZ",
+   "minutos": "68",
+   "EnContra": "1"
+  },
+  {
+   "carne": "65873",
+   "Nombre": "FEDERICO GOÑI",
+   "minutos": "30",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

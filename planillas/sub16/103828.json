@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB16 BRONCE",
   "Cancha": "COMPLEJO AZULGRANA",
-  "Fecha_Inicio": "2026-11-08 15:00:00",
-  "Fecha_fin": "2026-11-08 15:00:00",
+  "Fecha_Inicio": "2026-11-08 15:13:00",
+  "Fecha_fin": "2026-11-08 15:13:00",
   "Locatario": "PELOTA AL MEDIO UNIVERSITARIO",
   "goles_locatario": "1",
   "puntos_locatario": "1",
@@ -29,12 +29,250 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "64810",
+   "Nombre": "DAMIAN PICASSO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "65865",
+   "Nombre": "JOAQUIN RAMOS",
+   "camiseta": "6",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "67831",
+   "Nombre": "ISMAEL PERDOMO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "67821",
+   "Nombre": "EMILIANO FABRICIO ABRINES",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "67805",
+   "Nombre": "RODRIGO IPARRAGUIRRE",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "67822",
+   "Nombre": "JOAQUIN ANDRES BELLO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "67806",
+   "Nombre": "JOAQUIN IPARRAGUIRRE",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "64521",
+   "Nombre": "FRANCISCO MAXIMILIAN DE LA PEÑA",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "67818",
+   "Nombre": "LUCIANO AGUSTIN FUQUES",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "67811",
+   "Nombre": "MATIAS ALEJANDRO ROJAS",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "63467",
+   "Nombre": "PABLO BESTRICOV",
+   "camiseta": "8",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "67886",
+   "Nombre": "GUILLERMO SILVA",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "64557",
+   "Nombre": "FRANCISCO MARTIN ASCHERI",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "64563",
+   "Nombre": "SANTIAGO CARIDE",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "64558",
+   "Nombre": "FRANCISCO BINAGUY",
+   "camiseta": "18",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "64561",
+   "Nombre": "EMILIANO BRIVA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "68173",
+   "Nombre": "MATIAS ACOTA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "66228",
+   "Nombre": "THOMAS GEPP",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "64565",
+   "Nombre": "SANTIAGO DI BELLO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "64564",
+   "Nombre": "LUCAS GOLDBERG",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "69046",
+   "Nombre": "JUAN VERA",
+   "camiseta": "70",
+   "Capitan": ""
+  },
+  {
+   "carne": "64556",
+   "Nombre": "FEDERICO LEONCINI",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "67806",
+   "Jug_Sale": "JOAQUIN IPARRAGUIRRE",
+   "CarneEntra": "64519",
+   "Jug_Entra": "NAHUEL AGUSTIN FARIAS",
+   "camiseta": "13",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "63467",
+   "Jug_Sale": "PABLO BESTRICOV",
+   "CarneEntra": "67811",
+   "Jug_Entra": "MATIAS ALEJANDRO ROJAS",
+   "camiseta": "7",
+   "minutos": "69"
+  },
+  {
+   "CarneSale": "67811",
+   "Jug_Sale": "MATIAS ALEJANDRO ROJAS",
+   "CarneEntra": "67815",
+   "Jug_Entra": "ALAN SEBASTIAN CASTELLANOS",
+   "camiseta": "23",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67805",
+   "Jug_Sale": "RODRIGO IPARRAGUIRRE",
+   "CarneEntra": "67820",
+   "Jug_Entra": "DYLAN ALEXANDER VIERA",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64521",
+   "Jug_Sale": "FRANCISCO MAXIMILIAN DE LA PEÑA",
+   "CarneEntra": "67814",
+   "Jug_Entra": "LUCA  MARTIN PASTORINO",
+   "camiseta": "22",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67818",
+   "Jug_Sale": "LUCIANO AGUSTIN FUQUES",
+   "CarneEntra": "67817",
+   "Jug_Entra": "LUCAS DANIEL BENITEZ",
+   "camiseta": "27",
+   "minutos": "45"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "67886",
+   "Jug_Sale": "GUILLERMO SILVA",
+   "CarneEntra": "68170",
+   "Jug_Entra": "MANUEL BRACHO",
+   "camiseta": "12",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64561",
+   "Jug_Sale": "EMILIANO BRIVA",
+   "CarneEntra": "64559",
+   "Jug_Entra": "MATEO BASILIO",
+   "camiseta": "13",
+   "minutos": "40"
+  },
+  {
+   "CarneSale": "64556",
+   "Jug_Sale": "FEDERICO LEONCINI",
+   "CarneEntra": "64552",
+   "Jug_Entra": "IGNACIO JUAMBELTZ",
+   "camiseta": "23",
+   "minutos": "40"
+  },
+  {
+   "CarneSale": "64565",
+   "Jug_Sale": "SANTIAGO DI BELLO",
+   "CarneEntra": "64551",
+   "Jug_Entra": "FELIPE SICA",
+   "camiseta": "22",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "64557",
+   "Jug_Sale": "FRANCISCO MARTIN ASCHERI",
+   "CarneEntra": "64570",
+   "Jug_Entra": "NICOLAS GARCIA",
+   "camiseta": "11",
+   "minutos": "74"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "67817",
+   "Nombre": "LUCAS DANIEL BENITEZ",
+   "minutos": "59",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "69046",
+   "Nombre": "JUAN VERA",
+   "minutos": "42",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

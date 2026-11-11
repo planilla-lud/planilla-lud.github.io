@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"G\" TIT. y ASC",
   "Cancha": "COMPLEJO ABUA",
-  "Fecha_Inicio": "2026-11-08 10:30:00",
-  "Fecha_fin": "2026-11-08 10:30:00",
+  "Fecha_Inicio": "2026-11-08 11:00:00",
+  "Fecha_fin": "2026-11-08 11:00:00",
   "Locatario": "NUESTRA SEÑORA DE LOURDES",
   "goles_locatario": "3",
   "puntos_locatario": "3",
@@ -29,12 +29,284 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "41455",
+   "Nombre": "ANGEL JOSE VIDAL",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "49555",
+   "Nombre": "IGNACIO CHOPITEA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "38929",
+   "Nombre": "CARLOS FEDERICO SUAREZ",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "66838",
+   "Nombre": "FACUNDO NICOLAS LOUSTAU",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "52962",
+   "Nombre": "MARTIN POMBO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "28432",
+   "Nombre": "BRUNO DANILO MOSERLE",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "37713",
+   "Nombre": "VALENTIN SANCHEZ",
+   "camiseta": "15",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "64190",
+   "Nombre": "PABLO MATIAS OLIVERA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "32230",
+   "Nombre": "FEDERICO DEL NEGRO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "65342",
+   "Nombre": "IGNACIO FEDERICO NUÑEZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "37753",
+   "Nombre": "DANIEL FEDERICO ARNOULD",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "62379",
+   "Nombre": "DIEGO MARTIN BENITEZ",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "41921",
+   "Nombre": "GENARO GELPI",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "68960",
+   "Nombre": "MAURICIO EZEQUIEL IMPERIAL",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "36515",
+   "Nombre": "SEBASTIAN ARSUAGA",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "67176",
+   "Nombre": "LUCAS PIAS",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "47784",
+   "Nombre": "PABLO BARBATO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "33157",
+   "Nombre": "JOAQUIN CAYRUS",
+   "camiseta": "46",
+   "Capitan": ""
+  },
+  {
+   "carne": "51702",
+   "Nombre": "MAXIMILIANO GOMEZ",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "57118",
+   "Nombre": "ENZO BATISTA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "64267",
+   "Nombre": "AXEL MATEO ZELPO",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "33161",
+   "Nombre": "DIEGO OYHARZABAL",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "38929",
+   "Jug_Sale": "CARLOS FEDERICO SUAREZ",
+   "CarneEntra": "66246",
+   "Jug_Entra": "MATHIAS NICOLAS MOREIRA",
+   "camiseta": "2",
+   "minutos": "31"
+  },
+  {
+   "CarneSale": "52962",
+   "Jug_Sale": "MARTIN POMBO",
+   "CarneEntra": "54390",
+   "Jug_Entra": "JOSE IGNACIO SANTIAGO",
+   "camiseta": "6",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "37753",
+   "Jug_Sale": "DANIEL FEDERICO ARNOULD",
+   "CarneEntra": "67226",
+   "Jug_Entra": "MATIAS DA SILVA",
+   "camiseta": "16",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "65342",
+   "Jug_Sale": "IGNACIO FEDERICO NUÑEZ",
+   "CarneEntra": "57087",
+   "Jug_Entra": "FELIPE CALLERI",
+   "camiseta": "14",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "28432",
+   "Jug_Sale": "BRUNO DANILO MOSERLE",
+   "CarneEntra": "46879",
+   "Jug_Entra": "JOAQUIN PIÑEIRO",
+   "camiseta": "31",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "64190",
+   "Jug_Sale": "PABLO MATIAS OLIVERA",
+   "CarneEntra": "53580",
+   "Jug_Entra": "IGNACIO NICOLAS CIFUENTES",
+   "camiseta": "13",
+   "minutos": "80"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "33157",
+   "Jug_Sale": "JOAQUIN CAYRUS",
+   "CarneEntra": "33805",
+   "Jug_Entra": "GUSTAVO REBELLATO",
+   "camiseta": "8",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "51702",
+   "Jug_Sale": "MAXIMILIANO GOMEZ",
+   "CarneEntra": "64269",
+   "Jug_Entra": "BRUNO NAHUEL ZELPO",
+   "camiseta": "6",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "41921",
+   "Jug_Sale": "GENARO GELPI",
+   "CarneEntra": "57262",
+   "Jug_Entra": "BRIAN PATERA",
+   "camiseta": "17",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "57118",
+   "Jug_Sale": "ENZO BATISTA",
+   "CarneEntra": "34073",
+   "Jug_Entra": "ALVARO MARTIN BADARACCO",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64267",
+   "Jug_Sale": "AXEL MATEO ZELPO",
+   "CarneEntra": "45377",
+   "Jug_Entra": "FRANCO FERRERO",
+   "camiseta": "80",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "33161",
+   "Jug_Sale": "DIEGO OYHARZABAL",
+   "CarneEntra": "67039",
+   "Jug_Entra": "IVAN NAZARENKO NAZARENKO RUOCCO",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "36515",
+   "Jug_Sale": "SEBASTIAN ARSUAGA",
+   "CarneEntra": "31969",
+   "Jug_Entra": "GONZALO VILAR",
+   "camiseta": "20",
+   "minutos": "82"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "37713",
+   "Nombre": "VALENTIN SANCHEZ",
+   "minutos": "15",
+   "EnContra": "0"
+  },
+  {
+   "carne": "65342",
+   "Nombre": "IGNACIO FEDERICO NUÑEZ",
+   "minutos": "56",
+   "EnContra": "0"
+  },
+  {
+   "carne": "65342",
+   "Nombre": "IGNACIO FEDERICO NUÑEZ",
+   "minutos": "63",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "36515",
+   "Nombre": "SEBASTIAN ARSUAGA",
+   "minutos": "82",
+   "EnContra": "1"
+  },
+  {
+   "carne": "64269",
+   "Nombre": "BRUNO NAHUEL ZELPO",
+   "minutos": "80",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

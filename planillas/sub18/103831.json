@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB18 PLATA",
   "Cancha": "BRITISH SCHOOL",
-  "Fecha_Inicio": "2026-11-08 17:00:00",
-  "Fecha_fin": "2026-11-08 17:00:00",
+  "Fecha_Inicio": "2026-11-08 17:22:00",
+  "Fecha_fin": "2026-11-08 17:22:00",
   "Locatario": "OLD BOYS CLUB",
   "goles_locatario": "3",
   "puntos_locatario": "3",
@@ -29,12 +29,246 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "58840",
+   "Nombre": "BENJAMIN VALERIANI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "56265",
+   "Nombre": "JUAN MARTIN HRILJAC",
+   "camiseta": "3",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "60174",
+   "Nombre": "SANTIAGO VILLALBA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "57002",
+   "Nombre": "JUAN MARTIN CANUTI",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "56261",
+   "Nombre": "FRANCISCO NOVEGIL",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "62988",
+   "Nombre": "LUCAS BENJAMIN WOYCIK",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "56262",
+   "Nombre": "FRANCISCO NAVARRO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "56267",
+   "Nombre": "JOAQUIN GUTIERREZ",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "58841",
+   "Nombre": "JUAN BAUTISTA BONOMI",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "63428",
+   "Nombre": "FAUSTO MILESI",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "57005",
+   "Nombre": "IGNACIO IBARBURU",
+   "camiseta": "22",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "62423",
+   "Nombre": "ISMAEL BENADERET",
+   "camiseta": "12",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "65982",
+   "Nombre": "JUAN VALENTINO BRINGA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "60285",
+   "Nombre": "FELIPE AGUIRRE",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "69219",
+   "Nombre": "LAUTARO COSTA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "58692",
+   "Nombre": "BENJAMIN SPOTURNO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "58681",
+   "Nombre": "MARTIN TOMAS GARCIA GARCIA",
+   "camiseta": "54",
+   "Capitan": ""
+  },
+  {
+   "carne": "67874",
+   "Nombre": "EMILIANO RORIGUEZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "67562",
+   "Nombre": "IKER PINTOS",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "61835",
+   "Nombre": "MAXIMILIANO NUÑEZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "66812",
+   "Nombre": "FELIPE LARREGUI",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "65070",
+   "Nombre": "JUAN GERMAN DAVILA",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "58841",
+   "Jug_Sale": "JUAN BAUTISTA BONOMI",
+   "CarneEntra": "56273",
+   "Jug_Entra": "ALEXIS BRUCE",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "60174",
+   "Jug_Sale": "SANTIAGO VILLALBA",
+   "CarneEntra": "56255",
+   "Jug_Entra": "TOMAS YOUNG",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "63428",
+   "Jug_Sale": "FAUSTO MILESI",
+   "CarneEntra": "57005",
+   "Jug_Entra": "IGNACIO IBARBURU",
+   "camiseta": "22",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "56267",
+   "Jug_Sale": "JOAQUIN GUTIERREZ",
+   "CarneEntra": "58841",
+   "Jug_Entra": "JUAN BAUTISTA BONOMI",
+   "camiseta": "18",
+   "minutos": "81"
+  },
+  {
+   "CarneSale": "56262",
+   "Jug_Sale": "FRANCISCO NAVARRO",
+   "CarneEntra": "57040",
+   "Jug_Entra": "MANUEL ECHEGUIA",
+   "camiseta": "4",
+   "minutos": "87"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "65982",
+   "Jug_Sale": "JUAN VALENTINO BRINGA",
+   "CarneEntra": "58695",
+   "Jug_Entra": "AGUSTIN SANTOS",
+   "camiseta": "27",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "67874",
+   "Jug_Sale": "EMILIANO RORIGUEZ",
+   "CarneEntra": "67665",
+   "Jug_Entra": "JOAQUIN NICOLAS OLIVERA",
+   "camiseta": "19",
+   "minutos": "74"
+  },
+  {
+   "CarneSale": "58681",
+   "Jug_Sale": "MARTIN TOMAS GARCIA GARCIA",
+   "CarneEntra": "60277",
+   "Jug_Entra": "BRUNO FACELLO",
+   "camiseta": "20",
+   "minutos": "74"
+  },
+  {
+   "CarneSale": "66812",
+   "Jug_Sale": "FELIPE LARREGUI",
+   "CarneEntra": "67877",
+   "Jug_Entra": "FACUNDO RODRIGUEZ",
+   "camiseta": "23",
+   "minutos": "82"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "56265",
+   "Nombre": "JUAN MARTIN HRILJAC",
+   "minutos": "75",
+   "EnContra": "0"
+  },
+  {
+   "carne": "56273",
+   "Nombre": "ALEXIS BRUCE",
+   "minutos": "64",
+   "EnContra": "0"
+  },
+  {
+   "carne": "58841",
+   "Nombre": "JUAN BAUTISTA BONOMI",
+   "minutos": "87",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "65070",
+   "Nombre": "JUAN GERMAN DAVILA",
+   "minutos": "85",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB18 BRONCE",
   "Cancha": "THE ANGLO SCHOOL",
-  "Fecha_Inicio": "2026-11-08 17:00:00",
-  "Fecha_fin": "2026-11-08 17:00:00",
+  "Fecha_Inicio": "2026-11-08 17:15:00",
+  "Fecha_fin": "2026-11-08 17:15:00",
   "Locatario": "ANGLO SCHOOL UNIVERSITARIO",
   "goles_locatario": "2",
   "puntos_locatario": "0",
@@ -29,12 +29,273 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "66339",
+   "Nombre": "MATEO MARCOS FAZIO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "63040",
+   "Nombre": "LORENZO PEREIRA DA FONSECA",
+   "camiseta": "3",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "69156",
+   "Nombre": "LUCAS OREILLY",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "60487",
+   "Nombre": "SANTIAGO LUVIZIO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "67129",
+   "Nombre": "DELLAN SANTANA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "66732",
+   "Nombre": "FACUNDO GALLINO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "67128",
+   "Nombre": "FRANCISCO VERNASSA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "64236",
+   "Nombre": "NICOLAS KRUL",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "62547",
+   "Nombre": "GUILERMO DIEGO POMI",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "60337",
+   "Nombre": "MATEO GLISENTI",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "66778",
+   "Nombre": "SANTIAGO MACEDO",
+   "camiseta": "50",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "58980",
+   "Nombre": "MATEO PONCE DE LEON",
+   "camiseta": "78",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "59473",
+   "Nombre": "SANTIAGO OUTERELO",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "68152",
+   "Nombre": "LEANDRO FERNANDEZ",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "59474",
+   "Nombre": "AGUSTIN CHIAPPORI",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "56121",
+   "Nombre": "TOMAS APRAHAMIAN",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "59109",
+   "Nombre": "SANTIAGO ALVAREZ",
+   "camiseta": "82",
+   "Capitan": ""
+  },
+  {
+   "carne": "57678",
+   "Nombre": "MATIAS AGUSTIN ALVES",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "62638",
+   "Nombre": "LEANDRO BARBOZA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "68153",
+   "Nombre": "MATEO DEAMBROSI",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "63664",
+   "Nombre": "FACUNDO BLEZIO",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "59753",
+   "Nombre": "MATIAS REVELLO",
+   "camiseta": "40",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "67128",
+   "Jug_Sale": "FRANCISCO VERNASSA",
+   "CarneEntra": "60434",
+   "Jug_Entra": "BAUTISTA PATRONE",
+   "camiseta": "4",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67129",
+   "Jug_Sale": "DELLAN SANTANA",
+   "CarneEntra": "68430",
+   "Jug_Entra": "ENZO MIRABALLES",
+   "camiseta": "77",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "63040",
+   "Jug_Sale": "LORENZO PEREIRA DA FONSECA",
+   "CarneEntra": "60461",
+   "Jug_Entra": "BAUTISTA LOPEZ",
+   "camiseta": "15",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "62547",
+   "Jug_Sale": "GUILERMO DIEGO POMI",
+   "CarneEntra": "60481",
+   "Jug_Entra": "IGNACIO MARTIN GOMEZ",
+   "camiseta": "23",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "60337",
+   "Jug_Sale": "MATEO GLISENTI",
+   "CarneEntra": "62547",
+   "Jug_Entra": "GUILERMO DIEGO POMI",
+   "camiseta": "11",
+   "minutos": "93"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "63664",
+   "Jug_Sale": "FACUNDO BLEZIO",
+   "CarneEntra": "64890",
+   "Jug_Entra": "MARTIN PONCE DE LEON",
+   "camiseta": "2",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68152",
+   "Jug_Sale": "LEANDRO FERNANDEZ",
+   "CarneEntra": "63461",
+   "Jug_Entra": "GUILLERMO SPILLER",
+   "camiseta": "14",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "62638",
+   "Jug_Sale": "LEANDRO BARBOZA",
+   "CarneEntra": "62640",
+   "Jug_Entra": "FRANCO ANDRES LOPEZ",
+   "camiseta": "17",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "68153",
+   "Jug_Sale": "MATEO DEAMBROSI",
+   "CarneEntra": "66398",
+   "Jug_Entra": "VALENTINO ESCAMES",
+   "camiseta": "21",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "63461",
+   "Jug_Sale": "GUILLERMO SPILLER",
+   "CarneEntra": "62937",
+   "Jug_Entra": "LEON PEDRO SCHILDE",
+   "camiseta": "66",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "62640",
+   "Jug_Sale": "FRANCO ANDRES LOPEZ",
+   "CarneEntra": "63461",
+   "Jug_Entra": "GUILLERMO SPILLER",
+   "camiseta": "19",
+   "minutos": "94"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "60434",
+   "Nombre": "BAUTISTA PATRONE",
+   "minutos": "61",
+   "EnContra": "0"
+  },
+  {
+   "carne": "66778",
+   "Nombre": "SANTIAGO MACEDO",
+   "minutos": "14",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "56121",
+   "Nombre": "TOMAS APRAHAMIAN",
+   "minutos": "19",
+   "EnContra": "1"
+  },
+  {
+   "carne": "68152",
+   "Nombre": "LEANDRO FERNANDEZ",
+   "minutos": "3",
+   "EnContra": "1"
+  },
+  {
+   "carne": "68152",
+   "Nombre": "LEANDRO FERNANDEZ",
+   "minutos": "80",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
- "expulsadosV": []
+ "expulsadosV": [
+  {
+   "Nombre": "MATIAS REVELLO",
+   "observaciones": ""
+  }
+ ]
 }

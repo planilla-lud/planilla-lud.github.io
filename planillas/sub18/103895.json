@@ -1,0 +1,279 @@
+{
+ "id": "103895",
+ "categoria": "sub18",
+ "serie": "18F",
+ "fecha": 4,
+ "fechaHora": "2026-11-08 15:30:00",
+ "cancha": "COMPLEJO SCHIAFFINO (LAVALLEJA",
+ "local": "NAUTICO CARRASCO Y PUNTA GORDA",
+ "visitante": "ISASA UNIVERSITARIO",
+ "gl": 2,
+ "gv": 2,
+ "detalle": {
+  "nro_partido": "472",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 18 ",
+  "categoria": "SUB 18 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB18 CONFRATERNIDAD",
+  "Cancha": "COMPLEJO SCHIAFFINO (LAVALLEJA",
+  "Fecha_Inicio": "2026-11-08 17:20:00",
+  "Fecha_fin": "2026-11-08 17:20:00",
+  "Locatario": "NAUTICO CARRASCO Y PUNTA GORDA",
+  "goles_locatario": "2",
+  "puntos_locatario": "1",
+  "Visitante": "ISASA UNIVERSITARIO",
+  "goles_visitante": "2",
+  "puntos_visitante": "1",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "63127",
+   "Nombre": "THIAGO MARTIN COITINHO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "65858",
+   "Nombre": "DYLAN JOAQUIN PITTAMEGLIO",
+   "camiseta": "69",
+   "Capitan": ""
+  },
+  {
+   "carne": "57690",
+   "Nombre": "JUAN PABLO ROCHE",
+   "camiseta": "99",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "57930",
+   "Nombre": "ELIAS GIMENEZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "57686",
+   "Nombre": "ALEJANDRO MELOGNO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "57928",
+   "Nombre": "GERMAN ESCANDELL",
+   "camiseta": "71",
+   "Capitan": ""
+  },
+  {
+   "carne": "60335",
+   "Nombre": "IGNACIO FERNANDEZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "65536",
+   "Nombre": "JOAQUIN SOSA",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "60471",
+   "Nombre": "AGUSTIN APARICIO CABILLON",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "68980",
+   "Nombre": "TADEO MARRONE",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "62459",
+   "Nombre": "FEDERICO EMANUEL ANADON",
+   "camiseta": "6",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "61974",
+   "Nombre": "SEBASTIAN SATTAMINO",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "64202",
+   "Nombre": "SANTIAGO INTROINI",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "64257",
+   "Nombre": "JUAN MARTÌN GRAU",
+   "camiseta": "18",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "68033",
+   "Nombre": "FRANCO MARTINEZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "64669",
+   "Nombre": "JUAN GUILLERMO ELLIOT",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "61891",
+   "Nombre": "FACUNDO FERNANDEZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "64205",
+   "Nombre": "CAMILO GAGLIANO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "58194",
+   "Nombre": "IAN ESTAVILLO",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "68916",
+   "Nombre": "THIAGO MOMBRU",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "68157",
+   "Nombre": "CAMILO ORTEGA",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "64664",
+   "Nombre": "JUAN IGNACIO BOMBI",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "57930",
+   "Jug_Sale": "ELIAS GIMENEZ",
+   "CarneEntra": "57929",
+   "Jug_Entra": "JUAN MANUEL LAGO",
+   "camiseta": "8",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "60471",
+   "Jug_Sale": "AGUSTIN APARICIO CABILLON",
+   "CarneEntra": "60443",
+   "Jug_Entra": "SANTINO ABBATE",
+   "camiseta": "82",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "62459",
+   "Jug_Sale": "FEDERICO EMANUEL ANADON",
+   "CarneEntra": "62598",
+   "Jug_Entra": "EMILIANO SOSA",
+   "camiseta": "10",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "65536",
+   "Jug_Sale": "JOAQUIN SOSA",
+   "CarneEntra": "68782",
+   "Jug_Entra": "NICOLAS CAMPIONE",
+   "camiseta": "3",
+   "minutos": "83"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "64202",
+   "Jug_Sale": "SANTIAGO INTROINI",
+   "CarneEntra": "68156",
+   "Jug_Entra": "AGUSTIN ALEJANDRO BAUDEAN",
+   "camiseta": "46",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64664",
+   "Jug_Sale": "JUAN IGNACIO BOMBI",
+   "CarneEntra": "61643",
+   "Jug_Entra": "ROMAN ANDRES RODRIGUEZ",
+   "camiseta": "8",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "68157",
+   "Jug_Sale": "CAMILO ORTEGA",
+   "CarneEntra": "69040",
+   "Jug_Entra": "GUILLERMO FAJARDO",
+   "camiseta": "30",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "61891",
+   "Jug_Sale": "FACUNDO FERNANDEZ",
+   "CarneEntra": "66939",
+   "Jug_Entra": "BRUNO ANTONIO JORGE",
+   "camiseta": "12",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "68916",
+   "Jug_Sale": "THIAGO MOMBRU",
+   "CarneEntra": "61891",
+   "Jug_Entra": "FACUNDO FERNANDEZ",
+   "camiseta": "20",
+   "minutos": "78"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "60335",
+   "Nombre": "IGNACIO FERNANDEZ",
+   "minutos": "30",
+   "EnContra": "0"
+  },
+  {
+   "carne": "60335",
+   "Nombre": "IGNACIO FERNANDEZ",
+   "minutos": "49",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "58194",
+   "Nombre": "IAN ESTAVILLO",
+   "minutos": "43",
+   "EnContra": "1"
+  },
+  {
+   "carne": "69040",
+   "Nombre": "GUILLERMO FAJARDO",
+   "minutos": "76",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": [
+  {
+   "Nombre": "CAMILO GAGLIANO",
+   "observaciones": ""
+  }
+ ]
+}

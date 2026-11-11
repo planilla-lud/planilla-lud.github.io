@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB18 BRONCE",
   "Cancha": "LA MENNAIS",
-  "Fecha_Inicio": "2026-11-06 21:30:00",
-  "Fecha_fin": "2026-11-06 21:30:00",
+  "Fecha_Inicio": "2026-11-06 22:00:00",
+  "Fecha_fin": "2026-11-06 22:00:00",
   "Locatario": "SAN PABLO UNIVERSITARIO",
   "goles_locatario": "1",
   "puntos_locatario": "1",
@@ -29,12 +29,263 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "titularesL": [
+  {
+   "carne": "64484",
+   "Nombre": "PABLO RODRIGUEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "65436",
+   "Nombre": "SANTINO ROMAGNOLI",
+   "camiseta": "92",
+   "Capitan": ""
+  },
+  {
+   "carne": "68528",
+   "Nombre": "FRANCISCO CASTRILLON",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "65764",
+   "Nombre": "JOAQUIN CARRASCO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "60280",
+   "Nombre": "MATIAS MENDOZA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "68043",
+   "Nombre": "FRANCISCO FERNANDEZ",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "64824",
+   "Nombre": "MAURO CAMI",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "64823",
+   "Nombre": "SAID YAPOR",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "68042",
+   "Nombre": "OCTAVIO ESQUIBEL",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "64487",
+   "Nombre": "HUGO FELIPE CASAL",
+   "camiseta": "88",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "68529",
+   "Nombre": "SANTIAGO DE LEON",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "62408",
+   "Nombre": "VALENTIN CHADICOV",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "62406",
+   "Nombre": "BRUNO AREVALO",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "67449",
+   "Nombre": "MARCELO SALVADOR MARTI",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "58002",
+   "Nombre": "FELIPE MONTEMURRO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "58805",
+   "Nombre": "JUAN MARTIN CLUA",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "61732",
+   "Nombre": "MARTIN CARBALLO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "58174",
+   "Nombre": "MATEO MARTINEZ",
+   "camiseta": "13",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "60645",
+   "Nombre": "BENICIO CALERO",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "64264",
+   "Nombre": "DIEGO JAUNSOLO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "58806",
+   "Nombre": "MATIAS CAGNOLI",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "62154",
+   "Nombre": "FACUNDO MARTINEZ",
+   "camiseta": "20",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "68043",
+   "Jug_Sale": "FRANCISCO FERNANDEZ",
+   "CarneEntra": "64826",
+   "Jug_Entra": "SEBASTIAN DANIEL URETA",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68529",
+   "Jug_Sale": "SANTIAGO DE LEON",
+   "CarneEntra": "68329",
+   "Jug_Entra": "BENICIO ROCA",
+   "camiseta": "25",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "65436",
+   "Jug_Sale": "SANTINO ROMAGNOLI",
+   "CarneEntra": "67400",
+   "Jug_Entra": "JOAQUIN PEÑA",
+   "camiseta": "15",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "68042",
+   "Jug_Sale": "OCTAVIO ESQUIBEL",
+   "CarneEntra": "63701",
+   "Jug_Entra": "IGNACIO DANGLADA",
+   "camiseta": "69",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "64823",
+   "Jug_Sale": "SAID YAPOR",
+   "CarneEntra": "68885",
+   "Jug_Entra": "TOMAS GAMBETTA",
+   "camiseta": "72",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "68528",
+   "Jug_Sale": "FRANCISCO CASTRILLON",
+   "CarneEntra": "64486",
+   "Jug_Entra": "SANTINO OROÑA",
+   "camiseta": "9",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "64824",
+   "Jug_Sale": "MAURO CAMI",
+   "CarneEntra": "68531",
+   "Jug_Entra": "FRANCISCO SALABERRY",
+   "camiseta": "31",
+   "minutos": "75"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "64264",
+   "Jug_Sale": "DIEGO JAUNSOLO",
+   "CarneEntra": "63320",
+   "Jug_Entra": "VALENTINO STROZZI",
+   "camiseta": "9",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "60645",
+   "Jug_Sale": "BENICIO CALERO",
+   "CarneEntra": "58807",
+   "Jug_Entra": "ALEJANDRO FERRARI",
+   "camiseta": "2",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58805",
+   "Jug_Sale": "JUAN MARTIN CLUA",
+   "CarneEntra": "61734",
+   "Jug_Entra": "JUAN VALSECHI",
+   "camiseta": "14",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "62154",
+   "Jug_Sale": "FACUNDO MARTINEZ",
+   "CarneEntra": "58804",
+   "Jug_Entra": "GENARO DI GREGORIO",
+   "camiseta": "6",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "58806",
+   "Jug_Sale": "MATIAS CAGNOLI",
+   "CarneEntra": "61733",
+   "Jug_Entra": "BRUNO SANTINO COPPOLA",
+   "camiseta": "22",
+   "minutos": "80"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "68043",
+   "Nombre": "FRANCISCO FERNANDEZ",
+   "minutos": "87",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "63320",
+   "Nombre": "VALENTINO STROZZI",
+   "minutos": "55",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "JOAQUIN CARRASCO",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

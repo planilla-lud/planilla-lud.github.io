@@ -1,0 +1,261 @@
+{
+ "id": "103893",
+ "categoria": "sub16",
+ "serie": "16F",
+ "fecha": 4,
+ "fechaHora": "2026-11-08 13:30:00",
+ "cancha": "COMPLEJO DEPORTIVO ARRAYANES",
+ "local": "COLEGIO SANTA ELENA",
+ "visitante": "CLUB JESUS MARIA",
+ "gl": 2,
+ "gv": 3,
+ "detalle": {
+  "nro_partido": "406",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 16 ",
+  "categoria": "SUB 16 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB16 CONFRATERNIDAD",
+  "Cancha": "COMPLEJO DEPORTIVO ARRAYANES",
+  "Fecha_Inicio": "2026-11-08 15:10:00",
+  "Fecha_fin": "2026-11-08 15:10:00",
+  "Locatario": "COLEGIO SANTA ELENA",
+  "goles_locatario": "2",
+  "puntos_locatario": "0",
+  "Visitante": "CLUB JESUS MARIA",
+  "goles_visitante": "3",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "62758",
+   "Nombre": "MANUEL LORENZO FAZZIO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "65400",
+   "Nombre": "JUAN EMILIO BORGEAUD",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "65389",
+   "Nombre": "LORENZO PERROTTA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "65893",
+   "Nombre": "FACUNDO QUARTINO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "65402",
+   "Nombre": "FRANCO VILLAGRAN",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "65398",
+   "Nombre": "BRUNO ANTONIO GIACOMINI",
+   "camiseta": "16",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "61460",
+   "Nombre": "SANTIAGO GUTIERREZ",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "68395",
+   "Nombre": "BORJA QUIROGA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "68396",
+   "Nombre": "JUAQUIN JACINTO PORCAL",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "61644",
+   "Nombre": "FELIPE FERRO",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "65396",
+   "Nombre": "IÑAKI SOSA",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "68278",
+   "Nombre": "MATEO VALLARINO",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "64906",
+   "Nombre": "JOSE APARICIO PERRIER",
+   "camiseta": "3",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "66935",
+   "Nombre": "FRANCISCO GALLESIO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "63445",
+   "Nombre": "TIZIANO FRASCHERI",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "64903",
+   "Nombre": "GUILLERMO LOPEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "64905",
+   "Nombre": "TOMAS GALLO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "61918",
+   "Nombre": "LORENZO SILVA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "68363",
+   "Nombre": "MATHEUS HAESBAERT",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "66933",
+   "Nombre": "FRANCISCO BERRIEL",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "62390",
+   "Nombre": "SANTIAGO LOMBARDO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "61920",
+   "Nombre": "BAUTISTA TARIGO",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "61460",
+   "Jug_Sale": "SANTIAGO GUTIERREZ",
+   "CarneEntra": "65383",
+   "Jug_Entra": "JUAN MANUEL MORENA",
+   "camiseta": "33",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61644",
+   "Jug_Sale": "FELIPE FERRO",
+   "CarneEntra": "65403",
+   "Jug_Entra": "MATEO VALENTIN LOPEZ",
+   "camiseta": "18",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "65389",
+   "Jug_Sale": "LORENZO PERROTTA",
+   "CarneEntra": "61644",
+   "Jug_Entra": "FELIPE FERRO",
+   "camiseta": "77",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "65398",
+   "Jug_Sale": "BRUNO ANTONIO GIACOMINI",
+   "CarneEntra": "61460",
+   "Jug_Entra": "SANTIAGO GUTIERREZ",
+   "camiseta": "99",
+   "minutos": "77"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "68363",
+   "Jug_Sale": "MATHEUS HAESBAERT",
+   "CarneEntra": "65202",
+   "Jug_Entra": "FABIAN DARIO MARIÑO",
+   "camiseta": "6",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "63445",
+   "Jug_Sale": "TIZIANO FRASCHERI",
+   "CarneEntra": "67712",
+   "Jug_Entra": "JUAN MANUEL LAGISQUET",
+   "camiseta": "24",
+   "minutos": "65"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "61460",
+   "Nombre": "SANTIAGO GUTIERREZ",
+   "minutos": "8",
+   "EnContra": "0"
+  },
+  {
+   "carne": "68396",
+   "Nombre": "JUAQUIN JACINTO PORCAL",
+   "minutos": "18",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "61920",
+   "Nombre": "BAUTISTA TARIGO",
+   "minutos": "84",
+   "EnContra": "1"
+  },
+  {
+   "carne": "66933",
+   "Nombre": "FRANCISCO BERRIEL",
+   "minutos": "60",
+   "EnContra": "1"
+  },
+  {
+   "carne": "66933",
+   "Nombre": "FRANCISCO BERRIEL",
+   "minutos": "75",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "SANTIAGO GUTIERREZ",
+   "observaciones": ""
+  }
+ ],
+ "expulsadosV": []
+}

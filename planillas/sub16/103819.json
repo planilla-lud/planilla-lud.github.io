@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB16 COMPETENCIA",
   "Cancha": "COMPLEJO RUTA 48",
-  "Fecha_Inicio": "2026-11-08 15:00:00",
-  "Fecha_fin": "2026-11-08 15:00:00",
+  "Fecha_Inicio": "2026-11-08 15:20:00",
+  "Fecha_fin": "2026-11-08 15:20:00",
   "Locatario": "ESCUELA L.P.",
   "goles_locatario": "4",
   "puntos_locatario": "1",
@@ -29,12 +29,287 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "61428",
+   "Nombre": "DIEGO VICENTE FERNANDEZ",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "61438",
+   "Nombre": "GUILLERMO GABRIEL SUAREZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "68633",
+   "Nombre": "EMILIANO BOIDI",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "69223",
+   "Nombre": "SALVADOR ZAMPEDRI",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "69000",
+   "Nombre": "RAMIRO FABIAN SANDOVAL",
+   "camiseta": "73",
+   "Capitan": ""
+  },
+  {
+   "carne": "68017",
+   "Nombre": "MATEO VALENTIN TORTEROLO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "63825",
+   "Nombre": "GABRIEL LOPEZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "69001",
+   "Nombre": "MAURO OLIVERA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "68326",
+   "Nombre": "LUCIANO VALENTIN PEREIRA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "62414",
+   "Nombre": "ERICK RIVERO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "69101",
+   "Nombre": "SANTIAGO ALBANO",
+   "camiseta": "15",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "65140",
+   "Nombre": "JOAQUIN REVELLO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "65130",
+   "Nombre": "FELIPE CUETO",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "67732",
+   "Nombre": "ALEX GABRIEL HORNOS",
+   "camiseta": "50",
+   "Capitan": ""
+  },
+  {
+   "carne": "67733",
+   "Nombre": "ALEJANDRO MARRERO",
+   "camiseta": "80",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "67228",
+   "Nombre": "THIAGO PEREZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "68881",
+   "Nombre": "MARTIN GOMEZ",
+   "camiseta": "67",
+   "Capitan": ""
+  },
+  {
+   "carne": "67734",
+   "Nombre": "BENJAMIN PAIS",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "67231",
+   "Nombre": "CAMILO MARTIN PEREZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "68641",
+   "Nombre": "BENICIO CAYAFFA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "65420",
+   "Nombre": "CONSTANTINO CABRERA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "68025",
+   "Nombre": "JAHAZIEL ANDRES GALANTON",
+   "camiseta": "17",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "61438",
+   "Jug_Sale": "GUILLERMO GABRIEL SUAREZ",
+   "CarneEntra": "61424",
+   "Jug_Entra": "ULISES ESPINO",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68633",
+   "Jug_Sale": "EMILIANO BOIDI",
+   "CarneEntra": "61553",
+   "Jug_Entra": "EMANUEL GUERINO",
+   "camiseta": "8",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "69000",
+   "Jug_Sale": "RAMIRO FABIAN SANDOVAL",
+   "CarneEntra": "68633",
+   "Jug_Entra": "EMILIANO BOIDI",
+   "camiseta": "32",
+   "minutos": "70"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "67228",
+   "Jug_Sale": "THIAGO PEREZ",
+   "CarneEntra": "67229",
+   "Jug_Entra": "VALENTIN CABRERA",
+   "camiseta": "22",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67231",
+   "Jug_Sale": "CAMILO MARTIN PEREZ",
+   "CarneEntra": "65128",
+   "Jug_Entra": "RONALD CASTELLON",
+   "camiseta": "2",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67734",
+   "Jug_Sale": "BENJAMIN PAIS",
+   "CarneEntra": "65135",
+   "Jug_Entra": "TIAGO REY",
+   "camiseta": "11",
+   "minutos": "51"
+  },
+  {
+   "CarneSale": "65420",
+   "Jug_Sale": "CONSTANTINO CABRERA",
+   "CarneEntra": "65132",
+   "Jug_Entra": "ANGEL AMENGOR",
+   "camiseta": "9",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "67732",
+   "Jug_Sale": "ALEX GABRIEL HORNOS",
+   "CarneEntra": "65133",
+   "Jug_Entra": "MARCO STEFANO FERRANTY",
+   "camiseta": "7",
+   "minutos": "59"
+  },
+  {
+   "CarneSale": "68025",
+   "Jug_Sale": "JAHAZIEL ANDRES GALANTON",
+   "CarneEntra": "67228",
+   "Jug_Entra": "THIAGO PEREZ",
+   "camiseta": "20",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "65420",
+   "Jug_Sale": "CONSTANTINO CABRERA",
+   "CarneEntra": "67231",
+   "Jug_Entra": "CAMILO MARTIN PEREZ",
+   "camiseta": "26",
+   "minutos": "80"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "68326",
+   "Nombre": "LUCIANO VALENTIN PEREIRA",
+   "minutos": "28",
+   "EnContra": "0"
+  },
+  {
+   "carne": "68326",
+   "Nombre": "LUCIANO VALENTIN PEREIRA",
+   "minutos": "60",
+   "EnContra": "0"
+  },
+  {
+   "carne": "69001",
+   "Nombre": "MAURO OLIVERA",
+   "minutos": "10",
+   "EnContra": "0"
+  },
+  {
+   "carne": "69001",
+   "Nombre": "MAURO OLIVERA",
+   "minutos": "61",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "65420",
+   "Nombre": "CONSTANTINO CABRERA",
+   "minutos": "5",
+   "EnContra": "1"
+  },
+  {
+   "carne": "67733",
+   "Nombre": "ALEJANDRO MARRERO",
+   "minutos": "7",
+   "EnContra": "1"
+  },
+  {
+   "carne": "67733",
+   "Nombre": "ALEJANDRO MARRERO",
+   "minutos": "63",
+   "EnContra": "1"
+  },
+  {
+   "carne": "68641",
+   "Nombre": "BENICIO CAYAFFA",
+   "minutos": "3",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
- "expulsadosV": []
+ "expulsadosV": [
+  {
+   "Nombre": "ALEJANDRO MARRERO",
+   "observaciones": ""
+  },
+  {
+   "Nombre": "MARTIN GOMEZ",
+   "observaciones": ""
+  }
+ ]
 }

@@ -1,0 +1,324 @@
+{
+ "id": "103883",
+ "categoria": "sub16",
+ "serie": "16O",
+ "fecha": 4,
+ "fechaHora": "2026-11-08 13:30:00",
+ "cancha": "COMPLEJO SCHIAFFINO (LAVALLEJA",
+ "local": "CLUB NAUTICO",
+ "visitante": "OLD BRENDANS CLUB",
+ "gl": 5,
+ "gv": 2,
+ "detalle": {
+  "nro_partido": "296",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 16 ",
+  "categoria": "SUB 16 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB16 ORO",
+  "Cancha": "COMPLEJO SCHIAFFINO (LAVALLEJA",
+  "Fecha_Inicio": "2026-11-08 15:00:00",
+  "Fecha_fin": "2026-11-08 15:00:00",
+  "Locatario": "CLUB NAUTICO",
+  "goles_locatario": "5",
+  "puntos_locatario": "3",
+  "Visitante": "OLD BRENDANS CLUB",
+  "goles_visitante": "2",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "61924",
+   "Nombre": "OCTAVIO ABBATE",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "66173",
+   "Nombre": "SANTIAGO AGUSTIN MARTINEZ RODRIGUEZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "67915",
+   "Nombre": "VICENTE ORTIZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "64087",
+   "Nombre": "FELIPE PEÑASCO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "60336",
+   "Nombre": "MATIAS ZAQUIERE",
+   "camiseta": "50",
+   "Capitan": ""
+  },
+  {
+   "carne": "61916",
+   "Nombre": "FRANCISCO LUVIZIO",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "67924",
+   "Nombre": "MANUEL MUNIZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "62392",
+   "Nombre": "ESTEBAN FELIPE SANGUINETTI",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "66770",
+   "Nombre": "AMARO REY MEIRELLES",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "64759",
+   "Nombre": "BAUTISTA DE MELLO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "66972",
+   "Nombre": "FEDERICO MARTIN TERZAGHI",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "61808",
+   "Nombre": "LORENZO PAKCIARZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "61805",
+   "Nombre": "FEDERICO REYES",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "63168",
+   "Nombre": "TOMAS REY",
+   "camiseta": "22",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "65622",
+   "Nombre": "MATEO CAPRARIO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "62510",
+   "Nombre": "LORENZO AUGUSTO BLANDI",
+   "camiseta": "38",
+   "Capitan": ""
+  },
+  {
+   "carne": "61806",
+   "Nombre": "FELIPE MACHADO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "61596",
+   "Nombre": "AGUSTIN BOZZOLO",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "65623",
+   "Nombre": "BENJAMIN TROSTCHANSKY",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "65673",
+   "Nombre": "SANTIAGO CURBELO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "67761",
+   "Nombre": "BRUNO TELLERIA",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "59200",
+   "Nombre": "MATEO BIDEGAIN",
+   "camiseta": "75",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "66173",
+   "Jug_Sale": "SANTIAGO AGUSTIN MARTINEZ RODRIGUEZ",
+   "CarneEntra": "61921",
+   "Jug_Entra": "VALENTIN FUENTES",
+   "camiseta": "27",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "62392",
+   "Jug_Sale": "ESTEBAN FELIPE SANGUINETTI",
+   "CarneEntra": "62393",
+   "Jug_Entra": "KALANI OLMEDO",
+   "camiseta": "11",
+   "minutos": "40"
+  },
+  {
+   "CarneSale": "66972",
+   "Jug_Sale": "FEDERICO MARTIN TERZAGHI",
+   "CarneEntra": "61922",
+   "Jug_Entra": "JOAQUIN ESCUDERO",
+   "camiseta": "17",
+   "minutos": "40"
+  },
+  {
+   "CarneSale": "66770",
+   "Jug_Sale": "AMARO REY MEIRELLES",
+   "CarneEntra": "65635",
+   "Jug_Entra": "MAURO BADANO",
+   "camiseta": "70",
+   "minutos": "40"
+  },
+  {
+   "CarneSale": "61924",
+   "Jug_Sale": "OCTAVIO ABBATE",
+   "CarneEntra": "66773",
+   "Jug_Entra": "RAMIRO PINTOS",
+   "camiseta": "23",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "67924",
+   "Jug_Sale": "MANUEL MUNIZ",
+   "CarneEntra": "68454",
+   "Jug_Entra": "LUCAS BRUN",
+   "camiseta": "15",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "64759",
+   "Jug_Sale": "BAUTISTA DE MELLO",
+   "CarneEntra": "66770",
+   "Jug_Entra": "AMARO REY MEIRELLES",
+   "camiseta": "21",
+   "minutos": "78"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "61596",
+   "Jug_Sale": "AGUSTIN BOZZOLO",
+   "CarneEntra": "68484",
+   "Jug_Entra": "LORENZO TRUCCO",
+   "camiseta": "16",
+   "minutos": "53"
+  },
+  {
+   "CarneSale": "62510",
+   "Jug_Sale": "LORENZO AUGUSTO BLANDI",
+   "CarneEntra": "62499",
+   "Jug_Entra": "BENITO BAQUERO",
+   "camiseta": "27",
+   "minutos": "40"
+  },
+  {
+   "CarneSale": "65622",
+   "Jug_Sale": "MATEO CAPRARIO",
+   "CarneEntra": "61809",
+   "Jug_Entra": "MAXIMO ITURBURU",
+   "camiseta": "19",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "65673",
+   "Jug_Sale": "SANTIAGO CURBELO",
+   "CarneEntra": "61807",
+   "Jug_Entra": "JUAN JOSE LASTRETO",
+   "camiseta": "20",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "59200",
+   "Jug_Sale": "MATEO BIDEGAIN",
+   "CarneEntra": "65805",
+   "Jug_Entra": "BRUNO BENITES",
+   "camiseta": "14",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "63168",
+   "Jug_Sale": "TOMAS REY",
+   "CarneEntra": "59199",
+   "Jug_Entra": "MANUEL JAVIER CALVETE",
+   "camiseta": "17",
+   "minutos": "75"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "64759",
+   "Nombre": "BAUTISTA DE MELLO",
+   "minutos": "17",
+   "EnContra": "0"
+  },
+  {
+   "carne": "64759",
+   "Nombre": "BAUTISTA DE MELLO",
+   "minutos": "40",
+   "EnContra": "0"
+  },
+  {
+   "carne": "66173",
+   "Nombre": "SANTIAGO AGUSTIN MARTINEZ RODRIGUEZ",
+   "minutos": "57",
+   "EnContra": "0"
+  },
+  {
+   "carne": "66173",
+   "Nombre": "SANTIAGO AGUSTIN MARTINEZ RODRIGUEZ",
+   "minutos": "76",
+   "EnContra": "0"
+  },
+  {
+   "carne": "66972",
+   "Nombre": "FEDERICO MARTIN TERZAGHI",
+   "minutos": "63",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "67761",
+   "Nombre": "BRUNO TELLERIA",
+   "minutos": "3",
+   "EnContra": "1"
+  },
+  {
+   "carne": "67761",
+   "Nombre": "BRUNO TELLERIA",
+   "minutos": "13",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "DIVISIONAL \"G\" COPA PLATA",
   "Cancha": "COMPLEJO DEPORTIVO H3O",
-  "Fecha_Inicio": "2026-11-08 12:45:00",
-  "Fecha_fin": "2026-11-08 12:45:00",
+  "Fecha_Inicio": "2026-11-08 13:05:00",
+  "Fecha_fin": "2026-11-08 13:05:00",
   "Locatario": "COLEGIO Y LICEO SANTO DOMINGO",
   "goles_locatario": "2",
   "puntos_locatario": "3",
@@ -29,11 +29,224 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "54102",
+   "Nombre": "THIAGO ENRIQUE ROMERO",
+   "camiseta": "36",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "44090",
+   "Nombre": "PABLO KALEMKERIAN",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "56459",
+   "Nombre": "JORGE PABLO SZOLLOSSY",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "51462",
+   "Nombre": "NAHUEL PICO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "46847",
+   "Nombre": "SANTIAGO MARIO CAYAFA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "61987",
+   "Nombre": "AGUSTIN NOVO",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "41345",
+   "Nombre": "LUCAS ENRIQUE ALEIZON",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "58921",
+   "Nombre": "LEANDRO ANDRES GRIGNETTI",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "68053",
+   "Nombre": "NAHUEL MODERNELL",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "45143",
+   "Nombre": "NICOLAS GALEANO",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "46846",
+   "Nombre": "SEBASTIAN MATTA",
+   "camiseta": "33",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "67509",
+   "Nombre": "MATEO ACOSTA",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "53375",
+   "Nombre": "JUAN NICOLAS MARTINEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "56833",
+   "Nombre": "FRANCISCO NICOLAS CARBON",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "64274",
+   "Nombre": "JOAQUIN HERNANDEZ",
+   "camiseta": "90",
+   "Capitan": ""
+  },
+  {
+   "carne": "58650",
+   "Nombre": "GERMAN FRANCISCO SILVEIRA",
+   "camiseta": "7",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "58960",
+   "Nombre": "LEANDRO ALEXEI BOSCHI",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "67507",
+   "Nombre": "SANTIAGO ELUTCHANZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "67510",
+   "Nombre": "CLEMENTE SILVA",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "62928",
+   "Nombre": "AGUSTIN ARENES",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "60144",
+   "Nombre": "SANTIAGO BETANCOR",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "69212",
+   "Nombre": "LAUTARO GONZALEZ",
+   "camiseta": "30",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "45143",
+   "Jug_Sale": "NICOLAS GALEANO",
+   "CarneEntra": "65695",
+   "Jug_Entra": "GONZALO FACELLO",
+   "camiseta": "23",
+   "minutos": "20"
+  },
+  {
+   "CarneSale": "68053",
+   "Jug_Sale": "NAHUEL MODERNELL",
+   "CarneEntra": "54903",
+   "Jug_Entra": "JUAN IGNACIO VIDAL",
+   "camiseta": "26",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "65695",
+   "Jug_Sale": "GONZALO FACELLO",
+   "CarneEntra": "53206",
+   "Jug_Entra": "GASTON GALEANO",
+   "camiseta": "10",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "46846",
+   "Jug_Sale": "SEBASTIAN MATTA",
+   "CarneEntra": "55570",
+   "Jug_Entra": "MAXIMO FEDERICO ACQUADRO",
+   "camiseta": "13",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "61987",
+   "Jug_Sale": "AGUSTIN NOVO",
+   "CarneEntra": "66554",
+   "Jug_Entra": "JOAQUIN APARICIO",
+   "camiseta": "12",
+   "minutos": "87"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "67510",
+   "Jug_Sale": "CLEMENTE SILVA",
+   "CarneEntra": "55323",
+   "Jug_Entra": "DIEGO AGUSTIN FIRPO",
+   "camiseta": "16",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "60144",
+   "Jug_Sale": "SANTIAGO BETANCOR",
+   "CarneEntra": "67510",
+   "Jug_Entra": "CLEMENTE SILVA",
+   "camiseta": "33",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "62928",
+   "Jug_Sale": "AGUSTIN ARENES",
+   "CarneEntra": "60144",
+   "Jug_Entra": "SANTIAGO BETANCOR",
+   "camiseta": "8",
+   "minutos": "88"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "56459",
+   "Nombre": "JORGE PABLO SZOLLOSSY",
+   "minutos": "90",
+   "EnContra": "0"
+  },
+  {
+   "carne": "58921",
+   "Nombre": "LEANDRO ANDRES GRIGNETTI",
+   "minutos": "22",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

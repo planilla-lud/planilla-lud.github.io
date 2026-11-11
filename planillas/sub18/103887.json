@@ -1,0 +1,290 @@
+{
+ "id": "103887",
+ "categoria": "sub18",
+ "serie": "18B",
+ "fecha": 4,
+ "fechaHora": "2026-11-08 15:30:00",
+ "cancha": "COMPLEJO JUAN XXIII",
+ "local": "JUAN XXIII",
+ "visitante": "LA ESCALINATA",
+ "gl": 1,
+ "gv": 4,
+ "detalle": {
+  "nro_partido": "417",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 18 ",
+  "categoria": "SUB 18 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB18 BRONCE",
+  "Cancha": "COMPLEJO JUAN XXIII",
+  "Fecha_Inicio": "2026-11-08 17:30:00",
+  "Fecha_fin": "2026-11-08 17:30:00",
+  "Locatario": "JUAN XXIII",
+  "goles_locatario": "1",
+  "puntos_locatario": "0",
+  "Visitante": "LA ESCALINATA",
+  "goles_visitante": "4",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "62147",
+   "Nombre": "LEANDRO MINTEGUI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "57814",
+   "Nombre": "FACUNDO LYNCH GONZALEZ",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "66146",
+   "Nombre": "GASTON ERRANDONEA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "68764",
+   "Nombre": "BRUNO GONZALO BAZZANO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "64875",
+   "Nombre": "JOAQUIN VAZQUEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "63012",
+   "Nombre": "DAMIAN ALEJANDRO VELCOFF",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "56150",
+   "Nombre": "FACUNDO CANAN",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "64950",
+   "Nombre": "LUCA GARABATO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "61796",
+   "Nombre": "JUAN IGNACIO PIÑERA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "61098",
+   "Nombre": "JUAN BAUTISTA DANS",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "65119",
+   "Nombre": "VALENTIN BALZA",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "68449",
+   "Nombre": "JHOAN ELIEN GOPAR",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "58824",
+   "Nombre": "JOAQUIN VILA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "63490",
+   "Nombre": "FELIPE DIAZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "58818",
+   "Nombre": "MAXIMILIANO BORDOLLI",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "67974",
+   "Nombre": "GIANLUCA PEÑA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "68781",
+   "Nombre": "IGNACIO MARTINEZ",
+   "camiseta": "45",
+   "Capitan": ""
+  },
+  {
+   "carne": "58822",
+   "Nombre": "SANTIAGO BERTOLA",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "58820",
+   "Nombre": "ARAM MOURADIAN",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "68776",
+   "Nombre": "JOAQUIN GOMEZ",
+   "camiseta": "48",
+   "Capitan": ""
+  },
+  {
+   "carne": "62900",
+   "Nombre": "FACUNDO FERREYRA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "58821",
+   "Nombre": "MATEO BERTOLA",
+   "camiseta": "13",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "61796",
+   "Jug_Sale": "JUAN IGNACIO PIÑERA",
+   "CarneEntra": "68867",
+   "Jug_Entra": "CAMILO ALFREDO BACCI",
+   "camiseta": "19",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64950",
+   "Jug_Sale": "LUCA GARABATO",
+   "CarneEntra": "65552",
+   "Jug_Entra": "JUAN MARTIN ASENCIO",
+   "camiseta": "15",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64875",
+   "Jug_Sale": "JOAQUIN VAZQUEZ",
+   "CarneEntra": "68228",
+   "Jug_Entra": "AURELIO MUÑIZ",
+   "camiseta": "18",
+   "minutos": "28"
+  },
+  {
+   "CarneSale": "56150",
+   "Jug_Sale": "FACUNDO CANAN",
+   "CarneEntra": "64950",
+   "Jug_Entra": "LUCA GARABATO",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66146",
+   "Jug_Sale": "GASTON ERRANDONEA",
+   "CarneEntra": "64875",
+   "Jug_Entra": "JOAQUIN VAZQUEZ",
+   "camiseta": "10",
+   "minutos": "41"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "68776",
+   "Jug_Sale": "JOAQUIN GOMEZ",
+   "CarneEntra": "60301",
+   "Jug_Entra": "FEDERICO JAVIER AMILIVIA",
+   "camiseta": "8",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58821",
+   "Jug_Sale": "MATEO BERTOLA",
+   "CarneEntra": "62795",
+   "Jug_Entra": "AGUSTIN PIZZORNO",
+   "camiseta": "7",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "62900",
+   "Jug_Sale": "FACUNDO FERREYRA",
+   "CarneEntra": "62967",
+   "Jug_Entra": "ALFONSO PUNZO",
+   "camiseta": "44",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "63490",
+   "Jug_Sale": "FELIPE DIAZ",
+   "CarneEntra": "62906",
+   "Jug_Entra": "LUCCA CASELLA",
+   "camiseta": "3",
+   "minutos": "70"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "65119",
+   "Nombre": "VALENTIN BALZA",
+   "minutos": "31",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "58821",
+   "Nombre": "MATEO BERTOLA",
+   "minutos": "53",
+   "EnContra": "1"
+  },
+  {
+   "carne": "58822",
+   "Nombre": "SANTIAGO BERTOLA",
+   "minutos": "76",
+   "EnContra": "1"
+  },
+  {
+   "carne": "58824",
+   "Nombre": "JOAQUIN VILA",
+   "minutos": "13",
+   "EnContra": "1"
+  },
+  {
+   "carne": "60301",
+   "Nombre": "FEDERICO JAVIER AMILIVIA",
+   "minutos": "60",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "DAMIAN ALEJANDRO VELCOFF",
+   "observaciones": ""
+  }
+ ],
+ "expulsadosV": [
+  {
+   "Nombre": "IGNACIO MARTINEZ",
+   "observaciones": ""
+  }
+ ]
+}

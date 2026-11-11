@@ -1,7 +1,14 @@
 [
  {
   "serie": "PSET2",
-  "fechaHora": "2026-11-14 09:00:00",
+  "fechaHora": "2026-11-11 21:00:00",
+  "cancha": "COMPLEJO AZULGRANA",
+  "local": "COLEGIO Y LICEO INGLES",
+  "visitante": "OBC AZULGRANA"
+ },
+ {
+  "serie": "PSET2",
+  "fechaHora": "2026-11-14 11:15:00",
   "cancha": "COMPLEJO DEVOTO",
   "local": "WANDERERS",
   "visitante": "LA CUEVA DEL LOBIZON"
@@ -12,13 +19,6 @@
   "cancha": "COMPLEJO PROFUTBOL",
   "local": "CLUB RICHARD ANDERSON UNIV.",
   "visitante": "BELLA UNION UNIVERSITARIO"
- },
- {
-  "serie": "PSET2",
-  "fechaHora": "2026-11-14 11:15:00",
-  "cancha": "CAMPO DEP. COLEGIO INGLES",
-  "local": "COLEGIO Y LICEO INGLES",
-  "visitante": "OBC AZULGRANA"
  },
  {
   "serie": "PSE1",

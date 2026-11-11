@@ -1,0 +1,329 @@
+{
+ "id": "103886",
+ "categoria": "sub16",
+ "serie": "16B",
+ "fecha": 4,
+ "fechaHora": "2026-11-08 13:30:00",
+ "cancha": "LA MENNAIS",
+ "local": "J.M.L.M",
+ "visitante": "POCO SITIO PLAYA VERDE",
+ "gl": 3,
+ "gv": 4,
+ "detalle": {
+  "nro_partido": "350",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 16 ",
+  "categoria": "SUB 16 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB16 BRONCE",
+  "Cancha": "LA MENNAIS",
+  "Fecha_Inicio": "2026-11-08 15:15:00",
+  "Fecha_fin": "2026-11-08 15:15:00",
+  "Locatario": "J.M.L.M",
+  "goles_locatario": "3",
+  "puntos_locatario": "0",
+  "Visitante": "POCO SITIO PLAYA VERDE",
+  "goles_visitante": "4",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "67857",
+   "Nombre": "JUAN ESTEBAN MELLO",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "68516",
+   "Nombre": "MATIAS CARBAJALES",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "67378",
+   "Nombre": "SANTIAGO FALKENHAGEN",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "68221",
+   "Nombre": "FACUNDO FUENTES",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "66084",
+   "Nombre": "FACUNDO SCOTTI",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "64167",
+   "Nombre": "DANIEL CARBALLO",
+   "camiseta": "15",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "64172",
+   "Nombre": "TOMAS GABRIEL RODRIGUEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "64168",
+   "Nombre": "GABRIEL CARBALLO",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "64181",
+   "Nombre": "JUAN FRANCO GRUNOW",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "62866",
+   "Nombre": "LAUTARO MENDEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "67859",
+   "Nombre": "BAUTISTA METRE",
+   "camiseta": "33",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "68723",
+   "Nombre": "MATIAS ARMAND UGON",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "67118",
+   "Nombre": "PAOLO FORNARI TASHIRO",
+   "camiseta": "20",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "68582",
+   "Nombre": "BENJAMIN DEMATTE",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "67113",
+   "Nombre": "VICENTE LACASA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "67971",
+   "Nombre": "AGUSTIN LUCAS GALICIA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "64430",
+   "Nombre": "JOAQUIN FERNANDO PERLA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "67973",
+   "Nombre": "LUCAS CASTRO",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "67123",
+   "Nombre": "FELIPE SALVIA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "68618",
+   "Nombre": "JOAQUIN ALMARAZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "67109",
+   "Nombre": "NICOLAS PAIS",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "69097",
+   "Nombre": "FRANCO BASTOS",
+   "camiseta": "6",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "68516",
+   "Jug_Sale": "MATIAS CARBAJALES",
+   "CarneEntra": "62372",
+   "Jug_Entra": "FACUNDO ROIBAL",
+   "camiseta": "19",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68221",
+   "Jug_Sale": "FACUNDO FUENTES",
+   "CarneEntra": "63491",
+   "Jug_Entra": "FELIPE BENITEZ",
+   "camiseta": "4",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67859",
+   "Jug_Sale": "BAUTISTA METRE",
+   "CarneEntra": "67382",
+   "Jug_Entra": "MAURICIO FEDERICO PUÑALES",
+   "camiseta": "23",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66084",
+   "Jug_Sale": "FACUNDO SCOTTI",
+   "CarneEntra": "63492",
+   "Jug_Entra": "MARTIN BENITES",
+   "camiseta": "21",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "67378",
+   "Jug_Sale": "SANTIAGO FALKENHAGEN",
+   "CarneEntra": "66045",
+   "Jug_Entra": "ISMAEL GUTIERREZ",
+   "camiseta": "16",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "67859",
+   "Jug_Sale": "BAUTISTA METRE",
+   "CarneEntra": "61919",
+   "Jug_Entra": "SANTIAGO ANDRES BROGGI",
+   "camiseta": "28",
+   "minutos": "80"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "68582",
+   "Jug_Sale": "BENJAMIN DEMATTE",
+   "CarneEntra": "67115",
+   "Jug_Entra": "NICOLAS STORACE",
+   "camiseta": "4",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64430",
+   "Jug_Sale": "JOAQUIN FERNANDO PERLA",
+   "CarneEntra": "67111",
+   "Jug_Entra": "FAUSTINO NOCETI",
+   "camiseta": "11",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "67109",
+   "Jug_Sale": "NICOLAS PAIS",
+   "CarneEntra": "67120",
+   "Jug_Entra": "FAUSTINO BACHINI",
+   "camiseta": "3",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "69097",
+   "Jug_Sale": "FRANCO BASTOS",
+   "CarneEntra": "67110",
+   "Jug_Entra": "JOAQUIN MENDOZA IZETTA",
+   "camiseta": "44",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "67973",
+   "Jug_Sale": "LUCAS CASTRO",
+   "CarneEntra": "67119",
+   "Jug_Entra": "JUAN IGNACIO ESTELLES",
+   "camiseta": "5",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "68618",
+   "Jug_Sale": "JOAQUIN ALMARAZ",
+   "CarneEntra": "69097",
+   "Jug_Entra": "FRANCO BASTOS",
+   "camiseta": "6",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "67113",
+   "Jug_Sale": "VICENTE LACASA",
+   "CarneEntra": "67973",
+   "Jug_Entra": "LUCAS CASTRO",
+   "camiseta": "19",
+   "minutos": "77"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "62372",
+   "Nombre": "FACUNDO ROIBAL",
+   "minutos": "46",
+   "EnContra": "0"
+  },
+  {
+   "carne": "64181",
+   "Nombre": "JUAN FRANCO GRUNOW",
+   "minutos": "51",
+   "EnContra": "0"
+  },
+  {
+   "carne": "67378",
+   "Nombre": "SANTIAGO FALKENHAGEN",
+   "minutos": "60",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "64430",
+   "Nombre": "JOAQUIN FERNANDO PERLA",
+   "minutos": "18",
+   "EnContra": "1"
+  },
+  {
+   "carne": "67123",
+   "Nombre": "FELIPE SALVIA",
+   "minutos": "10",
+   "EnContra": "1"
+  },
+  {
+   "carne": "67123",
+   "Nombre": "FELIPE SALVIA",
+   "minutos": "13",
+   "EnContra": "1"
+  },
+  {
+   "carne": "67971",
+   "Nombre": "AGUSTIN LUCAS GALICIA",
+   "minutos": "38",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "BAUTISTA METRE",
+   "observaciones": ""
+  }
+ ],
+ "expulsadosV": []
+}

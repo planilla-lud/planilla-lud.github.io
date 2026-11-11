@@ -1,0 +1,296 @@
+{
+ "id": "103884",
+ "categoria": "sub16",
+ "serie": "16P",
+ "fecha": 4,
+ "fechaHora": "2026-11-08 13:30:00",
+ "cancha": "ELF (LICEO FRANCES)",
+ "local": "E.L.F.",
+ "visitante": "URUNDAY UNIVERSITARIO",
+ "gl": 2,
+ "gv": 3,
+ "detalle": {
+  "nro_partido": "321",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 16 ",
+  "categoria": "SUB 16 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB16 PLATA",
+  "Cancha": "ELF (LICEO FRANCES)",
+  "Fecha_Inicio": "2026-11-08 15:15:00",
+  "Fecha_fin": "2026-11-08 15:15:00",
+  "Locatario": "E.L.F.",
+  "goles_locatario": "2",
+  "puntos_locatario": "0",
+  "Visitante": "URUNDAY UNIVERSITARIO",
+  "goles_visitante": "3",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "62388",
+   "Nombre": "GONZALO VERANO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "61455",
+   "Nombre": "AGUSTIN RODRIGUEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "61726",
+   "Nombre": "CAMILO BARRIOLA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "65470",
+   "Nombre": "DANTE BAROSSI",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "67516",
+   "Nombre": "FRANCISCO MORAGUES",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "64104",
+   "Nombre": "JUAN MARTIN WALLACE",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "68154",
+   "Nombre": "RODRIGO COIROLO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "68433",
+   "Nombre": "TOMAS LLUBERAS",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "64092",
+   "Nombre": "JUAN ENRIQUE ALVES",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "62844",
+   "Nombre": "THIAGO BOUREL",
+   "camiseta": "7",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "62369",
+   "Nombre": "MAURICIO ZECCHI",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "67901",
+   "Nombre": "MATEO CHAVES",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "62257",
+   "Nombre": "EMILIANO GARCIA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "62483",
+   "Nombre": "JUAN IGNACIO FREGUEIRO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "67902",
+   "Nombre": "JUAN BAUTISTA GONZALEZ",
+   "camiseta": "13",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "62250",
+   "Nombre": "JUSTINO QUINTERO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "68277",
+   "Nombre": "VALENTINO LOPEZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "68525",
+   "Nombre": "ADIP NASSER",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "65243",
+   "Nombre": "BAUTISTA LABORDE",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "66828",
+   "Nombre": "JUAN MARTIN BELLO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "67900",
+   "Nombre": "NICOLAS CAPORALE",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "69072",
+   "Nombre": "JUAN MANUEL GOMEZ",
+   "camiseta": "29",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "62844",
+   "Jug_Sale": "THIAGO BOUREL",
+   "CarneEntra": "68433",
+   "Jug_Entra": "TOMAS LLUBERAS",
+   "camiseta": "18",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "61455",
+   "Jug_Sale": "AGUSTIN RODRIGUEZ",
+   "CarneEntra": "68414",
+   "Jug_Entra": "DANTE CERCHIARI",
+   "camiseta": "31",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68433",
+   "Jug_Sale": "TOMAS LLUBERAS",
+   "CarneEntra": "67156",
+   "Jug_Entra": "JUAN IGNACIO ARANCO",
+   "camiseta": "9",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "65470",
+   "Jug_Sale": "DANTE BAROSSI",
+   "CarneEntra": "64583",
+   "Jug_Entra": "FRANCISCO ALCIATURI",
+   "camiseta": "21",
+   "minutos": "78"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "68277",
+   "Jug_Sale": "VALENTINO LOPEZ",
+   "CarneEntra": "64456",
+   "Jug_Entra": "GIANLUCA IORLANO",
+   "camiseta": "34",
+   "minutos": "48"
+  },
+  {
+   "CarneSale": "69072",
+   "Jug_Sale": "JUAN MANUEL GOMEZ",
+   "CarneEntra": "67897",
+   "Jug_Entra": "SANTINO DE PATTI",
+   "camiseta": "14",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "62483",
+   "Jug_Sale": "JUAN IGNACIO FREGUEIRO",
+   "CarneEntra": "67896",
+   "Jug_Entra": "MATEO HERNANDEZ",
+   "camiseta": "66",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "62250",
+   "Jug_Sale": "JUSTINO QUINTERO",
+   "CarneEntra": "65248",
+   "Jug_Entra": "TIZIANO RAMOS",
+   "camiseta": "5",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67900",
+   "Jug_Sale": "NICOLAS CAPORALE",
+   "CarneEntra": "62247",
+   "Jug_Entra": "TOMAS BENTANCOR",
+   "camiseta": "8",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "66828",
+   "Jug_Sale": "JUAN MARTIN BELLO",
+   "CarneEntra": "62268",
+   "Jug_Entra": "MATEO RULLO",
+   "camiseta": "22",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "65243",
+   "Jug_Sale": "BAUTISTA LABORDE",
+   "CarneEntra": "64216",
+   "Jug_Entra": "EMILIANO OSORIO",
+   "camiseta": "7",
+   "minutos": "78"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "62369",
+   "Nombre": "MAURICIO ZECCHI",
+   "minutos": "5",
+   "EnContra": "0"
+  },
+  {
+   "carne": "64092",
+   "Nombre": "JUAN ENRIQUE ALVES",
+   "minutos": "30",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "66828",
+   "Nombre": "JUAN MARTIN BELLO",
+   "minutos": "7",
+   "EnContra": "1"
+  },
+  {
+   "carne": "66828",
+   "Nombre": "JUAN MARTIN BELLO",
+   "minutos": "25",
+   "EnContra": "1"
+  },
+  {
+   "carne": "67900",
+   "Nombre": "NICOLAS CAPORALE",
+   "minutos": "23",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

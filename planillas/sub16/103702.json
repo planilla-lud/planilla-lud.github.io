@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB16 PLATA",
   "Cancha": "COMPLEJO INGENIERO DEL CAMPO",
-  "Fecha_Inicio": "2026-11-06 22:30:00",
-  "Fecha_fin": "2026-11-06 22:30:00",
+  "Fecha_Inicio": "2026-11-06 22:50:00",
+  "Fecha_fin": "2026-11-06 22:50:00",
   "Locatario": "DEPORTIVO MORON",
   "goles_locatario": "3",
   "puntos_locatario": "3",
@@ -29,12 +29,243 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "titularesL": [
+  {
+   "carne": "66405",
+   "Nombre": "FRANCO CHIAPPE",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "61458",
+   "Nombre": "GERONIMO RODRIGUEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "62923",
+   "Nombre": "FRANCISCO CROSSA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "63588",
+   "Nombre": "JUAN IGNACIO RAIMONDO",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "67862",
+   "Nombre": "LAUTARO GASTON GIORDANO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "67492",
+   "Nombre": "EZEQUIEL PERDOMO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "66816",
+   "Nombre": "IGNACIO GALIZIA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "61560",
+   "Nombre": "ANTONIO CARVALLIDO",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "67499",
+   "Nombre": "FRANCO SILVA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "61993",
+   "Nombre": "JOAQUIN PEREYRA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "61456",
+   "Nombre": "EMILIANO ANDRES OCAMPO",
+   "camiseta": "30",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "65090",
+   "Nombre": "SANTINO BERRUETA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "65089",
+   "Nombre": "IGNACIO VARELA",
+   "camiseta": "4",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "65088",
+   "Nombre": "JUAN IGNACIO FONSECA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "62878",
+   "Nombre": "SANTIAGO TORRES",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "63557",
+   "Nombre": "MANUEL CANTERA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "63376",
+   "Nombre": "JOAQUIN BUSTOS",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "67911",
+   "Nombre": "JUAN BAUTISTA SCOTTI",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "65082",
+   "Nombre": "ALFONSO GERVAZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "65520",
+   "Nombre": "AMIT JAVIER DONAS",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "65553",
+   "Nombre": "FEDERICO SURRA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "68789",
+   "Nombre": "GUSTAVO ALEXANDER LOPEZ",
+   "camiseta": "22",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "67492",
+   "Jug_Sale": "EZEQUIEL PERDOMO",
+   "CarneEntra": "68912",
+   "Jug_Entra": "JOHANN SANTIAGO FERNANDEZ",
+   "camiseta": "29",
+   "minutos": "51"
+  },
+  {
+   "CarneSale": "61456",
+   "Jug_Sale": "EMILIANO ANDRES OCAMPO",
+   "CarneEntra": "66678",
+   "Jug_Entra": "FABIO ALEXANDER SUREZ",
+   "camiseta": "9",
+   "minutos": "51"
+  },
+  {
+   "CarneSale": "61993",
+   "Jug_Sale": "JOAQUIN PEREYRA",
+   "CarneEntra": "66814",
+   "Jug_Entra": "LUCIO AGUSTIN BENITEZ",
+   "camiseta": "14",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "67862",
+   "Jug_Sale": "LAUTARO GASTON GIORDANO",
+   "CarneEntra": "67861",
+   "Jug_Entra": "MARTIN IGNACIO CORRENGGIA",
+   "camiseta": "25",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "67499",
+   "Jug_Sale": "FRANCO SILVA",
+   "CarneEntra": "67491",
+   "Jug_Entra": "FELIPE SABIANO",
+   "camiseta": "5",
+   "minutos": "73"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "65088",
+   "Jug_Sale": "JUAN IGNACIO FONSECA",
+   "CarneEntra": "65084",
+   "Jug_Entra": "LORENZO BAUTISTA BERGALO",
+   "camiseta": "3",
+   "minutos": "52"
+  },
+  {
+   "CarneSale": "68789",
+   "Jug_Sale": "GUSTAVO ALEXANDER LOPEZ",
+   "CarneEntra": "65521",
+   "Jug_Entra": "MAXIMO CAL",
+   "camiseta": "27",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "65520",
+   "Jug_Sale": "AMIT JAVIER DONAS",
+   "CarneEntra": "62887",
+   "Jug_Entra": "AGUSTIN VIERA",
+   "camiseta": "19",
+   "minutos": "45"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "61560",
+   "Nombre": "ANTONIO CARVALLIDO",
+   "minutos": "5",
+   "EnContra": "0"
+  },
+  {
+   "carne": "61560",
+   "Nombre": "ANTONIO CARVALLIDO",
+   "minutos": "41",
+   "EnContra": "0"
+  },
+  {
+   "carne": "62923",
+   "Nombre": "FRANCISCO CROSSA",
+   "minutos": "71",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "63376",
+   "Nombre": "JOAQUIN BUSTOS",
+   "minutos": "45",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "JUAN IGNACIO RAIMONDO",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB16 ORO",
   "Cancha": "COMPLEJO DEP. y SAL, EL RINCON",
-  "Fecha_Inicio": "2026-11-08 15:00:00",
-  "Fecha_fin": "2026-11-08 15:00:00",
+  "Fecha_Inicio": "2026-11-08 15:10:00",
+  "Fecha_fin": "2026-11-08 15:10:00",
   "Locatario": "UNIVERSITARIO VERONES",
   "goles_locatario": "2",
   "puntos_locatario": "3",
@@ -29,12 +29,232 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "66830",
+   "Nombre": "SANTINO MARTINEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "64345",
+   "Nombre": "ELIAS DAVID MARTINEZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "62532",
+   "Nombre": "AUGUSTO RODRIGUEZ",
+   "camiseta": "4",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "67436",
+   "Nombre": "FACUNDO NICOLAS ROLIN",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "62829",
+   "Nombre": "MARTIN BRUNO LACUESTA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "65837",
+   "Nombre": "MATIAS ALBE",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "62520",
+   "Nombre": "RODRIGO LIGÜERA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "62519",
+   "Nombre": "TIAGO ZUVELA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "64022",
+   "Nombre": "BENJAMIN MENDEZ",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "60532",
+   "Nombre": "MANUEL FELIPE PEREIRA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "62516",
+   "Nombre": "LUCAS CONTIN",
+   "camiseta": "22",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "63283",
+   "Nombre": "NICOLAS PINTOS",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "68133",
+   "Nombre": "JOAQUIN DORADO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "68142",
+   "Nombre": "MAURO PIGNANELLI",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "63286",
+   "Nombre": "ENZO PIGNANELLI",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "61923",
+   "Nombre": "FRANCO BERTULLO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "62378",
+   "Nombre": "SANTINO FINOZZI",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "62384",
+   "Nombre": "MATIAS FALLINI",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "62600",
+   "Nombre": "VALENTINO SANTALLA",
+   "camiseta": "53",
+   "Capitan": ""
+  },
+  {
+   "carne": "60458",
+   "Nombre": "SANTIAGO SOTO",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "62248",
+   "Nombre": "FRANCISCO FERRARO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "60450",
+   "Nombre": "MATEO AURRECOCHEA",
+   "camiseta": "20",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "62829",
+   "Jug_Sale": "MARTIN BRUNO LACUESTA",
+   "CarneEntra": "62831",
+   "Jug_Entra": "DYLAN   ALEXANDER FERNANDEZ",
+   "camiseta": "6",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "66830",
+   "Jug_Sale": "SANTINO MARTINEZ",
+   "CarneEntra": "68191",
+   "Jug_Entra": "VALENTINO BRIOSI",
+   "camiseta": "12",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64022",
+   "Jug_Sale": "BENJAMIN MENDEZ",
+   "CarneEntra": "62523",
+   "Jug_Entra": "GUILLERMO WARREN",
+   "camiseta": "9",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64345",
+   "Jug_Sale": "ELIAS DAVID MARTINEZ",
+   "CarneEntra": "64022",
+   "Jug_Entra": "BENJAMIN MENDEZ",
+   "camiseta": "19",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "67436",
+   "Jug_Sale": "FACUNDO NICOLAS ROLIN",
+   "CarneEntra": "62829",
+   "Jug_Entra": "MARTIN BRUNO LACUESTA",
+   "camiseta": "21",
+   "minutos": "79"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "68133",
+   "Jug_Sale": "JOAQUIN DORADO",
+   "CarneEntra": "68144",
+   "Jug_Entra": "MATEO SASTRE",
+   "camiseta": "16",
+   "minutos": "52"
+  },
+  {
+   "CarneSale": "61923",
+   "Jug_Sale": "FRANCO BERTULLO",
+   "CarneEntra": "64321",
+   "Jug_Entra": "MARTIN HEINEN",
+   "camiseta": "77",
+   "minutos": "52"
+  },
+  {
+   "CarneSale": "63286",
+   "Jug_Sale": "ENZO PIGNANELLI",
+   "CarneEntra": "64093",
+   "Jug_Entra": "JUAN JOSE BERMUDEZ",
+   "camiseta": "32",
+   "minutos": "66"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "60532",
+   "Nombre": "MANUEL FELIPE PEREIRA",
+   "minutos": "37",
+   "EnContra": "0"
+  },
+  {
+   "carne": "62520",
+   "Nombre": "RODRIGO LIGÜERA",
+   "minutos": "38",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "62378",
+   "Nombre": "SANTINO FINOZZI",
+   "minutos": "6",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

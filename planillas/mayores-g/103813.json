@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "DIVISIONAL \"G\" COPA PLATA",
   "Cancha": "COM. CLUB UNIVERSIDAD CATOLICA",
-  "Fecha_Inicio": "2026-11-08 10:30:00",
-  "Fecha_fin": "2026-11-08 10:30:00",
+  "Fecha_Inicio": "2026-11-08 11:00:00",
+  "Fecha_fin": "2026-11-08 11:00:00",
   "Locatario": "RIVER PLATE UNIVERSITARIO",
   "goles_locatario": "3",
   "puntos_locatario": "3",
@@ -29,12 +29,227 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
+ "titularesL": [
+  {
+   "carne": "66259",
+   "Nombre": "LUCIO GONZALEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "56805",
+   "Nombre": "FACUNDO NAHUEL SILVA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "61909",
+   "Nombre": "AGUSTIN EXEQUIEL RODRIGUEZ",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "67278",
+   "Nombre": "JOEL NICOLAS CORREA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "67040",
+   "Nombre": "FACUNDO REDIN",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "66296",
+   "Nombre": "MAXIMILIANO ROLDAN",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "55311",
+   "Nombre": "LUCAS SIRIO",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "67280",
+   "Nombre": "SANTIAGO ORTIZ",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "67047",
+   "Nombre": "FRANCO GODOY",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "67044",
+   "Nombre": "AGUSTIN JESUS CASTRO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "62162",
+   "Nombre": "LAUTARO RODRIGUEZ",
+   "camiseta": "13",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "67270",
+   "Nombre": "MARTINO ROCCO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "58227",
+   "Nombre": "IGNACIO EMANNUEL SILVA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "35062",
+   "Nombre": "GUILLERMO CHRISTIAN SÖRENSEN",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "59072",
+   "Nombre": "SANTIAGO AGUSTIN ALMEIDA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "64653",
+   "Nombre": "BRAULIO TOMAS MATTOS",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "45617",
+   "Nombre": "FACUNDO MARCELO BARBERO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "59858",
+   "Nombre": "RODRIGO IVAN CASAS",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "44758",
+   "Nombre": "ALEJO PEREZ",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "59251",
+   "Nombre": "BRYAN EZEQUIEL LATORRE",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "63851",
+   "Nombre": "JEDI MAXIMILIANO RODRIGUEZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "49537",
+   "Nombre": "MATIAS GERMAN CONSTENLA",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "67047",
+   "Jug_Sale": "FRANCO GODOY",
+   "CarneEntra": "67629",
+   "Jug_Entra": "FRANCO BATISTA",
+   "camiseta": "8",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67280",
+   "Jug_Sale": "SANTIAGO ORTIZ",
+   "CarneEntra": "67488",
+   "Jug_Entra": "CESAR EMILIANO FALCO",
+   "camiseta": "12",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "55311",
+   "Jug_Sale": "LUCAS SIRIO",
+   "CarneEntra": "56793",
+   "Jug_Entra": "SEBASTIAN GONZALO SEINES",
+   "camiseta": "3",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "67044",
+   "Jug_Sale": "AGUSTIN JESUS CASTRO",
+   "CarneEntra": "68993",
+   "Jug_Entra": "SANTIAGO TOMAS RAMOS",
+   "camiseta": "25",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "56805",
+   "Jug_Sale": "FACUNDO NAHUEL SILVA",
+   "CarneEntra": "29363",
+   "Jug_Entra": "RAFAEL ENRIQUE PERDOMO",
+   "camiseta": "14",
+   "minutos": "87"
+  },
+  {
+   "CarneSale": "66296",
+   "Jug_Sale": "MAXIMILIANO ROLDAN",
+   "CarneEntra": "67044",
+   "Jug_Entra": "AGUSTIN JESUS CASTRO",
+   "camiseta": "20",
+   "minutos": "94"
+  }
+ ],
  "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "golesL": [
+  {
+   "carne": "56793",
+   "Nombre": "SEBASTIAN GONZALO SEINES",
+   "minutos": "84",
+   "EnContra": "0"
+  },
+  {
+   "carne": "62162",
+   "Nombre": "LAUTARO RODRIGUEZ",
+   "minutos": "38",
+   "EnContra": "0"
+  },
+  {
+   "carne": "67629",
+   "Nombre": "FRANCO BATISTA",
+   "minutos": "69",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "49537",
+   "Nombre": "MATIAS GERMAN CONSTENLA",
+   "minutos": "21",
+   "EnContra": "1"
+  },
+  {
+   "carne": "63851",
+   "Nombre": "JEDI MAXIMILIANO RODRIGUEZ",
+   "minutos": "74",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

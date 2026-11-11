@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-10T18:41:56.329Z",
+ "actualizado": "2026-11-11T00:03:44.233Z",
  "partidos": [
   {
    "div": "reserva-a",
@@ -92,8 +92,8 @@
    "k": "Old Brendans Verde~Old Christians Naranja",
    "l": "Old Brendans Verde",
    "v": "Old Christians Naranja",
-   "dia": "2026-11-14",
-   "hora": "11:15",
+   "dia": "2026-11-12",
+   "hora": "20:30",
    "etapa": "Permanencia",
    "pl": 7,
    "pv": 6,
@@ -195,7 +195,7 @@
    "l": "Wanderers",
    "v": "La Cueva Del Lobizon",
    "dia": "2026-11-14",
-   "hora": "09:00",
+   "hora": "11:15",
    "etapa": "Título y ascenso (2.ª rueda)",
    "pl": 1,
    "pv": 3,
@@ -206,30 +206,13 @@
    "altasV": 2
   },
   {
-   "div": "sub16-oro",
-   "divNombre": "Sub 16 Oro",
-   "k": "Seminario~Universitario Verones",
-   "l": "Seminario",
-   "v": "Universitario Verones",
-   "dia": "2026-11-15",
-   "hora": "13:30",
-   "etapa": "Copa de Oro",
-   "pl": 4,
-   "pv": 1,
-   "n": 8,
-   "base": 0,
-   "tipo": "titulo",
-   "altasL": 5,
-   "altasV": 2
-  },
-  {
    "div": "sub18-oro",
    "divNombre": "Sub 18 Oro",
    "k": "Old Christians~Old Brendans",
    "l": "Old Christians",
    "v": "Old Brendans",
    "dia": "2026-11-15",
-   "hora": "00:00",
+   "hora": "15:30",
    "etapa": "Copa de Oro",
    "pl": 2,
    "pv": 4,

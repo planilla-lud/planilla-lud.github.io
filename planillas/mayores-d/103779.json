@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAYORES \"D\" PERM. y DESC.",
   "Cancha": "COMPLEJO LOS ROJOS",
-  "Fecha_Inicio": "2026-11-08 10:30:00",
-  "Fecha_fin": "2026-11-08 10:30:00",
+  "Fecha_Inicio": "2026-11-08 11:00:00",
+  "Fecha_fin": "2026-11-08 11:00:00",
   "Locatario": "LATINO FUTBOL CLUB",
   "goles_locatario": "2",
   "puntos_locatario": "0",
@@ -29,12 +29,286 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
- "expulsadosV": []
+ "titularesL": [
+  {
+   "carne": "56822",
+   "Nombre": "JUAN IGNACIO TELLECHEA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "49737",
+   "Nombre": "MATIAS ACQUARONE",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "48878",
+   "Nombre": "JUAN JOSE CERVIERI",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "54729",
+   "Nombre": "FRANCISCO MANUEL IGLESIAS",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "41594",
+   "Nombre": "GUILLERMO CHALES",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "37033",
+   "Nombre": "VICENTE GONZALEZ-ARNAO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "55316",
+   "Nombre": "LUCIANO VICINO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "63613",
+   "Nombre": "EUSEBIO CABRAL",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "37816",
+   "Nombre": "EMILIANO PABLO BONINI",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "46187",
+   "Nombre": "MARTIN NICOLAS BALIERO",
+   "camiseta": "38",
+   "Capitan": ""
+  },
+  {
+   "carne": "53922",
+   "Nombre": "IGNACIO FERNANDEZ",
+   "camiseta": "60",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "56990",
+   "Nombre": "ELIAS JOAQUIN MARICHAL",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "42931",
+   "Nombre": "BRUNO POSE",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "63503",
+   "Nombre": "FRANCO DELEON",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "55294",
+   "Nombre": "ANTHONY GERARDO ACOSTA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "66012",
+   "Nombre": "NAHUEL CHIJANE",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "62828",
+   "Nombre": "FELIPE DUARTE",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "30236",
+   "Nombre": "FERNADO QUINTANA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "66175",
+   "Nombre": "NAZARENO AGUSTIN GONZALEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "64344",
+   "Nombre": "FACUNDO NICOLAS BETARTE",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "66126",
+   "Nombre": "CARLOS IGNACIO PINTOS",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "64342",
+   "Nombre": "JOAQUIN RIOS",
+   "camiseta": "13",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "53922",
+   "Jug_Sale": "IGNACIO FERNANDEZ",
+   "CarneEntra": "44470",
+   "Jug_Entra": "AGUSTIN GABRIEL SILVA",
+   "camiseta": "7",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "55316",
+   "Jug_Sale": "LUCIANO VICINO",
+   "CarneEntra": "43741",
+   "Jug_Entra": "SANTIAGO ALVES",
+   "camiseta": "3",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "37033",
+   "Jug_Sale": "VICENTE GONZALEZ-ARNAO",
+   "CarneEntra": "42780",
+   "Jug_Entra": "IGNACIO DARWIN GONZALEZ",
+   "camiseta": "47",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "37816",
+   "Jug_Sale": "EMILIANO PABLO BONINI",
+   "CarneEntra": "57069",
+   "Jug_Entra": "FRANCO TERPOLILLI",
+   "camiseta": "19",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "41594",
+   "Jug_Sale": "GUILLERMO CHALES",
+   "CarneEntra": "46887",
+   "Jug_Entra": "TOMAS MACHADO",
+   "camiseta": "45",
+   "minutos": "62"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "62828",
+   "Jug_Sale": "FELIPE DUARTE",
+   "CarneEntra": "38946",
+   "Jug_Entra": "SANTIAGO ANTONELLI",
+   "camiseta": "27",
+   "minutos": "32"
+  },
+  {
+   "CarneSale": "64342",
+   "Jug_Sale": "JOAQUIN RIOS",
+   "CarneEntra": "60532",
+   "Jug_Entra": "MANUEL FELIPE PEREIRA",
+   "camiseta": "7",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "42931",
+   "Jug_Sale": "BRUNO POSE",
+   "CarneEntra": "50246",
+   "Jug_Entra": "NICOLAS SEBASTIAN AMARAL",
+   "camiseta": "2",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "66012",
+   "Jug_Sale": "NAHUEL CHIJANE",
+   "CarneEntra": "64342",
+   "Jug_Entra": "JOAQUIN RIOS",
+   "camiseta": "13",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "38946",
+   "Jug_Sale": "SANTIAGO ANTONELLI",
+   "CarneEntra": "41767",
+   "Jug_Entra": "JOHNATAN EDGARD AMARO",
+   "camiseta": "20",
+   "minutos": "90"
+  },
+  {
+   "CarneSale": "63503",
+   "Jug_Sale": "FRANCO DELEON",
+   "CarneEntra": "43162",
+   "Jug_Entra": "JOAQUIN MORENO",
+   "camiseta": "9",
+   "minutos": "92"
+  },
+  {
+   "CarneSale": "64342",
+   "Jug_Sale": "JOAQUIN RIOS",
+   "CarneEntra": "66012",
+   "Jug_Entra": "NAHUEL CHIJANE",
+   "camiseta": "17",
+   "minutos": "94"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "44470",
+   "Nombre": "AGUSTIN GABRIEL SILVA",
+   "minutos": "69",
+   "EnContra": "0"
+  },
+  {
+   "carne": "54729",
+   "Nombre": "FRANCISCO MANUEL IGLESIAS",
+   "minutos": "45",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "64342",
+   "Nombre": "JOAQUIN RIOS",
+   "minutos": "26",
+   "EnContra": "1"
+  },
+  {
+   "carne": "66126",
+   "Nombre": "CARLOS IGNACIO PINTOS",
+   "minutos": "94",
+   "EnContra": "1"
+  },
+  {
+   "carne": "66175",
+   "Nombre": "NAZARENO AGUSTIN GONZALEZ",
+   "minutos": "50",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "JUAN JOSE CERVIERI",
+   "observaciones": ""
+  }
+ ],
+ "expulsadosV": [
+  {
+   "Nombre": "FACUNDO NICOLAS BETARTE",
+   "observaciones": ""
+  }
+ ]
 }

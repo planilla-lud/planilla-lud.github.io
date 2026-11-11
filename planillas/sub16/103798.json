@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB16 PLATA",
   "Cancha": "CARRASCO LAWN TENIS (KM 23)",
-  "Fecha_Inicio": "2026-11-08 15:00:00",
-  "Fecha_fin": "2026-11-08 15:00:00",
+  "Fecha_Inicio": "2026-11-08 15:15:00",
+  "Fecha_fin": "2026-11-08 15:15:00",
   "Locatario": "CARRASCO LAWN TENNIS",
   "goles_locatario": "3",
   "puntos_locatario": "3",
@@ -29,11 +29,190 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "61771",
+   "Nombre": "FILIPPO DE MORI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "63918",
+   "Nombre": "FELIPE MORIS",
+   "camiseta": "34",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "63921",
+   "Nombre": "JOAQUIN ZUBILLAGA",
+   "camiseta": "74",
+   "Capitan": ""
+  },
+  {
+   "carne": "62741",
+   "Nombre": "PEDRO MIGNONE",
+   "camiseta": "60",
+   "Capitan": ""
+  },
+  {
+   "carne": "63920",
+   "Nombre": "FELIPE ZUBILLAGA",
+   "camiseta": "73",
+   "Capitan": ""
+  },
+  {
+   "carne": "65411",
+   "Nombre": "FRANCISCO IGLESIA",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "63037",
+   "Nombre": "NICOLAS SZAMES",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "63942",
+   "Nombre": "SANTINO MORISIO",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "62740",
+   "Nombre": "FELIPE CLEMENT",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "63919",
+   "Nombre": "SANTINO AMAYA",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "65573",
+   "Nombre": "BENJAMIN ALISKEVICH",
+   "camiseta": "61",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "60380",
+   "Nombre": "MANUEL FERNANDEZ",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "61544",
+   "Nombre": "SANTINO CASTELLI",
+   "camiseta": "16",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "65352",
+   "Nombre": "FELIPE GEREZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "63049",
+   "Nombre": "EMILIANO MACIEL",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "62893",
+   "Nombre": "AGUSTIN FERNANDEZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "64314",
+   "Nombre": "SANTIAGO MANUEL RODRIGUEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "64297",
+   "Nombre": "LUCA MATEO ARDID",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "64303",
+   "Nombre": "MATIAS OLARAN",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "67871",
+   "Nombre": "MATEO EZEQUIEL PAGUA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "62922",
+   "Nombre": "JUAN MANUEL PEREYRA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "64309",
+   "Nombre": "JANO ALFONSO ARGÜELLO",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "63919",
+   "Jug_Sale": "SANTINO AMAYA",
+   "CarneEntra": "66541",
+   "Jug_Entra": "MANUEL CROCI",
+   "camiseta": "25",
+   "minutos": "45"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "65352",
+   "Jug_Sale": "FELIPE GEREZ",
+   "CarneEntra": "67868",
+   "Jug_Entra": "SANTIAGO MORAES",
+   "camiseta": "30",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "62893",
+   "Jug_Sale": "AGUSTIN FERNANDEZ",
+   "CarneEntra": "64052",
+   "Jug_Entra": "NICOLAS VALENTINO IFRAN",
+   "camiseta": "22",
+   "minutos": "45"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "63037",
+   "Nombre": "NICOLAS SZAMES",
+   "minutos": "32",
+   "EnContra": "0"
+  },
+  {
+   "carne": "63919",
+   "Nombre": "SANTINO AMAYA",
+   "minutos": "35",
+   "EnContra": "0"
+  },
+  {
+   "carne": "65573",
+   "Nombre": "BENJAMIN ALISKEVICH",
+   "minutos": "34",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []
