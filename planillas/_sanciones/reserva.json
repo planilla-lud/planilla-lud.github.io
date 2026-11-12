@@ -9070,7 +9070,7 @@
   "club": "VARELA UNIVERSITARIO",
   "sancion": "SUSPENDIDO",
   "fechas": 3,
-  "detalle": "F:3 - UR:3",
+  "detalle": "F:3 - UR:2",
   "texto": "Art. 148 del C.P. Que cumpla en todas las categorías de la disciplina deportiva."
  },
  {
@@ -9332,5 +9332,70 @@
   "fechas": 1,
   "detalle": "F:1 - UR:0",
   "texto": "Sanción generada automáticamente por expulsión en el partido"
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-11-12",
+  "partido": "714",
+  "serie": "RSBPD",
+  "carne": "41717",
+  "nombre": "SANTIAGO PEREYRA",
+  "club": "JUAN XXIII",
+  "sancion": "SUSPENDIDO",
+  "fechas": 1,
+  "detalle": "F:1 - UR:1",
+  "texto": "Art. 147 del C.P"
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-11-12",
+  "partido": "543",
+  "serie": "RSDTA",
+  "carne": "46909",
+  "nombre": "FEDERICO KARDJIAN",
+  "club": "ISASA UNIVERSITARIO",
+  "sancion": "SUSPENDIDO",
+  "fechas": 1,
+  "detalle": "F:1 - UR:1",
+  "texto": "Art. 147 del C.P"
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-11-12",
+  "partido": "716",
+  "serie": "RSBPD",
+  "carne": "50809",
+  "nombre": "MARTIN GAITAN",
+  "club": "CIRCULO DE TENIS MONTEVIDEO",
+  "sancion": "SUSPENDIDO",
+  "fechas": 4,
+  "detalle": "F:4 - UR:0",
+  "texto": "Art. 148 del C.P. Que cumpla en todas las categorías de la disciplina deportiva."
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-11-12",
+  "partido": "546",
+  "serie": "RSDTA",
+  "carne": "62062",
+  "nombre": "AFONSO COSTA",
+  "club": "CLUB JESUS MARIA",
+  "sancion": "SUSPENDIDO",
+  "fechas": 1,
+  "detalle": "F:1 - UR:1",
+  "texto": "Art. 147 del C.P"
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-11-12",
+  "partido": "716",
+  "serie": "RSBPD",
+  "carne": "65031",
+  "nombre": "EDUARDO MANUEL SANTOS",
+  "club": "SANTA ELENA LAGOMAR",
+  "sancion": "SUSPENDIDO",
+  "fechas": 4,
+  "detalle": "F:4 - UR:0",
+  "texto": "Art. 148 del C.P. Que cumpla en todas las categorías de la disciplina deportiva."
  }
 ]

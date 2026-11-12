@@ -1,13 +1,6 @@
 [
  {
   "serie": "16O",
-  "fechaHora": "2026-10-19 18:30:00",
-  "cancha": "OLD CHRISTIANS CLUB",
-  "local": "OLD CHRISTIANS CLUB",
-  "visitante": "THE BRITISH SCHOOL"
- },
- {
-  "serie": "16O",
   "fechaHora": "2026-11-11 17:00:00",
   "cancha": "COMPLEJO WOODLANDS SCHOOL",
   "local": "OLD WOODLANDS CLUB",
@@ -121,13 +114,6 @@
  {
   "serie": "16C",
   "fechaHora": "2026-11-15 13:30:00",
-  "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
-  "local": "SEMINARIO UNIVERSITARIO",
-  "visitante": "ESCUELA L.P."
- },
- {
-  "serie": "16C",
-  "fechaHora": "2026-11-15 13:30:00",
   "cancha": "COMPLEJO LOS NOGALES",
   "local": "NACIONAL UNIVERSITARIO",
   "visitante": "A.E.B.U"
@@ -152,6 +138,20 @@
   "cancha": "CAMPO DEP. INSTITUTO CRANDON",
   "local": "CRANDON UNIVERSITARIO",
   "visitante": "ESTUDIANTES DEL PLATA"
+ },
+ {
+  "serie": "16C",
+  "fechaHora": "2026-11-17 19:00:00",
+  "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
+  "local": "SEMINARIO UNIVERSITARIO",
+  "visitante": "ESCUELA L.P."
+ },
+ {
+  "serie": "16O",
+  "fechaHora": "2026-11-19 18:30:00",
+  "cancha": "OLD CHRISTIANS CLUB",
+  "local": "OLD CHRISTIANS CLUB",
+  "visitante": "THE BRITISH SCHOOL"
  },
  {
   "serie": "16O",

@@ -14,6 +14,13 @@
   "visitante": "OLD CHRISTIANS CLUB"
  },
  {
+  "serie": "PSAT",
+  "fechaHora": "2026-11-14 09:00:00",
+  "cancha": "COMPLEJO URUNDAY UNIVERSITARIO",
+  "local": "URUNDAY UNIVERSITARIO",
+  "visitante": "NAUTICO CARRASCO Y PUNTA GORDA"
+ },
+ {
   "serie": "PSAPD",
   "fechaHora": "2026-11-14 09:00:00",
   "cancha": "COMPLEJO DEPORTIVO ARRAYANES",
@@ -23,16 +30,16 @@
  {
   "serie": "PSAPD",
   "fechaHora": "2026-11-14 09:00:00",
-  "cancha": "COMPLEJO LAS CASUARINAS",
-  "local": "CLUB JESUS MARIA",
-  "visitante": "TENIS EL PINAR"
+  "cancha": "OLD IVY",
+  "local": "UNIVERSITARIO VERONES",
+  "visitante": "OLD IVY"
  },
  {
   "serie": "PSAPD",
-  "fechaHora": "2026-11-14 11:15:00",
-  "cancha": "COM. CLUB UNIVERSIDAD CATOLICA",
-  "local": "UNIVERSITARIO VERONES",
-  "visitante": "OLD IVY"
+  "fechaHora": "2026-11-14 09:00:00",
+  "cancha": "COMPLEJO LAS CASUARINAS",
+  "local": "CLUB JESUS MARIA",
+  "visitante": "TENIS EL PINAR"
  },
  {
   "serie": "PSAPD",
@@ -54,12 +61,5 @@
   "cancha": "COM. DEP. CLUB TROUVILLE",
   "local": "NACIONAL UNIVERSITARIO",
   "visitante": "OLD BOYS CLUB"
- },
- {
-  "serie": "PSAT",
-  "fechaHora": "2026-11-21 09:00:00",
-  "cancha": "COMPLEJO URUNDAY UNIVERSITARIO",
-  "local": "URUNDAY UNIVERSITARIO",
-  "visitante": "NAUTICO CARRASCO Y PUNTA GORDA"
  }
 ]

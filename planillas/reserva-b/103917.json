@@ -1,0 +1,314 @@
+{
+ "id": "103917",
+ "categoria": "reserva-b",
+ "serie": "RSBTA",
+ "fecha": 7,
+ "fechaHora": "2026-11-11 21:00:00",
+ "cancha": "COMPLEJO LAS CASUARINAS",
+ "local": "OLD CHRISTIANS BLANCO",
+ "visitante": "HEBRAICA UNIVERSITARIO",
+ "gl": 3,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "696",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "RESERVA",
+  "categoria": "RESERVA MASCULINO",
+  "rueda": "2",
+  "Divisional": "RESERVA \"B\" TIT. y ASC.",
+  "Cancha": "COMPLEJO LAS CASUARINAS",
+  "Fecha_Inicio": "2026-11-11 23:00:00",
+  "Fecha_fin": "2026-11-11 23:00:00",
+  "Locatario": "OLD CHRISTIANS BLANCO",
+  "goles_locatario": "3",
+  "puntos_locatario": "3",
+  "Visitante": "HEBRAICA UNIVERSITARIO",
+  "goles_visitante": "1",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "68857",
+   "Nombre": "FRANCISCO PINTOS",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "67430",
+   "Nombre": "ANDRES VILLAR",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "51235",
+   "Nombre": "JUAN MARQUES",
+   "camiseta": "2",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "52820",
+   "Nombre": "SEBASTIAN CLEMENTE",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "52622",
+   "Nombre": "NICOLAS CLEMENTE",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "42800",
+   "Nombre": "FEDERICO  IGNACIO HERMIDA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "67427",
+   "Nombre": "LUCAS DE ACHAVAL",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "46844",
+   "Nombre": "JOSE ANTONIO GONZALEZ BERRO",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "53249",
+   "Nombre": "JUAN FRANCISCO FERREIRA",
+   "camiseta": "61",
+   "Capitan": ""
+  },
+  {
+   "carne": "51502",
+   "Nombre": "DIEGO VIGORITO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "54409",
+   "Nombre": "JOAQUIN IRULEGUY",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "45517",
+   "Nombre": "MATIAS WAPNIARSKY",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "45526",
+   "Nombre": "EITAN WUHL",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "54690",
+   "Nombre": "SANTIAGO SISIASVILI",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "45841",
+   "Nombre": "MATIAS TROSTCHANSKY",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "64338",
+   "Nombre": "LUCAS DICHTENBERG",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "54688",
+   "Nombre": "FEDERICO BONOMO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "47421",
+   "Nombre": "NICOLAS JAKOB",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "48732",
+   "Nombre": "ILAN CAMONA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "53835",
+   "Nombre": "MATEO NAHMIAS",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "59245",
+   "Nombre": "AGUSTIN JUSTITZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "43038",
+   "Nombre": "DIEGO MIODOWNIK",
+   "camiseta": "49",
+   "Capitan": "(C)"
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "68857",
+   "Jug_Sale": "FRANCISCO PINTOS",
+   "CarneEntra": "54314",
+   "Jug_Entra": "NICOLAS MALET",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "51502",
+   "Jug_Sale": "DIEGO VIGORITO",
+   "CarneEntra": "58500",
+   "Jug_Entra": "FACUNDO LAFFITTE",
+   "camiseta": "17",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "46844",
+   "Jug_Sale": "JOSE ANTONIO GONZALEZ BERRO",
+   "CarneEntra": "67426",
+   "Jug_Entra": "JUAN MANUEL FERNANDEZ",
+   "camiseta": "13",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "42800",
+   "Jug_Sale": "FEDERICO  IGNACIO HERMIDA",
+   "CarneEntra": "47292",
+   "Jug_Entra": "NICOLAS JOSE REGUSCI",
+   "camiseta": "5",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "51235",
+   "Jug_Sale": "JUAN MARQUES",
+   "CarneEntra": "54475",
+   "Jug_Entra": "JUAN IGNACIO PEREZ ALFARO",
+   "camiseta": "15",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "67427",
+   "Jug_Sale": "LUCAS DE ACHAVAL",
+   "CarneEntra": "46845",
+   "Jug_Entra": "BAUTISTA VINCENT",
+   "camiseta": "6",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "54409",
+   "Jug_Sale": "JOAQUIN IRULEGUY",
+   "CarneEntra": "46842",
+   "Jug_Entra": "JUAN MANUEL HERMIDA",
+   "camiseta": "19",
+   "minutos": "80"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "45526",
+   "Jug_Sale": "EITAN WUHL",
+   "CarneEntra": "52405",
+   "Jug_Entra": "ARIEL SUHAMI",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "54688",
+   "Jug_Sale": "FEDERICO BONOMO",
+   "CarneEntra": "48731",
+   "Jug_Entra": "GASTON FRYDLENDER",
+   "camiseta": "23",
+   "minutos": "46"
+  },
+  {
+   "CarneSale": "47421",
+   "Jug_Sale": "NICOLAS JAKOB",
+   "CarneEntra": "43458",
+   "Jug_Entra": "MATIAS WILNER",
+   "camiseta": "17",
+   "minutos": "46"
+  },
+  {
+   "CarneSale": "48732",
+   "Jug_Sale": "ILAN CAMONA",
+   "CarneEntra": "59244",
+   "Jug_Entra": "AGUSTÌN PILAS",
+   "camiseta": "7",
+   "minutos": "46"
+  },
+  {
+   "CarneSale": "53835",
+   "Jug_Sale": "MATEO NAHMIAS",
+   "CarneEntra": "47247",
+   "Jug_Entra": "ARIEL SOBOL",
+   "camiseta": "77",
+   "minutos": "46"
+  },
+  {
+   "CarneSale": "59245",
+   "Jug_Sale": "AGUSTIN JUSTITZ",
+   "CarneEntra": "54753",
+   "Jug_Entra": "JOAQUIN BANEWUR",
+   "camiseta": "25",
+   "minutos": "46"
+  },
+  {
+   "CarneSale": "54690",
+   "Jug_Sale": "SANTIAGO SISIASVILI",
+   "CarneEntra": "48747",
+   "Jug_Entra": "MATIAS DAVID LUKSENBURG",
+   "camiseta": "91",
+   "minutos": "60"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "51502",
+   "Nombre": "DIEGO VIGORITO",
+   "minutos": "55",
+   "EnContra": "0"
+  },
+  {
+   "carne": "54409",
+   "Nombre": "JOAQUIN IRULEGUY",
+   "minutos": "26",
+   "EnContra": "0"
+  },
+  {
+   "carne": "67427",
+   "Nombre": "LUCAS DE ACHAVAL",
+   "minutos": "14",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "48747",
+   "Nombre": "MATIAS DAVID LUKSENBURG",
+   "minutos": "87",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

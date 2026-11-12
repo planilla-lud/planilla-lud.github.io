@@ -1,0 +1,267 @@
+{
+ "id": "103915",
+ "categoria": "reserva-a",
+ "serie": "RSAT",
+ "fecha": 7,
+ "fechaHora": "2026-11-11 21:00:00",
+ "cancha": "COMP. DEVOTO (NAUT. PICHINCHA)",
+ "local": "NAUTICO CARRASCO Y PUNTA GORDA",
+ "visitante": "PLAYA HONDA UNIVERSITARIO",
+ "gl": 3,
+ "gv": 0,
+ "detalle": {
+  "nro_partido": "641",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "RESERVA",
+  "categoria": "RESERVA MASCULINO",
+  "rueda": "2",
+  "Divisional": "RESERVA \"A\" TITULO",
+  "Cancha": "COMP. DEVOTO (NAUT. PICHINCHA)",
+  "Fecha_Inicio": "2026-11-11 23:00:00",
+  "Fecha_fin": "2026-11-11 23:00:00",
+  "Locatario": "NAUTICO CARRASCO Y PUNTA GORDA",
+  "goles_locatario": "3",
+  "puntos_locatario": "3",
+  "Visitante": "PLAYA HONDA UNIVERSITARIO",
+  "goles_visitante": "0",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "48273",
+   "Nombre": "SORIA PALLERO DIEGO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "42059",
+   "Nombre": "RODRIGO FERREIRO",
+   "camiseta": "3",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "53624",
+   "Nombre": "MATEO OURTHE",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "55476",
+   "Nombre": "IGNACIO MELLO",
+   "camiseta": "52",
+   "Capitan": ""
+  },
+  {
+   "carne": "54739",
+   "Nombre": "IÑAKI LOPEZ",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "54738",
+   "Nombre": "THIAGO MORLAN",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "53595",
+   "Nombre": "CARLOS GONZALO DANERS",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "55160",
+   "Nombre": "JOAQUIN PEÑA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "48838",
+   "Nombre": "BRUNO GRAJALES",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "55602",
+   "Nombre": "CAETANO MARRONE",
+   "camiseta": "92",
+   "Capitan": ""
+  },
+  {
+   "carne": "49414",
+   "Nombre": "DIEGO GABRIEL HANDALIAN",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "62544",
+   "Nombre": "ISMAEL SARASUA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "53845",
+   "Nombre": "MARTIN CURUTCHAGUE",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "54805",
+   "Nombre": "MATIAS PALMERO",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "55177",
+   "Nombre": "MARCO PISANO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "58715",
+   "Nombre": "JUAN SEBASTIAN RODRIGUEZ",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "41179",
+   "Nombre": "EUGENIO SUPPARO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "68323",
+   "Nombre": "FEDERICO SOLDEVILA",
+   "camiseta": "48",
+   "Capitan": ""
+  },
+  {
+   "carne": "58718",
+   "Nombre": "FRANCISCO DE LOS SANTOS",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "49922",
+   "Nombre": "ANDRES PIÑEIRO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "46832",
+   "Nombre": "EMILIANO DANTAZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "67539",
+   "Nombre": "MATIAS NICOLAS RODRIGUEZ",
+   "camiseta": "46",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "55160",
+   "Jug_Sale": "JOAQUIN PEÑA",
+   "CarneEntra": "51094",
+   "Jug_Entra": "DAMIAN ALMIRON",
+   "camiseta": "86",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "53624",
+   "Jug_Sale": "MATEO OURTHE",
+   "CarneEntra": "47736",
+   "Jug_Entra": "TOMAS CONDE",
+   "camiseta": "16",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "55476",
+   "Jug_Sale": "IGNACIO MELLO",
+   "CarneEntra": "43856",
+   "Jug_Entra": "AGUSTIN NOVELLI",
+   "camiseta": "70",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "49414",
+   "Jug_Sale": "DIEGO GABRIEL HANDALIAN",
+   "CarneEntra": "55719",
+   "Jug_Entra": "NICOLAS REY",
+   "camiseta": "14",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "48838",
+   "Jug_Sale": "BRUNO GRAJALES",
+   "CarneEntra": "61206",
+   "Jug_Entra": "ALEX AGUSTIN MIGUEL",
+   "camiseta": "99",
+   "minutos": "75"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "49922",
+   "Jug_Sale": "ANDRES PIÑEIRO",
+   "CarneEntra": "67537",
+   "Jug_Entra": "BAUTISTA GARRE",
+   "camiseta": "38",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58718",
+   "Jug_Sale": "FRANCISCO DE LOS SANTOS",
+   "CarneEntra": "67535",
+   "Jug_Entra": "BENJAMIN DE IZAGUIRRE",
+   "camiseta": "44",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "55177",
+   "Jug_Sale": "MARCO PISANO",
+   "CarneEntra": "53369",
+   "Jug_Entra": "IVAN BARCIA",
+   "camiseta": "88",
+   "minutos": "5"
+  },
+  {
+   "CarneSale": "58715",
+   "Jug_Sale": "JUAN SEBASTIAN RODRIGUEZ",
+   "CarneEntra": "62024",
+   "Jug_Entra": "JUAN MANUEL BOCCHI",
+   "camiseta": "41",
+   "minutos": "32"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "49414",
+   "Nombre": "DIEGO GABRIEL HANDALIAN",
+   "minutos": "53",
+   "EnContra": "0"
+  },
+  {
+   "carne": "53595",
+   "Nombre": "CARLOS GONZALO DANERS",
+   "minutos": "81",
+   "EnContra": "0"
+  },
+  {
+   "carne": "55602",
+   "Nombre": "CAETANO MARRONE",
+   "minutos": "72",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

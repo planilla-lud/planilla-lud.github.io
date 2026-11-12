@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-12T01:32:02.583Z",
+ "actualizado": "2026-11-12T18:52:34.841Z",
  "partidos": [
   {
    "div": "reserva-a",
@@ -15,7 +15,7 @@
    "n": 8,
    "base": 0,
    "tipo": "titulo",
-   "altasL": 1,
+   "altasL": 2,
    "altasV": 0
   },
   {
@@ -134,7 +134,7 @@
    "n": 8,
    "base": 8,
    "tipo": "descenso",
-   "altasL": 0,
+   "altasL": 1,
    "altasV": 2
   },
   {
@@ -203,7 +203,7 @@
    "base": 0,
    "tipo": "titulo",
    "altasL": 3,
-   "altasV": 2
+   "altasV": 3
   },
   {
    "div": "sub18-oro",
@@ -220,7 +220,24 @@
    "base": 0,
    "tipo": "titulo",
    "altasL": 0,
-   "altasV": 0
+   "altasV": 1
+  },
+  {
+   "div": "sub16-oro",
+   "divNombre": "Sub 16 Oro",
+   "k": "Old Christians~The British School",
+   "l": "Old Christians",
+   "v": "The British School",
+   "dia": "2026-11-19",
+   "hora": "18:30",
+   "etapa": "Copa de Oro",
+   "pl": 4,
+   "pv": 3,
+   "n": 8,
+   "base": 0,
+   "tipo": "titulo",
+   "altasL": 1,
+   "altasV": 3
   }
  ]
 }

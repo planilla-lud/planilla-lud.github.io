@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAS40 \"A\" TITULO",
   "Cancha": "OLD CHRISTIANS CLUB",
-  "Fecha_Inicio": "2026-11-11 21:30:00",
-  "Fecha_fin": "2026-11-11 21:30:00",
+  "Fecha_Inicio": "2026-11-11 22:00:00",
+  "Fecha_fin": "2026-11-11 22:00:00",
   "Locatario": "UNIVERSITARIO VERONES",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,281 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "63287",
+   "Nombre": "RICARDO DANIEL PAZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "18132",
+   "Nombre": "SEBASTIAN MIGUEL GARCIA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "33519",
+   "Nombre": "PABLO BERMUDEZ",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "19369",
+   "Nombre": "LUIS IGNACIO FORTE",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "54394",
+   "Nombre": "DANIEL NICOLAS ALVAREZ",
+   "camiseta": "22",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "40522",
+   "Nombre": "PABLO MIGUEL OTTONELLI",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "32302",
+   "Nombre": "HECTOR MARCELO PEREZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "35285",
+   "Nombre": "JULIO BRAYAN MELLO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "23932",
+   "Nombre": "LIBER SALVADOR ABELEN",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "25293",
+   "Nombre": "NICOLAS GALUP",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "16647",
+   "Nombre": "FERNANDO DANIEL BETARTE",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "12361",
+   "Nombre": "FACUNDO MARQUEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "23395",
+   "Nombre": "PEDRO MAURO SARAVIA",
+   "camiseta": "12",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "15491",
+   "Nombre": "ALBERTO CARRACEDO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "20220",
+   "Nombre": "SANTIAGO EDUARDO SUAREZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "24441",
+   "Nombre": "NICOLAS GARCIA PINTOS",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "22202",
+   "Nombre": "GERARDO GARCIA PINTOS",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "57117",
+   "Nombre": "LUIS PEDRO GARCIA",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "16903",
+   "Nombre": "JORGE CARLOS RACHETTI",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "16336",
+   "Nombre": "DIEGO SEBASTIAN SUAREZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "15398",
+   "Nombre": "PABLO CRISTOBO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "61205",
+   "Nombre": "MAURO GRIGNOLA",
+   "camiseta": "14",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "32302",
+   "Jug_Sale": "HECTOR MARCELO PEREZ",
+   "CarneEntra": "25293",
+   "Jug_Entra": "NICOLAS GALUP",
+   "camiseta": "8",
+   "minutos": "82"
+  },
+  {
+   "CarneSale": "16647",
+   "Jug_Sale": "FERNANDO DANIEL BETARTE",
+   "CarneEntra": "14035",
+   "Jug_Entra": "LEONARDO FABIAN VALLEJO",
+   "camiseta": "6",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "25293",
+   "Jug_Sale": "NICOLAS GALUP",
+   "CarneEntra": "17985",
+   "Jug_Entra": "GASTON ALEXIS DUARTE",
+   "camiseta": "15",
+   "minutos": "45"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "23395",
+   "Jug_Sale": "PEDRO MAURO SARAVIA",
+   "CarneEntra": "43379",
+   "Jug_Entra": "FEDERICO RODOLFO MENDEZ",
+   "camiseta": "22",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "20220",
+   "Jug_Sale": "SANTIAGO EDUARDO SUAREZ",
+   "CarneEntra": "21797",
+   "Jug_Entra": "JUAN IGNACIO LUSSICH",
+   "camiseta": "31",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "16903",
+   "Jug_Sale": "JORGE CARLOS RACHETTI",
+   "CarneEntra": "20807",
+   "Jug_Entra": "AGUSTIN MANUEL RACHETTI",
+   "camiseta": "4",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "57117",
+   "Jug_Sale": "LUIS PEDRO GARCIA",
+   "CarneEntra": "18059",
+   "Jug_Entra": "FEDERICO GREGORIO YOFFE",
+   "camiseta": "30",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "15491",
+   "Jug_Sale": "ALBERTO CARRACEDO",
+   "CarneEntra": "17311",
+   "Jug_Entra": "JUAN MANUEL SIENRA",
+   "camiseta": "18",
+   "minutos": "51"
+  },
+  {
+   "CarneSale": "61205",
+   "Jug_Sale": "MAURO GRIGNOLA",
+   "CarneEntra": "15560",
+   "Jug_Entra": "FEDERICO MANGINO",
+   "camiseta": "71",
+   "minutos": "51"
+  },
+  {
+   "CarneSale": "22202",
+   "Jug_Sale": "GERARDO GARCIA PINTOS",
+   "CarneEntra": "21675",
+   "Jug_Entra": "ALEJO AUGUSTO FERBER",
+   "camiseta": "39",
+   "minutos": "59"
+  },
+  {
+   "CarneSale": "16336",
+   "Jug_Sale": "DIEGO SEBASTIAN SUAREZ",
+   "CarneEntra": "14507",
+   "Jug_Entra": "JOSE MARIA OBES",
+   "camiseta": "15",
+   "minutos": "59"
+  },
+  {
+   "CarneSale": "24441",
+   "Jug_Sale": "NICOLAS GARCIA PINTOS",
+   "CarneEntra": "21636",
+   "Jug_Entra": "NICOLAS HENDERSON",
+   "camiseta": "9",
+   "minutos": "59"
+  }
+ ],
  "golesL": [],
- "golesV": [],
+ "golesV": [
+  {
+   "carne": "15398",
+   "Nombre": "PABLO CRISTOBO",
+   "minutos": "36",
+   "EnContra": "1"
+  },
+  {
+   "carne": "15398",
+   "Nombre": "PABLO CRISTOBO",
+   "minutos": "44",
+   "EnContra": "1"
+  },
+  {
+   "carne": "15398",
+   "Nombre": "PABLO CRISTOBO",
+   "minutos": "67",
+   "EnContra": "1"
+  },
+  {
+   "carne": "15398",
+   "Nombre": "PABLO CRISTOBO",
+   "minutos": "80",
+   "EnContra": "1"
+  },
+  {
+   "carne": "16336",
+   "Nombre": "DIEGO SEBASTIAN SUAREZ",
+   "minutos": "34",
+   "EnContra": "1"
+  },
+  {
+   "carne": "61205",
+   "Nombre": "MAURO GRIGNOLA",
+   "minutos": "50",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"B\" TIT. y ASC",
   "Cancha": "ELF (LICEO FRANCES)",
-  "Fecha_Inicio": "2026-11-11 22:00:00",
-  "Fecha_fin": "2026-11-11 22:00:00",
+  "Fecha_Inicio": "2026-11-11 22:30:00",
+  "Fecha_fin": "2026-11-11 22:30:00",
   "Locatario": "E.L.F.",
   "goles_locatario": "2",
   "puntos_locatario": "0",
@@ -29,12 +29,308 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "62001",
+   "Nombre": "ANTONIO SANTIAGO PEREYRA",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "50274",
+   "Nombre": "SANTIAGO ESPAÑA",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "27935",
+   "Nombre": "NICOLAS MARTIN PARDO",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "66157",
+   "Nombre": "FABIAN GASTON BLANCO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "26340",
+   "Nombre": "AGUSTIN CAÑADAS",
+   "camiseta": "6",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "28383",
+   "Nombre": "AGUSTIN JOSE SARNO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "25621",
+   "Nombre": "FABRICE ALBERT DESMULLIER",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "33595",
+   "Nombre": "FACUNDO CALVI",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "49515",
+   "Nombre": "JUAN MATHIAS FURTADO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "24317",
+   "Nombre": "DIEGO IGNACIO PUPPO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "28553",
+   "Nombre": "MARCELO DEUS",
+   "camiseta": "22",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "22452",
+   "Nombre": "SEBASTIAN SALAVERRIA",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "64253",
+   "Nombre": "MATIAS EMMANUEL PUCCIARELLI",
+   "camiseta": "38",
+   "Capitan": ""
+  },
+  {
+   "carne": "33773",
+   "Nombre": "JUAN ANDRES MOROSOFF",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "25397",
+   "Nombre": "MARTIN ANDRES ROSSI",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "21536",
+   "Nombre": "FRANCISCO SEBASTIAN FRONTINI",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "29861",
+   "Nombre": "SANTIAGO JOSE PEREZ",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "41612",
+   "Nombre": "NICOLAS VARELA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "21402",
+   "Nombre": "JUAN IGNACIO SECO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "23921",
+   "Nombre": "JUAN ANDRES BOCCHIO",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "50442",
+   "Nombre": "GIAN STEFAN MENDOZA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "34891",
+   "Nombre": "NICOLAS CHAIA",
+   "camiseta": "13",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "50274",
+   "Jug_Sale": "SANTIAGO ESPAÑA",
+   "CarneEntra": "26741",
+   "Jug_Entra": "FRANCO CROTTI",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "25621",
+   "Jug_Sale": "FABRICE ALBERT DESMULLIER",
+   "CarneEntra": "23793",
+   "Jug_Entra": "IGNACIO ILDEFONSO PEREZ",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "49515",
+   "Jug_Sale": "JUAN MATHIAS FURTADO",
+   "CarneEntra": "25659",
+   "Jug_Entra": "FREDY GASTON BATISTA",
+   "camiseta": "5",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "27935",
+   "Jug_Sale": "NICOLAS MARTIN PARDO",
+   "CarneEntra": "34958",
+   "Jug_Entra": "FEDERICO CAMPOS",
+   "camiseta": "9",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "28383",
+   "Jug_Sale": "AGUSTIN JOSE SARNO",
+   "CarneEntra": "59700",
+   "Jug_Entra": "ANDRES AGUSTIN LOPEZ",
+   "camiseta": "3",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "33595",
+   "Jug_Sale": "FACUNDO CALVI",
+   "CarneEntra": "63904",
+   "Jug_Entra": "FACUNDO MAURICIO ESTEVEZ",
+   "camiseta": "25",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "28553",
+   "Jug_Sale": "MARCELO DEUS",
+   "CarneEntra": "28842",
+   "Jug_Entra": "FEDERICO JAVIER SANCHEZ",
+   "camiseta": "8",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "25659",
+   "Jug_Sale": "FREDY GASTON BATISTA",
+   "CarneEntra": "27935",
+   "Jug_Entra": "NICOLAS MARTIN PARDO",
+   "camiseta": "24",
+   "minutos": "84"
+  },
+  {
+   "CarneSale": "24317",
+   "Jug_Sale": "DIEGO IGNACIO PUPPO",
+   "CarneEntra": "28553",
+   "Jug_Entra": "MARCELO DEUS",
+   "camiseta": "22",
+   "minutos": "84"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "41612",
+   "Jug_Sale": "NICOLAS VARELA",
+   "CarneEntra": "32593",
+   "Jug_Entra": "SANTIAGO MORIXE",
+   "camiseta": "32",
+   "minutos": "32"
+  },
+  {
+   "CarneSale": "23921",
+   "Jug_Sale": "JUAN ANDRES BOCCHIO",
+   "CarneEntra": "50442",
+   "Jug_Entra": "GIAN STEFAN MENDOZA",
+   "camiseta": "23",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "21536",
+   "Jug_Sale": "FRANCISCO SEBASTIAN FRONTINI",
+   "CarneEntra": "19586",
+   "Jug_Entra": "FEDERICO REYES",
+   "camiseta": "16",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "50442",
+   "Jug_Sale": "GIAN STEFAN MENDOZA",
+   "CarneEntra": "29897",
+   "Jug_Entra": "ALFONSO MATIAS ARANDA",
+   "camiseta": "22",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "29861",
+   "Jug_Sale": "SANTIAGO JOSE PEREZ",
+   "CarneEntra": "36871",
+   "Jug_Entra": "PATRICIO VACCA",
+   "camiseta": "35",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "29897",
+   "Jug_Sale": "ALFONSO MATIAS ARANDA",
+   "CarneEntra": "21536",
+   "Jug_Entra": "FRANCISCO SEBASTIAN FRONTINI",
+   "camiseta": "7",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "23921",
+   "Jug_Sale": "JUAN ANDRES BOCCHIO",
+   "CarneEntra": "50442",
+   "Jug_Entra": "GIAN STEFAN MENDOZA",
+   "camiseta": "23",
+   "minutos": "76"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "28553",
+   "Nombre": "MARCELO DEUS",
+   "minutos": "3",
+   "EnContra": "0"
+  },
+  {
+   "carne": "28553",
+   "Nombre": "MARCELO DEUS",
+   "minutos": "47",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "34891",
+   "Nombre": "NICOLAS CHAIA",
+   "minutos": "17",
+   "EnContra": "1"
+  },
+  {
+   "carne": "34891",
+   "Nombre": "NICOLAS CHAIA",
+   "minutos": "72",
+   "EnContra": "1"
+  },
+  {
+   "carne": "50442",
+   "Nombre": "GIAN STEFAN MENDOZA",
+   "minutos": "8",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

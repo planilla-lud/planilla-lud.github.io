@@ -1,0 +1,247 @@
+{
+ "id": "103916",
+ "categoria": "sub18",
+ "serie": "18P",
+ "fecha": 4,
+ "fechaHora": "2026-11-10 20:30:00",
+ "cancha": "CIUDAD DEPORTIVA LS",
+ "local": "COLEGIO SANTA ELENA",
+ "visitante": "DEPORTIVO LS UNIVERSITARIO",
+ "gl": 0,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "387",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 18 ",
+  "categoria": "SUB 18 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB18 PLATA",
+  "Cancha": "CIUDAD DEPORTIVA LS",
+  "Fecha_Inicio": "2026-11-10 22:30:00",
+  "Fecha_fin": "2026-11-10 22:30:00",
+  "Locatario": "COLEGIO SANTA ELENA",
+  "goles_locatario": "0",
+  "puntos_locatario": "0",
+  "Visitante": "DEPORTIVO LS UNIVERSITARIO",
+  "goles_visitante": "1",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "62694",
+   "Nombre": "NOAH ELIAS LEFKARITIS",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "63150",
+   "Nombre": "MATHIAS PABLO FAZZIO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "58136",
+   "Nombre": "MATEO BENSASSON",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "64156",
+   "Nombre": "GUILLERMO ZAMPROGNO",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "58409",
+   "Nombre": "LUCIANO CABRERA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "63760",
+   "Nombre": "JUAN MANUEL RODRIGUEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "62914",
+   "Nombre": "EMILIANO MILA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "66217",
+   "Nombre": "JUAN GENARO TABO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "62530",
+   "Nombre": "ELIAN SHARIM TEJERIA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "67071",
+   "Nombre": "BRUNO SANCHEZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "58135",
+   "Nombre": "TIAGO JULIEN ALVAREZ",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "61026",
+   "Nombre": "MANUEL BARRERA",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "60212",
+   "Nombre": "VALENTIN RODRIGUEZ",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "61057",
+   "Nombre": "MATEO NICOLI",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "66726",
+   "Nombre": "FACUNDO BIQUE",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "59411",
+   "Nombre": "TIAGO MARTIN RAYMONDO",
+   "camiseta": "41",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "62927",
+   "Nombre": "LORENZO ANTONIO FERRARI",
+   "camiseta": "43",
+   "Capitan": ""
+  },
+  {
+   "carne": "59433",
+   "Nombre": "TOMAS SEBASTIAN FRANCO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "60293",
+   "Nombre": "JOAQUIN PASSADORE",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "59430",
+   "Nombre": "RENZO VECINO",
+   "camiseta": "71",
+   "Capitan": ""
+  },
+  {
+   "carne": "59417",
+   "Nombre": "BENJAMIN ALVAREZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "67085",
+   "Nombre": "SANTINO IPARRAGUIRRE",
+   "camiseta": "8",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "63150",
+   "Jug_Sale": "MATHIAS PABLO FAZZIO",
+   "CarneEntra": "57679",
+   "Jug_Entra": "JUAN MANUEL BELLO",
+   "camiseta": "6",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64156",
+   "Jug_Sale": "GUILLERMO ZAMPROGNO",
+   "CarneEntra": "68956",
+   "Jug_Entra": "LUCAS ROMAN",
+   "camiseta": "9",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "66217",
+   "Jug_Sale": "JUAN GENARO TABO",
+   "CarneEntra": "63150",
+   "Jug_Entra": "MATHIAS PABLO FAZZIO",
+   "camiseta": "2",
+   "minutos": "81"
+  },
+  {
+   "CarneSale": "62914",
+   "Jug_Sale": "EMILIANO MILA",
+   "CarneEntra": "66257",
+   "Jug_Entra": "FACUNDO CIPILIANO",
+   "camiseta": "23",
+   "minutos": "85"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "67085",
+   "Jug_Sale": "SANTINO IPARRAGUIRRE",
+   "CarneEntra": "67173",
+   "Jug_Entra": "TIZIANO BENJAMIN MUÑOZ",
+   "camiseta": "11",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "60293",
+   "Jug_Sale": "JOAQUIN PASSADORE",
+   "CarneEntra": "64296",
+   "Jug_Entra": "JUAN PABLO AGUIRREZABALA",
+   "camiseta": "71",
+   "minutos": "81"
+  },
+  {
+   "CarneSale": "59417",
+   "Jug_Sale": "BENJAMIN ALVAREZ",
+   "CarneEntra": "59981",
+   "Jug_Entra": "JUAN PABLO PORTA",
+   "camiseta": "23",
+   "minutos": "90"
+  },
+  {
+   "CarneSale": "59430",
+   "Jug_Sale": "RENZO VECINO",
+   "CarneEntra": "67172",
+   "Jug_Entra": "JOAQUIN ACOSTA",
+   "camiseta": "17",
+   "minutos": "45"
+  }
+ ],
+ "golesL": [],
+ "golesV": [
+  {
+   "carne": "59417",
+   "Nombre": "BENJAMIN ALVAREZ",
+   "minutos": "75",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}
