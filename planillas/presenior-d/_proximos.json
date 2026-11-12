@@ -9,6 +9,13 @@
  {
   "serie": "PSDTA",
   "fechaHora": "2026-11-14 09:00:00",
+  "cancha": "COMPLEJO LAS CASUARINAS",
+  "local": "BODY FACTORY",
+  "visitante": "DEPORTIVO MATADERO"
+ },
+ {
+  "serie": "PSDTA",
+  "fechaHora": "2026-11-14 09:00:00",
   "cancha": "COMPLEJO LOS ROJOS",
   "local": "OLD BRENDANS CLUB",
   "visitante": "SCUOLA PALERMO"
@@ -42,16 +49,9 @@
   "visitante": "DANUBIO FUTBOL CLUB"
  },
  {
-  "serie": "PSDTA",
-  "fechaHora": "2026-11-14 11:15:00",
-  "cancha": "COMPLEJO ARACHAN",
-  "local": "BODY FACTORY",
-  "visitante": "DEPORTIVO MATADERO"
- },
- {
   "serie": "PSDPD",
-  "fechaHora": "2026-11-14 11:15:00",
-  "cancha": "COM. CLUB UNIVERSIDAD CATOLICA",
+  "fechaHora": "2026-12-30 00:00:00",
+  "cancha": "NO SE JUEGA",
   "local": "ANGLO",
   "visitante": "NUMA TURCATTI"
  }

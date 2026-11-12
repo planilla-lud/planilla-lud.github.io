@@ -14,27 +14,6 @@
   "visitante": "OLD CHRISTIANS CLUB"
  },
  {
-  "serie": "PSAT",
-  "fechaHora": "2026-11-14 09:00:00",
-  "cancha": "COMPLEJO INDEPENDIENTE UNIV.",
-  "local": "INDEPENDIENTE",
-  "visitante": "JUAN XXIII"
- },
- {
-  "serie": "PSAT",
-  "fechaHora": "2026-11-14 09:00:00",
-  "cancha": "COM. DEP. CLUB TROUVILLE",
-  "local": "NACIONAL UNIVERSITARIO",
-  "visitante": "OLD BOYS CLUB"
- },
- {
-  "serie": "PSAT",
-  "fechaHora": "2026-11-14 09:00:00",
-  "cancha": "COMPLEJO URUNDAY UNIVERSITARIO",
-  "local": "URUNDAY UNIVERSITARIO",
-  "visitante": "NAUTICO CARRASCO Y PUNTA GORDA"
- },
- {
   "serie": "PSAPD",
   "fechaHora": "2026-11-14 09:00:00",
   "cancha": "COMPLEJO DEPORTIVO ARRAYANES",
@@ -44,7 +23,7 @@
  {
   "serie": "PSAPD",
   "fechaHora": "2026-11-14 09:00:00",
-  "cancha": "COMPLEJO COLEGIO JESÚS MARÍA",
+  "cancha": "COMPLEJO LAS CASUARINAS",
   "local": "CLUB JESUS MARIA",
   "visitante": "TENIS EL PINAR"
  },
@@ -61,5 +40,26 @@
   "cancha": "CAM. DEP. ASOC. HEBRAICA Y MAC",
   "local": "HEBRAICA UNIVERSITARIO",
   "visitante": "ELBIO FERNANDEZ"
+ },
+ {
+  "serie": "PSAT",
+  "fechaHora": "2026-11-21 09:00:00",
+  "cancha": "COMPLEJO INDEPENDIENTE UNIV.",
+  "local": "INDEPENDIENTE",
+  "visitante": "JUAN XXIII"
+ },
+ {
+  "serie": "PSAT",
+  "fechaHora": "2026-11-21 09:00:00",
+  "cancha": "COM. DEP. CLUB TROUVILLE",
+  "local": "NACIONAL UNIVERSITARIO",
+  "visitante": "OLD BOYS CLUB"
+ },
+ {
+  "serie": "PSAT",
+  "fechaHora": "2026-11-21 09:00:00",
+  "cancha": "COMPLEJO URUNDAY UNIVERSITARIO",
+  "local": "URUNDAY UNIVERSITARIO",
+  "visitante": "NAUTICO CARRASCO Y PUNTA GORDA"
  }
 ]
