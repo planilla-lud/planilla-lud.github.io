@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13T00:11:52.210Z",
+ "actualizado": "2026-11-13T03:38:42.833Z",
  "partidos": [
   {
    "div": "reserva-a",
@@ -84,40 +84,6 @@
    "base": 0,
    "tipo": "titulo",
    "altasL": 1,
-   "altasV": 2
-  },
-  {
-   "div": "reserva-c",
-   "divNombre": "Reserva C",
-   "k": "Old Brendans Verde~Old Christians Naranja",
-   "l": "Old Brendans Verde",
-   "v": "Old Christians Naranja",
-   "dia": "2026-11-12",
-   "hora": "20:30",
-   "etapa": "Permanencia",
-   "pl": 7,
-   "pv": 6,
-   "n": 8,
-   "base": 8,
-   "tipo": "descenso",
-   "altasL": 3,
-   "altasV": 2
-  },
-  {
-   "div": "presenior-c",
-   "divNombre": "Pre Senior C",
-   "k": "San Eugenio~Deportivo Mitre",
-   "l": "San Eugenio",
-   "v": "Deportivo Mitre",
-   "dia": "2026-11-12",
-   "hora": "20:15",
-   "etapa": "Permanencia",
-   "pl": 7,
-   "pv": 8,
-   "n": 8,
-   "base": 8,
-   "tipo": "descenso",
-   "altasL": 2,
    "altasV": 2
   },
   {

@@ -1,19 +1,5 @@
 [
  {
-  "serie": "RSBTA",
-  "fechaHora": "2026-11-12 20:30:00",
-  "cancha": "ST. BRENDANS",
-  "local": "OLD BRENDANS CLUB",
-  "visitante": "OLD CHRISTIANS VERDE"
- },
- {
-  "serie": "RSBPD",
-  "fechaHora": "2026-11-12 20:30:00",
-  "cancha": "COMPLEJO DEPORTIVO ARRAYANES",
-  "local": "COLEGIO SANTA ELENA",
-  "visitante": "CIRCULO DE TENIS MONTEVIDEO"
- },
- {
   "serie": "RSBPD",
   "fechaHora": "2026-11-14 09:00:00",
   "cancha": "COMPLEJO JUAN XXIII",
