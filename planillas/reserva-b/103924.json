@@ -4,7 +4,7 @@
  "serie": "RSBTA",
  "fecha": 7,
  "fechaHora": "2026-11-12 20:30:00",
- "cancha": "ST. BRENDANS",
+ "cancha": "()",
  "local": "OLD BRENDANS CLUB",
  "visitante": "OLD CHRISTIANS VERDE",
  "gl": 6,
@@ -17,9 +17,9 @@
   "categoria": "RESERVA MASCULINO",
   "rueda": "2",
   "Divisional": "RESERVA \"B\" TIT. y ASC.",
-  "Cancha": "ST. BRENDANS",
-  "Fecha_Inicio": "2026-11-12 22:00:00",
-  "Fecha_fin": "2026-11-12 22:00:00",
+  "Cancha": "()",
+  "Fecha_Inicio": "2026-11-12 22:15:00",
+  "Fecha_fin": "2026-11-12 22:15:00",
   "Locatario": "OLD BRENDANS CLUB",
   "goles_locatario": "6",
   "puntos_locatario": "3",
@@ -29,12 +29,304 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "57193",
+   "Nombre": "FRANCO GABRIEL LOPEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "42722",
+   "Nombre": "LUCAS MORONI",
+   "camiseta": "3",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "55499",
+   "Nombre": "IGNACIO DANTE FERNANDEZ",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "63398",
+   "Nombre": "BRUNO ANDRES CIAPPESONI",
+   "camiseta": "52",
+   "Capitan": ""
+  },
+  {
+   "carne": "57611",
+   "Nombre": "EZEQUIEL VILLANUEVA",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "41121",
+   "Nombre": "ALVARO CANO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "52052",
+   "Nombre": "FEDERICO DUTRA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "39323",
+   "Nombre": "IGNACIO MILLER",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "49048",
+   "Nombre": "EZEQUIEL ESTEFAN",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "54067",
+   "Nombre": "JUAN PABLO LOPEZ",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "45303",
+   "Nombre": "SANTIAGO PETROCELLI",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "68491",
+   "Nombre": "MARCOS SEIGAL",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "67388",
+   "Nombre": "SANTIAGO BERTORELLI",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "35673",
+   "Nombre": "ALBERTO JERONIMO NOGUERA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "53757",
+   "Nombre": "JOAQUIN FERNANDEZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "48580",
+   "Nombre": "JUAN PABLO FERNANDEZ",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "52966",
+   "Nombre": "LUCAS FRANCISCO PRESSO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "44029",
+   "Nombre": "TOMAS SANTIAGO SLINGER",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "37067",
+   "Nombre": "TOMAS BERRO",
+   "camiseta": "93",
+   "Capitan": ""
+  },
+  {
+   "carne": "45068",
+   "Nombre": "JUAN JOSE POL",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "56746",
+   "Nombre": "JOAQUIN REINANTE",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "55214",
+   "Nombre": "BAUTISTA RAFAEL LADOUX",
+   "camiseta": "18",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "63398",
+   "Jug_Sale": "BRUNO ANDRES CIAPPESONI",
+   "CarneEntra": "36517",
+   "Jug_Entra": "MANUEL MATIAS GONZALEZ",
+   "camiseta": "23",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "45303",
+   "Jug_Sale": "SANTIAGO PETROCELLI",
+   "CarneEntra": "50131",
+   "Jug_Entra": "LUCAS CALISTRO",
+   "camiseta": "11",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "41121",
+   "Jug_Sale": "ALVARO CANO",
+   "CarneEntra": "49225",
+   "Jug_Entra": "MATIAS LOPEZ",
+   "camiseta": "2",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "39323",
+   "Jug_Sale": "IGNACIO MILLER",
+   "CarneEntra": "43891",
+   "Jug_Entra": "DIEGO LOPEZ",
+   "camiseta": "41",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "49048",
+   "Jug_Sale": "EZEQUIEL ESTEFAN",
+   "CarneEntra": "53875",
+   "Jug_Entra": "ALFONSO ABELLA",
+   "camiseta": "15",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "55499",
+   "Jug_Sale": "IGNACIO DANTE FERNANDEZ",
+   "CarneEntra": "39879",
+   "Jug_Entra": "IGNACIO ADINOLFI",
+   "camiseta": "4",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "54067",
+   "Jug_Sale": "JUAN PABLO LOPEZ",
+   "CarneEntra": "58028",
+   "Jug_Entra": "TOMAS VASSALLUCCI",
+   "camiseta": "22",
+   "minutos": "75"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "52966",
+   "Jug_Sale": "LUCAS FRANCISCO PRESSO",
+   "CarneEntra": "39754",
+   "Jug_Entra": "JOAQUIN FEDERICO SLINGER",
+   "camiseta": "34",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56746",
+   "Jug_Sale": "JOAQUIN REINANTE",
+   "CarneEntra": "46366",
+   "Jug_Entra": "IGNACIO MESIAS",
+   "camiseta": "12",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "37067",
+   "Jug_Sale": "TOMAS BERRO",
+   "CarneEntra": "51736",
+   "Jug_Entra": "PEDRO HINSCH",
+   "camiseta": "32",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "35673",
+   "Jug_Sale": "ALBERTO JERONIMO NOGUERA",
+   "CarneEntra": "52623",
+   "Jug_Entra": "ALEJO PARODI",
+   "camiseta": "2",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "53757",
+   "Jug_Sale": "JOAQUIN FERNANDEZ",
+   "CarneEntra": "58115",
+   "Jug_Entra": "JUAN MANUEL GRECCO",
+   "camiseta": "22",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "44029",
+   "Jug_Sale": "TOMAS SANTIAGO SLINGER",
+   "CarneEntra": "37736",
+   "Jug_Entra": "FELIPE DABEZIES",
+   "camiseta": "6",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "68491",
+   "Jug_Sale": "MARCOS SEIGAL",
+   "CarneEntra": "52966",
+   "Jug_Entra": "LUCAS FRANCISCO PRESSO",
+   "camiseta": "11",
+   "minutos": "64"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "39323",
+   "Nombre": "IGNACIO MILLER",
+   "minutos": "70",
+   "EnContra": "0"
+  },
+  {
+   "carne": "45303",
+   "Nombre": "SANTIAGO PETROCELLI",
+   "minutos": "28",
+   "EnContra": "0"
+  },
+  {
+   "carne": "50131",
+   "Nombre": "LUCAS CALISTRO",
+   "minutos": "88",
+   "EnContra": "0"
+  },
+  {
+   "carne": "52052",
+   "Nombre": "FEDERICO DUTRA",
+   "minutos": "17",
+   "EnContra": "0"
+  },
+  {
+   "carne": "52052",
+   "Nombre": "FEDERICO DUTRA",
+   "minutos": "90",
+   "EnContra": "0"
+  },
+  {
+   "carne": "58028",
+   "Nombre": "TOMAS VASSALLUCCI",
+   "minutos": "87",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "45068",
+   "Nombre": "JUAN JOSE POL",
+   "minutos": "2",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

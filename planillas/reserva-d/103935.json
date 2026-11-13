@@ -1,0 +1,326 @@
+{
+ "id": "103935",
+ "categoria": "reserva-d",
+ "serie": "RSDPD",
+ "fecha": 11,
+ "fechaHora": "2026-11-12 21:05:00",
+ "cancha": "COMPLEJO LAS CASUARINAS",
+ "local": "CLUB ATLETICO LIMBURGO",
+ "visitante": "SAN JOSE DE LA PROVIDENCIA uni",
+ "gl": 4,
+ "gv": 2,
+ "detalle": {
+  "nro_partido": "609",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "RESERVA",
+  "categoria": "RESERVA MASCULINO",
+  "rueda": "2",
+  "Divisional": "RESERVA \"D\" COPA DE PLATA",
+  "Cancha": "COMPLEJO LAS CASUARINAS",
+  "Fecha_Inicio": "2026-11-12 22:55:00",
+  "Fecha_fin": "2026-11-12 22:55:00",
+  "Locatario": "CLUB ATLETICO LIMBURGO",
+  "goles_locatario": "4",
+  "puntos_locatario": "3",
+  "Visitante": "SAN JOSE DE LA PROVIDENCIA uni",
+  "goles_visitante": "2",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "67006",
+   "Nombre": "LUIS ANTHONY CENTENO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "69125",
+   "Nombre": "IAN CASTILLO",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "50891",
+   "Nombre": "DIEGO MARCENARO",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "53151",
+   "Nombre": "DIEGO RODRIGUEZ",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "68905",
+   "Nombre": "MATEO IGUINI",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "31775",
+   "Nombre": "JOAQUIN GUTIERREZ",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "56504",
+   "Nombre": "THIAGO PELLEGRINO",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "47345",
+   "Nombre": "JOAQUIN GABRIEL VARELA",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "51238",
+   "Nombre": "MATIAS BELLINI",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "45209",
+   "Nombre": "JUAN MARTIN SUEIRO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "50881",
+   "Nombre": "THOMAS JESKE",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "59515",
+   "Nombre": "FRANCO FEDERICO DENIS",
+   "camiseta": "47",
+   "Capitan": ""
+  },
+  {
+   "carne": "53204",
+   "Nombre": "ARON SPINELLI",
+   "camiseta": "79",
+   "Capitan": ""
+  },
+  {
+   "carne": "64071",
+   "Nombre": "FEDERICO SEBASTIAN BENITEZ",
+   "camiseta": "26",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "59027",
+   "Nombre": "RODRIGO IGNACIO VILAS",
+   "camiseta": "38",
+   "Capitan": ""
+  },
+  {
+   "carne": "58238",
+   "Nombre": "ALEJANDRO RODRIGUEZ",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "62487",
+   "Nombre": "ALEJO RAMIREZ",
+   "camiseta": "41",
+   "Capitan": ""
+  },
+  {
+   "carne": "65085",
+   "Nombre": "FRANCO DIEGO",
+   "camiseta": "55",
+   "Capitan": ""
+  },
+  {
+   "carne": "59015",
+   "Nombre": "IGNACIO SALVADOR PERDOMO",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "59907",
+   "Nombre": "LUCIANO GONZALEZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "59033",
+   "Nombre": "DANILO URES",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "68996",
+   "Nombre": "FEDERICO MARTIN PASCUAL",
+   "camiseta": "60",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "50881",
+   "Jug_Sale": "THOMAS JESKE",
+   "CarneEntra": "59742",
+   "Jug_Entra": "MATEO JOSE ONETTO",
+   "camiseta": "0",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "50891",
+   "Jug_Sale": "DIEGO MARCENARO",
+   "CarneEntra": "40189",
+   "Jug_Entra": "FEDERICO PEREZ",
+   "camiseta": "17",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "69125",
+   "Jug_Sale": "IAN CASTILLO",
+   "CarneEntra": "67009",
+   "Jug_Entra": "MATIAS EDUARDO SANCHEZ",
+   "camiseta": "2",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67009",
+   "Jug_Sale": "MATIAS EDUARDO SANCHEZ",
+   "CarneEntra": "48988",
+   "Jug_Entra": "ALEJANDRO GUILLERMO ROCCA",
+   "camiseta": "51",
+   "minutos": "51"
+  },
+  {
+   "CarneSale": "45209",
+   "Jug_Sale": "JUAN MARTIN SUEIRO",
+   "CarneEntra": "69141",
+   "Jug_Entra": "FACUNDO SANTISO",
+   "camiseta": "20",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "68905",
+   "Jug_Sale": "MATEO IGUINI",
+   "CarneEntra": "62430",
+   "Jug_Entra": "ALEJO MARTIN FONT",
+   "camiseta": "30",
+   "minutos": "81"
+  },
+  {
+   "CarneSale": "53151",
+   "Jug_Sale": "DIEGO RODRIGUEZ",
+   "CarneEntra": "46385",
+   "Jug_Entra": "FERNANDO EMANUEL FAGALDES",
+   "camiseta": "33",
+   "minutos": "81"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "53204",
+   "Jug_Sale": "ARON SPINELLI",
+   "CarneEntra": "59910",
+   "Jug_Entra": "FACUNDO OZMAN PERDOMO",
+   "camiseta": "17",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64071",
+   "Jug_Sale": "FEDERICO SEBASTIAN BENITEZ",
+   "CarneEntra": "62486",
+   "Jug_Entra": "FACUNDO FREITAS",
+   "camiseta": "24",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "59907",
+   "Jug_Sale": "LUCIANO GONZALEZ",
+   "CarneEntra": "62488",
+   "Jug_Entra": "JOAQUIN SEBASTIAN CASAL",
+   "camiseta": "76",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "59033",
+   "Jug_Sale": "DANILO URES",
+   "CarneEntra": "59029",
+   "Jug_Entra": "GASTON VALENTINO CORNACCHIONE",
+   "camiseta": "37",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "65085",
+   "Jug_Sale": "FRANCO DIEGO",
+   "CarneEntra": "36368",
+   "Jug_Entra": "MARCOS MANUEL QUEIROZ",
+   "camiseta": "34",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "68996",
+   "Jug_Sale": "FEDERICO MARTIN PASCUAL",
+   "CarneEntra": "64352",
+   "Jug_Entra": "MARTIN VALVERDE",
+   "camiseta": "67",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "58238",
+   "Jug_Sale": "ALEJANDRO RODRIGUEZ",
+   "CarneEntra": "54931",
+   "Jug_Entra": "GENARO VALENTIN COLOMBO",
+   "camiseta": "11",
+   "minutos": "45"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "40189",
+   "Nombre": "FEDERICO PEREZ",
+   "minutos": "79",
+   "EnContra": "0"
+  },
+  {
+   "carne": "45209",
+   "Nombre": "JUAN MARTIN SUEIRO",
+   "minutos": "6",
+   "EnContra": "0"
+  },
+  {
+   "carne": "45209",
+   "Nombre": "JUAN MARTIN SUEIRO",
+   "minutos": "26",
+   "EnContra": "0"
+  },
+  {
+   "carne": "45209",
+   "Nombre": "JUAN MARTIN SUEIRO",
+   "minutos": "37",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "59033",
+   "Nombre": "DANILO URES",
+   "minutos": "43",
+   "EnContra": "1"
+  },
+  {
+   "carne": "68996",
+   "Nombre": "FEDERICO MARTIN PASCUAL",
+   "minutos": "35",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

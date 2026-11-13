@@ -7,6 +7,13 @@
   "visitante": "TENIS EL PINAR"
  },
  {
+  "serie": "18B",
+  "fechaHora": "2026-11-12 19:00:00",
+  "cancha": "CLUB ALEMAN",
+  "local": "ALEMAN UNIVERSITARIO",
+  "visitante": "JUAN XXIII"
+ },
+ {
   "serie": "18A",
   "fechaHora": "2026-11-12 20:00:00",
   "cancha": "SPORT 11",
@@ -72,13 +79,6 @@
  {
   "serie": "18P",
   "fechaHora": "2026-11-15 15:30:00",
-  "cancha": "CIUDAD DEPORTIVA LS",
-  "local": "DEPORTIVO LS UNIVERSITARIO",
-  "visitante": "OLD BOYS CLUB"
- },
- {
-  "serie": "18P",
-  "fechaHora": "2026-11-15 15:30:00",
   "cancha": "SAGRADA FAMILIA",
   "local": "SAGRADA FAMILIA UNIVERSITARIO",
   "visitante": "DEPORTIVO MORON"
@@ -135,13 +135,6 @@
  {
   "serie": "18C",
   "fechaHora": "2026-11-15 15:30:00",
-  "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
-  "local": "SEMINARIO UNIVERSITARIO",
-  "visitante": "TENIS EL PINAR"
- },
- {
-  "serie": "18C",
-  "fechaHora": "2026-11-15 15:30:00",
   "cancha": "SANTA RITA",
   "local": "SAN AGUSTIN",
   "visitante": "ELBIO FERNANDEZ"
@@ -194,6 +187,20 @@
   "cancha": "COM. DEP. CLUB TROUVILLE",
   "local": "TROUVILLE UNIVERSITARIO",
   "visitante": "COLEGIO Y LICEO INGLES"
+ },
+ {
+  "serie": "18C",
+  "fechaHora": "2026-11-17 20:00:00",
+  "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
+  "local": "SEMINARIO UNIVERSITARIO",
+  "visitante": "TENIS EL PINAR"
+ },
+ {
+  "serie": "18P",
+  "fechaHora": "2026-11-17 20:30:00",
+  "cancha": "CIUDAD DEPORTIVA LS",
+  "local": "DEPORTIVO LS UNIVERSITARIO",
+  "visitante": "OLD BOYS CLUB"
  },
  {
   "serie": "18A",

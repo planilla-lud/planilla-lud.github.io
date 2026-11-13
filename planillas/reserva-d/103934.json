@@ -1,0 +1,305 @@
+{
+ "id": "103934",
+ "categoria": "reserva-d",
+ "serie": "RSDTA",
+ "fecha": 11,
+ "fechaHora": "2026-11-12 21:00:00",
+ "cancha": "COMPLEJO LAS CASUARINAS",
+ "local": "ISASA UNIVERSITARIO",
+ "visitante": "TENIS EL PINAR SUB22",
+ "gl": 1,
+ "gv": 2,
+ "detalle": {
+  "nro_partido": "554",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "RESERVA",
+  "categoria": "RESERVA MASCULINO",
+  "rueda": "2",
+  "Divisional": "RESERVA \"D\" TIT. y ASC.",
+  "Cancha": "COMPLEJO LAS CASUARINAS",
+  "Fecha_Inicio": "2026-11-12 22:50:00",
+  "Fecha_fin": "2026-11-12 22:50:00",
+  "Locatario": "ISASA UNIVERSITARIO",
+  "goles_locatario": "1",
+  "puntos_locatario": "0",
+  "Visitante": "TENIS EL PINAR SUB22",
+  "goles_visitante": "2",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "57011",
+   "Nombre": "SEBASTIAN BONILLA",
+   "camiseta": "79",
+   "Capitan": ""
+  },
+  {
+   "carne": "49355",
+   "Nombre": "FACUNDO VALENTIN ALLES",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "53800",
+   "Nombre": "JUAN PEDRO HOURCADE",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "43558",
+   "Nombre": "GASTON ALVAREZ DE RON",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "52001",
+   "Nombre": "JOSE PEDRO DELGADO",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "53472",
+   "Nombre": "EMILIANO BASTARRICA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "46907",
+   "Nombre": "ERNESTO BAUMGARTNER",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "54629",
+   "Nombre": "FEDERICO HERNANDEZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "46794",
+   "Nombre": "RAMIRO IVAN GONZALEZ",
+   "camiseta": "7",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "61403",
+   "Nombre": "LUCAS JAVIER MANITO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "47703",
+   "Nombre": "BRUNO PAULINO",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "56171",
+   "Nombre": "MARIANO DANIEL OTTONELLI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "57966",
+   "Nombre": "FRANCISCO LOURTET",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "51804",
+   "Nombre": "JUAN IGNACIO LEIVA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "52625",
+   "Nombre": "MATEO GONZALEZ",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "52629",
+   "Nombre": "SEBASTIAN PIRRI",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "53658",
+   "Nombre": "JOAQUIN VAZQUEZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "52634",
+   "Nombre": "JUAN IGNACIO QUINTANA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "52640",
+   "Nombre": "VALENTIN COLOMINAS",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "58083",
+   "Nombre": "IGNACIO FACUNDO RICOBALDI",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "52632",
+   "Nombre": "AGUSTIN FIRPO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "52633",
+   "Nombre": "BENICIO BERTIN",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "53800",
+   "Jug_Sale": "JUAN PEDRO HOURCADE",
+   "CarneEntra": "46909",
+   "Jug_Entra": "FEDERICO KARDJIAN",
+   "camiseta": "21",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "52001",
+   "Jug_Sale": "JOSE PEDRO DELGADO",
+   "CarneEntra": "47179",
+   "Jug_Entra": "DIEGO HERNAN DELGADO",
+   "camiseta": "16",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "46907",
+   "Jug_Sale": "ERNESTO BAUMGARTNER",
+   "CarneEntra": "47961",
+   "Jug_Entra": "AGUSTIN OLIVERA",
+   "camiseta": "28",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "43558",
+   "Jug_Sale": "GASTON ALVAREZ DE RON",
+   "CarneEntra": "52001",
+   "Jug_Entra": "JOSE PEDRO DELGADO",
+   "camiseta": "26",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "46794",
+   "Jug_Sale": "RAMIRO IVAN GONZALEZ",
+   "CarneEntra": "46907",
+   "Jug_Entra": "ERNESTO BAUMGARTNER",
+   "camiseta": "10",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "49355",
+   "Jug_Sale": "FACUNDO VALENTIN ALLES",
+   "CarneEntra": "46794",
+   "Jug_Entra": "RAMIRO IVAN GONZALEZ",
+   "camiseta": "7",
+   "minutos": "89"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "52632",
+   "Jug_Sale": "AGUSTIN FIRPO",
+   "CarneEntra": "53418",
+   "Jug_Entra": "FACUNDO VARIO",
+   "camiseta": "7",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "53658",
+   "Jug_Sale": "JOAQUIN VAZQUEZ",
+   "CarneEntra": "53641",
+   "Jug_Entra": "FACUNDO ROCHA",
+   "camiseta": "11",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "52640",
+   "Jug_Sale": "VALENTIN COLOMINAS",
+   "CarneEntra": "66514",
+   "Jug_Entra": "MARTIN DIAZ",
+   "camiseta": "4",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "52629",
+   "Jug_Sale": "SEBASTIAN PIRRI",
+   "CarneEntra": "52444",
+   "Jug_Entra": "SEBASTIAN CARBAJAL",
+   "camiseta": "18",
+   "minutos": "89"
+  },
+  {
+   "CarneSale": "58083",
+   "Jug_Sale": "IGNACIO FACUNDO RICOBALDI",
+   "CarneEntra": "53357",
+   "Jug_Entra": "JUAN MANUEL TRUJILLO",
+   "camiseta": "21",
+   "minutos": "89"
+  },
+  {
+   "CarneSale": "52634",
+   "Jug_Sale": "JUAN IGNACIO QUINTANA",
+   "CarneEntra": "61528",
+   "Jug_Entra": "SANTIAGO DAMIAN PEREIRA",
+   "camiseta": "15",
+   "minutos": "89"
+  },
+  {
+   "CarneSale": "52625",
+   "Jug_Sale": "MATEO GONZALEZ",
+   "CarneEntra": "49397",
+   "Jug_Entra": "JOAQUIN CHAVEZ",
+   "camiseta": "17",
+   "minutos": "89"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "47703",
+   "Nombre": "BRUNO PAULINO",
+   "minutos": "81",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "57966",
+   "Nombre": "FRANCISCO LOURTET",
+   "minutos": "39",
+   "EnContra": "1"
+  },
+  {
+   "carne": "57966",
+   "Nombre": "FRANCISCO LOURTET",
+   "minutos": "75",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": [
+  {
+   "Nombre": "BENICIO BERTIN",
+   "observaciones": ""
+  }
+ ]
+}

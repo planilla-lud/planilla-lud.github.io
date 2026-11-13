@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB16 PLATA",
   "Cancha": "COMPLEJO NORTHFIELD",
-  "Fecha_Inicio": "2026-11-12 21:00:00",
-  "Fecha_fin": "2026-11-12 21:00:00",
+  "Fecha_Inicio": "2026-11-12 21:10:00",
+  "Fecha_fin": "2026-11-12 21:10:00",
   "Locatario": "CIRCULO DE TENIS MONTEVIDEO",
   "goles_locatario": "3",
   "puntos_locatario": "3",
@@ -29,12 +29,270 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "68385",
+   "Nombre": "LEANDRO JOAQUIN VECINO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "65150",
+   "Nombre": "FRANCISCO ROBLEDO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "65180",
+   "Nombre": "RAFAEL DONEGANA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "65151",
+   "Nombre": "MATEO EMANUEL ROQUETA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "60428",
+   "Nombre": "BLAS TRAVERS",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "63193",
+   "Nombre": "JUAN IGNACIO SANTOS",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "62743",
+   "Nombre": "XABI JORGE PEREZ",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "60736",
+   "Nombre": "PEDRO ARQUERO",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "63707",
+   "Nombre": "JUAN MARTIN BARTABURU",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "65183",
+   "Nombre": "JOAQUIN GERSCHUNI",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "68456",
+   "Nombre": "JUAN MARTIN SOSA",
+   "camiseta": "17",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "67833",
+   "Nombre": "EMILIANO COR",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "66918",
+   "Nombre": "SIMON BADIA",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "66916",
+   "Nombre": "THIAGO MARTIN QUIRICO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "67217",
+   "Nombre": "NICOLAS CASTELLUCCIO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "66912",
+   "Nombre": "RODRIGO SANCHEZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "66915",
+   "Nombre": "FRANCISCO NIEMANN",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "67213",
+   "Nombre": "JUAN MANUEL PALEO",
+   "camiseta": "20",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "66753",
+   "Nombre": "ISMAEL ALEJANDRO IFRAN",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "65277",
+   "Nombre": "THIAGO CALCAGNO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "67837",
+   "Nombre": "JUAN IGNACIO MENENDEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "66756",
+   "Nombre": "BAUTISTA FUENTES",
+   "camiseta": "6",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "63193",
+   "Jug_Sale": "JUAN IGNACIO SANTOS",
+   "CarneEntra": "68488",
+   "Jug_Entra": "SAMUEL DYLAN RIVAS",
+   "camiseta": "13",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "65151",
+   "Jug_Sale": "MATEO EMANUEL ROQUETA",
+   "CarneEntra": "65198",
+   "Jug_Entra": "LAUTARO LORENZO",
+   "camiseta": "18",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "60736",
+   "Jug_Sale": "PEDRO ARQUERO",
+   "CarneEntra": "65149",
+   "Jug_Entra": "AGUSTIN ESTEBAN SOSA",
+   "camiseta": "31",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "60428",
+   "Jug_Sale": "BLAS TRAVERS",
+   "CarneEntra": "68455",
+   "Jug_Entra": "JOAQUIN ESPINOSA",
+   "camiseta": "51",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "65150",
+   "Jug_Sale": "FRANCISCO ROBLEDO",
+   "CarneEntra": "62746",
+   "Jug_Entra": "FRANCISCO TABARE CAL",
+   "camiseta": "2",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "62743",
+   "Jug_Sale": "XABI JORGE PEREZ",
+   "CarneEntra": "65146",
+   "Jug_Entra": "FELIPE VILLAR",
+   "camiseta": "71",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "63707",
+   "Jug_Sale": "JUAN MARTIN BARTABURU",
+   "CarneEntra": "63194",
+   "Jug_Entra": "THIAGO SILVA",
+   "camiseta": "91",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "65183",
+   "Jug_Sale": "JOAQUIN GERSCHUNI",
+   "CarneEntra": "68190",
+   "Jug_Entra": "RENATO ANDRADE",
+   "camiseta": "18",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68456",
+   "Jug_Sale": "JUAN MARTIN SOSA",
+   "CarneEntra": "65157",
+   "Jug_Entra": "SANTIAGO CISNEROS",
+   "camiseta": "17",
+   "minutos": "45"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "66912",
+   "Jug_Sale": "RODRIGO SANCHEZ",
+   "CarneEntra": "66914",
+   "Jug_Entra": "VICENTE BERRIEL",
+   "camiseta": "18",
+   "minutos": "40"
+  },
+  {
+   "CarneSale": "66916",
+   "Jug_Sale": "THIAGO MARTIN QUIRICO",
+   "CarneEntra": "67829",
+   "Jug_Entra": "MANUEL RAMIREZ",
+   "camiseta": "7",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "66915",
+   "Jug_Sale": "FRANCISCO NIEMANN",
+   "CarneEntra": "66916",
+   "Jug_Entra": "THIAGO MARTIN QUIRICO",
+   "camiseta": "21",
+   "minutos": "67"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "60736",
+   "Nombre": "PEDRO ARQUERO",
+   "minutos": "14",
+   "EnContra": "0"
+  },
+  {
+   "carne": "63194",
+   "Nombre": "THIAGO SILVA",
+   "minutos": "50",
+   "EnContra": "0"
+  },
+  {
+   "carne": "65183",
+   "Nombre": "JOAQUIN GERSCHUNI",
+   "minutos": "24",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "67829",
+   "Nombre": "MANUEL RAMIREZ",
+   "minutos": "66",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

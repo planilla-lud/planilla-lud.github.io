@@ -4201,6 +4201,19 @@
  {
   "tipo": "automatica",
   "fecha": "2026-11-11",
+  "partido": "533",
+  "serie": "M40O2",
+  "carne": "18773",
+  "nombre": "JUAN ANDRES BECERRA",
+  "club": "J.M.L.M",
+  "sancion": "SANCIÓN AUTOMÁTICA",
+  "fechas": 1,
+  "detalle": "F:1 - UR:0",
+  "texto": "Sanción generada automáticamente por expulsión en el partido"
+ },
+ {
+  "tipo": "automatica",
+  "fecha": "2026-11-11",
   "partido": "530",
   "serie": "M40O2",
   "carne": "22404",

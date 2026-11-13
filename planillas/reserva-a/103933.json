@@ -1,0 +1,291 @@
+{
+ "id": "103933",
+ "categoria": "reserva-a",
+ "serie": "RSAT",
+ "fecha": 7,
+ "fechaHora": "2026-11-12 20:00:00",
+ "cancha": "COMPLEJO AZULGRANA",
+ "local": "OLD CHRISTIANS CLUB",
+ "visitante": "OLD BOYS CLUB",
+ "gl": 1,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "639",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "RESERVA",
+  "categoria": "RESERVA MASCULINO",
+  "rueda": "2",
+  "Divisional": "RESERVA \"A\" TITULO",
+  "Cancha": "COMPLEJO AZULGRANA",
+  "Fecha_Inicio": "2026-11-12 22:00:00",
+  "Fecha_fin": "2026-11-12 22:00:00",
+  "Locatario": "OLD CHRISTIANS CLUB",
+  "goles_locatario": "1",
+  "puntos_locatario": "1",
+  "Visitante": "OLD BOYS CLUB",
+  "goles_visitante": "1",
+  "puntos_visitante": "1",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "48037",
+   "Nombre": "MATEO FABREGAT",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "67291",
+   "Nombre": "AUGUSTO PAULLIER",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "37170",
+   "Nombre": "SEBASTIAN REGULES",
+   "camiseta": "71",
+   "Capitan": ""
+  },
+  {
+   "carne": "38310",
+   "Nombre": "FEDERICO PONTE",
+   "camiseta": "95",
+   "Capitan": ""
+  },
+  {
+   "carne": "40763",
+   "Nombre": "MATEO VINCENT",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "51135",
+   "Nombre": "JOAQUIN FABREGAT",
+   "camiseta": "64",
+   "Capitan": ""
+  },
+  {
+   "carne": "39426",
+   "Nombre": "FRANCO CRISCI",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "30724",
+   "Nombre": "FEDERICO RICARDO MOLINS",
+   "camiseta": "93",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "49655",
+   "Nombre": "HERNAN ALEGRESA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "55118",
+   "Nombre": "JUAN PABLO MOREIRA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "66722",
+   "Nombre": "JOAQUIN RODRIGUEZ",
+   "camiseta": "38",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "59470",
+   "Nombre": "FABRICIO OLIVERA",
+   "camiseta": "1",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "37258",
+   "Nombre": "LUIS PEDRO LENGUAS",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "54579",
+   "Nombre": "JAVIER CIVETTA",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "29671",
+   "Nombre": "MARTIN GUSTAVO GUERRA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "54974",
+   "Nombre": "SANTIAGO BOCAGE",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "47513",
+   "Nombre": "MAXIMO VARGAS",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "45980",
+   "Nombre": "ZENON CAPELLI",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "47503",
+   "Nombre": "FRANCO CHIAPPARA",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "39036",
+   "Nombre": "MANUEL LEIVA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "41581",
+   "Nombre": "ALFONSO SIMETO",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "54580",
+   "Nombre": "JUAN CARLOS VIDIELLA",
+   "camiseta": "49",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "48037",
+   "Jug_Sale": "MATEO FABREGAT",
+   "CarneEntra": "52821",
+   "Jug_Entra": "FACUNDO STORACE",
+   "camiseta": "12",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "55118",
+   "Jug_Sale": "JUAN PABLO MOREIRA",
+   "CarneEntra": "64683",
+   "Jug_Entra": "ALBERTO FELIPE ROSSO",
+   "camiseta": "62",
+   "minutos": "53"
+  },
+  {
+   "CarneSale": "30724",
+   "Jug_Sale": "FEDERICO RICARDO MOLINS",
+   "CarneEntra": "50902",
+   "Jug_Entra": "SANTIAGO VINCENT",
+   "camiseta": "6",
+   "minutos": "53"
+  },
+  {
+   "CarneSale": "39426",
+   "Jug_Sale": "FRANCO CRISCI",
+   "CarneEntra": "44918",
+   "Jug_Entra": "JOAQUIN BLANCO",
+   "camiseta": "29",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "40763",
+   "Jug_Sale": "MATEO VINCENT",
+   "CarneEntra": "35115",
+   "Jug_Entra": "JUAN PEDRO BELO",
+   "camiseta": "23",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "51135",
+   "Jug_Sale": "JOAQUIN FABREGAT",
+   "CarneEntra": "42070",
+   "Jug_Entra": "FRANCISCO GUADALUPE",
+   "camiseta": "6",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "66722",
+   "Jug_Sale": "JOAQUIN RODRIGUEZ",
+   "CarneEntra": "53214",
+   "Jug_Entra": "MANUEL PARODI",
+   "camiseta": "17",
+   "minutos": "87"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "37258",
+   "Jug_Sale": "LUIS PEDRO LENGUAS",
+   "CarneEntra": "26972",
+   "Jug_Entra": "JUAN MANUEL MUSETTI",
+   "camiseta": "99",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "39036",
+   "Jug_Sale": "MANUEL LEIVA",
+   "CarneEntra": "47515",
+   "Jug_Entra": "JUAN MARIA SEIZER",
+   "camiseta": "10",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "45980",
+   "Jug_Sale": "ZENON CAPELLI",
+   "CarneEntra": "53930",
+   "Jug_Entra": "MAXIMO RICARDO SEIZER",
+   "camiseta": "23",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "41581",
+   "Jug_Sale": "ALFONSO SIMETO",
+   "CarneEntra": "54585",
+   "Jug_Entra": "TOMAS CABRAL",
+   "camiseta": "25",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "54580",
+   "Jug_Sale": "JUAN CARLOS VIDIELLA",
+   "CarneEntra": "41575",
+   "Jug_Entra": "MANUEL TERRA",
+   "camiseta": "19",
+   "minutos": "76"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "51135",
+   "Nombre": "JOAQUIN FABREGAT",
+   "minutos": "34",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "54585",
+   "Nombre": "TOMAS CABRAL",
+   "minutos": "93",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "AUGUSTO PAULLIER",
+   "observaciones": ""
+  }
+ ],
+ "expulsadosV": []
+}

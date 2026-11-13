@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"B\" PER. y DESC.",
   "Cancha": "COMPLEJO DEPORTIVO ARRAYANES",
-  "Fecha_Inicio": "2026-11-12 22:00:00",
-  "Fecha_fin": "2026-11-12 22:00:00",
+  "Fecha_Inicio": "2026-11-12 22:25:00",
+  "Fecha_fin": "2026-11-12 22:25:00",
   "Locatario": "COLEGIO SANTA ELENA",
   "goles_locatario": "2",
   "puntos_locatario": "3",
@@ -29,12 +29,256 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "49731",
+   "Nombre": "IVAN ERBURO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "62652",
+   "Nombre": "NAHUEL SILVA",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "50889",
+   "Nombre": "IGNACIO VIÑAS",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "32390",
+   "Nombre": "JUAN PABLO HERRERO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "49735",
+   "Nombre": "HECTOR GASTON RODRIGUEZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "63617",
+   "Nombre": "JOAQUIN DOS SANTOS",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "58170",
+   "Nombre": "EMILIANO NAHUEL PEREZ",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "56435",
+   "Nombre": "AGUSTIN CAMPODONICO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "53403",
+   "Nombre": "DIEGO FERNANDO AGUILERA",
+   "camiseta": "20",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "55174",
+   "Nombre": "MATEO MORAES",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "58402",
+   "Nombre": "LAUTARO GUIDO",
+   "camiseta": "76",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "55015",
+   "Nombre": "FRANCISCO GRAMPIN",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "55389",
+   "Nombre": "RODRIGO NAHUEL RODRIGUEZ",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "51216",
+   "Nombre": "IGNACIO ARRIOLA",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "46950",
+   "Nombre": "MATIAS FEDERICO CABALLERO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "64988",
+   "Nombre": "LUCIANO QUIÑONES",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "55021",
+   "Nombre": "TOMAS BICA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "51734",
+   "Nombre": "NAHUEL JAVIER BALSAS",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "54819",
+   "Nombre": "FACUNDO FERRARI",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "41225",
+   "Nombre": "MARCOS CONSTANTINO DUTRENIT",
+   "camiseta": "33",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56291",
+   "Nombre": "GUILLERMO CABALLERO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "56290",
+   "Nombre": "DENIS RODRIGO RAMA",
+   "camiseta": "28",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "32390",
+   "Jug_Sale": "JUAN PABLO HERRERO",
+   "CarneEntra": "43805",
+   "Jug_Entra": "MARTIN SUAREZ",
+   "camiseta": "18",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "58170",
+   "Jug_Sale": "EMILIANO NAHUEL PEREZ",
+   "CarneEntra": "60842",
+   "Jug_Entra": "LUCAS VALENTIN BENITEZ",
+   "camiseta": "13",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "56435",
+   "Jug_Sale": "AGUSTIN CAMPODONICO",
+   "CarneEntra": "64982",
+   "Jug_Entra": "LAUTARO RODRIGUEZ",
+   "camiseta": "47",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "58402",
+   "Jug_Sale": "LAUTARO GUIDO",
+   "CarneEntra": "56715",
+   "Jug_Entra": "GERMAN MÜLLER",
+   "camiseta": "80",
+   "minutos": "70"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "56290",
+   "Jug_Sale": "DENIS RODRIGO RAMA",
+   "CarneEntra": "64209",
+   "Jug_Entra": "AGUSTIN MORALES",
+   "camiseta": "8",
+   "minutos": "23"
+  },
+  {
+   "CarneSale": "54819",
+   "Jug_Sale": "FACUNDO FERRARI",
+   "CarneEntra": "59146",
+   "Jug_Entra": "FACUNDO RODRIGUEZ",
+   "camiseta": "16",
+   "minutos": "23"
+  },
+  {
+   "CarneSale": "51734",
+   "Jug_Sale": "NAHUEL JAVIER BALSAS",
+   "CarneEntra": "55138",
+   "Jug_Entra": "SANTIAGO RODRIGUEZ",
+   "camiseta": "21",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "41225",
+   "Jug_Sale": "MARCOS CONSTANTINO DUTRENIT",
+   "CarneEntra": "59317",
+   "Jug_Entra": "SANTIAGO LISBOA",
+   "camiseta": "13",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56291",
+   "Jug_Sale": "GUILLERMO CABALLERO",
+   "CarneEntra": "53476",
+   "Jug_Entra": "LUCAS EZEQUIEL SCHANZLIN",
+   "camiseta": "41",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "64209",
+   "Jug_Sale": "AGUSTIN MORALES",
+   "CarneEntra": "56783",
+   "Jug_Entra": "SANTIAGO MACHADO DA SILVA",
+   "camiseta": "91",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "51216",
+   "Jug_Sale": "IGNACIO ARRIOLA",
+   "CarneEntra": "60774",
+   "Jug_Entra": "MATEO COMBA",
+   "camiseta": "88",
+   "minutos": "70"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "53403",
+   "Nombre": "DIEGO FERNANDO AGUILERA",
+   "minutos": "72",
+   "EnContra": "0"
+  },
+  {
+   "carne": "56435",
+   "Nombre": "AGUSTIN CAMPODONICO",
+   "minutos": "22",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "51216",
+   "Nombre": "IGNACIO ARRIOLA",
+   "minutos": "65",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

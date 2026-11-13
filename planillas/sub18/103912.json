@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB18 AMISTAD",
   "Cancha": "SCUOLA ITALIANA",
-  "Fecha_Inicio": "2026-11-11 20:00:00",
-  "Fecha_fin": "2026-11-11 20:00:00",
+  "Fecha_Inicio": "2026-11-11 20:20:00",
+  "Fecha_fin": "2026-11-11 20:20:00",
   "Locatario": "SCUOLA PALERMO",
   "goles_locatario": "1",
   "puntos_locatario": "1",
@@ -29,12 +29,226 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "64377",
+   "Nombre": "LUCAS DI MAURO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "62129",
+   "Nombre": "LUCAS GUTIERREZ",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "63526",
+   "Nombre": "MATEO LABRADOR",
+   "camiseta": "12",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "62155",
+   "Nombre": "BENO QUARTARA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "62404",
+   "Nombre": "FRANCO DEMICHELI",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "57868",
+   "Nombre": "LUCIANO VARELA",
+   "camiseta": "65",
+   "Capitan": ""
+  },
+  {
+   "carne": "67703",
+   "Nombre": "AGUSTIN NATTERO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "59173",
+   "Nombre": "AGUSTIN NICOLAS GANDINI",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "63229",
+   "Nombre": "CONSTANTINO DANGELO",
+   "camiseta": "81",
+   "Capitan": ""
+  },
+  {
+   "carne": "68802",
+   "Nombre": "THIAGO DEVITTA",
+   "camiseta": "73",
+   "Capitan": ""
+  },
+  {
+   "carne": "59171",
+   "Nombre": "FRANCISCO BROCH",
+   "camiseta": "25",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "59057",
+   "Nombre": "LAUTARO ROMAN GALARRAGA",
+   "camiseta": "1",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "68108",
+   "Nombre": "GAEL MARQUEZ",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "64534",
+   "Nombre": "JORDAN SANTIAGO BORBA",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "69106",
+   "Nombre": "JUAN PABLO VIERA",
+   "camiseta": "37",
+   "Capitan": ""
+  },
+  {
+   "carne": "64541",
+   "Nombre": "VALENTINO SANCHEZ",
+   "camiseta": "52",
+   "Capitan": ""
+  },
+  {
+   "carne": "68674",
+   "Nombre": "SANTIAGO VIERA",
+   "camiseta": "41",
+   "Capitan": ""
+  },
+  {
+   "carne": "68428",
+   "Nombre": "FRANCISCO VIDIELLA",
+   "camiseta": "57",
+   "Capitan": ""
+  },
+  {
+   "carne": "64528",
+   "Nombre": "SANTIAGO COPATTI",
+   "camiseta": "43",
+   "Capitan": ""
+  },
+  {
+   "carne": "64496",
+   "Nombre": "NICOLAS MARTINEZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "61855",
+   "Nombre": "LUCAS NAHUM SANTOS",
+   "camiseta": "36",
+   "Capitan": ""
+  },
+  {
+   "carne": "66333",
+   "Nombre": "EMILIANO SANCHEZ",
+   "camiseta": "59",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "62404",
+   "Jug_Sale": "FRANCO DEMICHELI",
+   "CarneEntra": "59177",
+   "Jug_Entra": "NICOLAS MARQUES",
+   "camiseta": "28",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "59173",
+   "Jug_Sale": "AGUSTIN NICOLAS GANDINI",
+   "CarneEntra": "64756",
+   "Jug_Entra": "FELIPE REINALDO",
+   "camiseta": "7",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "62155",
+   "Jug_Sale": "BENO QUARTARA",
+   "CarneEntra": "68376",
+   "Jug_Entra": "JUAN IGNACIO MUÑOZ",
+   "camiseta": "8",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "59171",
+   "Jug_Sale": "FRANCISCO BROCH",
+   "CarneEntra": "61927",
+   "Jug_Entra": "SANTIAGO BRUN",
+   "camiseta": "2",
+   "minutos": "85"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "66333",
+   "Jug_Sale": "EMILIANO SANCHEZ",
+   "CarneEntra": "62764",
+   "Jug_Entra": "PATRICIO TADEO LARROSA",
+   "camiseta": "26",
+   "minutos": "53"
+  },
+  {
+   "CarneSale": "64496",
+   "Jug_Sale": "NICOLAS MARTINEZ",
+   "CarneEntra": "66333",
+   "Jug_Entra": "EMILIANO SANCHEZ",
+   "camiseta": "59",
+   "minutos": "69"
+  },
+  {
+   "CarneSale": "64528",
+   "Jug_Sale": "SANTIAGO COPATTI",
+   "CarneEntra": "60545",
+   "Jug_Entra": "TADEO ELIAS ORLANDO",
+   "camiseta": "47",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "64541",
+   "Jug_Sale": "VALENTINO SANCHEZ",
+   "CarneEntra": "64543",
+   "Jug_Entra": "SEBASTIAN RODRIGUEZ",
+   "camiseta": "51",
+   "minutos": "80"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "57868",
+   "Nombre": "LUCIANO VARELA",
+   "minutos": "34",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "59057",
+   "Nombre": "LAUTARO ROMAN GALARRAGA",
+   "minutos": "93",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

@@ -4,10 +4,10 @@
  "serie": "PSET2",
  "fecha": 7,
  "fechaHora": "2026-11-11 21:00:00",
- "cancha": "COMPLEJO AZULGRANA",
+ "cancha": "()",
  "local": "COLEGIO Y LICEO INGLES",
  "visitante": "OBC AZULGRANA",
- "gl": 1,
+ "gl": 0,
  "gv": 0,
  "detalle": {
   "nro_partido": "1027",
@@ -17,24 +17,245 @@
   "categoria": "PRE-SENIOR MASCULINO",
   "rueda": "3",
   "Divisional": "PS DIV. E 2ªR COPA ORO",
-  "Cancha": "COMPLEJO AZULGRANA",
-  "Fecha_Inicio": "2026-11-11 22:30:00",
-  "Fecha_fin": "2026-11-11 22:30:00",
+  "Cancha": "()",
+  "Fecha_Inicio": "2026-11-11 23:00:00",
+  "Fecha_fin": "2026-11-11 23:00:00",
   "Locatario": "COLEGIO Y LICEO INGLES",
-  "goles_locatario": "1",
-  "puntos_locatario": "3",
+  "goles_locatario": "0",
+  "puntos_locatario": "1",
   "Visitante": "OBC AZULGRANA",
   "goles_visitante": "0",
-  "puntos_visitante": "0",
+  "puntos_visitante": "1",
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "37150",
+   "Nombre": "GERONIMO AGUSTIN KACHELE",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "37163",
+   "Nombre": "FELIPE VAZQUEZ",
+   "camiseta": "81",
+   "Capitan": ""
+  },
+  {
+   "carne": "30184",
+   "Nombre": "PEDRO BOADO",
+   "camiseta": "37",
+   "Capitan": ""
+  },
+  {
+   "carne": "30328",
+   "Nombre": "FACUNDO KACHELE",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "30770",
+   "Nombre": "GUILLERMO LUIS GALAIN",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "26534",
+   "Nombre": "GUILLERMO ADOLFO VIGNOLO",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "26911",
+   "Nombre": "BRUNO GIANCARLO GENTILE",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "26262",
+   "Nombre": "NICOLAS AGUIRREGARAY",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "29931",
+   "Nombre": "GERMAN SUAREZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "28272",
+   "Nombre": "SERGIO IGNACIO VICO",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "33332",
+   "Nombre": "JUAN IGNACIO ARANCIBIA",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "67090",
+   "Nombre": "MICHEL VOULMINOT",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "58166",
+   "Nombre": "JORGE AGUSTIN CAPURRO",
+   "camiseta": "37",
+   "Capitan": ""
+  },
+  {
+   "carne": "26851",
+   "Nombre": "SANTIAGO STORACE",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "42094",
+   "Nombre": "MATIAS SANTIAGO BORDABERRY",
+   "camiseta": "3",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "24951",
+   "Nombre": "ALBERTO ARIEL RODRIGUEZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "27175",
+   "Nombre": "FEDERICO SALHON",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "29199",
+   "Nombre": "SANTIAGO RAUL MOLINARO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "30817",
+   "Nombre": "GUZMAN PERERA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "26564",
+   "Nombre": "DIEGO ABREU",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "23712",
+   "Nombre": "DANIEL MATIAS GARAT",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "64997",
+   "Nombre": "LUCAS PUIG",
+   "camiseta": "25",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "37163",
+   "Jug_Sale": "FELIPE VAZQUEZ",
+   "CarneEntra": "30835",
+   "Jug_Entra": "RODRIGO LUIS PASTOR",
+   "camiseta": "34",
+   "minutos": "27"
+  },
+  {
+   "CarneSale": "26262",
+   "Jug_Sale": "NICOLAS AGUIRREGARAY",
+   "CarneEntra": "24727",
+   "Jug_Entra": "JORGE LUIS NICOLETTI",
+   "camiseta": "21",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "33332",
+   "Jug_Sale": "JUAN IGNACIO ARANCIBIA",
+   "CarneEntra": "36150",
+   "Jug_Entra": "JUAN MANUEL PUIG",
+   "camiseta": "74",
+   "minutos": "88"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "30817",
+   "Jug_Sale": "GUZMAN PERERA",
+   "CarneEntra": "28441",
+   "Jug_Entra": "ALFONSO HEBER",
+   "camiseta": "4",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64997",
+   "Jug_Sale": "LUCAS PUIG",
+   "CarneEntra": "48486",
+   "Jug_Entra": "SANTIAGO MARIA FILIPPELLI",
+   "camiseta": "9",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "24951",
+   "Jug_Sale": "ALBERTO ARIEL RODRIGUEZ",
+   "CarneEntra": "28124",
+   "Jug_Entra": "MARTIN JULIO NOGUES",
+   "camiseta": "18",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "26564",
+   "Jug_Sale": "DIEGO ABREU",
+   "CarneEntra": "67010",
+   "Jug_Entra": "DIEGO JUAN CAT",
+   "camiseta": "45",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "23712",
+   "Jug_Sale": "DANIEL MATIAS GARAT",
+   "CarneEntra": "67012",
+   "Jug_Entra": "CARLOS NICOLAS SAPELLI",
+   "camiseta": "44",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "27175",
+   "Jug_Sale": "FEDERICO SALHON",
+   "CarneEntra": "34498",
+   "Jug_Entra": "FRANCISCO POLLIO",
+   "camiseta": "31",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "58166",
+   "Jug_Sale": "JORGE AGUSTIN CAPURRO",
+   "CarneEntra": "64997",
+   "Jug_Entra": "LUCAS PUIG",
+   "camiseta": "25",
+   "minutos": "71"
+  }
+ ],
  "golesL": [],
  "golesV": [],
- "expulsadosL": [],
+ "expulsadosL": [
+  {
+   "Nombre": "GUILLERMO ADOLFO VIGNOLO",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }
