@@ -16,6 +16,13 @@
  {
   "serie": "PSAT",
   "fechaHora": "2026-11-14 09:00:00",
+  "cancha": "COMPLEJO INDEPENDIENTE UNIV.",
+  "local": "INDEPENDIENTE",
+  "visitante": "JUAN XXIII"
+ },
+ {
+  "serie": "PSAT",
+  "fechaHora": "2026-11-14 09:00:00",
   "cancha": "COMPLEJO URUNDAY UNIVERSITARIO",
   "local": "URUNDAY UNIVERSITARIO",
   "visitante": "NAUTICO CARRASCO Y PUNTA GORDA"
@@ -30,7 +37,7 @@
  {
   "serie": "PSAPD",
   "fechaHora": "2026-11-14 09:00:00",
-  "cancha": "OLD IVY",
+  "cancha": "COMPLEJO LOS CARDALES",
   "local": "UNIVERSITARIO VERONES",
   "visitante": "OLD IVY"
  },
@@ -47,13 +54,6 @@
   "cancha": "CAM. DEP. ASOC. HEBRAICA Y MAC",
   "local": "HEBRAICA UNIVERSITARIO",
   "visitante": "ELBIO FERNANDEZ"
- },
- {
-  "serie": "PSAT",
-  "fechaHora": "2026-11-21 09:00:00",
-  "cancha": "COMPLEJO INDEPENDIENTE UNIV.",
-  "local": "INDEPENDIENTE",
-  "visitante": "JUAN XXIII"
  },
  {
   "serie": "PSAT",

@@ -8718,8 +8718,8 @@
   "nombre": "JUAN ANDRES TORRES NEGREIRA",
   "club": "CEIBOS CLUB VERDE",
   "sancion": "SANCIÓN AUTOMÁTICA",
-  "fechas": 1,
-  "detalle": "F:1 - UR:0",
+  "fechas": 0,
+  "detalle": "F:0 - UR:0",
   "texto": "Sanción generada automáticamente por expulsión en el partido"
  },
  {
@@ -8757,8 +8757,8 @@
   "nombre": "VALENTIN MENDEZ",
   "club": "SAN PABLO UNIVERSITARIO",
   "sancion": "SANCIÓN AUTOMÁTICA",
-  "fechas": 1,
-  "detalle": "F:1 - UR:0",
+  "fechas": 0,
+  "detalle": "F:0 - UR:0",
   "texto": "Sanción generada automáticamente por expulsión en el partido"
  },
  {
@@ -8786,6 +8786,149 @@
   "fechas": 1,
   "detalle": "F:1 - UR:0",
   "texto": "Sanción generada automáticamente por expulsión en el partido"
+ },
+ {
+  "tipo": "automatica",
+  "fecha": "2026-11-02",
+  "partido": "719",
+  "serie": "RSBPD",
+  "carne": "39418",
+  "nombre": "RODRIGO BONSIGNORE",
+  "club": "CRANDON UNIVERSITARIO",
+  "sancion": "SANCIÓN AUTOMÁTICA",
+  "fechas": 0,
+  "detalle": "F:0 - UR:0",
+  "texto": "Sanción generada automáticamente"
+ },
+ {
+  "tipo": "automatica",
+  "fecha": "2026-11-02",
+  "partido": "719",
+  "serie": "RSBPD",
+  "carne": "43684",
+  "nombre": "JUAN PEDRO CORREA",
+  "club": "CRANDON UNIVERSITARIO",
+  "sancion": "SANCIÓN AUTOMÁTICA",
+  "fechas": 0,
+  "detalle": "F:0 - UR:0",
+  "texto": "Sanción generada automáticamente"
+ },
+ {
+  "tipo": "automatica",
+  "fecha": "2026-11-02",
+  "partido": "719",
+  "serie": "RSBPD",
+  "carne": "44088",
+  "nombre": "FACUNDO DELGADO",
+  "club": "CRANDON UNIVERSITARIO",
+  "sancion": "SANCIÓN AUTOMÁTICA",
+  "fechas": 0,
+  "detalle": "F:0 - UR:0",
+  "texto": "Sanción generada automáticamente"
+ },
+ {
+  "tipo": "automatica",
+  "fecha": "2026-11-02",
+  "partido": "719",
+  "serie": "RSBPD",
+  "carne": "51112",
+  "nombre": "MATEO AGUSTIN MARTINEZ",
+  "club": "CRANDON UNIVERSITARIO",
+  "sancion": "SANCIÓN AUTOMÁTICA",
+  "fechas": 0,
+  "detalle": "F:0 - UR:0",
+  "texto": "Sanción generada automáticamente"
+ },
+ {
+  "tipo": "automatica",
+  "fecha": "2026-11-02",
+  "partido": "719",
+  "serie": "RSBPD",
+  "carne": "55138",
+  "nombre": "SANTIAGO RODRIGUEZ",
+  "club": "CIRCULO DE TENIS MONTEVIDEO",
+  "sancion": "SANCIÓN AUTOMÁTICA",
+  "fechas": 0,
+  "detalle": "F:0 - UR:0",
+  "texto": "Sanción generada automáticamente"
+ },
+ {
+  "tipo": "automatica",
+  "fecha": "2026-11-02",
+  "partido": "719",
+  "serie": "RSBPD",
+  "carne": "55660",
+  "nombre": "THIAGO FURTADO",
+  "club": "CRANDON UNIVERSITARIO",
+  "sancion": "SANCIÓN AUTOMÁTICA",
+  "fechas": 0,
+  "detalle": "F:0 - UR:0",
+  "texto": "Sanción generada automáticamente"
+ },
+ {
+  "tipo": "automatica",
+  "fecha": "2026-11-02",
+  "partido": "719",
+  "serie": "RSBPD",
+  "carne": "59146",
+  "nombre": "FACUNDO RODRIGUEZ",
+  "club": "CIRCULO DE TENIS MONTEVIDEO",
+  "sancion": "SANCIÓN AUTOMÁTICA",
+  "fechas": 0,
+  "detalle": "F:0 - UR:0",
+  "texto": "Sanción generada automáticamente"
+ },
+ {
+  "tipo": "automatica",
+  "fecha": "2026-11-02",
+  "partido": "719",
+  "serie": "RSBPD",
+  "carne": "59323",
+  "nombre": "MARCOS DA SILVA",
+  "club": "CIRCULO DE TENIS MONTEVIDEO",
+  "sancion": "SANCIÓN AUTOMÁTICA",
+  "fechas": 0,
+  "detalle": "F:0 - UR:0",
+  "texto": "Sanción generada automáticamente"
+ },
+ {
+  "tipo": "automatica",
+  "fecha": "2026-11-02",
+  "partido": "719",
+  "serie": "RSBPD",
+  "carne": "59694",
+  "nombre": "FELIPE CASTRO",
+  "club": "CRANDON UNIVERSITARIO",
+  "sancion": "SANCIÓN AUTOMÁTICA",
+  "fechas": 0,
+  "detalle": "F:0 - UR:0",
+  "texto": "Sanción generada automáticamente"
+ },
+ {
+  "tipo": "automatica",
+  "fecha": "2026-11-02",
+  "partido": "719",
+  "serie": "RSBPD",
+  "carne": "64208",
+  "nombre": "JOAQUIN REPETTO",
+  "club": "CIRCULO DE TENIS MONTEVIDEO",
+  "sancion": "SANCIÓN AUTOMÁTICA",
+  "fechas": 0,
+  "detalle": "F:0 - UR:0",
+  "texto": "Sanción generada automáticamente"
+ },
+ {
+  "tipo": "automatica",
+  "fecha": "2026-11-02",
+  "partido": "719",
+  "serie": "RSBPD",
+  "carne": "64209",
+  "nombre": "AGUSTIN MORALES",
+  "club": "CIRCULO DE TENIS MONTEVIDEO",
+  "sancion": "SANCIÓN AUTOMÁTICA",
+  "fechas": 0,
+  "detalle": "F:0 - UR:0",
+  "texto": "Sanción generada automáticamente"
  },
  {
   "tipo": "automatica",
@@ -9336,6 +9479,19 @@
  {
   "tipo": "fallo",
   "fecha": "2026-11-12",
+  "partido": "693",
+  "serie": "RSBTA",
+  "carne": "37322",
+  "nombre": "ANDRES ENRIQUE URIOSTE",
+  "club": "OLD CHRISTIANS VERDE",
+  "sancion": "SUSPENDIDO",
+  "fechas": 6,
+  "detalle": "F:6 - UR:0",
+  "texto": "Art. 143 del C.P"
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-11-12",
   "partido": "714",
   "serie": "RSBPD",
   "carne": "41717",
@@ -9362,6 +9518,19 @@
  {
   "tipo": "fallo",
   "fecha": "2026-11-12",
+  "partido": "742",
+  "serie": "RSCTA",
+  "carne": "49358",
+  "nombre": "JUAN ANDRES TORRES NEGREIRA",
+  "club": "CEIBOS CLUB VERDE",
+  "sancion": "SUSPENDIDO",
+  "fechas": 3,
+  "detalle": "F:3 - UR:3",
+  "texto": "Art. 148 del C.P. Que cumpla en todas las categorías de la disciplina deportiva."
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-11-12",
   "partido": "716",
   "serie": "RSBPD",
   "carne": "50809",
@@ -9371,6 +9540,19 @@
   "fechas": 4,
   "detalle": "F:4 - UR:0",
   "texto": "Art. 148 del C.P. Que cumpla en todas las categorías de la disciplina deportiva."
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-11-12",
+  "partido": "773",
+  "serie": "RSCPD",
+  "carne": "55228",
+  "nombre": "CRISTIAN ADRIAN LEMOS",
+  "club": "LA BLANQUEADA",
+  "sancion": "SUSPENDIDO",
+  "fechas": 1,
+  "detalle": "F:1 - UR:1",
+  "texto": "Art. 148 del C.P"
  },
  {
   "tipo": "fallo",
@@ -9388,6 +9570,19 @@
  {
   "tipo": "fallo",
   "fecha": "2026-11-12",
+  "partido": "743",
+  "serie": "RSCTA",
+  "carne": "63209",
+  "nombre": "VALENTIN MENDEZ",
+  "club": "SAN PABLO UNIVERSITARIO",
+  "sancion": "SUSPENDIDO",
+  "fechas": 3,
+  "detalle": "F:3 - UR:0",
+  "texto": "Art. 147 del C.P. Que cumpla en todas las categorías de la disciplina deportiva."
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-11-12",
   "partido": "716",
   "serie": "RSBPD",
   "carne": "65031",
@@ -9397,5 +9592,18 @@
   "fechas": 4,
   "detalle": "F:4 - UR:0",
   "texto": "Art. 148 del C.P. Que cumpla en todas las categorías de la disciplina deportiva."
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-11-12",
+  "partido": "773",
+  "serie": "RSCPD",
+  "carne": "66823",
+  "nombre": "JOSE PABLO ANTUNEZ",
+  "club": "WANDERERS",
+  "sancion": "SUSPENDIDO",
+  "fechas": 3,
+  "detalle": "F:3 - UR:0",
+  "texto": "Art. 149 del C.P. Que cumpla en todas las categorías de la disciplina deportiva."
  }
 ]

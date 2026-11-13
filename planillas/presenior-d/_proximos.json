@@ -23,13 +23,6 @@
  {
   "serie": "PSDPD",
   "fechaHora": "2026-11-14 09:00:00",
-  "cancha": "COMPLEJO MARLUNA",
-  "local": "MATECHA",
-  "visitante": "LIVERPOOL UNIVERSITARIO"
- },
- {
-  "serie": "PSDPD",
-  "fechaHora": "2026-11-14 09:00:00",
   "cancha": "COMPLEJO LAS CASUARINAS",
   "local": "UT SERVIAM",
   "visitante": "MATURANA UNIVERSITARIO"
@@ -47,6 +40,13 @@
   "cancha": "COMPLEJO LOS ROJOS",
   "local": "LATINO FUTBOL CLUB",
   "visitante": "DANUBIO FUTBOL CLUB"
+ },
+ {
+  "serie": "PSDPD",
+  "fechaHora": "2026-11-14 11:15:00",
+  "cancha": "COMPLEJO MARLUNA",
+  "local": "MATECHA",
+  "visitante": "LIVERPOOL UNIVERSITARIO"
  },
  {
   "serie": "PSDPD",

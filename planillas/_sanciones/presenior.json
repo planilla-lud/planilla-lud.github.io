@@ -10610,6 +10610,19 @@
  {
   "tipo": "fallo",
   "fecha": "2026-11-12",
+  "partido": "796",
+  "serie": "PSAT",
+  "carne": "26727",
+  "nombre": "CARLOS EDUARDO SCHECK",
+  "club": "OLD CHRISTIANS CLUB",
+  "sancion": "SUSPENDIDO",
+  "fechas": 4,
+  "detalle": "F:4 - UR:0",
+  "texto": "Art. 148 del C.P"
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-11-12",
   "partido": "1020",
   "serie": "PSET2",
   "carne": "26911",
@@ -10697,6 +10710,19 @@
   "fechas": 1,
   "detalle": "F:1 - UR:1",
   "texto": "Art. 135 del C.P"
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-11-12",
+  "partido": "797",
+  "serie": "PSAT",
+  "carne": "31284",
+  "nombre": "FELIPE MARIA CALZA",
+  "club": "NACIONAL UNIVERSITARIO",
+  "sancion": "SUSPENDIDO",
+  "fechas": 2,
+  "detalle": "F:2 - UR:0",
+  "texto": "Art. 146, 147 del C.P"
  },
  {
   "tipo": "fallo",
