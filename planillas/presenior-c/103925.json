@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"C\" PER. y DESC",
   "Cancha": "SAN EUGENIO",
-  "Fecha_Inicio": "2026-11-12 21:45:00",
-  "Fecha_fin": "2026-11-12 21:45:00",
+  "Fecha_Inicio": "2026-11-12 22:30:00",
+  "Fecha_fin": "2026-11-12 22:30:00",
   "Locatario": "SAN EUGENIO",
   "goles_locatario": "2",
   "puntos_locatario": "3",
@@ -29,12 +29,301 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "titularesL": [
+  {
+   "carne": "19239",
+   "Nombre": "IGNACIO ROSA",
+   "camiseta": "27",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "20494",
+   "Nombre": "ANDRES GERMAN FERNANDEZ",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "51342",
+   "Nombre": "GONZALO MARTINEZ",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "33921",
+   "Nombre": "FABIAN BRUNETTO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "47173",
+   "Nombre": "VICTOR SAMUEL VERA",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "57854",
+   "Nombre": "LEONARDO BOVE",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "47960",
+   "Nombre": "FERNANDO DE LAS  LLANAS",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "38266",
+   "Nombre": "ESTEBAN JAVIER GURUCEAGA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "45423",
+   "Nombre": "FELIPE DANIEL GONCALVES",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "59348",
+   "Nombre": "MAURICIO TRAVERS",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "27853",
+   "Nombre": "ISRAEL LIBSCHITZ",
+   "camiseta": "14",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "20274",
+   "Nombre": "ALEJANDRO BRUBACHER",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "33110",
+   "Nombre": "GABRIEL ARBIZA",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "23889",
+   "Nombre": "ANDRES BAUDO",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "38740",
+   "Nombre": "FEDERICO BRANDA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "29585",
+   "Nombre": "CHRISTIAN PAUL SHAW",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "50049",
+   "Nombre": "DIEGO MARTIN ALBANO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "20725",
+   "Nombre": "SANTIAGO JOAQUIN DOS SANTOS",
+   "camiseta": "7",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "27464",
+   "Nombre": "MAURICIO GASTON ARAMBILLET",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "36926",
+   "Nombre": "JUAN JOSE FILLAT",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "35526",
+   "Nombre": "RAUL IGNACIO WANSEELE",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "33279",
+   "Nombre": "FEDERICO JAVIER PESELEWITZ",
+   "camiseta": "24",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "33921",
+   "Jug_Sale": "FABIAN BRUNETTO",
+   "CarneEntra": "39725",
+   "Jug_Entra": "PABLO MARTIN SILVA",
+   "camiseta": "24",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "57854",
+   "Jug_Sale": "LEONARDO BOVE",
+   "CarneEntra": "59380",
+   "Jug_Entra": "CRISTIAN FLEITAS",
+   "camiseta": "30",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "51342",
+   "Jug_Sale": "GONZALO MARTINEZ",
+   "CarneEntra": "51318",
+   "Jug_Entra": "GABRIEL DENIS",
+   "camiseta": "41",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "59348",
+   "Jug_Sale": "MAURICIO TRAVERS",
+   "CarneEntra": "66648",
+   "Jug_Entra": "PATRICIO SAMUEL LAGUNA",
+   "camiseta": "7",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "47960",
+   "Jug_Sale": "FERNANDO DE LAS  LLANAS",
+   "CarneEntra": "45452",
+   "Jug_Entra": "MAURICIO NICOLAS BAUTISTA",
+   "camiseta": "3",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "47173",
+   "Jug_Sale": "VICTOR SAMUEL VERA",
+   "CarneEntra": "52801",
+   "Jug_Entra": "GABRIEL DE LAS LLANAS",
+   "camiseta": "21",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "27853",
+   "Jug_Sale": "ISRAEL LIBSCHITZ",
+   "CarneEntra": "51342",
+   "Jug_Entra": "GONZALO MARTINEZ",
+   "camiseta": "77",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "38266",
+   "Jug_Sale": "ESTEBAN JAVIER GURUCEAGA",
+   "CarneEntra": "47173",
+   "Jug_Entra": "VICTOR SAMUEL VERA",
+   "camiseta": "26",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "51318",
+   "Jug_Sale": "GABRIEL DENIS",
+   "CarneEntra": "18325",
+   "Jug_Entra": "MARTIN VALMAGGIA",
+   "camiseta": "99",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "51342",
+   "Jug_Sale": "GONZALO MARTINEZ",
+   "CarneEntra": "33921",
+   "Jug_Entra": "FABIAN BRUNETTO",
+   "camiseta": "17",
+   "minutos": "93"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "29585",
+   "Jug_Sale": "CHRISTIAN PAUL SHAW",
+   "CarneEntra": "28604",
+   "Jug_Entra": "MARCELO MARTIN SOSA",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "20725",
+   "Jug_Sale": "SANTIAGO JOAQUIN DOS SANTOS",
+   "CarneEntra": "20621",
+   "Jug_Entra": "MATEO IGNACIO CABRAL",
+   "camiseta": "15",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "35526",
+   "Jug_Sale": "RAUL IGNACIO WANSEELE",
+   "CarneEntra": "47389",
+   "Jug_Entra": "SEBASTIAN SILVA",
+   "camiseta": "26",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "33279",
+   "Jug_Sale": "FEDERICO JAVIER PESELEWITZ",
+   "CarneEntra": "63759",
+   "Jug_Entra": "GASTON BUBE",
+   "camiseta": "27",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "50049",
+   "Jug_Sale": "DIEGO MARTIN ALBANO",
+   "CarneEntra": "29857",
+   "Jug_Entra": "GUILLERMO SLINGER",
+   "camiseta": "47",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "63759",
+   "Jug_Sale": "GASTON BUBE",
+   "CarneEntra": "35526",
+   "Jug_Entra": "RAUL IGNACIO WANSEELE",
+   "camiseta": "10",
+   "minutos": "86"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "38266",
+   "Nombre": "ESTEBAN JAVIER GURUCEAGA",
+   "minutos": "18",
+   "EnContra": "0"
+  },
+  {
+   "carne": "39725",
+   "Nombre": "PABLO MARTIN SILVA",
+   "minutos": "73",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "47389",
+   "Nombre": "SEBASTIAN SILVA",
+   "minutos": "66",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "FELIPE DANIEL GONCALVES",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

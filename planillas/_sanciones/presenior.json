@@ -10764,6 +10764,19 @@
   "texto": "Art. 147 del C.P"
  },
  {
+  "tipo": "automatica",
+  "fecha": "2026-11-12",
+  "partido": "917",
+  "serie": "PSCPD",
+  "carne": "45423",
+  "nombre": "FELIPE DANIEL GONCALVES",
+  "club": "SAN EUGENIO",
+  "sancion": "SANCIÓN AUTOMÁTICA",
+  "fechas": 1,
+  "detalle": "F:1 - UR:0",
+  "texto": "Sanción generada automáticamente por expulsión en el partido"
+ },
+ {
   "tipo": "fallo",
   "fecha": "2026-11-12",
   "partido": "994",
@@ -10812,7 +10825,7 @@
   "club": "PERRY SEXTA UNIVERSITARIO",
   "sancion": "SUSPENDIDO",
   "fechas": 2,
-  "detalle": "F:2 - UR:2",
+  "detalle": "F:2 - UR:1",
   "texto": "Art. 146 del C.P"
  },
  {

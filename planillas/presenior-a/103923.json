@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"A\" TITULO",
   "Cancha": "COMPLEJO LA MASIA",
-  "Fecha_Inicio": "2026-11-12 21:30:00",
-  "Fecha_fin": "2026-11-12 21:30:00",
+  "Fecha_Inicio": "2026-11-12 21:50:00",
+  "Fecha_fin": "2026-11-12 21:50:00",
   "Locatario": "LA BLANQUEADA",
   "goles_locatario": "1",
   "puntos_locatario": "0",
@@ -29,12 +29,292 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "37989",
+   "Nombre": "GABRIEL GUILLEN",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "45940",
+   "Nombre": "OMAR IGNACIO OSORIO",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "19194",
+   "Nombre": "AGUSTIN FARACHIO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "33307",
+   "Nombre": "NICOLAS SILVERA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "33288",
+   "Nombre": "RODRIGO GUSTAVO FERNANDEZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "39193",
+   "Nombre": "FRANCO JAVIER VETRALE",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "26042",
+   "Nombre": "DAVID JHONATAN MENESES",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "21216",
+   "Nombre": "GABRIEL TORRES TORRES",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "39881",
+   "Nombre": "GERMAN MARTINEZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "23208",
+   "Nombre": "PABLO BRANDO",
+   "camiseta": "21",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "47283",
+   "Nombre": "SERGIO DARIO RAMIREZ",
+   "camiseta": "2",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "26015",
+   "Nombre": "GUILLERMO FEDERICO BRITOS",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "40060",
+   "Nombre": "MATEO LONG",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "22099",
+   "Nombre": "IGNACIO MARIA PEREZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "28835",
+   "Nombre": "JUAN IGNACIO GORBARAN",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "28899",
+   "Nombre": "IGNACIO MUÑOZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "51231",
+   "Nombre": "ALEJO MAYORGA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "26729",
+   "Nombre": "LUIS IGNACIO CRISCI",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "27137",
+   "Nombre": "DIEGO PEDRO MARIÑO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "33837",
+   "Nombre": "MARTIN GUIDOBONO",
+   "camiseta": "68",
+   "Capitan": ""
+  },
+  {
+   "carne": "20036",
+   "Nombre": "MATIAS CROSTA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "21639",
+   "Nombre": "EDUARDO GABRIEL PEIRANO",
+   "camiseta": "6",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "33288",
+   "Jug_Sale": "RODRIGO GUSTAVO FERNANDEZ",
+   "CarneEntra": "21121",
+   "Jug_Entra": "RODRIGO DAMIAN MARTINEZ",
+   "camiseta": "8",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "39193",
+   "Jug_Sale": "FRANCO JAVIER VETRALE",
+   "CarneEntra": "27597",
+   "Jug_Entra": "SANTIAGO LOPEZ PINTOS",
+   "camiseta": "91",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "37989",
+   "Jug_Sale": "GABRIEL GUILLEN",
+   "CarneEntra": "33302",
+   "Jug_Entra": "EMILIANO MARTINS",
+   "camiseta": "28",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "47283",
+   "Jug_Sale": "SERGIO DARIO RAMIREZ",
+   "CarneEntra": "69189",
+   "Jug_Entra": "ALEXIS KUSTER",
+   "camiseta": "9",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "23208",
+   "Jug_Sale": "PABLO BRANDO",
+   "CarneEntra": "33313",
+   "Jug_Entra": "FEDERICO IGNACIO VIÑA",
+   "camiseta": "41",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "26042",
+   "Jug_Sale": "DAVID JHONATAN MENESES",
+   "CarneEntra": "17908",
+   "Jug_Entra": "JESUS SOSA",
+   "camiseta": "13",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "21216",
+   "Jug_Sale": "GABRIEL TORRES TORRES",
+   "CarneEntra": "34431",
+   "Jug_Entra": "CLAUDIO ANDRES ZANCHETTA",
+   "camiseta": "11",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "45940",
+   "Jug_Sale": "OMAR IGNACIO OSORIO",
+   "CarneEntra": "33289",
+   "Jug_Entra": "RENZO BADARACCO",
+   "camiseta": "45",
+   "minutos": "81"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "20036",
+   "Jug_Sale": "MATIAS CROSTA",
+   "CarneEntra": "24790",
+   "Jug_Entra": "IGNACIO NOGUEIRA",
+   "camiseta": "11",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "27137",
+   "Jug_Sale": "DIEGO PEDRO MARIÑO",
+   "CarneEntra": "69143",
+   "Jug_Entra": "RAFAEL ALFONSO BLANCO",
+   "camiseta": "43",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "51231",
+   "Jug_Sale": "ALEJO MAYORGA",
+   "CarneEntra": "33189",
+   "Jug_Entra": "THOMAS SCHIMDT",
+   "camiseta": "0",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "21639",
+   "Jug_Sale": "EDUARDO GABRIEL PEIRANO",
+   "CarneEntra": "30140",
+   "Jug_Entra": "GUZMAN JOSE ALFONSO",
+   "camiseta": "59",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "33837",
+   "Jug_Sale": "MARTIN GUIDOBONO",
+   "CarneEntra": "28410",
+   "Jug_Entra": "FELIPE JUAN URIOSTE",
+   "camiseta": "16",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "26729",
+   "Jug_Sale": "LUIS IGNACIO CRISCI",
+   "CarneEntra": "69143",
+   "Jug_Entra": "RAFAEL ALFONSO BLANCO",
+   "camiseta": "0",
+   "minutos": "60"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "39881",
+   "Nombre": "GERMAN MARTINEZ",
+   "minutos": "42",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "20036",
+   "Nombre": "MATIAS CROSTA",
+   "minutos": "52",
+   "EnContra": "1"
+  },
+  {
+   "carne": "21639",
+   "Nombre": "EDUARDO GABRIEL PEIRANO",
+   "minutos": "18",
+   "EnContra": "1"
+  },
+  {
+   "carne": "22099",
+   "Nombre": "IGNACIO MARIA PEREZ",
+   "minutos": "78",
+   "EnContra": "1"
+  },
+  {
+   "carne": "40060",
+   "Nombre": "MATEO LONG",
+   "minutos": "60",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

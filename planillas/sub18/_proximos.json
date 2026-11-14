@@ -7,13 +7,6 @@
   "visitante": "TENIS EL PINAR"
  },
  {
-  "serie": "18B",
-  "fechaHora": "2026-11-12 19:00:00",
-  "cancha": "CLUB ALEMAN",
-  "local": "ALEMAN UNIVERSITARIO",
-  "visitante": "JUAN XXIII"
- },
- {
   "serie": "18A",
   "fechaHora": "2026-11-12 20:00:00",
   "cancha": "SPORT 11",
@@ -222,13 +215,6 @@
   "cancha": "CANCHA A FIJAR",
   "local": "ACADEMIA FRM",
   "visitante": "LA BLANQUEADA"
- },
- {
-  "serie": "18A",
-  "fechaHora": "2026-11-18 15:30:00",
-  "cancha": "POLIDEPORTIVO FAUQUET",
-  "local": "ARQUITECTURA JRS.",
-  "visitante": "FECHA LIBRE"
  },
  {
   "serie": "18P",
@@ -593,6 +579,13 @@
   "cancha": "COMPLEJO ALCOBENDAS",
   "local": "NACIONAL UNIVERSITARIO",
   "visitante": "NUMA TURCATTI"
+ },
+ {
+  "serie": "18A",
+  "fechaHora": "2026-12-30 00:00:00",
+  "cancha": "NO SE JUEGA",
+  "local": "ARQUITECTURA JRS.",
+  "visitante": "FECHA LIBRE"
  },
  {
   "serie": "18A",

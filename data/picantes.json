@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13T18:32:52.801Z",
+ "actualizado": "2026-11-14T00:22:13.201Z",
  "partidos": [
   {
    "div": "reserva-a",
@@ -186,7 +186,7 @@
    "base": 0,
    "tipo": "titulo",
    "altasL": 0,
-   "altasV": 1
+   "altasV": 0
   },
   {
    "div": "sub16-oro",

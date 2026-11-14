@@ -1,0 +1,265 @@
+{
+ "id": "103938",
+ "categoria": "sub16",
+ "serie": "16B",
+ "fecha": 6,
+ "fechaHora": "2026-11-12 20:00:00",
+ "cancha": "LA MENNAIS",
+ "local": "J.M.L.M",
+ "visitante": "ALEMAN UNIVERSITARIO",
+ "gl": 1,
+ "gv": 2,
+ "detalle": {
+  "nro_partido": "357",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 16 ",
+  "categoria": "SUB 16 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB16 BRONCE",
+  "Cancha": "LA MENNAIS",
+  "Fecha_Inicio": "2026-11-12 22:00:00",
+  "Fecha_fin": "2026-11-12 22:00:00",
+  "Locatario": "J.M.L.M",
+  "goles_locatario": "1",
+  "puntos_locatario": "0",
+  "Visitante": "ALEMAN UNIVERSITARIO",
+  "goles_visitante": "2",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "68516",
+   "Nombre": "MATIAS CARBAJALES",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "67382",
+   "Nombre": "MAURICIO FEDERICO PUÑALES",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "67378",
+   "Nombre": "SANTIAGO FALKENHAGEN",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "66084",
+   "Nombre": "FACUNDO SCOTTI",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "63491",
+   "Nombre": "FELIPE BENITEZ",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "64167",
+   "Nombre": "DANIEL CARBALLO",
+   "camiseta": "15",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "64179",
+   "Nombre": "JUAN MONTAÑO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "62866",
+   "Nombre": "LAUTARO MENDEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "64181",
+   "Nombre": "JUAN FRANCO GRUNOW",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "64168",
+   "Nombre": "GABRIEL CARBALLO",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "62372",
+   "Nombre": "FACUNDO ROIBAL",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "64328",
+   "Nombre": "LORENZO BRUNO PEZZANI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "66948",
+   "Nombre": "FACUNDO RADESCA",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "67409",
+   "Nombre": "ALEJO CONDE",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "64890",
+   "Nombre": "MARTIN PONCE DE LEON",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "67406",
+   "Nombre": "BAUTISTA APRAHAMIAN",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "62937",
+   "Nombre": "LEON PEDRO SCHILDE",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "64327",
+   "Nombre": "AGUSTIN JUSTO RODRIGUEZ",
+   "camiseta": "55",
+   "Capitan": ""
+  },
+  {
+   "carne": "65257",
+   "Nombre": "FACUNDO QUEIROLO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "63383",
+   "Nombre": "JOSE MANUEL HERRERA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "66950",
+   "Nombre": "FRANCISCO CHIAPPORI",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "63461",
+   "Nombre": "GUILLERMO SPILLER",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "64179",
+   "Jug_Sale": "JUAN MONTAÑO",
+   "CarneEntra": "66045",
+   "Jug_Entra": "ISMAEL GUTIERREZ",
+   "camiseta": "16",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "62866",
+   "Jug_Sale": "LAUTARO MENDEZ",
+   "CarneEntra": "61919",
+   "Jug_Entra": "SANTIAGO ANDRES BROGGI",
+   "camiseta": "28",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66084",
+   "Jug_Sale": "FACUNDO SCOTTI",
+   "CarneEntra": "68221",
+   "Jug_Entra": "FACUNDO FUENTES",
+   "camiseta": "17",
+   "minutos": "59"
+  },
+  {
+   "CarneSale": "67382",
+   "Jug_Sale": "MAURICIO FEDERICO PUÑALES",
+   "CarneEntra": "68221",
+   "Jug_Entra": "FACUNDO FUENTES",
+   "camiseta": "11",
+   "minutos": "59"
+  },
+  {
+   "CarneSale": "63491",
+   "Jug_Sale": "FELIPE BENITEZ",
+   "CarneEntra": "63492",
+   "Jug_Entra": "MARTIN BENITES",
+   "camiseta": "21",
+   "minutos": "69"
+  },
+  {
+   "CarneSale": "64168",
+   "Jug_Sale": "GABRIEL CARBALLO",
+   "CarneEntra": "64172",
+   "Jug_Entra": "TOMAS GABRIEL RODRIGUEZ",
+   "camiseta": "8",
+   "minutos": "82"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "64890",
+   "Jug_Sale": "MARTIN PONCE DE LEON",
+   "CarneEntra": "65916",
+   "Jug_Entra": "EMILIANO PUJADAS",
+   "camiseta": "66",
+   "minutos": "23"
+  },
+  {
+   "CarneSale": "65257",
+   "Jug_Sale": "FACUNDO QUEIROLO",
+   "CarneEntra": "68772",
+   "Jug_Entra": "SANTIAGO FELICETTI",
+   "camiseta": "4",
+   "minutos": "55"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "66045",
+   "Nombre": "ISMAEL GUTIERREZ",
+   "minutos": "82",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "63461",
+   "Nombre": "GUILLERMO SPILLER",
+   "minutos": "1",
+   "EnContra": "1"
+  },
+  {
+   "carne": "67406",
+   "Nombre": "BAUTISTA APRAHAMIAN",
+   "minutos": "35",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": [
+  {
+   "Nombre": "GUILLERMO SPILLER",
+   "observaciones": ""
+  }
+ ]
+}

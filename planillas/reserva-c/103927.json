@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"C\" PER. y DESC.",
   "Cancha": "COMPLEJO INVICTUS (INCIARTE)",
-  "Fecha_Inicio": "2026-11-12 22:00:00",
-  "Fecha_fin": "2026-11-12 22:00:00",
+  "Fecha_Inicio": "2026-11-12 22:27:00",
+  "Fecha_fin": "2026-11-12 22:27:00",
   "Locatario": "OLD BRENDANS VERDE",
   "goles_locatario": "1",
   "puntos_locatario": "0",
@@ -29,12 +29,253 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "titularesL": [
+  {
+   "carne": "53395",
+   "Nombre": "MAURO MASENA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "55605",
+   "Nombre": "BAUTISTA PARODI",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "49150",
+   "Nombre": "GASTON SCHMIDT",
+   "camiseta": "2",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "49147",
+   "Nombre": "JUAN TOURON",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "64017",
+   "Nombre": "JUAN IGNACIO MENENDEZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "56688",
+   "Nombre": "TOMAS PASSADORE",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "55434",
+   "Nombre": "DIEGO TOURON",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "53390",
+   "Nombre": "JUAN MANUEL ECHEVERRY",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "60013",
+   "Nombre": "JOAQUIN DI CAPRIO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "53397",
+   "Nombre": "ELIAS GOMOLINSKY",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "55930",
+   "Nombre": "BRYAN EZEQUIEL GIOVINAZZO",
+   "camiseta": "49",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "46770",
+   "Nombre": "TOMAS LOPEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "62604",
+   "Nombre": "JUAN CRUZ DE AZPITARTE",
+   "camiseta": "3",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "52817",
+   "Nombre": "FEDERICO GARCIA",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "48884",
+   "Nombre": "JUAN GUILLERMO ARROSPIDE",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "53218",
+   "Nombre": "JUAN HINSCH",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "55122",
+   "Nombre": "NICOLAS POL",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "43890",
+   "Nombre": "EMILIANO ROSS",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "65948",
+   "Nombre": "BALTASAR DELBENE",
+   "camiseta": "47",
+   "Capitan": ""
+  },
+  {
+   "carne": "56856",
+   "Nombre": "JOAQUIN FLEURQUIN",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "55609",
+   "Nombre": "THEO CORTABARRIA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "64835",
+   "Nombre": "FACUNDO MARQUEZ",
+   "camiseta": "23",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "55605",
+   "Jug_Sale": "BAUTISTA PARODI",
+   "CarneEntra": "57844",
+   "Jug_Entra": "LORENZO GARCIA",
+   "camiseta": "70",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "49150",
+   "Jug_Sale": "GASTON SCHMIDT",
+   "CarneEntra": "56474",
+   "Jug_Entra": "JUAN BAUTISTA PAGANI",
+   "camiseta": "31",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "49147",
+   "Jug_Sale": "JUAN TOURON",
+   "CarneEntra": "56689",
+   "Jug_Entra": "DIEGO ANDRE MENDOZA",
+   "camiseta": "68",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "53390",
+   "Jug_Sale": "JUAN MANUEL ECHEVERRY",
+   "CarneEntra": "57836",
+   "Jug_Entra": "JUAN MANUEL ABELLA",
+   "camiseta": "18",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "60013",
+   "Jug_Sale": "JOAQUIN DI CAPRIO",
+   "CarneEntra": "54756",
+   "Jug_Entra": "ADRIANO MARTIN AGGIO",
+   "camiseta": "99",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "60013",
+   "Jug_Sale": "JOAQUIN DI CAPRIO",
+   "CarneEntra": "56472",
+   "Jug_Entra": "FACUNDO ASTIAZARAN",
+   "camiseta": "24",
+   "minutos": "93"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "52817",
+   "Jug_Sale": "FEDERICO GARCIA",
+   "CarneEntra": "59504",
+   "Jug_Entra": "BAUTISTA RAUL FERNANDEZ",
+   "camiseta": "13",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "43890",
+   "Jug_Sale": "EMILIANO ROSS",
+   "CarneEntra": "59506",
+   "Jug_Entra": "AGUSTIN HOUNIE",
+   "camiseta": "59",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "55122",
+   "Jug_Sale": "NICOLAS POL",
+   "CarneEntra": "65819",
+   "Jug_Entra": "ALEJANDRO GAMMELLA",
+   "camiseta": "79",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "62604",
+   "Jug_Sale": "JUAN CRUZ DE AZPITARTE",
+   "CarneEntra": "46003",
+   "Jug_Entra": "MARTIN VIGORITO",
+   "camiseta": "11",
+   "minutos": "80"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "53397",
+   "Nombre": "ELIAS GOMOLINSKY",
+   "minutos": "58",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "59504",
+   "Nombre": "BAUTISTA RAUL FERNANDEZ",
+   "minutos": "65",
+   "EnContra": "1"
+  },
+  {
+   "carne": "64835",
+   "Nombre": "FACUNDO MARQUEZ",
+   "minutos": "86",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "DIEGO TOURON",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }
