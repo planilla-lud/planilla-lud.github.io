@@ -37,30 +37,9 @@
  {
   "serie": "16P",
   "fechaHora": "2026-11-15 13:30:00",
-  "cancha": "CIUDAD DEPORTIVA LS",
-  "local": "DEPORTIVO LS UNIVERSITARIO",
-  "visitante": "CIRCULO DE TENIS MONTEVIDEO"
- },
- {
-  "serie": "16P",
-  "fechaHora": "2026-11-15 13:30:00",
   "cancha": "COMPLEJO LOS ROJOS",
   "local": "TACUAREMBO UNIVERSITARIO",
   "visitante": "DEPORTIVO MORON"
- },
- {
-  "serie": "16P",
-  "fechaHora": "2026-11-15 13:30:00",
-  "cancha": "COMPLEJO URUNDAY UNIVERSITARIO",
-  "local": "URUNDAY UNIVERSITARIO",
-  "visitante": "LA ESCALINATA"
- },
- {
-  "serie": "16B",
-  "fechaHora": "2026-11-15 13:30:00",
-  "cancha": "COLEGIO ARETEIA",
-  "local": "DEP.de la C. ARETEIA BIMBULLY",
-  "visitante": "J.M.L.M"
  },
  {
   "serie": "16B",
@@ -70,39 +49,11 @@
   "visitante": "PELOTA AL MEDIO UNIVERSITARIO"
  },
  {
-  "serie": "16B",
-  "fechaHora": "2026-11-15 13:30:00",
-  "cancha": "ESCUELA NAVAL",
-  "local": "YAGUARI",
-  "visitante": "TENIS EL PINAR"
- },
- {
-  "serie": "16B",
-  "fechaHora": "2026-11-15 13:30:00",
-  "cancha": "CLUB ALEMAN",
-  "local": "ALEMAN UNIVERSITARIO",
-  "visitante": "DFC"
- },
- {
-  "serie": "16C",
-  "fechaHora": "2026-11-15 13:30:00",
-  "cancha": "MICROSULES",
-  "local": "PERRY SEXTA UNIVERSITARIO",
-  "visitante": "SCUOLA PALERMO"
- },
- {
   "serie": "16C",
   "fechaHora": "2026-11-15 13:30:00",
   "cancha": "CAM. DEP. ASOC. HEBRAICA Y MAC",
   "local": "HEBRAICA UNIVERSITARIO",
   "visitante": "NAUTICO CARRASCO Y PUNTA GORDA"
- },
- {
-  "serie": "16C",
-  "fechaHora": "2026-11-15 13:30:00",
-  "cancha": "COMPLEJO LOS NOGALES",
-  "local": "NACIONAL UNIVERSITARIO",
-  "visitante": "A.E.B.U"
  },
  {
   "serie": "16F",
