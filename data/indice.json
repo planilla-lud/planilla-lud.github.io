@@ -58,7 +58,7 @@
      "id": "mayores-f",
      "letra": "F",
      "nombre": "Mayores F",
-     "actualizado": "2026-11-15T21:42:24.775Z",
+     "actualizado": "2026-11-16T15:11:21.614Z",
      "partidos": 176,
      "conPlanilla": 175,
      "conProblemas": 44,
@@ -104,7 +104,7 @@
      "id": "sub20-c",
      "letra": "C",
      "nombre": "Sub 20 C",
-     "actualizado": "2026-11-16T01:23:47.723Z",
+     "actualizado": "2026-11-16T15:11:21.714Z",
      "partidos": 176,
      "conPlanilla": 169,
      "conProblemas": 54,
@@ -150,7 +150,7 @@
      "id": "reserva-d",
      "letra": "D",
      "nombre": "Reserva D",
-     "actualizado": "2026-11-16T01:23:47.836Z",
+     "actualizado": "2026-11-16T15:11:21.837Z",
      "partidos": 250,
      "conPlanilla": 233,
      "conProblemas": 88,
@@ -281,10 +281,10 @@
      "letra": "Bronce",
      "nombre": "Sub 18 Bronce",
      "copa": "18B",
-     "actualizado": "2026-11-16T01:23:48.070Z",
-     "partidos": 126,
+     "actualizado": "2026-11-16T15:11:22.075Z",
+     "partidos": 127,
      "conPlanilla": 118,
-     "conProblemas": 53,
+     "conProblemas": 54,
      "equipos": 8
     },
     {
@@ -325,10 +325,10 @@
      "letra": "Todas",
      "nombre": "Sub 18",
      "oculta": 1,
-     "actualizado": "2026-11-16T05:24:21.236Z",
-     "partidos": 457,
+     "actualizado": "2026-11-16T15:11:22.075Z",
+     "partidos": 458,
      "conPlanilla": 425,
-     "conProblemas": 193,
+     "conProblemas": 194,
      "equipos": 50
     }
    ]
@@ -364,10 +364,10 @@
      "letra": "Bronce",
      "nombre": "Sub 16 Bronce",
      "copa": "16B",
-     "actualizado": "2026-11-15T21:42:25.545Z",
-     "partidos": 120,
+     "actualizado": "2026-11-16T15:11:22.223Z",
+     "partidos": 121,
      "conPlanilla": 116,
-     "conProblemas": 61,
+     "conProblemas": 62,
      "equipos": 8
     },
     {
@@ -397,10 +397,10 @@
      "letra": "Todas",
      "nombre": "Sub 16",
      "oculta": 1,
-     "actualizado": "2026-11-16T01:23:48.225Z",
-     "partidos": 356,
+     "actualizado": "2026-11-16T15:11:22.223Z",
+     "partidos": 357,
      "conPlanilla": 335,
-     "conProblemas": 174,
+     "conProblemas": 175,
      "equipos": 39
     }
    ]
