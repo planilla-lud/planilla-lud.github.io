@@ -16,23 +16,9 @@
  {
   "serie": "16O",
   "fechaHora": "2026-11-15 13:30:00",
-  "cancha": "CIUDAD DEPORTIVA LS",
-  "local": "DLS CLUB",
-  "visitante": "CLUB NAUTICO"
- },
- {
-  "serie": "16O",
-  "fechaHora": "2026-11-15 13:30:00",
   "cancha": "OLD CHRISTIANS CLUB",
   "local": "OLD CHRISTIANS CLUB",
   "visitante": "OLD BRENDANS CLUB"
- },
- {
-  "serie": "16P",
-  "fechaHora": "2026-11-15 13:30:00",
-  "cancha": "ELF (LICEO FRANCES)",
-  "local": "E.L.F.",
-  "visitante": "CARRASCO LAWN TENNIS"
  },
  {
   "serie": "16P",
@@ -61,20 +47,6 @@
   "cancha": "COMPLEJO JUAN XXIII",
   "local": "LA BLANQUEADA",
   "visitante": "COLEGIO SANTA ELENA"
- },
- {
-  "serie": "16F",
-  "fechaHora": "2026-11-15 13:30:00",
-  "cancha": "COMPLEJO COLEGIO JESÚS MARÍA",
-  "local": "CLUB JESUS MARIA",
-  "visitante": "ACADEMIA FRM"
- },
- {
-  "serie": "16F",
-  "fechaHora": "2026-11-15 13:30:00",
-  "cancha": "CAMPO DEP. INSTITUTO CRANDON",
-  "local": "CRANDON UNIVERSITARIO",
-  "visitante": "ESTUDIANTES DEL PLATA"
  },
  {
   "serie": "16C",

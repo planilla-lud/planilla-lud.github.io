@@ -23,23 +23,9 @@
  {
   "serie": "18O",
   "fechaHora": "2026-11-15 15:30:00",
-  "cancha": "MONTE VI \"LOS CEIBOS\"",
-  "local": "CEIBOS CLUB",
-  "visitante": "PELOTA AL MEDIO UNIVERSITARIO"
- },
- {
-  "serie": "18O",
-  "fechaHora": "2026-11-15 15:30:00",
   "cancha": "CAMPO MARISTAS DEPORTIVO",
   "local": "MARISTAS DEPORTIVO",
   "visitante": "SAN JUAN BAUTISTA"
- },
- {
-  "serie": "18O",
-  "fechaHora": "2026-11-15 15:30:00",
-  "cancha": "OLD CHRISTIANS CLUB",
-  "local": "OLD CHRISTIANS CLUB",
-  "visitante": "OLD BRENDANS CLUB"
  },
  {
   "serie": "18P",
@@ -72,13 +58,6 @@
  {
   "serie": "18B",
   "fechaHora": "2026-11-15 15:30:00",
-  "cancha": "COMPLEJO WOODLANDS SCHOOL",
-  "local": "OLD WOODLANDS CLUB",
-  "visitante": "CIRCULO DE TENIS MONTEVIDEO"
- },
- {
-  "serie": "18B",
-  "fechaHora": "2026-11-15 15:30:00",
   "cancha": "COM. CLUB UNIVERSIDAD CATOLICA",
   "local": "SAN PABLO UNIVERSITARIO",
   "visitante": "JUAN XXIII"
@@ -93,13 +72,6 @@
  {
   "serie": "18C",
   "fechaHora": "2026-11-15 15:30:00",
-  "cancha": "COMPLEJO COLEGIO JESÚS MARÍA",
-  "local": "CLUB JESUS MARIA",
-  "visitante": "LATINO FUTBOL CLUB"
- },
- {
-  "serie": "18C",
-  "fechaHora": "2026-11-15 15:30:00",
   "cancha": "SANTA RITA",
   "local": "SAN AGUSTIN",
   "visitante": "ELBIO FERNANDEZ"
@@ -110,13 +82,6 @@
   "cancha": "CAM. DEP. ASOC. HEBRAICA Y MAC",
   "local": "HEBRAICA UNIVERSITARIO",
   "visitante": "NAUTICO CARRASCO Y PUNTA GORDA"
- },
- {
-  "serie": "18F",
-  "fechaHora": "2026-11-15 15:30:00",
-  "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
-  "local": "ISASA UNIVERSITARIO",
-  "visitante": "PLAYA HONDA UNIVERSITARIO"
  },
  {
   "serie": "18F",

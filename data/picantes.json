@@ -1,23 +1,6 @@
 {
- "actualizado": "2026-11-15T21:42:56.327Z",
+ "actualizado": "2026-11-16T01:24:18.739Z",
  "partidos": [
-  {
-   "div": "sub18-oro",
-   "divNombre": "Sub 18 Oro",
-   "k": "Pelota Al Medio Universitario~Seminario",
-   "l": "Pelota Al Medio Universitario",
-   "v": "Seminario",
-   "dia": "2026-11-22",
-   "hora": "15:30",
-   "etapa": "Copa de Oro",
-   "pl": 3,
-   "pv": 1,
-   "n": 8,
-   "base": 0,
-   "tipo": "titulo",
-   "altasL": 2,
-   "altasV": 3
-  },
   {
    "div": "sub16-oro",
    "divNombre": "Sub 16 Oro",
@@ -34,6 +17,23 @@
    "tipo": "titulo",
    "altasL": 0,
    "altasV": 1
+  },
+  {
+   "div": "sub18-oro",
+   "divNombre": "Sub 18 Oro",
+   "k": "Pelota Al Medio Universitario~Seminario",
+   "l": "Pelota Al Medio Universitario",
+   "v": "Seminario",
+   "dia": "2026-11-22",
+   "hora": "15:30",
+   "etapa": "Copa de Oro",
+   "pl": 4,
+   "pv": 2,
+   "n": 8,
+   "base": 0,
+   "tipo": "titulo",
+   "altasL": 2,
+   "altasV": 3
   },
   {
    "div": "sub16-oro",
