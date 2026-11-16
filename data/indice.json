@@ -303,10 +303,10 @@
      "letra": "Confrat.",
      "nombre": "Sub 18 Confraternidad",
      "copa": "18F",
-     "actualizado": "2026-11-16T01:23:48.070Z",
-     "partidos": 124,
+     "actualizado": "2026-11-16T05:24:21.236Z",
+     "partidos": 125,
      "conPlanilla": 118,
-     "conProblemas": 48,
+     "conProblemas": 49,
      "equipos": 8
     },
     {
@@ -325,10 +325,10 @@
      "letra": "Todas",
      "nombre": "Sub 18",
      "oculta": 1,
-     "actualizado": "2026-11-16T01:23:48.070Z",
-     "partidos": 456,
+     "actualizado": "2026-11-16T05:24:21.236Z",
+     "partidos": 457,
      "conPlanilla": 425,
-     "conProblemas": 192,
+     "conProblemas": 193,
      "equipos": 50
     }
    ]
