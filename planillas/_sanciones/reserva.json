@@ -9670,5 +9670,44 @@
   "fechas": 0,
   "detalle": "F:0 - UR:0 - FC:2026-12-31",
   "texto": "Sanción generada automáticamente"
+ },
+ {
+  "tipo": "automatica",
+  "fecha": "2026-11-14",
+  "partido": "666",
+  "serie": "RSAPD",
+  "carne": "33722",
+  "nombre": "JUAN IGNACIO MOLINARO",
+  "club": "OBC AZULGRANA.",
+  "sancion": "SANCIÓN AUTOMÁTICA",
+  "fechas": 1,
+  "detalle": "F:1 - UR:0",
+  "texto": "Sanción generada automáticamente por expulsión en el partido"
+ },
+ {
+  "tipo": "automatica",
+  "fecha": "2026-11-14",
+  "partido": "555",
+  "serie": "RSDTA",
+  "carne": "35047",
+  "nombre": "LUIS MARCELO PEREIRA",
+  "club": "CLUB SOCIAL PIEDRAS BLANCAS",
+  "sancion": "SANCIÓN AUTOMÁTICA",
+  "fechas": 1,
+  "detalle": "F:1 - UR:0",
+  "texto": "Sanción generada automáticamente por expulsión en el partido"
+ },
+ {
+  "tipo": "automatica",
+  "fecha": "2026-11-14",
+  "partido": "555",
+  "serie": "RSDTA",
+  "carne": "59269",
+  "nombre": "MIGUEL PEREYRA",
+  "club": "CERVANTES UNIVERSITARIO",
+  "sancion": "SANCIÓN AUTOMÁTICA",
+  "fechas": 1,
+  "detalle": "F:1 - UR:0",
+  "texto": "Sanción generada automáticamente por expulsión en el partido"
  }
 ]

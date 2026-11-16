@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAS40 \"B\" TIT. y ASC.",
   "Cancha": "COLEGIO PIO",
-  "Fecha_Inicio": "2026-11-14 10:30:00",
-  "Fecha_fin": "2026-11-14 10:30:00",
+  "Fecha_Inicio": "2026-11-14 10:50:00",
+  "Fecha_fin": "2026-11-14 10:50:00",
   "Locatario": "CENTRO CRISTOBAL COLON",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,263 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "28787",
+   "Nombre": "GABRIEL OSVALDO CHAVES",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "54620",
+   "Nombre": "HAMILTON BERNARDO TOURON",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "67322",
+   "Nombre": "SANTIAGO ENRIQUE BARRETO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "15663",
+   "Nombre": "JUAN FRANCISCO FRUGONI",
+   "camiseta": "17",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "11891",
+   "Nombre": "RAFAEL ALVARO MANCINI",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "19015",
+   "Nombre": "PABLO ANDRES ALDAYA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "29009",
+   "Nombre": "WALTER ALEJANDRO SEGOVIA",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "42067",
+   "Nombre": "GUILLERMO NICOLAS FOSSA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "27238",
+   "Nombre": "MAURICIO ACOSTA",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "39726",
+   "Nombre": "FEDERICO ROBERTO CHAVES",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "26491",
+   "Nombre": "MARTIN HUMBERTO GUIGOU",
+   "camiseta": "55",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "25808",
+   "Nombre": "GONZALO FEDERICO HARISPE",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "24828",
+   "Nombre": "FABIAN SOSA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "40409",
+   "Nombre": "CARLOS FEDERICO FERREIRA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "23243",
+   "Nombre": "IGNACIO ROLDAN",
+   "camiseta": "7",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "49509",
+   "Nombre": "ADRIAN LAURINO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "66837",
+   "Nombre": "ESTEBAN RAUL ZAPATA",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "65725",
+   "Nombre": "MARCELO RAFAEL VIANA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "64755",
+   "Nombre": "MARTIN UBAL",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "24253",
+   "Nombre": "BERNARDO MARIO PATRONE",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "47109",
+   "Nombre": "GERMAN FERNANDEZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "19695",
+   "Nombre": "JUAN ANDRES HONTAN",
+   "camiseta": "77",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "29009",
+   "Jug_Sale": "WALTER ALEJANDRO SEGOVIA",
+   "CarneEntra": "12416",
+   "Jug_Entra": "CHRISTIAN ANDRES ALCORTA",
+   "camiseta": "5",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "67322",
+   "Jug_Sale": "SANTIAGO ENRIQUE BARRETO",
+   "CarneEntra": "38406",
+   "Jug_Entra": "JOEL EDUARDO PEIRANO",
+   "camiseta": "52",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "42067",
+   "Jug_Sale": "GUILLERMO NICOLAS FOSSA",
+   "CarneEntra": "20532",
+   "Jug_Entra": "DIEGO LIBER GONZALEZ",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "39726",
+   "Jug_Sale": "FEDERICO ROBERTO CHAVES",
+   "CarneEntra": "25158",
+   "Jug_Entra": "CARLOS MATHIAS BALLAQUE",
+   "camiseta": "86",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "54620",
+   "Jug_Sale": "HAMILTON BERNARDO TOURON",
+   "CarneEntra": "14898",
+   "Jug_Entra": "HECTOR ADRIAN CEDRES",
+   "camiseta": "53",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "25158",
+   "Jug_Sale": "CARLOS MATHIAS BALLAQUE",
+   "CarneEntra": "19073",
+   "Jug_Entra": "MARTIN DEFFES",
+   "camiseta": "16",
+   "minutos": "70"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "24828",
+   "Jug_Sale": "FABIAN SOSA",
+   "CarneEntra": "23518",
+   "Jug_Entra": "DIEGO HERNAN SCOTTI",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "23243",
+   "Jug_Sale": "IGNACIO ROLDAN",
+   "CarneEntra": "24154",
+   "Jug_Entra": "JOSE IGNACIO RABELLINO",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "24253",
+   "Jug_Sale": "BERNARDO MARIO PATRONE",
+   "CarneEntra": "19568",
+   "Jug_Entra": "SANTIAGO CAZALES",
+   "camiseta": "59",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "65725",
+   "Jug_Sale": "MARCELO RAFAEL VIANA",
+   "CarneEntra": "33171",
+   "Jug_Entra": "JAVIER ANDRES SCHINCA",
+   "camiseta": "99",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "19695",
+   "Jug_Sale": "JUAN ANDRES HONTAN",
+   "CarneEntra": "23243",
+   "Jug_Entra": "IGNACIO ROLDAN",
+   "camiseta": "7",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "24154",
+   "Jug_Sale": "JOSE IGNACIO RABELLINO",
+   "CarneEntra": "24253",
+   "Jug_Entra": "BERNARDO MARIO PATRONE",
+   "camiseta": "9",
+   "minutos": "75"
+  }
+ ],
  "golesL": [],
- "golesV": [],
+ "golesV": [
+  {
+   "carne": "33171",
+   "Nombre": "JAVIER ANDRES SCHINCA",
+   "minutos": "89",
+   "EnContra": "1"
+  },
+  {
+   "carne": "40409",
+   "Nombre": "CARLOS FEDERICO FERREIRA",
+   "minutos": "60",
+   "EnContra": "1"
+  },
+  {
+   "carne": "49509",
+   "Nombre": "ADRIAN LAURINO",
+   "minutos": "63",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

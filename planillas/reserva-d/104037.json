@@ -1,0 +1,251 @@
+{
+ "id": "104037",
+ "categoria": "reserva-d",
+ "serie": "RSDTA",
+ "fecha": 11,
+ "fechaHora": "2026-11-14 11:15:00",
+ "cancha": "COMPLEJO DEPORTIVO H3O",
+ "local": "YOUNG UNIVERSITARIO",
+ "visitante": "MARISTAS DEPORTIVO",
+ "gl": 2,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "553",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "RESERVA",
+  "categoria": "RESERVA MASCULINO",
+  "rueda": "2",
+  "Divisional": "RESERVA \"D\" TIT. y ASC.",
+  "Cancha": "COMPLEJO DEPORTIVO H3O",
+  "Fecha_Inicio": "2026-11-14 13:05:00",
+  "Fecha_fin": "2026-11-14 13:05:00",
+  "Locatario": "YOUNG UNIVERSITARIO",
+  "goles_locatario": "2",
+  "puntos_locatario": "3",
+  "Visitante": "MARISTAS DEPORTIVO",
+  "goles_visitante": "1",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "59239",
+   "Nombre": "NICOLAS VILA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "69191",
+   "Nombre": "VALENTINO DORADOR",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "69190",
+   "Nombre": "LUCAS AMARILLO",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "66169",
+   "Nombre": "ALEJO ANDRES AIZPUN",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "66136",
+   "Nombre": "ALFONSO MEDINA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "58823",
+   "Nombre": "JUSTINO LAFLUF",
+   "camiseta": "23",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "64742",
+   "Nombre": "GASPAR HERMOSO",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "62225",
+   "Nombre": "FELIPE GONZALEZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "66212",
+   "Nombre": "TOMAS AGUSTIN SANTOS",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "29823",
+   "Nombre": "JOVAN ANDRES KLARIC",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "67431",
+   "Nombre": "EMILIANO ACOSTA",
+   "camiseta": "28",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "55077",
+   "Nombre": "EMANUEL DA LUZ",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "55113",
+   "Nombre": "FRANCISCO FERREYRA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "59908",
+   "Nombre": "EZEQUIEL VALLARI",
+   "camiseta": "95",
+   "Capitan": ""
+  },
+  {
+   "carne": "61756",
+   "Nombre": "LUCAS DANIEL PEREZ",
+   "camiseta": "79",
+   "Capitan": ""
+  },
+  {
+   "carne": "55117",
+   "Nombre": "GUILLERMO VALLE LISBOA",
+   "camiseta": "18",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "46422",
+   "Nombre": "GONZALO IÑAKI DE PENA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "69142",
+   "Nombre": "MATEO PEREZ",
+   "camiseta": "51",
+   "Capitan": ""
+  },
+  {
+   "carne": "66164",
+   "Nombre": "NICOLAS AYESTARAN",
+   "camiseta": "50",
+   "Capitan": ""
+  },
+  {
+   "carne": "56224",
+   "Nombre": "SANTIAGO DANIEL CASCO",
+   "camiseta": "55",
+   "Capitan": ""
+  },
+  {
+   "carne": "53961",
+   "Nombre": "FRANCISCO SCARRONE",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "41701",
+   "Nombre": "JUAN PABLO ALDAMA",
+   "camiseta": "27",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "29823",
+   "Jug_Sale": "JOVAN ANDRES KLARIC",
+   "CarneEntra": "67326",
+   "Jug_Entra": "MAXIMO VILA",
+   "camiseta": "5",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "62225",
+   "Jug_Sale": "FELIPE GONZALEZ",
+   "CarneEntra": "67559",
+   "Jug_Entra": "BRUNO CAMPOPIANO",
+   "camiseta": "15",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64742",
+   "Jug_Sale": "GASPAR HERMOSO",
+   "CarneEntra": "52353",
+   "Jug_Entra": "JUAN MARTIN TERRA",
+   "camiseta": "9",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66136",
+   "Jug_Sale": "ALFONSO MEDINA",
+   "CarneEntra": "64739",
+   "Jug_Entra": "SANTIAGO SCREMINI",
+   "camiseta": "76",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67431",
+   "Jug_Sale": "EMILIANO ACOSTA",
+   "CarneEntra": "52893",
+   "Jug_Entra": "EZEQUIEL FRANCO",
+   "camiseta": "19",
+   "minutos": "53"
+  },
+  {
+   "CarneSale": "58823",
+   "Jug_Sale": "JUSTINO LAFLUF",
+   "CarneEntra": "60311",
+   "Jug_Entra": "ROMAN JOSE SCREMINI",
+   "camiseta": "6",
+   "minutos": "50"
+  },
+  {
+   "CarneSale": "66169",
+   "Jug_Sale": "ALEJO ANDRES AIZPUN",
+   "CarneEntra": "64742",
+   "Jug_Entra": "GASPAR HERMOSO",
+   "camiseta": "27",
+   "minutos": "75"
+  }
+ ],
+ "cambiosV": [],
+ "golesL": [
+  {
+   "carne": "67326",
+   "Nombre": "MAXIMO VILA",
+   "minutos": "73",
+   "EnContra": "0"
+  },
+  {
+   "carne": "67431",
+   "Nombre": "EMILIANO ACOSTA",
+   "minutos": "6",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "55113",
+   "Nombre": "FRANCISCO FERREYRA",
+   "minutos": "80",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

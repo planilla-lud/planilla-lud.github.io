@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAS40 \"B\" PER. y DESC,",
   "Cancha": "COMPLEJO DEPORTIVO ARRAYANES",
-  "Fecha_Inicio": "2026-11-14 12:45:00",
-  "Fecha_fin": "2026-11-14 12:45:00",
+  "Fecha_Inicio": "2026-11-14 13:10:00",
+  "Fecha_fin": "2026-11-14 13:10:00",
   "Locatario": "CLUB ESTUDIANTES INGENIERIA",
   "goles_locatario": "1",
   "puntos_locatario": "1",
@@ -29,12 +29,290 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "13113",
+   "Nombre": "SANTIAGO FRASCHINI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "66344",
+   "Nombre": "MARTIN CATTONI",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "14351",
+   "Nombre": "CARLOS ANDRES ROMANO",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "61597",
+   "Nombre": "ENZO RAUL VIERA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "46546",
+   "Nombre": "MARCELO JAVIER CASAVIEJA",
+   "camiseta": "36",
+   "Capitan": ""
+  },
+  {
+   "carne": "51305",
+   "Nombre": "PABLO ANDRES NAVARRETE",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "25364",
+   "Nombre": "LEANDRO APARICIO GALETTA",
+   "camiseta": "48",
+   "Capitan": ""
+  },
+  {
+   "carne": "30077",
+   "Nombre": "PABLO EDGARDO ALVEZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "32307",
+   "Nombre": "RAMIRO VICENTE MOYANO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "17392",
+   "Nombre": "JOSE PEDRO RAMIREZ",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "15132",
+   "Nombre": "ALEJANDRO ALVARO BELLERATI",
+   "camiseta": "99",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "19826",
+   "Nombre": "EMILIO MARTINEZ",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "44887",
+   "Nombre": "MATIAS SOSA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "63687",
+   "Nombre": "NICOLAS OMAR MICHELENA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "63523",
+   "Nombre": "NESTOR ATILIO MONTIEL",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "19855",
+   "Nombre": "ANGEL ENRIQUE PERDOMO",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "16576",
+   "Nombre": "DIEGO ANDRES SOSA",
+   "camiseta": "22",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "24009",
+   "Nombre": "FEDERICO GABRIEL WILKINS",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "14531",
+   "Nombre": "JAVIER GERARDO GARRE",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "25800",
+   "Nombre": "FERNANDO TOSCANO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "27331",
+   "Nombre": "ALEJANDRO FABIAN GADEA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "65126",
+   "Nombre": "GONZALO JOEL ARANDA",
+   "camiseta": "0",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "61597",
+   "Jug_Sale": "ENZO RAUL VIERA",
+   "CarneEntra": "38770",
+   "Jug_Entra": "ANTONIO MANUEL RODRIGUEZ",
+   "camiseta": "40",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "51305",
+   "Jug_Sale": "PABLO ANDRES NAVARRETE",
+   "CarneEntra": "66613",
+   "Jug_Entra": "ALEJANDRO JAVIER POSES",
+   "camiseta": "12",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "15132",
+   "Jug_Sale": "ALEJANDRO ALVARO BELLERATI",
+   "CarneEntra": "60850",
+   "Jug_Entra": "RUBEN GONZALEZ",
+   "camiseta": "43",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "32307",
+   "Jug_Sale": "RAMIRO VICENTE MOYANO",
+   "CarneEntra": "43466",
+   "Jug_Entra": "PABLO ARIEL FALERO",
+   "camiseta": "18",
+   "minutos": "31"
+  },
+  {
+   "CarneSale": "25364",
+   "Jug_Sale": "LEANDRO APARICIO GALETTA",
+   "CarneEntra": "23106",
+   "Jug_Entra": "GASTON ZABALZA",
+   "camiseta": "6",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "66344",
+   "Jug_Sale": "MARTIN CATTONI",
+   "CarneEntra": "15132",
+   "Jug_Entra": "ALEJANDRO ALVARO BELLERATI",
+   "camiseta": "99",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "15132",
+   "Jug_Sale": "ALEJANDRO ALVARO BELLERATI",
+   "CarneEntra": "50827",
+   "Jug_Entra": "PABLO ALFREDO FUENTES",
+   "camiseta": "30",
+   "minutos": "70"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "24009",
+   "Jug_Sale": "FEDERICO GABRIEL WILKINS",
+   "CarneEntra": "16572",
+   "Jug_Entra": "LEONARDO DIOSIL SANCHEZ",
+   "camiseta": "9",
+   "minutos": "37"
+  },
+  {
+   "CarneSale": "27331",
+   "Jug_Sale": "ALEJANDRO FABIAN GADEA",
+   "CarneEntra": "67721",
+   "Jug_Entra": "SERGIO GABRIEL TARALLO",
+   "camiseta": "3",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "65126",
+   "Jug_Sale": "GONZALO JOEL ARANDA",
+   "CarneEntra": "23102",
+   "Jug_Entra": "MARCELO SOSA",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "25800",
+   "Jug_Sale": "FERNANDO TOSCANO",
+   "CarneEntra": "66437",
+   "Jug_Entra": "CHRISTIAN MAURICIO PORRAS",
+   "camiseta": "88",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "63523",
+   "Jug_Sale": "NESTOR ATILIO MONTIEL",
+   "CarneEntra": "19472",
+   "Jug_Entra": "RODOLFO GASTON GRAÑA",
+   "camiseta": "21",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "14531",
+   "Jug_Sale": "JAVIER GERARDO GARRE",
+   "CarneEntra": "25800",
+   "Jug_Entra": "FERNANDO TOSCANO",
+   "camiseta": "17",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "23102",
+   "Jug_Sale": "MARCELO SOSA",
+   "CarneEntra": "67718",
+   "Jug_Entra": "WASHINGTON JAVIER DUARTE",
+   "camiseta": "27",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "44887",
+   "Jug_Sale": "MATIAS SOSA",
+   "CarneEntra": "63523",
+   "Jug_Entra": "NESTOR ATILIO MONTIEL",
+   "camiseta": "11",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "19855",
+   "Jug_Sale": "ANGEL ENRIQUE PERDOMO",
+   "CarneEntra": "44887",
+   "Jug_Entra": "MATIAS SOSA",
+   "camiseta": "19",
+   "minutos": "81"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "15132",
+   "Nombre": "ALEJANDRO ALVARO BELLERATI",
+   "minutos": "75",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "16572",
+   "Nombre": "LEONARDO DIOSIL SANCHEZ",
+   "minutos": "90",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

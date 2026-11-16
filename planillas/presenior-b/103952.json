@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"B\" TIT. y ASC",
   "Cancha": "COLEGIO PIO",
-  "Fecha_Inicio": "2026-11-14 10:30:00",
-  "Fecha_fin": "2026-11-14 10:30:00",
+  "Fecha_Inicio": "2026-11-14 11:00:00",
+  "Fecha_fin": "2026-11-14 11:00:00",
   "Locatario": "CENTRO CRISTOBAL COLON",
   "goles_locatario": "5",
   "puntos_locatario": "3",
@@ -29,11 +29,251 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
+ "titularesL": [
+  {
+   "carne": "29107",
+   "Nombre": "FABRIZIO DANIEL BORSANI",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "35668",
+   "Nombre": "MATTIAS JOAN ALVEZ",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "45399",
+   "Nombre": "MATIAS DANIEL AGUIRREZABAL",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "24898",
+   "Nombre": "MATIAS SENTANARO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "31583",
+   "Nombre": "ADRIAN MAYOR",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "40038",
+   "Nombre": "EMILIANO DARIO WUNSCH",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "31424",
+   "Nombre": "DIEGO ALBERTO LOPEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "25465",
+   "Nombre": "MARCELO MAYOR",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "28194",
+   "Nombre": "CHRISTIAN GABRIEL QUINTERO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "36351",
+   "Nombre": "DANIEL ALEJANDRO TUCUNA",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "28196",
+   "Nombre": "WALTER GUILLERMO RIVERO",
+   "camiseta": "7",
+   "Capitan": "(C)"
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "23048",
+   "Nombre": "GONZALO ANDRES MAQUIEIRA",
+   "camiseta": "1",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "28624",
+   "Nombre": "MARTIN GUERRA",
+   "camiseta": "43",
+   "Capitan": ""
+  },
+  {
+   "carne": "34591",
+   "Nombre": "GUILLERMO PINO",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "29781",
+   "Nombre": "EMANUEL BURGUEZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "48397",
+   "Nombre": "CLAUDIO JUAREZ",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "31631",
+   "Nombre": "GUILLERMO LUIS PASTORINI",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "25883",
+   "Nombre": "SEBASTIAN GUSTAVO JANSSEN",
+   "camiseta": "39",
+   "Capitan": ""
+  },
+  {
+   "carne": "29948",
+   "Nombre": "ENRRICO ROSSI",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "27517",
+   "Nombre": "GONZALO BORGES",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "30103",
+   "Nombre": "JUAN PEDRO CABRERA",
+   "camiseta": "26",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "31583",
+   "Jug_Sale": "ADRIAN MAYOR",
+   "CarneEntra": "68895",
+   "Jug_Entra": "DIEGO FERNANDO QUINTERO",
+   "camiseta": "4",
+   "minutos": "27"
+  },
+  {
+   "CarneSale": "35668",
+   "Jug_Sale": "MATTIAS JOAN ALVEZ",
+   "CarneEntra": "27306",
+   "Jug_Entra": "FABRICIO GASTON BONILLA",
+   "camiseta": "17",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "31424",
+   "Jug_Sale": "DIEGO ALBERTO LOPEZ",
+   "CarneEntra": "30355",
+   "Jug_Entra": "SEBASTIAN SANTOS",
+   "camiseta": "28",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "36351",
+   "Jug_Sale": "DANIEL ALEJANDRO TUCUNA",
+   "CarneEntra": "59789",
+   "Jug_Entra": "DANIEL LUZ",
+   "camiseta": "70",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "28196",
+   "Jug_Sale": "WALTER GUILLERMO RIVERO",
+   "CarneEntra": "30822",
+   "Jug_Entra": "MAXIMILIANO GABRIEL CODEVILA",
+   "camiseta": "92",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "28194",
+   "Jug_Sale": "CHRISTIAN GABRIEL QUINTERO",
+   "CarneEntra": "44678",
+   "Jug_Entra": "MATIAS ENRIQUE CHAVES",
+   "camiseta": "20",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "25465",
+   "Jug_Sale": "MARCELO MAYOR",
+   "CarneEntra": "30910",
+   "Jug_Entra": "LEANDRO MARCELO KENES",
+   "camiseta": "23",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "24898",
+   "Jug_Sale": "MATIAS SENTANARO",
+   "CarneEntra": "42715",
+   "Jug_Entra": "MARCOS JUNIORS MARTINEZ",
+   "camiseta": "2",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "40038",
+   "Jug_Sale": "EMILIANO DARIO WUNSCH",
+   "CarneEntra": "34452",
+   "Jug_Entra": "BRUNO SANTIAGO MARITATO",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "45399",
+   "Jug_Sale": "MATIAS DANIEL AGUIRREZABAL",
+   "CarneEntra": "41674",
+   "Jug_Entra": "GERMAN ARAUJO",
+   "camiseta": "13",
+   "minutos": "69"
+  }
+ ],
  "cambiosV": [],
- "golesL": [],
+ "golesL": [
+  {
+   "carne": "25465",
+   "Nombre": "MARCELO MAYOR",
+   "minutos": "22",
+   "EnContra": "0"
+  },
+  {
+   "carne": "28196",
+   "Nombre": "WALTER GUILLERMO RIVERO",
+   "minutos": "13",
+   "EnContra": "0"
+  },
+  {
+   "carne": "36351",
+   "Nombre": "DANIEL ALEJANDRO TUCUNA",
+   "minutos": "16",
+   "EnContra": "0"
+  },
+  {
+   "carne": "36351",
+   "Nombre": "DANIEL ALEJANDRO TUCUNA",
+   "minutos": "20",
+   "EnContra": "0"
+  },
+  {
+   "carne": "59789",
+   "Nombre": "DANIEL LUZ",
+   "minutos": "67",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

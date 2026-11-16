@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAS40 \"A\" PERM. y DESC.",
   "Cancha": "COMPLEJO URUNDAY UNIVERSITARIO",
-  "Fecha_Inicio": "2026-11-14 12:45:00",
-  "Fecha_fin": "2026-11-14 12:45:00",
+  "Fecha_Inicio": "2026-11-14 13:15:00",
+  "Fecha_fin": "2026-11-14 13:15:00",
   "Locatario": "URUNDAY UNIVERSITARIO",
   "goles_locatario": "5",
   "puntos_locatario": "1",
@@ -29,12 +29,282 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "20902",
+   "Nombre": "WALTER JAVIER PEREZ",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "18675",
+   "Nombre": "GERMAN AGUSTIN PEREZ",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "15707",
+   "Nombre": "GABRIEL MARTIN DIAZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "25856",
+   "Nombre": "FEDERICO AGUSTIN GARCIA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "23626",
+   "Nombre": "ANDRES GRIMALDI",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "22237",
+   "Nombre": "WALTER WILLIAMS BRADFORD",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "19340",
+   "Nombre": "PAULO MARTIN DI CANDIA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "13585",
+   "Nombre": "DANIEL ALEJANDRO MARTIN",
+   "camiseta": "51",
+   "Capitan": ""
+  },
+  {
+   "carne": "30421",
+   "Nombre": "JAVIER FEDERICO RODRIGUEZ",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "50552",
+   "Nombre": "ORIBE SEBASTIAN RIOS",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "21150",
+   "Nombre": "MARTIN SEBASTIAN SANCHEZ",
+   "camiseta": "37",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "14032",
+   "Nombre": "MARIANO MALLO",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "42446",
+   "Nombre": "ALEJANDRO PERETTI",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "23788",
+   "Nombre": "NICOLAS JAVIER MORO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "19424",
+   "Nombre": "RODRIGO NICOLAS SOTELO",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "17650",
+   "Nombre": "NICOLAS GERMAN FERNANDEZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "13973",
+   "Nombre": "MARTIN FUENTES",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "17068",
+   "Nombre": "RAFAEL FEDERICO MORATO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "15973",
+   "Nombre": "JUAN AGUSTIN ORTIZ",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "14666",
+   "Nombre": "CARLOS EDUARDO RAINERI",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "18210",
+   "Nombre": "DIEGO RIVAS",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "18909",
+   "Nombre": "HECTOR DANIEL EROSA",
+   "camiseta": "24",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "30421",
+   "Jug_Sale": "JAVIER FEDERICO RODRIGUEZ",
+   "CarneEntra": "28573",
+   "Jug_Entra": "JOSE FEDERICO ARAUJO",
+   "camiseta": "45",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "18675",
+   "Jug_Sale": "GERMAN AGUSTIN PEREZ",
+   "CarneEntra": "21795",
+   "Jug_Entra": "MAXIMILIANO PEREZ",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "15707",
+   "Jug_Sale": "GABRIEL MARTIN DIAZ",
+   "CarneEntra": "54136",
+   "Jug_Entra": "GASTON FERREYRA",
+   "camiseta": "24",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "50552",
+   "Jug_Sale": "ORIBE SEBASTIAN RIOS",
+   "CarneEntra": "22309",
+   "Jug_Entra": "MARTIN GOYEN",
+   "camiseta": "14",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "25856",
+   "Jug_Sale": "FEDERICO AGUSTIN GARCIA",
+   "CarneEntra": "30421",
+   "Jug_Entra": "JAVIER FEDERICO RODRIGUEZ",
+   "camiseta": "21",
+   "minutos": "85"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "19424",
+   "Jug_Sale": "RODRIGO NICOLAS SOTELO",
+   "CarneEntra": "18210",
+   "Jug_Entra": "DIEGO RIVAS",
+   "camiseta": "23",
+   "minutos": "59"
+  },
+  {
+   "CarneSale": "17650",
+   "Jug_Sale": "NICOLAS GERMAN FERNANDEZ",
+   "CarneEntra": "15973",
+   "Jug_Entra": "JUAN AGUSTIN ORTIZ",
+   "camiseta": "26",
+   "minutos": "59"
+  },
+  {
+   "CarneSale": "18210",
+   "Jug_Sale": "DIEGO RIVAS",
+   "CarneEntra": "35842",
+   "Jug_Entra": "STEPHEN MCCARTHY",
+   "camiseta": "15",
+   "minutos": "97"
+  },
+  {
+   "CarneSale": "15973",
+   "Jug_Sale": "JUAN AGUSTIN ORTIZ",
+   "CarneEntra": "25980",
+   "Jug_Entra": "JUAN MARCELO SUAREZ",
+   "camiseta": "99",
+   "minutos": "45"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "22237",
+   "Nombre": "WALTER WILLIAMS BRADFORD",
+   "minutos": "29",
+   "EnContra": "0"
+  },
+  {
+   "carne": "25856",
+   "Nombre": "FEDERICO AGUSTIN GARCIA",
+   "minutos": "48",
+   "EnContra": "0"
+  },
+  {
+   "carne": "25856",
+   "Nombre": "FEDERICO AGUSTIN GARCIA",
+   "minutos": "51",
+   "EnContra": "0"
+  },
+  {
+   "carne": "25856",
+   "Nombre": "FEDERICO AGUSTIN GARCIA",
+   "minutos": "85",
+   "EnContra": "0"
+  },
+  {
+   "carne": "28573",
+   "Nombre": "JOSE FEDERICO ARAUJO",
+   "minutos": "66",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "15973",
+   "Nombre": "JUAN AGUSTIN ORTIZ",
+   "minutos": "13",
+   "EnContra": "1"
+  },
+  {
+   "carne": "18210",
+   "Nombre": "DIEGO RIVAS",
+   "minutos": "7",
+   "EnContra": "1"
+  },
+  {
+   "carne": "18909",
+   "Nombre": "HECTOR DANIEL EROSA",
+   "minutos": "45",
+   "EnContra": "1"
+  },
+  {
+   "carne": "18909",
+   "Nombre": "HECTOR DANIEL EROSA",
+   "minutos": "75",
+   "EnContra": "1"
+  },
+  {
+   "carne": "18909",
+   "Nombre": "HECTOR DANIEL EROSA",
+   "minutos": "90",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

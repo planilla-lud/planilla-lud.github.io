@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"C\" PER. y DESC",
   "Cancha": "COMPLEJO LAS CASUARINAS",
-  "Fecha_Inicio": "2026-11-14 10:30:00",
-  "Fecha_fin": "2026-11-14 10:30:00",
+  "Fecha_Inicio": "2026-11-14 11:00:00",
+  "Fecha_fin": "2026-11-14 11:00:00",
   "Locatario": "FLORES UNIVERSITARIO",
   "goles_locatario": "2",
   "puntos_locatario": "1",
@@ -29,12 +29,254 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "51777",
+   "Nombre": "FEDERICO BLANCO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "17156",
+   "Nombre": "ERNESTO GABRIEL FERREIRA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "36178",
+   "Nombre": "RODRIGO FAGUNDEZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "42447",
+   "Nombre": "SEBASTIAN ISMAEL DA COSTA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "40343",
+   "Nombre": "DIEGO CEA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "45436",
+   "Nombre": "RAMIRO GABRIEL SOCA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "37074",
+   "Nombre": "BRUNO SANTIAGO ARBIA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "31555",
+   "Nombre": "FRANCISCO MANUEL IADE",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "22126",
+   "Nombre": "ALDO MARTIN LAZAR",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "29488",
+   "Nombre": "JUAN IGNACIO VIERA",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "40342",
+   "Nombre": "BRAIAN JAVIER CABRERA",
+   "camiseta": "12",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "10253",
+   "Nombre": "ANDRES MAURICIO ALVES",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "48986",
+   "Nombre": "GUILLERMO GERARDO MELGAREJO",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "35454",
+   "Nombre": "GUILLERMO MATTOS",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "40466",
+   "Nombre": "CARLOS ANDRES FERNANDEZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "29550",
+   "Nombre": "PABLO SERGIO FERREIRA",
+   "camiseta": "20",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "19451",
+   "Nombre": "DIEGO MARTIN GIGENA",
+   "camiseta": "66",
+   "Capitan": ""
+  },
+  {
+   "carne": "53082",
+   "Nombre": "MARIO GONZALEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "41010",
+   "Nombre": "DAMIAN PEREZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "47052",
+   "Nombre": "MANUEL SAVIOZ",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "64424",
+   "Nombre": "LEONARDO GABRIEL MACIAS",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "42751",
+   "Nombre": "MATIAS QUIROGA",
+   "camiseta": "0",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "40343",
+   "Jug_Sale": "DIEGO CEA",
+   "CarneEntra": "44671",
+   "Jug_Entra": "MANUEL SANCHEZ",
+   "camiseta": "14",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "22126",
+   "Jug_Sale": "ALDO MARTIN LAZAR",
+   "CarneEntra": "29591",
+   "Jug_Entra": "MAXIMILIANO RUSSO",
+   "camiseta": "17",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "37074",
+   "Jug_Sale": "BRUNO SANTIAGO ARBIA",
+   "CarneEntra": "41475",
+   "Jug_Entra": "DANIEL TORRES",
+   "camiseta": "16",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "40342",
+   "Jug_Sale": "BRAIAN JAVIER CABRERA",
+   "CarneEntra": "34246",
+   "Jug_Entra": "JUAN RODRIGO IBAÑEZ",
+   "camiseta": "3",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "31555",
+   "Jug_Sale": "FRANCISCO MANUEL IADE",
+   "CarneEntra": "46292",
+   "Jug_Entra": "DIEGO ISMAEL FERREIRA",
+   "camiseta": "8",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "29488",
+   "Jug_Sale": "JUAN IGNACIO VIERA",
+   "CarneEntra": "40342",
+   "Jug_Entra": "BRAIAN JAVIER CABRERA",
+   "camiseta": "12",
+   "minutos": "72"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "42751",
+   "Jug_Sale": "MATIAS QUIROGA",
+   "CarneEntra": "58564",
+   "Jug_Entra": "MAURO ARTURO GANDIN",
+   "camiseta": "99",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "64424",
+   "Jug_Sale": "LEONARDO GABRIEL MACIAS",
+   "CarneEntra": "68726",
+   "Jug_Entra": "ERNESTO FIDEL SARLI",
+   "camiseta": "22",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "47052",
+   "Jug_Sale": "MANUEL SAVIOZ",
+   "CarneEntra": "36406",
+   "Jug_Entra": "MATHIAS FEDERICO GONZALEZ",
+   "camiseta": "2",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "48986",
+   "Jug_Sale": "GUILLERMO GERARDO MELGAREJO",
+   "CarneEntra": "50997",
+   "Jug_Entra": "MARTIN FERREIRA",
+   "camiseta": "14",
+   "minutos": "45"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "17156",
+   "Nombre": "ERNESTO GABRIEL FERREIRA",
+   "minutos": "20",
+   "EnContra": "0"
+  },
+  {
+   "carne": "29488",
+   "Nombre": "JUAN IGNACIO VIERA",
+   "minutos": "59",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "50997",
+   "Nombre": "MARTIN FERREIRA",
+   "minutos": "90",
+   "EnContra": "1"
+  },
+  {
+   "carne": "58564",
+   "Nombre": "MAURO ARTURO GANDIN",
+   "minutos": "69",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

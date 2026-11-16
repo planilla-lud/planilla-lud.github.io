@@ -4,7 +4,7 @@
  "serie": "PSAPD",
  "fecha": 7,
  "fechaHora": "2026-11-14 09:00:00",
- "cancha": "COMPLEJO LOS CARDALES",
+ "cancha": "CAM. DEP. ASOC. HEBRAICA Y MAC",
  "local": "UNIVERSITARIO VERONES",
  "visitante": "OLD IVY",
  "gl": 5,
@@ -17,9 +17,9 @@
   "categoria": "PRE-SENIOR MASCULINO",
   "rueda": "2",
   "Divisional": "PRESENIOR \"A\" PER. y DESC",
-  "Cancha": "COMPLEJO LOS CARDALES",
-  "Fecha_Inicio": "2026-11-14 10:30:00",
-  "Fecha_fin": "2026-11-14 10:30:00",
+  "Cancha": "CAM. DEP. ASOC. HEBRAICA Y MAC",
+  "Fecha_Inicio": "2026-11-14 10:50:00",
+  "Fecha_fin": "2026-11-14 10:50:00",
   "Locatario": "UNIVERSITARIO VERONES",
   "goles_locatario": "5",
   "puntos_locatario": "3",
@@ -29,12 +29,256 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "16642",
+   "Nombre": "SEBASTIAN COUTO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "49719",
+   "Nombre": "SERGIO ADRIAN ABALO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "35044",
+   "Nombre": "EDISON ANDRES DOMINGUEZ",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "42931",
+   "Nombre": "BRUNO POSE",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "38946",
+   "Nombre": "SANTIAGO ANTONELLI",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "19034",
+   "Nombre": "MATIAS SURRA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "57256",
+   "Nombre": "JUIO FABIAN GONZALEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "24949",
+   "Nombre": "MARTIN MARIO MERA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "57706",
+   "Nombre": "EMILIANO ALBIN",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "32130",
+   "Nombre": "JUAN MANUEL TARALLO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "29845",
+   "Nombre": "HORACIO DAMIAN CASANOVA",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "14065",
+   "Nombre": "LEANDRO GUMERSINDO AGUIRRE",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "28649",
+   "Nombre": "AGUSTIN LECUEDER",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "22430",
+   "Nombre": "RODRIGO DANIEL PUJOL",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "21861",
+   "Nombre": "MARTIN CARRASCO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "20308",
+   "Nombre": "BRUNO CROSTA",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "23218",
+   "Nombre": "CARLOS ANDRES BOSCH",
+   "camiseta": "83",
+   "Capitan": ""
+  },
+  {
+   "carne": "27079",
+   "Nombre": "JUAN MATEO BAGNULO",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "27937",
+   "Nombre": "PATRICIO FERNANDEZ",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "27612",
+   "Nombre": "JUAN CARLOS GOMEZ",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "26543",
+   "Nombre": "JORGE EMILIANO ADDA",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "20292",
+   "Nombre": "FRANCISCO FORNELLA",
+   "camiseta": "88",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "57706",
+   "Jug_Sale": "EMILIANO ALBIN",
+   "CarneEntra": "35143",
+   "Jug_Entra": "DAVIS STEVEN SANCHEZ",
+   "camiseta": "8",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "35044",
+   "Jug_Sale": "EDISON ANDRES DOMINGUEZ",
+   "CarneEntra": "35247",
+   "Jug_Entra": "MARTIN MATHYAS MOREIRA",
+   "camiseta": "19",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "38946",
+   "Jug_Sale": "SANTIAGO ANTONELLI",
+   "CarneEntra": "31643",
+   "Jug_Entra": "SANTIAGO NICOLAS PEREIRA",
+   "camiseta": "23",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "35143",
+   "Jug_Sale": "DAVIS STEVEN SANCHEZ",
+   "CarneEntra": "35044",
+   "Jug_Entra": "EDISON ANDRES DOMINGUEZ",
+   "camiseta": "28",
+   "minutos": "57"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "26543",
+   "Jug_Sale": "JORGE EMILIANO ADDA",
+   "CarneEntra": "20294",
+   "Jug_Entra": "SANTIAGO RIANI",
+   "camiseta": "6",
+   "minutos": "22"
+  },
+  {
+   "CarneSale": "20292",
+   "Jug_Sale": "FRANCISCO FORNELLA",
+   "CarneEntra": "23949",
+   "Jug_Entra": "SANTIAGO MUXI",
+   "camiseta": "20",
+   "minutos": "38"
+  },
+  {
+   "CarneSale": "23218",
+   "Jug_Sale": "CARLOS ANDRES BOSCH",
+   "CarneEntra": "35860",
+   "Jug_Entra": "IGNACIO GORTARI",
+   "camiseta": "30",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "27937",
+   "Jug_Sale": "PATRICIO FERNANDEZ",
+   "CarneEntra": "25290",
+   "Jug_Entra": "ALEJANDRO LECUEDER",
+   "camiseta": "8",
+   "minutos": "45"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "29845",
+   "Nombre": "HORACIO DAMIAN CASANOVA",
+   "minutos": "3",
+   "EnContra": "0"
+  },
+  {
+   "carne": "29845",
+   "Nombre": "HORACIO DAMIAN CASANOVA",
+   "minutos": "7",
+   "EnContra": "0"
+  },
+  {
+   "carne": "32130",
+   "Nombre": "JUAN MANUEL TARALLO",
+   "minutos": "5",
+   "EnContra": "0"
+  },
+  {
+   "carne": "32130",
+   "Nombre": "JUAN MANUEL TARALLO",
+   "minutos": "20",
+   "EnContra": "0"
+  },
+  {
+   "carne": "32130",
+   "Nombre": "JUAN MANUEL TARALLO",
+   "minutos": "32",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "27612",
+   "Nombre": "JUAN CARLOS GOMEZ",
+   "minutos": "83",
+   "EnContra": "1"
+  },
+  {
+   "carne": "28649",
+   "Nombre": "AGUSTIN LECUEDER",
+   "minutos": "77",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

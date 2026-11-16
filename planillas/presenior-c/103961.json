@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"C\" TIT. y ASC.",
   "Cancha": "MONTE VI \"LOS CEIBOS\"",
-  "Fecha_Inicio": "2026-11-14 10:30:00",
-  "Fecha_fin": "2026-11-14 10:30:00",
+  "Fecha_Inicio": "2026-11-14 11:00:00",
+  "Fecha_fin": "2026-11-14 11:00:00",
   "Locatario": "CEIBOS CLUB",
   "goles_locatario": "3",
   "puntos_locatario": "3",
@@ -29,11 +29,246 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "32002",
+   "Nombre": "GIOVANNI PAOLO VIGNOTTI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "32081",
+   "Nombre": "GONZALO TRAPP",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "32341",
+   "Nombre": "AGUSTIN ALVARO VIDAL",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "22441",
+   "Nombre": "SANTIAGO JORGE KIRIAKIDIS",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "30061",
+   "Nombre": "FEDERICO ILDEFONSO GARCIA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "21512",
+   "Nombre": "JUAN MARTIN DIAZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "36768",
+   "Nombre": "FACUNDO SILVEIRA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "18098",
+   "Nombre": "CARLOS JAVIER MORALES",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "44947",
+   "Nombre": "JUAN IGNACIO BAYCE",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "20367",
+   "Nombre": "NICOLAS ORDOQUI",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "21279",
+   "Nombre": "GONZALO FEDERICO MULLIN",
+   "camiseta": "5",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "26931",
+   "Nombre": "FEDERICO ROVELLA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "24512",
+   "Nombre": "ALVARO MARCELO BONILLA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "27948",
+   "Nombre": "FEDERICO BRUN",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "33095",
+   "Nombre": "MAURICIO BINNEWIES",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "50425",
+   "Nombre": "DIEGO FACUNDO ETCHEVERRY",
+   "camiseta": "43",
+   "Capitan": ""
+  },
+  {
+   "carne": "29760",
+   "Nombre": "SANTIAGO QUEIROLO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "28130",
+   "Nombre": "JUAN MARTIN FIGUEREDO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "27940",
+   "Nombre": "JOAQUIN GARAYALDE",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "30391",
+   "Nombre": "JUAN MIGUEL JAUME",
+   "camiseta": "41",
+   "Capitan": ""
+  },
+  {
+   "carne": "59525",
+   "Nombre": "MARTIN IGNACIO MARIUS",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "24545",
+   "Nombre": "GUZMAN NION",
+   "camiseta": "30",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "21512",
+   "Jug_Sale": "JUAN MARTIN DIAZ",
+   "CarneEntra": "20250",
+   "Jug_Entra": "ALEJANDRO MARIA GONZALEZ",
+   "camiseta": "10",
+   "minutos": "30"
+  },
+  {
+   "CarneSale": "44947",
+   "Jug_Sale": "JUAN IGNACIO BAYCE",
+   "CarneEntra": "30514",
+   "Jug_Entra": "FRANCISCO JOSE DIAZ",
+   "camiseta": "20",
+   "minutos": "32"
+  },
+  {
+   "CarneSale": "21279",
+   "Jug_Sale": "GONZALO FEDERICO MULLIN",
+   "CarneEntra": "24948",
+   "Jug_Entra": "FRANCISCO CARRIQUIRY",
+   "camiseta": "14",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "30061",
+   "Jug_Sale": "FEDERICO ILDEFONSO GARCIA",
+   "CarneEntra": "21093",
+   "Jug_Entra": "PABLO RAFAEL VERDE",
+   "camiseta": "16",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "32081",
+   "Jug_Sale": "GONZALO TRAPP",
+   "CarneEntra": "24859",
+   "Jug_Entra": "FERNANDO DAMIANI",
+   "camiseta": "20",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "22441",
+   "Jug_Sale": "SANTIAGO JORGE KIRIAKIDIS",
+   "CarneEntra": "18991",
+   "Jug_Entra": "VARTAN AGHASI SANTURIAN",
+   "camiseta": "3",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "32341",
+   "Jug_Sale": "AGUSTIN ALVARO VIDAL",
+   "CarneEntra": "28104",
+   "Jug_Entra": "GUZMAN FEDERICO DE CASTRO",
+   "camiseta": "51",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "18098",
+   "Jug_Sale": "CARLOS JAVIER MORALES",
+   "CarneEntra": "24858",
+   "Jug_Entra": "JUAN IGNACIO KIRIAKIDIS",
+   "camiseta": "11",
+   "minutos": "81"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "24512",
+   "Jug_Sale": "ALVARO MARCELO BONILLA",
+   "CarneEntra": "29666",
+   "Jug_Entra": "CARLOS AUGUSTO RYDSTROM",
+   "camiseta": "3",
+   "minutos": "40"
+  },
+  {
+   "CarneSale": "30391",
+   "Jug_Sale": "JUAN MIGUEL JAUME",
+   "CarneEntra": "10995",
+   "Jug_Entra": "CARLOS ANDRES GUGELMEIER",
+   "camiseta": "5",
+   "minutos": "81"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "18098",
+   "Nombre": "CARLOS JAVIER MORALES",
+   "minutos": "40",
+   "EnContra": "0"
+  },
+  {
+   "carne": "18098",
+   "Nombre": "CARLOS JAVIER MORALES",
+   "minutos": "45",
+   "EnContra": "0"
+  },
+  {
+   "carne": "22441",
+   "Nombre": "SANTIAGO JORGE KIRIAKIDIS",
+   "minutos": "38",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

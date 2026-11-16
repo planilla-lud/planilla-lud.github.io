@@ -3,7 +3,7 @@
  "categoria": "presenior-d",
  "serie": "PSDTA",
  "fecha": 7,
- "fechaHora": "2026-11-14 11:15:00",
+ "fechaHora": "2026-11-14 11:30:00",
  "cancha": "COMPLEJO LOS ROJOS",
  "local": "LATINO FUTBOL CLUB",
  "visitante": "DANUBIO FUTBOL CLUB",
@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"D\" TIT. y ASC.",
   "Cancha": "COMPLEJO LOS ROJOS",
-  "Fecha_Inicio": "2026-11-14 12:45:00",
-  "Fecha_fin": "2026-11-14 12:45:00",
+  "Fecha_Inicio": "2026-11-14 13:20:00",
+  "Fecha_fin": "2026-11-14 13:20:00",
   "Locatario": "LATINO FUTBOL CLUB",
   "goles_locatario": "3",
   "puntos_locatario": "3",
@@ -29,11 +29,302 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "39628",
+   "Nombre": "FERNANDO DE POI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "37036",
+   "Nombre": "IGNACIO GONZALO PAOLILLO",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "37016",
+   "Nombre": "JUAN ANDRES CASTRO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "37033",
+   "Nombre": "VICENTE GONZALEZ-ARNAO",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "47757",
+   "Nombre": "JUAN ANDRES NOGUES",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "33691",
+   "Nombre": "GONZALO SUCAZES",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "30155",
+   "Nombre": "MANUEL FELIPE BOERO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "34914",
+   "Nombre": "SANTIAGO FERNANDEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "64349",
+   "Nombre": "MICHAEL RAJ",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "31035",
+   "Nombre": "GIANFRANCO AMADO POSE",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "51694",
+   "Nombre": "JUAN PABLO LEYTON",
+   "camiseta": "9",
+   "Capitan": "(C)"
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "46295",
+   "Nombre": "MARTIN VARELA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "30402",
+   "Nombre": "GONZALO MARTIN PERALTA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "39622",
+   "Nombre": "ISMAEL NAPOLI",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "42691",
+   "Nombre": "MAXIMILIANO MUNDIN",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "30387",
+   "Nombre": "AGUSTIN NICOLAS GUARCH",
+   "camiseta": "36",
+   "Capitan": ""
+  },
+  {
+   "carne": "39618",
+   "Nombre": "AGUSTIN COSTA",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "36172",
+   "Nombre": "BRUNO SERRA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "37149",
+   "Nombre": "GERMAN REY",
+   "camiseta": "9",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "50518",
+   "Nombre": "LUCIANO MONTERO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "36714",
+   "Nombre": "GONZALO MARTIN FERNANDEZ",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "64423",
+   "Nombre": "PABLO SEBASTIAN COLOMBO",
+   "camiseta": "0",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "34914",
+   "Jug_Sale": "SANTIAGO FERNANDEZ",
+   "CarneEntra": "31549",
+   "Jug_Entra": "MICHEL SEBASTIAN MATTOS",
+   "camiseta": "32",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "37033",
+   "Jug_Sale": "VICENTE GONZALEZ-ARNAO",
+   "CarneEntra": "33410",
+   "Jug_Entra": "JOSE ARAUJO",
+   "camiseta": "6",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "37036",
+   "Jug_Sale": "IGNACIO GONZALO PAOLILLO",
+   "CarneEntra": "37034",
+   "Jug_Entra": "LEANDRO GERMAN TARANTO",
+   "camiseta": "31",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "33691",
+   "Jug_Sale": "GONZALO SUCAZES",
+   "CarneEntra": "21819",
+   "Jug_Entra": "IGNACIO RODRIGUEZ",
+   "camiseta": "7",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "30155",
+   "Jug_Sale": "MANUEL FELIPE BOERO",
+   "CarneEntra": "44615",
+   "Jug_Entra": "JOAQUIN FARIÑA",
+   "camiseta": "21",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "31035",
+   "Jug_Sale": "GIANFRANCO AMADO POSE",
+   "CarneEntra": "56453",
+   "Jug_Entra": "DANIEL SEBASTIAN VARELA",
+   "camiseta": "35",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64349",
+   "Jug_Sale": "MICHAEL RAJ",
+   "CarneEntra": "38692",
+   "Jug_Entra": "JUAN ANDRES PESSANO",
+   "camiseta": "13",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "47757",
+   "Jug_Sale": "JUAN ANDRES NOGUES",
+   "CarneEntra": "34916",
+   "Jug_Entra": "MARCOS ALEJO SANCHEZ",
+   "camiseta": "2",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "31549",
+   "Jug_Sale": "MICHEL SEBASTIAN MATTOS",
+   "CarneEntra": "37016",
+   "Jug_Entra": "JUAN ANDRES CASTRO",
+   "camiseta": "3",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "37036",
+   "Jug_Sale": "IGNACIO GONZALO PAOLILLO",
+   "CarneEntra": "16962",
+   "Jug_Entra": "PAOLO PASCUAL VIOLA",
+   "camiseta": "80",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "37016",
+   "Jug_Sale": "JUAN ANDRES CASTRO",
+   "CarneEntra": "37033",
+   "Jug_Entra": "VICENTE GONZALEZ-ARNAO",
+   "camiseta": "29",
+   "minutos": "82"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "30402",
+   "Jug_Sale": "GONZALO MARTIN PERALTA",
+   "CarneEntra": "66383",
+   "Jug_Entra": "EMILIANO JAVIER RODRIGUEZ",
+   "camiseta": "20",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "39622",
+   "Jug_Sale": "ISMAEL NAPOLI",
+   "CarneEntra": "32607",
+   "Jug_Entra": "SANTIAGO DANIEL CARAMELLI",
+   "camiseta": "15",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "36714",
+   "Jug_Sale": "GONZALO MARTIN FERNANDEZ",
+   "CarneEntra": "67893",
+   "Jug_Entra": "FEDERICO JAVIER GONZALEZ",
+   "camiseta": "19",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "30387",
+   "Jug_Sale": "AGUSTIN NICOLAS GUARCH",
+   "CarneEntra": "39622",
+   "Jug_Entra": "ISMAEL NAPOLI",
+   "camiseta": "31",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "36172",
+   "Jug_Sale": "BRUNO SERRA",
+   "CarneEntra": "39618",
+   "Jug_Entra": "AGUSTIN COSTA",
+   "camiseta": "18",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "39622",
+   "Jug_Sale": "ISMAEL NAPOLI",
+   "CarneEntra": "36714",
+   "Jug_Entra": "GONZALO MARTIN FERNANDEZ",
+   "camiseta": "14",
+   "minutos": "77"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "51694",
+   "Nombre": "JUAN PABLO LEYTON",
+   "minutos": "37",
+   "EnContra": "0"
+  },
+  {
+   "carne": "51694",
+   "Nombre": "JUAN PABLO LEYTON",
+   "minutos": "84",
+   "EnContra": "0"
+  },
+  {
+   "carne": "51694",
+   "Nombre": "JUAN PABLO LEYTON",
+   "minutos": "89",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

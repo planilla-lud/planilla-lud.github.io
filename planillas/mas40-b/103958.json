@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAS40 \"B\" TIT. y ASC.",
   "Cancha": "TENIS EL PINAR",
-  "Fecha_Inicio": "2026-11-14 10:30:00",
-  "Fecha_fin": "2026-11-14 10:30:00",
+  "Fecha_Inicio": "2026-11-14 11:00:00",
+  "Fecha_fin": "2026-11-14 11:00:00",
   "Locatario": "TENIS EL PINAR",
   "goles_locatario": "1",
   "puntos_locatario": "3",
@@ -29,11 +29,226 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "68999",
+   "Nombre": "JUAN EMILIO MARROCO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "18357",
+   "Nombre": "MANUEL CAUBARRERE",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "16738",
+   "Nombre": "RAMIRO AROCENA",
+   "camiseta": "25",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "15264",
+   "Nombre": "FEDERICO SCHOL",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "17928",
+   "Nombre": "AGUSTIN MAGNONE",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "18393",
+   "Nombre": "GERARDO GABRIEL MONZON",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "19569",
+   "Nombre": "CARLOS ANDRES URIARTE",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "19332",
+   "Nombre": "MARTIN ALVAREZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "20891",
+   "Nombre": "AGUSTIN MANUEL CASAROTTI",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "21923",
+   "Nombre": "RAFAEL MONZON",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "16699",
+   "Nombre": "JUAN LUIS CAUBARRERE",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "23421",
+   "Nombre": "WALTER DANIEL BORIO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "21963",
+   "Nombre": "GERMAN ALEJANDRO RARIZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "29675",
+   "Nombre": "MARTIN LOPEZ",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "15676",
+   "Nombre": "PABLO JAVIER REBOLLO",
+   "camiseta": "11",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "59922",
+   "Nombre": "PABLO ANDRES FILIPPINI",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "20066",
+   "Nombre": "DIEGO RAFAEL RIOS",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "67253",
+   "Nombre": "ANDRES SEBASTIAN MANEIRO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "24641",
+   "Nombre": "FERNANDO CARLOS GAMARRA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "16619",
+   "Nombre": "ANDRES DELLEPIANE",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "38910",
+   "Nombre": "ROBERTO MIGUEL VILLAGRA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "20876",
+   "Nombre": "ALEJANDRO BALAZSI",
+   "camiseta": "15",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "15264",
+   "Jug_Sale": "FEDERICO SCHOL",
+   "CarneEntra": "21574",
+   "Jug_Entra": "SEBASTIAN NUÑEZ",
+   "camiseta": "3",
+   "minutos": "14"
+  },
+  {
+   "CarneSale": "16699",
+   "Jug_Sale": "JUAN LUIS CAUBARRERE",
+   "CarneEntra": "22873",
+   "Jug_Entra": "PEDRO MARCO TURTURIELLO",
+   "camiseta": "17",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "19332",
+   "Jug_Sale": "MARTIN ALVAREZ",
+   "CarneEntra": "19295",
+   "Jug_Entra": "JUAN ANDRES REY",
+   "camiseta": "33",
+   "minutos": "48"
+  },
+  {
+   "CarneSale": "21923",
+   "Jug_Sale": "RAFAEL MONZON",
+   "CarneEntra": "14519",
+   "Jug_Entra": "JOSE IGNACIO ROQUETA",
+   "camiseta": "32",
+   "minutos": "89"
+  },
+  {
+   "CarneSale": "18393",
+   "Jug_Sale": "GERARDO GABRIEL MONZON",
+   "CarneEntra": "65494",
+   "Jug_Entra": "ALEJANDRO DOMINGUEZ",
+   "camiseta": "8",
+   "minutos": "46"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "29675",
+   "Jug_Sale": "MARTIN LOPEZ",
+   "CarneEntra": "20916",
+   "Jug_Entra": "MAXIMILIANO ANDRES VIERA",
+   "camiseta": "6",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "20876",
+   "Jug_Sale": "ALEJANDRO BALAZSI",
+   "CarneEntra": "17149",
+   "Jug_Entra": "CARLOS JAVIER SOUZA",
+   "camiseta": "9",
+   "minutos": "54"
+  },
+  {
+   "CarneSale": "20916",
+   "Jug_Sale": "MAXIMILIANO ANDRES VIERA",
+   "CarneEntra": "29675",
+   "Jug_Entra": "MARTIN LOPEZ",
+   "camiseta": "22",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "59922",
+   "Jug_Sale": "PABLO ANDRES FILIPPINI",
+   "CarneEntra": "20876",
+   "Jug_Entra": "ALEJANDRO BALAZSI",
+   "camiseta": "15",
+   "minutos": "80"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "18357",
+   "Nombre": "MANUEL CAUBARRERE",
+   "minutos": "25",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

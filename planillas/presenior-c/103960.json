@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"C\" TIT. y ASC.",
   "Cancha": "COMPLEJO EL ENCUENTRO",
-  "Fecha_Inicio": "2026-11-14 10:30:00",
-  "Fecha_fin": "2026-11-14 10:30:00",
+  "Fecha_Inicio": "2026-11-14 10:55:00",
+  "Fecha_fin": "2026-11-14 10:55:00",
   "Locatario": "ODONTOLOGIA UNIVERSITARIO",
   "goles_locatario": "3",
   "puntos_locatario": "0",
@@ -29,12 +29,281 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "titularesL": [
+  {
+   "carne": "32395",
+   "Nombre": "RODRIGO DELL ACQUA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "56373",
+   "Nombre": "GONZALO RODRIGUEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "64735",
+   "Nombre": "MATIAS GONZALO LOPEZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "21433",
+   "Nombre": "SEBASTIAN VEGAS",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "57076",
+   "Nombre": "FEDERICO RODRIGUEZ",
+   "camiseta": "15",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "54776",
+   "Nombre": "AGUSTIN DIEGO INGOGLIA",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "35517",
+   "Nombre": "GONZALO GASTON CROSI",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "51068",
+   "Nombre": "MATIAS ALEXIS FLORES",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "47097",
+   "Nombre": "ALVARO DAMIAN COLMAN",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "31564",
+   "Nombre": "DIEGO MARTIN GONZALEZ",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "66117",
+   "Nombre": "SANTIAGO SEIJAS",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "26521",
+   "Nombre": "SEBASTIAN DE AZPITARTE",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "39835",
+   "Nombre": "FRANCISCO HELMUT QUINCKE",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "38064",
+   "Nombre": "TEOFILO SCHAICH",
+   "camiseta": "21",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "57860",
+   "Nombre": "ALFRED GOLLER",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "29507",
+   "Nombre": "ANTONIO SOTO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "27399",
+   "Nombre": "JOAQUIN PASQUET",
+   "camiseta": "96",
+   "Capitan": ""
+  },
+  {
+   "carne": "26675",
+   "Nombre": "MATIAS ALONSO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "27961",
+   "Nombre": "JUAN MANUEL SCHAICH",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "27930",
+   "Nombre": "SANTIAGO DE AZPITARTE",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "28020",
+   "Nombre": "JOAQUIN JOSE CURA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "23517",
+   "Nombre": "ALEXANDER REINER KOSSMANN",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "66117",
+   "Jug_Sale": "SANTIAGO SEIJAS",
+   "CarneEntra": "62646",
+   "Jug_Entra": "DARWIN GERARDO D’AMICO",
+   "camiseta": "99",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56373",
+   "Jug_Sale": "GONZALO RODRIGUEZ",
+   "CarneEntra": "26509",
+   "Jug_Entra": "GUILLERMO MARTIN MENDEZ",
+   "camiseta": "14",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "54776",
+   "Jug_Sale": "AGUSTIN DIEGO INGOGLIA",
+   "CarneEntra": "53026",
+   "Jug_Entra": "NICOLAS VERA",
+   "camiseta": "34",
+   "minutos": "74"
+  },
+  {
+   "CarneSale": "62646",
+   "Jug_Sale": "DARWIN GERARDO D’AMICO",
+   "CarneEntra": "68417",
+   "Jug_Entra": "SEBASTIAN GARCIA",
+   "camiseta": "21",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "35517",
+   "Jug_Sale": "GONZALO GASTON CROSI",
+   "CarneEntra": "11270",
+   "Jug_Entra": "DINO GABRIEL CASTELLANOS",
+   "camiseta": "12",
+   "minutos": "83"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "57860",
+   "Jug_Sale": "ALFRED GOLLER",
+   "CarneEntra": "23941",
+   "Jug_Entra": "JUAN MARTIN SISTO",
+   "camiseta": "8",
+   "minutos": "51"
+  },
+  {
+   "CarneSale": "27930",
+   "Jug_Sale": "SANTIAGO DE AZPITARTE",
+   "CarneEntra": "28376",
+   "Jug_Entra": "JUAN MANUEL ROMERO",
+   "camiseta": "17",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "23941",
+   "Jug_Sale": "JUAN MARTIN SISTO",
+   "CarneEntra": "27395",
+   "Jug_Entra": "ERNESTO JULIO TRICOTTI",
+   "camiseta": "14",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "23517",
+   "Jug_Sale": "ALEXANDER REINER KOSSMANN",
+   "CarneEntra": "27930",
+   "Jug_Entra": "SANTIAGO DE AZPITARTE",
+   "camiseta": "13",
+   "minutos": "88"
+  },
+  {
+   "CarneSale": "38064",
+   "Jug_Sale": "TEOFILO SCHAICH",
+   "CarneEntra": "23517",
+   "Jug_Entra": "ALEXANDER REINER KOSSMANN",
+   "camiseta": "21",
+   "minutos": "94"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "31564",
+   "Nombre": "DIEGO MARTIN GONZALEZ",
+   "minutos": "38",
+   "EnContra": "0"
+  },
+  {
+   "carne": "31564",
+   "Nombre": "DIEGO MARTIN GONZALEZ",
+   "minutos": "72",
+   "EnContra": "0"
+  },
+  {
+   "carne": "35517",
+   "Nombre": "GONZALO GASTON CROSI",
+   "minutos": "57",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "23517",
+   "Nombre": "ALEXANDER REINER KOSSMANN",
+   "minutos": "66",
+   "EnContra": "1"
+  },
+  {
+   "carne": "29507",
+   "Nombre": "ANTONIO SOTO",
+   "minutos": "68",
+   "EnContra": "1"
+  },
+  {
+   "carne": "38064",
+   "Nombre": "TEOFILO SCHAICH",
+   "minutos": "2",
+   "EnContra": "1"
+  },
+  {
+   "carne": "38064",
+   "Nombre": "TEOFILO SCHAICH",
+   "minutos": "84",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "SEBASTIAN VEGAS",
+   "observaciones": ""
+  },
+  {
+   "Nombre": "FEDERICO RODRIGUEZ",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

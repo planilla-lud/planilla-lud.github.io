@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "PS DIV. E 2ªR COPA ORO",
   "Cancha": "COMPLEJO DEVOTO",
-  "Fecha_Inicio": "2026-11-14 12:45:00",
-  "Fecha_fin": "2026-11-14 12:45:00",
+  "Fecha_Inicio": "2026-11-14 13:15:00",
+  "Fecha_fin": "2026-11-14 13:15:00",
   "Locatario": "WANDERERS",
   "goles_locatario": "1",
   "puntos_locatario": "0",
@@ -29,12 +29,273 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "titularesL": [
+  {
+   "carne": "40145",
+   "Nombre": "KEVIN SANTIAGO LUZARDO",
+   "camiseta": "45",
+   "Capitan": ""
+  },
+  {
+   "carne": "44958",
+   "Nombre": "FERNANDO GONZALEZ",
+   "camiseta": "41",
+   "Capitan": ""
+  },
+  {
+   "carne": "66785",
+   "Nombre": "RODRIGO ARCE",
+   "camiseta": "37",
+   "Capitan": ""
+  },
+  {
+   "carne": "37182",
+   "Nombre": "SANTIAGO MALLO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "38957",
+   "Nombre": "FEDERICO ANDRES GRANDE",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "41786",
+   "Nombre": "MATHIAS EZEQUIEL BONILLA",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "32667",
+   "Nombre": "AGUSTIN IGNACIO FLIELLER",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "48560",
+   "Nombre": "HERNAN FABRICIO DI MATTIA",
+   "camiseta": "4",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "54723",
+   "Nombre": "MICHAEL ANDRES MARTINEZ",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "35393",
+   "Nombre": "MATIAS NICOLAS SOMMA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "32102",
+   "Nombre": "MAURICIO NICOLAS WURTH",
+   "camiseta": "69",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "42159",
+   "Nombre": "SIGFRIDO VETTORAZZI",
+   "camiseta": "1",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "49909",
+   "Nombre": "PABLO MAYOBRE",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "24199",
+   "Nombre": "CARLOS EDUARDO KEOSSEIAN",
+   "camiseta": "59",
+   "Capitan": ""
+  },
+  {
+   "carne": "62180",
+   "Nombre": "AGUSTIN LAVENTURE",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "33715",
+   "Nombre": "FELIPE CASTRO",
+   "camiseta": "55",
+   "Capitan": ""
+  },
+  {
+   "carne": "30916",
+   "Nombre": "MATIAS LA CAVA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "59650",
+   "Nombre": "DIEGO FERNANDO BENITEZ",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "60806",
+   "Nombre": "RODRIGO DAMIAN KAHRS",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "35129",
+   "Nombre": "PABLO FARIAS",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "28805",
+   "Nombre": "FEDERICO ROSSO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "31219",
+   "Nombre": "MARCIO ADRIAN SERRA",
+   "camiseta": "17",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "44958",
+   "Jug_Sale": "FERNANDO GONZALEZ",
+   "CarneEntra": "44673",
+   "Jug_Entra": "SANTIAGO ISAIAS SOLE",
+   "camiseta": "18",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "32102",
+   "Jug_Sale": "MAURICIO NICOLAS WURTH",
+   "CarneEntra": "46824",
+   "Jug_Entra": "ERNESTO FERNANDEZ",
+   "camiseta": "12",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "37182",
+   "Jug_Sale": "SANTIAGO MALLO",
+   "CarneEntra": "49734",
+   "Jug_Entra": "MAXIMILIANO TEJERA",
+   "camiseta": "35",
+   "minutos": "50"
+  },
+  {
+   "CarneSale": "66785",
+   "Jug_Sale": "RODRIGO ARCE",
+   "CarneEntra": "51999",
+   "Jug_Entra": "DIEGO GODOY",
+   "camiseta": "9",
+   "minutos": "50"
+  },
+  {
+   "CarneSale": "48560",
+   "Jug_Sale": "HERNAN FABRICIO DI MATTIA",
+   "CarneEntra": "40769",
+   "Jug_Entra": "NICOLAS ANDRES PORTERO",
+   "camiseta": "32",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "51999",
+   "Jug_Sale": "DIEGO GODOY",
+   "CarneEntra": "37182",
+   "Jug_Entra": "SANTIAGO MALLO",
+   "camiseta": "10",
+   "minutos": "82"
+  },
+  {
+   "CarneSale": "40769",
+   "Jug_Sale": "NICOLAS ANDRES PORTERO",
+   "CarneEntra": "44958",
+   "Jug_Entra": "FERNANDO GONZALEZ",
+   "camiseta": "41",
+   "minutos": "92"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "35129",
+   "Jug_Sale": "PABLO FARIAS",
+   "CarneEntra": "26194",
+   "Jug_Entra": "ALFONSO ROSSO",
+   "camiseta": "7",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "31219",
+   "Jug_Sale": "MARCIO ADRIAN SERRA",
+   "CarneEntra": "23668",
+   "Jug_Entra": "MAURO ANDRES SERRA",
+   "camiseta": "10",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "59650",
+   "Jug_Sale": "DIEGO FERNANDO BENITEZ",
+   "CarneEntra": "37332",
+   "Jug_Entra": "FEDERICO ISPER",
+   "camiseta": "19",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "60806",
+   "Jug_Sale": "RODRIGO DAMIAN KAHRS",
+   "CarneEntra": "32032",
+   "Jug_Entra": "SANTIAGO BORGIA",
+   "camiseta": "31",
+   "minutos": "82"
+  },
+  {
+   "CarneSale": "28805",
+   "Jug_Sale": "FEDERICO ROSSO",
+   "CarneEntra": "45674",
+   "Jug_Entra": "NAHUEL ENRIQUE RUIZ",
+   "camiseta": "4",
+   "minutos": "96"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "38957",
+   "Nombre": "FEDERICO ANDRES GRANDE",
+   "minutos": "46",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "24199",
+   "Nombre": "CARLOS EDUARDO KEOSSEIAN",
+   "minutos": "70",
+   "EnContra": "1"
+  },
+  {
+   "carne": "28805",
+   "Nombre": "FEDERICO ROSSO",
+   "minutos": "47",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "RODRIGO ARCE",
+   "observaciones": ""
+  },
+  {
+   "Nombre": "MICHAEL ANDRES MARTINEZ",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

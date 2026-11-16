@@ -1,0 +1,304 @@
+{
+ "id": "104020",
+ "categoria": "presenior-b",
+ "serie": "PSBPD",
+ "fecha": 7,
+ "fechaHora": "2026-11-14 09:00:00",
+ "cancha": "()",
+ "local": "CLUB SEMINARIO",
+ "visitante": "ARGOS ",
+ "gl": 1,
+ "gv": 4,
+ "detalle": {
+  "nro_partido": "887",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "PRE SENIOR",
+  "categoria": "PRE-SENIOR MASCULINO",
+  "rueda": "2",
+  "Divisional": "PRESENIOR \"B\" PER. y DESC",
+  "Cancha": "()",
+  "Fecha_Inicio": "2026-11-14 10:45:00",
+  "Fecha_fin": "2026-11-14 10:45:00",
+  "Locatario": "CLUB SEMINARIO",
+  "goles_locatario": "1",
+  "puntos_locatario": "0",
+  "Visitante": "ARGOS ",
+  "goles_visitante": "4",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "67636",
+   "Nombre": "RICARDO GONCALVES",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "16315",
+   "Nombre": "MATIAS FERMIN IRAZABAL",
+   "camiseta": "6",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "31935",
+   "Nombre": "JUAN ANDRES SILVA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "33243",
+   "Nombre": "ALFONSO FREIRIA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "23563",
+   "Nombre": "JOSE LUIS OLIVERA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "29031",
+   "Nombre": "FERNANDO BELOSO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "68244",
+   "Nombre": "JORGE SEBASTIAN CALATAYUD",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "18209",
+   "Nombre": "MARTIN GUILLERMO IRAZOQUI",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "37949",
+   "Nombre": "IGNACIO ROSATI",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "25301",
+   "Nombre": "GERONIMO METHOL",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "62272",
+   "Nombre": "DIEGO NICOLAS LA PAZ",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "14496",
+   "Nombre": "HECTOR MIGUEL MASSA",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "67473",
+   "Nombre": "JUAN FERNANDEZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "38103",
+   "Nombre": "FACUNDO PEREYRA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "47946",
+   "Nombre": "FABRIZIO JAVIER GONZALEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "66159",
+   "Nombre": "JHONY ALEXANDER BARCIA",
+   "camiseta": "90",
+   "Capitan": ""
+  },
+  {
+   "carne": "32868",
+   "Nombre": "GUILLERMO SILVA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "62845",
+   "Nombre": "ANDRES CATALANO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "50530",
+   "Nombre": "SEBASTIAN JARA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "53683",
+   "Nombre": "DIEGO MARTIN ACOSTA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "22222",
+   "Nombre": "RAMIRO FRANCISCO OLMOS",
+   "camiseta": "46",
+   "Capitan": ""
+  },
+  {
+   "carne": "31613",
+   "Nombre": "LUCAS LEONEL BOUISSA",
+   "camiseta": "16",
+   "Capitan": "(C)"
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "31935",
+   "Jug_Sale": "JUAN ANDRES SILVA",
+   "CarneEntra": "18209",
+   "Jug_Entra": "MARTIN GUILLERMO IRAZOQUI",
+   "camiseta": "5",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68244",
+   "Jug_Sale": "JORGE SEBASTIAN CALATAYUD",
+   "CarneEntra": "25030",
+   "Jug_Entra": "JUAN MANUEL ROVELLA",
+   "camiseta": "3",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "23563",
+   "Jug_Sale": "JOSE LUIS OLIVERA",
+   "CarneEntra": "18842",
+   "Jug_Entra": "RODRIGO ALBERTO DURAN",
+   "camiseta": "16",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "18209",
+   "Jug_Sale": "MARTIN GUILLERMO IRAZOQUI",
+   "CarneEntra": "68244",
+   "Jug_Entra": "JORGE SEBASTIAN CALATAYUD",
+   "camiseta": "20",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "29031",
+   "Jug_Sale": "FERNANDO BELOSO",
+   "CarneEntra": "23563",
+   "Jug_Entra": "JOSE LUIS OLIVERA",
+   "camiseta": "4",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "33243",
+   "Jug_Sale": "ALFONSO FREIRIA",
+   "CarneEntra": "29031",
+   "Jug_Entra": "FERNANDO BELOSO",
+   "camiseta": "8",
+   "minutos": "75"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "53683",
+   "Jug_Sale": "DIEGO MARTIN ACOSTA",
+   "CarneEntra": "29325",
+   "Jug_Entra": "DIEGO MARCEL ACEVEDO",
+   "camiseta": "18",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "32868",
+   "Jug_Sale": "GUILLERMO SILVA",
+   "CarneEntra": "38008",
+   "Jug_Entra": "JOSE MAURO RODRIGUEZ",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "50530",
+   "Jug_Sale": "SEBASTIAN JARA",
+   "CarneEntra": "64831",
+   "Jug_Entra": "DARIO MARTIN SANCHEZ",
+   "camiseta": "30",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "47946",
+   "Jug_Sale": "FABRIZIO JAVIER GONZALEZ",
+   "CarneEntra": "32868",
+   "Jug_Entra": "GUILLERMO SILVA",
+   "camiseta": "10",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "67473",
+   "Jug_Sale": "JUAN FERNANDEZ",
+   "CarneEntra": "47946",
+   "Jug_Entra": "FABRIZIO JAVIER GONZALEZ",
+   "camiseta": "8",
+   "minutos": "81"
+  },
+  {
+   "CarneSale": "66159",
+   "Jug_Sale": "JHONY ALEXANDER BARCIA",
+   "CarneEntra": "35424",
+   "Jug_Entra": "MARIO MACHADO",
+   "camiseta": "24",
+   "minutos": "86"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "29031",
+   "Nombre": "FERNANDO BELOSO",
+   "minutos": "48",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "31613",
+   "Nombre": "LUCAS LEONEL BOUISSA",
+   "minutos": "81",
+   "EnContra": "1"
+  },
+  {
+   "carne": "38103",
+   "Nombre": "FACUNDO PEREYRA",
+   "minutos": "34",
+   "EnContra": "1"
+  },
+  {
+   "carne": "64831",
+   "Nombre": "DARIO MARTIN SANCHEZ",
+   "minutos": "84",
+   "EnContra": "1"
+  },
+  {
+   "carne": "66159",
+   "Nombre": "JHONY ALEXANDER BARCIA",
+   "minutos": "5",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

@@ -1,0 +1,285 @@
+{
+ "id": "104033",
+ "categoria": "reserva-a",
+ "serie": "RSAT",
+ "fecha": 7,
+ "fechaHora": "2026-11-14 11:15:00",
+ "cancha": "OLD CHRISTIANS CLUB",
+ "local": "OLD CHRISTIANS AZUL",
+ "visitante": "OLD WOODLANDS CLUB",
+ "gl": 0,
+ "gv": 2,
+ "detalle": {
+  "nro_partido": "638",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "RESERVA",
+  "categoria": "RESERVA MASCULINO",
+  "rueda": "2",
+  "Divisional": "RESERVA \"A\" TITULO",
+  "Cancha": "OLD CHRISTIANS CLUB",
+  "Fecha_Inicio": "2026-11-14 13:20:00",
+  "Fecha_fin": "2026-11-14 13:20:00",
+  "Locatario": "OLD CHRISTIANS AZUL",
+  "goles_locatario": "0",
+  "puntos_locatario": "0",
+  "Visitante": "OLD WOODLANDS CLUB",
+  "goles_visitante": "2",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "55226",
+   "Nombre": "ALFONSO DEL CASTILLO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "54053",
+   "Nombre": "FRANCO BUYSAN",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "53219",
+   "Nombre": "JOAQUIN LARRAECHA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "35068",
+   "Nombre": "MATEO DI LORENZO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "41003",
+   "Nombre": "FEDERICO BARRIOS",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "42263",
+   "Nombre": "JUAN MARTIN ROMANIELLO",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "52355",
+   "Nombre": "SANTIAGO PAZ RODRIGUEZ",
+   "camiseta": "47",
+   "Capitan": ""
+  },
+  {
+   "carne": "37187",
+   "Nombre": "GUILLERMO DEAL",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "39601",
+   "Nombre": "NICOLAS OEHLER",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "51886",
+   "Nombre": "LUCAS ALONSO",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "62462",
+   "Nombre": "JUAN GABRIEL ALVAREZ",
+   "camiseta": "97",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "65071",
+   "Nombre": "MANUEL FELIPE DOMINGUEZ",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "41001",
+   "Nombre": "DIEGO DABEZIES",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "50922",
+   "Nombre": "LUCAS ALEGRE",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "43493",
+   "Nombre": "FEDERICO HAZAN",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "36920",
+   "Nombre": "JUAN IGNACIO REGO",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "33370",
+   "Nombre": "SANTIAGO BZUROVSKI",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "49627",
+   "Nombre": "THEO FRANCO PIZZINI",
+   "camiseta": "41",
+   "Capitan": ""
+  },
+  {
+   "carne": "53615",
+   "Nombre": "THIAGO BENITES",
+   "camiseta": "90",
+   "Capitan": ""
+  },
+  {
+   "carne": "53647",
+   "Nombre": "MATIAS PINTOS",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "50731",
+   "Nombre": "FACUNDO MUNUA",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "51145",
+   "Nombre": "ALEJANDRO VICTORICA",
+   "camiseta": "88",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "39601",
+   "Jug_Sale": "NICOLAS OEHLER",
+   "CarneEntra": "32400",
+   "Jug_Entra": "MATIAS DANIEL RIOS",
+   "camiseta": "17",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "42263",
+   "Jug_Sale": "JUAN MARTIN ROMANIELLO",
+   "CarneEntra": "26432",
+   "Jug_Entra": "SANTIAGO LOPEZ",
+   "camiseta": "19",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "54053",
+   "Jug_Sale": "FRANCO BUYSAN",
+   "CarneEntra": "63476",
+   "Jug_Entra": "BAUTISTA MARIANO RODRIGUEZ ALEMPARTE",
+   "camiseta": "99",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "51886",
+   "Jug_Sale": "LUCAS ALONSO",
+   "CarneEntra": "52396",
+   "Jug_Entra": "TOMAS DI LORENZO",
+   "camiseta": "96",
+   "minutos": "82"
+  },
+  {
+   "CarneSale": "37187",
+   "Jug_Sale": "GUILLERMO DEAL",
+   "CarneEntra": "42262",
+   "Jug_Entra": "FELIPE LOPEZ",
+   "camiseta": "9",
+   "minutos": "88"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "49627",
+   "Jug_Sale": "THEO FRANCO PIZZINI",
+   "CarneEntra": "43092",
+   "Jug_Entra": "JUAN DIEGO MONTANS",
+   "camiseta": "9",
+   "minutos": "43"
+  },
+  {
+   "CarneSale": "50731",
+   "Jug_Sale": "FACUNDO MUNUA",
+   "CarneEntra": "48077",
+   "Jug_Entra": "AGUSTIN MARTINEZ",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "51145",
+   "Jug_Sale": "ALEJANDRO VICTORICA",
+   "CarneEntra": "53488",
+   "Jug_Entra": "FRANCO FONTANAROSSA",
+   "camiseta": "55",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "36920",
+   "Jug_Sale": "JUAN IGNACIO REGO",
+   "CarneEntra": "65309",
+   "Jug_Entra": "TIAGO SANTAMARIA",
+   "camiseta": "21",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "53615",
+   "Jug_Sale": "THIAGO BENITES",
+   "CarneEntra": "52842",
+   "Jug_Entra": "TIZIANO GUIGOU",
+   "camiseta": "22",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "33370",
+   "Jug_Sale": "SANTIAGO BZUROVSKI",
+   "CarneEntra": "51125",
+   "Jug_Entra": "MATEO FALCO",
+   "camiseta": "14",
+   "minutos": "81"
+  },
+  {
+   "CarneSale": "65309",
+   "Jug_Sale": "TIAGO SANTAMARIA",
+   "CarneEntra": "50715",
+   "Jug_Entra": "TOMAS MARTINEZ",
+   "camiseta": "72",
+   "minutos": "90"
+  }
+ ],
+ "golesL": [],
+ "golesV": [
+  {
+   "carne": "51125",
+   "Nombre": "MATEO FALCO",
+   "minutos": "89",
+   "EnContra": "1"
+  },
+  {
+   "carne": "53488",
+   "Nombre": "FRANCO FONTANAROSSA",
+   "minutos": "65",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

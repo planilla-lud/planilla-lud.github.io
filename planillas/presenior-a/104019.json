@@ -1,0 +1,243 @@
+{
+ "id": "104019",
+ "categoria": "presenior-a",
+ "serie": "PSAPD",
+ "fecha": 7,
+ "fechaHora": "2026-11-14 09:00:00",
+ "cancha": "COMPLEJO DEPORTIVO ARRAYANES",
+ "local": "MADRUGADA F.C",
+ "visitante": "PLAYA HONDA UNIVERSITARIO",
+ "gl": 2,
+ "gv": 5,
+ "detalle": {
+  "nro_partido": "834",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "PRE SENIOR",
+  "categoria": "PRE-SENIOR MASCULINO",
+  "rueda": "2",
+  "Divisional": "PRESENIOR \"A\" PER. y DESC",
+  "Cancha": "COMPLEJO DEPORTIVO ARRAYANES",
+  "Fecha_Inicio": "2026-11-14 11:00:00",
+  "Fecha_fin": "2026-11-14 11:00:00",
+  "Locatario": "MADRUGADA F.C",
+  "goles_locatario": "2",
+  "puntos_locatario": "0",
+  "Visitante": "PLAYA HONDA UNIVERSITARIO",
+  "goles_visitante": "5",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "29114",
+   "Nombre": "JOSE SEBASTIAN GRATTAROLA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "21347",
+   "Nombre": "GUILLERMO FERNANDO TORIJA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "28237",
+   "Nombre": "MARCELO DAMIAN CASTRILLEJO",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "40268",
+   "Nombre": "FABIAN RODRIGUEZ",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "31517",
+   "Nombre": "ALEJANDRO BAUDO",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "35976",
+   "Nombre": "FEDERICO GARCIA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "51373",
+   "Nombre": "SERGIO MAXIMILIANO PEREZ",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "39060",
+   "Nombre": "FRANCISCO DANIEL BENTANCOR",
+   "camiseta": "47",
+   "Capitan": ""
+  },
+  {
+   "carne": "22757",
+   "Nombre": "SEBASTIAN CORREA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "18456",
+   "Nombre": "MARTIN MARUCA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "34340",
+   "Nombre": "FEDERICO VARGHA",
+   "camiseta": "22",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "37674",
+   "Nombre": "DIEGO MARCEL DOPICO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "46097",
+   "Nombre": "ADRIAN IGNACIO RIOS",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "22718",
+   "Nombre": "SANTIAGO ABOAL",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "27298",
+   "Nombre": "GABRIEL ISRAEL SANDBERG",
+   "camiseta": "64",
+   "Capitan": ""
+  },
+  {
+   "carne": "61841",
+   "Nombre": "MAURO ANTONIO ROSTAN",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "59686",
+   "Nombre": "MARCELO MELIAN",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "38797",
+   "Nombre": "LORENZO VEGA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "26199",
+   "Nombre": "MATHIAS PERDOMO",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "34510",
+   "Nombre": "CARLOS SANTIAGO LORENZO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "26554",
+   "Nombre": "SEBASTIAN TUBINO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "43898",
+   "Nombre": "BRUNO ANDRES MARTINEZ",
+   "camiseta": "30",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "35976",
+   "Jug_Sale": "FEDERICO GARCIA",
+   "CarneEntra": "34256",
+   "Jug_Entra": "GASTON ELBIO CANCELA",
+   "camiseta": "14",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "39060",
+   "Jug_Sale": "FRANCISCO DANIEL BENTANCOR",
+   "CarneEntra": "34213",
+   "Jug_Entra": "MATEO MARQUES",
+   "camiseta": "8",
+   "minutos": "50"
+  },
+  {
+   "CarneSale": "51373",
+   "Jug_Sale": "SERGIO MAXIMILIANO PEREZ",
+   "CarneEntra": "26412",
+   "Jug_Entra": "DIEGO ALDEBAR TILLIMAN",
+   "camiseta": "9",
+   "minutos": "58"
+  }
+ ],
+ "cambiosV": [],
+ "golesL": [
+  {
+   "carne": "28237",
+   "Nombre": "MARCELO DAMIAN CASTRILLEJO",
+   "minutos": "56",
+   "EnContra": "0"
+  },
+  {
+   "carne": "51373",
+   "Nombre": "SERGIO MAXIMILIANO PEREZ",
+   "minutos": "22",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "26554",
+   "Nombre": "SEBASTIAN TUBINO",
+   "minutos": "81",
+   "EnContra": "1"
+  },
+  {
+   "carne": "26554",
+   "Nombre": "SEBASTIAN TUBINO",
+   "minutos": "88",
+   "EnContra": "1"
+  },
+  {
+   "carne": "34510",
+   "Nombre": "CARLOS SANTIAGO LORENZO",
+   "minutos": "38",
+   "EnContra": "1"
+  },
+  {
+   "carne": "43898",
+   "Nombre": "BRUNO ANDRES MARTINEZ",
+   "minutos": "4",
+   "EnContra": "1"
+  },
+  {
+   "carne": "43898",
+   "Nombre": "BRUNO ANDRES MARTINEZ",
+   "minutos": "29",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

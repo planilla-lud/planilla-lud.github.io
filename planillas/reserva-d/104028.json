@@ -1,0 +1,302 @@
+{
+ "id": "104028",
+ "categoria": "reserva-d",
+ "serie": "RSDTA",
+ "fecha": 11,
+ "fechaHora": "2026-11-14 11:15:00",
+ "cancha": "COMPLEJO DEPORTIVO H3O",
+ "local": "MATURANA UNIVERSITARIO",
+ "visitante": "ARQUITECTURA JRS.",
+ "gl": 5,
+ "gv": 5,
+ "detalle": {
+  "nro_partido": "557",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "RESERVA",
+  "categoria": "RESERVA MASCULINO",
+  "rueda": "2",
+  "Divisional": "RESERVA \"D\" TIT. y ASC.",
+  "Cancha": "COMPLEJO DEPORTIVO H3O",
+  "Fecha_Inicio": "2026-11-14 13:05:00",
+  "Fecha_fin": "2026-11-14 13:05:00",
+  "Locatario": "MATURANA UNIVERSITARIO",
+  "goles_locatario": "5",
+  "puntos_locatario": "1",
+  "Visitante": "ARQUITECTURA JRS.",
+  "goles_visitante": "5",
+  "puntos_visitante": "1",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "40068",
+   "Nombre": "SANTIAGO BOUSO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "47098",
+   "Nombre": "JUAN IGNACIO COITO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "54861",
+   "Nombre": "FEDERICO GARCIA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "34857",
+   "Nombre": "NICOLAS MELO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "37723",
+   "Nombre": "MARTIN PRATO",
+   "camiseta": "18",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "57542",
+   "Nombre": "DIEGO SEBASTIAN DUSIO",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "57624",
+   "Nombre": "MANUEL THIAGO MARTINEZ",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "37188",
+   "Nombre": "CLAUDIO SEBASTIAN FERREIRA",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "58751",
+   "Nombre": "FRANCISCO ANTONIO VILLAGRAN",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "52985",
+   "Nombre": "FACUNDO AGUSTIN MARTINEZ",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "55560",
+   "Nombre": "JUAN MATEO PELUFO",
+   "camiseta": "6",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "67481",
+   "Nombre": "DYLAN IVAN VALLE",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "64078",
+   "Nombre": "JOAQUIN GRACIA",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "58643",
+   "Nombre": "MATEO ESPIGA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "69020",
+   "Nombre": "ADRIAN ESTEBAN RIBAS",
+   "camiseta": "87",
+   "Capitan": ""
+  },
+  {
+   "carne": "61430",
+   "Nombre": "GASTON NICOLAS DE OLIVEIRA",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "53302",
+   "Nombre": "FEDERICO MONTGOMERY",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "48790",
+   "Nombre": "JOAQUIN BORUCKI",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "52388",
+   "Nombre": "SANTIAGO GONZALEZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "58911",
+   "Nombre": "NICOLAS MOSQUEIRA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "64726",
+   "Nombre": "JOSE VALENTIN VILA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "56535",
+   "Nombre": "FRANCO NICOLAS BARCELO",
+   "camiseta": "77",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "40068",
+   "Jug_Sale": "SANTIAGO BOUSO",
+   "CarneEntra": "55202",
+   "Jug_Entra": "SANTIAGO OLIVERA",
+   "camiseta": "29",
+   "minutos": "28"
+  },
+  {
+   "CarneSale": "57542",
+   "Jug_Sale": "DIEGO SEBASTIAN DUSIO",
+   "CarneEntra": "56775",
+   "Jug_Entra": "MARIO AGUSTIN ANDRIOLO",
+   "camiseta": "8",
+   "minutos": "45"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "48790",
+   "Jug_Sale": "JOAQUIN BORUCKI",
+   "CarneEntra": "68518",
+   "Jug_Entra": "AGUSTIN EMANUEL ORTIZ",
+   "camiseta": "31",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "69020",
+   "Jug_Sale": "ADRIAN ESTEBAN RIBAS",
+   "CarneEntra": "69195",
+   "Jug_Entra": "AGUSTIN ETCHEVERRY",
+   "camiseta": "99",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56535",
+   "Jug_Sale": "FRANCO NICOLAS BARCELO",
+   "CarneEntra": "58675",
+   "Jug_Entra": "CARMELO COCCO",
+   "camiseta": "81",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58643",
+   "Jug_Sale": "MATEO ESPIGA",
+   "CarneEntra": "62016",
+   "Jug_Entra": "MARCO TADEO CRISTINO",
+   "camiseta": "90",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "64078",
+   "Jug_Sale": "JOAQUIN GRACIA",
+   "CarneEntra": "51401",
+   "Jug_Entra": "JUAN CRUZ DE ANGELIS",
+   "camiseta": "80",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "53302",
+   "Jug_Sale": "FEDERICO MONTGOMERY",
+   "CarneEntra": "59938",
+   "Jug_Entra": "DIEGO DAVID BARCELO",
+   "camiseta": "71",
+   "minutos": "85"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "34857",
+   "Nombre": "NICOLAS MELO",
+   "minutos": "34",
+   "EnContra": "0"
+  },
+  {
+   "carne": "34857",
+   "Nombre": "NICOLAS MELO",
+   "minutos": "59",
+   "EnContra": "0"
+  },
+  {
+   "carne": "57542",
+   "Nombre": "DIEGO SEBASTIAN DUSIO",
+   "minutos": "11",
+   "EnContra": "0"
+  },
+  {
+   "carne": "57542",
+   "Nombre": "DIEGO SEBASTIAN DUSIO",
+   "minutos": "16",
+   "EnContra": "0"
+  },
+  {
+   "carne": "58751",
+   "Nombre": "FRANCISCO ANTONIO VILLAGRAN",
+   "minutos": "80",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "52388",
+   "Nombre": "SANTIAGO GONZALEZ",
+   "minutos": "30",
+   "EnContra": "1"
+  },
+  {
+   "carne": "53302",
+   "Nombre": "FEDERICO MONTGOMERY",
+   "minutos": "48",
+   "EnContra": "1"
+  },
+  {
+   "carne": "56535",
+   "Nombre": "FRANCO NICOLAS BARCELO",
+   "minutos": "12",
+   "EnContra": "1"
+  },
+  {
+   "carne": "64726",
+   "Nombre": "JOSE VALENTIN VILA",
+   "minutos": "15",
+   "EnContra": "1"
+  },
+  {
+   "carne": "64726",
+   "Nombre": "JOSE VALENTIN VILA",
+   "minutos": "42",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

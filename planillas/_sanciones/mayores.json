@@ -15897,5 +15897,57 @@
   "fechas": 1,
   "detalle": "F:1 - UR:0",
   "texto": "Art. 147 del C.P"
+ },
+ {
+  "tipo": "automatica",
+  "fecha": "2026-11-15",
+  "partido": "1264",
+  "serie": "CVC",
+  "carne": "32328",
+  "nombre": "PEDRO NICOLAS HERRERO",
+  "club": "COLEGIO SANTA ELENA",
+  "sancion": "SANCIÓN AUTOMÁTICA",
+  "fechas": 1,
+  "detalle": "F:1 - UR:0",
+  "texto": "Sanción generada automáticamente por expulsión en el partido"
+ },
+ {
+  "tipo": "automatica",
+  "fecha": "2026-11-15",
+  "partido": "1265",
+  "serie": "G4A",
+  "carne": "41030",
+  "nombre": "LUCAS GONZALEZ",
+  "club": "VARELA UNIVERSITARIO",
+  "sancion": "SANCIÓN AUTOMÁTICA",
+  "fechas": 1,
+  "detalle": "F:1 - UR:0",
+  "texto": "Sanción generada automáticamente por expulsión en el partido"
+ },
+ {
+  "tipo": "automatica",
+  "fecha": "2026-11-15",
+  "partido": "1261",
+  "serie": "AP",
+  "carne": "47657",
+  "nombre": "FACUNDO CAPDEVIELLE",
+  "club": "PLAYA HONDA UNIVERSITARIO",
+  "sancion": "SANCIÓN AUTOMÁTICA",
+  "fechas": 1,
+  "detalle": "F:1 - UR:0",
+  "texto": "Sanción generada automáticamente por expulsión en el partido"
+ },
+ {
+  "tipo": "automatica",
+  "fecha": "2026-11-15",
+  "partido": "1265",
+  "serie": "G4A",
+  "carne": "58727",
+  "nombre": "JOAQUIN GRACIANO",
+  "club": "VARELA UNIVERSITARIO",
+  "sancion": "SANCIÓN AUTOMÁTICA",
+  "fechas": 1,
+  "detalle": "F:1 - UR:0",
+  "texto": "Sanción generada automáticamente por expulsión en el partido"
  }
 ]

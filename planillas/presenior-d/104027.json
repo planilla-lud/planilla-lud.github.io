@@ -1,0 +1,308 @@
+{
+ "id": "104027",
+ "categoria": "presenior-d",
+ "serie": "PSDPD",
+ "fecha": 7,
+ "fechaHora": "2026-11-14 09:00:00",
+ "cancha": "COM. DEP. CLUB TROUVILLE",
+ "local": "TROUVILLE UNIVERSITARIO",
+ "visitante": "JEAN PIAGET",
+ "gl": 2,
+ "gv": 5,
+ "detalle": {
+  "nro_partido": "971",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "PRE SENIOR",
+  "categoria": "PRE-SENIOR MASCULINO",
+  "rueda": "2",
+  "Divisional": "PRESENIOR \"D\" PER. y DESC",
+  "Cancha": "COM. DEP. CLUB TROUVILLE",
+  "Fecha_Inicio": "2026-11-14 11:00:00",
+  "Fecha_fin": "2026-11-14 11:00:00",
+  "Locatario": "TROUVILLE UNIVERSITARIO",
+  "goles_locatario": "2",
+  "puntos_locatario": "0",
+  "Visitante": "JEAN PIAGET",
+  "goles_visitante": "5",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "44974",
+   "Nombre": "RODOLFO PIENIKA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "53055",
+   "Nombre": "JULIAN RAMON VELIZ",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "21976",
+   "Nombre": "MATIAS CARLOS TAGLIORETTI",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "26098",
+   "Nombre": "BRUNO VICENTE NASSUTTI",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "63540",
+   "Nombre": "MARTIN CARLEVARO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "45375",
+   "Nombre": "JOSE ALFREDO ROSAS",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "63236",
+   "Nombre": "DIEGO ALEJANDRO REGUEIRA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "61313",
+   "Nombre": "EDUARDO GABRIEL ROCA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "17345",
+   "Nombre": "DANIEL MARCELO LIGUORI",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "38821",
+   "Nombre": "MARTIN MORA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "56346",
+   "Nombre": "ADRIANO DANIEL ALVAREZ",
+   "camiseta": "5",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "17702",
+   "Nombre": "DANIEL WARD",
+   "camiseta": "1",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "41805",
+   "Nombre": "DIEGO AUGUSTO LORENZO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "18049",
+   "Nombre": "ALAN TURNIANSKY",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "45283",
+   "Nombre": "DIEGO GAURONAS",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "21189",
+   "Nombre": "SEBASTIAN CAREDIO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "23874",
+   "Nombre": "GAI BOROVIK",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "21009",
+   "Nombre": "MAXIMILIANO AUGUSTO PEÑALVA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "36908",
+   "Nombre": "MARTIN GEJER",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "41052",
+   "Nombre": "VALENTIN MATEO PEÑALVA",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "37124",
+   "Nombre": "RICHARD ALEJANDRO ROCCO",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "57047",
+   "Nombre": "SERGIO GASTON MARTINEZ",
+   "camiseta": "14",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "17345",
+   "Jug_Sale": "DANIEL MARCELO LIGUORI",
+   "CarneEntra": "21568",
+   "Jug_Entra": "MARCOS QUAGLIOTTI",
+   "camiseta": "15",
+   "minutos": "25"
+  },
+  {
+   "CarneSale": "63540",
+   "Jug_Sale": "MARTIN CARLEVARO",
+   "CarneEntra": "17345",
+   "Jug_Entra": "DANIEL MARCELO LIGUORI",
+   "camiseta": "14",
+   "minutos": "40"
+  },
+  {
+   "CarneSale": "53055",
+   "Jug_Sale": "JULIAN RAMON VELIZ",
+   "CarneEntra": "63540",
+   "Jug_Entra": "MARTIN CARLEVARO",
+   "camiseta": "3",
+   "minutos": "72"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "57047",
+   "Jug_Sale": "SERGIO GASTON MARTINEZ",
+   "CarneEntra": "21011",
+   "Jug_Entra": "DANIEL IGAL GROISMAN",
+   "camiseta": "5",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "37124",
+   "Jug_Sale": "RICHARD ALEJANDRO ROCCO",
+   "CarneEntra": "57709",
+   "Jug_Entra": "FRANCISCO ETCHENIQUE",
+   "camiseta": "7",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "23874",
+   "Jug_Sale": "GAI BOROVIK",
+   "CarneEntra": "28277",
+   "Jug_Entra": "LUCAS JUAN PUIG",
+   "camiseta": "23",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "41052",
+   "Jug_Sale": "VALENTIN MATEO PEÑALVA",
+   "CarneEntra": "37124",
+   "Jug_Entra": "RICHARD ALEJANDRO ROCCO",
+   "camiseta": "22",
+   "minutos": "50"
+  },
+  {
+   "CarneSale": "21009",
+   "Jug_Sale": "MAXIMILIANO AUGUSTO PEÑALVA",
+   "CarneEntra": "57047",
+   "Jug_Entra": "SERGIO GASTON MARTINEZ",
+   "camiseta": "14",
+   "minutos": "54"
+  },
+  {
+   "CarneSale": "36908",
+   "Jug_Sale": "MARTIN GEJER",
+   "CarneEntra": "23874",
+   "Jug_Entra": "GAI BOROVIK",
+   "camiseta": "17",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "57047",
+   "Jug_Sale": "SERGIO GASTON MARTINEZ",
+   "CarneEntra": "41052",
+   "Jug_Entra": "VALENTIN MATEO PEÑALVA",
+   "camiseta": "44",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "21011",
+   "Jug_Sale": "DANIEL IGAL GROISMAN",
+   "CarneEntra": "21009",
+   "Jug_Entra": "MAXIMILIANO AUGUSTO PEÑALVA",
+   "camiseta": "4",
+   "minutos": "80"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "56346",
+   "Nombre": "ADRIANO DANIEL ALVAREZ",
+   "minutos": "80",
+   "EnContra": "0"
+  },
+  {
+   "carne": "63236",
+   "Nombre": "DIEGO ALEJANDRO REGUEIRA",
+   "minutos": "85",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "41052",
+   "Nombre": "VALENTIN MATEO PEÑALVA",
+   "minutos": "30",
+   "EnContra": "1"
+  },
+  {
+   "carne": "41052",
+   "Nombre": "VALENTIN MATEO PEÑALVA",
+   "minutos": "49",
+   "EnContra": "1"
+  },
+  {
+   "carne": "41805",
+   "Nombre": "DIEGO AUGUSTO LORENZO",
+   "minutos": "73",
+   "EnContra": "1"
+  },
+  {
+   "carne": "45283",
+   "Nombre": "DIEGO GAURONAS",
+   "minutos": "33",
+   "EnContra": "1"
+  },
+  {
+   "carne": "45283",
+   "Nombre": "DIEGO GAURONAS",
+   "minutos": "45",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

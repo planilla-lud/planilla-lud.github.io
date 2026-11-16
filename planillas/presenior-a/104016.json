@@ -1,0 +1,250 @@
+{
+ "id": "104016",
+ "categoria": "presenior-a",
+ "serie": "PSAPD",
+ "fecha": 7,
+ "fechaHora": "2026-11-14 09:00:00",
+ "cancha": "COMPLEJO LAS CASUARINAS",
+ "local": "CLUB JESUS MARIA",
+ "visitante": "TENIS EL PINAR",
+ "gl": 0,
+ "gv": 2,
+ "detalle": {
+  "nro_partido": "831",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "PRE SENIOR",
+  "categoria": "PRE-SENIOR MASCULINO",
+  "rueda": "2",
+  "Divisional": "PRESENIOR \"A\" PER. y DESC",
+  "Cancha": "COMPLEJO LAS CASUARINAS",
+  "Fecha_Inicio": "2026-11-14 11:00:00",
+  "Fecha_fin": "2026-11-14 11:00:00",
+  "Locatario": "CLUB JESUS MARIA",
+  "goles_locatario": "0",
+  "puntos_locatario": "0",
+  "Visitante": "TENIS EL PINAR",
+  "goles_visitante": "2",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "40434",
+   "Nombre": "JUAN PABLO DEUS",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "25136",
+   "Nombre": "EDUARDO MARCELO FRANCO",
+   "camiseta": "0",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "25135",
+   "Nombre": "RODRIGO CAMPOAMOR",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "26202",
+   "Nombre": "AGUSTIN SANTIAGO DAGUERRE",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "27444",
+   "Nombre": "FERNANDO RUBEN MATO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "23159",
+   "Nombre": "NICOLAS LOPEZ",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "25243",
+   "Nombre": "DIEGO CABRERA",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "35550",
+   "Nombre": "JOSE IGNACIO RINALDI",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "33503",
+   "Nombre": "NICOLAS FEUERSTEIN",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "31819",
+   "Nombre": "NICOLAS ALEJANDRO FIORDELMONDO",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "23357",
+   "Nombre": "MIGUEL IGNACIO FERNANDEZ",
+   "camiseta": "12",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "34543",
+   "Nombre": "HERNAN GOMEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "35037",
+   "Nombre": "FEDERICO CARSIN",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "38595",
+   "Nombre": "PABLO FERNANDEZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "34110",
+   "Nombre": "RODRIGO CARSIN",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "23904",
+   "Nombre": "GASTON ANDRES SUAREZ",
+   "camiseta": "81",
+   "Capitan": ""
+  },
+  {
+   "carne": "34528",
+   "Nombre": "JOAQUIN ANDRES AMOEDO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "34812",
+   "Nombre": "FELIPE MOTTA",
+   "camiseta": "50",
+   "Capitan": ""
+  },
+  {
+   "carne": "30998",
+   "Nombre": "NICOLAS OYENARD",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "26339",
+   "Nombre": "JUAN MARTIN OYENARD",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "37081",
+   "Nombre": "SANTIAGO LAGO",
+   "camiseta": "11",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "23905",
+   "Nombre": "IGNACIO RAFAEL D AVILA",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "27444",
+   "Jug_Sale": "FERNANDO RUBEN MATO",
+   "CarneEntra": "36531",
+   "Jug_Entra": "IGNACIO JIMENEZ",
+   "camiseta": "71",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "31819",
+   "Jug_Sale": "NICOLAS ALEJANDRO FIORDELMONDO",
+   "CarneEntra": "27038",
+   "Jug_Entra": "JAVIER CARRAU",
+   "camiseta": "4",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "35550",
+   "Jug_Sale": "JOSE IGNACIO RINALDI",
+   "CarneEntra": "33614",
+   "Jug_Entra": "GUZMAN VIRSAUSKAS",
+   "camiseta": "17",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "23357",
+   "Jug_Sale": "MIGUEL IGNACIO FERNANDEZ",
+   "CarneEntra": "22062",
+   "Jug_Entra": "AGUSTIN VERNASSA",
+   "camiseta": "6",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "23159",
+   "Jug_Sale": "NICOLAS LOPEZ",
+   "CarneEntra": "33051",
+   "Jug_Entra": "JUAN MARCELO DUTRA",
+   "camiseta": "28",
+   "minutos": "79"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "23905",
+   "Jug_Sale": "IGNACIO RAFAEL D AVILA",
+   "CarneEntra": "30511",
+   "Jug_Entra": "BRUNO ERNESTO MILAN",
+   "camiseta": "15",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "34528",
+   "Jug_Sale": "JOAQUIN ANDRES AMOEDO",
+   "CarneEntra": "26514",
+   "Jug_Entra": "JUAN PEDRO CHIAPPARA",
+   "camiseta": "27",
+   "minutos": "68"
+  }
+ ],
+ "golesL": [],
+ "golesV": [
+  {
+   "carne": "23905",
+   "Nombre": "IGNACIO RAFAEL D AVILA",
+   "minutos": "5",
+   "EnContra": "1"
+  },
+  {
+   "carne": "23905",
+   "Nombre": "IGNACIO RAFAEL D AVILA",
+   "minutos": "20",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": [
+  {
+   "Nombre": "PABLO FERNANDEZ",
+   "observaciones": ""
+  }
+ ]
+}

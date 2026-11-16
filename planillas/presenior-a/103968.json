@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"A\" TITULO",
   "Cancha": "COMPLEJO URUNDAY UNIVERSITARIO",
-  "Fecha_Inicio": "2026-11-14 10:30:00",
-  "Fecha_fin": "2026-11-14 10:30:00",
+  "Fecha_Inicio": "2026-11-14 11:00:00",
+  "Fecha_fin": "2026-11-14 11:00:00",
   "Locatario": "URUNDAY UNIVERSITARIO",
   "goles_locatario": "1",
   "puntos_locatario": "3",
@@ -29,11 +29,234 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "36841",
+   "Nombre": "JUAN MANUEL RIVERO",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "35042",
+   "Nombre": "GUILLERMO SEBASTIAN SUAREZ",
+   "camiseta": "3",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "63605",
+   "Nombre": "JAVIER ADRIAN GUERRA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "41163",
+   "Nombre": "JUAN IGNACIO GOMEZ",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "34306",
+   "Nombre": "MATHIAS LANZZERI",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "24222",
+   "Nombre": "FEDERICO SALDIAS",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "57337",
+   "Nombre": "LEONARDO DAMIAN PANZARIELLO",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "33442",
+   "Nombre": "ANTONIO GABRIEL BERMUDEZ",
+   "camiseta": "51",
+   "Capitan": ""
+  },
+  {
+   "carne": "66202",
+   "Nombre": "MAURICIO ANTONIO DE LOS SANTOS",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "21795",
+   "Nombre": "MAXIMILIANO PEREZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "38368",
+   "Nombre": "JUAN MANUEL BOGADO",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "30639",
+   "Nombre": "NICOLAS FERNANDO ALVAREZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "27240",
+   "Nombre": "CARLOS GABRIEL SCHOPF",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "34261",
+   "Nombre": "MARTIN PESSANO",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "35041",
+   "Nombre": "JOAQUIN GUERRA",
+   "camiseta": "51",
+   "Capitan": ""
+  },
+  {
+   "carne": "21341",
+   "Nombre": "MAURO GONZALO PAZOS",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "23989",
+   "Nombre": "MAURICIO SANTIAGO",
+   "camiseta": "2",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "26528",
+   "Nombre": "MARIO SZLAFMYC",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "25769",
+   "Nombre": "FABRICIO RIANI",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "54075",
+   "Nombre": "RODRIGO VIEIRA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "29905",
+   "Nombre": "FELIPE SURRACO",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "20774",
+   "Nombre": "DIEGO ALEMAN",
+   "camiseta": "16",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "66202",
+   "Jug_Sale": "MAURICIO ANTONIO DE LOS SANTOS",
+   "CarneEntra": "42139",
+   "Jug_Entra": "RODRIGO DANIEL SIRIANI",
+   "camiseta": "30",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "21795",
+   "Jug_Sale": "MAXIMILIANO PEREZ",
+   "CarneEntra": "31137",
+   "Jug_Entra": "PABLO DANIEL SCALONE",
+   "camiseta": "32",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "33442",
+   "Jug_Sale": "ANTONIO GABRIEL BERMUDEZ",
+   "CarneEntra": "22536",
+   "Jug_Entra": "MARCIO FIDEL SUAREZ",
+   "camiseta": "17",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "57337",
+   "Jug_Sale": "LEONARDO DAMIAN PANZARIELLO",
+   "CarneEntra": "29714",
+   "Jug_Entra": "JUAN ANDRES LEZAMA",
+   "camiseta": "18",
+   "minutos": "83"
+  },
+  {
+   "CarneSale": "24222",
+   "Jug_Sale": "FEDERICO SALDIAS",
+   "CarneEntra": "69034",
+   "Jug_Entra": "IGNACIO SANTANDER",
+   "camiseta": "31",
+   "minutos": "90"
+  },
+  {
+   "CarneSale": "38368",
+   "Jug_Sale": "JUAN MANUEL BOGADO",
+   "CarneEntra": "23426",
+   "Jug_Entra": "MATIAS LOCATELLI",
+   "camiseta": "12",
+   "minutos": "90"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "54075",
+   "Jug_Sale": "RODRIGO VIEIRA",
+   "CarneEntra": "23004",
+   "Jug_Entra": "ANGEL URRABURU",
+   "camiseta": "25",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "35041",
+   "Jug_Sale": "JOAQUIN GUERRA",
+   "CarneEntra": "52465",
+   "Jug_Entra": "MARCELO DAMIAN ALVARENQUE",
+   "camiseta": "76",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "29905",
+   "Jug_Sale": "FELIPE SURRACO",
+   "CarneEntra": "66481",
+   "Jug_Entra": "WILLIAM WAGNER KLINGENDER",
+   "camiseta": "18",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "21341",
+   "Jug_Sale": "MAURO GONZALO PAZOS",
+   "CarneEntra": "18210",
+   "Jug_Entra": "DIEGO RIVAS",
+   "camiseta": "23",
+   "minutos": "78"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "38368",
+   "Nombre": "JUAN MANUEL BOGADO",
+   "minutos": "48",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

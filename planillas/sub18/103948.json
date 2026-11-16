@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB18 CONFRATERNIDAD",
   "Cancha": "PARQUE CUPRA - CLUB SEMINARIO",
-  "Fecha_Inicio": "2026-11-13 21:30:00",
-  "Fecha_fin": "2026-11-13 21:30:00",
+  "Fecha_Inicio": "2026-11-13 21:50:00",
+  "Fecha_fin": "2026-11-13 21:50:00",
   "Locatario": "ISASA UNIVERSITARIO",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,241 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "61974",
+   "Nombre": "SEBASTIAN SATTAMINO",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "64257",
+   "Nombre": "JUAN MARTÌN GRAU",
+   "camiseta": "18",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "68033",
+   "Nombre": "FRANCO MARTINEZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "64259",
+   "Nombre": "FRANCISCO DANIEL NUÐEZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "68157",
+   "Nombre": "CAMILO ORTEGA",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "61891",
+   "Nombre": "FACUNDO FERNANDEZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "69040",
+   "Nombre": "GUILLERMO FAJARDO",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "61643",
+   "Nombre": "ROMAN ANDRES RODRIGUEZ",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "68916",
+   "Nombre": "THIAGO MOMBRU",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "68156",
+   "Nombre": "AGUSTIN ALEJANDRO BAUDEAN",
+   "camiseta": "46",
+   "Capitan": ""
+  },
+  {
+   "carne": "64664",
+   "Nombre": "JUAN IGNACIO BOMBI",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "66991",
+   "Nombre": "KEVIN EZEQUIEL CARDOZO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "68292",
+   "Nombre": "THIAGO NICOLAS SILVA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "65731",
+   "Nombre": "AARON BAUTISTA GUILLEN",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "63346",
+   "Nombre": "DYLAN MARCEL MENDEZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "69060",
+   "Nombre": "FACUNDO NAHUEL GONZALEZ",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "66989",
+   "Nombre": "LAUTARO AGUSTIN CUADRO",
+   "camiseta": "21",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "66981",
+   "Nombre": "FEDERICO DA SILVA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "68295",
+   "Nombre": "ALEXANDER JERAMEL ISBARBO",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "66982",
+   "Nombre": "SANTIAGO GONZALEZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "69023",
+   "Nombre": "RODRIGO MARTIN NUÑEZ",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "66988",
+   "Nombre": "SEBASTIAN NICOLAS BARRIOS",
+   "camiseta": "15",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "64259",
+   "Jug_Sale": "FRANCISCO DANIEL NUÐEZ",
+   "CarneEntra": "64669",
+   "Jug_Entra": "JUAN GUILLERMO ELLIOT",
+   "camiseta": "6",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64664",
+   "Jug_Sale": "JUAN IGNACIO BOMBI",
+   "CarneEntra": "66939",
+   "Jug_Entra": "BRUNO ANTONIO JORGE",
+   "camiseta": "12",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61891",
+   "Jug_Sale": "FACUNDO FERNANDEZ",
+   "CarneEntra": "68160",
+   "Jug_Entra": "IGNACIO PEREIRA",
+   "camiseta": "14",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "61643",
+   "Jug_Sale": "ROMAN ANDRES RODRIGUEZ",
+   "CarneEntra": "64664",
+   "Jug_Entra": "JUAN IGNACIO BOMBI",
+   "camiseta": "10",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "61891",
+   "Jug_Sale": "FACUNDO FERNANDEZ",
+   "CarneEntra": "61643",
+   "Jug_Entra": "ROMAN ANDRES RODRIGUEZ",
+   "camiseta": "8",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "69040",
+   "Jug_Sale": "GUILLERMO FAJARDO",
+   "CarneEntra": "68161",
+   "Jug_Entra": "SANTIAGO ANNUITI",
+   "camiseta": "25",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "68033",
+   "Jug_Sale": "FRANCO MARTINEZ",
+   "CarneEntra": "64205",
+   "Jug_Entra": "CAMILO GAGLIANO",
+   "camiseta": "2",
+   "minutos": "85"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "68295",
+   "Jug_Sale": "ALEXANDER JERAMEL ISBARBO",
+   "CarneEntra": "65863",
+   "Jug_Entra": "ALEX SANTIAGO MIGUEZ",
+   "camiseta": "7",
+   "minutos": "33"
+  },
+  {
+   "CarneSale": "66988",
+   "Jug_Sale": "SEBASTIAN NICOLAS BARRIOS",
+   "CarneEntra": "68293",
+   "Jug_Entra": "MARIO AGUSTIN FERNANDEZ",
+   "camiseta": "16",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "66982",
+   "Jug_Sale": "SANTIAGO GONZALEZ",
+   "CarneEntra": "68752",
+   "Jug_Entra": "LUCAS MATEO LAITANO",
+   "camiseta": "5",
+   "minutos": "45"
+  }
+ ],
  "golesL": [],
- "golesV": [],
+ "golesV": [
+  {
+   "carne": "65863",
+   "Nombre": "ALEX SANTIAGO MIGUEZ",
+   "minutos": "58",
+   "EnContra": "1"
+  },
+  {
+   "carne": "68293",
+   "Nombre": "MARIO AGUSTIN FERNANDEZ",
+   "minutos": "77",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

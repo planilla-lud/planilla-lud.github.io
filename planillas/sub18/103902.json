@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB18 COMPETENCIA",
   "Cancha": "CIUDAD DEPORTIVA ZONA LAB",
-  "Fecha_Inicio": "2026-11-10 20:30:00",
-  "Fecha_fin": "2026-11-10 20:30:00",
+  "Fecha_Inicio": "2026-11-10 21:00:00",
+  "Fecha_fin": "2026-11-10 21:00:00",
   "Locatario": "ELBIO FERNANDEZ",
   "goles_locatario": "3",
   "puntos_locatario": "3",
@@ -29,12 +29,268 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "64373",
+   "Nombre": "EDUARDO SABINO RODRIGUEZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "67298",
+   "Nombre": "FRANCISCO BAUTISTA MARTINEZ",
+   "camiseta": "92",
+   "Capitan": ""
+  },
+  {
+   "carne": "66347",
+   "Nombre": "LEONIDAS ALEJANDRO VARELA",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "68974",
+   "Nombre": "LORENZO SILVERA",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "69003",
+   "Nombre": "MARIANO DIAZ",
+   "camiseta": "47",
+   "Capitan": ""
+  },
+  {
+   "carne": "64434",
+   "Nombre": "SANTIAGO LAPENTE",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "64372",
+   "Nombre": "AGUSTIN VALSANGIACOMO",
+   "camiseta": "99",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "64432",
+   "Nombre": "FEDERICO GASTELUMENDI",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "68372",
+   "Nombre": "FELIPE CORREA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "67296",
+   "Nombre": "SANTIAGO JANSSEN",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "64530",
+   "Nombre": "EMILIANO DOS SANTOS",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "68615",
+   "Nombre": "MATIAS EZEQUIEL PROFUMO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "58826",
+   "Nombre": "FACUNDO SOTO",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "58398",
+   "Nombre": "PEDRO LA ROSA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "60065",
+   "Nombre": "CIRO LENCI",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "58832",
+   "Nombre": "IVAN PFEIFENKOPF",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "67190",
+   "Nombre": "FRANCISCO JONES",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "67202",
+   "Nombre": "MANUEL IGNACIO NUÑEZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "60071",
+   "Nombre": "MANUEL DENIS",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "62679",
+   "Nombre": "JUAN VICENTE GRISTO",
+   "camiseta": "4",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "67196",
+   "Nombre": "MANUEL SOUZA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "67200",
+   "Nombre": "TOMAS DEGRANDI",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "68372",
+   "Jug_Sale": "FELIPE CORREA",
+   "CarneEntra": "64830",
+   "Jug_Entra": "THIAGO FOJO",
+   "camiseta": "80",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "68372",
+   "Jug_Sale": "FELIPE CORREA",
+   "CarneEntra": "68371",
+   "Jug_Entra": "LUIS IGNACIO PAULOS",
+   "camiseta": "12",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68974",
+   "Jug_Sale": "LORENZO SILVERA",
+   "CarneEntra": "65873",
+   "Jug_Entra": "FEDERICO GOÑI",
+   "camiseta": "9",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "69003",
+   "Jug_Sale": "MARIANO DIAZ",
+   "CarneEntra": "68372",
+   "Jug_Entra": "FELIPE CORREA",
+   "camiseta": "12",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "67296",
+   "Jug_Sale": "SANTIAGO JANSSEN",
+   "CarneEntra": "69003",
+   "Jug_Entra": "MARIANO DIAZ",
+   "camiseta": "47",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "64432",
+   "Jug_Sale": "FEDERICO GASTELUMENDI",
+   "CarneEntra": "68974",
+   "Jug_Entra": "LORENZO SILVERA",
+   "camiseta": "29",
+   "minutos": "80"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "58832",
+   "Jug_Sale": "IVAN PFEIFENKOPF",
+   "CarneEntra": "67192",
+   "Jug_Entra": "JUAN FELIPE CORRADI",
+   "camiseta": "22",
+   "minutos": "69"
+  },
+  {
+   "CarneSale": "60071",
+   "Jug_Sale": "MANUEL DENIS",
+   "CarneEntra": "67198",
+   "Jug_Entra": "MATIAS GERMAN COLOTUZZO",
+   "camiseta": "10",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "67202",
+   "Jug_Sale": "MANUEL IGNACIO NUÑEZ",
+   "CarneEntra": "58398",
+   "Jug_Entra": "PEDRO LA ROSA",
+   "camiseta": "5",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "67190",
+   "Jug_Sale": "FRANCISCO JONES",
+   "CarneEntra": "67558",
+   "Jug_Entra": "LORENZO CASTRO",
+   "camiseta": "3",
+   "minutos": "90"
+  },
+  {
+   "CarneSale": "58398",
+   "Jug_Sale": "PEDRO LA ROSA",
+   "CarneEntra": "67195",
+   "Jug_Entra": "NICOLAS CERNADAS",
+   "camiseta": "27",
+   "minutos": "45"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "64434",
+   "Nombre": "SANTIAGO LAPENTE",
+   "minutos": "68",
+   "EnContra": "0"
+  },
+  {
+   "carne": "64434",
+   "Nombre": "SANTIAGO LAPENTE",
+   "minutos": "70",
+   "EnContra": "0"
+  },
+  {
+   "carne": "69003",
+   "Nombre": "MARIANO DIAZ",
+   "minutos": "92",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "58398",
+   "Nombre": "PEDRO LA ROSA",
+   "minutos": "33",
+   "EnContra": "1"
+  },
+  {
+   "carne": "67196",
+   "Nombre": "MANUEL SOUZA",
+   "minutos": "40",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

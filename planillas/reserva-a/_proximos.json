@@ -1,23 +1,9 @@
 [
  {
-  "serie": "RSAT",
-  "fechaHora": "2026-11-14 11:15:00",
-  "cancha": "OLD CHRISTIANS CLUB",
-  "local": "OLD CHRISTIANS AZUL",
-  "visitante": "OLD WOODLANDS CLUB"
- },
- {
   "serie": "RSAPD",
   "fechaHora": "2026-11-14 11:15:00",
   "cancha": "TENIS EL PINAR",
   "local": "TENIS EL PINAR",
   "visitante": "ALEMAN UNIVERSITARIO"
- },
- {
-  "serie": "RSAPD",
-  "fechaHora": "2026-11-14 11:15:00",
-  "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
-  "local": "CLUB SEMINARIO",
-  "visitante": "OBC AZULGRANA."
  }
 ]

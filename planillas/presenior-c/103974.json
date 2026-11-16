@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"C\" PER. y DESC",
   "Cancha": "COMPLEJO DEPORTIVO ARRAYANES",
-  "Fecha_Inicio": "2026-11-14 10:30:00",
-  "Fecha_fin": "2026-11-14 10:30:00",
+  "Fecha_Inicio": "2026-11-14 11:00:00",
+  "Fecha_fin": "2026-11-14 11:00:00",
   "Locatario": "CLUB ESTUDIANTES INGENIERIA",
   "goles_locatario": "1",
   "puntos_locatario": "3",
@@ -29,11 +29,234 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "55641",
+   "Nombre": "ISAIAS ARIEL SOSA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "34745",
+   "Nombre": "LUIS ALFREDO LEON",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "61597",
+   "Nombre": "ENZO RAUL VIERA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "66821",
+   "Nombre": "BRAIAN EDUARDO GODOY",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "33501",
+   "Nombre": "GERMAN CAL",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "60850",
+   "Nombre": "RUBEN GONZALEZ",
+   "camiseta": "43",
+   "Capitan": ""
+  },
+  {
+   "carne": "23106",
+   "Nombre": "GASTON ZABALZA",
+   "camiseta": "6",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "66822",
+   "Nombre": "DEYVIS ANDRES OROFINO",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "39386",
+   "Nombre": "AGUSTIN PALLEIRO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "27294",
+   "Nombre": "LUCAS BROVETTO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "34656",
+   "Nombre": "MATIAS CERETTA",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "25589",
+   "Nombre": "MARCOS BRAHIAN FRANCO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "38777",
+   "Nombre": "LADARIO MARCELO DA ROSA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "66189",
+   "Nombre": "MARTIN BAGNASCO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "28600",
+   "Nombre": "SEBASTIAN RUIZ",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "27331",
+   "Nombre": "ALEJANDRO FABIAN GADEA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "30934",
+   "Nombre": "NICOLAS MAXIMILIANO HERRERA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "43177",
+   "Nombre": "JUAN EDUARDO GOMEZ",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "66437",
+   "Nombre": "CHRISTIAN MAURICIO PORRAS",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "64847",
+   "Nombre": "GASTON LEMA",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "65126",
+   "Nombre": "GONZALO JOEL ARANDA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "24802",
+   "Nombre": "MARCELO INFANTE",
+   "camiseta": "3",
+   "Capitan": "(C)"
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "33501",
+   "Jug_Sale": "GERMAN CAL",
+   "CarneEntra": "33500",
+   "Jug_Entra": "FRANCO CAL",
+   "camiseta": "5",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66822",
+   "Jug_Sale": "DEYVIS ANDRES OROFINO",
+   "CarneEntra": "56654",
+   "Jug_Entra": "NICOLAS ADRIAN PEREZ",
+   "camiseta": "14",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "60850",
+   "Jug_Sale": "RUBEN GONZALEZ",
+   "CarneEntra": "31029",
+   "Jug_Entra": "FELIPE SORHUET",
+   "camiseta": "4",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "66821",
+   "Jug_Sale": "BRAIAN EDUARDO GODOY",
+   "CarneEntra": "40498",
+   "Jug_Entra": "FEDERICO AGUSTIN GARCIA",
+   "camiseta": "17",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "34656",
+   "Jug_Sale": "MATIAS CERETTA",
+   "CarneEntra": "44166",
+   "Jug_Entra": "BRUNO GONZALEZ",
+   "camiseta": "22",
+   "minutos": "73"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "66437",
+   "Jug_Sale": "CHRISTIAN MAURICIO PORRAS",
+   "CarneEntra": "18291",
+   "Jug_Entra": "LEONARDO DANIEL FERNANDEZ",
+   "camiseta": "35",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "30934",
+   "Jug_Sale": "NICOLAS MAXIMILIANO HERRERA",
+   "CarneEntra": "68997",
+   "Jug_Entra": "BRUNO NICOLAS CANCELA",
+   "camiseta": "32",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "27331",
+   "Jug_Sale": "ALEJANDRO FABIAN GADEA",
+   "CarneEntra": "33056",
+   "Jug_Entra": "PABLO PANTIN",
+   "camiseta": "16",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "64847",
+   "Jug_Sale": "GASTON LEMA",
+   "CarneEntra": "66451",
+   "Jug_Entra": "FEDERICO MATHIAS PERCOPO",
+   "camiseta": "14",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "68997",
+   "Jug_Sale": "BRUNO NICOLAS CANCELA",
+   "CarneEntra": "63687",
+   "Jug_Entra": "NICOLAS OMAR MICHELENA",
+   "camiseta": "77",
+   "minutos": "80"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "27294",
+   "Nombre": "LUCAS BROVETTO",
+   "minutos": "85",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

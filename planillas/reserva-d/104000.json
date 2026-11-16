@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"D\" TIT. y ASC.",
   "Cancha": "COMPLEJO 1GOL",
-  "Fecha_Inicio": "2026-11-14 12:45:00",
-  "Fecha_fin": "2026-11-14 12:45:00",
+  "Fecha_Inicio": "2026-11-14 13:10:00",
+  "Fecha_fin": "2026-11-14 13:10:00",
   "Locatario": "CERVANTES UNIVERSITARIO",
   "goles_locatario": "3",
   "puntos_locatario": "1",
@@ -29,12 +29,279 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "titularesL": [
+  {
+   "carne": "45494",
+   "Nombre": "RODRIGO CARLOS BARLA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "59275",
+   "Nombre": "JOAQUIN SILVERA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "47607",
+   "Nombre": "ALEX CLARK",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "67443",
+   "Nombre": "LUCA GENTA",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "59269",
+   "Nombre": "MIGUEL PEREYRA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "52924",
+   "Nombre": "AGUSTIN REBOLEDO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "52723",
+   "Nombre": "FELIPE CARLOS DE CARVALHO",
+   "camiseta": "8",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "55193",
+   "Nombre": "BRUNO BUERO",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "67258",
+   "Nombre": "NAHUEL TUBINO",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "59270",
+   "Nombre": "FACUNDO SANTIAGO LUCIANO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "63167",
+   "Nombre": "LUCAS BORGES",
+   "camiseta": "6",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "59338",
+   "Nombre": "LEANDRO SOZZO",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "59330",
+   "Nombre": "JUAN PABLO CUÑA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "45754",
+   "Nombre": "MATIAS ALEXANDER ACOSTA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "68869",
+   "Nombre": "JONATHAN ARAUJO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "61345",
+   "Nombre": "ENZO FABRIZIO BRUNO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "64760",
+   "Nombre": "FEDERICO CHARQUERO",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "56086",
+   "Nombre": "DYLAN FELIX",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "64061",
+   "Nombre": "NESTOR RAEL VIDELA",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "66571",
+   "Nombre": "ALEXANDER SHEIDA PATRON",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "61423",
+   "Nombre": "ALAN EZEQUIEL DE LOS SANTOS",
+   "camiseta": "81",
+   "Capitan": ""
+  },
+  {
+   "carne": "59326",
+   "Nombre": "JUAN IGNACIO SERPA",
+   "camiseta": "30",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "67258",
+   "Jug_Sale": "NAHUEL TUBINO",
+   "CarneEntra": "67438",
+   "Jug_Entra": "BRUNO MUSETTI",
+   "camiseta": "25",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67443",
+   "Jug_Sale": "LUCA GENTA",
+   "CarneEntra": "59265",
+   "Jug_Entra": "MATEO JOAQUIN ECHARTEA",
+   "camiseta": "13",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "59275",
+   "Jug_Sale": "JOAQUIN SILVERA",
+   "CarneEntra": "67258",
+   "Jug_Entra": "NAHUEL TUBINO",
+   "camiseta": "46",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "59270",
+   "Jug_Sale": "FACUNDO SANTIAGO LUCIANO",
+   "CarneEntra": "67442",
+   "Jug_Entra": "TOMAS MARTINEZ",
+   "camiseta": "18",
+   "minutos": "88"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "59330",
+   "Jug_Sale": "JUAN PABLO CUÑA",
+   "CarneEntra": "60906",
+   "Jug_Entra": "FACUNDO MANUEL VILLALBA",
+   "camiseta": "14",
+   "minutos": "30"
+  },
+  {
+   "CarneSale": "59326",
+   "Jug_Sale": "JUAN IGNACIO SERPA",
+   "CarneEntra": "35047",
+   "Jug_Entra": "LUIS MARCELO PEREIRA",
+   "camiseta": "99",
+   "minutos": "30"
+  },
+  {
+   "CarneSale": "64760",
+   "Jug_Sale": "FEDERICO CHARQUERO",
+   "CarneEntra": "66572",
+   "Jug_Entra": "SANTIAGO AGUSTIN GONZALEZ",
+   "camiseta": "7",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61423",
+   "Jug_Sale": "ALAN EZEQUIEL DE LOS SANTOS",
+   "CarneEntra": "66573",
+   "Jug_Entra": "EZEQUIEL MICHAEL TOURNE",
+   "camiseta": "19",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64061",
+   "Jug_Sale": "NESTOR RAEL VIDELA",
+   "CarneEntra": "66993",
+   "Jug_Entra": "MAICOL GABRIEL LAMARQUE",
+   "camiseta": "17",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66571",
+   "Jug_Sale": "ALEXANDER SHEIDA PATRON",
+   "CarneEntra": "61392",
+   "Jug_Entra": "FRANCO CANTO",
+   "camiseta": "9",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "61345",
+   "Jug_Sale": "ENZO FABRIZIO BRUNO",
+   "CarneEntra": "58509",
+   "Jug_Entra": "WILSON DANIEL CORREA",
+   "camiseta": "23",
+   "minutos": "79"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "55193",
+   "Nombre": "BRUNO BUERO",
+   "minutos": "28",
+   "EnContra": "0"
+  },
+  {
+   "carne": "55193",
+   "Nombre": "BRUNO BUERO",
+   "minutos": "92",
+   "EnContra": "0"
+  },
+  {
+   "carne": "63167",
+   "Nombre": "LUCAS BORGES",
+   "minutos": "16",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "61423",
+   "Nombre": "ALAN EZEQUIEL DE LOS SANTOS",
+   "minutos": "21",
+   "EnContra": "1"
+  },
+  {
+   "carne": "61423",
+   "Nombre": "ALAN EZEQUIEL DE LOS SANTOS",
+   "minutos": "33",
+   "EnContra": "1"
+  },
+  {
+   "carne": "68869",
+   "Nombre": "JONATHAN ARAUJO",
+   "minutos": "86",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "MIGUEL PEREYRA",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

@@ -1,0 +1,360 @@
+{
+ "id": "104031",
+ "categoria": "mas40-a",
+ "serie": "40CO",
+ "fecha": 7,
+ "fechaHora": "2026-11-14 09:00:00",
+ "cancha": "COMPLEJO DEPORTIVO ARRAYANES",
+ "local": "DEPORTIVO MATADERO",
+ "visitante": "MATURANA UNIVERSITARIO",
+ "gl": 3,
+ "gv": 2,
+ "detalle": {
+  "nro_partido": "427",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "MAS 40",
+  "categoria": "MÁS 40 MASCULINO",
+  "rueda": "2",
+  "Divisional": "MAS40 \"A\" TITULO",
+  "Cancha": "COMPLEJO DEPORTIVO ARRAYANES",
+  "Fecha_Inicio": "2026-11-14 10:55:00",
+  "Fecha_fin": "2026-11-14 10:55:00",
+  "Locatario": "DEPORTIVO MATADERO",
+  "goles_locatario": "3",
+  "puntos_locatario": "3",
+  "Visitante": "MATURANA UNIVERSITARIO",
+  "goles_visitante": "2",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "14102",
+   "Nombre": "MARTIN RIVERA BARREIRO",
+   "camiseta": "1",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "26827",
+   "Nombre": "JOSE MARIA BLANCO",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "14914",
+   "Nombre": "AGUSTIN FELIPE SEDANO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "23151",
+   "Nombre": "MAURICIO REYMUNDE",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "16347",
+   "Nombre": "JORGE ANDRES TROCCOLI",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "16461",
+   "Nombre": "MIGUEL ANGEL SEDANO",
+   "camiseta": "36",
+   "Capitan": ""
+  },
+  {
+   "carne": "16615",
+   "Nombre": "JUAN ROBKIN",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "16398",
+   "Nombre": "FEDERICO SILVESTRI",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "41071",
+   "Nombre": "NICOLAS CARLOS CONDORELLI",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "12613",
+   "Nombre": "JOSE IGNACIO MIGNONE",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "16852",
+   "Nombre": "BRUNO SPINELLI",
+   "camiseta": "26",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "19371",
+   "Nombre": "JOSE IGNACIO LAMANNA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "27144",
+   "Nombre": "FERNANDO EDUARDO RUBINO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "33263",
+   "Nombre": "ALEJANDRO NICOLAS FRIGERIO",
+   "camiseta": "55",
+   "Capitan": ""
+  },
+  {
+   "carne": "30484",
+   "Nombre": "DIEGO LOPEZ",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "26401",
+   "Nombre": "GONZALO DANIEL ROMITTI",
+   "camiseta": "27",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "17355",
+   "Nombre": "LUIS GUZMAN PEREZ",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "24529",
+   "Nombre": "MARTIN MARTINEZ",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "20513",
+   "Nombre": "RODRIGO NICOLAS NEVES",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "19590",
+   "Nombre": "GONZALO RAUL MANGADO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "58329",
+   "Nombre": "FEDERICO DAMIAN RODRIGUEZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "57381",
+   "Nombre": "GERARDO BARBIERI",
+   "camiseta": "90",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "14914",
+   "Jug_Sale": "AGUSTIN FELIPE SEDANO",
+   "CarneEntra": "11990",
+   "Jug_Entra": "GERMAN PABLO MONCHIETTI",
+   "camiseta": "16",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "23151",
+   "Jug_Sale": "MAURICIO REYMUNDE",
+   "CarneEntra": "22388",
+   "Jug_Entra": "AGUSTIN DANIEL OTADUY",
+   "camiseta": "76",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "16461",
+   "Jug_Sale": "MIGUEL ANGEL SEDANO",
+   "CarneEntra": "18626",
+   "Jug_Entra": "MILTON ALEJANDRO GRIECCO",
+   "camiseta": "19",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "16615",
+   "Jug_Sale": "JUAN ROBKIN",
+   "CarneEntra": "25738",
+   "Jug_Entra": "FLAVIO AUGUSTO GAI",
+   "camiseta": "3",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "16398",
+   "Jug_Sale": "FEDERICO SILVESTRI",
+   "CarneEntra": "19987",
+   "Jug_Entra": "DIEGO MANUEL BERRIEL",
+   "camiseta": "30",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "12613",
+   "Jug_Sale": "JOSE IGNACIO MIGNONE",
+   "CarneEntra": "10682",
+   "Jug_Entra": "RODRIGO ASTIAZARAN",
+   "camiseta": "8",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "16852",
+   "Jug_Sale": "BRUNO SPINELLI",
+   "CarneEntra": "17830",
+   "Jug_Entra": "LEONARDO GAI",
+   "camiseta": "5",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "16852",
+   "Jug_Sale": "BRUNO SPINELLI",
+   "CarneEntra": "16461",
+   "Jug_Entra": "MIGUEL ANGEL SEDANO",
+   "camiseta": "36",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "41071",
+   "Jug_Sale": "NICOLAS CARLOS CONDORELLI",
+   "CarneEntra": "23151",
+   "Jug_Entra": "MAURICIO REYMUNDE",
+   "camiseta": "18",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "16347",
+   "Jug_Sale": "JORGE ANDRES TROCCOLI",
+   "CarneEntra": "16852",
+   "Jug_Entra": "BRUNO SPINELLI",
+   "camiseta": "26",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "16852",
+   "Jug_Sale": "BRUNO SPINELLI",
+   "CarneEntra": "12613",
+   "Jug_Entra": "JOSE IGNACIO MIGNONE",
+   "camiseta": "17",
+   "minutos": "90"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "57381",
+   "Jug_Sale": "GERARDO BARBIERI",
+   "CarneEntra": "21261",
+   "Jug_Entra": "FEDERICO JOSE MORGADE",
+   "camiseta": "8",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "19590",
+   "Jug_Sale": "GONZALO RAUL MANGADO",
+   "CarneEntra": "22401",
+   "Jug_Entra": "GUILLERMO RAFFO",
+   "camiseta": "37",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "33263",
+   "Jug_Sale": "ALEJANDRO NICOLAS FRIGERIO",
+   "CarneEntra": "62023",
+   "Jug_Entra": "GONZALO VALLE",
+   "camiseta": "25",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "30484",
+   "Jug_Sale": "DIEGO LOPEZ",
+   "CarneEntra": "61374",
+   "Jug_Entra": "ALVARO RAFAEL GONZALEZ",
+   "camiseta": "26",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "17355",
+   "Jug_Sale": "LUIS GUZMAN PEREZ",
+   "CarneEntra": "22421",
+   "Jug_Entra": "GERMAN DANIEL INDERKUM",
+   "camiseta": "13",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "20513",
+   "Jug_Sale": "RODRIGO NICOLAS NEVES",
+   "CarneEntra": "22982",
+   "Jug_Entra": "JUAN ANDRES LAMANNA",
+   "camiseta": "11",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "21261",
+   "Jug_Sale": "FEDERICO JOSE MORGADE",
+   "CarneEntra": "45371",
+   "Jug_Entra": "IGNACIO JAVIER ZAMBRA",
+   "camiseta": "9",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "24529",
+   "Jug_Sale": "MARTIN MARTINEZ",
+   "CarneEntra": "62022",
+   "Jug_Entra": "MAURICIO ANTONIO DURAND",
+   "camiseta": "44",
+   "minutos": "78"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "16398",
+   "Nombre": "FEDERICO SILVESTRI",
+   "minutos": "36",
+   "EnContra": "0"
+  },
+  {
+   "carne": "19987",
+   "Nombre": "DIEGO MANUEL BERRIEL",
+   "minutos": "58",
+   "EnContra": "0"
+  },
+  {
+   "carne": "41071",
+   "Nombre": "NICOLAS CARLOS CONDORELLI",
+   "minutos": "72",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "21261",
+   "Nombre": "FEDERICO JOSE MORGADE",
+   "minutos": "53",
+   "EnContra": "1"
+  },
+  {
+   "carne": "22421",
+   "Nombre": "GERMAN DANIEL INDERKUM",
+   "minutos": "80",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

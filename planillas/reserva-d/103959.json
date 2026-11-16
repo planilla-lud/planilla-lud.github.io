@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"D\" COPA DE PLATA",
   "Cancha": "COM. CLUB UNIVERSIDAD CATOLICA",
-  "Fecha_Inicio": "2026-11-14 10:30:00",
-  "Fecha_fin": "2026-11-14 10:30:00",
+  "Fecha_Inicio": "2026-11-14 11:00:00",
+  "Fecha_fin": "2026-11-14 11:00:00",
   "Locatario": "C. U. CATOLICA AZUL",
   "goles_locatario": "1",
   "puntos_locatario": "1",
@@ -29,12 +29,274 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "58465",
+   "Nombre": "SANTIAGO MEYER",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "67486",
+   "Nombre": "RODRIGO MAZZOLINI",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "66908",
+   "Nombre": "LUCIANO NICOLAS BUZON",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "45212",
+   "Nombre": "TOMAS BERRETA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "66698",
+   "Nombre": "CONRADO DIAZ",
+   "camiseta": "50",
+   "Capitan": ""
+  },
+  {
+   "carne": "65984",
+   "Nombre": "ALFONSO BACCINO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "67483",
+   "Nombre": "OCTAVIO ALVEZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "62786",
+   "Nombre": "AGUSTIN DEL PRESTITO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "57934",
+   "Nombre": "PABLO FERNANDEZ",
+   "camiseta": "99",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "66909",
+   "Nombre": "JUAN MANUEL ZARRILLO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "61312",
+   "Nombre": "FACUNDO NAHUEL NAVAS",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "30521",
+   "Nombre": "AGUSTIN PEDRO BRITO",
+   "camiseta": "1",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "55076",
+   "Nombre": "SIMON RUSSI",
+   "camiseta": "47",
+   "Capitan": ""
+  },
+  {
+   "carne": "48065",
+   "Nombre": "FACUNDO ESPASANDIN",
+   "camiseta": "55",
+   "Capitan": ""
+  },
+  {
+   "carne": "39081",
+   "Nombre": "IGNACIO EASTMAN",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "51075",
+   "Nombre": "TOMAS AMEIXEIRAS",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "51073",
+   "Nombre": "GASTON PALERMO",
+   "camiseta": "50",
+   "Capitan": ""
+  },
+  {
+   "carne": "47708",
+   "Nombre": "GASTON PINTOS",
+   "camiseta": "36",
+   "Capitan": ""
+  },
+  {
+   "carne": "40963",
+   "Nombre": "JUAN DIEGO GOMEZ",
+   "camiseta": "49",
+   "Capitan": ""
+  },
+  {
+   "carne": "64265",
+   "Nombre": "DIEGO CALLEROS",
+   "camiseta": "70",
+   "Capitan": ""
+  },
+  {
+   "carne": "68653",
+   "Nombre": "CARLOS CABALLERO",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "58191",
+   "Nombre": "SANTINO AMOZA",
+   "camiseta": "12",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "65984",
+   "Jug_Sale": "ALFONSO BACCINO",
+   "CarneEntra": "68670",
+   "Jug_Entra": "FRANCO EZEQUIEL MARTINEZ",
+   "camiseta": "29",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "67486",
+   "Jug_Sale": "RODRIGO MAZZOLINI",
+   "CarneEntra": "67639",
+   "Jug_Entra": "AXEL NAHUEL CASTAÑO",
+   "camiseta": "19",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "45212",
+   "Jug_Sale": "TOMAS BERRETA",
+   "CarneEntra": "66694",
+   "Jug_Entra": "BRAYAN MAXIMILIANO GALARZA",
+   "camiseta": "20",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "57934",
+   "Jug_Sale": "PABLO FERNANDEZ",
+   "CarneEntra": "59313",
+   "Jug_Entra": "SEBASTIAN ALEXIS JORAJURIA",
+   "camiseta": "26",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "66698",
+   "Jug_Sale": "CONRADO DIAZ",
+   "CarneEntra": "61906",
+   "Jug_Entra": "FRANCESCO GALLUCCI",
+   "camiseta": "9",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "66909",
+   "Jug_Sale": "JUAN MANUEL ZARRILLO",
+   "CarneEntra": "65355",
+   "Jug_Entra": "FRANCISCO LEANDRO SEQUEIRA",
+   "camiseta": "22",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "61312",
+   "Jug_Sale": "FACUNDO NAHUEL NAVAS",
+   "CarneEntra": "68276",
+   "Jug_Entra": "GERMAN FALCO",
+   "camiseta": "27",
+   "minutos": "88"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "51075",
+   "Jug_Sale": "TOMAS AMEIXEIRAS",
+   "CarneEntra": "59170",
+   "Jug_Entra": "FRANCISCO SANTAMARIA",
+   "camiseta": "24",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "51073",
+   "Jug_Sale": "GASTON PALERMO",
+   "CarneEntra": "45639",
+   "Jug_Entra": "PATRICIO CORREA",
+   "camiseta": "17",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "47708",
+   "Jug_Sale": "GASTON PINTOS",
+   "CarneEntra": "55776",
+   "Jug_Entra": "ALFONSO MARTINO",
+   "camiseta": "33",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58191",
+   "Jug_Sale": "SANTINO AMOZA",
+   "CarneEntra": "51070",
+   "Jug_Entra": "NICOLAS MARCELO PALERMO",
+   "camiseta": "15",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "48065",
+   "Jug_Sale": "FACUNDO ESPASANDIN",
+   "CarneEntra": "65852",
+   "Jug_Entra": "BAUTISTA DIBOT",
+   "camiseta": "66",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "55076",
+   "Jug_Sale": "SIMON RUSSI",
+   "CarneEntra": "55080",
+   "Jug_Entra": "FRANCISCO CERONI",
+   "camiseta": "18",
+   "minutos": "53"
+  },
+  {
+   "CarneSale": "39081",
+   "Jug_Sale": "IGNACIO EASTMAN",
+   "CarneEntra": "51073",
+   "Jug_Entra": "GASTON PALERMO",
+   "camiseta": "50",
+   "minutos": "85"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "67483",
+   "Nombre": "OCTAVIO ALVEZ",
+   "minutos": "3",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "55076",
+   "Nombre": "SIMON RUSSI",
+   "minutos": "57",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

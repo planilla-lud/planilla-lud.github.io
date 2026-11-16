@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"D\" COPA DE PLATA",
   "Cancha": "COM. DEP. CLUB TROUVILLE",
-  "Fecha_Inicio": "2026-11-14 12:45:00",
-  "Fecha_fin": "2026-11-14 12:45:00",
+  "Fecha_Inicio": "2026-11-14 13:04:00",
+  "Fecha_fin": "2026-11-14 13:04:00",
   "Locatario": "TROUVILLE UNIVERSITARIO",
   "goles_locatario": "2",
   "puntos_locatario": "1",
@@ -29,12 +29,286 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "50667",
+   "Nombre": "IGNACIO GONZALEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "50597",
+   "Nombre": "VALENTIN GONCALVEZ",
+   "camiseta": "13",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "48893",
+   "Nombre": "EMILIANO TELLECHEA",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "57068",
+   "Nombre": "JUAN IGNACIO RODRIGUEZ",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "54111",
+   "Nombre": "FACUNDO ALVAREZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "58541",
+   "Nombre": "RODRIGO SEBABSTIAN CABRERA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "50596",
+   "Nombre": "SANTIAGO VINAGRE",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "54908",
+   "Nombre": "JOAQUIN BROMBAUER",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "50343",
+   "Nombre": "TOMAS PEREZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "53294",
+   "Nombre": "AGUSTIN SANTIÑAQUE",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "55296",
+   "Nombre": "MATEO VAZQUEZ",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "69085",
+   "Nombre": "FRANCO DANERI",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "66467",
+   "Nombre": "DIEGO LOTTI",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "64654",
+   "Nombre": "GASTON ZAMBRAN",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "60354",
+   "Nombre": "MANUEL MAGNIN",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "61942",
+   "Nombre": "AGUSTIN EZEQUIEL DE LOS REYES",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "61529",
+   "Nombre": "MATEO FERREIRA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "63753",
+   "Nombre": "ESTEBAN MAXIMILIANO SASTRE",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "63261",
+   "Nombre": "NICOLAS SANGUINE",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "61099",
+   "Nombre": "AGUSTIN BARRIOS",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "61524",
+   "Nombre": "SEBASTIAN ENZO GUISADO",
+   "camiseta": "7",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "69163",
+   "Nombre": "LUCIANO NAHUEL BARCEL",
+   "camiseta": "5",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "55296",
+   "Jug_Sale": "MATEO VAZQUEZ",
+   "CarneEntra": "55179",
+   "Jug_Entra": "SANTIAGO COUTO",
+   "camiseta": "18",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "54908",
+   "Jug_Sale": "JOAQUIN BROMBAUER",
+   "CarneEntra": "54905",
+   "Jug_Entra": "SANTIAGO LIMA",
+   "camiseta": "15",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "50596",
+   "Jug_Sale": "SANTIAGO VINAGRE",
+   "CarneEntra": "55200",
+   "Jug_Entra": "MAURO MATEO HERNANDEZ",
+   "camiseta": "17",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "57068",
+   "Jug_Sale": "JUAN IGNACIO RODRIGUEZ",
+   "CarneEntra": "66628",
+   "Jug_Entra": "GERMAN BENTOS",
+   "camiseta": "4",
+   "minutos": "83"
+  },
+  {
+   "CarneSale": "58541",
+   "Jug_Sale": "RODRIGO SEBABSTIAN CABRERA",
+   "CarneEntra": "50596",
+   "Jug_Entra": "SANTIAGO VINAGRE",
+   "camiseta": "8",
+   "minutos": "83"
+  },
+  {
+   "CarneSale": "53294",
+   "Jug_Sale": "AGUSTIN SANTIÑAQUE",
+   "CarneEntra": "62218",
+   "Jug_Entra": "BAUTISTA COLLAZO",
+   "camiseta": "16",
+   "minutos": "89"
+  },
+  {
+   "CarneSale": "50343",
+   "Jug_Sale": "TOMAS PEREZ",
+   "CarneEntra": "54908",
+   "Jug_Entra": "JOAQUIN BROMBAUER",
+   "camiseta": "20",
+   "minutos": "89"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "61529",
+   "Jug_Sale": "MATEO FERREIRA",
+   "CarneEntra": "23009",
+   "Jug_Entra": "RODRIGO DE PAULA",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61942",
+   "Jug_Sale": "AGUSTIN EZEQUIEL DE LOS REYES",
+   "CarneEntra": "57266",
+   "Jug_Entra": "JUAN MANUEL SANGUINE",
+   "camiseta": "81",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "60354",
+   "Jug_Sale": "MANUEL MAGNIN",
+   "CarneEntra": "55354",
+   "Jug_Entra": "JAIRO ALI ARAQUE",
+   "camiseta": "77",
+   "minutos": "52"
+  },
+  {
+   "CarneSale": "63753",
+   "Jug_Sale": "ESTEBAN MAXIMILIANO SASTRE",
+   "CarneEntra": "49275",
+   "Jug_Entra": "ALEJO DE GIOBBI",
+   "camiseta": "17",
+   "minutos": "52"
+  },
+  {
+   "CarneSale": "64654",
+   "Jug_Sale": "GASTON ZAMBRAN",
+   "CarneEntra": "66469",
+   "Jug_Entra": "DANIEL ANDRES LAUREANO",
+   "camiseta": "34",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "69163",
+   "Jug_Sale": "LUCIANO NAHUEL BARCEL",
+   "CarneEntra": "53885",
+   "Jug_Entra": "GUILLERMO OSVALDO DOLIVEIRA",
+   "camiseta": "69",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "63261",
+   "Jug_Sale": "NICOLAS SANGUINE",
+   "CarneEntra": "63753",
+   "Jug_Entra": "ESTEBAN MAXIMILIANO SASTRE",
+   "camiseta": "15",
+   "minutos": "80"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "48893",
+   "Nombre": "EMILIANO TELLECHEA",
+   "minutos": "47",
+   "EnContra": "0"
+  },
+  {
+   "carne": "55296",
+   "Nombre": "MATEO VAZQUEZ",
+   "minutos": "0",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "61942",
+   "Nombre": "AGUSTIN EZEQUIEL DE LOS REYES",
+   "minutos": "76",
+   "EnContra": "1"
+  },
+  {
+   "carne": "63753",
+   "Nombre": "ESTEBAN MAXIMILIANO SASTRE",
+   "minutos": "81",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

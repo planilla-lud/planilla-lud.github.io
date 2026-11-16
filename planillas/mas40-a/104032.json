@@ -1,0 +1,263 @@
+{
+ "id": "104032",
+ "categoria": "mas40-a",
+ "serie": "40CP",
+ "fecha": 7,
+ "fechaHora": "2026-11-14 09:00:00",
+ "cancha": "COMPLEJO MARLUNA",
+ "local": "MATECHA",
+ "visitante": "X - 13 UNIVERSITARIO",
+ "gl": 0,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "456",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "MAS 40",
+  "categoria": "MÁS 40 MASCULINO",
+  "rueda": "2",
+  "Divisional": "MAS40 \"A\" PERM. y DESC.",
+  "Cancha": "COMPLEJO MARLUNA",
+  "Fecha_Inicio": "2026-11-14 11:00:00",
+  "Fecha_fin": "2026-11-14 11:00:00",
+  "Locatario": "MATECHA",
+  "goles_locatario": "0",
+  "puntos_locatario": "0",
+  "Visitante": "X - 13 UNIVERSITARIO",
+  "goles_visitante": "1",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "67396",
+   "Nombre": "ALEJANDRO REYES",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "56820",
+   "Nombre": "ROLANDO SHANTI LARRAINCI",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "45665",
+   "Nombre": "SEBASTIAN EVERGISTO FRANCA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "31743",
+   "Nombre": "ROBERT DANIEL ANTIVERO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "24882",
+   "Nombre": "DIEGO FRANCISCO FYNN",
+   "camiseta": "27",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "35696",
+   "Nombre": "JUAN MANUEL GIRIBONI",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "15407",
+   "Nombre": "IGNACIO IBARRA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "49338",
+   "Nombre": "ALBERTO MATÌAS CASTRO",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "37324",
+   "Nombre": "LUIS ALEJANDRO SUAREZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "26640",
+   "Nombre": "JUAN DIEGO ZUNINO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "29711",
+   "Nombre": "SEBASTIAN SCITTI",
+   "camiseta": "54",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "16070",
+   "Nombre": "SIMON MATEO RODRIGUEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "54450",
+   "Nombre": "BERNARDO GABRIEL BACCINO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "19072",
+   "Nombre": "NICOLAS MAXIMILIANO IVANOVICH",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "15796",
+   "Nombre": "DAMIAN DIAZ",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "26156",
+   "Nombre": "PABLO IGNACIO COLL",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "27488",
+   "Nombre": "MARCELO FABIAN FRANCO",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "42683",
+   "Nombre": "FABIO ENRIQUE RICCA",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "26702",
+   "Nombre": "JOSE LUIS LOMBARDO",
+   "camiseta": "81",
+   "Capitan": ""
+  },
+  {
+   "carne": "18938",
+   "Nombre": "CARLOS FEDERICO GHIO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "23492",
+   "Nombre": "SANTIAGO MATIAS ORTIZ",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "67179",
+   "Nombre": "SEBASTIAN ALBERTO BALIÑO",
+   "camiseta": "25",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "15407",
+   "Jug_Sale": "IGNACIO IBARRA",
+   "CarneEntra": "68921",
+   "Jug_Entra": "JESUS SEBASTIAN SILVA",
+   "camiseta": "54",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "49338",
+   "Jug_Sale": "ALBERTO MATÌAS CASTRO",
+   "CarneEntra": "11596",
+   "Jug_Entra": "IGNACIO AMESPIL",
+   "camiseta": "40",
+   "minutos": "81"
+  },
+  {
+   "CarneSale": "35696",
+   "Jug_Sale": "JUAN MANUEL GIRIBONI",
+   "CarneEntra": "29711",
+   "Jug_Entra": "SEBASTIAN SCITTI",
+   "camiseta": "54",
+   "minutos": "86"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "15796",
+   "Jug_Sale": "DAMIAN DIAZ",
+   "CarneEntra": "15215",
+   "Jug_Entra": "DANIEL CHAVES",
+   "camiseta": "8",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "42683",
+   "Jug_Sale": "FABIO ENRIQUE RICCA",
+   "CarneEntra": "21138",
+   "Jug_Entra": "MARCELO DANIEL MULLER",
+   "camiseta": "5",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "18938",
+   "Jug_Sale": "CARLOS FEDERICO GHIO",
+   "CarneEntra": "54287",
+   "Jug_Entra": "JOAQUIN LOPEZ",
+   "camiseta": "19",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "15796",
+   "Jug_Sale": "DAMIAN DIAZ",
+   "CarneEntra": "67179",
+   "Jug_Entra": "SEBASTIAN ALBERTO BALIÑO",
+   "camiseta": "25",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "26156",
+   "Jug_Sale": "PABLO IGNACIO COLL",
+   "CarneEntra": "42683",
+   "Jug_Entra": "FABIO ENRIQUE RICCA",
+   "camiseta": "27",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "23492",
+   "Jug_Sale": "SANTIAGO MATIAS ORTIZ",
+   "CarneEntra": "18938",
+   "Jug_Entra": "CARLOS FEDERICO GHIO",
+   "camiseta": "13",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "16070",
+   "Jug_Sale": "SIMON MATEO RODRIGUEZ",
+   "CarneEntra": "23492",
+   "Jug_Entra": "SANTIAGO MATIAS ORTIZ",
+   "camiseta": "26",
+   "minutos": "80"
+  }
+ ],
+ "golesL": [],
+ "golesV": [
+  {
+   "carne": "54450",
+   "Nombre": "BERNARDO GABRIEL BACCINO",
+   "minutos": "55",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

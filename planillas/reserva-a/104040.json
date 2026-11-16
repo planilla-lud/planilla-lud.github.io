@@ -1,0 +1,325 @@
+{
+ "id": "104040",
+ "categoria": "reserva-a",
+ "serie": "RSAPD",
+ "fecha": 7,
+ "fechaHora": "2026-11-14 11:15:00",
+ "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
+ "local": "CLUB SEMINARIO",
+ "visitante": "OBC AZULGRANA.",
+ "gl": 4,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "666",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "RESERVA",
+  "categoria": "RESERVA MASCULINO",
+  "rueda": "2",
+  "Divisional": "RESERVA \"A\" PER. y DESC.",
+  "Cancha": "PARQUE CUPRA - CLUB SEMINARIO",
+  "Fecha_Inicio": "2026-11-14 13:15:00",
+  "Fecha_fin": "2026-11-14 13:15:00",
+  "Locatario": "CLUB SEMINARIO",
+  "goles_locatario": "4",
+  "puntos_locatario": "3",
+  "Visitante": "OBC AZULGRANA.",
+  "goles_visitante": "1",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "49263",
+   "Nombre": "MARTIN MURAÑA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "37424",
+   "Nombre": "SANTIAGO PEREZ",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "42555",
+   "Nombre": "RODRIGO VAZQUEZ",
+   "camiseta": "19",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "59121",
+   "Nombre": "ARIEL YONHATAN PACHECO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "47683",
+   "Nombre": "JUAN IGNACIO VIOLA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "64647",
+   "Nombre": "FABRIZIO OSCAR PAGLIA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "57157",
+   "Nombre": "FACUNDO PIRIS",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "47800",
+   "Nombre": "MATIAS GARRIDO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "52457",
+   "Nombre": "SANTIAGO RAUL MAY",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "47696",
+   "Nombre": "IGNACIO TOMAS ESTEFAN",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "47176",
+   "Nombre": "SANTIAGO BENZANO",
+   "camiseta": "17",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "56248",
+   "Nombre": "FACUNDO JOSE QUINTELA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "33722",
+   "Nombre": "JUAN IGNACIO MOLINARO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "34987",
+   "Nombre": "SEBASTIAN CAGNOLI",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "41576",
+   "Nombre": "MARTIN JOSE IMHOF",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "49021",
+   "Nombre": "JUAN IGNACIO CANESSA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "39033",
+   "Nombre": "IGNACIO TALVI",
+   "camiseta": "98",
+   "Capitan": ""
+  },
+  {
+   "carne": "37519",
+   "Nombre": "DARIO VECCHIO",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "51137",
+   "Nombre": "JULIO FERMIN BLANCO",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "51826",
+   "Nombre": "AGUSTIN DEUS",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "44069",
+   "Nombre": "SANTIAGO RODRIGUEZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "55469",
+   "Nombre": "ALFONSO ALVAREZ",
+   "camiseta": "28",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "42555",
+   "Jug_Sale": "RODRIGO VAZQUEZ",
+   "CarneEntra": "47678",
+   "Jug_Entra": "PEDRO MACKINNON",
+   "camiseta": "8",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "47696",
+   "Jug_Sale": "IGNACIO TOMAS ESTEFAN",
+   "CarneEntra": "48063",
+   "Jug_Entra": "GENARO CARUSO",
+   "camiseta": "21",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "47176",
+   "Jug_Sale": "SANTIAGO BENZANO",
+   "CarneEntra": "48286",
+   "Jug_Entra": "FRANCISCO AMEIGENDA",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "57157",
+   "Jug_Sale": "FACUNDO PIRIS",
+   "CarneEntra": "60272",
+   "Jug_Entra": "MARIANO ASSANDRI",
+   "camiseta": "18",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "47683",
+   "Jug_Sale": "JUAN IGNACIO VIOLA",
+   "CarneEntra": "50787",
+   "Jug_Entra": "JUAN PEDRO ABELLA",
+   "camiseta": "11",
+   "minutos": "59"
+  },
+  {
+   "CarneSale": "47800",
+   "Jug_Sale": "MATIAS GARRIDO",
+   "CarneEntra": "49282",
+   "Jug_Entra": "AGUSTIN TRUJILLO",
+   "camiseta": "2",
+   "minutos": "59"
+  },
+  {
+   "CarneSale": "37424",
+   "Jug_Sale": "SANTIAGO PEREZ",
+   "CarneEntra": "45229",
+   "Jug_Entra": "BAUTISTA JOSE MARTINEZ",
+   "camiseta": "15",
+   "minutos": "65"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "37519",
+   "Jug_Sale": "DARIO VECCHIO",
+   "CarneEntra": "42221",
+   "Jug_Entra": "AXEL WILLIAM LINDMAYER",
+   "camiseta": "27",
+   "minutos": "25"
+  },
+  {
+   "CarneSale": "39033",
+   "Jug_Sale": "IGNACIO TALVI",
+   "CarneEntra": "45119",
+   "Jug_Entra": "MATEO BANDIRALI",
+   "camiseta": "6",
+   "minutos": "25"
+  },
+  {
+   "CarneSale": "41576",
+   "Jug_Sale": "MARTIN JOSE IMHOF",
+   "CarneEntra": "55159",
+   "Jug_Entra": "JUAN IGNACIO REICH",
+   "camiseta": "77",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "55469",
+   "Jug_Sale": "ALFONSO ALVAREZ",
+   "CarneEntra": "42685",
+   "Jug_Entra": "FRANCISCO DECURNEX",
+   "camiseta": "13",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "44069",
+   "Jug_Sale": "SANTIAGO RODRIGUEZ",
+   "CarneEntra": "44982",
+   "Jug_Entra": "FEDERICO RUIZ",
+   "camiseta": "9",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "51137",
+   "Jug_Sale": "JULIO FERMIN BLANCO",
+   "CarneEntra": "51960",
+   "Jug_Entra": "FEDERICO VAREIKA",
+   "camiseta": "20",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "51826",
+   "Jug_Sale": "AGUSTIN DEUS",
+   "CarneEntra": "68462",
+   "Jug_Entra": "DANIEL JOSE GUANI",
+   "camiseta": "26",
+   "minutos": "85"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "47176",
+   "Nombre": "SANTIAGO BENZANO",
+   "minutos": "2",
+   "EnContra": "0"
+  },
+  {
+   "carne": "47696",
+   "Nombre": "IGNACIO TOMAS ESTEFAN",
+   "minutos": "13",
+   "EnContra": "0"
+  },
+  {
+   "carne": "47696",
+   "Nombre": "IGNACIO TOMAS ESTEFAN",
+   "minutos": "38",
+   "EnContra": "0"
+  },
+  {
+   "carne": "52457",
+   "Nombre": "SANTIAGO RAUL MAY",
+   "minutos": "20",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "44982",
+   "Nombre": "FEDERICO RUIZ",
+   "minutos": "68",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": [
+  {
+   "Nombre": "JUAN IGNACIO MOLINARO",
+   "observaciones": ""
+  }
+ ]
+}

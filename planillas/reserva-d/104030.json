@@ -1,0 +1,307 @@
+{
+ "id": "104030",
+ "categoria": "reserva-d",
+ "serie": "RSDTA",
+ "fecha": 11,
+ "fechaHora": "2026-11-14 11:15:00",
+ "cancha": "COMPLEJO LAS CASUARINAS",
+ "local": "CLUB JESUS MARIA",
+ "visitante": "SAN AGUSTIN",
+ "gl": 0,
+ "gv": 3,
+ "detalle": {
+  "nro_partido": "558",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "RESERVA",
+  "categoria": "RESERVA MASCULINO",
+  "rueda": "2",
+  "Divisional": "RESERVA \"D\" TIT. y ASC.",
+  "Cancha": "COMPLEJO LAS CASUARINAS",
+  "Fecha_Inicio": "2026-11-14 13:15:00",
+  "Fecha_fin": "2026-11-14 13:15:00",
+  "Locatario": "CLUB JESUS MARIA",
+  "goles_locatario": "0",
+  "puntos_locatario": "0",
+  "Visitante": "SAN AGUSTIN",
+  "goles_visitante": "3",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "54766",
+   "Nombre": "MARCOS FEIT",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "58348",
+   "Nombre": "JOAQUIN GUANI",
+   "camiseta": "43",
+   "Capitan": ""
+  },
+  {
+   "carne": "60835",
+   "Nombre": "SEBASTIAN DANILO BAZZINO",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "46948",
+   "Nombre": "SANTIAGO CAULA",
+   "camiseta": "90",
+   "Capitan": ""
+  },
+  {
+   "carne": "46472",
+   "Nombre": "GUILLERMO VON SANDEN",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "49110",
+   "Nombre": "CAMILO BALIAN",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "34547",
+   "Nombre": "NICOLA PRATTO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "51224",
+   "Nombre": "DIEGO MARTINEZ",
+   "camiseta": "37",
+   "Capitan": ""
+  },
+  {
+   "carne": "55161",
+   "Nombre": "MATEO GONZALEZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "46451",
+   "Nombre": "GONZALO CAMESELLA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "49192",
+   "Nombre": "JUAN MARTIN ROCCA",
+   "camiseta": "29",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "47395",
+   "Nombre": "ALFONSO ALBERTO CANUTI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "55271",
+   "Nombre": "IGNACIO BORETTO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "55175",
+   "Nombre": "BENJAMIN HERRAN",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "47401",
+   "Nombre": "FELIPE SEXENIAN",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "48900",
+   "Nombre": "AGUSTIN DECIA",
+   "camiseta": "92",
+   "Capitan": ""
+  },
+  {
+   "carne": "47398",
+   "Nombre": "FELIPE GALINDEZ",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "45699",
+   "Nombre": "IGNACIO FEDERICO ALESINA",
+   "camiseta": "79",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "50991",
+   "Nombre": "MAXIMILIANO GAGLIAMONE",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "48999",
+   "Nombre": "FEDERICO CHOCHO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "54167",
+   "Nombre": "JOAQUIN DECIA",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "55788",
+   "Nombre": "JUAN IGNACIO BECOÑA",
+   "camiseta": "71",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "55161",
+   "Jug_Sale": "MATEO GONZALEZ",
+   "CarneEntra": "51610",
+   "Jug_Entra": "PABLO VALDOMIR",
+   "camiseta": "99",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "46451",
+   "Jug_Sale": "GONZALO CAMESELLA",
+   "CarneEntra": "62065",
+   "Jug_Entra": "FEDERICO RUBIO",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "49110",
+   "Jug_Sale": "CAMILO BALIAN",
+   "CarneEntra": "62062",
+   "Jug_Entra": "AFONSO COSTA",
+   "camiseta": "13",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "34547",
+   "Jug_Sale": "NICOLA PRATTO",
+   "CarneEntra": "50659",
+   "Jug_Entra": "IGNACIO TRONCOSO",
+   "camiseta": "47",
+   "minutos": "53"
+  },
+  {
+   "CarneSale": "60835",
+   "Jug_Sale": "SEBASTIAN DANILO BAZZINO",
+   "CarneEntra": "40067",
+   "Jug_Entra": "MATEO CALCAGNO",
+   "camiseta": "80",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "46472",
+   "Jug_Sale": "GUILLERMO VON SANDEN",
+   "CarneEntra": "37751",
+   "Jug_Entra": "AGUSTIN KOSEC",
+   "camiseta": "17",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "49192",
+   "Jug_Sale": "JUAN MARTIN ROCCA",
+   "CarneEntra": "44081",
+   "Jug_Entra": "SANTIAGO LIZARAZU",
+   "camiseta": "27",
+   "minutos": "76"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "54167",
+   "Jug_Sale": "JOAQUIN DECIA",
+   "CarneEntra": "43944",
+   "Jug_Entra": "SANTIAGO TECHEIRA",
+   "camiseta": "13",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "48999",
+   "Jug_Sale": "FEDERICO CHOCHO",
+   "CarneEntra": "49157",
+   "Jug_Entra": "SEBASTIAN CHEBI",
+   "camiseta": "4",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "45699",
+   "Jug_Sale": "IGNACIO FEDERICO ALESINA",
+   "CarneEntra": "25240",
+   "Jug_Entra": "JUAN ALEJO REINOSO",
+   "camiseta": "9",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "55788",
+   "Jug_Sale": "JUAN IGNACIO BECOÑA",
+   "CarneEntra": "50985",
+   "Jug_Entra": "SANTIAGO MOCHETTI",
+   "camiseta": "24",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "55271",
+   "Jug_Sale": "IGNACIO BORETTO",
+   "CarneEntra": "51336",
+   "Jug_Entra": "SEBASTIAN ROCHA",
+   "camiseta": "16",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "47398",
+   "Jug_Sale": "FELIPE GALINDEZ",
+   "CarneEntra": "47603",
+   "Jug_Entra": "DANILO LUMACA",
+   "camiseta": "19",
+   "minutos": "88"
+  },
+  {
+   "CarneSale": "50991",
+   "Jug_Sale": "MAXIMILIANO GAGLIAMONE",
+   "CarneEntra": "54126",
+   "Jug_Entra": "ALEJANDRO DIAZ",
+   "camiseta": "44",
+   "minutos": "88"
+  }
+ ],
+ "golesL": [],
+ "golesV": [
+  {
+   "carne": "25240",
+   "Nombre": "JUAN ALEJO REINOSO",
+   "minutos": "93",
+   "EnContra": "1"
+  },
+  {
+   "carne": "50985",
+   "Nombre": "SANTIAGO MOCHETTI",
+   "minutos": "80",
+   "EnContra": "1"
+  },
+  {
+   "carne": "55271",
+   "Nombre": "IGNACIO BORETTO",
+   "minutos": "6",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

@@ -1,0 +1,246 @@
+{
+ "id": "104025",
+ "categoria": "presenior-d",
+ "serie": "PSDTA",
+ "fecha": 7,
+ "fechaHora": "2026-11-14 09:00:00",
+ "cancha": "COMPLEJO LAS CASUARINAS",
+ "local": "BODY FACTORY",
+ "visitante": "DEPORTIVO MATADERO",
+ "gl": 4,
+ "gv": 2,
+ "detalle": {
+  "nro_partido": "944",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "PRE SENIOR",
+  "categoria": "PRE-SENIOR MASCULINO",
+  "rueda": "2",
+  "Divisional": "PRESENIOR \"D\" TIT. y ASC.",
+  "Cancha": "COMPLEJO LAS CASUARINAS",
+  "Fecha_Inicio": "2026-11-14 11:00:00",
+  "Fecha_fin": "2026-11-14 11:00:00",
+  "Locatario": "BODY FACTORY",
+  "goles_locatario": "4",
+  "puntos_locatario": "3",
+  "Visitante": "DEPORTIVO MATADERO",
+  "goles_visitante": "2",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "38951",
+   "Nombre": "FACUNDO ESTANISLAO DELGADO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "67224",
+   "Nombre": "DARIO IBAÑEZ",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "54412",
+   "Nombre": "DIEGO SERGIO BOUZA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "26989",
+   "Nombre": "MARTIN SEBASTIAN RODRIGUEZ",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "43506",
+   "Nombre": "IGNACIO PAIS",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "52544",
+   "Nombre": "ALEXIS BRAVO",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "64072",
+   "Nombre": "CHARLES GASTON BORBAS",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "43253",
+   "Nombre": "CARLOS GASTON PRIARONE",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "33420",
+   "Nombre": "MARTIN ENRIQUE AZURICA",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "27735",
+   "Nombre": "MATIAS PAIS",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "35324",
+   "Nombre": "WALTER HUGO MARTINS",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "33861",
+   "Nombre": "RODRIGO ACOSTA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "26974",
+   "Nombre": "MATEO CARMONA",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "52369",
+   "Nombre": "JOSE MARIA FERNANDEZ",
+   "camiseta": "12",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "37263",
+   "Nombre": "FELIPE MAURENTE",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "23337",
+   "Nombre": "JOAQUIN SANTIAGO MOSCA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "18823",
+   "Nombre": "SANTIAGO ADOLFO DIAZ",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "26923",
+   "Nombre": "MATHIAS MAURENTE",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "26930",
+   "Nombre": "ANDRES NICOLAS PALMA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "19824",
+   "Nombre": "FEDERICO BRUSCHI",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "48145",
+   "Nombre": "JUAN MANUEL MARTINEZ",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "25632",
+   "Nombre": "CHRISTIAN GABRIEL MALDONADO",
+   "camiseta": "25",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "43506",
+   "Jug_Sale": "IGNACIO PAIS",
+   "CarneEntra": "33642",
+   "Jug_Entra": "FERNANDO PEREZ",
+   "camiseta": "17",
+   "minutos": "44"
+  },
+  {
+   "CarneSale": "33420",
+   "Jug_Sale": "MARTIN ENRIQUE AZURICA",
+   "CarneEntra": "41743",
+   "Jug_Entra": "LUCAS EXEQUIEL DIANESSI",
+   "camiseta": "40",
+   "minutos": "46"
+  },
+  {
+   "CarneSale": "54412",
+   "Jug_Sale": "DIEGO SERGIO BOUZA",
+   "CarneEntra": "31756",
+   "Jug_Entra": "FEDERICO PALERMO",
+   "camiseta": "43",
+   "minutos": "46"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "26974",
+   "Jug_Sale": "MATEO CARMONA",
+   "CarneEntra": "22468",
+   "Jug_Entra": "RAMSES BAÑALES",
+   "camiseta": "12",
+   "minutos": "45"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "41743",
+   "Nombre": "LUCAS EXEQUIEL DIANESSI",
+   "minutos": "75",
+   "EnContra": "0"
+  },
+  {
+   "carne": "64072",
+   "Nombre": "CHARLES GASTON BORBAS",
+   "minutos": "4",
+   "EnContra": "0"
+  },
+  {
+   "carne": "64072",
+   "Nombre": "CHARLES GASTON BORBAS",
+   "minutos": "62",
+   "EnContra": "0"
+  },
+  {
+   "carne": "64072",
+   "Nombre": "CHARLES GASTON BORBAS",
+   "minutos": "70",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "37263",
+   "Nombre": "FELIPE MAURENTE",
+   "minutos": "56",
+   "EnContra": "1"
+  },
+  {
+   "carne": "48145",
+   "Nombre": "JUAN MANUEL MARTINEZ",
+   "minutos": "73",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}
