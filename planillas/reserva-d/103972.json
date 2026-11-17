@@ -7,7 +7,7 @@
  "cancha": "COMPLEJO INDEPENDIENTE UNIV.",
  "local": "VARELA UNIVERSITARIO",
  "visitante": "NUESTRA SEÑORA DE LOURDES",
- "gl": 3,
+ "gl": 4,
  "gv": 2,
  "detalle": {
   "nro_partido": "610",
@@ -18,10 +18,10 @@
   "rueda": "2",
   "Divisional": "RESERVA \"D\" COPA DE PLATA",
   "Cancha": "COMPLEJO INDEPENDIENTE UNIV.",
-  "Fecha_Inicio": "2026-11-14 12:45:00",
-  "Fecha_fin": "2026-11-14 12:45:00",
+  "Fecha_Inicio": "2026-11-14 13:10:00",
+  "Fecha_fin": "2026-11-14 13:10:00",
   "Locatario": "VARELA UNIVERSITARIO",
-  "goles_locatario": "3",
+  "goles_locatario": "4",
   "puntos_locatario": "3",
   "Visitante": "NUESTRA SEÑORA DE LOURDES",
   "goles_visitante": "2",
@@ -29,12 +29,266 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "56973",
+   "Nombre": "LUCAS CORREA",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "51803",
+   "Nombre": "SEBASTIAN TRONCOSO",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "51002",
+   "Nombre": "JUAN MANUEL PEREZ",
+   "camiseta": "92",
+   "Capitan": ""
+  },
+  {
+   "carne": "67277",
+   "Nombre": "JUAN ANDRES COTELO",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "64767",
+   "Nombre": "FACUNDO NICOLAS FARAL",
+   "camiseta": "97",
+   "Capitan": ""
+  },
+  {
+   "carne": "53826",
+   "Nombre": "JUAN IGNACIO SOSA DIAS",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "55484",
+   "Nombre": "GUILLERMO URIA",
+   "camiseta": "87",
+   "Capitan": ""
+  },
+  {
+   "carne": "50127",
+   "Nombre": "SANTIAGO CALVETE",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "64777",
+   "Nombre": "IVAN VEGOVICH",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "59752",
+   "Nombre": "RAMIRO LOPEZ",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "62585",
+   "Nombre": "ANDRES CAETANO PORCILE",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "68719",
+   "Nombre": "IGNACIO AGUSTIN VALENTE",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "61998",
+   "Nombre": "GUZMAN COUSELO",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "69095",
+   "Nombre": "LUCAS EZEQUIEL ARAMBILLETE",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "54946",
+   "Nombre": "FRANCO VICENTE CIFUENTES",
+   "camiseta": "2",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "64203",
+   "Nombre": "GUILLERMO ORTIZ",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "68876",
+   "Nombre": "THIAGO BENJAMIN VERA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "61515",
+   "Nombre": "ALAN ACOSTA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "69222",
+   "Nombre": "JUAN PABLO MARTINEZ",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "30973",
+   "Nombre": "MAXIMILIANO PEREYRA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "27059",
+   "Nombre": "RODRIGO WALTER NIETO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "67455",
+   "Nombre": "ADRIAN DAVID ACOSTA",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "53826",
+   "Jug_Sale": "JUAN IGNACIO SOSA DIAS",
+   "CarneEntra": "55669",
+   "Jug_Entra": "MATEO PINTOS",
+   "camiseta": "17",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "59752",
+   "Jug_Sale": "RAMIRO LOPEZ",
+   "CarneEntra": "64252",
+   "Jug_Entra": "SANTIAGO BORRELLI",
+   "camiseta": "28",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64777",
+   "Jug_Sale": "IVAN VEGOVICH",
+   "CarneEntra": "67475",
+   "Jug_Entra": "BRUNO MATEOS",
+   "camiseta": "70",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "51803",
+   "Jug_Sale": "SEBASTIAN TRONCOSO",
+   "CarneEntra": "64764",
+   "Jug_Entra": "SANTIAGO SANCHEZ",
+   "camiseta": "42",
+   "minutos": "51"
+  },
+  {
+   "CarneSale": "55484",
+   "Jug_Sale": "GUILLERMO URIA",
+   "CarneEntra": "64765",
+   "Jug_Entra": "FRANCISCO JAVIER RIVERO",
+   "camiseta": "25",
+   "minutos": "52"
+  },
+  {
+   "CarneSale": "62585",
+   "Jug_Sale": "ANDRES CAETANO PORCILE",
+   "CarneEntra": "52899",
+   "Jug_Entra": "JOAQUIN ZEBALLOS",
+   "camiseta": "44",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "64764",
+   "Jug_Sale": "SANTIAGO SANCHEZ",
+   "CarneEntra": "67474",
+   "Jug_Entra": "MATIAS FRANCO",
+   "camiseta": "35",
+   "minutos": "60"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "68876",
+   "Jug_Sale": "THIAGO BENJAMIN VERA",
+   "CarneEntra": "61192",
+   "Jug_Entra": "FEDERICO MESA",
+   "camiseta": "17",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "27059",
+   "Jug_Sale": "RODRIGO WALTER NIETO",
+   "CarneEntra": "69145",
+   "Jug_Entra": "LUCAS NAHUEL MENDEZ",
+   "camiseta": "6",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "61998",
+   "Jug_Sale": "GUZMAN COUSELO",
+   "CarneEntra": "30182",
+   "Jug_Entra": "TELMO CANABARRO",
+   "camiseta": "13",
+   "minutos": "80"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "53826",
+   "Nombre": "JUAN IGNACIO SOSA DIAS",
+   "minutos": "28",
+   "EnContra": "0"
+  },
+  {
+   "carne": "59752",
+   "Nombre": "RAMIRO LOPEZ",
+   "minutos": "6",
+   "EnContra": "0"
+  },
+  {
+   "carne": "64765",
+   "Nombre": "FRANCISCO JAVIER RIVERO",
+   "minutos": "93",
+   "EnContra": "0"
+  },
+  {
+   "carne": "64765",
+   "Nombre": "FRANCISCO JAVIER RIVERO",
+   "minutos": "94",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "30973",
+   "Nombre": "MAXIMILIANO PEREYRA",
+   "minutos": "27",
+   "EnContra": "1"
+  },
+  {
+   "carne": "67455",
+   "Nombre": "ADRIAN DAVID ACOSTA",
+   "minutos": "47",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

@@ -1,0 +1,247 @@
+{
+ "id": "104042",
+ "categoria": "sub18",
+ "serie": "18O",
+ "fecha": 5,
+ "fechaHora": "2026-11-15 15:30:00",
+ "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
+ "local": "CLUB SEMINARIO",
+ "visitante": "CARRASCO LAWN TENNIS",
+ "gl": 1,
+ "gv": 0,
+ "detalle": {
+  "nro_partido": "365",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 18 ",
+  "categoria": "SUB 18 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB18 ORO",
+  "Cancha": "PARQUE CUPRA - CLUB SEMINARIO",
+  "Fecha_Inicio": "2026-11-15 17:30:00",
+  "Fecha_fin": "2026-11-15 17:30:00",
+  "Locatario": "CLUB SEMINARIO",
+  "goles_locatario": "1",
+  "puntos_locatario": "3",
+  "Visitante": "CARRASCO LAWN TENNIS",
+  "goles_visitante": "0",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "58598",
+   "Nombre": "NICOLAS MAZZILLI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "59082",
+   "Nombre": "MARTIN JOSE DIAZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "63871",
+   "Nombre": "JUAN ANDRES DELGADO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "57297",
+   "Nombre": "FACUNDO SAPELLO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "62137",
+   "Nombre": "FRANCISCO BARROS",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "62030",
+   "Nombre": "FRANCO TORTEROLO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "62948",
+   "Nombre": "JOAQUIN CAPPUCCIO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "60868",
+   "Nombre": "IGNACIO ANDRES LEGARRA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "59080",
+   "Nombre": "MATIAS GOSSWEILER",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "62946",
+   "Nombre": "MATIAS DOMINGUEZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "58599",
+   "Nombre": "FACUNDO MOSCA",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "57786",
+   "Nombre": "FAUSTINO ARDITTI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "56869",
+   "Nombre": "NICOLAS PODESTA",
+   "camiseta": "36",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "62737",
+   "Nombre": "VALENTINO SPOSITO",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "63144",
+   "Nombre": "DIEGO RAFAEL DECARLINI",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "67652",
+   "Nombre": "FACUNDO PEREZ",
+   "camiseta": "61",
+   "Capitan": ""
+  },
+  {
+   "carne": "56127",
+   "Nombre": "FELIPE CROCI",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "61096",
+   "Nombre": "TOMAS ARRIETA",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "60773",
+   "Nombre": "ALFONSO SCHAICH",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "57593",
+   "Nombre": "GENARO DE MORI",
+   "camiseta": "38",
+   "Capitan": ""
+  },
+  {
+   "carne": "61859",
+   "Nombre": "JUAN SEGUNDO RODRIGUEZ",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "63410",
+   "Nombre": "TOMAS GRUDZIEN",
+   "camiseta": "34",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "62946",
+   "Jug_Sale": "MATIAS DOMINGUEZ",
+   "CarneEntra": "62166",
+   "Jug_Entra": "FELIPE AMARO LACASSY",
+   "camiseta": "13",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "62948",
+   "Jug_Sale": "JOAQUIN CAPPUCCIO",
+   "CarneEntra": "63872",
+   "Jug_Entra": "MANUEL DE LA PEÑA",
+   "camiseta": "19",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "58599",
+   "Jug_Sale": "FACUNDO MOSCA",
+   "CarneEntra": "62946",
+   "Jug_Entra": "MATIAS DOMINGUEZ",
+   "camiseta": "11",
+   "minutos": "85"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "61859",
+   "Jug_Sale": "JUAN SEGUNDO RODRIGUEZ",
+   "CarneEntra": "57612",
+   "Jug_Entra": "TOMAS ANTUÑA",
+   "camiseta": "20",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "63410",
+   "Jug_Sale": "TOMAS GRUDZIEN",
+   "CarneEntra": "57605",
+   "Jug_Entra": "SANTIAGO GONZALEZ",
+   "camiseta": "51",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "60773",
+   "Jug_Sale": "ALFONSO SCHAICH",
+   "CarneEntra": "62744",
+   "Jug_Entra": "FELIPE SARACCO",
+   "camiseta": "53",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "63144",
+   "Jug_Sale": "DIEGO RAFAEL DECARLINI",
+   "CarneEntra": "62734",
+   "Jug_Entra": "BALTAZAR FERRARO",
+   "camiseta": "48",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "56127",
+   "Jug_Sale": "FELIPE CROCI",
+   "CarneEntra": "61501",
+   "Jug_Entra": "IGNACIO PARADA",
+   "camiseta": "50",
+   "minutos": "83"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "62946",
+   "Nombre": "MATIAS DOMINGUEZ",
+   "minutos": "41",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

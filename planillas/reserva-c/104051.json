@@ -1,0 +1,308 @@
+{
+ "id": "104051",
+ "categoria": "reserva-c",
+ "serie": "RSCTA",
+ "fecha": 7,
+ "fechaHora": "2026-11-14 11:15:00",
+ "cancha": "COMPLEJO JUAN XXIII",
+ "local": "JUAN XXIII BLANCO",
+ "visitante": "SAN PABLO UNIVERSITARIO",
+ "gl": 1,
+ "gv": 2,
+ "detalle": {
+  "nro_partido": "750",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "RESERVA",
+  "categoria": "RESERVA MASCULINO",
+  "rueda": "2",
+  "Divisional": "RESERVA \"C\" TIT. y ASC.",
+  "Cancha": "COMPLEJO JUAN XXIII",
+  "Fecha_Inicio": "2026-11-14 13:15:00",
+  "Fecha_fin": "2026-11-14 13:15:00",
+  "Locatario": "JUAN XXIII BLANCO",
+  "goles_locatario": "1",
+  "puntos_locatario": "0",
+  "Visitante": "SAN PABLO UNIVERSITARIO",
+  "goles_visitante": "2",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "59263",
+   "Nombre": "MAURO ANDRES RUVERTONI",
+   "camiseta": "26",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "55283",
+   "Nombre": "IGNACIO ZABALETA",
+   "camiseta": "47",
+   "Capitan": ""
+  },
+  {
+   "carne": "59802",
+   "Nombre": "VALENTINO GORAN BARREIRO",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "58842",
+   "Nombre": "ISMAEL DE DIOS",
+   "camiseta": "92",
+   "Capitan": ""
+  },
+  {
+   "carne": "47130",
+   "Nombre": "FRANCISCO ALVAREZ DE RON",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "58861",
+   "Nombre": "SEBASTIAN RODRIGUEZ",
+   "camiseta": "50",
+   "Capitan": ""
+  },
+  {
+   "carne": "54665",
+   "Nombre": "SANTIAGO PRINA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "46955",
+   "Nombre": "FRANCISCO ARTURO CACERES",
+   "camiseta": "87",
+   "Capitan": ""
+  },
+  {
+   "carne": "61875",
+   "Nombre": "MARTIN VITABAR",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "53772",
+   "Nombre": "GIULIANO GAZZOLA",
+   "camiseta": "64",
+   "Capitan": ""
+  },
+  {
+   "carne": "51708",
+   "Nombre": "AGUSTIN FERRES",
+   "camiseta": "4",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "37731",
+   "Nombre": "SEBASTIAN VIDAL",
+   "camiseta": "39",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "39248",
+   "Nombre": "GONZALO GINEL",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "56705",
+   "Nombre": "AGUSTIN ULISES FAGIANI",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "54939",
+   "Nombre": "MAURO PEREIRA DAS NEVES",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "53751",
+   "Nombre": "FELIPE BELLORA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "52663",
+   "Nombre": "MARCOS VERNENGO",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "48053",
+   "Nombre": "CAETANO JOAQUIN RODRIGUEZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "56490",
+   "Nombre": "PABLO ANDRES SCOFFONE",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "53769",
+   "Nombre": "TIAGO DA SILVA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "51334",
+   "Nombre": "FRANCISCO ENRIQUE TRIAY",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "59329",
+   "Nombre": "MATEO LAUTARO FERNANDEZ",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "53772",
+   "Jug_Sale": "GIULIANO GAZZOLA",
+   "CarneEntra": "54720",
+   "Jug_Entra": "FRANCISCO ROBAINA",
+   "camiseta": "32",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "59802",
+   "Jug_Sale": "VALENTINO GORAN BARREIRO",
+   "CarneEntra": "58867",
+   "Jug_Entra": "BRUNO MARASCO",
+   "camiseta": "51",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "61875",
+   "Jug_Sale": "MARTIN VITABAR",
+   "CarneEntra": "50344",
+   "Jug_Entra": "FELIPE MANUEL NIETO",
+   "camiseta": "17",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "46955",
+   "Jug_Sale": "FRANCISCO ARTURO CACERES",
+   "CarneEntra": "62489",
+   "Jug_Entra": "FACUNDO PASSEGGI",
+   "camiseta": "69",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "58861",
+   "Jug_Sale": "SEBASTIAN RODRIGUEZ",
+   "CarneEntra": "49276",
+   "Jug_Entra": "MATEO TECHEIRA",
+   "camiseta": "12",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "55283",
+   "Jug_Sale": "IGNACIO ZABALETA",
+   "CarneEntra": "58047",
+   "Jug_Entra": "ALFONSO RODRIGUEZ",
+   "camiseta": "40",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "54665",
+   "Jug_Sale": "SANTIAGO PRINA",
+   "CarneEntra": "61867",
+   "Jug_Entra": "MATEO ALVAREZ",
+   "camiseta": "18",
+   "minutos": "85"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "56705",
+   "Jug_Sale": "AGUSTIN ULISES FAGIANI",
+   "CarneEntra": "50859",
+   "Jug_Entra": "ROCCO DI LEONE",
+   "camiseta": "16",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "53751",
+   "Jug_Sale": "FELIPE BELLORA",
+   "CarneEntra": "51080",
+   "Jug_Entra": "AUGUSTO SECCO",
+   "camiseta": "12",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "39248",
+   "Jug_Sale": "GONZALO GINEL",
+   "CarneEntra": "56700",
+   "Jug_Entra": "FRANCO DELISANTE",
+   "camiseta": "23",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "48053",
+   "Jug_Sale": "CAETANO JOAQUIN RODRIGUEZ",
+   "CarneEntra": "52895",
+   "Jug_Entra": "RODRIGO MORANDI",
+   "camiseta": "5",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "51334",
+   "Jug_Sale": "FRANCISCO ENRIQUE TRIAY",
+   "CarneEntra": "66219",
+   "Jug_Entra": "JOAQUIN MENENDEZ",
+   "camiseta": "24",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "52663",
+   "Jug_Sale": "MARCOS VERNENGO",
+   "CarneEntra": "41049",
+   "Jug_Entra": "MATIAS EZEQUIEL MAYER",
+   "camiseta": "40",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "59329",
+   "Jug_Sale": "MATEO LAUTARO FERNANDEZ",
+   "CarneEntra": "41050",
+   "Jug_Entra": "NICOLAS PAN",
+   "camiseta": "30",
+   "minutos": "76"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "46955",
+   "Nombre": "FRANCISCO ARTURO CACERES",
+   "minutos": "32",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "53769",
+   "Nombre": "TIAGO DA SILVA",
+   "minutos": "9",
+   "EnContra": "1"
+  },
+  {
+   "carne": "53769",
+   "Nombre": "TIAGO DA SILVA",
+   "minutos": "53",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

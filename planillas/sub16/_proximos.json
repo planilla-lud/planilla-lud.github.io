@@ -1,26 +1,5 @@
 [
  {
-  "serie": "16O",
-  "fechaHora": "2026-11-15 13:30:00",
-  "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
-  "local": "CLUB SEMINARIO",
-  "visitante": "UNIVERSITARIO VERONES"
- },
- {
-  "serie": "16O",
-  "fechaHora": "2026-11-15 13:30:00",
-  "cancha": "OLD CHRISTIANS CLUB",
-  "local": "OLD CHRISTIANS CLUB",
-  "visitante": "OLD BRENDANS CLUB"
- },
- {
-  "serie": "16P",
-  "fechaHora": "2026-11-15 13:30:00",
-  "cancha": "COMPLEJO LOS ROJOS",
-  "local": "TACUAREMBO UNIVERSITARIO",
-  "visitante": "DEPORTIVO MORON"
- },
- {
   "serie": "16C",
   "fechaHora": "2026-11-15 13:30:00",
   "cancha": "CAM. DEP. ASOC. HEBRAICA Y MAC",

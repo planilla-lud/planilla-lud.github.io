@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB16 ORO",
   "Cancha": "CIUDAD DEPORTIVA LS",
-  "Fecha_Inicio": "2026-11-15 15:00:00",
-  "Fecha_fin": "2026-11-15 15:00:00",
+  "Fecha_Inicio": "2026-11-15 15:17:00",
+  "Fecha_fin": "2026-11-15 15:17:00",
   "Locatario": "DLS CLUB",
   "goles_locatario": "0",
   "puntos_locatario": "1",
@@ -29,10 +29,202 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "61702",
+   "Nombre": "FRANCO MENDOZA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "61695",
+   "Nombre": "BRUNO GABRIEL PAZO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "65473",
+   "Nombre": "FACUNDO RODRIGUEZ",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "68734",
+   "Nombre": "FABIO LEONARDO DE ARMAS",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "64058",
+   "Nombre": "EMILIANO ANTELO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "61947",
+   "Nombre": "TIZIANO GAMBAROTTA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "61700",
+   "Nombre": "MATIAS GONZALEZ",
+   "camiseta": "21",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "66007",
+   "Nombre": "MARCELO ALESSANDRO CEPELLINI",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "64294",
+   "Nombre": "BENJAMIN ALVARO VILA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "61699",
+   "Nombre": "MATIAS DELGADO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "67075",
+   "Nombre": "NAEL GARCIA",
+   "camiseta": "5",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "61924",
+   "Nombre": "OCTAVIO ABBATE",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "66173",
+   "Nombre": "SANTIAGO AGUSTIN MARTINEZ RODRIGUEZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "62393",
+   "Nombre": "KALANI OLMEDO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "64087",
+   "Nombre": "FELIPE PEÑASCO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "67915",
+   "Nombre": "VICENTE ORTIZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "61916",
+   "Nombre": "FRANCISCO LUVIZIO",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "67924",
+   "Nombre": "MANUEL MUNIZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "62392",
+   "Nombre": "ESTEBAN FELIPE SANGUINETTI",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "66770",
+   "Nombre": "AMARO REY MEIRELLES",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "64759",
+   "Nombre": "BAUTISTA DE MELLO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "65635",
+   "Nombre": "MAURO BADANO",
+   "camiseta": "70",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "64058",
+   "Jug_Sale": "EMILIANO ANTELO",
+   "CarneEntra": "60631",
+   "Jug_Entra": "EMILIANO PEREZ",
+   "camiseta": "7",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "67075",
+   "Jug_Sale": "NAEL GARCIA",
+   "CarneEntra": "60704",
+   "Jug_Entra": "ALAN GABRIEL CHAPARRO",
+   "camiseta": "27",
+   "minutos": "26"
+  },
+  {
+   "CarneSale": "66007",
+   "Jug_Sale": "MARCELO ALESSANDRO CEPELLINI",
+   "CarneEntra": "66730",
+   "Jug_Entra": "MATIAS CATTINI",
+   "camiseta": "2",
+   "minutos": "30"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "66770",
+   "Jug_Sale": "AMARO REY MEIRELLES",
+   "CarneEntra": "60336",
+   "Jug_Entra": "MATIAS ZAQUIERE",
+   "camiseta": "50",
+   "minutos": "40"
+  },
+  {
+   "CarneSale": "62392",
+   "Jug_Sale": "ESTEBAN FELIPE SANGUINETTI",
+   "CarneEntra": "61922",
+   "Jug_Entra": "JOAQUIN ESCUDERO",
+   "camiseta": "17",
+   "minutos": "40"
+  },
+  {
+   "CarneSale": "65635",
+   "Jug_Sale": "MAURO BADANO",
+   "CarneEntra": "66972",
+   "Jug_Entra": "FEDERICO MARTIN TERZAGHI",
+   "camiseta": "19",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "66770",
+   "Jug_Sale": "AMARO REY MEIRELLES",
+   "CarneEntra": "68454",
+   "Jug_Entra": "LUCAS BRUN",
+   "camiseta": "15",
+   "minutos": "80"
+  }
+ ],
  "golesL": [],
  "golesV": [],
  "expulsadosL": [],

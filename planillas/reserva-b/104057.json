@@ -1,0 +1,303 @@
+{
+ "id": "104057",
+ "categoria": "reserva-b",
+ "serie": "RSBPD",
+ "fecha": 7,
+ "fechaHora": "2026-11-14 11:15:00",
+ "cancha": "COMPLEJO DEPORTIVO ARRAYANES",
+ "local": "SANTA ELENA LAGOMAR",
+ "visitante": "SAN JUAN BAUTISTA",
+ "gl": 2,
+ "gv": 2,
+ "detalle": {
+  "nro_partido": "723",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "RESERVA",
+  "categoria": "RESERVA MASCULINO",
+  "rueda": "2",
+  "Divisional": "RESERVA \"B\" PER. y DESC.",
+  "Cancha": "COMPLEJO DEPORTIVO ARRAYANES",
+  "Fecha_Inicio": "2026-11-14 13:15:00",
+  "Fecha_fin": "2026-11-14 13:15:00",
+  "Locatario": "SANTA ELENA LAGOMAR",
+  "goles_locatario": "2",
+  "puntos_locatario": "1",
+  "Visitante": "SAN JUAN BAUTISTA",
+  "goles_visitante": "2",
+  "puntos_visitante": "1",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "61170",
+   "Nombre": "THIAGO HANDERSSON",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "58163",
+   "Nombre": "FACUNDO IGNACIO LARROSA",
+   "camiseta": "87",
+   "Capitan": ""
+  },
+  {
+   "carne": "56497",
+   "Nombre": "LORENZO ILLIONE",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "47329",
+   "Nombre": "OCTAVIO SUM",
+   "camiseta": "2",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "65117",
+   "Nombre": "MATEO FEDERICO GALVEZ",
+   "camiseta": "53",
+   "Capitan": ""
+  },
+  {
+   "carne": "51790",
+   "Nombre": "BRUNO SOSA",
+   "camiseta": "58",
+   "Capitan": ""
+  },
+  {
+   "carne": "49231",
+   "Nombre": "AGUSTIN MATEO",
+   "camiseta": "74",
+   "Capitan": ""
+  },
+  {
+   "carne": "56495",
+   "Nombre": "BAUTISTA MATEO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "49243",
+   "Nombre": "IGNACIO JAVIER GONZALEZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "50198",
+   "Nombre": "MATHIAS RAMILO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "58300",
+   "Nombre": "GUILLERMO MAICHE",
+   "camiseta": "26",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "61816",
+   "Nombre": "MATEO RAFAEL BRANAA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "59224",
+   "Nombre": "MATIAS LEMBO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "55157",
+   "Nombre": "DIEGO YAQUINTA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "55158",
+   "Nombre": "LAUTARO LUJAN",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "50631",
+   "Nombre": "LORENZO ALTAMIRANO",
+   "camiseta": "21",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "50627",
+   "Nombre": "VICENTE MARTI",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "47801",
+   "Nombre": "FACUNDO GAMBETTA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "50725",
+   "Nombre": "JUAN IGNACIO ROSSI",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "54936",
+   "Nombre": "CARLOS PEDRO MENDIVE",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "44167",
+   "Nombre": "FEDERICO ERNESTO CHIESA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "50993",
+   "Nombre": "SANTIAGO DURAN",
+   "camiseta": "24",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "65117",
+   "Jug_Sale": "MATEO FEDERICO GALVEZ",
+   "CarneEntra": "61323",
+   "Jug_Entra": "SANTINO MIGUEL VILA",
+   "camiseta": "5",
+   "minutos": "36"
+  },
+  {
+   "CarneSale": "49243",
+   "Jug_Sale": "IGNACIO JAVIER GONZALEZ",
+   "CarneEntra": "47333",
+   "Jug_Entra": "JOAQUIN GAI",
+   "camiseta": "20",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56495",
+   "Jug_Sale": "BAUTISTA MATEO",
+   "CarneEntra": "47586",
+   "Jug_Entra": "JUAN BAUTISTA NOVO",
+   "camiseta": "8",
+   "minutos": "69"
+  },
+  {
+   "CarneSale": "49231",
+   "Jug_Sale": "AGUSTIN MATEO",
+   "CarneEntra": "45379",
+   "Jug_Entra": "LUIS MATIAS BELDERRAIN",
+   "camiseta": "17",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "51790",
+   "Jug_Sale": "BRUNO SOSA",
+   "CarneEntra": "49388",
+   "Jug_Entra": "FRANCO GONZALEZ",
+   "camiseta": "76",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "50198",
+   "Jug_Sale": "MATHIAS RAMILO",
+   "CarneEntra": "55737",
+   "Jug_Entra": "AGUSTIN MONZA",
+   "camiseta": "15",
+   "minutos": "90"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "50627",
+   "Jug_Sale": "VICENTE MARTI",
+   "CarneEntra": "55155",
+   "Jug_Entra": "MATIAS DURAN",
+   "camiseta": "90",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "54936",
+   "Jug_Sale": "CARLOS PEDRO MENDIVE",
+   "CarneEntra": "45761",
+   "Jug_Entra": "FELIPE VIERA",
+   "camiseta": "2",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "50725",
+   "Jug_Sale": "JUAN IGNACIO ROSSI",
+   "CarneEntra": "50625",
+   "Jug_Entra": "IGNACIO GARCIA",
+   "camiseta": "7",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "55157",
+   "Jug_Sale": "DIEGO YAQUINTA",
+   "CarneEntra": "52792",
+   "Jug_Entra": "PABLO TOMAS SILVA",
+   "camiseta": "12",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "44167",
+   "Jug_Sale": "FEDERICO ERNESTO CHIESA",
+   "CarneEntra": "55340",
+   "Jug_Entra": "AGUSTIN MARTINEZ",
+   "camiseta": "71",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "50631",
+   "Jug_Sale": "LORENZO ALTAMIRANO",
+   "CarneEntra": "52859",
+   "Jug_Entra": "ALEN DOMINGUEZ",
+   "camiseta": "17",
+   "minutos": "83"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "45379",
+   "Nombre": "LUIS MATIAS BELDERRAIN",
+   "minutos": "89",
+   "EnContra": "0"
+  },
+  {
+   "carne": "58300",
+   "Nombre": "GUILLERMO MAICHE",
+   "minutos": "39",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "44167",
+   "Nombre": "FEDERICO ERNESTO CHIESA",
+   "minutos": "37",
+   "EnContra": "1"
+  },
+  {
+   "carne": "50625",
+   "Nombre": "IGNACIO GARCIA",
+   "minutos": "67",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": [
+  {
+   "Nombre": "MATIAS LEMBO",
+   "observaciones": ""
+  }
+ ]
+}

@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB18 ORO",
   "Cancha": "MONTE VI \"LOS CEIBOS\"",
-  "Fecha_Inicio": "2026-11-15 17:00:00",
-  "Fecha_fin": "2026-11-15 17:00:00",
+  "Fecha_Inicio": "2026-11-15 17:30:00",
+  "Fecha_fin": "2026-11-15 17:30:00",
   "Locatario": "CEIBOS CLUB",
   "goles_locatario": "4",
   "puntos_locatario": "3",
@@ -29,12 +29,260 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "65418",
+   "Nombre": "AGUSTIN ALVEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "66147",
+   "Nombre": "LEANDRO CAMBÒN",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "61039",
+   "Nombre": "FELIPE SOBRAL",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "65335",
+   "Nombre": "JUAN BAUTISTA RODRIGUEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "62671",
+   "Nombre": "JOAQUIN CURBELO",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "57924",
+   "Nombre": "FACUNDO IMANOL OLARREAGA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "62071",
+   "Nombre": "JOAQUIN MARIA BARTOL",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "60333",
+   "Nombre": "MANUEL LLORENTE",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "62865",
+   "Nombre": "BENJAMIN FERNANDEZ",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "67622",
+   "Nombre": "FRANCISCO FYNN",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "62224",
+   "Nombre": "PEDRO NARANCIO",
+   "camiseta": "19",
+   "Capitan": "(C)"
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "59105",
+   "Nombre": "GABRIEL ALFREDO GAMARRA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "61465",
+   "Nombre": "GERMAN PINTOS",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "61480",
+   "Nombre": "MATIAS GASPAR ALBIN",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "57682",
+   "Nombre": "FELIPE VALENTIN FAGUNDEZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "61475",
+   "Nombre": "ALAN VLADYMIR MEDIZA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "58732",
+   "Nombre": "YUNIOR YULIANY LAGOS",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "67807",
+   "Nombre": "WASHINGTON NICOLAS ARIAS",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "64511",
+   "Nombre": "MATEO NAHUEL MUNIZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "67800",
+   "Nombre": "WELLINGTON JONATHAN DE SOUZA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "61467",
+   "Nombre": "AMADEO LOPEZ",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "64513",
+   "Nombre": "THIAGO MARTIN RAMIREZ",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "66147",
+   "Jug_Sale": "LEANDRO CAMBÒN",
+   "CarneEntra": "64871",
+   "Jug_Entra": "TIMOTEO PERRIER",
+   "camiseta": "6",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "62071",
+   "Jug_Sale": "JOAQUIN MARIA BARTOL",
+   "CarneEntra": "66147",
+   "Jug_Entra": "LEANDRO CAMBÒN",
+   "camiseta": "7",
+   "minutos": "67"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "64511",
+   "Jug_Sale": "MATEO NAHUEL MUNIZ",
+   "CarneEntra": "56505",
+   "Jug_Entra": "IGNACIO PICASSO",
+   "camiseta": "13",
+   "minutos": "16"
+  },
+  {
+   "CarneSale": "59105",
+   "Jug_Sale": "GABRIEL ALFREDO GAMARRA",
+   "CarneEntra": "67802",
+   "Jug_Entra": "JUAN IGNACIO CARDOZO",
+   "camiseta": "12",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61475",
+   "Jug_Sale": "ALAN VLADYMIR MEDIZA",
+   "CarneEntra": "67810",
+   "Jug_Entra": "EFRAIN DANIEL TOLEDO",
+   "camiseta": "23",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64513",
+   "Jug_Sale": "THIAGO MARTIN RAMIREZ",
+   "CarneEntra": "61466",
+   "Jug_Entra": "SANTIAGO JOAQUIN RODRIGUEZ",
+   "camiseta": "6",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67807",
+   "Jug_Sale": "WASHINGTON NICOLAS ARIAS",
+   "CarneEntra": "61469",
+   "Jug_Entra": "MATHIAS NAHUEL DA SILVEIRA",
+   "camiseta": "18",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "67800",
+   "Jug_Sale": "WELLINGTON JONATHAN DE SOUZA",
+   "CarneEntra": "58741",
+   "Jug_Entra": "FABRICIO SEBASTIAN DA COSTA",
+   "camiseta": "26",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "61465",
+   "Jug_Sale": "GERMAN PINTOS",
+   "CarneEntra": "64509",
+   "Jug_Entra": "GEEANMARCO TIZIANO LOPEZ",
+   "camiseta": "17",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "61467",
+   "Jug_Sale": "AMADEO LOPEZ",
+   "CarneEntra": "64503",
+   "Jug_Entra": "SANTIAGO NICOLAS ALCANTARA",
+   "camiseta": "33",
+   "minutos": "71"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "61039",
+   "Nombre": "FELIPE SOBRAL",
+   "minutos": "20",
+   "EnContra": "0"
+  },
+  {
+   "carne": "61039",
+   "Nombre": "FELIPE SOBRAL",
+   "minutos": "67",
+   "EnContra": "0"
+  },
+  {
+   "carne": "61039",
+   "Nombre": "FELIPE SOBRAL",
+   "minutos": "89",
+   "EnContra": "0"
+  },
+  {
+   "carne": "62071",
+   "Nombre": "JOAQUIN MARIA BARTOL",
+   "minutos": "10",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "61480",
+   "Nombre": "MATIAS GASPAR ALBIN",
+   "minutos": "84",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

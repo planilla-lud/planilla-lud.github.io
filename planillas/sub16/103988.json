@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB16 PLATA",
   "Cancha": "COMPLEJO URUNDAY UNIVERSITARIO",
-  "Fecha_Inicio": "2026-11-15 15:00:00",
-  "Fecha_fin": "2026-11-15 15:00:00",
+  "Fecha_Inicio": "2026-11-15 15:15:00",
+  "Fecha_fin": "2026-11-15 15:15:00",
   "Locatario": "URUNDAY UNIVERSITARIO",
   "goles_locatario": "7",
   "puntos_locatario": "3",
@@ -29,11 +29,302 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "67901",
+   "Nombre": "MATEO CHAVES",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "62257",
+   "Nombre": "EMILIANO GARCIA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "67902",
+   "Nombre": "JUAN BAUTISTA GONZALEZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "68809",
+   "Nombre": "SANTIAGO BENITEZ",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "67898",
+   "Nombre": "MATHIAS MANUEL SALDAÑA",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "64456",
+   "Nombre": "GIANLUCA IORLANO",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "65248",
+   "Nombre": "TIZIANO RAMOS",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "68525",
+   "Nombre": "ADIP NASSER",
+   "camiseta": "32",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "66828",
+   "Nombre": "JUAN MARTIN BELLO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "67900",
+   "Nombre": "NICOLAS CAPORALE",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "62252",
+   "Nombre": "SANTIAGO GONZALEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "65090",
+   "Nombre": "SANTINO BERRUETA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "62878",
+   "Nombre": "SANTIAGO TORRES",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "65087",
+   "Nombre": "GUILLERMO CACERES",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "65089",
+   "Nombre": "IGNACIO VARELA",
+   "camiseta": "4",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "65088",
+   "Nombre": "JUAN IGNACIO FONSECA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "65520",
+   "Nombre": "AMIT JAVIER DONAS",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "63557",
+   "Nombre": "MANUEL CANTERA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "65553",
+   "Nombre": "FEDERICO SURRA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "65082",
+   "Nombre": "ALFONSO GERVAZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "63376",
+   "Nombre": "JOAQUIN BUSTOS",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "67911",
+   "Nombre": "JUAN BAUTISTA SCOTTI",
+   "camiseta": "18",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "62257",
+   "Jug_Sale": "EMILIANO GARCIA",
+   "CarneEntra": "67896",
+   "Jug_Entra": "MATEO HERNANDEZ",
+   "camiseta": "66",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64456",
+   "Jug_Sale": "GIANLUCA IORLANO",
+   "CarneEntra": "65243",
+   "Jug_Entra": "BAUTISTA LABORDE",
+   "camiseta": "9",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67901",
+   "Jug_Sale": "MATEO CHAVES",
+   "CarneEntra": "60587",
+   "Jug_Entra": "LEONEL GERONIMO SINFUENTES",
+   "camiseta": "89",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "65248",
+   "Jug_Sale": "TIZIANO RAMOS",
+   "CarneEntra": "68277",
+   "Jug_Entra": "VALENTINO LOPEZ",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "62252",
+   "Jug_Sale": "SANTIAGO GONZALEZ",
+   "CarneEntra": "67897",
+   "Jug_Entra": "SANTINO DE PATTI",
+   "camiseta": "29",
+   "minutos": "53"
+  },
+  {
+   "CarneSale": "68525",
+   "Jug_Sale": "ADIP NASSER",
+   "CarneEntra": "62483",
+   "Jug_Entra": "JUAN IGNACIO FREGUEIRO",
+   "camiseta": "15",
+   "minutos": "53"
+  },
+  {
+   "CarneSale": "66828",
+   "Jug_Sale": "JUAN MARTIN BELLO",
+   "CarneEntra": "62250",
+   "Jug_Entra": "JUSTINO QUINTERO",
+   "camiseta": "14",
+   "minutos": "53"
+  },
+  {
+   "CarneSale": "67902",
+   "Jug_Sale": "JUAN BAUTISTA GONZALEZ",
+   "CarneEntra": "62247",
+   "Jug_Entra": "TOMAS BENTANCOR",
+   "camiseta": "8",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "67900",
+   "Jug_Sale": "NICOLAS CAPORALE",
+   "CarneEntra": "66829",
+   "Jug_Entra": "FACUNDO MATIAS IZZI",
+   "camiseta": "23",
+   "minutos": "60"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "63557",
+   "Jug_Sale": "MANUEL CANTERA",
+   "CarneEntra": "68789",
+   "Jug_Entra": "GUSTAVO ALEXANDER LOPEZ",
+   "camiseta": "22",
+   "minutos": "48"
+  },
+  {
+   "CarneSale": "65082",
+   "Jug_Sale": "ALFONSO GERVAZ",
+   "CarneEntra": "65521",
+   "Jug_Entra": "MAXIMO CAL",
+   "camiseta": "27",
+   "minutos": "48"
+  },
+  {
+   "CarneSale": "65088",
+   "Jug_Sale": "JUAN IGNACIO FONSECA",
+   "CarneEntra": "65524",
+   "Jug_Entra": "FRANCO TOMAS NUÑEZ",
+   "camiseta": "11",
+   "minutos": "48"
+  },
+  {
+   "CarneSale": "65087",
+   "Jug_Sale": "GUILLERMO CACERES",
+   "CarneEntra": "63557",
+   "Jug_Entra": "MANUEL CANTERA",
+   "camiseta": "6",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "65520",
+   "Jug_Sale": "AMIT JAVIER DONAS",
+   "CarneEntra": "65088",
+   "Jug_Entra": "JUAN IGNACIO FONSECA",
+   "camiseta": "5",
+   "minutos": "75"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "62252",
+   "Nombre": "SANTIAGO GONZALEZ",
+   "minutos": "10",
+   "EnContra": "0"
+  },
+  {
+   "carne": "66828",
+   "Nombre": "JUAN MARTIN BELLO",
+   "minutos": "41",
+   "EnContra": "0"
+  },
+  {
+   "carne": "67898",
+   "Nombre": "MATHIAS MANUEL SALDAÑA",
+   "minutos": "73",
+   "EnContra": "0"
+  },
+  {
+   "carne": "67900",
+   "Nombre": "NICOLAS CAPORALE",
+   "minutos": "21",
+   "EnContra": "0"
+  },
+  {
+   "carne": "67900",
+   "Nombre": "NICOLAS CAPORALE",
+   "minutos": "22",
+   "EnContra": "0"
+  },
+  {
+   "carne": "67902",
+   "Nombre": "JUAN BAUTISTA GONZALEZ",
+   "minutos": "29",
+   "EnContra": "0"
+  },
+  {
+   "carne": "67902",
+   "Nombre": "JUAN BAUTISTA GONZALEZ",
+   "minutos": "35",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

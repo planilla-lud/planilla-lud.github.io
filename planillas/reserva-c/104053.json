@@ -1,0 +1,301 @@
+{
+ "id": "104053",
+ "categoria": "reserva-c",
+ "serie": "RSCTA",
+ "fecha": 7,
+ "fechaHora": "2026-11-14 11:15:00",
+ "cancha": "COLEGIO PIO",
+ "local": "CENTRO CRISTOBAL COLON",
+ "visitante": "CEIBOS CLUB VERDE",
+ "gl": 2,
+ "gv": 0,
+ "detalle": {
+  "nro_partido": "751",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "RESERVA",
+  "categoria": "RESERVA MASCULINO",
+  "rueda": "2",
+  "Divisional": "RESERVA \"C\" TIT. y ASC.",
+  "Cancha": "COLEGIO PIO",
+  "Fecha_Inicio": "2026-11-14 13:00:00",
+  "Fecha_fin": "2026-11-14 13:00:00",
+  "Locatario": "CENTRO CRISTOBAL COLON",
+  "goles_locatario": "2",
+  "puntos_locatario": "3",
+  "Visitante": "CEIBOS CLUB VERDE",
+  "goles_visitante": "0",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "64261",
+   "Nombre": "SANTIAGO HERRERA",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "62352",
+   "Nombre": "SANTIAGO RICCONE",
+   "camiseta": "51",
+   "Capitan": ""
+  },
+  {
+   "carne": "63850",
+   "Nombre": "FACUNDO NAHUEL VIDAL",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "52342",
+   "Nombre": "SANTIAGO MICHELINI",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "57654",
+   "Nombre": "DONATO NOCETTI",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "50976",
+   "Nombre": "NICOLAS EZEQUIEL GUTIERREZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "50423",
+   "Nombre": "MARTIN GARCIA",
+   "camiseta": "24",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56887",
+   "Nombre": "JUAN MANUEL MASEDA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "61897",
+   "Nombre": "MATIAS MARCELO VERO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "62131",
+   "Nombre": "GONZALO RICCONE",
+   "camiseta": "41",
+   "Capitan": ""
+  },
+  {
+   "carne": "63517",
+   "Nombre": "FELIPE FERREIRA",
+   "camiseta": "99",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "54917",
+   "Nombre": "IGNACIO JOSE LUIS BRAGA",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "39059",
+   "Nombre": "GUILLERMO JOSE BARREIRO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "50906",
+   "Nombre": "IGNACION PEREZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "58663",
+   "Nombre": "JOAQUIN ETCHELAR",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "62073",
+   "Nombre": "JUAN IGNACIO PEVERELLI",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "49360",
+   "Nombre": "TOMAS JOSE TARIGO",
+   "camiseta": "17",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "49450",
+   "Nombre": "AGUSTIN MATEO MACHADO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "58049",
+   "Nombre": "FELIPE GARCIA PINTOS",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "62490",
+   "Nombre": "NICOLAS MARTIN LOGIURATO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "56341",
+   "Nombre": "FRANCISCO SOBRAL",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "47807",
+   "Nombre": "JUAN ANDRES BRATSCHI",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "63517",
+   "Jug_Sale": "FELIPE FERREIRA",
+   "CarneEntra": "67324",
+   "Jug_Entra": "FRANCO VALIENTE",
+   "camiseta": "27",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "52342",
+   "Jug_Sale": "SANTIAGO MICHELINI",
+   "CarneEntra": "45350",
+   "Jug_Entra": "BRUNO GASTON DIAZ",
+   "camiseta": "44",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56887",
+   "Jug_Sale": "JUAN MANUEL MASEDA",
+   "CarneEntra": "61602",
+   "Jug_Entra": "JOAQUIN FERNANDEZ",
+   "camiseta": "66",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61897",
+   "Jug_Sale": "MATIAS MARCELO VERO",
+   "CarneEntra": "52424",
+   "Jug_Entra": "MARCOS DANIEL CARREÑO",
+   "camiseta": "14",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "50423",
+   "Jug_Sale": "MARTIN GARCIA",
+   "CarneEntra": "64472",
+   "Jug_Entra": "JUAN MARTIN SUCAZES",
+   "camiseta": "23",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "50976",
+   "Jug_Sale": "NICOLAS EZEQUIEL GUTIERREZ",
+   "CarneEntra": "58071",
+   "Jug_Entra": "FELIPE IRIGOYEN",
+   "camiseta": "7",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "57654",
+   "Jug_Sale": "DONATO NOCETTI",
+   "CarneEntra": "61831",
+   "Jug_Entra": "MATIAS PENNA",
+   "camiseta": "16",
+   "minutos": "45"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "50906",
+   "Jug_Sale": "IGNACION PEREZ",
+   "CarneEntra": "53494",
+   "Jug_Entra": "NICOLAS LUIS SERE",
+   "camiseta": "5",
+   "minutos": "38"
+  },
+  {
+   "CarneSale": "62490",
+   "Jug_Sale": "NICOLAS MARTIN LOGIURATO",
+   "CarneEntra": "43259",
+   "Jug_Entra": "SANTIAGO MARIA FIGUEREDO",
+   "camiseta": "14",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "56341",
+   "Jug_Sale": "FRANCISCO SOBRAL",
+   "CarneEntra": "63757",
+   "Jug_Entra": "IGNACIO ALVAREZ",
+   "camiseta": "15",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "58049",
+   "Jug_Sale": "FELIPE GARCIA PINTOS",
+   "CarneEntra": "61186",
+   "Jug_Entra": "JOAQUIN MARIA FLORES",
+   "camiseta": "21",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "58663",
+   "Jug_Sale": "JOAQUIN ETCHELAR",
+   "CarneEntra": "50908",
+   "Jug_Entra": "NICOLAS JOSE MOREIRA",
+   "camiseta": "16",
+   "minutos": "81"
+  },
+  {
+   "CarneSale": "39059",
+   "Jug_Sale": "GUILLERMO JOSE BARREIRO",
+   "CarneEntra": "62453",
+   "Jug_Entra": "NICOLAS MENDIETA",
+   "camiseta": "12",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "47807",
+   "Jug_Sale": "JUAN ANDRES BRATSCHI",
+   "CarneEntra": "64881",
+   "Jug_Entra": "FELIPE MENDEZ",
+   "camiseta": "11",
+   "minutos": "85"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "45350",
+   "Nombre": "BRUNO GASTON DIAZ",
+   "minutos": "76",
+   "EnContra": "0"
+  },
+  {
+   "carne": "61897",
+   "Nombre": "MATIAS MARCELO VERO",
+   "minutos": "24",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

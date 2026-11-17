@@ -1,0 +1,253 @@
+{
+ "id": "104055",
+ "categoria": "sub16",
+ "serie": "16O",
+ "fecha": 5,
+ "fechaHora": "2026-11-15 13:30:00",
+ "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
+ "local": "CLUB SEMINARIO",
+ "visitante": "UNIVERSITARIO VERONES",
+ "gl": 0,
+ "gv": 2,
+ "detalle": {
+  "nro_partido": "300",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 16 ",
+  "categoria": "SUB 16 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB16 ORO",
+  "Cancha": "PARQUE CUPRA - CLUB SEMINARIO",
+  "Fecha_Inicio": "2026-11-15 15:00:00",
+  "Fecha_fin": "2026-11-15 15:00:00",
+  "Locatario": "CLUB SEMINARIO",
+  "goles_locatario": "0",
+  "puntos_locatario": "0",
+  "Visitante": "UNIVERSITARIO VERONES",
+  "goles_visitante": "2",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "62569",
+   "Nombre": "MATIAS GABRIEL COLOMBO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "62803",
+   "Nombre": "FRANCISCO RIVA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "65112",
+   "Nombre": "JUAN MARTIN LALUZ",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "66450",
+   "Nombre": "GERONIMO PASEYRO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "62626",
+   "Nombre": "ALFONSO MARQUISA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "67353",
+   "Nombre": "JUAN MARTIN BIDEGAIN",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "65318",
+   "Nombre": "JUAN PEDRO DAMONTE",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "65365",
+   "Nombre": "JUAN VALENTI",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "65109",
+   "Nombre": "GONZALO ALEJANDRO CASSARINO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "65111",
+   "Nombre": "FELIPE VIOLA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "65173",
+   "Nombre": "ANTONIO XALAMBRI",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "66830",
+   "Nombre": "SANTINO MARTINEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "62519",
+   "Nombre": "TIAGO ZUVELA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "64022",
+   "Nombre": "BENJAMIN MENDEZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "65837",
+   "Nombre": "MATIAS ALBE",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "68101",
+   "Nombre": "KEVIN SANTIAGO MONTES",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "62832",
+   "Nombre": "FRANCO DANIEL PAZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "60532",
+   "Nombre": "MANUEL FELIPE PEREIRA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "62532",
+   "Nombre": "AUGUSTO RODRIGUEZ",
+   "camiseta": "4",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "62516",
+   "Nombre": "LUCAS CONTIN",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "62829",
+   "Nombre": "MARTIN BRUNO LACUESTA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "62520",
+   "Nombre": "RODRIGO LIGÜERA",
+   "camiseta": "20",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "62626",
+   "Jug_Sale": "ALFONSO MARQUISA",
+   "CarneEntra": "65165",
+   "Jug_Entra": "FRANCO TAMBORINI",
+   "camiseta": "20",
+   "minutos": "53"
+  },
+  {
+   "CarneSale": "65365",
+   "Jug_Sale": "JUAN VALENTI",
+   "CarneEntra": "67340",
+   "Jug_Entra": "LUCAS CANDIA",
+   "camiseta": "5",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "67353",
+   "Jug_Sale": "JUAN MARTIN BIDEGAIN",
+   "CarneEntra": "65365",
+   "Jug_Entra": "JUAN VALENTI",
+   "camiseta": "60",
+   "minutos": "70"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "66830",
+   "Jug_Sale": "SANTINO MARTINEZ",
+   "CarneEntra": "62515",
+   "Jug_Entra": "SANTIAGO ACOSTA",
+   "camiseta": "19",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64022",
+   "Jug_Sale": "BENJAMIN MENDEZ",
+   "CarneEntra": "62523",
+   "Jug_Entra": "GUILLERMO WARREN",
+   "camiseta": "9",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "62829",
+   "Jug_Sale": "MARTIN BRUNO LACUESTA",
+   "CarneEntra": "64345",
+   "Jug_Entra": "ELIAS DAVID MARTINEZ",
+   "camiseta": "2",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "60532",
+   "Jug_Sale": "MANUEL FELIPE PEREIRA",
+   "CarneEntra": "62829",
+   "Jug_Entra": "MARTIN BRUNO LACUESTA",
+   "camiseta": "21",
+   "minutos": "69"
+  },
+  {
+   "CarneSale": "62832",
+   "Jug_Sale": "FRANCO DANIEL PAZ",
+   "CarneEntra": "64022",
+   "Jug_Entra": "BENJAMIN MENDEZ",
+   "camiseta": "17",
+   "minutos": "77"
+  }
+ ],
+ "golesL": [],
+ "golesV": [
+  {
+   "carne": "60532",
+   "Nombre": "MANUEL FELIPE PEREIRA",
+   "minutos": "4",
+   "EnContra": "1"
+  },
+  {
+   "carne": "68101",
+   "Nombre": "KEVIN SANTIAGO MONTES",
+   "minutos": "48",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

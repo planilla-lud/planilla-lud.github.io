@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB18 BRONCE",
   "Cancha": "THE ANGLO SCHOOL",
-  "Fecha_Inicio": "2026-11-15 17:00:00",
-  "Fecha_fin": "2026-11-15 17:00:00",
+  "Fecha_Inicio": "2026-11-15 17:25:00",
+  "Fecha_fin": "2026-11-15 17:25:00",
   "Locatario": "ANGLO SCHOOL UNIVERSITARIO",
   "goles_locatario": "4",
   "puntos_locatario": "3",
@@ -29,12 +29,287 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "66339",
+   "Nombre": "MATEO MARCOS FAZIO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "63040",
+   "Nombre": "LORENZO PEREIRA DA FONSECA",
+   "camiseta": "3",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "69156",
+   "Nombre": "LUCAS OREILLY",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "60487",
+   "Nombre": "SANTIAGO LUVIZIO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "60481",
+   "Nombre": "IGNACIO MARTIN GOMEZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "60337",
+   "Nombre": "MATEO GLISENTI",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "66778",
+   "Nombre": "SANTIAGO MACEDO",
+   "camiseta": "50",
+   "Capitan": ""
+  },
+  {
+   "carne": "66732",
+   "Nombre": "FACUNDO GALLINO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "64236",
+   "Nombre": "NICOLAS KRUL",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "62547",
+   "Nombre": "GUILERMO DIEGO POMI",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "60554",
+   "Nombre": "JUAN PATRICIO MOSCA",
+   "camiseta": "8",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "62408",
+   "Nombre": "VALENTIN CHADICOV",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "62406",
+   "Nombre": "BRUNO AREVALO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "61733",
+   "Nombre": "BRUNO SANTINO COPPOLA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "58002",
+   "Nombre": "FELIPE MONTEMURRO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "58804",
+   "Nombre": "GENARO DI GREGORIO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "61732",
+   "Nombre": "MARTIN CARBALLO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "58809",
+   "Nombre": "MATEO SCOTTI",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "62154",
+   "Nombre": "FACUNDO MARTINEZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "58807",
+   "Nombre": "ALEJANDRO FERRARI",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "58806",
+   "Nombre": "MATIAS CAGNOLI",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "57052",
+   "Nombre": "VALENTIN VIDAL",
+   "camiseta": "25",
+   "Capitan": "(C)"
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "60481",
+   "Jug_Sale": "IGNACIO MARTIN GOMEZ",
+   "CarneEntra": "67129",
+   "Jug_Entra": "DELLAN SANTANA",
+   "camiseta": "20",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "63040",
+   "Jug_Sale": "LORENZO PEREIRA DA FONSECA",
+   "CarneEntra": "60461",
+   "Jug_Entra": "BAUTISTA LOPEZ",
+   "camiseta": "15",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "66732",
+   "Jug_Sale": "FACUNDO GALLINO",
+   "CarneEntra": "68430",
+   "Jug_Entra": "ENZO MIRABALLES",
+   "camiseta": "77",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "62547",
+   "Jug_Sale": "GUILERMO DIEGO POMI",
+   "CarneEntra": "67128",
+   "Jug_Entra": "FRANCISCO VERNASSA",
+   "camiseta": "7",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "60554",
+   "Jug_Sale": "JUAN PATRICIO MOSCA",
+   "CarneEntra": "62547",
+   "Jug_Entra": "GUILERMO DIEGO POMI",
+   "camiseta": "11",
+   "minutos": "77"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "58807",
+   "Jug_Sale": "ALEJANDRO FERRARI",
+   "CarneEntra": "63320",
+   "Jug_Entra": "VALENTINO STROZZI",
+   "camiseta": "21",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "58804",
+   "Jug_Sale": "GENARO DI GREGORIO",
+   "CarneEntra": "58001",
+   "Jug_Entra": "JUAN MANUEL BENITEZ",
+   "camiseta": "17",
+   "minutos": "46"
+  },
+  {
+   "CarneSale": "61733",
+   "Jug_Sale": "BRUNO SANTINO COPPOLA",
+   "CarneEntra": "61734",
+   "Jug_Entra": "JUAN VALSECHI",
+   "camiseta": "14",
+   "minutos": "46"
+  },
+  {
+   "CarneSale": "58809",
+   "Jug_Sale": "MATEO SCOTTI",
+   "CarneEntra": "56238",
+   "Jug_Entra": "THIAGO GONZALEZ",
+   "camiseta": "16",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "58002",
+   "Jug_Sale": "FELIPE MONTEMURRO",
+   "CarneEntra": "64263",
+   "Jug_Entra": "JUAN MANUEL DUPONT",
+   "camiseta": "7",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "62154",
+   "Jug_Sale": "FACUNDO MARTINEZ",
+   "CarneEntra": "64264",
+   "Jug_Entra": "DIEGO JAUNSOLO",
+   "camiseta": "5",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "61734",
+   "Jug_Sale": "JUAN VALSECHI",
+   "CarneEntra": "58809",
+   "Jug_Entra": "MATEO SCOTTI",
+   "camiseta": "19",
+   "minutos": "90"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "60337",
+   "Nombre": "MATEO GLISENTI",
+   "minutos": "49",
+   "EnContra": "0"
+  },
+  {
+   "carne": "60554",
+   "Nombre": "JUAN PATRICIO MOSCA",
+   "minutos": "52",
+   "EnContra": "0"
+  },
+  {
+   "carne": "60554",
+   "Nombre": "JUAN PATRICIO MOSCA",
+   "minutos": "54",
+   "EnContra": "0"
+  },
+  {
+   "carne": "62547",
+   "Nombre": "GUILERMO DIEGO POMI",
+   "minutos": "91",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "57052",
+   "Nombre": "VALENTIN VIDAL",
+   "minutos": "90",
+   "EnContra": "1"
+  },
+  {
+   "carne": "58806",
+   "Nombre": "MATIAS CAGNOLI",
+   "minutos": "65",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
- "expulsadosV": []
+ "expulsadosV": [
+  {
+   "Nombre": "MATIAS CAGNOLI",
+   "observaciones": ""
+  }
+ ]
 }

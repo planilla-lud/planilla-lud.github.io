@@ -7,8 +7,8 @@
  "cancha": "COM. CLUB UNIVERSIDAD CATOLICA",
  "local": "NUMA TURCATTI",
  "visitante": "ARQUITECTURA JRS.",
- "gl": 2,
- "gv": 1,
+ "gl": 1,
+ "gv": 2,
  "detalle": {
   "nro_partido": "508",
   "temporada": "RAFAEL \"CANARIO\" GARCÍA",
@@ -18,23 +18,259 @@
   "rueda": "3",
   "Divisional": "SUB18 AMISTAD",
   "Cancha": "COM. CLUB UNIVERSIDAD CATOLICA",
-  "Fecha_Inicio": "2026-11-15 17:00:00",
-  "Fecha_fin": "2026-11-15 17:00:00",
+  "Fecha_Inicio": "2026-11-15 17:20:00",
+  "Fecha_fin": "2026-11-15 17:20:00",
   "Locatario": "NUMA TURCATTI",
-  "goles_locatario": "2",
-  "puntos_locatario": "3",
+  "goles_locatario": "1",
+  "puntos_locatario": "0",
   "Visitante": "ARQUITECTURA JRS.",
-  "goles_visitante": "1",
-  "puntos_visitante": "0",
+  "goles_visitante": "2",
+  "puntos_visitante": "3",
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "67738",
+   "Nombre": "IGNACIO MIGUEL LOPEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "56571",
+   "Nombre": "SANTIAGO GUSTAVO ALVAREZ",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "67236",
+   "Nombre": "FACUNDO DUARTE",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "57617",
+   "Nombre": "JUAN IGNACIO ARRILLAGA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "68029",
+   "Nombre": "MARCO VERNASSA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "69074",
+   "Nombre": "LAUTARO NICOLAS RODRIGUEZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "67233",
+   "Nombre": "RENZO SAMUEL GENTILIO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "68232",
+   "Nombre": "THIAGO MATEO FERREIRA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "67175",
+   "Nombre": "FACUNDO AGUSTIN DUARTE",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "67174",
+   "Nombre": "MARTIN TIAGO LIMA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "67234",
+   "Nombre": "RODRIGO HERNAN MARTINEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "66090",
+   "Nombre": "TEO CASAS",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "59461",
+   "Nombre": "FEDERICO MAIORANA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "66335",
+   "Nombre": "AGUSTIN CUÑA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "63363",
+   "Nombre": "NICOLAS OTERO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "61802",
+   "Nombre": "MATEO ZOLESSI",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "57788",
+   "Nombre": "MANUEL BERMUDEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "56059",
+   "Nombre": "MARTIN REYES",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "68957",
+   "Nombre": "SANTIAGO TRIAS",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "66051",
+   "Nombre": "GUILLERMO SANTIAGO RUSSO",
+   "camiseta": "9",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "64584",
+   "Nombre": "MANUEL SUAREZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "60882",
+   "Nombre": "SANTIAGO PEREIRA",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "68232",
+   "Jug_Sale": "THIAGO MATEO FERREIRA",
+   "CarneEntra": "69187",
+   "Jug_Entra": "MATEO ISMAEL CHARLE FAGUNDEZ",
+   "camiseta": "32",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "57617",
+   "Jug_Sale": "JUAN IGNACIO ARRILLAGA",
+   "CarneEntra": "65468",
+   "Jug_Entra": "IVAN LAUTARO MORALES",
+   "camiseta": "14",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67233",
+   "Jug_Sale": "RENZO SAMUEL GENTILIO",
+   "CarneEntra": "63007",
+   "Jug_Entra": "MARCELL AGUSTIN CRUZ",
+   "camiseta": "6",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67236",
+   "Jug_Sale": "FACUNDO DUARTE",
+   "CarneEntra": "65681",
+   "Jug_Entra": "NICOLAS IGNACIO LARROSA",
+   "camiseta": "17",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56571",
+   "Jug_Sale": "SANTIAGO GUSTAVO ALVAREZ",
+   "CarneEntra": "67304",
+   "Jug_Entra": "JUAN MANUEL PAZOS",
+   "camiseta": "21",
+   "minutos": "32"
+  },
+  {
+   "CarneSale": "69187",
+   "Jug_Sale": "MATEO ISMAEL CHARLE FAGUNDEZ",
+   "CarneEntra": "68232",
+   "Jug_Entra": "THIAGO MATEO FERREIRA",
+   "camiseta": "20",
+   "minutos": "45"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "68957",
+   "Jug_Sale": "SANTIAGO TRIAS",
+   "CarneEntra": "60437",
+   "Jug_Entra": "BRUNO ANDRES CASTILLO",
+   "camiseta": "31",
+   "minutos": "59"
+  },
+  {
+   "CarneSale": "66090",
+   "Jug_Sale": "TEO CASAS",
+   "CarneEntra": "66534",
+   "Jug_Entra": "GONZALO MARTIN LLOVET",
+   "camiseta": "1",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66335",
+   "Jug_Sale": "AGUSTIN CUÑA",
+   "CarneEntra": "68590",
+   "Jug_Entra": "JERONIMO BOCCHI",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "59461",
+   "Jug_Sale": "FEDERICO MAIORANA",
+   "CarneEntra": "63154",
+   "Jug_Entra": "FELIPE GARZINA",
+   "camiseta": "4",
+   "minutos": "71"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "67304",
+   "Nombre": "JUAN MANUEL PAZOS",
+   "minutos": "78",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "63363",
+   "Nombre": "NICOLAS OTERO",
+   "minutos": "81",
+   "EnContra": "1"
+  },
+  {
+   "carne": "63363",
+   "Nombre": "NICOLAS OTERO",
+   "minutos": "90",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

@@ -1,0 +1,266 @@
+{
+ "id": "104050",
+ "categoria": "sub18",
+ "serie": "18A",
+ "fecha": 5,
+ "fechaHora": "2026-11-15 15:30:00",
+ "cancha": "COM. DEP. CLUB TROUVILLE",
+ "local": "TROUVILLE UNIVERSITARIO",
+ "visitante": "COLEGIO Y LICEO INGLES",
+ "gl": 3,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "507",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 18 ",
+  "categoria": "SUB 18 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB18 AMISTAD",
+  "Cancha": "COM. DEP. CLUB TROUVILLE",
+  "Fecha_Inicio": "2026-11-15 17:34:00",
+  "Fecha_fin": "2026-11-15 17:34:00",
+  "Locatario": "TROUVILLE UNIVERSITARIO",
+  "goles_locatario": "3",
+  "puntos_locatario": "3",
+  "Visitante": "COLEGIO Y LICEO INGLES",
+  "goles_visitante": "1",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "58328",
+   "Nombre": "MIRKO NICOLAS ZUVELA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "61112",
+   "Nombre": "GUILLERMO BALDOVINO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "64956",
+   "Nombre": "TOMAS GONZALEZ",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "59764",
+   "Nombre": "SANTIAGO IRIARTE",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "61490",
+   "Nombre": "IGNACIO RODRIGUEZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "58050",
+   "Nombre": "AGUSTIN RIVERA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "68285",
+   "Nombre": "IGNACIO FONTES",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "64698",
+   "Nombre": "LORENZO GALEANO",
+   "camiseta": "19",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "59195",
+   "Nombre": "AGUSTIN CERUELO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "61628",
+   "Nombre": "TOMAS VAZQUEZ",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "61436",
+   "Nombre": "ENZO BESOZZI",
+   "camiseta": "8",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "64433",
+   "Nombre": "SANTIAGO LUCAS RODRIGUEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "64421",
+   "Nombre": "FAUSTINO SALVO",
+   "camiseta": "8",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "65996",
+   "Nombre": "MATEO EYHERALDE",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "68008",
+   "Nombre": "LUCAS ANTONIO RUIZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "64512",
+   "Nombre": "LUCAS LLUIS",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "57671",
+   "Nombre": "VALENTINO SILVA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "68436",
+   "Nombre": "FRANCISCO RIVERO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "64235",
+   "Nombre": "PEDRO RAMOS",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "62971",
+   "Nombre": "FACUNDO GABRIEL FRAGA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "60763",
+   "Nombre": "JUAN ALFONSO FREIRE",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "60491",
+   "Nombre": "TOMAS LENZI",
+   "camiseta": "13",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "61436",
+   "Jug_Sale": "ENZO BESOZZI",
+   "CarneEntra": "62979",
+   "Jug_Entra": "LUCIO DAMIANI",
+   "camiseta": "22",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61112",
+   "Jug_Sale": "GUILLERMO BALDOVINO",
+   "CarneEntra": "66224",
+   "Jug_Entra": "BENJAMIN JORGE ROCHA",
+   "camiseta": "13",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68285",
+   "Jug_Sale": "IGNACIO FONTES",
+   "CarneEntra": "68283",
+   "Jug_Entra": "JULIAN CHARLO",
+   "camiseta": "13",
+   "minutos": "64"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "60763",
+   "Jug_Sale": "JUAN ALFONSO FREIRE",
+   "CarneEntra": "68237",
+   "Jug_Entra": "SANTIAGO LEONCINI",
+   "camiseta": "19",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "62971",
+   "Jug_Sale": "FACUNDO GABRIEL FRAGA",
+   "CarneEntra": "68436",
+   "Jug_Entra": "FRANCISCO RIVERO",
+   "camiseta": "23",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "68436",
+   "Jug_Sale": "FRANCISCO RIVERO",
+   "CarneEntra": "60763",
+   "Jug_Entra": "JUAN ALFONSO FREIRE",
+   "camiseta": "9",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64235",
+   "Jug_Sale": "PEDRO RAMOS",
+   "CarneEntra": "68234",
+   "Jug_Entra": "FELIPE ANDRES DOMINGUEZ",
+   "camiseta": "14",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "60763",
+   "Jug_Sale": "JUAN ALFONSO FREIRE",
+   "CarneEntra": "62971",
+   "Jug_Entra": "FACUNDO GABRIEL FRAGA",
+   "camiseta": "5",
+   "minutos": "82"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "61436",
+   "Nombre": "ENZO BESOZZI",
+   "minutos": "9",
+   "EnContra": "0"
+  },
+  {
+   "carne": "64698",
+   "Nombre": "LORENZO GALEANO",
+   "minutos": "51",
+   "EnContra": "0"
+  },
+  {
+   "carne": "64698",
+   "Nombre": "LORENZO GALEANO",
+   "minutos": "52",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "62971",
+   "Nombre": "FACUNDO GABRIEL FRAGA",
+   "minutos": "34",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

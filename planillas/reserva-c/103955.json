@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"C\" PER. y DESC.",
   "Cancha": "COMPLEJO JUAN XXIII",
-  "Fecha_Inicio": "2026-11-14 10:30:00",
-  "Fecha_fin": "2026-11-14 10:30:00",
+  "Fecha_Inicio": "2026-11-14 11:00:00",
+  "Fecha_fin": "2026-11-14 11:00:00",
   "Locatario": "LA BLANQUEADA",
   "goles_locatario": "4",
   "puntos_locatario": "3",
@@ -29,12 +29,244 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "54360",
+   "Nombre": "MARCOS NICOLAS ERNANDEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "51381",
+   "Nombre": "DIEGO MARTIN SUAREZ",
+   "camiseta": "36",
+   "Capitan": ""
+  },
+  {
+   "carne": "54193",
+   "Nombre": "GASTON LOMBARDO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "51477",
+   "Nombre": "VICTOR VIERA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "49915",
+   "Nombre": "GASTON GUTIERREZ",
+   "camiseta": "24",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "51528",
+   "Nombre": "CARLOS ALFREDO DUARTE",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "53316",
+   "Nombre": "SANTIAGO NAHUEL NUÑEZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "41360",
+   "Nombre": "JUAN IGNACIO OLIVERA",
+   "camiseta": "37",
+   "Capitan": ""
+  },
+  {
+   "carne": "55234",
+   "Nombre": "LUCAS DO VALLE PEIXOTO",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "38912",
+   "Nombre": "CESAR LUIS PIEDRABUENA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "62312",
+   "Nombre": "MARCELO JAVIER SPANO",
+   "camiseta": "12",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "66297",
+   "Nombre": "CRISTIAN VELOZ",
+   "camiseta": "1",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "66845",
+   "Nombre": "FACUNDO OLIVERA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "66630",
+   "Nombre": "FRANCISCO PEREZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "55028",
+   "Nombre": "JUAN RODRIGUEZ",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "61101",
+   "Nombre": "MATIAS NICOLAS GARCIA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "68897",
+   "Nombre": "MATHIAS ANDRES LOPEZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "49820",
+   "Nombre": "AGUSTIN RODRIGUEZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "46778",
+   "Nombre": "FRANCO MANUEL FIGUEREDO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "66691",
+   "Nombre": "BRUNO ALEXIS ARAUJO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "35790",
+   "Nombre": "RODRIGO SILVA",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "63413",
+   "Nombre": "JUAN IGNACIO MERNIES",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "41360",
+   "Jug_Sale": "JUAN IGNACIO OLIVERA",
+   "CarneEntra": "39881",
+   "Jug_Entra": "GERMAN MARTINEZ",
+   "camiseta": "7",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "53316",
+   "Jug_Sale": "SANTIAGO NAHUEL NUÑEZ",
+   "CarneEntra": "53309",
+   "Jug_Entra": "LUCIO GUALANO",
+   "camiseta": "43",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "51381",
+   "Jug_Sale": "DIEGO MARTIN SUAREZ",
+   "CarneEntra": "55228",
+   "Jug_Entra": "CRISTIAN ADRIAN LEMOS",
+   "camiseta": "25",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "55234",
+   "Jug_Sale": "LUCAS DO VALLE PEIXOTO",
+   "CarneEntra": "35220",
+   "Jug_Entra": "LUCIANO LOPEZ",
+   "camiseta": "11",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "51528",
+   "Jug_Sale": "CARLOS ALFREDO DUARTE",
+   "CarneEntra": "47468",
+   "Jug_Entra": "IGNACIO ANIDAPE",
+   "camiseta": "92",
+   "minutos": "81"
+  },
+  {
+   "CarneSale": "54193",
+   "Jug_Sale": "GASTON LOMBARDO",
+   "CarneEntra": "68751",
+   "Jug_Entra": "BRUNO MANUEL MENA",
+   "camiseta": "29",
+   "minutos": "81"
+  },
+  {
+   "CarneSale": "38912",
+   "Jug_Sale": "CESAR LUIS PIEDRABUENA",
+   "CarneEntra": "54872",
+   "Jug_Entra": "LAUTARO EMILIANO MENDEZ",
+   "camiseta": "87",
+   "minutos": "84"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "68897",
+   "Jug_Sale": "MATHIAS ANDRES LOPEZ",
+   "CarneEntra": "51755",
+   "Jug_Entra": "IGNACIO BARRALES",
+   "camiseta": "20",
+   "minutos": "45"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "38912",
+   "Nombre": "CESAR LUIS PIEDRABUENA",
+   "minutos": "45",
+   "EnContra": "0"
+  },
+  {
+   "carne": "38912",
+   "Nombre": "CESAR LUIS PIEDRABUENA",
+   "minutos": "76",
+   "EnContra": "0"
+  },
+  {
+   "carne": "55228",
+   "Nombre": "CRISTIAN ADRIAN LEMOS",
+   "minutos": "68",
+   "EnContra": "0"
+  },
+  {
+   "carne": "62312",
+   "Nombre": "MARCELO JAVIER SPANO",
+   "minutos": "41",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "46778",
+   "Nombre": "FRANCO MANUEL FIGUEREDO",
+   "minutos": "49",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

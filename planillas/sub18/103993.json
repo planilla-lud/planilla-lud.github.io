@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB18 BRONCE",
   "Cancha": "CLUB ALEMAN",
-  "Fecha_Inicio": "2026-11-15 17:00:00",
-  "Fecha_fin": "2026-11-15 17:00:00",
+  "Fecha_Inicio": "2026-11-15 17:20:00",
+  "Fecha_fin": "2026-11-15 17:20:00",
   "Locatario": "ALEMAN UNIVERSITARIO",
   "goles_locatario": "3",
   "puntos_locatario": "3",
@@ -29,11 +29,246 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "58980",
+   "Nombre": "MATEO PONCE DE LEON",
+   "camiseta": "78",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "59264",
+   "Nombre": "JUAN FRANCISCO JIMENEZ DE ARECHAGA",
+   "camiseta": "73",
+   "Capitan": ""
+  },
+  {
+   "carne": "62638",
+   "Nombre": "LEANDRO BARBOZA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "64307",
+   "Nombre": "VALENTIN GRUBITS",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "68153",
+   "Nombre": "MATEO DEAMBROSI",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "59473",
+   "Nombre": "SANTIAGO OUTERELO",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "57678",
+   "Nombre": "MATIAS AGUSTIN ALVES",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "59109",
+   "Nombre": "SANTIAGO ALVAREZ",
+   "camiseta": "82",
+   "Capitan": ""
+  },
+  {
+   "carne": "59474",
+   "Nombre": "AGUSTIN CHIAPPORI",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "62640",
+   "Nombre": "FRANCO ANDRES LOPEZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "58855",
+   "Nombre": "JOAQUIN MARTINEZ",
+   "camiseta": "33",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "68449",
+   "Nombre": "JHOAN ELIEN GOPAR",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "63490",
+   "Nombre": "FELIPE DIAZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "58824",
+   "Nombre": "JOAQUIN VILA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "58818",
+   "Nombre": "MAXIMILIANO BORDOLLI",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "68979",
+   "Nombre": "GERONIMO CAJA",
+   "camiseta": "39",
+   "Capitan": ""
+  },
+  {
+   "carne": "58820",
+   "Nombre": "ARAM MOURADIAN",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "58822",
+   "Nombre": "SANTIAGO BERTOLA",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "60301",
+   "Nombre": "FEDERICO JAVIER AMILIVIA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "62900",
+   "Nombre": "FACUNDO FERREYRA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "58821",
+   "Nombre": "MATEO BERTOLA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "67974",
+   "Nombre": "GIANLUCA PEÑA",
+   "camiseta": "17",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "58855",
+   "Jug_Sale": "JOAQUIN MARTINEZ",
+   "CarneEntra": "68152",
+   "Jug_Entra": "LEANDRO FERNANDEZ",
+   "camiseta": "9",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "62638",
+   "Jug_Sale": "LEANDRO BARBOZA",
+   "CarneEntra": "56121",
+   "Jug_Entra": "TOMAS APRAHAMIAN",
+   "camiseta": "18",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "59473",
+   "Jug_Sale": "SANTIAGO OUTERELO",
+   "CarneEntra": "66398",
+   "Jug_Entra": "VALENTINO ESCAMES",
+   "camiseta": "40",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "62640",
+   "Jug_Sale": "FRANCO ANDRES LOPEZ",
+   "CarneEntra": "63038",
+   "Jug_Entra": "FELIPE LIGÜERA",
+   "camiseta": "23",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "59474",
+   "Jug_Sale": "AGUSTIN CHIAPPORI",
+   "CarneEntra": "63664",
+   "Jug_Entra": "FACUNDO BLEZIO",
+   "camiseta": "22",
+   "minutos": "87"
+  },
+  {
+   "CarneSale": "57678",
+   "Jug_Sale": "MATIAS AGUSTIN ALVES",
+   "CarneEntra": "64335",
+   "Jug_Entra": "JUAN FRANCISCO ALTESOR",
+   "camiseta": "80",
+   "minutos": "80"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "58821",
+   "Jug_Sale": "MATEO BERTOLA",
+   "CarneEntra": "62116",
+   "Jug_Entra": "MATEO FERRARI",
+   "camiseta": "10",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "68979",
+   "Jug_Sale": "GERONIMO CAJA",
+   "CarneEntra": "68776",
+   "Jug_Entra": "JOAQUIN GOMEZ",
+   "camiseta": "48",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "58818",
+   "Jug_Sale": "MAXIMILIANO BORDOLLI",
+   "CarneEntra": "58821",
+   "Jug_Entra": "MATEO BERTOLA",
+   "camiseta": "15",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "60301",
+   "Jug_Sale": "FEDERICO JAVIER AMILIVIA",
+   "CarneEntra": "68979",
+   "Jug_Entra": "GERONIMO CAJA",
+   "camiseta": "39",
+   "minutos": "79"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "62640",
+   "Nombre": "FRANCO ANDRES LOPEZ",
+   "minutos": "35",
+   "EnContra": "0"
+  },
+  {
+   "carne": "64335",
+   "Nombre": "JUAN FRANCISCO ALTESOR",
+   "minutos": "93",
+   "EnContra": "0"
+  },
+  {
+   "carne": "66398",
+   "Nombre": "VALENTINO ESCAMES",
+   "minutos": "87",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

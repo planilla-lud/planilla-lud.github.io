@@ -1,0 +1,262 @@
+{
+ "id": "104044",
+ "categoria": "sub18",
+ "serie": "18P",
+ "fecha": 5,
+ "fechaHora": "2026-11-15 15:30:00",
+ "cancha": "ELF (LICEO FRANCES)",
+ "local": "E.L.F.",
+ "visitante": "COLEGIO SANTA ELENA",
+ "gl": 1,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "393",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 18 ",
+  "categoria": "SUB 18 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB18 PLATA",
+  "Cancha": "ELF (LICEO FRANCES)",
+  "Fecha_Inicio": "2026-11-15 17:20:00",
+  "Fecha_fin": "2026-11-15 17:20:00",
+  "Locatario": "E.L.F.",
+  "goles_locatario": "1",
+  "puntos_locatario": "1",
+  "Visitante": "COLEGIO SANTA ELENA",
+  "goles_visitante": "1",
+  "puntos_visitante": "1",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "62388",
+   "Nombre": "GONZALO VERANO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "67093",
+   "Nombre": "FEDERICO SISIASVILI",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "56753",
+   "Nombre": "JUAN MARTIN BENQUET",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "60273",
+   "Nombre": "LUCAS FLORENTINO",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "57687",
+   "Nombre": "RAMIRO MENDEZ",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "57927",
+   "Nombre": "MATEO TIO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "64228",
+   "Nombre": "FELIPE BARDIER",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "62055",
+   "Nombre": "IGNACIO PAKLAYAN",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "67092",
+   "Nombre": "FACUNDO ABDALA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "57571",
+   "Nombre": "THEO FAURE",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "61087",
+   "Nombre": "MANUEL RODRIGUEZ",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "62694",
+   "Nombre": "NOAH ELIAS LEFKARITIS",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "64156",
+   "Nombre": "GUILLERMO ZAMPROGNO",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "58409",
+   "Nombre": "LUCIANO CABRERA",
+   "camiseta": "71",
+   "Capitan": ""
+  },
+  {
+   "carne": "62530",
+   "Nombre": "ELIAN SHARIM TEJERIA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "63150",
+   "Nombre": "MATHIAS PABLO FAZZIO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "58135",
+   "Nombre": "TIAGO JULIEN ALVAREZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "58136",
+   "Nombre": "MATEO BENSASSON",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "66257",
+   "Nombre": "FACUNDO CIPILIANO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "67071",
+   "Nombre": "BRUNO SANCHEZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "63065",
+   "Nombre": "RODRIGO BENTANCOURT",
+   "camiseta": "79",
+   "Capitan": ""
+  },
+  {
+   "carne": "57679",
+   "Nombre": "JUAN MANUEL BELLO",
+   "camiseta": "6",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "62055",
+   "Jug_Sale": "IGNACIO PAKLAYAN",
+   "CarneEntra": "69155",
+   "Jug_Entra": "MAEL FONTANA",
+   "camiseta": "20",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "57927",
+   "Jug_Sale": "MATEO TIO",
+   "CarneEntra": "68414",
+   "Jug_Entra": "DANTE CERCHIARI",
+   "camiseta": "10",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "57571",
+   "Jug_Sale": "THEO FAURE",
+   "CarneEntra": "62844",
+   "Jug_Entra": "THIAGO BOUREL",
+   "camiseta": "4",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "60273",
+   "Jug_Sale": "LUCAS FLORENTINO",
+   "CarneEntra": "67516",
+   "Jug_Entra": "FRANCISCO MORAGUES",
+   "camiseta": "3",
+   "minutos": "43"
+  },
+  {
+   "CarneSale": "67092",
+   "Jug_Sale": "FACUNDO ABDALA",
+   "CarneEntra": "60273",
+   "Jug_Entra": "LUCAS FLORENTINO",
+   "camiseta": "22",
+   "minutos": "83"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "63065",
+   "Jug_Sale": "RODRIGO BENTANCOURT",
+   "CarneEntra": "63760",
+   "Jug_Entra": "JUAN MANUEL RODRIGUEZ",
+   "camiseta": "8",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66257",
+   "Jug_Sale": "FACUNDO CIPILIANO",
+   "CarneEntra": "62914",
+   "Jug_Entra": "EMILIANO MILA",
+   "camiseta": "20",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "67071",
+   "Jug_Sale": "BRUNO SANCHEZ",
+   "CarneEntra": "62528",
+   "Jug_Entra": "IGNACIO ARIMON",
+   "camiseta": "80",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "58136",
+   "Jug_Sale": "MATEO BENSASSON",
+   "CarneEntra": "61890",
+   "Jug_Entra": "FELIPE MOLFINO",
+   "camiseta": "27",
+   "minutos": "74"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "61087",
+   "Nombre": "MANUEL RODRIGUEZ",
+   "minutos": "29",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "57679",
+   "Nombre": "JUAN MANUEL BELLO",
+   "minutos": "20",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

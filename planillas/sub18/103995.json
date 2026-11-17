@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB18 COMPETENCIA",
   "Cancha": "COMPLEJO COLEGIO JESÚS MARÍA",
-  "Fecha_Inicio": "2026-11-15 17:00:00",
-  "Fecha_fin": "2026-11-15 17:00:00",
+  "Fecha_Inicio": "2026-11-15 17:15:00",
+  "Fecha_fin": "2026-11-15 17:15:00",
   "Locatario": "CLUB JESUS MARIA",
   "goles_locatario": "3",
   "puntos_locatario": "3",
@@ -29,11 +29,262 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "63266",
+   "Nombre": "JUAN MANUEL LOPEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "60473",
+   "Nombre": "JUAN AGUSTIN LOPEZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "62822",
+   "Nombre": "JOAQUIN LARREA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "62476",
+   "Nombre": "MATIAS NICOLAS CABRERA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "62063",
+   "Nombre": "RODRIGO RUBIO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "62069",
+   "Nombre": "SANTIAGO SILVA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "62059",
+   "Nombre": "FELIPE RUBIO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "57870",
+   "Nombre": "SANTINO BARATE",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "58819",
+   "Nombre": "GERONIMO ACUÑA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "62058",
+   "Nombre": "FACUNDO BARRIOS",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "62062",
+   "Nombre": "AFONSO COSTA",
+   "camiseta": "13",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "68615",
+   "Nombre": "MATIAS EZEQUIEL PROFUMO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "67190",
+   "Nombre": "FRANCISCO JONES",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "62679",
+   "Nombre": "JUAN VICENTE GRISTO",
+   "camiseta": "4",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "67202",
+   "Nombre": "MANUEL IGNACIO NUÑEZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "67200",
+   "Nombre": "TOMAS DEGRANDI",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "58398",
+   "Nombre": "PEDRO LA ROSA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "67196",
+   "Nombre": "MANUEL SOUZA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "58832",
+   "Nombre": "IVAN PFEIFENKOPF",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "60071",
+   "Nombre": "MANUEL DENIS",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "67194",
+   "Nombre": "TOMAS CORREA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "60065",
+   "Nombre": "CIRO LENCI",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "62062",
+   "Jug_Sale": "AFONSO COSTA",
+   "CarneEntra": "64903",
+   "Jug_Entra": "GUILLERMO LOPEZ",
+   "camiseta": "80",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "62476",
+   "Jug_Sale": "MATIAS NICOLAS CABRERA",
+   "CarneEntra": "62475",
+   "Jug_Entra": "CLEMENTE PEIRANO",
+   "camiseta": "22",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "62059",
+   "Jug_Sale": "FELIPE RUBIO",
+   "CarneEntra": "65555",
+   "Jug_Entra": "JOAQUIN MEDINA",
+   "camiseta": "19",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58819",
+   "Jug_Sale": "GERONIMO ACUÑA",
+   "CarneEntra": "61920",
+   "Jug_Entra": "BAUTISTA TARIGO",
+   "camiseta": "99",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "62063",
+   "Jug_Sale": "RODRIGO RUBIO",
+   "CarneEntra": "61918",
+   "Jug_Entra": "LORENZO SILVA",
+   "camiseta": "5",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "62059",
+   "Jug_Sale": "FELIPE RUBIO",
+   "CarneEntra": "62070",
+   "Jug_Entra": "FABRICIO ROMEO RUVERTONI",
+   "camiseta": "23",
+   "minutos": "77"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "67202",
+   "Jug_Sale": "MANUEL IGNACIO NUÑEZ",
+   "CarneEntra": "67196",
+   "Jug_Entra": "MANUEL SOUZA",
+   "camiseta": "27",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67194",
+   "Jug_Sale": "TOMAS CORREA",
+   "CarneEntra": "67198",
+   "Jug_Entra": "MATIAS GERMAN COLOTUZZO",
+   "camiseta": "40",
+   "minutos": "52"
+  },
+  {
+   "CarneSale": "58832",
+   "Jug_Sale": "IVAN PFEIFENKOPF",
+   "CarneEntra": "67192",
+   "Jug_Entra": "JUAN FELIPE CORRADI",
+   "camiseta": "22",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "62679",
+   "Jug_Sale": "JUAN VICENTE GRISTO",
+   "CarneEntra": "67560",
+   "Jug_Entra": "FEDERICO RODRIGUEZ",
+   "camiseta": "23",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "67200",
+   "Jug_Sale": "TOMAS DEGRANDI",
+   "CarneEntra": "67197",
+   "Jug_Entra": "IÑAKI IZAGUIRRE",
+   "camiseta": "29",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "60071",
+   "Jug_Sale": "MANUEL DENIS",
+   "CarneEntra": "67558",
+   "Jug_Entra": "LORENZO CASTRO",
+   "camiseta": "3",
+   "minutos": "80"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "57870",
+   "Nombre": "SANTINO BARATE",
+   "minutos": "36",
+   "EnContra": "0"
+  },
+  {
+   "carne": "62063",
+   "Nombre": "RODRIGO RUBIO",
+   "minutos": "23",
+   "EnContra": "0"
+  },
+  {
+   "carne": "62063",
+   "Nombre": "RODRIGO RUBIO",
+   "minutos": "66",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

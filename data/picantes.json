@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-16T01:24:18.739Z",
+ "actualizado": "2026-11-17T03:45:46.520Z",
  "partidos": [
   {
    "div": "sub16-oro",
@@ -11,11 +11,11 @@
    "hora": "00:00",
    "etapa": "Copa de Oro",
    "pl": 1,
-   "pv": 4,
+   "pv": 3,
    "n": 8,
    "base": 0,
    "tipo": "titulo",
-   "altasL": 0,
+   "altasL": 2,
    "altasV": 1
   },
   {
@@ -28,12 +28,12 @@
    "hora": "15:30",
    "etapa": "Copa de Oro",
    "pl": 4,
-   "pv": 2,
+   "pv": 1,
    "n": 8,
    "base": 0,
    "tipo": "titulo",
-   "altasL": 2,
-   "altasV": 3
+   "altasL": 1,
+   "altasV": 0
   },
   {
    "div": "sub16-oro",
@@ -44,8 +44,8 @@
    "dia": "2026-11-19",
    "hora": "18:30",
    "etapa": "Copa de Oro",
-   "pl": 4,
-   "pv": 3,
+   "pl": 3,
+   "pv": 4,
    "n": 8,
    "base": 0,
    "tipo": "titulo",

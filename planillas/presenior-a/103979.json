@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "PRESENIOR \"A\" PER. y DESC",
   "Cancha": "CAM. DEP. ASOC. HEBRAICA Y MAC",
-  "Fecha_Inicio": "2026-11-14 12:45:00",
-  "Fecha_fin": "2026-11-14 12:45:00",
+  "Fecha_Inicio": "2026-11-14 13:15:00",
+  "Fecha_fin": "2026-11-14 13:15:00",
   "Locatario": "HEBRAICA UNIVERSITARIO",
   "goles_locatario": "3",
   "puntos_locatario": "3",
@@ -29,12 +29,236 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "21670",
+   "Nombre": "ELI PERELMUTER",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "35360",
+   "Nombre": "ALBERTO BENTANCUR",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "44994",
+   "Nombre": "GUSTAVO RODZEWICZ",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "37102",
+   "Nombre": "NICOLAS DIEGO MARIÑANSKY",
+   "camiseta": "23",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "22953",
+   "Nombre": "ANDRES GHELMAN",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "35701",
+   "Nombre": "EMILIANO SEBASTIAN ACUÑA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "30253",
+   "Nombre": "SANTIAGO SAUL",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "48355",
+   "Nombre": "DARIO STEINBERG",
+   "camiseta": "45",
+   "Capitan": ""
+  },
+  {
+   "carne": "34651",
+   "Nombre": "MARCEL POZIOMEK",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "17276",
+   "Nombre": "PABLO JAVIER CANEPA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "32001",
+   "Nombre": "GIOVANNI ZEOLI",
+   "camiseta": "32",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "37846",
+   "Nombre": "CHRISTIAN DEL CASTILLO",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "45419",
+   "Nombre": "DIEGO JAVIER CHAVES",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "19450",
+   "Nombre": "MARTIN CIAPPESONI",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "35597",
+   "Nombre": "FABIAN CHIRIBAO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "40793",
+   "Nombre": "FERNANDO ABDO",
+   "camiseta": "70",
+   "Capitan": ""
+  },
+  {
+   "carne": "28083",
+   "Nombre": "JUAN PEDRO BALBI",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "33785",
+   "Nombre": "ALEJANDRO RAYMOND",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "34126",
+   "Nombre": "ALEXIS GERMAN GARRO",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "28073",
+   "Nombre": "CHRISTIAN FERNANDO VIGORITO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "65023",
+   "Nombre": "BRUNO MATIAS SOSA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "27042",
+   "Nombre": "MAXIMILIANO ALBERTO CHIRIBAO",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "30253",
+   "Jug_Sale": "SANTIAGO SAUL",
+   "CarneEntra": "44143",
+   "Jug_Entra": "FACUNDO KOGAN",
+   "camiseta": "99",
+   "minutos": "28"
+  },
+  {
+   "CarneSale": "34651",
+   "Jug_Sale": "MARCEL POZIOMEK",
+   "CarneEntra": "15418",
+   "Jug_Entra": "ALEX MICHEL DICHTENBERG",
+   "camiseta": "7",
+   "minutos": "40"
+  },
+  {
+   "CarneSale": "37102",
+   "Jug_Sale": "NICOLAS DIEGO MARIÑANSKY",
+   "CarneEntra": "35092",
+   "Jug_Entra": "NICOLAS POZIOMEK",
+   "camiseta": "18",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "44994",
+   "Jug_Sale": "GUSTAVO RODZEWICZ",
+   "CarneEntra": "19092",
+   "Jug_Entra": "IUVAL OSCAR OLESKER",
+   "camiseta": "3",
+   "minutos": "45"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "27042",
+   "Jug_Sale": "MAXIMILIANO ALBERTO CHIRIBAO",
+   "CarneEntra": "15508",
+   "Jug_Entra": "DANIEL SEBASTIAN MARTINEZ",
+   "camiseta": "9",
+   "minutos": "48"
+  },
+  {
+   "CarneSale": "28083",
+   "Jug_Sale": "JUAN PEDRO BALBI",
+   "CarneEntra": "26332",
+   "Jug_Entra": "SEBASTIAN CARDOZO",
+   "camiseta": "13",
+   "minutos": "48"
+  },
+  {
+   "CarneSale": "37846",
+   "Jug_Sale": "CHRISTIAN DEL CASTILLO",
+   "CarneEntra": "25259",
+   "Jug_Entra": "MATHIAS SEBASTIAN MIZRAJI",
+   "camiseta": "25",
+   "minutos": "45"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "15418",
+   "Nombre": "ALEX MICHEL DICHTENBERG",
+   "minutos": "74",
+   "EnContra": "0"
+  },
+  {
+   "carne": "21670",
+   "Nombre": "ELI PERELMUTER",
+   "minutos": "56",
+   "EnContra": "0"
+  },
+  {
+   "carne": "34651",
+   "Nombre": "MARCEL POZIOMEK",
+   "minutos": "6",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "15508",
+   "Nombre": "DANIEL SEBASTIAN MARTINEZ",
+   "minutos": "52",
+   "EnContra": "1"
+  },
+  {
+   "carne": "27042",
+   "Nombre": "MAXIMILIANO ALBERTO CHIRIBAO",
+   "minutos": "33",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

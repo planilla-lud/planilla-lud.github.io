@@ -1,0 +1,267 @@
+{
+ "id": "104046",
+ "categoria": "reserva-b",
+ "serie": "RSBPD",
+ "fecha": 7,
+ "fechaHora": "2026-11-14 09:00:00",
+ "cancha": "COMPLEJO JUAN XXIII",
+ "local": "JUAN XXIII",
+ "visitante": "CLUB UNIVERSIDAD CATOLICA",
+ "gl": 0,
+ "gv": 3,
+ "detalle": {
+  "nro_partido": "722",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "RESERVA",
+  "categoria": "RESERVA MASCULINO",
+  "rueda": "2",
+  "Divisional": "RESERVA \"B\" PER. y DESC.",
+  "Cancha": "COMPLEJO JUAN XXIII",
+  "Fecha_Inicio": "2026-11-14 10:50:00",
+  "Fecha_fin": "2026-11-14 10:50:00",
+  "Locatario": "JUAN XXIII",
+  "goles_locatario": "0",
+  "puntos_locatario": "0",
+  "Visitante": "CLUB UNIVERSIDAD CATOLICA",
+  "goles_visitante": "3",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "51507",
+   "Nombre": "MATEO BERTOLA",
+   "camiseta": "67",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "54675",
+   "Nombre": "EMILIANO SALVO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "58853",
+   "Nombre": "FRANCISCO GANDIOLI",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "58850",
+   "Nombre": "NICOLAS GANDIOLI",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "43172",
+   "Nombre": "HERNAN YAÑEZ",
+   "camiseta": "36",
+   "Capitan": ""
+  },
+  {
+   "carne": "52613",
+   "Nombre": "JUAN MANUEL BUERO",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "54670",
+   "Nombre": "BRUNO NICOLAS LARRIEU",
+   "camiseta": "97",
+   "Capitan": ""
+  },
+  {
+   "carne": "49486",
+   "Nombre": "IGNACIO GONZALEZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "55233",
+   "Nombre": "DANTE PEÑA",
+   "camiseta": "81",
+   "Capitan": ""
+  },
+  {
+   "carne": "41717",
+   "Nombre": "SANTIAGO PEREYRA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "51841",
+   "Nombre": "SANTIAGO DANIEL RAMBAO",
+   "camiseta": "25",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "47663",
+   "Nombre": "ANTHONE IVAN MARTINEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "33299",
+   "Nombre": "GUILLERMO BRUNO",
+   "camiseta": "13",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56909",
+   "Nombre": "JOAQUIN NICOLAS NAVAS",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "60895",
+   "Nombre": "TOMAS ANDRES OTERO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "61141",
+   "Nombre": "ADRIAN IGNACIO GALVAN",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "51756",
+   "Nombre": "JUAN IGNACIO PERTUSSO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "53606",
+   "Nombre": "GUILLERMO ANDRES REBOLLO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "64990",
+   "Nombre": "ISMAEL PUGLIA",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "58896",
+   "Nombre": "JUAN ANTONIO GONZALEZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "63608",
+   "Nombre": "PABLO MARI",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "51402",
+   "Nombre": "JUAN PEDRO PERDOMO",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "43172",
+   "Jug_Sale": "HERNAN YAÑEZ",
+   "CarneEntra": "55078",
+   "Jug_Entra": "JOAQUIN CELIBERTI",
+   "camiseta": "18",
+   "minutos": "53"
+  },
+  {
+   "CarneSale": "58853",
+   "Jug_Sale": "FRANCISCO GANDIOLI",
+   "CarneEntra": "49422",
+   "Jug_Entra": "MARTIN ESTEBAN DECIA",
+   "camiseta": "61",
+   "minutos": "67"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "51402",
+   "Jug_Sale": "JUAN PEDRO PERDOMO",
+   "CarneEntra": "46926",
+   "Jug_Entra": "MATIAS ANDRES MUNIZ",
+   "camiseta": "27",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "63608",
+   "Jug_Sale": "PABLO MARI",
+   "CarneEntra": "58413",
+   "Jug_Entra": "GONZALO DUVOS",
+   "camiseta": "91",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "61141",
+   "Jug_Sale": "ADRIAN IGNACIO GALVAN",
+   "CarneEntra": "66696",
+   "Jug_Entra": "RODRIGO CABRERA",
+   "camiseta": "3",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "60895",
+   "Jug_Sale": "TOMAS ANDRES OTERO",
+   "CarneEntra": "40445",
+   "Jug_Entra": "JUAN VICENTE CAVALLERI",
+   "camiseta": "18",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "56909",
+   "Jug_Sale": "JOAQUIN NICOLAS NAVAS",
+   "CarneEntra": "32460",
+   "Jug_Entra": "AUGUSTO BARRIOS",
+   "camiseta": "66",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "64990",
+   "Jug_Sale": "ISMAEL PUGLIA",
+   "CarneEntra": "62289",
+   "Jug_Entra": "JEREMIAS RUIZ DIAZ",
+   "camiseta": "99",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "33299",
+   "Jug_Sale": "GUILLERMO BRUNO",
+   "CarneEntra": "55010",
+   "Jug_Entra": "TOMAS MIRABAL",
+   "camiseta": "24",
+   "minutos": "83"
+  }
+ ],
+ "golesL": [],
+ "golesV": [
+  {
+   "carne": "32460",
+   "Nombre": "AUGUSTO BARRIOS",
+   "minutos": "75",
+   "EnContra": "1"
+  },
+  {
+   "carne": "32460",
+   "Nombre": "AUGUSTO BARRIOS",
+   "minutos": "80",
+   "EnContra": "1"
+  },
+  {
+   "carne": "63608",
+   "Nombre": "PABLO MARI",
+   "minutos": "43",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

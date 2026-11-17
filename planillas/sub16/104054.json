@@ -1,0 +1,299 @@
+{
+ "id": "104054",
+ "categoria": "sub16",
+ "serie": "16O",
+ "fecha": 5,
+ "fechaHora": "2026-11-15 13:30:00",
+ "cancha": "OLD CHRISTIANS CLUB",
+ "local": "OLD CHRISTIANS CLUB",
+ "visitante": "OLD BRENDANS CLUB",
+ "gl": 3,
+ "gv": 0,
+ "detalle": {
+  "nro_partido": "297",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 16 ",
+  "categoria": "SUB 16 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB16 ORO",
+  "Cancha": "OLD CHRISTIANS CLUB",
+  "Fecha_Inicio": "2026-11-15 15:10:00",
+  "Fecha_fin": "2026-11-15 15:10:00",
+  "Locatario": "OLD CHRISTIANS CLUB",
+  "goles_locatario": "3",
+  "puntos_locatario": "3",
+  "Visitante": "OLD BRENDANS CLUB",
+  "goles_visitante": "0",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "61958",
+   "Nombre": "EUGENIO RESTANO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "65271",
+   "Nombre": "PEDRO JOSE LAPETINA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "61959",
+   "Nombre": "JUAN IGNACIO RISSO",
+   "camiseta": "27",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "60379",
+   "Nombre": "JUAN FRANCISCO MILA",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "62854",
+   "Nombre": "JUAN IGNACIO PIVEL",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "62229",
+   "Nombre": "FRANCISCO CARDOSO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "65264",
+   "Nombre": "JUANCRUZ STORACE",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "68039",
+   "Nombre": "SANTINO BORRAZAS",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "62093",
+   "Nombre": "JUAN MANUEL BELLO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "63326",
+   "Nombre": "JOAQUIN MENAFRA",
+   "camiseta": "90",
+   "Capitan": ""
+  },
+  {
+   "carne": "62091",
+   "Nombre": "ALEJO TELLERIA",
+   "camiseta": "17",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "60014",
+   "Nombre": "JERONIMO ORRICO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "68904",
+   "Nombre": "JUAN VICENTE NOGUES",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "65622",
+   "Nombre": "MATEO CAPRARIO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "63168",
+   "Nombre": "TOMAS REY",
+   "camiseta": "22",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "61809",
+   "Nombre": "MAXIMO ITURBURU",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "61806",
+   "Nombre": "FELIPE MACHADO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "61596",
+   "Nombre": "AGUSTIN BOZZOLO",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "69027",
+   "Nombre": "MATEO VIEIRA DA CUNHA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "67761",
+   "Nombre": "BRUNO TELLERIA",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "59200",
+   "Nombre": "MATEO BIDEGAIN",
+   "camiseta": "75",
+   "Capitan": ""
+  },
+  {
+   "carne": "61808",
+   "Nombre": "LORENZO PAKCIARZ",
+   "camiseta": "13",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "62093",
+   "Jug_Sale": "JUAN MANUEL BELLO",
+   "CarneEntra": "63325",
+   "Jug_Entra": "JUAN MIGUEL REGUSCI",
+   "camiseta": "29",
+   "minutos": "40"
+  },
+  {
+   "CarneSale": "63326",
+   "Jug_Sale": "JOAQUIN MENAFRA",
+   "CarneEntra": "65265",
+   "Jug_Entra": "BAUTISTA SHAW",
+   "camiseta": "24",
+   "minutos": "40"
+  },
+  {
+   "CarneSale": "68039",
+   "Jug_Sale": "SANTINO BORRAZAS",
+   "CarneEntra": "67541",
+   "Jug_Entra": "ALEJO STORACE",
+   "camiseta": "19",
+   "minutos": "50"
+  },
+  {
+   "CarneSale": "62229",
+   "Jug_Sale": "FRANCISCO CARDOSO",
+   "CarneEntra": "61957",
+   "Jug_Entra": "JUAN BAUTISTA MARTINEZ",
+   "camiseta": "22",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "68039",
+   "Jug_Sale": "SANTINO BORRAZAS",
+   "CarneEntra": "62855",
+   "Jug_Entra": "FELIPE PEREZ",
+   "camiseta": "2",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "65271",
+   "Jug_Sale": "PEDRO JOSE LAPETINA",
+   "CarneEntra": "68037",
+   "Jug_Entra": "DIEGO LAVISTA",
+   "camiseta": "15",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "68039",
+   "Jug_Sale": "SANTINO BORRAZAS",
+   "CarneEntra": "65274",
+   "Jug_Entra": "BAUTISTA COSTA",
+   "camiseta": "16",
+   "minutos": "77"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "59200",
+   "Jug_Sale": "MATEO BIDEGAIN",
+   "CarneEntra": "65673",
+   "Jug_Entra": "SANTIAGO CURBELO",
+   "camiseta": "16",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "61809",
+   "Jug_Sale": "MAXIMO ITURBURU",
+   "CarneEntra": "65623",
+   "Jug_Entra": "BENJAMIN TROSTCHANSKY",
+   "camiseta": "8",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61808",
+   "Jug_Sale": "LORENZO PAKCIARZ",
+   "CarneEntra": "68484",
+   "Jug_Entra": "LORENZO TRUCCO",
+   "camiseta": "16",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "68904",
+   "Jug_Sale": "JUAN VICENTE NOGUES",
+   "CarneEntra": "61807",
+   "Jug_Entra": "JUAN JOSE LASTRETO",
+   "camiseta": "20",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "63168",
+   "Jug_Sale": "TOMAS REY",
+   "CarneEntra": "65805",
+   "Jug_Entra": "BRUNO BENITES",
+   "camiseta": "17",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "67761",
+   "Jug_Sale": "BRUNO TELLERIA",
+   "CarneEntra": "62510",
+   "Jug_Entra": "LORENZO AUGUSTO BLANDI",
+   "camiseta": "38",
+   "minutos": "71"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "62091",
+   "Nombre": "ALEJO TELLERIA",
+   "minutos": "17",
+   "EnContra": "0"
+  },
+  {
+   "carne": "65265",
+   "Nombre": "BAUTISTA SHAW",
+   "minutos": "67",
+   "EnContra": "0"
+  },
+  {
+   "carne": "68039",
+   "Nombre": "SANTINO BORRAZAS",
+   "minutos": "50",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

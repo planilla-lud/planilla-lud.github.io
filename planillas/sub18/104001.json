@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB18 BRONCE",
   "Cancha": "COMPLEJO WOODLANDS SCHOOL",
-  "Fecha_Inicio": "2026-11-15 17:00:00",
-  "Fecha_fin": "2026-11-15 17:00:00",
+  "Fecha_Inicio": "2026-11-15 17:25:00",
+  "Fecha_fin": "2026-11-15 17:25:00",
   "Locatario": "OLD WOODLANDS CLUB",
   "goles_locatario": "2",
   "puntos_locatario": "1",
@@ -29,12 +29,270 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "63283",
+   "Nombre": "NICOLAS PINTOS",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "68142",
+   "Nombre": "MAURO PIGNANELLI",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "60819",
+   "Nombre": "RODRIGO DI BELLO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "63286",
+   "Nombre": "ENZO PIGNANELLI",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "62248",
+   "Nombre": "FRANCISCO FERRARO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "62378",
+   "Nombre": "SANTINO FINOZZI",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "62189",
+   "Nombre": "FELIPE MONTERROSO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "62204",
+   "Nombre": "JUAN MARTIN GALINDEZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "62191",
+   "Nombre": "NICOLAS PIRIZ",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "66128",
+   "Nombre": "FRANCISCO MARTINEZ",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "62195",
+   "Nombre": "FRANCO MORELLI",
+   "camiseta": "29",
+   "Capitan": "(C)"
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "60419",
+   "Nombre": "JOAQUIN EMANUEL CASALAS",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "57625",
+   "Nombre": "LORENZO MORANDI",
+   "camiseta": "4",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "68099",
+   "Nombre": "ALAN JEAN ROSANO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "65181",
+   "Nombre": "VALENTIN MAÑANA",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "57630",
+   "Nombre": "FRANCISCO PONCE",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "63013",
+   "Nombre": "VALENTIN CARBALLO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "68498",
+   "Nombre": "MATIAS MENDOZA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "60424",
+   "Nombre": "AGUSTIN NICOLAS CASALAS",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "63077",
+   "Nombre": "MATIAS SALABERRI",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "66095",
+   "Nombre": "MATIAS VILLAR",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "59362",
+   "Nombre": "ALEJO SILVEIRA",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "62191",
+   "Jug_Sale": "NICOLAS PIRIZ",
+   "CarneEntra": "64676",
+   "Jug_Entra": "PEDRO VECHIO",
+   "camiseta": "98",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "62204",
+   "Jug_Sale": "JUAN MARTIN GALINDEZ",
+   "CarneEntra": "60450",
+   "Jug_Entra": "MATEO AURRECOCHEA",
+   "camiseta": "0",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68142",
+   "Jug_Sale": "MAURO PIGNANELLI",
+   "CarneEntra": "61801",
+   "Jug_Entra": "THIAGO MIRASSON",
+   "camiseta": "13",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "62195",
+   "Jug_Sale": "FRANCO MORELLI",
+   "CarneEntra": "63669",
+   "Jug_Entra": "FRANCISCO ROMERO",
+   "camiseta": "11",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "62378",
+   "Jug_Sale": "SANTINO FINOZZI",
+   "CarneEntra": "62205",
+   "Jug_Entra": "FRANCISCO AGUIRRE",
+   "camiseta": "60",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "60819",
+   "Jug_Sale": "RODRIGO DI BELLO",
+   "CarneEntra": "64320",
+   "Jug_Entra": "PEDRO RESTANO",
+   "camiseta": "14",
+   "minutos": "80"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "57625",
+   "Jug_Sale": "LORENZO MORANDI",
+   "CarneEntra": "63111",
+   "Jug_Entra": "LUKA RECOBA",
+   "camiseta": "32",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "63013",
+   "Jug_Sale": "VALENTIN CARBALLO",
+   "CarneEntra": "68824",
+   "Jug_Entra": "GUILLERMO IBARRA",
+   "camiseta": "36",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "59362",
+   "Jug_Sale": "ALEJO SILVEIRA",
+   "CarneEntra": "57622",
+   "Jug_Entra": "AGUSTIN LOURADO",
+   "camiseta": "16",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "63077",
+   "Jug_Sale": "MATIAS SALABERRI",
+   "CarneEntra": "60343",
+   "Jug_Entra": "FRANCISCO GORGA",
+   "camiseta": "17",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "66095",
+   "Jug_Sale": "MATIAS VILLAR",
+   "CarneEntra": "61379",
+   "Jug_Entra": "SEBASTIAN DEL CAMPO",
+   "camiseta": "18",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "65181",
+   "Jug_Sale": "VALENTIN MAÑANA",
+   "CarneEntra": "63104",
+   "Jug_Entra": "FACUNDO CARDANI",
+   "camiseta": "28",
+   "minutos": "85"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "62191",
+   "Nombre": "NICOLAS PIRIZ",
+   "minutos": "7",
+   "EnContra": "0"
+  },
+  {
+   "carne": "62248",
+   "Nombre": "FRANCISCO FERRARO",
+   "minutos": "55",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "57622",
+   "Nombre": "AGUSTIN LOURADO",
+   "minutos": "63",
+   "EnContra": "1"
+  },
+  {
+   "carne": "66095",
+   "Nombre": "MATIAS VILLAR",
+   "minutos": "28",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "RESERVA \"D\" COPA DE PLATA",
   "Cancha": "COMPLEJO LOS ROJOS",
-  "Fecha_Inicio": "2026-11-14 12:45:00",
-  "Fecha_fin": "2026-11-14 12:45:00",
+  "Fecha_Inicio": "2026-11-14 13:15:00",
+  "Fecha_fin": "2026-11-14 13:15:00",
   "Locatario": "LATINO FUTBOL CLUB",
   "goles_locatario": "1",
   "puntos_locatario": "3",
@@ -29,11 +29,250 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "59728",
+   "Nombre": "ALEJANDRO BOTTO",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "62821",
+   "Nombre": "JOAQUIN CHIAPPE",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "40984",
+   "Nombre": "MATHIAS GABRIEL ORTIZ",
+   "camiseta": "4",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "49193",
+   "Nombre": "JUAN PEREZ",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "57069",
+   "Nombre": "FRANCO TERPOLILLI",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "62907",
+   "Nombre": "IGNACIO TELESCA",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "62075",
+   "Nombre": "SANTIAGO SOSA",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "59765",
+   "Nombre": "SANTIAGO TRIAS",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "62061",
+   "Nombre": "MAURO CARRERA",
+   "camiseta": "41",
+   "Capitan": ""
+  },
+  {
+   "carne": "44390",
+   "Nombre": "LEANDRO AGUIAR",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "43423",
+   "Nombre": "BRAULIO CAPAGORRY",
+   "camiseta": "30",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "46851",
+   "Nombre": "GASTON RAFAEL MOIRANO",
+   "camiseta": "1",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "32378",
+   "Nombre": "SEBASTIAN CLEMENTE",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "30093",
+   "Nombre": "FERNANDO GABRIEL DE MEDINA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "24285",
+   "Nombre": "ALBERTO DE MEDINA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "67892",
+   "Nombre": "VALENTIN DECIMA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "65781",
+   "Nombre": "AXEL NAHUEL PIMENTEL",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "67300",
+   "Nombre": "BENJAMIN PEREIRA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "63480",
+   "Nombre": "SERGI YONATAN FERNANDEZ",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "69094",
+   "Nombre": "MATIAS GONZALO FRANCOLINO",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "57856",
+   "Nombre": "MAXIMO TOLEDO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "51915",
+   "Nombre": "EMILIANO DESEVO",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "57069",
+   "Jug_Sale": "FRANCO TERPOLILLI",
+   "CarneEntra": "63613",
+   "Jug_Entra": "EUSEBIO CABRAL",
+   "camiseta": "20",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "62075",
+   "Jug_Sale": "SANTIAGO SOSA",
+   "CarneEntra": "41594",
+   "Jug_Entra": "GUILLERMO CHALES",
+   "camiseta": "11",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "62061",
+   "Jug_Sale": "MAURO CARRERA",
+   "CarneEntra": "42311",
+   "Jug_Entra": "DIEGO MATIAS VIZCARRA",
+   "camiseta": "57",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "44390",
+   "Jug_Sale": "LEANDRO AGUIAR",
+   "CarneEntra": "61189",
+   "Jug_Entra": "RODOLFO CABRERA",
+   "camiseta": "16",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "49193",
+   "Jug_Sale": "JUAN PEREZ",
+   "CarneEntra": "57069",
+   "Jug_Entra": "FRANCO TERPOLILLI",
+   "camiseta": "19",
+   "minutos": "86"
+  },
+  {
+   "CarneSale": "43423",
+   "Jug_Sale": "BRAULIO CAPAGORRY",
+   "CarneEntra": "44390",
+   "Jug_Entra": "LEANDRO AGUIAR",
+   "camiseta": "32",
+   "minutos": "86"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "63480",
+   "Jug_Sale": "SERGI YONATAN FERNANDEZ",
+   "CarneEntra": "47191",
+   "Jug_Entra": "CARLOS FACUNDO CABRERA",
+   "camiseta": "5",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "69094",
+   "Jug_Sale": "MATIAS GONZALO FRANCOLINO",
+   "CarneEntra": "63083",
+   "Jug_Entra": "DIEGO NICOLAS GRACES",
+   "camiseta": "21",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "57856",
+   "Jug_Sale": "MAXIMO TOLEDO",
+   "CarneEntra": "30083",
+   "Jug_Entra": "MATHIAS AYRTON FUIDIO",
+   "camiseta": "94",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "51915",
+   "Jug_Sale": "EMILIANO DESEVO",
+   "CarneEntra": "41646",
+   "Jug_Entra": "SEBASTIAN DE MEDINA",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "32378",
+   "Jug_Sale": "SEBASTIAN CLEMENTE",
+   "CarneEntra": "63481",
+   "Jug_Entra": "FEDERICO CENA",
+   "camiseta": "31",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "30093",
+   "Jug_Sale": "FERNANDO GABRIEL DE MEDINA",
+   "CarneEntra": "63480",
+   "Jug_Entra": "SERGI YONATAN FERNANDEZ",
+   "camiseta": "29",
+   "minutos": "73"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "42311",
+   "Nombre": "DIEGO MATIAS VIZCARRA",
+   "minutos": "70",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB18 BRONCE",
   "Cancha": "LA MENNAIS",
-  "Fecha_Inicio": "2026-11-13 21:30:00",
-  "Fecha_fin": "2026-11-13 21:30:00",
+  "Fecha_Inicio": "2026-11-13 21:45:00",
+  "Fecha_fin": "2026-11-13 21:45:00",
   "Locatario": "J.M.L.M",
   "goles_locatario": "3",
   "puntos_locatario": "3",
@@ -29,12 +29,294 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "64169",
+   "Nombre": "PEDRO RAVECA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "62406",
+   "Nombre": "BRUNO AREVALO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "67449",
+   "Nombre": "MARCELO SALVADOR MARTI",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "58002",
+   "Nombre": "FELIPE MONTEMURRO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "58805",
+   "Nombre": "JUAN MARTIN CLUA",
+   "camiseta": "12",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "61732",
+   "Nombre": "MARTIN CARBALLO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "57052",
+   "Nombre": "VALENTIN VIDAL",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "60645",
+   "Nombre": "BENICIO CALERO",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "62154",
+   "Nombre": "FACUNDO MARTINEZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "58806",
+   "Nombre": "MATIAS CAGNOLI",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "58809",
+   "Nombre": "MATEO SCOTTI",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "63283",
+   "Nombre": "NICOLAS PINTOS",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "61801",
+   "Nombre": "THIAGO MIRASSON",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "62189",
+   "Nombre": "FELIPE MONTERROSO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "66128",
+   "Nombre": "FRANCISCO MARTINEZ",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "62205",
+   "Nombre": "FRANCISCO AGUIRRE",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "60819",
+   "Nombre": "RODRIGO DI BELLO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "62378",
+   "Nombre": "SANTINO FINOZZI",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "62191",
+   "Nombre": "NICOLAS PIRIZ",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "62204",
+   "Nombre": "JUAN MARTIN GALINDEZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "62248",
+   "Nombre": "FRANCISCO FERRARO",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "62195",
+   "Nombre": "FRANCO MORELLI",
+   "camiseta": "29",
+   "Capitan": "(C)"
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "62154",
+   "Jug_Sale": "FACUNDO MARTINEZ",
+   "CarneEntra": "64264",
+   "Jug_Entra": "DIEGO JAUNSOLO",
+   "camiseta": "55",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "60645",
+   "Jug_Sale": "BENICIO CALERO",
+   "CarneEntra": "58807",
+   "Jug_Entra": "ALEJANDRO FERRARI",
+   "camiseta": "2",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58805",
+   "Jug_Sale": "JUAN MARTIN CLUA",
+   "CarneEntra": "61734",
+   "Jug_Entra": "JUAN VALSECHI",
+   "camiseta": "14",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "58809",
+   "Jug_Sale": "MATEO SCOTTI",
+   "CarneEntra": "63320",
+   "Jug_Entra": "VALENTINO STROZZI",
+   "camiseta": "49",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "58806",
+   "Jug_Sale": "MATIAS CAGNOLI",
+   "CarneEntra": "58804",
+   "Jug_Entra": "GENARO DI GREGORIO",
+   "camiseta": "6",
+   "minutos": "86"
+  },
+  {
+   "CarneSale": "61732",
+   "Jug_Sale": "MARTIN CARBALLO",
+   "CarneEntra": "64263",
+   "Jug_Entra": "JUAN MANUEL DUPONT",
+   "camiseta": "7",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "62406",
+   "Jug_Sale": "BRUNO AREVALO",
+   "CarneEntra": "58001",
+   "Jug_Entra": "JUAN MANUEL BENITEZ",
+   "camiseta": "17",
+   "minutos": "86"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "62189",
+   "Jug_Sale": "FELIPE MONTERROSO",
+   "CarneEntra": "62384",
+   "Jug_Entra": "MATIAS FALLINI",
+   "camiseta": "14",
+   "minutos": "54"
+  },
+  {
+   "CarneSale": "62248",
+   "Jug_Sale": "FRANCISCO FERRARO",
+   "CarneEntra": "68142",
+   "Jug_Entra": "MAURO PIGNANELLI",
+   "camiseta": "66",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "62378",
+   "Jug_Sale": "SANTINO FINOZZI",
+   "CarneEntra": "62206",
+   "Jug_Entra": "MATEO ALONSO",
+   "camiseta": "60",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66128",
+   "Jug_Sale": "FRANCISCO MARTINEZ",
+   "CarneEntra": "60450",
+   "Jug_Entra": "MATEO AURRECOCHEA",
+   "camiseta": "22",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "62189",
+   "Jug_Sale": "FELIPE MONTERROSO",
+   "CarneEntra": "64676",
+   "Jug_Entra": "PEDRO VECHIO",
+   "camiseta": "98",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "60819",
+   "Jug_Sale": "RODRIGO DI BELLO",
+   "CarneEntra": "63286",
+   "Jug_Entra": "ENZO PIGNANELLI",
+   "camiseta": "3",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "62206",
+   "Jug_Sale": "MATEO ALONSO",
+   "CarneEntra": "63669",
+   "Jug_Entra": "FRANCISCO ROMERO",
+   "camiseta": "11",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "62195",
+   "Jug_Sale": "FRANCO MORELLI",
+   "CarneEntra": "64320",
+   "Jug_Entra": "PEDRO RESTANO",
+   "camiseta": "42",
+   "minutos": "83"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "57052",
+   "Nombre": "VALENTIN VIDAL",
+   "minutos": "56",
+   "EnContra": "0"
+  },
+  {
+   "carne": "57052",
+   "Nombre": "VALENTIN VIDAL",
+   "minutos": "59",
+   "EnContra": "0"
+  },
+  {
+   "carne": "62406",
+   "Nombre": "BRUNO AREVALO",
+   "minutos": "57",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "60450",
+   "Nombre": "MATEO AURRECOCHEA",
+   "minutos": "53",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }
