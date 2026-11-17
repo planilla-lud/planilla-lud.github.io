@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB16 COMPETENCIA",
   "Cancha": "COMPLEJO LOS NOGALES",
-  "Fecha_Inicio": "2026-11-15 15:00:00",
-  "Fecha_fin": "2026-11-15 15:00:00",
+  "Fecha_Inicio": "2026-11-15 15:12:00",
+  "Fecha_fin": "2026-11-15 15:12:00",
   "Locatario": "NACIONAL UNIVERSITARIO",
   "goles_locatario": "5",
   "puntos_locatario": "3",
@@ -29,11 +29,242 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "64544",
+   "Nombre": "JOAQUIN SEBASTIAN MEDINA",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "64841",
+   "Nombre": "THIAGO DOMINGUEZ",
+   "camiseta": "67",
+   "Capitan": ""
+  },
+  {
+   "carne": "64534",
+   "Nombre": "JORDAN SANTIAGO BORBA",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "63362",
+   "Nombre": "TOMAS VALENTINO MARRONE",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "64541",
+   "Nombre": "VALENTINO SANCHEZ",
+   "camiseta": "52",
+   "Capitan": ""
+  },
+  {
+   "carne": "62764",
+   "Nombre": "PATRICIO TADEO LARROSA",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "64528",
+   "Nombre": "SANTIAGO COPATTI",
+   "camiseta": "43",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "67314",
+   "Nombre": "SEBASTIAN FALERO",
+   "camiseta": "61",
+   "Capitan": ""
+  },
+  {
+   "carne": "67313",
+   "Nombre": "LAUTARO SALVARREY",
+   "camiseta": "66",
+   "Capitan": ""
+  },
+  {
+   "carne": "64496",
+   "Nombre": "NICOLAS MARTINEZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "69025",
+   "Nombre": "BRUNO MELIAN",
+   "camiseta": "54",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "67290",
+   "Nombre": "DIEGO FERNANDO NICOLENCO",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "65130",
+   "Nombre": "FELIPE CUETO",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "67228",
+   "Nombre": "THIAGO PEREZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "65420",
+   "Nombre": "CONSTANTINO CABRERA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "68641",
+   "Nombre": "BENICIO CAYAFFA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "67732",
+   "Nombre": "ALEX GABRIEL HORNOS",
+   "camiseta": "50",
+   "Capitan": ""
+  },
+  {
+   "carne": "68501",
+   "Nombre": "JOAQUIN VIERA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "67231",
+   "Nombre": "CAMILO MARTIN PEREZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "67229",
+   "Nombre": "VALENTIN CABRERA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "65128",
+   "Nombre": "RONALD CASTELLON",
+   "camiseta": "2",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "68769",
+   "Nombre": "FRANCISCO EMMANUEL CACHAN",
+   "camiseta": "28",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "64496",
+   "Jug_Sale": "NICOLAS MARTINEZ",
+   "CarneEntra": "60538",
+   "Jug_Entra": "RODRIGO BIANCO",
+   "camiseta": "63",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "63362",
+   "Jug_Sale": "TOMAS VALENTINO MARRONE",
+   "CarneEntra": "65792",
+   "Jug_Entra": "JOAQUIN NICOLAS RECAETA",
+   "camiseta": "56",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "69025",
+   "Jug_Sale": "BRUNO MELIAN",
+   "CarneEntra": "69024",
+   "Jug_Entra": "NAHUEL ORTIZ",
+   "camiseta": "44",
+   "minutos": "45"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "67732",
+   "Jug_Sale": "ALEX GABRIEL HORNOS",
+   "CarneEntra": "68025",
+   "Jug_Entra": "JAHAZIEL ANDRES GALANTON",
+   "camiseta": "17",
+   "minutos": "24"
+  },
+  {
+   "CarneSale": "67231",
+   "Jug_Sale": "CAMILO MARTIN PEREZ",
+   "CarneEntra": "65620",
+   "Jug_Entra": "IGNACIO GABRIEL TERRA IRIGOY",
+   "camiseta": "5",
+   "minutos": "24"
+  },
+  {
+   "CarneSale": "65128",
+   "Jug_Sale": "RONALD CASTELLON",
+   "CarneEntra": "65135",
+   "Jug_Entra": "TIAGO REY",
+   "camiseta": "11",
+   "minutos": "51"
+  },
+  {
+   "CarneSale": "68769",
+   "Jug_Sale": "FRANCISCO EMMANUEL CACHAN",
+   "CarneEntra": "65139",
+   "Jug_Entra": "DANIEL ANTONIO LEYVA",
+   "camiseta": "30",
+   "minutos": "51"
+  },
+  {
+   "CarneSale": "65420",
+   "Jug_Sale": "CONSTANTINO CABRERA",
+   "CarneEntra": "65133",
+   "Jug_Entra": "MARCO STEFANO FERRANTY",
+   "camiseta": "9",
+   "minutos": "63"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "64496",
+   "Nombre": "NICOLAS MARTINEZ",
+   "minutos": "18",
+   "EnContra": "0"
+  },
+  {
+   "carne": "64528",
+   "Nombre": "SANTIAGO COPATTI",
+   "minutos": "15",
+   "EnContra": "0"
+  },
+  {
+   "carne": "64528",
+   "Nombre": "SANTIAGO COPATTI",
+   "minutos": "31",
+   "EnContra": "0"
+  },
+  {
+   "carne": "67313",
+   "Nombre": "LAUTARO SALVARREY",
+   "minutos": "66",
+   "EnContra": "0"
+  },
+  {
+   "carne": "69025",
+   "Nombre": "BRUNO MELIAN",
+   "minutos": "37",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

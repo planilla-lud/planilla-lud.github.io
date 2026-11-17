@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB16 CONFRATERNIDAD",
   "Cancha": "COMPLEJO COLEGIO JESÚS MARÍA",
-  "Fecha_Inicio": "2026-11-15 15:00:00",
-  "Fecha_fin": "2026-11-15 15:00:00",
+  "Fecha_Inicio": "2026-11-15 15:05:00",
+  "Fecha_fin": "2026-11-15 15:05:00",
   "Locatario": "CLUB JESUS MARIA",
   "goles_locatario": "5",
   "puntos_locatario": "3",
@@ -29,12 +29,276 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "66932",
+   "Nombre": "SANTIAGO MARTINEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "64906",
+   "Nombre": "JOSE APARICIO PERRIER",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "63445",
+   "Nombre": "TIZIANO FRASCHERI",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "66935",
+   "Nombre": "FRANCISCO GALLESIO",
+   "camiseta": "2",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "65202",
+   "Nombre": "FABIAN DARIO MARIÑO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "61918",
+   "Nombre": "LORENZO SILVA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "64905",
+   "Nombre": "TOMAS GALLO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "62390",
+   "Nombre": "SANTIAGO LOMBARDO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "66933",
+   "Nombre": "FRANCISCO BERRIEL",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "64903",
+   "Nombre": "GUILLERMO LOPEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "61920",
+   "Nombre": "BAUTISTA TARIGO",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "61085",
+   "Nombre": "FABRIZIO PERRONE",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "62765",
+   "Nombre": "BENJAMIN DELGADO",
+   "camiseta": "6",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "64940",
+   "Nombre": "FACUNDO EMANUEL PEGORRARO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "68127",
+   "Nombre": "ALEJO EZEQUIEL LEFKO",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "68602",
+   "Nombre": "NATHAN JOAQUIN HERNANDEZ",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "65504",
+   "Nombre": "THIAGO ALVAREZ",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "65502",
+   "Nombre": "MAXIMO CANO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "65506",
+   "Nombre": "BENJAMIN MARQUICIO",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "64946",
+   "Nombre": "MATEO NODAR",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "68599",
+   "Nombre": "FEDERICO GABRIEL GACEL",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "68965",
+   "Nombre": "THIAGO CORBO",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "63445",
+   "Jug_Sale": "TIZIANO FRASCHERI",
+   "CarneEntra": "67712",
+   "Jug_Entra": "JUAN MANUEL LAGISQUET",
+   "camiseta": "24",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "65202",
+   "Jug_Sale": "FABIAN DARIO MARIÑO",
+   "CarneEntra": "62396",
+   "Jug_Entra": "FELIPE ORTIZ",
+   "camiseta": "22",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "62390",
+   "Jug_Sale": "SANTIAGO LOMBARDO",
+   "CarneEntra": "68762",
+   "Jug_Entra": "FACUNDO BAZZINO",
+   "camiseta": "23",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "64905",
+   "Jug_Sale": "TOMAS GALLO",
+   "CarneEntra": "68762",
+   "Jug_Entra": "FACUNDO BAZZINO",
+   "camiseta": "23",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "64905",
+   "Jug_Sale": "TOMAS GALLO",
+   "CarneEntra": "65203",
+   "Jug_Entra": "JOAQUIN YAÑEZ",
+   "camiseta": "16",
+   "minutos": "78"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "68965",
+   "Jug_Sale": "THIAGO CORBO",
+   "CarneEntra": "69207",
+   "Jug_Entra": "VALENTINO CICCHINI",
+   "camiseta": "91",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68602",
+   "Jug_Sale": "NATHAN JOAQUIN HERNANDEZ",
+   "CarneEntra": "69018",
+   "Jug_Entra": "AARON NICOLAS GARCIA",
+   "camiseta": "99",
+   "minutos": "50"
+  },
+  {
+   "CarneSale": "65504",
+   "Jug_Sale": "THIAGO ALVAREZ",
+   "CarneEntra": "68602",
+   "Jug_Entra": "NATHAN JOAQUIN HERNANDEZ",
+   "camiseta": "24",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "65502",
+   "Jug_Sale": "MAXIMO CANO",
+   "CarneEntra": "65504",
+   "Jug_Entra": "THIAGO ALVAREZ",
+   "camiseta": "4",
+   "minutos": "63"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "61920",
+   "Nombre": "BAUTISTA TARIGO",
+   "minutos": "14",
+   "EnContra": "0"
+  },
+  {
+   "carne": "62390",
+   "Nombre": "SANTIAGO LOMBARDO",
+   "minutos": "57",
+   "EnContra": "0"
+  },
+  {
+   "carne": "64905",
+   "Nombre": "TOMAS GALLO",
+   "minutos": "75",
+   "EnContra": "0"
+  },
+  {
+   "carne": "66933",
+   "Nombre": "FRANCISCO BERRIEL",
+   "minutos": "26",
+   "EnContra": "0"
+  },
+  {
+   "carne": "66933",
+   "Nombre": "FRANCISCO BERRIEL",
+   "minutos": "43",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "68127",
+   "Nombre": "ALEJO EZEQUIEL LEFKO",
+   "minutos": "16",
+   "EnContra": "1"
+  },
+  {
+   "carne": "68127",
+   "Nombre": "ALEJO EZEQUIEL LEFKO",
+   "minutos": "29",
+   "EnContra": "1"
+  },
+  {
+   "carne": "68127",
+   "Nombre": "ALEJO EZEQUIEL LEFKO",
+   "minutos": "77",
+   "EnContra": "1"
+  },
+  {
+   "carne": "69207",
+   "Nombre": "VALENTINO CICCHINI",
+   "minutos": "52",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

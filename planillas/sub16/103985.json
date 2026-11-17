@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB16 COMPETENCIA",
   "Cancha": "MICROSULES",
-  "Fecha_Inicio": "2026-11-15 15:00:00",
-  "Fecha_fin": "2026-11-15 15:00:00",
+  "Fecha_Inicio": "2026-11-15 15:15:00",
+  "Fecha_fin": "2026-11-15 15:15:00",
   "Locatario": "PERRY SEXTA UNIVERSITARIO",
   "goles_locatario": "0",
   "puntos_locatario": "0",
@@ -29,12 +29,239 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
+ "titularesL": [
+  {
+   "carne": "67663",
+   "Nombre": "NICOLAS MATEO SANTA MARIA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "65755",
+   "Nombre": "LAUTARO EZEQUIEL VELAZQUEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "67659",
+   "Nombre": "MARTIN MAGALLANES",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "69124",
+   "Nombre": "FACUNDO MARTIN VARELA",
+   "camiseta": "50",
+   "Capitan": ""
+  },
+  {
+   "carne": "68813",
+   "Nombre": "THIAGO FRANCOIS ALFONSO",
+   "camiseta": "53",
+   "Capitan": ""
+  },
+  {
+   "carne": "64466",
+   "Nombre": "BENSHAMIN DA ROSA",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "68087",
+   "Nombre": "NAHUEL EZEQUIEL ALFONSO",
+   "camiseta": "99",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "68910",
+   "Nombre": "ARAGON EZEQUIEL APARICIO",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "68086",
+   "Nombre": "EZEQUIEL RODRIGUEZ",
+   "camiseta": "52",
+   "Capitan": ""
+  },
+  {
+   "carne": "68185",
+   "Nombre": "LUCIANO CASTRO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "65998",
+   "Nombre": "LIAN SUAREZ",
+   "camiseta": "30",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "65718",
+   "Nombre": "VICENTE VALENTIN VIERA",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "60475",
+   "Nombre": "AGUSTIN ANTELO",
+   "camiseta": "56",
+   "Capitan": ""
+  },
+  {
+   "carne": "68865",
+   "Nombre": "MARTIN ASSIMONTTI",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "60764",
+   "Nombre": "FACUNDO CARAMBULA",
+   "camiseta": "37",
+   "Capitan": ""
+  },
+  {
+   "carne": "68378",
+   "Nombre": "SANTIAGO MATTERA",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "64756",
+   "Nombre": "FELIPE REINALDO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "63514",
+   "Nombre": "LUCAS TAROCO",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "61437",
+   "Nombre": "MARTIN BREGSTEIN",
+   "camiseta": "30",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "61927",
+   "Nombre": "SANTIAGO BRUN",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "65887",
+   "Nombre": "FABRIZIO BISOGNO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "65610",
+   "Nombre": "LUCA GONZALEZ",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "65998",
+   "Jug_Sale": "LIAN SUAREZ",
+   "CarneEntra": "68085",
+   "Jug_Entra": "ZIRALDO TECHERA",
+   "camiseta": "37",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68910",
+   "Jug_Sale": "ARAGON EZEQUIEL APARICIO",
+   "CarneEntra": "68082",
+   "Jug_Entra": "RAMIRO MARTIN SILVA",
+   "camiseta": "8",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68082",
+   "Jug_Sale": "RAMIRO MARTIN SILVA",
+   "CarneEntra": "68910",
+   "Jug_Entra": "ARAGON EZEQUIEL APARICIO",
+   "camiseta": "19",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "69124",
+   "Jug_Sale": "FACUNDO MARTIN VARELA",
+   "CarneEntra": "65998",
+   "Jug_Entra": "LIAN SUAREZ",
+   "camiseta": "30",
+   "minutos": "55"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "68378",
+   "Jug_Sale": "SANTIAGO MATTERA",
+   "CarneEntra": "68690",
+   "Jug_Entra": "MARTIN PALLAS",
+   "camiseta": "12",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61927",
+   "Jug_Sale": "SANTIAGO BRUN",
+   "CarneEntra": "67186",
+   "Jug_Entra": "VALENTINO ARIEL SCALONE",
+   "camiseta": "36",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "63514",
+   "Jug_Sale": "LUCAS TAROCO",
+   "CarneEntra": "61927",
+   "Jug_Entra": "SANTIAGO BRUN",
+   "camiseta": "2",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "68865",
+   "Jug_Sale": "MARTIN ASSIMONTTI",
+   "CarneEntra": "68378",
+   "Jug_Entra": "SANTIAGO MATTERA",
+   "camiseta": "28",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "61927",
+   "Jug_Sale": "SANTIAGO BRUN",
+   "CarneEntra": "63514",
+   "Jug_Entra": "LUCAS TAROCO",
+   "camiseta": "44",
+   "minutos": "73"
+  }
+ ],
  "golesL": [],
- "golesV": [],
+ "golesV": [
+  {
+   "carne": "65610",
+   "Nombre": "LUCA GONZALEZ",
+   "minutos": "15",
+   "EnContra": "1"
+  },
+  {
+   "carne": "65610",
+   "Nombre": "LUCA GONZALEZ",
+   "minutos": "49",
+   "EnContra": "1"
+  },
+  {
+   "carne": "65887",
+   "Nombre": "FABRIZIO BISOGNO",
+   "minutos": "8",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

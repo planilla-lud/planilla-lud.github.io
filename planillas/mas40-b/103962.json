@@ -18,8 +18,8 @@
   "rueda": "2",
   "Divisional": "MAS40 \"B\" TIT. y ASC.",
   "Cancha": "CARRASCO LAWN TENIS (KM 23)",
-  "Fecha_Inicio": "2026-11-14 12:45:00",
-  "Fecha_fin": "2026-11-14 12:45:00",
+  "Fecha_Inicio": "2026-11-14 13:00:00",
+  "Fecha_fin": "2026-11-14 13:00:00",
   "Locatario": "CARRASCO LAWN TENNIS",
   "goles_locatario": "3",
   "puntos_locatario": "3",
@@ -29,11 +29,286 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "59466",
+   "Nombre": "JAVIER ZUBILLAGA",
+   "camiseta": "60",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "20818",
+   "Nombre": "DIEGO PATRON",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "18067",
+   "Nombre": "JUAN MANUEL YAQUINTA",
+   "camiseta": "91",
+   "Capitan": ""
+  },
+  {
+   "carne": "19479",
+   "Nombre": "MIGUEL RUBINO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "20737",
+   "Nombre": "JAVIER GUSTAVO MARIÑO",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "13676",
+   "Nombre": "IGNACIO GALEANO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "20439",
+   "Nombre": "RODRIGO PABLO BAUBETA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "23201",
+   "Nombre": "JOSE IGNACIO MAIORANO",
+   "camiseta": "59",
+   "Capitan": ""
+  },
+  {
+   "carne": "11361",
+   "Nombre": "CARLOS JAVIER SARACCO",
+   "camiseta": "48",
+   "Capitan": ""
+  },
+  {
+   "carne": "18056",
+   "Nombre": "FELIPE GARCIA",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "21389",
+   "Nombre": "ALESSANDRO PASQUALE GIARDINO",
+   "camiseta": "18",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "14645",
+   "Nombre": "PABLO ALBERTO FERNANDEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "12721",
+   "Nombre": "FABIAN HERNAN CORTES",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "18843",
+   "Nombre": "WILLIAM GONZALEZ",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "20702",
+   "Nombre": "JOSE LUIS TRIGO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "27591",
+   "Nombre": "ROBERT MILTON ESPEL",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "19281",
+   "Nombre": "GABRIEL COPELOTTI",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "13451",
+   "Nombre": "OSCAR ALEJANDRO ARRUDA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "58590",
+   "Nombre": "DIEGO FERREIRA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "17384",
+   "Nombre": "DIEGO PERDOMO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "66193",
+   "Nombre": "LUIS MAYORGA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "21796",
+   "Nombre": "GUILLERMO FEDERICO URAN",
+   "camiseta": "24",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "11361",
+   "Jug_Sale": "CARLOS JAVIER SARACCO",
+   "CarneEntra": "13497",
+   "Jug_Entra": "IGNACIO ITURBURU",
+   "camiseta": "15",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "20818",
+   "Jug_Sale": "DIEGO PATRON",
+   "CarneEntra": "64672",
+   "Jug_Entra": "GONZALO VENDITTO",
+   "camiseta": "21",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "21389",
+   "Jug_Sale": "ALESSANDRO PASQUALE GIARDINO",
+   "CarneEntra": "22628",
+   "Jug_Entra": "NICOLAS SAEZ",
+   "camiseta": "81",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "13676",
+   "Jug_Sale": "IGNACIO GALEANO",
+   "CarneEntra": "14917",
+   "Jug_Entra": "FEDERICO SASSI",
+   "camiseta": "29",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "18056",
+   "Jug_Sale": "FELIPE GARCIA",
+   "CarneEntra": "12621",
+   "Jug_Entra": "CHAHIN ANDRES TCHAKIRIAN",
+   "camiseta": "4",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "19479",
+   "Jug_Sale": "MIGUEL RUBINO",
+   "CarneEntra": "64812",
+   "Jug_Entra": "URI KORYTNICKI",
+   "camiseta": "6",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "23201",
+   "Jug_Sale": "JOSE IGNACIO MAIORANO",
+   "CarneEntra": "16801",
+   "Jug_Entra": "RODRIGO GUERRA",
+   "camiseta": "71",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "20737",
+   "Jug_Sale": "JAVIER GUSTAVO MARIÑO",
+   "CarneEntra": "17920",
+   "Jug_Entra": "ANDRES MUNHO",
+   "camiseta": "34",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "18067",
+   "Jug_Sale": "JUAN MANUEL YAQUINTA",
+   "CarneEntra": "19275",
+   "Jug_Entra": "GUILLERMO OLIVER",
+   "camiseta": "14",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "20439",
+   "Jug_Sale": "RODRIGO PABLO BAUBETA",
+   "CarneEntra": "58917",
+   "Jug_Entra": "IGNACIO ZUGARRAMURDI",
+   "camiseta": "57",
+   "minutos": "75"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "21796",
+   "Jug_Sale": "GUILLERMO FEDERICO URAN",
+   "CarneEntra": "23153",
+   "Jug_Entra": "FABIAN VICTOR CORE",
+   "camiseta": "13",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58590",
+   "Jug_Sale": "DIEGO FERREIRA",
+   "CarneEntra": "58932",
+   "Jug_Entra": "JULIO MARTIN FIGUEREDO",
+   "camiseta": "4",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "27591",
+   "Jug_Sale": "ROBERT MILTON ESPEL",
+   "CarneEntra": "17488",
+   "Jug_Entra": "GABRIEL ALEJANDRO PALLEIRO",
+   "camiseta": "8",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "12721",
+   "Jug_Sale": "FABIAN HERNAN CORTES",
+   "CarneEntra": "58590",
+   "Jug_Entra": "DIEGO FERREIRA",
+   "camiseta": "10",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "18843",
+   "Jug_Sale": "WILLIAM GONZALEZ",
+   "CarneEntra": "27591",
+   "Jug_Entra": "ROBERT MILTON ESPEL",
+   "camiseta": "26",
+   "minutos": "85"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "14917",
+   "Nombre": "FEDERICO SASSI",
+   "minutos": "78",
+   "EnContra": "0"
+  },
+  {
+   "carne": "17920",
+   "Nombre": "ANDRES MUNHO",
+   "minutos": "59",
+   "EnContra": "0"
+  },
+  {
+   "carne": "18067",
+   "Nombre": "JUAN MANUEL YAQUINTA",
+   "minutos": "38",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

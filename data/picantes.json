@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-17T03:45:46.520Z",
+ "actualizado": "2026-11-17T19:49:45.014Z",
  "partidos": [
   {
    "div": "sub16-oro",
@@ -34,23 +34,6 @@
    "tipo": "titulo",
    "altasL": 1,
    "altasV": 0
-  },
-  {
-   "div": "sub16-oro",
-   "divNombre": "Sub 16 Oro",
-   "k": "Old Christians~The British School",
-   "l": "Old Christians",
-   "v": "The British School",
-   "dia": "2026-11-19",
-   "hora": "18:30",
-   "etapa": "Copa de Oro",
-   "pl": 3,
-   "pv": 4,
-   "n": 8,
-   "base": 0,
-   "tipo": "titulo",
-   "altasL": 1,
-   "altasV": 3
   }
  ]
 }

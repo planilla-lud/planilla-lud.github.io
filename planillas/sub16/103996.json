@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB16 PLATA",
   "Cancha": "ELF (LICEO FRANCES)",
-  "Fecha_Inicio": "2026-11-15 15:00:00",
-  "Fecha_fin": "2026-11-15 15:00:00",
+  "Fecha_Inicio": "2026-11-15 15:10:00",
+  "Fecha_fin": "2026-11-15 15:10:00",
   "Locatario": "E.L.F.",
   "goles_locatario": "2",
   "puntos_locatario": "3",
@@ -29,11 +29,224 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "62388",
+   "Nombre": "GONZALO VERANO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "64002",
+   "Nombre": "JUAN PABLO REHERMANN",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "60555",
+   "Nombre": "MARCOS TRIGO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "64104",
+   "Nombre": "JUAN MARTIN WALLACE",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "61726",
+   "Nombre": "CAMILO BARRIOLA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "62844",
+   "Nombre": "THIAGO BOUREL",
+   "camiseta": "7",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "65470",
+   "Nombre": "DANTE BAROSSI",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "68154",
+   "Nombre": "RODRIGO COIROLO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "61455",
+   "Nombre": "AGUSTIN RODRIGUEZ",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "64092",
+   "Nombre": "JUAN ENRIQUE ALVES",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "67156",
+   "Nombre": "JUAN IGNACIO ARANCO",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "61771",
+   "Nombre": "FILIPPO DE MORI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "66320",
+   "Nombre": "BENJAMIN GRUDZIEN",
+   "camiseta": "66",
+   "Capitan": ""
+  },
+  {
+   "carne": "63921",
+   "Nombre": "JOAQUIN ZUBILLAGA",
+   "camiseta": "74",
+   "Capitan": ""
+  },
+  {
+   "carne": "63918",
+   "Nombre": "FELIPE MORIS",
+   "camiseta": "34",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "62741",
+   "Nombre": "PEDRO MIGNONE",
+   "camiseta": "60",
+   "Capitan": ""
+  },
+  {
+   "carne": "65044",
+   "Nombre": "NICOLAS CUELLO",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "63942",
+   "Nombre": "SANTINO MORISIO",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "63037",
+   "Nombre": "NICOLAS SZAMES",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "62740",
+   "Nombre": "FELIPE CLEMENT",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "65573",
+   "Nombre": "BENJAMIN ALISKEVICH",
+   "camiseta": "61",
+   "Capitan": ""
+  },
+  {
+   "carne": "64007",
+   "Nombre": "LAUTARO FERNANDEZ",
+   "camiseta": "30",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "64104",
+   "Jug_Sale": "JUAN MARTIN WALLACE",
+   "CarneEntra": "67516",
+   "Jug_Entra": "FRANCISCO MORAGUES",
+   "camiseta": "20",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "65470",
+   "Jug_Sale": "DANTE BAROSSI",
+   "CarneEntra": "62369",
+   "Jug_Entra": "MAURICIO ZECCHI",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61455",
+   "Jug_Sale": "AGUSTIN RODRIGUEZ",
+   "CarneEntra": "62399",
+   "Jug_Entra": "JUAN IGNACIO BLANCO",
+   "camiseta": "15",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "64002",
+   "Jug_Sale": "JUAN PABLO REHERMANN",
+   "CarneEntra": "68414",
+   "Jug_Entra": "DANTE CERCHIARI",
+   "camiseta": "8",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "64092",
+   "Jug_Sale": "JUAN ENRIQUE ALVES",
+   "CarneEntra": "68433",
+   "Jug_Entra": "TOMAS LLUBERAS",
+   "camiseta": "19",
+   "minutos": "75"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "62740",
+   "Jug_Sale": "FELIPE CLEMENT",
+   "CarneEntra": "63920",
+   "Jug_Entra": "FELIPE ZUBILLAGA",
+   "camiseta": "73",
+   "minutos": "54"
+  },
+  {
+   "CarneSale": "66320",
+   "Jug_Sale": "BENJAMIN GRUDZIEN",
+   "CarneEntra": "66541",
+   "Jug_Entra": "MANUEL CROCI",
+   "camiseta": "25",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "63942",
+   "Jug_Sale": "SANTINO MORISIO",
+   "CarneEntra": "63919",
+   "Jug_Entra": "SANTINO AMAYA",
+   "camiseta": "32",
+   "minutos": "68"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "67156",
+   "Nombre": "JUAN IGNACIO ARANCO",
+   "minutos": "78",
+   "EnContra": "0"
+  },
+  {
+   "carne": "68154",
+   "Nombre": "RODRIGO COIROLO",
+   "minutos": "32",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

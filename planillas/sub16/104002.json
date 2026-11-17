@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB16 CONFRATERNIDAD",
   "Cancha": "CAMPO DEP. INSTITUTO CRANDON",
-  "Fecha_Inicio": "2026-11-15 15:00:00",
-  "Fecha_fin": "2026-11-15 15:00:00",
+  "Fecha_Inicio": "2026-11-15 15:20:00",
+  "Fecha_fin": "2026-11-15 15:20:00",
   "Locatario": "CRANDON UNIVERSITARIO",
   "goles_locatario": "8",
   "puntos_locatario": "3",
@@ -29,11 +29,291 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
+ "titularesL": [
+  {
+   "carne": "61542",
+   "Nombre": "JOAQUIN BOGLIACCINI",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "58632",
+   "Nombre": "FAUSTO SASTRE",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "64385",
+   "Nombre": "SAMUEL ANDRES ESTELLER",
+   "camiseta": "69",
+   "Capitan": ""
+  },
+  {
+   "carne": "64379",
+   "Nombre": "MAURO MARIO ZORRILLA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "61769",
+   "Nombre": "SANTIAGO RAFANIELLO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "61536",
+   "Nombre": "AGUSTIN PIRIZ",
+   "camiseta": "18",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "58626",
+   "Nombre": "SANTIAGO CASTRO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "58634",
+   "Nombre": "THIAGO MISA",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "58629",
+   "Nombre": "FRANCISCO AGOSTO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "61540",
+   "Nombre": "RAMIRO DANZA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "66503",
+   "Nombre": "CLAUDIO NICOLAS SOSA",
+   "camiseta": "17",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "68888",
+   "Nombre": "TOMAS ERRANDONEA",
+   "camiseta": "85",
+   "Capitan": ""
+  },
+  {
+   "carne": "68799",
+   "Nombre": "AXEL MATHIAS ESCARCENA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "68049",
+   "Nombre": "FRANCO LESCANO",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "67767",
+   "Nombre": "LEON FELIPE DAL MONTE",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "65282",
+   "Nombre": "AGUSTIN GRECO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "67754",
+   "Nombre": "IGNACIO BASQUADE DIAZ",
+   "camiseta": "7",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "65281",
+   "Nombre": "ALEJANDRO MARTIN COSTA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "67747",
+   "Nombre": "ENZO GERMAN ALDERETTE",
+   "camiseta": "48",
+   "Capitan": ""
+  },
+  {
+   "carne": "67742",
+   "Nombre": "JUAN MANUEL ASHFIELD",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "68679",
+   "Nombre": "JUAN DIEGO BRUM",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "68541",
+   "Nombre": "SANTIAGO MATIAS ALVAREZ",
+   "camiseta": "55",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "58626",
+   "Jug_Sale": "SANTIAGO CASTRO",
+   "CarneEntra": "64387",
+   "Jug_Entra": "BENICIO BENJAMIN CURTO",
+   "camiseta": "15",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61540",
+   "Jug_Sale": "RAMIRO DANZA",
+   "CarneEntra": "66502",
+   "Jug_Entra": "PEDRO MELAZZI",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64385",
+   "Jug_Sale": "SAMUEL ANDRES ESTELLER",
+   "CarneEntra": "64398",
+   "Jug_Entra": "GUILLERMO NORIA",
+   "camiseta": "33",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58634",
+   "Jug_Sale": "THIAGO MISA",
+   "CarneEntra": "64405",
+   "Jug_Entra": "JUAN IGNACIO PERI",
+   "camiseta": "25",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61536",
+   "Jug_Sale": "AGUSTIN PIRIZ",
+   "CarneEntra": "61539",
+   "Jug_Entra": "LUCAS VALLE",
+   "camiseta": "3",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58632",
+   "Jug_Sale": "FAUSTO SASTRE",
+   "CarneEntra": "61543",
+   "Jug_Entra": "SANTINO ARDITO",
+   "camiseta": "4",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64379",
+   "Jug_Sale": "MAURO MARIO ZORRILLA",
+   "CarneEntra": "64376",
+   "Jug_Entra": "JOSE PEDRO ARBILLA",
+   "camiseta": "27",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58629",
+   "Jug_Sale": "FRANCISCO AGOSTO",
+   "CarneEntra": "58626",
+   "Jug_Entra": "SANTIAGO CASTRO",
+   "camiseta": "10",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "61536",
+   "Jug_Sale": "AGUSTIN PIRIZ",
+   "CarneEntra": "64379",
+   "Jug_Entra": "MAURO MARIO ZORRILLA",
+   "camiseta": "5",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "58626",
+   "Jug_Sale": "SANTIAGO CASTRO",
+   "CarneEntra": "61540",
+   "Jug_Entra": "RAMIRO DANZA",
+   "camiseta": "8",
+   "minutos": "74"
+  },
+  {
+   "CarneSale": "64376",
+   "Jug_Sale": "JOSE PEDRO ARBILLA",
+   "CarneEntra": "64385",
+   "Jug_Entra": "SAMUEL ANDRES ESTELLER",
+   "camiseta": "69",
+   "minutos": "74"
+  },
+  {
+   "CarneSale": "61769",
+   "Jug_Sale": "SANTIAGO RAFANIELLO",
+   "CarneEntra": "58634",
+   "Jug_Entra": "THIAGO MISA",
+   "camiseta": "99",
+   "minutos": "74"
+  }
+ ],
  "cambiosV": [],
- "golesL": [],
+ "golesL": [
+  {
+   "carne": "58626",
+   "Nombre": "SANTIAGO CASTRO",
+   "minutos": "5",
+   "EnContra": "0"
+  },
+  {
+   "carne": "58626",
+   "Nombre": "SANTIAGO CASTRO",
+   "minutos": "31",
+   "EnContra": "0"
+  },
+  {
+   "carne": "58629",
+   "Nombre": "FRANCISCO AGOSTO",
+   "minutos": "29",
+   "EnContra": "0"
+  },
+  {
+   "carne": "58629",
+   "Nombre": "FRANCISCO AGOSTO",
+   "minutos": "46",
+   "EnContra": "0"
+  },
+  {
+   "carne": "61536",
+   "Nombre": "AGUSTIN PIRIZ",
+   "minutos": "14",
+   "EnContra": "0"
+  },
+  {
+   "carne": "61540",
+   "Nombre": "RAMIRO DANZA",
+   "minutos": "53",
+   "EnContra": "0"
+  },
+  {
+   "carne": "66502",
+   "Nombre": "PEDRO MELAZZI",
+   "minutos": "34",
+   "EnContra": "0"
+  },
+  {
+   "carne": "66502",
+   "Nombre": "PEDRO MELAZZI",
+   "minutos": "75",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []

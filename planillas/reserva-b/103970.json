@@ -4,7 +4,7 @@
  "serie": "RSBPD",
  "fecha": 7,
  "fechaHora": "2026-11-14 11:15:00",
- "cancha": "CAMPO DEP. INSTITUTO CRANDON",
+ "cancha": "()",
  "local": "CRANDON UNIVERSITARIO",
  "visitante": "OLD IVY",
  "gl": 4,
@@ -17,9 +17,9 @@
   "categoria": "RESERVA MASCULINO",
   "rueda": "2",
   "Divisional": "RESERVA \"B\" PER. y DESC.",
-  "Cancha": "CAMPO DEP. INSTITUTO CRANDON",
-  "Fecha_Inicio": "2026-11-14 12:45:00",
-  "Fecha_fin": "2026-11-14 12:45:00",
+  "Cancha": "()",
+  "Fecha_Inicio": "2026-11-14 13:10:00",
+  "Fecha_fin": "2026-11-14 13:10:00",
   "Locatario": "CRANDON UNIVERSITARIO",
   "goles_locatario": "4",
   "puntos_locatario": "3",
@@ -29,12 +29,258 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "58657",
+   "Nombre": "SANTIAGO CID DE LA PAZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "44097",
+   "Nombre": "NICOLAS LABASTIE",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "50931",
+   "Nombre": "SANTIAGO AVILA",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "36857",
+   "Nombre": "GUILLERMO AMOZA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "49151",
+   "Nombre": "LUCAS MOREIRA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "47728",
+   "Nombre": "FELIPE RAMA",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "45038",
+   "Nombre": "IGNACIO RODRIGUEZ",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "41107",
+   "Nombre": "MATIAS ANTONIO OXACELHAY",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "39029",
+   "Nombre": "FELIPE DIAZ ARNESTO",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "39055",
+   "Nombre": "LUCAS MARTIN CASTIGLIONI",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "52832",
+   "Nombre": "FELIPE ROBATTO",
+   "camiseta": "14",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "43339",
+   "Nombre": "THIAGO MAHIA",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "47829",
+   "Nombre": "RAFAEL RUBEN GAIMARI",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "41711",
+   "Nombre": "MANUEL BORGIA",
+   "camiseta": "13",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56372",
+   "Nombre": "ALFONSO CARDELINO",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "59182",
+   "Nombre": "MATEO DENIS",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "37264",
+   "Nombre": "AGUSTIN ARTAGAVEYTIA",
+   "camiseta": "69",
+   "Capitan": ""
+  },
+  {
+   "carne": "59614",
+   "Nombre": "TOMAS HORJALES",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "64391",
+   "Nombre": "JUAN BAUTISTA IRIARTE",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "55486",
+   "Nombre": "ISMAEL CASTRO",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "41720",
+   "Nombre": "MATIAS MENGOT",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "34996",
+   "Nombre": "GASTON VAREIKA",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "39029",
+   "Jug_Sale": "FELIPE DIAZ ARNESTO",
+   "CarneEntra": "53510",
+   "Jug_Entra": "JOAQUIN ROBATTO",
+   "camiseta": "20",
+   "minutos": "52"
+  },
+  {
+   "CarneSale": "45038",
+   "Jug_Sale": "IGNACIO RODRIGUEZ",
+   "CarneEntra": "53671",
+   "Jug_Entra": "MATEO SCARRONE",
+   "camiseta": "10",
+   "minutos": "80"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "43339",
+   "Jug_Sale": "THIAGO MAHIA",
+   "CarneEntra": "47827",
+   "Jug_Entra": "AGUSTIN ARIASI",
+   "camiseta": "40",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "41720",
+   "Jug_Sale": "MATIAS MENGOT",
+   "CarneEntra": "66623",
+   "Jug_Entra": "IGNACIO CUMELLAS",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "47829",
+   "Jug_Sale": "RAFAEL RUBEN GAIMARI",
+   "CarneEntra": "57162",
+   "Jug_Entra": "PHILIP MC GREGOR",
+   "camiseta": "19",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56372",
+   "Jug_Sale": "ALFONSO CARDELINO",
+   "CarneEntra": "57161",
+   "Jug_Entra": "JUAN FRANCISCO SONEIRA",
+   "camiseta": "18",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "64391",
+   "Jug_Sale": "JUAN BAUTISTA IRIARTE",
+   "CarneEntra": "47831",
+   "Jug_Entra": "SANTIAGO ARIASI",
+   "camiseta": "70",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "34996",
+   "Jug_Sale": "GASTON VAREIKA",
+   "CarneEntra": "53709",
+   "Jug_Entra": "VARTAN TCHEKMEDYIAN",
+   "camiseta": "28",
+   "minutos": "81"
+  },
+  {
+   "CarneSale": "59182",
+   "Jug_Sale": "MATEO DENIS",
+   "CarneEntra": "43339",
+   "Jug_Entra": "THIAGO MAHIA",
+   "camiseta": "29",
+   "minutos": "81"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "39055",
+   "Nombre": "LUCAS MARTIN CASTIGLIONI",
+   "minutos": "72",
+   "EnContra": "0"
+  },
+  {
+   "carne": "41107",
+   "Nombre": "MATIAS ANTONIO OXACELHAY",
+   "minutos": "79",
+   "EnContra": "0"
+  },
+  {
+   "carne": "52832",
+   "Nombre": "FELIPE ROBATTO",
+   "minutos": "35",
+   "EnContra": "0"
+  },
+  {
+   "carne": "52832",
+   "Nombre": "FELIPE ROBATTO",
+   "minutos": "92",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "34996",
+   "Nombre": "GASTON VAREIKA",
+   "minutos": "8",
+   "EnContra": "1"
+  },
+  {
+   "carne": "57162",
+   "Nombre": "PHILIP MC GREGOR",
+   "minutos": "66",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }
