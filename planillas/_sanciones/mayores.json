@@ -15949,5 +15949,31 @@
   "fechas": 1,
   "detalle": "F:1 - UR:0",
   "texto": "Sanción generada automáticamente por expulsión en el partido"
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-11-18",
+  "partido": "1082",
+  "serie": "ETA",
+  "carne": "43865",
+  "nombre": "AGUSTIN SERMACISIAN",
+  "club": "SAN AGUSTIN",
+  "sancion": "SUSPENDIDO",
+  "fechas": 12,
+  "detalle": "F:12 - UR:0",
+  "texto": "Art. 148 del C.P. Que cumpla en todas las categorías de la discilpina deportiva."
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-11-18",
+  "partido": "1082",
+  "serie": "ETA",
+  "carne": "47648",
+  "nombre": "JOAQUIN GELABERT",
+  "club": "SAN AGUSTIN",
+  "sancion": "SUSPENDIDO",
+  "fechas": 6,
+  "detalle": "F:6 - UR:0",
+  "texto": "Art. 150 del C.P. Que cumpla en todas las categorías de la disciplina deportiva."
  }
 ]

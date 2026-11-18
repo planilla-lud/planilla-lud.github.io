@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB16 BRONCE",
   "Cancha": "CLUB ALEMAN",
-  "Fecha_Inicio": "2026-11-15 15:00:00",
-  "Fecha_fin": "2026-11-15 15:00:00",
+  "Fecha_Inicio": "2026-11-15 15:15:00",
+  "Fecha_fin": "2026-11-15 15:15:00",
   "Locatario": "ALEMAN UNIVERSITARIO",
   "goles_locatario": "1",
   "puntos_locatario": "3",
@@ -29,11 +29,226 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
+ "titularesL": [
+  {
+   "carne": "64328",
+   "Nombre": "LORENZO BRUNO PEZZANI",
+   "camiseta": "1",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "66948",
+   "Nombre": "FACUNDO RADESCA",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "67404",
+   "Nombre": "FACUNDO GONZALEZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "68772",
+   "Nombre": "SANTIAGO FELICETTI",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "60486",
+   "Nombre": "JUAN PEDRO ALVEZ",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "67406",
+   "Nombre": "BAUTISTA APRAHAMIAN",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "62937",
+   "Nombre": "LEON PEDRO SCHILDE",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "64327",
+   "Nombre": "AGUSTIN JUSTO RODRIGUEZ",
+   "camiseta": "55",
+   "Capitan": ""
+  },
+  {
+   "carne": "63038",
+   "Nombre": "FELIPE LIGÜERA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "63383",
+   "Nombre": "JOSE MANUEL HERRERA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "66950",
+   "Nombre": "FRANCISCO CHIAPPORI",
+   "camiseta": "18",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "63051",
+   "Nombre": "LUCIANO MONTAÑA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "67469",
+   "Nombre": "SANTIAGO DANIEL DE LA LLANA",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "68184",
+   "Nombre": "SANTIAGO FONTOURA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "67602",
+   "Nombre": "VALENTINO LAUTARO DE ARMAS",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "67929",
+   "Nombre": "EMILIANO BURGAINS",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "67932",
+   "Nombre": "BAUTISTA PAZ",
+   "camiseta": "4",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "68183",
+   "Nombre": "JOAQUIN JOAQUIN",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "67468",
+   "Nombre": "FACUNDO BENJAMIN FACUNDO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "68452",
+   "Nombre": "SANDINO GABRIEL CUNHA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "67466",
+   "Nombre": "FRANCO OTTONELLO",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "67607",
+   "Nombre": "LAUTARO ALEXANDER ALANIS",
+   "camiseta": "13",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "63383",
+   "Jug_Sale": "JOSE MANUEL HERRERA",
+   "CarneEntra": "65257",
+   "Jug_Entra": "FACUNDO QUEIROLO",
+   "camiseta": "23",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67406",
+   "Jug_Sale": "BAUTISTA APRAHAMIAN",
+   "CarneEntra": "65916",
+   "Jug_Entra": "EMILIANO PUJADAS",
+   "camiseta": "66",
+   "minutos": "55"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "67466",
+   "Jug_Sale": "FRANCO OTTONELLO",
+   "CarneEntra": "67928",
+   "Jug_Entra": "ANGEL EDUARDO DI MATTEO",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67607",
+   "Jug_Sale": "LAUTARO ALEXANDER ALANIS",
+   "CarneEntra": "67609",
+   "Jug_Entra": "NICOLAS RAUL PEREIRO",
+   "camiseta": "9",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68184",
+   "Jug_Sale": "SANTIAGO FONTOURA",
+   "CarneEntra": "67604",
+   "Jug_Entra": "IGNACIO GARCIA",
+   "camiseta": "21",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68452",
+   "Jug_Sale": "SANDINO GABRIEL CUNHA",
+   "CarneEntra": "68451",
+   "Jug_Entra": "GUSTAVO ALEJANDRO ATENCIO",
+   "camiseta": "19",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67929",
+   "Jug_Sale": "EMILIANO BURGAINS",
+   "CarneEntra": "67465",
+   "Jug_Entra": "IGANCIO CAMEJO",
+   "camiseta": "8",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "67468",
+   "Jug_Sale": "FACUNDO BENJAMIN FACUNDO",
+   "CarneEntra": "67600",
+   "Jug_Entra": "BRUNO NICOLAS YACQUE",
+   "camiseta": "15",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "67469",
+   "Jug_Sale": "SANTIAGO DANIEL DE LA LLANA",
+   "CarneEntra": "67603",
+   "Jug_Entra": "BRUNO PODESTA",
+   "camiseta": "16",
+   "minutos": "75"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "67404",
+   "Nombre": "FACUNDO GONZALEZ",
+   "minutos": "52",
+   "EnContra": "0"
+  }
+ ],
  "golesV": [],
  "expulsadosL": [],
  "expulsadosV": []
