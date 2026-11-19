@@ -9891,5 +9891,18 @@
   "fechas": 3,
   "detalle": "F:3 - UR:3",
   "texto": "Art. 148 del C.P. Que cumpla en todas las categorías de la disciplina deportiva."
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-11-19",
+  "partido": "747",
+  "serie": "RSCTA",
+  "carne": "51863",
+  "nombre": "JORGE ANDRES COUTO",
+  "club": "SAN EUGENIO",
+  "sancion": "SUSPENDIDO",
+  "fechas": 2,
+  "detalle": "F:2 - UR:0",
+  "texto": "Art. 132, 133 del C.P"
  }
 ]

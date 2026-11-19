@@ -4155,8 +4155,8 @@
   "nombre": "SANTIAGO VILARDEBO",
   "club": "LA BLANQUEADA",
   "sancion": "SANCIÓN AUTOMÁTICA",
-  "fechas": 1,
-  "detalle": "F:1 - UR:0",
+  "fechas": 0,
+  "detalle": "F:0 - UR:0",
   "texto": "Sanción generada automáticamente por expulsión en el partido"
  },
  {
@@ -4220,8 +4220,8 @@
   "nombre": "DANIEL MARTIN PEYDRO",
   "club": "PINAR JRS",
   "sancion": "SANCIÓN AUTOMÁTICA",
-  "fechas": 1,
-  "detalle": "F:1 - UR:0",
+  "fechas": 0,
+  "detalle": "F:0 - UR:0",
   "texto": "Sanción generada automáticamente por expulsión en el partido"
  },
  {
@@ -4233,8 +4233,8 @@
   "nombre": "MAXIMILIANO BENVENUTI",
   "club": "PINAR JRS",
   "sancion": "SANCIÓN AUTOMÁTICA",
-  "fechas": 1,
-  "detalle": "F:1 - UR:0",
+  "fechas": 0,
+  "detalle": "F:0 - UR:0",
   "texto": "Sanción generada automáticamente por expulsión en el partido"
  },
  {
@@ -4363,8 +4363,8 @@
   "nombre": "DIEGO LUIS DELLA CELLA",
   "club": "OBC AZULGRANA",
   "sancion": "SUSPENDIDO",
-  "fechas": 8,
-  "detalle": "F:8 - UR:0",
+  "fechas": 3,
+  "detalle": "F:3 - UR:0",
   "texto": "Art. 131 del C.P. Que cumpla en todas las disciplinas deportiva."
  },
  {
@@ -4418,5 +4418,109 @@
   "fechas": 2,
   "detalle": "F:2 - UR:0",
   "texto": "Art. 151 del C.P"
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-11-19",
+  "partido": "532",
+  "serie": "M40O2",
+  "carne": "16260",
+  "nombre": "GERMAN JORGE RUIZ",
+  "club": "CLUB RICHARD ANDERSON UNIV.",
+  "sancion": "SUSPENDIDO",
+  "fechas": 1,
+  "detalle": "F:1 - UR:1",
+  "texto": "Art. 147 del C.P"
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-11-19",
+  "partido": "533",
+  "serie": "M40O2",
+  "carne": "18773",
+  "nombre": "JUAN ANDRES BECERRA",
+  "club": "J.M.L.M",
+  "sancion": "SUSPENDIDO",
+  "fechas": 2,
+  "detalle": "F:2 - UR:2",
+  "texto": "Art. 147 del C.P"
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-11-19",
+  "partido": "422",
+  "serie": "40CO",
+  "carne": "19196",
+  "nombre": "SANTIAGO VILARDEBO",
+  "club": "LA BLANQUEADA",
+  "sancion": "SUSPENDIDO",
+  "fechas": 1,
+  "detalle": "F:1 - UR:1",
+  "texto": "Art. 147 del C.P"
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-11-19",
+  "partido": "451",
+  "serie": "40CP",
+  "carne": "20706",
+  "nombre": "JAVIER NICOLAS ALMADA",
+  "club": "TACUAREMBO UNIVERSITARIO",
+  "sancion": "SUSPENDIDO",
+  "fechas": 1,
+  "detalle": "F:1 - UR:1",
+  "texto": "Art. 151 del C.P"
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-11-19",
+  "partido": "530",
+  "serie": "M40O2",
+  "carne": "22404",
+  "nombre": "DANIEL MARTIN PEYDRO",
+  "club": "PINAR JRS",
+  "sancion": "SUSPENDIDO",
+  "fechas": 1,
+  "detalle": "F:1 - UR:1",
+  "texto": "Art. 147 del C.P"
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-11-19",
+  "partido": "536",
+  "serie": "M40O2",
+  "carne": "22438",
+  "nombre": "MARTIN ALVARO ORMAECHEA",
+  "club": "SAGRADA FAMILIA UNIVERSITARIO",
+  "sancion": "SUSPENDIDO",
+  "fechas": 1,
+  "detalle": "F:1 - UR:1",
+  "texto": "Art. 147 del C.P"
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-11-19",
+  "partido": "537",
+  "serie": "M40O2",
+  "carne": "29496",
+  "nombre": "DIEGO FERRARI",
+  "club": "J.M.L.M",
+  "sancion": "SUSPENDIDO",
+  "fechas": 2,
+  "detalle": "F:2 - UR:2",
+  "texto": "Art. 149 del C.P"
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-11-19",
+  "partido": "530",
+  "serie": "M40O2",
+  "carne": "48801",
+  "nombre": "MAXIMILIANO BENVENUTI",
+  "club": "PINAR JRS",
+  "sancion": "SUSPENDIDO",
+  "fechas": 2,
+  "detalle": "F:2 - UR:2",
+  "texto": "Art. 147 del C.P"
  }
 ]
