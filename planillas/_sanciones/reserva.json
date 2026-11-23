@@ -10103,6 +10103,19 @@
  {
   "tipo": "fallo",
   "fecha": "2026-11-19",
+  "partido": "719",
+  "serie": "RSBPD",
+  "carne": "59694",
+  "nombre": "FELIPE CASTRO",
+  "club": "CRANDON UNIVERSITARIO",
+  "sancion": "SUSPENDIDO",
+  "fechas": 3,
+  "detalle": "F:3 - UR:3",
+  "texto": "Art. 148 del C.P"
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-11-19",
   "partido": "605",
   "serie": "RSDPD",
   "carne": "61320",
