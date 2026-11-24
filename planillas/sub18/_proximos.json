@@ -31,29 +31,8 @@
   "serie": "18A",
   "fechaHora": "2026-11-24 00:00:00",
   "cancha": "CANCHA A FIJAR",
-  "local": "COLEGIO Y LICEO INGLES",
-  "visitante": "NUMA TURCATTI"
- },
- {
-  "serie": "18A",
-  "fechaHora": "2026-11-24 00:00:00",
-  "cancha": "CANCHA A FIJAR",
   "local": "ACADEMIA FRM",
   "visitante": "LA BLANQUEADA"
- },
- {
-  "serie": "18C",
-  "fechaHora": "2026-11-24 20:00:00",
-  "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
-  "local": "SEMINARIO UNIVERSITARIO",
-  "visitante": "TENIS EL PINAR"
- },
- {
-  "serie": "18P",
-  "fechaHora": "2026-11-24 20:30:00",
-  "cancha": "CIUDAD DEPORTIVA LS",
-  "local": "DEPORTIVO LS UNIVERSITARIO",
-  "visitante": "OLD BOYS CLUB"
  },
  {
   "serie": "18B",
@@ -61,6 +40,27 @@
   "cancha": "CLUB ALEMAN",
   "local": "ALEMAN UNIVERSITARIO",
   "visitante": "SAN PABLO UNIVERSITARIO"
+ },
+ {
+  "serie": "18A",
+  "fechaHora": "2026-11-26 18:40:00",
+  "cancha": "CAMPO DEP. COLEGIO INGLES",
+  "local": "COLEGIO Y LICEO INGLES",
+  "visitante": "NUMA TURCATTI"
+ },
+ {
+  "serie": "18P",
+  "fechaHora": "2026-11-26 20:30:00",
+  "cancha": "CIUDAD DEPORTIVA LS",
+  "local": "DEPORTIVO LS UNIVERSITARIO",
+  "visitante": "OLD BOYS CLUB"
+ },
+ {
+  "serie": "18C",
+  "fechaHora": "2026-11-27 20:00:00",
+  "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
+  "local": "SEMINARIO UNIVERSITARIO",
+  "visitante": "TENIS EL PINAR"
  },
  {
   "serie": "18O",

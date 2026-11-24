@@ -14,25 +14,25 @@
   "visitante": "COLEGIO SANTA ELENA"
  },
  {
-  "serie": "16O",
-  "fechaHora": "2026-11-24 17:30:00",
-  "cancha": "COMPLEJO WOODLANDS SCHOOL",
-  "local": "OLD WOODLANDS CLUB",
-  "visitante": "THE BRITISH SCHOOL"
- },
- {
-  "serie": "16O",
-  "fechaHora": "2026-11-24 18:30:00",
-  "cancha": "OLD CHRISTIANS CLUB",
-  "local": "OLD CHRISTIANS CLUB",
-  "visitante": "THE BRITISH SCHOOL"
- },
- {
   "serie": "16C",
   "fechaHora": "2026-11-24 19:00:00",
   "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
   "local": "SEMINARIO UNIVERSITARIO",
   "visitante": "ESCUELA L.P."
+ },
+ {
+  "serie": "16O",
+  "fechaHora": "2026-11-25 18:00:00",
+  "cancha": "OLD CHRISTIANS CLUB",
+  "local": "OLD CHRISTIANS CLUB",
+  "visitante": "THE BRITISH SCHOOL"
+ },
+ {
+  "serie": "16B",
+  "fechaHora": "2026-11-27 19:30:00",
+  "cancha": "COLEGIO ARETEIA",
+  "local": "DEP.de la C. ARETEIA BIMBULLY",
+  "visitante": "TENIS EL PINAR"
  },
  {
   "serie": "16O",
@@ -61,13 +61,6 @@
   "cancha": "CANCHA A FIJAR",
   "local": "J.M.L.M",
   "visitante": "PELOTA AL MEDIO UNIVERSITARIO"
- },
- {
-  "serie": "16B",
-  "fechaHora": "2026-11-29 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "DEP.de la C. ARETEIA BIMBULLY",
-  "visitante": "TENIS EL PINAR"
  },
  {
   "serie": "16B",
