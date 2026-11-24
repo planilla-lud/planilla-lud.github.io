@@ -24,13 +24,6 @@
   "serie": "18A",
   "fechaHora": "2026-11-24 00:00:00",
   "cancha": "CANCHA A FIJAR",
-  "local": "SANTA ELENA LAGOMAR",
-  "visitante": "TROUVILLE UNIVERSITARIO"
- },
- {
-  "serie": "18A",
-  "fechaHora": "2026-11-24 00:00:00",
-  "cancha": "CANCHA A FIJAR",
   "local": "ACADEMIA FRM",
   "visitante": "LA BLANQUEADA"
  },
@@ -40,6 +33,13 @@
   "cancha": "CLUB ALEMAN",
   "local": "ALEMAN UNIVERSITARIO",
   "visitante": "SAN PABLO UNIVERSITARIO"
+ },
+ {
+  "serie": "18A",
+  "fechaHora": "2026-11-25 20:30:00",
+  "cancha": "COMPLEJO DEPORTIVO ARRAYANES",
+  "local": "SANTA ELENA LAGOMAR",
+  "visitante": "TROUVILLE UNIVERSITARIO"
  },
  {
   "serie": "18A",
@@ -64,83 +64,6 @@
  },
  {
   "serie": "18O",
-  "fechaHora": "2026-11-29 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "CEIBOS CLUB",
-  "visitante": "OLD BRENDANS CLUB"
- },
- {
-  "serie": "18O",
-  "fechaHora": "2026-11-29 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "OLD CHRISTIANS CLUB",
-  "visitante": "MARISTAS DEPORTIVO"
- },
- {
-  "serie": "18P",
-  "fechaHora": "2026-11-29 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "COLEGIO SANTA ELENA",
-  "visitante": "OLD BOYS CLUB"
- },
- {
-  "serie": "18P",
-  "fechaHora": "2026-11-29 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "E.L.F.",
-  "visitante": "DEPORTIVO MORON"
- },
- {
-  "serie": "18B",
-  "fechaHora": "2026-11-29 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "J.M.L.M",
-  "visitante": "CIRCULO DE TENIS MONTEVIDEO"
- },
- {
-  "serie": "18C",
-  "fechaHora": "2026-11-29 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "UNIVERSITARIO VERONES",
-  "visitante": "LATINO FUTBOL CLUB"
- },
- {
-  "serie": "18C",
-  "fechaHora": "2026-11-29 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "PERRY SEXTA UNIVERSITARIO",
-  "visitante": "TENIS EL PINAR"
- },
- {
-  "serie": "18C",
-  "fechaHora": "2026-11-29 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "SAN AGUSTIN",
-  "visitante": "SEMINARIO UNIVERSITARIO"
- },
- {
-  "serie": "18F",
-  "fechaHora": "2026-11-29 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "DEP.de la C. ARETEIA BIMBULLY",
-  "visitante": "PLAYA HONDA UNIVERSITARIO"
- },
- {
-  "serie": "18A",
-  "fechaHora": "2026-11-29 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "COLEGIO Y LICEO INGLES",
-  "visitante": "LA BLANQUEADA"
- },
- {
-  "serie": "18A",
-  "fechaHora": "2026-11-29 00:00:00",
-  "cancha": "CANCHA A FIJAR",
-  "local": "ACADEMIA FRM",
-  "visitante": "NACIONAL UNIVERSITARIO"
- },
- {
-  "serie": "18O",
   "fechaHora": "2026-11-29 15:30:00",
   "cancha": "CARRASCO LAWN TENIS (KM 23)",
   "local": "CARRASCO LAWN TENNIS",
@@ -152,6 +75,34 @@
   "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
   "local": "CLUB SEMINARIO",
   "visitante": "SAN JUAN BAUTISTA"
+ },
+ {
+  "serie": "18O",
+  "fechaHora": "2026-11-29 15:30:00",
+  "cancha": "MONTE VI \"LOS CEIBOS\"",
+  "local": "CEIBOS CLUB",
+  "visitante": "OLD BRENDANS CLUB"
+ },
+ {
+  "serie": "18O",
+  "fechaHora": "2026-11-29 15:30:00",
+  "cancha": "OLD CHRISTIANS CLUB",
+  "local": "OLD CHRISTIANS CLUB",
+  "visitante": "MARISTAS DEPORTIVO"
+ },
+ {
+  "serie": "18P",
+  "fechaHora": "2026-11-29 15:30:00",
+  "cancha": "COMPLEJO DEPORTIVO ARRAYANES",
+  "local": "COLEGIO SANTA ELENA",
+  "visitante": "OLD BOYS CLUB"
+ },
+ {
+  "serie": "18P",
+  "fechaHora": "2026-11-29 15:30:00",
+  "cancha": "ELF (LICEO FRANCES)",
+  "local": "E.L.F.",
+  "visitante": "DEPORTIVO MORON"
  },
  {
   "serie": "18P",
@@ -170,6 +121,13 @@
  {
   "serie": "18B",
   "fechaHora": "2026-11-29 15:30:00",
+  "cancha": "LA MENNAIS",
+  "local": "J.M.L.M",
+  "visitante": "CIRCULO DE TENIS MONTEVIDEO"
+ },
+ {
+  "serie": "18B",
+  "fechaHora": "2026-11-29 15:30:00",
   "cancha": "THE ANGLO SCHOOL",
   "local": "ANGLO SCHOOL UNIVERSITARIO",
   "visitante": "JUAN XXIII"
@@ -184,9 +142,30 @@
  {
   "serie": "18C",
   "fechaHora": "2026-11-29 15:30:00",
+  "cancha": "COMPLEJO DEP. y SAL, EL RINCON",
+  "local": "UNIVERSITARIO VERONES",
+  "visitante": "LATINO FUTBOL CLUB"
+ },
+ {
+  "serie": "18C",
+  "fechaHora": "2026-11-29 15:30:00",
+  "cancha": "MICROSULES",
+  "local": "PERRY SEXTA UNIVERSITARIO",
+  "visitante": "TENIS EL PINAR"
+ },
+ {
+  "serie": "18C",
+  "fechaHora": "2026-11-29 15:30:00",
   "cancha": "COMPLEJO COLEGIO JESÚS MARÍA",
   "local": "CLUB JESUS MARIA",
   "visitante": "ELBIO FERNANDEZ"
+ },
+ {
+  "serie": "18C",
+  "fechaHora": "2026-11-29 15:30:00",
+  "cancha": "SANTA RITA",
+  "local": "SAN AGUSTIN",
+  "visitante": "SEMINARIO UNIVERSITARIO"
  },
  {
   "serie": "18F",
@@ -194,6 +173,13 @@
   "cancha": "SAGRADA FAMILIA",
   "local": "CLUB SOCIAL PIEDRAS BLANCAS",
   "visitante": "NAUTICO CARRASCO Y PUNTA GORDA"
+ },
+ {
+  "serie": "18F",
+  "fechaHora": "2026-11-29 15:30:00",
+  "cancha": "COLEGIO ARETEIA",
+  "local": "DEP.de la C. ARETEIA BIMBULLY",
+  "visitante": "PLAYA HONDA UNIVERSITARIO"
  },
  {
   "serie": "18F",
@@ -219,9 +205,23 @@
  {
   "serie": "18A",
   "fechaHora": "2026-11-29 15:30:00",
-  "cancha": "POLIDEPORTIVO FAUQUET",
+  "cancha": "CAMPO DEP. COLEGIO INGLES",
+  "local": "COLEGIO Y LICEO INGLES",
+  "visitante": "LA BLANQUEADA"
+ },
+ {
+  "serie": "18A",
+  "fechaHora": "2026-11-29 15:30:00",
+  "cancha": "SPORT 11",
   "local": "ARQUITECTURA JRS.",
   "visitante": "SCUOLA PALERMO"
+ },
+ {
+  "serie": "18A",
+  "fechaHora": "2026-11-29 15:30:00",
+  "cancha": "POLIDEPORTIVO CARRASCO",
+  "local": "ACADEMIA FRM",
+  "visitante": "NACIONAL UNIVERSITARIO"
  },
  {
   "serie": "18A",
