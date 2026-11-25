@@ -15933,8 +15933,8 @@
   "nombre": "FACUNDO CAPDEVIELLE",
   "club": "PLAYA HONDA UNIVERSITARIO",
   "sancion": "SANCIÓN AUTOMÁTICA",
-  "fechas": 1,
-  "detalle": "F:1 - UR:0",
+  "fechas": 0,
+  "detalle": "F:0 - UR:0",
   "texto": "Sanción generada automáticamente por expulsión en el partido"
  },
  {
@@ -16365,5 +16365,18 @@
   "fechas": 3,
   "detalle": "F:3 - UR:0",
   "texto": "Art. 146 del C.P. Que cumpla en todas las categorías de la disciplina deportiva."
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-11-25",
+  "partido": "1261",
+  "serie": "AP",
+  "carne": "47657",
+  "nombre": "FACUNDO CAPDEVIELLE",
+  "club": "PLAYA HONDA UNIVERSITARIO",
+  "sancion": "SUSPENDIDO",
+  "fechas": 8,
+  "detalle": "F:8 - UR:0",
+  "texto": "Art. 131 del C.P. Que cumpla en todas las categorías de la disciplina deportiva."
  }
 ]

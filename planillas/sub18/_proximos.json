@@ -22,8 +22,8 @@
  },
  {
   "serie": "18A",
-  "fechaHora": "2026-11-24 00:00:00",
-  "cancha": "CANCHA A FIJAR",
+  "fechaHora": "2026-11-25 20:00:00",
+  "cancha": "COMPLEJO LOS NOGALES",
   "local": "ACADEMIA FRM",
   "visitante": "LA BLANQUEADA"
  },
@@ -61,6 +61,13 @@
   "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
   "local": "SEMINARIO UNIVERSITARIO",
   "visitante": "TENIS EL PINAR"
+ },
+ {
+  "serie": "18A",
+  "fechaHora": "2026-11-27 21:00:00",
+  "cancha": "COMPLEJO LOS NOGALES",
+  "local": "ACADEMIA FRM",
+  "visitante": "NACIONAL UNIVERSITARIO"
  },
  {
   "serie": "18O",
@@ -218,13 +225,6 @@
  },
  {
   "serie": "18A",
-  "fechaHora": "2026-11-29 15:30:00",
-  "cancha": "POLIDEPORTIVO CARRASCO",
-  "local": "ACADEMIA FRM",
-  "visitante": "NACIONAL UNIVERSITARIO"
- },
- {
-  "serie": "18A",
   "fechaHora": "2026-12-01 00:00:00",
   "cancha": "CANCHA A FIJAR",
   "local": "ACADEMIA FRM",
@@ -250,6 +250,13 @@
   "cancha": "COMPLEJO ALCOBENDAS",
   "local": "NACIONAL UNIVERSITARIO",
   "visitante": "NUMA TURCATTI"
+ },
+ {
+  "serie": "18A",
+  "fechaHora": "2026-12-04 20:00:00",
+  "cancha": "COMPLEJO ALCOBENDAS",
+  "local": "NACIONAL UNIVERSITARIO",
+  "visitante": "TROUVILLE UNIVERSITARIO"
  },
  {
   "serie": "18P",
@@ -404,13 +411,6 @@
   "cancha": "SAGRADA FAMILIA",
   "local": "CLUB SOCIAL PIEDRAS BLANCAS",
   "visitante": "CRANDON UNIVERSITARIO"
- },
- {
-  "serie": "18A",
-  "fechaHora": "2026-12-06 15:30:00",
-  "cancha": "COMPLEJO ALCOBENDAS",
-  "local": "NACIONAL UNIVERSITARIO",
-  "visitante": "TROUVILLE UNIVERSITARIO"
  },
  {
   "serie": "18A",
