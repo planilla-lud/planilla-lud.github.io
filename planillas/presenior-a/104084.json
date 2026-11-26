@@ -1,0 +1,241 @@
+{
+ "id": "104084",
+ "categoria": "presenior-a",
+ "serie": "PSAT",
+ "fecha": 6,
+ "fechaHora": "2026-11-24 21:01:00",
+ "cancha": "OLD CHRISTIANS CLUB",
+ "local": "OLD CHRISTIANS CLUB",
+ "visitante": "NACIONAL UNIVERSITARIO",
+ "gl": 1,
+ "gv": 2,
+ "detalle": {
+  "nro_partido": "801",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "PRE SENIOR",
+  "categoria": "PRE-SENIOR MASCULINO",
+  "rueda": "2",
+  "Divisional": "PRESENIOR \"A\" TITULO",
+  "Cancha": "OLD CHRISTIANS CLUB",
+  "Fecha_Inicio": "2026-11-24 21:30:00",
+  "Fecha_fin": "2026-11-24 21:30:00",
+  "Locatario": "OLD CHRISTIANS CLUB",
+  "goles_locatario": "1",
+  "puntos_locatario": "0",
+  "Visitante": "NACIONAL UNIVERSITARIO",
+  "goles_visitante": "2",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": "Partido suspendido, se eleva nota."
+ },
+ "titularesL": [
+  {
+   "carne": "26015",
+   "Nombre": "GUILLERMO FEDERICO BRITOS",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "40060",
+   "Nombre": "MATEO LONG",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "33189",
+   "Nombre": "THOMAS SCHIMDT",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "22099",
+   "Nombre": "IGNACIO MARIA PEREZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "28835",
+   "Nombre": "JUAN IGNACIO GORBARAN",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "28410",
+   "Nombre": "FELIPE JUAN URIOSTE",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "28899",
+   "Nombre": "IGNACIO MUÑOZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "26729",
+   "Nombre": "LUIS IGNACIO CRISCI",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "51231",
+   "Nombre": "ALEJO MAYORGA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "20036",
+   "Nombre": "MATIAS CROSTA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "27137",
+   "Nombre": "DIEGO PEDRO MARIÑO",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "53628",
+   "Nombre": "BRUNO DAVID GONZALEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "31298",
+   "Nombre": "SANTIAGO OMAR TORIJA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "27674",
+   "Nombre": "MARTIN GIRALDI",
+   "camiseta": "4",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "17299",
+   "Nombre": "JOSE PEDRO CARZOLIO",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "31833",
+   "Nombre": "JUAN MARTIN COURTOISIE",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "59140",
+   "Nombre": "DIEGO ANDRES LOPEZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "31286",
+   "Nombre": "GONZALO CASANOVA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "27583",
+   "Nombre": "ESTEBAN DAVID ZAPATA",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "29119",
+   "Nombre": "ALEJANDRO JUAN RAIZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "39765",
+   "Nombre": "PABLO PARADA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "34504",
+   "Nombre": "JUAN SEBASTIAN DINI",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "47940",
+   "Nombre": "JUAN AGUSTIN CARBALLO",
+   "camiseta": "36",
+   "Capitan": ""
+  },
+  {
+   "carne": "31284",
+   "Nombre": "FELIPE MARIA CALZA",
+   "camiseta": "8",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "28410",
+   "Jug_Sale": "FELIPE JUAN URIOSTE",
+   "CarneEntra": "28835",
+   "Jug_Entra": "JUAN IGNACIO GORBARAN",
+   "camiseta": "2",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "28899",
+   "Jug_Sale": "IGNACIO MUÑOZ",
+   "CarneEntra": "21639",
+   "Jug_Entra": "EDUARDO GABRIEL PEIRANO",
+   "camiseta": "6",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "51231",
+   "Jug_Sale": "ALEJO MAYORGA",
+   "CarneEntra": "26727",
+   "Jug_Entra": "CARLOS EDUARDO SCHECK",
+   "camiseta": "23",
+   "minutos": "45"
+  }
+ ],
+ "cambiosV": [],
+ "golesL": [
+  {
+   "carne": "40060",
+   "Nombre": "MATEO LONG",
+   "minutos": "50",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "17299",
+   "Nombre": "JOSE PEDRO CARZOLIO",
+   "minutos": "35",
+   "EnContra": "1"
+  },
+  {
+   "carne": "59140",
+   "Nombre": "DIEGO ANDRES LOPEZ",
+   "minutos": "33",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "MATIAS CROSTA",
+   "observaciones": ""
+  }
+ ],
+ "expulsadosV": [
+  {
+   "Nombre": "FELIPE MARIA CALZA",
+   "observaciones": ""
+  }
+ ]
+}
