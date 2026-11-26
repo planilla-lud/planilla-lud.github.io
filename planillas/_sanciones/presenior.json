@@ -10876,8 +10876,8 @@
   "nombre": "MAXIMILIANO SANTIAGO",
   "club": "SCUOLA PALERMO",
   "sancion": "SANCIÓN AUTOMÁTICA",
-  "fechas": 1,
-  "detalle": "F:1 - UR:0",
+  "fechas": 0,
+  "detalle": "F:0 - UR:0",
   "texto": "Sanción generada automáticamente por expulsión en el partido"
  },
  {
@@ -10889,8 +10889,8 @@
   "nombre": "SEBASTIAN VEGAS",
   "club": "ODONTOLOGIA UNIVERSITARIO",
   "sancion": "SANCIÓN AUTOMÁTICA",
-  "fechas": 1,
-  "detalle": "F:1 - UR:0",
+  "fechas": 0,
+  "detalle": "F:0 - UR:0",
   "texto": "Sanción generada automáticamente por expulsión en el partido"
  },
  {
@@ -10915,8 +10915,8 @@
   "nombre": "PABLO FERNANDEZ",
   "club": "TENIS EL PINAR",
   "sancion": "SANCIÓN AUTOMÁTICA",
-  "fechas": 1,
-  "detalle": "F:1 - UR:0",
+  "fechas": 0,
+  "detalle": "F:0 - UR:0",
   "texto": "Sanción generada automáticamente por expulsión en el partido"
  },
  {
@@ -10928,8 +10928,8 @@
   "nombre": "MICHAEL ANDRES MARTINEZ",
   "club": "WANDERERS",
   "sancion": "SANCIÓN AUTOMÁTICA",
-  "fechas": 1,
-  "detalle": "F:1 - UR:0",
+  "fechas": 0,
+  "detalle": "F:0 - UR:0",
   "texto": "Sanción generada automáticamente por expulsión en el partido"
  },
  {
@@ -10941,8 +10941,8 @@
   "nombre": "FEDERICO RODRIGUEZ",
   "club": "ODONTOLOGIA UNIVERSITARIO",
   "sancion": "SANCIÓN AUTOMÁTICA",
-  "fechas": 1,
-  "detalle": "F:1 - UR:0",
+  "fechas": 0,
+  "detalle": "F:0 - UR:0",
   "texto": "Sanción generada automáticamente por expulsión en el partido"
  },
  {
@@ -10954,8 +10954,8 @@
   "nombre": "RODRIGO ARCE",
   "club": "WANDERERS",
   "sancion": "SANCIÓN AUTOMÁTICA",
-  "fechas": 1,
-  "detalle": "F:1 - UR:0",
+  "fechas": 0,
+  "detalle": "F:0 - UR:0",
   "texto": "Sanción generada automáticamente por expulsión en el partido"
  },
  {
@@ -10967,8 +10967,8 @@
   "nombre": "SANTIAGO OLEAGA",
   "club": "SCUOLA PALERMO",
   "sancion": "SANCIÓN AUTOMÁTICA",
-  "fechas": 1,
-  "detalle": "F:1 - UR:0",
+  "fechas": 0,
+  "detalle": "F:0 - UR:0",
   "texto": "Sanción generada automáticamente por expulsión en el partido"
  },
  {
@@ -11308,5 +11308,135 @@
   "fechas": 1,
   "detalle": "F:1 - UR:0",
   "texto": "Sanción generada automáticamente por expulsión en el partido"
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-11-26",
+  "partido": "943",
+  "serie": "PSDTA",
+  "carne": "20987",
+  "nombre": "MAXIMILIANO SANTIAGO",
+  "club": "SCUOLA PALERMO",
+  "sancion": "SUSPENDIDO",
+  "fechas": 1,
+  "detalle": "F:1 - UR:1",
+  "texto": "Art. 151 del C.P"
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-11-26",
+  "partido": "1002",
+  "serie": "PSCTA",
+  "carne": "21433",
+  "nombre": "SEBASTIAN VEGAS",
+  "club": "ODONTOLOGIA UNIVERSITARIO",
+  "sancion": "SUSPENDIDO",
+  "fechas": 1,
+  "detalle": "F:1 - UR:1",
+  "texto": "Art. 147 del C.P"
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-11-26",
+  "partido": "1030",
+  "serie": "PSET2",
+  "carne": "23668",
+  "nombre": "MAURO ANDRES SERRA",
+  "club": "LA CUEVA DEL LOBIZON",
+  "sancion": "SUSPENDIDO",
+  "fechas": 3,
+  "detalle": "F:3 - UR:3",
+  "texto": "Art. 148 del C.P"
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-11-26",
+  "partido": "831",
+  "serie": "PSAPD",
+  "carne": "38595",
+  "nombre": "PABLO FERNANDEZ",
+  "club": "TENIS EL PINAR",
+  "sancion": "SUSPENDIDO",
+  "fechas": 4,
+  "detalle": "F:4 - UR:0",
+  "texto": "Art. 148 del C.P"
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-11-26",
+  "partido": "943",
+  "serie": "PSDTA",
+  "carne": "39901",
+  "nombre": "AGUSTIN MAZZEY",
+  "club": "SCUOLA PALERMO",
+  "sancion": "SUSPENDIDO",
+  "fechas": 3,
+  "detalle": "F:3 - UR:0",
+  "texto": "Art. 132 del C.P"
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-11-26",
+  "partido": "939",
+  "serie": "PSDTA",
+  "carne": "53640",
+  "nombre": "HENRY GASTON LINK",
+  "club": "ESTUDIANTES ESPAÑOLES",
+  "sancion": "SUSPENDIDO",
+  "fechas": 9,
+  "detalle": "F:9 - UR:0",
+  "texto": "Art. 148 del C.P. Que cumpla en todas las categorías de la disciplina deportiva."
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-11-26",
+  "partido": "1030",
+  "serie": "PSET2",
+  "carne": "54723",
+  "nombre": "MICHAEL ANDRES MARTINEZ",
+  "club": "WANDERERS",
+  "sancion": "SUSPENDIDO",
+  "fechas": 2,
+  "detalle": "F:2 - UR:2",
+  "texto": "Art. 132, 147 del C.P"
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-11-26",
+  "partido": "1002",
+  "serie": "PSCTA",
+  "carne": "57076",
+  "nombre": "FEDERICO RODRIGUEZ",
+  "club": "ODONTOLOGIA UNIVERSITARIO",
+  "sancion": "SUSPENDIDO",
+  "fechas": 2,
+  "detalle": "F:2 - UR:0",
+  "texto": "Art. 151 del C.P"
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-11-26",
+  "partido": "1030",
+  "serie": "PSET2",
+  "carne": "66785",
+  "nombre": "RODRIGO ARCE",
+  "club": "WANDERERS",
+  "sancion": "SUSPENDIDO",
+  "fechas": 2,
+  "detalle": "F:2 - UR:0",
+  "texto": "Art. 146, 149 del C.P"
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-11-26",
+  "partido": "943",
+  "serie": "PSDTA",
+  "carne": "66885",
+  "nombre": "SANTIAGO OLEAGA",
+  "club": "SCUOLA PALERMO",
+  "sancion": "SUSPENDIDO",
+  "fechas": 3,
+  "detalle": "F:3 - UR:0",
+  "texto": "Art. 148 del C.P"
  }
 ]

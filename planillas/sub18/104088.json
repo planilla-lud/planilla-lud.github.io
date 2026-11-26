@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB18 AMISTAD",
   "Cancha": "COMPLEJO LOS NOGALES",
-  "Fecha_Inicio": "2026-11-25 21:30:00",
-  "Fecha_fin": "2026-11-25 21:30:00",
+  "Fecha_Inicio": "2026-11-25 22:00:00",
+  "Fecha_fin": "2026-11-25 22:00:00",
   "Locatario": "ACADEMIA FRM",
   "goles_locatario": "2",
   "puntos_locatario": "0",
@@ -29,12 +29,272 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
+ "titularesL": [
+  {
+   "carne": "61085",
+   "Nombre": "FABRIZIO PERRONE",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "65501",
+   "Nombre": "SANTIAGO CORREA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "65504",
+   "Nombre": "THIAGO ALVAREZ",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "68127",
+   "Nombre": "ALEJO EZEQUIEL LEFKO",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "68596",
+   "Nombre": "MARCOS BRIAN",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "64806",
+   "Nombre": "JOAQUIN NAHUEL AQUINO",
+   "camiseta": "30",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "62963",
+   "Nombre": "VALENTIN MANUEL RODRIGUEZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "65657",
+   "Nombre": "MATIAS OXANDABARAT",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "65530",
+   "Nombre": "JUAN PABLO ORREGO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "61725",
+   "Nombre": "IGNACIO RIVERO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "65771",
+   "Nombre": "SANTIAGO MATEO VENTURELLI",
+   "camiseta": "23",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "59051",
+   "Nombre": "IGNACIO DEL PRESTITO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "62312",
+   "Nombre": "MARCELO JAVIER SPANO",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "68245",
+   "Nombre": "RENZO MADAMO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "67890",
+   "Nombre": "LUCAS EZEQUIEL PASSADORE",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "66906",
+   "Nombre": "RENZO SANTIAGO CANZANI",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "68661",
+   "Nombre": "GENNARO MAZZIOTTI",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "68514",
+   "Nombre": "LAUTARO ESCALANTE",
+   "camiseta": "81",
+   "Capitan": ""
+  },
+  {
+   "carne": "68263",
+   "Nombre": "LUCA SOCA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "59394",
+   "Nombre": "MARTIN MORRA",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "67645",
+   "Nombre": "AGUSTIN DA SILVA",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "60153",
+   "Nombre": "LAUTARO FRANCISCO MERNIES",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "65501",
+   "Jug_Sale": "SANTIAGO CORREA",
+   "CarneEntra": "68595",
+   "Jug_Entra": "LAUTARO MARTINEZ",
+   "camiseta": "20",
+   "minutos": "20"
+  },
+  {
+   "CarneSale": "65504",
+   "Jug_Sale": "THIAGO ALVAREZ",
+   "CarneEntra": "64940",
+   "Jug_Entra": "FACUNDO EMANUEL PEGORRARO",
+   "camiseta": "23",
+   "minutos": "54"
+  },
+  {
+   "CarneSale": "61725",
+   "Jug_Sale": "IGNACIO RIVERO",
+   "CarneEntra": "68602",
+   "Jug_Entra": "NATHAN JOAQUIN HERNANDEZ",
+   "camiseta": "26",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "65530",
+   "Jug_Sale": "JUAN PABLO ORREGO",
+   "CarneEntra": "68601",
+   "Jug_Entra": "LUCIANO ANTONIO SILVERA",
+   "camiseta": "54",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "65657",
+   "Jug_Sale": "MATIAS OXANDABARAT",
+   "CarneEntra": "69017",
+   "Jug_Entra": "FEDERICO ROBERTO RECOBA",
+   "camiseta": "49",
+   "minutos": "78"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "68514",
+   "Jug_Sale": "LAUTARO ESCALANTE",
+   "CarneEntra": "66024",
+   "Jug_Entra": "DANILO PABLO RODRIGUEZ",
+   "camiseta": "17",
+   "minutos": "47"
+  },
+  {
+   "CarneSale": "67890",
+   "Jug_Sale": "LUCAS EZEQUIEL PASSADORE",
+   "CarneEntra": "66021",
+   "Jug_Entra": "AGUSTIN FERNANDO VIDAL",
+   "camiseta": "18",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "66906",
+   "Jug_Sale": "RENZO SANTIAGO CANZANI",
+   "CarneEntra": "63508",
+   "Jug_Entra": "MATEO DANIEL GREGORIO",
+   "camiseta": "12",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "60153",
+   "Jug_Sale": "LAUTARO FRANCISCO MERNIES",
+   "CarneEntra": "68264",
+   "Jug_Entra": "JOAQUIN MERCADO",
+   "camiseta": "18",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "68661",
+   "Jug_Sale": "GENNARO MAZZIOTTI",
+   "CarneEntra": "64229",
+   "Jug_Entra": "BRUNO GARAY",
+   "camiseta": "41",
+   "minutos": "85"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "65657",
+   "Nombre": "MATIAS OXANDABARAT",
+   "minutos": "51",
+   "EnContra": "0"
+  },
+  {
+   "carne": "68595",
+   "Nombre": "LAUTARO MARTINEZ",
+   "minutos": "32",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "59394",
+   "Nombre": "MARTIN MORRA",
+   "minutos": "77",
+   "EnContra": "1"
+  },
+  {
+   "carne": "60153",
+   "Nombre": "LAUTARO FRANCISCO MERNIES",
+   "minutos": "1",
+   "EnContra": "1"
+  },
+  {
+   "carne": "67645",
+   "Nombre": "AGUSTIN DA SILVA",
+   "minutos": "70",
+   "EnContra": "1"
+  },
+  {
+   "carne": "68263",
+   "Nombre": "LUCA SOCA",
+   "minutos": "66",
+   "EnContra": "1"
+  },
+  {
+   "carne": "68263",
+   "Nombre": "LUCA SOCA",
+   "minutos": "80",
+   "EnContra": "1"
+  }
+ ],
  "expulsadosL": [],
  "expulsadosV": []
 }

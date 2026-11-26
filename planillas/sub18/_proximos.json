@@ -29,13 +29,6 @@
  },
  {
   "serie": "18A",
-  "fechaHora": "2026-11-25 20:30:00",
-  "cancha": "COMPLEJO DEPORTIVO ARRAYANES",
-  "local": "SANTA ELENA LAGOMAR",
-  "visitante": "TROUVILLE UNIVERSITARIO"
- },
- {
-  "serie": "18A",
   "fechaHora": "2026-11-26 18:40:00",
   "cancha": "CAMPO DEP. COLEGIO INGLES",
   "local": "COLEGIO Y LICEO INGLES",
@@ -161,13 +154,6 @@
   "visitante": "ELBIO FERNANDEZ"
  },
  {
-  "serie": "18C",
-  "fechaHora": "2026-11-29 15:30:00",
-  "cancha": "SANTA RITA",
-  "local": "SAN AGUSTIN",
-  "visitante": "SEMINARIO UNIVERSITARIO"
- },
- {
   "serie": "18F",
   "fechaHora": "2026-11-29 15:30:00",
   "cancha": "SAGRADA FAMILIA",
@@ -247,7 +233,7 @@
  {
   "serie": "18A",
   "fechaHora": "2026-12-04 20:00:00",
-  "cancha": "COMPLEJO ALCOBENDAS",
+  "cancha": "COMPLEJO LOS NOGALES",
   "local": "NACIONAL UNIVERSITARIO",
   "visitante": "TROUVILLE UNIVERSITARIO"
  },
@@ -329,6 +315,13 @@
   "visitante": "SANTA ELENA LAGOMAR"
  },
  {
+  "serie": "18P",
+  "fechaHora": "2026-12-06 11:00:00",
+  "cancha": "VILLA MARIA",
+  "local": "DEPORTIVO MORON",
+  "visitante": "DEPORTIVO LS UNIVERSITARIO"
+ },
+ {
   "serie": "18O",
   "fechaHora": "2026-12-06 15:30:00",
   "cancha": "ST. BRENDANS",
@@ -355,13 +348,6 @@
   "cancha": "CARRASCO LAWN TENIS (KM 23)",
   "local": "CARRASCO LAWN TENNIS",
   "visitante": "OLD CHRISTIANS CLUB"
- },
- {
-  "serie": "18P",
-  "fechaHora": "2026-12-06 15:30:00",
-  "cancha": "VILLA MARIA",
-  "local": "DEPORTIVO MORON",
-  "visitante": "DEPORTIVO LS UNIVERSITARIO"
  },
  {
   "serie": "18P",

@@ -7886,8 +7886,8 @@
   "nombre": "MATHIAS NAHUEL PEREIRA",
   "club": "DEPORTIVO LS UNIVERSITARIO",
   "sancion": "SANCIÓN AUTOMÁTICA",
-  "fechas": 1,
-  "detalle": "F:1 - UR:0",
+  "fechas": 0,
+  "detalle": "F:0 - UR:0",
   "texto": "Sanción generada automáticamente por expulsión en el partido"
  },
  {
@@ -7899,8 +7899,8 @@
   "nombre": "SANTINO SALAVERRY",
   "club": "DEPORTIVO LS UNIVERSITARIO",
   "sancion": "SANCIÓN AUTOMÁTICA",
-  "fechas": 1,
-  "detalle": "F:1 - UR:0",
+  "fechas": 0,
+  "detalle": "F:0 - UR:0",
   "texto": "Sanción generada automáticamente por expulsión en el partido"
  },
  {
@@ -7912,8 +7912,8 @@
   "nombre": "BRUNO ALFARO",
   "club": "COLEGIO SANTA ELENA",
   "sancion": "SANCIÓN AUTOMÁTICA",
-  "fechas": 1,
-  "detalle": "F:1 - UR:0",
+  "fechas": 0,
+  "detalle": "F:0 - UR:0",
   "texto": "Sanción generada automáticamente por expulsión en el partido"
  },
  {
@@ -8019,5 +8019,31 @@
   "fechas": 2,
   "detalle": "F:2 - UR:2",
   "texto": "Art. 132 del C.P"
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-11-26",
+  "partido": "529",
+  "serie": "S20B3",
+  "carne": "56173",
+  "nombre": "MATHIAS NAHUEL PEREIRA",
+  "club": "DEPORTIVO LS UNIVERSITARIO",
+  "sancion": "SUSPENDIDO",
+  "fechas": 5,
+  "detalle": "F:5 - UR:0",
+  "texto": "Art. 135, 132, 133 del C.P"
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-11-26",
+  "partido": "529",
+  "serie": "S20B3",
+  "carne": "64476",
+  "nombre": "BRUNO ALFARO",
+  "club": "COLEGIO SANTA ELENA",
+  "sancion": "SUSPENDIDO",
+  "fechas": 2,
+  "detalle": "F:2 - UR:0",
+  "texto": "Art. 135 del C.P"
  }
 ]

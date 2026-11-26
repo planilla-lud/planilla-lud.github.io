@@ -1,0 +1,298 @@
+{
+ "id": "104093",
+ "categoria": "sub18",
+ "serie": "18A",
+ "fecha": 6,
+ "fechaHora": "2026-11-25 20:30:00",
+ "cancha": "COMPLEJO DEPORTIVO ARRAYANES",
+ "local": "SANTA ELENA LAGOMAR",
+ "visitante": "TROUVILLE UNIVERSITARIO",
+ "gl": 2,
+ "gv": 2,
+ "detalle": {
+  "nro_partido": "515",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 18 ",
+  "categoria": "SUB 18 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB18 AMISTAD",
+  "Cancha": "COMPLEJO DEPORTIVO ARRAYANES",
+  "Fecha_Inicio": "2026-11-25 22:20:00",
+  "Fecha_fin": "2026-11-25 22:20:00",
+  "Locatario": "SANTA ELENA LAGOMAR",
+  "goles_locatario": "2",
+  "puntos_locatario": "1",
+  "Visitante": "TROUVILLE UNIVERSITARIO",
+  "goles_visitante": "2",
+  "puntos_visitante": "1",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "57824",
+   "Nombre": "JOAQUIN DE AVILA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "57807",
+   "Nombre": "BENJAMIN BARLOCCI",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "57797",
+   "Nombre": "JUAN CRUZ GÜENA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "57813",
+   "Nombre": "BRUNO CAMADINI",
+   "camiseta": "92",
+   "Capitan": ""
+  },
+  {
+   "carne": "60617",
+   "Nombre": "MATEO SCARONE",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "60632",
+   "Nombre": "LEANDRO FERNANDEZ",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "60633",
+   "Nombre": "MIRKO ANGEL IBARBURU",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "60635",
+   "Nombre": "ALEX FERRER",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "68856",
+   "Nombre": "JUAN VALENTINO BERRUTTI",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "57806",
+   "Nombre": "TOMAS ELIZEIRE",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "57817",
+   "Nombre": "SANTIAGO PALO",
+   "camiseta": "23",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "58328",
+   "Nombre": "MIRKO NICOLAS ZUVELA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "61490",
+   "Nombre": "IGNACIO RODRIGUEZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "66224",
+   "Nombre": "BENJAMIN JORGE ROCHA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "64956",
+   "Nombre": "TOMAS GONZALEZ",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "61112",
+   "Nombre": "GUILLERMO BALDOVINO",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "58050",
+   "Nombre": "AGUSTIN RIVERA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "59195",
+   "Nombre": "AGUSTIN CERUELO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "68285",
+   "Nombre": "IGNACIO FONTES",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "64698",
+   "Nombre": "LORENZO GALEANO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "61628",
+   "Nombre": "TOMAS VAZQUEZ",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "61436",
+   "Nombre": "ENZO BESOZZI",
+   "camiseta": "17",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "68856",
+   "Jug_Sale": "JUAN VALENTINO BERRUTTI",
+   "CarneEntra": "65911",
+   "Jug_Entra": "SANTINO MERINGOLO",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "60635",
+   "Jug_Sale": "ALEX FERRER",
+   "CarneEntra": "57823",
+   "Jug_Entra": "GUILLERMO RODRIGUEZ",
+   "camiseta": "72",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "60617",
+   "Jug_Sale": "MATEO SCARONE",
+   "CarneEntra": "57455",
+   "Jug_Entra": "DEVIN NOAH SALDAÑA",
+   "camiseta": "8",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "57807",
+   "Jug_Sale": "BENJAMIN BARLOCCI",
+   "CarneEntra": "69055",
+   "Jug_Entra": "DIEGO LEANDRO FERNANDEZ",
+   "camiseta": "77",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "60632",
+   "Jug_Sale": "LEANDRO FERNANDEZ",
+   "CarneEntra": "57807",
+   "Jug_Entra": "BENJAMIN BARLOCCI",
+   "camiseta": "14",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "57806",
+   "Jug_Sale": "TOMAS ELIZEIRE",
+   "CarneEntra": "60617",
+   "Jug_Entra": "MATEO SCARONE",
+   "camiseta": "4",
+   "minutos": "72"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "64956",
+   "Jug_Sale": "TOMAS GONZALEZ",
+   "CarneEntra": "65990",
+   "Jug_Entra": "JUAN IGNACIO VALLARINO",
+   "camiseta": "13",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66224",
+   "Jug_Sale": "BENJAMIN JORGE ROCHA",
+   "CarneEntra": "63830",
+   "Jug_Entra": "GERMAN VEGA",
+   "camiseta": "8",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68285",
+   "Jug_Sale": "IGNACIO FONTES",
+   "CarneEntra": "67690",
+   "Jug_Entra": "BENJAMIN KOUYMTCHIAN",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61436",
+   "Jug_Sale": "ENZO BESOZZI",
+   "CarneEntra": "59764",
+   "Jug_Entra": "SANTIAGO IRIARTE",
+   "camiseta": "2",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "59195",
+   "Jug_Sale": "AGUSTIN CERUELO",
+   "CarneEntra": "68283",
+   "Jug_Entra": "JULIAN CHARLO",
+   "camiseta": "11",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "61490",
+   "Jug_Sale": "IGNACIO RODRIGUEZ",
+   "CarneEntra": "59294",
+   "Jug_Entra": "THIAGO COITIÑO",
+   "camiseta": "9",
+   "minutos": "87"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "57797",
+   "Nombre": "JUAN CRUZ GÜENA",
+   "minutos": "6",
+   "EnContra": "0"
+  },
+  {
+   "carne": "57797",
+   "Nombre": "JUAN CRUZ GÜENA",
+   "minutos": "31",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "59195",
+   "Nombre": "AGUSTIN CERUELO",
+   "minutos": "70",
+   "EnContra": "1"
+  },
+  {
+   "carne": "64698",
+   "Nombre": "LORENZO GALEANO",
+   "minutos": "77",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

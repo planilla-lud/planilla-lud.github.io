@@ -9680,8 +9680,8 @@
   "nombre": "JUAN IGNACIO MOLINARO",
   "club": "OBC AZULGRANA.",
   "sancion": "SANCIÓN AUTOMÁTICA",
-  "fechas": 1,
-  "detalle": "F:1 - UR:0",
+  "fechas": 0,
+  "detalle": "F:0 - UR:0",
   "texto": "Sanción generada automáticamente por expulsión en el partido"
  },
  {
@@ -9693,8 +9693,8 @@
   "nombre": "LUIS MARCELO PEREIRA",
   "club": "CLUB SOCIAL PIEDRAS BLANCAS",
   "sancion": "SANCIÓN AUTOMÁTICA",
-  "fechas": 1,
-  "detalle": "F:1 - UR:0",
+  "fechas": 0,
+  "detalle": "F:0 - UR:0",
   "texto": "Sanción generada automáticamente por expulsión en el partido"
  },
  {
@@ -9706,8 +9706,8 @@
   "nombre": "MATIAS LEMBO",
   "club": "SAN JUAN BAUTISTA",
   "sancion": "SANCIÓN AUTOMÁTICA",
-  "fechas": 1,
-  "detalle": "F:1 - UR:0",
+  "fechas": 0,
+  "detalle": "F:0 - UR:0",
   "texto": "Sanción generada automáticamente por expulsión en el partido"
  },
  {
@@ -9719,8 +9719,8 @@
   "nombre": "MIGUEL PEREYRA",
   "club": "CERVANTES UNIVERSITARIO",
   "sancion": "SANCIÓN AUTOMÁTICA",
-  "fechas": 1,
-  "detalle": "F:1 - UR:0",
+  "fechas": 0,
+  "detalle": "F:0 - UR:0",
   "texto": "Sanción generada automáticamente por expulsión en el partido"
  },
  {
@@ -9732,8 +9732,8 @@
   "nombre": "SANTINO MIGUEL VILA",
   "club": "SANTA ELENA LAGOMAR",
   "sancion": "SANCIÓN AUTOMÁTICA",
-  "fechas": 1,
-  "detalle": "F:1 - UR:0",
+  "fechas": 0,
+  "detalle": "F:0 - UR:0",
   "texto": "Sanción generada automáticamente por expulsión en el partido"
  },
  {
@@ -10242,5 +10242,44 @@
   "fechas": 1,
   "detalle": "F:1 - UR:0",
   "texto": "SANCIÓN GENERADA AUTOMÁTICAMENTE."
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-11-26",
+  "partido": "723",
+  "serie": "RSBPD",
+  "carne": "59224",
+  "nombre": "MATIAS LEMBO",
+  "club": "SAN JUAN BAUTISTA",
+  "sancion": "SUSPENDIDO",
+  "fechas": 2,
+  "detalle": "F:2 - UR:0",
+  "texto": "Art.147 del C.P. Que cumpla en todas las categorías de la disciplina deportiva."
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-11-26",
+  "partido": "555",
+  "serie": "RSDTA",
+  "carne": "59269",
+  "nombre": "MIGUEL PEREYRA",
+  "club": "CERVANTES UNIVERSITARIO",
+  "sancion": "SUSPENDIDO",
+  "fechas": 1,
+  "detalle": "F:1 - UR:0",
+  "texto": "Art. 151 del C.P"
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-11-26",
+  "partido": "723",
+  "serie": "RSBPD",
+  "carne": "61323",
+  "nombre": "SANTINO MIGUEL VILA",
+  "club": "SANTA ELENA LAGOMAR",
+  "sancion": "SUSPENDIDO",
+  "fechas": 1,
+  "detalle": "F:1 - UR:1",
+  "texto": "Art. 149 del C.P. Que cumpla en todas las categorías de la disciplina deportiva."
  }
 ]
