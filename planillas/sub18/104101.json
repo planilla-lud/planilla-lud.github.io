@@ -1,0 +1,266 @@
+{
+ "id": "104101",
+ "categoria": "sub18",
+ "serie": "18B",
+ "fecha": 7,
+ "fechaHora": "2026-11-25 20:30:00",
+ "cancha": "CLUB ALEMAN",
+ "local": "ALEMAN UNIVERSITARIO",
+ "visitante": "SAN PABLO UNIVERSITARIO",
+ "gl": 0,
+ "gv": 0,
+ "detalle": {
+  "nro_partido": "426",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 18 ",
+  "categoria": "SUB 18 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB18 BRONCE",
+  "Cancha": "CLUB ALEMAN",
+  "Fecha_Inicio": "2026-11-25 22:30:00",
+  "Fecha_fin": "2026-11-25 22:30:00",
+  "Locatario": "ALEMAN UNIVERSITARIO",
+  "goles_locatario": "0",
+  "puntos_locatario": "1",
+  "Visitante": "SAN PABLO UNIVERSITARIO",
+  "goles_visitante": "0",
+  "puntos_visitante": "1",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "58980",
+   "Nombre": "MATEO PONCE DE LEON",
+   "camiseta": "78",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "68153",
+   "Nombre": "MATEO DEAMBROSI",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "58845",
+   "Nombre": "JUAN ENRIQUE GONZALEZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "59264",
+   "Nombre": "JUAN FRANCISCO JIMENEZ DE ARECHAGA",
+   "camiseta": "73",
+   "Capitan": ""
+  },
+  {
+   "carne": "59474",
+   "Nombre": "AGUSTIN CHIAPPORI",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "59109",
+   "Nombre": "SANTIAGO ALVAREZ",
+   "camiseta": "82",
+   "Capitan": ""
+  },
+  {
+   "carne": "57678",
+   "Nombre": "MATIAS AGUSTIN ALVES",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "62640",
+   "Nombre": "FRANCO ANDRES LOPEZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "58855",
+   "Nombre": "JOAQUIN MARTINEZ",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "59473",
+   "Nombre": "SANTIAGO OUTERELO",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "64307",
+   "Nombre": "VALENTIN GRUBITS",
+   "camiseta": "34",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "64487",
+   "Nombre": "HUGO FELIPE CASAL",
+   "camiseta": "39",
+   "Capitan": ""
+  },
+  {
+   "carne": "66462",
+   "Nombre": "JUAN IGNACIO PEREZ",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "67400",
+   "Nombre": "JOAQUIN PEÑA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "64482",
+   "Nombre": "FRANCESCO GIOVANELLI",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "60280",
+   "Nombre": "MATIAS MENDOZA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "64825",
+   "Nombre": "LORENZO MARTINEZ",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "64490",
+   "Nombre": "FACUNDO MORENO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "64823",
+   "Nombre": "SAID YAPOR",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "64828",
+   "Nombre": "JUAN AGUSTIN PUPPO",
+   "camiseta": "97",
+   "Capitan": ""
+  },
+  {
+   "carne": "68042",
+   "Nombre": "OCTAVIO ESQUIBEL",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "60281",
+   "Nombre": "JOAQUIN LEMA",
+   "camiseta": "29",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "59264",
+   "Jug_Sale": "JUAN FRANCISCO JIMENEZ DE ARECHAGA",
+   "CarneEntra": "56121",
+   "Jug_Entra": "TOMAS APRAHAMIAN",
+   "camiseta": "77",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "62640",
+   "Jug_Sale": "FRANCO ANDRES LOPEZ",
+   "CarneEntra": "66398",
+   "Jug_Entra": "VALENTINO ESCAMES",
+   "camiseta": "21",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "68153",
+   "Jug_Sale": "MATEO DEAMBROSI",
+   "CarneEntra": "62939",
+   "Jug_Entra": "JOAQUIN PACHECO",
+   "camiseta": "19",
+   "minutos": "60"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "67400",
+   "Jug_Sale": "JOAQUIN PEÑA",
+   "CarneEntra": "67402",
+   "Jug_Entra": "MARTINO FRANCESCOLI",
+   "camiseta": "90",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64823",
+   "Jug_Sale": "SAID YAPOR",
+   "CarneEntra": "63701",
+   "Jug_Entra": "IGNACIO DANGLADA",
+   "camiseta": "69",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "60281",
+   "Jug_Sale": "JOAQUIN LEMA",
+   "CarneEntra": "65764",
+   "Jug_Entra": "JOAQUIN CARRASCO",
+   "camiseta": "18",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68042",
+   "Jug_Sale": "OCTAVIO ESQUIBEL",
+   "CarneEntra": "64484",
+   "Jug_Entra": "PABLO RODRIGUEZ",
+   "camiseta": "88",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64828",
+   "Jug_Sale": "JUAN AGUSTIN PUPPO",
+   "CarneEntra": "64824",
+   "Jug_Entra": "MAURO CAMI",
+   "camiseta": "8",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "64825",
+   "Jug_Sale": "LORENZO MARTINEZ",
+   "CarneEntra": "65436",
+   "Jug_Entra": "SANTINO ROMAGNOLI",
+   "camiseta": "92",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "64490",
+   "Jug_Sale": "FACUNDO MORENO",
+   "CarneEntra": "68042",
+   "Jug_Entra": "OCTAVIO ESQUIBEL",
+   "camiseta": "30",
+   "minutos": "83"
+  }
+ ],
+ "golesL": [],
+ "golesV": [],
+ "expulsadosL": [
+  {
+   "Nombre": "SANTIAGO ALVAREZ",
+   "observaciones": ""
+  }
+ ],
+ "expulsadosV": [
+  {
+   "Nombre": "FRANCESCO GIOVANELLI",
+   "observaciones": ""
+  }
+ ]
+}

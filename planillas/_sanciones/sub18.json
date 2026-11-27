@@ -5694,6 +5694,32 @@
   "texto": "Art. 148 del C.P"
  },
  {
+  "tipo": "automatica",
+  "fecha": "2026-11-25",
+  "partido": "426",
+  "serie": "18B",
+  "carne": "59109",
+  "nombre": "SANTIAGO ALVAREZ",
+  "club": "ALEMAN UNIVERSITARIO",
+  "sancion": "SANCIÓN AUTOMÁTICA",
+  "fechas": 1,
+  "detalle": "F:1 - UR:0",
+  "texto": "Sanción generada automáticamente por expulsión en el partido"
+ },
+ {
+  "tipo": "automatica",
+  "fecha": "2026-11-25",
+  "partido": "426",
+  "serie": "18B",
+  "carne": "64482",
+  "nombre": "FRANCESCO GIOVANELLI",
+  "club": "SAN PABLO UNIVERSITARIO",
+  "sancion": "SANCIÓN AUTOMÁTICA",
+  "fechas": 1,
+  "detalle": "F:1 - UR:0",
+  "texto": "Sanción generada automáticamente por expulsión en el partido"
+ },
+ {
   "tipo": "fallo",
   "fecha": "2026-11-26",
   "partido": "510",

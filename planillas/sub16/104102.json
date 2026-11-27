@@ -1,0 +1,264 @@
+{
+ "id": "104102",
+ "categoria": "sub16",
+ "serie": "16O",
+ "fecha": 1,
+ "fechaHora": "2026-11-25 18:01:00",
+ "cancha": "OLD CHRISTIANS CLUB",
+ "local": "OLD CHRISTIANS CLUB",
+ "visitante": "THE BRITISH SCHOOL",
+ "gl": 3,
+ "gv": 4,
+ "detalle": {
+  "nro_partido": "281",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 16 ",
+  "categoria": "SUB 16 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB16 ORO",
+  "Cancha": "OLD CHRISTIANS CLUB",
+  "Fecha_Inicio": "2026-11-25 19:20:00",
+  "Fecha_fin": "2026-11-25 19:20:00",
+  "Locatario": "OLD CHRISTIANS CLUB",
+  "goles_locatario": "3",
+  "puntos_locatario": "0",
+  "Visitante": "THE BRITISH SCHOOL",
+  "goles_visitante": "4",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": "Partido suspendido a los 18 minutos debido a las condiciones climáticas."
+ },
+ "titularesL": [
+  {
+   "carne": "61958",
+   "Nombre": "EUGENIO RESTANO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "61959",
+   "Nombre": "JUAN IGNACIO RISSO",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "62096",
+   "Nombre": "APARICIO SUAREZ",
+   "camiseta": "41",
+   "Capitan": ""
+  },
+  {
+   "carne": "62854",
+   "Nombre": "JUAN IGNACIO PIVEL",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "62094",
+   "Nombre": "JUAN MARTIN MAGRI",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "68039",
+   "Nombre": "SANTINO BORRAZAS",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "62093",
+   "Nombre": "JUAN MANUEL BELLO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "64679",
+   "Nombre": "JUAN PEDRO LANDAUER",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "62091",
+   "Nombre": "ALEJO TELLERIA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "63325",
+   "Nombre": "JUAN MIGUEL REGUSCI",
+   "camiseta": "29",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "61654",
+   "Nombre": "JUAN MANUEL MOREIRA",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "63186",
+   "Nombre": "JUAN SEBASTIAN JIMENEZ DE ARECHAGA",
+   "camiseta": "66",
+   "Capitan": ""
+  },
+  {
+   "carne": "62989",
+   "Nombre": "BENJAMIN RISSO",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "65049",
+   "Nombre": "JUAN ALFONSO ODDONE",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "61600",
+   "Nombre": "PAUL PHILIPPE MARTINET",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "62602",
+   "Nombre": "GERONIMO PEREZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "65058",
+   "Nombre": "IGNACIO AGUSTIN NOVEGIL",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "65456",
+   "Nombre": "SANTOS SASHA BALUT",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "62239",
+   "Nombre": "ANDRES TERCERO PEREZ DEL CASTILLO",
+   "camiseta": "48",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "65064",
+   "Nombre": "JUAN MARTIN FRECHOU",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "65036",
+   "Nombre": "SANTIAGO TORRES",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "62241",
+   "Nombre": "BENJAMIN ALBERTO BRAUSE",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "61665",
+   "Nombre": "JUAN MIGUEL AGUERRE",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "65053",
+   "Nombre": "JUAN BOSCH",
+   "camiseta": "14",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "62093",
+   "Jug_Sale": "JUAN MANUEL BELLO",
+   "CarneEntra": "63325",
+   "Jug_Entra": "JUAN MIGUEL REGUSCI",
+   "camiseta": "29",
+   "minutos": "71"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "62602",
+   "Jug_Sale": "GERONIMO PEREZ",
+   "CarneEntra": "65064",
+   "Jug_Entra": "JUAN MARTIN FRECHOU",
+   "camiseta": "22",
+   "minutos": "40"
+  },
+  {
+   "CarneSale": "65058",
+   "Jug_Sale": "IGNACIO AGUSTIN NOVEGIL",
+   "CarneEntra": "65035",
+   "Jug_Entra": "FRANCISCO IÑAKI MARTINEZ",
+   "camiseta": "4",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "61665",
+   "Jug_Sale": "JUAN MIGUEL AGUERRE",
+   "CarneEntra": "65052",
+   "Jug_Entra": "TOMAS VILLAR",
+   "camiseta": "7",
+   "minutos": "67"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "61958",
+   "Nombre": "EUGENIO RESTANO",
+   "minutos": "80",
+   "EnContra": "0"
+  },
+  {
+   "carne": "61959",
+   "Nombre": "JUAN IGNACIO RISSO",
+   "minutos": "47",
+   "EnContra": "0"
+  },
+  {
+   "carne": "62091",
+   "Nombre": "ALEJO TELLERIA",
+   "minutos": "10",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "65053",
+   "Nombre": "JUAN BOSCH",
+   "minutos": "23",
+   "EnContra": "1"
+  },
+  {
+   "carne": "65053",
+   "Nombre": "JUAN BOSCH",
+   "minutos": "43",
+   "EnContra": "1"
+  },
+  {
+   "carne": "65053",
+   "Nombre": "JUAN BOSCH",
+   "minutos": "70",
+   "EnContra": "1"
+  },
+  {
+   "carne": "65053",
+   "Nombre": "JUAN BOSCH",
+   "minutos": "84",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}
