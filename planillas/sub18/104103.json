@@ -18,8 +18,8 @@
   "rueda": "3",
   "Divisional": "SUB18 PLATA",
   "Cancha": "CIUDAD DEPORTIVA LS",
-  "Fecha_Inicio": "2026-11-26 22:00:00",
-  "Fecha_fin": "2026-11-26 22:00:00",
+  "Fecha_Inicio": "2026-11-26 22:30:00",
+  "Fecha_fin": "2026-11-26 22:30:00",
   "Locatario": "DEPORTIVO LS UNIVERSITARIO",
   "goles_locatario": "1",
   "puntos_locatario": "0",
@@ -29,12 +29,235 @@
   "walk_over": "0",
   "observaciones": null
  },
- "titularesL": [],
- "titularesV": [],
- "cambiosL": [],
- "cambiosV": [],
- "golesL": [],
- "golesV": [],
- "expulsadosL": [],
+ "titularesL": [
+  {
+   "carne": "61026",
+   "Nombre": "MANUEL BARRERA",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "63703",
+   "Nombre": "MATHIAS AGUSTIN LOPEZ",
+   "camiseta": "22",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "60212",
+   "Nombre": "VALENTIN RODRIGUEZ",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "61057",
+   "Nombre": "MATEO NICOLI",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "67080",
+   "Nombre": "LUCIANO DAVID MOURA",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "66726",
+   "Nombre": "FACUNDO BIQUE",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "60293",
+   "Nombre": "JOAQUIN PASSADORE",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "59433",
+   "Nombre": "TOMAS SEBASTIAN FRANCO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "59417",
+   "Nombre": "BENJAMIN ALVAREZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "67085",
+   "Nombre": "SANTINO IPARRAGUIRRE",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "61696",
+   "Nombre": "SANTIAGO CHA",
+   "camiseta": "15",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "58840",
+   "Nombre": "BENJAMIN VALERIANI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "60174",
+   "Nombre": "SANTIAGO VILLALBA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "56265",
+   "Nombre": "JUAN MARTIN HRILJAC",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "57002",
+   "Nombre": "JUAN MARTIN CANUTI",
+   "camiseta": "66",
+   "Capitan": ""
+  },
+  {
+   "carne": "56261",
+   "Nombre": "FRANCISCO NOVEGIL",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "62988",
+   "Nombre": "LUCAS BENJAMIN WOYCIK",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "56262",
+   "Nombre": "FRANCISCO NAVARRO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "56273",
+   "Nombre": "ALEXIS BRUCE",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "58841",
+   "Nombre": "JUAN BAUTISTA BONOMI",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "63428",
+   "Nombre": "FAUSTO MILESI",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "56267",
+   "Nombre": "JOAQUIN GUTIERREZ",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "67085",
+   "Jug_Sale": "SANTINO IPARRAGUIRRE",
+   "CarneEntra": "59430",
+   "Jug_Entra": "RENZO VECINO",
+   "camiseta": "71",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "59417",
+   "Jug_Sale": "BENJAMIN ALVAREZ",
+   "CarneEntra": "62927",
+   "Jug_Entra": "LORENZO ANTONIO FERRARI",
+   "camiseta": "13",
+   "minutos": "69"
+  },
+  {
+   "CarneSale": "60293",
+   "Jug_Sale": "JOAQUIN PASSADORE",
+   "CarneEntra": "64296",
+   "Jug_Entra": "JUAN PABLO AGUIRREZABALA",
+   "camiseta": "71",
+   "minutos": "83"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "63428",
+   "Jug_Sale": "FAUSTO MILESI",
+   "CarneEntra": "58858",
+   "Jug_Entra": "JOAQUIN QUINTO REYES",
+   "camiseta": "67",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "60174",
+   "Jug_Sale": "SANTIAGO VILLALBA",
+   "CarneEntra": "57006",
+   "Jug_Entra": "BALTAZAR LEIVA",
+   "camiseta": "79",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "62988",
+   "Jug_Sale": "LUCAS BENJAMIN WOYCIK",
+   "CarneEntra": "57005",
+   "Jug_Entra": "IGNACIO IBARBURU",
+   "camiseta": "22",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "57005",
+   "Jug_Sale": "IGNACIO IBARBURU",
+   "CarneEntra": "62988",
+   "Jug_Entra": "LUCAS BENJAMIN WOYCIK",
+   "camiseta": "99",
+   "minutos": "73"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "61696",
+   "Nombre": "SANTIAGO CHA",
+   "minutos": "62",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "56262",
+   "Nombre": "FRANCISCO NAVARRO",
+   "minutos": "95",
+   "EnContra": "1"
+  },
+  {
+   "carne": "57002",
+   "Nombre": "JUAN MARTIN CANUTI",
+   "minutos": "73",
+   "EnContra": "1"
+  },
+  {
+   "carne": "58841",
+   "Nombre": "JUAN BAUTISTA BONOMI",
+   "minutos": "98",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "MATEO NICOLI",
+   "observaciones": ""
+  }
+ ],
  "expulsadosV": []
 }

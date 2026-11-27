@@ -1,24 +1,10 @@
 [
  {
-  "serie": "16C",
-  "fechaHora": "2026-11-15 13:30:00",
-  "cancha": "CAM. DEP. ASOC. HEBRAICA Y MAC",
-  "local": "HEBRAICA UNIVERSITARIO",
-  "visitante": "NAUTICO CARRASCO Y PUNTA GORDA"
- },
- {
   "serie": "16F",
   "fechaHora": "2026-11-15 13:30:00",
   "cancha": "COMPLEJO JUAN XXIII",
   "local": "LA BLANQUEADA",
   "visitante": "COLEGIO SANTA ELENA"
- },
- {
-  "serie": "16C",
-  "fechaHora": "2026-11-25 20:00:00",
-  "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
-  "local": "SEMINARIO UNIVERSITARIO",
-  "visitante": "ESCUELA L.P."
  },
  {
   "serie": "16C",

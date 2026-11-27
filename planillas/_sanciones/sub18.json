@@ -5278,19 +5278,6 @@
   "texto": "Sanción generada automáticamente por expulsión en el partido"
  },
  {
-  "tipo": "automatica",
-  "fecha": "2026-11-10",
-  "partido": "439",
-  "serie": "18C",
-  "carne": "64830",
-  "nombre": "THIAGO FOJO",
-  "club": "ELBIO FERNANDEZ",
-  "sancion": "SANCIÓN AUTOMÁTICA",
-  "fechas": 1,
-  "detalle": "F:1 - UR:0",
-  "texto": "Sanción generada automáticamente por expulsión en el partido"
- },
- {
   "tipo": "fallo",
   "fecha": "2026-11-12",
   "partido": "382",
@@ -5644,6 +5631,19 @@
  {
   "tipo": "fallo",
   "fecha": "2026-11-19",
+  "partido": "439",
+  "serie": "18C",
+  "carne": "66347",
+  "nombre": "LEONIDAS ALEJANDRO VARELA",
+  "club": "ELBIO FERNANDEZ",
+  "sancion": "SUSPENDIDO",
+  "fechas": 1,
+  "detalle": "F:1 - UR:0",
+  "texto": "147"
+ },
+ {
+  "tipo": "fallo",
+  "fecha": "2026-11-19",
   "partido": "389",
   "serie": "18P",
   "carne": "66813",
@@ -5731,6 +5731,19 @@
   "fechas": 1,
   "detalle": "F:1 - UR:1",
   "texto": "Art. 147 del C.P"
+ },
+ {
+  "tipo": "automatica",
+  "fecha": "2026-11-26",
+  "partido": "392",
+  "serie": "18P",
+  "carne": "61057",
+  "nombre": "MATEO NICOLI",
+  "club": "DEPORTIVO LS UNIVERSITARIO",
+  "sancion": "SANCIÓN AUTOMÁTICA",
+  "fechas": 1,
+  "detalle": "F:1 - UR:0",
+  "texto": "Sanción generada automáticamente por expulsión en el partido"
  },
  {
   "tipo": "fallo",

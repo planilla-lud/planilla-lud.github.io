@@ -1,0 +1,270 @@
+{
+ "id": "104114",
+ "categoria": "sub16",
+ "serie": "16O",
+ "fecha": 5,
+ "fechaHora": "2026-11-23 17:30:00",
+ "cancha": "COMPLEJO WOODLANDS SCHOOL",
+ "local": "OLD WOODLANDS CLUB",
+ "visitante": "THE BRITISH SCHOOL",
+ "gl": 3,
+ "gv": 3,
+ "detalle": {
+  "nro_partido": "299",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 16 ",
+  "categoria": "SUB 16 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB16 ORO",
+  "Cancha": "COMPLEJO WOODLANDS SCHOOL",
+  "Fecha_Inicio": "2026-11-23 19:10:00",
+  "Fecha_fin": "2026-11-23 19:10:00",
+  "Locatario": "OLD WOODLANDS CLUB",
+  "goles_locatario": "3",
+  "puntos_locatario": "1",
+  "Visitante": "THE BRITISH SCHOOL",
+  "goles_visitante": "3",
+  "puntos_visitante": "1",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "63283",
+   "Nombre": "NICOLAS PINTOS",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "63286",
+   "Nombre": "ENZO PIGNANELLI",
+   "camiseta": "3",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "68142",
+   "Nombre": "MAURO PIGNANELLI",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "60450",
+   "Nombre": "MATEO AURRECOCHEA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "60458",
+   "Nombre": "SANTIAGO SOTO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "64093",
+   "Nombre": "JUAN JOSE BERMUDEZ",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "61923",
+   "Nombre": "FRANCO BERTULLO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "62384",
+   "Nombre": "MATIAS FALLINI",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "62248",
+   "Nombre": "FRANCISCO FERRARO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "62600",
+   "Nombre": "VALENTINO SANTALLA",
+   "camiseta": "53",
+   "Capitan": ""
+  },
+  {
+   "carne": "62378",
+   "Nombre": "SANTINO FINOZZI",
+   "camiseta": "16",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "61654",
+   "Nombre": "JUAN MANUEL MOREIRA",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "67992",
+   "Nombre": "JUAN IGNACIO RODRIGUEZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "62989",
+   "Nombre": "BENJAMIN RISSO",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "65049",
+   "Nombre": "JUAN ALFONSO ODDONE",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "63186",
+   "Nombre": "JUAN SEBASTIAN JIMENEZ DE ARECHAGA",
+   "camiseta": "66",
+   "Capitan": ""
+  },
+  {
+   "carne": "62239",
+   "Nombre": "ANDRES TERCERO PEREZ DEL CASTILLO",
+   "camiseta": "48",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "65058",
+   "Nombre": "IGNACIO AGUSTIN NOVEGIL",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "65456",
+   "Nombre": "SANTOS SASHA BALUT",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "65064",
+   "Nombre": "JUAN MARTIN FRECHOU",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "65053",
+   "Nombre": "JUAN BOSCH",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "61665",
+   "Nombre": "JUAN MIGUEL AGUERRE",
+   "camiseta": "17",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "64093",
+   "Jug_Sale": "JUAN JOSE BERMUDEZ",
+   "CarneEntra": "64998",
+   "Jug_Entra": "FEDERICO DONNANGELO",
+   "camiseta": "17",
+   "minutos": "54"
+  },
+  {
+   "CarneSale": "61923",
+   "Jug_Sale": "FRANCO BERTULLO",
+   "CarneEntra": "68135",
+   "Jug_Entra": "FELIPE ESTEVE",
+   "camiseta": "70",
+   "minutos": "75"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "61665",
+   "Jug_Sale": "JUAN MIGUEL AGUERRE",
+   "CarneEntra": "65036",
+   "Jug_Entra": "SANTIAGO TORRES",
+   "camiseta": "18",
+   "minutos": "40"
+  },
+  {
+   "CarneSale": "65064",
+   "Jug_Sale": "JUAN MARTIN FRECHOU",
+   "CarneEntra": "65060",
+   "Jug_Entra": "FRANZ SEDELMAYR",
+   "camiseta": "21",
+   "minutos": "40"
+  },
+  {
+   "CarneSale": "67992",
+   "Jug_Sale": "JUAN IGNACIO RODRIGUEZ",
+   "CarneEntra": "62602",
+   "Jug_Entra": "GERONIMO PEREZ",
+   "camiseta": "10",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "65058",
+   "Jug_Sale": "IGNACIO AGUSTIN NOVEGIL",
+   "CarneEntra": "65035",
+   "Jug_Entra": "FRANCISCO IÑAKI MARTINEZ",
+   "camiseta": "4",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "65456",
+   "Jug_Sale": "SANTOS SASHA BALUT",
+   "CarneEntra": "65413",
+   "Jug_Entra": "ISIDORO ALBERTO JAIME",
+   "camiseta": "0",
+   "minutos": "66"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "60450",
+   "Nombre": "MATEO AURRECOCHEA",
+   "minutos": "50",
+   "EnContra": "0"
+  },
+  {
+   "carne": "62248",
+   "Nombre": "FRANCISCO FERRARO",
+   "minutos": "52",
+   "EnContra": "0"
+  },
+  {
+   "carne": "62248",
+   "Nombre": "FRANCISCO FERRARO",
+   "minutos": "76",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "61665",
+   "Nombre": "JUAN MIGUEL AGUERRE",
+   "minutos": "13",
+   "EnContra": "1"
+  },
+  {
+   "carne": "65053",
+   "Nombre": "JUAN BOSCH",
+   "minutos": "25",
+   "EnContra": "1"
+  },
+  {
+   "carne": "65053",
+   "Nombre": "JUAN BOSCH",
+   "minutos": "35",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

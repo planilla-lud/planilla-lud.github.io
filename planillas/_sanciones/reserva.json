@@ -10220,6 +10220,19 @@
  {
   "tipo": "automatica",
   "fecha": "2026-11-24",
+  "partido": "2",
+  "serie": "THR8",
+  "carne": "58013",
+  "nombre": "IÑAKI GUDE",
+  "club": "DEP.de la C. ARETEIA BIMBULLY",
+  "sancion": "SANCIÓN AUTOMÁTICA",
+  "fechas": 1,
+  "detalle": "F:1 - UR:0",
+  "texto": "Sanción generada automáticamente por expulsión en el partido"
+ },
+ {
+  "tipo": "automatica",
+  "fecha": "2026-11-24",
   "partido": "7",
   "serie": "THR8",
   "carne": "58842",
@@ -10242,6 +10255,32 @@
   "fechas": 1,
   "detalle": "F:1 - UR:0",
   "texto": "SANCIÓN GENERADA AUTOMÁTICAMENTE."
+ },
+ {
+  "tipo": "automatica",
+  "fecha": "2026-11-26",
+  "partido": "783",
+  "serie": "PRC",
+  "carne": "44550",
+  "nombre": "FEDERICO JAVIER DE SIANO",
+  "club": "LA BLANQUEADA",
+  "sancion": "SANCIÓN AUTOMÁTICA",
+  "fechas": 1,
+  "detalle": "F:1 - UR:0",
+  "texto": "Sanción generada automáticamente por expulsión en el partido"
+ },
+ {
+  "tipo": "automatica",
+  "fecha": "2026-11-26",
+  "partido": "783",
+  "serie": "PRC",
+  "carne": "55122",
+  "nombre": "NICOLAS POL",
+  "club": "OLD CHRISTIANS NARANJA",
+  "sancion": "SANCIÓN AUTOMÁTICA",
+  "fechas": 1,
+  "detalle": "F:1 - UR:0",
+  "texto": "Sanción generada automáticamente por expulsión en el partido"
  },
  {
   "tipo": "fallo",
@@ -10281,5 +10320,18 @@
   "fechas": 1,
   "detalle": "F:1 - UR:1",
   "texto": "Art. 149 del C.P. Que cumpla en todas las categorías de la disciplina deportiva."
+ },
+ {
+  "tipo": "automatica",
+  "fecha": "2026-11-26",
+  "partido": "783",
+  "serie": "PRC",
+  "carne": "62604",
+  "nombre": "JUAN CRUZ DE AZPITARTE",
+  "club": "OLD CHRISTIANS NARANJA",
+  "sancion": "SANCIÓN AUTOMÁTICA",
+  "fechas": 1,
+  "detalle": "F:1 - UR:0",
+  "texto": "Sanción generada automáticamente por expulsión en el partido"
  }
 ]

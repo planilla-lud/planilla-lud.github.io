@@ -1,0 +1,296 @@
+{
+ "id": "104106",
+ "categoria": "sub18",
+ "serie": "18A",
+ "fecha": 6,
+ "fechaHora": "2026-11-26 18:40:00",
+ "cancha": "CAMPO DEP. COLEGIO INGLES",
+ "local": "COLEGIO Y LICEO INGLES",
+ "visitante": "NUMA TURCATTI",
+ "gl": 6,
+ "gv": 3,
+ "detalle": {
+  "nro_partido": "514",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 18 ",
+  "categoria": "SUB 18 MASCULINO",
+  "rueda": "3",
+  "Divisional": "SUB18 AMISTAD",
+  "Cancha": "CAMPO DEP. COLEGIO INGLES",
+  "Fecha_Inicio": "2026-11-26 20:30:00",
+  "Fecha_fin": "2026-11-26 20:30:00",
+  "Locatario": "COLEGIO Y LICEO INGLES",
+  "goles_locatario": "6",
+  "puntos_locatario": "3",
+  "Visitante": "NUMA TURCATTI",
+  "goles_visitante": "3",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "64433",
+   "Nombre": "SANTIAGO LUCAS RODRIGUEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "62971",
+   "Nombre": "FACUNDO GABRIEL FRAGA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "64512",
+   "Nombre": "LUCAS LLUIS",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "68008",
+   "Nombre": "LUCAS ANTONIO RUIZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "64421",
+   "Nombre": "FAUSTINO SALVO",
+   "camiseta": "8",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "65996",
+   "Nombre": "MATEO EYHERALDE",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "68237",
+   "Nombre": "SANTIAGO LEONCINI",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "68436",
+   "Nombre": "FRANCISCO RIVERO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "64235",
+   "Nombre": "PEDRO RAMOS",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "64733",
+   "Nombre": "MATEO ALMADA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "64437",
+   "Nombre": "MATEO NUÑEZ",
+   "camiseta": "2",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "68232",
+   "Nombre": "THIAGO MATEO FERREIRA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "68029",
+   "Nombre": "MARCO VERNASSA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "57617",
+   "Nombre": "JUAN IGNACIO ARRILLAGA",
+   "camiseta": "34",
+   "Capitan": ""
+  },
+  {
+   "carne": "69187",
+   "Nombre": "MATEO ISMAEL CHARLE FAGUNDEZ",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "56571",
+   "Nombre": "SANTIAGO GUSTAVO ALVAREZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "65681",
+   "Nombre": "NICOLAS IGNACIO LARROSA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "67175",
+   "Nombre": "FACUNDO AGUSTIN DUARTE",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "67304",
+   "Nombre": "JUAN MANUEL PAZOS",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "67233",
+   "Nombre": "RENZO SAMUEL GENTILIO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "65479",
+   "Nombre": "NAHUEL LUCIANO MONTENEGRO",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "69074",
+   "Nombre": "LAUTARO NICOLAS RODRIGUEZ",
+   "camiseta": "3",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "64235",
+   "Jug_Sale": "PEDRO RAMOS",
+   "CarneEntra": "60763",
+   "Jug_Entra": "JUAN ALFONSO FREIRE",
+   "camiseta": "15",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64433",
+   "Jug_Sale": "SANTIAGO LUCAS RODRIGUEZ",
+   "CarneEntra": "68436",
+   "Jug_Entra": "FRANCISCO RIVERO",
+   "camiseta": "4",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "65996",
+   "Jug_Sale": "MATEO EYHERALDE",
+   "CarneEntra": "68234",
+   "Jug_Entra": "FELIPE ANDRES DOMINGUEZ",
+   "camiseta": "14",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "68008",
+   "Jug_Sale": "LUCAS ANTONIO RUIZ",
+   "CarneEntra": "65996",
+   "Jug_Entra": "MATEO EYHERALDE",
+   "camiseta": "7",
+   "minutos": "82"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "56571",
+   "Jug_Sale": "SANTIAGO GUSTAVO ALVAREZ",
+   "CarneEntra": "65468",
+   "Jug_Entra": "IVAN LAUTARO MORALES",
+   "camiseta": "14",
+   "minutos": "24"
+  },
+  {
+   "CarneSale": "67304",
+   "Jug_Sale": "JUAN MANUEL PAZOS",
+   "CarneEntra": "68621",
+   "Jug_Entra": "NICOLAS ONIRA DEVITTA",
+   "camiseta": "15",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67233",
+   "Jug_Sale": "RENZO SAMUEL GENTILIO",
+   "CarneEntra": "67304",
+   "Jug_Entra": "JUAN MANUEL PAZOS",
+   "camiseta": "25",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "65479",
+   "Jug_Sale": "NAHUEL LUCIANO MONTENEGRO",
+   "CarneEntra": "67233",
+   "Jug_Entra": "RENZO SAMUEL GENTILIO",
+   "camiseta": "11",
+   "minutos": "71"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "62971",
+   "Nombre": "FACUNDO GABRIEL FRAGA",
+   "minutos": "46",
+   "EnContra": "0"
+  },
+  {
+   "carne": "64421",
+   "Nombre": "FAUSTINO SALVO",
+   "minutos": "21",
+   "EnContra": "0"
+  },
+  {
+   "carne": "64421",
+   "Nombre": "FAUSTINO SALVO",
+   "minutos": "45",
+   "EnContra": "0"
+  },
+  {
+   "carne": "64433",
+   "Nombre": "SANTIAGO LUCAS RODRIGUEZ",
+   "minutos": "60",
+   "EnContra": "0"
+  },
+  {
+   "carne": "64733",
+   "Nombre": "MATEO ALMADA",
+   "minutos": "29",
+   "EnContra": "0"
+  },
+  {
+   "carne": "64733",
+   "Nombre": "MATEO ALMADA",
+   "minutos": "70",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "67175",
+   "Nombre": "FACUNDO AGUSTIN DUARTE",
+   "minutos": "90",
+   "EnContra": "1"
+  },
+  {
+   "carne": "69187",
+   "Nombre": "MATEO ISMAEL CHARLE FAGUNDEZ",
+   "minutos": "31",
+   "EnContra": "1"
+  },
+  {
+   "carne": "69187",
+   "Nombre": "MATEO ISMAEL CHARLE FAGUNDEZ",
+   "minutos": "34",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}
